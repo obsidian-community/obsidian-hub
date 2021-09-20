@@ -2,10 +2,8 @@ By [[Ryan J.A. Murphy]]
 
 ---
 
-Alternative titles:
-
--   Give a person some CSS, style them for a day. Teach them CSS, and they'll procrastinate for a lifetime.
--   How to stop asking the moderators to write CSS for you for free 🙃
+Ancient proverb:
+> Give a person some CSS, style them for a day. Teach them CSS, and they'll procrastinate for a lifetime.
 
 So you've downloaded that sleek new theme everyone's talking about. Your notes have never looked better. You sit at your desk, coffee steaming, hands hovering over your keyboard, and the most important thought you'll ever have is—wait, no, that header is the wrong shade of [Pantone's 2015 colour of the year, marsala!](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2015)
 
@@ -48,31 +46,30 @@ In real CSS, that declaration looks like:
 
 CSS is interpreted sequentially. The last declaration rules over any that came before it. So, if you were to make the following declarations:
 
-```css
+```
 .markdown-source-view {
-	color: blue;
+    color: blue;
 }
 
 .markdown-source-view {
-	color: black;
+    color: black;
 }
 ```
 
-The text colour would be black, not blue.
+The text colour would be black, not blue. I.e., the app would layer what comes last in the document over whatever came before it.
 
 However, if you want to insist, you can write `!important`, like so:
-
-```css
+```
 .markdown-source-view {
-	color: blue;
+    color: blue !important;
 }
 
 .markdown-source-view {
-	color: black !important;
+    color: black;
 }
 ```
 
-And the `!important` statement overrules others.
+And the `!important` statement overrules others—the result would be blue, not black.
 
 Most often, you'll select the things you want to style via their **classes**. Classes are an attribute added to the underlying structure of the app so that they may be targeted with selectors. `.markdown-source-view` is a class identifying any content in the app open to the Editor view. Classes are denoted with a preceding `.`.
 
