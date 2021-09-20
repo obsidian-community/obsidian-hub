@@ -48,11 +48,11 @@ CSS is interpreted sequentially. The last declaration rules over any that came b
 
 ```
 .markdown-source-view {
-    color: blue;
+	color: blue;
 }
 
 .markdown-source-view {
-    color: black;
+	color: black;
 }
 ```
 
@@ -61,11 +61,11 @@ The text colour would be black, not blue. I.e., the app would layer what comes l
 However, if you want to insist, you can write `!important`, like so:
 ```
 .markdown-source-view {
-    color: blue !important;
+	color: blue !important;
 }
 
 .markdown-source-view {
-    color: black;
+	color: black;
 }
 ```
 
@@ -131,7 +131,7 @@ The hard way is to unfold elements, hovering over them as you go, in order to "z
 
 The easy way is to use the developer tools's "Select an element on the page to inspect it" tool. It looks like this, and is usually found in the upper-left corner of the developer tools sidebar:
 
-![[test.png]]
+![[Select to inspect element.png]]
 
 Click that button, then move your pointer over the app. Now, pieces of the app become highlighted as you hover over them, and the corresponding part of the structure also unfolds and becomes highlighted in the developer tools pane.
 
