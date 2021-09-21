@@ -1,1 +1,0 @@
-Hosted by [[Anthony Gold]].

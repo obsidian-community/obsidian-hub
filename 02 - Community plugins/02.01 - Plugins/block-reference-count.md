@@ -1,0 +1,31 @@
+---
+plugin-id: block-reference-count
+aliases:
+- Block Reference Counter
+tags: 
+- 
+publish: true
+---
+
+%% ----- Badges ----- %%
+
+![GitHub all releases](https://img.shields.io/github/downloads/shabegom/obsidian-reference-count/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/shabegom/obsidian-reference-count?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/shabegom/obsidian-reference-count/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/shabegom/obsidian-reference-count?color=573E7A&logo=github&style=for-the-badge)
+
+%% ----- Badges ----- %%
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
+%% Sponsor this work: #placeholder/author %%
+
+%% ----- Do not edit this section ----- %%
+
+# Block Reference Counter
+
+Repository: [GitHub](https://github.com/shabegom/obsidian-reference-count)
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
+
+Shows the count of block references next to the block-id
+
+%% ----- Do not edit anything above this line ----- %% 
