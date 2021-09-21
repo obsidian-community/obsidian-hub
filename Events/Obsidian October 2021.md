@@ -4,7 +4,7 @@ Obsidian October is an official event brought to you by Obsidian to help you get
 
 ## How it works
 
-Starting now, we'll start accepting participants (abbreviated as OOers below). Anyone can participate! You'll get a special role to indicate you're participating too.
+Starting now, we'll start accepting participants (abbreviated as OOers below). Anyone can participate! You'll get a special role to indicate you're participating too. You can get your role by reacting to [this message on Discord](https://discord.com/channels/686053708261228577/702717892533157999/889615286095986688).
 
 You can apply any time before October 31, but we encourage you to start early so you have a higher chance to finish your project.
 
