@@ -18,6 +18,6 @@ tags:
 
 ## Contributing
 
-- [[01.01 - Plugins|Community plugins]] - This folder is pre-populated with information from the [obsidian-releases]() repository. Notes in this folder might have missing information (marked with the #placeholder tag) 
+- [[02.01 - Plugins|Community plugins]] - This folder is pre-populated with information from the [obsidian-releases]() repository. Notes in this folder might have missing information (marked with the #placeholder tag) 
 	- Click on [[09.02 - How To]] if you want to add how to do something with a plugin.
-- [[01.02 - Categories|Plugin categories]] - Help us categorize community plugins!
+- [[02.02 - Categories|Plugin categories]] - Help us categorize community plugins!
