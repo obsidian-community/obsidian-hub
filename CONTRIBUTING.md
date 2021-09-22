@@ -22,9 +22,8 @@ Because PKM is usually (as it name states) *highly* personal, we have added a fe
 - **Files & Links**: Make sure that any time you add or edit a note, your settings are configured correctly. To sum up: 
 	- Configure *Location of new notes* to go the `08 - Seedbox` folder. 
 	- Links should be set to `Shortest path` and wikilinks must be enabled
-	- The *Default location for new attachments* should be the folder `09.01 - Note attachments`
-
-	![[file-and-link-settings.png]]
+	- The *Default location for new attachments* should be the folder `10.01 - Note attachments`
+![[file-and-link-settings.png]]
 	
 - **Templates**: We have predefined a few templates for any new content to be added (more about this later). These templates include comments and instructions of when to use them.
 - **Folders**: We have roughly pre-defined the structure of the vault using Johnny Decimal-ish prefixes. Before adding new folders, please open an issue to discuss the changes you'd like to propose.
@@ -44,7 +43,7 @@ To try and make it easy for folks to navigate this vault and find content they'r
 
 #### [[02 - Community plugins]] 
 
-- [[01.01 - Plugins|Community plugins]] - This folder is pre-populated with information from the [obsidian-releases]() repository. Here you can add more information about the plugin itself. For [[09.06 - How To]] do something with a plugin keep reading.
+- [[02.01 - Plugins|Community plugins]] - This folder is pre-populated with information from the [obsidian-releases]() repository. Here you can add more information about the plugin itself. For [[09.02 - How To|how to]] do something with a plugin keep reading.
 - [[01.02 - Categories|Plugin categories]] - Help us categorize community plugins!
 
 #### [[03 - Community templates]]
@@ -82,7 +81,7 @@ There are different ways to contribute CSS snippets:
 #### [[09 - Digital Garden]]
 
 
-##### [[09.01 - How To]]
+##### [[09.02 - How To]]
 
 Do you want to share how you do *X* with Obsidian, a community plugin or an ancilliary tool? This is the right place! They can be as atomic or as comprehensive as you'd like. 
 We added a few folders with topics we have forseen, but don't worry too much about where your note belongs -- just add it at the root of this folder if it's ambiguous. 
