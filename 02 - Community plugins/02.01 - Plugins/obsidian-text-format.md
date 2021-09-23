@@ -1,0 +1,31 @@
+---
+plugin-id: obsidian-text-format
+aliases:
+- Text Format
+tags: 
+- 
+publish: true
+---
+
+%% ----- Badges ----- %%
+
+![GitHub all releases](https://img.shields.io/github/downloads/Benature/obsidian-text-format/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Benature/obsidian-text-format?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Benature/obsidian-text-format/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Benature/obsidian-text-format?color=573E7A&logo=github&style=for-the-badge)
+
+%% ----- Badges ----- %%
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
+%% Sponsor this work: #placeholder/author %%
+
+%% ----- Do not edit this section ----- %%
+
+# Text Format
+
+Repository: [GitHub](https://github.com/Benature/obsidian-text-format)
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
+
+Format selected text lowercase/uppercase/capitalize/titlecase or remove redundant spaces/newline characters.
+
+%% ----- Do not edit anything above this line ----- %% 
