@@ -10,11 +10,11 @@ tags:
 Hi! First of all, thanks for your interest in contributing to our Obsidian community vault!
 This is a big experiment on trying to create an Obsidian vault that is maintained by the community.
 If you're reading this on GitHub, you might notice there are a few things that look weird.
-For the best experience, we recommend downloading the latest version of this vault or browsing it in our publish site.
+For the best experience, we recommend [downloading the latest version][download vault] of this vault or browsing it in our [publish site][published vault].
 
 ## Setup
 
-To contribute, please download the latest version of this vault and open it in Obsidian. This is important to avoid duplicating content, and allows you to use the autocomplete when linking to other notes, searching and following our content guidelines.
+To contribute, please [download the latest version][download vault] of this vault and open it in Obsidian. This is important to avoid duplicating content, and allows you to use the autocomplete when linking to other notes, searching and following our content guidelines.
 
 Because PKM is usually (as it name states) *highly* personal, we have added a few rules about how we use Obsidian features to preserve our sanity:
 
@@ -43,7 +43,7 @@ To try and make it easy for folks to navigate this vault and find content they'r
 #### [[02 - Community plugins]]
 
 - [[02.01 - Plugins|Community plugins]] - This folder is pre-populated with information from the [obsidian-releases]() repository. Here you can add more information about the plugin itself. For [[09.02 - How To|how to]] do something with a plugin keep reading.
-- [[01.02 - Categories|Plugin categories]] - Help us categorize community plugins!
+- [[02.02 - Categories|Plugin categories]] - Help us categorize community plugins!
 
 #### [[03 - Community templates]]
 
@@ -63,7 +63,7 @@ Here you can contribute the templates you use for Obsidian. Examples of those in
 
 #### [[04 - Community themes]]
 
-Similar to the community plugins, this folder is pre-populated with information from the [obsidian-releases]() repository. You can add information about the theme itself or add links to support the author of your favourite theme. See [[#04 - CSS Snippets]] for more.
+Similar to the community plugins, this folder is pre-populated with information from the [obsidian-releases](https://github.com/obsidianmd/obsidian-releases/) repository. You can add information about the theme itself or add links to support the author of your favourite theme. See [[#04 - CSS Snippets]] for more.
 
 #### [[05 - CSS Snippets]]
 
@@ -102,19 +102,18 @@ In addition to storing all the note attachments in this folder, here we collect 
 
 For regularly or publicly held events, you can add a note describing the event and any other important information or links.
 
-### Suggesting ideas
+### Adding suggestions or ideas for this vault
 
-Please click here if you have suggestions or ideas for this vault.
+Please [click here](https://github.com/obsidian-community/obsidian-hub/discussions/new) if you have suggestions or ideas for this vault.
 
-### Reporting broken (external) links
+### Reporting broken (external) links, typos or mistakes
 
-If you found a broken link, please open an issue.
+If you found a broken link, a typo or a mistake [please open an issue](https://github.com/obsidian-community/obsidian-hub/issues/new).
 
 ## Submitting your contribution
 
 If you know how to use git and GitHub, go on and make a pull request. Otherwise you might be interested in reading [[How to add content through GitHub?]] (we've tried to make it as friendly and assume as little background knowledge as possible!)
 
-%%
-TODOs:
-- [ ] Add links to download the vault and to the publish site.
-%%
+
+[download vault]: https://github.com/obsidian-community/obsidian-hub/releases/latest
+[publish site]: https://publish.obsidian.md/hub

@@ -14,8 +14,10 @@ If you're familiar with git, you can skip this guide and directly make a *pull r
 We assume you have a GitHub account, and you've downloaded and edited the contents of this vault as described in [[CONTRIBUTING|how to contribute]].
 
 1. Find the file you want to edit on our GitHub repository
-2. Click on the little pencil on the top-right corner
+2. To edit a file, click on the little pencil on the top-right corner
 	![[github-edit-file.png]]
+	To create a new file, navigate to the folder you want to add the file to, and then click on `Add file`. There you can upload the note you just created or create it using the editor (more about that on step 3):
+	![[github-add-new-file.png]]
 	GitHub will show you a notice explaining that it has *created a fork* for you. That just means that GitHub has made a copy of the repository you are trying to edit under your account. Don't worry too much about it though!
 	![[github-fork-notice.png]]
 The good news is that once you have this *fork*, any time you try to edit a note through GitHub's interface, it will save it on your copy!
