@@ -1,5 +1,5 @@
 ---
-alias: 
+aliases: 
 - Android
 tags:
 - seedling

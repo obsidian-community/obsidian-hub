@@ -1,5 +1,5 @@
 ---
-alias: 
+aliases: 
 - How to use QuickAdd
 tags:
 - seedling

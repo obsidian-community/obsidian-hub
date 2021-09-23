@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
 - seedbox
 tags:
 - MOC

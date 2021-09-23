@@ -1,5 +1,5 @@
 ---
-alias: 
+aliases: 
 - Submit to GitHub
 - Submit your changes to GitHub
 tags:

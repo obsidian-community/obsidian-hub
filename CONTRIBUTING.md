@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
 - how to contribute
 tags:
 - seedling

@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
 - Digital gardens
 tags:
 - seedling

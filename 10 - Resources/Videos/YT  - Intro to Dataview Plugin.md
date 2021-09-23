@@ -1,5 +1,5 @@
 ---
-alias: 
+aliases: 
 - Intro to Dataview Plugin
 tags:
 - seedling

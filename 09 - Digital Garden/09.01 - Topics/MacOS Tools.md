@@ -1,5 +1,5 @@
 ---
-alias: 
+aliases: 
 - MacOS
 tags:
 - seedling

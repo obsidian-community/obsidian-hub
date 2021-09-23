@@ -1,5 +1,5 @@
 ---
-alias: 
+aliases: 
 - An Introduction to Dataview
 tags:
 - seedling

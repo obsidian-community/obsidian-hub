@@ -1,5 +1,5 @@
 ---
-alias: 
+aliases: 
 - iPad
 tags:
 - seedling

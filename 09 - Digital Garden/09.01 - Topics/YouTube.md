@@ -1,5 +1,5 @@
 ---
-alias: 
+aliases: 
 - YouTube Videos, Channels and Playlists
 tags:
 - seedling

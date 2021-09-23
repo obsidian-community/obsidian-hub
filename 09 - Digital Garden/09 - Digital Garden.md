@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
 - Community Vault Digital Garden
 tags:
 - MOC
