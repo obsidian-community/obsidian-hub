@@ -17,3 +17,9 @@ Daily, weekly, monthly notes
 - [[obsidian-daily-named-folder|Daily Named Folder]]
 - [[random-structural-diary-plugin|Random Structural Diary]]
 - [[calendar|Calendar]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

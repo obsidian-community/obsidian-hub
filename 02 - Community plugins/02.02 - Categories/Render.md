@@ -22,3 +22,9 @@ Plugins add specific renderar to Obsidian like graphs, ...
 - [[obsidian-excalidraw-plugin|Excalidraw]]
 - [[obsidian-plantuml|PlantUML]]
 - [[scales-chords|Scales and Chords]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

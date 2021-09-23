@@ -18,3 +18,9 @@ Plugins that handle PDF files
 - [[better-pdf-plugin|Better PDF Plugin]]
 - [[obsidian-annotator|Annotator]]
 - [[oz-image-plugin|Ozan's Image in Editor Plugin]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

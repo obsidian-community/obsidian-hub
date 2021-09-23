@@ -47,3 +47,9 @@ Plugins help in editing like toolbars, auto-completions, sorting, ...
 - [[obsidian-paste-to-current-indentation|Paste to Current Indentation]]
 - [[obsidian-dynamic-toc|Dynamic Table of Contents]]
 - [[obsidian-carry-forward|Carry-Forward]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

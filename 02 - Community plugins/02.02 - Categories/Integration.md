@@ -40,3 +40,9 @@ Intergate with other services or applications
 - [[obsidian-annotator|Annotator]]
 - [[obsidian-hackernews|HackerNews]]
 - [[obsidian-pocket|Pocket integration]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

@@ -64,3 +64,9 @@ Change views and display
 - [[oz-image-plugin|Ozan's Image in Editor Plugin]]
 - [[obsidian-stille|Stille]]
 - [[obsidian-card-view-mode|Card View Mode]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

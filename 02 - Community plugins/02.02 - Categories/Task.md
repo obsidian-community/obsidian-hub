@@ -29,3 +29,9 @@ Task management
 - [[obsidian-reminder-plugin|Reminder]]
 - [[obsidian-amazingmarvin-plugin|Amazing Marvin]]
 - [[obsidian-task-archiver|Obsidian Task Archiver]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

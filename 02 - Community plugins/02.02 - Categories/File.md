@@ -26,3 +26,9 @@ Handle attachments, files, and folders
 - [[consistent-attachments-and-links|Consistent attachments and links]]
 - [[unique-attachments|Unique attachments]]
 - [[folder-note-core|Folder Note Core]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

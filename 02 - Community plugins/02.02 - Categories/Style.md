@@ -30,3 +30,9 @@ Appearance, themes, colors, fonts, ..
 - [[theme-picker|Theme Picker]]
 - [[obsidian-codemirror-options|CodeMirror Options]]
 - [[obsidian-reset-font-size|Reset Font Size]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

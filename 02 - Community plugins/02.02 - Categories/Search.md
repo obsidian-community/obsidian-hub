@@ -27,3 +27,9 @@ Querying
 - [[taskbone-ocr-plugin|Taskbone OCR]]
 - [[obsidian-relative-find|Relative Find]]
 - [[obsidian-apply-patterns|Apply Patterns]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

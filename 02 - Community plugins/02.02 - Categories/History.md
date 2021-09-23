@@ -20,3 +20,9 @@ Notes history
 - [[obsidian-commits|Commits]]
 - [[obsidian-activity-logger|Activity Logger]]
 - [[daily-activity|Daily Activity]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

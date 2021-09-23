@@ -15,3 +15,9 @@ Edit math expressions
 
 - [[obsidian-latex-environments|Latex Environments]]
 - [[obsidian-latex|Extended MathJax]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

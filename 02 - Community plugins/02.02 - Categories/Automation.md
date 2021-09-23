@@ -27,3 +27,9 @@ Automate create, update, delete of notes
 - [[obsidian-shellcommands|Shell commands]]
 - [[obsidian-autocomplete-plugin|Autocomplete]]
 - [[customjs|CustomJS]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

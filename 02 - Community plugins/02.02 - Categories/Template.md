@@ -9,7 +9,7 @@ publish: true
 
 # Template
 
-
+#placeholder/description
 
 ## Plugins in this category
 
@@ -21,3 +21,9 @@ publish: true
 - [[liquid-templates|Liquid Templates]]
 - [[obsidian-banners|Banners]]
 - [[podcast-note|Podcast Note]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

@@ -26,3 +26,9 @@ Edit external or internal links
 - [[tag-page-preview|Tag Page Preview]]
 - [[obsidian-pluck|Pluck]]
 - [[copy-url-in-preview|Copy Image and URL in Preview]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

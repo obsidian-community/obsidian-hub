@@ -29,3 +29,9 @@ Hotkeys
 - [[obsidian-code-copy|Code Copy]]
 - [[editor-commands-remap|Editor Commands Remap]]
 - [[obsidian-command-alias-plugin|Command Alias]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

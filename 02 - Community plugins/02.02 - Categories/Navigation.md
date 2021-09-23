@@ -9,7 +9,7 @@ publish: true
 
 # Navigation
 
-
+#placeholder/description
 
 ## Plugins in this category
 
@@ -21,3 +21,9 @@ publish: true
 - [[file-explorer-markdown-titles|File Explorer Markdown Titles]]
 - [[obsidian-go-to-line|Go to Line]]
 - [[calendar|Calendar]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

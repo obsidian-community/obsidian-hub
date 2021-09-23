@@ -20,3 +20,9 @@ Plugins change the status bar
 - [[obsidian-vault-statistics-plugin|Vault Statistics]]
 - [[obsidian-grandfather|Grandfather]]
 - [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

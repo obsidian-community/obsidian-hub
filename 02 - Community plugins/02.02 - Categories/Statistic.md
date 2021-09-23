@@ -17,3 +17,9 @@ Show, display statistics info
 - [[note-folder-autorename|Note Folder Autorename]]
 - [[obsidian-vault-statistics-plugin|Vault Statistics]]
 - [[obsidian-commits|Commits]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

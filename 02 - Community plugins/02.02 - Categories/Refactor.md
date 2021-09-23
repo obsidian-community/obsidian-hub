@@ -25,3 +25,9 @@ Reformat note, doing much changes automatically
 - [[easy-typing-obsidian|Easy Typing]]
 - [[obsidian-smart-typography|Smart Typography]]
 - [[obsidian-task-archiver|Obsidian Task Archiver]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

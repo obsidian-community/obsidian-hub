@@ -16,3 +16,9 @@ Handling dates
 - [[nldates-obsidian|Natural Language Dates]]
 - [[obsidian-jump-to-date-plugin|Obsidian42 - Jump-to-Date]]
 - [[calendar|Calendar]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

@@ -18,3 +18,9 @@ Plugins enabling Obsidian to edit files other than md
 - [[csv-obsidian|CSV Editor]]
 - [[mdx-as-md-obsidian|mdx as md]]
 - [[obsidian-org-mode|Org Mode]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

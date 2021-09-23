@@ -25,3 +25,9 @@ Converter from/to md
 - [[obsidian-static-file-server|Static File Server]]
 - [[obsidian-csv-table|CSV Table]]
 - [[obsidian-pluck|Pluck]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

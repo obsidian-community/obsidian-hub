@@ -15,3 +15,9 @@ Plugins related to Chinese language
 
 - [[cm-chs-patch|Word Splitting for Simplified Chinese in Edit Mode]]
 - [[obsidian-auto-pair-chinese-symbol|Auto pair chinese symbol]]
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes
