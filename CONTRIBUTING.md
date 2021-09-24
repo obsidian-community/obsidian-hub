@@ -36,7 +36,7 @@ To try and make it easy for folks to navigate this vault and find content they'r
 
 1. Create a new note (if you followed the steps in [[#Setup]] it should be created under [[08 - Seedbox]])
 2. Apply the [[T - New Note]] template and write!
-3. [[How to add content through GitHub?|Submit your changes to GitHub]]
+3. [[How to add content through GitHub|Submit your changes to GitHub]]
 
 ### Adding or editing notes
 
@@ -112,7 +112,7 @@ If you found a broken link, a typo or a mistake [please open an issue](https://g
 
 ## Submitting your contribution
 
-If you know how to use git and GitHub, go on and make a pull request. Otherwise you might be interested in reading [[How to add content through GitHub?]] (we've tried to make it as friendly and assume as little background knowledge as possible!)
+If you know how to use git and GitHub, go on and make a pull request. Otherwise you might be interested in reading [[How to add content through GitHub]] (we've tried to make it as friendly and assume as little background knowledge as possible!)
 
 
 [download vault]: https://github.com/obsidian-community/obsidian-hub/releases/latest

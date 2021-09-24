@@ -24,7 +24,7 @@ tags:
 
 1. Create a new file under [[03 - Community templates]] and give it a descriptive name.
 2. Apply the [[T - Templates]] template and fill out the placeholders
-3. [[How to add content through GitHub?|Submit your changes to GitHub]]
+3. [[How to add content through GitHub|Submit your changes to GitHub]]
 
 ### Updating a template
 
