@@ -1,3 +1,5 @@
+# Obsidian October 2021
+
 Been thinking about making a plugin or theme but never had the opportunity to do it? October is the time!
 
 Obsidian October is an official event brought to you by Obsidian to help you get started with making your very own plugins and themes.
@@ -8,7 +10,7 @@ Starting now, we'll start accepting participants (abbreviated as OOers below). A
 
 You can apply any time before October 31, but we encourage you to start early so you have a higher chance to finish your project.
 
-There will be a special channel on Discord to ask questions and chat about your progress. On the forum, we'll also have mega post for the event for people to share their daily progress and learnings. Developers who help out will also receive a special mentor role!
+There will be a special channel on Discord to ask questions and chat about your progress. On the forum, there is also [a mega post for OOers to share their daily progress and learnings](https://forum.obsidian.md/t/obsidian-october-2021-daily-progress-and-learnings/24472). Developers who help out will also receive a special mentor role!
 
 ## Submitting your project
 
