@@ -11,6 +11,7 @@ tags:
 
 We think of this vault as a [[Digital garden]]. This means that the content in our vault is very much a work in progress. Since we're at a very early stage, there's a lot of space to grow! You can check out a few sample notes were we already have some content:
 
+- [[Obsidian October 2021]]
 - [[02.02 - Categories|Plugin categories]].
 - [[How to Style Obsidian]]
 - [[YT - How to use QuickAdd|How to use QuickAdd]]
