@@ -22,4 +22,4 @@ If you found a Digital garden site that you'd like to share, here's how to add i
 
 1. Create a new note under [[10 - Resources]]
 2. Apply the [[T - Digital garden site]] template and fill out the placeholders
-3. [[How to add content through GitHub?|Submit your changes to GitHub]]
+3. [[How to add content through GitHub|Submit your changes to GitHub]]

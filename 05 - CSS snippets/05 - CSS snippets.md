@@ -20,7 +20,7 @@ tags:
 
 1. Create a note in the [[05 - CSS snippets]] folder
 2. Use the [[T - GitHub Repository]] template
-3. [[How to add content through GitHub?|Submit your changes to GitHub]]
+3. [[How to add content through GitHub|Submit your changes to GitHub]]
 
 ### CSS Snippet note
 
@@ -28,4 +28,4 @@ If you prefer to add your snippet as a note instead, follow these steps:
 
 1. Create a note in the [[05 - CSS snippets]] folder
 2. Use the [[T - CSS Snippet]] template and fill out all the placeholders
-3. [[How to add content through GitHub?|Submit your changes to GitHub]]
+3. [[How to add content through GitHub|Submit your changes to GitHub]]

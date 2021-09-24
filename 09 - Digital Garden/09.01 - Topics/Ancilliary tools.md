@@ -19,4 +19,4 @@ Adding tools that are useful in combination with Obsidian is done in two parts. 
 1. Create a new note under [[10 - Resources]]
 2. Apply the [[T - Ancilliary tools]] template
 3. Fill out the placeholders
-4. [[How to add content through GitHub?|Submit your changes to GitHub]]
+4. [[How to add content through GitHub|Submit your changes to GitHub]]

@@ -15,4 +15,4 @@ tags:
 
 1. Create a new note under [[10.02 - Publish sites]]
 2. Apply the [[T - Publish site]] template and fill out the placeholders
-3. [[How to add content through GitHub?|Submit your changes to GitHub]]
+3. [[How to add content through GitHub|Submit your changes to GitHub]]

@@ -15,4 +15,4 @@ tags:
 
 1. Create a new note in [[10 - Resources]]
 2. Apply the [[T - Website]] template and fill out the placeholders
-3. [[How to add content through GitHub?|Submit your changes to GitHub]]
+3. [[How to add content through GitHub|Submit your changes to GitHub]]
