@@ -48,12 +48,12 @@ We're honored to have invited some veteran developers in the community to be on 
 
 - [[Liam Cain]], author of the 3 plugins including the popular [[calendar|Calendar]] plugin
 - [[Matthew Meyers]], author of 8 plugins including the [[obsidian-kanban|Kanban]] plugin and the [[California Coast]] theme
-- [[Argentina Ortega Sáinz|Argentina Ortega Sáinz (argentum)]], author of the [[nldates-obsidian|Natural Language Dates]] and [[hotkeysplus-obsidian|Hotkeys++]]
+- [[Argentina Ortega Sáinz|Argentina Ortega Sáinz (argentum)]], author of the [[nldates-obsidian|Natural Language Dates]] and [[hotkeysplus-obsidian|Hotkeys++]] plugins
 
 ### Theme judges
 
-- [[Stephan Ango|Stephan Ango (kepano)]], author of [[Minimal|Minimal]] theme and 4 plugins
-- [[Chetachi Ezikeuzor|Chetachi Ezikeuzor (Chetachi)]], author of [[Yin and Yang|Yin and Yang]] and [[cmenu-plugin|cMenu]]
+- [[Stephan Ango|Stephan Ango (kepano)]], author of the [[Minimal]] theme and 4 plugins
+- [[Chetachi Ezikeuzor|Chetachi Ezikeuzor (Chetachi)]], author of the [[Yin and Yang]] theme and [[cmenu-plugin|cMenu]] plugin
 - [[SlRvb]], author of the [[ITS Theme]]
 
 [^1]: Obsidian credit can be used towards any Obsidian license or service. It is non-transferable.
