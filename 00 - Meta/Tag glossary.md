@@ -21,4 +21,4 @@ We also have a #placeholder tag we use to signal the type of information that is
 - #placeholder/screenshot 
 - #placeholder/tool - Similar to the author tag, any information about a tool
 
-Other than that, we use the #MOC tag for [[Maps of Content (MOC)]].
+Other than that, we use the `#MOC` tag for [[Maps of Content (MOC)]].
