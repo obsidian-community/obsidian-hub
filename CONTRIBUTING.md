@@ -19,7 +19,7 @@ To contribute, please [download the latest version][download vault] of this vaul
 Because PKM is usually (as it name states) *highly* personal, we have added a few rules about how we use Obsidian features to preserve our sanity:
 
 - **Tags**: We mostly use tags to indicate the status of a note. You can find more details in the [[Tag glossary]].
-- **Files & Links**: Make sure that any time you add or edit a note, your settings are configured correctly. To sum up: 
+- **Files & Links**: Make sure that any time you add or edit a note, your settings are configured correctly. This should be set up by default. To sum up: 
 	- Configure `Location of new notes` to go the [[08 - Seedbox]] folder. 
 	- Links should be set to `Shortest path` and wikilinks must be enabled.
 	- The `Default location for new attachments` should be the folder [[10.01 - Note attachments]].
