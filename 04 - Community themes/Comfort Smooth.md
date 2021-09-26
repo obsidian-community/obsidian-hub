@@ -1,6 +1,6 @@
 ---
 aliases:
-- Comfort Smooth
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/sparklau/comfort-smooth/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/sparklau/comfort-smooth?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/sparklau/comfort-smooth?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/sparklau/comfort-smooth/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/sparklau/comfort-smooth?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Comfort Smooth
 
 Repository: [GitHub](https://github.com/sparklau/comfort-smooth)
+Designed by: [[sparklau]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/sparklau/comfort-smooth/raw/main/comfort-smooth.png)
 
 %% ----- Do not edit anything above this line ----- %% 

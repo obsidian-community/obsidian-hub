@@ -1,6 +1,6 @@
 ---
 aliases:
-- Base2Tone
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/deathau/Base2Tone-For-Obsidian.md/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/deathau/Base2Tone-For-Obsidian.md?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/deathau/Base2Tone-For-Obsidian.md?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/deathau/Base2Tone-For-Obsidian.md/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/deathau/Base2Tone-For-Obsidian.md?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Base2Tone
 
 Repository: [GitHub](https://github.com/deathau/Base2Tone-For-Obsidian.md)
+Designed by: [[deathau]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/deathau/Base2Tone-For-Obsidian.md/raw/main/colours.gif)
 
 %% ----- Do not edit anything above this line ----- %% 

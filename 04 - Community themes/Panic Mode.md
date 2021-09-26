@@ -1,6 +1,6 @@
 ---
 aliases:
-- Panic Mode
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/bcdavasconcelos/Obsidian-Panic_Mode/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bcdavasconcelos/Obsidian-Panic_Mode?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/bcdavasconcelos/Obsidian-Panic_Mode?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/bcdavasconcelos/Obsidian-Panic_Mode/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/bcdavasconcelos/Obsidian-Panic_Mode?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Panic Mode
 
 Repository: [GitHub](https://github.com/bcdavasconcelos/Obsidian-Panic_Mode)
+Designed by: [[bcdavasconcelos]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-Panic_Mode/raw/main/panic.png)
 
 %% ----- Do not edit anything above this line ----- %% 

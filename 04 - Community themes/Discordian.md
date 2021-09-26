@@ -1,6 +1,6 @@
 ---
 aliases:
-- Discordian
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/radekkozak/discordian/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/radekkozak/discordian?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/radekkozak/discordian?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/radekkozak/discordian/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/radekkozak/discordian?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Discordian
 
 Repository: [GitHub](https://github.com/radekkozak/discordian)
+Designed by: [[radekkozak]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/radekkozak/discordian/raw/main/media/screenshots/discordian-full-mode.png)
 
 %% ----- Do not edit anything above this line ----- %% 

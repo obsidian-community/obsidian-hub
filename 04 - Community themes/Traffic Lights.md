@@ -1,6 +1,6 @@
 ---
 aliases:
-- Traffic Lights
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/elliotboyd/obsidian-traffic-lights/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/elliotboyd/obsidian-traffic-lights?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/elliotboyd/obsidian-traffic-lights?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/elliotboyd/obsidian-traffic-lights/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/elliotboyd/obsidian-traffic-lights?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Traffic Lights
 
 Repository: [GitHub](https://github.com/elliotboyd/obsidian-traffic-lights)
+Designed by: [[elliotboyd]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/elliotboyd/obsidian-traffic-lights/raw/main/dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 

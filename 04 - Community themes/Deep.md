@@ -1,6 +1,6 @@
 ---
 aliases:
-- Deep
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/cybeerboy/Deep-for-Obsidian/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/cybeerboy/Deep-for-Obsidian?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/cybeerboy/Deep-for-Obsidian?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/cybeerboy/Deep-for-Obsidian/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/cybeerboy/Deep-for-Obsidian?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Deep
 
 Repository: [GitHub](https://github.com/cybeerboy/Deep-for-Obsidian)
+Designed by: [[cybeerboy]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/cybeerboy/Deep-for-Obsidian/raw/main/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

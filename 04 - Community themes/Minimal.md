@@ -1,6 +1,6 @@
 ---
 aliases:
-- Minimal
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/kepano/obsidian-minimal/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/kepano/obsidian-minimal?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/kepano/obsidian-minimal?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/kepano/obsidian-minimal/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/kepano/obsidian-minimal?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Minimal
 
 Repository: [GitHub](https://github.com/kepano/obsidian-minimal)
+Designed by: [[kepano]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/kepano/obsidian-minimal/raw/main/dark-simple.png)
 
 %% ----- Do not edit anything above this line ----- %% 

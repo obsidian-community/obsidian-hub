@@ -1,6 +1,6 @@
 ---
 aliases:
-- Reverie
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/santiyounger/Reverie-Obsidian-Theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/santiyounger/Reverie-Obsidian-Theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/santiyounger/Reverie-Obsidian-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/santiyounger/Reverie-Obsidian-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/santiyounger/Reverie-Obsidian-Theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Reverie
 
 Repository: [GitHub](https://github.com/santiyounger/Reverie-Obsidian-Theme)
+Designed by: [[santiyounger]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/santiyounger/Reverie-Obsidian-Theme/raw/main/img/reverie-2020-09-14-dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 

@@ -1,6 +1,6 @@
 ---
 aliases:
-- GDCT
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/bcdavasconcelos/Obsidian-GDCT/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bcdavasconcelos/Obsidian-GDCT?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/bcdavasconcelos/Obsidian-GDCT?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/bcdavasconcelos/Obsidian-GDCT/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/bcdavasconcelos/Obsidian-GDCT?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # GDCT
 
 Repository: [GitHub](https://github.com/bcdavasconcelos/Obsidian-GDCT)
+Designed by: [[bcdavasconcelos]]
+Modes: [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-GDCT/raw/main/gdct.png)
 
 %% ----- Do not edit anything above this line ----- %% 

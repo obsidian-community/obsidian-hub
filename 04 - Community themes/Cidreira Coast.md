@@ -1,6 +1,6 @@
 ---
 aliases:
-- Cidreira Coast
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/firinael/obsidian-cidreira-coast-theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/firinael/obsidian-cidreira-coast-theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/firinael/obsidian-cidreira-coast-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/firinael/obsidian-cidreira-coast-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/firinael/obsidian-cidreira-coast-theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Cidreira Coast
 
 Repository: [GitHub](https://github.com/firinael/obsidian-cidreira-coast-theme)
+Designed by: [[firinael]]
+Modes: [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/firinael/obsidian-cidreira-coast-theme/raw/main/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

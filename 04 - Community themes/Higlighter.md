@@ -1,6 +1,6 @@
 ---
 aliases:
-- Higlighter
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/lukauskas/obsidian-highlighter-theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/lukauskas/obsidian-highlighter-theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/lukauskas/obsidian-highlighter-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/lukauskas/obsidian-highlighter-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/lukauskas/obsidian-highlighter-theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Higlighter
 
 Repository: [GitHub](https://github.com/lukauskas/obsidian-highlighter-theme)
+Designed by: [[lukauskas]]
+Modes: [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/lukauskas/obsidian-highlighter-theme/raw/main/screenshots/screenshot-themes-panel.png)
 
 %% ----- Do not edit anything above this line ----- %% 

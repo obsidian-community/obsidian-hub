@@ -1,6 +1,6 @@
 ---
 aliases:
-- Dark Graphite Pie
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/ryjjin/Obsidian-Dark-Graphite-Pie-theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/ryjjin/Obsidian-Dark-Graphite-Pie-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Dark Graphite Pie
 
 Repository: [GitHub](https://github.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme)
+Designed by: [[ryjjin]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme/raw/main/Dark Graphite Pie theme 0.9.4.png)
 
 %% ----- Do not edit anything above this line ----- %% 

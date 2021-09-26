@@ -1,6 +1,6 @@
 ---
 aliases:
-- Dracula for Obsidian
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/jarodise/Dracula-for-Obsidian.md/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/jarodise/Dracula-for-Obsidian.md?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/jarodise/Dracula-for-Obsidian.md?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/jarodise/Dracula-for-Obsidian.md/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jarodise/Dracula-for-Obsidian.md?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Dracula for Obsidian
 
 Repository: [GitHub](https://github.com/jarodise/Dracula-for-Obsidian.md)
+Designed by: [[jarodise]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/jarodise/Dracula-for-Obsidian.md/raw/main/screencap.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 

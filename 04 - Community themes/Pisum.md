@@ -1,6 +1,6 @@
 ---
 aliases:
-- Pisum
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/GuangluWu/obsidian-pisum/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/GuangluWu/obsidian-pisum?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/GuangluWu/obsidian-pisum?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/GuangluWu/obsidian-pisum/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/GuangluWu/obsidian-pisum?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Pisum
 
 Repository: [GitHub](https://github.com/GuangluWu/obsidian-pisum)
+Designed by: [[GuangluWu]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/GuangluWu/obsidian-pisum/raw/main/fullpower.png)
 
 %% ----- Do not edit anything above this line ----- %% 
