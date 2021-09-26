@@ -5,3 +5,7 @@
 .site-body-left-column-site-logo {
 	max-width: 120px;
 }
+
+.site-body-left-column-site-name {
+	text-align: center;
+}
