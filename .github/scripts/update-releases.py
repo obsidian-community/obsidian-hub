@@ -63,6 +63,9 @@ def get_uncategorized_plugins(overwrite=False):
     file_list = get_category_files()
 
     for file in file_list:
+        if "Uncategorized plugins" in file:
+            continue
+
         with open(file) as category_file:
             contents = category_file.read()
             for plugin in plugin_list:
