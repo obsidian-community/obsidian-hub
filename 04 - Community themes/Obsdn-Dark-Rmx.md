@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/cannibalox/Obsdn-dark-rmx/raw/main/Obsdn-Dark-Rmx.png)
+![screenshot](https://github.com/cannibalox/Obsdn-dark-rmx/raw/master/Obsdn-Dark-Rmx.png)
 
 %% ----- Do not edit anything above this line ----- %% 

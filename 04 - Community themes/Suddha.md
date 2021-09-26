@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/dxcore35/Suddha-theme/raw/main/Images/Preview1.jpg)
+![screenshot](https://github.com/dxcore35/Suddha-theme/raw/master/Images/Preview1.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 

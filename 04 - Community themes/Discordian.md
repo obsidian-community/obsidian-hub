@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/radekkozak/discordian/raw/main/media/screenshots/discordian-full-mode.png)
+![screenshot](https://github.com/radekkozak/discordian/raw/master/media/screenshots/discordian-full-mode.png)
 
 %% ----- Do not edit anything above this line ----- %% 

@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/kartik-karz/moonlight-obsidian/raw/main/moonlight-theme.png)
+![screenshot](https://github.com/kartik-karz/moonlight-obsidian/raw/master/moonlight-theme.png)
 
 %% ----- Do not edit anything above this line ----- %% 

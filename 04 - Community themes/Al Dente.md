@@ -27,6 +27,6 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/chad-bennett/al-dente-obsidian-theme/raw/main/aldente-screenshot.png)
+![screenshot](https://github.com/chad-bennett/al-dente-obsidian-theme/raw/master/aldente-screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

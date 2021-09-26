@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/rcvd/obsidian_ia/raw/main/light.png)
+![screenshot](https://github.com/rcvd/obsidian_ia/raw/master/light.png)
 
 %% ----- Do not edit anything above this line ----- %% 

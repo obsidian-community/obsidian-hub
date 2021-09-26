@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme/raw/main/Dark Graphite Pie theme 0.9.4.png)
+![screenshot](https://github.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme/raw/master/Dark Graphite Pie theme 0.9.4.png)
 
 %% ----- Do not edit anything above this line ----- %% 

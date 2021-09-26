@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/shaggyfeng/obsidian-Pink-topaz-theme/raw/main/screenshot.png)
+![screenshot](https://github.com/shaggyfeng/obsidian-Pink-topaz-theme/raw/master/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

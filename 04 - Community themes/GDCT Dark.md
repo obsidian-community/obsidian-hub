@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/bcdavasconcelos/Obsidian-GDCT_Dark/raw/main/gdct.png)
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-GDCT_Dark/raw/master/gdct.png)
 
 %% ----- Do not edit anything above this line ----- %% 

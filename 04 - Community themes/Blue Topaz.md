@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/whyt-byte/Blue-Topaz_Obsidian-css/raw/main/preview_Blue Topaz.png)
+![screenshot](https://github.com/whyt-byte/Blue-Topaz_Obsidian-css/raw/master/preview_Blue Topaz.png)
 
 %% ----- Do not edit anything above this line ----- %% 

@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/insanum/obsidian_nord/raw/main/screen.png)
+![screenshot](https://github.com/insanum/obsidian_nord/raw/master/screen.png)
 
 %% ----- Do not edit anything above this line ----- %% 

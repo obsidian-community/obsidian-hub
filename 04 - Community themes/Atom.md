@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/kognise/obsidian-atom/raw/main/screenshot-hybrid.png)
+![screenshot](https://github.com/kognise/obsidian-atom/raw/master/screenshot-hybrid.png)
 
 %% ----- Do not edit anything above this line ----- %% 

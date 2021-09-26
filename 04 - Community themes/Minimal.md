@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/kepano/obsidian-minimal/raw/main/dark-simple.png)
+![screenshot](https://github.com/kepano/obsidian-minimal/raw/master/dark-simple.png)
 
 %% ----- Do not edit anything above this line ----- %% 

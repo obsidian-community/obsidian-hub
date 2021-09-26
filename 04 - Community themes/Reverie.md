@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/santiyounger/Reverie-Obsidian-Theme/raw/main/img/reverie-2020-09-14-dark.png)
+![screenshot](https://github.com/santiyounger/Reverie-Obsidian-Theme/raw/master/img/reverie-2020-09-14-dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 

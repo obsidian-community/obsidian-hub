@@ -27,6 +27,6 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/chad-bennett/warmth-obsidian-theme/raw/main/warmth.jpg)
+![screenshot](https://github.com/chad-bennett/warmth-obsidian-theme/raw/master/warmth.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 

@@ -27,6 +27,6 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/bcdavasconcelos/Obsidian-Ayu/raw/main/ayu2.png)
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-Ayu/raw/master/ayu2.png)
 
 %% ----- Do not edit anything above this line ----- %% 

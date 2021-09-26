@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/DubininDmitry/Obuntu-theme-for-Obsidian/raw/main/screenshot.jpg)
+![screenshot](https://github.com/DubininDmitry/Obuntu-theme-for-Obsidian/raw/master/screenshot.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 

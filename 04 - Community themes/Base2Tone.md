@@ -27,6 +27,6 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/deathau/Base2Tone-For-Obsidian.md/raw/main/colours.gif)
+![screenshot](https://github.com/deathau/Base2Tone-For-Obsidian.md/raw/master/colours.gif)
 
 %% ----- Do not edit anything above this line ----- %% 
