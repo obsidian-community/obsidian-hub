@@ -33,3 +33,6 @@ Automate create, update, delete of notes
 %% Add links to other 02.02 - Category notes %%
 
 #placeholder/notes
+
+## Related Topics
+- [[Controlling Obsidian via a Third-Party App]]
