@@ -9,8 +9,8 @@ publish: true
 # Controlling Obsidian via a Third-Party App
 Short Introduction into controlling/automating Obsidian via a Third-Party App
 
-- `URI` refers the [Obsidian URI Scheme](https://help.obsidian.md/Advanced+topics/Using+obsidian+URI#Using+Obsidian+URIs) for controlling Obsidian.
-- `Adv. URI` refers to the [Advanced URI Plugin](https://github.com/Vinzent03/obsidian-advanced-uri) for controlling Obsidian. You can easily get he respective URI Schemes by selecting the command `Advanced URI Plugin: Copy Command URI`, select `Don't specify a file`, and then the command whose URI you would like to have. 
+- `URI` refers to the [Obsidian URI Scheme](https://help.obsidian.md/Advanced+topics/Using+obsidian+URI#Using+Obsidian+URIs) for controlling Obsidian.
+- `Adv. URI` refers to the [Advanced URI Plugin](https://github.com/Vinzent03/obsidian-advanced-uri) for controlling Obsidian. You can easily get the respective URI Schemes by selecting the command `Advanced URI Plugin: Copy Command URI`, select `Don't specify a file`, and then the command whose URI you would like to have. 
 	- ⚠️ If you are developing something to share with others, remember to remove the vault-argument (`vault=vaultName`) from the URI or dynamically insert the proper vault name there — otherwise the URI schemes won't 
 - `Hotkey Helper URI` refers to the [URI Scheme introduced by the Hotkey Helper Plugin](https://github.com/pjeby/hotkey-helper#plugin-urls).
 - URI Schemes are generally practical, since they also work on any platform, including mobile.
