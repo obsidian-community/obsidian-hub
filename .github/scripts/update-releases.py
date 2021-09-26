@@ -48,7 +48,8 @@ def process_released_themes(overwrite=False):
             .replace("dark", DARK_MODE_THEMES)
             .replace("light", LIGHT_MODE_THEMES)
         )
-        theme.update(user=user, modes=modes)
+        branch = theme.get("branch", "master")
+        theme.update(user=user, modes=modes, branch=branch)
         write_file(template, theme.get("name"), overwrite=overwrite, **theme)
 
 
