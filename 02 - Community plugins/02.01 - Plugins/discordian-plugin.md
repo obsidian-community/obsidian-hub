@@ -24,6 +24,7 @@ publish: true
 # Discordian Theme
 
 Repository: [GitHub](https://github.com/radekkozak/discordian-plugin)
+Developed by: [[radekkozak]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Discordian plugin for tweaking Discordian theme

@@ -24,6 +24,7 @@ publish: true
 # Prettier Format
 
 Repository: [GitHub](https://github.com/hipstersmoothie/obsidian-plugin-prettier)
+Developed by: [[hipstersmoothie]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Opinionated formatting for your notes.

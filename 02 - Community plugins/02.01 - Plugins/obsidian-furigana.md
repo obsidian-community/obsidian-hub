@@ -24,6 +24,7 @@ publish: true
 # Furigana
 
 Repository: [GitHub](https://github.com/uonr/obsidian-furigana)
+Developed by: [[uonr]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Helper plugin for furigana and <ruby>

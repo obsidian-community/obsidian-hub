@@ -24,6 +24,7 @@ publish: true
 # File path to URI
 
 Repository: [GitHub](https://github.com/MichalBures/obsidian-file-path-to-uri)
+Developed by: [[MichalBures]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Convert file path to uri for easier use of links to local files outside of Obsidian

@@ -24,6 +24,7 @@ publish: true
 # txt as md
 
 Repository: [GitHub](https://github.com/deathau/txt-as-md-obsidian)
+Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Edit txt files as if they were markdown

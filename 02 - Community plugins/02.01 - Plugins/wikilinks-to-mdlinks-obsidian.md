@@ -24,6 +24,7 @@ publish: true
 # Wikilinks to MDLinks
 
 Repository: [GitHub](https://github.com/agathauy/wikilinks-to-mdlinks-obsidian)
+Developed by: [[agathauy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A plugin that converts wikilinks to markdown links and vice versa

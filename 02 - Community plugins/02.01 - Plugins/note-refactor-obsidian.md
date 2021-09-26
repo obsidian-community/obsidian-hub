@@ -24,6 +24,7 @@ publish: true
 # Note Refactor
 
 Repository: [GitHub](https://github.com/lynchjames/note-refactor-obsidian)
+Developed by: [[lynchjames]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Extract note content into new notes and split notes

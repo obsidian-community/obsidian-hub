@@ -24,6 +24,7 @@ publish: true
 # Privacy Glasses
 
 Repository: [GitHub](https://github.com/jillalberts/privacy-glasses)
+Developed by: [[jillalberts]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Provides a button and command to obfuscate onscreen text for better privacy in public settings.

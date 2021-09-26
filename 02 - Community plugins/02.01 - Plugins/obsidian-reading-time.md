@@ -24,6 +24,7 @@ publish: true
 # Reading Time
 
 Repository: [GitHub](https://github.com/avr/obsidian-reading-time)
+Developed by: [[avr]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Add the current note's reading time to Obsidian's status bar.

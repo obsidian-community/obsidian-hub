@@ -24,6 +24,7 @@ publish: true
 # Better File Link
 
 Repository: [GitHub](https://github.com/marcjulianschwarz/obsidian-file-link)
+Developed by: [[marcjulianschwarz]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 A plugin to add better external file links to notes.

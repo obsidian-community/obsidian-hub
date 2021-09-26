@@ -24,6 +24,7 @@ publish: true
 # Obsidian42 - Jump-to-Date
 
 Repository: [GitHub](https://github.com/TfTHacker/obsidian42-jump-to-date)
+Developed by: [[TfTHacker]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Popup calendar for quickly navigating dates

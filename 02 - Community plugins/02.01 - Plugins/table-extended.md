@@ -24,6 +24,7 @@ publish: true
 # Table Extended
 
 Repository: [GitHub](https://github.com/aidenlx/table-extended)
+Developed by: [[aidenlx]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Enable extended table support with MultiMarkdown 6 syntax

@@ -24,6 +24,7 @@ publish: true
 # Completed Task Display
 
 Repository: [GitHub](https://github.com/heliostatic/completed-task-display)
+Developed by: [[heliostatic]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Provides a button in the ribbon to hide or display completed tasks

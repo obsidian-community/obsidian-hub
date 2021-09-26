@@ -24,6 +24,7 @@ publish: true
 # Phone to Roam to Obsidian
 
 Repository: [GitHub](https://github.com/dgarrett/phone-to-roam-to-obsidian)
+Developed by: [[dgarrett]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 An Obsidian client for phonetoroam.com

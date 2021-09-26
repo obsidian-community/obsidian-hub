@@ -24,6 +24,7 @@ publish: true
 # Emoji Shortcodes
 
 Repository: [GitHub](https://github.com/phibr0/obsidian-emoji-shortcodes)
+Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This Plugin enables the use of Markdown Emoji Shortcodes :smile:

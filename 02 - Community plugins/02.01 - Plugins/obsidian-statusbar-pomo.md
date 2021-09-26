@@ -24,6 +24,7 @@ publish: true
 # Status Bar Pomodoro Timer
 
 Repository: [GitHub](https://github.com/kzhovn/statusbar-pomo-obsidian)
+Developed by: [[kzhovn]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Adds a pomodoro timer to your status bar.

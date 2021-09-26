@@ -24,6 +24,7 @@ publish: true
 # Juggl
 
 Repository: [GitHub](https://github.com/HEmile/juggl)
+Developed by: [[HEmile]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Adds a completely interactive, stylable and expandable graph view to Obsidian.

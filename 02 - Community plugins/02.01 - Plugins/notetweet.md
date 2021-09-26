@@ -24,6 +24,7 @@ publish: true
 # NoteTweet🐦
 
 Repository: [GitHub](https://github.com/chhoumann/notetweet_obsidian)
+Developed by: [[chhoumann]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin allows you to post tweets directly from Obsidian.

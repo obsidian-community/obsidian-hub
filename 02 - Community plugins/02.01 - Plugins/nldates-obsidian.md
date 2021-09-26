@@ -24,6 +24,7 @@ publish: true
 # Natural Language Dates
 
 Repository: [GitHub](https://github.com/argenos/nldates-obsidian)
+Developed by: [[argenos]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Create date-links based on natural language

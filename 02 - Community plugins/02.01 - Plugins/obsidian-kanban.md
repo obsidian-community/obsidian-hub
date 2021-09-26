@@ -24,6 +24,7 @@ publish: true
 # Kanban
 
 Repository: [GitHub](https://github.com/mgmeyers/obsidian-kanban)
+Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Create markdown-backed Kanban boards in Obsidian.

@@ -24,6 +24,7 @@ publish: true
 # Convert url to preview (iframe)
 
 Repository: [GitHub](https://github.com/FHachez/obsidian-convert-url-to-iframe)
+Developed by: [[FHachez]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Convert an url (ex, youtube) into an iframe (preview)

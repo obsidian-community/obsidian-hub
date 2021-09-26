@@ -24,6 +24,7 @@ publish: true
 # Media Extended
 
 Repository: [GitHub](https://github.com/aidenlx/media-extended)
+Developed by: [[aidenlx]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Media(Video/Audio) Playback Enhancement for Obsidian.md

@@ -24,6 +24,7 @@ publish: true
 # Text Expander
 
 Repository: [GitHub](https://github.com/konodyuk/obsidian-text-expander)
+Developed by: [[konodyuk]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Expand text shortcuts, run shell commands and python scripts right in your editor

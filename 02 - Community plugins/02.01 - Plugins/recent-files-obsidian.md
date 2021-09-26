@@ -24,6 +24,7 @@ publish: true
 # Recent Files
 
 Repository: [GitHub](https://github.com/tgrosinger/recent-files-obsidian)
+Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 List files by most recently opened
