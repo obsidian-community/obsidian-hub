@@ -13,6 +13,7 @@ Querying
 
 ## Plugins in this category
 
+- [[mrj-text-expand|Text {{expand}}]]
 - [[searchpp|Search++]]
 - [[smart-random-note|Smart Random Note]]
 - [[neo4j-graph-view|Neo4j Graph View]]
