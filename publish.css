@@ -9,3 +9,8 @@
 .site-body-left-column-site-name {
 	text-align: center;
 }
+
+/* Widen File Explorer */
+.site-body-left-column {
+	flex: 0 0 350px;
+}
