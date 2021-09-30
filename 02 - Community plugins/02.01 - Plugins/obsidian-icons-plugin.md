@@ -24,6 +24,7 @@ publish: true
 # Icons
 
 Repository: [GitHub](https://github.com/visini/obsidian-icons-plugin)
+Developed by: [[visini]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Add icons to your Obsidian notes.

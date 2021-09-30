@@ -24,6 +24,7 @@ publish: true
 # Linter
 
 Repository: [GitHub](https://github.com/platers/obsidian-linter)
+Developed by: [[platers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Enforces consistent markdown styling.

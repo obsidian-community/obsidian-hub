@@ -24,6 +24,7 @@ publish: true
 # Hover External Link Plugin
 
 Repository: [GitHub](https://github.com/jamiebrynes7/obsidian-hover-external-link)
+Developed by: [[jamiebrynes7]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Hover on external links to see the destination URL.

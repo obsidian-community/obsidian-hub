@@ -24,6 +24,7 @@ publish: true
 # Maximise Active Pane
 
 Repository: [GitHub](https://github.com/deathau/maximise-active-pane-obsidian)
+Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Simply fills the workspace with the active pane

@@ -24,6 +24,7 @@ publish: true
 # Ledger
 
 Repository: [GitHub](https://github.com/tgrosinger/ledger-obsidian)
+Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Plain text accounting

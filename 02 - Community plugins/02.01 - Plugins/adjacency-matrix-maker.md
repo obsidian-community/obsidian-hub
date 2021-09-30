@@ -24,6 +24,7 @@ publish: true
 # Adjacency Matrix Maker
 
 Repository: [GitHub](https://github.com/SkepticMystic/adjacency-matrix-maker)
+Developed by: [[SkepticMystic]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Create an interactive image of an adjacency matrix of your vault

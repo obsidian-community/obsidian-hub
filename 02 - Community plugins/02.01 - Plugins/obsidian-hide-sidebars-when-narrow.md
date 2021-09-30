@@ -24,6 +24,7 @@ publish: true
 # Hide Sidebars When Narrow
 
 Repository: [GitHub](https://github.com/mybuddymichael/obsidian-hide-sidebars-when-narrow)
+Developed by: [[mybuddymichael]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Automatically hides the sidebars when your window is narrow.

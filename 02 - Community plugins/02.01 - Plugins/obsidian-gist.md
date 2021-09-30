@@ -24,6 +24,7 @@ publish: true
 # Gist
 
 Repository: [GitHub](https://github.com/linjunpop/obsidian-gist)
+Developed by: [[linjunpop]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a plugin to display the GitHub Gist.

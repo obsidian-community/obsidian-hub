@@ -1,6 +1,6 @@
 ---
 aliases:
-- Hulk
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/pgalliford/Obsidian-theme-Incredible-Hulk/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/pgalliford/Obsidian-theme-Incredible-Hulk?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/pgalliford/Obsidian-theme-Incredible-Hulk?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/pgalliford/Obsidian-theme-Incredible-Hulk/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/pgalliford/Obsidian-theme-Incredible-Hulk?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Hulk
 
 Repository: [GitHub](https://github.com/pgalliford/Obsidian-theme-Incredible-Hulk)
+Designed by: [[pgalliford]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/pgalliford/Obsidian-theme-Incredible-Hulk/raw/master/Screen Shot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

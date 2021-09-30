@@ -24,6 +24,7 @@ publish: true
 # PlantUML
 
 Repository: [GitHub](https://github.com/joethei/obsidian-plantuml)
+Developed by: [[joethei]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Render PlantUML Diagrams

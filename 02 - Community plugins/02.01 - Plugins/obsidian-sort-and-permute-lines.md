@@ -24,6 +24,7 @@ publish: true
 # Sort & Permute lines
 
 Repository: [GitHub](https://github.com/Vinzent03/obsidian-sort-and-permute-lines)
+Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 

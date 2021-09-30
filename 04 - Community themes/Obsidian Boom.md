@@ -1,6 +1,6 @@
 ---
 aliases:
-- Obsidian Boom
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/sainadh-d/obsidian-boom/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/sainadh-d/obsidian-boom?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/sainadh-d/obsidian-boom?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/sainadh-d/obsidian-boom/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/sainadh-d/obsidian-boom?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Obsidian Boom
 
 Repository: [GitHub](https://github.com/sainadh-d/obsidian-boom)
+Designed by: [[sainadh-d]]
+Modes: [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/sainadh-d/obsidian-boom/raw/master/roam-1.png)
 
 %% ----- Do not edit anything above this line ----- %% 

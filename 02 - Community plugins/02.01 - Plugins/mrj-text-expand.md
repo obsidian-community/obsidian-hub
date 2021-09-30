@@ -24,6 +24,7 @@ publish: true
 # Text expand
 
 Repository: [GitHub](https://github.com/mrjackphil/obsidian-text-expand)
+Developed by: [[mrjackphil]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Search and paste/transclude links to located files.

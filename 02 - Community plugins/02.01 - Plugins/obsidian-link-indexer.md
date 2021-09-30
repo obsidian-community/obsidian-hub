@@ -24,6 +24,7 @@ publish: true
 # Link indexer
 
 Repository: [GitHub](https://github.com/aviskase/obsidian-link-indexer)
+Developed by: [[aviskase]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Generate index notes with links based on various conditions

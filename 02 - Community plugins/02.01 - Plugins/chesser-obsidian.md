@@ -24,6 +24,7 @@ publish: true
 # Chesser
 
 Repository: [GitHub](https://github.com/SilentVoid13/Chesser)
+Developed by: [[SilentVoid13]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A chess game viewer/editor

@@ -24,6 +24,7 @@ publish: true
 # QR Code Generator Plugin
 
 Repository: [GitHub](https://github.com/rudimuc/obsidian-qrcode)
+Developed by: [[rudimuc]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a QR Code Generator plugin for Obsidian.

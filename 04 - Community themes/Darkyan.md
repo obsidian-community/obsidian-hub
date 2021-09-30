@@ -1,6 +1,6 @@
 ---
 aliases:
-- Darkyan
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/johackim/obsidian-darkyan/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/johackim/obsidian-darkyan?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/johackim/obsidian-darkyan?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/johackim/obsidian-darkyan/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/johackim/obsidian-darkyan?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Darkyan
 
 Repository: [GitHub](https://github.com/johackim/obsidian-darkyan)
+Designed by: [[johackim]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/johackim/obsidian-darkyan/raw/master/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

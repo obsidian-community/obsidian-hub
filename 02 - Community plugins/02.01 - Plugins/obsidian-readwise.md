@@ -24,6 +24,7 @@ publish: true
 # Readwise Community
 
 Repository: [GitHub](https://github.com/renehernandez/obsidian-readwise)
+Developed by: [[renehernandez]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Sync Readwise highlights into your notes

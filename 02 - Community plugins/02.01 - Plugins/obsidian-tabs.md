@@ -24,6 +24,7 @@ publish: true
 # Obsidian Tabs
 
 Repository: [GitHub](https://github.com/gitobsidiantutorial/obsidian-tabs)
+Developed by: [[gitobsidiantutorial]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Opens new leaves in tabs.

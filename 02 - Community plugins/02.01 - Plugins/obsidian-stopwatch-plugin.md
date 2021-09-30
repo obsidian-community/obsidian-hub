@@ -24,6 +24,7 @@ publish: true
 # Stopwatch Plugin
 
 Repository: [GitHub](https://github.com/tokuhirom/obsidian-stopwatch-plugin)
+Developed by: [[tokuhirom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Display stopwatch on Obsidian!

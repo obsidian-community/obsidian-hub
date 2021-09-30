@@ -24,6 +24,7 @@ publish: true
 # Zoom
 
 Repository: [GitHub](https://github.com/vslinko/obsidian-zoom)
+Developed by: [[vslinko]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Zoom into heading and lists.

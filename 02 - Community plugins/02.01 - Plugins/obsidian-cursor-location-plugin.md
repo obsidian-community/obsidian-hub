@@ -24,6 +24,7 @@ publish: true
 # Cursor Location
 
 Repository: [GitHub](https://github.com/spslater/obsidian-cursor-location-plugin)
+Developed by: [[spslater]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This displays the location of the cursor (character and line number).

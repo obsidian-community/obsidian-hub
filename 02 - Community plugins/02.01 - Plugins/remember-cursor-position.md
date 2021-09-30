@@ -24,6 +24,7 @@ publish: true
 # Remember cursor position
 
 Repository: [GitHub](https://github.com/derwish-pro/obsidian-remember-cursor-position)
+Developed by: [[derwish-pro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Remember cursor and scroll position for each note

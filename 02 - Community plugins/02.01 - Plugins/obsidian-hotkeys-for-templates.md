@@ -24,6 +24,7 @@ publish: true
 # Hotkeys for templates
 
 Repository: [GitHub](https://github.com/Vinzent03/obsidian-hotkeys-for-templates)
+Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Add hotkeys to insert specific templates

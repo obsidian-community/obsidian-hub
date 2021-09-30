@@ -1,6 +1,6 @@
 ---
 aliases:
-- Cybertron
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/nickmilo/Cybertron/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/nickmilo/Cybertron?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/nickmilo/Cybertron?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/nickmilo/Cybertron/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nickmilo/Cybertron?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Cybertron
 
 Repository: [GitHub](https://github.com/nickmilo/Cybertron)
+Designed by: [[nickmilo]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/nickmilo/Cybertron/raw/master/Cybertron.png)
 
 %% ----- Do not edit anything above this line ----- %% 

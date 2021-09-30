@@ -24,6 +24,7 @@ publish: true
 # Charts View
 
 Repository: [GitHub](https://github.com/caronchen/obsidian-chartsview-plugin)
+Developed by: [[caronchen]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a charts view plugin for Obsidian.

@@ -24,6 +24,7 @@ publish: true
 # Block Reference Counter
 
 Repository: [GitHub](https://github.com/shabegom/obsidian-reference-count)
+Developed by: [[shabegom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Shows the count of block references next to the block-id

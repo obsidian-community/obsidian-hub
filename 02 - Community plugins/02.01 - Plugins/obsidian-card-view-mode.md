@@ -24,6 +24,7 @@ publish: true
 # Card View Mode
 
 Repository: [GitHub](https://github.com/yo-goto/obsidian-card-view-mode)
+Developed by: [[yo-goto]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Enable to view your notes as cards.

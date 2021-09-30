@@ -24,6 +24,7 @@ publish: true
 # Image Toolkit
 
 Repository: [GitHub](https://github.com/sissilab/obsidian-image-toolkit)
+Developed by: [[sissilab]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 This plugin provides some image viewing toolkit.

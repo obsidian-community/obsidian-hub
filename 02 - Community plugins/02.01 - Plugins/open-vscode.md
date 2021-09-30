@@ -24,6 +24,7 @@ publish: true
 # Open vault in VSCode
 
 Repository: [GitHub](https://github.com/NomarCub/obsidian-open-vscode)
+Developed by: [[NomarCub]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Ribbon button and command to open vault as a Visual Studio Code workspace

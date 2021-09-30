@@ -24,6 +24,7 @@ publish: true
 # Footlinks
 
 Repository: [GitHub](https://github.com/DahaWong/obsidian-footlinks)
+Developed by: [[DahaWong]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Extracts links from the main text to footer.

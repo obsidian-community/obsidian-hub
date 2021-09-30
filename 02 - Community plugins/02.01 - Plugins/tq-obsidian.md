@@ -24,6 +24,7 @@ publish: true
 # tq
 
 Repository: [GitHub](https://github.com/tgrosinger/tq-obsidian)
+Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 File-based Task Management

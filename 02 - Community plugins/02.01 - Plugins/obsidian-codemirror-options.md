@@ -24,6 +24,7 @@ publish: true
 # CodeMirror Options
 
 Repository: [GitHub](https://github.com/nothingislost/obsidian-codemirror-options)
+Developed by: [[nothingislost]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Configure various CodeMirror options such as text selection and syntax highlighting

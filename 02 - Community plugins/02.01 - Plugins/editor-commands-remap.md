@@ -24,6 +24,7 @@ publish: true
 # Editor Commands Remap
 
 Repository: [GitHub](https://github.com/c4ctus5/editor-commands-remap)
+Developed by: [[c4ctus5]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Map hotkeys to editor commands.

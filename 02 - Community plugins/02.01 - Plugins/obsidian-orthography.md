@@ -24,6 +24,7 @@ publish: true
 # Obsidian Orthography
 
 Repository: [GitHub](https://github.com/denisoed/obsidian-orthography)
+Developed by: [[denisoed]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Obsidian plugin to check & fix orthography errors in text

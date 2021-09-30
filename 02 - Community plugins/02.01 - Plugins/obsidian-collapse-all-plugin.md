@@ -24,6 +24,7 @@ publish: true
 # Collapse All
 
 Repository: [GitHub](https://github.com/OfficerHalf/obsidian-collapse-all)
+Developed by: [[OfficerHalf]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin adds a button to collapse or expand all folders in the file explorer.

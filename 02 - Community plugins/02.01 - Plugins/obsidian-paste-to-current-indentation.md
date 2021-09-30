@@ -24,6 +24,7 @@ publish: true
 # Paste to Current Indentation
 
 Repository: [GitHub](https://github.com/jglev/obsidian-paste-to-current-indentation)
+Developed by: [[jglev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin allows pasting and marking text as block-quotes at any level of indentation.
