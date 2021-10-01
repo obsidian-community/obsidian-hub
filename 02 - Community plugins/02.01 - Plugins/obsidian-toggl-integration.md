@@ -23,7 +23,7 @@ publish: true
 
 # Toggl Track
 
-Repository: [GitHub](https://github.com/mcndt/obsidian-toggl-integration)
+Links: [GitHub repository](https://github.com/mcndt/obsidian-toggl-integration) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-toggl-integration)
 Developed by: [[mcndt]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

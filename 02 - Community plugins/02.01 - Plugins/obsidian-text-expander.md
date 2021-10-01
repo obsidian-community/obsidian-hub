@@ -23,7 +23,7 @@ publish: true
 
 # Text Expander
 
-Repository: [GitHub](https://github.com/konodyuk/obsidian-text-expander)
+Links: [GitHub repository](https://github.com/konodyuk/obsidian-text-expander) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-text-expander)
 Developed by: [[konodyuk]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

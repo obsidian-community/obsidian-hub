@@ -23,7 +23,7 @@ publish: true
 
 # Editor Commands Remap
 
-Repository: [GitHub](https://github.com/c4ctus5/editor-commands-remap)
+Links: [GitHub repository](https://github.com/c4ctus5/editor-commands-remap) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=editor-commands-remap)
 Developed by: [[c4ctus5]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

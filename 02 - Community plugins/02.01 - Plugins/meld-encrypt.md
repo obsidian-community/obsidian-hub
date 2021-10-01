@@ -23,7 +23,7 @@ publish: true
 
 # Meld Encrypt
 
-Repository: [GitHub](https://github.com/meld-cp/obsidian-encrypt)
+Links: [GitHub repository](https://github.com/meld-cp/obsidian-encrypt) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=meld-encrypt)
 Developed by: [[meld-cp]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # QR Code Generator Plugin
 
-Repository: [GitHub](https://github.com/rudimuc/obsidian-qrcode)
+Links: [GitHub repository](https://github.com/rudimuc/obsidian-qrcode) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-qrcode-plugin)
 Developed by: [[rudimuc]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

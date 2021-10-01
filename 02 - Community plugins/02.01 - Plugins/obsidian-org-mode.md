@@ -23,7 +23,7 @@ publish: true
 
 # Org Mode
 
-Repository: [GitHub](https://github.com/ryanpcmcquen/obsidian-org-mode)
+Links: [GitHub repository](https://github.com/ryanpcmcquen/obsidian-org-mode) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-org-mode)
 Developed by: [[ryanpcmcquen]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

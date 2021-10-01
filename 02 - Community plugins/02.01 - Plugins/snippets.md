@@ -23,7 +23,7 @@ publish: true
 
 # Snippets plugin
 
-Repository: [GitHub](https://github.com/cristianvasquez/obsidian-snippets-plugin)
+Links: [GitHub repository](https://github.com/cristianvasquez/obsidian-snippets-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=snippets)
 Developed by: [[cristianvasquez]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

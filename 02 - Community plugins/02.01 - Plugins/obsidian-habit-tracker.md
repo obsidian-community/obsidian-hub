@@ -23,7 +23,7 @@ publish: true
 
 # Habit Tracker
 
-Repository: [GitHub](https://github.com/duoani/obsidian-habit-tracker)
+Links: [GitHub repository](https://github.com/duoani/obsidian-habit-tracker) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-habit-tracker)
 Developed by: [[duoani]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

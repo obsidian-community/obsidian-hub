@@ -23,7 +23,7 @@ publish: true
 
 # Custom window title
 
-Repository: [GitHub](https://github.com/jplattel/open-note-to-window-title)
+Links: [GitHub repository](https://github.com/jplattel/open-note-to-window-title) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=open-note-to-window-title)
 Developed by: [[jplattel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

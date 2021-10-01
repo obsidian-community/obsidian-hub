@@ -23,7 +23,7 @@ publish: true
 
 # Linter
 
-Repository: [GitHub](https://github.com/platers/obsidian-linter)
+Links: [GitHub repository](https://github.com/platers/obsidian-linter) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-linter)
 Developed by: [[platers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

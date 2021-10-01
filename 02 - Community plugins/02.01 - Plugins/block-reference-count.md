@@ -23,7 +23,7 @@ publish: true
 
 # Block Reference Counter
 
-Repository: [GitHub](https://github.com/shabegom/obsidian-reference-count)
+Links: [GitHub repository](https://github.com/shabegom/obsidian-reference-count) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=block-reference-count)
 Developed by: [[shabegom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

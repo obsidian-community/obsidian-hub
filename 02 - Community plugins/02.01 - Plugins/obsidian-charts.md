@@ -23,7 +23,7 @@ publish: true
 
 # Obsidian Charts
 
-Repository: [GitHub](https://github.com/phibr0/obsidian-charts)
+Links: [GitHub repository](https://github.com/phibr0/obsidian-charts) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-charts)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Wikilinks to MDLinks
 
-Repository: [GitHub](https://github.com/agathauy/wikilinks-to-mdlinks-obsidian)
+Links: [GitHub repository](https://github.com/agathauy/wikilinks-to-mdlinks-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=wikilinks-to-mdlinks-obsidian)
 Developed by: [[agathauy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

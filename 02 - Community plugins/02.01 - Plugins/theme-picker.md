@@ -23,7 +23,7 @@ publish: true
 
 # Theme Picker
 
-Repository: [GitHub](https://github.com/kenset/obsidian-theme-picker)
+Links: [GitHub repository](https://github.com/kenset/obsidian-theme-picker) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=theme-picker)
 Developed by: [[kenset]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

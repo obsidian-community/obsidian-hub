@@ -23,7 +23,7 @@ publish: true
 
 # Search++
 
-Repository: [GitHub](https://github.com/https://github.com/nhaouari/searchpp)
+Links: [GitHub repository](https://github.com/https://github.com/nhaouari/searchpp) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=searchpp)
 Developed by: [[nhaouari]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Todoist Plugin
 
-Repository: [GitHub](https://github.com/jamiebrynes7/obsidian-todoist-plugin)
+Links: [GitHub repository](https://github.com/jamiebrynes7/obsidian-todoist-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=todoist-sync-plugin)
 Developed by: [[jamiebrynes7]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

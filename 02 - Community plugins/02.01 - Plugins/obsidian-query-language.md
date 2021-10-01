@@ -23,7 +23,7 @@ publish: true
 
 # Obsidian Query Language
 
-Repository: [GitHub](https://github.com/jplattel/obsidian-query-language)
+Links: [GitHub repository](https://github.com/jplattel/obsidian-query-language) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-query-language)
 Developed by: [[jplattel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

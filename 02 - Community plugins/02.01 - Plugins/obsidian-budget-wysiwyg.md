@@ -23,7 +23,7 @@ publish: true
 
 # Budget WYSIWYG
 
-Repository: [GitHub](https://github.com/OwnJoke/obsidian-budget-wysiwyg)
+Links: [GitHub repository](https://github.com/OwnJoke/obsidian-budget-wysiwyg) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-budget-wysiwyg)
 Developed by: [[OwnJoke]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

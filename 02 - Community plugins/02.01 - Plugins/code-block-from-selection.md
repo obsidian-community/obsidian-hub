@@ -23,7 +23,7 @@ publish: true
 
 # Code block from selection
 
-Repository: [GitHub](https://github.com/derwish-pro/obsidian-code-block-from-selection)
+Links: [GitHub repository](https://github.com/derwish-pro/obsidian-code-block-from-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=code-block-from-selection)
 Developed by: [[derwish-pro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

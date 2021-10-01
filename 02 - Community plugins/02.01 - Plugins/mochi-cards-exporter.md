@@ -23,7 +23,7 @@ publish: true
 
 # Mochi Cards Exporter
 
-Repository: [GitHub](https://github.com/kalbetredev/mochi-cards-exporter)
+Links: [GitHub repository](https://github.com/kalbetredev/mochi-cards-exporter) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mochi-cards-exporter)
 Developed by: [[kalbetredev]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

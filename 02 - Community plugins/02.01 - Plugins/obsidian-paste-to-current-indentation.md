@@ -23,7 +23,7 @@ publish: true
 
 # Paste to Current Indentation
 
-Repository: [GitHub](https://github.com/jglev/obsidian-paste-to-current-indentation)
+Links: [GitHub repository](https://github.com/jglev/obsidian-paste-to-current-indentation) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-paste-to-current-indentation)
 Developed by: [[jglev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

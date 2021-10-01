@@ -23,7 +23,7 @@ publish: true
 
 # Typewriter Scroll
 
-Repository: [GitHub](https://github.com/deathau/cm-typewriter-scroll-obsidian)
+Links: [GitHub repository](https://github.com/deathau/cm-typewriter-scroll-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cm-typewriter-scroll-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

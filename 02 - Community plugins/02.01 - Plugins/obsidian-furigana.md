@@ -23,7 +23,7 @@ publish: true
 
 # Furigana
 
-Repository: [GitHub](https://github.com/uonr/obsidian-furigana)
+Links: [GitHub repository](https://github.com/uonr/obsidian-furigana) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-furigana)
 Developed by: [[uonr]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

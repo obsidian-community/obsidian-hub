@@ -23,7 +23,7 @@ publish: true
 
 # Hotkeys for templates
 
-Repository: [GitHub](https://github.com/Vinzent03/obsidian-hotkeys-for-templates)
+Links: [GitHub repository](https://github.com/Vinzent03/obsidian-hotkeys-for-templates) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-hotkeys-for-templates)
 Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

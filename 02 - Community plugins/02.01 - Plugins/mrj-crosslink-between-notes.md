@@ -23,7 +23,7 @@ publish: true
 
 # Add links to current note
 
-Repository: [GitHub](https://github.com/mrjackphil/obsidian-crosslink-between-notes)
+Links: [GitHub repository](https://github.com/mrjackphil/obsidian-crosslink-between-notes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mrj-crosslink-between-notes)
 Developed by: [[mrjackphil]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

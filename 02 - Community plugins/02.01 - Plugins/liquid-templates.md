@@ -23,7 +23,7 @@ publish: true
 
 # Liquid Templates
 
-Repository: [GitHub](https://github.com/oeN/liquid-template)
+Links: [GitHub repository](https://github.com/oeN/liquid-template) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=liquid-templates)
 Developed by: [[oeN]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

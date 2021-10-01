@@ -23,7 +23,7 @@ publish: true
 
 # Sidebar Expand on Hover
 
-Repository: [GitHub](https://github.com/toiq/obsidian-sidebar-expand-on-hover)
+Links: [GitHub repository](https://github.com/toiq/obsidian-sidebar-expand-on-hover) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-sidebar-expand-on-hover)
 Developed by: [[toiq]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

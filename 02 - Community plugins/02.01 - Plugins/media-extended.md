@@ -23,7 +23,7 @@ publish: true
 
 # Media Extended
 
-Repository: [GitHub](https://github.com/aidenlx/media-extended)
+Links: [GitHub repository](https://github.com/aidenlx/media-extended) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=media-extended)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

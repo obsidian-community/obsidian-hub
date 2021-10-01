@@ -23,7 +23,7 @@ publish: true
 
 # Outliner
 
-Repository: [GitHub](https://github.com/vslinko/obsidian-outliner)
+Links: [GitHub repository](https://github.com/vslinko/obsidian-outliner) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-outliner)
 Developed by: [[vslinko]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

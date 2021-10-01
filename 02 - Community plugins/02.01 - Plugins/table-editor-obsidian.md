@@ -23,7 +23,7 @@ publish: true
 
 # Advanced Tables
 
-Repository: [GitHub](https://github.com/tgrosinger/advanced-tables-obsidian)
+Links: [GitHub repository](https://github.com/tgrosinger/advanced-tables-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=table-editor-obsidian)
 Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Random Structural Diary
 
-Repository: [GitHub](https://github.com/ShockThunder/RandomStructuralDiary)
+Links: [GitHub repository](https://github.com/ShockThunder/RandomStructuralDiary) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=random-structural-diary-plugin)
 Developed by: [[ShockThunder]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
