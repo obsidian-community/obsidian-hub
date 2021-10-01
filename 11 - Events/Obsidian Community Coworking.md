@@ -11,11 +11,14 @@ The Obsidian Community Coworking Space is for members of the Obsidian.md communi
 
 Link: [Topia - Obsidian Community Coworking](https://topia.io/obsidiancommunitycoworking)
 
-> **Note**
-> Don't disable audio or video for yourself.
-> 
-> Topia has a strange bug where if you disable either of those, you won't be able to hear others audio or view their screenshare/videos. If someone is broadcasting or speaking and you can't hear or see them, make sure to check your settings.
+## Tips When Using Topia
 
+**Don't disable your video.** Topia has a strange bug where if you disable it, you won't be able to view others screenshare/videos. If someone is broadcasting and you can't hear or see them, make sure to check your settings.
+
+**Workaround:** You can just screenshare a blank notepad window if you don't want to share video of yourself or your screen. 
+
+
+Also note: **Mute doesn't always work**, so be careful.
 
 
 # Courtyard
