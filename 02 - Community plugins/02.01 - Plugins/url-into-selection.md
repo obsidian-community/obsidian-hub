@@ -24,6 +24,7 @@ publish: true
 # Paste URL into selection
 
 Repository: [GitHub](https://github.com/denolehov/obsidian-url-into-selection)
+Developed by: [[denolehov]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Paste URL "into" selected text.

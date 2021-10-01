@@ -1,6 +1,6 @@
 ---
 aliases:
-- Suddha
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/dxcore35/Suddha-theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/dxcore35/Suddha-theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/dxcore35/Suddha-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/dxcore35/Suddha-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/dxcore35/Suddha-theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Suddha
 
 Repository: [GitHub](https://github.com/dxcore35/Suddha-theme)
+Designed by: [[dxcore35]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/dxcore35/Suddha-theme/raw/master/Images/Preview1.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 

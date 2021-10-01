@@ -24,6 +24,7 @@ publish: true
 # Text Snippets
 
 Repository: [GitHub](https://github.com/ArianaKhit/text-snippets-obsidian)
+Developed by: [[ArianaKhit]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Allows you to replace text templates for faster typing, create your own.

@@ -24,6 +24,7 @@ publish: true
 # Easy Typing
 
 Repository: [GitHub](https://github.com/Yaozhuwa/easy-typing-obsidian)
+Developed by: [[Yaozhuwa]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Autoformat your note as typing.(Auto captalize and autospace)

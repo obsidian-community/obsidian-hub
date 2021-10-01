@@ -1,6 +1,6 @@
 ---
 aliases:
-- Obsidianite
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/bennyxguo/Obsidian-Obsidianite/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bennyxguo/Obsidian-Obsidianite?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/bennyxguo/Obsidian-Obsidianite?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/bennyxguo/Obsidian-Obsidianite/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/bennyxguo/Obsidian-Obsidianite?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Obsidianite
 
 Repository: [GitHub](https://github.com/bennyxguo/Obsidian-Obsidianite)
+Designed by: [[bennyxguo]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/bennyxguo/Obsidian-Obsidianite/raw/main/images/demo1.png)
 
 %% ----- Do not edit anything above this line ----- %% 

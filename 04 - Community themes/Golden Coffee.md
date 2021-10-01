@@ -1,6 +1,6 @@
 ---
 aliases:
-- Golden Coffee
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/kinmury/GoldenCoffeeTheme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/kinmury/GoldenCoffeeTheme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/kinmury/GoldenCoffeeTheme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/kinmury/GoldenCoffeeTheme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/kinmury/GoldenCoffeeTheme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Golden Coffee
 
 Repository: [GitHub](https://github.com/kinmury/GoldenCoffeeTheme)
+Designed by: [[kinmury]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/kinmury/GoldenCoffeeTheme/raw/main/Screenshots/Showcase.png)
 
 %% ----- Do not edit anything above this line ----- %% 

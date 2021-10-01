@@ -24,6 +24,7 @@ publish: true
 # css snippets
 
 Repository: [GitHub](https://github.com/jdbrice/obsidian-css-snippets)
+Developed by: [[jdbrice]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Load and manage css snippets

@@ -24,6 +24,7 @@ publish: true
 # Podcast Note
 
 Repository: [GitHub](https://github.com/marcjulianschwarz/obsidian-podcast-note)
+Developed by: [[marcjulianschwarz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Podcast Note lets you automatically add podcast information to your notes.

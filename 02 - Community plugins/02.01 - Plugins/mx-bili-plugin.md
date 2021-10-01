@@ -24,6 +24,7 @@ publish: true
 # Media Extended BiliBili Plugin
 
 Repository: [GitHub](https://github.com/aidenlx/mx-bili-plugin)
+Developed by: [[aidenlx]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Add advanced bilibili videos support for Media Extended plugin

@@ -24,6 +24,7 @@ publish: true
 # Vim Input Method Switch
 
 Repository: [GitHub](https://github.com/yuanotes/obsidian-vim-im-switch-plugin)
+Developed by: [[yuanotes]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Switch input method with fcitx-remote when Vim keymap is enabled.

@@ -24,6 +24,7 @@ publish: true
 # Typewriter Scroll
 
 Repository: [GitHub](https://github.com/deathau/cm-typewriter-scroll-obsidian)
+Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Typewriter-style scrolling which keeps the view centered in the editor.

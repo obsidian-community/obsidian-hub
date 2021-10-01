@@ -24,6 +24,7 @@ publish: true
 # macOS Keyboard Navigation
 
 Repository: [GitHub](https://github.com/ryanjamurphy/macOS-keyboard-nav-obsidian)
+Developed by: [[ryanjamurphy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin adds alt+up arrow and alt+down arrow keyboard navigation to Obsidian.

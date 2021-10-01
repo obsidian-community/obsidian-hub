@@ -24,6 +24,7 @@ publish: true
 # Fountain
 
 Repository: [GitHub](https://github.com/Darakah/obsidian-fountain)
+Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Fountain Support for Obsidian

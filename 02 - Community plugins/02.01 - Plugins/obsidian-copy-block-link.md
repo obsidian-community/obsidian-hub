@@ -24,6 +24,7 @@ publish: true
 # Copy Block Link
 
 Repository: [GitHub](https://github.com/mgmeyers/obsidian-copy-block-link)
+Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Get links to blocks and headings from Obsidian's right click menu

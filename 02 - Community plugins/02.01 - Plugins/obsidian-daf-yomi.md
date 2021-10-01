@@ -24,6 +24,7 @@ publish: true
 # Daf Yomi
 
 Repository: [GitHub](https://github.com/lyonsquark/obsidian-daf-yomi)
+Developed by: [[lyonsquark]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Fill in Daf Yomi pages

@@ -15,6 +15,7 @@ publish: true
 
 - [[mrj-jump-to-link|Jump to link]]
 - [[darlal-switcher-plus|Quick Switcher++]]
+- [[obsidian-reveal-active-file|Automatically Reveal Active File]]
 - [[pane-relief|Pane Relief]]
 - [[obsidian-collapse-all-plugin|Collapse All]]
 - [[homepage|Homepage]]

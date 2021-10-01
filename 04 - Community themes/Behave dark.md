@@ -1,6 +1,6 @@
 ---
 aliases:
-- Behave dark
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/Chrismettal/Obsidian-Behave-dark/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Chrismettal/Obsidian-Behave-dark?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/Chrismettal/Obsidian-Behave-dark?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/Chrismettal/Obsidian-Behave-dark/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Chrismettal/Obsidian-Behave-dark?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Behave dark
 
 Repository: [GitHub](https://github.com/Chrismettal/Obsidian-Behave-dark)
+Designed by: [[Chrismettal]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/Chrismettal/Obsidian-Behave-dark/raw/main/Screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

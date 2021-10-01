@@ -24,6 +24,7 @@ publish: true
 # Icon Swapper
 
 Repository: [GitHub](https://github.com/mgmeyers/obsidian-icon-swapper)
+Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Allows swapping out Obsidian's default icons.

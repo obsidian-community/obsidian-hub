@@ -24,6 +24,7 @@ publish: true
 # Metatable
 
 Repository: [GitHub](https://github.com/arnau/obsidian-metatable)
+Developed by: [[arnau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Displays the full frontmatter as a table.

@@ -24,6 +24,7 @@ publish: true
 # Advanced Appearance
 
 Repository: [GitHub](https://github.com/kepano/obsidian-advanced-appearance)
+Developed by: [[kepano]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Change colors, fonts and other cosmetic settings.

@@ -14,6 +14,7 @@ Plugins help in editing like toolbars, auto-completions, sorting, ...
 ## Plugins in this category
 
 - [[table-editor-obsidian|Advanced Tables]]
+- [[cm-typewriter-scroll-obsidian|Typewriter Scroll Obsidian Plugin]]
 - [[obsidian-emoji-toolbar|Emoji Toolbar]]
 - [[completed-area|Completed Area]]
 - [[obsidian-citation-plugin|Citations]]
@@ -30,6 +31,7 @@ Plugins help in editing like toolbars, auto-completions, sorting, ...
 - [[obsidian-embedded-note-titles|Embedded Note Titles]]
 - [[cm-chs-patch|Word Splitting for Simplified Chinese in Edit Mode]]
 - [[table-extended|Table Extended]]
+- [[obsidian-pangu|Obsidian Pangu]]
 - [[obsidian-auto-pair-chinese-symbol|Auto pair chinese symbol]]
 - [[obsidian-dictionary-plugin|Dictionary]]
 - [[metaedit|MetaEdit]]

@@ -24,6 +24,7 @@ publish: true
 # Embedded Note Titles
 
 Repository: [GitHub](https://github.com/mgmeyers/obsidian-embedded-note-titles)
+Developed by: [[mgmeyers]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Inserts the note file name as an H1 heading above each note.

@@ -24,6 +24,7 @@ publish: true
 # Note Folder Autorename
 
 Repository: [GitHub](https://github.com/pjeby/note-folder-autorename)
+Developed by: [[pjeby]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Turn notes into folders and automaticaly move/rename their folders when they move or are renamed.

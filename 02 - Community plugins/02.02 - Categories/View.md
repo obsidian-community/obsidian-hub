@@ -13,6 +13,7 @@ Change views and display
 
 ## Plugins in this category
 
+- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
 - [[cm-show-whitespace-obsidian|Show Whitespace]]
 - [[table-editor-obsidian|Advanced Tables]]
 - [[obsidian-reading-time|Reading Time]]
@@ -21,6 +22,7 @@ Change views and display
 - [[obsidian-rtl|RTL Support]]
 - [[cycle-through-panes|Cycle through Panes]]
 - [[maximise-active-pane-obsidian|Maximise Active Pane]]
+- [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]]
 - [[obsidian-mind-map|Mind Map]]
 - [[neo4j-graph-view|Neo4j Graph View]]
 - [[obsidian-relative-line-numbers|Relative Line Numbers]]
@@ -30,6 +32,7 @@ Change views and display
 - [[obsidian-comments|Comments]]
 - [[obsidian-timelines|Timelines]]
 - [[obsidian-daily-stats|Daily Stats]]
+- [[open-note-to-window-title|Active note to window title]]
 - [[obsidian-gallery|Gallery]]
 - [[pane-relief|Pane Relief]]
 - [[obsidian-dice-roller|Dice Roller]]
@@ -60,10 +63,14 @@ Change views and display
 - [[obsidian-budget-wysiwyg|Budget WYSIWYG]]
 - [[customizable-sidebar|Customizable Sidebar]]
 - [[obsidian-hide-sidebars-when-narrow|Hide Sidebars When Narrow]]
+- [[obsidian-view-mode-by-frontmatter|Force note view mode by front matter]]
 - [[window-collapse|Window Collapse]]
+- [[obsidian-image-toolkit|Obsidian Image Toolkit]]
+- [[hover-external-link|Hover External Link]]
 - [[oz-image-plugin|Ozan's Image in Editor Plugin]]
 - [[obsidian-stille|Stille]]
 - [[obsidian-card-view-mode|Card View Mode]]
+- [[block-reference-count|Block Reference Counts]]
 
 ## Related categories
 

@@ -24,6 +24,7 @@ publish: true
 # Ghost Fade Focus
 
 Repository: [GitHub](https://github.com/skipadu/obsidian-ghost-fade-focus)
+Developed by: [[skipadu]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Focused on the current line, others faded like a ghost!

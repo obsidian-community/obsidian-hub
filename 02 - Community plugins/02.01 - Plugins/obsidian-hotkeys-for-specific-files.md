@@ -24,6 +24,7 @@ publish: true
 # Hotkeys for specific files
 
 Repository: [GitHub](https://github.com/Vinzent03/obsidian-hotkeys-for-specific-files)
+Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Set hotkeys for specific files and open them just with your keyboard.

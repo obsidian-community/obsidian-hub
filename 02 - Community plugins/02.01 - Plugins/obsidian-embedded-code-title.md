@@ -24,6 +24,7 @@ publish: true
 # Embedded Code Title
 
 Repository: [GitHub](https://github.com/tadashi-aikawa/obsidian-embedded-code-title)
+Developed by: [[tadashi-aikawa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is an Obsidian plugin which can embeds title to code blocks.

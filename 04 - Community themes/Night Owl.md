@@ -1,6 +1,6 @@
 ---
 aliases:
-- Night Owl
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/bencodezen/obsidian-night-owl-theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bencodezen/obsidian-night-owl-theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/bencodezen/obsidian-night-owl-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/bencodezen/obsidian-night-owl-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/bencodezen/obsidian-night-owl-theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Night Owl
 
 Repository: [GitHub](https://github.com/bencodezen/obsidian-night-owl-theme)
+Designed by: [[bencodezen]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/bencodezen/obsidian-night-owl-theme/raw/main/obsidian-night-owl-theme.png)
 
 %% ----- Do not edit anything above this line ----- %% 

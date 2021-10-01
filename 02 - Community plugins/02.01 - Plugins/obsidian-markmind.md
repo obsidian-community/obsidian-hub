@@ -24,7 +24,8 @@ publish: true
 # obsidian markmind
 
 Repository: [GitHub](https://github.com/MarkMindCkm/obsidian-markmind)
-Mobile compatible: [[Desktop-only plugins|No]]
+Developed by: [[MarkMindCkm]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a mindmap，outline and pdf annotate tool for obsidian.
 

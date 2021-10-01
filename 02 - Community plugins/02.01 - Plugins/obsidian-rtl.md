@@ -24,6 +24,7 @@ publish: true
 # RTL Support
 
 Repository: [GitHub](https://github.com/esm7/obsidian-rtl)
+Developed by: [[esm7]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Right to Left (RTL) text direction support for languages like Arabic, Hebrew and Farsi.

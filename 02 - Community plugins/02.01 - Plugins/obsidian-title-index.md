@@ -24,6 +24,7 @@ publish: true
 # obsidian-title-index
 
 Repository: [GitHub](https://github.com/renmu123/obsidian-markdown-index)
+Developed by: [[renmu123]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 obsidian-title-index

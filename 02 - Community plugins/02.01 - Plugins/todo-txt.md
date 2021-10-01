@@ -24,6 +24,7 @@ publish: true
 # Todo.txt support
 
 Repository: [GitHub](https://github.com/trashhalo/obsidian-todo-txt)
+Developed by: [[trashhalo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Native support for todo.txt files

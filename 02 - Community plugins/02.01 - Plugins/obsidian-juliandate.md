@@ -24,6 +24,7 @@ publish: true
 # Julian Date
 
 Repository: [GitHub](https://github.com/THeK3nger/obsidian-juliandate)
+Developed by: [[THeK3nger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Simple hotkey to insert the current Julian Date

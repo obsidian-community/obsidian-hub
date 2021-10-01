@@ -24,6 +24,7 @@ publish: true
 # 2Hop Links Plugin
 
 Repository: [GitHub](https://github.com/tokuhirom/obsidian-2hop-links-plugin)
+Developed by: [[tokuhirom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Add links to other pages at the bottom of the editor.

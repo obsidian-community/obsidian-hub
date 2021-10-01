@@ -1,6 +1,6 @@
 ---
 aliases:
-- Illusion
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/ZaherAlMajed/Illusion-Theme.md/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ZaherAlMajed/Illusion-Theme.md?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/ZaherAlMajed/Illusion-Theme.md?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/ZaherAlMajed/Illusion-Theme.md/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ZaherAlMajed/Illusion-Theme.md?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Illusion
 
 Repository: [GitHub](https://github.com/ZaherAlMajed/Illusion-Theme.md)
+Designed by: [[ZaherAlMajed]]
+Modes: [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/ZaherAlMajed/Illusion-Theme.md/raw/main/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

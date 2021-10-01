@@ -24,6 +24,7 @@ publish: true
 # Zoottelkeeper Plugin
 
 Repository: [GitHub](https://github.com/akosbalasko/zoottelkeeper-obsidian-plugin)
+Developed by: [[akosbalasko]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin automatically creates, maintains and tags MOCs for all your folders.

@@ -24,6 +24,7 @@ publish: true
 # Static File Server
 
 Repository: [GitHub](https://github.com/elias-sundqvist/obsidian-static-file-server)
+Developed by: [[elias-sundqvist]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Host obsidian subfolders as static file servers.

@@ -24,6 +24,7 @@ publish: true
 # Extract url content
 
 Repository: [GitHub](https://github.com/trashhalo/obsidian-extract-url)
+Developed by: [[trashhalo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Extract url converting content into markdown

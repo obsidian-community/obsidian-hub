@@ -1,6 +1,6 @@
 ---
 aliases:
-- California Coast
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/mgmeyers/obsidian-california-coast-theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mgmeyers/obsidian-california-coast-theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/mgmeyers/obsidian-california-coast-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/mgmeyers/obsidian-california-coast-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/mgmeyers/obsidian-california-coast-theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # California Coast
 
 Repository: [GitHub](https://github.com/mgmeyers/obsidian-california-coast-theme)
+Designed by: [[mgmeyers]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/mgmeyers/obsidian-california-coast-theme/raw/main/screenshots/04.png)
 
 %% ----- Do not edit anything above this line ----- %% 

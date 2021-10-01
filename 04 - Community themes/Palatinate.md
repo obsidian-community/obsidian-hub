@@ -1,6 +1,6 @@
 ---
 aliases:
-- Palatinate
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/eleanorkonik/-palatinate/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/eleanorkonik/-palatinate?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/eleanorkonik/-palatinate?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/eleanorkonik/-palatinate/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/eleanorkonik/-palatinate?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Palatinate
 
 Repository: [GitHub](https://github.com/eleanorkonik/-palatinate)
+Designed by: [[eleanorkonik]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/eleanorkonik/-palatinate/raw/main/palatinate.png)
 
 %% ----- Do not edit anything above this line ----- %% 

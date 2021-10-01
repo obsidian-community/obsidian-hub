@@ -24,6 +24,7 @@ publish: true
 # Better Word Count
 
 Repository: [GitHub](https://github.com/lukeleppan/better-word-count)
+Developed by: [[lukeleppan]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Counts the words of selected text in the editor.

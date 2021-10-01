@@ -15,6 +15,8 @@ Display notes as mindmap
 
 - [[obsidian-mind-map|Mind Map]]
 - [[obsidian-argdown-plugin|Argument Map with Argdown]]
+- [[obsidian-enhancing-mindmap|Enhancing mindmap]]
+- [[obsidian-markmind|Obsidian markmind]]
 
 ## Related categories
 

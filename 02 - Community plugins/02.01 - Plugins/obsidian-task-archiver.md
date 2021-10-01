@@ -24,6 +24,7 @@ publish: true
 # Obsidian Task Archiver
 
 Repository: [GitHub](https://github.com/ivan-lednev/obsidian-task-archiver)
+Developed by: [[ivan-lednev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Move completed tasks to an archive with a date tree

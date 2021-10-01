@@ -1,6 +1,6 @@
 ---
 aliases:
-- Everforest
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/mrglitchbyte/obsidian_everforest/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mrglitchbyte/obsidian_everforest?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/mrglitchbyte/obsidian_everforest?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/mrglitchbyte/obsidian_everforest/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/mrglitchbyte/obsidian_everforest?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Everforest
 
 Repository: [GitHub](https://github.com/mrglitchbyte/obsidian_everforest)
+Designed by: [[mrglitchbyte]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/mrglitchbyte/obsidian_everforest/raw/main/dark_v2.png)
 
 %% ----- Do not edit anything above this line ----- %% 

@@ -24,6 +24,7 @@ publish: true
 # Argument Map with Argdown
 
 Repository: [GitHub](https://github.com/amdecker/obsidian-argdown-plugin)
+Developed by: [[amdecker]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Allows you to write argdown codeblocks and view the maps in Preview

@@ -1,6 +1,6 @@
 ---
 aliases:
-- Big Sur Aesthetic
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/davidgolding/obsidian-big-sur-aesthetic/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/davidgolding/obsidian-big-sur-aesthetic?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/davidgolding/obsidian-big-sur-aesthetic?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/davidgolding/obsidian-big-sur-aesthetic/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/davidgolding/obsidian-big-sur-aesthetic?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Big Sur Aesthetic
 
 Repository: [GitHub](https://github.com/davidgolding/obsidian-big-sur-aesthetic)
+Designed by: [[davidgolding]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/davidgolding/obsidian-big-sur-aesthetic/raw/main/screenshot-hybrid.png)
 
 %% ----- Do not edit anything above this line ----- %% 

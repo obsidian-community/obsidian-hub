@@ -24,6 +24,7 @@ publish: true
 # Obsidian Query Language
 
 Repository: [GitHub](https://github.com/jplattel/obsidian-query-language)
+Developed by: [[jplattel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin allows you to query notes and represent data within Obsidian

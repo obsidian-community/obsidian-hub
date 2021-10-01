@@ -24,6 +24,7 @@ publish: true
 # Extract Highlights
 
 Repository: [GitHub](https://github.com/akaalias/extract-highlights-plugin)
+Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Create, extract and leverage your markdown highlights
