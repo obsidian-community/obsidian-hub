@@ -24,6 +24,7 @@ publish: true
 # File Tree Alternative Plugin
 
 Repository: [GitHub](https://github.com/ozntel/file-tree-alternative)
+Developed by: [[ozntel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin allows you to have an alternative file tree view.

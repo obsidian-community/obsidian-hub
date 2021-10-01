@@ -24,6 +24,7 @@ publish: true
 # Pomodoro Plugin
 
 Repository: [GitHub](https://github.com/tokuhirom/obsidian-pomodoro-plugin)
+Developed by: [[tokuhirom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a simple pomodoro plugin for Obsidian.

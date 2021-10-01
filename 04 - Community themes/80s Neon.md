@@ -1,6 +1,6 @@
 ---
 aliases:
-- 80s Neon
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/deathau/80s-Neon-for-Obsidian.md/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/deathau/80s-Neon-for-Obsidian.md?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/deathau/80s-Neon-for-Obsidian.md?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/deathau/80s-Neon-for-Obsidian.md/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/deathau/80s-Neon-for-Obsidian.md?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # 80s Neon
 
 Repository: [GitHub](https://github.com/deathau/80s-Neon-for-Obsidian.md)
+Designed by: [[deathau]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/deathau/80s-Neon-for-Obsidian.md/raw/master/screenshot.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 

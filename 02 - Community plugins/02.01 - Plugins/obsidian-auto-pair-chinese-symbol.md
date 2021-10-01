@@ -24,6 +24,7 @@ publish: true
 # Auto pair chinese symbol
 
 Repository: [GitHub](https://github.com/renmu123/obsidian-auto-pair-chinese-symbol)
+Developed by: [[renmu123]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Auto pair chinese symbol

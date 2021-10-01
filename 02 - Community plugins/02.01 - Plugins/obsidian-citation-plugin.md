@@ -24,6 +24,7 @@ publish: true
 # Citations
 
 Repository: [GitHub](https://github.com/hans/obsidian-citation-plugin)
+Developed by: [[hans]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Automatically search and insert citations from a Zotero library

@@ -24,6 +24,7 @@ publish: true
 # File Explorer Markdown Titles
 
 Repository: [GitHub](https://github.com/Dyldog/file-explorer-markdown-titles)
+Developed by: [[Dyldog]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Shows the first markdown header of a note in the file explorer

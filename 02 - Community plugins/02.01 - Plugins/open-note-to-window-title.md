@@ -24,6 +24,7 @@ publish: true
 # Custom window title
 
 Repository: [GitHub](https://github.com/jplattel/open-note-to-window-title)
+Developed by: [[jplattel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Allows template-based customization of the app window title

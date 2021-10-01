@@ -24,6 +24,7 @@ publish: true
 # Code block from selection
 
 Repository: [GitHub](https://github.com/derwish-pro/obsidian-code-block-from-selection)
+Developed by: [[derwish-pro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Adds code block for the selected text

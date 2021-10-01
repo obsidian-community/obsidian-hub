@@ -24,6 +24,7 @@ publish: true
 # Enhancing Mindmap
 
 Repository: [GitHub](https://github.com/MarkMindCkm/obsidian-enhancing-mindmap)
+Developed by: [[MarkMindCkm]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a enhancing mindmap plugin for Obsidian. You can edit mindmap on markdown.

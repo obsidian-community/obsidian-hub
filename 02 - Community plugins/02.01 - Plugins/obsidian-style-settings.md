@@ -24,6 +24,7 @@ publish: true
 # Style Settings
 
 Repository: [GitHub](https://github.com/mgmeyers/obsidian-style-settings)
+Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Offers controls for adjusting theme, plugin, and snippet CSS variables.

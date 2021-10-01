@@ -24,6 +24,7 @@ publish: true
 # Theme Picker
 
 Repository: [GitHub](https://github.com/kenset/obsidian-theme-picker)
+Developed by: [[kenset]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Quickly preview installed themes

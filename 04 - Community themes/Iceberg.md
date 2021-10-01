@@ -1,6 +1,6 @@
 ---
 aliases:
-- Iceberg
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/izumin5210/obsidian-iceberg/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/izumin5210/obsidian-iceberg?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/izumin5210/obsidian-iceberg?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/izumin5210/obsidian-iceberg/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/izumin5210/obsidian-iceberg?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Iceberg
 
 Repository: [GitHub](https://github.com/izumin5210/obsidian-iceberg)
+Designed by: [[izumin5210]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/izumin5210/obsidian-iceberg/raw/main/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

@@ -24,6 +24,7 @@ publish: true
 # Format Hotkeys
 
 Repository: [GitHub](https://github.com/anstosa/format-hotkeys-obsidian)
+Developed by: [[anstosa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Google Docs style formatting hotkeys for Obsidian

@@ -24,6 +24,7 @@ publish: true
 # Vimrc Support
 
 Repository: [GitHub](https://github.com/esm7/obsidian-vimrc-support)
+Developed by: [[esm7]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Auto-load a startup file with Obsidian Vim commands.

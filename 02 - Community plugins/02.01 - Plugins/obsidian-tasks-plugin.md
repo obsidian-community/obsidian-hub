@@ -24,6 +24,7 @@ publish: true
 # Tasks
 
 Repository: [GitHub](https://github.com/schemar/obsidian-tasks)
+Developed by: [[schemar]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Task management for Obsidian

@@ -24,6 +24,7 @@ publish: true
 # Kroki
 
 Repository: [GitHub](https://github.com/gregzuro/obsidian-kroki)
+Developed by: [[gregzuro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Render Kroki Diagrams

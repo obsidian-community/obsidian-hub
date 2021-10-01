@@ -24,6 +24,7 @@ publish: true
 # Obsidian_to_Anki
 
 Repository: [GitHub](https://github.com/Pseudonium/Obsidian_to_Anki)
+Developed by: [[Pseudonium]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 This is an Anki integration plugin! Designed for efficient bulk exporting.

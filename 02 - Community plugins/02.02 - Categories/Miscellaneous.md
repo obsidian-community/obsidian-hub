@@ -16,6 +16,7 @@ Can't categorize yet, to be minimized as possible
 - [[workbench-obsidian|Workbench]]
 - [[dangerzone-writing-plugin|Dangerzone Writing]]
 - [[obsidian-incremental-writing|Incremental Writing]]
+- [[obsimian-exporter|Obsimian]]
 - [[plugin-changelogs|Plugin Changelogs]]
 - [[obsidian-stopwatch-plugin|Stopwatch Plugin]]
 

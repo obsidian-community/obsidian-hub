@@ -24,6 +24,7 @@ publish: true
 # PDF to Markdown
 
 Repository: [GitHub](https://github.com/akaalias/obsidian-extract-pdf)
+Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.

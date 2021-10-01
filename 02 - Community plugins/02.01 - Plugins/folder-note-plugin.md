@@ -24,6 +24,7 @@ publish: true
 # Folder Note
 
 Repository: [GitHub](https://github.com/xpgo/obsidian-folder-note-plugin)
+Developed by: [[xpgo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Click a folder node to show a note describing the folder.

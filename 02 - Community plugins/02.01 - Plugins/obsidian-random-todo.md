@@ -24,6 +24,7 @@ publish: true
 # Random To-Do
 
 Repository: [GitHub](https://github.com/NatiAris/obsidian-random-todo)
+Developed by: [[NatiAris]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Open a random file containing your custom to-do marker, or a random marker at its position

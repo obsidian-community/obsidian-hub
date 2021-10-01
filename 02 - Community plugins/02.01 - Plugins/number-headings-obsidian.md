@@ -24,6 +24,7 @@ publish: true
 # Number Headings
 
 Repository: [GitHub](https://github.com/onlyafly/number-headings-obsidian)
+Developed by: [[onlyafly]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Automatically number or re-number headings in an Obsidian document

@@ -15,6 +15,7 @@ publish: true
 
 - [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]]
 - [[templater-obsidian|Templater]]
+- [[obsidian-temple|Temple]]
 - [[obsidian-metatemplates|metatemplates]]
 - [[page-heading-from-links|Page Heading From Links]]
 - [[obsidian-filename-heading-sync|Filename Heading Sync]]

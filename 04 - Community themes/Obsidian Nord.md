@@ -1,6 +1,6 @@
 ---
 aliases:
-- Obsidian Nord
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/insanum/obsidian_nord/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/insanum/obsidian_nord?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/insanum/obsidian_nord?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/insanum/obsidian_nord/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/insanum/obsidian_nord?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Obsidian Nord
 
 Repository: [GitHub](https://github.com/insanum/obsidian_nord)
+Designed by: [[insanum]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/insanum/obsidian_nord/raw/master/screen.png)
 
 %% ----- Do not edit anything above this line ----- %% 

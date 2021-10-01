@@ -24,6 +24,7 @@ publish: true
 # Mind Map
 
 Repository: [GitHub](https://github.com/lynchjames/obsidian-mind-map)
+Developed by: [[lynchjames]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A plugin to preview notes as Markmap mind maps

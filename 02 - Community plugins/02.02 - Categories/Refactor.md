@@ -24,6 +24,7 @@ Reformat note, doing much changes automatically
 - [[obsidian-tidy-footnotes|Tidy Footnotes]]
 - [[easy-typing-obsidian|Easy Typing]]
 - [[obsidian-smart-typography|Smart Typography]]
+- [[obsidian-title-index|Obsidian title index]]
 - [[obsidian-task-archiver|Obsidian Task Archiver]]
 
 ## Related categories

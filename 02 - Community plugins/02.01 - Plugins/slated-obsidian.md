@@ -24,6 +24,7 @@ publish: true
 # Slated
 
 Repository: [GitHub](https://github.com/tgrosinger/slated-obsidian)
+Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Task Management - schedule, move, and repeat tasks

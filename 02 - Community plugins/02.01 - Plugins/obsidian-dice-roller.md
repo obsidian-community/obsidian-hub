@@ -24,6 +24,7 @@ publish: true
 # Dice Roller
 
 Repository: [GitHub](https://github.com/valentine195/obsidian-dice-roller)
+Developed by: [[valentine195]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Inline dice rolling for Obsidian.md

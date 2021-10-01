@@ -24,6 +24,7 @@ publish: true
 # Obsidian Trello
 
 Repository: [GitHub](https://github.com/OfficerHalf/obsidian-trello)
+Developed by: [[OfficerHalf]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Connect an existing or new Trello card to an Obsidian note. Once connected, see basic info, and add and view comments.

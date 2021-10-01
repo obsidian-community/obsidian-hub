@@ -1,6 +1,6 @@
 ---
 aliases:
-- Mammoth
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/Wittionary/mammoth-obsidian-theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Wittionary/mammoth-obsidian-theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/Wittionary/mammoth-obsidian-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/Wittionary/mammoth-obsidian-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Wittionary/mammoth-obsidian-theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Mammoth
 
 Repository: [GitHub](https://github.com/Wittionary/mammoth-obsidian-theme)
+Designed by: [[Wittionary]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/Wittionary/mammoth-obsidian-theme/raw/master/screenshots/fullscreen-formatting-examples.png)
 
 %% ----- Do not edit anything above this line ----- %% 

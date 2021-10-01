@@ -20,6 +20,7 @@ Appearance, themes, colors, fonts, ..
 - [[css-snippets|css snippets]]
 - [[obsidian-contextual-typography|Contextual Typography]]
 - [[discordian-plugin|Discordian Theme]]
+- [[obsidian-icons-plugin|Icons Plugin]]
 - [[obsidian-admonition|Admonition]]
 - [[obsidian-style-settings|Style Settings]]
 - [[obsidian-highlightpublicnotes-plugin|Highlight Public Notes]]

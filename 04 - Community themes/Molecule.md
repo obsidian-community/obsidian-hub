@@ -1,6 +1,6 @@
 ---
 aliases:
-- Molecule
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/manassadasivuni/obsidian-molecule/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/manassadasivuni/obsidian-molecule?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/manassadasivuni/obsidian-molecule?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/manassadasivuni/obsidian-molecule/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/manassadasivuni/obsidian-molecule?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Molecule
 
 Repository: [GitHub](https://github.com/manassadasivuni/obsidian-molecule)
+Designed by: [[manassadasivuni]]
+Modes: [[Light-mode themes|light]]
 
 
+
+![screenshot](https://github.com/manassadasivuni/obsidian-molecule/raw/master/images/Screenshot1.png)
 
 %% ----- Do not edit anything above this line ----- %% 

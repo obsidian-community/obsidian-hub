@@ -24,6 +24,7 @@ publish: true
 # Quick Explorer
 
 Repository: [GitHub](https://github.com/pjeby/quick-explorer)
+Developed by: [[pjeby]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Perform file explorer operations (and see your current file path) from the title bar, using the mouse or keyboard

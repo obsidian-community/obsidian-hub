@@ -24,6 +24,7 @@ publish: true
 # Homepage
 
 Repository: [GitHub](https://github.com/mirnovov/obsidian-homepage)
+Developed by: [[mirnovov]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Open a specified note on startup.

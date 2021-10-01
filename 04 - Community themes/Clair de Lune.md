@@ -1,6 +1,6 @@
 ---
 aliases:
-- Clair de Lune
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/jamiebrynes7/clair-de-lune-obsidian-theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/jamiebrynes7/clair-de-lune-obsidian-theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/jamiebrynes7/clair-de-lune-obsidian-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/jamiebrynes7/clair-de-lune-obsidian-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jamiebrynes7/clair-de-lune-obsidian-theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Clair de Lune
 
 Repository: [GitHub](https://github.com/jamiebrynes7/clair-de-lune-obsidian-theme)
+Designed by: [[jamiebrynes7]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/jamiebrynes7/clair-de-lune-obsidian-theme/raw/master/assets/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

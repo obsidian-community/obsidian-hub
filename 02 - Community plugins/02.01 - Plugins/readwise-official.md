@@ -24,6 +24,7 @@ publish: true
 # Readwise Official
 
 Repository: [GitHub](https://github.com/readwiseio/obsidian-readwise)
+Developed by: [[readwiseio]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Official Readwise <-> Obsidian integration

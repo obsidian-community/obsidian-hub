@@ -24,6 +24,7 @@ publish: true
 # Supercharged Links
 
 Repository: [GitHub](https://github.com/mdelobelle/obsidian_supercharged_links)
+Developed by: [[mdelobelle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Adds properties and menu options to internal links

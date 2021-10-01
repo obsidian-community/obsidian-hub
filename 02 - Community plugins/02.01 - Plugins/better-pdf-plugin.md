@@ -24,6 +24,7 @@ publish: true
 # Better PDF Plugin
 
 Repository: [GitHub](https://github.com/MSzturc/obsidian-better-pdf-plugin)
+Developed by: [[MSzturc]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Goal of this Plugin in to implement a native PDF handling workflow

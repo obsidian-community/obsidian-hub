@@ -24,6 +24,7 @@ publish: true
 # Map View
 
 Repository: [GitHub](https://github.com/esm7/obsidian-map-view)
+Developed by: [[esm7]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 An interactive map view.

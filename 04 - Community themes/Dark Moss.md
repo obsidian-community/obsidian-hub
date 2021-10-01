@@ -1,6 +1,6 @@
 ---
 aliases:
-- Dark Moss
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/sergey900553/obsidian_githublike_theme/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/sergey900553/obsidian_githublike_theme?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/sergey900553/obsidian_githublike_theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/sergey900553/obsidian_githublike_theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/sergey900553/obsidian_githublike_theme?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Dark Moss
 
 Repository: [GitHub](https://github.com/sergey900553/obsidian_githublike_theme)
+Designed by: [[sergey900553]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/sergey900553/obsidian_githublike_theme/raw/main/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 

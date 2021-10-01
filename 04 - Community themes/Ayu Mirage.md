@@ -1,6 +1,6 @@
 ---
 aliases:
-- Ayu Mirage
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/bcdavasconcelos/Obsidian-Ayu_Mirage/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bcdavasconcelos/Obsidian-Ayu_Mirage?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/bcdavasconcelos/Obsidian-Ayu_Mirage?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/bcdavasconcelos/Obsidian-Ayu_Mirage/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/bcdavasconcelos/Obsidian-Ayu_Mirage?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Ayu Mirage
 
 Repository: [GitHub](https://github.com/bcdavasconcelos/Obsidian-Ayu_Mirage)
+Designed by: [[bcdavasconcelos]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-Ayu_Mirage/raw/master/ayu1.png)
 
 %% ----- Do not edit anything above this line ----- %% 

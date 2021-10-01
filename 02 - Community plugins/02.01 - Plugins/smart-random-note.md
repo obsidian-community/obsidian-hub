@@ -24,6 +24,7 @@ publish: true
 # Smart Random Note
 
 Repository: [GitHub](https://github.com/erichalldev/obsidian-smart-random-note)
+Developed by: [[erichalldev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A smart random note plugin

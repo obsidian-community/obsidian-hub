@@ -24,6 +24,7 @@ publish: true
 # Quick Switcher++
 
 Repository: [GitHub](https://github.com/darlal/obsidian-switcher-plus)
+Developed by: [[darlal]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Enhanced Quick Switcher, search open panels, and symbols.

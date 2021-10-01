@@ -24,6 +24,7 @@ publish: true
 # Obsidian Leaflet
 
 Repository: [GitHub](https://github.com/valentine195/obsidian-leaflet-plugin)
+Developed by: [[valentine195]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Interactive maps inside your notes

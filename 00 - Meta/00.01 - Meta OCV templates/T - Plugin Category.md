@@ -15,3 +15,9 @@ publish: true
 ## Plugins in this category
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
+
+## Related categories
+
+%% Add links to other 02.02 - Category notes %%
+
+#placeholder/notes

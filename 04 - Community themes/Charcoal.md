@@ -1,6 +1,6 @@
 ---
 aliases:
-- Charcoal
+- 
 tags: 
 - 
 publish: true
@@ -8,8 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/bcdavasconcelos/Obsidian-Charcoal/total?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bcdavasconcelos/Obsidian-Charcoal?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/bcdavasconcelos/Obsidian-Charcoal?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/bcdavasconcelos/Obsidian-Charcoal/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/bcdavasconcelos/Obsidian-Charcoal?color=573E7A&logo=github&style=for-the-badge)
 
@@ -23,7 +22,11 @@ publish: true
 # Charcoal
 
 Repository: [GitHub](https://github.com/bcdavasconcelos/Obsidian-Charcoal)
+Designed by: [[bcdavasconcelos]]
+Modes: [[Dark-mode themes|dark]]
 
 
+
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-Charcoal/raw/master/charcoal.png)
 
 %% ----- Do not edit anything above this line ----- %% 

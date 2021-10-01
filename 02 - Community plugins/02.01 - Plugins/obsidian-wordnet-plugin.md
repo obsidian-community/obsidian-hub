@@ -24,6 +24,7 @@ publish: true
 # Obsidian42 - WordNet Dictionary
 
 Repository: [GitHub](https://github.com/TfTHacker/Obsidian-WordNet)
+Developed by: [[TfTHacker]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 WordNet is a large lexical database of English developed by Princeton University.

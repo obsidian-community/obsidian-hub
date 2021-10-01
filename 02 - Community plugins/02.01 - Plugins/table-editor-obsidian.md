@@ -24,6 +24,7 @@ publish: true
 # Advanced Tables
 
 Repository: [GitHub](https://github.com/tgrosinger/advanced-tables-obsidian)
+Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Improved table navigation, formatting, manipulation, and formulas

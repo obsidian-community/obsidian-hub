@@ -18,6 +18,7 @@ Automate create, update, delete of notes
 - [[obsidian-paper-cut|PaperCut]]
 - [[text-snippets-obsidian|Text Snippets]]
 - [[buttons|Buttons]]
+- [[python-lab-plugin|Python lab plugin]]
 - [[obsidian-qrcode-plugin|QR Code Generator Plugin]]
 - [[oz-clear-unused-images|Clear Unused Images]]
 - [[obsidian-react-components|React Components]]
@@ -27,6 +28,7 @@ Automate create, update, delete of notes
 - [[obsidian-shellcommands|Shell commands]]
 - [[obsidian-autocomplete-plugin|Autocomplete]]
 - [[customjs|CustomJS]]
+- [[obsidian-jupyter|Jupyter]]
 
 ## Related categories
 

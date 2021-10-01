@@ -24,6 +24,7 @@ publish: true
 # Command Alias
 
 Repository: [GitHub](https://github.com/yajamon/obsidian-command-alias-plugin)
+Developed by: [[yajamon]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin gives aliases to Obsidian commands.

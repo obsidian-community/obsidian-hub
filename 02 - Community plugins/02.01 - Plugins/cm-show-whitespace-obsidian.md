@@ -24,6 +24,7 @@ publish: true
 # Show Whitespace
 
 Repository: [GitHub](https://github.com/deathau/cm-show-whitespace-obsidian)
+Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Show whitespace in the editor

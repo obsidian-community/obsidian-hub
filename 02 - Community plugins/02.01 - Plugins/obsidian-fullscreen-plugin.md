@@ -24,6 +24,7 @@ publish: true
 # Fullscreen mode plugin
 
 Repository: [GitHub](https://github.com/razumihin/obsidian-fullscreen-plugin)
+Developed by: [[razumihin]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin allows viewing a single document in fullscreen focus mode
