@@ -23,7 +23,7 @@ publish: true
 
 # Workspaces Plus
 
-Repository: [GitHub](https://github.com/nothingislost/obsidian-workspaces-plus)
+Links: [GitHub repository](https://github.com/nothingislost/obsidian-workspaces-plus) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=workspaces-plus)
 Developed by: [[nothingislost]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

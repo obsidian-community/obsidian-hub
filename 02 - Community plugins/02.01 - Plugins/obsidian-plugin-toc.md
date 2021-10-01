@@ -23,7 +23,7 @@ publish: true
 
 # Table of Contents
 
-Repository: [GitHub](https://github.com/hipstersmoothie/obsidian-plugin-toc)
+Links: [GitHub repository](https://github.com/hipstersmoothie/obsidian-plugin-toc) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plugin-toc)
 Developed by: [[hipstersmoothie]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

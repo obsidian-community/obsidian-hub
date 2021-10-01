@@ -23,7 +23,7 @@ publish: true
 
 # Sort & Permute lines
 
-Repository: [GitHub](https://github.com/Vinzent03/obsidian-sort-and-permute-lines)
+Links: [GitHub repository](https://github.com/Vinzent03/obsidian-sort-and-permute-lines) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-sort-and-permute-lines)
 Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

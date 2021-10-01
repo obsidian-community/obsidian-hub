@@ -23,7 +23,7 @@ publish: true
 
 # Julian Date
 
-Repository: [GitHub](https://github.com/THeK3nger/obsidian-juliandate)
+Links: [GitHub repository](https://github.com/THeK3nger/obsidian-juliandate) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-juliandate)
 Developed by: [[THeK3nger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

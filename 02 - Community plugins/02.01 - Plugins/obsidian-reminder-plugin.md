@@ -23,7 +23,7 @@ publish: true
 
 # Reminder
 
-Repository: [GitHub](https://github.com/uphy/obsidian-reminder)
+Links: [GitHub repository](https://github.com/uphy/obsidian-reminder) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-reminder-plugin)
 Developed by: [[uphy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

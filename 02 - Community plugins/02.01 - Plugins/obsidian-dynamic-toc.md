@@ -23,7 +23,7 @@ publish: true
 
 # Dynamic Table of Contents
 
-Repository: [GitHub](https://github.com/aidurber/obsidian-plugin-dynamic-toc)
+Links: [GitHub repository](https://github.com/aidurber/obsidian-plugin-dynamic-toc) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-dynamic-toc)
 Developed by: [[aidurber]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

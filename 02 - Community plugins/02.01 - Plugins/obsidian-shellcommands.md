@@ -23,7 +23,7 @@ publish: true
 
 # Shell commands
 
-Repository: [GitHub](https://github.com/Taitava/obsidian-shellcommands)
+Links: [GitHub repository](https://github.com/Taitava/obsidian-shellcommands) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-shellcommands)
 Developed by: [[Taitava]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

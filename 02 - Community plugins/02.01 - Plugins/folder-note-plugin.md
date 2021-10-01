@@ -23,7 +23,7 @@ publish: true
 
 # Folder Note
 
-Repository: [GitHub](https://github.com/xpgo/obsidian-folder-note-plugin)
+Links: [GitHub repository](https://github.com/xpgo/obsidian-folder-note-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=folder-note-plugin)
 Developed by: [[xpgo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

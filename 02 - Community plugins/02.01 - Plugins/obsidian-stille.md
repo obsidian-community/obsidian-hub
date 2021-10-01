@@ -23,7 +23,7 @@ publish: true
 
 # Stille
 
-Repository: [GitHub](https://github.com/michaellee/stille)
+Links: [GitHub repository](https://github.com/michaellee/stille) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-stille)
 Developed by: [[michaellee]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

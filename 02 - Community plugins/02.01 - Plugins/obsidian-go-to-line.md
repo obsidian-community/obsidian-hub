@@ -23,7 +23,7 @@ publish: true
 
 # Go to Line
 
-Repository: [GitHub](https://github.com/phibr0/obsidian-go-to-line)
+Links: [GitHub repository](https://github.com/phibr0/obsidian-go-to-line) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-go-to-line)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

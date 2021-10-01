@@ -23,7 +23,7 @@ publish: true
 
 # Taskbone OCR
 
-Repository: [GitHub](https://github.com/schlundd/obsidian-ocr-plugin)
+Links: [GitHub repository](https://github.com/schlundd/obsidian-ocr-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=taskbone-ocr-plugin)
 Developed by: [[schlundd]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

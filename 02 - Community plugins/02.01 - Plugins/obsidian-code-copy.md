@@ -23,7 +23,7 @@ publish: true
 
 # Code Copy
 
-Repository: [GitHub](https://github.com/superDuperCyberTechno/obsidian-code-copy)
+Links: [GitHub repository](https://github.com/superDuperCyberTechno/obsidian-code-copy) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-code-copy)
 Developed by: [[superDuperCyberTechno]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

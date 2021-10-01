@@ -53,7 +53,7 @@ def process_released_themes(overwrite=False):
         write_file(template, theme.get("name"), overwrite=overwrite, **theme)
 
 
-def get_uncategorized_plugins(overwrite=False):
+def get_uncategorized_plugins(overwrite=True):
     template = get_template("category")
 
     released_plugins = get_json_from_github(PLUGINS_JSON_FILE)
@@ -98,7 +98,7 @@ def main(argv=sys.argv[1:]):
 
     process_released_plugins(args.overwrite)
     process_released_themes(args.overwrite)
-    get_uncategorized_plugins(args.overwrite)
+    get_uncategorized_plugins()
 
 
 if __name__ == "__main__":

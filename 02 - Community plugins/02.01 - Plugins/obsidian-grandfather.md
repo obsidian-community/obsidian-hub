@@ -23,7 +23,7 @@ publish: true
 
 # Grandfather
 
-Repository: [GitHub](https://github.com/noatpad/obsidian-grandfather)
+Links: [GitHub repository](https://github.com/noatpad/obsidian-grandfather) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-grandfather)
 Developed by: [[noatpad]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

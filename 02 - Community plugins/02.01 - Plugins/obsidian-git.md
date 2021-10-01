@@ -23,7 +23,7 @@ publish: true
 
 # Obsidian Git
 
-Repository: [GitHub](https://github.com/denolehov/obsidian-git)
+Links: [GitHub repository](https://github.com/denolehov/obsidian-git) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-git)
 Developed by: [[denolehov]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

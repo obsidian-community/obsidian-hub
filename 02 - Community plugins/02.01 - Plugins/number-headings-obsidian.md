@@ -23,7 +23,7 @@ publish: true
 
 # Number Headings
 
-Repository: [GitHub](https://github.com/onlyafly/number-headings-obsidian)
+Links: [GitHub repository](https://github.com/onlyafly/number-headings-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=number-headings-obsidian)
 Developed by: [[onlyafly]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

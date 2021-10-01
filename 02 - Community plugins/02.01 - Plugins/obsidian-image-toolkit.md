@@ -23,7 +23,7 @@ publish: true
 
 # Image Toolkit
 
-Repository: [GitHub](https://github.com/sissilab/obsidian-image-toolkit)
+Links: [GitHub repository](https://github.com/sissilab/obsidian-image-toolkit) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-image-toolkit)
 Developed by: [[sissilab]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Customizable Sidebar
 
-Repository: [GitHub](https://github.com/phibr0/obsidian-customizable-sidebar)
+Links: [GitHub repository](https://github.com/phibr0/obsidian-customizable-sidebar) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=customizable-sidebar)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

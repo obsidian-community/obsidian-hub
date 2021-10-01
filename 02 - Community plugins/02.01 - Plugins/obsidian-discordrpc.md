@@ -23,7 +23,7 @@ publish: true
 
 # Discord Rich Presence
 
-Repository: [GitHub](https://github.com/lukeleppan/obsidian-discordrpc)
+Links: [GitHub repository](https://github.com/lukeleppan/obsidian-discordrpc) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-discordrpc)
 Developed by: [[lukeleppan]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

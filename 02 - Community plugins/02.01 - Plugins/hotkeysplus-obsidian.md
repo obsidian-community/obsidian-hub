@@ -23,7 +23,7 @@ publish: true
 
 # Hotkeys++
 
-Repository: [GitHub](https://github.com/argenos/hotkeysplus-obsidian)
+Links: [GitHub repository](https://github.com/argenos/hotkeysplus-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=hotkeysplus-obsidian)
 Developed by: [[argenos]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

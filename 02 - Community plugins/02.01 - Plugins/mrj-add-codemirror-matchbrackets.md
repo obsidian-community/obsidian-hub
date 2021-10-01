@@ -23,7 +23,7 @@ publish: true
 
 # Add Codemirror matchbrackets.js
 
-Repository: [GitHub](https://github.com/mrjackphil/obsidian-add-codemirror-matchbrackets)
+Links: [GitHub repository](https://github.com/mrjackphil/obsidian-add-codemirror-matchbrackets) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mrj-add-codemirror-matchbrackets)
 Developed by: [[mrjackphil]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

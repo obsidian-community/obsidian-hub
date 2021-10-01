@@ -23,7 +23,7 @@ publish: true
 
 # Adjacency Matrix Maker
 
-Repository: [GitHub](https://github.com/SkepticMystic/adjacency-matrix-maker)
+Links: [GitHub repository](https://github.com/SkepticMystic/adjacency-matrix-maker) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=adjacency-matrix-maker)
 Developed by: [[SkepticMystic]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

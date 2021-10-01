@@ -23,7 +23,7 @@ publish: true
 
 # Better footnote
 
-Repository: [GitHub](https://github.com/aidenlx/better-fn)
+Links: [GitHub repository](https://github.com/aidenlx/better-fn) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=better-fn)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

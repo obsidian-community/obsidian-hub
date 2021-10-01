@@ -23,7 +23,7 @@ publish: true
 
 # Obsimian Exporter
 
-Repository: [GitHub](https://github.com/motif-software/obsimian)
+Links: [GitHub repository](https://github.com/motif-software/obsimian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsimian-exporter)
 Developed by: [[motif-software]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

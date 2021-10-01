@@ -23,7 +23,7 @@ publish: true
 
 # Unique attachments
 
-Repository: [GitHub](https://github.com/derwish-pro/obsidian-unique-attachments)
+Links: [GitHub repository](https://github.com/derwish-pro/obsidian-unique-attachments) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=unique-attachments)
 Developed by: [[derwish-pro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

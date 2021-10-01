@@ -23,7 +23,7 @@ publish: true
 
 # Imdone Obsidian Plugin
 
-Repository: [GitHub](https://github.com/imdone/imdone-obsidian-plugin)
+Links: [GitHub repository](https://github.com/imdone/imdone-obsidian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=imdone-obsidian-plugin)
 Developed by: [[imdone]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

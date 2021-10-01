@@ -23,7 +23,7 @@ publish: true
 
 # 盘古
 
-Repository: [GitHub](https://github.com/Natumsol/obsidian-pangu)
+Links: [GitHub repository](https://github.com/Natumsol/obsidian-pangu) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pangu)
 Developed by: [[Natumsol]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

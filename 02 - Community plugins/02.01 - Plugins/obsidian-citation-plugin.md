@@ -23,7 +23,7 @@ publish: true
 
 # Citations
 
-Repository: [GitHub](https://github.com/hans/obsidian-citation-plugin)
+Links: [GitHub repository](https://github.com/hans/obsidian-citation-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-citation-plugin)
 Developed by: [[hans]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

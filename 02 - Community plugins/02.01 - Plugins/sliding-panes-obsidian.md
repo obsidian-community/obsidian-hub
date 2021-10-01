@@ -23,7 +23,7 @@ publish: true
 
 # Sliding Panes (Andy's Mode)
 
-Repository: [GitHub](https://github.com/deathau/sliding-panes-obsidian)
+Links: [GitHub repository](https://github.com/deathau/sliding-panes-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=sliding-panes-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

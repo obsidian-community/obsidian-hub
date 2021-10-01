@@ -23,7 +23,7 @@ publish: true
 
 # Discordian Theme
 
-Repository: [GitHub](https://github.com/radekkozak/discordian-plugin)
+Links: [GitHub repository](https://github.com/radekkozak/discordian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=discordian-plugin)
 Developed by: [[radekkozak]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

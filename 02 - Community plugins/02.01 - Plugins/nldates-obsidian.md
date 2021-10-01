@@ -23,7 +23,7 @@ publish: true
 
 # Natural Language Dates
 
-Repository: [GitHub](https://github.com/argenos/nldates-obsidian)
+Links: [GitHub repository](https://github.com/argenos/nldates-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=nldates-obsidian)
 Developed by: [[argenos]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Beeminder Word Count Plugin
 
-Repository: [GitHub](https://github.com/kenzan100/beeminder-obsidian-word-count)
+Links: [GitHub repository](https://github.com/kenzan100/beeminder-obsidian-word-count) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=beeminder-word-count-plugin)
 Developed by: [[kenzan100]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

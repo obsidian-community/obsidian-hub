@@ -23,7 +23,7 @@ publish: true
 
 # Emoji Shortcodes
 
-Repository: [GitHub](https://github.com/phibr0/obsidian-emoji-shortcodes)
+Links: [GitHub repository](https://github.com/phibr0/obsidian-emoji-shortcodes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=emoji-shortcodes)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

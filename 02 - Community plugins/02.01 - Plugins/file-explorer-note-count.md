@@ -23,7 +23,7 @@ publish: true
 
 # File Explorer Note Count
 
-Repository: [GitHub](https://github.com/ozntel/file-explorer-note-count)
+Links: [GitHub repository](https://github.com/ozntel/file-explorer-note-count) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=file-explorer-note-count)
 Developed by: [[ozntel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

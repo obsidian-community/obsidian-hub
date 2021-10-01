@@ -23,7 +23,7 @@ publish: true
 
 # Reset Font Size
 
-Repository: [GitHub](https://github.com/luckman212/obsidian-reset-font-size)
+Links: [GitHub repository](https://github.com/luckman212/obsidian-reset-font-size) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-reset-font-size)
 Developed by: [[luckman212]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Contextual Typography
 
-Repository: [GitHub](https://github.com/mgmeyers/obsidian-contextual-typography)
+Links: [GitHub repository](https://github.com/mgmeyers/obsidian-contextual-typography) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-contextual-typography)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
