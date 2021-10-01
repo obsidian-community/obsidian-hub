@@ -17,7 +17,7 @@ publish: true
 %% ----- Badges ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
+Sponsor this work: https://ko-fi.com/skepticmystic #placeholder/author
 
 %% ----- Do not edit this section ----- %%
 
