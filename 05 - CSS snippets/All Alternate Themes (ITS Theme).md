@@ -15,6 +15,7 @@ publish: true
 %% Paste your template below %%
 
 [**Grab CSS Snippet Here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Theme%20-%20All%20Alternate%20Themes.css)
+Snippet utilizes the [[obsidian-style-settings|Style Settings]] plugin.
 
 %% Add a screenshot of the effect this snippet produces with edit and preview mode visible %%
 
