@@ -1,5 +1,8 @@
 ---
 aliases: 
+- YouTube Video
+- YouTube Channel
+- YouTube Playlist
 - YouTube Videos, Channels and Playlists
 tags:
 - seedling

@@ -1,6 +1,6 @@
 ---
 aliases: 
-- 
+- Publish
 tags:
 - seedling
 publish: true
