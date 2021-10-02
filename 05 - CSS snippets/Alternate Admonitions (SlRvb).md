@@ -29,3 +29,6 @@ Primary purpose of this snippet is getting [[obsidian-admonition|Admonitions]] t
 **Titling the Admonition:** `==**Title**==`
 
 ---
+[![](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Admonition-Dark.png)](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Admonition-Dark.png)
+
+[![](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Admonition-Light.png)](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Admonition-Light.png)
