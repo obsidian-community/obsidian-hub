@@ -43,6 +43,8 @@ Features of **ITS Theme** available as snippets:
 
 - [[Image Adjustments]]
 
+- [[Embed Adjustments]]
+
 - [[Kanban (SlRvb)|Kanban]]
 
 - [[Asides (SlRvb)|Asides]]

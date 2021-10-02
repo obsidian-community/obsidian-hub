@@ -10,9 +10,9 @@ publish: true
 
 %% Add a description below and remove the tag. What do you use this css snippet for? Feel free to add links to other existing notes! %% 
 
-> The **Image Adjustments** snippet allows you to move/position and re-size images in your notes within your Obsidian vault.
+> Move/position and re-size the images in your notes within your Obsidian vault.
 
-**⚠ Note:** Might not be 100% compatible with [Lithou's Image Flags snippet.](https://github.com/Lithou/Sandbox/blob/main/.obsidian/snippets/pub-Image%20Flags.css).
+**⚠ Note:** Might not be 100% compatible with [Lithou's Image Flags snippet.](https://github.com/Lithou/Sandbox/blob/main/.obsidian/snippets/pub-Image%20Flags.css). Image grid doesn't quite work with externally images `[]()`as nicely as internally linked ones.
 
 %% Paste your template below %%
 
