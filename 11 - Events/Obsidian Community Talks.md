@@ -1,6 +1,6 @@
 ---
 aliases: 
-- 
+- Obsidian Community Talk
 tags:
 - seedling
 publish: true
@@ -35,8 +35,34 @@ You can then go over to this thread to vote for the talks you're interested in: 
 
 ## Talks
 
-#placeholder/link 
 
-### Original Inspiration ✨ 
+### Upcoming talks
+
+<iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showCalendars=0&mode=AGENDA&title=Obsidian%20Community%20Talks&hl=en_GB&src=cHU0bmwwc2tqZnVnOTE0NzR0Y3VvYjh0dDBkMTFjbG9AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+
+- [[Obsidian and TTPRG]]
+- [[How to create your own Obsidian plugin]]
+
+### Previous talks
+
+- [[YT - An Introduction to Dataview|An Introduction to Dataview]]
+- [[Zotero 101]]
+- [[Note-taking for University Students]]
+- [[CSS 101 - Community Talk]]
+- [[Deep Learning on Networks]]
+- [[Metadata Group Discussion]]
+- [[Knowledge Organization, Cataloguing and Classification in Obsidian]]
+- [[Pandoc and Obsidian - Create slideshows, PDFs and Word documents]]
+- [[What your vault knows]]
+- [[Spaced repetition - An Introduction]]
+- [[Breadcrumbs Showcase]]
+- [[Image Adjustment Snippets - ITS Theme]]
+- [[Customizable workspaces]]
+- [[Introduction to Buttons]]
+- [[Journaling Showcase]]
+- [[Obsidian 101]]
+- [[Project management for fiction writing]]
+
+## Original Inspiration ✨ 
 
 View [this post](https://forum.obsidian.md/t/online-user-group-talks-discussions/15268) in the Obsidian forum to see where the original organisation happened.
