@@ -9,7 +9,7 @@ publish: true
 
 # Vim
 
-Plugins related to Vim mode
+Plugins related to [[Vim]] mode
 
 ## Plugins in this category
 

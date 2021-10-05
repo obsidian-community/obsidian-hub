@@ -95,7 +95,7 @@ In addition to storing all the note attachments in this folder, here we collect 
 
 - [[YouTube| YouTube Videos, Channels and Playlists]]
 - [[T - Blog posts]] or [[Websites]]
-- [[Ancilliary tools]]
+- [[Ancillary tools]]
 - [[Publish sites]] and other [[Digital garden]]
 
 #### [[11 - Events]]
