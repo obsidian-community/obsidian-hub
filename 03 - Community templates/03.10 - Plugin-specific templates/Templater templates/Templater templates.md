@@ -1,6 +1,7 @@
 ---
 aliases:
-- 
+- Scripts
+- Templater scripts
 tags:
 - MOC
 ---

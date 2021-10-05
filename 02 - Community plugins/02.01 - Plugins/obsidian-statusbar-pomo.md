@@ -2,6 +2,7 @@
 plugin-id: obsidian-statusbar-pomo
 aliases:
 - Status Bar Pomodoro Timer
+- status bar pomodoro
 tags: 
 - 
 publish: true

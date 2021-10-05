@@ -2,6 +2,7 @@
 plugin-id: oz-image-plugin
 aliases:
 - Ozan's Image in Editor Plugin
+- Image in Editor
 tags: 
 - 
 publish: true

@@ -2,6 +2,7 @@
 plugin-id: obsidian-dictionary-plugin
 aliases:
 - Dictionary
+- Obsidian Dictionary plugin
 tags: 
 - 
 publish: true

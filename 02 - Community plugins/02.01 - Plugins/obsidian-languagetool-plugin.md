@@ -2,6 +2,7 @@
 plugin-id: obsidian-languagetool-plugin
 aliases:
 - LanguageTool Integration
+- LanguageTool plugin
 tags: 
 - 
 publish: true
