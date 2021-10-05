@@ -8,6 +8,7 @@ tags:
 # An Introduction to [[Dataview]]
 
 By [[SkepticMystic]]
+Slides [[An Introduction to Dataview]]
 
 %% Add one or two sentences describing the video and link it to at least one other note %%
 #placeholder/description 
