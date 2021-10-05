@@ -1,7 +1,7 @@
 ---
 author: SkepticMystic
 aliases: 
-- Pandoc
+- Using Pandoc inside Obsidian
 tags:
 - seedling
 publish: true
