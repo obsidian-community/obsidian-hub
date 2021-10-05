@@ -12,7 +12,7 @@ publish: true
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 
 The markdown slides from my [[Obsidian Community Talks|Community Talk]] on [[YT - An Introduction to Dataview|An Introduction to Dataview]].
-You can convert these slides to [revealjs](https://revealjs.com/) by [[Using Pandoc inside Obsidian|using Pandoc]].
+You can convert these slides to [[revealjs]] by [[Using Pandoc inside Obsidian|using Pandoc]].
 
 By [[SkepticMystic]]
 
