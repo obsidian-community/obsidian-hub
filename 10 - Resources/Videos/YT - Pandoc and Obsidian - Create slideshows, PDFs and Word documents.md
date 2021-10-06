@@ -22,5 +22,7 @@ In this video, [[SkepticMystic]] discusses [[pandoc]] and how it can be used to 
 - 42:06 [[Revealjs]] slideshows
 - 48:38 Q&A
 
+The slides can be found here: [[Using Pandoc inside Obsidian]]
+
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/yYZiO6CVtj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
