@@ -23,7 +23,7 @@ publish: true
 
 # Readwise Official
 
-Repository: [GitHub](https://github.com/readwiseio/obsidian-readwise)
+Links: [GitHub repository](https://github.com/readwiseio/obsidian-readwise) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=readwise-official)
 Developed by: [[readwiseio]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

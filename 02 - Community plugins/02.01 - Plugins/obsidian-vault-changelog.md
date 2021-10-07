@@ -23,7 +23,7 @@ publish: true
 
 # Vault Changelog
 
-Repository: [GitHub](https://github.com/mrzeroo00/obsidian-vault-changelog)
+Links: [GitHub repository](https://github.com/mrzeroo00/obsidian-vault-changelog) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-vault-changelog)
 Developed by: [[mrzeroo00]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

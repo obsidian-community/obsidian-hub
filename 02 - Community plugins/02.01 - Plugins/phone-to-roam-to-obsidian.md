@@ -23,7 +23,7 @@ publish: true
 
 # Phone to Roam to Obsidian
 
-Repository: [GitHub](https://github.com/dgarrett/phone-to-roam-to-obsidian)
+Links: [GitHub repository](https://github.com/dgarrett/phone-to-roam-to-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=phone-to-roam-to-obsidian)
 Developed by: [[dgarrett]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

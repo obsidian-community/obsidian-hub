@@ -23,7 +23,7 @@ publish: true
 
 # Text Snippets
 
-Repository: [GitHub](https://github.com/ArianaKhit/text-snippets-obsidian)
+Links: [GitHub repository](https://github.com/ArianaKhit/text-snippets-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=text-snippets-obsidian)
 Developed by: [[ArianaKhit]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

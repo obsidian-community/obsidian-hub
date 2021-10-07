@@ -23,7 +23,7 @@ publish: true
 
 # tq
 
-Repository: [GitHub](https://github.com/tgrosinger/tq-obsidian)
+Links: [GitHub repository](https://github.com/tgrosinger/tq-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=tq-obsidian)
 Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

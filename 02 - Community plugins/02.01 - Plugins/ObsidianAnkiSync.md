@@ -23,7 +23,7 @@ publish: true
 
 # Obsidian Anki Sync
 
-Repository: [GitHub](https://github.com/debanjandhar12/Obsidian-Anki-Sync)
+Links: [GitHub repository](https://github.com/debanjandhar12/Obsidian-Anki-Sync) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=ObsidianAnkiSync)
 Developed by: [[debanjandhar12]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

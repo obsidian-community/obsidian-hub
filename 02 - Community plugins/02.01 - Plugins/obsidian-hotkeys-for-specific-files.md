@@ -23,7 +23,7 @@ publish: true
 
 # Hotkeys for specific files
 
-Repository: [GitHub](https://github.com/Vinzent03/obsidian-hotkeys-for-specific-files)
+Links: [GitHub repository](https://github.com/Vinzent03/obsidian-hotkeys-for-specific-files) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-hotkeys-for-specific-files)
 Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

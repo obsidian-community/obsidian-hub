@@ -23,7 +23,7 @@ publish: true
 
 # Activity History
 
-Repository: [GitHub](https://github.com/Darakah/obsidian-activity-history)
+Links: [GitHub repository](https://github.com/Darakah/obsidian-activity-history) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-activity-history)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Breadcrumbs
 
-Repository: [GitHub](https://github.com/SkepticMystic/breadcrumbs)
+Links: [GitHub repository](https://github.com/SkepticMystic/breadcrumbs) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=breadcrumbs)
 Developed by: [[SkepticMystic]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

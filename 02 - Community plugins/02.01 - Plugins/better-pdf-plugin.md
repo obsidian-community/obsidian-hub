@@ -23,7 +23,7 @@ publish: true
 
 # Better PDF Plugin
 
-Repository: [GitHub](https://github.com/MSzturc/obsidian-better-pdf-plugin)
+Links: [GitHub repository](https://github.com/MSzturc/obsidian-better-pdf-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=better-pdf-plugin)
 Developed by: [[MSzturc]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Admonition
 
-Repository: [GitHub](https://github.com/valentine195/obsidian-admonition)
+Links: [GitHub repository](https://github.com/valentine195/obsidian-admonition) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-admonition)
 Developed by: [[valentine195]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

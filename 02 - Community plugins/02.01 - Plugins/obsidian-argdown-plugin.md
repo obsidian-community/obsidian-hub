@@ -23,7 +23,7 @@ publish: true
 
 # Argument Map with Argdown
 
-Repository: [GitHub](https://github.com/amdecker/obsidian-argdown-plugin)
+Links: [GitHub repository](https://github.com/amdecker/obsidian-argdown-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-argdown-plugin)
 Developed by: [[amdecker]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

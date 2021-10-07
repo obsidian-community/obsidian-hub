@@ -23,7 +23,7 @@ publish: true
 
 # Flashcards
 
-Repository: [GitHub](https://github.com/reuseman/flashcards-obsidian)
+Links: [GitHub repository](https://github.com/reuseman/flashcards-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=flashcards-obsidian)
 Developed by: [[reuseman]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Related Notes Finder
 
-Repository: [GitHub](https://github.com/lifegems/obsidian-related-notes-finder)
+Links: [GitHub repository](https://github.com/lifegems/obsidian-related-notes-finder) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-related-notes-finder)
 Developed by: [[lifegems]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

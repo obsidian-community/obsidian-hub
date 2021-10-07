@@ -23,7 +23,7 @@ publish: true
 
 # Open Link With
 
-Repository: [GitHub](https://github.com/MamoruDS/obsidian-open-link-with)
+Links: [GitHub repository](https://github.com/MamoruDS/obsidian-open-link-with) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-open-link-with)
 Developed by: [[MamoruDS]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Kroki
 
-Repository: [GitHub](https://github.com/gregzuro/obsidian-kroki)
+Links: [GitHub repository](https://github.com/gregzuro/obsidian-kroki) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-kroki)
 Developed by: [[gregzuro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

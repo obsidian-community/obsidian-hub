@@ -23,7 +23,7 @@ publish: true
 
 # Excalidraw
 
-Repository: [GitHub](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+Links: [GitHub repository](https://github.com/zsviczian/obsidian-excalidraw-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-excalidraw-plugin)
 Developed by: [[zsviczian]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

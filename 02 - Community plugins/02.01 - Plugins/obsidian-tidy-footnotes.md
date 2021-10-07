@@ -23,7 +23,7 @@ publish: true
 
 # Tidy Footnotes
 
-Repository: [GitHub](https://github.com/charliecm/obsidian-tidy-footnotes)
+Links: [GitHub repository](https://github.com/charliecm/obsidian-tidy-footnotes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tidy-footnotes)
 Developed by: [[charliecm]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

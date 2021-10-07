@@ -23,7 +23,7 @@ publish: true
 
 # Random To-Do
 
-Repository: [GitHub](https://github.com/NatiAris/obsidian-random-todo)
+Links: [GitHub repository](https://github.com/NatiAris/obsidian-random-todo) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-random-todo)
 Developed by: [[NatiAris]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

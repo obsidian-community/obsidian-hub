@@ -23,7 +23,7 @@ publish: true
 
 # Extended MathJax
 
-Repository: [GitHub](https://github.com/xldenis/obsidian-latex)
+Links: [GitHub repository](https://github.com/xldenis/obsidian-latex) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-latex)
 Developed by: [[xldenis]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

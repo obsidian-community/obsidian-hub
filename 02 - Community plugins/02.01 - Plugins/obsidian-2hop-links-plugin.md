@@ -23,7 +23,7 @@ publish: true
 
 # 2Hop Links Plugin
 
-Repository: [GitHub](https://github.com/tokuhirom/obsidian-2hop-links-plugin)
+Links: [GitHub repository](https://github.com/tokuhirom/obsidian-2hop-links-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-2hop-links-plugin)
 Developed by: [[tokuhirom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

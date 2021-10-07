@@ -23,7 +23,7 @@ publish: true
 
 # Review
 
-Repository: [GitHub](https://github.com/ryanjamurphy/review-obsidian)
+Links: [GitHub repository](https://github.com/ryanjamurphy/review-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=review-obsidian)
 Developed by: [[ryanjamurphy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

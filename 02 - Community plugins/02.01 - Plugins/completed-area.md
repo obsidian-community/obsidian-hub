@@ -23,7 +23,7 @@ publish: true
 
 # Completed Area
 
-Repository: [GitHub](https://github.com/DahaWong/obsidian-completed-area)
+Links: [GitHub repository](https://github.com/DahaWong/obsidian-completed-area) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=completed-area)
 Developed by: [[DahaWong]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # CodeMirror Options
 
-Repository: [GitHub](https://github.com/nothingislost/obsidian-codemirror-options)
+Links: [GitHub repository](https://github.com/nothingislost/obsidian-codemirror-options) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-codemirror-options)
 Developed by: [[nothingislost]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

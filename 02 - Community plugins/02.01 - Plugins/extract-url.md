@@ -23,7 +23,7 @@ publish: true
 
 # Extract url content
 
-Repository: [GitHub](https://github.com/trashhalo/obsidian-extract-url)
+Links: [GitHub repository](https://github.com/trashhalo/obsidian-extract-url) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=extract-url)
 Developed by: [[trashhalo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

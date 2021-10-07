@@ -23,7 +23,7 @@ publish: true
 
 # Pandoc Plugin
 
-Repository: [GitHub](https://github.com/OliverBalfour/obsidian-pandoc)
+Links: [GitHub repository](https://github.com/OliverBalfour/obsidian-pandoc) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pandoc)
 Developed by: [[OliverBalfour]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

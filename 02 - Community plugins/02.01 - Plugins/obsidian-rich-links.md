@@ -23,7 +23,7 @@ publish: true
 
 # Rich Links
 
-Repository: [GitHub](https://github.com/dhamaniasad/obsidian-rich-links)
+Links: [GitHub repository](https://github.com/dhamaniasad/obsidian-rich-links) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-rich-links)
 Developed by: [[dhamaniasad]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

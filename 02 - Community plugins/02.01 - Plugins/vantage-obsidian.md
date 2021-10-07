@@ -23,7 +23,7 @@ publish: true
 
 # Vantage - Advanced search builder
 
-Repository: [GitHub](https://github.com/ryanjamurphy/vantage-obsidian)
+Links: [GitHub repository](https://github.com/ryanjamurphy/vantage-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=vantage-obsidian)
 Developed by: [[ryanjamurphy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

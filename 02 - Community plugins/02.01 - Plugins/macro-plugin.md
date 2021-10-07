@@ -23,7 +23,7 @@ publish: true
 
 # Macros
 
-Repository: [GitHub](https://github.com/phibr0/obsidian-macros)
+Links: [GitHub repository](https://github.com/phibr0/obsidian-macros) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=macro-plugin)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

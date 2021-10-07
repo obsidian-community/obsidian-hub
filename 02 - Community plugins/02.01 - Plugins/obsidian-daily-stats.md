@@ -23,7 +23,7 @@ publish: true
 
 # Daily Stats
 
-Repository: [GitHub](https://github.com/dhruvik7/obsidian-daily-stats)
+Links: [GitHub repository](https://github.com/dhruvik7/obsidian-daily-stats) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-daily-stats)
 Developed by: [[dhruvik7]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

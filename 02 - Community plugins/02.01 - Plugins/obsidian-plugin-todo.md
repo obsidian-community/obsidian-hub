@@ -23,7 +23,7 @@ publish: true
 
 # Obsidian TODO | Text-based GTD
 
-Repository: [GitHub](https://github.com/larslockefeer/obsidian-plugin-todo)
+Links: [GitHub repository](https://github.com/larslockefeer/obsidian-plugin-todo) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plugin-todo)
 Developed by: [[larslockefeer]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

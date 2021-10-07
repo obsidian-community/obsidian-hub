@@ -23,7 +23,7 @@ publish: true
 
 # DEVONlink
 
-Repository: [GitHub](https://github.com/ryanjamurphy/DEVONlink-obsidian)
+Links: [GitHub repository](https://github.com/ryanjamurphy/DEVONlink-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=DEVONlink-obsidian)
 Developed by: [[ryanjamurphy]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

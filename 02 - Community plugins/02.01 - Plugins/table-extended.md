@@ -23,7 +23,7 @@ publish: true
 
 # Table Extended
 
-Repository: [GitHub](https://github.com/aidenlx/table-extended)
+Links: [GitHub repository](https://github.com/aidenlx/table-extended) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=table-extended)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

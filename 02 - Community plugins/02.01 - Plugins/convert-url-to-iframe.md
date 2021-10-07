@@ -23,7 +23,7 @@ publish: true
 
 # Convert url to preview (iframe)
 
-Repository: [GitHub](https://github.com/FHachez/obsidian-convert-url-to-iframe)
+Links: [GitHub repository](https://github.com/FHachez/obsidian-convert-url-to-iframe) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=convert-url-to-iframe)
 Developed by: [[FHachez]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

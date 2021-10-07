@@ -23,7 +23,7 @@ publish: true
 
 # Enhance Copy Note
 
-Repository: [GitHub](https://github.com/kzhovn/copy-command-obsidian)
+Links: [GitHub repository](https://github.com/kzhovn/copy-command-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=copy-note)
 Developed by: [[kzhovn]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

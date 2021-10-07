@@ -23,7 +23,7 @@ publish: true
 
 # Charts View
 
-Repository: [GitHub](https://github.com/caronchen/obsidian-chartsview-plugin)
+Links: [GitHub repository](https://github.com/caronchen/obsidian-chartsview-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-chartsview-plugin)
 Developed by: [[caronchen]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

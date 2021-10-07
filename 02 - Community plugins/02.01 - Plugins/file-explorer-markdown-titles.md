@@ -23,7 +23,7 @@ publish: true
 
 # File Explorer Markdown Titles
 
-Repository: [GitHub](https://github.com/Dyldog/file-explorer-markdown-titles)
+Links: [GitHub repository](https://github.com/Dyldog/file-explorer-markdown-titles) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=file-explorer-markdown-titles)
 Developed by: [[Dyldog]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
