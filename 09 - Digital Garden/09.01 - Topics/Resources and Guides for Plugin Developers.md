@@ -29,3 +29,6 @@ This note collects resources for beginner and expert plugin developers.
 - [obsidian-tools: An unofficial collection of tools that helps you build plugins for obsidian.md](https://github.com/obsidian-tools/obsidian-tools) 
 - [[Using GitHub actions to create releases for plugins]]
 - [Plugins mini FAQ - Obsidian Forum](https://forum.obsidian.md/t/plugins-mini-faq/7737)
+- [obsidian-community/obsidian-react-starter: A starter template for using creating Obsidian plugins in ReactJS](https://github.com/obsidian-community/obsidian-react-starter)
+- [obsidian-community/obsidian-preact-template: A starter template for using creating Obsidian plugins in PreactJS](https://github.com/obsidian-community/obsidian-preact-template)
+- 
