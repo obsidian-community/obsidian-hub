@@ -8,6 +8,7 @@ publish: true
 
 # How to release a new version of your plugin?
 
+This guide assumes that you have [[How to get started developing plugins|created your plugin using the sample plugin template]].
 From the [obsidian sample plugin readme](https://github.com/obsidianmd/obsidian-sample-plugin):
 
 1.   Update your `manifest.json` with your new version number, such as `1.0.1`, and the minimum Obsidian version required for your latest release.

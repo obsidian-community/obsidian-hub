@@ -9,6 +9,14 @@ tags:
 
 This note collects resources for beginner and expert theme designers.
 
+## FAQ
+
+- [[How to add your theme to the community theme store]]
+
+## Guides
+
+- [[How to Style Obsidian]]
+
 ## Tools
 
 - [obsidian-community/theme-dev-vault: An obsidian vault to aid in theme development](https://github.com/obsidian-community/theme-dev-vault)
