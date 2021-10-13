@@ -16,4 +16,4 @@ tags:
 - [🎬 Create a Custom Theme in Obsidian](https://www.youtube.com/watch?v=lyaEnxgow4E)
 - [ReggieNotes' about Obsidian CSS Themes](https://publish.obsidian.md/reggienotes/Quickstart+CSS+Guide/010+Obsidian+CSS+Themes)
 - [obsidian-style-settings:](https://github.com/mgmeyers/obsidian-style-settings)  allows snippet, theme, and plugin CSS files to define a set of configuration options. It then allows users to see all the tweakable settings in one settings pane.
-
+- [[css-obsidian-layout.png|Visual guide to primary Obsidian CSS Classes]]
