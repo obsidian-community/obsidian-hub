@@ -7,7 +7,7 @@ tags:
 
 # [[Dataview]] Plugin: How To Use This Powerful Obsidian Plugin (With Examples)
 
-By [[Filipe Donadio]]
+A [[YouTube|YouTube Video]] by [[Filipe Donadio]].
 
 %% Add one or two sentences describing the video and link it to at least one other note %%
 #placeholder/description 

@@ -7,7 +7,7 @@ tags:
 
 # How to use [[QuickAdd]] for Obsidian - with examples
 
-By [[Christian B. B. Houmann]]
+A [[YouTube|YouTube Video]] by [[Christian B. B. Houmann]].
 
 %% Add one or two sentences describing the video and link it to at least one other note then remove the tag below %%
 #placeholder/description 

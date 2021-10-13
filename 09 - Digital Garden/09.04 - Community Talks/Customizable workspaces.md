@@ -10,7 +10,7 @@ publish: true
 
 By [[chetachiezikeuzor]]
 
-A showcase for the [[cmenu-plugin|cMenu]] pugin and the [[Yin and Yang]] theme
+A [[Obsidian Community Talks|showcase]] for the [[cmenu-plugin|cMenu]] pugin and the [[Yin and Yang]] theme.
 
 %% In the tag below, plase fill out the #placeholder/link and then remove this comment%%
 %%

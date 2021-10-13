@@ -7,7 +7,7 @@ tags:
 
 # Intro to [[Dataview]] Plugin
 
-By [[Obsidian Office Hours]]
+A [[YouTube|YouTube Video]] hosted by the [[Obsidian Office Hours]] channel.
 
 %% Add one or two sentences describing the video and link it to at least one other note %%
 #placeholder/description 

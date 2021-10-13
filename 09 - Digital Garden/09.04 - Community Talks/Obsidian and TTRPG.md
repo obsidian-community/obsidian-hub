@@ -1,12 +1,12 @@
 ---
 aliases: 
-- 
+- Obsidian for TTRPG
 tags:
 - seedling
 publish: true
 ---
 
-# Obsidian and TTPRG
+# Obsidian and TTRPG
 
 In this panel talk,  Obsidian community members show how they are using Obsidian to run and participate in TTRPGs.
 

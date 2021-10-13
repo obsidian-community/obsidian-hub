@@ -1,6 +1,7 @@
 ---
 aliases:
   - Obsidian Community Talk
+  - showcase
 tags:
   - seedling
 publish: true
@@ -39,7 +40,6 @@ You can then go over to this thread to vote for the talks you're interested in: 
 
 <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showCalendars=0&mode=AGENDA&title=Obsidian%20Community%20Talks&hl=en_GB&src=cHU0bmwwc2tqZnVnOTE0NzR0Y3VvYjh0dDBkMTFjbG9AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
 
-- [[Obsidian and TTPRG]]
 - [[How to create your own Obsidian plugin]]
 
 ### Previous talks
@@ -61,6 +61,7 @@ You can then go over to this thread to vote for the talks you're interested in: 
 - [[Journaling Showcase]]
 - [[Obsidian 101]]
 - [[Project management for fiction writing]]
+- [[Obsidian and TTRPG]]
 
 ## Organisers
 
