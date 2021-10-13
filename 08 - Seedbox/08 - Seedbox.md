@@ -54,6 +54,8 @@ In short, our seedbox holds notes that were "planted" by a contributor who added
 -  [[08 - Seedbox/Notepad++|Notepad++]]
 -  [[08 - Seedbox/Obsidian 101|Obsidian 101]]
 -  [[08 - Seedbox/Obsidian and TTPRG|Obsidian and TTPRG]]
+-  [[08 - Seedbox/Obsidian Garden|Obsidian Garden]]
+-  [[08 - Seedbox/Obsidian Help|Obsidian Help]]
 -  [[08 - Seedbox/Onyx Boox|Onyx Boox]]
 -  [[08 - Seedbox/Pandoc|Pandoc]]
 -  [[08 - Seedbox/Pocket|Pocket]]

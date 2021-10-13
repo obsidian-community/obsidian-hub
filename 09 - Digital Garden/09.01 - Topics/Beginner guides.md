@@ -7,8 +7,10 @@ tags:
 
 # Beginner guides
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
-
-#placeholder/description 
+These guides will help you get started with [[Obsidian]] and related topics.
 
 ![[2021.07.17#^594d70]]
+- [**Sitepoint**: Obsidian Beginner Guide](https://www.sitepoint.com/obsidian-beginner-guide/)
+- [[Obsidian Help]]
+- [[Obsidian Garden]]
+- [[YouTube]]
