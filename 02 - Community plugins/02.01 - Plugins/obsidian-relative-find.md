@@ -23,7 +23,7 @@ publish: true
 
 # Relative Find
 
-Repository: [GitHub](https://github.com/phibr0/obsidian-relative-find)
+Links: [GitHub repository](https://github.com/phibr0/obsidian-relative-find) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-relative-find)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

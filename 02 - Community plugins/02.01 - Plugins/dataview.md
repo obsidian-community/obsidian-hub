@@ -23,7 +23,7 @@ publish: true
 
 # Dataview
 
-Repository: [GitHub](https://github.com/blacksmithgu/obsidian-dataview)
+Links: [GitHub repository](https://github.com/blacksmithgu/obsidian-dataview) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=dataview)
 Developed by: [[blacksmithgu]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

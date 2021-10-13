@@ -23,7 +23,7 @@ publish: true
 
 # Timeline
 
-Repository: [GitHub](https://github.com/George-debug/obsidian-timeline)
+Links: [GitHub repository](https://github.com/George-debug/obsidian-timeline) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-timeline)
 Developed by: [[George-debug]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

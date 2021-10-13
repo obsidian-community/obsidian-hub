@@ -23,7 +23,7 @@ publish: true
 
 # Initiative Tracker
 
-Repository: [GitHub](https://github.com/valentine195/obsidian-initiative-tracker)
+Links: [GitHub repository](https://github.com/valentine195/obsidian-initiative-tracker) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=initiative-tracker)
 Developed by: [[valentine195]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

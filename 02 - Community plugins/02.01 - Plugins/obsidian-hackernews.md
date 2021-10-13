@@ -23,7 +23,7 @@ publish: true
 
 # HackerNews
 
-Repository: [GitHub](https://github.com/arpitbbhayani/obsidian-hackernews)
+Links: [GitHub repository](https://github.com/arpitbbhayani/obsidian-hackernews) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-hackernews)
 Developed by: [[arpitbbhayani]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

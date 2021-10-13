@@ -23,7 +23,7 @@ publish: true
 
 # Workbench
 
-Repository: [GitHub](https://github.com/ryanjamurphy/workbench-obsidian)
+Links: [GitHub repository](https://github.com/ryanjamurphy/workbench-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=workbench-obsidian)
 Developed by: [[ryanjamurphy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

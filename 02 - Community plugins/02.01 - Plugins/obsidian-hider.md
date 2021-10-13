@@ -23,7 +23,7 @@ publish: true
 
 # Hider
 
-Repository: [GitHub](https://github.com/kepano/obsidian-hider)
+Links: [GitHub repository](https://github.com/kepano/obsidian-hider) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-hider)
 Developed by: [[kepano]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

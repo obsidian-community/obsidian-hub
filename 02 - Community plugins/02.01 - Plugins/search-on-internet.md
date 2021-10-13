@@ -23,7 +23,7 @@ publish: true
 
 # Search on Internet
 
-Repository: [GitHub](https://github.com/HEmile/obsidian-search-on-internet)
+Links: [GitHub repository](https://github.com/HEmile/obsidian-search-on-internet) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=search-on-internet)
 Developed by: [[HEmile]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

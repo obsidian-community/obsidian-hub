@@ -23,7 +23,7 @@ publish: true
 
 # AidenLx's Folder Note
 
-Repository: [GitHub](https://github.com/aidenlx/alx-folder-note)
+Links: [GitHub repository](https://github.com/aidenlx/alx-folder-note) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=alx-folder-note)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

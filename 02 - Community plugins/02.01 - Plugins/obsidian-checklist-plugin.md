@@ -23,7 +23,7 @@ publish: true
 
 # Checklist
 
-Repository: [GitHub](https://github.com/delashum/obsidian-checklist-plugin)
+Links: [GitHub repository](https://github.com/delashum/obsidian-checklist-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-checklist-plugin)
 Developed by: [[delashum]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

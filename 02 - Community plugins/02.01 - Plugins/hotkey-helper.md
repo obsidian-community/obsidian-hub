@@ -23,7 +23,7 @@ publish: true
 
 # Hotkey Helper
 
-Repository: [GitHub](https://github.com/pjeby/hotkey-helper)
+Links: [GitHub repository](https://github.com/pjeby/hotkey-helper) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=hotkey-helper)
 Developed by: [[pjeby]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

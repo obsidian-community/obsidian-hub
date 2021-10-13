@@ -23,10 +23,10 @@ publish: true
 
 # CodeMirror Options
 
-Repository: [GitHub](https://github.com/nothingislost/obsidian-codemirror-options)
+Links: [GitHub repository](https://github.com/nothingislost/obsidian-codemirror-options) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-codemirror-options)
 Developed by: [[nothingislost]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Configure various CodeMirror options such as text selection and syntax highlighting
+Customize the functionality and appearance of Obsidian's edit mode
 
 %% ----- Do not edit anything above this line ----- %% 

@@ -9,3 +9,4 @@ tags:
 
 #placeholder/description 
 
+- [[css-obsidian-layout.png|Visual guide to primary Obsidian CSS Classes]]

@@ -23,7 +23,7 @@ publish: true
 
 # Embedded Code Title
 
-Repository: [GitHub](https://github.com/tadashi-aikawa/obsidian-embedded-code-title)
+Links: [GitHub repository](https://github.com/tadashi-aikawa/obsidian-embedded-code-title) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-embedded-code-title)
 Developed by: [[tadashi-aikawa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

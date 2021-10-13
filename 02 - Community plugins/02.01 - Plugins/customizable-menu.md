@@ -23,7 +23,7 @@ publish: true
 
 # Customizable Menu
 
-Repository: [GitHub](https://github.com/kzhovn/obsidian-customizable-menu)
+Links: [GitHub repository](https://github.com/kzhovn/obsidian-customizable-menu) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=customizable-menu)
 Developed by: [[kzhovn]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Image auto upload Plugin
 
-Repository: [GitHub](https://github.com/renmu123/obsidian-image-auto-upload-plugin)
+Links: [GitHub repository](https://github.com/renmu123/obsidian-image-auto-upload-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-image-auto-upload-plugin)
 Developed by: [[renmu123]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Privacy Glasses
 
-Repository: [GitHub](https://github.com/jillalberts/privacy-glasses)
+Links: [GitHub repository](https://github.com/jillalberts/privacy-glasses) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=privacy-glasses)
 Developed by: [[jillalberts]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -50,7 +50,7 @@ We're honored to have invited some veteran developers in the community to be on 
 
 - [[Liam Cain]], author of the 3 plugins including the popular [[calendar|Calendar]] plugin
 - [[Matthew Meyers]], author of 8 plugins including the [[obsidian-kanban|Kanban]] plugin and the [[California Coast]] theme
-- [[Argentina Ortega Sáinz|Argentina Ortega Sáinz (argentum)]], author of the [[nldates-obsidian|Natural Language Dates]] and [[hotkeysplus-obsidian|Hotkeys++]] plugins
+- [[argenos]], author of the [[nldates-obsidian|Natural Language Dates]] and [[hotkeysplus-obsidian|Hotkeys++]] plugins
 
 ### Theme judges
 

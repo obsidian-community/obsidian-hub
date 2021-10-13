@@ -23,7 +23,7 @@ publish: true
 
 # Shortcuts extender
 
-Repository: [GitHub](https://github.com/ryjjin/Obsidian-shortcuts-extender)
+Links: [GitHub repository](https://github.com/ryjjin/Obsidian-shortcuts-extender) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=shortcuts-extender)
 Developed by: [[ryjjin]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

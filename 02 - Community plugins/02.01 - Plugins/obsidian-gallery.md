@@ -23,7 +23,7 @@ publish: true
 
 # Gallery
 
-Repository: [GitHub](https://github.com/Darakah/obsidian-gallery)
+Links: [GitHub repository](https://github.com/Darakah/obsidian-gallery) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-gallery)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

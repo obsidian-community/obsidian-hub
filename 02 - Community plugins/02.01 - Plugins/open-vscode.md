@@ -23,7 +23,7 @@ publish: true
 
 # Open vault in VSCode
 
-Repository: [GitHub](https://github.com/NomarCub/obsidian-open-vscode)
+Links: [GitHub repository](https://github.com/NomarCub/obsidian-open-vscode) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=open-vscode)
 Developed by: [[NomarCub]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

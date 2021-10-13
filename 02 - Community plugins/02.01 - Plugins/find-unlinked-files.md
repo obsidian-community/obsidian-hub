@@ -23,7 +23,7 @@ publish: true
 
 # Find unlinked files and unresolved links
 
-Repository: [GitHub](https://github.com/Vinzent03/find-unlinked-files)
+Links: [GitHub repository](https://github.com/Vinzent03/find-unlinked-files) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=find-unlinked-files)
 Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

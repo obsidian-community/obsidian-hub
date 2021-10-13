@@ -23,7 +23,7 @@ publish: true
 
 # Autocomplete
 
-Repository: [GitHub](https://github.com/yeboster/autocomplete-obsidian)
+Links: [GitHub repository](https://github.com/yeboster/autocomplete-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-autocomplete-plugin)
 Developed by: [[yeboster]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

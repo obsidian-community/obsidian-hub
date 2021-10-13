@@ -23,7 +23,7 @@ publish: true
 
 # JSONifier
 
-Repository: [GitHub](https://github.com/KjellConnelly/obsidian-jsonifier)
+Links: [GitHub repository](https://github.com/KjellConnelly/obsidian-jsonifier) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-jsonifier)
 Developed by: [[KjellConnelly]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

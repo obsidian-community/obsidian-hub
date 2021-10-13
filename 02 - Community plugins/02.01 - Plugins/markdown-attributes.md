@@ -23,7 +23,7 @@ publish: true
 
 # Markdown Attributes
 
-Repository: [GitHub](https://github.com/valentine195/obsidian-markdown-attributes)
+Links: [GitHub repository](https://github.com/valentine195/obsidian-markdown-attributes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=markdown-attributes)
 Developed by: [[valentine195]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

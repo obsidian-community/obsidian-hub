@@ -23,7 +23,7 @@ publish: true
 
 # Cycle through Panes
 
-Repository: [GitHub](https://github.com/phibr0/cycle-through-panes)
+Links: [GitHub repository](https://github.com/phibr0/cycle-through-panes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cycle-through-panes)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

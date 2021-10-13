@@ -23,7 +23,7 @@ publish: true
 
 # Export To TeX
 
-Repository: [GitHub](https://github.com/raineszm/obsidian-export-to-tex)
+Links: [GitHub repository](https://github.com/raineszm/obsidian-export-to-tex) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-export-to-tex)
 Developed by: [[raineszm]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

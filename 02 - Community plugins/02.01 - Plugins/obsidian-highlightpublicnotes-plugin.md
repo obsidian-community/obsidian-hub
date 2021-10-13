@@ -23,7 +23,7 @@ publish: true
 
 # Highlight Public Notes
 
-Repository: [GitHub](https://github.com/dennisseidel/highlightpublicnotes-obsidian-plugin)
+Links: [GitHub repository](https://github.com/dennisseidel/highlightpublicnotes-obsidian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-highlightpublicnotes-plugin)
 Developed by: [[dennisseidel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # css snippets
 
-Repository: [GitHub](https://github.com/jdbrice/obsidian-css-snippets)
+Links: [GitHub repository](https://github.com/jdbrice/obsidian-css-snippets) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=css-snippets)
 Developed by: [[jdbrice]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

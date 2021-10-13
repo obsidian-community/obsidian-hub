@@ -23,7 +23,7 @@ publish: true
 
 # MetaEdit
 
-Repository: [GitHub](https://github.com/chhoumann/MetaEdit)
+Links: [GitHub repository](https://github.com/chhoumann/MetaEdit) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=metaedit)
 Developed by: [[chhoumann]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

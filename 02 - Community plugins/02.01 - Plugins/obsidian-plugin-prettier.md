@@ -23,7 +23,7 @@ publish: true
 
 # Prettier Format
 
-Repository: [GitHub](https://github.com/hipstersmoothie/obsidian-plugin-prettier)
+Links: [GitHub repository](https://github.com/hipstersmoothie/obsidian-plugin-prettier) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plugin-prettier)
 Developed by: [[hipstersmoothie]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Metatable
 
-Repository: [GitHub](https://github.com/arnau/obsidian-metatable)
+Links: [GitHub repository](https://github.com/arnau/obsidian-metatable) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-metatable)
 Developed by: [[arnau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

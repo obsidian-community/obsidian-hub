@@ -23,7 +23,7 @@ publish: true
 
 # Collapse All
 
-Repository: [GitHub](https://github.com/OfficerHalf/obsidian-collapse-all)
+Links: [GitHub repository](https://github.com/OfficerHalf/obsidian-collapse-all) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-collapse-all-plugin)
 Developed by: [[OfficerHalf]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

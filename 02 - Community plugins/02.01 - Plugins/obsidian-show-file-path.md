@@ -23,9 +23,9 @@ publish: true
 
 # Show Current File Path
 
-Repository: [GitHub](https://github.com/ravimashru/obsidian-show-file-path)
+Links: [GitHub repository](https://github.com/ravimashru/obsidian-show-file-path) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-show-file-path)
 Developed by: [[ravimashru]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Show the full path of the currently open file in the status bar
 

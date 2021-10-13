@@ -23,7 +23,7 @@ publish: true
 
 # Reading Time
 
-Repository: [GitHub](https://github.com/avr/obsidian-reading-time)
+Links: [GitHub repository](https://github.com/avr/obsidian-reading-time) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-reading-time)
 Developed by: [[avr]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

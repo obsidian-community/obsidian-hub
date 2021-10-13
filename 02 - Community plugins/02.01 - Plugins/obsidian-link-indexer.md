@@ -23,7 +23,7 @@ publish: true
 
 # Link indexer
 
-Repository: [GitHub](https://github.com/aviskase/obsidian-link-indexer)
+Links: [GitHub repository](https://github.com/aviskase/obsidian-link-indexer) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-link-indexer)
 Developed by: [[aviskase]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

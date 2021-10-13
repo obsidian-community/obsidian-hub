@@ -14,3 +14,13 @@
 .site-body-left-column {
 	flex: 0 0 350px;
 }
+
+button#HH:hover:before {
+    content: "Only works with Hotkey Helper Installed";
+    color: var(--text-normal);
+    font-size: 16px;
+}
+button#HH:hover {
+    color: transparent;
+    font-size: .1px;
+}

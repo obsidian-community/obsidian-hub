@@ -23,7 +23,7 @@ publish: true
 
 # Longform
 
-Repository: [GitHub](https://github.com/kevboh/longform)
+Links: [GitHub repository](https://github.com/kevboh/longform) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=longform)
 Developed by: [[kevboh]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

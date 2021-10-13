@@ -23,7 +23,7 @@ publish: true
 
 # Various Complements
 
-Repository: [GitHub](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin)
+Links: [GitHub repository](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=various-complements)
 Developed by: [[tadashi-aikawa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

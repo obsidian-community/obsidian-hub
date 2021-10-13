@@ -23,7 +23,7 @@ publish: true
 
 # Show Whitespace
 
-Repository: [GitHub](https://github.com/deathau/cm-show-whitespace-obsidian)
+Links: [GitHub repository](https://github.com/deathau/cm-show-whitespace-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cm-show-whitespace-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

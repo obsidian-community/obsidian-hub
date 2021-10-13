@@ -23,7 +23,7 @@ publish: true
 
 # Emoji Toolbar
 
-Repository: [GitHub](https://github.com/oliveryh/obsidian-emoji-toolbar)
+Links: [GitHub repository](https://github.com/oliveryh/obsidian-emoji-toolbar) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-emoji-toolbar)
 Developed by: [[oliveryh]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

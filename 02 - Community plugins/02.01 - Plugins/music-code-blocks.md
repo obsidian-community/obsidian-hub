@@ -23,7 +23,7 @@ publish: true
 
 # Music notation
 
-Repository: [GitHub](https://github.com/TilBlechschmidt/obsidian-plugin-abcjs)
+Links: [GitHub repository](https://github.com/TilBlechschmidt/obsidian-plugin-abcjs) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=music-code-blocks)
 Developed by: [[TilBlechschmidt]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

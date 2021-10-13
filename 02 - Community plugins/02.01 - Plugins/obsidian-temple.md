@@ -23,7 +23,7 @@ publish: true
 
 # Obsidian Temple
 
-Repository: [GitHub](https://github.com/garyng/obsidian-temple)
+Links: [GitHub repository](https://github.com/garyng/obsidian-temple) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-temple)
 Developed by: [[garyng]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

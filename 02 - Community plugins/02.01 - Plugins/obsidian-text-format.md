@@ -23,7 +23,7 @@ publish: true
 
 # Text Format
 
-Repository: [GitHub](https://github.com/Benature/obsidian-text-format)
+Links: [GitHub repository](https://github.com/Benature/obsidian-text-format) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-text-format)
 Developed by: [[Benature]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Footnote Shortcut
 
-Repository: [GitHub](https://github.com/akaalias/obsidian-footnotes)
+Links: [GitHub repository](https://github.com/akaalias/obsidian-footnotes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-footnotes)
 Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

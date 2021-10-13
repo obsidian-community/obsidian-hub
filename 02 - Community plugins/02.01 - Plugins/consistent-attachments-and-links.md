@@ -23,7 +23,7 @@ publish: true
 
 # Consistent attachments and links
 
-Repository: [GitHub](https://github.com/derwish-pro/obsidian-consistent-attachments-and-links)
+Links: [GitHub repository](https://github.com/derwish-pro/obsidian-consistent-attachments-and-links) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=consistent-attachments-and-links)
 Developed by: [[derwish-pro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -23,7 +23,7 @@ publish: true
 
 # Zoom
 
-Repository: [GitHub](https://github.com/vslinko/obsidian-zoom)
+Links: [GitHub repository](https://github.com/vslinko/obsidian-zoom) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-zoom)
 Developed by: [[vslinko]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

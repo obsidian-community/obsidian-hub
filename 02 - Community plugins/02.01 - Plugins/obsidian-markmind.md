@@ -23,7 +23,7 @@ publish: true
 
 # obsidian markmind
 
-Repository: [GitHub](https://github.com/MarkMindCkm/obsidian-markmind)
+Links: [GitHub repository](https://github.com/MarkMindCkm/obsidian-markmind) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-markmind)
 Developed by: [[MarkMindCkm]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

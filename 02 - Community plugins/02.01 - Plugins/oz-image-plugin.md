@@ -24,7 +24,7 @@ publish: true
 
 # Ozan's Image in Editor Plugin
 
-Repository: [GitHub](https://github.com/ozntel/oz-image-in-editor-obsidian)
+Links: [GitHub repository](https://github.com/ozntel/oz-image-in-editor-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=oz-image-plugin)
 Developed by: [[ozntel]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

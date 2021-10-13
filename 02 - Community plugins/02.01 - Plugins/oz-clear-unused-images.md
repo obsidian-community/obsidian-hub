@@ -23,7 +23,7 @@ publish: true
 
 # Clear Unused Images
 
-Repository: [GitHub](https://github.com/ozntel/oz-clear-unused-images-obsidian)
+Links: [GitHub repository](https://github.com/ozntel/oz-clear-unused-images-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=oz-clear-unused-images)
 Developed by: [[ozntel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

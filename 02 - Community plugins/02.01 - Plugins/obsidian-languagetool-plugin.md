@@ -24,7 +24,7 @@ publish: true
 
 # LanguageTool Integration
 
-Repository: [GitHub](https://github.com/Clemens-E/obsidian-languagetool-plugin)
+Links: [GitHub repository](https://github.com/Clemens-E/obsidian-languagetool-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-languagetool-plugin)
 Developed by: [[Clemens-E]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

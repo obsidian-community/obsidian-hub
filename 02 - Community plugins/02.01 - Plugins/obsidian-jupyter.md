@@ -23,7 +23,7 @@ publish: true
 
 # Jupyter plugin
 
-Repository: [GitHub](https://github.com/tillahoffmann/obsidian-jupyter)
+Links: [GitHub repository](https://github.com/tillahoffmann/obsidian-jupyter) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-jupyter)
 Developed by: [[tillahoffmann]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
