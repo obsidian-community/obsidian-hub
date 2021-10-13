@@ -8,7 +8,7 @@ publish: true
 
 # Pandoc and Obsidian - Create slideshows, PDFs and Word documents
 
-In this video, [[SkepticMystic]] discusses [[pandoc]] and how it can be used to keep more of your workflow inside Obsidian. We cover the following:
+In this video, [[SkepticMystic]] discusses [[Pandoc]] and how it can be used to keep more of your workflow inside Obsidian. We cover the following:
 
 - [0:00](https://youtube.com/watch?v=yYZiO6CVtj8&t=0s) Introduction
 - [0:51](https://youtube.com/watch?v=yYZiO6CVtj8&t=51s) Command Line Basics -
@@ -19,7 +19,7 @@ In this video, [[SkepticMystic]] discusses [[pandoc]] and how it can be used to 
 - [23:42](https://youtube.com/watch?v=yYZiO6CVtj8&t=1422s) Templates (Reference docs)
 - [30:08](https://youtube.com/watch?v=yYZiO6CVtj8&t=1808s) [[snippets|Snippets plugin]]
 - [37:42](https://youtube.com/watch?v=yYZiO6CVtj8&t=2262s) [[templater-obsidian|Templater]]
-- [42:06](https://youtube.com/watch?v=yYZiO6CVtj8&t=2526s) [[Revealjs]] slideshows
+- [42:06](https://youtube.com/watch?v=yYZiO6CVtj8&t=2526s) [[revealjs]] slideshows
 - [48:38](https://youtube.com/watch?v=yYZiO6CVtj8&t=2918s) Q&A
 
 The slides can be found here: [[Using Pandoc inside Obsidian]]
