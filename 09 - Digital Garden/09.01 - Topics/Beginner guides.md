@@ -14,3 +14,4 @@ These guides will help you get started with [[Obsidian]] and related topics.
 - [[Obsidian Help]]
 - [[Obsidian Garden]]
 - [[YouTube]]
+- [[Course for Getting Started with Obsidian]]

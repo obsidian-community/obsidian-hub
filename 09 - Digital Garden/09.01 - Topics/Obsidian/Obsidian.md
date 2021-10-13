@@ -23,6 +23,7 @@ tags:
 -  [[09 - Digital Garden/09.01 - Topics/Obsidian/Obsidian community plugins|Obsidian community plugins]]
 -  [[09 - Digital Garden/09.01 - Topics/Obsidian/Obsidian community themes|Obsidian community themes]]
 -  [[09 - Digital Garden/09.01 - Topics/Obsidian/Obsidian core plugins|Obsidian core plugins]]
+-  [[09 - Digital Garden/09.01 - Topics/Obsidian/Obsidian Help|Obsidian Help]]
 -  [[09 - Digital Garden/09.01 - Topics/Obsidian/Obsidian Publish|Obsidian Publish]]
 -  [[09 - Digital Garden/09.01 - Topics/Obsidian/Obsidian queries|Obsidian queries]]
 -  [[09 - Digital Garden/09.01 - Topics/Obsidian/Obsidian Sync|Obsidian Sync]]
