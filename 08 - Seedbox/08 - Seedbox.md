@@ -30,7 +30,6 @@ In short, our seedbox holds notes that were "planted" by a contributor who added
 -  [[08 - Seedbox/Metadata Group Discussion|Metadata Group Discussion]]
 -  [[08 - Seedbox/Obsidian 101|Obsidian 101]]
 -  [[08 - Seedbox/Obsidian and TTPRG|Obsidian and TTPRG]]
--  [[08 - Seedbox/Pandoc and Obsidian - Create slideshows, PDFs and Word documents|Pandoc and Obsidian - Create slideshows, PDFs and Word documents]]
 -  [[08 - Seedbox/Project management for fiction writing|Project management for fiction writing]]
 -  [[08 - Seedbox/Spaced repetition - An Introduction|Spaced repetition - An Introduction]]
 -  [[08 - Seedbox/What your vault knows|What your vault knows]]
