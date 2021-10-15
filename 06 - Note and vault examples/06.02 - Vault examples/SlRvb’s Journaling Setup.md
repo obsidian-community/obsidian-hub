@@ -22,7 +22,7 @@ Longer descriptions are also welcome! A few things you could cover are:
 - Any ancilliary tools?
 %%
 
-This is a deep dive into how [[SlRvb]] go about journaling the things that happen in his life.
+This is a deep dive into how [[SlRvb]] goes about journaling the things that happen in her life.
 
 ## Download 
 
