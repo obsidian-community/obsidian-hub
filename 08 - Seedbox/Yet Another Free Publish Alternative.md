@@ -47,6 +47,7 @@ It supports a lot of Obsidian things, as :
 To have more informations :
 - [Blog README](https://github.com/Mara-Li/yet-another-free-publish-alternative#readme)
 - [Script README](https://github.com/Mara-Li/YAFPA-python#readme)
+- [Obsidian Forum](https://forum.obsidian.md/t/yet-another-free-publish-alternative-yafpa/23608)
 
 ## Blog Showcase
 - Note view : ![[YAFPA_Showcase_Note.png]]
