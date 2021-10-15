@@ -1,6 +1,9 @@
 ---
 aliases: 
 - YouTube Videos, Channels and Playlists
+- YouTube Video
+- Youtube Channel
+- YouTube Playlist
 tags:
 - seedling
 publish: true
