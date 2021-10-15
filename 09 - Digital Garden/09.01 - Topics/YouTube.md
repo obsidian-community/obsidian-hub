@@ -15,8 +15,8 @@ publish: true
 #placeholder/description 
 
 ## Channels
-- [[Obsidian Office Hours]]: [YouTube Channel](https://www.youtube.com/channel/UCJKoNPnBdCSloJ2wlKnV2Fw)
-- [[Obsidian Community Talks]]: [YouTube Channel](https://www.youtube.com/channel/UCxNSTq2kmupdR6LD400FpvA)
+- [[Obsidian Office Hours]]
+- [[Obsidian Community Talks]]
 
 ## Playlists
 - [[Effective Remote Work]]: [Obsidian - Take Notes for the Long-Term](https://youtube.com/playlist?list=PLrI2d6gSaO9BCd8HjgkSY1yd50nyfxYpN)
