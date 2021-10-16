@@ -19,7 +19,6 @@ This note collects resources for beginner and expert theme designers.
 
 ## Tools
 
-- [obsidian-community/theme-dev-vault: An obsidian vault to aid in theme development](https://github.com/obsidian-community/theme-dev-vault)
 - [**Theme Dev Vault**](https://github.com/obsidian-community/theme-dev-vault) An obsidian vault to aid in theme development
 - [**Transfonter**](https://transfonter.org/) Online `@font-face` generator for offline fonts
 - [**Iconify Icon Sets**](https://icon-sets.iconify.design/) Website to search and find icons from multiple icon sets
