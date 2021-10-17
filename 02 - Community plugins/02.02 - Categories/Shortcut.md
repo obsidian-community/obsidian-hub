@@ -31,6 +31,7 @@ Hotkeys
 - [[obsidian-code-copy|Code Copy]]
 - [[editor-commands-remap|Editor Commands Remap]]
 - [[obsidian-command-alias-plugin|Command Alias]]
+- [[obsidian-editor-shortcuts|Code Editor Shortcuts]]
 
 ## Related categories
 
