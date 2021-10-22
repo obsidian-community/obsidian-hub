@@ -27,6 +27,6 @@ Links: [GitHub repository](https://github.com/joeyuping/quick_latex_obsidian) or
 Developed by: [[joeyuping]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-A simple plugin to simplify and speedup latex math typing.
+Speedup latex math typing with auto fraction, align block shortcut, matrix shortcut...etc
 
 %% ----- Do not edit anything above this line ----- %% 
