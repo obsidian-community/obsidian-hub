@@ -1,16 +1,16 @@
 ---
-aliases: 
-- 
+aliases:
+  -
 tags:
-- seedling
+  - seedling
 publish: true
 ---
 
-# #placeholder/title 
+# #placeholder/title
 
-Link: #placeholder/link 
+Link: #placeholder/link
 Author: #placeholder/author %% Optional %%
-Tool: %% Create or link a an [[Ancillary tools]] note %% 
+Tool: %% Create or link a an [[_Auxiliary tools]] note %%
 
 %% Add a description about the publish site below this line. It doesn't need to be long: one or two sentences should be a good start. %%
-#placeholder/description 
+#placeholder/description

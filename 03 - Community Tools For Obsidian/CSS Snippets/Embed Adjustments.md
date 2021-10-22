@@ -12,7 +12,7 @@ publish: true
 
 > Adjust sizing, placement, and hide titles/heading of Obsidian Embeds.
 
-Embed Adjustments uses a lot of the same resizing and positioning as the [[obsidian-hub/03 - Community Tools For Obsidian/CSS Snippets/Image Adjustments]] snippet. More information in the [Readme](https://github.com/SlRvb/Obsidian--ITS-Theme#embed-adjustments)
+Embed Adjustments uses a lot of the same resizing and positioning as the [[Image Adjustments]] snippet. More information in the [Readme](https://github.com/SlRvb/Obsidian--ITS-Theme#embed-adjustments)
 
 %% Paste your template below %%
 

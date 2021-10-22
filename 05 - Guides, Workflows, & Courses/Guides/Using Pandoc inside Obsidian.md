@@ -11,7 +11,7 @@ publish: true
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 
-The markdown slides from my [[Obsidian Community Talks|community talk]] on [[YT - Using Pandoc inside Obsidian|using Pandoc inside Obsidian]].
+The markdown slides from my [[Obsidian Community Talks|community talk]] on [[YT - Pandoc and Obsidian - Create slideshows, PDFs and Word documents]].
 You can convert these to a [[revealjs]] slideshow using pandoc.
 
 By [[SkepticMystic]]

@@ -51,7 +51,7 @@ You can then go over to this thread to vote for the talks you're interested in: 
 - [[Deep Learning on Networks]]
 - [[Metadata Group Discussion]]
 - [[Knowledge Organization, Cataloguing and Classification in Obsidian]]
-- [[Pandoc and Obsidian - Create slideshows, PDFs and Word documents]]
+- [[Using Pandoc inside Obsidian|Pandoc and Obsidian - Create slideshows, PDFs and Word documents]]
 - [[What your vault knows]]
 - [[Spaced repetition - An Introduction]]
 - [[Breadcrumbs Showcase]]

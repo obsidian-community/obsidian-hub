@@ -10,7 +10,7 @@ publish: true
 
 %% Optional: Add a screenshot
 #placeholder/screenshot 
-Remove this comment once you're done or if you'll be using another approach mentioned in [[06.02 - Vault examples]]
+Remove this comment once you're done or if you'll be using another approach mentioned in [[_Vaults]]
 %%
 %% Add a description below this comment. It doesn't need to be long: one or two sentences should be a good start. 
 

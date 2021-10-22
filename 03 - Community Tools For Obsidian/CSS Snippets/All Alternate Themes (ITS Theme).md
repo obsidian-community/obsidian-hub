@@ -10,7 +10,7 @@ publish: true
 
 %% Add a description below and remove the tag. What do you use this css snippet for? Feel free to add links to other existing notes! %% 
 
-> Alternate color schemes for the [[ITS Theme]] (but it should be mostly compatible with other [[04 - Community themes|community themes]] as well).
+> Alternate color schemes for the [[ITS Theme]] (but it should be mostly compatible with other [[_Themes|community themes]] as well).
 
 %% Paste your template below %%
 

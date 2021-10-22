@@ -23,7 +23,7 @@ Longer descriptions are also welcome! A few things you could cover are:
 - Any ancilliary tools?
 %%
 
-It’s a full vault to explore around and some of the methodology for [[P.A.R.A.]] and how to get started for yourself.
+It’s a full vault to explore around and some of the methodology for [[PARA|P.A.R.A.]] and how to get started for yourself.
 
 ## Download 
 

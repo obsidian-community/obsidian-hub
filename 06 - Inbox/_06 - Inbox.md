@@ -1,7 +1,7 @@
 ---
 aliases:
 - 
-tags:
+tags: MOC
 - MOC
 publish: true
 ---
@@ -21,14 +21,17 @@ publish: true
 -  [[06 - Inbox/Customer Relationship Management|Customer Relationship Management]]
 -  [[06 - Inbox/Effective Remote Work|Effective Remote Work]]
 -  [[06 - Inbox/GitHub sponsor|GitHub sponsor]]
+-  [[06 - Inbox/HAProxy|HAProxy]]
 -  [[06 - Inbox/HTML|HTML]]
 -  [[06 - Inbox/Knowledge Management System|Knowledge Management System]]
+-  [[06 - Inbox/Let's Encrypt|Let's Encrypt]]
 -  [[06 - Inbox/LYT House|LYT House]]
 -  [[06 - Inbox/Nomic|Nomic]]
 -  [[06 - Inbox/Obsidian CSS|Obsidian CSS]]
 -  [[06 - Inbox/Obsidian Flight School|Obsidian Flight School]]
 -  [[06 - Inbox/Obsidian Themes|Obsidian Themes]]
 -  [[06 - Inbox/PARA|PARA]]
+-  [[06 - Inbox/pfSense|pfSense]]
 -  [[06 - Inbox/Productivity Guru|Productivity Guru]]
 -  [[06 - Inbox/Santi Younger|Santi Younger]]
 -  [[06 - Inbox/SCSS|SCSS]]
