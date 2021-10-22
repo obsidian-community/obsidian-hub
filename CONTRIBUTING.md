@@ -20,9 +20,9 @@ Because PKM is usually (as it name states) *highly* personal, we have added a fe
 
 - **Tags**: We mostly use tags to indicate the status of a note. You can find more details in the [[Tag glossary]].
 - **Files & Links**: Make sure that any time you add or edit a note, your settings are configured correctly. This should be set up by default. To sum up: 
-	- Configure `Location of new notes` to go the [[08 - Seedbox]] folder. 
+	- Configure `Location of new notes` to go the [[06 - Inbox]] folder. 
 	- Links should be set to `Shortest path` and wikilinks must be enabled.
-	- The `Default location for new attachments` should be the folder [[10.01 - Note attachments]].
+	- The `Default location for new attachments` should be the folder [[03 - Note attachments]].
   ![[file-and-link-settings.png]]
 - **Templates**: We have predefined a few templates for any new content to be added (more about this later). These templates include comments and instructions of when to use them.
 - **Folders**: We have roughly pre-defined the structure of the vault using Johnny Decimal-ish prefixes. Before adding new folders, please open an issue to discuss the changes you'd like to propose.
@@ -34,7 +34,7 @@ Once you have added or edited the note using Obsidian, come back and check out [
 
 To try and make it easy for folks to navigate this vault and find content they're interested in we have added a little bit of structure to the vault. If you can, try to file any new notes in one of the folders described in [[#Adding or editing notes]], but don't worry too much about it! If you don't think it fits any of those folders, or are unsure/don't have time to think about this, just do the following:
 
-1. Create a new note (if you followed the steps in [[#Setup]] it should be created under [[08 - Seedbox]])
+1. Create a new note (if you followed the steps in [[#Setup]] it should be created under [[06 - Inbox]])
 2. Apply the [[T - New Note]] template and write!
 3. [[How to add content through GitHub|Submit your changes to GitHub]]
 
