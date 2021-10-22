@@ -1,7 +1,7 @@
 ---
 aliases:
 - 
-tags: MOC
+tags: 
 - MOC
 publish: true
 ---

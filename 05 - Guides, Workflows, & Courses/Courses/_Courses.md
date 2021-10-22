@@ -1,7 +1,7 @@
 ---
 aliases: 
 - Online Courses
-tags: MOC
+tags: 
 - seedling
 publish: true
 ---

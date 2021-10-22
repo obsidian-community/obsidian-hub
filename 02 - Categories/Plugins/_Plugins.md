@@ -1,7 +1,7 @@
 ---
 aliases:
 - Plugin categories
-tags: MOC
+tags: 
 - MOC
 ---
 

@@ -2,7 +2,7 @@
 aliases:
 - Scripts
 - Templater scripts
-tags: MOC
+tags: 
 - MOC
 ---
 

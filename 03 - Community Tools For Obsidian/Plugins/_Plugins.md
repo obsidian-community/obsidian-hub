@@ -1,7 +1,7 @@
 ---
 aliases:
 - Community plugins
-tags: MOC
+tags: 
 - MOC
 ---
 
