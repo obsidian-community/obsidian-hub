@@ -43,7 +43,7 @@ To try and make it easy for folks to navigate this vault and find content they'r
 #### [[02 - Community plugins]]
 
 - [[02.01 - Plugins|Community plugins]] - This folder is pre-populated with information from the [obsidian-releases]() repository. Here you can add more information about the plugin itself. For [[09.02 - How To|how to]] do something with a plugin keep reading.
-- [[02.02 - Categories|Plugin categories]] - Help us categorize community plugins!
+- [[Plugins|Plugin categories]] - Help us categorize community plugins!
 
 #### [[03 - Community templates]]
 
