@@ -1,13 +1,13 @@
 ---
 aliases:
-- 
+  -
 tags:
-- MOC
+  - MOC
 ---
 
 # 02 - Community plugins
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
