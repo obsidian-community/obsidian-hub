@@ -41,9 +41,9 @@ Features of **ITS Theme** available as snippets:
 - [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
 	Pre-made alternate color schemes are available with the css snippet.
 
-- [[Showcase/Snippets/Image Adjustments]]
+- [[Image Adjustments]]
 
-- [[Showcase/Snippets/Embed Adjustments]]
+- [[Embed Adjustments]]
 
 - [[Kanban (SlRvb)|Kanban]]
 

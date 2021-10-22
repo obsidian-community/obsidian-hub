@@ -21,7 +21,7 @@ Querying
 - [[search-on-internet|Search on Internet]]
 - [[vantage-obsidian|Vantage - Advanced search builder]]
 - [[obsidian-query-language|Obsidian Query Language]]
-- [[Showcase/Plugins/Dataview|Dataview]]
+- [[dataview|Dataview]]
 - [[obsidian-spotlight|Spotlight]]
 - [[obsidian-dice-roller|Dice Roller]]
 - [[obsidian-related-notes-finder|Related Notes Finder]]

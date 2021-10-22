@@ -16,7 +16,7 @@ The order of speakers is as follows:
 - [[apolaine]] - Vault set-up as a new DM, Session Notes & Prep, Using Javalent's plug-ins in situ. And maybe the [[Mermaid]] diagrams
 - [[nvanderhoevan|Nicole vdH]] - Keeping games separate: Calendar. Use of metadata. Gallery plugin. Resources for inspiration. Random Rolls (Encounters, NPC characteristics). Customised stat blocks.
 - [[SlRvb]]- Vault and Notes Setup: Campaign Setup Folder & Session Notes with [[obsidian-admonition|Admonitions]]. Universe SRDs, Player Character Database, and Adventure Diary.
-- [[Leah]] - Player Perspective: Different take on character diary. [[templater-obsidian|Templater]] and [[Showcase/Plugins/Dataview]] for in-game reference (metadata). One-touch game day setup (Bunch app). D&D 5e starter vault (community resource, publicly available).
+- [[Leah]] - Player Perspective: Different take on character diary. [[templater-obsidian|Templater]] and [[dataview|Dataview]] for in-game reference (metadata). One-touch game day setup (Bunch app). D&D 5e starter vault (community resource, publicly available).
 
 %% In the tag below, plase fill out the #placeholder/link and then remove this comment%%
 

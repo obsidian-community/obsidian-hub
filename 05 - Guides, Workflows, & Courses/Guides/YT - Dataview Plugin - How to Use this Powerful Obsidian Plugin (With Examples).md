@@ -5,7 +5,7 @@ tags:
 - seedling
 ---
 
-# [[Showcase/Plugins/Dataview]] Plugin: How To Use This Powerful Obsidian Plugin (With Examples)
+# [[dataview|Dataview]] Plugin: How To Use This Powerful Obsidian Plugin (With Examples)
 
 A [[YouTube|YouTube Video]] by [[Filipe Donadio]].
 

@@ -5,11 +5,11 @@ tags:
 - seedling
 ---
 
-# An Introduction to [[Showcase/Plugins/Dataview]]
+# An Introduction to [[dataview|Dataview]]
 
 Slides [[An Introduction to Dataview]]
 
-This was the very first [[Obsidian Community Talks|Obsidian Community Talk]].  [[SkepticMystic]] gave a great overview of the [[Showcase/Plugins/Dataview|Dataview]] plugin. 
+This was the very first [[Obsidian Community Talks|Obsidian Community Talk]].  [[SkepticMystic]] gave a great overview of the [[dataview|Dataview]] plugin. 
 
 ## Part 1: Basics
 

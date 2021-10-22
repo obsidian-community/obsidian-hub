@@ -5,7 +5,7 @@ tags:
 - seedling
 ---
 
-# Intro to [[Showcase/Plugins/Dataview]] Plugin
+# Intro to [[dataview|Dataview]] Plugin
 
 A [[YouTube|YouTube Video]] hosted by the [[Obsidian Office Hours]] channel.
 
