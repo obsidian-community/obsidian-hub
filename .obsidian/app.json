@@ -1,6 +1,21 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "06 - Inbox",
+  "newFileFolderPath": "07 - Inbox",
   "attachmentFolderPath": "00 - Contribute To The Obsidian Hub/03 Attachments",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "emacsyKeys": false,
+  "fileSortOrder": "alphabeticalReverse",
+  "promptDelete": false,
+  "spellcheck": true,
+  "spellcheckDictionary": [
+    "explainers",
+    "MoCs",
+    "pre",
+    "prepopulated",
+    "autocompletion",
+    "wikilinks",
+    "autocomplete",
+    "ish",
+    "Unlinked"
+  ]
 }

@@ -7,7 +7,7 @@ tags:
 
 # 🗂️ Events
 
-#placeholder/description 
+Overview of the various Events happening in the Obsidian Community.
 
 ## MOC
 

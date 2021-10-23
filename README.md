@@ -1,4 +1,4 @@
-# Obsidian Community Vault
+# README
 
 Welcome! This is an experimental vault that is maintained by the Obsidian community. 
 

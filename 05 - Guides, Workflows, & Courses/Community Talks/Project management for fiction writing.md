@@ -8,7 +8,7 @@ publish: true
 
 # Project management for fiction writing
 
-[[eleanorkonik]] discussese a comprehensive project management workflow for fiction writing: using folders, dataview, and tags. From ideation to completion, submitting to markets, tracking market preferences, branding work, and ancillary avenues for outreach like newsletters and tweets.
+[[Eleanor Konik]] discussese a comprehensive project management workflow for fiction writing: using folders, dataview, and tags. From ideation to completion, submitting to markets, tracking market preferences, branding work, and ancillary avenues for outreach like newsletters and tweets.
 
 You can see the [[YouTube|YouTube Video]] for this [[Obsidian Community Talks|community talk]] below: 
 
