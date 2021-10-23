@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# _06 - Inbox
+# 🗂️ 06 - Inbox
 
 #placeholder/description 
 

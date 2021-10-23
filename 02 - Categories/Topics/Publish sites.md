@@ -13,6 +13,6 @@ tags:
 
 ## Contributing
 
-1. Create a new note under [[_Publish Sites]]
+1. Create a new note under [[🗂️ Publish Sites]]
 2. Apply the [[T - Publish site]] template and fill out the placeholders
 3. [[How to add content through GitHub|Submit your changes to GitHub]]

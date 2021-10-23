@@ -5,7 +5,7 @@ tags:
 - MOC
 ---
 
-# 02.02 - Categories
+# 🗂️ Plugin categories
 
 #placeholder/description 
 
@@ -67,7 +67,7 @@ tags:
 
 ### Adding a new category
 1. If you want to add a new category, please open a [new issue]() first to discuss your proposal.
-2. Once you have the green light, create a new file in the [[Plugins]] folder. 
+2. Once you have the green light, create a new file in the [[02 - Categories/Plugins/🗂️ Plugins]] folder. 
 3. Use the template [[T - Plugin Category]] and fill out any placeholders.
 4. [[How to add content through GitHub|Submit your changes to GitHub]]
 

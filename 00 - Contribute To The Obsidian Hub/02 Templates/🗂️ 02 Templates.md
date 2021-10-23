@@ -21,6 +21,7 @@ tags:
 -  [[00 - Contribute To The Obsidian Hub/02 Templates/T - Plugin Category|T - Plugin Category]]
 -  [[00 - Contribute To The Obsidian Hub/02 Templates/T - Publish site|T - Publish site]]
 -  [[00 - Contribute To The Obsidian Hub/02 Templates/T - Templates|T - Templates]]
+-  [[00 - Contribute To The Obsidian Hub/02 Templates/T - Title|T - Title]]
 -  [[00 - Contribute To The Obsidian Hub/02 Templates/T - TODO|T - TODO]]
 -  [[00 - Contribute To The Obsidian Hub/02 Templates/T - Vault showcase|T - Vault showcase]]
 -  [[00 - Contribute To The Obsidian Hub/02 Templates/T - Website|T - Website]]

@@ -5,7 +5,7 @@ tags:
 - MOC
 ---
 
-# 02.01 - Plugins
+# 🗂️ Plugins
 
 #placeholder/description 
 

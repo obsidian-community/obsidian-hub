@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# _Community Talks
+# 🗂️ Community Talks
 
 #placeholder/description 
 

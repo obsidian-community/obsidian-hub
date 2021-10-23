@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# 09.03 - Obsidian roundup
+# 🗂️ Obsidian Roundup
 
 #placeholder/description 
 

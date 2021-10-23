@@ -1,12 +1,12 @@
 ---
 aliases:
-- 
+- Ancillary tools
 tags: 
 - MOC
 publish: true
 ---
 
-# Ancillary Tools
+# 🗂️ Auxiliary Tool Categories
 
 #placeholder/description 
 

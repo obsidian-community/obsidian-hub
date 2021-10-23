@@ -12,6 +12,6 @@ Link: https://obsidian.garden
 Author: [[Tane Piper]] and [Obsidian Garden Contributors](https://github.com/tanepiper/obsidian-garden/graphs/contributors)
 Tool: [[Obsidian Publish]]
 
-Obsidian Garden is a open-source [[_Guides|guide]] to creating your own 🌳 [[Digital garden]] with [[_Obsidian]].
+Obsidian Garden is a open-source [[🗂️ Guides|guide]] to creating your own 🌳 [[Digital garden]] with [[🗂️ Obsidian]].
 
-The garden is contained within in it's own 🗃 [[Knowledge Management System]] - designed as a template for you to learn the [[Beginner guides|basics]] of working with [[_Obsidian]] and extend and remix in to your own.
+The garden is contained within in it's own 🗃 [[Knowledge Management System]] - designed as a template for you to learn the [[Beginner guides|basics]] of working with [[🗂️ Obsidian]] and extend and remix in to your own.
