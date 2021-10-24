@@ -10,9 +10,9 @@ PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-relea
 THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-css-themes.json"
 
 OUTPUT_DIR = {
-    "plugin": "02 - Community plugins/02.01 - Plugins",
-    "category": "02 - Community plugins/02.02 - Categories",
-    "theme": "04 - Community themes",
+    "plugin": "03 - Community Tools For Obsidian/Plugins",
+    "category": "02 - Categories/Plugins",
+    "theme": "03 - Community Tools For Obsidian/Themes",
 }
 
 
