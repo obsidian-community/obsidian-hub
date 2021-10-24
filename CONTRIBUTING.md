@@ -21,7 +21,7 @@ Because Personal Knowledge Management is usually (as it name states) _highly_ pe
 
 - **Tags**: We mostly use tags to indicate the status of a note. You can find more details in the [[Tag glossary]].
 - **Files & Links**: Make sure that any time you add or edit a note, your settings are configured correctly. This should be set up by default. To sum up:
-  - Configure `Location of new notes` to go the [[🗂️ 07 - Inbox]] folder.
+  - Configure `Location of new notes` to go the [[🗂️ 06 - Inbox]] folder.
   - Links should be set to `Shortest path` and wikilinks must be enabled.
   - The `Default location for new attachments` should be the folder [[🗂️ 02 Attachments]].
     ![[file-and-link-settings.png]]
@@ -34,11 +34,10 @@ Once you have added or edited the note using Obsidian, come back and check out [
 ## Structure of the Community Vault
 
 ### Overview
-This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the Basic Folder Structure of this Community Vault.
+This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folder structure of this Community Vault.
 %% Keep this updated when the Vault structure changes! %%
 
 ```
-.
 ├── 00 - Contribute to the Obsidian Hub
 │   ├── 01 Templates
 │   └── 02 Attachments
@@ -47,16 +46,16 @@ This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the Basic Folde
 │   ├── Events
 │   ├── Obsidian Roundup
 │   └── Video Channels
-├── 02 - Curated Lists of Community Expansions
-│   ├── Auxiliary Tools
-│   ├── CSS Snippets
-│   ├── Plugins
-│   └── Themes
-├── 03 - Directory of Community Expansions
-│   ├── Auxiliary Tools
-│   ├── CSS Snippets
-│   ├── Plugins
-│   └── Themes
+├── 02 - Community Expansions
+│   ├── 02.01 Plugins by Category
+│   ├── 02.02 Themes by Category
+│   ├── 02.03 CSS Snippets by Category
+│   ├── 02.04 Auxiliary Tools by Category
+│   └── 02.05 All Community Expansions
+│       ├── Auxiliary Tools
+│       ├── CSS Snippets
+│       ├── Plugins
+│       └── Themes
 ├── 04 - Showcases & Templates
 │   ├── Note Examples
 │   ├── Plugin Showcases
@@ -81,54 +80,53 @@ This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the Basic Folde
 ```
 
 
-### The Eight Main Folders
-Lets have a brief look at the eight main folders:
+### The Main Folders
+Lets have a brief look at the main folders:
 
-#### Contribute – [[🗂️ 00 - Contribute to the Obsidian Hub]]
-This folder contains various resources for making contributions to this community vault. (Other than adding your attachments here, there is most likely no real need to contribute in this folder.)
+#### [[🗂️ 00 - Contribute to the Obsidian Hub]]
+This folder contains various resources for making contributions to this community vault. Other than adding your attachments here, there is most likely no real need to contribute in this folder.
 
-#### Connect – [[🗂️ 01 - Community]]
-This one contains all notes related to People, Community Events, or specific Social Media Channels belong here. Courses offered by the Community, however, belong to the folder [[🗂️ 05 - Guides, Workflows, & Courses]]. You can add new Pages for various Persons are events here. 
+#### [[🗂️ 01 - Community]]
+This one contains all notes related to People, Community Events, or specific Social Media Channels belong here. Courses offered by the Community, however, belong to the folder [[🗂️ 04 - Guides, Workflows, & Courses]]. You can add new Pages for various Persons are events here. 
 
 %%Should we have a rule regarding the threshold for someone being "relevant enough" to get their own page?%%
 
-#### Expansions – [[🗂️ 02 - Curated Lists of Community Expansions]]
-Due to the high number of plugins, themes, snippets and third-party-tools, we have compiled a curated lists those expansions. So if a user is e.g. looking for [[Status bar]]-related Plugins, they can go to the respective list and find it there. Think of this folder as a collection of MoCs of Community Expansions.
+#### [[🗂️ 02 - Community Expansions]]
+Due to the high number of plugins, themes, snippets and auxiliary tools (third-party-tools), we have compiled [[Maps of Content (MOC)|MOCs]] to browse expansions by category. So if a user is e.g. looking for [[Status bar|Status bar-related Plugins]], they can go to the respective MoC and find them there. 
 
-Feel free to add new links to any list if! (Remember, download this vault for correct autocompletion of internal links.) 
+Feel free to add new links to any list if they are missing! (Remember, download this vault for correct autocompletion of internal links.)
 
-You can also create a new list here by using the [[T - Plugin Category|Template for Plugin Categories]] or [[T - MOCs| or MoCs in general]], but only if it is a truly new category not already covered by any of the existing lists – we want to avoid having too many lists. 
+You can also create a new MoC here by using the [[T - Plugin Category|Template for Plugin Categories]] or [[T - MOCs| or MoCs in general]], but only if it is a truly new category not already covered by any of the existing lists – we want to avoid ending up with too many categories.
 
-#### Expansions – [[🗂️ 03 - Directory of Community Expansions]]
-This folder is automatically prepopulated with notes on the numerous expansions of our community. The [[🗂️ 02 - Curated Lists of Community Expansions|currated lists]] from above link to specific notes here. This folder is prepopulated automatically, so you should not create any new notes in here. The only exception are Auxiliary Tools, for which you are free to create a new note with [[T - Ancillary tools|the respective Template.]]
+The sub-folder [[🗂️ 02.05 All Community Expansions]] is automatically prepopulated with notes on the all expansions of our community submitted to the community plugin browser and the community theme store respectively. The MoCs in `02.01` to `02.04` link to the individual pages found in here. 
 
-Each note represents exactly one tool, which (in the future) should also serve as a jumping pad for all information regarding this one tool – a bit like a Wikipedia page for each plugin, theme, snippet or ancillary tool.
+This folder is prepopulated automatically, so you should not create any new notes in here. The only exception are Auxiliary Tools, for which you are free to create a new note with [[T - Ancillary tools|the respective Template.]]
 
-#### Inspiration – [[🗂️ 04 - Showcases & Templates]]
+Each note represents exactly one tool, which (in the future) should also serve as a jumping pad for all information regarding this one tool – a bit like a Wikipedia page for each plugin, theme, snippet, or ancillary tool.
+
+#### [[🗂️ 03 - Showcases & Templates]]
 All Showcases, Examples, and Templates belong into this folder. This includes special-purpose or pre-prepared Vaults ("Starter Kits"). Note examples are pretty much the equivalent of the `#snip-a-note` channel on Discord.
 
 In this folder, you can add new notes with the [[T - Showcases|Template for Showcases]], the [[T - Vault showcase|Template for Vaults]], and the [[T - Templates|Template for Templates]] (Yeah, this is getting meta.)
 
-#### Instructions – [[🗂️ 05 - Guides, Workflows, & Courses]]
+#### [[🗂️ 04 - Guides, Workflows, & Courses]]
 This is where all guides, instructions, explainers, and workflows should be placed. Courses, basically being more comprehensive paid guides, are also located here. To make it easier for everyone to find guides relevant to them, the guides should be linked to from the "for Group X" notes (which are basically MoCs) .
 
 You can contribute here adding [[T - How to|new Guides and How Tos with the respective template]]. Remember to also link to them from any fitting "for Group X" page, so it can be found.
 
-#### Learning – [[🗂️ 06 - Concepts]]
+#### [[🗂️ 05 - Concepts]]
 This folder serves as some sort of wiki or dictionary for all the technical and PKM-terms you will find when people are talking about Obsidian. Rather than explaining concepts like [[Zettelkasten]] in every guide or at the note of every plugin developed for it, you can simply refer to it's concept note.
 
-Naturally, new notes on concepts not explained in this vault yet, are very welcome. Use the [[T - New Concept|Template for new concept notes]] to add information here. Be sure to also use the [Unlinked Mentions Feature](https://help.obsidian.md/How+to/Add+aliases+to+note#Find+unlinked+mentions) to find all the notes which should be linked to the new concept. 
-
-Also welcome are of course links to the concepts in this folder.
+Naturally, new notes on concepts not explained in this vault yet, are welcome. Use the [[T - New Concept|Template for new concept notes]] to add information here. Be sure to also use the [Unlinked Mentions Feature](https://help.obsidian.md/How+to/Add+aliases+to+note#Find+unlinked+mentions) to find all the notes which should be linked to the new concept. 
 
 
 ## On Note Location and Note Links
 
-In general, you should create new notes **in one of the existing folders described above, instead of creating a new one**. If you are unsure in which folder a new note belongs to, use the more general [[T - New Note| New Note Template]], place it in [[🗂️ 07 - Inbox]] and let others have a look. Generally, try to search for an existing note to make additions to before creating a new one. 
+In general, you should create new notes **in one of the existing folders described above, instead of creating a new one**. If you are unsure in which folder a new note belongs to, use the more general [[T - New Note| New Note Template]], place it in [[🗂️ 06 - Inbox]] and let others have a look. Generally, try to search for an existing note to make additions to before creating a new one. 
 
 If you have the feeling that your contribution belongs into two or more folders at the same time (e.g. an ancillary tool of yours, for which you also provide a guide), consider breaking up your contribution and putting smaller notes into the respective locations. Afterwards, link you contributions to each other. 
 
-As this is indeed Obsidian, one thing pretty much always welcome is the addition of new links. Download this vault for correct autocompletion of internal links, and make use of [aliases](https://help.obsidian.md/How+to/Add+aliases+to+note#Link+with+aliases) to increase readability.
+As this is indeed Obsidian, one thing pretty much always welcome is the addition of new links. Download this vault for correct autocompletion of internal links, and make use of [aliases](https://help.obsidian.md/How+to/Add+aliases+to+note#Link+with+aliases) to increase readability. Also make use of the [Unlinked Mentions Feature](https://help.obsidian.md/How+to/Add+aliases+to+note#Find+unlinked+mentions) and be sure to link to [[🗂️ 05 - Concepts|Concept Notes]] instead of explaining too much.
 
 ==**Rule of thumb for contribution**: No folders, notes for new content, and note additions for existing content, and don't be shy with new links!==
 
@@ -137,7 +135,7 @@ As this is indeed Obsidian, one thing pretty much always welcome is the addition
 ### Writing
 This has been pretty much all you need to know before making a contribution. Use the Community Vault as any other vault to write your contribution in. Obviously, you use the plugins and settings you are familiar with for writing and working with the vault.
 
-Please turn on the spellchecking when you are writing longer bits. :) (And only add really common words to the dictionary.)
+Please turn on the spellchecking when you are writing longer bits. 🙂 (And only add  words to the dictionary if they are really common.)
 
 
 ### Submitting
