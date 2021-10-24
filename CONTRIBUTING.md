@@ -35,8 +35,8 @@ Once you have added or edited the note using Obsidian, come back and check out [
 
 ### Overview
 This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folder structure of this Community Vault.
-%% Keep this updated when the Vault structure changes! %%
 
+%% Keep this updated when the Vault structure changes! %%
 ```
 ├── 00 - Contribute to the Obsidian Hub
 │   ├── 01 Templates
@@ -56,7 +56,7 @@ This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folde
 │       ├── CSS Snippets
 │       ├── Plugins
 │       └── Themes
-├── 04 - Showcases & Templates
+├── 03 - Showcases & Templates
 │   ├── Note Examples
 │   ├── Plugin Showcases
 │   ├── Publish Sites
@@ -71,12 +71,12 @@ This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folde
 │   │   ├── Weekly notes
 │   │   └── Yearly notes
 │   └── Vaults
-├── 05 - Guides, Workflows, & Courses
+├── 04 - Guides, Workflows, & Courses
 │   ├── Community Talks
 │   ├── Courses
 │   └── Guides
-├── 06 - Concepts
-└── 07 - Inbox
+├── 05 - Concepts
+└── 06 - Inbox
 ```
 
 
@@ -87,8 +87,7 @@ Lets have a brief look at the main folders:
 This folder contains various resources for making contributions to this community vault. Other than adding your attachments here, there is most likely no real need to contribute in this folder.
 
 #### [[🗂️ 01 - Community]]
-This one contains all notes related to People, Community Events, or specific Social Media Channels belong here. Courses offered by the Community, however, belong to the folder [[🗂️ 04 - Guides, Workflows, & Courses]]. You can add new Pages for various Persons are events here. 
-
+This one contains all notes related to People, Community Events, or specific Social Media Channels belong here. Courses offered by the community, however, belong to the folder [[🗂️ 04 - Guides, Workflows, & Courses]]. You can add new pages for various persons and events here. 
 %%Should we have a rule regarding the threshold for someone being "relevant enough" to get their own page?%%
 
 #### [[🗂️ 02 - Community Expansions]]
