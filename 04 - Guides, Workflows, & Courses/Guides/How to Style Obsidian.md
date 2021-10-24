@@ -203,4 +203,4 @@ Want to learn more about CSS in general? The Mozilla Developer Network docs are 
 CSS Tricks is a fantastic resource for finding neat ways of working with CSS (and HTML and JavaScript) to achieve fantastic results: https://css-tricks.com
 
 ---
-Topics: [[Obsidian Themes]] [[Obsidian CSS]]
+Topics: [[Obsidian community themes]] [[Obsidian CSS]]

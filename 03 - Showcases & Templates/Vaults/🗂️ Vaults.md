@@ -48,7 +48,8 @@ Unfortunately, we can't host starter vaults or kits in the community vault itsel
 
 The steps for both are roughly the same:
 
-1. Create a new note under [[[🗂️ Vault]]2. Apply one of the following templates:
+1. Create a new note under [[🗂️ Vaults]]
+2. Apply one of the following templates:
    - the [[T - Vault showcase]] template for starter vaults or kits
    - [[T - Folder structure]] if you're sharing how you've organized your vault (or a part of it)
 3. Fill out any placeholders
