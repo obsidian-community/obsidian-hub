@@ -9,7 +9,7 @@ tags:
 publish: true
 ---
 
-# YET ANOTHER FREE PUBLISH ALTERNATIVE
+# Yet Another Free Publish Alternative
 
 Official website: 
 - [Template Website](https://master--owlly-house.netlify.app/notes/)
