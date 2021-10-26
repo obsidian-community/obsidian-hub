@@ -32,7 +32,7 @@ The awards are as following:
 
 Judges will select one winner among all plugins and themes, respectively. The two winners will receive a custom made trophy from us, plus $300 Obsidian credit.[^1]
 
-## Runner-up
+### Runners-up
 
 Judges will select three more runner-ups for each category. They will receive $200 Obsidian credit.
 
