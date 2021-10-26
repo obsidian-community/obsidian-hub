@@ -8,19 +8,17 @@ Obsidian October is an official event brought to you by Obsidian to help you get
 
 Starting now, we'll start accepting participants (abbreviated as OOers below). Anyone can participate! You'll get a special role to indicate you're participating too. You can get your role by reacting to [this message on Discord](https://discord.com/channels/686053708261228577/702717892533157999/889615286095986688).
 
-You can apply any time before October 31, but we encourage you to start early so you have a higher chance to finish your project.
+You can sign up any time before October 31, but we encourage you to start early so you have a higher chance to finish your project.
 
 There will be a special channel on Discord to ask questions and chat about your progress. On the forum, there is also [a mega post for OOers to share their daily progress and learnings](https://forum.obsidian.md/t/obsidian-october-2021-daily-progress-and-learnings/24472). Developers who help out will also receive a special mentor role!
 
 ## Submitting your project
 
-Any OOer who finishes their project before October 31, 2021 can submit their repo (how to submit is TBD). You can include a mentor in your submission to show appreciation. This list of submissions will be showcased on the website.
+Any OOer who finishes their project before October 31, 2021 can submit via [this form](https://airtable.com/shrUsaaJcOX7cEA73/) (embedded below, although it will not render if you're viewing this on GitHub). We'll be publicly celebrating O_O contributions after the event wraps up, so you might be featured on the Obsidian website, via Twitter, or elsewhere!
 
-You can also choose to submit your plugin to our official community plugin directory by [making a pull request to this list](https://github.com/obsidianmd/obsidian-releases/blob/master/community-plugins.json) if you're satisfied with your plugin.
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrUsaaJcOX7cEA73?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-%%
-OOers can optionally fill out a short survey to let us know how was the experience and how can we improve.
-%%
+Also, be sure to submit your plugin and theme to our official community [plugin directory]((https://github.com/obsidianmd/obsidian-releases/blob/master/community-plugins.json) or [theme gallery](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) by submitting a Pull Request to the relevant list.
 
 ## Prizes
 
@@ -32,7 +30,7 @@ The awards are as following:
 
 ### Winner
 
-Judges will select one winner among all plugins and themes, respectively. The two winners will receive a custom made trophy from us, plus $300 Obsidian credit [^1].
+Judges will select one winner among all plugins and themes, respectively. The two winners will receive a custom made trophy from us, plus $300 Obsidian credit.[^1]
 
 ## Runner-up
 
