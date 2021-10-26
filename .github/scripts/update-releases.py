@@ -106,11 +106,19 @@ def main(argv=sys.argv[1:]):
     parser.add_argument(
         "--overwrite", action="store_true", help="Overwrite existing files."
     )
+
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--all", action="store_true")
+    group.add_argument("--themes", action="store_true")
+    group.add_argument("--plugins", action="store_true")
+
     args = parser.parse_args(argv)
 
-    process_released_plugins(args.overwrite)
-    process_released_themes(args.overwrite)
-    get_uncategorized_plugins()
+    if args.all or args.plugins:
+        process_released_plugins(args.overwrite)
+        get_uncategorized_plugins()
+    if args.all or args.themes:
+        process_released_themes(args.overwrite)
 
 
 if __name__ == "__main__":
