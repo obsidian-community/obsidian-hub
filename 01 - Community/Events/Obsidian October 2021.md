@@ -18,7 +18,7 @@ Any OOer who finishes their project before October 31, 2021 can submit via [this
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrUsaaJcOX7cEA73?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-Also, be sure to submit your plugin and theme to our official community [plugin directory]((https://github.com/obsidianmd/obsidian-releases/blob/master/community-plugins.json) or [theme gallery](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) by submitting a Pull Request to the relevant list.
+Also, be sure to submit your plugin and theme to our official community [plugin directory](https://github.com/obsidianmd/obsidian-releases/blob/master/community-plugins.json) or [theme gallery](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) by submitting a Pull Request to the relevant list.
 
 ## Prizes
 
