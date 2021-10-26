@@ -30,3 +30,7 @@ Modes: [[Light-mode themes|light]]
 ![screenshot](https://github.com/bcdavasconcelos/Obsidian-GDCT/raw/master/gdct.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

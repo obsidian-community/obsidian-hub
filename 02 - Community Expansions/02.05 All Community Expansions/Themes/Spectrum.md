@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/Braweria/Spectrum/raw/main/SpectrumPreview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

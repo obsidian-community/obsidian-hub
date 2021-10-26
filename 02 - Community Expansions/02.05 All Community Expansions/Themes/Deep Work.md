@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/nikbrunner/obsidian-deep-work-theme/raw/main/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

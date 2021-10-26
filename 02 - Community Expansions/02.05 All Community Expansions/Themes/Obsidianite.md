@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/bennyxguo/Obsidian-Obsidianite/raw/main/images/demo1.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

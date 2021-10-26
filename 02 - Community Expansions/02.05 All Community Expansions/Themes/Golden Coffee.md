@@ -30,3 +30,20 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/kinmury/GoldenCoffeeTheme/raw/main/Screenshots/Showcase.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Active Line**: Change the background color of the active line you are typing in CodeMirror
+- Dark Mode
+- Light Mode
+
+**Decoration**: 
+- Headers Hover "🢀"
+- **Vertical Lines - Lists**: Shows vertical lines below the lists items markers. WARNING -> This could be a problem for those who use sync panes, since it will glitch a lot whenever you try to scroll near the lists. If you use sync panes, please keep it off
+    - Dark Mode
+    - Light Mode
+

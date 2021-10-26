@@ -1,10 +1,13 @@
 import sys
 import argparse
 import glob
+from themes import get_theme_plugin_support, get_theme_settings
 
 from utils import (
+    THEME_CSS_FILE,
     get_category_files,
     get_template,
+    get_theme_css,
     write_file,
     get_json_from_github,
     get_plugin_manifest,
@@ -49,7 +52,16 @@ def process_released_themes(overwrite=False):
             .replace("light", LIGHT_MODE_THEMES)
         )
         branch = theme.get("branch", "master")
-        theme.update(user=user, modes=modes, branch=branch)
+        css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
+        settings = get_theme_settings(css_file)
+        plugin_support = get_theme_plugin_support(css_file)
+        theme.update(
+            user=user,
+            modes=modes,
+            branch=branch,
+            settings=settings,
+            plugins=plugin_support,
+        )
         write_file(template, theme.get("name"), overwrite=overwrite, **theme)
 
 

@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/ArtexJay/Obsidian-CyberGlow/raw/main/Screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

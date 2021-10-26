@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/Chrismettal/Obsidian-Behave-dark/raw/main/Screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

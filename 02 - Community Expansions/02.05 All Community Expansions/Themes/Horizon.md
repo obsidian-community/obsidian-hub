@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/tylernguyen/obsidian-horizon/raw/main/assets/preview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

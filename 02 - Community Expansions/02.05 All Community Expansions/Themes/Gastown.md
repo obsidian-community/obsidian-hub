@@ -30,3 +30,7 @@ Modes: [[Light-mode themes|light]]
 ![screenshot](https://github.com/dogwaddle/obsidian-gastown-theme.md/raw/master/ObsidianOne.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/deathau/Notation-for-Obsidian/raw/master/screenshot.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

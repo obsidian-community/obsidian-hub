@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/cannibalox/ono-sendai_obsdn/raw/master/ono-sendai_obsdn_00.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

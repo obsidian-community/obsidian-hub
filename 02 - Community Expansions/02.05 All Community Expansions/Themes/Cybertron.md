@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/nickmilo/Cybertron/raw/master/Cybertron.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

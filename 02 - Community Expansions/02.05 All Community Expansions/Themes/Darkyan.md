@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/johackim/obsidian-darkyan/raw/master/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

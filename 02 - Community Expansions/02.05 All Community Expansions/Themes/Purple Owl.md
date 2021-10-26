@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/zacharyc/purple-owl-theme/raw/main/purple-owl-theme.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

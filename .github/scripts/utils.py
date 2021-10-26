@@ -1,6 +1,7 @@
 import os
 import json
 import glob
+import requests
 
 from urllib.request import urlopen
 from jinja2 import FileSystemLoader, Environment, DebugUndefined
@@ -8,6 +9,7 @@ from jinja2 import FileSystemLoader, Environment, DebugUndefined
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
 PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
 THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-css-themes.json"
+THEME_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/obsidian.css"
 
 OUTPUT_DIR = {
     "plugin": "02 - Community Expansions/02.05 All Community Expansions/Plugins",
@@ -64,6 +66,11 @@ def get_json_from_github(url):
         json_file = json.loads(response.read())
 
     return json_file
+
+
+def get_theme_css(url):
+    with requests.get(url) as response:
+        return response.text
 
 
 def get_plugin_manifest(repository, branch):

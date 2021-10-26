@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/gracejoseph1236/obsidian-emerald/raw/master/example.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

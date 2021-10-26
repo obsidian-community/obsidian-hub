@@ -22,7 +22,7 @@ publish: true
 # Palatinate
 
 Repository: [GitHub](https://github.com/eleanorkonik/-palatinate)
-Designed by: [[Eleanor Konik]]
+Designed by: [[eleanorkonik]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/eleanorkonik/-palatinate/raw/main/palatinate.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

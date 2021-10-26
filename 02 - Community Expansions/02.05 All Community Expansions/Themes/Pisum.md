@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/GuangluWu/obsidian-pisum/raw/master/fullpower.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

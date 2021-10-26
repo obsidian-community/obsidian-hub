@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/seanwcom/Red-Graphite-for-Obsidian/raw/master/screenshot01.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

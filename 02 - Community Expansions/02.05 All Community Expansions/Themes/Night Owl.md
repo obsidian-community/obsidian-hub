@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/bencodezen/obsidian-night-owl-theme/raw/main/obsidian-night-owl-theme.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

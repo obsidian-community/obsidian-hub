@@ -22,7 +22,7 @@ publish: true
 # Hipstersmoothie
 
 Repository: [GitHub](https://github.com/hipstersmoothie/hipstersmoothie-obsidian-theme)
-Designed by: [[Hipstersmoothie]]
+Designed by: [[hipstersmoothie]]
 Modes: [[Dark-mode themes|dark]]
 
 
@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/hipstersmoothie/hipstersmoothie-obsidian-theme/raw/main/hipstersmoothie-obsidian-theme.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

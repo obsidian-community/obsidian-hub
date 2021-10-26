@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/bcdavasconcelos/Obsidian-Panic_Mode/raw/master/panic.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

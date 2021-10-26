@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/Seraaron/agora-obsidian-theme/raw/main/agora-theme-preview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

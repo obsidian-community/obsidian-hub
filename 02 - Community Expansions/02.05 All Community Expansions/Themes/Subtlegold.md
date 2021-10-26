@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/kartik-karz/subtlegold-obsidian/raw/master/subtlegold-theme.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

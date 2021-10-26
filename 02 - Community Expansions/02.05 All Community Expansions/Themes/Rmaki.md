@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/luke-rmaki/rmaki-obsidian/raw/main/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

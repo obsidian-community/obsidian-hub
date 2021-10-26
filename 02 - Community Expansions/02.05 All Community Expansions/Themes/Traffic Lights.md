@@ -30,3 +30,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/elliotboyd/obsidian-traffic-lights/raw/master/dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+

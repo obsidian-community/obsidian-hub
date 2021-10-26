@@ -31,3 +31,38 @@ Modes: {{modes}}
 
 %% ----- Do not edit anything above this line ----- %% 
 
+## Features
+
+{% if settings %}
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+{% for s in settings %}
+{% if s.type == "heading" %}
+
+{{ s.header }}
+{% else %}
+{{ s.title }}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if plugins %}
+## Plugin Compatibility[^1]
+
+{% if plugins.core %}
+**Core plugins**:
+{% endif %}
+{% for plugin in plugins.core %}
+- [[{{ plugin }}]]
+{% endfor %}
+{% if plugins.community %}
+
+**Community plugins**:
+{% endif %}
+{% for plugin in plugins.community %}
+- [[{{ plugin }}]]
+{% endfor %}
+
+[^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
+{% endif%}

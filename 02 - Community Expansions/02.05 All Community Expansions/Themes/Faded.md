@@ -30,3 +30,12 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/JoshKasap/Obsidian-Faded-Theme/raw/main/Faded.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+## Features
+
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Gradient Bullet Point Lines
+- Check List Strikeout
+
