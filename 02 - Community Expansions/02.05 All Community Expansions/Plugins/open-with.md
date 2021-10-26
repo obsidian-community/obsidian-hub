@@ -23,6 +23,7 @@ publish: true
 
 # Open with
 
+Plugin ID: `open-with`
 Links: [GitHub repository](https://github.com/phibr0/obsidian-open-with) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=open-with)
 Developed by: [[phibr0]]
 Mobile compatible: [[Desktop-only plugins|No]]

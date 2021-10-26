@@ -23,6 +23,7 @@ publish: true
 
 # Supercharged Links
 
+Plugin ID: `supercharged-links-obsidian`
 Links: [GitHub repository](https://github.com/mdelobelle/obsidian_supercharged_links) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=supercharged-links-obsidian)
 Developed by: [[mdelobelle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

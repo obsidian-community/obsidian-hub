@@ -23,6 +23,7 @@ publish: true
 
 # Timelines
 
+Plugin ID: `obsidian-timelines`
 Links: [GitHub repository](https://github.com/Darakah/obsidian-timelines) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-timelines)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

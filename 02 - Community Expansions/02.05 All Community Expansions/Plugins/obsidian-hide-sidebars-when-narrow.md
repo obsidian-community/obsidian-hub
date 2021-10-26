@@ -23,6 +23,7 @@ publish: true
 
 # Hide Sidebars When Narrow
 
+Plugin ID: `obsidian-hide-sidebars-when-narrow`
 Links: [GitHub repository](https://github.com/mybuddymichael/obsidian-hide-sidebars-when-narrow) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-hide-sidebars-when-narrow)
 Developed by: [[mybuddymichael]]
 Mobile compatible: [[Desktop-only plugins|No]]

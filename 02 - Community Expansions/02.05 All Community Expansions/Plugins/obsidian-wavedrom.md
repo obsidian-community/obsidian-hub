@@ -23,6 +23,7 @@ publish: true
 
 # WaveDrom
 
+Plugin ID: `obsidian-wavedrom`
 Links: [GitHub repository](https://github.com/kingsquirrel152/obsidian-wavedrom) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-wavedrom)
 Developed by: [[kingsquirrel152]]
 Mobile compatible: [[Desktop-only plugins|No]]

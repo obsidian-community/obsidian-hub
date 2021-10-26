@@ -23,6 +23,7 @@ publish: true
 
 # Advanced Mobile Toolbar
 
+Plugin ID: `advanced-toolbar`
 Links: [GitHub repository](https://github.com/phibr0/obsidian-advanced-toolbar) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=advanced-toolbar)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

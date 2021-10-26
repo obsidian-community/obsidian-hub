@@ -48,4 +48,11 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-hypothesis-plugin|Hypothesis Highlights]]
 - [[obsidian-another-quick-switcher|Another Quick Switcher]]
 - [[link-headers-directly|Link Headers Directly]]
+- [[meld-calc|Meld Calc]]
+- [[tabout|Tabout]]
+- [[obsidian-pipe-tricks|Pipe tricks]]
+- [[fantasy-calendar|Fantasy Calendar]]
+- [[obsidian-pikt|Pikt]]
+- [[improved-vimcursor|Improved VimCursor]]
+- [[quote-of-the-day|Quote of the Day]]
 

@@ -23,6 +23,7 @@ publish: true
 
 # Lumberjack 🪓 🪵
 
+Plugin ID: `lumberjack-obsidian`
 Links: [GitHub repository](https://github.com/ryanjamurphy/lumberjack-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=lumberjack-obsidian)
 Developed by: [[ryanjamurphy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

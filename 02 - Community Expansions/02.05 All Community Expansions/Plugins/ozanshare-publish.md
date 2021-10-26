@@ -23,6 +23,7 @@ publish: true
 
 # OzanShare Publish
 
+Plugin ID: `ozanshare-publish`
 Links: [GitHub repository](https://github.com/ozntel/ozanshare-publish-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=ozanshare-publish)
 Developed by: [[ozntel]]
 Mobile compatible: [[Desktop-only plugins|No]]

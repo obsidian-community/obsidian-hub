@@ -23,6 +23,7 @@ publish: true
 
 # metatemplates
 
+Plugin ID: `obsidian-metatemplates`
 Links: [GitHub repository](https://github.com/avirut/obsidian-metatemplates) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-metatemplates)
 Developed by: [[avirut]]
 Mobile compatible: [[Desktop-only plugins|No]]

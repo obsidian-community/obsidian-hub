@@ -23,6 +23,7 @@ publish: true
 
 # Tag Wrangler
 
+Plugin ID: `tag-wrangler`
 Links: [GitHub repository](https://github.com/pjeby/tag-wrangler) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=tag-wrangler)
 Developed by: [[pjeby]]
 Mobile compatible: [[Desktop-only plugins|No]]

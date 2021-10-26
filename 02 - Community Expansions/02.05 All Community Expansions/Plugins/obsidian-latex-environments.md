@@ -23,6 +23,7 @@ publish: true
 
 # Latex Environments
 
+Plugin ID: `obsidian-latex-environments`
 Links: [GitHub repository](https://github.com/raineszm/obsidian-latex-environments) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-latex-environments)
 Developed by: [[raineszm]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

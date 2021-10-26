@@ -23,6 +23,7 @@ publish: true
 
 # Underline
 
+Plugin ID: `obsidian-underline`
 Links: [GitHub repository](https://github.com/Benature/obsidian-underline) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-underline)
 Developed by: [[Benature]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

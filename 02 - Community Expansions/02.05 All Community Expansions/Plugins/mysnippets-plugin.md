@@ -23,6 +23,7 @@ publish: true
 
 # MySnippets
 
+Plugin ID: `mysnippets-plugin`
 Links: [GitHub repository](https://github.com/chetachiezikeuzor/MySnippets-Plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mysnippets-plugin)
 Developed by: [[chetachiezikeuzor]]
 Mobile compatible: [[Desktop-only plugins|No]]

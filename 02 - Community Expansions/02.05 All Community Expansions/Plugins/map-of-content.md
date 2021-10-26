@@ -23,6 +23,7 @@ publish: true
 
 # Map of Content
 
+Plugin ID: `map-of-content`
 Links: [GitHub repository](https://github.com/Robin-Haupt-1/Obsidian-Map-of-Content) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=map-of-content)
 Developed by: [[Robin-Haupt-1]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

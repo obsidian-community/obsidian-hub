@@ -23,6 +23,7 @@ publish: true
 
 # Word Splitting for Simplified Chinese in Edit Mode
 
+Plugin ID: `cm-chs-patch`
 Links: [GitHub repository](https://github.com/aidenlx/cm-chs-patch) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cm-chs-patch)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Desktop-only plugins|No]]

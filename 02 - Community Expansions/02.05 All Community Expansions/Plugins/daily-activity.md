@@ -23,6 +23,7 @@ publish: true
 
 # Daily Activity
 
+Plugin ID: `daily-activity`
 Links: [GitHub repository](https://github.com/trydalch/obsidian-daily-activity) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=daily-activity)
 Developed by: [[trydalch]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

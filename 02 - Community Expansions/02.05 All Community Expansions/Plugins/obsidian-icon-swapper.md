@@ -23,6 +23,7 @@ publish: true
 
 # Icon Swapper
 
+Plugin ID: `obsidian-icon-swapper`
 Links: [GitHub repository](https://github.com/mgmeyers/obsidian-icon-swapper) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-icon-swapper)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

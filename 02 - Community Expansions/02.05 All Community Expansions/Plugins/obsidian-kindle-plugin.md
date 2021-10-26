@@ -23,6 +23,7 @@ publish: true
 
 # Kindle Highlights
 
+Plugin ID: `obsidian-kindle-plugin`
 Links: [GitHub repository](https://github.com/hadynz/obsidian-kindle-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-kindle-plugin)
 Developed by: [[hadynz]]
 Mobile compatible: [[Desktop-only plugins|No]]

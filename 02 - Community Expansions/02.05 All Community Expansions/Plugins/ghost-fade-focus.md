@@ -23,6 +23,7 @@ publish: true
 
 # Ghost Fade Focus
 
+Plugin ID: `ghost-fade-focus`
 Links: [GitHub repository](https://github.com/skipadu/obsidian-ghost-fade-focus) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=ghost-fade-focus)
 Developed by: [[skipadu]]
 Mobile compatible: [[Desktop-only plugins|No]]

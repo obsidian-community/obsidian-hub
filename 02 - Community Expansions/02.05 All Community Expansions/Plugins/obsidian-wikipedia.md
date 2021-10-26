@@ -23,6 +23,7 @@ publish: true
 
 # Wikipedia
 
+Plugin ID: `obsidian-wikipedia`
 Links: [GitHub repository](https://github.com/jmilldotdev/obsidian-wikipedia) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-wikipedia)
 Developed by: [[jmilldotdev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

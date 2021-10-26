@@ -23,6 +23,7 @@ publish: true
 
 # Dice Roller
 
+Plugin ID: `obsidian-dice-roller`
 Links: [GitHub repository](https://github.com/valentine195/obsidian-dice-roller) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-dice-roller)
 Developed by: [[valentine195]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

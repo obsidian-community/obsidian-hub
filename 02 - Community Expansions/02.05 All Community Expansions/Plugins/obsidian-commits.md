@@ -23,6 +23,7 @@ publish: true
 
 # Commits
 
+Plugin ID: `obsidian-commits`
 Links: [GitHub repository](https://github.com/Darakah/obsidian-commits) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-commits)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

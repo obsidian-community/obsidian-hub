@@ -23,6 +23,7 @@ publish: true
 
 # Pane Relief
 
+Plugin ID: `pane-relief`
 Links: [GitHub repository](https://github.com/pjeby/pane-relief) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=pane-relief)
 Developed by: [[pjeby]]
 Mobile compatible: [[Desktop-only plugins|No]]

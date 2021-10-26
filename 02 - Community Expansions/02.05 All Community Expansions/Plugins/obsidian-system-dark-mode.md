@@ -23,6 +23,7 @@ publish: true
 
 # System Dark Mode
 
+Plugin ID: `obsidian-system-dark-mode`
 Links: [GitHub repository](https://github.com/kepano/obsidian-system-dark-mode) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-system-dark-mode)
 Developed by: [[kepano]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

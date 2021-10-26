@@ -23,6 +23,7 @@ publish: true
 
 # Gist
 
+Plugin ID: `obsidian-gist`
 Links: [GitHub repository](https://github.com/linjunpop/obsidian-gist) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-gist)
 Developed by: [[linjunpop]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

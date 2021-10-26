@@ -23,6 +23,7 @@ publish: true
 
 # Quick Switcher++
 
+Plugin ID: `darlal-switcher-plus`
 Links: [GitHub repository](https://github.com/darlal/obsidian-switcher-plus) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=darlal-switcher-plus)
 Developed by: [[darlal]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Obsidian Trello
 
+Plugin ID: `obsidian-trello`
 Links: [GitHub repository](https://github.com/OfficerHalf/obsidian-trello) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-trello)
 Developed by: [[OfficerHalf]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -24,6 +24,7 @@ publish: true
 
 # Status Bar Pomodoro Timer
 
+Plugin ID: `obsidian-statusbar-pomo`
 Links: [GitHub repository](https://github.com/kzhovn/statusbar-pomo-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-statusbar-pomo)
 Developed by: [[kzhovn]]
 Mobile compatible: [[Desktop-only plugins|No]]

@@ -23,6 +23,7 @@ publish: true
 
 # Vimrc Support
 
+Plugin ID: `obsidian-vimrc-support`
 Links: [GitHub repository](https://github.com/esm7/obsidian-vimrc-support) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-vimrc-support)
 Developed by: [[esm7]]
 Mobile compatible: [[Desktop-only plugins|No]]

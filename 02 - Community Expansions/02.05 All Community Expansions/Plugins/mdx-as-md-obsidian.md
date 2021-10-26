@@ -23,6 +23,7 @@ publish: true
 
 # mdx as md
 
+Plugin ID: `mdx-as-md-obsidian`
 Links: [GitHub repository](https://github.com/mkozhukharenko/mdx-as-md-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mdx-as-md-obsidian)
 Developed by: [[mkozhukharenko]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

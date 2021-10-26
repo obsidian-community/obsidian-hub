@@ -23,6 +23,7 @@ publish: true
 
 # Obsidian Tabs
 
+Plugin ID: `obsidian-tabs`
 Links: [GitHub repository](https://github.com/gitobsidiantutorial/obsidian-tabs) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tabs)
 Developed by: [[gitobsidiantutorial]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

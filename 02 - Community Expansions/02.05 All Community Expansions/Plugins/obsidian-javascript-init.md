@@ -23,6 +23,7 @@ publish: true
 
 # JavaScript Init
 
+Plugin ID: `obsidian-javascript-init`
 Links: [GitHub repository](https://github.com/ryanpcmcquen/obsidian-javascript-init) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-javascript-init)
 Developed by: [[ryanpcmcquen]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

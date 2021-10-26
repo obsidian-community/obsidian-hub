@@ -23,6 +23,7 @@ publish: true
 
 # Extract Highlights
 
+Plugin ID: `extract-highlights-plugin`
 Links: [GitHub repository](https://github.com/akaalias/extract-highlights-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=extract-highlights-plugin)
 Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Amazing Marvin
 
+Plugin ID: `obsidian-amazingmarvin-plugin`
 Links: [GitHub repository](https://github.com/ikuyarihS/obsidian-amazingmarvin-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-amazingmarvin-plugin)
 Developed by: [[ikuyarihS]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

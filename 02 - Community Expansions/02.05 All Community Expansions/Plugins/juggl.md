@@ -23,6 +23,7 @@ publish: true
 
 # Juggl
 
+Plugin ID: `juggl`
 Links: [GitHub repository](https://github.com/HEmile/juggl) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=juggl)
 Developed by: [[HEmile]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

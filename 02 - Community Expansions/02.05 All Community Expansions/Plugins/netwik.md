@@ -23,6 +23,7 @@ publish: true
 
 # Netwik
 
+Plugin ID: `netwik`
 Links: [GitHub repository](https://github.com/fivol/netwik-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=netwik)
 Developed by: [[fivol]]
 Mobile compatible: [[Desktop-only plugins|No]]

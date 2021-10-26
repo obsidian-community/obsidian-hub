@@ -23,6 +23,7 @@ publish: true
 
 # Prominent Starred Files
 
+Plugin ID: `obsidian-prominent-starred-files`
 Links: [GitHub repository](https://github.com/valentine195/obsidian-prominent-starred-files) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-prominent-starred-files)
 Developed by: [[valentine195]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

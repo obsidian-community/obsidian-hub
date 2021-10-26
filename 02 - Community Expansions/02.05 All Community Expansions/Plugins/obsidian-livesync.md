@@ -23,6 +23,7 @@ publish: true
 
 # Obsidian Live sync
 
+Plugin ID: `obsidian-livesync`
 Links: [GitHub repository](https://github.com/vrtmrz/obsidian-livesync) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-livesync)
 Developed by: [[vrtmrz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Markdown prettifier
 
+Plugin ID: `markdown-prettifier`
 Links: [GitHub repository](https://github.com/cristianvasquez/obsidian-prettify) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=markdown-prettifier)
 Developed by: [[cristianvasquez]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

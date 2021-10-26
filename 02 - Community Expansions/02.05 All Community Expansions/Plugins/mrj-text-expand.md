@@ -23,6 +23,7 @@ publish: true
 
 # Text expand
 
+Plugin ID: `mrj-text-expand`
 Links: [GitHub repository](https://github.com/mrjackphil/obsidian-text-expand) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mrj-text-expand)
 Developed by: [[mrjackphil]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

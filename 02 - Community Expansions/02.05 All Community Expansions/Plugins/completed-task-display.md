@@ -23,6 +23,7 @@ publish: true
 
 # Completed Task Display
 
+Plugin ID: `completed-task-display`
 Links: [GitHub repository](https://github.com/heliostatic/completed-task-display) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=completed-task-display)
 Developed by: [[heliostatic]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

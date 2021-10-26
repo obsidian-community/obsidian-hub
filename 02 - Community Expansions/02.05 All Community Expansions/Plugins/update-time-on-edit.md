@@ -23,6 +23,7 @@ publish: true
 
 # Update time on edit
 
+Plugin ID: `update-time-on-edit`
 Links: [GitHub repository](https://github.com/beaussan/update-time-on-edit-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=update-time-on-edit)
 Developed by: [[beaussan]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

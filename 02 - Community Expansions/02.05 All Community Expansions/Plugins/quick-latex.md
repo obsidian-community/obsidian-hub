@@ -23,6 +23,7 @@ publish: true
 
 # Quick Latex for Obsidian
 
+Plugin ID: `quick-latex`
 Links: [GitHub repository](https://github.com/joeyuping/quick_latex_obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=quick-latex)
 Developed by: [[joeyuping]]
 Mobile compatible: [[Desktop-only plugins|No]]

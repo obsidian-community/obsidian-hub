@@ -23,6 +23,7 @@ publish: true
 
 # Luhmann
 
+Plugin ID: `luhman`
 Links: [GitHub repository](https://github.com/Dyldog/luhman-obsidian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=luhman)
 Developed by: [[Dyldog]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Folder Note Core
 
+Plugin ID: `folder-note-core`
 Links: [GitHub repository](https://github.com/aidenlx/folder-note-core) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=folder-note-core)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

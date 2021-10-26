@@ -23,6 +23,7 @@ publish: true
 
 # Recent Files
 
+Plugin ID: `recent-files-obsidian`
 Links: [GitHub repository](https://github.com/tgrosinger/recent-files-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=recent-files-obsidian)
 Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Style Settings
 
+Plugin ID: `obsidian-style-settings`
 Links: [GitHub repository](https://github.com/mgmeyers/obsidian-style-settings) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-style-settings)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

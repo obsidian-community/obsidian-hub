@@ -23,6 +23,7 @@ publish: true
 
 # Mind Map
 
+Plugin ID: `obsidian-mind-map`
 Links: [GitHub repository](https://github.com/lynchjames/obsidian-mind-map) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-mind-map)
 Developed by: [[lynchjames]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

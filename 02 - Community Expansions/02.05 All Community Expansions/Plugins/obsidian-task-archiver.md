@@ -23,6 +23,7 @@ publish: true
 
 # Obsidian Task Archiver
 
+Plugin ID: `obsidian-task-archiver`
 Links: [GitHub repository](https://github.com/ivan-lednev/obsidian-task-archiver) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-task-archiver)
 Developed by: [[ivan-lednev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

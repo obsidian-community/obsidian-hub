@@ -23,6 +23,7 @@ publish: true
 
 # Filename Heading Sync
 
+Plugin ID: `obsidian-filename-heading-sync`
 Links: [GitHub repository](https://github.com/dvcrn/obsidian-filename-heading-sync) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-filename-heading-sync)
 Developed by: [[dvcrn]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # PlantUML
 
+Plugin ID: `obsidian-plantuml`
 Links: [GitHub repository](https://github.com/joethei/obsidian-plantuml) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plantuml)
 Developed by: [[joethei]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

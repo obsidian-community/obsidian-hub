@@ -23,6 +23,7 @@ publish: true
 
 # Pluck
 
+Plugin ID: `obsidian-pluck`
 Links: [GitHub repository](https://github.com/kevboh/obsidian-pluck) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pluck)
 Developed by: [[kevboh]]
 Mobile compatible: [[Desktop-only plugins|No]]

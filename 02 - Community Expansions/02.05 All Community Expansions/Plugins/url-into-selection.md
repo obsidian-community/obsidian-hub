@@ -23,6 +23,7 @@ publish: true
 
 # Paste URL into selection
 
+Plugin ID: `url-into-selection`
 Links: [GitHub repository](https://github.com/denolehov/obsidian-url-into-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=url-into-selection)
 Developed by: [[denolehov]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

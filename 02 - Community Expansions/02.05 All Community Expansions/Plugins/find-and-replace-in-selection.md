@@ -23,6 +23,7 @@ publish: true
 
 # Find and replace in selection
 
+Plugin ID: `find-and-replace-in-selection`
 Links: [GitHub repository](https://github.com/derwish-pro/obsidian-find-and-replace-in-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=find-and-replace-in-selection)
 Developed by: [[derwish-pro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

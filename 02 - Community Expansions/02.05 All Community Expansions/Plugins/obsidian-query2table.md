@@ -23,6 +23,7 @@ publish: true
 
 # query2table
 
+Plugin ID: `obsidian-query2table`
 Links: [GitHub repository](https://github.com/avirut/obsidian-query2table) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-query2table)
 Developed by: [[avirut]]
 Mobile compatible: [[Desktop-only plugins|No]]

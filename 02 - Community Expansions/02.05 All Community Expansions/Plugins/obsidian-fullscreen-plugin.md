@@ -23,6 +23,7 @@ publish: true
 
 # Fullscreen mode plugin
 
+Plugin ID: `obsidian-fullscreen-plugin`
 Links: [GitHub repository](https://github.com/razumihin/obsidian-fullscreen-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-fullscreen-plugin)
 Developed by: [[razumihin]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

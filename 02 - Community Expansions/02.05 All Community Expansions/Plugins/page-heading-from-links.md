@@ -23,6 +23,7 @@ publish: true
 
 # Page Heading From Links
 
+Plugin ID: `page-heading-from-links`
 Links: [GitHub repository](https://github.com/beet/page-headings-obsidian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=page-heading-from-links)
 Developed by: [[beet]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

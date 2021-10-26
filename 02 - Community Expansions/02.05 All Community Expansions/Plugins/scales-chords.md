@@ -23,6 +23,7 @@ publish: true
 
 # Scales and Chords
 
+Plugin ID: `scales-chords`
 Links: [GitHub repository](https://github.com/egradman/scales-chords) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=scales-chords)
 Developed by: [[egradman]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

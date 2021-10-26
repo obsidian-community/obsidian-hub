@@ -23,6 +23,7 @@ publish: true
 
 # Plugin Changelogs
 
+Plugin ID: `plugin-changelogs`
 Links: [GitHub repository](https://github.com/phibr0/obsidian-plugin-changelogs) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=plugin-changelogs)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # PDF Highlights
 
+Plugin ID: `obsidian-extract-pdf-highlights`
 Links: [GitHub repository](https://github.com/akaalias/obsidian-extract-pdf-highlights) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-extract-pdf-highlights)
 Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

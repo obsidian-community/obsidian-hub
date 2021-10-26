@@ -23,6 +23,7 @@ publish: true
 
 # Auto Link Title
 
+Plugin ID: `obsidian-auto-link-title`
 Links: [GitHub repository](https://github.com/zolrath/obsidian-auto-link-title) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-auto-link-title)
 Developed by: [[zolrath]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

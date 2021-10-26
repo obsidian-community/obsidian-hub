@@ -23,6 +23,7 @@ publish: true
 
 # Note Refactor
 
+Plugin ID: `note-refactor-obsidian`
 Links: [GitHub repository](https://github.com/lynchjames/note-refactor-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=note-refactor-obsidian)
 Developed by: [[lynchjames]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

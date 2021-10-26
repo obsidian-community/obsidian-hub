@@ -23,6 +23,7 @@ publish: true
 
 # React Components
 
+Plugin ID: `obsidian-react-components`
 Links: [GitHub repository](https://github.com/elias-sundqvist/obsidian-react-components) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-react-components)
 Developed by: [[elias-sundqvist]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

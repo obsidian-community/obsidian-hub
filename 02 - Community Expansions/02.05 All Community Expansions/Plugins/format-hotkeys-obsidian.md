@@ -23,6 +23,7 @@ publish: true
 
 # Format Hotkeys
 
+Plugin ID: `format-hotkeys-obsidian`
 Links: [GitHub repository](https://github.com/anstosa/format-hotkeys-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=format-hotkeys-obsidian)
 Developed by: [[anstosa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

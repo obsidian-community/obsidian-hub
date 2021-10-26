@@ -23,6 +23,7 @@ publish: true
 
 # cMenu
 
+Plugin ID: `cmenu-plugin`
 Links: [GitHub repository](https://github.com/chetachiezikeuzor/cMenu-Plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cmenu-plugin)
 Developed by: [[chetachiezikeuzor]]
 Mobile compatible: [[Desktop-only plugins|No]]

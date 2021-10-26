@@ -23,6 +23,7 @@ publish: true
 
 # Multi-line Formatting
 
+Plugin ID: `multi-line-formatting`
 Links: [GitHub repository](https://github.com/nmady/obsidian-multi-line-formatting) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=multi-line-formatting)
 Developed by: [[nmady]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

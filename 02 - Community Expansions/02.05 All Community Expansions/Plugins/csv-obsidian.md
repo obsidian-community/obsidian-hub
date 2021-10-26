@@ -23,6 +23,7 @@ publish: true
 
 # CSV Editor
 
+Plugin ID: `csv-obsidian`
 Links: [GitHub repository](https://github.com/deathau/csv-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=csv-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

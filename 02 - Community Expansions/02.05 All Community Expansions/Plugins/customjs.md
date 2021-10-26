@@ -23,6 +23,7 @@ publish: true
 
 # CustomJS
 
+Plugin ID: `customjs`
 Links: [GitHub repository](https://github.com/samlewis0602/obsidian-custom-js) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=customjs)
 Developed by: [[samlewis0602]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

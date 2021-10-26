@@ -23,6 +23,7 @@ publish: true
 
 # QuickAdd
 
+Plugin ID: `quickadd`
 Links: [GitHub repository](https://github.com/chhoumann/quickadd) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=quickadd)
 Developed by: [[chhoumann]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

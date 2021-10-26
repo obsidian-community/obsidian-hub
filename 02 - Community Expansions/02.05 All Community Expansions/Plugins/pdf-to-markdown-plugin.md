@@ -23,6 +23,7 @@ publish: true
 
 # PDF to Markdown
 
+Plugin ID: `pdf-to-markdown-plugin`
 Links: [GitHub repository](https://github.com/akaalias/obsidian-extract-pdf) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=pdf-to-markdown-plugin)
 Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

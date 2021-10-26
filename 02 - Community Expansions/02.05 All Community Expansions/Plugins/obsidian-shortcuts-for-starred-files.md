@@ -23,6 +23,7 @@ publish: true
 
 # Hotkeys for starred files and searches
 
+Plugin ID: `obsidian-shortcuts-for-starred-files`
 Links: [GitHub repository](https://github.com/Vinzent03/obsidian-shortcuts-for-starred-files) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-shortcuts-for-starred-files)
 Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

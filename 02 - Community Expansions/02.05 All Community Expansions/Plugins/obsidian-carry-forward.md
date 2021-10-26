@@ -23,6 +23,7 @@ publish: true
 
 # Carry-Forward
 
+Plugin ID: `obsidian-carry-forward`
 Links: [GitHub repository](https://github.com/jglev/obsidian-carry-forward) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-carry-forward)
 Developed by: [[jglev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

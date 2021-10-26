@@ -23,6 +23,7 @@ publish: true
 
 # NoteTweet🐦
 
+Plugin ID: `notetweet`
 Links: [GitHub repository](https://github.com/chhoumann/notetweet_obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=notetweet)
 Developed by: [[chhoumann]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

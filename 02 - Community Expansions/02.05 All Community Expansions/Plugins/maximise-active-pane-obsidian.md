@@ -23,6 +23,7 @@ publish: true
 
 # Maximise Active Pane
 
+Plugin ID: `maximise-active-pane-obsidian`
 Links: [GitHub repository](https://github.com/deathau/maximise-active-pane-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=maximise-active-pane-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Periodic Notes
 
+Plugin ID: `periodic-notes`
 Links: [GitHub repository](https://github.com/liamcain/obsidian-periodic-notes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=periodic-notes)
 Developed by: [[liamcain]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

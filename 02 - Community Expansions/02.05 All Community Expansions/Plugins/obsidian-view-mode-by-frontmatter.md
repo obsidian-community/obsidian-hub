@@ -23,6 +23,7 @@ publish: true
 
 # Force note view mode
 
+Plugin ID: `obsidian-view-mode-by-frontmatter`
 Links: [GitHub repository](https://github.com/bwydoogh/obsidian-force-view-mode-of-note) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-view-mode-by-frontmatter)
 Developed by: [[bwydoogh]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

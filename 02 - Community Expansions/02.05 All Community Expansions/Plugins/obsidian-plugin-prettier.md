@@ -23,8 +23,9 @@ publish: true
 
 # Prettier Format
 
+Plugin ID: `obsidian-plugin-prettier`
 Links: [GitHub repository](https://github.com/hipstersmoothie/obsidian-plugin-prettier) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plugin-prettier)
-Developed by: [[Hipstersmoothie]]
+Developed by: [[hipstersmoothie]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Opinionated formatting for your notes.

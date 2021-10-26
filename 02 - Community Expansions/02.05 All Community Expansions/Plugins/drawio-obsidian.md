@@ -23,6 +23,7 @@ publish: true
 
 # Diagrams
 
+Plugin ID: `drawio-obsidian`
 Links: [GitHub repository](https://github.com/zapthedingbat/drawio-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=drawio-obsidian)
 Developed by: [[zapthedingbat]]
 Mobile compatible: [[Desktop-only plugins|No]]

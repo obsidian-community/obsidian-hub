@@ -23,6 +23,7 @@ publish: true
 
 # Templater
 
+Plugin ID: `templater-obsidian`
 Links: [GitHub repository](https://github.com/SilentVoid13/Templater) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=templater-obsidian)
 Developed by: [[SilentVoid13]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Slated
 
+Plugin ID: `slated-obsidian`
 Links: [GitHub repository](https://github.com/tgrosinger/slated-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=slated-obsidian)
 Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

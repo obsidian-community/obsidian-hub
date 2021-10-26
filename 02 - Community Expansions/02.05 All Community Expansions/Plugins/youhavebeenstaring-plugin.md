@@ -23,6 +23,7 @@ publish: true
 
 # YouHaveBeenStaring
 
+Plugin ID: `youhavebeenstaring-plugin`
 Links: [GitHub repository](https://github.com/fxal/obsidian-youhavebeenstaring-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=youhavebeenstaring-plugin)
 Developed by: [[fxal]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Python lab
 
+Plugin ID: `python-lab-plugin`
 Links: [GitHub repository](https://github.com/cristianvasquez/obsidian-lab) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=python-lab-plugin)
 Developed by: [[cristianvasquez]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

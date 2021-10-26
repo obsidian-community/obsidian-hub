@@ -23,6 +23,7 @@ publish: true
 
 # PaperCut
 
+Plugin ID: `obsidian-paper-cut`
 Links: [GitHub repository](https://github.com/Darakah/obsidian-paper-cut) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-paper-cut)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

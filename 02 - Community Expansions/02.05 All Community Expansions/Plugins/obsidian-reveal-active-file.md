@@ -23,6 +23,7 @@ publish: true
 
 # Automatically reveal active file
 
+Plugin ID: `obsidian-reveal-active-file`
 Links: [GitHub repository](https://github.com/shichongrui/obsidian-reveal-active-file) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-reveal-active-file)
 Developed by: [[shichongrui]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

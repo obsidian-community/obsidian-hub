@@ -23,6 +23,7 @@ publish: true
 
 # Buttons
 
+Plugin ID: `buttons`
 Links: [GitHub repository](https://github.com/shabegom/buttons) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=buttons)
 Developed by: [[shabegom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

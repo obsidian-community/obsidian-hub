@@ -23,6 +23,7 @@ publish: true
 
 # Static File Server
 
+Plugin ID: `obsidian-static-file-server`
 Links: [GitHub repository](https://github.com/elias-sundqvist/obsidian-static-file-server) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-static-file-server)
 Developed by: [[elias-sundqvist]]
 Mobile compatible: [[Desktop-only plugins|No]]

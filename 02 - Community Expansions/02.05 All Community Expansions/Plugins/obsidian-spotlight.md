@@ -23,6 +23,7 @@ publish: true
 
 # Spotlight
 
+Plugin ID: `obsidian-spotlight`
 Links: [GitHub repository](https://github.com/Darakah/obsidian-spotlight) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-spotlight)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

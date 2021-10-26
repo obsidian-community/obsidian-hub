@@ -23,6 +23,7 @@ publish: true
 
 # Kanban
 
+Plugin ID: `obsidian-kanban`
 Links: [GitHub repository](https://github.com/mgmeyers/obsidian-kanban) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-kanban)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

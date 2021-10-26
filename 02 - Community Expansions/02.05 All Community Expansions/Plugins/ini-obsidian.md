@@ -23,6 +23,7 @@ publish: true
 
 # ini Editor
 
+Plugin ID: `ini-obsidian`
 Links: [GitHub repository](https://github.com/deathau/ini-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=ini-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

@@ -23,6 +23,7 @@ publish: true
 
 # Obsidian42 - Jump-to-Date
 
+Plugin ID: `obsidian-jump-to-date-plugin`
 Links: [GitHub repository](https://github.com/TfTHacker/obsidian42-jump-to-date) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-jump-to-date-plugin)
 Developed by: [[TfTHacker]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

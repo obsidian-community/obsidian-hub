@@ -23,6 +23,7 @@ publish: true
 
 # Tag Page Preview
 
+Plugin ID: `tag-page-preview`
 Links: [GitHub repository](https://github.com/aidurber/tag-page-preview) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=tag-page-preview)
 Developed by: [[aidurber]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

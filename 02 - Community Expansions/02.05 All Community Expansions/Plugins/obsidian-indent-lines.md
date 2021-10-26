@@ -23,6 +23,7 @@ publish: true
 
 # Indentation Lines
 
+Plugin ID: `obsidian-indent-lines`
 Links: [GitHub repository](https://github.com/Arch-Storm/obsidian-indent-lines) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-indent-lines)
 Developed by: [[Arch-Storm]]
 Mobile compatible: [[Desktop-only plugins|No]]

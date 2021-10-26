@@ -23,6 +23,7 @@ publish: true
 
 # Code Block Enhancer
 
+Plugin ID: `obsidian-code-block-enhancer`
 Links: [GitHub repository](https://github.com/nyable/obsidian-code-block-enhancer) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-code-block-enhancer)
 Developed by: [[nyable]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

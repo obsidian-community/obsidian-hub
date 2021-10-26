@@ -23,6 +23,7 @@ publish: true
 
 # Icon Folder
 
+Plugin ID: `obsidian-icon-folder`
 Links: [GitHub repository](https://github.com/FlorianWoelki/obsidian-icon-folder) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-icon-folder)
 Developed by: [[FlorianWoelki]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

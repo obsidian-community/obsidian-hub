@@ -23,6 +23,7 @@ publish: true
 
 # Embedded Note Titles
 
+Plugin ID: `obsidian-embedded-note-titles`
 Links: [GitHub repository](https://github.com/mgmeyers/obsidian-embedded-note-titles) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-embedded-note-titles)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Desktop-only plugins|No]]

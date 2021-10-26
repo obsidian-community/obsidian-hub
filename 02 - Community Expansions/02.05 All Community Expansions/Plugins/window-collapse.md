@@ -23,6 +23,7 @@ publish: true
 
 # Window Collapse
 
+Plugin ID: `window-collapse`
 Links: [GitHub repository](https://github.com/gquental/obsidian-window-collapse) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=window-collapse)
 Developed by: [[gquental]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

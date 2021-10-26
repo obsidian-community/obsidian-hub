@@ -23,6 +23,7 @@ publish: true
 
 # Obsidian Orthography
 
+Plugin ID: `obsidian-orthography`
 Links: [GitHub repository](https://github.com/denisoed/obsidian-orthography) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-orthography)
 Developed by: [[denisoed]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

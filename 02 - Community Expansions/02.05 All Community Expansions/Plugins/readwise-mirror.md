@@ -23,6 +23,7 @@ publish: true
 
 # Readwise Mirror
 
+Plugin ID: `readwise-mirror`
 Links: [GitHub repository](https://github.com/jsonMartin/readwise-mirror) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=readwise-mirror)
 Developed by: [[jsonMartin]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]

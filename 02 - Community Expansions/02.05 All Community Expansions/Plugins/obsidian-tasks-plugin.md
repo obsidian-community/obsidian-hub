@@ -23,6 +23,7 @@ publish: true
 
 # Tasks
 
+Plugin ID: `obsidian-tasks-plugin`
 Links: [GitHub repository](https://github.com/schemar/obsidian-tasks) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tasks-plugin)
 Developed by: [[schemar]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
