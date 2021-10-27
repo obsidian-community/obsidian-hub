@@ -111,7 +111,7 @@ Documentation: [Page preview](https://help.obsidian.md/Plugins/Page+preview)
 
 ## Publish
 
-Publish your notes through [[Obsidian Publish.]]
+Publish your notes through [[Obsidian Publish]]
 
 Plugin ID: `publish`
 Documentation: [Publish](https://help.obsidian.md/Plugins/Publish)

@@ -58,9 +58,9 @@ publish: true
 
 ## Contributing
 
-Adding tools that are useful in combination with Obsidian is done in two parts. The basic information of the tool itself is listed here, for longer posts explaining describe how you use this tool check [[09.02 - How To]].
+Adding tools that are useful in combination with Obsidian is done in two parts. The basic information of the tool itself is listed here, for longer posts explaining describe how you use this tool check [[🗂️ Guides]].
 
-1. Create a new note under [[10 - Resources]]
+1. Create a new note under [[🗂️ 02.05 All Community Expansions]] > [[🗂️ Auxiliary Tools]]
 2. Apply the [[T - Auxiliary tool]] template
 3. Fill out the placeholders
 4. [[How to add content through GitHub|Submit your changes to GitHub]]
