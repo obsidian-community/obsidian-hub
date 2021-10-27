@@ -5,6 +5,7 @@ from themes import get_theme_plugin_support, get_theme_settings
 
 from utils import (
     THEME_CSS_FILE,
+    format_link,
     get_category_files,
     get_template,
     get_theme_css,
@@ -25,6 +26,7 @@ LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 def process_released_plugins(overwrite=False):
     template = get_template("plugin")
     plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
+    devs = list()
     for plugin in plugin_list:
         repo = plugin.get("repo")
         branch = plugin.get("branch", "master")
@@ -37,12 +39,17 @@ def process_released_plugins(overwrite=False):
 
         plugin.update(mobile=mobile, user=user, **manifest)
         write_file(template, plugin.get("id"), overwrite=overwrite, **plugin)
+        devs.append(plugin)
+
+    return devs
 
 
 def process_released_themes(overwrite=False):
     print("-----\nProcessing themes....\n")
     template = get_template("theme")
     theme_list = get_json_from_github(THEMES_JSON_FILE)
+    designers = list()
+
     for theme in theme_list:
         repo = theme.get("repo")
         user = repo.split("/")[0]
@@ -63,10 +70,15 @@ def process_released_themes(overwrite=False):
             plugins=plugin_support,
         )
         write_file(template, theme.get("name"), overwrite=overwrite, **theme)
+        designers.append(theme)
+
+    return designers
 
 
 def get_uncategorized_plugins(overwrite=True):
+    print("-----\nFinding uncategorized plugins....\n")
     template = get_template("category")
+    UNCATEGORIZED = "Uncategorized plugins"
 
     released_plugins = get_json_from_github(PLUGINS_JSON_FILE)
     plugin_list = [p.get("id") for p in released_plugins]
@@ -75,7 +87,7 @@ def get_uncategorized_plugins(overwrite=True):
     file_list = get_category_files()
 
     for file in file_list:
-        if "Uncategorized plugins" in file:
+        if UNCATEGORIZED in file:
             continue
 
         with open(file) as category_file:
@@ -91,12 +103,42 @@ def get_uncategorized_plugins(overwrite=True):
 
     write_file(
         template,
-        "Uncategorized plugins",
-        name="Uncategorized plugins",
+        UNCATEGORIZED,
+        name=UNCATEGORIZED,
         description="Plugins which have not yet been categorized by the community.",
         plugins=uncategorized,
         overwrite=overwrite,
     )
+
+
+def process_authors(theme_designers, plugin_devs, overwrite=False):
+    print("-----\nProcessing authors....\n")
+    template = get_template("author")
+
+    all_authors = dict()
+    for designer in theme_designers:
+        # author = designer.get("user")
+        author = designer.get("author")
+        user = designer.get("user")
+        theme_link = format_link(designer.get("name"))
+        all_authors.setdefault(user, dict()).update(author=author, user=user)
+        all_authors[user].setdefault("themes", []).append(theme_link)
+
+    print("Done with theme designers")
+
+    # We process plugins after because they have richer info
+
+    for dev in plugin_devs:
+        author = dev.get("author")
+        user = dev.get("user")
+        plugin_link = format_link(dev.get("id"), dev.get("name"))
+        all_authors.setdefault(user, dict()).update(
+            author=author, user=user, website=dev.get("authorUrl", "")
+        )
+        all_authors[user].setdefault("plugins", []).append(plugin_link)
+
+    for user, author_info in all_authors.items():
+        write_file(template, user, overwrite=overwrite, **author_info)
 
 
 def main(argv=sys.argv[1:]):
@@ -108,17 +150,32 @@ def main(argv=sys.argv[1:]):
     )
 
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--all", action="store_true")
-    group.add_argument("--themes", action="store_true")
-    group.add_argument("--plugins", action="store_true")
+    group.add_argument(
+        "--all", action="store_true", help="Process plugins, themes and authors."
+    )
+    group.add_argument(
+        "--themes",
+        action="store_true",
+        help="Only process themes (authors won't be updated).",
+    )
+    group.add_argument(
+        "--plugins",
+        action="store_true",
+        help="Only process plugins (authors won't be updated)",
+    )
 
     args = parser.parse_args(argv)
 
+    devs = list()
+    designers = list()
     if args.all or args.plugins:
-        process_released_plugins(args.overwrite)
+        devs = process_released_plugins(args.overwrite)
         get_uncategorized_plugins()
     if args.all or args.themes:
-        process_released_themes(args.overwrite)
+        designers = process_released_themes(args.overwrite)
+
+    if args.all:
+        process_authors(designers, devs, args.overwrite)
 
 
 if __name__ == "__main__":

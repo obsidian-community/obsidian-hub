@@ -55,4 +55,11 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-pikt|Pikt]]
 - [[improved-vimcursor|Improved VimCursor]]
 - [[quote-of-the-day|Quote of the Day]]
+- [[obsidian-audio-speed-plugin|Audio Speed Plugin]]
+- [[obsidian-limelight|Limelight]]
+- [[prompt|Prompt]]
+- [[obsidian-link-archive|Link Archive]]
+- [[obsidian-html-tags-autocomplete|HTML Tags Autocomplete]]
+- [[advanced-cursors|Advanced Cursors]]
+- [[stenography-obsidian|Stenography]]
 

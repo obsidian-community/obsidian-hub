@@ -16,9 +16,6 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Vim Input Method Switch
@@ -31,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Switch input method with fcitx-remote when Vim keymap is enabled.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[yuanotes#Sponsor this author]] %%

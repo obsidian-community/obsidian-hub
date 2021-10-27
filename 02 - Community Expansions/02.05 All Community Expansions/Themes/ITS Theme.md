@@ -14,9 +14,6 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # ITS Theme
@@ -31,7 +28,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 %% ----- Do not edit anything above this line ----- %% 
 
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[SlRvb#Sponsor this author]] %%
+
+
 ## Features
+
 - Features of **ITS Theme** available as snippets:
   - [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
     Pre-made alternate color schemes are available with the css snippet.

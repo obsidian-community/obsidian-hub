@@ -8,7 +8,7 @@ publish: true
 
 # 🗂️ Obsidian Roundup
 
-Archive of the "weekly newspaper" of the Obsidian Community, by written by [[Eleanor Konik]].
+Archive of the "weekly newspaper" of the Obsidian Community, by written by [[eleanorkonik|Eleanor Konik]].
 
 ## MOC
 

@@ -16,7 +16,7 @@ In this folder are all new things which haven't been properly sorted into the Ob
 -  [[06 - Inbox/Buy Me a Coffee|Buy Me a Coffee]]
 -  [[06 - Inbox/ClubMacStories|ClubMacStories]]
 -  [[06 - Inbox/Customer Relationship Management|Customer Relationship Management]]
--  [[06 - Inbox/GitHub sponsor|GitHub sponsor]]
+-  [[06 - Inbox/GitHub sponsors|GitHub sponsors]]
 -  [[06 - Inbox/HAProxy|HAProxy]]
 -  [[06 - Inbox/Let's Encrypt|Let's Encrypt]]
 -  [[06 - Inbox/LYT House|LYT House]]

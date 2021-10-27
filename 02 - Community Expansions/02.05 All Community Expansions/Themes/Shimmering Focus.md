@@ -14,9 +14,6 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Shimmering Focus
@@ -30,6 +27,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ![screenshot](https://github.com/chrisgrieser/shimmering-focus/raw/main/dual-theme-screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[chrisgrieser#Sponsor this author]] %%
+
 
 ## Features
 
@@ -59,7 +60,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Monospace Font Size
 - Heading Font: H1 to H5 Headings
 - Side Bar Font: Applies to all text in the left and right side bar
-- Side Font Size
+- Side Bar Font Size
 
 **Images**: 
 - Turn off the "Max View" feature: "Max View" makes panes full length and images full width when the left sidebar is hidden and readable line length when the left sidebar is shown. (Note:  You need to turn on "readable line length" in the editor settings as well for this to work.)

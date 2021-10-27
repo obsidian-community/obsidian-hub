@@ -16,9 +16,6 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Netwik
@@ -31,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 This plugin provides access to global network of notes. Anyone can create, view or edit notes. All changes will be synchronized between all participants
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[fivol#Sponsor this author]] %%

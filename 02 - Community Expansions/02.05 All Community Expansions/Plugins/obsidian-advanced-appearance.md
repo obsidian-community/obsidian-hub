@@ -16,9 +16,6 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Advanced Appearance
@@ -31,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Change colors, fonts and other cosmetic settings.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[kepano#Sponsor this author]] %%

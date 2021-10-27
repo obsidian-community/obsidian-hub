@@ -14,9 +14,6 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Slytherin
@@ -30,6 +27,10 @@ Modes: [[Dark-mode themes|dark]]
 ![screenshot](https://github.com/MatheusZarkov/Obsidian-Slytherin/raw/main/Cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[MatheusZarkov#Sponsor this author]] %%
+
 
 ## Features
 

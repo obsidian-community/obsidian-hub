@@ -15,6 +15,7 @@ OUTPUT_DIR = {
     "plugin": "02 - Community Expansions/02.05 All Community Expansions/Plugins",
     "category": "02 - Community Expansions/02.01 Plugins by Category",
     "theme": "02 - Community Expansions/02.05 All Community Expansions/Themes",
+    "author": "01 - Community/Authors - Persons",
 }
 
 
@@ -82,3 +83,10 @@ def get_category_files():
     return glob.glob(
         os.path.abspath(os.path.join("../..", OUTPUT_DIR["category"])) + "/*.md"
     )
+
+
+def format_link(note_name, alias=None):
+    if alias is None:
+        return "[[{}]]".format(note_name)
+    else:
+        return "[[{}|{}]]".format(note_name, alias)
