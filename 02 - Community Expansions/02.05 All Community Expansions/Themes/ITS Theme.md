@@ -32,48 +32,48 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 %% ----- Do not edit anything above this line ----- %% 
 
 ## Features
-
-- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 - Features of **ITS Theme** available as snippets:
-	- [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
-		Pre-made alternate color schemes are available with the css snippet.
-	- [[Image Adjustments]]
-	- [[Embed Adjustments]]
-	- [[Kanban (SlRvb)|Kanban]]
-	- [[Asides (SlRvb)|Asides]]
-	- [[Alternate Checkboxes (SlRvb)|Alternate Checkboxes]]
-	- [[Folder Styles (SlRvb)|Folder Styles]]
-	- [[Alternate Admonitions (SlRvb)]]
+  - [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
+    Pre-made alternate color schemes are available with the css snippet.
+  - [[Image Adjustments]]
+  - [[Embed Adjustments]]
+  - [[Kanban (SlRvb)|Kanban]]
+  - [[Asides (SlRvb)|Asides]]
+  - [[Alternate Checkboxes (SlRvb)|Alternate Checkboxes]]
+  - [[Folder Styles (SlRvb)|Folder Styles]]
+  - [[Alternate Admonitions (SlRvb)]]
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
 
 **Text**: 
 - **Fonts**: Change ITS Theme fonts
-    - Headings
-    - Vault Font
-    - Text
+    - Headings: Heading and Vault Title fonts.
+    - Vault Font: Vault Title Specific Font, otherwise Headings above replaces both.
+    - Text: Changes text font for preview and edit mode.
     - Monospace
-    - Font Ligatures
+    - Font Ligatures: (Depends On Font) Text combines into symbols ie. - - > becomes -->.
 - **Size**: Change text size and/or margin spacing
-    - Mobile Note Text Size
-    - Note Text Size
+    - Mobile Note Text Size: Toggle on to use the resize on mobile.
+    - Note Text Size: Adjust size for preview/editor mode. If you use the one below, this only affects editor mode.
     - Header Weights
     - Header Height
     - Line Height
 - **Colors**: Change text colors
     - Text
     - Faint Text
-    - Headings
-    - File Title
+    - Headings: Heading, Vault title, HR Symbol, blockquote quotation mark, and open folder icon colors.
+    - File Title: File text color.
     - Code Text
+    - `<i></i>` Text: Html `<i></i>` text color.
     - Footnotes
 - **Specific View Changes**: Change text in both preview/edit mode or change it for either mode separately
-    - Different Preview/Editor Text
-    - Preview Text
-    - Editor Text
-    - Preview Text Size
+    - Different Preview/Editor Text: If toggled on, Text only affects UI text.
+    - Preview Text: Changes text font for preview mode.
+    - Editor Text: Changes text font for edit mode.
+    - Preview Text Size: Adjust size for preview mode.
 - **Specific Decoration Changes**: Change bold, italic, strikethrough elements
-    - Different Preview/Editor Decorations
+    - Different Preview/Editor Decorations: Toggle on to use different styles for italics, bold, and strikethrough
     - **Specific Decoration Fonts**: 
         - Preview Italic Font
         - Editor Italic Font
@@ -89,7 +89,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Preview Strikethrough Color
         - Editor Strikethrough Color
 - **Specific View Heading Changes**: Change Headings in preview/edit mode
-    - Specific Heading Adjustments
+    - Specific Heading Adjustments: Toggle on to edit headings individually.
     - **Heading Fonts**: 
         - Heading 1 Font Preview
         - Heading 1 Font Editor
@@ -135,12 +135,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Wrap Note Title
 - Flat Note Title Color
 - Display Folder Arrow On Hover
-- Raise Right Sidebar
+- Raise Right Sidebar: Raise the right sidebar if the status bar is covering part of it.
 - **Minimalist Workspace**: Hide UI unless hovered over the edges of the app.
-    - Writing
-    - Hide All UI
+    - Writing: Minimalistic/distraction free layout design for notes.
+    - Hide All UI: Hide everything listed below with just 1 toggle
     - Hide Resize Handles
-    - Hide Scrollbars
+    - Hide Scrollbars: Recommend increasing the scrollbar width with this
     - Hide Vault Name
     - Hide File Explorer/Search Buttons
     - Hide Sidebar Tab Icons
@@ -151,53 +151,53 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Hide Status Bar
 - **Workspace Resize**: Resize UI Elements (Scrollbar, Menu, Sidebars, Note Titlebars)
     - Resize Scrollbars
-    - Toggle Resize
-    - Menu Text Size
+    - Toggle Resize: Toggle to resize UI Elements. (Not necessary for Resize Scrollbars)
+    - Menu Text Size: Adjust the size for the menus, ie. Settings, Quick Switcher, etc.
     - Sidebar Text Size
-    - Note Title Size
+    - Note Title Size: Adjust the size for the note titles.
 - **Workspace Colors**: Recolor some UI colors
-    - Note
+    - Note: Note and sidebar colors.
     - Outer Sidebar
-    - Sidebar
-    - Dark Sidebar
-    - File
-    - Folder
+    - Sidebar: Change only sidebar, right settings pane colors.
+    - Dark Sidebar: Left settings bar, <i></i> background, graph background, and pane separator colors.
+    - File: File icon color.
+    - Folder: Open folder icon color.
     - Sliding Panes Dropshadow
 
 **Note Elements**: 
 - Hide Frontmatter
-- Justify Text
-- Centered Tables
-- Center Images
+- Justify Text: Justify preview and editor text
+- Centered Tables: Move all tables to the center of the page.
+- Center Images: Center images by default
 - **Horizontal Line**: 
-    - Horizontal Line Symbol
-    - Horizontal Line Symbol Fonts
-    - No Horizontal Line Symbol
+    - Horizontal Line Symbol: Add quotations around symbol for it to work. For Example "⚡". Use the codepoint for symbols from supported font icons. For Example "\e800".
+    - Horizontal Line Symbol Fonts: Font Icons. Default font aligns emojis.
+    - No Horizontal Line Symbol: Hide the horizontal Line Symbol entirely
 - **Embeds**: 
-    - Naked Embeds
-    - Original Embeds
-    - Embed Heading Undo
+    - Naked Embeds: Embeds that look like they're part of the note.
+    - Original Embeds: Previous style of embeds
+    - Embed Heading Undo: Revert embed headings to the default sizes and colors
 - **Headers**: 
-    - Header Tags Above Header
+    - Header Tags Above Header: Move the editor header hastags
     - Hide Header Underline
     - Center Headings
-    - Center Heading With Lines
+    - Center Heading With Lines: Center headings and have lines appear at either side of it.
     - Illusion Theme Inspired Headings
 - **Colors**: 
-    - Embed/Blockquote
+    - Embed/Blockquote: Embed/Blockquote color.
     - Code Background
     - Horizontal Line
-    - Aside Background Color
+    - Aside Background Color: Aside background color and dark theme setting alternating setting item color.
 - **Lists**: 
-    - Colorful Task Text
+    - Colorful Task Text: Add color to the text of the task.
     - Default Bullet Disc Shape
-    - Bullet Shape
-    - Original Bullet Lines
+    - Bullet Shape: Add quotes around your new bullet. For example "~"
+    - Original Bullet Lines: Lines appear under bullet, not beside it. ⚠Causes scrolling glitches. Recommended this is turned off, but use if you wish.
     - Line Size
     - **Colorful Lists**: 
-        - Colorful Bullet Line Color
-        - Colorful Bullet Color
-        - Neon Lines
+        - Colorful Bullet Line Color: Toggle on to use colorful bullet lines
+        - Colorful Bullet Color: Toggle on to use colorful bullets
+        - Neon Lines: Toggle on for lines to have a neon glow effect
         - Bullet Line 1 Color
         - Bullet Line 2 Color
         - Bullet Line 3 Color
@@ -215,21 +215,21 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Other Colors**: 
 - Accent
-- Lite Accent
-- Accent 2
-- Lite Accent 2
-- Dark Accent
-- Deep Dark Accent
-- Inactive
-- Background
-- Lines
-- Foreground
+- Lite Accent: Link hover, scrollbar active, tags, embed titles and links colors.
+- Accent 2: Arrows, lines, even bullet list line colors.
+- Lite Accent 2: Link color.
+- Dark Accent: File selected and Note Gradient, frontmatter tag, scrollbar color.
+- Deep Dark Accent: Darkmode Mobile Toolbar and Lightmode Obsidian titlebar background color.
+- Inactive: Inactive note; file text; unresolved and external link, editor and external link hover; and mermaid text color.
+- Background: Scrollbar background color
+- Lines: Explorer, heading, input box, settings, frontmatter, and mermaidjs lines
+- Foreground: Active file selected title color, Graph Node Color, Kanban Plugin Button color.
 - **Highlights**: 
-    - Text Highlight
-    - Search Highlight
-    - Search 2
-    - Text Selection
-    - Table
+    - Text Highlight: Markdown highlight color.
+    - Search Highlight: Search result highlight color.
+    - Search 2: Search match highlight and background transparent color for settings.
+    - Text Selection: Cursor dragged highlights
+    - Table: Alternating row/column color for table.
 - **Graph Colors**: 
     - Graph Background
     - Graph Lines
@@ -239,14 +239,14 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Graph Tags
 
 **Plugins**: 
-- Hide Text Expander
-- Dataview Adjustments
-- SuperCharged Links Adjustments
-- Kanban Plugin Adjustments
-- Image Zoom
+- Hide Text Expander: Hide text expander code block from preview
+- Dataview Adjustments: Personal adjustments to some elements of dataview
+- SuperCharged Links Adjustments: Personal adjustments to some elements of SuperCharged Links
+- Kanban Plugin Adjustments: Personal adjustments for less noisy Kanban layout
+- Image Zoom: Hold and click an image to zoom into it.
 - Swap Sliding Pane Icons
 - Cross Reference Plugin Adjustments
-- Sidebar Notes Adjustments
-- Mobile Toolbar Adjustment
-- Mobile Indent Style
+- Sidebar Notes Adjustments: Adjustments to padding for better displays of notes moved into sidebars.
+- Mobile Toolbar Adjustment: Multi-row bar sorts properly, but scrolls vertically now.
+- Mobile Indent Style: Alternate style to differentiate lists sublevels in edit mode on mobile.
 

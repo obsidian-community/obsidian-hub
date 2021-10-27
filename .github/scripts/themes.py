@@ -1,6 +1,9 @@
 import yaml
 import re
 
+from plugins import CORE_PLUGINS
+from utils import PLUGINS_JSON_FILE, get_json_from_github
+
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
 
@@ -36,7 +39,6 @@ def get_theme_settings(theme_css):
 
                 if start_h is None:
                     start_h = setting.get("level")
-                    h_diff = 3 - start_h
 
                 if setting.get("level") == start_h:
                     markdown_settings.append(
@@ -63,10 +65,15 @@ def get_theme_settings(theme_css):
                 elif not content and last_h != start_h:
                     tab_level = tab_level + 1
 
+                if setting.get("description"):
+                    description = ": {}".format(setting.get("description"))
+                else:
+                    description = ""
+
                 markdown_settings.append(
                     {
-                        "title": "{}- {}".format(
-                            "    " * tab_level, setting.get("title")
+                        "title": "{}- {}{}".format(
+                            "    " * tab_level, setting.get("title"), description
                         ),
                         "type": setting.get("type"),
                     }
@@ -76,9 +83,30 @@ def get_theme_settings(theme_css):
         return markdown_settings
 
 
-def get_theme_plugin_support(theme_css):
+def get_theme_plugin_support(theme_css, comm_plugins=None):
     match = re.search(plugins_regex, theme_css, re.MULTILINE)
     if match:
         plugin_str = match[1]
         plugins = yaml.load(plugin_str.replace("\t", "    "), Loader=yaml.FullLoader)
+
+        core_plugins = {n.get("id"): n.get("name") for n in CORE_PLUGINS}
+        supported_core_plugins = list()
+        for p in plugins.get("core", list()):
+            plugin_name = core_plugins.get(p)
+            supported_core_plugins.append(
+                "Obsidian Core Plugins#{}|{}".format(plugin_name, plugin_name)
+            )
+        plugins["core"] = supported_core_plugins
+
+        if comm_plugins is None:
+            plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
+            comm_plugins = {n.get("id"): n.get("name") for n in plugin_list}
+
+        supported_comm_plugins = list()
+        for p in plugins.get("community", list()):
+            plugin_name = comm_plugins.get(p, p)
+            supported_comm_plugins.append("{}|{}".format(p, plugin_name))
+
+        plugins["community"] = supported_comm_plugins
+
         return plugins

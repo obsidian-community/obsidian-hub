@@ -47,28 +47,28 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Base Darkness
 
 **Custom Fonts**: For customizing theme fonts.
-- UI Font
-- Preview Font
-- Headers in Preview Font
-- Editor Font
-- Headers in Editor Font
-- Monospace Font
+- UI Font: Font used for the user interface
+- Preview Font: Font used for the preview view
+- Headers in Preview Font: Font used for the headers in preview
+- Editor Font: Font used for the editor view
+- Headers in Editor Font: Font used for the headers in editor
+- Monospace Font: Used for code blocks, front matter, etc
 
 **Typography**: Extra typographical features.
-- WYSIWYG Headings in Editor
-- Enhanced Editor Typography
-- Rainbow Headers
-- Readable Line Width
-- Body Line Height
+- WYSIWYG Headings in Editor: Adds WYSIWYG-like functionality for headings in editor
+- Enhanced Editor Typography: Adds enhanced WYSIWYG-like functionality in editor
+- Rainbow Headers: Adds rainbow colors for headers
+- Readable Line Width: The maximum line width in rem units for readable line width
+- Body Line Height: Line height of the main text, expects a decimal value
 - Light Mode Block Quote Color
 - Dark Mode Block Quote Color
 - Italicized Text Color
 - Bold Text Color
-- Highlight Color
+- Highlight Color: This will change the color of highlights in light and dark mode
 
 **Heading Changes**: Editing headings individually.
 - **Heading Fonts**: 
-    - Change Heading Fonts
+    - Change Heading Fonts: This will allow for editing of headings individually.
     - Heading 1 Font Preview
     - Heading 1 Font Editor
     - Heading 2 Font Preview
@@ -82,7 +82,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Heading 6 Font Preview
     - Heading 6 Font Editor
 - **Heading Size**: 
-    - Change Heading Sizes
+    - Change Heading Sizes: This will allow for editing of headings individually.
     - Heading 1 Size Preview
     - Heading 1 Size Editor
     - Heading 2 Size Preview
@@ -96,7 +96,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Heading 6 Size Preview
     - Heading 6 Size Editor
 - **Heading Color**: 
-    - Change Heading Colors
+    - Change Heading Colors: This will allow for editing of headings individually.
     - Heading 1 Color Preview
     - Heading 1 Color Editor
     - Heading 2 Color Preview
@@ -112,50 +112,50 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Minimalize Elements**: Minimalize certain workspace elements.
 - **Custom Icons**: 
-    - Remove Custom Icons
+    - Remove Custom Icons: This will disable all custom icons
 - **Animations**: 
-    - Disable Sidepane Animations
+    - Disable Sidepane Animations: This will make interactions in sidepanes immediate.
 - **Clean Embeds**: 
-    - Minimalize Embedded Notes
+    - Minimalize Embedded Notes: This will minimalize the look of embed notes
 - **Code Blocks**: 
-    - Remove Languages
-    - Remove Block Borders
-    - Change Code Font Size
+    - Remove Languages: This will remove code languages from code blocks.
+    - Remove Block Borders: This will remove borders from code blocks.
+    - Change Code Font Size: This will allow you to set a custom font size for code blocks
 - **Blockquotes**: 
-    - Remove Blockquote Icon
+    - Remove Blockquote Icon: This will remove the quote icon from all blockquotes
 - **Vault**: 
-    - Remove Vault Title
+    - Remove Vault Title: This will remove the vault title from the titlebar
 - **List Elements**: 
-    - Remove Relationship Lines in Preview
-    - Remove Relationship Lines in Editor
-    - Change the Line Indent Value for List
-    - Change the Relationship Line Thickness in Preview
-    - Change the Relationship Line Thickness in Editor
+    - Remove Relationship Lines in Preview: This will remove the relationship lines from your notes in preview mode
+    - Remove Relationship Lines in Editor: This will remove the relationship lines from your notes in editor mode
+    - Change the Line Indent Value for List: This will allow you to set a custom line indent value
+    - Change the Relationship Line Thickness in Preview: This will allow you to set a custom relationship line thickness in preview
+    - Change the Relationship Line Thickness in Editor: This will allow you to set a custom relationship line thickness in editor
 - **File Explorer**: 
-    - Remove Custom Icons
-    - Show Folder Icons
-    - Remove Text Reverse on Attachments
+    - Remove Custom Icons: This will remove all custom icons in the file explorer (will also improve scrolling performance).
+    - Show Folder Icons: This will display folder icons (set to none by default for those that wish to use their own icons)
+    - Remove Text Reverse on Attachments: This will undo text reverse of attachments and remove attachments icons
 - **Status Bar**: 
-    - Remove Status Bar
-    - Remove Status Bar Icon
+    - Remove Status Bar: This will hide the status bar and you can hover to see it
+    - Remove Status Bar Icon: This will remove the ☯️ symbol from the status bar
 
 **More Customization**: Extra customizable features.
 - **File Explorer**: 
-    - File Explorer Relationship Lines
+    - File Explorer Relationship Lines: This will add relationship lines to files and folders in file explorer
 - **Background Customization**: 
     - **Background For All Side Panes**: 
-        - Set background customization for all side panes
+        - Set background customization for all side panes: Allows customization of backgrounds for all panes. Simply edit the image url within the "url()" function.
         - Side Panes Bkgd
         - Bkgd Size
         - Bkgd Filter
         - Bkgd Repeat/No-Repeat
     - **Background For Specific Side Panes**: 
-        - Set background for specific panes
+        - Set background for specific panes: Allows customization of backgrounds for specific panes. Simply edit the image url within the "url()" function.
         - Graph Panes Bkgd
         - File Explorer Bkgd
         - Backlinks Bkgd
         - Tag Pane Bkgd
         - Calendar Pane Bkgd
 - **Transparent Window**: 
-    - MacOS-Like Transparent Window
+    - MacOS-Like Transparent Window: This will give your workspace a MacOS-like translucency
 

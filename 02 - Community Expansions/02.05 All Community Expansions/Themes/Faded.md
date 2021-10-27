@@ -36,6 +36,6 @@ Modes: [[Dark-mode themes|dark]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-- Gradient Bullet Point Lines
-- Check List Strikeout
+- Gradient Bullet Point Lines: Adds a gradient to bullet point lines
+- Check List Strikeout: Adds a strikeout to checked Items
 

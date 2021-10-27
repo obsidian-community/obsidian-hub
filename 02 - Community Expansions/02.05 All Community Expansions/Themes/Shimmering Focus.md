@@ -38,15 +38,15 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ## Customization Options (Style Settings Plugin) 
 
 **Show/Hide Elements**: 
-- Show Title Bar
-- Show Ribbons
-- Permanently show the Header Bar
-- Permanently show the Status Bar
-- Permanently show the Close Button in the Settings Menu
-- Permanently show the Collapse Buttons (in Edit Mode)
+- Re-enable Title Bar: Re-enable this to have a title bar, e.g. for moving the Obsidian window
+- Re-enable Ribbons: Ribbons are the thin vertical bars to the very left & right
+- Permanently show the Header Bar: When false, the Header bar is still visible upon focus and hover
+- Permanently show the Status Bar: When false, the Status bar is still visible upon focus and hover
+- Re-enable Close Buttons: When false, you can close the menu with `Esc` or by clicking outside the menu area.
+- Permanently show the Edit Mode Collapse Buttons: When false, you collapse buttons still become visible upon hovering.
 
 **Headings**: 
-- No Alternating Italic of Headings
+- No Alternating Italic of Headings: In this theme, the Heading Levels alternate between italic/regular to make them more distinguishable. You can turn that feature off if you prefer non-italic at all heading levels.
 - Level 1 Headings
 - Level 2 Headings
 - Level 3 Headings
@@ -55,62 +55,64 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Fonts**: 
 - Main Font
-- Not using iA Writer as Main Font
-- Monospace Font
+- Monospace Font: Code blocks, YAML in edit mode, tables, etc.
 - Monospace Font Size
-- Heading Font
-- Decrease letter spacing for headings
-- Side Bar Font
+- Heading Font: H1 to H5 Headings
+- Side Bar Font: Applies to all text in the left and right side bar
 - Side Font Size
-- Use Standard Mermaid Font
 
-**Longform Plugin Styling**: 
-- Main Font for Longform Notes
-- Longform Font Size
-- Left-aligned text in Longform notes
-- No Background Color for Longform Notes
-- Hide files named "Index.md" from File Explorer
-
-**Image Settings**: 
-- Turn off "Max View"
-- Size of Images
+**Images**: 
+- Turn off the "Max View" feature: "Max View" makes panes full length and images full width when the left sidebar is hidden and readable line length when the left sidebar is shown. (Note:  You need to turn on "readable line length" in the editor settings as well for this to work.)
+- Size of Images: Size of Images in % (when Max View is disabled or note active)
 - Align images to the left
 
+**Cursor**: 
+- Block Cursor: Use a block instead of a line as cursor. For best results, also switch the main font to a monospaced one.
+- Use a mono-colored Cursor: Uses a (light purple) cursor, as in previous versions of "Shimmering Focus".
+
+**Longform Plugin**: 
+- Main Font for Longform Notes: Font used in folders marked as Longform Project
+- Longform Font Size
+- Left-aligned text in Longform notes: Use left-aligned instead of justified text.
+- No Background Color for Longform Notes: Turn off the slight coloring of longform notes.
+- Hide files named "Index.md" from File Explorer: Files named that way are created by some plugins like the Longform Plugin and in many cases should not be touched.
+
 **Miscellaneous**: 
-- Normal Checkboxes
-- No Emphasis of Pandoc Citations
-- Size of Popovers (Page Previews)
-- Turn off "Annotation Tags"
+- Normal Checkboxes: Use the normal checkboxes from the default theme.
+- No Emphasis of Pandoc Citations: Turn off the coloring of Pandoc Citations [@citekey] done by this theme.
+- Size of Popovers (Page Previews): Width & Height of Popovers in px
+- Turn off "Annotation Tags": "Annotation Tags" will visually emphasize some tags that are commonly used for academic reading.
 
 ## Plugin Compatibility[^1]
 
 **Core plugins**:
-- [[backlink]]
-- [[command-palette]]
-- [[file-explorer]]
-- [[global-search]]
-- [[graph]]
-- [[outgoing-link]]
-- [[outline]]
-- [[page-preview]]
-- [[starred]]
-- [[switcher]]
-- [[tag-pane]]
+- [[Obsidian Core Plugins#Backlinks|Backlinks]]
+- [[Obsidian Core Plugins#Command palette|Command palette]]
+- [[Obsidian Core Plugins#File explorer|File explorer]]
+- [[Obsidian Core Plugins#Search|Search]]
+- [[Obsidian Core Plugins#Graph view|Graph view]]
+- [[Obsidian Core Plugins#Outgoing Links|Outgoing Links]]
+- [[Obsidian Core Plugins#Outline|Outline]]
+- [[Obsidian Core Plugins#Page preview|Page preview]]
+- [[Obsidian Core Plugins#Starred notes|Starred notes]]
+- [[Obsidian Core Plugins#Quick switcher|Quick switcher]]
+- [[Obsidian Core Plugins#Tag pane|Tag pane]]
+- [[Obsidian Core Plugins#File recovery|File recovery]]
 
 **Community plugins**:
-- [[recent-files-obsidian]]
-- [[advanced-cursors]]
-- [[obsidian-another-quick-switcher]]
-- [[obsidian-codemirror-options]]
-- [[obsidian-kanban]]
-- [[oz-image-plugin]]
-- [[calendar]]
-- [[obsidian-dangling-links]]
-- [[mysnippets-plugin]]
-- [[obsidian-drag-and-drop-blocks]]
-- [[map-of-content]]
-- [[quick-explorer]]
-- [[templater-obsidian]]
-- [[obsidian-system-dark-mode]]
+- [[recent-files-obsidian|Recent Files]]
+- [[advanced-cursors|Advanced Cursors]]
+- [[obsidian-another-quick-switcher|Another Quick Switcher]]
+- [[obsidian-codemirror-options|CodeMirror Options]]
+- [[obsidian-kanban|Kanban]]
+- [[oz-image-plugin|Ozan's Image in Editor Plugin]]
+- [[calendar|Calendar]]
+- [[obsidian-dangling-links|Dangling links panel]]
+- [[mysnippets-plugin|MySnippets]]
+- [[obsidian-drag-and-drop-blocks|obsidian-drag-and-drop-blocks]]
+- [[map-of-content|Map of Content]]
+- [[quick-explorer|Quick Explorer]]
+- [[templater-obsidian|Templater]]
+- [[obsidian-system-dark-mode|System Dark Mode]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

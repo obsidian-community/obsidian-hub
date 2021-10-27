@@ -41,21 +41,21 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **Accent Colors**: 
     - Light Mode Accent Color
     - Dark Mode Accent Color
-    - Text accent hover color
+    - Text accent hover color: Color that displays when hovering elements that have the accent color by default (e.g. footnote numbers).
 - **Highlight Colors**: Set the colors for highlights and highlighted text!
-    - Highlight 1
-    - Highlight 1 Text
-    - Highlight 2
-    - Highlight 2 Text
-    - Highlight 3
-    - Highlight 3 Text
+    - Highlight 1: The color of the highlight.
+    - Highlight 1 Text: The color of highlighted text when hovered.
+    - Highlight 2: The color of the highlight.
+    - Highlight 2 Text: The color of highlighted text when hovered.
+    - Highlight 3: The color of the highlight.
+    - Highlight 3 Text: The color of highlighted text when hovered.
 - **Graph Colors**: 
     - Active Note Node Color
     - Tag Node Color
     - Attachment Node Color
 
 **Typography**: 
-- Preview Mode line width
+- Preview Mode line width: The maximum number of characters per line.
 - **Fonts**: 
     - Preview Mode Font
     - Edit Mode Font
@@ -63,36 +63,45 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Monospace Font
 - **Headings**: 
     - Heading Font
-    - Heading 1 Size
-    - Heading 2 Size
-    - Heading 3 Size
-    - Heading 4 Size
-    - Heading 5 Size
-    - Heading 6 Size
-
-**Elements**: 
-- Status Bar on top
-- Tab Header Icon side padding
-- **File Explorer**: 
-    - File Explorer Relationship Lines
-    - No File Icons
-    - No Folder Icons
-    - Show full titles
-- **Scrollbars**: 
-    - No Scrollbar in Global Search
-    - No Scrollbar in Notes
-    - No Scrollbar in File Explorer
-    - No Scrollbar in Modal
+    - Heading 1 Size: Changes the size of Heading 1 based on percentage.
+    - Heading 2 Size: Changes the size of Heading 2 based on percentage.
+    - Heading 3 Size: Changes the size of Heading 3 based on percentage.
+    - Heading 4 Size: Changes the size of Heading 4 based on percentage.
+    - Heading 5 Size: Changes the size of Heading 5 based on percentage.
+    - Heading 6 Size: Changes the size of Heading 6 based on percentage.
 
 **Features**: 
-- Center Tables
-- Edit Mode Tasks
+- Center Tables: Centers all tables in the note.
+- Alternate Dataview Tables: Alternates row colors for easier reading.
+- <hr> ("---") Options: For Edit Mode
+- Edit Mode Tasks: Makes filled tasks green and empty ones red, in Edit Mode.
+- Footnote Title: Places a lvl.2 heading before the Footnotes.
+- Wrap Note Titles: Displays the entire note title, even when the width is small.
+- Wrap Kanban Lanes: Makes Kanban Lanes wrap in multiple rows if needed.
+- **Sidenotes**: 
+    - Sidenote Options: Left and right sidenote colors
+    - Inner Sidenote Options: Inner sidenote colors
 - **Relationship Lines**: 
-    - Relationship Lines
-    - Alternating Relationship Lines Colors
+    - Relationship Lines: Toggle relationship lines on lists
+    - Alternating Relationship Lines Colors: Toggle alternating relationship lines on lists.
+
+**Elements**: 
+- Hide Frontmatter: This setting hides frontmatter in Preview Mode.
+- Status Bar on top: This setting moves the status bar to the top, but its buttons will stop working.
+- Tab Header Icon side padding: Changes tab header icons side padding.
+- **File Explorer**: 
+    - File Explorer Relationship Lines: Adds hierarchy lines in File explorer.
+    - No File Icons: Removes file icons from file explorer.
+    - No Folder Icons: Removes file icons from file explorer.
+    - Show full titles: Turns off trimming of folder and file titles.
+- **Scrollbars**: 
+    - No Scrollbar in Global Search: Disables Scrollbars when displaying Global Search Results.
+    - No Scrollbar in Notes: Disables Scrollbars in Notes.
+    - No Scrollbar in File Explorer: Disables Scrollbars in File Explorer.
+    - No Scrollbar in Modal: Disables Scrollbars in settings menus.
 
 **Advanced Options**: 
-- No background blur
-- Disable animations
-- Default icons
+- No background blur: This setting disables background blur on modals.
+- Disable animations: This setting disables animations and transitions.
+- Default icons: Use default icons instead of the Sanctum set.
 

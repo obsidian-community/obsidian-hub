@@ -42,7 +42,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Light Mode
 
 **Decoration**: 
-- Headers Hover "🢀"
+- Headers Hover "🢀": When you hover over a header on preview view a 🢀 will pop out
 - **Vertical Lines - Lists**: Shows vertical lines below the lists items markers. WARNING -> This could be a problem for those who use sync panes, since it will glitch a lot whenever you try to scroll near the lists. If you use sync panes, please keep it off
     - Dark Mode
     - Light Mode

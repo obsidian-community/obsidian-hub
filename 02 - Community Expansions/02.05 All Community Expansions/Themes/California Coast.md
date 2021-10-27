@@ -39,81 +39,81 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Accent Color**: 
 - Accent Color
-- Accented cursor
+- Accented cursor: The editor cursor takes on your accent color
 
 **Custom Fonts**: 
-- UI font
-- Body font
-- Body font features
-- Monospace font
-- Body line height
-- Line width
+- UI font: Font used for the user interface
+- Body font: Font used for the editor and preview
+- Body font features: eg. "ss01", "cv05", "cv07", "case"
+- Monospace font: Used for code blocks, front matter, etc
+- Body line height: Line height of the main text, expects a decimal value
+- Line width: The maximum line width in rem units (1rem = Body font size)
 
 **Misc**: 
-- Page preview scale
-- Truncate file titles
-- Disable sidebar animations
-- Disable tree animations
+- Page preview scale: Percentage amount to scale hover preview and sidebar document font
+- Truncate file titles: By default, files with long names will wrap in the file explorer. This setting ensures each file name only takes up a single line
+- Disable sidebar animations: Closing and opening sidebars will occur immediately rather than animating to the open or closed positions
+- Disable tree animations: Closing and opening folders, nested tags, etc. will occur immediately rather than animating to the open or closed positions
 
 **Editor Customization**: 
-- Soft-blink cursor
-- Flush headings
-- Blockquotes
-- Bold and italics
-- Horizontal rule
-- Editor list bullets
-- Editor list indentation lines
+- Soft-blink cursor: The editor cursor will fade in and out rather than blinking
+- Flush headings: Shifts heading hashes so headings are aligned with the edge of the editor
+- Blockquotes: De-emphasizes the blockquote formatting character
+- Bold and italics: Styles bold and italic formatting to be less prominent
+- Horizontal rule: Styles horizontal rules to span the width of the editor
+- Editor list bullets: Replace *, -, + with a bullet character when creating lists
+- Editor list indentation lines: Display vertical lines to distinguish list indentation level
 - Soft wrap code-blocks
 
 **Preview Customization**: 
-- Enhanced Preview Typography
+- Enhanced Preview Typography: Adds context aware padding between text elements in preview mode (requires the "contextual typography" plugin)
 - Hide vertical table dividers
-- Seamless embed
+- Seamless embed: Display embedded content seamlessly as a part of the containing document
 - **Level 1 Headings**: 
-    - H1 font size
-    - H1 line height
-    - H1 top margin
-    - H1 bottom margin
-    - H1 font weight
-    - H1 font style
+    - H1 font size: Accepts any CSS font-size value
+    - H1 line height: Accepts decimal values
+    - H1 top margin: Accepts decimal values representing the number of lines to add before the heading
+    - H1 bottom margin: Accepts decimal values representing the number of lines to add below the heading
+    - H1 font weight: Accepts numbers represeting the CSS font-weight
+    - H1 font style: Accepts any CSS font-style value
 - **Level 2 Headings**: 
-    - H2 font size
-    - H2 line height
-    - H2 top margin
-    - H2 bottom margin
-    - H2 font weight
-    - H2 font style
+    - H2 font size: Accepts any CSS font-size value
+    - H2 line height: Accepts decimal values
+    - H2 top margin: Accepts decimal values representing the number of lines to add before the heading
+    - H2 bottom margin: Accepts decimal values representing the number of lines to add below the heading
+    - H2 font weight: Accepts numbers represeting the CSS font-weight
+    - H2 font style: Accepts any CSS font-style value
 - **Level 3 Headings**: 
-    - H3 font size
-    - H3 line height
-    - H3 top margin
-    - H3 bottom margin
-    - H3 font weight
-    - H3 font style
+    - H3 font size: Accepts any CSS font-size value
+    - H3 line height: Accepts decimal values
+    - H3 top margin: Accepts decimal values representing the number of lines to add before the heading
+    - H3 bottom margin: Accepts decimal values representing the number of lines to add below the heading
+    - H3 font weight: Accepts numbers represeting the CSS font-weight
+    - H3 font style: Accepts any CSS font-style value
 - **Level 4 Headings**: 
-    - H4 font size
-    - H4 line height
-    - H4 top margin
-    - H4 bottom margin
-    - H4 font weight
-    - H4 font style
+    - H4 font size: Accepts any CSS font-size value
+    - H4 line height: Accepts decimal values
+    - H4 top margin: Accepts decimal values representing the number of lines to add before the heading
+    - H4 bottom margin: Accepts decimal values representing the number of lines to add below the heading
+    - H4 font weight: Accepts numbers represeting the CSS font-weight
+    - H4 font style: Accepts any CSS font-style value
 - **Level 5 Headings**: 
-    - H5 font size
-    - H5 line height
-    - H5 top margin
-    - H5 bottom margin
-    - H5 font weight
-    - H5 font style
+    - H5 font size: Accepts any CSS font-size value
+    - H5 line height: Accepts decimal values
+    - H5 top margin: Accepts decimal values representing the number of lines to add before the heading
+    - H5 bottom margin: Accepts decimal values representing the number of lines to add below the heading
+    - H5 font weight: Accepts numbers represeting the CSS font-weight
+    - H5 font style: Accepts any CSS font-style value
 - **Level 6 Headings**: 
-    - H6 font size
-    - H6 line height
-    - H6 top margin
-    - H6 bottom margin
-    - H6 font weight
-    - H6 font style
+    - H6 font size: Accepts any CSS font-size value
+    - H6 line height: Accepts decimal values
+    - H6 top margin: Accepts decimal values representing the number of lines to add before the heading
+    - H6 bottom margin: Accepts decimal values representing the number of lines to add below the heading
+    - H6 font weight: Accepts numbers represeting the CSS font-weight
+    - H6 font style: Accepts any CSS font-style value
 
 **Icons**: 
-- Use Custom Icons
+- Use Custom Icons: Replace obsidian's default icons
 - Use File Icons
 - Use Folder Icons
 - Folder icon color

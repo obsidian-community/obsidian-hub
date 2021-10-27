@@ -38,64 +38,64 @@ Modes: [[Dark-mode themes|dark]]
 ## Customization Options (Style Settings Plugin) 
 
 **Background styles**: 
-- Light mode style
-- Dark mode style
+- Light mode style: Background color style in light mode
+- Dark mode style: Background color style in dark mode
 
 **Colors**: 
 - Accent color
 - Base color
-- Accent color adjust for dark mode
-- Base color adjustment for dark mode
+- Accent color adjust for dark mode: Adjust darkness of the accent color in dark mode
+- Base color adjustment for dark mode: Adjust darkness of the base color in dark mode
 
 **Features**: 
-- Fancy cursor
-- Hide sidebar borders
-- Hide action buttons in focus mode
-- Show full file names
-- Folding offset
-- Relationship lines in Preview
-- Relationship lines in Editor
-- Maximize media
-- Underline internal links
-- Underline external links
+- Fancy cursor: Editor cursor uses your accent color
+- Hide sidebar borders: Turn off borders on sidebars
+- Hide action buttons in focus mode: When sidebars are collapsed hide action buttons, accessible by hovering
+- Show full file names: Turn off trimming on files in sidebar
+- Folding offset: Recommended if you use folding headings and indents
+- Relationship lines in Preview: Show vertical lines that connect related bullet points and task lists
+- Relationship lines in Editor: Show vertical lines that connect related bullet points and task lists
+- Maximize media: Images and videos fill the width of the line
+- Underline internal links: Show underlines on internal links
+- Underline external links: Show underlines on external links
 
 **Fonts**: 
-- Text font
-- Editor font
-- Monospace font
-- UI font
+- Text font: Used in preview mode
+- Editor font: Used in edit mode
+- Monospace font: Used for code blocks and front matter
+- UI font: Used for buttons, menus and sidebar
 
 **Typography**: 
-- Body font size
-- Sidebar font size
-- Body line height
-- Normal line width
-- Maximum line width
+- Body font size: Font size in px of the main text
+- Sidebar font size: Font size in px of the sidebar and small text
+- Body line height: Line height of the main text
+- Normal line width: Number of characters per line
+- Maximum line width: Percentage of space inside a pane that a line can fill. Recommended values between 80 to 100
 
 **Headings**: 
 - **Level 1 Headings**: 
-    - H1 font size
-    - H1 font weight
+    - H1 font size: Accepts any CSS font-size value
+    - H1 font weight: Accepts numbers representing the CSS font-weight
 - **Level 2 Headings**: 
-    - H2 font size
-    - H2 font weight
+    - H2 font size: Accepts any CSS font-size value
+    - H2 font weight: Accepts numbers representing the CSS font-weight
 - **Level 3 Headings**: 
-    - H3 font size
-    - H3 font weight
+    - H3 font size: Accepts any CSS font-size value
+    - H3 font weight: Accepts numbers representing the CSS font-weight
 - **Level 4 Headings**: 
-    - H4 font size
-    - H4 font weight
+    - H4 font size: Accepts any CSS font-size value
+    - H4 font weight: Accepts numbers representing the CSS font-weight
 - **Level 5 Headings**: 
-    - H5 font size
-    - H5 font weight
+    - H5 font size: Accepts any CSS font-size value
+    - H5 font weight: Accepts numbers representing the CSS font-weight
 - **Level 6 Headings**: 
-    - H6 font size
-    - H6 font weight
+    - H6 font size: Accepts any CSS font-size value
+    - H6 font weight: Accepts numbers representing the CSS font-weight
 
 **Advanced**: 
-- Cursor style
-- Small font size
-- Tiny font size
+- Cursor style: The cursor style for UI elements
+- Small font size: Font size in px of the main text
+- Tiny font size: Font size in px of the main text
 
 **Credits**: Made with ❤︎ by @kepano. Support my work at buymeacoffee.com/kepano
 
