@@ -1,5 +1,3 @@
-# T - TODO
-
 %%
 TODOs:
 - [ ] 

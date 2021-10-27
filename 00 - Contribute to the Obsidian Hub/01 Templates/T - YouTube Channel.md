@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# T - YouTube Channel
+# {{title}}
 
 %% Match the title with the channel's title %% 
 

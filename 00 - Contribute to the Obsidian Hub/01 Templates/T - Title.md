@@ -1,1 +1,1 @@
-# T - Title
+# {{title}}
