@@ -19,7 +19,7 @@ OUTPUT_DIR = {
 
 
 def get_template(template_name):
-    file_loader = FileSystemLoader("./")
+    file_loader = FileSystemLoader("./templates")
     env = Environment(
         loader=file_loader,
         trim_blocks=True,
