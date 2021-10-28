@@ -23,7 +23,6 @@ Plugins which have not yet been categorized by the community.
 - [[netwik|Netwik]]
 - [[obsidian-prominent-starred-files|Prominent Starred Files]]
 - [[ozanshare-publish|OzanShare Publish]]
-- [[obsidian-editor-shortcuts|Code Editor Shortcuts]]
 - [[obsidian-task-collector|Task Collector (TC)]]
 - [[metadata-extractor|Metadata Extractor]]
 - [[quick-latex|Quick Latex for Obsidian]]
