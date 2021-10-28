@@ -24,7 +24,7 @@ publish: true
 # Code Editor Shortcuts
 
 Links: [GitHub repository](https://github.com/timhor/obsidian-editor-shortcuts) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-editor-shortcuts)
-Developed by: [[timhor]]
+Developed by: [timhor](https://github.com/timhor)
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code or Sublime Text
