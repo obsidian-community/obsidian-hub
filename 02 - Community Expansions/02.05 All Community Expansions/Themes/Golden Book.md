@@ -38,9 +38,10 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Apolo - Animation**: Cancel the animation from Apolo ◑.◑
-- Title bar Apolo [ ◑.◑]: Cancel the animation from Apolo on the "Title bar"
-- Empty state Apolo ¯\_[ ◑.◑]_/¯: Cancel the animation from Apolo on the "Empty State"
+**Apollo - Animation**: Cancel the animation from Apollo ◑.◑
+- Title bar Apollo [ ◑.◑]: Cancel the animation from Apollo on the "Title bar"
+- Empty state Apollo ¯\_[ ◑.◑]_/¯: Cancel the animation from Apollo on the "Empty State"
+- RIP Apollo ◑.◑: Remove Apollo from existence - ¿Do you really hate him so much?
 
 **Edit - Preview Sections**: Change the CSS Settings applied to the "Edit View" and "Preview View"
 - Edit - Preview Width: Toggle the Width size of the Edit-Preview Views between the default settings and the theme settings
@@ -63,6 +64,9 @@ Modes: [[Dark-mode themes|dark]]
 **Headings (H1 ··· H6)**: Change the CSS Settings of the headings
 - H1 ··· H6 - Hn or: Choose between showing "Hn" or "#" on your headings
 - Centered Header Title: Center the text of the headings in Preview View
+
+**Tags**: Change the CSS Settings applied to the tags
+- Minimal version: The tag size will decrease and the background color would show only when you hover the tag
 
 **Plugins**: Change the CSS Settings applied to some plugins
 - **Dataview**: Change the CSS Settings applied to "Dataview"
