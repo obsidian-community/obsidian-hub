@@ -24,8 +24,8 @@ Longer descriptions are also welcome! A few things you could cover are:
 
 Life-Disciplines-Projects (LDP) is a life-management framework. It's an attempt to redefine one's relationship with work by reducing friction, eventually creating velocity towards their declared life's purpose (Ikigai). This is done through the alignment of in the following elements, among many other tricks.
 
-> Resources (PKM) → LDP (Everything below this)
->> Tasks → Core (Everything below this)
+> Resources (PKM) → LDP (Everything below this) ↴↰
+>> Tasks → Core (Everything below this) ↴↰
 >>> Life → Sense of Self
 >>> Habits → Life/Disciplines
 >>> Disciplines → Life
