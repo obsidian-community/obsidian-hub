@@ -8,9 +8,10 @@ publish: true
 
 # jsonmartin
 
-GitHub: [jsonMartin](https://github.com/jsonMartin/) ^github
-Website: <https://github.com/jsonMartin/> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [jsonMartin](https://github.com/jsonMartin/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://github.com/jsonMartin/> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ Website: <https://github.com/jsonMartin/> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @jsonMartin on GitHub Sponsors](https://github.com/sponsors/jsonMartin) ^github-sponsor
@@ -38,10 +43,12 @@ Website: <https://github.com/jsonMartin/> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

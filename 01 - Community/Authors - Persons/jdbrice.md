@@ -8,9 +8,10 @@ publish: true
 
 # dandandan
 
-GitHub: [jdbrice](https://github.com/jdbrice/) ^github
-Website: <https://github.com/jdbrice/obsidian-css-snippets> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [jdbrice](https://github.com/jdbrice/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://github.com/jdbrice/obsidian-css-snippets> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -26,12 +27,16 @@ Website: <https://github.com/jdbrice/obsidian-css-snippets> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @jdbrice on GitHub Sponsors](https://github.com/sponsors/jdbrice) ^github-sponsor
@@ -39,10 +44,12 @@ Website: <https://github.com/jdbrice/obsidian-css-snippets> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

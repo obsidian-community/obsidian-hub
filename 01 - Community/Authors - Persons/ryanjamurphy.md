@@ -8,9 +8,10 @@ publish: true
 
 # Ryan J. A. Murphy
 
-GitHub: [ryanjamurphy](https://github.com/ryanjamurphy/) ^github
-Website: <https://axle.design> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [ryanjamurphy](https://github.com/ryanjamurphy/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://axle.design> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 A mod for both Discord and forum and a plugin author.
@@ -31,12 +32,16 @@ A mod for both Discord and forum and a plugin author.
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @ryanjamurphy on GitHub Sponsors](https://github.com/sponsors/ryanjamurphy) ^github-sponsor
@@ -44,10 +49,12 @@ A mod for both Discord and forum and a plugin author.
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

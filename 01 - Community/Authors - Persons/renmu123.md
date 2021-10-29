@@ -8,9 +8,10 @@ publish: true
 
 # renmu123
 
-GitHub: [renmu123](https://github.com/renmu123/) ^github
-Website: <https://github.com/renmu123/obsidian-markdown-index> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [renmu123](https://github.com/renmu123/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://github.com/renmu123/obsidian-markdown-index> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -27,12 +28,16 @@ Website: <https://github.com/renmu123/obsidian-markdown-index> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @renmu123 on GitHub Sponsors](https://github.com/sponsors/renmu123) ^github-sponsor
@@ -40,10 +45,12 @@ Website: <https://github.com/renmu123/obsidian-markdown-index> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

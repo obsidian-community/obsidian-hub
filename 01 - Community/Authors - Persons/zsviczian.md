@@ -8,9 +8,10 @@ publish: true
 
 # Zsolt Viczian
 
-GitHub: [zsviczian](https://github.com/zsviczian/) ^github
-Website: <https://zsolt.blog> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [zsviczian](https://github.com/zsviczian/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://zsolt.blog> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ Website: <https://zsolt.blog> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @zsviczian on GitHub Sponsors](https://github.com/sponsors/zsviczian) ^github-sponsor
@@ -38,10 +43,12 @@ Website: <https://zsolt.blog> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

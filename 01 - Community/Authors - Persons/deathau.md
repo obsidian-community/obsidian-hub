@@ -8,9 +8,10 @@ publish: true
 
 # death_au
 
-GitHub: [deathau](https://github.com/deathau/) ^github
-Website: <https://github.com/deathau> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [deathau](https://github.com/deathau/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://github.com/deathau> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -38,12 +39,16 @@ Website: <https://github.com/deathau> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @deathau on GitHub Sponsors](https://github.com/sponsors/deathau) ^github-sponsor
@@ -51,10 +56,12 @@ Website: <https://github.com/deathau> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

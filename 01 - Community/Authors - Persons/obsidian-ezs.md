@@ -8,9 +8,10 @@ publish: true
 
 # ezs
 
-GitHub: [obsidian-ezs](https://github.com/obsidian-ezs/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [obsidian-ezs](https://github.com/obsidian-ezs/) ^github
+%% - Discord: `@` ^discord %%
+%% - Website: <> ^website %% 
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -26,12 +27,16 @@ GitHub: [obsidian-ezs](https://github.com/obsidian-ezs/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @obsidian-ezs on GitHub Sponsors](https://github.com/sponsors/obsidian-ezs) ^github-sponsor
@@ -39,10 +44,12 @@ GitHub: [obsidian-ezs](https://github.com/obsidian-ezs/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

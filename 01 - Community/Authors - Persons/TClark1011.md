@@ -8,9 +8,10 @@ publish: true
 
 # Thomas Clark
 
-GitHub: [TClark1011](https://github.com/TClark1011/) ^github
-Website: <https://thomasclark.io/> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [TClark1011](https://github.com/TClark1011/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://thomasclark.io/> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ Website: <https://thomasclark.io/> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @TClark1011 on GitHub Sponsors](https://github.com/sponsors/TClark1011) ^github-sponsor
@@ -38,10 +43,12 @@ Website: <https://thomasclark.io/> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

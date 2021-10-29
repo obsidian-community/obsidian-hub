@@ -8,9 +8,10 @@ publish: true
 
 # Yeboster
 
-GitHub: [yeboster](https://github.com/yeboster/) ^github
-Website: <https://github.com/Yeboster/> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [yeboster](https://github.com/yeboster/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://github.com/Yeboster/> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ Website: <https://github.com/Yeboster/> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @yeboster on GitHub Sponsors](https://github.com/sponsors/yeboster) ^github-sponsor
@@ -38,10 +43,12 @@ Website: <https://github.com/Yeboster/> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

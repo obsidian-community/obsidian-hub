@@ -8,9 +8,10 @@ publish: true
 
 # darakah
 
-GitHub: [Darakah](https://github.com/Darakah/) ^github
-Website: <https://github.com/Darakah/> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [Darakah](https://github.com/Darakah/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://github.com/Darakah/> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -32,12 +33,16 @@ Website: <https://github.com/Darakah/> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @Darakah on GitHub Sponsors](https://github.com/sponsors/Darakah) ^github-sponsor
@@ -45,10 +50,12 @@ Website: <https://github.com/Darakah/> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

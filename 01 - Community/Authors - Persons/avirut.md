@@ -8,9 +8,10 @@ publish: true
 
 # avirut
 
-GitHub: [avirut](https://github.com/avirut/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [avirut](https://github.com/avirut/) ^github
+%% - Discord: `@` ^discord %%
+%% - Website: <> ^website %% 
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -26,12 +27,16 @@ GitHub: [avirut](https://github.com/avirut/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @avirut on GitHub Sponsors](https://github.com/sponsors/avirut) ^github-sponsor
@@ -39,10 +44,12 @@ GitHub: [avirut](https://github.com/avirut/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

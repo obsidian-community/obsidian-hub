@@ -8,9 +8,10 @@ publish: true
 
 # Kevin Barrett
 
-GitHub: [kevboh](https://github.com/kevboh/) ^github
-Website: <https://kevinbarrett.org> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [kevboh](https://github.com/kevboh/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://kevinbarrett.org> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -26,12 +27,16 @@ Website: <https://kevinbarrett.org> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @kevboh on GitHub Sponsors](https://github.com/sponsors/kevboh) ^github-sponsor
@@ -39,10 +44,12 @@ Website: <https://kevinbarrett.org> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

@@ -8,9 +8,10 @@ publish: true
 
 # Adam Coddington <me@adamcoddington.net>
 
-GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
-Website: <https://coddingtonbear.net/> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://coddingtonbear.net/> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -26,12 +27,16 @@ Website: <https://coddingtonbear.net/> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @coddingtonbear on GitHub Sponsors](https://github.com/sponsors/coddingtonbear) ^github-sponsor
@@ -39,10 +44,12 @@ Website: <https://coddingtonbear.net/> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

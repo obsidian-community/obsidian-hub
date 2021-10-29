@@ -8,9 +8,10 @@ publish: true
 
 # Robin Haupt
 
-GitHub: [Robin-Haupt-1](https://github.com/Robin-Haupt-1/) ^github
-Website: <https://github.com/Robin-Haupt-1/Obsidian-Map-of-Content> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [Robin-Haupt-1](https://github.com/Robin-Haupt-1/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://github.com/Robin-Haupt-1/Obsidian-Map-of-Content> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ Website: <https://github.com/Robin-Haupt-1/Obsidian-Map-of-Content> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @Robin-Haupt-1 on GitHub Sponsors](https://github.com/sponsors/Robin-Haupt-1) ^github-sponsor
@@ -38,10 +43,12 @@ Website: <https://github.com/Robin-Haupt-1/Obsidian-Map-of-Content> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

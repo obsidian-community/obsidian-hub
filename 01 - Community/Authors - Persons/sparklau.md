@@ -8,9 +8,10 @@ publish: true
 
 # Spark
 
-GitHub: [sparklau](https://github.com/sparklau/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [sparklau](https://github.com/sparklau/) ^github
+%% - Discord: `@` ^discord %%
+%% - Website: <> ^website %% 
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ GitHub: [sparklau](https://github.com/sparklau/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @sparklau on GitHub Sponsors](https://github.com/sponsors/sparklau) ^github-sponsor
@@ -38,10 +43,12 @@ GitHub: [sparklau](https://github.com/sparklau/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

@@ -8,9 +8,10 @@ publish: true
 
 # d-sauer
 
-GitHub: [d-sauer](https://github.com/d-sauer/) ^github
-Website: <https://www.linkedin.com/in/davorsauer/> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [d-sauer](https://github.com/d-sauer/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://www.linkedin.com/in/davorsauer/> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ Website: <https://www.linkedin.com/in/davorsauer/> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @d-sauer on GitHub Sponsors](https://github.com/sponsors/d-sauer) ^github-sponsor
@@ -38,10 +43,12 @@ Website: <https://www.linkedin.com/in/davorsauer/> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

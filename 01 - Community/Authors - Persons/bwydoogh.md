@@ -8,9 +8,10 @@ publish: true
 
 # Benny Wydooghe
 
-GitHub: [bwydoogh](https://github.com/bwydoogh/) ^github
-Website: <https://i-net.be> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [bwydoogh](https://github.com/bwydoogh/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://i-net.be> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ Website: <https://i-net.be> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @bwydoogh on GitHub Sponsors](https://github.com/sponsors/bwydoogh) ^github-sponsor
@@ -38,10 +43,12 @@ Website: <https://i-net.be> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

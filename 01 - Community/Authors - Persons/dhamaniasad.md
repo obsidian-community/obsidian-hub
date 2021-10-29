@@ -8,9 +8,10 @@ publish: true
 
 # Asad Dhamani
 
-GitHub: [dhamaniasad](https://github.com/dhamaniasad/) ^github
-Website: <https://www.asad.pw> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [dhamaniasad](https://github.com/dhamaniasad/) ^github
+%% - Discord: `@` ^discord %%
+- Website: <https://www.asad.pw> ^website
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +26,16 @@ Website: <https://www.asad.pw> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @dhamaniasad on GitHub Sponsors](https://github.com/sponsors/dhamaniasad) ^github-sponsor
@@ -38,10 +43,12 @@ Website: <https://www.asad.pw> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

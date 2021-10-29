@@ -8,9 +8,10 @@ publish: true
 
 # Vinzent
 
-GitHub: [Vinzent03](https://github.com/Vinzent03/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [Vinzent03](https://github.com/Vinzent03/) ^github
+%% - Discord: `@` ^discord %%
+%% - Website: <> ^website %% 
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -30,12 +31,16 @@ GitHub: [Vinzent03](https://github.com/Vinzent03/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @Vinzent03 on GitHub Sponsors](https://github.com/sponsors/Vinzent03) ^github-sponsor
@@ -43,10 +48,12 @@ GitHub: [Vinzent03](https://github.com/Vinzent03/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->
