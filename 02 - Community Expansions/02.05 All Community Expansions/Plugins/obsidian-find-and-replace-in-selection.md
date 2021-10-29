@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Find & Replace in Selection
 
+Plugin ID: `obsidian-find-and-replace-in-selection`
 Links: [GitHub repository](https://github.com/TClark1011/obsidian-find-and-replace-in-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-find-and-replace-in-selection)
 Developed by: [[TClark1011]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Replace text within your current selection.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[TClark1011#Sponsor this author]] %%

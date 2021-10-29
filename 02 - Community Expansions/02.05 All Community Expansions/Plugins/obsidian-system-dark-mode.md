@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # System Dark Mode
 
+Plugin ID: `obsidian-system-dark-mode`
 Links: [GitHub repository](https://github.com/kepano/obsidian-system-dark-mode) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-system-dark-mode)
 Developed by: [[kepano]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Automatically use the operating system's setting to switch between light and dark mode.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[kepano#Sponsor this author]] %%

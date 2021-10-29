@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # 2Hop Links Plugin
 
+Plugin ID: `obsidian-2hop-links-plugin`
 Links: [GitHub repository](https://github.com/tokuhirom/obsidian-2hop-links-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-2hop-links-plugin)
 Developed by: [[tokuhirom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Add links to other pages at the bottom of the editor.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[tokuhirom#Sponsor this author]] %%

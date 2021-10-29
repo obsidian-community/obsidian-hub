@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # 盘古
 
+Plugin ID: `obsidian-pangu`
 Links: [GitHub repository](https://github.com/Natumsol/obsidian-pangu) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pangu)
 Developed by: [[Natumsol]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 自动为中英文之间插入空格，排版强迫者的福音。
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[Natumsol#Sponsor this author]] %%

@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Spaced Repetition
 
+Plugin ID: `obsidian-spaced-repetition`
 Links: [GitHub repository](https://github.com/st3v3nmw/obsidian-spaced-repetition) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-spaced-repetition)
 Developed by: [[st3v3nmw]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Fight the forgetting curve by reviewing flashcards & entire notes.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[st3v3nmw#Sponsor this author]] %%

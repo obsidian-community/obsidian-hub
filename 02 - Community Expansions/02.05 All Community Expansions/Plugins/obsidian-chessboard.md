@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Chessboard Viewer
 
+Plugin ID: `obsidian-chessboard`
 Links: [GitHub repository](https://github.com/THeK3nger/obsidian-chessboard) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-chessboard)
 Developed by: [[THeK3nger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Render chess positions diagrams in note preview.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[THeK3nger#Sponsor this author]] %%

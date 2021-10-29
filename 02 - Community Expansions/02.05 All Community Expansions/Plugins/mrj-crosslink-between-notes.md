@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Add links to current note
 
+Plugin ID: `mrj-crosslink-between-notes`
 Links: [GitHub repository](https://github.com/mrjackphil/obsidian-crosslink-between-notes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mrj-crosslink-between-notes)
 Developed by: [[mrjackphil]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 This plugin adds a command which allows to add a link to the current note at the bottom of selected notes
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[mrjackphil#Sponsor this author]] %%

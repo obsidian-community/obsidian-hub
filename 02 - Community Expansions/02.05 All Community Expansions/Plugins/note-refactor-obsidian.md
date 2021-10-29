@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Note Refactor
 
+Plugin ID: `note-refactor-obsidian`
 Links: [GitHub repository](https://github.com/lynchjames/note-refactor-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=note-refactor-obsidian)
 Developed by: [[lynchjames]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Extract note content into new notes and split notes
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[lynchjames#Sponsor this author]] %%

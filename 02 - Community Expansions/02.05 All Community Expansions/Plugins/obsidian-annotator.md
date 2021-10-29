@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Annotator
 
+Plugin ID: `obsidian-annotator`
 Links: [GitHub repository](https://github.com/elias-sundqvist/obsidian-annotator) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-annotator)
 Developed by: [[elias-sundqvist]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 This is a sample plugin for Obsidian. It allows you to open and annotate PDF and EPUB files.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[elias-sundqvist#Sponsor this author]] %%

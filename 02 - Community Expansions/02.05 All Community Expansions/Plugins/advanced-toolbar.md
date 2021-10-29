@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Advanced Mobile Toolbar
 
+Plugin ID: `advanced-toolbar`
 Links: [GitHub repository](https://github.com/phibr0/obsidian-advanced-toolbar) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=advanced-toolbar)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Enhances the Toolbar for Obsidian Mobile.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[phibr0#Sponsor this author]] %%

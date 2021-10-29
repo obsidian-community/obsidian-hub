@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # HackerNews
 
+Plugin ID: `obsidian-hackernews`
 Links: [GitHub repository](https://github.com/arpitbbhayani/obsidian-hackernews) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-hackernews)
 Developed by: [[arpitbbhayani]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Periodically fetches and displays top stories from HackerNews.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[arpitbbhayani#Sponsor this author]] %%

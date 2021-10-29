@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# T - Digital garden site
+# {{title}}
 
 Link: #placeholder/link
 Author: #placeholder/author %% Optional %%

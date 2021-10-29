@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Paste URL into selection
 
+Plugin ID: `url-into-selection`
 Links: [GitHub repository](https://github.com/denolehov/obsidian-url-into-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=url-into-selection)
 Developed by: [[denolehov]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Paste URL "into" selected text.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[denolehov#Sponsor this author]] %%

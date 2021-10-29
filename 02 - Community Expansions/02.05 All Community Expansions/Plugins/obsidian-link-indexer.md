@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Link indexer
 
+Plugin ID: `obsidian-link-indexer`
 Links: [GitHub repository](https://github.com/aviskase/obsidian-link-indexer) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-link-indexer)
 Developed by: [[aviskase]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Generate index notes with links based on various conditions
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[aviskase#Sponsor this author]] %%

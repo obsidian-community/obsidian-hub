@@ -1,5 +1,5 @@
 # How to Style Obsidian
-By [[Ryan J.A. Murphy]]
+By [[ryanjamurphy|Ryan J. A. Murphy]]
 
 ---
 

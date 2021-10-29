@@ -16,17 +16,18 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Table of Contents
 
+Plugin ID: `obsidian-plugin-toc`
 Links: [GitHub repository](https://github.com/hipstersmoothie/obsidian-plugin-toc) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plugin-toc)
-Developed by: [[Hipstersmoothie]]
+Developed by: [[hipstersmoothie]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Create a table of contents for a note.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[hipstersmoothie#Sponsor this author]] %%

@@ -2,7 +2,6 @@
 plugin-id: obsidian-dictionary-plugin
 aliases:
 - Dictionary
-- Obsidian Dictionary plugin
 tags: 
 - 
 publish: true
@@ -17,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Dictionary
 
+Plugin ID: `obsidian-dictionary-plugin`
 Links: [GitHub repository](https://github.com/phibr0/obsidian-dictionary) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-dictionary-plugin)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -31,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 This is a simple dictionary for the Obsidian Note-Taking Tool.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[phibr0#Sponsor this author]] %%

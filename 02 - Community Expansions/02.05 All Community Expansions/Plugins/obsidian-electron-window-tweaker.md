@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Electron Window Tweaker
 
+Plugin ID: `obsidian-electron-window-tweaker`
 Links: [GitHub repository](https://github.com/mgmeyers/obsidian-electron-window-tweaker) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-electron-window-tweaker)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Tweak various Electron window settings.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[mgmeyers#Sponsor this author]] %%

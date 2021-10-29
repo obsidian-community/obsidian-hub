@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# T - Folder structure
+# {{title}}
 
 %% Optional: Add a screenshot
 #placeholder/screenshot 

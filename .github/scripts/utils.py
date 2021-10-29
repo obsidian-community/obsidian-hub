@@ -1,6 +1,7 @@
 import os
 import json
 import glob
+import requests
 
 from urllib.request import urlopen
 from jinja2 import FileSystemLoader, Environment, DebugUndefined
@@ -8,16 +9,18 @@ from jinja2 import FileSystemLoader, Environment, DebugUndefined
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
 PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
 THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-css-themes.json"
+THEME_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/obsidian.css"
 
 OUTPUT_DIR = {
-    "plugin": "03 - Community Tools For Obsidian/Plugins",
-    "category": "02 - Categories/Plugins",
-    "theme": "03 - Community Tools For Obsidian/Themes",
+    "plugin": "02 - Community Expansions/02.05 All Community Expansions/Plugins",
+    "category": "02 - Community Expansions/02.01 Plugins by Category",
+    "theme": "02 - Community Expansions/02.05 All Community Expansions/Themes",
+    "author": "01 - Community/Authors - Persons",
 }
 
 
 def get_template(template_name):
-    file_loader = FileSystemLoader("./")
+    file_loader = FileSystemLoader("./templates")
     env = Environment(
         loader=file_loader,
         trim_blocks=True,
@@ -36,27 +39,47 @@ def get_output_dir(template, file_name):
     )
 
 
-def write_file(template, file_name, overwrite=False, **kwargs):
+def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
     file_path = get_output_dir(template, file_name)
 
     # Check if file exists
     if os.path.exists(file_path) and not overwrite:
-        # Compare filled-out template against contents
-        with open(file_path) as file:
-            contents = file.read()
-
+        group = "modified"
         modified = "File contents don't match template."
-        if contents == template.render(**kwargs):
-            modified = ""
 
-        print("{} exists. {}".format(file_name, modified))
+        if have_same_contents(file_path, template.render(**kwargs)):
+            modified = ""
+            group = "exists"
+
+        if verbose:
+            print("{} exists. {}".format(file_name, modified))
     elif os.path.exists(file_path) and overwrite:
-        print("Overwriting {}".format(file_name))
-        template.stream(**kwargs).dump(file_path)
+        if not have_same_contents(file_path, template.render(**kwargs)):
+            template.stream(**kwargs).dump(file_path)
+            group = "overwritten"
+            if verbose:
+                print("Overwriting {}".format(file_name))
+        else:
+            group = "exists"
     else:
         # Create file
-        print("Creating {}".format(file_name))
+        if verbose:
+            print("Creating {}".format(file_name))
         template.stream(**kwargs).dump(file_path)
+        group = "new"
+
+    return group
+
+
+def have_same_contents(file_path, rendered_template):
+    # Compare filled-out template against contents of an existing file
+    with open(file_path) as file:
+        contents = file.read()
+
+    if contents == rendered_template:
+        return True
+
+    return False
 
 
 def get_json_from_github(url):
@@ -64,6 +87,11 @@ def get_json_from_github(url):
         json_file = json.loads(response.read())
 
     return json_file
+
+
+def get_theme_css(url):
+    with requests.get(url) as response:
+        return response.text
 
 
 def get_plugin_manifest(repository, branch):
@@ -75,3 +103,59 @@ def get_category_files():
     return glob.glob(
         os.path.abspath(os.path.join("../..", OUTPUT_DIR["category"])) + "/*.md"
     )
+
+
+def format_link(note_name, alias=None):
+    if alias is None:
+        return "[[{}]]".format(note_name)
+    else:
+        return "[[{}|{}]]".format(note_name, alias)
+
+
+def print_file_summary(file_groups, verbose=False):
+    messages = {
+        "exists": "exist but no changes were detected.",
+        "modified": "exist, but file contents and filled out template don't match.",
+        "new": "were newly created.",
+        "overwritten": "were overwritten.",
+    }
+    for g, files in file_groups.items():
+        print("{} files {}".format(len(files), messages.get(g)))
+        if g not in ["exists"] or verbose:
+            for f in files:
+                print("\t- {}".format(f))
+
+
+# Print iterations progress
+def print_progress_bar(
+    iteration,
+    total,
+    prefix="",
+    suffix="",
+    decimals=1,
+    length=100,
+    fill="█",
+    printEnd="\r",
+):
+    """
+    Call in a loop to create terminal progress bar
+
+    Source: https://stackoverflow.com/questions/3173320/text-progress-bar-in-the-console
+    
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+        printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + "-" * (length - filledLength)
+    print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)
+    # Print New Line on Complete
+    if iteration == total:
+        print()

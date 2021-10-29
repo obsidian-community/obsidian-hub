@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Diagrams
 
+Plugin ID: `drawio-obsidian`
 Links: [GitHub repository](https://github.com/zapthedingbat/drawio-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=drawio-obsidian)
 Developed by: [[zapthedingbat]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Draw.io diagrams for Obsidian. This plugin introduces diagrams that can be included within notes or as stand-alone files. Diagrams are created as SVG files (although .drawio extensions are also supported).
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[zapthedingbat#Sponsor this author]] %%

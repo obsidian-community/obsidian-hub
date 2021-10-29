@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Icon Swapper
 
+Plugin ID: `obsidian-icon-swapper`
 Links: [GitHub repository](https://github.com/mgmeyers/obsidian-icon-swapper) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-icon-swapper)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Allows swapping out Obsidian's default icons.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[mgmeyers#Sponsor this author]] %%

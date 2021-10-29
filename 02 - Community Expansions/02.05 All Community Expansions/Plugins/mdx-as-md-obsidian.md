@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # mdx as md
 
+Plugin ID: `mdx-as-md-obsidian`
 Links: [GitHub repository](https://github.com/mkozhukharenko/mdx-as-md-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mdx-as-md-obsidian)
 Developed by: [[mkozhukharenko]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Edit mdx files as if they were markdown
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[mkozhukharenko#Sponsor this author]] %%

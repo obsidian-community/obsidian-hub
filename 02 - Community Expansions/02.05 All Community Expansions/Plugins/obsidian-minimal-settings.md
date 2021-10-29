@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Minimal Theme Settings
 
+Plugin ID: `obsidian-minimal-settings`
 Links: [GitHub repository](https://github.com/kepano/obsidian-minimal-settings) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-minimal-settings)
 Developed by: [[kepano]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Change the colors, fonts and features of Minimal Theme.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[kepano#Sponsor this author]] %%

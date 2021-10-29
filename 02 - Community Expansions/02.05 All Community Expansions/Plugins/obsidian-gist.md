@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Gist
 
+Plugin ID: `obsidian-gist`
 Links: [GitHub repository](https://github.com/linjunpop/obsidian-gist) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-gist)
 Developed by: [[linjunpop]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 This is a plugin to display the GitHub Gist.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[linjunpop#Sponsor this author]] %%

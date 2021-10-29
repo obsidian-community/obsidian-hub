@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Obsidian Git
 
+Plugin ID: `obsidian-git`
 Links: [GitHub repository](https://github.com/denolehov/obsidian-git) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-git)
 Developed by: [[denolehov]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Backup your vault with git.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[denolehov#Sponsor this author]] %%

@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Markdown Furigana
 
+Plugin ID: `obsidian-markdown-furigana`
 Links: [GitHub repository](https://github.com/steven-kraft/obsidian-markdown-furigana) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-markdown-furigana)
 Developed by: [[steven-kraft]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Simple Markdown to Furigana Rendering Plugin for Obsidian.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[steven-kraft#Sponsor this author]] %%

@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Adjacency Matrix Maker
 
+Plugin ID: `adjacency-matrix-maker`
 Links: [GitHub repository](https://github.com/SkepticMystic/adjacency-matrix-maker) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=adjacency-matrix-maker)
 Developed by: [[SkepticMystic]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Create an interactive image of an adjacency matrix of your vault
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[SkepticMystic#Sponsor this author]] %%

@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Update time on edit
 
+Plugin ID: `update-time-on-edit`
 Links: [GitHub repository](https://github.com/beaussan/update-time-on-edit-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=update-time-on-edit)
 Developed by: [[beaussan]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Keep front matter in sync with the last edit time
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[beaussan#Sponsor this author]] %%

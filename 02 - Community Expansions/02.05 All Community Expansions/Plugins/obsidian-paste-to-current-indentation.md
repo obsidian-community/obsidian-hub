@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Paste to Current Indentation
 
+Plugin ID: `obsidian-paste-to-current-indentation`
 Links: [GitHub repository](https://github.com/jglev/obsidian-paste-to-current-indentation) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-paste-to-current-indentation)
 Developed by: [[jglev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 This plugin allows pasting and marking text as block-quotes at any level of indentation.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[jglev#Sponsor this author]] %%

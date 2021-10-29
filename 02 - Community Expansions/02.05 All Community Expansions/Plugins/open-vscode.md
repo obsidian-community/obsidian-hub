@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Open vault in VSCode
 
+Plugin ID: `open-vscode`
 Links: [GitHub repository](https://github.com/NomarCub/obsidian-open-vscode) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=open-vscode)
 Developed by: [[NomarCub]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Ribbon button and command to open vault as a Visual Studio Code workspace
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[NomarCub#Sponsor this author]] %%

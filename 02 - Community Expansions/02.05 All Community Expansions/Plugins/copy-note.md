@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Enhance Copy Note
 
+Plugin ID: `copy-note`
 Links: [GitHub repository](https://github.com/kzhovn/copy-command-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=copy-note)
 Developed by: [[kzhovn]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Augments native Obsidian note copying.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[kzhovn#Sponsor this author]] %%

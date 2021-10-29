@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Meld Encrypt
 
+Plugin ID: `meld-encrypt`
 Links: [GitHub repository](https://github.com/meld-cp/obsidian-encrypt) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=meld-encrypt)
 Developed by: [[meld-cp]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Hide secrets in your notes
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[meld-cp#Sponsor this author]] %%

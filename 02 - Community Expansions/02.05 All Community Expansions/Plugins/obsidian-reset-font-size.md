@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Reset Font Size
 
+Plugin ID: `obsidian-reset-font-size`
 Links: [GitHub repository](https://github.com/luckman212/obsidian-reset-font-size) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-reset-font-size)
 Developed by: [[luckman212]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Adds button and command to reset the font size back to its default value.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[luckman212#Sponsor this author]] %%
