@@ -10,6 +10,7 @@ publish: true
 
 I teach (& research) ancient civilizations, then write stories & articles inspired by all eras of history... which involves a fair amount of notetaking ;) I'm also a moderator for the Obsidian community (mostly on Discord and Reddit) and 
 
+Discord: Eleanor#3466
 GitHub: [eleanorkonik](https://github.com/eleanorkonik/) ^github
 Website: [eleanorkonik.com/](https://eleanorkonik.com/) ^website 
 Newsletter: [Eleanor's Iceberg](http://newsletter.eleanorkonik.com/)
