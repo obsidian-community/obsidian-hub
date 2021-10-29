@@ -31,11 +31,11 @@ Website: <https://nathan-smith.org/> ^website
 - 
 %%
 
-%%
 ## Sponsor this author
 
+- [[Buy me a coffee]]: <https://ko-fi.com/officerhalf> ^buy-me-a-coffee
+%%
 - [[GitHub sponsors]]: [Sponsor @OfficerHalf on GitHub Sponsors](https://github.com/sponsors/OfficerHalf) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
