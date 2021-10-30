@@ -14,7 +14,7 @@ There will be a special channel on Discord to ask questions and chat about your 
 
 ## Submitting your project
 
-Any OOer who finishes their project before October 31, 2021 can submit via [this form](https://airtable.com/shrUsaaJcOX7cEA73/) (embedded below, although it will not render if you're viewing this on GitHub). We'll be publicly celebrating O_O contributions after the event wraps up, so you might be featured on the Obsidian website, via Twitter, or elsewhere!
+Any OOer who finishes their project before the end of October 31, 2021 [anywhere on Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth) can submit via [this form](https://airtable.com/shrUsaaJcOX7cEA73/) (embedded below, although it will not render if you're viewing this on GitHub). We'll be publicly celebrating O_O contributions after the event wraps up, so you might be featured on the Obsidian website, via Twitter, or elsewhere!
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrUsaaJcOX7cEA73?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
