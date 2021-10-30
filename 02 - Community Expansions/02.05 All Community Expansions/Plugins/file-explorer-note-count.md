@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # File Explorer Note Count
 
+Plugin ID: `file-explorer-note-count`
 Links: [GitHub repository](https://github.com/ozntel/file-explorer-note-count) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=file-explorer-note-count)
 Developed by: [[ozntel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 The plugin helps you to see the number of notes under each folder within the file explorer.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[ozntel#Sponsor this author]] %%

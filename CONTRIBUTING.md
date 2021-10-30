@@ -99,7 +99,7 @@ You can also create a new MoC here by using the [[T - Plugin Category|Template f
 
 The sub-folder [[🗂️ 02.05 All Community Expansions]] is automatically prepopulated with notes on the all expansions of our community submitted to the community plugin browser and the community theme store respectively. The MoCs in `02.01` to `02.04` link to the individual pages found in here. 
 
-This folder is prepopulated automatically, so you should not create any new notes in here. The only exception are Auxiliary Tools, for which you are free to create a new note with [[T - Ancillary tools|the respective Template.]]
+This folder is prepopulated automatically, so you should not create any new notes in here. The only exception are Auxiliary Tools, for which you are free to create a new note with [[T - Auxiliary tool|the respective Template.]]
 
 Each note represents exactly one tool, which (in the future) should also serve as a jumping pad for all information regarding this one tool – a bit like a Wikipedia page for each plugin, theme, snippet, or ancillary tool.
 

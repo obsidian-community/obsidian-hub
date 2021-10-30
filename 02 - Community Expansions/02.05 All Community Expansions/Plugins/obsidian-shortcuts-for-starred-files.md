@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Hotkeys for starred files and searches
 
+Plugin ID: `obsidian-shortcuts-for-starred-files`
 Links: [GitHub repository](https://github.com/Vinzent03/obsidian-shortcuts-for-starred-files) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-shortcuts-for-starred-files)
 Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Set an individual hotkey for the first 9 starred files and searches and open them just with your keyboard.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[Vinzent03#Sponsor this author]] %%

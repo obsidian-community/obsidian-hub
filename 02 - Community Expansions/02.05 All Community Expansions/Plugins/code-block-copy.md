@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Copy button for code blocks
 
+Plugin ID: `code-block-copy`
 Links: [GitHub repository](https://github.com/jdbrice/obsidian-code-block-copy) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=code-block-copy)
 Developed by: [[jdbrice]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Copy button for code blocks
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[jdbrice#Sponsor this author]] %%

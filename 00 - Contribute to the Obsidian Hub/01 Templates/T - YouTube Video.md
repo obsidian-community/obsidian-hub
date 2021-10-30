@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# T - YouTube Video
+# {{title}}
 
 By #placeholder/author
 

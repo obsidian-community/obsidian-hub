@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Convert url to preview (iframe)
 
+Plugin ID: `convert-url-to-iframe`
 Links: [GitHub repository](https://github.com/FHachez/obsidian-convert-url-to-iframe) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=convert-url-to-iframe)
 Developed by: [[FHachez]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Convert an url (ex, youtube) into an iframe (preview)
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[FHachez#Sponsor this author]] %%

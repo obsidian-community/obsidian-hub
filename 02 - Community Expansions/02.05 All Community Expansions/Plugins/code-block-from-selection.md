@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Code block from selection
 
+Plugin ID: `code-block-from-selection`
 Links: [GitHub repository](https://github.com/derwish-pro/obsidian-code-block-from-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=code-block-from-selection)
 Developed by: [[derwish-pro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Adds code block for the selected text
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[derwish-pro#Sponsor this author]] %%

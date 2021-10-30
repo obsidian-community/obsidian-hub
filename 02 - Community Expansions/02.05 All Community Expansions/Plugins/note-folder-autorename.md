@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Note Folder Autorename
 
+Plugin ID: `note-folder-autorename`
 Links: [GitHub repository](https://github.com/pjeby/note-folder-autorename) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=note-folder-autorename)
 Developed by: [[pjeby]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Turn notes into folders and automaticaly move/rename their folders when they move or are renamed.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[pjeby#Sponsor this author]] %%

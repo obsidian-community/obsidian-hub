@@ -13,7 +13,7 @@ publish: true
 
 ![GitHub all releases](https://img.shields.io/github/downloads/{{repo}}/total?color=573E7A&logo=github&style=for-the-badge) * ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/{{repo}}?color=573E7A&logo=github&style=for-the-badge) * ![GitHub issues by-label](https://img.shields.io/github/issues/{{repo}}/help%20wanted?color=573E7A&logo=github&style=for-the-badge) * ![GitHub Repo stars](https://img.shields.io/github/stars/{{repo}}?color=573E7A&logo=github&style=for-the-badge)
 
-# T - GitHub Repository
+# {{title}}
 
 Repository: [GitHub](https://github.com/{{repo}})
 

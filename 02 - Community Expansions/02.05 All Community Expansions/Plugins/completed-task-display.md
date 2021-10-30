@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Completed Task Display
 
+Plugin ID: `completed-task-display`
 Links: [GitHub repository](https://github.com/heliostatic/completed-task-display) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=completed-task-display)
 Developed by: [[heliostatic]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Provides a button in the ribbon to hide or display completed tasks
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[heliostatic#Sponsor this author]] %%

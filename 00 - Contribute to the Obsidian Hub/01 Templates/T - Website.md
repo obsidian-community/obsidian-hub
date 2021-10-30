@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# T - Website
+# {{title}}
 
 Link: #placeholder/link 
 

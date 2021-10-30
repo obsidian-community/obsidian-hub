@@ -16,17 +16,18 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Code Editor Shortcuts
 
+Plugin ID: `obsidian-editor-shortcuts`
 Links: [GitHub repository](https://github.com/timhor/obsidian-editor-shortcuts) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-editor-shortcuts)
-Developed by: [timhor](https://github.com/timhor)
+Developed by: [[timhor]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code or Sublime Text
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[timhor#Sponsor this author]] %%

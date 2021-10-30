@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Find and replace in selection
 
+Plugin ID: `find-and-replace-in-selection`
 Links: [GitHub repository](https://github.com/derwish-pro/obsidian-find-and-replace-in-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=find-and-replace-in-selection)
 Developed by: [[derwish-pro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Finds what you are looking for in the selected text and replaces it with the specified text
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[derwish-pro#Sponsor this author]] %%

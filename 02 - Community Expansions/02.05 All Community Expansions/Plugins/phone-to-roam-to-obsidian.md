@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Phone to Roam to Obsidian
 
+Plugin ID: `phone-to-roam-to-obsidian`
 Links: [GitHub repository](https://github.com/dgarrett/phone-to-roam-to-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=phone-to-roam-to-obsidian)
 Developed by: [[dgarrett]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 An Obsidian client for phonetoroam.com
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[dgarrett#Sponsor this author]] %%

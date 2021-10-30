@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Gallery
 
+Plugin ID: `obsidian-gallery`
 Links: [GitHub repository](https://github.com/Darakah/obsidian-gallery) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-gallery)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Main Gallery to tag / filter / add notes to images. Display blocks to embed images inside notes. Display block to an image information
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[Darakah#Sponsor this author]] %%

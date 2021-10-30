@@ -16,12 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% The repository or author does not have any sponsoring links. %%
-
 %% ----- Do not edit this section ----- %%
 
 # Tasks
 
+Plugin ID: `obsidian-tasks-plugin`
 Links: [GitHub repository](https://github.com/schemar/obsidian-tasks) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tasks-plugin)
 Developed by: [[schemar]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -29,6 +28,8 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Task management for Obsidian
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% The repository or author does not have any sponsoring links. %%
 
 For complete information, see the **[official documentation](https://schemar.github.io/obsidian-tasks/)**.
 

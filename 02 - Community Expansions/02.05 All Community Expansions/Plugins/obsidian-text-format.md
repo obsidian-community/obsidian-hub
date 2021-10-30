@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Text Format
 
+Plugin ID: `obsidian-text-format`
 Links: [GitHub repository](https://github.com/Benature/obsidian-text-format) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-text-format)
 Developed by: [[Benature]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Format selected text lowercase/uppercase/capitalize/titlecase or remove redundant spaces/newline characters.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[Benature#Sponsor this author]] %%

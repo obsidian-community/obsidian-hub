@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Code Block Enhancer
 
+Plugin ID: `obsidian-code-block-enhancer`
 Links: [GitHub repository](https://github.com/nyable/obsidian-code-block-enhancer) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-code-block-enhancer)
 Developed by: [[nyable]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Enhance obsidian markdown code block,provides copy button,linenumber,language name tip and so on.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[nyable#Sponsor this author]] %%

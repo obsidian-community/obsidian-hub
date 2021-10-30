@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Obsidian Task Archiver
 
+Plugin ID: `obsidian-task-archiver`
 Links: [GitHub repository](https://github.com/ivan-lednev/obsidian-task-archiver) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-task-archiver)
 Developed by: [[ivan-lednev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Move completed tasks to an archive with a date tree
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[ivan-lednev#Sponsor this author]] %%

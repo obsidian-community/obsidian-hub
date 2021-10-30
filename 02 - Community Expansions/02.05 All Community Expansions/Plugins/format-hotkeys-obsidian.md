@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Format Hotkeys
 
+Plugin ID: `format-hotkeys-obsidian`
 Links: [GitHub repository](https://github.com/anstosa/format-hotkeys-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=format-hotkeys-obsidian)
 Developed by: [[anstosa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Google Docs style formatting hotkeys for Obsidian
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[anstosa#Sponsor this author]] %%

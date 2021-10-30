@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Obsidian Link Converter
 
+Plugin ID: `obsidian-link-converter`
 Links: [GitHub repository](https://github.com/ozntel/obsidian-link-converter) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-link-converter)
 Developed by: [[ozntel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Scan all your links in the vault and convert them to your desired format.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[ozntel#Sponsor this author]] %%

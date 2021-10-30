@@ -2,7 +2,6 @@
 plugin-id: obsidian-languagetool-plugin
 aliases:
 - LanguageTool Integration
-- LanguageTool plugin
 tags: 
 - 
 publish: true
@@ -17,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # LanguageTool Integration
 
+Plugin ID: `obsidian-languagetool-plugin`
 Links: [GitHub repository](https://github.com/Clemens-E/obsidian-languagetool-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-languagetool-plugin)
 Developed by: [[Clemens-E]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -31,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 spell and grammar checks with the LanguageTool API
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[Clemens-E#Sponsor this author]] %%

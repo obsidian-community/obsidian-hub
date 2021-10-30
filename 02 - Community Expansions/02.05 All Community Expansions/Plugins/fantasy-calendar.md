@@ -1,0 +1,33 @@
+---
+plugin-id: fantasy-calendar
+aliases:
+- Fantasy Calendar
+tags: 
+- 
+publish: true
+---
+
+%% ----- Badges ----- %%
+
+![GitHub all releases](https://img.shields.io/github/downloads/valentine195/obsidian-fantasy-calendar/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/valentine195/obsidian-fantasy-calendar?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/valentine195/obsidian-fantasy-calendar/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/valentine195/obsidian-fantasy-calendar?color=573E7A&logo=github&style=for-the-badge)
+
+%% ----- Badges ----- %%
+
+%% ----- Do not edit this section ----- %%
+
+# Fantasy Calendar
+
+Plugin ID: `fantasy-calendar`
+Links: [GitHub repository](https://github.com/valentine195/obsidian-fantasy-calendar) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=fantasy-calendar)
+Developed by: [[valentine195]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
+
+Fantasy calendars in Obsidian!
+
+%% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[valentine195#Sponsor this author]] %%

@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Embedded Code Title
 
+Plugin ID: `obsidian-embedded-code-title`
 Links: [GitHub repository](https://github.com/tadashi-aikawa/obsidian-embedded-code-title) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-embedded-code-title)
 Developed by: [[tadashi-aikawa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 This is an Obsidian plugin which can embeds title to code blocks.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[tadashi-aikawa#Sponsor this author]] %%

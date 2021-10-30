@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# T - Blog posts
+# {{title}}
 
 Author: #placeholder/author 
 Link: #placeholder/link 

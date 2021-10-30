@@ -16,17 +16,18 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Another Quick Switcher
 
+Plugin ID: `obsidian-another-quick-switcher`
 Links: [GitHub repository](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-another-quick-switcher)
 Developed by: [[tadashi-aikawa]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is an Obsidian plugin which is another choice of Quick switcher.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[tadashi-aikawa#Sponsor this author]] %%

@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# T - MOCs
+# {{title}}
 
 #placeholder/description 
 

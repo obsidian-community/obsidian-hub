@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # PDF Highlights
 
+Plugin ID: `obsidian-extract-pdf-highlights`
 Links: [GitHub repository](https://github.com/akaalias/obsidian-extract-pdf-highlights) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-extract-pdf-highlights)
 Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Extract highlights, underlines and annotations from your PDFs into Obsidian
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[akaalias#Sponsor this author]] %%

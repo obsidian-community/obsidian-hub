@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Ghost Fade Focus
 
+Plugin ID: `ghost-fade-focus`
 Links: [GitHub repository](https://github.com/skipadu/obsidian-ghost-fade-focus) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=ghost-fade-focus)
 Developed by: [[skipadu]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Focused on the current line, others faded like a ghost!
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[skipadu#Sponsor this author]] %%

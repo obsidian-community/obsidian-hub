@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Beeminder Word Count Plugin
 
+Plugin ID: `beeminder-word-count-plugin`
 Links: [GitHub repository](https://github.com/kenzan100/beeminder-obsidian-word-count) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=beeminder-word-count-plugin)
 Developed by: [[kenzan100]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 This lets you post word counts directly from obsidian file to Beeminder.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[kenzan100#Sponsor this author]] %%

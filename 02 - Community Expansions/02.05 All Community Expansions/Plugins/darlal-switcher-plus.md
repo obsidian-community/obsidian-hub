@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Quick Switcher++
 
+Plugin ID: `darlal-switcher-plus`
 Links: [GitHub repository](https://github.com/darlal/obsidian-switcher-plus) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=darlal-switcher-plus)
 Developed by: [[darlal]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Enhanced Quick Switcher, search open panels, and symbols.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[darlal#Sponsor this author]] %%

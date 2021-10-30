@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # DEVONlink
 
+Plugin ID: `DEVONlink-obsidian`
 Links: [GitHub repository](https://github.com/ryanjamurphy/DEVONlink-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=DEVONlink-obsidian)
 Developed by: [[ryanjamurphy]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Open or reveal the current note in DEVONthink.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[ryanjamurphy#Sponsor this author]] %%

@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Daily Named Folder
 
+Plugin ID: `obsidian-daily-named-folder`
 Links: [GitHub repository](https://github.com/nemoandrea/obsidian-daily-named-folder) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-daily-named-folder)
 Developed by: [[nemoandrea]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 Like daily notes, but nested in a named daily folder. Better for attachment management. Includes more flexible naming.
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[nemoandrea#Sponsor this author]] %%

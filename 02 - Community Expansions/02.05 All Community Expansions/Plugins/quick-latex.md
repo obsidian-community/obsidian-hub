@@ -16,13 +16,11 @@ publish: true
 
 %% ----- Badges ----- %%
 
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them below. If they don't, please delete the placeholder tag. %%
-%% Sponsor this work: #placeholder/author %%
-
 %% ----- Do not edit this section ----- %%
 
 # Quick Latex for Obsidian
 
+Plugin ID: `quick-latex`
 Links: [GitHub repository](https://github.com/joeyuping/quick_latex_obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=quick-latex)
 Developed by: [[joeyuping]]
 Mobile compatible: [[Desktop-only plugins|No]]
@@ -30,3 +28,6 @@ Mobile compatible: [[Desktop-only plugins|No]]
 Speedup latex math typing with auto fraction, align block shortcut, matrix shortcut...etc
 
 %% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[joeyuping#Sponsor this author]] %%
