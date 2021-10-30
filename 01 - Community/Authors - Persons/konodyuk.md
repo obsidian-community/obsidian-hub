@@ -9,8 +9,11 @@ publish: true
 # Nikita Konodyuk
 
 - GitHub: [konodyuk](https://github.com/konodyuk/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/konodyuk> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

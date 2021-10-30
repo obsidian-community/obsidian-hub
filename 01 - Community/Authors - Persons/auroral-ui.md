@@ -9,8 +9,11 @@ publish: true
 # Benny Guo
 
 - GitHub: [auroral-ui](https://github.com/auroral-ui/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

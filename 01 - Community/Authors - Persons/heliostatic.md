@@ -9,8 +9,11 @@ publish: true
 # Ben Lee-Cohen
 
 - GitHub: [heliostatic](https://github.com/heliostatic/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/heliostatic/completed-task-display> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Graydon Hoare
 
 - GitHub: [graydon](https://github.com/graydon/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/graydon> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

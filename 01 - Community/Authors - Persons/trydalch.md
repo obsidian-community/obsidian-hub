@@ -9,8 +9,11 @@ publish: true
 # Trevor Rydalch
 
 - GitHub: [trydalch](https://github.com/trydalch/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/trydalch> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

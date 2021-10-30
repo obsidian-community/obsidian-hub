@@ -9,8 +9,11 @@ publish: true
 # avirut
 
 - GitHub: [avirut](https://github.com/avirut/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

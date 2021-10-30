@@ -9,8 +9,11 @@ publish: true
 # GaryNg
 
 - GitHub: [garyng](https://github.com/garyng/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/garyng/obsidian-temple> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

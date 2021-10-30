@@ -9,8 +9,11 @@ publish: true
 # Lars Lockefeer
 
 - GitHub: [larslockefeer](https://github.com/larslockefeer/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://lars.lockefeer.online> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

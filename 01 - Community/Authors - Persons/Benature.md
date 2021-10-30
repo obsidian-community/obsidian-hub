@@ -9,8 +9,11 @@ publish: true
 # Benature
 
 - GitHub: [Benature](https://github.com/Benature/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/Benature> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

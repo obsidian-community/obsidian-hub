@@ -9,8 +9,11 @@ publish: true
 # Greg Zuro
 
 - GitHub: [gregzuro](https://github.com/gregzuro/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/gregzuro/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # yajamon<yajamon.cmnct@gmail.com>
 
 - GitHub: [yajamon](https://github.com/yajamon/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/yajamon/obsidian-command-alias-plugin> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

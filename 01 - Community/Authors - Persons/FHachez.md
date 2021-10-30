@@ -9,8 +9,11 @@ publish: true
 # Hachez Floran
 
 - GitHub: [FHachez](https://github.com/FHachez/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/FHachez> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

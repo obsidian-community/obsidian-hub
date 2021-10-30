@@ -9,8 +9,11 @@ publish: true
 # kenset
 
 - GitHub: [kenset](https://github.com/kenset/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/kenset> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

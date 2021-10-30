@@ -9,8 +9,11 @@ publish: true
 # jdanielmourao
 
 - GitHub: [jdanielmourao](https://github.com/jdanielmourao/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

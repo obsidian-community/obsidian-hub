@@ -9,8 +9,11 @@ publish: true
 # superDuperCyberTechno
 
 - GitHub: [superDuperCyberTechno](https://github.com/superDuperCyberTechno/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

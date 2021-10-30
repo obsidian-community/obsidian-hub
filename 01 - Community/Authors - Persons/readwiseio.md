@@ -9,8 +9,11 @@ publish: true
 # Readwise
 
 - GitHub: [readwiseio](https://github.com/readwiseio/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://readwise.io> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

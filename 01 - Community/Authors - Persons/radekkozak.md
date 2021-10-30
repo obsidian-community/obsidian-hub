@@ -9,8 +9,11 @@ publish: true
 # @radekkozak
 
 - GitHub: [radekkozak](https://github.com/radekkozak/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/radekkozak> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

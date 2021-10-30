@@ -9,8 +9,11 @@ publish: true
 # hhhapz
 
 - GitHub: [hhhapz](https://github.com/hhhapz/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/hhhapz> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

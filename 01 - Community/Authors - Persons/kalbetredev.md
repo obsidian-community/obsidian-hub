@@ -9,8 +9,11 @@ publish: true
 # Kalkidan Betre
 
 - GitHub: [kalbetredev](https://github.com/kalbetredev/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/kalbetredev> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

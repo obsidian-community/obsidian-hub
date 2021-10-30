@@ -9,8 +9,11 @@ publish: true
 # AidenLx
 
 - GitHub: [aidenlx](https://github.com/aidenlx/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/aidenlx> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

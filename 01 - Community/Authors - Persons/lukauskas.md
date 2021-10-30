@@ -9,8 +9,11 @@ publish: true
 # lukauskas
 
 - GitHub: [lukauskas](https://github.com/lukauskas/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

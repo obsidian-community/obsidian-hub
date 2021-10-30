@@ -9,8 +9,11 @@ publish: true
 # Tamás Deme - @tomzorz_
 
 - GitHub: [tomzorz](https://github.com/tomzorz/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://tomzorz.me> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

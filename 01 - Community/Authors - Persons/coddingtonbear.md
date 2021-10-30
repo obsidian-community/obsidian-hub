@@ -9,8 +9,11 @@ publish: true
 # Adam Coddington <me@adamcoddington.net>
 
 - GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://coddingtonbear.net/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

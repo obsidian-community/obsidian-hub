@@ -9,8 +9,11 @@ publish: true
 # PADAone
 
 - GitHub: [yo-goto](https://github.com/yo-goto/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/yo-goto> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

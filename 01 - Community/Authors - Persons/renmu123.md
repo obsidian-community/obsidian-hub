@@ -9,8 +9,11 @@ publish: true
 # renmu123
 
 - GitHub: [renmu123](https://github.com/renmu123/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/renmu123/obsidian-markdown-index> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

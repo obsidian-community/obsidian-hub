@@ -9,8 +9,11 @@ publish: true
 # phibr0
 
 - GitHub: [phibr0](https://github.com/phibr0/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://phibr0.de> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

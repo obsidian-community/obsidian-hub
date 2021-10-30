@@ -9,8 +9,11 @@ publish: true
 # Kirill Gavrilov
 
 - GitHub: [gavvvr](https://github.com/gavvvr/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/gavvvr> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

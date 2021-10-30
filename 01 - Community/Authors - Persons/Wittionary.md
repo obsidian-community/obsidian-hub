@@ -9,8 +9,11 @@ publish: true
 # Witt Allen
 
 - GitHub: [Wittionary](https://github.com/Wittionary/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Mouth on Cloud
 
 - GitHub: [shaggyfeng](https://github.com/shaggyfeng/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # diomedet
 
 - GitHub: [oeN](https://github.com/oeN/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://diomedet.com/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

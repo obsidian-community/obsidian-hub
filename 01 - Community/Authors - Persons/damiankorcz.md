@@ -9,8 +9,11 @@ publish: true
 # Damian Korcz
 
 - GitHub: [damiankorcz](https://github.com/damiankorcz/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

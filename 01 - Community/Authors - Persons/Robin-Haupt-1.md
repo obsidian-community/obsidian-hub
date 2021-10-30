@@ -9,8 +9,11 @@ publish: true
 # Robin Haupt
 
 - GitHub: [Robin-Haupt-1](https://github.com/Robin-Haupt-1/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/Robin-Haupt-1/Obsidian-Map-of-Content> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

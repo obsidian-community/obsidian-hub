@@ -9,8 +9,11 @@ publish: true
 # Emile
 
 - GitHub: [HEmile](https://github.com/HEmile/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://twitter.com/emilevankrieken> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

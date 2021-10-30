@@ -9,8 +9,11 @@ publish: true
 # Reggie
 
 - GitHub: [pgalliford](https://github.com/pgalliford/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

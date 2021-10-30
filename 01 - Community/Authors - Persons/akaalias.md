@@ -9,8 +9,11 @@ publish: true
 # Alexis Rondeau
 
 - GitHub: [akaalias](https://github.com/akaalias/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://publish.obsidian.md/alexisrondeau> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # lizardmenfromspace
 
 - GitHub: [dogwaddle](https://github.com/dogwaddle/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

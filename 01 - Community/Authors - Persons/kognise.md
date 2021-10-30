@@ -9,8 +9,11 @@ publish: true
 # kognise
 
 - GitHub: [kognise](https://github.com/kognise/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # SilentVoid
 
 - GitHub: [SilentVoid13](https://github.com/SilentVoid13/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/SilentVoid13> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

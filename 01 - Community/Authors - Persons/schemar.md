@@ -9,8 +9,11 @@ publish: true
 # Martin Schenck
 
 - GitHub: [schemar](https://github.com/schemar/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/schemar> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

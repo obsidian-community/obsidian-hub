@@ -9,8 +9,11 @@ publish: true
 # d-sauer
 
 - GitHub: [d-sauer](https://github.com/d-sauer/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://www.linkedin.com/in/davorsauer/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

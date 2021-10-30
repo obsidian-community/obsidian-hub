@@ -9,8 +9,11 @@ publish: true
 # Natumsol
 
 - GitHub: [Natumsol](https://github.com/Natumsol/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/natumsol> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

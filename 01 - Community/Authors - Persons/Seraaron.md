@@ -9,8 +9,11 @@ publish: true
 # Seraaron
 
 - GitHub: [Seraaron](https://github.com/Seraaron/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

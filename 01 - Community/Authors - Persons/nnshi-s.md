@@ -9,8 +9,11 @@ publish: true
 # 
 
 - GitHub: [nnshi-s](https://github.com/nnshi-s/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

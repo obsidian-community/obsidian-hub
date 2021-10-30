@@ -9,8 +9,11 @@ publish: true
 # kaizau
 
 - GitHub: [kaizau](https://github.com/kaizau/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/kaizau> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

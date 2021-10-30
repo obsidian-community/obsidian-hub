@@ -9,8 +9,11 @@ publish: true
 # Yeboster
 
 - GitHub: [yeboster](https://github.com/yeboster/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/Yeboster/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

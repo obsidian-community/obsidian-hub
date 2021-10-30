@@ -9,8 +9,11 @@ publish: true
 # Ansel Santosa
 
 - GitHub: [anstosa](https://github.com/anstosa/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://ansel.santosa.family> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

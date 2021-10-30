@@ -9,8 +9,11 @@ publish: true
 # Yuliya Bagriy
 
 - GitHub: [aviskase](https://github.com/aviskase/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/aviskase> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

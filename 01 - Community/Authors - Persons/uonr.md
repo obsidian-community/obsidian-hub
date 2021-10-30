@@ -9,8 +9,11 @@ publish: true
 # Koppa
 
 - GitHub: [uonr](https://github.com/uonr/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/uonr> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

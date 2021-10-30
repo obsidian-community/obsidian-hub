@@ -9,8 +9,11 @@ publish: true
 # Imdone
 
 - GitHub: [imdone](https://github.com/imdone/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://imdone.io> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

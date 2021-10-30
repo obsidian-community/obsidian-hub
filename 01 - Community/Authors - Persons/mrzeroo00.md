@@ -9,8 +9,11 @@ publish: true
 # Badr Bouslikhin
 
 - GitHub: [mrzeroo00](https://github.com/mrzeroo00/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/MrZeroo00> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

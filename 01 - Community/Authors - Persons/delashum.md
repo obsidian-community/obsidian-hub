@@ -9,8 +9,11 @@ publish: true
 # delashum
 
 - GitHub: [delashum](https://github.com/delashum/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://www.hivewire.co/about/careers> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

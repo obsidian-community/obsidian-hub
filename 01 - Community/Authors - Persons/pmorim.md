@@ -9,8 +9,11 @@ publish: true
 # pmorim
 
 - GitHub: [pmorim](https://github.com/pmorim/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/pmorim> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

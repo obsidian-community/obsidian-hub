@@ -9,8 +9,11 @@ publish: true
 # Marc Julian Schwarz
 
 - GitHub: [marcjulianschwarz](https://github.com/marcjulianschwarz/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://www.marc-julian.de> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Joshua Michalik
 
 - GitHub: [lifegems](https://github.com/lifegems/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/lifegems/obsidian-related-notes-finder> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

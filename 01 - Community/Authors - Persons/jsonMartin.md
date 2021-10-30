@@ -9,8 +9,11 @@ publish: true
 # jsonmartin
 
 - GitHub: [jsonMartin](https://github.com/jsonMartin/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/jsonMartin/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # joeyuping
 
 - GitHub: [joeyuping](https://github.com/joeyuping/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/joeyuping/quick_latex_obsidian> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

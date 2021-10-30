@@ -9,8 +9,11 @@ publish: true
 # Michael Hanson
 
 - GitHub: [mybuddymichael](https://github.com/mybuddymichael/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/mybuddymichael> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

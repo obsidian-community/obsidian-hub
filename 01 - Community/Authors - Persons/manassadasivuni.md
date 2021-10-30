@@ -9,8 +9,11 @@ publish: true
 # Manas Sadasivuni
 
 - GitHub: [manassadasivuni](https://github.com/manassadasivuni/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

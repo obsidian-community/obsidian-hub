@@ -9,8 +9,11 @@ publish: true
 # Kjell Connelly
 
 - GitHub: [KjellConnelly](https://github.com/KjellConnelly/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/KjellConnelly/obsidian-jsonifier.git> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

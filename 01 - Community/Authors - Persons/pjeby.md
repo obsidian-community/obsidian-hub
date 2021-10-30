@@ -9,8 +9,11 @@ publish: true
 # PJ Eby
 
 - GitHub: [pjeby](https://github.com/pjeby/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

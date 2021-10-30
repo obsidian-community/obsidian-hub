@@ -9,8 +9,11 @@ publish: true
 # darakah
 
 - GitHub: [Darakah](https://github.com/Darakah/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/Darakah/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

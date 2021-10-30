@@ -9,8 +9,11 @@ publish: true
 # avr
 
 - GitHub: [avr](https://github.com/avr/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

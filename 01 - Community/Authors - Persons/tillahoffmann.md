@@ -9,8 +9,11 @@ publish: true
 # Till Hoffmann
 
 - GitHub: [tillahoffmann](https://github.com/tillahoffmann/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/tillahoffmann/obsidian-jupyter> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

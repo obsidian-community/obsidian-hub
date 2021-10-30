@@ -9,8 +9,11 @@ publish: true
 # Ali Soueidan
 
 - GitHub: [lazercaveman](https://github.com/lazercaveman/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

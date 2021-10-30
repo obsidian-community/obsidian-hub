@@ -9,8 +9,11 @@ publish: true
 # Benny Guo
 
 - GitHub: [bennyxguo](https://github.com/bennyxguo/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

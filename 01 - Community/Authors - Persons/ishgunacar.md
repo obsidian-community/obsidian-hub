@@ -9,8 +9,11 @@ publish: true
 # Ish Gunacar
 
 - GitHub: [ishgunacar](https://github.com/ishgunacar/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

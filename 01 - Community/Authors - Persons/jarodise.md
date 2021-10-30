@@ -9,8 +9,11 @@ publish: true
 # jarodise
 
 - GitHub: [jarodise](https://github.com/jarodise/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

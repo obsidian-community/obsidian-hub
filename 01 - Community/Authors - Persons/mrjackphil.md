@@ -9,8 +9,11 @@ publish: true
 # MrJackphil
 
 - GitHub: [mrjackphil](https://github.com/mrjackphil/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://mrjackphil.com> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

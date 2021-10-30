@@ -9,8 +9,11 @@ publish: true
 # hafuhafu
 
 - GitHub: [nyable](https://github.com/nyable/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/nyable/obsidian-code-block-enhancer> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

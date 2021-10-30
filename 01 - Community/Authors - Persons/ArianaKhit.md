@@ -9,8 +9,11 @@ publish: true
 # Ariana Khitrova
 
 - GitHub: [ArianaKhit](https://github.com/ArianaKhit/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # shabegom
 
 - GitHub: [shabegom](https://github.com/shabegom/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://shbgm.ca> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

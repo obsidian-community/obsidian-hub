@@ -9,8 +9,11 @@ publish: true
 # Rudi Häusler
 
 - GitHub: [rudimuc](https://github.com/rudimuc/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/rudimuc> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

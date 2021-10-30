@@ -9,8 +9,11 @@ publish: true
 # foreveryone
 
 - GitHub: [gitobsidiantutorial](https://github.com/gitobsidiantutorial/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/gitobsidiantutorial/obsidian-tabs> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

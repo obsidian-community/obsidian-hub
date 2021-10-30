@@ -9,8 +9,11 @@ publish: true
 # dennis seidel
 
 - GitHub: [dennisseidel](https://github.com/dennisseidel/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://dennisseidel.de> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

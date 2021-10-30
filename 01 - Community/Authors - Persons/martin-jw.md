@@ -9,8 +9,11 @@ publish: true
 # Martin Jirlow
 
 - GitHub: [martin-jw](https://github.com/martin-jw/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/martin-jw/obsidian-recall> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

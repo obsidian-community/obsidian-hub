@@ -9,8 +9,11 @@ publish: true
 # Viacheslav Slinko
 
 - GitHub: [vslinko](https://github.com/vslinko/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/vslinko> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

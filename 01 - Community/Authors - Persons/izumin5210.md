@@ -9,8 +9,11 @@ publish: true
 # izumin5210
 
 - GitHub: [izumin5210](https://github.com/izumin5210/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

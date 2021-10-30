@@ -9,8 +9,11 @@ publish: true
 # Mark
 
 - GitHub: [MarkMindCkm](https://github.com/MarkMindCkm/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/MarkMindCkm/obsidian-markmind> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

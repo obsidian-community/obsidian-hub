@@ -9,8 +9,11 @@ publish: true
 # cactus5
 
 - GitHub: [c4ctus5](https://github.com/c4ctus5/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/c4ctus5> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

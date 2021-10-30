@@ -9,8 +9,11 @@ publish: true
 # Arpit Bhayani
 
 - GitHub: [arpitbbhayani](https://github.com/arpitbbhayani/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://arpitbhayani.me> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

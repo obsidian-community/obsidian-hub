@@ -9,8 +9,11 @@ publish: true
 # Tokuhiro Matsuno
 
 - GitHub: [tokuhirom](https://github.com/tokuhirom/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/tokuhirom/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

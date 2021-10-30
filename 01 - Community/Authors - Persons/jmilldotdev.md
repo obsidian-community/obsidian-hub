@@ -9,8 +9,11 @@ publish: true
 # Jonathan Miller
 
 - GitHub: [jmilldotdev](https://github.com/jmilldotdev/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://jmill.dev> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Dominik Schlund
 
 - GitHub: [schlundd](https://github.com/schlundd/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

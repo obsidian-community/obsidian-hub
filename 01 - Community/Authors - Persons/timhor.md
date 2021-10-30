@@ -9,8 +9,11 @@ publish: true
 # Tim Hor
 
 - GitHub: [timhor](https://github.com/timhor/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/timhor> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Zaher Al Majed
 
 - GitHub: [ZaherAlMajed](https://github.com/ZaherAlMajed/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # luckman212
 
 - GitHub: [luckman212](https://github.com/luckman212/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/luckman212/obsidian-reset-font-size> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

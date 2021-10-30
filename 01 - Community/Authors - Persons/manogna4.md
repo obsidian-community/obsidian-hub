@@ -9,8 +9,11 @@ publish: true
 # mano
 
 - GitHub: [manogna4](https://github.com/manogna4/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://manogna4.github.io> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

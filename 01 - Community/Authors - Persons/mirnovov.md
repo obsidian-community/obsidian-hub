@@ -9,8 +9,11 @@ publish: true
 # Novov
 
 - GitHub: [mirnovov](https://github.com/mirnovov/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://novov.me> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

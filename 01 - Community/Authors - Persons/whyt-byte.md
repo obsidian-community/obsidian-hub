@@ -9,8 +9,11 @@ publish: true
 # Whyl
 
 - GitHub: [whyt-byte](https://github.com/whyt-byte/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

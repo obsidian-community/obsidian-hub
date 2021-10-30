@@ -9,8 +9,11 @@ publish: true
 # death_au
 
 - GitHub: [deathau](https://github.com/deathau/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/deathau> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

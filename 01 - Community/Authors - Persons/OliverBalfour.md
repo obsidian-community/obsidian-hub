@@ -9,8 +9,11 @@ publish: true
 # Oliver Balfour
 
 - GitHub: [OliverBalfour](https://github.com/OliverBalfour/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/OliverBalfour/obsidian-pandoc> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

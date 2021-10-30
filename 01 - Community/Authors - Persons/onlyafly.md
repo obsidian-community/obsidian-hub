@@ -9,8 +9,11 @@ publish: true
 # Kevin Albrecht (onlyafly@gmail.com)
 
 - GitHub: [onlyafly](https://github.com/onlyafly/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://www.kevinalbrecht.com> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

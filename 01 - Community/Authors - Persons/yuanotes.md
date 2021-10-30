@@ -9,8 +9,11 @@ publish: true
 # Yuan Chen
 
 - GitHub: [yuanotes](https://github.com/yuanotes/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/yuanotes> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

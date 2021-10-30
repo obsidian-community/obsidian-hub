@@ -9,8 +9,11 @@ publish: true
 # Jamie Brynes
 
 - GitHub: [jamiebrynes7](https://github.com/jamiebrynes7/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://obsidian.md/about> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

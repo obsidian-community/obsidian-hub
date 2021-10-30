@@ -9,8 +9,11 @@ publish: true
 # Matt Furden
 
 - GitHub: [zolrath](https://github.com/zolrath/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/zolrath> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

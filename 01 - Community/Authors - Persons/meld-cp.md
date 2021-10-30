@@ -9,8 +9,11 @@ publish: true
 # meld-cp
 
 - GitHub: [meld-cp](https://github.com/meld-cp/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/meld-cp/obsidian-calc> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

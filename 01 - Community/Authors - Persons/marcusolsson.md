@@ -9,8 +9,11 @@ publish: true
 # Marcus Olsson
 
 - GitHub: [marcusolsson](https://github.com/marcusolsson/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://marcus.se.net> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

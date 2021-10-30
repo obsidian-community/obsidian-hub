@@ -9,8 +9,11 @@ publish: true
 # Scott Mikula
 
 - GitHub: [smikula](https://github.com/smikula/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/smikula/obsidian-limelight> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Reocin
 
 - GitHub: [Reocin](https://github.com/Reocin/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/Reocin/obsidian-markdown-formatting-assistant-plugin> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

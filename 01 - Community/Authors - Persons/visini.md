@@ -9,8 +9,11 @@ publish: true
 # Camillo Visini
 
 - GitHub: [visini](https://github.com/visini/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/visini> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

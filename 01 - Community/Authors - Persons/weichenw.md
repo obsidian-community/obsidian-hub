@@ -9,8 +9,11 @@ publish: true
 # weichenw
 
 - GitHub: [weichenw](https://github.com/weichenw/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/weichenw> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

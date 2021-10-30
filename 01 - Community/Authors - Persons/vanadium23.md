@@ -9,8 +9,11 @@ publish: true
 # vanadium23
 
 - GitHub: [vanadium23](https://github.com/vanadium23/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://vanadium23.me/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

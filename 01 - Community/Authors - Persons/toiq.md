@@ -9,8 +9,11 @@ publish: true
 # Tousif Iqbal Anik (toiq)
 
 - GitHub: [toiq](https://github.com/toiq/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/toiq> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

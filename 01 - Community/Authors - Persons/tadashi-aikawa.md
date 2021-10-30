@@ -9,8 +9,11 @@ publish: true
 # tadashi-aikawa
 
 - GitHub: [tadashi-aikawa](https://github.com/tadashi-aikawa/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/tadashi-aikawa> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Davide Aversa
 
 - GitHub: [THeK3nger](https://github.com/THeK3nger/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://www.davideaversa.it> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

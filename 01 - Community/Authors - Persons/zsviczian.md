@@ -9,8 +9,11 @@ publish: true
 # Zsolt Viczian
 
 - GitHub: [zsviczian](https://github.com/zsviczian/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://zsolt.blog> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

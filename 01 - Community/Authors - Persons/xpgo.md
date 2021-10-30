@@ -9,8 +9,11 @@ publish: true
 # xpgo
 
 - GitHub: [xpgo](https://github.com/xpgo/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/xpgo/obsidian-folder-note> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

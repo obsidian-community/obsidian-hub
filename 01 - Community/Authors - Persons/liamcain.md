@@ -9,8 +9,11 @@ publish: true
 # Liam Cain
 
 - GitHub: [liamcain](https://github.com/liamcain/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/liamcain/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

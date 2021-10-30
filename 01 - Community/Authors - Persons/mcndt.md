@@ -9,8 +9,11 @@ publish: true
 # Maxime Cannoodt (@mcndt)
 
 - GitHub: [mcndt](https://github.com/mcndt/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/mcndt> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Nikolas Sturm
 
 - GitHub: [Arch-Storm](https://github.com/Arch-Storm/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/Arch-Storm> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

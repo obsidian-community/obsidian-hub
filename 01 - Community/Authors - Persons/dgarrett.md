@@ -9,8 +9,11 @@ publish: true
 # Dylan Garrett
 
 - GitHub: [dgarrett](https://github.com/dgarrett/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://dylan-garrett.com> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

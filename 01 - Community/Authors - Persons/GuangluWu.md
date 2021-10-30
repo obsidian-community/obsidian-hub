@@ -9,8 +9,11 @@ publish: true
 # MooddooM
 
 - GitHub: [GuangluWu](https://github.com/GuangluWu/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

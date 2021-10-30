@@ -9,8 +9,11 @@ publish: true
 # dandandan
 
 - GitHub: [jdbrice](https://github.com/jdbrice/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/jdbrice/obsidian-css-snippets> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

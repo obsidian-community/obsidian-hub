@@ -9,8 +9,11 @@ publish: true
 # Sami Korpela
 
 - GitHub: [skipadu](https://github.com/skipadu/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/skipadu/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Jon Gauthier
 
 - GitHub: [hans](https://github.com/hans/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <http://foldl.me> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

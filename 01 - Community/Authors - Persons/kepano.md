@@ -9,8 +9,11 @@ publish: true
 # @kepano
 
 - GitHub: [kepano](https://github.com/kepano/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://www.twitter.com/kepano> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

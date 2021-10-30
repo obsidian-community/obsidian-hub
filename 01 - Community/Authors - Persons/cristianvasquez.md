@@ -9,8 +9,11 @@ publish: true
 # Cristian Vasquez
 
 - GitHub: [cristianvasquez](https://github.com/cristianvasquez/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # darlal
 
 - GitHub: [darlal](https://github.com/darlal/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/darlal/obsidian-switcher-plus> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

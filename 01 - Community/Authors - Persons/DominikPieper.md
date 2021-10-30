@@ -9,8 +9,11 @@ publish: true
 # Dominik Pieper
 
 - GitHub: [DominikPieper](https://github.com/DominikPieper/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/DominikPieper> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

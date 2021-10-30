@@ -9,8 +9,11 @@ publish: true
 # Dylan Elliott
 
 - GitHub: [Dyldog](https://github.com/Dyldog/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/dyldog> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

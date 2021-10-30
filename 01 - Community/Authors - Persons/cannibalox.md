@@ -9,8 +9,11 @@ publish: true
 # _ph
 
 - GitHub: [cannibalox](https://github.com/cannibalox/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Rene Hernandez
 
 - GitHub: [renehernandez](https://github.com/renehernandez/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://renehernandez.io> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

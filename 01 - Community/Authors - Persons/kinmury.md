@@ -9,8 +9,11 @@ publish: true
 # Kinmury Ditamir
 
 - GitHub: [kinmury](https://github.com/kinmury/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

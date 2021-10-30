@@ -9,8 +9,11 @@ publish: true
 # Victor Tao
 
 - GitHub: [platers](https://github.com/platers/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/platers> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

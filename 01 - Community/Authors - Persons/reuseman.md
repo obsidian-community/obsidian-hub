@@ -9,8 +9,11 @@ publish: true
 # Alex Colucci
 
 - GitHub: [reuseman](https://github.com/reuseman/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/reuseman> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

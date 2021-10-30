@@ -9,8 +9,11 @@ publish: true
 # Daha
 
 - GitHub: [DahaWong](https://github.com/DahaWong/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

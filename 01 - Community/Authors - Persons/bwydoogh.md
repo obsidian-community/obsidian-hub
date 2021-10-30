@@ -9,8 +9,11 @@ publish: true
 # Benny Wydooghe
 
 - GitHub: [bwydoogh](https://github.com/bwydoogh/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://i-net.be> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

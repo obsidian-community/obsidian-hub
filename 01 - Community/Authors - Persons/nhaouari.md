@@ -9,8 +9,11 @@ publish: true
 # Noureddine Haouari
 
 - GitHub: [nhaouari](https://github.com/nhaouari/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

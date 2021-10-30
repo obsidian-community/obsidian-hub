@@ -9,8 +9,11 @@ publish: true
 # ryanpcmcquen
 
 - GitHub: [ryanpcmcquen](https://github.com/ryanpcmcquen/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/ryanpcmcquen> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

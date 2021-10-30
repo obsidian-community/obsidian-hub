@@ -9,8 +9,11 @@ publish: true
 # bernardo_v
 
 - GitHub: [bcdavasconcelos](https://github.com/bcdavasconcelos/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

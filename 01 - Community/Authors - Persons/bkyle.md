@@ -9,8 +9,11 @@ publish: true
 # Bryan Kyle
 
 - GitHub: [bkyle](https://github.com/bkyle/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

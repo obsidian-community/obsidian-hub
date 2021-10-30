@@ -9,8 +9,11 @@ publish: true
 # Nemo Andrea
 
 - GitHub: [nemoandrea](https://github.com/nemoandrea/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <http://nemoandrea.github.io/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

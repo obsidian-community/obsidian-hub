@@ -9,8 +9,11 @@ publish: true
 # Kevin Barrett
 
 - GitHub: [kevboh](https://github.com/kevboh/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://kevinbarrett.org> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

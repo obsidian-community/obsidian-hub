@@ -9,8 +9,11 @@ publish: true
 # Creling
 
 - GitHub: [Creling](https://github.com/Creling/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

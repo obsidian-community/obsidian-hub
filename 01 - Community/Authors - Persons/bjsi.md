@@ -9,8 +9,11 @@ publish: true
 # Experimental Learning
 
 - GitHub: [bjsi](https://github.com/bjsi/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/bjsi/incremental-writing> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

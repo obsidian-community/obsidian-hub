@@ -9,8 +9,11 @@ publish: true
 # NatiAris
 
 - GitHub: [NatiAris](https://github.com/NatiAris/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/NatiAris/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Sam Lewis
 
 - GitHub: [samlewis0602](https://github.com/samlewis0602/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/samlewis0602> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

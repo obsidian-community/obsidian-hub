@@ -9,8 +9,11 @@ publish: true
 # Stephen Mwangi
 
 - GitHub: [st3v3nmw](https://github.com/st3v3nmw/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/st3v3nmw> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

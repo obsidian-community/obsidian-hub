@@ -9,8 +9,11 @@ publish: true
 # Alex Stewart
 
 - GitHub: [kingsquirrel152](https://github.com/kingsquirrel152/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

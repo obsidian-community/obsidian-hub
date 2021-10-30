@@ -9,8 +9,11 @@ publish: true
 # Steven Kraft
 
 - GitHub: [steven-kraft](https://github.com/steven-kraft/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/steven-kraft/obsidian-markdown-furigana> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

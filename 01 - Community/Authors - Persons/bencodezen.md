@@ -9,8 +9,11 @@ publish: true
 # Ben Hong
 
 - GitHub: [bencodezen](https://github.com/bencodezen/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

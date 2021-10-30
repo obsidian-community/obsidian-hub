@@ -237,6 +237,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/Authors - Persons/schemar|schemar]]
 -  [[01 - Community/Authors - Persons/schlundd|schlundd]]
 -  [[01 - Community/Authors - Persons/seanwcom|seanwcom]]
+-  [[01 - Community/Authors - Persons/selfire1|selfire1]]
 -  [[01 - Community/Authors - Persons/Seraaron|Seraaron]]
 -  [[01 - Community/Authors - Persons/sergey900553|sergey900553]]
 -  [[01 - Community/Authors - Persons/shabegom|shabegom]]

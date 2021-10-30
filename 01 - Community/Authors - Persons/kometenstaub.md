@@ -9,8 +9,11 @@ publish: true
 # kometenstaub
 
 - GitHub: [kometenstaub](https://github.com/kometenstaub/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/kometenstaub> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

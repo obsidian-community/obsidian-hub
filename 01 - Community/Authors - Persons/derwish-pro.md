@@ -9,8 +9,11 @@ publish: true
 # Dmitry Savosh
 
 - GitHub: [derwish-pro](https://github.com/derwish-pro/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/derwish-pro/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

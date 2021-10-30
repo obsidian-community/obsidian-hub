@@ -9,8 +9,11 @@ publish: true
 # nikbrunner
 
 - GitHub: [nikbrunner](https://github.com/nikbrunner/) ^github
+
 %% - Discord: `@` ^discord %%
+
 %% - Website: <> ^website %% 
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

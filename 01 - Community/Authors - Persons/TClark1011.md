@@ -9,8 +9,11 @@ publish: true
 # Thomas Clark
 
 - GitHub: [TClark1011](https://github.com/TClark1011/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://thomasclark.io/> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

@@ -9,8 +9,11 @@ publish: true
 # Signynt
 
 - GitHub: [Signynt](https://github.com/Signynt/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/Signynt> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

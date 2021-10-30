@@ -9,8 +9,11 @@ publish: true
 # Tony Grosinger
 
 - GitHub: [tgrosinger](https://github.com/tgrosinger/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://grosinger.net> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

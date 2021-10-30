@@ -9,8 +9,11 @@ publish: true
 # egradman
 
 - GitHub: [egradman](https://github.com/egradman/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://www.gradman.com> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

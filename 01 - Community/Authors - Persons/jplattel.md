@@ -9,8 +9,11 @@ publish: true
 # Joost Plattel
 
 - GitHub: [jplattel](https://github.com/jplattel/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://jplattel.nl> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

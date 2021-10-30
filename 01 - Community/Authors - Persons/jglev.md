@@ -9,8 +9,11 @@ publish: true
 # Obsidian
 
 - GitHub: [jglev](https://github.com/jglev/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://obsidian.md/about> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

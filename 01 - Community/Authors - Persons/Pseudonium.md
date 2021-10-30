@@ -9,8 +9,11 @@ publish: true
 # Pseudonium
 
 - GitHub: [Pseudonium](https://github.com/Pseudonium/) ^github
+
 %% - Discord: `@` ^discord %%
+
 - Website: <https://github.com/Pseudonium/Obsidian_to_Anki> ^website
+
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%

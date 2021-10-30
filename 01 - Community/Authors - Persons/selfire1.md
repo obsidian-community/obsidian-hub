@@ -1,18 +1,18 @@
 ---
 aliases:
-- Sam Greenhalgh
+- Joschua
 tags: 
 - 
 publish: true
 ---
 
-# Sam Greenhalgh
+# Joschua
 
-- GitHub: [zapthedingbat](https://github.com/zapthedingbat/) ^github
+- GitHub: [selfire1](https://github.com/selfire1/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://www.radicalresearch.co.uk/> ^website
+%% - Website: <> ^website %% 
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -22,9 +22,9 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
-### Plugins
-- [[drawio-obsidian|Diagrams]]
 
+### Themes
+- [[Obsidian You]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -41,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @zapthedingbat on GitHub Sponsors](https://github.com/sponsors/zapthedingbat) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @selfire1 on GitHub Sponsors](https://github.com/sponsors/selfire1) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
