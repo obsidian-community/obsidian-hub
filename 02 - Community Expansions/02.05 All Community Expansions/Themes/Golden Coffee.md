@@ -47,4 +47,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **Vertical Lines - Lists**: Shows vertical lines below the lists items markers. WARNING -> This could be a problem for those who use sync panes, since it will glitch a lot whenever you try to scroll near the lists. If you use sync panes, please keep it off
     - Dark Mode
     - Light Mode
+- **View Header**: Change the CSS Settings applied to the "View Header"
+- Hidden Icons: Change the hidden state of the View Header Icons
 
