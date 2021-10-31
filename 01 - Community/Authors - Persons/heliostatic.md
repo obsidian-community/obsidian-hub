@@ -8,9 +8,13 @@ publish: true
 
 # Ben Lee-Cohen
 
-GitHub: [heliostatic](https://github.com/heliostatic/) ^github
-Website: <https://github.com/heliostatic/completed-task-display> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [heliostatic](https://github.com/heliostatic/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://github.com/heliostatic/completed-task-display> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ Website: <https://github.com/heliostatic/completed-task-display> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @heliostatic on GitHub Sponsors](https://github.com/sponsors/heliostatic) ^github-sponsor
@@ -38,10 +46,12 @@ Website: <https://github.com/heliostatic/completed-task-display> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

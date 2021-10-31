@@ -8,9 +8,13 @@ publish: true
 
 # Nimalan Mahendran
 
-GitHub: [nybbles](https://github.com/nybbles/) ^github
-Website: <https://twitter.com/nimalan> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [nybbles](https://github.com/nybbles/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://twitter.com/nimalan> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ Website: <https://twitter.com/nimalan> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @nybbles on GitHub Sponsors](https://github.com/sponsors/nybbles) ^github-sponsor
@@ -38,10 +46,12 @@ Website: <https://twitter.com/nimalan> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

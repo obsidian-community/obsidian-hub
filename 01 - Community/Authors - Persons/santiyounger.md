@@ -8,9 +8,13 @@ publish: true
 
 # Santi Younger
 
-GitHub: [santiyounger](https://github.com/santiyounger/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [santiyounger](https://github.com/santiyounger/) ^github
+
+%% - Discord: `@` ^discord %%
+
+%% - Website: <> ^website %% 
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -26,12 +30,16 @@ GitHub: [santiyounger](https://github.com/santiyounger/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @santiyounger on GitHub Sponsors](https://github.com/sponsors/santiyounger) ^github-sponsor
@@ -39,10 +47,12 @@ GitHub: [santiyounger](https://github.com/santiyounger/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

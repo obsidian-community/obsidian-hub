@@ -8,9 +8,13 @@ publish: true
 
 # Jamie Brynes
 
-GitHub: [jamiebrynes7](https://github.com/jamiebrynes7/) ^github
-Website: <https://obsidian.md/about> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [jamiebrynes7](https://github.com/jamiebrynes7/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://obsidian.md/about> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -28,12 +32,16 @@ Website: <https://obsidian.md/about> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @jamiebrynes7 on GitHub Sponsors](https://github.com/sponsors/jamiebrynes7) ^github-sponsor
@@ -41,10 +49,12 @@ Website: <https://obsidian.md/about> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

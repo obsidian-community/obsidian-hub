@@ -8,9 +8,13 @@ publish: true
 
 # Tony Grosinger
 
-GitHub: [tgrosinger](https://github.com/tgrosinger/) ^github
-Website: <https://grosinger.net> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [tgrosinger](https://github.com/tgrosinger/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://grosinger.net> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -30,12 +34,16 @@ Website: <https://grosinger.net> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @tgrosinger on GitHub Sponsors](https://github.com/sponsors/tgrosinger) ^github-sponsor
@@ -43,10 +51,12 @@ Website: <https://grosinger.net> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

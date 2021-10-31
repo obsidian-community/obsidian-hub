@@ -8,9 +8,10 @@ publish: true
 
 # SlRvb
 
-GitHub: [SlRvb](https://github.com/SlRvb/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [SlRvb](https://github.com/SlRvb/) ^github
+%% - Discord: `@` ^discord %%
+%% - Website: <> ^website %% 
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -37,23 +38,30 @@ GitHub: [SlRvb](https://github.com/SlRvb/) ^github
 - [[Alternate Admonitions (SlRvb)]]
 
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
 ## Sponsor this author
 
+- [[Buy me a coffee]]: <https://ko-fi.com/slrvb> ^buy-me-a-coffee
+
+<!--
 - [[GitHub sponsors]]: [Sponsor @SlRvb on GitHub Sponsors](https://github.com/sponsors/SlRvb) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

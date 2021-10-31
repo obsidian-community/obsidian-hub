@@ -8,9 +8,13 @@ publish: true
 
 # Stephen Mwangi
 
-GitHub: [st3v3nmw](https://github.com/st3v3nmw/) ^github
-Website: <https://github.com/st3v3nmw> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [st3v3nmw](https://github.com/st3v3nmw/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://github.com/st3v3nmw> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ Website: <https://github.com/st3v3nmw> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @st3v3nmw on GitHub Sponsors](https://github.com/sponsors/st3v3nmw) ^github-sponsor
@@ -38,10 +46,12 @@ Website: <https://github.com/st3v3nmw> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

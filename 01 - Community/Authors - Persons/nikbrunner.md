@@ -8,9 +8,13 @@ publish: true
 
 # nikbrunner
 
-GitHub: [nikbrunner](https://github.com/nikbrunner/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [nikbrunner](https://github.com/nikbrunner/) ^github
+
+%% - Discord: `@` ^discord %%
+
+%% - Website: <> ^website %% 
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ GitHub: [nikbrunner](https://github.com/nikbrunner/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @nikbrunner on GitHub Sponsors](https://github.com/sponsors/nikbrunner) ^github-sponsor
@@ -38,10 +46,12 @@ GitHub: [nikbrunner](https://github.com/nikbrunner/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

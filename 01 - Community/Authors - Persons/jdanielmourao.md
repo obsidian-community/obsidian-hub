@@ -8,9 +8,13 @@ publish: true
 
 # jdanielmourao
 
-GitHub: [jdanielmourao](https://github.com/jdanielmourao/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [jdanielmourao](https://github.com/jdanielmourao/) ^github
+
+%% - Discord: `@` ^discord %%
+
+%% - Website: <> ^website %% 
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ GitHub: [jdanielmourao](https://github.com/jdanielmourao/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @jdanielmourao on GitHub Sponsors](https://github.com/sponsors/jdanielmourao) ^github-sponsor
@@ -38,10 +46,12 @@ GitHub: [jdanielmourao](https://github.com/jdanielmourao/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

@@ -8,9 +8,13 @@ publish: true
 
 # oliveryh
 
-GitHub: [oliveryh](https://github.com/oliveryh/) ^github
-Website: <https://github.com/oliveryh/obsidian-emoji-toolbar> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [oliveryh](https://github.com/oliveryh/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://github.com/oliveryh/obsidian-emoji-toolbar> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ Website: <https://github.com/oliveryh/obsidian-emoji-toolbar> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @oliveryh on GitHub Sponsors](https://github.com/sponsors/oliveryh) ^github-sponsor
@@ -38,10 +46,12 @@ Website: <https://github.com/oliveryh/obsidian-emoji-toolbar> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

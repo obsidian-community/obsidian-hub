@@ -8,9 +8,13 @@ publish: true
 
 # kitchenrunner
 
-GitHub: [ryjjin](https://github.com/ryjjin/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [ryjjin](https://github.com/ryjjin/) ^github
+
+%% - Discord: `@` ^discord %%
+
+%% - Website: <> ^website %% 
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -27,12 +31,16 @@ GitHub: [ryjjin](https://github.com/ryjjin/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @ryjjin on GitHub Sponsors](https://github.com/sponsors/ryjjin) ^github-sponsor
@@ -40,10 +48,12 @@ GitHub: [ryjjin](https://github.com/ryjjin/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

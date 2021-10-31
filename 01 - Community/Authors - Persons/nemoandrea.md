@@ -8,9 +8,13 @@ publish: true
 
 # Nemo Andrea
 
-GitHub: [nemoandrea](https://github.com/nemoandrea/) ^github
-Website: <http://nemoandrea.github.io/> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [nemoandrea](https://github.com/nemoandrea/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <http://nemoandrea.github.io/> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ Website: <http://nemoandrea.github.io/> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @nemoandrea on GitHub Sponsors](https://github.com/sponsors/nemoandrea) ^github-sponsor
@@ -38,10 +46,12 @@ Website: <http://nemoandrea.github.io/> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

@@ -8,9 +8,13 @@ publish: true
 
 # SMUsamaShah
 
-GitHub: [SMUsamaShah](https://github.com/SMUsamaShah/) ^github
-%% Website: <> ^website %% 
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [SMUsamaShah](https://github.com/SMUsamaShah/) ^github
+
+%% - Discord: `@` ^discord %%
+
+%% - Website: <> ^website %% 
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ GitHub: [SMUsamaShah](https://github.com/SMUsamaShah/) ^github
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @SMUsamaShah on GitHub Sponsors](https://github.com/sponsors/SMUsamaShah) ^github-sponsor
@@ -38,10 +46,12 @@ GitHub: [SMUsamaShah](https://github.com/SMUsamaShah/) ^github
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

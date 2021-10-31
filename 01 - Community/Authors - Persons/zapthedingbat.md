@@ -8,9 +8,13 @@ publish: true
 
 # Sam Greenhalgh
 
-GitHub: [zapthedingbat](https://github.com/zapthedingbat/) ^github
-Website: <https://www.radicalresearch.co.uk/> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [zapthedingbat](https://github.com/zapthedingbat/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://www.radicalresearch.co.uk/> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ Website: <https://www.radicalresearch.co.uk/> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @zapthedingbat on GitHub Sponsors](https://github.com/sponsors/zapthedingbat) ^github-sponsor
@@ -38,10 +46,12 @@ Website: <https://www.radicalresearch.co.uk/> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

@@ -8,9 +8,13 @@ publish: true
 
 # Nadav Spiegelman
 
-GitHub: [nadavspi](https://github.com/nadavspi/) ^github
-Website: <https://nadav.is> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [nadavspi](https://github.com/nadavspi/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://nadav.is> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ Website: <https://nadav.is> ^website
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @nadavspi on GitHub Sponsors](https://github.com/sponsors/nadavspi) ^github-sponsor
@@ -38,10 +46,12 @@ Website: <https://nadav.is> ^website
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

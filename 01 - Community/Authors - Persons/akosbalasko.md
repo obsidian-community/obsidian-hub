@@ -8,9 +8,13 @@ publish: true
 
 # Akos Balasko, Micha Brugger
 
-GitHub: [akosbalasko](https://github.com/akosbalasko/) ^github
-Website: <https://github.com/akosbalasko, https://github.com/michabrugger> ^website
-%%[[Publish sites|Publish site]]: ^publish%%
+- GitHub: [akosbalasko](https://github.com/akosbalasko/) ^github
+
+%% - Discord: `@` ^discord %%
+
+- Website: <https://github.com/akosbalasko, https://github.com/michabrugger> ^website
+
+<!-- - [[Publish sites|Publish site]]: ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
@@ -25,12 +29,16 @@ Website: <https://github.com/akosbalasko, https://github.com/michabrugger> ^webs
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 %%
-### Others 
+### Unlisted plugins
+
+- 
+
+### Others
 
 - 
 %%
 
-%%
+<!--
 ## Sponsor this author
 
 - [[GitHub sponsors]]: [Sponsor @akosbalasko on GitHub Sponsors](https://github.com/sponsors/akosbalasko) ^github-sponsor
@@ -38,10 +46,12 @@ Website: <https://github.com/akosbalasko, https://github.com/michabrugger> ^webs
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
-%%
-%%
+-->
+
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->

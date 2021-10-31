@@ -8,13 +8,13 @@ publish: true
 
 # Eleanor Konik
 
-I teach (& research) ancient civilizations, then write stories & articles inspired by all eras of history... which involves a fair amount of notetaking ;) I'm also a moderator for the Obsidian community (mostly on Discord and Reddit) and 
+I teach (& research) ancient civilizations, then write stories & articles inspired by all eras of history... which involves a fair amount of notetaking ;) I'm also a moderator for the Obsidian community (mostly on Discord and Reddit)
 
-Discord: Eleanor#3466
-GitHub: [eleanorkonik](https://github.com/eleanorkonik/) ^github
-Website: [eleanorkonik.com/](https://eleanorkonik.com/) ^website 
-Newsletter: [Eleanor's Iceberg](http://newsletter.eleanorkonik.com/)
-[[Publish sites|Publish site]]: [Eleanor's Notes](https://publish.obsidian.md/eleanorkonik/) ^publish
+- GitHub: [eleanorkonik](https://github.com/eleanorkonik/) ^github
+- Discord: `Eleanor#3466`
+- Website: [eleanorkonik.com/](https://eleanorkonik.com/) ^website
+- Newsletter: [Eleanor's Iceberg](http://newsletter.eleanorkonik.com/)^newsletter
+- [[Publish sites|Publish site]]: [Eleanor's Notes](https://publish.obsidian.md/eleanorkonik/) ^publish
 
 ## Author of
 
@@ -28,17 +28,18 @@ Newsletter: [Eleanor's Iceberg](http://newsletter.eleanorkonik.com/)
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 
-### Plugins
+### Unlisted plugins
 
 - [Obsidian Concatenate](https://github.com/eleanorkonik/concatenate)
 
-### Others 
+### Others
 
 - [[🗂️ Obsidian Roundup]]
 
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @eleanorkonik on GitHub Sponsors](https://github.com/sponsors/eleanorkonik) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @eleanorkonik on GitHub Sponsors](https://github.com/sponsors/eleanorkonik) ^github
+%% - Discord: `@` ^discord %%-sponsor
 - [[Buy me a coffee]]: [Sponsor @eleanorkonik on Ko-fi](https://ko-fi.com/eleanorkonik) ^buy-me-a-coffee
 
 
@@ -52,5 +53,4 @@ Newsletter: [Eleanor's Iceberg](http://newsletter.eleanorkonik.com/)
 ## Follow this author
 
 - [[YouTube Channels|On Youtube]]: [Interviews with Eleanor Konik](https://www.youtube.com/playlist?list=PLGflcghBUIauy2We-93G3u8PQdx2DRSJi) ^youtube
-- Twitter: [@eleanorkonik](https://twitter.com/EleanorKonik)
-
+- Twitter: [@eleanorkonik](https://twitter.com/EleanorKonik) ^twitter
