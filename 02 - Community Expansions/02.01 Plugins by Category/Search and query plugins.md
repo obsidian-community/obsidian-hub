@@ -7,7 +7,7 @@ publish: true
 ---
 
 
-# Search
+# Search and query plugins
 
 Querying
 
@@ -23,11 +23,12 @@ Querying
 - [[obsidian-query-language|Obsidian Query Language]]
 - [[dataview|Dataview]]
 - [[obsidian-spotlight|Spotlight]]
-- [[obsidian-dice-roller|Dice Roller]]
 - [[obsidian-related-notes-finder|Related Notes Finder]]
-- [[taskbone-ocr-plugin|Taskbone OCR]]
 - [[obsidian-relative-find|Relative Find]]
 - [[obsidian-apply-patterns|Apply Patterns]]
+
+- [[obsidian-dice-roller|Dice Roller]]
+- [[taskbone-ocr-plugin|Taskbone OCR]]
 
 ## Related categories
 

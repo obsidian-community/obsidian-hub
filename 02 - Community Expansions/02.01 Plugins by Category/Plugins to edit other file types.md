@@ -7,9 +7,9 @@ publish: true
 ---
 
 
-# Editor
+# Plugins to edit other file types
 
-Plugins enabling Obsidian to edit files other than md
+Plugins enabling Obsidian to edit files other than markdown `.md`.
 
 ## Plugins in this category
 
@@ -18,6 +18,7 @@ Plugins enabling Obsidian to edit files other than md
 - [[csv-obsidian|CSV Editor]]
 - [[mdx-as-md-obsidian|mdx as md]]
 - [[obsidian-org-mode|Org Mode]]
+- [[obsidian-fountain|Fountain]]
 
 ## Related categories
 

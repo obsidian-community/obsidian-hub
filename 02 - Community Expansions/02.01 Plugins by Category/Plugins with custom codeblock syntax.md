@@ -9,11 +9,10 @@ publish: true
 
 # Render
 
-Plugins add specific renderar to Obsidian like graphs, ...
+Plugins that add specific renderers to Obsidian.
 
 ## Plugins in this category
 
-- [[obsidian-fountain|Fountain]]
 - [[obsidian-spaced-repetition|Spaced Repetition]]
 - [[obsidian-markdown-furigana|Markdown Furigana]]
 - [[obsidian-kroki|Kroki]]

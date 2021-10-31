@@ -7,17 +7,18 @@ publish: true
 ---
 
 
-# History
+# Statistic
 
-Notes history
+Show, display statistics info
 
 ## Plugins in this category
 
+- [[youhavebeenstaring-plugin|YouHaveBeenStaring]]
+- [[obsidian-vault-statistics-plugin|Vault Statistics]]
+- [[obsidian-commits|Commits]]
 - [[obsidian-journey-plugin|Journey]]
 - [[obsidian-vault-changelog|Vault Changelog]]
 - [[obsidian-activity-history|Activity History]]
-- [[remember-cursor-position|Remember cursor position]]
-- [[obsidian-commits|Commits]]
 - [[obsidian-activity-logger|Activity Logger]]
 - [[daily-activity|Daily Activity]]
 

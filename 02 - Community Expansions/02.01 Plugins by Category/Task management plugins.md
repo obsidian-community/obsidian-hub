@@ -24,15 +24,18 @@ publish: true
 - [[todo-txt|Todo.txt support]]
 - [[obsidian-kanban|Kanban]]
 - [[obsidian-tasks-plugin|Tasks]]
-- [[obsidian-pomodoro-plugin|Obsidian Pomodoro Plugin]]
 - [[tq-obsidian|tq]]
 - [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]
 - [[obsidian-random-todo|Random To-Do]]
 - [[obsidian-reminder-plugin|Reminder]]
 - [[imdone-obsidian-plugin|Open cards in imdone from obsidian.]]
 - [[obsidian-amazingmarvin-plugin|Amazing Marvin]]
-- [[obsidian-toggl-integration|Toggl Track Integration]]
 - [[obsidian-task-archiver|Obsidian Task Archiver]]
+- [[obsidian-apple-reminders-plugin|Apple Reminders]]
+- [[things-logbook|Things Logbook]]
+
+- [[obsidian-toggl-integration|Toggl Track Integration]]
+- [[obsidian-pomodoro-plugin|Obsidian Pomodoro Plugin]]
 
 ## Related categories
 

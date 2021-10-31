@@ -9,7 +9,7 @@ publish: true
 
 # Image
 
-Handle image files
+Plugins to handle image files.
 
 ## Plugins in this category
 

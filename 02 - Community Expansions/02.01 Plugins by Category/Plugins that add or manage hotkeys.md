@@ -1,15 +1,14 @@
 ---
 aliases:
-- 
+- Plugins that add or manage shortcuts
 tags: 
 - seedling 
 publish: true
 ---
 
 
-# Shortcut
+# Plugins that add or manage hotkeys
 
-Hotkeys
 
 ## Plugins in this category
 

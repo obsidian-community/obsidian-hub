@@ -50,7 +50,6 @@ Plugins which have not yet been categorized by the community.
 - [[meld-calc|Meld Calc]]
 - [[tabout|Tabout]]
 - [[obsidian-pipe-tricks|Pipe tricks]]
-- [[fantasy-calendar|Fantasy Calendar]]
 - [[obsidian-pikt|Pikt]]
 - [[improved-vimcursor|Improved VimCursor]]
 - [[quote-of-the-day|Quote of the Day]]

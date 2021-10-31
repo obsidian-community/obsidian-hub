@@ -17,6 +17,7 @@ Handling dates
 - [[obsidian-juliandate|Julian Date Quick Insert]]
 - [[obsidian-jump-to-date-plugin|Obsidian42 - Jump-to-Date]]
 - [[calendar|Calendar]]
+- [[fantasy-calendar|Fantasy Calendar]]
 
 ## Related categories
 

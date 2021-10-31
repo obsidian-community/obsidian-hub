@@ -7,9 +7,9 @@ publish: true
 ---
 
 
-# Convert
+# Plugins to export and import into Markdown
 
-Converter from/to md
+Plugins to convert from/to [[Markdown]]
 
 ## Plugins in this category
 
@@ -21,12 +21,12 @@ Converter from/to md
 - [[obsidian-file-path-to-uri|File path to URI]]
 - [[obsidian-jsonifier|JSONifier]]
 - [[better-pdf-plugin|Better PDF Plugin]]
-- [[mochi-cards-exporter|Mochi Cards Exporter]]
 - [[extract-url|Extract url content]]
 - [[obsidian-static-file-server|Static File Server]]
 - [[obsidian-csv-table|CSV Table]]
 - [[obsidian-pluck|Pluck]]
 - [[obsidian-pandoc|Obsidian Pandoc]]
+- [[mochi-cards-exporter|Mochi Cards Exporter]]
 
 ## Related categories
 

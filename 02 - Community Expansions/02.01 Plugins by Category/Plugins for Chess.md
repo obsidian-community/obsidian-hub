@@ -7,17 +7,17 @@ publish: true
 ---
 
 
-# Backup
+# Plugins for Chess
 
-Backup plugins
+#placeholder/description
 
 ## Plugins in this category
 
-- [[obsidian-git|Obsidian Git]]
-- [[obsidian-dropbox-backups|Aut-O-Backups]]
+- [[chesser-obsidian|Chesser]]
+- [[obsidian-chessboard|Chessboard Viewer]]
 
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%
 
-#placeholder/notes
+- [[Plugins for TTRPG]]

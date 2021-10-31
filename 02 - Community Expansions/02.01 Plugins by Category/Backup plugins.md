@@ -7,13 +7,14 @@ publish: true
 ---
 
 
-# Workspace
+# Backup plugins
 
-Enhance Obsidian workspaces
+Plugins to backup your notes.
 
 ## Plugins in this category
 
-- [[koncham-workspace|koncham workspace]]
+- [[obsidian-git|Obsidian Git]]
+- [[obsidian-dropbox-backups|Aut-O-Backups]]
 
 ## Related categories
 

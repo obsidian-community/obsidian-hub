@@ -7,7 +7,7 @@ publish: true
 ---
 
 
-# Edit
+# Plugins for Editing Notes
 
 Plugins help in editing like toolbars, auto-completions, sorting, ...
 

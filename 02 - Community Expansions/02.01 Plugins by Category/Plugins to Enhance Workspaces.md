@@ -7,15 +7,14 @@ publish: true
 ---
 
 
-# Game
+# Plugins to Enhance Workspaces
 
-#placeholder/description
+Enhance Obsidian workspaces
 
 ## Plugins in this category
 
-- [[chesser-obsidian|Chesser]]
-- [[obsidian-chessboard|Chessboard Viewer]]
-- [[initiative-tracker|Initiative Tracker]]
+- [[koncham-workspace|koncham workspace]]
+- [[workspaces-plus|Workspaces Plus]]
 
 ## Related categories
 

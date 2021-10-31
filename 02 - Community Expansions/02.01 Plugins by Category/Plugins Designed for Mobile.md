@@ -7,9 +7,9 @@ publish: true
 ---
 
 
-# Mobile
+# Plugins Designed for Mobile
 
-Special plugins for obsidian mobile app
+Special plugins for the Obsidian mobile app.
 
 ## Plugins in this category
 

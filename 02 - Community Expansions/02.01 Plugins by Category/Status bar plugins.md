@@ -7,16 +7,19 @@ publish: true
 ---
 
 
-# Statistic
+# Status bar plugins
 
-Show, display statistics info
+Plugins that change the status bar.
 
 ## Plugins in this category
 
+- [[obsidian-reading-time|Reading Time]]
+- [[obsidian-hider|Hider]]
 - [[youhavebeenstaring-plugin|YouHaveBeenStaring]]
-- [[note-folder-autorename|Note Folder Autorename]]
+- [[obsidian-show-file-path|Show Current File Path]]
 - [[obsidian-vault-statistics-plugin|Vault Statistics]]
-- [[obsidian-commits|Commits]]
+- [[obsidian-grandfather|Grandfather]]
+- [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]
 
 ## Related categories
 

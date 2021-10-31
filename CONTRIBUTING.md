@@ -91,7 +91,7 @@ This one contains all notes related to People, Community Events, or specific Soc
 %%Should we have a rule regarding the threshold for someone being "relevant enough" to get their own page?%%
 
 #### [[🗂️ 02 - Community Expansions]]
-Due to the high number of plugins, themes, snippets and auxiliary tools (third-party-tools), we have compiled [[Maps of Content (MOC)|MOCs]] to browse expansions by category. So if a user is e.g. looking for [[Status bar|Status bar-related Plugins]], they can go to the respective MoC and find them there. 
+Due to the high number of plugins, themes, snippets and auxiliary tools (third-party-tools), we have compiled [[Maps of Content (MOC)|MOCs]] to browse expansions by category. So if a user is e.g. looking for [[Status bar plugins|Status bar-related Plugins]], they can go to the respective MoC and find them there. 
 
 Feel free to add new links to any list if they are missing! (Remember, download this vault for correct autocompletion of internal links.)
 
