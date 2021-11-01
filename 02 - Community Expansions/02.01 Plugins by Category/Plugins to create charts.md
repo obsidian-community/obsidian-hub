@@ -18,6 +18,7 @@ publish: true
 - [[obsidian-tracker|Tracker]]
 - [[obsidian-chartsview-plugin|Charts View]]
 - [[obsidian-jupyter|Jupyter plugin]]
+- [[obsidian-plotly|Plotly]]
 
 ## Related categories
 

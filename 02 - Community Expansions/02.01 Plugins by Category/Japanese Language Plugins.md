@@ -14,6 +14,7 @@ Plugins related to Japanese language
 ## Plugins in this category
 
 - [[obsidian-markdown-furigana|Markdown Furigana]]
+- [[obsidian-furigana|Furigana]]
 
 ## Related categories
 

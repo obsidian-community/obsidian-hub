@@ -24,6 +24,8 @@ Plugins that add specific renderers to Obsidian.
 - [[initiative-tracker|Initiative Tracker]]
 - [[obsidian-markdown-furigana|Markdown Furigana]]
 - [[obsidian-query2table|query2table]]
+- [[obsidian-admonition|Admonition]]
+- [[obsidian-pikt|Pikt]]
 
 ## Related categories
 

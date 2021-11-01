@@ -46,6 +46,19 @@ Plugins to intergate with other services or applications.
 - [[obsidian-annotator|Annotator]]
 - [[obsidian-hackernews|HackerNews]]
 - [[obsidian-pocket|Pocket integration]]
+- [[obsimian-exporter|Obsimian Exporter]]
+- [[metadata-extractor|Metadata Extractor]]
+- [[uri-commands|URI Commands]]
+- [[obsidian-wikipedia|Wikipedia]]
+- [[obsidian-vale|Vale]]
+- [[obsidian-hypothesis-plugin|Hypothes.is]]
+- [[marginnote-companion|MarginNote Companion]]
+- [[obsidian-habitica-integration|Habitica Sync]]
+- [[obsidian-webhooks|Obsidian Webhooks]]
+- [[obsidian-tweet-to-markdown|Tweet to Markdown]]
+- [[netwik|Netwik]]
+- [[obsidian-jupyter|Jupyter plugin]]
+- [[obsidian-plotly|Plotly]]
 
 ## Related categories
 

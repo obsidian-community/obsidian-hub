@@ -45,6 +45,12 @@ Plugins help in editing like toolbars, auto-completions, sorting, ...
 - [[obsidian-paste-to-current-indentation|Paste to Current Indentation]]
 - [[obsidian-dynamic-toc|Dynamic Table of Contents]]
 - [[obsidian-carry-forward|Carry-Forward]]
+- [[obsidian42-text-transporter|Obsidian42 - Text Transporter]]
+- [[longform|Longform]]
+- [[obsidian-incremental-writing|Incremental Writing]]
+- [[obsidian-html-tags-autocomplete|HTML Tags Autocomplete]]
+- [[advanced-cursors|Advanced Cursors]]
+- [[obsidian-pipe-tricks|Pipe tricks]]
 
 ## Related categories
 

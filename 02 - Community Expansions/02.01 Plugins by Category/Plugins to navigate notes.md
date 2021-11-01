@@ -24,6 +24,7 @@ publish: true
 - [[calendar|Calendar]]
 - [[breadcrumbs|Breadcrumbs]]
 - [[obsidian-zoom|Zoom]]
+- [[obsidian-another-quick-switcher|Another Quick Switcher]]
 
 ## Related categories
 

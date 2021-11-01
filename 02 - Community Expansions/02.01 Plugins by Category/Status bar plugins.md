@@ -21,6 +21,7 @@ Plugins that change the status bar.
 - [[obsidian-grandfather|Grandfather]]
 - [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]
 - [[obsidian-cursor-location-plugin|Cursor Location]]
+- [[better-word-count|Better Word Count]]
 
 ## Related categories
 

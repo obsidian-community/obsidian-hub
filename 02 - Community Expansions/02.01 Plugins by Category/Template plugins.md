@@ -20,6 +20,7 @@ Plugins to apply templates beyond what [[Obsidian Core Plugins#Templates]] offer
 - [[obsidian-filename-heading-sync|Filename Heading Sync]]
 - [[liquid-templates|Liquid Templates]]
 - [[podcast-note|Podcast Note]]
+- [[quickadd|QuickAdd]]
 
 ## Related categories
 

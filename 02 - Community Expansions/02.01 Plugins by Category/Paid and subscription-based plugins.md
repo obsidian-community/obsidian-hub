@@ -16,6 +16,12 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
+- [[todoist-sync-plugin|Todoist Plugin]]
+- [[readwise-mirror|Readwise Mirror]]
+- [[readwise-official|Readwise Official]]
+- [[obsidian-readwise|Readwise Community]]
+- [[ozanshare-publish|OzanShare Publish]]
+
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%

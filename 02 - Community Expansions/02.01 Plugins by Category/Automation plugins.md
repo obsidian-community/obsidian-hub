@@ -27,6 +27,7 @@ Automatically create, update, or delete notes.
 - [[obsidian-shellcommands|Shell commands]]
 - [[obsidian-autocomplete-plugin|Autocomplete]]
 - [[customjs|CustomJS]]
+- [[obsidian-javascript-init|JavaScript Init]]
 
 ## Related categories
 

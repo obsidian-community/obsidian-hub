@@ -34,6 +34,11 @@ Plugins to edit external or internal links.
 - [[zoottelkeeper-obsidian-plugin|Zoottelkeeper Plugin]]
 - [[recent-files-obsidian|Recent Files]]
 - [[folder-note-plugin|Folder Note]]
+- [[link-headers-directly|Link Headers Directly]]
+- [[obsidian-link-archive|Link Archive]]
+- [[obsidian-link-converter|Obsidian Link Converter]]
+- [[supercharged-links-obsidian|Supercharged Links]]
+- [[map-of-content|Map of Content]]
 
 
 ## Related categories

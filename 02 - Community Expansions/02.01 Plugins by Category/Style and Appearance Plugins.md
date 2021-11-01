@@ -31,6 +31,7 @@ Plugins that change the appearance or style of the UX.
 - [[obsidian-embedded-code-title|Embedded Code Title]]
 - [[obsidian-relative-line-numbers|Relative Line Numbers]]
 - [[obsidian-indent-lines|Indentation Lines]]
+- [[obsidian-prominent-starred-files|Prominent Starred Files]]
 
 ## Related categories
 
