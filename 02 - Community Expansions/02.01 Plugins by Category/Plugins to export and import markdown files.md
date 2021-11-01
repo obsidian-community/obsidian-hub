@@ -9,7 +9,7 @@ publish: true
 
 # Plugins to export and import into Markdown
 
-Plugins to convert from/to [[Markdown]]
+Plugins to convert from/to [[Markdown]].
 
 ## Plugins in this category
 

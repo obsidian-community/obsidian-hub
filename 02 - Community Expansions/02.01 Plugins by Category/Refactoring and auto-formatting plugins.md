@@ -9,7 +9,7 @@ publish: true
 
 # Refactor
 
-Plugins that reformat notes and/or change notes automatically.
+Plugins that offer additional functionality to reformat notes than the [[Obsidian Core Plugins#Note composer]] plugin. These plugins usually make automated changes to your notes.
 
 ## Plugins in this category
 
@@ -21,16 +21,15 @@ Plugins that reformat notes and/or change notes automatically.
 - [[easy-typing-obsidian|Easy Typing]]
 - [[obsidian-title-index|Obsidian title index]]
 - [[obsidian-linter|Linter]]
-
 - [[obsidian-regex-pipeline|Regex Pipeline]]
-- [[obsidian-orthography|Obsidian Orthography]]
-- [[obsidian-task-archiver|Obsidian Task Archiver]]
-- [[obsidian-smart-typography|Smart Typography]]
-- [[obsidian-recall|Recall]]
-- [[tag-wrangler|Tag Wrangler]]
+- [[obsidian-smart-typography|Smart Typography]] #category/technically-correct 
+- [[number-headings-obsidian|Number Headings]]
+- [[tag-wrangler|Tag Wrangler]] #category/technically-correct
+- [[obsidian-task-archiver|Obsidian Task Archiver]] #category/review-classification 
+- [[completed-area|Completed Area]] #category/review-classification 
 
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%
 
-#placeholder/notes
+- [[Plugins for Editing Notes]]

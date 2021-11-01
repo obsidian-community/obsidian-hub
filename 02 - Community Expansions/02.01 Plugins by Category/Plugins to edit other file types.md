@@ -19,6 +19,7 @@ Plugins enabling Obsidian to edit files other than markdown `.md`.
 - [[mdx-as-md-obsidian|mdx as md]]
 - [[obsidian-org-mode|Org Mode]]
 - [[obsidian-fountain|Fountain]]
+- [[obsidian-excalidraw-plugin|Excalidraw]]
 
 ## Related categories
 

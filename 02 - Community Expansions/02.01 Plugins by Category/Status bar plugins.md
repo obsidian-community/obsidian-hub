@@ -20,6 +20,7 @@ Plugins that change the status bar.
 - [[obsidian-vault-statistics-plugin|Vault Statistics]]
 - [[obsidian-grandfather|Grandfather]]
 - [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]
+- [[obsidian-cursor-location-plugin|Cursor Location]]
 
 ## Related categories
 

@@ -7,9 +7,9 @@ publish: true
 ---
 
 
-# Integration
+# Third-Party Integration Plugins
 
-Intergate with other services or applications
+Plugins to intergate with other services or applications.
 
 ## Plugins in this category
 
@@ -51,4 +51,7 @@ Intergate with other services or applications
 
 %% Add links to other 02.02 - Category notes %%
 
-#placeholder/notes
+- [[Automation plugins]]
+
+## Related Topics
+- [[Controlling Obsidian via a Third-party App]]

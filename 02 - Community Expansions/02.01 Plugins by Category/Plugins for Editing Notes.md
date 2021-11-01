@@ -23,16 +23,12 @@ Plugins help in editing like toolbars, auto-completions, sorting, ...
 - [[obsidian-markdown-formatting-assistant-plugin|Markdown Formatting Assistant]]
 - [[various-complements|Various Complements]]
 - [[obsidian-plugin-toc|Table of Contents]]
-- [[obsidian-furigana|Furigana]]
 - [[obsidian-footnotes|Footnote Shortcut]]
 - [[remember-cursor-position|Remember cursor position]]
 - [[obsidian-outliner|Outliner]]
 - [[find-and-replace-in-selection|Find and replace in selection]]
 - [[obsidian-embedded-note-titles|Embedded Note Titles]]
-- [[cm-chs-patch|Word Splitting for Simplified Chinese in Edit Mode]]
 - [[table-extended|Table Extended]]
-- [[obsidian-pangu|Obsidian Pangu]]
-- [[obsidian-auto-pair-chinese-symbol|Auto pair chinese symbol]]
 - [[obsidian-dictionary-plugin|Dictionary]]
 - [[metaedit|MetaEdit]]
 - [[obsidian-smart-typography|Smart Typography]]
@@ -54,4 +50,4 @@ Plugins help in editing like toolbars, auto-completions, sorting, ...
 
 %% Add links to other 02.02 - Category notes %%
 
-#placeholder/notes
+- [[🗂️ 02.01 Plugins by Category#Language support]]

@@ -1,20 +1,23 @@
 ---
 aliases:
-- 
+- Plugins to write math
 tags: 
 - seedling 
 publish: true
 ---
 
 
-# Math
+# Mathjax and LaTeX Plugins
 
-Edit math expressions
+Plugins to enhance your [[Mathjax]] and [[LaTeX]] experience.
 
 ## Plugins in this category
 
 - [[obsidian-latex-environments|Latex Environments]]
 - [[obsidian-latex|Extended MathJax]]
+- [[quick-latex|Quick Latex for Obsidian]]
+- [[obsidian-export-to-tex|Export To TeX]]
+- [[obsidian-pandoc|Pandoc Plugin]]
 
 ## Related categories
 

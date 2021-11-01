@@ -20,8 +20,6 @@ Plugins that handle PDF files.
 - [[oz-image-plugin|Ozan's Image in Editor Plugin]]
 - [[obsidian-markmind|Obsidian markmind]]
 
-- [[obsidian-pandoc|Obsidian Pandoc]]
-
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%

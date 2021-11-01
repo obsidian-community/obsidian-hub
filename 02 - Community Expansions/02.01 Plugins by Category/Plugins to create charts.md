@@ -1,13 +1,14 @@
 ---
 aliases:
-- 
+- Plugins to create plots
+- Plugins for plotting
 tags: 
 - seedling 
 publish: true
 ---
 
 
-# Chart
+# Plugins to create charts
 
 #placeholder/description
 
@@ -16,6 +17,7 @@ publish: true
 - [[obsidian-charts|Obsidian Charts]]
 - [[obsidian-tracker|Tracker]]
 - [[obsidian-chartsview-plugin|Charts View]]
+- [[obsidian-jupyter|Jupyter plugin]]
 
 ## Related categories
 

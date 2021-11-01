@@ -7,22 +7,23 @@ publish: true
 ---
 
 
-# Render
+# Plugins with custom codeblock syntax
 
 Plugins that add specific renderers to Obsidian.
 
 ## Plugins in this category
 
-- [[obsidian-spaced-repetition|Spaced Repetition]]
-- [[obsidian-markdown-furigana|Markdown Furigana]]
+- [[dataview|Dataview]]
 - [[obsidian-kroki|Kroki]]
 - [[obsidian-wavedrom|Wavedrom]]
-- [[longform|Longform]]
 - [[music-code-blocks|Music Sheet Code Blocks]]
 - [[drawio-obsidian|Diagrams]]
-- [[obsidian-excalidraw-plugin|Excalidraw]]
 - [[obsidian-plantuml|PlantUML]]
 - [[scales-chords|Scales and Chords]]
+- [[obsidian-5e-statblocks|5e Statblocks]]
+- [[initiative-tracker|Initiative Tracker]]
+- [[obsidian-markdown-furigana|Markdown Furigana]]
+- [[obsidian-query2table|query2table]]
 
 ## Related categories
 

@@ -10,8 +10,7 @@ publish: true
 
 # Plugins for daily pages
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
-#placeholder/description 
+Plugins to help you navigate or manage daily, weekly, monthly notes.
 
 ## Plugins in this category
 
@@ -21,9 +20,11 @@ publish: true
 - [[obsidian-day-planner|Day Planner]]
 - [[obsidian-daily-named-folder|Daily Named Folder]]
 - [[obsidian-daf-yomi|Daf Yomi]]
+- [[random-structural-diary-plugin|Random Structural Diary]]
+- [[calendar|Calendar]]
 
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%
 
-#placeholder/notes
+- [[Date and calendar plugins]]

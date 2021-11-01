@@ -60,4 +60,10 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-html-tags-autocomplete|HTML Tags Autocomplete]]
 - [[advanced-cursors|Advanced Cursors]]
 - [[stenography-obsidian|Stenography]]
+- [[workbench-obsidian|Workbench]]
+- [[dangerzone-writing-plugin|Dangerzone Writing]]
+- [[obsidian-incremental-writing|Incremental Writing]]
+- [[obsimian-exporter|Obsimian]]
+- [[plugin-changelogs|Plugin Changelogs]]
+- [[obsidian-stopwatch-plugin|Stopwatch Plugin]]
 

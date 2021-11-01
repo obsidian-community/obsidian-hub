@@ -23,7 +23,7 @@ publish: true
 - [[folder-note-plugin|Folder Note]]
 - [[obsidian-icon-folder|Obsidian Icon Folder]]
 - [[file-tree-alternative|File Tree Alternative Plugin]]
-- 
+- [[file-explorer-note-count|File Explorer Note Count]]
 
 ## Related categories
 

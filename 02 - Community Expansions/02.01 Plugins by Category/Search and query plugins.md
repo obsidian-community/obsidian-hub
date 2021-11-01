@@ -26,12 +26,10 @@ Querying
 - [[obsidian-related-notes-finder|Related Notes Finder]]
 - [[obsidian-relative-find|Relative Find]]
 - [[obsidian-apply-patterns|Apply Patterns]]
-
-- [[obsidian-dice-roller|Dice Roller]]
-- [[taskbone-ocr-plugin|Taskbone OCR]]
+- [[obsidian-dice-roller|Dice Roller]] #category/technically-correct  
 
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%
 
-#placeholder/notes
+- [[OCR Plugins]]
