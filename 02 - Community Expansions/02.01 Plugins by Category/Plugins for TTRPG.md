@@ -7,7 +7,7 @@ publish: true
 ---
 
 
-# Plugins for TTRPG
+# Plugins for Tabletop Role-Playing Games
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 #placeholder/description 

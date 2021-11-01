@@ -25,7 +25,6 @@ Querying
 - [[obsidian-spotlight|Spotlight]]
 - [[obsidian-related-notes-finder|Related Notes Finder]]
 - [[obsidian-relative-find|Relative Find]]
-- [[obsidian-apply-patterns|Apply Patterns]]
 
 ## Related categories
 

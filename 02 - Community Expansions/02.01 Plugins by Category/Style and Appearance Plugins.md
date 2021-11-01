@@ -7,9 +7,9 @@ publish: true
 ---
 
 
-# Style
+# Style and Appearance Plugins
 
-Plugins that change the appearance or style of the UX.
+Plugins that change the appearance or style of Obsidian's User Interface.
 
 ## Plugins in this category
 

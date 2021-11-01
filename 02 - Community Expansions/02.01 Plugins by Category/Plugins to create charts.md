@@ -2,6 +2,7 @@
 aliases:
 - Plugins to create plots
 - Plugins for plotting
+- Plugins for creating graphs
 tags: 
 - seedling 
 publish: true

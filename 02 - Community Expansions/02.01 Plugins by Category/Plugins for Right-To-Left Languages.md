@@ -1,13 +1,13 @@
 ---
 aliases:
-- 
+- Plugins for RTL
 tags: 
 - seedling 
 publish: true
 ---
 
 
-# Plugins for RTL support
+# Plugins for Right-To-Left Languages
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 #placeholder/description 

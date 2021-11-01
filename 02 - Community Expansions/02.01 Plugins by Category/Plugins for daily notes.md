@@ -7,9 +7,9 @@ publish: true
 ---
 
 
-# Plugins for daily pages
+# Plugins for daily notes
 
-Plugins to help you navigate or manage daily, weekly, monthly notes.
+Plugins to help you navigate or manage daily, weekly or monthly notes.
 
 ## Plugins in this category
 

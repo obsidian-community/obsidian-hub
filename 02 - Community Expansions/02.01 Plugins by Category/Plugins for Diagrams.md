@@ -9,7 +9,7 @@ publish: true
 
 # Plugins for Diagrams
 
-Plugins to create diagrams other than [[Mermaid]] (supported by [[Obsidian]])
+Plugins to create diagrams other than [[Mermaid]] (which is [already natively supported by Obsidian](https://help.obsidian.md/How+to/Format+your+notes#Diagram)).
 
 ## Plugins in this category
 

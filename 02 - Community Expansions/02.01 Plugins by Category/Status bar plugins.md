@@ -9,7 +9,7 @@ publish: true
 
 # Status bar plugins
 
-Plugins that change the status bar.
+Plugins that an item to the status bar.
 
 ## Plugins in this category
 

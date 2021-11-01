@@ -9,7 +9,7 @@ publish: true
 
 # Plugins to manage internal and external links
 
-Plugins to edit external or internal links.
+Plugins to manage external or internal links.
 
 ## Plugins in this category
 
@@ -32,7 +32,6 @@ Plugins to edit external or internal links.
 - [[folder-note-core|Folder Note Core]]
 - [[alx-folder-note|AidenLx's Folder Note]]
 - [[zoottelkeeper-obsidian-plugin|Zoottelkeeper Plugin]]
-- [[recent-files-obsidian|Recent Files]]
 - [[folder-note-plugin|Folder Note]]
 - [[link-headers-directly|Link Headers Directly]]
 - [[obsidian-link-archive|Link Archive]]

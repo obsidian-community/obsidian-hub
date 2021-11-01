@@ -9,7 +9,7 @@ publish: true
 
 # Third-Party Integration Plugins
 
-Plugins to intergate with other services or applications.
+Plugins to integrate with other services or applications.
 
 ## Plugins in this category
 
