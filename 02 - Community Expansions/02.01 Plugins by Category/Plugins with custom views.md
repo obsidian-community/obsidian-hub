@@ -34,6 +34,9 @@ Plugins that change or add new views, modify how notes are displayed or add popo
 - [[oz-image-plugin|Ozan's Image in Editor Plugin]]
 - [[obsidian-stille|Stille]]
 - [[obsidian-card-view-mode|Card View Mode]]
+- [[obsidian-focus-mode|Focus Mode]]
+- [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]] 
+- [[obsidian-view-mode-by-frontmatter|Force note view mode by front matter]]
 
 ## Related categories
 
