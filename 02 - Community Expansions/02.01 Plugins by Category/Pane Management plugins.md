@@ -22,7 +22,6 @@ Plugins to manage or cycle through panes.
 - [[obsidian-tabs|Obsidian Tabs]]
 - [[obsidian-focus-mode|Focus Mode]]
 - [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]] 
-- [[obsidian-view-mode-by-frontmatter|Force note view mode by front matter]]
 
 ## Related categories
 
