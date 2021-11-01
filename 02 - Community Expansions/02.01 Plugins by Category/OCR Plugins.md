@@ -9,7 +9,7 @@ publish: true
 
 # OCR Plugins
 
-Plugins that add OCR for images and/or PDF. You might also want to review the backlinks in the [[Tesseract]] note.
+Plugins that add OCR for images and/or PDF. 
 
 ## Plugins in this category
 
@@ -22,3 +22,4 @@ Plugins that add OCR for images and/or PDF. You might also want to review the ba
 %% Add links to other 02.02 - Category notes %%
 
 - [[Search and query plugins]]
+- [[OCR Tools]]
