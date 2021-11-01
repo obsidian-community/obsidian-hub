@@ -7,9 +7,9 @@ publish: true
 ---
 
 
-# Statistic
+# Plugins for vault statistics
 
-Show, display statistics info
+Show and display statistic information about your vault.
 
 ## Plugins in this category
 
