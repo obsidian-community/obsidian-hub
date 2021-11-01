@@ -9,7 +9,7 @@ publish: true
 
 # Refactoring and auto-formatting plugins
 
-Plugins that offer additional functionality to reformat notes than the [[Obsidian Core Plugins#Note composer]] plugin. These plugins usually make automated changes to your notes.
+Plugins that help you refactor and reformat your notes. These plugins offer additional functionality to than the [[Obsidian Core Plugins#Note composer]] plugin, and usually make automated changes to your notes.
 
 ## Plugins in this category
 
