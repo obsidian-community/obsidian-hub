@@ -7,7 +7,7 @@ publish: true
 ---
 
 
-# Dictionary and Spellchecking Plugins
+# Time Management Plugins
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 #placeholder/description 
@@ -16,10 +16,9 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[obsidian-dictionary-plugin|Dictionary]]
-- [[obsidian-languagetool-plugin|LanguageTool Integration]]
-- [[obsidian-orthography|Obsidian Orthography]]
-- [[obsidian-vale|Vale]]
+- [[obsidian-pomodoro-plugin|Pomodoro Plugin]]
+- [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]
+- [[obsidian-toggl-integration|Toggl Track]]
 
 ## Related categories
 

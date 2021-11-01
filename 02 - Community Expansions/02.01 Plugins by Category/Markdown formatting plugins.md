@@ -18,7 +18,7 @@ Plugins that make it easier to format or write markdown.
 - [[cmenu-plugin|cMenu]]
 - [[obsidian-markdown-formatting-assistant-plugin|Markdown Formatting Assistant]]
 - [[table-editor-obsidian|Advanced Tables]]
-- [[markdown-attributes|Markdown Attributes]] #category/review-classification 
+- [[markdown-attributes|Markdown Attributes]]
 - [[obsidian-underline|Underline]]
 
 ## Related categories

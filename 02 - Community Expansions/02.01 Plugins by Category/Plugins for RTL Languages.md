@@ -16,7 +16,7 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[obsidian-rtl|RTL Support]] #category/review-classification 
+- [[obsidian-rtl|RTL Support]]
 
 ## Related categories
 

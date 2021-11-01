@@ -21,7 +21,6 @@ Automatically create, update, or delete notes.
 - [[python-lab-plugin|Python lab plugin]]
 - [[obsidian-qrcode-plugin|QR Code Generator Plugin]]
 - [[oz-clear-unused-images|Clear Unused Images]]
-- [[obsidian-react-components|React Components]] #category/review-classification 
 - [[obsidian-image-uploader|Image Uploader]]
 - [[macro-plugin|Macros]]
 - [[obsidian-shellcommands|Shell commands]]

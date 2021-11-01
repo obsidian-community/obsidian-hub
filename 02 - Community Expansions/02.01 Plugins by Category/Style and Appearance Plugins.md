@@ -19,8 +19,8 @@ Plugins that change the appearance or style of the UX.
 - [[obsidian-reset-font-size|Reset Font Size]]
 - [[obsidian-contextual-typography|Contextual Typography]]
 - [[obsidian-highlightpublicnotes-plugin|Highlight Public Notes]]
-- [[obsidian-codemirror-options|CodeMirror Options]] #category/technically-correct 
-- [[cm-show-whitespace-obsidian|Show Whitespace]] #category/technically-correct 
+- [[obsidian-codemirror-options|CodeMirror Options]]
+- [[cm-show-whitespace-obsidian|Show Whitespace]]
 - [[css-snippets|css snippets]]
 - [[obsidian-icon-folder|Icon Folder]]
 - [[obsidian-icon-swapper|Icon Swapper]]

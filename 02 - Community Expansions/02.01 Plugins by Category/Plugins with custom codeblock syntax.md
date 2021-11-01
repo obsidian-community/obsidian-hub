@@ -26,6 +26,7 @@ Plugins that add specific renderers to Obsidian.
 - [[obsidian-query2table|query2table]]
 - [[obsidian-admonition|Admonition]]
 - [[obsidian-pikt|Pikt]]
+- [[obsidian-react-components|React Components]]
 
 ## Related categories
 

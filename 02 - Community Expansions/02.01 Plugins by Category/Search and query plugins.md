@@ -26,7 +26,6 @@ Querying
 - [[obsidian-related-notes-finder|Related Notes Finder]]
 - [[obsidian-relative-find|Relative Find]]
 - [[obsidian-apply-patterns|Apply Patterns]]
-- [[obsidian-dice-roller|Dice Roller]] #category/technically-correct  
 
 ## Related categories
 

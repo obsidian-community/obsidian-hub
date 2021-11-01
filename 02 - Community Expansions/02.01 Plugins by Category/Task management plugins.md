@@ -34,9 +34,6 @@ publish: true
 - [[obsidian-apple-reminders-plugin|Apple Reminders]]
 - [[things-logbook|Things Logbook]]
 
-- [[obsidian-toggl-integration|Toggl Track Integration]]
-- [[obsidian-pomodoro-plugin|Obsidian Pomodoro Plugin]]
-
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%
