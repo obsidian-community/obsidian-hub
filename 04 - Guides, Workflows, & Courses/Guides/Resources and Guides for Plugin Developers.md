@@ -28,5 +28,5 @@ tags:
 - [obsidian-plugin-template](https://github.com/THeK3nger/obsidian-plugin-template): a plugin template customized with a nicer directory structure and some additional tool (like featuring automatic releases with Github's Actions).
 - [obsidian-vault-parser](https://github.com/coffee-cup/obsidian-vault-parser): vault parser for the Obsidian note taking app.
 - [Liam Cain's Obsidian API FAQ](https://liamca.in/Obsidian/API+FAQ/index)
-- [#obsidian-md at GitHub](https://github.com/topics/obsidian-md)
+- [obsidian-md at GitHub](https://github.com/topics/obsidian-md)
 - [What tools and libraries are used in Obsidian?](https://konhi.me/obsidian-stack.html)
