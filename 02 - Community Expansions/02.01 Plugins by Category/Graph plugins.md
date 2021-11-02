@@ -19,6 +19,7 @@ publish: true
 - [[adjacency-matrix-maker|Adjacency Matrix Maker]]
 - [[juggl|Juggl]]
 - [[breadcrumbs|Breadcrumbs]]
+- [[graph-analysis|Graph Analysis]]
 
 ## Related categories
 
