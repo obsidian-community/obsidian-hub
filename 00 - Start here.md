@@ -19,8 +19,4 @@ We think of this vault as a [[Digital garden]]. This means that the content in o
 - [[How to Style Obsidian]]
 - [[YT - How to use QuickAdd|How to use QuickAdd]]
 
-You can also take a look at the (auto-generated) index for our vault:
-
-![[🗂️ hub#MOC]]
-
 Didn't find what you were looking for? Found a mistake or a broken link? Have ideas or suggestions of what to include in this vault? Please check out [[CONTRIBUTING|how to contribute]].
