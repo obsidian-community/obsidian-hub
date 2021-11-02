@@ -9,4 +9,5 @@ tags:
 
 These guides will help you get started with theming [[Obsidian]].
 
+- [[How to Style Obsidian|How to Style Obsidian]]
 - [[Resources and Guides for Theme Designers]]
