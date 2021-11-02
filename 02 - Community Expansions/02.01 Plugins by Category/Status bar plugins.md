@@ -9,7 +9,7 @@ publish: true
 
 # Status bar plugins
 
-Plugins that an item to the status bar.
+Plugins that add an item to the status bar.
 
 ## Plugins in this category
 
