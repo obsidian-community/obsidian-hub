@@ -25,7 +25,7 @@ This note collects resources for beginner and expert theme designers.
 - [**URL-encoder for SVG**](https://yoksel.github.io/url-encoder/) Encodes icon's svg code into useful `background-image` url
 - [[css-obsidian-layout.png|Visual guide to primary Obsidian CSS Classes]]
 
-- [#custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css)
+- [custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css)
   - [Getting comfortable with Obsidian CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
   - [Common Selectors for Custom CSS](https://forum.obsidian.md/t/common-selectors-for-custom-css/1984)
   - [CSS Themes Showcase](https://forum.obsidian.md/t/meta-post-css-themes-showcase/76)

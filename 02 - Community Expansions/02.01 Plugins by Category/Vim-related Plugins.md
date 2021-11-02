@@ -17,6 +17,7 @@ Plugins related to [[Vim]] mode
 - [[mrj-add-codemirror-matchbrackets|Add Codemirror's matchbrackets.js]]
 - [[obsidian-vim-im-switch-plugin|Vim Input Method Switch]]
 - [[obsidian-relative-line-numbers|Relative Line Numbers]]
+- [[improved-vimcursor|Improved VimCursor]]
 
 ## Related categories
 

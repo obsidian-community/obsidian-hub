@@ -3,9 +3,6 @@ aliases:
 - YAFPA
 tags:
 - seedling
-- Publish-Alternative
-- Free
-- Tool
 publish: true
 ---
 
