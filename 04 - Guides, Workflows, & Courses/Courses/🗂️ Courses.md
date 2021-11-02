@@ -12,3 +12,5 @@ publish: true
 
 #placeholder/description 
 
+-  [[04 - Guides, Workflows, & Courses/Courses/Course for Getting Started with Obsidian|Course for Getting Started with Obsidian]]
+-  [[04 - Guides, Workflows, & Courses/Courses/Linking Your Thinking|Linking Your Thinking]]
