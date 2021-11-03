@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import csv
 from utils import get_template, write_file, get_json_from_github, PLUGINS_JSON_FILE
 
