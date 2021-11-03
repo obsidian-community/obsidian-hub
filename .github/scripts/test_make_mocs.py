@@ -1,3 +1,6 @@
+# Run tests with:
+#   python3 -m pytest .
+
 # TODO Figure out how to move this to a tests directory, abd still import make_moc
 from approvaltests import Options
 from approvaltests.approvals import verify
