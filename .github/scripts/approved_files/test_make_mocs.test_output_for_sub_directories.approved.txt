@@ -1,4 +1,4 @@
--  [[01 - Community/Authors - Persons|Authors - Persons]]
--  [[01 - Community/Events|Events]]
--  [[01 - Community/Obsidian Roundup|Obsidian Roundup]]
--  [[01 - Community/Video Channels|Video Channels]]
+-  [[01 - Community/Authors - Persons/🗂️ Authors - Persons|🗂️ Authors - Persons]]
+-  [[01 - Community/Events/🗂️ Events|🗂️ Events]]
+-  [[01 - Community/Obsidian Roundup/🗂️ Obsidian Roundup|🗂️ Obsidian Roundup]]
+-  [[01 - Community/Video Channels/🗂️ Video Channels|🗂️ Video Channels]]
