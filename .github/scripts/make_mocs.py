@@ -27,7 +27,10 @@ def make_moc_for_sub_directories(directory, sub_directories):
 
 
 def moc_name_for_directory(sub_directory):
-    return '🗂️ ' + sub_directory
+    name = sub_directory
+    if name == '..':
+        name = 'hub'
+    return '🗂️ ' + name
 
 
 def make_line_for_sub_directory(directory, sub_directory):
