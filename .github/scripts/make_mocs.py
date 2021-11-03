@@ -26,7 +26,11 @@ def make_moc_for_sub_directories(directory, sub_directories):
     return output
 
 
+def moc_name_for_directory(sub_directory):
+    return '🗂️ ' + sub_directory
+
+
 def make_line_for_sub_directory(directory, sub_directory):
     path = directory + '/' + sub_directory
-    file = '🗂️ ' + sub_directory
+    file = moc_name_for_directory(sub_directory)
     return make_link_line(path, file)
