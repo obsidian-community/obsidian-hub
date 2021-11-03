@@ -1,7 +1,7 @@
 import os.path
 
 
-def make_moc(directory, files):
+def make_moc_for_directory(directory, files):
     output = ''
     for file in files:
         link_name, extension = os.path.splitext(file)
