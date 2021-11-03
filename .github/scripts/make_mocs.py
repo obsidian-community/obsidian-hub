@@ -12,4 +12,4 @@ def make_line_for_file(directory, file):
     link_name, extension = os.path.splitext(file)
     if extension != '.md':
         link_name += extension
-    return f'- [[{directory}/{link_name}|{link_name}]]\n'
+    return f'-  [[{directory}/{link_name}|{link_name}]]\n'
