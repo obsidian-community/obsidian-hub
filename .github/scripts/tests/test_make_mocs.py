@@ -1,12 +1,12 @@
 # Run tests with:
-#   cd scripts
-#   python3 -m pytest tests
+#   ./run_tests.py
 
-# TODO Figure out how to move this to a tests directory, abd still import make_moc
 from approvaltests import Options
 from approvaltests.approvals import verify
 from approvaltests.reporters import GenericDiffReporterFactory
 
+# TODO Figure out how to make this import work within Pycharm.
+#      (It does run from ./run_tests.py)
 import make_mocs
 
 
