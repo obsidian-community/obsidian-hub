@@ -12,6 +12,10 @@ def make_line_for_file(directory, file):
     link_name, extension = os.path.splitext(file)
     if extension != '.md':
         link_name += extension
+    return make_link_line(directory, link_name)
+
+
+def make_link_line(directory, link_name):
     return f'-  [[{directory}/{link_name}|{link_name}]]\n'
 
 
@@ -23,4 +27,4 @@ def make_moc_for_sub_directories(directory, sub_directories):
 
 
 def make_line_for_sub_directory(directory, sub_directory):
-    return f'-  [[{sub_directory}]]\n'
+    return make_link_line(directory, sub_directory)
