@@ -19,8 +19,14 @@ def make_line_for_file(directory, file):
     return make_link_line(directory, link_name)
 
 
+def strip_parent_directories_from_directory(directory):
+    # Ugly hack because all directory names start with '../../'
+    return directory.replace('../', '')
+
+
 def make_link_line(directory, link_name):
-    return f'-  [[{directory}/{link_name}|{link_name}]]\n'
+    adjusted_direcory = strip_parent_directories_from_directory(directory)
+    return f'-  [[{adjusted_direcory}/{link_name}|{link_name}]]\n'
 
 
 def include_directory(d):
