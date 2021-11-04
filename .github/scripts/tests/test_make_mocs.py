@@ -2,6 +2,32 @@
 #   ./run_tests.py
 import os
 
+# -----------------------------------------------------------------------------
+# ABOUT THESE TESTS
+#
+# The tests below that use verify() and verify_all() use ApprovalTests.Python
+# to write out some output (called "received") and compare it with
+# previously-accepted output (called "approved").
+#
+# If the received differs from the approved, or if the approved does not
+# exist yet, then the framework searches for a diff-tool on your machine,
+# and uses it to show you the differences - with:
+# - received on the left
+# - approved on the right
+#
+# You can then either:
+# 1. Fix the code, if the differences show an unwanted change
+# 2. Use the diff tool to copy the changes over from received to approved,
+#    if the changes are intentional.
+#
+# Reference material:
+# 1. Clare's talks on Approval Tests:
+#       - https://claremacrae.co.uk/conferences/presentations_by_topic.html#testing-legacy-c-code-with-approval-tests
+#       - The start of the 2019-02-05 video is probably the best introduction.
+# 2. Python ApprovalTests library:
+#       - https://github.com/approvals/ApprovalTests.Python
+# -----------------------------------------------------------------------------
+
 from approvaltests import Options
 from approvaltests.approvals import verify, verify_all
 from approvaltests.reporters import GenericDiffReporterFactory
