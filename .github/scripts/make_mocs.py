@@ -31,6 +31,8 @@ def filter_directories(dirs):
 def make_moc_for_sub_directories(directory, sub_directories):
     output = ''
     for sub_directory in sub_directories:
+        if not include_directory(sub_directory):
+            continue
         output += make_line_for_sub_directory(directory, sub_directory)
     return output
 
