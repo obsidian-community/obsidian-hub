@@ -20,8 +20,12 @@ def make_link_line(directory, link_name):
     return f'-  [[{directory}/{link_name}|{link_name}]]\n'
 
 
+def include_directory(d):
+    return d not in DIRECTORIES_TO_EXCLUDE
+
+
 def filter_directories(dirs):
-    dirs[:] = [d for d in dirs if d not in DIRECTORIES_TO_EXCLUDE]
+    dirs[:] = [d for d in dirs if include_directory(d)]
 
 
 def make_moc_for_sub_directories(directory, sub_directories):
