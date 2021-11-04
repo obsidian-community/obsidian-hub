@@ -23,6 +23,7 @@ publish: true
 - [[adjacency-matrix-maker|Adjacency Matrix Maker]]
 - [[breadcrumbs|Breadcrumbs]]
 - [[advanced-cursors|Advanced Cursors]]
+- [[graph-analysis|Graph Analysis]]
 
 %% End Hub: Released contributions %%
 
@@ -30,10 +31,8 @@ publish: true
 
 ### Unlisted plugins
 
-- [Graph Analysis](https://github.com/SkepticMystic/graph-analysis)
 - [Metadataframe](https://github.com/SkepticMystic/metadataframe)
 - [Phrase Bank](https://github.com/SkepticMystic/Phrase-Bank)
-
 
 ## Sponsor this author
 

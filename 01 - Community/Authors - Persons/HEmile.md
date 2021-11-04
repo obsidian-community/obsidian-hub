@@ -26,6 +26,7 @@ publish: true
 - [[neo4j-graph-view|Neo4j Graph View]]
 - [[search-on-internet|Search on Internet]]
 - [[juggl|Juggl]]
+- [[graph-analysis|Graph Analysis]]
 
 %% End Hub: Released contributions %%
 
