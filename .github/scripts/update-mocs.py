@@ -2,7 +2,7 @@ import os
 import sys
 import argparse
 
-from make_mocs import filter_directories, moc_file_path_for_directory, moc_content_for_directory, update_existing_moc
+from make_mocs import filter_directories, moc_file_path_for_directory, make_moc_for_directory_with_delimiters, update_existing_moc
 
 
 def process_all_directories(directory, args):
@@ -14,7 +14,7 @@ def process_all_directories(directory, args):
 
 def process_directory(root, dirs, files):
     moc_file_path = moc_file_path_for_directory(root)
-    new_moc_content_with_delimiters = moc_content_for_directory(root, dirs, files)
+    new_moc_content_with_delimiters = make_moc_for_directory_with_delimiters(root, dirs, files)
     if os.path.exists(moc_file_path):
         rewrite_existing_moc_file(moc_file_path, new_moc_content_with_delimiters)
     else:
