@@ -1,6 +1,7 @@
 import os.path
 
-DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv'] # Directories beginning '.' are also excluded
+DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv']  # Directories beginning '.' are also excluded
+
 
 def make_moc_for_files(directory, files):
     output = ''
@@ -74,6 +75,7 @@ def make_line_for_sub_directory(directory, sub_directory):
     path = directory + '/' + sub_directory
     file = moc_name_for_sub_directory(sub_directory)
     return make_link_line(path, file)
+
 
 def index_content_for_directory(root, dirs, files):
     result = ''
