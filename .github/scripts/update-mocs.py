@@ -6,7 +6,6 @@ from make_mocs import filter_directories, moc_file_path_for_directory, index_con
 
 
 def process_all_directories(directory, args):
-    print("CAUTION - overwriting MOCs - DO NOT COMMIT")
     for root, dirs, files in os.walk(directory):
         filter_directories(dirs)
         dirs.sort()
