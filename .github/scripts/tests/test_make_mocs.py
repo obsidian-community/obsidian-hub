@@ -34,6 +34,36 @@ def test_output_for_sub_directories():
     result = make_mocs.make_moc_for_sub_directories(directory, sub_directories)
     verify(result, options=make_default_reporter())
 
+
 def test_moc_for_empty_directory():
     result = make_mocs.index_content_for_directory('../..', [], [])
+    verify(result, options=make_default_reporter())
+
+
+def test_moc_for_root_directory():
+    directories = [
+        '.DS_Store',
+        '.git',
+        '.github',
+        '.idea',
+        '.obsidian',
+        '00 - Contribute to the Obsidian Hub',
+        '01 - Community',
+        '02 - Community Expansions',
+        '03 - Showcases & Templates',
+        '04 - Guides, Workflows, & Courses',
+        '05 - Concepts',
+        '06 - Inbox',
+        'venv',
+    ]
+    files = [
+        '.gitignore',
+        '00 - Start here.md',
+        'CONTRIBUTING.md',
+        'README.md',
+        'logo.svg',
+        'publish.css',
+        '🗂️ hub.md',
+    ]
+    result = make_mocs.index_content_for_directory('../..', directories, files)
     verify(result, options=make_default_reporter())
