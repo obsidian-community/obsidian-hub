@@ -21,12 +21,19 @@ def make_line_for_file(directory, file):
 
 def strip_parent_directories_from_directory(directory):
     # Ugly hack because all directory names start with '../../'
-    return directory.replace('../', '')
+    result = directory.replace('../', '')
+    if result == '..': # Even more horrible hack for files in root of repo
+        result = ''
+    return result
 
 
 def make_link_line(directory, link_name):
     adjusted_direcory = strip_parent_directories_from_directory(directory)
-    return f'-  [[{adjusted_direcory}/{link_name}|{link_name}]]\n'
+    if len(adjusted_direcory) > 0:
+        adjusted_direcory += '/'
+    result = f'-  [[{adjusted_direcory}{link_name}|{link_name}]]\n'
+    print(f'directory={directory}\nadjusted_direcory={adjusted_direcory}\nlink_name={link_name}\n=> {result}')
+    return result
 
 
 def include_directory(d):
