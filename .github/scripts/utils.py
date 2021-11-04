@@ -159,3 +159,6 @@ def print_progress_bar(
     # Print New Line on Complete
     if iteration == total:
         print()
+
+def get_theme_download_count(name: string):
+    pass
