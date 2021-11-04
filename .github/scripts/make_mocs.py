@@ -102,6 +102,8 @@ def make_moc_for_directory(root, dirs, files):
     result = ''
     result += make_moc_for_sub_directories(root, sorted(dirs))
     result += make_moc_for_files(root, sorted(files))
+    if not result:
+        result = '\n'
     return result
 
 
