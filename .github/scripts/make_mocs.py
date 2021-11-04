@@ -49,8 +49,7 @@ def include_file(directory, file):
 
 
 def file_is_moc_for_directory(directory, file):
-    is_moc_for_directory = file == moc_file_name_for_directory(directory)
-    return is_moc_for_directory
+    return file == moc_file_name_for_directory(directory)
 
 
 def filter_directories(dirs):
