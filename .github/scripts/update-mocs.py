@@ -25,26 +25,29 @@ def process_directory(root, dirs, files):
 def rewrite_existing_moc_file(moc_file_path, new_index_with_delimiters):
     with open(moc_file_path, 'r') as input:
         initial_content = input.readlines()
+    with open(moc_file_path, 'w') as output:
+        update_existing_moc_file(initial_content, new_index_with_delimiters, output)
+
+
+def update_existing_moc_file(initial_content, new_index_with_delimiters, output):
     inside_old_index = False
     index_written = False
-    with open(moc_file_path, 'w') as output:
-        for line in initial_content:
+    for line in initial_content:
 
-            if line == initial_delimiter():
-                inside_old_index = True
-                output.write(new_index_with_delimiters)
-                index_written = True
-                continue
-
-            if line == final_delimiter():
-                inside_old_index = False
-                continue
-
-            if not inside_old_index:
-                output.write(line)
-
-        if not index_written:
+        if line == initial_delimiter():
+            inside_old_index = True
             output.write(new_index_with_delimiters)
+            index_written = True
+            continue
+
+        if line == final_delimiter():
+            inside_old_index = False
+            continue
+
+        if not inside_old_index:
+            output.write(line)
+    if not index_written:
+        output.write(new_index_with_delimiters)
 
 
 def write_new_moc_file(moc_file_path, new_index_with_delimiters):
