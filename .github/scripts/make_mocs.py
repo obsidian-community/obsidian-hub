@@ -32,7 +32,7 @@ def make_link_line(directory, link_name):
     if len(adjusted_direcory) > 0:
         adjusted_direcory += '/'
     result = f'-  [[{adjusted_direcory}{link_name}|{link_name}]]\n'
-    print(f'directory={directory}\nadjusted_direcory={adjusted_direcory}\nlink_name={link_name}\n=> {result}')
+    # print(f'directory={directory}\nadjusted_direcory={adjusted_direcory}\nlink_name={link_name}\n=> {result}')
     return result
 
 
