@@ -5,7 +5,11 @@ import argparse
 from make_mocs import filter_directories, moc_file_path_for_directory, make_moc_for_directory_with_delimiters, update_existing_moc
 
 
-def process_all_directories(directory, args):
+def process_all_directories(args):
+    # For now, the path to the vault is hard-coded, as there is some code
+    # in make_mocs.py that the root of the vault is in a parent of the
+    # directory containing this script.
+    directory = '../..'
     for root, dirs, files in os.walk(directory):
         filter_directories(dirs)
         dirs.sort()
@@ -42,7 +46,7 @@ def main(argv=sys.argv[1:]):
 
     args = parser.parse_args(argv)
 
-    process_all_directories('../..', args)
+    process_all_directories(args)
 
 
 if __name__ == "__main__":
