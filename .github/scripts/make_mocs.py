@@ -112,7 +112,7 @@ def make_moc_for_directory(root, dirs, files):
     return result
 
 
-def update_existing_moc(initial_content, new_index_with_delimiters):
+def update_existing_moc(initial_content, new_moc_content_with_delimiters):
     inside_old_index = False
     index_written = False
     result = ''
@@ -120,7 +120,7 @@ def update_existing_moc(initial_content, new_index_with_delimiters):
 
         if line == initial_delimiter():
             inside_old_index = True
-            result += new_index_with_delimiters
+            result += new_moc_content_with_delimiters
             index_written = True
             continue
 
@@ -131,7 +131,7 @@ def update_existing_moc(initial_content, new_index_with_delimiters):
         if not inside_old_index:
             result += line
     if not index_written:
-        result += new_index_with_delimiters
+        result += new_moc_content_with_delimiters
 
     return result
 

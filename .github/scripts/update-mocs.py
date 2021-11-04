@@ -14,24 +14,24 @@ def process_all_directories(directory, args):
 
 def process_directory(root, dirs, files):
     moc_file_path = moc_file_path_for_directory(root)
-    new_index_with_delimiters = moc_content_for_directory(root, dirs, files)
+    new_moc_content_with_delimiters = moc_content_for_directory(root, dirs, files)
     if os.path.exists(moc_file_path):
-        rewrite_existing_moc_file(moc_file_path, new_index_with_delimiters)
+        rewrite_existing_moc_file(moc_file_path, new_moc_content_with_delimiters)
     else:
-        write_new_moc_file(moc_file_path, new_index_with_delimiters)
+        write_new_moc_file(moc_file_path, new_moc_content_with_delimiters)
 
 
-def rewrite_existing_moc_file(moc_file_path, new_index_with_delimiters):
+def rewrite_existing_moc_file(moc_file_path, new_moc_content_with_delimiters):
     with open(moc_file_path, 'r') as input:
         initial_content = input.readlines()
     with open(moc_file_path, 'w') as output:
-        output.write(update_existing_moc(initial_content, new_index_with_delimiters))
+        output.write(update_existing_moc(initial_content, new_moc_content_with_delimiters))
 
 
-def write_new_moc_file(moc_file_path, new_index_with_delimiters):
+def write_new_moc_file(moc_file_path, new_moc_content_with_delimiters):
     # TODO Create this from a file template
     with open(moc_file_path, 'w') as output:
-        output.write(new_index_with_delimiters)
+        output.write(new_moc_content_with_delimiters)
 
 
 def main(argv=sys.argv[1:]):
