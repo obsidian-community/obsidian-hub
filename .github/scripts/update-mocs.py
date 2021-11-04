@@ -26,10 +26,10 @@ def rewrite_existing_moc_file(moc_file_path, new_index_with_delimiters):
     with open(moc_file_path, 'r') as input:
         initial_content = input.readlines()
     with open(moc_file_path, 'w') as output:
-        output.write(update_existing_moc_file(initial_content, new_index_with_delimiters))
+        output.write(update_existing_moc(initial_content, new_index_with_delimiters))
 
 
-def update_existing_moc_file(initial_content, new_index_with_delimiters):
+def update_existing_moc(initial_content, new_index_with_delimiters):
     inside_old_index = False
     index_written = False
     result = ''
