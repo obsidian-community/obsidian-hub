@@ -37,7 +37,7 @@ def test_output_for_sub_directories():
 
 
 def test_moc_for_empty_directory():
-    result = make_mocs.index_content_for_directory('../..', [], [])
+    result = make_mocs.moc_content_for_directory('../..', [], [])
     verify(result, options=make_default_reporter())
 
 
@@ -66,7 +66,7 @@ def test_moc_for_root_directory():
         'publish.css',
         '🗂️ hub.md',
     ]
-    result = make_mocs.index_content_for_directory('../..', directories, files)
+    result = make_mocs.moc_content_for_directory('../..', directories, files)
     verify(result, options=make_default_reporter())
 
 
@@ -84,7 +84,7 @@ def test_updating_existing_moc():
         'File 1.md',
         'File 2.md',
     ]
-    new_index_with_delimiters = make_mocs.index_content_for_directory('test', directories, files)
+    new_index_with_delimiters = make_mocs.moc_content_for_directory('test', directories, files)
 
     result = make_mocs.update_existing_moc(initial_content, new_index_with_delimiters)
     verify(result, options=make_default_reporter())

@@ -90,7 +90,7 @@ def make_line_for_sub_directory(directory, sub_directory):
     return make_link_line(path, file)
 
 
-def index_content_for_directory(root, dirs, files):
+def moc_content_for_directory(root, dirs, files):
     result = ''
     result += initial_delimiter()
     result += make_moc_for_directory(root, dirs, files)
