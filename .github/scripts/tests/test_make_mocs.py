@@ -1,5 +1,6 @@
 # Run tests with:
 #   ./run_tests.py
+import os
 
 from approvaltests import Options
 from approvaltests.approvals import verify, verify_all
@@ -66,4 +67,24 @@ def test_moc_for_root_directory():
         '🗂️ hub.md',
     ]
     result = make_mocs.index_content_for_directory('../..', directories, files)
+    verify(result, options=make_default_reporter())
+
+
+def test_updating_existing_moc():
+    input_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file = os.path.join(input_dir, 'sample-existing-moc.md')
+    with open(input_file) as input:
+        initial_content = input.readlines()
+
+    directories = [
+        'Dir 1',
+        'Dir 2',
+    ]
+    files = [
+        'File 1.md',
+        'File 2.md',
+    ]
+    new_index_with_delimiters = make_mocs.index_content_for_directory('test', directories, files)
+
+    result = make_mocs.update_existing_moc(initial_content, new_index_with_delimiters)
     verify(result, options=make_default_reporter())
