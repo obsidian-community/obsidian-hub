@@ -36,10 +36,10 @@ def make_link_line(directory, link_name):
     return result
 
 
-def include_directory_in_moc(d):
-    if d[0] == '.':
+def include_directory_in_moc(directory):
+    if directory[0] == '.':
         return False
-    return d not in DIRECTORIES_TO_EXCLUDE
+    return directory not in DIRECTORIES_TO_EXCLUDE
 
 
 def include_file_in_moc(directory, file):
