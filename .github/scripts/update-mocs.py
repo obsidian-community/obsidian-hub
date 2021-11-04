@@ -2,9 +2,7 @@ import os
 import sys
 import argparse
 
-from make_mocs import moc_file_path_for_directory, index_content_for_directory
-
-DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', '.obsidian', 'meta-notes', 'venv']
+from make_mocs import filter_directories, moc_file_path_for_directory, index_content_for_directory
 
 
 def process_all_directories(directory, args):
@@ -13,10 +11,6 @@ def process_all_directories(directory, args):
         filter_directories(dirs)
         dirs.sort()
         process_directory(root, dirs, files)
-
-
-def filter_directories(dirs):
-    dirs[:] = [d for d in dirs if d not in DIRECTORIES_TO_EXCLUDE]
 
 
 def process_directory(root, dirs, files):
