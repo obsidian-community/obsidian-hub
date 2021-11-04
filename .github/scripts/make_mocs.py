@@ -93,12 +93,13 @@ def make_line_for_sub_directory(directory, sub_directory):
 def index_content_for_directory(root, dirs, files):
     result = ''
     result += initial_delimiter()
-    result = make_moc_for_directory(root, dirs, files, result)
+    result += make_moc_for_directory(root, dirs, files)
     result += final_delimiter()
     return result
 
 
-def make_moc_for_directory(root, dirs, files, result):
+def make_moc_for_directory(root, dirs, files):
+    result = ''
     result += make_moc_for_sub_directories(root, sorted(dirs))
     result += make_moc_for_files(root, sorted(files))
     return result
