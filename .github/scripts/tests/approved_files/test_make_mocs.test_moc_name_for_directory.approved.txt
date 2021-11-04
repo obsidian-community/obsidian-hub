@@ -1,4 +1,4 @@
-moc_name_for_directory
+base-name of moc in directory
 
 .. => 🗂️ hub
 Events => 🗂️ Events

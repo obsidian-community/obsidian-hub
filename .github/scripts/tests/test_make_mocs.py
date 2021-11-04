@@ -53,7 +53,7 @@ def make_default_reporter():
 def test_moc_name_for_directory():
     alist = ['..', 'Events']
     verify_all(
-        "moc_name_for_directory", alist,
+        "base-name of moc in directory", alist,
         lambda x: "{0} => {1}".format(x, make_mocs.moc_name_for_sub_directory(x)), options=make_default_reporter())
 
 
