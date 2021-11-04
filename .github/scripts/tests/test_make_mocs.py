@@ -77,7 +77,7 @@ def test_updating_existing_moc():
         initial_content = input.readlines()
 
     directories = [
-        'Dir 1',
+        'dir 1',
         'Dir 2',
     ]
     files = [
