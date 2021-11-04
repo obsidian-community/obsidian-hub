@@ -4,6 +4,7 @@ import sys
 import argparse
 import glob
 from themes import get_theme_plugin_support, get_theme_settings
+import requests
 
 from utils import (
     THEME_CSS_FILE,
@@ -16,7 +17,6 @@ from utils import (
     write_file,
     get_json_from_github,
     get_plugin_manifest,
-    get_theme_download_count,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE, OUTPUT_DIR
 
