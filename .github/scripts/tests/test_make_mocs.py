@@ -33,3 +33,7 @@ def test_output_for_sub_directories():
     sub_directories = ['Authors - Persons', 'Events', 'Obsidian Roundup', 'Video Channels']
     result = make_mocs.make_moc_for_sub_directories(directory, sub_directories)
     verify(result, options=make_default_reporter())
+
+def test_moc_for_empty_directory():
+    result = make_mocs.index_content_for_directory('../..', [], [])
+    verify(result, options=make_default_reporter())
