@@ -6,7 +6,7 @@ DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv']  # Directories beginning '.' are
 def make_moc_for_files(directory, files):
     output = ''
     for file in files:
-        if not include_file(directory, file):
+        if not include_file_in_moc(directory, file):
             continue
         output += make_line_for_file(directory, file)
     return output
@@ -36,13 +36,13 @@ def make_link_line(directory, link_name):
     return result
 
 
-def include_directory(d):
+def include_directory_in_moc(d):
     if d[0] == '.':
         return False
     return d not in DIRECTORIES_TO_EXCLUDE
 
 
-def include_file(directory, file):
+def include_file_in_moc(directory, file):
     if file_is_moc_for_directory(directory, file):
         return False
     return file[0] != '.'
@@ -53,13 +53,13 @@ def file_is_moc_for_directory(directory, file):
 
 
 def filter_directories(dirs):
-    dirs[:] = [d for d in dirs if include_directory(d)]
+    dirs[:] = [d for d in dirs if include_directory_in_moc(d)]
 
 
 def make_moc_for_sub_directories(directory, sub_directories):
     output = ''
     for sub_directory in sub_directories:
-        if not include_directory(sub_directory):
+        if not include_directory_in_moc(sub_directory):
             continue
         output += make_line_for_sub_directory(directory, sub_directory)
     return output
