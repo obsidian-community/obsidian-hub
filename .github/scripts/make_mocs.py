@@ -101,7 +101,8 @@ def index_content_for_directory(root, dirs, files):
 def make_moc_for_directory(root, dirs, files):
     result = ''
     result += make_moc_for_sub_directories(root, sorted(dirs))
-    result += make_moc_for_files(root, sorted(files))
+    sorted_files = sorted(files, key=str.casefold)
+    result += make_moc_for_files(root, sorted_files)
     if not result:
         result = '\n'
     return result
