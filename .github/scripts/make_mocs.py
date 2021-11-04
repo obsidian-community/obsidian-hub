@@ -79,8 +79,7 @@ def moc_file_name_for_directory(root):
 
 def moc_file_path_for_directory(root):
     moc_file_basename = moc_file_name_for_directory(root)
-    moc_file_path = os.path.join(root, moc_file_basename)
-    return moc_file_path
+    return os.path.join(root, moc_file_basename)
 
 
 def make_line_for_sub_directory(directory, sub_directory):
