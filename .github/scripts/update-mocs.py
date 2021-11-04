@@ -15,8 +15,14 @@ def process_all_directories(directory, args):
 
 def process_directory(root, dirs, files):
     moc_file_path = moc_file_path_for_directory(root)
+    new_index_with_delimiters = index_content_for_directory(root, dirs, files)
+    write_new_moc_file(moc_file_path, new_index_with_delimiters)
+
+
+def write_new_moc_file(moc_file_path, new_index_with_delimiters):
+    # TODO Create this from a file template
     with open(moc_file_path, 'w') as output:
-        output.write(index_content_for_directory(root, dirs, files))
+        output.write(new_index_with_delimiters)
 
 
 def main(argv=sys.argv[1:]):
