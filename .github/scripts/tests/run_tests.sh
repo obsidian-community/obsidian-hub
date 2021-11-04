@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 
 cd ..
-python3 -m pytest tests
+# -s means "show console output if test fails"
+python3 -s -m pytest tests
