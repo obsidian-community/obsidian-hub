@@ -1,6 +1,6 @@
 import os.path
 
-DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', '.obsidian', 'meta-notes', 'venv']
+DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv'] # Directories beginning '.' are also excluded
 
 def make_moc_for_files(directory, files):
     output = ''
@@ -21,6 +21,8 @@ def make_link_line(directory, link_name):
 
 
 def include_directory(d):
+    if d[0] == '.':
+        return False
     return d not in DIRECTORIES_TO_EXCLUDE
 
 
