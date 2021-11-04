@@ -2,7 +2,7 @@ import os
 import sys
 import argparse
 
-from make_mocs import filter_directories, moc_file_path_for_directory, index_content_for_directory
+from make_mocs import filter_directories, moc_file_path_for_directory, index_content_for_directory, initial_delimiter, final_delimiter
 
 
 def process_all_directories(directory, args):
@@ -16,7 +16,35 @@ def process_all_directories(directory, args):
 def process_directory(root, dirs, files):
     moc_file_path = moc_file_path_for_directory(root)
     new_index_with_delimiters = index_content_for_directory(root, dirs, files)
-    write_new_moc_file(moc_file_path, new_index_with_delimiters)
+    if os.path.exists(moc_file_path):
+        rewrite_existing_moc_file(moc_file_path, new_index_with_delimiters)
+    else:
+        write_new_moc_file(moc_file_path, new_index_with_delimiters)
+
+
+def rewrite_existing_moc_file(moc_file_path, new_index_with_delimiters):
+    with open(moc_file_path, 'r') as input:
+        initial_content = input.readlines()
+    inside_old_index = False
+    index_written = False
+    with open(moc_file_path, 'w') as output:
+        for line in initial_content:
+
+            if line == initial_delimiter():
+                inside_old_index = True
+                output.write(new_index_with_delimiters)
+                index_written = True
+                continue
+
+            if line == final_delimiter():
+                inside_old_index = False
+                continue
+
+            if not inside_old_index:
+                output.write(line)
+
+        if not index_written:
+            output.write(new_index_with_delimiters)
 
 
 def write_new_moc_file(moc_file_path, new_index_with_delimiters):
