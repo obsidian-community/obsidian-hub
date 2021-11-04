@@ -26,7 +26,7 @@ def make_moc_for_sub_directories(directory, sub_directories):
     return output
 
 
-def moc_name_for_directory(sub_directory):
+def moc_name_for_sub_directory(sub_directory):
     name = sub_directory
     if name == '..':
         name = 'hub'
@@ -35,12 +35,12 @@ def moc_name_for_directory(sub_directory):
 
 def moc_file_path_for_directory(root):
     directory_name = os.path.basename(root)
-    moc_file_basename = moc_name_for_directory(directory_name)
+    moc_file_basename = moc_name_for_sub_directory(directory_name)
     moc_file_path = os.path.join(root, moc_file_basename + ".md")
     return moc_file_path
 
 
 def make_line_for_sub_directory(directory, sub_directory):
     path = directory + '/' + sub_directory
-    file = moc_name_for_directory(sub_directory)
+    file = moc_name_for_sub_directory(sub_directory)
     return make_link_line(path, file)
