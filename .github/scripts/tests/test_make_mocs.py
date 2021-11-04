@@ -42,7 +42,6 @@ def test_moc_for_empty_directory():
 
 def test_moc_for_root_directory():
     directories = [
-        '.DS_Store',
         '.git',
         '.github',
         '.idea',
@@ -57,6 +56,7 @@ def test_moc_for_root_directory():
         'venv',
     ]
     files = [
+        '.DS_Store',
         '.gitignore',
         '00 - Start here.md',
         'CONTRIBUTING.md',
