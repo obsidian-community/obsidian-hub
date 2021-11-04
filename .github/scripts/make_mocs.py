@@ -1,7 +1,7 @@
 import os.path
 
 
-def make_moc_for_directory(directory, files):
+def make_moc_for_files(directory, files):
     output = ''
     for file in files:
         output += make_line_for_file(directory, file)
