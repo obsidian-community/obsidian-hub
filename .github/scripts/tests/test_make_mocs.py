@@ -12,7 +12,13 @@ import make_mocs
 
 
 def make_default_reporter():
-    return Options().with_reporter(GenericDiffReporterFactory().get("AraxisMergeMac"))
+    # This is the diff-tool (or "reporter", in Approval Tests vocabulary), that shows
+    # any difference between "received and approved" - that is, "actual and expected"
+    # output files...
+    # The supported tool names are listed in:
+    #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
+    diff_tool = "AraxisMergeMac"
+    return Options().with_reporter(GenericDiffReporterFactory().get(diff_tool))
 
 
 def test_moc_name_for_directory():
