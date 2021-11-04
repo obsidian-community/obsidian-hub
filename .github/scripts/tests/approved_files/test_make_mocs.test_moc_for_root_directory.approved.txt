@@ -6,8 +6,6 @@
 -  [[../../04 - Guides, Workflows, & Courses/🗂️ 04 - Guides, Workflows, & Courses|🗂️ 04 - Guides, Workflows, & Courses]]
 -  [[../../05 - Concepts/🗂️ 05 - Concepts|🗂️ 05 - Concepts]]
 -  [[../../06 - Inbox/🗂️ 06 - Inbox|🗂️ 06 - Inbox]]
--  [[../../.DS_Store|.DS_Store]]
--  [[../../.gitignore|.gitignore]]
 -  [[../../00 - Start here|00 - Start here]]
 -  [[../../CONTRIBUTING|CONTRIBUTING]]
 -  [[../../README|README]]
