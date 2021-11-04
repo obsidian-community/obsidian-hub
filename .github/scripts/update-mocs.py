@@ -2,7 +2,7 @@ import os
 import sys
 import argparse
 
-from make_mocs import filter_directories, moc_file_path_for_directory, index_content_for_directory, initial_delimiter, final_delimiter
+from make_mocs import filter_directories, moc_file_path_for_directory, index_content_for_directory, update_existing_moc
 
 
 def process_all_directories(directory, args):
@@ -28,29 +28,6 @@ def rewrite_existing_moc_file(moc_file_path, new_index_with_delimiters):
     with open(moc_file_path, 'w') as output:
         output.write(update_existing_moc(initial_content, new_index_with_delimiters))
 
-
-def update_existing_moc(initial_content, new_index_with_delimiters):
-    inside_old_index = False
-    index_written = False
-    result = ''
-    for line in initial_content:
-
-        if line == initial_delimiter():
-            inside_old_index = True
-            result += new_index_with_delimiters
-            index_written = True
-            continue
-
-        if line == final_delimiter():
-            inside_old_index = False
-            continue
-
-        if not inside_old_index:
-            result += line
-    if not index_written:
-        result += new_index_with_delimiters
-
-    return result
 
 def write_new_moc_file(moc_file_path, new_index_with_delimiters):
     # TODO Create this from a file template
