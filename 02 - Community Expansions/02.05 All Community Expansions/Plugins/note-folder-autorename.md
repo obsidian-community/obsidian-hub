@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `note-folder-autorename`
 Links: [GitHub repository](https://github.com/pjeby/note-folder-autorename) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=note-folder-autorename)
 Developed by: [[pjeby]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Turn notes into folders and automaticaly move/rename their folders when they move or are renamed.
 

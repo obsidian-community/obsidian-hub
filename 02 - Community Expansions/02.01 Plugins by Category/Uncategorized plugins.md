@@ -13,12 +13,14 @@ Plugins which have not yet been categorized by the community.
 
 ## Plugins in this category
 
+- [[recent-files-obsidian|Recent Files]]
 - [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]]
 - [[review-obsidian|Review]]
 - [[code-block-copy|Copy button for code blocks]]
 - [[workbench-obsidian|Workbench]]
 - [[obsidian-stopwatch-plugin|Stopwatch Plugin]]
 - [[plugin-changelogs|Plugin Changelogs]]
+- [[obsidian-apply-patterns|Apply Patterns]]
 - [[copy-note|Enhance Copy Note]]
 - [[customizable-menu|Customizable Menu]]
 - [[simple-embeds|Simple Embeds]]
@@ -31,7 +33,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian42-brat|Obsidian42 - BRAT]]
 - [[snippet-commands-obsidian|Snippet Commands]]
 - [[key-promoter|Key Promoter]]
-- [[obsidian-livesync|Obsidian Live sync]]
+- [[obsidian-livesync|Self-hosted LiveSync]]
 - [[lumberjack-obsidian|Lumberjack 🪓🪵]]
 - [[mysnippets-plugin|MySnippets]]
 - [[meld-calc|Meld Calc]]
@@ -44,4 +46,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-oura-plugin|Oura Plugin for Obsidian]]
 - [[obsidian-metacopy|Metacopy]]
 - [[obsidian-image-caption|Image Caption]]
+- [[obsidian-custom-attachment-location|Custom Attachment Location]]
+- [[cryptsidian|Cryptsidian]]
+- [[obsidian-crypto-lookup|Crypto Lookup for Obsidian]]
 
