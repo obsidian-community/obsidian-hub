@@ -8,6 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
+![Downloads](https://img.shields.io/badge/downloads-1819-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SlRvb/Obsidian--ITS-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/SlRvb/Obsidian--ITS-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/SlRvb/Obsidian--ITS-Theme?color=573E7A&logo=github&style=for-the-badge)
@@ -61,14 +62,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Header Weights
     - Header Height
     - Line Height
-- **Colors**: Change text colors
-    - Text
-    - Faint Text
-    - Headings: Heading, Vault title, HR Symbol, blockquote quotation mark, and open folder icon colors.
-    - File Title: File text color.
-    - Code Text
-    - `<i></i>` Text: Html `<i></i>` text color.
-    - Footnotes
 - **Specific View Changes**: Change text in both preview/edit mode or change it for either mode separately
     - Different Preview/Editor Text: If toggled on, Text only affects UI text.
     - Preview Text: Changes text font for preview mode.
@@ -138,6 +131,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Flat Note Title Color
 - Display Folder Arrow On Hover
 - Raise Right Sidebar: Raise the right sidebar if the status bar is covering part of it.
+- Hide Outline Pane H
 - **Minimalist Workspace**: Hide UI unless hovered over the edges of the app.
     - Writing: Minimalistic/distraction free layout design for notes.
     - Hide All UI: Hide everything listed below with just 1 toggle
@@ -157,14 +151,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Menu Text Size: Adjust the size for the menus, ie. Settings, Quick Switcher, etc.
     - Sidebar Text Size
     - Note Title Size: Adjust the size for the note titles.
-- **Workspace Colors**: Recolor some UI colors
-    - Note: Note and sidebar colors.
-    - Outer Sidebar
-    - Sidebar: Change only sidebar, right settings pane colors.
-    - Dark Sidebar: Left settings bar, <i></i> background, graph background, and pane separator colors.
-    - File: File icon color.
-    - Folder: Open folder icon color.
-    - Sliding Panes Dropshadow
 
 **Note Elements**: 
 - Hide Frontmatter
@@ -185,16 +171,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Center Headings
     - Center Heading With Lines: Center headings and have lines appear at either side of it.
     - Illusion Theme Inspired Headings
-- **Colors**: 
-    - Embed/Blockquote: Embed/Blockquote color.
-    - Code Background
-    - Horizontal Line
-    - Aside Background Color: Aside background color and dark theme setting alternating setting item color.
 - **Lists**: 
     - Colorful Task Text: Add color to the text of the task.
     - Default Bullet Disc Shape
     - Bullet Shape: Add quotes around your new bullet. For example "~"
-    - Original Bullet Lines: Lines appear under bullet, not beside it. ⚠Causes scrolling glitches. Recommended this is turned off, but use if you wish.
+    - 1 Color Bullets & Lines: Bullet and Line colors no longer alternates. Bullet color is set to Accent 2.
+    - Original Bullet Lines: Lines appear under bullet, not beside it. Won't connect to bullet if it's longer than 1 line.
     - Line Size
     - **Colorful Lists**: 
         - Colorful Bullet Line Color: Toggle on to use colorful bullet lines
@@ -213,19 +195,41 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Tag Outline Border Size
     - Tag Font Size Toggle
     - Tag Font Size
-    - Tag Color
 
-**Other Colors**: 
-- Accent
-- Lite Accent: Link hover, scrollbar active, tags, embed titles and links colors.
-- Accent 2: Arrows, lines, even bullet list line colors.
-- Lite Accent 2: Link color.
-- Dark Accent: File selected and Note Gradient, frontmatter tag, scrollbar color.
-- Deep Dark Accent: Darkmode Mobile Toolbar and Lightmode Obsidian titlebar background color.
-- Inactive: Inactive note; file text; unresolved and external link, editor and external link hover; and mermaid text color.
-- Background: Scrollbar background color
-- Lines: Explorer, heading, input box, settings, frontmatter, and mermaidjs lines
-- Foreground: Active file selected title color, Graph Node Color, Kanban Plugin Button color.
+**Colors**: 
+- **Text**: Change text colors
+    - Text
+    - Faint Text
+    - Headings: Heading, Vault title, HR Symbol, blockquote quotation mark, and open folder icon colors.
+    - File Title: File text color.
+    - Code Text
+    - `<i></i>` Text: Html `<i></i>` text color.
+    - Footnotes
+- **Workspace**: Recolor some UI colors
+    - Note: Note and sidebar colors.
+    - Outer Sidebar
+    - Sidebar: Change only sidebar, right settings pane colors.
+    - Dark Sidebar: Left settings bar, <i></i> background, graph background, and pane separator colors.
+    - File: File icon color.
+    - Folder: Open folder icon color.
+    - Sliding Panes Dropshadow
+- **Note Elements**: 
+    - Tag Color
+    - Embed/Blockquote: Embed/Blockquote color.
+    - Code Background
+    - Horizontal Line
+    - Aside Background Color: Aside background color and dark theme setting alternating setting item color.
+- **Other**: 
+    - Accent
+    - Lite Accent: Link hover, scrollbar active, tags, embed titles and links colors.
+    - Accent 2: Arrows, lines, even bullet list line colors.
+    - Lite Accent 2: Link color.
+    - Dark Accent: File selected and Note Gradient, frontmatter tag, scrollbar color.
+    - Deep Dark Accent: Darkmode Mobile Toolbar and Lightmode Obsidian titlebar background color.
+    - Inactive: Inactive note; file text; unresolved and external link, editor and external link hover; and mermaid text color.
+    - Background: Scrollbar background color
+    - Lines: Explorer, heading, input box, settings, frontmatter, and mermaidjs lines
+    - Foreground: Active file selected title color, Graph Node Color, Kanban Plugin Button color.
 - **Highlights**: 
     - Text Highlight: Markdown highlight color.
     - Search Highlight: Search result highlight color.

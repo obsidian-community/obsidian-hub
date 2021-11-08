@@ -8,6 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
+![Downloads](https://img.shields.io/badge/downloads-316-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kinmury/Golden-Book?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/kinmury/Golden-Book/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/kinmury/Golden-Book?color=573E7A&logo=github&style=for-the-badge)
@@ -38,37 +39,14 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Apollo - Animation**: Cancel the animation from Apollo ◑.◑
-- Title bar Apollo [ ◑.◑]: Cancel the animation from Apollo on the "Title bar"
-- Empty state Apollo ¯\_[ ◑.◑]_/¯: Cancel the animation from Apollo on the "Empty State"
-- RIP Apollo ◑.◑: Remove Apollo from existence - ¿Do you really hate him so much?
+**Vault Name on the Top**: 
+- Hide the Vault Name of your vault on the top of the app
 
-**Edit - Preview Sections**: Change the CSS Settings applied to the "Edit View" and "Preview View"
-- Edit - Preview Width: Toggle the Width size of the Edit-Preview Views between the default settings and the theme settings
+**Headings**: 
+- Get the \#'s back instead of the Hn's: Turn it off for you to have your \#'s back
+- Don't center the headings: Turn it off if you don't want to center your headings on preview view
 
-**Title Bar**: Change the CSS Settings applied to the "Title Bar"
-- Hidden: Change the hidden state
-
-**View Header**: Change the CSS Settings applied to the "View Header"
-- Hidden Icons: Change the hidden state of the View Header Icons
-
-**Side Dock Ribbon Left**: Change the CSS Settings applied to the "Side Dock Ribbon - Left"
-- Hidden: Change the hidden state
-
-**Status bar**: Change the CSS Settings applied to the "Status bar"
-- Hidden: Change the hidden state
-- Centered Content: The content on the status bar is centered by Golden Book CSS Turn off if you want the content to be by the Obsidian Default CSS
-- Top Right Corner Position: Position the "Status bar" at the top right corner
-- Transparency of the Status bar: (In case the "Top Right Corner Position" option is on) Toggle the transparency of the "Status Bar"
-
-**Headings (H1 ··· H6)**: Change the CSS Settings of the headings
-- H1 ··· H6 - Hn or: Choose between showing "Hn" or "#" on your headings
-- Centered Header Title: Center the text of the headings in Preview View
-
-**Tags**: Change the CSS Settings applied to the tags
-- Minimal version: The tag size will decrease and the background color would show only when you hover the tag
-
-**Plugins**: Change the CSS Settings applied to some plugins
+**Plugins**: 
 - **Dataview**: Change the CSS Settings applied to "Dataview"
     - Capitalize First Word: Capitalize the first word from every table in "Dataview"
 - **Kanban**: Change the CSS Settings applied to "Kanban"
@@ -77,3 +55,18 @@ Modes: [[Dark-mode themes|dark]]
     - Centered Admonition Title: Toggle the center status of the title
     - Centered Admonition Content: Toggle the center status of the content of the Admonition Content. (Excluding some stuff that don't center well, like unordered lists and ordered lists)
 
+## Plugin Compatibility[^1]
+
+
+**Community plugins**:
+- [[file-tree-alternative|File Tree Alternative Plugin]]
+- [[quick-explorer|Quick Explorer]]
+- [[obsidian-admonition|Admonition]]
+- [[dataview|Dataview]]
+- [[obsidian-kanban|Kanban]]
+- [[obsidian-languagetool-plugin|LanguageTool Integration]]
+- [[calendar|Calendar]]
+- [[templater-obsidian|Templater]]
+- [[fantasy-calendar|Fantasy Calendar]]
+
+[^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
