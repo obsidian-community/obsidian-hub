@@ -67,7 +67,7 @@ You can then go over to this thread to vote for the talks you're interested in: 
 
 The talks are organised over on this [Discord server](https://discord.gg/HvGbz2tr). Anyone is welcome to join and contribute ideas or to help organsie! If the link doesn't work, you can contact the organisers on Discord:
 
-- [[Argenos]]
+- [[argenos]]
 - [[SkepticMystic]]
 - [[Phnx]]
 
