@@ -72,9 +72,13 @@ def moc_name_for_sub_directory(sub_directory):
     return '🗂️ ' + name
 
 
-def moc_file_name_for_directory(root):
+def moc_base_name_for_directory(root):
     directory_name = os.path.basename(root)
-    return moc_name_for_sub_directory(directory_name) + ".md"
+    return moc_name_for_sub_directory(directory_name)
+
+
+def moc_file_name_for_directory(root):
+    return moc_base_name_for_directory(root) + ".md"
 
 
 def moc_file_path_for_directory(root):
