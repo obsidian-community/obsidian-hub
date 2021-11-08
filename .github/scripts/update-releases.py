@@ -4,6 +4,7 @@ import sys
 import argparse
 import glob
 from themes import get_theme_plugin_support, get_theme_settings
+import requests
 
 from utils import (
     THEME_CSS_FILE,
@@ -74,6 +75,9 @@ def process_released_themes(overwrite=False, verbose=False):
     print_progress_bar(
         0, len(theme_list),
     )
+
+    theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
+
     for theme in theme_list:
         repo = theme.get("repo")
         user = repo.split("/")[0]
@@ -86,12 +90,17 @@ def process_released_themes(overwrite=False, verbose=False):
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
         settings = get_theme_settings(css_file)
         plugin_support = get_theme_plugin_support(css_file)
+
+        current_name = theme.get("name")
+        download_count = theme_downloads[current_name]["download"]
+
         theme.update(
             user=user,
             modes=modes,
             branch=branch,
             settings=settings,
             plugins=plugin_support,
+            download_count= download_count,
         )
         group = write_file(
             template, theme.get("name"), overwrite=overwrite, verbose=verbose, **theme
