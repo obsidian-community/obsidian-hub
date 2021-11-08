@@ -10,17 +10,25 @@
 	text-align: center;
 }
 
-/* Widen File Explorer */
-.site-body-left-column {
-	flex: 0 0 350px;
+/* Widen/Dynamically Size File Explorer & Right Panel */
+.site-body-left-column  { flex:  0 .9 350px; }
+.site-body-right-column { flex: .1 .9 300px; }
+
+/* Hide Graph Around 1300px */
+@media screen and (max-width: 1300px) {
+    .published-container.has-graph .graph-view-outer {
+        display: none;
+    }    
 }
 
+
+/* Buttons */
 button#HH:hover:before {
-    content: "Only works with Hotkey Helper Installed";
-    color: var(--text-normal);
-    font-size: 16px;
+	content: "Only works with Hotkey Helper Installed";
+	color: var(--text-normal);
+	font-size: 16px;
 }
 button#HH:hover {
-    color: transparent;
-    font-size: .1px;
+	color: transparent;
+	font-size: .1px;
 }
