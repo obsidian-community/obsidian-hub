@@ -8,6 +8,6 @@ publish: true
 
 # PayPal
 
-The backlinks of this note contain [[🗂️ Authors - Persons]] that have sponsoring through PayPal
+The backlinks of this note contain [[🗂️ People]] that have sponsoring through PayPal
 
 
