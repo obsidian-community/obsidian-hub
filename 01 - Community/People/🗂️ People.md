@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# 🗂️ Authors - Persons
+# 🗂️ People
 
 Overviews of all the work from notable People like Plugins Developers, Theme Designers or Moderators.
 
