@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# 🗂️ 06 - Concepts
+# 🗂️ 05 - Concepts
 
 Confused by all the technical lingo like [[YAML frontmatter|YAML]], [[Markdown|Markdown]], [[SCSS]], or [[LaTeX|LaTeX]]? Or feel overwhelmed by all the different "schools" and techniques of Personal Knowledge Management like [[Spaced repetition]], [[PARA]], or [[Digital garden]]?
 

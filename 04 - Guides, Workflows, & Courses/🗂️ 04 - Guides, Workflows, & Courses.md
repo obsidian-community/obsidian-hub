@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# 🗂️ 05 - Guides, Workflows, & Courses
+# 🗂️ 04 - Guides, Workflows, & Courses
 
 Here you can find [[🗂️ Guides|various guides, written or in video form]] how to accomplish various tasks. There are guides every interest
 - [[for Beginners]]
