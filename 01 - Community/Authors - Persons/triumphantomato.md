@@ -1,18 +1,18 @@
 ---
 aliases:
-- Ivan Lednev
+- triumphantomato
 tags: 
 - 
 publish: true
 ---
 
-# Ivan Lednev
+# triumphantomato
 
-- GitHub: [ivan-lednev](https://github.com/ivan-lednev/) ^github
+- GitHub: [triumphantomato](https://github.com/triumphantomato/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://github.com/ivan-lednev> ^website
+- Website: <https://github.com/triumphantomato> ^website
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -23,7 +23,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-task-archiver|Archiver]]
+- [[cryptsidian|Cryptsidian]]
 
 %% End Hub: Released contributions %%
 
@@ -41,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @ivan-lednev on GitHub Sponsors](https://github.com/sponsors/ivan-lednev) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @triumphantomato on GitHub Sponsors](https://github.com/sponsors/triumphantomato) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

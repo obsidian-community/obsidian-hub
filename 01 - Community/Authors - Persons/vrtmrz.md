@@ -23,7 +23,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-livesync|Obsidian Live sync]]
+- [[obsidian-livesync|Self-hosted LiveSync]]
 
 %% End Hub: Released contributions %%
 

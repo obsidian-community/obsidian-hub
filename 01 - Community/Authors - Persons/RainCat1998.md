@@ -1,18 +1,18 @@
 ---
 aliases:
-- Ivan Lednev
+- RainCat1998
 tags: 
 - 
 publish: true
 ---
 
-# Ivan Lednev
+# RainCat1998
 
-- GitHub: [ivan-lednev](https://github.com/ivan-lednev/) ^github
+- GitHub: [RainCat1998](https://github.com/RainCat1998/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://github.com/ivan-lednev> ^website
+- Website: <https://github.com/RainCat1998> ^website
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -23,7 +23,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-task-archiver|Archiver]]
+- [[obsidian-custom-attachment-location|Custom Attachment Location]]
 
 %% End Hub: Released contributions %%
 
@@ -41,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @ivan-lednev on GitHub Sponsors](https://github.com/sponsors/ivan-lednev) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @RainCat1998 on GitHub Sponsors](https://github.com/sponsors/RainCat1998) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

@@ -1,18 +1,18 @@
 ---
 aliases:
-- Ivan Lednev
+- Andrew Lombardi
 tags: 
 - 
 publish: true
 ---
 
-# Ivan Lednev
+# Andrew Lombardi
 
-- GitHub: [ivan-lednev](https://github.com/ivan-lednev/) ^github
+- GitHub: [kinabalu](https://github.com/kinabalu/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://github.com/ivan-lednev> ^website
+- Website: <https://mysticcoders.com> ^website
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -23,7 +23,8 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-task-archiver|Archiver]]
+- [[obsidian-oura-plugin|Oura Ring]]
+- [[obsidian-crypto-lookup|Crypto Lookup]]
 
 %% End Hub: Released contributions %%
 
@@ -41,7 +42,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @ivan-lednev on GitHub Sponsors](https://github.com/sponsors/ivan-lednev) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @kinabalu on GitHub Sponsors](https://github.com/sponsors/kinabalu) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

@@ -12,7 +12,7 @@ publish: true
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://github.com/trashhalo> ^website
+- Website: <https://obsidian-buffer.web.app> ^website
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -25,6 +25,7 @@ publish: true
 ### Plugins
 - [[extract-url|Extract url content]]
 - [[todo-txt|Todo.txt support]]
+- [[obsidian-webhooks|Webhook Plugin]]
 
 %% End Hub: Released contributions %%
 
