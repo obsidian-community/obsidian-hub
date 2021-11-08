@@ -1,18 +1,18 @@
 ---
 aliases:
-- Ivan Lednev
+- Mara
 tags: 
 - 
 publish: true
 ---
 
-# Ivan Lednev
+# Mara
 
-- GitHub: [ivan-lednev](https://github.com/ivan-lednev/) ^github
+- GitHub: [Mara-Li](https://github.com/Mara-Li/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://github.com/ivan-lednev> ^website
+%% - Website: <> ^website %% 
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -23,7 +23,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-task-archiver|Archiver]]
+- [[obsidian-metacopy|Metacopy]]
 
 %% End Hub: Released contributions %%
 
@@ -41,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @ivan-lednev on GitHub Sponsors](https://github.com/sponsors/ivan-lednev) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @Mara-Li on GitHub Sponsors](https://github.com/sponsors/Mara-Li) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

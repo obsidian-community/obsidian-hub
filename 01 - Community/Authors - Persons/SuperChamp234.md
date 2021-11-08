@@ -1,18 +1,18 @@
 ---
 aliases:
-- Ivan Lednev
+- Leoh and Ran
 tags: 
 - 
 publish: true
 ---
 
-# Ivan Lednev
+# Leoh and Ran
 
-- GitHub: [ivan-lednev](https://github.com/ivan-lednev/) ^github
+- GitHub: [SuperChamp234](https://github.com/SuperChamp234/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://github.com/ivan-lednev> ^website
+%% - Website: <> ^website %% 
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -23,7 +23,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-task-archiver|Archiver]]
+- [[obsidian-habitica-integration|Habitica Sync]]
 
 %% End Hub: Released contributions %%
 
@@ -41,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @ivan-lednev on GitHub Sponsors](https://github.com/sponsors/ivan-lednev) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @SuperChamp234 on GitHub Sponsors](https://github.com/sponsors/SuperChamp234) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

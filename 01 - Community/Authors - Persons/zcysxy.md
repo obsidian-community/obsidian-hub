@@ -1,18 +1,18 @@
 ---
 aliases:
-- Ivan Lednev
+- zcysxy
 tags: 
 - 
 publish: true
 ---
 
-# Ivan Lednev
+# zcysxy
 
-- GitHub: [ivan-lednev](https://github.com/ivan-lednev/) ^github
+- GitHub: [zcysxy](https://github.com/zcysxy/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://github.com/ivan-lednev> ^website
+%% - Website: <> ^website %% 
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -22,9 +22,9 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
-### Plugins
-- [[obsidian-task-archiver|Archiver]]
 
+### Themes
+- [[Terminal]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -41,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @ivan-lednev on GitHub Sponsors](https://github.com/sponsors/ivan-lednev) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @zcysxy on GitHub Sponsors](https://github.com/sponsors/zcysxy) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
