@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-task-archiver
 aliases:
-- Obsidian Task Archiver
+- Archiver
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Obsidian Task Archiver
+# Archiver
 
 Plugin ID: `obsidian-task-archiver`
 Links: [GitHub repository](https://github.com/ivan-lednev/obsidian-task-archiver) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-task-archiver)
