@@ -96,7 +96,27 @@ class MocMaker:
         return result
 
     def update_existing_moc(self, initial_content, new_moc_content_with_delimiters):
-        return update_existing_moc(initial_content, new_moc_content_with_delimiters)
+        inside_old_index = False
+        index_written = False
+        result = ''
+        for line in initial_content:
+
+            if line == MocDelimiter().initial_delimiter():
+                inside_old_index = True
+                result += new_moc_content_with_delimiters
+                index_written = True
+                continue
+
+            if line == MocDelimiter().final_delimiter():
+                inside_old_index = False
+                continue
+
+            if not inside_old_index:
+                result += line
+        if not index_written:
+            result += new_moc_content_with_delimiters
+
+        return result
 
     def make_line_for_file(self, directory, file):
         link_name, extension = os.path.splitext(file)
@@ -169,30 +189,6 @@ class MocFileNamer:
     def moc_file_path_for_directory(self, root):
         moc_file_basename = self.moc_file_name_for_directory(root)
         return os.path.join(root, moc_file_basename)
-
-
-def update_existing_moc(initial_content, new_moc_content_with_delimiters):
-    inside_old_index = False
-    index_written = False
-    result = ''
-    for line in initial_content:
-
-        if line == MocDelimiter().initial_delimiter():
-            inside_old_index = True
-            result += new_moc_content_with_delimiters
-            index_written = True
-            continue
-
-        if line == MocDelimiter().final_delimiter():
-            inside_old_index = False
-            continue
-
-        if not inside_old_index:
-            result += line
-    if not index_written:
-        result += new_moc_content_with_delimiters
-
-    return result
 
 
 class MocDelimiter:
