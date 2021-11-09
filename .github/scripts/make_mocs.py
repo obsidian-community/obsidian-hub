@@ -61,10 +61,13 @@ class MocMaker:
     def make_moc_for_sub_directories(self, directory, sub_directories):
         return make_moc_for_sub_directories(directory, sub_directories)
 
+    def make_moc_for_directory(self, root, dirs, files):
+        return make_moc_for_directory(root, dirs, files)
+
     def make_moc_for_directory_with_delimiters(self, root, dirs, files):
         result = ''
         result += moc_initial_delimiter()
-        result += make_moc_for_directory(root, dirs, files)
+        result += self.make_moc_for_directory(root, dirs, files)
         result += moc_final_delimiter()
         return result
 
