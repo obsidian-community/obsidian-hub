@@ -54,8 +54,7 @@ class DirectoryMoc:
 
 
 class MocMaker:
-    @staticmethod
-    def make_moc_for_files(directory, files):
+    def make_moc_for_files(self, directory, files):
         return make_moc_for_files(directory, files)
 
 
