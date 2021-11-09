@@ -7,15 +7,20 @@ from make_mocs import filter_directories, moc_file_path_for_directory, moc_base_
 from utils import get_template
 
 
-def process_all_directories(args):
-    # For now, the path to the vault is hard-coded, as there is some code
-    # in make_mocs.py that the root of the vault is in a parent of the
-    # directory containing this script.
-    directory = '../..'
-    for root, dirs, files in os.walk(directory):
-        filter_directories(dirs)
-        dirs.sort()
-        process_directory(root, dirs, files)
+class VaultMoc:
+    """
+    Top-level class, to manage MOCs for all the directories in an entire vault.
+
+    For now, the path to the vault is hard-coded, as there is some code
+    in make_mocs.py that the root of the vault is in a parent of the
+    directory containing this script.
+    """
+    def update_all_mocs(self, args):
+        directory = '../..'
+        for root, dirs, files in os.walk(directory):
+            filter_directories(dirs)
+            dirs.sort()
+            process_directory(root, dirs, files)
 
 
 def process_directory(root, dirs, files):
@@ -50,7 +55,8 @@ def main(argv=sys.argv[1:]):
 
     args = parser.parse_args(argv)
 
-    process_all_directories(args)
+    vault_moc = VaultMoc()
+    vault_moc.update_all_mocs(args)
 
 
 if __name__ == "__main__":
