@@ -34,9 +34,6 @@ class DirectoryMoc:
         self.files = files
 
     def generate_moc(self, root, dirs, files):
-        self.process_directory(root, dirs, files)
-
-    def process_directory(self, root, dirs, files):
         new_moc_content_with_delimiters = make_moc_for_directory_with_delimiters(root, dirs, files)
         if os.path.exists(self.moc_file_path):
             self.rewrite_existing_moc_file(new_moc_content_with_delimiters)
