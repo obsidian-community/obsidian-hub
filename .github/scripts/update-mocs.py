@@ -21,7 +21,7 @@ class VaultMoc:
             filter_directories(dirs)
             dirs.sort()
             directory_moc = DirectoryMoc(root, dirs, files)
-            directory_moc.generate_moc(root, dirs, files)
+            directory_moc.generate_moc()
 
 
 class DirectoryMoc:
@@ -33,8 +33,8 @@ class DirectoryMoc:
         self.dirs = dirs
         self.files = files
 
-    def generate_moc(self, root, dirs, files):
-        new_moc_content_with_delimiters = make_moc_for_directory_with_delimiters(root, dirs, files)
+    def generate_moc(self):
+        new_moc_content_with_delimiters = make_moc_for_directory_with_delimiters(self.root, self.dirs, self.files)
         if os.path.exists(self.moc_file_path):
             self.rewrite_existing_moc_file(new_moc_content_with_delimiters)
         else:
