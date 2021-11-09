@@ -2,8 +2,6 @@ import os.path
 
 from utils import get_template
 
-DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv']  # Directories beginning '.' are also excluded
-
 
 class VaultMoc:
     """
@@ -129,11 +127,14 @@ class MocMaker:
 
 class MocFileAndDirectoryFilter:
     """Various filtering functions, to determine what is included in the generated MOC"""
+    
+    def __init__(self):
+        self.DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv']  # Directories beginning '.' are also excluded
 
     def include_directory_in_moc(self, directory):
         if directory[0] == '.':
             return False
-        return directory not in DIRECTORIES_TO_EXCLUDE
+        return directory not in self.DIRECTORIES_TO_EXCLUDE
 
     def include_file_in_moc(self, directory, file):
         if self.file_is_moc_for_directory(directory, file):
