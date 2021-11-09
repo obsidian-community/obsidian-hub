@@ -68,7 +68,8 @@ def test_output_for_files():
 def test_output_for_sub_directories():
     directory = '01 - Community'
     sub_directories = ['Authors - Persons', 'Events', 'Obsidian Roundup', 'Video Channels']
-    result = make_mocs.make_moc_for_sub_directories(directory, sub_directories)
+    moc_maker = make_mocs.MocMaker()
+    result = moc_maker.make_moc_for_sub_directories(directory, sub_directories)
     verify(result, options=make_default_reporter())
 
 
