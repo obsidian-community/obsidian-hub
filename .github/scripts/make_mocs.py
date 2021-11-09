@@ -60,7 +60,7 @@ class MocMaker:
         for file in files:
             if not include_file_in_moc(directory, file):
                 continue
-            output += make_line_for_file(directory, file)
+            output += self.make_line_for_file(directory, file)
         return output
 
     def make_moc_for_sub_directories(self, directory, sub_directories):
@@ -94,12 +94,11 @@ class MocMaker:
     def update_existing_moc(self, initial_content, new_moc_content_with_delimiters):
         return update_existing_moc(initial_content, new_moc_content_with_delimiters)
 
-
-def make_line_for_file(directory, file):
-    link_name, extension = os.path.splitext(file)
-    if extension != '.md':
-        link_name += extension
-    return make_link_line(directory, link_name)
+    def make_line_for_file(self, directory, file):
+        link_name, extension = os.path.splitext(file)
+        if extension != '.md':
+            link_name += extension
+        return make_link_line(directory, link_name)
 
 
 def strip_parent_directories_from_directory(directory):
