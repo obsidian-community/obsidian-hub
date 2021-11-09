@@ -20,12 +20,17 @@ class VaultMoc:
         for root, dirs, files in os.walk(directory):
             filter_directories(dirs)
             dirs.sort()
-            directory_moc = DirectoryMoc()
+            directory_moc = DirectoryMoc(root, dirs, files)
             directory_moc.generate_moc(root, dirs, files)
 
 
 class DirectoryMoc:
     """Class to manage the MOC for a single directory"""
+    
+    def __init__(self, root, dirs, files):
+        self.root = root
+        self.dirs = dirs
+        self.files = files
 
     def generate_moc(self, root, dirs, files):
         self.process_directory(root, dirs, files)
