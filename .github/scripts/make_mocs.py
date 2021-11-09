@@ -164,14 +164,6 @@ def make_line_for_sub_directory(directory, sub_directory):
     return make_link_line(path, file)
 
 
-def make_moc_for_directory_with_delimiters(root, dirs, files):
-    result = ''
-    result += moc_initial_delimiter()
-    result += make_moc_for_directory(root, dirs, files)
-    result += moc_final_delimiter()
-    return result
-
-
 def make_moc_for_directory(root, dirs, files):
     result = ''
 
