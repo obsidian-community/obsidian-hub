@@ -16,8 +16,9 @@ class VaultMoc:
 
     def update_all_mocs(self, args):
         directory = '../..'
+        moc_filter = MocFileAndDirectoryFilter()
         for root, dirs, files in os.walk(directory):
-            filter_directories(dirs)
+            moc_filter.filter_directories(dirs)
             dirs.sort()
             directory_moc = DirectoryMoc(root, dirs, files)
             directory_moc.generate_moc()
@@ -57,16 +58,18 @@ class DirectoryMoc:
 class MocMaker:
     def make_moc_for_files(self, directory, files):
         output = ''
+        moc_filter = MocFileAndDirectoryFilter()
         for file in files:
-            if not include_file_in_moc(directory, file):
+            if not moc_filter.include_file_in_moc(directory, file):
                 continue
             output += self.make_line_for_file(directory, file)
         return output
 
     def make_moc_for_sub_directories(self, directory, sub_directories):
         output = ''
+        moc_filter = MocFileAndDirectoryFilter()
         for sub_directory in sub_directories:
-            if not include_directory_in_moc(sub_directory):
+            if not moc_filter.include_directory_in_moc(sub_directory):
                 continue
             output += self.make_line_for_sub_directory(directory, sub_directory)
         return output
@@ -121,24 +124,24 @@ class MocMaker:
         return result
 
 
-def include_directory_in_moc(directory):
-    if directory[0] == '.':
-        return False
-    return directory not in DIRECTORIES_TO_EXCLUDE
+class MocFileAndDirectoryFilter:
+    """Various filtering functions, to determine what is included in the generated MOC"""
 
+    def include_directory_in_moc(self, directory):
+        if directory[0] == '.':
+            return False
+        return directory not in DIRECTORIES_TO_EXCLUDE
 
-def include_file_in_moc(directory, file):
-    if file_is_moc_for_directory(directory, file):
-        return False
-    return file[0] != '.'
+    def include_file_in_moc(self, directory, file):
+        if self.file_is_moc_for_directory(directory, file):
+            return False
+        return file[0] != '.'
 
+    def file_is_moc_for_directory(self, directory, file):
+        return file == moc_file_name_for_directory(directory)
 
-def file_is_moc_for_directory(directory, file):
-    return file == moc_file_name_for_directory(directory)
-
-
-def filter_directories(dirs):
-    dirs[:] = [d for d in dirs if include_directory_in_moc(d)]
+    def filter_directories(self, dirs):
+        dirs[:] = [d for d in dirs if self.include_directory_in_moc(d)]
 
 
 def moc_name_for_sub_directory(sub_directory):
