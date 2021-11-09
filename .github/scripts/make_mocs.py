@@ -5,6 +5,24 @@ from utils import get_template
 DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv']  # Directories beginning '.' are also excluded
 
 
+class VaultMoc:
+    """
+    Top-level class, to manage MOCs for all the directories in an entire vault.
+
+    For now, the path to the vault is hard-coded, as there is some code
+    in make_mocs.py that knows that the root of the vault is in a parent of the
+    directory containing this script.
+    """
+
+    def update_all_mocs(self, args):
+        directory = '../..'
+        for root, dirs, files in os.walk(directory):
+            filter_directories(dirs)
+            dirs.sort()
+            directory_moc = DirectoryMoc(root, dirs, files)
+            directory_moc.generate_moc()
+
+
 class DirectoryMoc:
     """Class to manage the MOC for a single directory"""
 
