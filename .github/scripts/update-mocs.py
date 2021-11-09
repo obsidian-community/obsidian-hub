@@ -15,6 +15,7 @@ class VaultMoc:
     in make_mocs.py that knows that the root of the vault is in a parent of the
     directory containing this script.
     """
+
     def update_all_mocs(self, args):
         directory = '../..'
         for root, dirs, files in os.walk(directory):
@@ -26,7 +27,7 @@ class VaultMoc:
 
 class DirectoryMoc:
     """Class to manage the MOC for a single directory"""
-    
+
     def __init__(self, root, dirs, files):
         self.root = root
         self.moc_file_path = moc_file_path_for_directory(root)
