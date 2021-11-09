@@ -29,6 +29,7 @@ class DirectoryMoc:
     
     def __init__(self, root, dirs, files):
         self.root = root
+        self.moc_file_path = moc_file_path_for_directory(root)
         self.dirs = dirs
         self.files = files
 
@@ -36,24 +37,23 @@ class DirectoryMoc:
         self.process_directory(root, dirs, files)
 
     def process_directory(self, root, dirs, files):
-        moc_file_path = moc_file_path_for_directory(root)
         new_moc_content_with_delimiters = make_moc_for_directory_with_delimiters(root, dirs, files)
-        if os.path.exists(moc_file_path):
-            self.rewrite_existing_moc_file(moc_file_path, new_moc_content_with_delimiters)
+        if os.path.exists(self.moc_file_path):
+            self.rewrite_existing_moc_file(new_moc_content_with_delimiters)
         else:
-            self.write_new_moc_file(moc_file_path, new_moc_content_with_delimiters)
+            self.write_new_moc_file(new_moc_content_with_delimiters)
 
-    def rewrite_existing_moc_file(self, moc_file_path, new_moc_content_with_delimiters):
-        with open(moc_file_path, 'r') as input:
+    def rewrite_existing_moc_file(self, new_moc_content_with_delimiters):
+        with open(self.moc_file_path, 'r') as input:
             initial_content = input.readlines()
-        with open(moc_file_path, 'w') as output:
+        with open(self.moc_file_path, 'w') as output:
             output.write(update_existing_moc(initial_content, new_moc_content_with_delimiters))
 
-    def write_new_moc_file(self, moc_file_path, new_moc_content_with_delimiters):
+    def write_new_moc_file(self, new_moc_content_with_delimiters):
         template = get_template("directory_moc")
         moc_base_name = moc_base_name_for_directory(self.root)
         new_content = template.render(title=moc_base_name, list_of_files_and_dirs=new_moc_content_with_delimiters)
-        with open(moc_file_path, 'w') as output:
+        with open(self.moc_file_path, 'w') as output:
             output.write(new_content)
 
 
