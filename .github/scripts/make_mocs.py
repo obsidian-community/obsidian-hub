@@ -34,7 +34,8 @@ class DirectoryMoc:
 
     def generate_moc(self):
         moc_maker = MocMaker()
-        new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters(self.root, self.dirs, self.files)
+        new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters(self.root, self.dirs,
+                                                                                           self.files)
         if os.path.exists(self.moc_file_path):
             self.rewrite_existing_moc_file(new_moc_content_with_delimiters)
         else:
@@ -148,7 +149,7 @@ class MocMaker:
 
 class MocFileAndDirectoryFilter:
     """Various filtering functions, to determine what is included in the generated MOC"""
-    
+
     def __init__(self):
         self.DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv']  # Directories beginning '.' are also excluded
 
