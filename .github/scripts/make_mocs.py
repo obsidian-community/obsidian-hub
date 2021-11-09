@@ -98,29 +98,27 @@ class MocMaker:
         link_name, extension = os.path.splitext(file)
         if extension != '.md':
             link_name += extension
-        return make_link_line(directory, link_name)
+        return self.make_link_line(directory, link_name)
 
     def make_line_for_sub_directory(self, directory, sub_directory):
         path = directory + '/' + sub_directory
         file = moc_name_for_sub_directory(sub_directory)
-        return make_link_line(path, file)
+        return self.make_link_line(path, file)
 
+    def strip_parent_directories_from_directory(self, directory):
+        # Ugly hack because all directory names start with '../../'
+        result = directory.replace('../', '')
+        if result == '..':  # Even more horrible hack for files in root of repo
+            result = ''
+        return result
 
-def strip_parent_directories_from_directory(directory):
-    # Ugly hack because all directory names start with '../../'
-    result = directory.replace('../', '')
-    if result == '..':  # Even more horrible hack for files in root of repo
-        result = ''
-    return result
-
-
-def make_link_line(directory, link_name):
-    adjusted_directory = strip_parent_directories_from_directory(directory)
-    if len(adjusted_directory) > 0:
-        adjusted_directory += '/'
-    result = f'-  [[{adjusted_directory}{link_name}|{link_name}]]\n'
-    # print(f'directory={directory}\nadjusted_directory={adjusted_directory}\nlink_name={link_name}\n=> {result}')
-    return result
+    def make_link_line(self, directory, link_name):
+        adjusted_directory = self.strip_parent_directories_from_directory(directory)
+        if len(adjusted_directory) > 0:
+            adjusted_directory += '/'
+        result = f'-  [[{adjusted_directory}{link_name}|{link_name}]]\n'
+        # print(f'directory={directory}\nadjusted_directory={adjusted_directory}\nlink_name={link_name}\n=> {result}')
+        return result
 
 
 def include_directory_in_moc(directory):
