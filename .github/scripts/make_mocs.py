@@ -27,8 +27,8 @@ class DirectoryMoc:
 
     def __init__(self, root, dirs, files):
         self.root = root
-        namer = MocFileNamer()
-        self.moc_file_path = namer.moc_file_path_for_directory(root)
+        self.namer = MocFileNamer()
+        self.moc_file_path = self.namer.moc_file_path_for_directory(root)
         self.dirs = dirs
         self.files = files
 
@@ -60,8 +60,7 @@ class DirectoryMoc:
 
     def write_new_moc_file(self, new_moc_content_with_delimiters):
         template = get_template("directory_moc")
-        namer = MocFileNamer()
-        moc_base_name = namer.moc_base_name_for_directory(self.root)
+        moc_base_name = self.namer.moc_base_name_for_directory(self.root)
         new_content = template.render(title=moc_base_name, list_of_files_and_dirs=new_moc_content_with_delimiters)
         with open(self.moc_file_path, 'w') as output:
             output.write(new_content)
