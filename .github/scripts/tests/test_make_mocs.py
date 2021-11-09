@@ -74,7 +74,8 @@ def test_output_for_sub_directories():
 
 
 def test_moc_for_empty_directory():
-    result = make_mocs.make_moc_for_directory_with_delimiters('../..', [], [])
+    moc_maker = make_mocs.MocMaker()
+    result = moc_maker.make_moc_for_directory_with_delimiters('../..', [], [])
     verify(result, options=make_default_reporter())
 
 
