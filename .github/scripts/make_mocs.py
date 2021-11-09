@@ -53,6 +53,12 @@ class DirectoryMoc:
             output.write(new_content)
 
 
+class MocMaker:
+    @staticmethod
+    def make_moc_for_files(directory, files):
+        return make_moc_for_files(directory, files)
+
+
 def make_moc_for_files(directory, files):
     output = ''
     for file in files:
