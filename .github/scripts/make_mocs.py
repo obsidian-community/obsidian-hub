@@ -44,7 +44,8 @@ class DirectoryMoc:
         with open(self.moc_file_path, 'r') as input:
             initial_content = input.readlines()
         with open(self.moc_file_path, 'w') as output:
-            output.write(update_existing_moc(initial_content, new_moc_content_with_delimiters))
+            moc_maker = MocMaker()
+            output.write(moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters))
 
     def write_new_moc_file(self, new_moc_content_with_delimiters):
         template = get_template("directory_moc")
