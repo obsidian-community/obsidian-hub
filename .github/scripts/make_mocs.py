@@ -29,7 +29,8 @@ class DirectoryMoc:
 
     def __init__(self, root, dirs, files):
         self.root = root
-        self.moc_file_path = moc_file_path_for_directory(root)
+        namer = MocFileNamer()
+        self.moc_file_path = namer.moc_file_path_for_directory(root)
         self.dirs = dirs
         self.files = files
 
@@ -49,7 +50,8 @@ class DirectoryMoc:
 
     def write_new_moc_file(self, new_moc_content_with_delimiters):
         template = get_template("directory_moc")
-        moc_base_name = moc_base_name_for_directory(self.root)
+        namer = MocFileNamer()
+        moc_base_name = namer.moc_base_name_for_directory(self.root)
         new_content = template.render(title=moc_base_name, list_of_files_and_dirs=new_moc_content_with_delimiters)
         with open(self.moc_file_path, 'w') as output:
             output.write(new_content)
@@ -105,7 +107,8 @@ class MocMaker:
 
     def make_line_for_sub_directory(self, directory, sub_directory):
         path = directory + '/' + sub_directory
-        file = moc_name_for_sub_directory(sub_directory)
+        namer = MocFileNamer()
+        file = namer.moc_name_for_sub_directory(sub_directory)
         return self.make_link_line(path, file)
 
     def strip_parent_directories_from_directory(self, directory):
@@ -138,31 +141,32 @@ class MocFileAndDirectoryFilter:
         return file[0] != '.'
 
     def file_is_moc_for_directory(self, directory, file):
-        return file == moc_file_name_for_directory(directory)
+        namer = MocFileNamer()
+        return file == namer.moc_file_name_for_directory(directory)
 
     def filter_directories(self, dirs):
         dirs[:] = [d for d in dirs if self.include_directory_in_moc(d)]
 
 
-def moc_name_for_sub_directory(sub_directory):
-    name = sub_directory
-    if name == '..':
-        name = 'hub'
-    return '🗂️ ' + name
+class MocFileNamer:
+    """Various naming functions, to determine the name and location of MOC files"""
 
+    def moc_name_for_sub_directory(self, sub_directory):
+        name = sub_directory
+        if name == '..':
+            name = 'hub'
+        return '🗂️ ' + name
 
-def moc_base_name_for_directory(root):
-    directory_name = os.path.basename(root)
-    return moc_name_for_sub_directory(directory_name)
+    def moc_base_name_for_directory(self, root):
+        directory_name = os.path.basename(root)
+        return self.moc_name_for_sub_directory(directory_name)
 
+    def moc_file_name_for_directory(self, root):
+        return self.moc_base_name_for_directory(root) + ".md"
 
-def moc_file_name_for_directory(root):
-    return moc_base_name_for_directory(root) + ".md"
-
-
-def moc_file_path_for_directory(root):
-    moc_file_basename = moc_file_name_for_directory(root)
-    return os.path.join(root, moc_file_basename)
+    def moc_file_path_for_directory(self, root):
+        moc_file_basename = self.moc_file_name_for_directory(root)
+        return os.path.join(root, moc_file_basename)
 
 
 def update_existing_moc(initial_content, new_moc_content_with_delimiters):

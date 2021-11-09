@@ -52,9 +52,10 @@ def make_default_reporter():
 
 def test_moc_name_for_directory():
     alist = ['..', 'Events']
+    namer = make_mocs.MocFileNamer()
     verify_all(
         "base-name of moc in directory", alist,
-        lambda x: "{0} => {1}".format(x, make_mocs.moc_name_for_sub_directory(x)), options=make_default_reporter())
+        lambda x: "{0} => {1}".format(x, namer.moc_name_for_sub_directory(x)), options=make_default_reporter())
 
 
 def test_output_for_files():
