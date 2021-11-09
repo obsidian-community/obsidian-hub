@@ -23,7 +23,7 @@ class VaultMoc:
 
 
 class DirectoryMoc:
-    """Class to manage the MOC for a single directory"""
+    """Class to write the MOC for a single directory"""
 
     def __init__(self, root, dirs, files):
         self.root = root
@@ -67,6 +67,11 @@ class DirectoryMoc:
 
 
 class MocMaker:
+    """
+    Class that generates the content of a MOC file
+    
+    That is, it generates a Markdown list of links to files and directories
+    """
     def make_moc_for_files(self, directory, files):
         output = ''
         moc_filter = MocFileAndDirectoryFilter()
