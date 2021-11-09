@@ -59,7 +59,12 @@ class MocMaker:
         return make_moc_for_files(directory, files)
 
     def make_moc_for_sub_directories(self, directory, sub_directories):
-        return make_moc_for_sub_directories(directory, sub_directories)
+        output = ''
+        for sub_directory in sub_directories:
+            if not include_directory_in_moc(sub_directory):
+                continue
+            output += make_line_for_sub_directory(directory, sub_directory)
+        return output
 
     def make_moc_for_directory(self, root, dirs, files):
         result = ''
@@ -136,15 +141,6 @@ def file_is_moc_for_directory(directory, file):
 
 def filter_directories(dirs):
     dirs[:] = [d for d in dirs if include_directory_in_moc(d)]
-
-
-def make_moc_for_sub_directories(directory, sub_directories):
-    output = ''
-    for sub_directory in sub_directories:
-        if not include_directory_in_moc(sub_directory):
-            continue
-        output += make_line_for_sub_directory(directory, sub_directory)
-    return output
 
 
 def moc_name_for_sub_directory(sub_directory):
