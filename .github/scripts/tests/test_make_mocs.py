@@ -104,7 +104,8 @@ def test_moc_for_root_directory():
         'publish.css',
         '🗂️ hub.md',
     ]
-    result = make_mocs.make_moc_for_directory_with_delimiters('../..', directories, files)
+    moc_maker = make_mocs.MocMaker()
+    result = moc_maker.make_moc_for_directory_with_delimiters('../..', directories, files)
     verify(result, options=make_default_reporter())
 
 
@@ -122,7 +123,8 @@ def test_updating_existing_moc():
         'File 1.md',
         'File 2.md',
     ]
-    new_moc_content_with_delimiters = make_mocs.make_moc_for_directory_with_delimiters('test', directories, files)
+    moc_maker = make_mocs.MocMaker()
+    new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters('test', directories, files)
 
     result = make_mocs.update_existing_moc(initial_content, new_moc_content_with_delimiters)
     verify(result, options=make_default_reporter())
