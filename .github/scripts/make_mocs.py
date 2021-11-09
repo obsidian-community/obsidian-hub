@@ -65,10 +65,10 @@ class MocMaker:
         result = ''
 
         sorted_dirs = sorted(dirs, key=str.casefold)
-        result += make_moc_for_sub_directories(root, sorted_dirs)
+        result += self.make_moc_for_sub_directories(root, sorted_dirs)
 
         sorted_files = sorted(files, key=str.casefold)
-        result += make_moc_for_files(root, sorted_files)
+        result += self.make_moc_for_files(root, sorted_files)
 
         if not result:
             result = '\n'
