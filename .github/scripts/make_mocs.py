@@ -56,7 +56,12 @@ class DirectoryMoc:
 
 class MocMaker:
     def make_moc_for_files(self, directory, files):
-        return make_moc_for_files(directory, files)
+        output = ''
+        for file in files:
+            if not include_file_in_moc(directory, file):
+                continue
+            output += make_line_for_file(directory, file)
+        return output
 
     def make_moc_for_sub_directories(self, directory, sub_directories):
         output = ''
@@ -88,15 +93,6 @@ class MocMaker:
 
     def update_existing_moc(self, initial_content, new_moc_content_with_delimiters):
         return update_existing_moc(initial_content, new_moc_content_with_delimiters)
-
-
-def make_moc_for_files(directory, files):
-    output = ''
-    for file in files:
-        if not include_file_in_moc(directory, file):
-            continue
-        output += make_line_for_file(directory, file)
-    return output
 
 
 def make_line_for_file(directory, file):
