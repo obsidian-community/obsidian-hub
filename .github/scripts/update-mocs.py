@@ -28,31 +28,28 @@ class DirectoryMoc:
     """Class to manage the MOC for a single directory"""
 
     def generate_moc(self, root, dirs, files):
-        process_directory(root, dirs, files)
+        self.process_directory(root, dirs, files)
 
+    def process_directory(self, root, dirs, files):
+        moc_file_path = moc_file_path_for_directory(root)
+        new_moc_content_with_delimiters = make_moc_for_directory_with_delimiters(root, dirs, files)
+        if os.path.exists(moc_file_path):
+            self.rewrite_existing_moc_file(moc_file_path, new_moc_content_with_delimiters)
+        else:
+            self.write_new_moc_file(root, moc_file_path, new_moc_content_with_delimiters)
 
-def process_directory(root, dirs, files):
-    moc_file_path = moc_file_path_for_directory(root)
-    new_moc_content_with_delimiters = make_moc_for_directory_with_delimiters(root, dirs, files)
-    if os.path.exists(moc_file_path):
-        rewrite_existing_moc_file(moc_file_path, new_moc_content_with_delimiters)
-    else:
-        write_new_moc_file(root, moc_file_path, new_moc_content_with_delimiters)
+    def rewrite_existing_moc_file(self, moc_file_path, new_moc_content_with_delimiters):
+        with open(moc_file_path, 'r') as input:
+            initial_content = input.readlines()
+        with open(moc_file_path, 'w') as output:
+            output.write(update_existing_moc(initial_content, new_moc_content_with_delimiters))
 
-
-def rewrite_existing_moc_file(moc_file_path, new_moc_content_with_delimiters):
-    with open(moc_file_path, 'r') as input:
-        initial_content = input.readlines()
-    with open(moc_file_path, 'w') as output:
-        output.write(update_existing_moc(initial_content, new_moc_content_with_delimiters))
-
-
-def write_new_moc_file(root, moc_file_path, new_moc_content_with_delimiters):
-    template = get_template("directory_moc")
-    moc_base_name = moc_base_name_for_directory(root)
-    new_content = template.render(title=moc_base_name, list_of_files_and_dirs=new_moc_content_with_delimiters)
-    with open(moc_file_path, 'w') as output:
-        output.write(new_content)
+    def write_new_moc_file(self, root, moc_file_path, new_moc_content_with_delimiters):
+        template = get_template("directory_moc")
+        moc_base_name = moc_base_name_for_directory(root)
+        new_content = template.render(title=moc_base_name, list_of_files_and_dirs=new_moc_content_with_delimiters)
+        with open(moc_file_path, 'w') as output:
+            output.write(new_content)
 
 
 def main(argv=sys.argv[1:]):
