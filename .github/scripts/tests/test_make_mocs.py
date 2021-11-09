@@ -126,5 +126,5 @@ def test_updating_existing_moc():
     moc_maker = make_mocs.MocMaker()
     new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters('test', directories, files)
 
-    result = make_mocs.update_existing_moc(initial_content, new_moc_content_with_delimiters)
+    result = moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters)
     verify(result, options=make_default_reporter())
