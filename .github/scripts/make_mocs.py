@@ -62,7 +62,17 @@ class MocMaker:
         return make_moc_for_sub_directories(directory, sub_directories)
 
     def make_moc_for_directory(self, root, dirs, files):
-        return make_moc_for_directory(root, dirs, files)
+        result = ''
+
+        sorted_dirs = sorted(dirs, key=str.casefold)
+        result += make_moc_for_sub_directories(root, sorted_dirs)
+
+        sorted_files = sorted(files, key=str.casefold)
+        result += make_moc_for_files(root, sorted_files)
+
+        if not result:
+            result = '\n'
+        return result
 
     def make_moc_for_directory_with_delimiters(self, root, dirs, files):
         result = ''
@@ -162,20 +172,6 @@ def make_line_for_sub_directory(directory, sub_directory):
     path = directory + '/' + sub_directory
     file = moc_name_for_sub_directory(sub_directory)
     return make_link_line(path, file)
-
-
-def make_moc_for_directory(root, dirs, files):
-    result = ''
-
-    sorted_dirs = sorted(dirs, key=str.casefold)
-    result += make_moc_for_sub_directories(root, sorted_dirs)
-
-    sorted_files = sorted(files, key=str.casefold)
-    result += make_moc_for_files(root, sorted_files)
-
-    if not result:
-        result = '\n'
-    return result
 
 
 def update_existing_moc(initial_content, new_moc_content_with_delimiters):
