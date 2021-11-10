@@ -37,6 +37,12 @@ from approvaltests.reporters import GenericDiffReporterFactory
 import make_mocs
 
 
+def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
+    moc_maker = make_mocs.MocMaker()
+    result = moc_maker.make_moc_for_directory_with_delimiters(directory, sub_directories, files)
+    verify(result, options=approval_test_options())
+
+
 def approval_test_options():
     options = Options().for_file.with_extension(".md")
 
@@ -73,9 +79,8 @@ def test_output_for_files():
 def test_output_for_sub_directories():
     directory = '01 - Community'
     sub_directories = ['Authors - Persons', 'Events', 'Obsidian Roundup', 'Video Channels']
-    moc_maker = make_mocs.MocMaker()
-    result = moc_maker.make_moc_for_directory_with_delimiters(directory, sub_directories, [])
-    verify(result, options=approval_test_options())
+    files = []
+    verify_moc_for_directory_with_delimiters(directory, sub_directories, files)
 
 
 def test_moc_for_empty_directory():
