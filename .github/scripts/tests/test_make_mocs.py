@@ -71,25 +71,24 @@ def test_moc_name_for_directory():
 def test_output_for_files():
     directory = '01 - Topic 1/01.02 Subtopic'
     files = ['README.md', 'publish.css', 'logo.svg', 'File 1.md', 'File 2.md']
-    moc_maker = make_mocs.MocMaker()
-    result = moc_maker.make_moc_for_directory_with_delimiters(directory, [], files)
-    verify(result, options=approval_test_options())
+
+    verify_moc_for_directory_with_delimiters(directory, [], files)
 
 
 def test_output_for_sub_directories():
     directory = '01 - Community'
     sub_directories = ['Authors - Persons', 'Events', 'Obsidian Roundup', 'Video Channels']
     files = []
+
     verify_moc_for_directory_with_delimiters(directory, sub_directories, files)
 
 
 def test_moc_for_empty_directory():
-    moc_maker = make_mocs.MocMaker()
-    result = moc_maker.make_moc_for_directory_with_delimiters('../..', [], [])
-    verify(result, options=approval_test_options())
+    verify_moc_for_directory_with_delimiters('../..', [], [])
 
 
 def test_moc_for_root_directory():
+    directory = '../..'
     directories = [
         '.git',
         '.github',
@@ -114,10 +113,8 @@ def test_moc_for_root_directory():
         'publish.css',
         '🗂️ hub.md',
     ]
-    moc_maker = make_mocs.MocMaker()
-    result = moc_maker.make_moc_for_directory_with_delimiters('../..', directories, files)
-    verify(result, options=approval_test_options())
 
+    verify_moc_for_directory_with_delimiters(directory, directories, files)
 
 def test_updating_existing_moc():
     input_dir = os.path.dirname(os.path.abspath(__file__))
