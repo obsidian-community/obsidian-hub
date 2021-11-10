@@ -102,27 +102,25 @@ def test_moc_for_empty_directory():
 def test_moc_for_root_directory():
     directory = '../..'
     directories = [
-        '.git',
-        '.github',
-        '.idea',
-        '.obsidian',
-        '00 - Contribute to the Obsidian Hub',
-        '01 - Community',
-        '02 - Community Expansions',
-        '03 - Showcases & Templates',
-        '04 - Guides, Workflows, & Courses',
-        '05 - Concepts',
-        '06 - Inbox',
+        # Directories that should not be included
+        '.this_hidden_directory_should_not_be_included_in_file_list',
+        # Check the directory names are sorted
+        '02 - This directory should be listed after directory 01 ...',
+        '01 - This directory should be listed before directory 02...',
+        '03 - There should not be a directory called "venv" in the output',
+        # venv
         'venv',
     ]
     files = [
-        '.DS_Store',
-        '.gitignore',
-        '00 - Start here.md',
-        'CONTRIBUTING.md',
-        'README.md',
-        'logo.svg',
-        'publish.css',
+        '.this_hidden_file_should_not_be_included_in_file_list',
+        '01 - all files should be listed after all folders',
+        '03 - This file should be listed after file 02 ...',
+        '02 - This file should be listed before file 03...',
+        'ZZ - This file should be listed after file YY ...',
+        'YY - This file should be listed before file ZZ...',
+        'svg-files-are-currently-included.svg',
+        'css-files-are-currently-included.css',
+        '00 - there should be a link to a file called 🗂️ hub',
         '🗂️ hub.md',
     ]
 
