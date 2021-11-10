@@ -39,7 +39,7 @@ import make_mocs
 
 def make_default_reporter():
     # Don't customise the diff-tool
-    return Options().for_file.with_extension(".md")
+    options = Options().for_file.with_extension(".md")
 
     # Remainder here is specific to Clare's machine
     #
@@ -47,7 +47,9 @@ def make_default_reporter():
     #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
     #
     # diff_tool = "AraxisMergeMac"
-    # return Options().with_reporter(GenericDiffReporterFactory().get(diff_tool))
+    # options = options.with_reporter(GenericDiffReporterFactory().get(diff_tool))
+
+    return options
 
 
 def test_moc_name_for_directory():
