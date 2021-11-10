@@ -23,9 +23,16 @@ class VaultMoc:
 
 
 class DirectoryMoc:
-    """Class to write the MOC for a single directory"""
+    """Class to create or update the MOC file for a single directory"""
 
     def __init__(self, root, dirs, files):
+        """
+        
+        :param root: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
+        :param sub_directories: List of names of sub-directories in directory
+        :param files: List of names of files in directory
+        :return: None
+        """
         self.root = root
         self.namer = MocFileNamer()
         self.moc_file_path = self.namer.moc_file_path_for_directory(root)
