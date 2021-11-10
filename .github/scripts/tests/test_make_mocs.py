@@ -120,7 +120,7 @@ def test_moc_for_root_directory():
         'YY - This file should be listed before file ZZ...',
         'svg-files-are-currently-included.svg',
         'css-files-are-currently-included.css',
-        '00 - there should be a link to a file called 🗂️ hub',
+        '00 - there should not be a link to a file called 🗂️ hub',
         '🗂️ hub.md',
     ]
 

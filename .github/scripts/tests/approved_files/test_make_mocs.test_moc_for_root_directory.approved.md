@@ -2,7 +2,7 @@
 -  [[01 - This directory should be listed before directory 02.../🗂️ 01 - This directory should be listed before directory 02...|🗂️ 01 - This directory should be listed before directory 02...]]
 -  [[02 - This directory should be listed after directory 01 .../🗂️ 02 - This directory should be listed after directory 01 ...|🗂️ 02 - This directory should be listed after directory 01 ...]]
 -  [[03 - There should not be a directory called "venv" in the output/🗂️ 03 - There should not be a directory called "venv" in the output|🗂️ 03 - There should not be a directory called "venv" in the output]]
--  [[00 - there should be a link to a file called 🗂️ hub|00 - there should be a link to a file called 🗂️ hub]]
+-  [[00 - there should not be a link to a file called 🗂️ hub|00 - there should not be a link to a file called 🗂️ hub]]
 -  [[01 - all files should be listed after all folders|01 - all files should be listed after all folders]]
 -  [[02 - This file should be listed before file 03...|02 - This file should be listed before file 03...]]
 -  [[03 - This file should be listed after file 02 ...|03 - This file should be listed after file 02 ...]]
