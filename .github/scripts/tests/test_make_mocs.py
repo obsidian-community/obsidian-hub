@@ -45,8 +45,9 @@ def approval_test_options():
     # The supported tool names are listed in:
     #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
     #
-    # diff_tool = "AraxisMergeMac"
-    # options = options.with_reporter(GenericDiffReporterFactory().get(diff_tool))
+    # diff_tool_name = "AraxisMergeMac"
+    # diff_tool = GenericDiffReporterFactory().get(diff_tool_name)
+    # options = options.with_reporter(diff_tool)
 
     return options
 
