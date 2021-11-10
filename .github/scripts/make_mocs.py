@@ -25,17 +25,17 @@ class VaultMoc:
 class DirectoryMoc:
     """Class to create or update the MOC file for a single directory"""
 
-    def __init__(self, root, dirs, files):
+    def __init__(self, directory, dirs, files):
         """
         
-        :param root: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
+        :param directory: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
         :param sub_directories: List of names of sub-directories in directory
         :param files: List of names of files in directory
         :return: None
         """
-        self.root = root
+        self.directory = directory
         self.namer = MocFileNamer()
-        self.moc_file_path = self.namer.moc_file_path_for_directory(root)
+        self.moc_file_path = self.namer.moc_file_path_for_directory(directory)
         self.dirs = dirs
         self.files = files
 
@@ -51,7 +51,7 @@ class DirectoryMoc:
         :return: Nothing
         """
         moc_maker = MocMaker()
-        new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters(self.root, self.dirs,
+        new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters(self.directory, self.dirs,
                                                                                            self.files)
         if os.path.exists(self.moc_file_path):
             self.rewrite_existing_moc_file(new_moc_content_with_delimiters)
@@ -67,7 +67,7 @@ class DirectoryMoc:
 
     def write_new_moc_file(self, new_moc_content_with_delimiters):
         template = get_template("directory_moc")
-        moc_base_name = self.namer.moc_base_name_for_directory(self.root)
+        moc_base_name = self.namer.moc_base_name_for_directory(self.directory)
         new_content = template.render(title=moc_base_name, list_of_files_and_dirs=new_moc_content_with_delimiters)
         with open(self.moc_file_path, 'w') as output:
             output.write(new_content)
