@@ -45,9 +45,9 @@ def approval_test_options():
     # The supported tool names are listed in:
     #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
     #
-    # diff_tool_name = "AraxisMergeMac"
-    # diff_tool = GenericDiffReporterFactory().get(diff_tool_name)
-    # options = options.with_reporter(diff_tool)
+    diff_tool_name = "AraxisMergeMac"
+    diff_tool = GenericDiffReporterFactory().get(diff_tool_name)
+    options = options.with_reporter(diff_tool)
 
     return options
 
@@ -66,7 +66,7 @@ def test_output_for_files():
     directory = '01 - Topic 1/01.02 Subtopic'
     files = ['README.md', 'publish.css', 'logo.svg', 'File 1.md', 'File 2.md']
     moc_maker = make_mocs.MocMaker()
-    result = moc_maker.make_moc_for_files(directory, files)
+    result = moc_maker.make_moc_for_directory(directory, [], files)
     verify(result, options=approval_test_options())
 
 
@@ -74,7 +74,7 @@ def test_output_for_sub_directories():
     directory = '01 - Community'
     sub_directories = ['Authors - Persons', 'Events', 'Obsidian Roundup', 'Video Channels']
     moc_maker = make_mocs.MocMaker()
-    result = moc_maker.make_moc_for_sub_directories(directory, sub_directories)
+    result = moc_maker.make_moc_for_directory(directory, sub_directories, [])
     verify(result, options=approval_test_options())
 
 
