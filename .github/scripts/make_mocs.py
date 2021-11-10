@@ -99,23 +99,23 @@ class MocMaker:
             output += self.make_line_for_sub_directory(directory, sub_directory)
         return output
 
-    def make_moc_for_directory(self, root, dirs, files):
+    def make_moc_for_directory(self, directory, dirs, files):
         result = ''
 
         sorted_dirs = sorted(dirs, key=str.casefold)
-        result += self.make_moc_for_sub_directories(root, sorted_dirs)
+        result += self.make_moc_for_sub_directories(directory, sorted_dirs)
 
         sorted_files = sorted(files, key=str.casefold)
-        result += self.make_moc_for_files(root, sorted_files)
+        result += self.make_moc_for_files(directory, sorted_files)
 
         if not result:
             result = '\n'
         return result
 
-    def make_moc_for_directory_with_delimiters(self, root, dirs, files):
+    def make_moc_for_directory_with_delimiters(self, directory, dirs, files):
         result = ''
         result += MocDelimiter().initial_delimiter()
-        result += self.make_moc_for_directory(root, dirs, files)
+        result += self.make_moc_for_directory(directory, dirs, files)
         result += MocDelimiter().final_delimiter()
         return result
 
@@ -210,16 +210,16 @@ class MocFileNamer:
             name = 'hub'
         return '🗂️ ' + name
 
-    def moc_base_name_for_directory(self, root):
-        directory_name = os.path.basename(root)
+    def moc_base_name_for_directory(self, directory):
+        directory_name = os.path.basename(directory)
         return self.moc_name_for_sub_directory(directory_name)
 
-    def moc_file_name_for_directory(self, root):
-        return self.moc_base_name_for_directory(root) + ".md"
+    def moc_file_name_for_directory(self, directory):
+        return self.moc_base_name_for_directory(directory) + ".md"
 
-    def moc_file_path_for_directory(self, root):
-        moc_file_basename = self.moc_file_name_for_directory(root)
-        return os.path.join(root, moc_file_basename)
+    def moc_file_path_for_directory(self, directory):
+        moc_file_basename = self.moc_file_name_for_directory(directory)
+        return os.path.join(directory, moc_file_basename)
 
 
 class MocDelimiter:
