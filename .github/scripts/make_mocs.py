@@ -25,7 +25,7 @@ class VaultMoc:
 class DirectoryMoc:
     """Class to create or update the MOC file for a single directory"""
 
-    def __init__(self, directory, dirs, files):
+    def __init__(self, directory, sub_directories, files):
         """
         
         :param directory: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
@@ -36,7 +36,7 @@ class DirectoryMoc:
         self.directory = directory
         self.namer = MocFileNamer()
         self.moc_file_path = self.namer.moc_file_path_for_directory(directory)
-        self.dirs = dirs
+        self.sub_directories = sub_directories
         self.files = files
 
     def generate_moc(self):
@@ -51,7 +51,7 @@ class DirectoryMoc:
         :return: Nothing
         """
         moc_maker = MocMaker()
-        new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters(self.directory, self.dirs,
+        new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters(self.directory, self.sub_directories,
                                                                                            self.files)
         if os.path.exists(self.moc_file_path):
             self.rewrite_existing_moc_file(new_moc_content_with_delimiters)
