@@ -1,4 +1,4 @@
 jinja2
 pyyaml
 requests
-approvaltests
+approvaltests==3.0.0
