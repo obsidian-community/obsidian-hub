@@ -66,7 +66,7 @@ def test_output_for_files():
     directory = '01 - Topic 1/01.02 Subtopic'
     files = ['README.md', 'publish.css', 'logo.svg', 'File 1.md', 'File 2.md']
     moc_maker = make_mocs.MocMaker()
-    result = moc_maker.make_moc_for_directory(directory, [], files)
+    result = moc_maker.make_moc_for_directory_with_delimiters(directory, [], files)
     verify(result, options=approval_test_options())
 
 
@@ -74,7 +74,7 @@ def test_output_for_sub_directories():
     directory = '01 - Community'
     sub_directories = ['Authors - Persons', 'Events', 'Obsidian Roundup', 'Video Channels']
     moc_maker = make_mocs.MocMaker()
-    result = moc_maker.make_moc_for_directory(directory, sub_directories, [])
+    result = moc_maker.make_moc_for_directory_with_delimiters(directory, sub_directories, [])
     verify(result, options=approval_test_options())
 
 
