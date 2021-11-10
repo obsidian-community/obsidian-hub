@@ -165,7 +165,7 @@ class MocFileAndDirectoryFilter:
     """Various filtering functions, to determine what is included in the generated MOC"""
 
     def __init__(self):
-        self.DIRECTORIES_TO_EXCLUDE = ['meta-notes', 'venv']  # Directories beginning '.' are also excluded
+        self.DIRECTORIES_TO_EXCLUDE = ['venv']  # Directories beginning '.' are also excluded
 
     def include_directory_in_moc(self, directory):
         if directory[0] == '.':
