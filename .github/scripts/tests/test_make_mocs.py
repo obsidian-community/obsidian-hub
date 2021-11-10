@@ -39,7 +39,7 @@ import make_mocs
 
 def make_default_reporter():
     # Don't customise the diff-tool
-    return Options()
+    return Options().for_file.with_extension(".md")
 
     # Remainder here is specific to Clare's machine
     #
@@ -65,7 +65,7 @@ def test_output_for_files():
     files = ['README.md', 'publish.css', 'logo.svg', 'File 1.md', 'File 2.md']
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_files(directory, files)
-    verify(result)
+    verify(result, options=make_default_reporter())
 
 
 def test_output_for_sub_directories():
