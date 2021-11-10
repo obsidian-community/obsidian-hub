@@ -156,6 +156,7 @@ class MocMaker:
 
     def strip_parent_directories_from_directory(self, directory):
         # Ugly hack because all directory names start with '../../'
+        # Note: use forward slash on all platforms, for consistent output across platforms
         result = directory.replace('../', '')
         if result == '..':  # Even more horrible hack for files in root of repo
             result = ''
