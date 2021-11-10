@@ -13,7 +13,7 @@ class VaultMoc:
     """
 
     def update_all_mocs(self, args):
-        directory = '../..'
+        directory = '../..'  # Note: use forward slash on all platforms, for consistent output across platforms
         moc_filter = MocFileAndDirectoryFilter()
         for root, dirs, files in os.walk(directory):
             moc_filter.filter_directories(dirs)
