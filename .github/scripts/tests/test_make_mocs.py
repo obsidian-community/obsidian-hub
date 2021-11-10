@@ -37,8 +37,7 @@ from approvaltests.reporters import GenericDiffReporterFactory
 import make_mocs
 
 
-def make_default_reporter():
-    # Don't customise the diff-tool
+def approval_test_options():
     options = Options().for_file.with_extension(".md")
 
     # Remainder here is specific to Clare's machine
@@ -67,7 +66,7 @@ def test_output_for_files():
     files = ['README.md', 'publish.css', 'logo.svg', 'File 1.md', 'File 2.md']
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_files(directory, files)
-    verify(result, options=make_default_reporter())
+    verify(result, options=approval_test_options())
 
 
 def test_output_for_sub_directories():
@@ -75,13 +74,13 @@ def test_output_for_sub_directories():
     sub_directories = ['Authors - Persons', 'Events', 'Obsidian Roundup', 'Video Channels']
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_sub_directories(directory, sub_directories)
-    verify(result, options=make_default_reporter())
+    verify(result, options=approval_test_options())
 
 
 def test_moc_for_empty_directory():
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_directory_with_delimiters('../..', [], [])
-    verify(result, options=make_default_reporter())
+    verify(result, options=approval_test_options())
 
 
 def test_moc_for_root_directory():
@@ -111,7 +110,7 @@ def test_moc_for_root_directory():
     ]
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_directory_with_delimiters('../..', directories, files)
-    verify(result, options=make_default_reporter())
+    verify(result, options=approval_test_options())
 
 
 def test_updating_existing_moc():
@@ -132,4 +131,4 @@ def test_updating_existing_moc():
     new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters('test', directories, files)
 
     result = moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters)
-    verify(result, options=make_default_reporter())
+    verify(result, options=approval_test_options())
