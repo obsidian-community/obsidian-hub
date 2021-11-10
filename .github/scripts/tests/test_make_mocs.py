@@ -100,6 +100,7 @@ def test_moc_for_root_directory():
 
     verify_moc_for_directory_with_delimiters(directory, directories, files)
 
+
 def test_updating_existing_moc():
     input_dir = os.path.dirname(os.path.abspath(__file__))
     input_file = os.path.join(input_dir, 'sample-existing-moc.md')
