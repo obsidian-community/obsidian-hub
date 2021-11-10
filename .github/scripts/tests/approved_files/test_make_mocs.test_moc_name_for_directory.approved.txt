@@ -1,4 +1,0 @@
-base-name of moc in directory
-
-.. => 🗂️ hub
-Events => 🗂️ Events

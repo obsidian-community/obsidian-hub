@@ -51,11 +51,13 @@ def make_default_reporter():
 
 
 def test_moc_name_for_directory():
-    alist = ['..', 'Events']
     namer = make_mocs.MocFileNamer()
-    verify_all(
-        "base-name of moc in directory", alist,
-        lambda x: "{0} => {1}".format(x, namer.moc_name_for_sub_directory(x)), options=make_default_reporter())
+
+    # Test that the prefix is correctly added to a directory name:
+    assert namer.moc_name_for_sub_directory('Events') == '🗂️ Events'
+
+    # Test that the top-level directory gets a special-case name of "hub":
+    assert namer.moc_name_for_sub_directory('..') == '🗂️ hub'
 
 
 def test_output_for_files():
