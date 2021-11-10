@@ -38,6 +38,18 @@ import make_mocs
 
 
 def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
+    """
+    Generate the MOC output for given directory and its contents, and save it disk,
+    verifying that the output is unchanged since the previous approved output,
+    by calling the ApprovalTests method verify()
+
+    For more info, see https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+
+    :param directory: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
+    :param sub_directories: List of names of sub-directories in the given directory
+    :param files: List of names of files in the given directory
+    :return: None
+    """
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_directory_with_delimiters(directory, sub_directories, files)
     verify(result, options=approval_test_options())
