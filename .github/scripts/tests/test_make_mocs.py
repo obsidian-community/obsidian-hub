@@ -80,21 +80,6 @@ def test_moc_name_for_directory():
     assert namer.moc_name_for_sub_directory('..') == '🗂️ hub'
 
 
-def test_output_for_files():
-    directory = '01 - Topic 1/01.02 Subtopic'
-    files = ['README.md', 'publish.css', 'logo.svg', 'File 1.md', 'File 2.md']
-
-    verify_moc_for_directory_with_delimiters(directory, [], files)
-
-
-def test_output_for_sub_directories():
-    directory = '01 - Community'
-    sub_directories = ['Authors - Persons', 'Events', 'Obsidian Roundup', 'Video Channels']
-    files = []
-
-    verify_moc_for_directory_with_delimiters(directory, sub_directories, files)
-
-
 def test_moc_for_empty_directory():
     verify_moc_for_directory_with_delimiters('../..', [], [])
 
