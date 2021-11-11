@@ -11,7 +11,7 @@ publish: true
 %% Match the title with the channel's title %% 
 
 %% Add the link (replacing #placeholder/link below) and then remove this comment%%
-Link: [YouTube](placeholder/link)
+Link: [YouTube](https://www.youtube.com/c/ProductivityGuru)
 
 Hosted by #placeholder/author.
 
