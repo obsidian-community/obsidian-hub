@@ -2,10 +2,10 @@
 #   ./run_tests.py
 import os
 
-# -----------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------
 # For how to use and maintain these tests, please see:
 #       https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
-# -----------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------
 
 from approvaltests import Options
 from approvaltests.approvals import verify, verify_all
@@ -15,6 +15,10 @@ from approvaltests.reporters import GenericDiffReporterFactory
 #      (It does run from ./run_tests.py)
 import make_mocs
 
+
+# -------------------------------------------------------------------------------------------------------------
+# Helper Functions
+# -------------------------------------------------------------------------------------------------------------
 
 def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
     """
@@ -49,6 +53,11 @@ def approval_test_options():
     return options
 
 
+# -------------------------------------------------------------------------------------------------------------
+# MocFileNamer tests
+# -------------------------------------------------------------------------------------------------------------
+
+
 def test_moc_name_for_directory():
     namer = make_mocs.MocFileNamer()
 
@@ -57,6 +66,11 @@ def test_moc_name_for_directory():
 
     # Test that the top-level directory gets a special-case name of "hub":
     assert namer.moc_name_for_sub_directory('..') == '🗂️ hub'
+
+
+# -------------------------------------------------------------------------------------------------------------
+# MocMaker tests
+# -------------------------------------------------------------------------------------------------------------
 
 
 def test_moc_for_empty_directory():
