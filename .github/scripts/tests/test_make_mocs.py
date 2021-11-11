@@ -11,8 +11,6 @@ from approvaltests import Options
 from approvaltests.approvals import verify, verify_all
 from approvaltests.reporters import GenericDiffReporterFactory
 
-# TODO Figure out how to make this import work within Pycharm.
-#      (It does run from ./run_tests.py)
 import make_mocs
 
 
