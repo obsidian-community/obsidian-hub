@@ -172,4 +172,4 @@ def test_moc_for_root_directory():
 
 
 def test_updating_moc_with_zoottelkeeper_delimiters():
-    verify_updating_existing_moc('sample-existing-moc.md')
+    verify_updating_existing_moc('sample-existing-moc-1.md')
