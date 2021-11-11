@@ -141,8 +141,12 @@ def test_moc_for_root_directory():
 
 
 def test_updating_existing_moc():
+    verify_updating_existing_moc('sample-existing-moc.md')
+
+
+def verify_updating_existing_moc(existing_moc_file_name):
     input_dir = os.path.dirname(os.path.abspath(__file__))
-    input_file = os.path.join(input_dir, 'sample-existing-moc.md')
+    input_file = os.path.join(input_dir, existing_moc_file_name)
     with open(input_file) as input:
         initial_content = input.readlines()
 
