@@ -237,11 +237,19 @@ class MocDelimiter:
 
     @staticmethod
     def whole_line_is_initial_delimiter(line):
-        return line == MocDelimiter().initial_delimiter()
+        return line in MocDelimiter().all_known_initial_delimiters()
 
     @staticmethod
     def whole_line_is_final_delimiter(line):
-        return line == MocDelimiter().final_delimiter()
+        return line in MocDelimiter().all_known_final_delimiters()
+
+    @staticmethod
+    def all_known_initial_delimiters():
+        return [MocDelimiter.initial_delimiter()]
+
+    @staticmethod
+    def all_known_final_delimiters():
+        return [MocDelimiter.final_delimiter()]
 
     @staticmethod
     def initial_delimiter():
