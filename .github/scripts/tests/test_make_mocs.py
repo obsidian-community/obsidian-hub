@@ -37,6 +37,16 @@ def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
 
 
 def verify_updating_existing_moc(existing_moc_file_name):
+    """
+    Read an existing MOC file (which must be in scripts/tests/) and update the
+    contents, saving the output to a new file on disk, verifying that the output
+    is unchanged since the previous approved output, by calling the ApprovalTests method verify()
+
+    The supplied moc file is not modified.
+
+    :param existing_moc_file_name: name of an existing MOC file (which must be in scripts/tests/)
+    :return: None
+    """
     input_dir = os.path.dirname(os.path.abspath(__file__))
     input_file = os.path.join(input_dir, existing_moc_file_name)
     with open(input_file) as input:
