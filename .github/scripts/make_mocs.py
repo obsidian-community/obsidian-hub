@@ -125,7 +125,7 @@ class MocMaker:
         result = ''
         for line in initial_content:
 
-            if line == MocDelimiter().initial_delimiter():
+            if MocDelimiter.whole_line_is_initial_delimiter(line):
                 inside_old_index = True
                 result += new_moc_content_with_delimiters
                 index_written = True
@@ -234,6 +234,14 @@ class MocDelimiter:
 
     Later, these may be replaced by strings specific to the Obsidian Hub.
     """
+
+    @staticmethod
+    def whole_line_is_initial_delimiter(line):
+        return line == MocDelimiter().initial_delimiter()
+
+    @staticmethod
+    def whole_line_is_final_delimiter(line):
+        return line == MocDelimiter().final_delimiter()
 
     @staticmethod
     def initial_delimiter():
