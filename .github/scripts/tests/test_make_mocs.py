@@ -36,6 +36,27 @@ def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
     verify(result, options=approval_test_options())
 
 
+def verify_updating_existing_moc(existing_moc_file_name):
+    input_dir = os.path.dirname(os.path.abspath(__file__))
+    input_file = os.path.join(input_dir, existing_moc_file_name)
+    with open(input_file) as input:
+        initial_content = input.readlines()
+
+    directories = [
+        'dir 1',
+        'Dir 2',
+    ]
+    files = [
+        'File 1.md',
+        'File 2.md',
+    ]
+    moc_maker = make_mocs.MocMaker()
+    new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters('test', directories, files)
+
+    result = moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters)
+    verify(result, options=approval_test_options())
+
+
 def approval_test_options():
     options = Options().for_file.with_extension(".md")
 
@@ -142,24 +163,3 @@ def test_moc_for_root_directory():
 
 def test_updating_moc_with_zoottelkeeper_delimiters():
     verify_updating_existing_moc('sample-existing-moc.md')
-
-
-def verify_updating_existing_moc(existing_moc_file_name):
-    input_dir = os.path.dirname(os.path.abspath(__file__))
-    input_file = os.path.join(input_dir, existing_moc_file_name)
-    with open(input_file) as input:
-        initial_content = input.readlines()
-
-    directories = [
-        'dir 1',
-        'Dir 2',
-    ]
-    files = [
-        'File 1.md',
-        'File 2.md',
-    ]
-    moc_maker = make_mocs.MocMaker()
-    new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters('test', directories, files)
-
-    result = moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters)
-    verify(result, options=approval_test_options())
