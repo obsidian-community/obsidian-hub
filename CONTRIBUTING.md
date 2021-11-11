@@ -37,14 +37,16 @@ Once you have added or edited the note using Obsidian, come back and check out [
 This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folder structure of this Community Vault.
 
 %% Keep this updated when the Vault structure changes! %%
+%% The command is 'tree -d -N -I venv --noreport' %%
+%% On Mac, pipe it through pbcopy to get the output on to the clipboard %%
 ```
 ├── 00 - Contribute to the Obsidian Hub
 │   ├── 01 Templates
 │   └── 02 Attachments
 ├── 01 - Community
-│   ├── Authors - Persons
 │   ├── Events
 │   ├── Obsidian Roundup
+│   ├── People
 │   └── Video Channels
 ├── 02 - Community Expansions
 │   ├── 02.01 Plugins by Category
