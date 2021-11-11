@@ -140,7 +140,7 @@ def test_moc_for_root_directory():
     verify_moc_for_directory_with_delimiters(directory, directories, files)
 
 
-def test_updating_existing_moc():
+def test_updating_moc_with_zoottelkeeper_delimiters():
     verify_updating_existing_moc('sample-existing-moc.md')
 
 
