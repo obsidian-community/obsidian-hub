@@ -15,6 +15,9 @@ other content unchanged.
 
 ## MOC
 
+**IMPORTANT**: Please do not update these Zoottelkeeper comments in the test input
+sample-existing-moc-1.md: they are testing backwards-compatibility
+
 %% Hub MOCs: Don’t edit below  %%
 -  [[test/dir 1/🗂️ dir 1|🗂️ dir 1]]
 -  [[test/Dir 2/🗂️ Dir 2|🗂️ Dir 2]]

@@ -17,7 +17,7 @@ other content unchanged.
 
 %% Hub MOCs: Don’t edit below  %%
 
-If you see this text in the approved file, then the test has FAILED
+If you see this text in the approved file, then the test has FAILED,
 as text inside the delimiters has not been replaced...
 
 %% Hub MOCs: Don’t edit above  %%
