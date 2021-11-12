@@ -29,6 +29,5 @@ tags:
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/T - Website|T - Website]]
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/T - YouTube Channel|T - YouTube Channel]]
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/T - YouTube Video|T - YouTube Video]]
--  [[00 - Contribute to the Obsidian Hub/01 Templates/Zoottelkeeper|Zoottelkeeper]]
 %% Hub MOCs: Don’t edit above  %%
 
