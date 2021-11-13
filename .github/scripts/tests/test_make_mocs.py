@@ -148,6 +148,8 @@ def test_moc_for_root_directory():
         # Python virtual environment directory should also not be included
         '03 - There should not be a directory called "venv" in the output',
         'venv',
+        '04 - There should not be a directory called "DO NOT COMMIT" in the output',
+        'DO NOT COMMIT',
     ]
     files = [
         # Files that should not be included
