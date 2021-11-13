@@ -20,14 +20,20 @@ OUTPUT_DIR = {
 
 
 def get_template(template_name):
-    file_loader = FileSystemLoader("./templates")
+    directory = "./templates"
+    template_file_name = "{}.md.jinja".format(template_name)
+    return get_template_from_directory(directory, template_file_name)
+
+
+def get_template_from_directory(directory, template_file_name):
+    file_loader = FileSystemLoader(directory)
     env = Environment(
         loader=file_loader,
         trim_blocks=True,
         lstrip_blocks=True,
         # undefined=DebugUndefined,
     )
-    return env.get_template("{}.md.jinja".format(template_name))
+    return env.get_template(template_file_name)
 
 
 def get_output_dir(template, file_name):
