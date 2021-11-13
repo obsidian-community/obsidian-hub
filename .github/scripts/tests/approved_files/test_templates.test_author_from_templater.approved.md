@@ -8,10 +8,10 @@ publish: true
 
 # test-user
 
-GitHub: [test-user](https://github.com/test-user/) ^github
-%% Website:  ^website%% 
-%%[[Publish sites|Publish site]]: ^publish%%
- 
+<!-- - GitHub: [test-user](https://github.com/test-user/) ^github -->
+<!-- - Website:  ^website%%  -->
+<!-- - [[Publish sites|Publish site]]: ^publish -->
+
 %% Feel free to add a bio below this comment %%
 
 
