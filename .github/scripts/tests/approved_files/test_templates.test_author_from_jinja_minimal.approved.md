@@ -1,7 +1,7 @@
 ---
 aliases:
 - test-user
-tags: 
+tags:
 - 
 publish: true
 ---
