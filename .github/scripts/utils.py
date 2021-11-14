@@ -27,6 +27,12 @@ def get_template(template_name):
 
 def get_template_from_directory(directory, template_file_name):
     file_loader = FileSystemLoader(directory)
+    
+    # A note on writing templates...
+    # trim_blocks and lstrip_blocks remove a lot of whitespace.
+    # If you find yourself needing to prevent an end-of-line character
+    # being swallowed, see these docs:
+    #     https://jinja.palletsprojects.com/en/3.0.x/templates/#whitespace-control
     env = Environment(
         loader=file_loader,
         trim_blocks=True,
