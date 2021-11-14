@@ -23,6 +23,7 @@ tags:
 -  [[04 - Guides, Workflows, & Courses/Guides/How to get started developing plugins|How to get started developing plugins]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to release a new version of your plugin|How to release a new version of your plugin]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to Style Obsidian|How to Style Obsidian]]
+-  [[04 - Guides, Workflows, & Courses/Guides/How to update your Plugins and CSS for Live Preview|How to update your Plugins and CSS for Live Preview]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Obsidian publish and pfSense|Obsidian publish and pfSense]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Resources and Guides for Plugin Developers|Resources and Guides for Plugin Developers]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Resources and Guides for Theme Designers|Resources and Guides for Theme Designers]]
