@@ -37,14 +37,16 @@ publish: true
 -
 
 %%
-%%
+
+<!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @{{title}} on GitHub Sponsors](https://github.com/sponsors/{{title}}) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @{{ title }} on GitHub Sponsors](https://github.com/sponsors/{{ title }}) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
-%%
+
+-->
 
 <!--
 ## Follow this author
