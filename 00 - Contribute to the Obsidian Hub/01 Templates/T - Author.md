@@ -46,10 +46,10 @@ publish: true
 - [[Patreon]]: ^patreon
 %%
 
-%%
+<!--
 ## Follow this author
 
-- [[YouTube Channels|YouTube channel]]: ^youtube
-
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
 - ...
-%%
+-->
