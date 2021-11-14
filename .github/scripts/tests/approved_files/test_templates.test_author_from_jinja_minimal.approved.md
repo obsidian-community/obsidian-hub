@@ -1,12 +1,12 @@
 ---
 aliases:
-- Test User
+- test-user
 tags: 
 - 
 publish: true
 ---
 
-# Test User
+# test-user
 
 - GitHub: [test-user](https://github.com/test-user/) ^github
 
