@@ -15,7 +15,7 @@ OUTPUT_DIR = {
     "plugin": "02 - Community Expansions/02.05 All Community Expansions/Plugins",
     "category": "02 - Community Expansions/02.01 Plugins by Category",
     "theme": "02 - Community Expansions/02.05 All Community Expansions/Themes",
-    "author": "01 - Community/Authors - Persons",
+    "author": "01 - Community/People",
 }
 
 
