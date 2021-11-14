@@ -9,9 +9,9 @@ publish: true
 # Test User
 
 - GitHub: [test-user](https://github.com/test-user/) ^github
-<!-- - Discord: `@` ^discord -->
+<!-- - Discord: `@` ^discord-->
 - Website: <https://mysite.com> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

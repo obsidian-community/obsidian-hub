@@ -8,10 +8,10 @@ publish: true
 
 # {{title}}
 
-<!-- - GitHub: [{{title}}](https://github.com/{{title}}/) ^github -->
-<!-- - Discord: `@` ^discord -->
-<!-- - Website: <> ^website -->
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - GitHub: [{{title}}](https://github.com/{{title}}/) ^github-->
+<!-- - Discord: `@` ^discord-->
+<!-- - Website: <> ^website-->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
