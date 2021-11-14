@@ -8,6 +8,8 @@ publish: true
 
 # How to update your Plugins and CSS for Live Preview
 
+**Target audience**: Authors of Plugins, Themes and CSS snippets
+
 This is a collection of information and notes being gathered, to collate information, hints and tips for authors of Plugins, Themes and CSS snippets, to update them so that they work with [Live Preview Mode](https://twitter.com/obsdmd/status/1458523572448727051), as well as with the earlier Edit and Preview modes.
 
 Additions to this page are very much welcomed, as developers and users learn more about any changes needed to support Obisidian Extensions as the software evolves.
