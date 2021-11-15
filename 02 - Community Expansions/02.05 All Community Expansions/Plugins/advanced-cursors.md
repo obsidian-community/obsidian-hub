@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `advanced-cursors`
 Links: [GitHub repository](https://github.com/SkepticMystic/advanced-cursors) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=advanced-cursors)
 Developed by: [[SkepticMystic]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Use multiple cursors even more powerfully.
 

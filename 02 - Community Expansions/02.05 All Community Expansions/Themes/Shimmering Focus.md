@@ -8,6 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
+![Downloads](https://img.shields.io/badge/downloads-2807-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/chrisgrieser/shimmering-focus?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/chrisgrieser/shimmering-focus/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/chrisgrieser/shimmering-focus?color=573E7A&logo=github&style=for-the-badge)
@@ -62,10 +63,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Side Bar Font: Applies to all text in the left and right side bar
 - Side Bar Font Size
 
-**Images**: 
-- Turn off the "Max View" feature: "Max View" makes panes full length and images full width when the left sidebar is hidden and readable line length when the left sidebar is shown. (Note:  You need to turn on "readable line length" in the editor settings as well for this to work.)
-- Size of Images: Size of Images in % (when Max View is disabled or note active)
-- Align images to the left
+**Images & PDFs**: 
+- Turn off the "Max View" feature: "Max View" makes panes full length and images/PDFs full width when the left sidebar is hidden and readable line length when the left sidebar is shown. (Note:  You need to turn on "readable line length" in the editor settings as well for this to work.)
+- Size of Images: Size of Images in % (when Max View is disabled or not active)
+- Size of embeded PDFs: Size of embeded PDFs in % (when Max View is disabled or not active)
+- Align Images & PDFs to the left: When disabled, they will be aligned to the center instead.
+- Do not use Darkmode for PDFs
 
 **Cursor**: 
 - Block Cursor: Use a block instead of a line as cursor. For best results, also switch the main font to a monospaced one.

@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-livesync
 aliases:
-- Obsidian Live sync
+- Self-hosted LiveSync
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Obsidian Live sync
+# Self-hosted LiveSync
 
 Plugin ID: `obsidian-livesync`
 Links: [GitHub repository](https://github.com/vrtmrz/obsidian-livesync) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-livesync)
 Developed by: [[vrtmrz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.
+Community implementation of self-hosted livesync. Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.
 
 %% ----- Do not edit anything above this line ----- %% 
 

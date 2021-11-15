@@ -8,6 +8,6 @@ publish: true
 
 # YouTube Channels
 
-The backlinks of this note contain links to [[🗂️ Authors - Persons]] that have YouTube Channels.
+The backlinks of this note contain links to [[🗂️ People]] that have YouTube Channels.
 
 

@@ -15,19 +15,30 @@ OUTPUT_DIR = {
     "plugin": "02 - Community Expansions/02.05 All Community Expansions/Plugins",
     "category": "02 - Community Expansions/02.01 Plugins by Category",
     "theme": "02 - Community Expansions/02.05 All Community Expansions/Themes",
-    "author": "01 - Community/Authors - Persons",
+    "author": "01 - Community/People",
 }
 
 
 def get_template(template_name):
-    file_loader = FileSystemLoader("./templates")
+    directory = "./templates"
+    template_file_name = "{}.md.jinja".format(template_name)
+    return get_template_from_directory(directory, template_file_name)
+
+
+def get_template_from_directory(directory, template_name_with_extensions):
+    file_loader = FileSystemLoader(directory)
+    # A note on writing templates...
+    # trim_blocks and lstrip_blocks remove a lot of whitespace.
+    # If you find yourself needing to prevent an end-of-line character
+    # being swallowed, see these docs:
+    #     https://jinja.palletsprojects.com/en/3.0.x/templates/#whitespace-control
     env = Environment(
         loader=file_loader,
         trim_blocks=True,
         lstrip_blocks=True,
         # undefined=DebugUndefined,
     )
-    return env.get_template("{}.md.jinja".format(template_name))
+    return env.get_template(template_name_with_extensions)
 
 
 def get_output_dir(template, file_name):

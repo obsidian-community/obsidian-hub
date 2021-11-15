@@ -1,18 +1,18 @@
 ---
 aliases:
-- Andrew Lisowski
+- Ivan Lednev
 tags: 
 - 
 publish: true
 ---
 
-# Andrew Lisowski
+# Ivan Lednev
 
-- GitHub: [hipstersmoothie](https://github.com/hipstersmoothie/) ^github
+- GitHub: [ivan-lednev](https://github.com/ivan-lednev/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://twitter.com/hipstersmoothie> ^website
+- Website: <https://github.com/ivan-lednev> ^website
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -23,11 +23,8 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-plugin-toc|Table of Contents]]
-- [[obsidian-plugin-prettier|Prettier Format]]
+- [[obsidian-task-archiver|Archiver]]
 
-### Themes
-- [[Hipstersmoothie]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -44,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @hipstersmoothie on GitHub Sponsors](https://github.com/sponsors/hipstersmoothie) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @ivan-lednev on GitHub Sponsors](https://github.com/sponsors/ivan-lednev) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

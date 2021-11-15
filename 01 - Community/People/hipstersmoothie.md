@@ -1,18 +1,18 @@
 ---
 aliases:
-- Stephen Solka
+- Andrew Lisowski
 tags: 
 - 
 publish: true
 ---
 
-# Stephen Solka
+# Andrew Lisowski
 
-- GitHub: [trashhalo](https://github.com/trashhalo/) ^github
+- GitHub: [hipstersmoothie](https://github.com/hipstersmoothie/) ^github
 
 %% - Discord: `@` ^discord %%
 
-- Website: <https://github.com/trashhalo> ^website
+- Website: <https://twitter.com/hipstersmoothie> ^website
 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
@@ -23,9 +23,11 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[extract-url|Extract url content]]
-- [[todo-txt|Todo.txt support]]
+- [[obsidian-plugin-toc|Table of Contents]]
+- [[obsidian-plugin-prettier|Prettier Format]]
 
+### Themes
+- [[02 - Community Expansions/02.05 All Community Expansions/Themes/Hipstersmoothie|Hipstersmoothie]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -42,7 +44,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @trashhalo on GitHub Sponsors](https://github.com/sponsors/trashhalo) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @hipstersmoothie on GitHub Sponsors](https://github.com/sponsors/hipstersmoothie) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

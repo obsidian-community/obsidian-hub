@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `ozanshare-publish`
 Links: [GitHub repository](https://github.com/ozntel/ozanshare-publish-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=ozanshare-publish)
 Developed by: [[ozntel]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Publish your markdown notes with a single click from your vault.
 

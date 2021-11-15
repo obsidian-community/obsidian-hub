@@ -24,6 +24,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-html-tags-autocomplete|HTML Tags Autocomplete]]
+- [[obsidian-image-caption|Image Caption]]
 
 %% End Hub: Released contributions %%
 
