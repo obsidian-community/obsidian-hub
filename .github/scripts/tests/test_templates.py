@@ -15,7 +15,7 @@ from approvaltests.approvals import verify, verify_all
 from test_make_mocs import approval_test_options
 
 JINJA_TEMPLATES_DIR = "../templates"
-CONTRIB_TEMPLATES_DIR = "../../../00 - Contribute to the Obsidian Hub/01 Templates/"
+OBSIDIAN_TEMPLATES_DIR = "../../../00 - Contribute to the Obsidian Hub/01 Templates/"
 
 
 # It's tempting to copy template text between the Jinja templates (JINJA_TEMPLATES_DIR)
@@ -38,7 +38,7 @@ def test_all_template_variables_are_valid():
 
 def check_for_invalid_spaces_in_templates():
     error_message = ''
-    for template_file in glob.glob(CONTRIB_TEMPLATES_DIR + '*.md'):
+    for template_file in glob.glob(OBSIDIAN_TEMPLATES_DIR + '*.md'):
         # print(template_file)
         with open(template_file) as template_text:
             text = template_text.read()
@@ -77,7 +77,7 @@ def test_author_from_jinja_minimal():
 
 
 def test_author_from_templater():
-    template = utils.get_template_from_directory(CONTRIB_TEMPLATES_DIR, 'T - Author.md')
+    template = utils.get_template_from_directory(OBSIDIAN_TEMPLATES_DIR, 'T - Author.md')
     new_content = template.render(title="test-user")
 
     verify(new_content, options=approval_test_options())
