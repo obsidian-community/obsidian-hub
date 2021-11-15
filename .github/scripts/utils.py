@@ -25,9 +25,8 @@ def get_template(template_name):
     return get_template_from_directory(directory, template_file_name)
 
 
-def get_template_from_directory(directory, template_file_name):
+def get_template_from_directory(directory, template_name_with_extensions):
     file_loader = FileSystemLoader(directory)
-    
     # A note on writing templates...
     # trim_blocks and lstrip_blocks remove a lot of whitespace.
     # If you find yourself needing to prevent an end-of-line character
@@ -39,7 +38,7 @@ def get_template_from_directory(directory, template_file_name):
         lstrip_blocks=True,
         # undefined=DebugUndefined,
     )
-    return env.get_template(template_file_name)
+    return env.get_template(template_name_with_extensions)
 
 
 def get_output_dir(template, file_name):
