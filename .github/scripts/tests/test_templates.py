@@ -76,7 +76,7 @@ def test_author_from_jinja_minimal():
     verify(new_content, options=approval_test_options())
 
 
-def test_author_from_templater():
+def test_author_from_templates():
     template = utils.get_template_from_directory(OBSIDIAN_TEMPLATES_DIR, 'T - Author.md')
     new_content = template.render(title="test-user")
 
