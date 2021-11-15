@@ -34,7 +34,6 @@ CONTRIB_TEMPLATES_DIR = "../../../00 - Contribute to the Obsidian Hub/01 Templat
 def test_all_template_variables_are_valid():
     
     # get all the Obsidian templates
-    files_found = 0
     error_message = ''
     for template_file in glob.glob(CONTRIB_TEMPLATES_DIR + '*.md'):
         # print(template_file)
@@ -46,7 +45,6 @@ def test_all_template_variables_are_valid():
     if error_message != '':
         error_message = 'ERROR: At least one template has variables with spaces, that will not be recognised by Obsidian:\n' + error_message
     assert '' == error_message
-    assert files_found >= 2
 
 def test_author_from_jinja():
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "author.md.jinja")
