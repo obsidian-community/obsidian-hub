@@ -44,9 +44,13 @@ def check_for_invalid_spaces_in_templates():
             text = template_text.read()
             for problem_text in ['{{ ', ' }}']:
                 if problem_text in text:
-                    error_message += f'Illegal string "{problem_text}" in "{template_file}"\n'
+                    error_message += f'  Illegal string "{problem_text}" in "{template_file}"\n'
     if error_message != '':
-        error_message = 'ERROR: At least one template has variables with spaces, that will not be recognised by Obsidian:\n' + error_message
+        error_message = \
+            'ERROR: At least one template has variables with spaces, that Obsidian will not recognise.\n' + \
+            'Please remove all spaces in any special text such as "{{ title }}".\n' + \
+            'The files with problems are:\n' + \
+            error_message
     return error_message
 
 
