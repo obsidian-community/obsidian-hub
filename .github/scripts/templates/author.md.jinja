@@ -1,7 +1,7 @@
 ---
 aliases:
 - {{author}}
-tags: 
+tags:
 - 
 publish: true
 ---
@@ -9,13 +9,9 @@ publish: true
 # {{author}}
 
 - GitHub: [{{user}}](https://github.com/{{user}}/) ^github
-
-%% - Discord: `@` ^discord %%
-
-{% if not website %}%% {% endif %}- Website: <{{ website }}> ^website{% if not website %} %% {% endif %}
-
-
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - Discord: `@` ^discord-->
+{% if not website %}<!-- {% endif %}- Website: <{{ website }}> ^website{% if not website %}-->{% endif +%}
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -37,20 +33,23 @@ publish: true
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
-%%
+
+<!--
 ### Unlisted plugins
 
 - 
+-->
 
+<!--
 ### Others
 
 - 
-%%
+-->
 
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @{{ user }} on GitHub Sponsors](https://github.com/sponsors/{{ user }}) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @{{user}} on GitHub Sponsors](https://github.com/sponsors/{{user}}) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

@@ -1,16 +1,16 @@
 ---
 aliases:
-- 
+- Test User
 tags:
-- seedling
+- 
 publish: true
 ---
 
-# {{title}}
+# Test User
 
-<!-- - GitHub: [{{title}}](https://github.com/{{title}}/) ^github-->
+- GitHub: [test-user](https://github.com/test-user/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+- Website: <https://mysite.com> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -19,19 +19,13 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
-
-<!--
 ### Plugins
+- [[my-plugin1]]
+- [[my-plugin2]]
 
-- 
--->
-
-<!--
 ### Themes
-
-- 
--->
-
+- [[my-theme1]]
+- [[my-theme2]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -51,7 +45,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @{{title}} on GitHub Sponsors](https://github.com/sponsors/{{title}}) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @test-user on GitHub Sponsors](https://github.com/sponsors/test-user) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
