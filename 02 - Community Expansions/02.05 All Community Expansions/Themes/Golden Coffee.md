@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-559-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-755-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kinmury/GoldenCoffeeTheme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/kinmury/GoldenCoffeeTheme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/kinmury/GoldenCoffeeTheme?color=573E7A&logo=github&style=for-the-badge)
@@ -42,11 +42,14 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Vault Name on the Top**: 
 - Hide the Vault Name of your vault on the top of the app
 
+**Background**: 
+- Pattern: Turn it off if you don't want the new background pattern
+
 **Headings**: 
 - Get the \#'s back instead of the Hn's: Turn it off for you to have your \#'s back
 - Don't center the headings: Turn it off if you don't want to center your headings on preview view
 
-**Plugins**: Change the CSS Settings applied to some plugins
+**Plugins**: 
 - **Dataview**: Change the CSS Settings applied to "Dataview"
     - Capitalize First Word: Capitalize the first word from every table in "Dataview"
 - **Kanban**: Change the CSS Settings applied to "Kanban"

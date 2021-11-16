@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1819-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2402-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SlRvb/Obsidian--ITS-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/SlRvb/Obsidian--ITS-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/SlRvb/Obsidian--ITS-Theme?color=573E7A&logo=github&style=for-the-badge)
@@ -132,11 +132,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Display Folder Arrow On Hover
 - Raise Right Sidebar: Raise the right sidebar if the status bar is covering part of it.
 - Hide Outline Pane H
+- Disable Settings Animation
 - **Minimalist Workspace**: Hide UI unless hovered over the edges of the app.
     - Writing: Minimalistic/distraction free layout design for notes.
     - Hide All UI: Hide everything listed below with just 1 toggle
     - Hide Resize Handles
-    - Hide Scrollbars: Recommend increasing the scrollbar width with this
+    - Dim Scrollbars: Recommend increasing the scrollbar width with this
     - Hide Vault Name
     - Hide File Explorer/Search Buttons
     - Hide Sidebar Tab Icons
@@ -153,7 +154,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Note Title Size: Adjust the size for the note titles.
 
 **Note Elements**: 
-- Hide Frontmatter
 - Justify Text: Justify preview and editor text
 - Centered Tables: Move all tables to the center of the page.
 - Center Images: Center images by default
@@ -161,6 +161,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Horizontal Line Symbol: Add quotations around symbol for it to work. For Example "⚡". Use the codepoint for symbols from supported font icons. For Example "\e800".
     - Horizontal Line Symbol Fonts: Font Icons. Default font aligns emojis.
     - No Horizontal Line Symbol: Hide the horizontal Line Symbol entirely
+- **Frontmatter**: 
+    - Minimized Frontmater
+    - Hide Frontmatter
+    - Notion Style
 - **Embeds**: 
     - Naked Embeds: Embeds that look like they're part of the note.
     - Original Embeds: Previous style of embeds
@@ -173,11 +177,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Illusion Theme Inspired Headings
 - **Lists**: 
     - Colorful Task Text: Add color to the text of the task.
+    - Restore Crossed Checkbox
     - Default Bullet Disc Shape
     - Bullet Shape: Add quotes around your new bullet. For example "~"
     - 1 Color Bullets & Lines: Bullet and Line colors no longer alternates. Bullet color is set to Accent 2.
     - Original Bullet Lines: Lines appear under bullet, not beside it. Won't connect to bullet if it's longer than 1 line.
     - Line Size
+    - Live Preview Alternate Indent Style: Alternate style to differentiate lists sublevels in edit mode on cm6.
     - **Colorful Lists**: 
         - Colorful Bullet Line Color: Toggle on to use colorful bullet lines
         - Colorful Bullet Color: Toggle on to use colorful bullets
@@ -254,5 +260,4 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Cross Reference Plugin Adjustments
 - Sidebar Notes Adjustments: Adjustments to padding for better displays of notes moved into sidebars.
 - Mobile Toolbar Adjustment: Multi-row bar sorts properly, but scrolls vertically now.
-- Mobile Indent Style: Alternate style to differentiate lists sublevels in edit mode on mobile.
 
