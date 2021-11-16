@@ -9,7 +9,7 @@ publish: true
 # OfficerHalf
 
 - GitHub: [OfficerHalf](https://github.com/OfficerHalf/) ^github
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 - Website: <https://nathan-smith.org/> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 

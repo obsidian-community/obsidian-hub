@@ -9,7 +9,7 @@ publish: true
 # Ryan J. A. Murphy
 
 - GitHub: [ryanjamurphy](https://github.com/ryanjamurphy/) ^github
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 - Website: <https://axle.design> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 

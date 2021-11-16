@@ -9,7 +9,7 @@ publish: true
 # SlRvb
 
 - GitHub: [SlRvb](https://github.com/SlRvb/) ^github
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 %% - Website: <> ^website %% 
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 

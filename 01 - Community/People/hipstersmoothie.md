@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [hipstersmoothie](https://github.com/hipstersmoothie/) ^github
 
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 
 - Website: <https://twitter.com/hipstersmoothie> ^website
 

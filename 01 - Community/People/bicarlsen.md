@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [bicarlsen](https://github.com/bicarlsen/) ^github
 
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 
 - Website: <https://github.com/bicarlsen> ^website
 

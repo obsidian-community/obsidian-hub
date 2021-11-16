@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [HEmile](https://github.com/HEmile/) ^github
 
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 
 - Website: <https://twitter.com/emilevankrieken> ^website
 

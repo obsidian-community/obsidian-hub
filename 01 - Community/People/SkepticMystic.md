@@ -9,7 +9,7 @@ publish: true
 # SkepticMystic
 
 - GitHub: [SkepticMystic](https://github.com/SkepticMystic/) ^github
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/SkepticMystic/advanced-cursors> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 

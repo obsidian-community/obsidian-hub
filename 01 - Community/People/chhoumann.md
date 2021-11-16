@@ -9,7 +9,7 @@ publish: true
 # Christian B. B. Houmann
 
 - GitHub: [chhoumann](https://github.com/chhoumann/) ^github
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 - Website: <https://bagerbach.com> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 

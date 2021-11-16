@@ -9,7 +9,7 @@ publish: true
 # Chetachi E.
 
 - GitHub: [chetachiezikeuzor](https://github.com/chetachiezikeuzor/) ^github
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/chetachiezikeuzor> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish -->
 
