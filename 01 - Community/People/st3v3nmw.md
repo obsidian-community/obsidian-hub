@@ -1,7 +1,7 @@
 ---
 aliases:
 - Stephen Mwangi
-tags: 
+tags:
 - 
 publish: true
 ---
@@ -9,12 +9,9 @@ publish: true
 # Stephen Mwangi
 
 - GitHub: [st3v3nmw](https://github.com/st3v3nmw/) ^github
-
-%% - Discord: `@` ^discord %%
-
+<!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/st3v3nmw> ^website
-
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -28,15 +25,18 @@ publish: true
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
-%%
+
+<!--
 ### Unlisted plugins
 
 - 
+-->
 
+<!--
 ### Others
 
 - 
-%%
+-->
 
 <!--
 ## Sponsor this author

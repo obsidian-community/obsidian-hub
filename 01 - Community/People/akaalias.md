@@ -1,7 +1,7 @@
 ---
 aliases:
 - Alexis Rondeau
-tags: 
+tags:
 - 
 publish: true
 ---
@@ -9,12 +9,9 @@ publish: true
 # Alexis Rondeau
 
 - GitHub: [akaalias](https://github.com/akaalias/) ^github
-
-%% - Discord: `@` ^discord %%
-
+<!-- - Discord: `@` ^discord-->
 - Website: <https://publish.obsidian.md/alexisrondeau> ^website
-
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -33,15 +30,18 @@ publish: true
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
-%%
+
+<!--
 ### Unlisted plugins
 
 - 
+-->
 
+<!--
 ### Others
 
 - 
-%%
+-->
 
 <!--
 ## Sponsor this author

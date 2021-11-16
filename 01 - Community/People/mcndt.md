@@ -1,7 +1,7 @@
 ---
 aliases:
 - Maxime Cannoodt (@mcndt)
-tags: 
+tags:
 - 
 publish: true
 ---
@@ -9,12 +9,9 @@ publish: true
 # Maxime Cannoodt (@mcndt)
 
 - GitHub: [mcndt](https://github.com/mcndt/) ^github
-
-%% - Discord: `@` ^discord %%
-
+<!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/mcndt> ^website
-
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -28,15 +25,18 @@ publish: true
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
-%%
+
+<!--
 ### Unlisted plugins
 
 - 
+-->
 
+<!--
 ### Others
 
 - 
-%%
+-->
 
 <!--
 ## Sponsor this author

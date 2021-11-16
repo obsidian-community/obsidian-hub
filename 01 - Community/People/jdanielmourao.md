@@ -1,7 +1,7 @@
 ---
 aliases:
 - jdanielmourao
-tags: 
+tags:
 - 
 publish: true
 ---
@@ -9,12 +9,9 @@ publish: true
 # jdanielmourao
 
 - GitHub: [jdanielmourao](https://github.com/jdanielmourao/) ^github
-
-%% - Discord: `@` ^discord %%
-
-%% - Website: <> ^website %% 
-
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - Discord: `@` ^discord-->
+<!-- - Website: <> ^website-->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -28,15 +25,18 @@ publish: true
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
-%%
+
+<!--
 ### Unlisted plugins
 
 - 
+-->
 
+<!--
 ### Others
 
 - 
-%%
+-->
 
 <!--
 ## Sponsor this author
