@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [twentytwokhz](https://github.com/twentytwokhz/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://florinbobis.com> ^website
+- Website: <https://blog.florinbobis.com> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[quote-of-the-day|Quote of the Day]]
+- [[language-translator|Language Translator]]
 
 %% End Hub: Released contributions %%
 

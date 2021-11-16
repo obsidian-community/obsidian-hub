@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-editor-shortcuts|Code Editor Shortcuts]]
+- [[obsidian-sentence-navigator|Sentence Navigator]]
 
 %% End Hub: Released contributions %%
 

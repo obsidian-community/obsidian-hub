@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[obsidian-collapse-all-plugin|Collapse All]]
 - [[obsidian-trello|Obsidian Trello]]
+- [[auto-class|Auto Class]]
 
 %% End Hub: Released contributions %%
 

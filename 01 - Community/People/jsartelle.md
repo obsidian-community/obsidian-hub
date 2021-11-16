@@ -1,16 +1,16 @@
 ---
 aliases:
-- Andrew Lombardi
+- James Sartelle
 tags:
 - 
 publish: true
 ---
 
-# Andrew Lombardi
+# James Sartelle
 
-- GitHub: [kinabalu](https://github.com/kinabalu/) ^github
+- GitHub: [jsartelle](https://github.com/jsartelle/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://mysticcoders.com> ^website
+- Website: <https://github.com/jsartelle> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,9 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-oura-plugin|Oura Ring]]
-- [[obsidian-crypto-lookup|Crypto Lookup]]
-- [[obsidian-word-sprint|Word Sprint]]
+- [[obsidian-auto-split|Auto Split]]
 
 %% End Hub: Released contributions %%
 
@@ -43,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @kinabalu on GitHub Sponsors](https://github.com/sponsors/kinabalu) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @jsartelle on GitHub Sponsors](https://github.com/sponsors/jsartelle) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

@@ -45,7 +45,7 @@ publish: true
 - [[Buy me a coffee]]: <https://ko-fi.com/skepticmystic> ^buy-me-a-coffee
 
 <!--
-- [[GitHub sponsors]]: [Sponsor @argenos on GitHub Sponsors](https://github.com/sponsors/argenos) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @skepticmystic on GitHub Sponsors](https://github.com/sponsors/skepticmystic) ^github-sponsor
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 

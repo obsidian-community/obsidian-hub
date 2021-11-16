@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [chrisgrieser](https://github.com/chrisgrieser/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+- Website: <https://chris-grieser.de/> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -19,6 +19,8 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
+### Plugins
+- [[obsidian-extra-md-commands|Extra Markdown Commands]]
 
 ### Themes
 - [[Shimmering Focus]]

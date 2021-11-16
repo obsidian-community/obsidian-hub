@@ -1,16 +1,16 @@
 ---
 aliases:
-- Andrew Lombardi
+- roovo
 tags:
 - 
 publish: true
 ---
 
-# Andrew Lombardi
+# roovo
 
-- GitHub: [kinabalu](https://github.com/kinabalu/) ^github
+- GitHub: [roovo](https://github.com/roovo/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://mysticcoders.com> ^website
+- Website: <https://github.com/roovo> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,9 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-oura-plugin|Oura Ring]]
-- [[obsidian-crypto-lookup|Crypto Lookup]]
-- [[obsidian-word-sprint|Word Sprint]]
+- [[card-board|CardBoard]]
 
 %% End Hub: Released contributions %%
 
@@ -43,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @kinabalu on GitHub Sponsors](https://github.com/sponsors/kinabalu) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @roovo on GitHub Sponsors](https://github.com/sponsors/roovo) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

@@ -1,16 +1,16 @@
 ---
 aliases:
-- Andrew Lombardi
+- Dave Murray-Rust
 tags:
 - 
 publish: true
 ---
 
-# Andrew Lombardi
+# Dave Murray-Rust
 
-- GitHub: [kinabalu](https://github.com/kinabalu/) ^github
+- GitHub: [mo-seph](https://github.com/mo-seph/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://mysticcoders.com> ^website
+- Website: <https://dave.murray-rust.org> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,9 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-oura-plugin|Oura Ring]]
-- [[obsidian-crypto-lookup|Crypto Lookup]]
-- [[obsidian-word-sprint|Word Sprint]]
+- [[copy-as-latex|Copy as Latex]]
 
 %% End Hub: Released contributions %%
 
@@ -43,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @kinabalu on GitHub Sponsors](https://github.com/sponsors/kinabalu) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @mo-seph on GitHub Sponsors](https://github.com/sponsors/mo-seph) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
