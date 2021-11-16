@@ -1,7 +1,7 @@
 ---
 aliases:
 - SkepticMystic
-tags: 
+tags:
 - 
 publish: true
 ---
@@ -9,9 +9,9 @@ publish: true
 # SkepticMystic
 
 - GitHub: [SkepticMystic](https://github.com/SkepticMystic/) ^github
-%% - Discord: `@` ^discord %%
+<!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/SkepticMystic/advanced-cursors> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -33,6 +33,12 @@ publish: true
 
 - [Metadataframe](https://github.com/SkepticMystic/metadataframe)
 - [Phrase Bank](https://github.com/SkepticMystic/Phrase-Bank)
+
+<!--
+### Others
+
+- 
+-->
 
 ## Sponsor this author
 
