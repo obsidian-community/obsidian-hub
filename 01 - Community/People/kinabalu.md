@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[obsidian-oura-plugin|Oura Ring]]
 - [[obsidian-crypto-lookup|Crypto Lookup]]
+- [[obsidian-word-sprint|Word Sprint]]
 
 %% End Hub: Released contributions %%
 
