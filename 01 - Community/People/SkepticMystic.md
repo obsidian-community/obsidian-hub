@@ -1,7 +1,7 @@
 ---
 aliases:
 - SkepticMystic
-tags: 
+tags:
 - 
 publish: true
 ---
@@ -33,6 +33,12 @@ publish: true
 
 - [Metadataframe](https://github.com/SkepticMystic/metadataframe)
 - [Phrase Bank](https://github.com/SkepticMystic/Phrase-Bank)
+
+<!--
+### Others
+
+- 
+-->
 
 ## Sponsor this author
 

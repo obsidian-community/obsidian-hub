@@ -1,7 +1,7 @@
 ---
 aliases:
 - SlRvb
-tags: 
+tags:
 - 
 publish: true
 ---
@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [SlRvb](https://github.com/SlRvb/) ^github
 <!-- - Discord: `@` ^discord-->
-%% - Website: <> ^website %% 
+<!-- - Website: <> ^website-->
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -37,15 +37,17 @@ publish: true
 - [[Folder Styles (SlRvb)|Folder Styles]]
 - [[Alternate Admonitions (SlRvb)]]
 
-%%
+<!--
 ### Unlisted plugins
 
 - 
+-->
 
+<!--
 ### Others
 
 - 
-%%
+-->
 
 ## Sponsor this author
 
