@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Yaozhuwa/easy-typing-obsidian) or 
 Developed by: [[Yaozhuwa]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Autoformat your note as typing.(Auto captalize and autospace)
+Autoformat your note as typing.(Auto captalize, autospace)
 
 %% ----- Do not edit anything above this line ----- %% 
 
