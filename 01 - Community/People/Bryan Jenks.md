@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 - 
 tags:
 - seedling
@@ -8,6 +8,60 @@ publish: true
 
 # Bryan Jenks
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
+<!-- - GitHub: [Bryan Jenks](https://github.com/Bryan Jenks/) ^github-->
+<!-- - Discord: `@` ^discord-->
+<!-- - Website: <> ^website-->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
-#placeholder/description 
+%% Feel free to add a bio below this comment %%
+
+
+## Author of
+
+%% Begin Hub: Released contributions %%
+
+<!--
+### Plugins
+
+- 
+-->
+
+<!--
+### Themes
+
+- 
+-->
+
+%% End Hub: Released contributions %%
+
+%% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
+
+<!--
+### Unlisted plugins
+
+- 
+-->
+
+<!--
+### Others
+
+- 
+-->
+
+<!--
+## Sponsor this author
+
+- [[GitHub sponsors]]: [Sponsor @Bryan Jenks on GitHub Sponsors](https://github.com/sponsors/Bryan Jenks) ^github-sponsor
+- [[Buy me a coffee]]: ^buy-me-a-coffee
+- [[PayPal]]: ^paypal
+- [[Patreon]]: ^patreon
+
+-->
+
+<!--
+## Follow this author
+
+- [[YouTube Channels|On YouTube]]: ^youtube
+- Twitter: ^twitter
+- ...
+-->
