@@ -25,10 +25,18 @@
 /* Buttons */
 button#HH:hover:before {
 	content: "Only works with Hotkey Helper Installed";
-	color: var(--text-normal);
+	color: var(--text-on-accent);
+	background: black;
+	font-weight: 800;
 	font-size: 16px;
+    
+	position: absolute;
+	margin-top: -72px;
+	margin-left: -12vh;
+	border-radius: 5px;
+	padding: 20px;
+	z-index: 5;
 }
-button#HH:hover {
-	color: transparent;
-	font-size: .1px;
-}
+
+.external-link[href^="obsidian://goto-plugin?"] { background-image: none; }
+.tooltip { --layer-tooltip: 1; }
