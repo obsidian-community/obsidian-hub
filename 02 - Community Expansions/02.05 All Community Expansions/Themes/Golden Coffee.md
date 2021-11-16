@@ -42,11 +42,14 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Vault Name on the Top**: 
 - Hide the Vault Name of your vault on the top of the app
 
+**Background**: 
+- Pattern: Turn it off if you don't want the new background pattern
+
 **Headings**: 
 - Get the \#'s back instead of the Hn's: Turn it off for you to have your \#'s back
 - Don't center the headings: Turn it off if you don't want to center your headings on preview view
 
-**Plugins**: Change the CSS Settings applied to some plugins
+**Plugins**: 
 - **Dataview**: Change the CSS Settings applied to "Dataview"
     - Capitalize First Word: Capitalize the first word from every table in "Dataview"
 - **Kanban**: Change the CSS Settings applied to "Kanban"

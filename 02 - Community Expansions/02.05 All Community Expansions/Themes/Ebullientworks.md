@@ -39,8 +39,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 - Show external links in edit mode: If true, external links (or the content of markdown links) will be shown in edit mode. External links are hidden by default.
+- Float front-matter in a box to the right: If true, front-matter in preview mode will be collapsed in a top-right container.
+- Prevent table content from extending beyond the width of the page: If true, tables will have a maximum width set. Cell content will be wrapped (mid-word if necessary).
 - Headings: Font for text headings (h1 to h6)
 - Tags: Font for displaying inline
 - Text: Default text font for preview and edit mode.
 - Monospace
+- Primary accent color: Choose the primary accent color. You should define a snippet if you select primary-accent-custom. See the Theme's README.
+- Secondary accent color: Choose the secondary accent color. You should define a snippet if you select secondary-accent-custom. See the Theme's README.
 

@@ -40,7 +40,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ## Customization Options (Style Settings Plugin) 
 
 **Colors**: 
+- Light mode palette: Background color palette for light mode
+- Dark mode palette: Background color palette for dark mode
 - Dark Mode High Contrast Code Background: Gives a darker background to code in dark mode, for more contrast.
+- Use Accent color as Active Line Highlight: Replaces the grey with the accent color for active line highlighting.
 - **Accent Colors**: 
     - Light Mode Accent Color
     - Dark Mode Accent Color
@@ -65,13 +68,32 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - UI font
     - Monospace Font
 - **Headings**: 
-    - Heading Font
-    - Heading 1 Size: Changes the size of Heading 1 based on percentage.
-    - Heading 2 Size: Changes the size of Heading 2 based on percentage.
-    - Heading 3 Size: Changes the size of Heading 3 based on percentage.
-    - Heading 4 Size: Changes the size of Heading 4 based on percentage.
-    - Heading 5 Size: Changes the size of Heading 5 based on percentage.
-    - Heading 6 Size: Changes the size of Heading 6 based on percentage.
+    - Heading Font Preview Mode
+    - Heading Font Editor Mode
+    - **Heading Sizes**: 
+        - Heading 1 Size: Changes the size of Heading 1 based on percentage.
+        - Heading 2 Size: Changes the size of Heading 2 based on percentage.
+        - Heading 3 Size: Changes the size of Heading 3 based on percentage.
+        - Heading 4 Size: Changes the size of Heading 4 based on percentage.
+        - Heading 5 Size: Changes the size of Heading 5 based on percentage.
+        - Heading 6 Size: Changes the size of Heading 6 based on percentage.
+    - **Heading Colors**: 
+        - Toggle Heading Font Colours
+        - Toggle Heading Background Colours
+        - **Heading Font Colors**: 
+            - Heading 1 Color
+            - Heading 2 Color
+            - Heading 3 Color
+            - Heading 4 Color
+            - Heading 5 Color
+            - Heading 6 Color
+        - **Heading Background Colors**: 
+            - Heading 1 Color
+            - Heading 2 Color
+            - Heading 3 Color
+            - Heading 4 Color
+            - Heading 5 Color
+            - Heading 6 Color
 
 **Features**: 
 - <hr> ("---") Options: For Edit Mode
