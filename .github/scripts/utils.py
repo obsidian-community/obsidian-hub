@@ -7,8 +7,8 @@ from urllib.request import urlopen
 from jinja2 import FileSystemLoader, Environment, DebugUndefined
 
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
-PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
-THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-css-themes.json"
+PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/c85911035e71e9ecaaf1dc94d012db150ac6f43d/community-plugins.json"
+THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/c85911035e71e9ecaaf1dc94d012db150ac6f43d/community-css-themes.json"
 THEME_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/obsidian.css"
 
 OUTPUT_DIR = {
