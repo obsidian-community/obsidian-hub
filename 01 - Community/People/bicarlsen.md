@@ -14,7 +14,7 @@ publish: true
 
 - Website: <https://github.com/bicarlsen> ^website
 
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

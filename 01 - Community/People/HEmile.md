@@ -14,7 +14,7 @@ publish: true
 
 - Website: <https://twitter.com/emilevankrieken> ^website
 
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

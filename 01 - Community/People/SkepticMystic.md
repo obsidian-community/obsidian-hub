@@ -11,7 +11,7 @@ publish: true
 - GitHub: [SkepticMystic](https://github.com/SkepticMystic/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/SkepticMystic/advanced-cursors> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

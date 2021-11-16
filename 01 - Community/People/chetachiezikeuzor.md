@@ -11,7 +11,7 @@ publish: true
 - GitHub: [chetachiezikeuzor](https://github.com/chetachiezikeuzor/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/chetachiezikeuzor> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish -->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
