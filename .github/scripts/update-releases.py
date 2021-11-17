@@ -3,6 +3,8 @@
 import sys
 import argparse
 import glob
+import os
+import re
 from themes import get_theme_plugin_support, get_theme_settings
 import requests
 
@@ -18,7 +20,7 @@ from utils import (
     get_json_from_github,
     get_plugin_manifest,
 )
-from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE, OUTPUT_DIR
+from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE, OUTPUT_DIR, get_output_dir
 
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
@@ -26,6 +28,8 @@ DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 
 DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
 LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
+
+DOWNLOAD_COUNT_SEARCH = re.compile(r"https://img.shields.io/badge/downloads-(\d+)-")
 
 
 def process_released_plugins(overwrite=False, verbose=False):
@@ -92,7 +96,7 @@ def process_released_themes(overwrite=False, verbose=False):
         plugin_support = get_theme_plugin_support(css_file)
 
         current_name = theme.get("name")
-        download_count = get_theme_current_download_count(theme_downloads, current_name)
+        download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
         theme.update(
             user=user,
@@ -116,8 +120,36 @@ def process_released_themes(overwrite=False, verbose=False):
     return designers
 
 
+def get_theme_download_count_preferring_previous(template, theme_downloads, current_name):
+    previous_download_count = get_previous_download_count_or_none(template, current_name)
+    if previous_download_count:
+        return previous_download_count
+
+    return get_theme_current_download_count(theme_downloads, current_name)
+
+
 def get_theme_current_download_count(theme_downloads, current_name):
     return theme_downloads[current_name]["download"]
+
+
+def get_previous_download_count_or_none(template, current_name):
+    """
+    Read the theme file from disk, and return the previously-saved download count
+    :return: The saved theme download count, or None if this could not be obtained 
+    """
+    file_name = get_output_dir(template, current_name)
+    if not os.path.exists(file_name):
+        # This is a new theme, so we don't yet have a previous download count:
+        return None
+
+    with open(file_name) as file:
+        contents = file.read()
+        result = DOWNLOAD_COUNT_SEARCH.search(contents)
+        if not result:
+            # We could not extract the previous download count.
+            # Perhaps the URL in the theme template has been modified?
+            return None
+        return int(result.group(1))
 
 
 def get_uncategorized_plugins(overwrite=True, verbose=False):
