@@ -103,10 +103,10 @@ def process_released_themes(overwrite=False, verbose=False):
             download_count= download_count,
         )
         group = write_file(
-            template, theme.get("name"), overwrite=overwrite, verbose=verbose, **theme
+            template, current_name, overwrite=overwrite, verbose=verbose, **theme
         )
         designers.append(theme)
-        file_groups.setdefault(group, list()).append(theme.get("name"))
+        file_groups.setdefault(group, list()).append(current_name)
         print_progress_bar(
             theme_list.index(theme) + 1, len(theme_list),
         )
