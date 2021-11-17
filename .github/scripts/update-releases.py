@@ -32,6 +32,11 @@ LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 DOWNLOAD_COUNT_SEARCH = re.compile(r"https://img.shields.io/badge/downloads-(\d+)-")
 
 
+def get_theme_downloads():
+    theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
+    return theme_downloads
+
+
 def process_released_plugins(overwrite=False, verbose=False):
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
@@ -80,7 +85,7 @@ def process_released_themes(overwrite=False, verbose=False):
         0, len(theme_list),
     )
 
-    theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
+    theme_downloads = get_theme_downloads()
 
     for theme in theme_list:
         repo = theme.get("repo")
@@ -282,7 +287,7 @@ def update_theme_download_counts(verbose):
     template = get_template("theme")
     theme_list = get_json_from_github(THEMES_JSON_FILE)
 
-    theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json() # TODO Remove repetition
+    theme_downloads = get_theme_downloads()
 
     for theme in theme_list:
         current_name = theme.get("name")
