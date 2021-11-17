@@ -29,7 +29,8 @@ DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
 LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 
-DOWNLOAD_COUNT_SEARCH = re.compile(r"https://img.shields.io/badge/downloads-(\d+)-")
+DOWNLOAD_COUNT_SHIELDS_URL_PREFIX = 'https://img.shields.io/badge/downloads-'
+DOWNLOAD_COUNT_SEARCH = re.compile(DOWNLOAD_COUNT_SHIELDS_URL_PREFIX + r"(\d+)-")
 
 
 def get_theme_downloads():
@@ -38,7 +39,7 @@ def get_theme_downloads():
 
 
 def get_url_pattern_for_downloads_shield(placeholder_for_download_count):
-    old_text = f"https://img.shields.io/badge/downloads-{placeholder_for_download_count}-"
+    old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
     return old_text
 
 
