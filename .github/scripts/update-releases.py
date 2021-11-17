@@ -37,6 +37,11 @@ def get_theme_downloads():
     return theme_downloads
 
 
+def get_url_pattern_for_downloads_shield(placeholder_for_download_count):
+    old_text = f"https://img.shields.io/badge/downloads-{placeholder_for_download_count}-"
+    return old_text
+
+
 def process_released_plugins(overwrite=False, verbose=False):
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
@@ -186,8 +191,8 @@ def set_theme_download_count(template, current_name, new_download_count, verbose
         old_contents = file.read()
 
     # TODO Remove the repetition of URL - see also DOWNLOAD_COUNT_SEARCH
-    old_text = f"https://img.shields.io/badge/downloads-{previous_download_count}-"
-    new_text = f"https://img.shields.io/badge/downloads-{new_download_count}-"
+    old_text = get_url_pattern_for_downloads_shield(previous_download_count)
+    new_text = get_url_pattern_for_downloads_shield(new_download_count)
     new_contents = old_contents.replace(old_text, new_text)
     assert new_contents != old_contents
 
