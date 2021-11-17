@@ -92,7 +92,7 @@ def process_released_themes(overwrite=False, verbose=False):
         plugin_support = get_theme_plugin_support(css_file)
 
         current_name = theme.get("name")
-        download_count = theme_downloads[current_name]["download"]
+        download_count = get_theme_current_download_count(theme_downloads, current_name)
 
         theme.update(
             user=user,
@@ -114,6 +114,10 @@ def process_released_themes(overwrite=False, verbose=False):
     print_file_summary(file_groups)
 
     return designers
+
+
+def get_theme_current_download_count(theme_downloads, current_name):
+    return theme_downloads[current_name]["download"]
 
 
 def get_uncategorized_plugins(overwrite=True, verbose=False):
