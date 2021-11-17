@@ -152,24 +152,31 @@ def get_previous_download_count_or_none(template, current_name):
         return int(result.group(1))
 
 
-def set_theme_download_count(template, current_name, new_download_count):
+def set_theme_download_count(template, current_name, new_download_count, verbose):
+    file_name = get_output_dir(template, current_name)
+
+    if not os.path.exists(file_name):
+        if verbose:
+            print("No note for theme            {}".format(file_name))
+        return
+
     previous_download_count = get_previous_download_count_or_none(template, current_name)
     if not previous_download_count:
-        # We could not find the previous download count in the file, which means
-        # we will not be able to find the correct location in the file to update.
+        if verbose:
+            print("Cannot read download count   {}".format(file_name))
         return
 
     # If the download count has decreased, there is something gone fundamentally wrong:
     assert new_download_count >= previous_download_count
 
     if new_download_count == previous_download_count:
-        # No change, so nothing to do
+        if verbose:
+            print("Download count unchanged     {}".format(file_name))
         return
 
     # This is a bit hacky, as the call to get_previous_download_count_or_none()
     # already read the file. However, this code is so very fast to run,
     # that for simplicity, it's easier to just re-read the file for now.
-    file_name = get_output_dir(template, current_name)
     with open(file_name) as file:
         old_contents = file.read()
 
@@ -181,6 +188,9 @@ def set_theme_download_count(template, current_name, new_download_count):
 
     with open(file_name, 'w') as file:
         file.write(new_contents)
+
+    if verbose:
+        print("Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
 
 
 def get_uncategorized_plugins(overwrite=True, verbose=False):
@@ -261,11 +271,11 @@ def process_authors(theme_designers, plugin_devs, overwrite=False, verbose=False
     print_file_summary(file_groups)
 
 
-def update_download_counts():
-    update_theme_download_counts()
+def update_download_counts(verbose=True):
+    update_theme_download_counts(verbose)
 
 
-def update_theme_download_counts():
+def update_theme_download_counts(verbose):
     print("-----\nUpdating theme download counts....\n")
     # This is so fast that there is no point showing the progress bar
 
@@ -277,7 +287,7 @@ def update_theme_download_counts():
     for theme in theme_list:
         current_name = theme.get("name")
         download_count = get_theme_current_download_count(theme_downloads, current_name)
-        set_theme_download_count(template, current_name, download_count)
+        set_theme_download_count(template, current_name, download_count, verbose)
 
 
 def main(argv=sys.argv[1:]):
@@ -321,7 +331,7 @@ def main(argv=sys.argv[1:]):
     if args.all or args.themes:
         designers = process_released_themes(args.overwrite, args.verbose)
     if args.update_download_counts:
-        update_download_counts()
+        update_download_counts(args.verbose)
 
     if args.all:
         process_authors(designers, devs, args.overwrite, args.verbose)
