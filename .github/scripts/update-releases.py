@@ -186,12 +186,11 @@ def set_theme_download_count(template, current_name, new_download_count, verbose
         return
 
     # This is a bit hacky, as the call to get_previous_download_count_or_none()
-    # already read the file. However, this code is so very fast to run,
-    # that for simplicity, it's easier to just re-read the file for now.
+    # already read the file. However, this code is so very fast to run
+    # that, for simplicity, it's easier to just re-read the file for now.
     with open(file_name) as file:
         old_contents = file.read()
 
-    # TODO Remove the repetition of URL - see also DOWNLOAD_COUNT_SEARCH
     old_text = get_url_pattern_for_downloads_shield(previous_download_count)
     new_text = get_url_pattern_for_downloads_shield(new_download_count)
     new_contents = old_contents.replace(old_text, new_text)
