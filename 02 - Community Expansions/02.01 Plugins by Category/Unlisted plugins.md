@@ -13,7 +13,7 @@ These plugins are not listed in Obsidian's plugin store. Keep in mind that the a
 
 ## Plugins in this category
 
-%% Add a bullet here and link to the plugins you'd like to categorize! %%
+%% Add a bullet here and link to the plugins you'd like to categorize - and sort them alphabetically! %%
 
 - [[quick-monsters-5e|Quick Monsters 5e]]
 - [SkepticMystic/Phrase-Bank](https://github.com/SkepticMystic/Phrase-Bank)
