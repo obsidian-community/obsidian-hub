@@ -203,6 +203,11 @@ def set_theme_download_count(template, current_name, new_download_count, verbose
         print("Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
 
 
+def update_theme_download_count(template, theme_downloads, current_name, verbose):
+    download_count = get_theme_current_download_count(theme_downloads, current_name)
+    set_theme_download_count(template, current_name, download_count, verbose)
+
+
 def get_uncategorized_plugins(overwrite=True, verbose=False):
     print("Finding uncategorized plugins....\n")
     template = get_template("category")
@@ -296,8 +301,7 @@ def update_theme_download_counts(verbose):
 
     for theme in theme_list:
         current_name = theme.get("name")
-        download_count = get_theme_current_download_count(theme_downloads, current_name)
-        set_theme_download_count(template, current_name, download_count, verbose)
+        update_theme_download_count(template, theme_downloads, current_name, verbose)
 
 
 def main(argv=sys.argv[1:]):
