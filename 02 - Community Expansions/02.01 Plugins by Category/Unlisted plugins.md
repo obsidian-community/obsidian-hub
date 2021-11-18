@@ -16,7 +16,6 @@ These plugins are not listed in Obsidian's plugin store. Keep in mind that the a
 %% Add a bullet here and link to the plugins you'd like to categorize - and sort them alphabetically! %%
 
 - [[quick-monsters-5e|Quick Monsters 5e]]
-- [SkepticMystic/Phrase-Bank](https://github.com/SkepticMystic/Phrase-Bank)
 - [SkepticMystic/metadataframe](https://github.com/SkepticMystic/metadataframe)
 - [eleanorkonik/concatenate](https://github.com/eleanorkonik/concatenate)
 - [muness/obsidian-ics](https://github.com/muness/obsidian-ics)

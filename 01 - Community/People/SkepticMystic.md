@@ -32,7 +32,6 @@ publish: true
 ### Unlisted plugins
 
 - [Metadataframe](https://github.com/SkepticMystic/metadataframe)
-- [Phrase Bank](https://github.com/SkepticMystic/Phrase-Bank)
 
 <!--
 ### Others
