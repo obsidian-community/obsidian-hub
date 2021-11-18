@@ -16,8 +16,15 @@ These plugins are not listed in Obsidian's plugin store. Keep in mind that the a
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
 - [[quick-monsters-5e|Quick Monsters 5e]]
-- [nothingislost/obsidian-regex-search-replace](https://github.com/nothingislost/obsidian-regex-search-replace)
+- [SkepticMystic/Phrase-Bank](https://github.com/SkepticMystic/Phrase-Bank)
+- [SkepticMystic/metadataframe](https://github.com/SkepticMystic/metadataframe)
+- [eleanorkonik/concatenate](https://github.com/eleanorkonik/concatenate)
+- [muness/obsidian-ics](https://github.com/muness/obsidian-ics)
 - [nothingislost/obsidian-print-preview](https://github.com/nothingislost/obsidian-print-preview)
+- [nothingislost/obsidian-regex-search-replace](https://github.com/nothingislost/obsidian-regex-search-replace)
+- [pjeby/hot-reload](https://github.com/pjeby/hot-reload)
+- [zsviczian/obsidian-codeeditor/](https://github.com/zsviczian/obsidian-codeeditor/)
+- [zsviczian/obsidian-javascript-editor](https://github.com/zsviczian/obsidian-javascript-editor)
 
 ## Related categories
 
