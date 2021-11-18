@@ -16,6 +16,8 @@ These plugins are not listed in Obsidian's plugin store. Keep in mind that the a
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
 - [[quick-monsters-5e|Quick Monsters 5e]]
+- [nothingislost/obsidian-regex-search-replace](https://github.com/nothingislost/obsidian-regex-search-replace)
+- [nothingislost/obsidian-print-preview](https://github.com/nothingislost/obsidian-print-preview)
 
 ## Related categories
 
