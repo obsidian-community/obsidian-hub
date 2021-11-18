@@ -132,7 +132,7 @@ def process_released_themes(overwrite=False, verbose=False):
 
 
 def get_theme_download_count_preferring_previous(template, theme_downloads, current_name):
-    previous_download_count = get_previous_download_count_or_none(template, current_name)
+    previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
     if previous_download_count:
         return previous_download_count
 
@@ -143,7 +143,7 @@ def get_theme_current_download_count(theme_downloads, current_name):
     return theme_downloads[current_name]["download"]
 
 
-def get_previous_download_count_or_none(template, current_name):
+def get_theme_previous_download_count_or_none(template, current_name):
     """
     Read the theme file from disk, and return the previously-saved download count
     :return: The saved theme download count, or None if this could not be obtained 
@@ -171,7 +171,7 @@ def set_theme_download_count(template, current_name, new_download_count, verbose
             print("No note for theme            {}".format(file_name))
         return
 
-    previous_download_count = get_previous_download_count_or_none(template, current_name)
+    previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
     if not previous_download_count:
         if verbose:
             print("Cannot read download count   {}".format(file_name))
