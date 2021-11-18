@@ -27,6 +27,9 @@ publish: true
 
 ### Themes
 - [[Minimal]]
+
+### Other
+- [[obsidian-web-clipper|Web Clipper Bookmarklet]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
