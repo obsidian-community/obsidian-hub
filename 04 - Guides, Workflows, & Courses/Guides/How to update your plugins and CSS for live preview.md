@@ -30,6 +30,8 @@ From `@licat`:
 
 > The Editor interface is purposefully designed to be a drop in replacement of CodeMirror 5's object for anything that we support. The migration should be as straightforward as changing the object reference to the editor instead of `sourceMode.cm`. If a plugin is using more advanced API on CodeMirror 5 then we don't support it anyway, and it just won't work on CodeMirror 6 regardless.
 
+- There is now a .is-live-preview class on div.markdown-source-view which will allow you to differentiate live preview from source mode for CSS styling purposes
+
 ### Obsidian DOMs
 
 From [[nothingislost]]
