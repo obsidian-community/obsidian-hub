@@ -30,3 +30,4 @@ tags:
 - [Liam Cain's Obsidian API FAQ](https://liamca.in/Obsidian/API+FAQ/index)
 - [obsidian-md at GitHub](https://github.com/topics/obsidian-md)
 - [What tools and libraries are used in Obsidian?](https://konhi.me/obsidian-stack.html)
+- [[How to update your plugins and CSS for live preview]]

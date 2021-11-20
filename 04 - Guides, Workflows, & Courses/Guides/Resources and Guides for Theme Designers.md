@@ -16,6 +16,7 @@ This note collects resources for beginner and expert theme designers.
 ## Guides
 
 - [[How to Style Obsidian]]
+- [[How to update your plugins and CSS for live preview]]
 
 ## Tools
 
