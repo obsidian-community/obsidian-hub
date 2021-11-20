@@ -67,22 +67,22 @@ Equivalences:
 If you need to write code whose behaviour depends on whether Live Preview is supported (such as during the porting process):
 
 ```typescript
- // Version 1: Not recommended, as it needs @ts-ignore
- //@ts-ignore
- if (this.app.vault.config?.livePreview) {
-	 // Running new Obsidian, that supports Live Preview
- } else {
-	 // Running pre-Live Preview version of Obsidian
- }
+// Version 1: Not recommended, as it needs @ts-ignore
+//@ts-ignore
+if (this.app.vault.config?.livePreview) {
+    // Running new Obsidian, that supports Live Preview
+} else {
+    // Running pre-Live Preview version of Obsidian
+}
 ```
 
 ```typescript
- // Version 2: Bit better, as no need for @ts-ignore
- if ((this.app.vault as any).config?.livePreview) {
-	 // Running new Obsidian, that supports Live Preview
- } else {
-	 // Running pre-Live Preview version of Obsidian
- }
+// Version 2: Bit better, as no need for @ts-ignore
+if ((this.app.vault as any).config?.livePreview) {
+    // Running new Obsidian, that supports Live Preview
+} else {
+    // Running pre-Live Preview version of Obsidian
+}
 ```
 
 Even better would be to wrap the check in to a helper function such as `isLivePreviewSupported()`, so that the logic is in only one place, and can be updated easily if needed.
