@@ -65,3 +65,18 @@ Equivalences:
 From `@licat`:
 
 > With respect to themes, we try our best to maintain the same css classes and DOM structure as we possibly can when migrating to CM6. Some changes are inevitable due to how the new underlying editor works, but since CM6 has been in effect for mobile since day 1, most actively updated themes that works well on mobile should work similarly well for Live Preview
+
+## Examples of Updated Code
+
+### Updating Plugins
+
+- Porting the [[nldates-obsidian|Natural Language Dates]] plugin - by [[argenos|Argentina Ortega Sainz]]
+	- A selection of useful steps:
+		- [Use Editor interface for CM6 and CM5](https://github.com/argenos/nldates-obsidian/pull/57/commits/642bac6977597dc48ec994ecc1bcf957097647dd)
+		- [Refactor getWordBoundaries to support CM6](https://github.com/argenos/nldates-obsidian/pull/57/commits/16e103335409df6f259a9ef0fc65cb3f4fe55f40)
+		- [Fix hotkeys for CM5](https://github.com/argenos/nldates-obsidian/pull/57/commits/6094aa7c056954b9f3caf5376a66f10faccf6d82)
+	- The complete PR (which contains other fixes/refactoring too): [argenos/nldates-obsidian/#57](https://github.com/argenos/nldates-obsidian/pull/57 "https://github.com/argenos/nldates-obsidian/pull/57")
+
+### Updating Themes
+
+- [CSS for inline block references that works for both NEW CM6 Live Preview and also Preview Mode for both CM5 (Legacy) and CM6 (New)](https://gist.github.com/GitMurf/46c9ae78d6c3ce53d42d7832c7601271) - by `@Murf`
