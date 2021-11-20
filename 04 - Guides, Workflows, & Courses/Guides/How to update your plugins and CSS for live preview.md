@@ -60,15 +60,7 @@ Equivalences:
 - **Desktop CM6: Editor (Live Preview)** should be very similar, DOM wise, to **Desktop CM6: Editor (Source)** with the exception that inactive markdown tokens are replaced with a zero width space.
 - **Desktop CM6: Editor (Live Preview)** also has the added distinction that it can now have embedded content rendered in it which adds new DOM elements into the CM6 Editor DOM. These elements should look pretty similar to their preview mode counterparts but we'll probably want to wait until things stabilize before their structure is documented.
 
-## For Theme Developers
-
-From `@licat`:
-
-> With respect to themes, we try our best to maintain the same css classes and DOM structure as we possibly can when migrating to CM6. Some changes are inevitable due to how the new underlying editor works, but since CM6 has been in effect for mobile since day 1, most actively updated themes that works well on mobile should work similarly well for Live Preview
-
-## Examples of Updated Code
-
-### Updating Plugins
+### Example Code for Updating Plugins
 
 - Porting the [[nldates-obsidian|Natural Language Dates]] plugin - by [[argenos|Argentina Ortega Sainz]]
 	- A selection of useful steps:
@@ -77,6 +69,12 @@ From `@licat`:
 		- [Fix hotkeys for CM5](https://github.com/argenos/nldates-obsidian/pull/57/commits/6094aa7c056954b9f3caf5376a66f10faccf6d82)
 	- The complete PR (which contains other fixes/refactoring too): [argenos/nldates-obsidian/#57](https://github.com/argenos/nldates-obsidian/pull/57 "https://github.com/argenos/nldates-obsidian/pull/57")
 
-### Updating Themes
+## For Theme Developers
+
+From `@licat`:
+
+> With respect to themes, we try our best to maintain the same css classes and DOM structure as we possibly can when migrating to CM6. Some changes are inevitable due to how the new underlying editor works, but since CM6 has been in effect for mobile since day 1, most actively updated themes that works well on mobile should work similarly well for Live Preview
+
+### Example Code for Updating Themes
 
 - [CSS for inline block references that works for both NEW CM6 Live Preview and also Preview Mode for both CM5 (Legacy) and CM6 (New)](https://gist.github.com/GitMurf/46c9ae78d6c3ce53d42d7832c7601271) - by `@Murf`
