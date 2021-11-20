@@ -60,6 +60,33 @@ Equivalences:
 - **Desktop CM6: Editor (Live Preview)** should be very similar, DOM wise, to **Desktop CM6: Editor (Source)** with the exception that inactive markdown tokens are replaced with a zero width space.
 - **Desktop CM6: Editor (Live Preview)** also has the added distinction that it can now have embedded content rendered in it which adds new DOM elements into the CM6 Editor DOM. These elements should look pretty similar to their preview mode counterparts but we'll probably want to wait until things stabilize before their structure is documented.
 
+### Code Snippets
+
+#### Detect if Live Preview is supported
+
+If you need to write code whose behaviour depends on whether Live Preview is supported (such as during the porting process):
+
+```typescript
+     // Version 1: Not recommended, as it needs @ts-ignore
+     //@ts-ignore
+     if (this.app.vault.config?.livePreview) {
+	     // Running new Obsidian, that supports Live Preview
+	 } else {
+	     // Running pre-Live Preview version of Obsidian
+     }
+```
+
+```typescript
+     // Version 2: Bit better, as no need for @ts-ignore
+     if ((this.app.vault as any).config?.livePreview) {
+	     // Running new Obsidian, that supports Live Preview
+	 } else {
+	     // Running pre-Live Preview version of Obsidian
+     }
+```
+
+Even better would be to wrap the check in to a helper function such as `isLivePreviewSupported()`, so that the logic is in only one place, and can be updated easily if needed.
+
 ### Example Code for Updating Plugins
 
 - Porting the [[nldates-obsidian|Natural Language Dates]] plugin - by [[argenos|Argentina Ortega Sainz]]
