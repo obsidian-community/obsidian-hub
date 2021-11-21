@@ -1,11 +1,16 @@
 import yaml
+import os
 import re
+import requests
 
 from plugins import CORE_PLUGINS
-from utils import PLUGINS_JSON_FILE, get_json_from_github
+from utils import PLUGINS_JSON_FILE, get_json_from_github, get_output_dir
 
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
+
+DOWNLOAD_COUNT_SHIELDS_URL_PREFIX = 'https://img.shields.io/badge/downloads-'
+DOWNLOAD_COUNT_SEARCH = re.compile(DOWNLOAD_COUNT_SHIELDS_URL_PREFIX + r"(\d+)-")
 
 
 def get_theme_settings(theme_css):
@@ -110,3 +115,90 @@ def get_theme_plugin_support(theme_css, comm_plugins=None):
         plugins["community"] = supported_comm_plugins
 
         return plugins
+
+
+def get_theme_downloads():
+    theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
+    return theme_downloads
+
+
+def get_url_pattern_for_downloads_shield(placeholder_for_download_count):
+    old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
+    return old_text
+
+
+def get_theme_download_count_preferring_previous(template, theme_downloads, current_name):
+    previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
+    if previous_download_count:
+        return previous_download_count
+
+    return get_theme_current_download_count(theme_downloads, current_name)
+
+
+def get_theme_current_download_count(theme_downloads, current_name):
+    return theme_downloads[current_name]["download"]
+
+
+def get_theme_previous_download_count_or_none(template, current_name):
+    """
+    Read the theme file from disk, and return the previously-saved download count
+    :return: The saved theme download count, or None if this could not be obtained 
+    """
+    file_name = get_output_dir(template, current_name)
+    if not os.path.exists(file_name):
+        # This is a new theme, so we don't yet have a previous download count:
+        return None
+
+    with open(file_name) as file:
+        contents = file.read()
+        result = DOWNLOAD_COUNT_SEARCH.search(contents)
+        if not result:
+            # We could not extract the previous download count.
+            # Perhaps the URL in the theme template has been modified?
+            return None
+        return int(result.group(1))
+
+
+def set_theme_download_count(template, current_name, new_download_count, verbose):
+    file_name = get_output_dir(template, current_name)
+
+    if not os.path.exists(file_name):
+        if verbose:
+            print("No note for theme            {}".format(file_name))
+        return
+
+    previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
+    if not previous_download_count:
+        if verbose:
+            print("Cannot read download count   {}".format(file_name))
+        return
+
+    # If the download count has decreased, there is something gone fundamentally wrong:
+    assert new_download_count >= previous_download_count
+
+    if new_download_count == previous_download_count:
+        if verbose:
+            print("Download count unchanged     {}".format(file_name))
+        return
+
+    # This is a bit hacky, as the call to get_previous_download_count_or_none()
+    # already read the file. However, this code is so very fast to run
+    # that, for simplicity, it's easier to just re-read the file for now.
+    with open(file_name) as file:
+        old_contents = file.read()
+
+    old_text = get_url_pattern_for_downloads_shield(previous_download_count)
+    new_text = get_url_pattern_for_downloads_shield(new_download_count)
+    new_contents = old_contents.replace(old_text, new_text)
+    assert new_contents != old_contents
+
+    with open(file_name, 'w') as file:
+        file.write(new_contents)
+
+    if verbose:
+        print("Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
+
+
+def update_theme_download_count(template, theme_downloads, current_name, verbose):
+    download_count = get_theme_current_download_count(theme_downloads, current_name)
+    set_theme_download_count(template, current_name, download_count, verbose)
