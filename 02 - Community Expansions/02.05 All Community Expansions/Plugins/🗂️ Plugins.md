@@ -12,6 +12,7 @@ tags:
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/Unlisted/🗂️ Unlisted|🗂️ Unlisted]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/adjacency-matrix-maker|adjacency-matrix-maker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/advanced-cursors|advanced-cursors]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/advanced-toolbar|advanced-toolbar]]
