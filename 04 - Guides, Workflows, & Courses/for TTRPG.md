@@ -47,3 +47,7 @@ This note collects resources for those using Obsidian for tabletop role-playing 
 ## Community Plugins
 
 ![[Plugins for TTRPG#Plugins in this category]]
+
+### Unlisted plugins
+
+- [[quick-monsters-5e|Quick Monsters 5e]]
