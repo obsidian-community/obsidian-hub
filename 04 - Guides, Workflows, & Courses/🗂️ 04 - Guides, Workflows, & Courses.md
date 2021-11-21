@@ -35,5 +35,6 @@ Do you already have a good idea of your workflow, but are missing the tools to i
 -  [[04 - Guides, Workflows, & Courses/for Plugin Developers|for Plugin Developers]]
 -  [[04 - Guides, Workflows, & Courses/for Power Users|for Power Users]]
 -  [[04 - Guides, Workflows, & Courses/for Theme Designers|for Theme Designers]]
+-  [[04 - Guides, Workflows, & Courses/for TTRPG|for TTRPG]]
 -  [[04 - Guides, Workflows, & Courses/for Using Obsidian on Mobile|for Using Obsidian on Mobile]]
 %% Hub MOCs: Don’t edit above  %%
