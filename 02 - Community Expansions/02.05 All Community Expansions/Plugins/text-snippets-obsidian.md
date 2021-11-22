@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `text-snippets-obsidian`
 Links: [GitHub repository](https://github.com/ArianaKhit/text-snippets-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=text-snippets-obsidian)
 Developed by: [[ArianaKhit]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Allows you to replace text templates for faster typing, create your own.
 

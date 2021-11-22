@@ -8,6 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
+![Downloads](https://img.shields.io/badge/downloads-14576-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kepano/obsidian-minimal?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/kepano/obsidian-minimal/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/kepano/obsidian-minimal?color=573E7A&logo=github&style=for-the-badge)
@@ -52,13 +53,15 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Fancy cursor: Editor cursor uses your accent color
 - Default icons: Use default icons instead of Minimal set
 - Wide status bar: Use full width status bar
-- Hide sidebar borders: Turn off borders on sidebars
 - Hide action buttons in focus mode: When sidebars are collapsed hide action buttons, accessible by hovering
-- Show full file names: Turn off trimming on files in sidebar
+- Hide borders: Removes borders between sidebar elements
+- Border below pane title: Show border below pane title (if borders are not hidden)
+- Full file names in sidebar: Turn off trimming on files in sidebar
 - Folding offset: Recommended if you use folding headings and indents
 - Relationship lines in Preview: Show vertical lines that connect related bullet points and task lists
 - Relationship lines in Editor: Show vertical lines that connect related bullet points and task lists
 - Maximize media: Images and videos fill the width of the line
+- Disable image zoom: Turns off click/hold to zoom images
 - Underline internal links: Show underlines on internal links
 - Underline external links: Show underlines on external links
 
@@ -96,9 +99,48 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H6 font weight: Accepts numbers representing the CSS font-weight
 
 **Advanced**: 
+- Code color
 - Cursor style: The cursor style for UI elements
 - Small font size: Font size in px of the main text
 - Tiny font size: Font size in px of the main text
 
 **Credits**: Made with ❤︎ by @kepano. Support my work at buymeacoffee.com/kepano
 
+## Plugin Compatibility[^1]
+
+**Core plugins**:
+- [[Obsidian Core Plugins#Backlinks|Backlinks]]
+- [[Obsidian Core Plugins#Command palette|Command palette]]
+- [[Obsidian Core Plugins#Daily notes|Daily notes]]
+- [[Obsidian Core Plugins#File explorer|File explorer]]
+- [[Obsidian Core Plugins#File recovery|File recovery]]
+- [[Obsidian Core Plugins#Search|Search]]
+- [[Obsidian Core Plugins#Graph view|Graph view]]
+- [[Obsidian Core Plugins#Outgoing Links|Outgoing Links]]
+- [[Obsidian Core Plugins#Outline|Outline]]
+- [[Obsidian Core Plugins#Page preview|Page preview]]
+- [[Obsidian Core Plugins#Publish|Publish]]
+- [[Obsidian Core Plugins#Random note|Random note]]
+- [[Obsidian Core Plugins#Starred notes|Starred notes]]
+- [[Obsidian Core Plugins#Quick switcher|Quick switcher]]
+- [[Obsidian Core Plugins#Sync|Sync]]
+- [[Obsidian Core Plugins#Tag pane|Tag pane]]
+- [[Obsidian Core Plugins#Word count|Word count]]
+
+**Community plugins**:
+- [[dataview|Dataview]]
+- [[calendar|Calendar]]
+- [[obsidian-checklist-plugin|Checklist]]
+- [[obsidian-codemirror-options|CodeMirror Options]]
+- [[obsidian-dictionary|obsidian-dictionary]]
+- [[obsidian-excalidraw-plugin|Excalidraw]]
+- [[obsidian-git|Obsidian Git]]
+- [[obsidian-hider|Hider]]
+- [[obsidian-kanban|Kanban]]
+- [[obsidian-minimal-settings|Minimal Theme Settings]]
+- [[obsidian-outliner|Outliner]]
+- [[obsidian-system-dark-mode|System Dark Mode]]
+- [[obsidian-style-settings|Style Settings]]
+- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
+
+[^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

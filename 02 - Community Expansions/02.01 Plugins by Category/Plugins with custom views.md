@@ -37,6 +37,7 @@ Plugins that change or add new views, modify how notes are displayed or add popo
 - [[obsidian-focus-mode|Focus Mode]]
 - [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]] 
 - [[obsidian-view-mode-by-frontmatter|Force note view mode by front matter]]
+- [[obsidian-map-view|Map View]]
 
 ## Related categories
 

@@ -37,14 +37,16 @@ Once you have added or edited the note using Obsidian, come back and check out [
 This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folder structure of this Community Vault.
 
 %% Keep this updated when the Vault structure changes! %%
+%% The command is 'tree -d -N -I venv --noreport' %%
+%% On Mac, pipe it through pbcopy to get the output on to the clipboard %%
 ```
 ├── 00 - Contribute to the Obsidian Hub
 │   ├── 01 Templates
 │   └── 02 Attachments
 ├── 01 - Community
-│   ├── Authors - Persons
 │   ├── Events
 │   ├── Obsidian Roundup
+│   ├── People
 │   └── Video Channels
 ├── 02 - Community Expansions
 │   ├── 02.01 Plugins by Category
@@ -106,7 +108,7 @@ Each note represents exactly one tool, which (in the future) should also serve a
 #### [[🗂️ 03 - Showcases & Templates]]
 All Showcases, Examples, and Templates belong into this folder. This includes special-purpose or pre-prepared Vaults ("Starter Kits"). Note examples are pretty much the equivalent of the `#snip-a-note` channel on Discord.
 
-In this folder, you can add new notes with the [[T - Showcases|Template for Showcases]], the [[T - Vault showcase|Template for Vaults]], and the [[T - Templates|Template for Templates]] (Yeah, this is getting meta.)
+In this folder, you can add new notes with the [[T - Note showcase|Template for Showcases]], the [[T - Vault showcase|Template for Vaults]], and the [[T - Templates|Template for Templates]] (Yeah, this is getting meta.)
 
 #### [[🗂️ 04 - Guides, Workflows, & Courses]]
 This is where all guides, instructions, explainers, and workflows should be placed. Courses, basically being more comprehensive paid guides, are also located here. To make it easier for everyone to find guides relevant to them, the guides should be linked to from the "for Group X" notes (which are basically MoCs) .

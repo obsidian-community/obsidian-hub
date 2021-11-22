@@ -2,7 +2,6 @@
 
 import sys
 import argparse
-import glob
 from themes import get_theme_plugin_support, get_theme_settings
 
 from utils import (
@@ -17,7 +16,8 @@ from utils import (
     get_json_from_github,
     get_plugin_manifest,
 )
-from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE, OUTPUT_DIR
+from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
+from themes import get_theme_downloads, get_theme_download_count_preferring_previous, update_theme_download_count
 
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
@@ -25,7 +25,6 @@ DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 
 DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
 LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
-
 
 def process_released_plugins(overwrite=False, verbose=False):
     print("-----\nProcessing plugins....\n")
@@ -74,6 +73,9 @@ def process_released_themes(overwrite=False, verbose=False):
     print_progress_bar(
         0, len(theme_list),
     )
+
+    theme_downloads = get_theme_downloads()
+
     for theme in theme_list:
         repo = theme.get("repo")
         user = repo.split("/")[0]
@@ -86,18 +88,23 @@ def process_released_themes(overwrite=False, verbose=False):
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
         settings = get_theme_settings(css_file)
         plugin_support = get_theme_plugin_support(css_file)
+
+        current_name = theme.get("name")
+        download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
+
         theme.update(
             user=user,
             modes=modes,
             branch=branch,
             settings=settings,
             plugins=plugin_support,
+            download_count= download_count,
         )
         group = write_file(
-            template, theme.get("name"), overwrite=overwrite, verbose=verbose, **theme
+            template, current_name, overwrite=overwrite, verbose=verbose, **theme
         )
         designers.append(theme)
-        file_groups.setdefault(group, list()).append(theme.get("name"))
+        file_groups.setdefault(group, list()).append(current_name)
         print_progress_bar(
             theme_list.index(theme) + 1, len(theme_list),
         )
@@ -185,6 +192,24 @@ def process_authors(theme_designers, plugin_devs, overwrite=False, verbose=False
     print_file_summary(file_groups)
 
 
+def update_download_counts(verbose=True):
+    update_theme_download_counts(verbose)
+
+
+def update_theme_download_counts(verbose):
+    print("-----\nUpdating theme download counts....\n")
+    # This is so fast that there is no point showing the progress bar
+
+    template = get_template("theme")
+    theme_list = get_json_from_github(THEMES_JSON_FILE)
+
+    theme_downloads = get_theme_downloads()
+
+    for theme in theme_list:
+        current_name = theme.get("name")
+        update_theme_download_count(template, theme_downloads, current_name, verbose)
+
+
 def main(argv=sys.argv[1:]):
     parser = argparse.ArgumentParser(
         description="Create notes based on the obsidian-releases repo"
@@ -208,6 +233,13 @@ def main(argv=sys.argv[1:]):
         action="store_true",
         help="Only process plugins (authors won't be updated)",
     )
+    group.add_argument(
+        "--update-download-counts",
+        action="store_true",
+        help="Only update the download counts in existing themes. "
+             "This ignores the overwrite argument, and always updates.",
+    )
+
 
     args = parser.parse_args(argv)
 
@@ -218,6 +250,8 @@ def main(argv=sys.argv[1:]):
         get_uncategorized_plugins()
     if args.all or args.themes:
         designers = process_released_themes(args.overwrite, args.verbose)
+    if args.update_download_counts:
+        update_download_counts(args.verbose)
 
     if args.all:
         process_authors(designers, devs, args.overwrite, args.verbose)
