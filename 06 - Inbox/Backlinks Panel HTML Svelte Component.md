@@ -1,4 +1,4 @@
-The Obsidian backlinks panel uses the following HTML structure. If your plugin attempts to recreate a similar structure, like the [[Graph Analysis]] Co-Citations view, it is useful to use the same classes that Obsidian natively uses. That way, themes will more easily apply to your custom view.
+The Obsidian backlinks panel uses the following HTML structure. If your plugin attempts to recreate a similar structure, like the [[graph-analysis|Graph Analysis]] Co-Citations view, it is useful to use the same classes that Obsidian natively uses. That way, themes will more easily apply to your custom view.
 
 ```svelte
 <script lang="ts">
