@@ -35,7 +35,9 @@ This note collects resources for those using Obsidian for tabletop role-playing 
 
 ## CSS Snippets
 
-- 
+- [[Center Tables]]
+- [[All Alternate Themes (ITS Theme)#D D|D&D Alternate Theme]]
+- [[All Alternate Themes (ITS Theme)#D D WOTC|D&D WOTC Alternate Theme]]
 
 ## Resources
 
