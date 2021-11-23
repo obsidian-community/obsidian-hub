@@ -32,6 +32,10 @@ Snippet utilizes the [[obsidian-style-settings|Style Settings]] plugin.
 ![](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/main/Images/Theme-DnD--Darkmode.png)
 ![](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/main/Images/Theme-DnD--Lightmode.png)
 
+###### D&D WOTC
+![](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Theme-DnD-WOTC--Lightmode.png)
+![](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Theme-DnD-WOTC--Darkmode.png)
+
 ###### School Days
 ![](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/main/Images/Theme-School-Days--Darkmode.png)
 ![](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/main/Images/Theme-School-Days--Lightmode.png)

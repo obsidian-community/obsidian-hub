@@ -45,6 +45,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
   - [[Alternate Checkboxes (SlRvb)|Alternate Checkboxes]]
   - [[Folder Styles (SlRvb)|Folder Styles]]
   - [[Alternate Admonitions (SlRvb)]]
+  - [[Center Tables]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
