@@ -1,6 +1,6 @@
 ---
 aliases: 
-- 
+- "D&D Character Sheet"
 tags:
 - seedling
 publish: true
