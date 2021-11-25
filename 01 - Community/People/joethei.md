@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[obsidian-plantuml|PlantUML]]
 - [[key-promoter|Key Promoter]]
+- [[rss-reader|RSS Reader]]
 
 %% End Hub: Released contributions %%
 
