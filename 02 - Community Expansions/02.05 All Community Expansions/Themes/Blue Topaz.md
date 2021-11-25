@@ -55,7 +55,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Theme Dark (url): Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
 
 **Color**: 
-- Color scheme options
+- Color scheme options (from Topaz Community)
 - Main text color
 - **Background colors**: 
     - Background Primary
@@ -101,6 +101,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Vault Name
 
 **Style**: 
+- Wide status bar: Use full width status bar
+- Text-indent of the first line in preview mode
+- Remove underlines of header 1 & 2
 - **List**: 
     - List
 - **Folder**: 
@@ -116,7 +119,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - PDF Color Scheme
 - **For Other Plugins (Coming soon)**: 
     - Calendar (Coming soon)
+    - **Admonition Style**: 
+        - Admonition special style support: 目前支持ad类型：bank 全透明框🔸def definition🔸thm theorem🔸lem lemma🔸cor corollary🔸pro proposition❗使用方法❗下面以thm类型为例，在admonition插件的设置页面中，类型填 thm，标题填 定理，图标选择hand-point-right，颜色自己选比如浅绿色，添加成功后，在正文中使用代码块```ad-thm 即可激活。其他类型以此类推。
     - **Kanban (Coming soon)**: 
         - Static (Coming soon)
         - Dynamic (Coming soon)
+
+**Supported by Topaz Community 😁**: 
 

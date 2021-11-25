@@ -178,6 +178,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Illusion Theme Inspired Headings
 - **Lists**: 
     - Colorful Task Text: Add color to the text of the task.
+    - Colorful Task Backgrounds: Add color to the background of the task.
+    - Normal Task Text: Reapply regular text color to the text of the task.
     - Restore Crossed Checkbox
     - Default Bullet Disc Shape
     - Bullet Shape: Add quotes around your new bullet. For example "~"
@@ -206,6 +208,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Colors**: 
 - **Text**: Change text colors
     - Text
+    - Soft Text
     - Faint Text
     - Headings: Heading, Vault title, HR Symbol, blockquote quotation mark, and open folder icon colors.
     - File Title: File text color.
@@ -218,7 +221,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Sidebar: Change only sidebar, right settings pane colors.
     - Dark Sidebar: Left settings bar, <i></i> background, graph background, and pane separator colors.
     - File: File icon color.
-    - Folder: Open folder icon color.
+    - Open Folder: Open folder icon color.
+    - Folder Title Hover: Open folder icon color.
     - Sliding Panes Dropshadow
 - **Note Elements**: 
     - Tag Color

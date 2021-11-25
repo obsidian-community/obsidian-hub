@@ -82,21 +82,27 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **Level 1 Headings**: 
     - H1 font size: Accepts any CSS font-size value
     - H1 font weight: Accepts numbers representing the CSS font-weight
+    - H1 font color
 - **Level 2 Headings**: 
     - H2 font size: Accepts any CSS font-size value
     - H2 font weight: Accepts numbers representing the CSS font-weight
+    - H2 font color
 - **Level 3 Headings**: 
     - H3 font size: Accepts any CSS font-size value
     - H3 font weight: Accepts numbers representing the CSS font-weight
+    - H3 font color
 - **Level 4 Headings**: 
     - H4 font size: Accepts any CSS font-size value
     - H4 font weight: Accepts numbers representing the CSS font-weight
+    - H4 font color
 - **Level 5 Headings**: 
     - H5 font size: Accepts any CSS font-size value
     - H5 font weight: Accepts numbers representing the CSS font-weight
+    - H5 font color
 - **Level 6 Headings**: 
     - H6 font size: Accepts any CSS font-size value
     - H6 font weight: Accepts numbers representing the CSS font-weight
+    - H6 font color
 
 **Advanced**: 
 - Code color
@@ -132,7 +138,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[calendar|Calendar]]
 - [[obsidian-checklist-plugin|Checklist]]
 - [[obsidian-codemirror-options|CodeMirror Options]]
-- [[obsidian-dictionary|obsidian-dictionary]]
+- [[obsidian-dictionary-plugin|Dictionary]]
 - [[obsidian-excalidraw-plugin|Excalidraw]]
 - [[obsidian-git|Obsidian Git]]
 - [[obsidian-hider|Hider]]
