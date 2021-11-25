@@ -111,6 +111,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Things|Things]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Tokyo Night|Tokyo Night]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Traffic Lights|Traffic Lights]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Typewriter|Typewriter]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Typomagical|Typomagical]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ursa|Ursa]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vileplume|Vileplume]]
