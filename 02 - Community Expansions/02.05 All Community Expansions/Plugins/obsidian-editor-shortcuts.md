@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/timhor/obsidian-editor-shortcuts) 
 Developed by: [[timhor]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code or Sublime Text
+Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code (vscode) or Sublime Text
 
 %% ----- Do not edit anything above this line ----- %% 
 
