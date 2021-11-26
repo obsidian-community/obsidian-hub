@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[extract-url|Extract url content]]
+- [[todo-txt|Todo.txt support]]
 - [[obsidian-webhooks|Webhook Plugin]]
 
 %% End Hub: Released contributions %%
