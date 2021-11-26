@@ -1,12 +1,12 @@
 ---
 aliases:
-- Andrew Brown & Tim Hor
+- Tim Hor
 tags:
 - 
 publish: true
 ---
 
-# Andrew Brown & Tim Hor
+# Tim Hor
 
 - GitHub: [timhor](https://github.com/timhor/) ^github
 <!-- - Discord: `@` ^discord-->
