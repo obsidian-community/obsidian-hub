@@ -39,14 +39,14 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Show/Hide Elements**: Re-enable Elements hidden by this theme.
+**Show or Hide UI Elements**: Re-enable Elements hidden by this theme.
 - Re-enable Title Bar: Re-enable this to have a title bar, e.g. for moving the Obsidian window
 - Re-enable Ribbons: Ribbons are the thin vertical bars to the very left & right
 - Permanently show the Header Bar: When false, the Header bar is still visible upon focus and hover
 - Permanently show the Status Bar: When false, the Status bar is still visible upon focus and hover
 - Re-enable Close Buttons: When false, you can close the menu with `Esc` or by clicking outside the menu area.
 - Permanently show the Edit Mode Collapse Arrows (Fold Arrows): When false, you collapse buttons still become visible upon hovering.
-- Re-enable the Fold Markers: Folder markers are the "..."" next to a folded/collapsed item.
+- Re-enable the Fold Markers: Folder markers are the "..." next to a folded/collapsed item.
 
 **Fonts**: Sizes, Font-Face, Letter-Spacing
 - Main Font
@@ -65,6 +65,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Level 3 Headings
 - Level 4 Headings
 - Level 5 Headings
+
+**Blockquotes**: Decoration, Size
+- Normal-sized Blockquotes: Blockquotes have the same size and line-height as the rest of the text.
 
 **Editor Content**: Images, PDFs, Tables, Line Length, & Max View
 - Turn off the "Max View" feature: "Max View" makes panes full length and images/PDFs full width when the left sidebar is hidden and readable line length when the left sidebar is shown.
@@ -94,6 +97,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Left-aligned text in Longform notes: Use left-aligned instead of justified text.
 - No Background Color for Longform Notes: Turn off the slight coloring of longform notes.
 - Hide files named "Index.md" from File Explorer: Files named that way are created by some plugins like the Longform Plugin and in many cases should not be touched.
+
+**Mobile**: mobile-specific settings
+- Mobile Font Size
 
 **Miscellaneous**: Checkboxes, Pandoc Citations, Popovers, Annotation Tags
 - Normal Checkboxes: Use the normal checkboxes from the default theme.
@@ -132,8 +138,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[quick-explorer|Quick Explorer]]
 - [[templater-obsidian|Templater]]
 - [[obsidian-system-dark-mode|System Dark Mode]]
-- [[obsidian-extra-md-html-syntax|obsidian-extra-md-html-syntax]]
+- [[obsidian-extra-md-commands|Extra Markdown Commands]]
 - [[obsidian-style-settings|Style Settings]]
 - [[obsidian-activity-history|Activity History]]
+- [[breadcrumbs|Breadcrumbs]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

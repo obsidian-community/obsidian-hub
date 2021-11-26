@@ -51,8 +51,8 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - UI font: Used for buttons, menus and sidebar
 
 **Typography**: 
-- Body font size: Font size in px of the main text
-- Sidebar font size: Font size in px of the sidebar and small text
+- Note titles, modals, and alt text size: Font size in px (main editor/preview text size now controlled via slider in Appearance settings)
+- Sidebar and tag font size: Font size in px of sidebar, tags, and small text
 - Body line height: Line height of the main text
 - Normal line width: Number of characters per line
 - Maximum line width: Percentage of space inside a pane that a line can fill. Recommended values between 80 to 100

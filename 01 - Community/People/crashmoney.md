@@ -1,16 +1,16 @@
 ---
 aliases:
-- Johannes Theiner
+- crashmoney
 tags:
 - 
 publish: true
 ---
 
-# Johannes Theiner
+# crashmoney
 
-- GitHub: [joethei](https://github.com/joethei/) ^github
+- GitHub: [crashmoney](https://github.com/crashmoney/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/joethei> ^website
+<!-- - Website: <> ^website-->
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -19,11 +19,9 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
-### Plugins
-- [[obsidian-plantuml|PlantUML]]
-- [[key-promoter|Key Promoter]]
-- [[rss-reader|RSS Reader]]
 
+### Themes
+- [[Typewriter]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -43,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @joethei on GitHub Sponsors](https://github.com/sponsors/joethei) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @crashmoney on GitHub Sponsors](https://github.com/sponsors/crashmoney) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

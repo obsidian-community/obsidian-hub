@@ -1,16 +1,16 @@
 ---
 aliases:
-- Johannes Theiner
+- Nico Jeske
 tags:
 - 
 publish: true
 ---
 
-# Johannes Theiner
+# Nico Jeske
 
-- GitHub: [joethei](https://github.com/joethei/) ^github
+- GitHub: [nicojeske](https://github.com/nicojeske/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/joethei> ^website
+- Website: <https://github.com/nicojeske/mousewheel-image-zoom> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,9 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-plantuml|PlantUML]]
-- [[key-promoter|Key Promoter]]
-- [[rss-reader|RSS Reader]]
+- [[mousewheel-image-zoom|Mousewheel Image zoom]]
 
 %% End Hub: Released contributions %%
 
@@ -43,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @joethei on GitHub Sponsors](https://github.com/sponsors/joethei) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @nicojeske on GitHub Sponsors](https://github.com/sponsors/nicojeske) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

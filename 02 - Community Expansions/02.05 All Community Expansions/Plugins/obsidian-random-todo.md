@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-random-todo`
 Links: [GitHub repository](https://github.com/NatiAris/obsidian-random-todo) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-random-todo)
 Developed by: [[NatiAris]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Open a random file containing your custom to-do marker, or a random marker at its position
 

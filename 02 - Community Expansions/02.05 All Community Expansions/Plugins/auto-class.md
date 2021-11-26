@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/OfficerHalf/obsidian-auto-class) o
 Developed by: [[OfficerHalf]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Automatically apply CSS classes to the markdown view based on a note's path.
+Automatically apply CSS classes to the markdown view based on a note's path and tags.
 
 %% ----- Do not edit anything above this line ----- %% 
 

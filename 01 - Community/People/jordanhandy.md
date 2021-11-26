@@ -1,16 +1,16 @@
 ---
 aliases:
-- Johannes Theiner
+- Jordan Handy
 tags:
 - 
 publish: true
 ---
 
-# Johannes Theiner
+# Jordan Handy
 
-- GitHub: [joethei](https://github.com/joethei/) ^github
+- GitHub: [jordanhandy](https://github.com/jordanhandy/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/joethei> ^website
+<!-- - Website: <> ^website-->
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,9 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-plantuml|PlantUML]]
-- [[key-promoter|Key Promoter]]
-- [[rss-reader|RSS Reader]]
+- [[obsidian-cloudinary-uploader|Obsidian Cloudinary Uploader]]
 
 %% End Hub: Released contributions %%
 
@@ -43,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @joethei on GitHub Sponsors](https://github.com/sponsors/joethei) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @jordanhandy on GitHub Sponsors](https://github.com/sponsors/jordanhandy) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

@@ -60,4 +60,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-extra-md-commands|Extra Markdown Commands]]
 - [[customizable-page-header-buttons|Customizable Page Header]]
 - [[auto-class|Auto Class]]
+- [[obsidian-cloudinary-uploader|Obsidian Cloudinary Uploader]]
+- [[rss-reader|RSS Reader]]
+- [[mousewheel-image-zoom|Mousewheel Image zoom]]
 
