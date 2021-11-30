@@ -17,8 +17,8 @@ publish: true
 
 
 ## Author of
-
 %% Begin Hub: Released contributions %%
+- [[Want some Sass in your obsidian theme‽ here's How and Why]]
 
 ### Themes
 - [[Sanctum]]
@@ -38,11 +38,13 @@ publish: true
 - 
 -->
 
-<!--
 ## Sponsor this author
 
+- [[Buy me a coffee]]: https://ko-fi.com/jdanielmourao
+- [[PayPal]]: https://paypal.me/jdanielmourao 
+
+<!--
 - [[GitHub sponsors]]: [Sponsor @jdanielmourao on GitHub Sponsors](https://github.com/sponsors/jdanielmourao) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
