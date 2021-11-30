@@ -1,6 +1,6 @@
 ---
-aliases:
-  -
+aliases: 
+  - "Resources and Guides for Theme Designers"
 tags:
   - seedling
   - MOC
