@@ -1,3 +1,13 @@
+---
+aliases:
+- sass
+- scss
+tags:
+- 
+publish: true
+---
+
+
 # Want some Sass in your obsidian theme? Here's How and Why
 *written by [[jdanielmourao]]*
 
