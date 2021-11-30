@@ -59,7 +59,7 @@ Also opposed to other linters, `stylelint` has *turned off all rules by default*
 npm install -g stylelint-config-recommended
 ```
 
-Then, you open the `.stylelintrc.json` in your home directory. For getting started more easily, __I recommend to simply copypaste the following basic configuration__. This will activate`stylelint-config-recommended`, but disable two rules that mostly create false positives in the specific context of Obsidian theme development.
+Then, you open the `.stylelintrc.json` in your home directory. For getting started more easily, __I recommend to simply copypaste the following basic configuration__. This will activate `stylelint-config-recommended`, but disable two rules that mostly create false positives in the specific context of Obsidian theme development.
 
 ```json
 {
