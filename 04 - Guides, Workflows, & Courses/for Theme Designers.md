@@ -16,9 +16,9 @@ This note collects resources and guides for beginner and expert theme designers 
 
 ## Guides
 
-- [[How to Style Obsidian]], by [[ryanjamurphy|Ryan J. A. Murphy]]
+- [[How to Style Obsidian]] by [[ryanjamurphy|Ryan J. A. Murphy]]
 - [[How to update your plugins and CSS for live preview]]
-- [[Why and How to use a Linter for your Obsidian Theme]], by [[chrisgrieser|pseudometa]]
+- [[Why and How to use a Linter for your Obsidian Theme]] by [[chrisgrieser|pseudometa]]
 
 ## Tools
 
