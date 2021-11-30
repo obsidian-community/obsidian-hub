@@ -115,5 +115,5 @@ Plugins and their rules *both* need to be activated in your `.stylelintrc.json`.
 You can take a look at the [stylelint configuration of *Shimmering Focus*](https://github.com/chrisgrieser/shimmering-focus/blob/main/.stylelintrc.json) for an example of how far you can fine-tune stylelint.
 
 [^1]: You can, however, add them to apply some manual changes, like [changing the severity of a rule](https://stylelint.io/user-guide/configure#severity) from `error` to `warning`.
-[^2]: There is also [[obsidian-linter|Linter specifically for Obsidian]].<https://github.com/cristianvasquez/obsidian-prettify>
+[^2]: There is also [[obsidian-linter|Linter specifically for Obsidian]].
 [^3]: You can find out which rules can be autofixed by checking the [documentation of the specific rules](https://stylelint.io/user-guide/rules/list/#possible-errors).
