@@ -6,9 +6,7 @@ tags:
 - 
 publish: true
 ---
-
-
-# Want some Sass in your obsidian theme? Here's How and Why
+# Want some Sass with your obsidian theme? Here's How and Why
 *written by [[jdanielmourao]]*
 
 ## What is Sass and Scss?
@@ -220,4 +218,4 @@ Note that variables that are contained in a module that's imported need to have 
 
 TIP: You can keep your variables in a `_var.scss` file, and then whenever you use a variable from that module, write `@use 'var';` at the beginning of the file, and `var.$variable-name` as the variable name. This makes it somewhat similar to CSS custom properties syntax, so it's easier to remember.
 
-These are just a few things you can use in order to make writing CSS easier for you. You can read up on the [SASS Documentation](https://sass-lang.com/documentation) to get a better grasp of its rules and capabilities.
+These are just a few SCSS features you can use in order to make writing CSS easier for you. You can read up on the [SASS Documentation](https://sass-lang.com/documentation) to get a better grasp of its rules and capabilities.
