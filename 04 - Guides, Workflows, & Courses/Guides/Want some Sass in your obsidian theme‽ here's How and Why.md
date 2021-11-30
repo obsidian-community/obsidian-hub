@@ -1,4 +1,5 @@
 # Want some Sass in your obsidian theme? Here's How and Why
+*written by [[jdanielmourao]]*
 
 ## What is Sass and Scss?
 Sass, aka **S**yntactically **A**wesome **S**tyle**S**heet, is a CSS pre-processor. It has features such as nesting, mixins, and more, which allow you to make cleaner CSS code and reduce repetitions, resulting in smaller files, and making the CSS file easier to maintain. Do keep in mind, though, that using a pre-processor is only advisable **after** you've learned the basics of CSS, and are familiar with general good practices for CSS.
