@@ -37,7 +37,7 @@ I am a researcher in Sociology who also codes some small utilities in his free t
 - [[Wordcount Dashboard]] for [[dataview]].
 
 ### Guides
-- [[Why and How to use a Linter for your Obsidian Theme]]
+- [[Why and How to use Stylelint for your Obsidian Theme]]
 - [Comprehensive Academic Workflow from Reading to Writing in Markdown](https://www.notion.so/chrisgrieser/Comprehensive-Academic-Workflow-from-Reading-to-Writing-in-Markdown-a62298be91934043b11006be1ddc553a)
 
 

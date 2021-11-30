@@ -3,11 +3,11 @@ aliases:
 - stylelint
 - linter
 tags:
-- seedling
+- 
 publish: true
 ---
 
-# Why and How to use a lint your Obsidian Theme with Stylelint
+# Why and How to use Stylelint for your Obsidian Theme
 *written by [[chrisgrieser|pseudometa]]*
 
 This guide explains why it is beneficial for theme designers to use a linter and how to get started with [Stylelint](https://stylelint.io/) , the most popular linter for CSS.
