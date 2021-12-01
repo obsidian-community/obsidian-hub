@@ -20,7 +20,7 @@ Both Sass and Scss are two different syntaxes that achieve the same thing. One i
 Here's a simple example:
 
 SCSS:
-```scss
+```
 .nav-action-button {
     color: grey;
     height: 4px;
@@ -36,7 +36,7 @@ SCSS:
 }
 ```
 Indented syntax (Sass):
-```scss
+```
 .nav-action-button
     color: grey
     height: 4px
@@ -50,11 +50,11 @@ Indented syntax (Sass):
         background-color: blue
 ```
 
-As you can see, one clearly inherits the syntax from CSS, whilst the other one is a very simplified syntax.
+As you can see, one clearly inherits the syntax from CSS, whilst the other one is a very simplified syntax, with barely any punctuation.
 
 ### Which one should I choose?
 Although that is a personal choice, this guide will be focusing on **SCSS**, for a couple of reasons:
-1. It's an extension of the CSS syntax, meaning it will be more familiar for anyone coming from CSS, but most importantly, it means that that every valid CSS stylesheet is automatically a valid SCSS file. This is very useful if you already have snippets or a theme in development, and don't want to rewrite it in its entirety. You can simply copy paste the code into the scss file, and it will work!
+1. It's an extension of the CSS syntax, meaning it will be more familiar for anyone coming from CSS, but most importantly, it means that every valid CSS stylesheet is automatically a valid SCSS file. This is very useful if you already have snippets or a theme in development, and don't want to rewrite it in its entirety. You can simply copy paste the code into the scss file, and it will work!
 2. It is the most popular of the two (for a good reason), which makes it easier to find tutorials/documentation. Popularity shouldn't be the main reason you end up choosing one from the other, but it sure makes it easier to follow along tutorials, etc.
 
  ## Why would you want to use it for theming?
@@ -161,7 +161,7 @@ Compiled CSS:
 - **Variables** - not to be confused with [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties), since they both have their uses, and can even be combined. One of the differences of sass variables is that they don't show up in the final css file, as they get replaced by their values. More info on that [here](https://sass-lang.com/documentation/variables). Example:
 
 SCSS
-```css
+```
 $color-primary: black;
 $border-primary: rgba($color-primary, 0.7);
 
@@ -171,7 +171,7 @@ button {
 ```
 
 CSS
-```css
+```
 button {
 	border: 1px solid rgba(black, 0.7);
 }
@@ -180,7 +180,7 @@ button {
 - **Modules** - You can organise your code into smaller files, by creating modules, and load them in a single scss file to compile. This means you can have your variables, snippets of code, etc, in different files and simply have a file dedicated to assembling the final input.css file. Always name those files with an underscore at the beginning, so Sass can identify them as modules. Here's an example from [sass's website](https://sass-lang.com/):
 
 SCSS
-```css
+```
 //_base.scss
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
@@ -190,7 +190,7 @@ body {
   color: $primary-color;
 }
 ```
-```css
+```
 // styles.scss
 @use 'base';
 
@@ -202,7 +202,7 @@ body {
 ```
 
 CSS
-```css
+```
 body {
   font: 100% Helvetica, sans-serif;
   color: #333;
