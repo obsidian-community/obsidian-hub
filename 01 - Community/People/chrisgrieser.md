@@ -43,7 +43,7 @@ I am a researcher in Sociology who also codes some small utilities in his free t
 
 ## Sponsor this author
 - [PayPal](https://www.paypal.com/paypalme/ChrisGrieser): ^paypal
-- [Ko-Fi](https://ko-fi.com/pseudometa "https://ko-fi.com/pseudometa) ^ko-fi
+- [Ko-Fi](https://ko-fi.com/pseudometa) ^ko-fi
 
 
 ## Follow this author
