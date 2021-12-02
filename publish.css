@@ -2,6 +2,10 @@
 	display: none;
 }
 
+.markdown-preview-view h1{
+	line-height: 2.1em;
+}
+
 .site-body-left-column-site-logo {
 	max-width: 120px;
 }
