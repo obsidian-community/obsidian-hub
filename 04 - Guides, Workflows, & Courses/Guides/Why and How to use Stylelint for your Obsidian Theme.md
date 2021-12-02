@@ -86,8 +86,8 @@ stylelint "/path/to/my/css/file/theme.css"
 stylelint --fix "/path/to/my/css/file/theme.css"
 ```
 
-### In a Code Editor
-More convenient than using `stylelint` in the Terminal is to install an integration for your code editor. With those editor integrations, you can get live feedback on how linting rule violations as soon as you type them in the editor.
+### In the Code Editor
+More convenient than using `stylelint` in the Terminal is to install an integration for your code editor. With those editor integrations, you can get live feedback on linting rule violations as soon as you type them.
 
 There is a plugin for [Sublime Text](https://packagecontrol.io/packages/SublimeLinter-stylelint) (also requires the [SublimeLinter Plugin](https://packagecontrol.io/packages/SublimeLinter)), a plugin for [VS Code](https://marketplace.visualstudio.com/items), and a bunch of plugins for [other common code editors](https://stylelint.io/user-guide/integrations/editor/).
 
@@ -114,6 +114,6 @@ Plugins and their rules *both* need to be activated in your `.stylelintrc.json`.
 ### Example Configuration
 You can take a look at the [stylelint configuration of *Shimmering Focus*](https://github.com/chrisgrieser/shimmering-focus/blob/main/.stylelintrc.json) for an example of how far you can fine-tune stylelint.
 
-[^1]: You can, however, add them to apply some manual changes, like [changing the severity of a rule](https://stylelint.io/user-guide/configure#severity) from `error` to `warning`.
-[^2]: There is also [[obsidian-linter|Linter specifically for Obsidian]].
-[^3]: You can find out which rules can be autofixed by checking the [documentation of the specific rules](https://stylelint.io/user-guide/rules/list/#possible-errors).
+[^1]: There is also [[obsidian-linter|Linter specifically for Obsidian]].
+[^2]: You can find out which rules can be autofixed by checking the [documentation of the specific rules](https://stylelint.io/user-guide/rules/list/#possible-errors).
+[^3]: You can, however, add them to apply some manual changes, like [changing the severity of a rule](https://stylelint.io/user-guide/configure#severity) from `error` to `warning`.
