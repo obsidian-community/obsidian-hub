@@ -1,18 +1,19 @@
 ---
 aliases:
-  -
-tags:
-  - seedling
+- 
+tags: 
+- seedling 
 publish: true
 ---
 
 # Chrome Extensions
 
-Official website: #placeholder/link
-Documentation: #placeholder/link
-Cost: #placeholder/tool
-Available for: #placeholder/tool %% Uncomment this and remove those that don't apply: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|Linux]], [[Android Apps|Android]], [[iOS Apps|iOS]], [[iPadOS Apps]] %%
+Extension for the [Chrome Browser](https://www.google.com/chrome/). (Note that Chrome Extensions work on any [Chromium-based Browser](https://www.wikiwand.com/en/Chromium_(web_browser)#/Browsers_based_on_Chromium), so you can use them with [Brave](https://brave.com/) or [Vivaldi](https://vivaldi.com/) as well.)
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. Mention [[🗂️ 02.04 Auxiliary Tools by Category]] and any other relevat notes in this vault. %%
+## Tools in this category
+- [MarkDownload - Markdown Web Clipper](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB)
 
-#placeholder/description
+
+## Related categories
+
+%% Add links to other 02.04 - Category notes %%

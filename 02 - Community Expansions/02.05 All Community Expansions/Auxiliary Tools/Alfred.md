@@ -8,11 +8,14 @@ publish: true
 
 # Alfred
 
-Official website: #placeholder/link 
+Official website: https://www.alfredapp.com/
 Documentation: #placeholder/link 
-Cost: #placeholder/tool
+Cost: free/30£ (for the [Powerpack](https://www.alfredapp.com/powerpack/))
 Available for: [[MacOS Tools|MacOS]]
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. Mention [[🗂️ Auxiliary Tools]] and any other relevat notes in this vault. %%
+A launcher/automation app for macOS. There are several plugins for Alfred (called "workflows") which that integrate well with Obsidian or even made specifically for Obsidian. Adding workflows, however, requires a one-time-purchase of the [Powerpack](https://www.alfredapp.com/powerpack/).
 
-#placeholder/description 
+## Alfred Workflows for Obsidian
+- [[Shimmering Obsidian]], a comprehensive tool for controlling Obsidian via [Alfred](https://www.alfredapp.com/)
+- [Pandoc-Suite for Academic Writing in Markdown](https://github.com/chrisgrieser/pandoc_alfred)
+- [PDF Annotation Extractor](https://github.com/chrisgrieser/pdf-annotation-extractor-alfred)
