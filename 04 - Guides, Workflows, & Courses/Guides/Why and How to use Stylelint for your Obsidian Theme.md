@@ -13,26 +13,26 @@ publish: true
 This guide explains why it is beneficial for theme designers to use a linter and how to get started with [Stylelint](https://stylelint.io/) , the most popular linter for CSS.
 
 ## What is Linting, and what is its purpose?
-[Linters](https://www.wikiwand.com/en/Lint_(software)) are basically tools that analyze code and report bugs and stylistic problems. There are linters for every programming language,[^1] and [Stylelint](https://stylelint.io/) is regarded as the state-of-the-art linter for CSS code.
+[Linters](https://www.wikiwand.com/en/Lint_(software)) are basically tools that analyze code and report bugs as well as stylistic problems. There are linters for every programming language,[^1] and [Stylelint](https://stylelint.io/) is regarded as the state-of-the-art linter for CSS code.
 
 __Using a linter has several advantages:__
-1. They report *errors* in your code and best-practice-violations in your code, e.g., using `//comments` which are invalid in CSS.
+1. They report *errors* and best-practice-violations in your code, e.g., using `//comments` which are invalid in CSS.
 2. They enforce *consistent* styling, which increases the readability of your code, e.g., to always have exactly one line break after between two blocks.
-3. For the simpler rules, (modern) linters usually also offer an option to *autofix* the code, *saving you tons of time* to clean your code.
+3. For the simpler rules, linters usually also offer an option to *autofix* the code, *saving you tons of time* to clean your code.
 
-As styling rules are of course subjective, they are all optional and configurable. Error reports, however, are mostly unambiguous and in my view the reason *everyone* should use a linter, regardless of the value one puts on code consistency.
+As styling rules are of course subjective, they are opt-in and configurable. Error reports, however, are mostly unambiguous and in my view the reason *everyone* should use a linter, regardless of the value one puts on code consistency.
 
 ## Getting Started
 
 ### Requirements
-Stylelint, as most linters, are based on Node and installed via `npm`. To check whether you have `npm` installed, you can run this command in your Terminal:
+Stylelint, as most linters, are installed via `npm`. To check whether you have `npm` installed, you can run this command in your Terminal:
 
 ```shell
-# Check whethere npm is installed
+# Check whether npm is installed
 npm -v
 ```
 
-If the command returns a version number, you are good to go. If it doesn't, you need to [install Node on your machine](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). (Homebrew users on Mac can easily do so via `brew install node`.)
+If the command returns a version number, you are good to go. If it doesn't, you need to [install Node on your machine](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). (Homebrew users on Mac can easily do that via `brew install node`.)
 
 ### Installing Stylelint
 When you have `npm` installed, you just need to run the following code in your Terminal to install `stylelint` and its dependency, `postcss`. While you are there, I'd also recommend that you run the second command, which installs some plugins/settings I would highly to start out with.
