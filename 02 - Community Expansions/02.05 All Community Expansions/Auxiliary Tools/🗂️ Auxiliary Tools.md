@@ -42,6 +42,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Readwise|Readwise]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Research Rabbit|Research Rabbit]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/revealjs|revealjs]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Shimmering Obsidian|Shimmering Obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Sublime Text|Sublime Text]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Syncthing|Syncthing]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Tesseract|Tesseract]]

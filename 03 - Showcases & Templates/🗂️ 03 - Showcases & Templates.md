@@ -17,10 +17,10 @@ Got inspired or looking for something to get started? a collection of all sorts 
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
+-  [[03 - Showcases & Templates/Dashboards/🗂️ Dashboards|🗂️ Dashboards]]
 -  [[03 - Showcases & Templates/Note Examples/🗂️ Note Examples|🗂️ Note Examples]]
 -  [[03 - Showcases & Templates/Plugin Showcases/🗂️ Plugin Showcases|🗂️ Plugin Showcases]]
 -  [[03 - Showcases & Templates/Publish Sites/🗂️ Publish Sites|🗂️ Publish Sites]]
 -  [[03 - Showcases & Templates/Templates/🗂️ Templates|🗂️ Templates]]
 -  [[03 - Showcases & Templates/Vaults/🗂️ Vaults|🗂️ Vaults]]
- -  [[03 - Showcases & Templates/Dashboards/🗂️ Dashboards|🗂️ Dashboards]]
 %% Hub MOCs: Don’t edit above  %%

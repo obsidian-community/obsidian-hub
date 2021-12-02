@@ -28,6 +28,8 @@ tags:
 -  [[04 - Guides, Workflows, & Courses/Guides/Resources and Guides for Plugin Developers|Resources and Guides for Plugin Developers]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using GitHub actions to create releases for plugins|Using GitHub actions to create releases for plugins]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using Pandoc inside Obsidian|Using Pandoc inside Obsidian]]
+-  [[04 - Guides, Workflows, & Courses/Guides/Want some Sass with your obsidian theme‽ here's How and Why|Want some Sass with your obsidian theme‽ here's How and Why]]
+-  [[04 - Guides, Workflows, & Courses/Guides/Why and How to use Stylelint for your Obsidian Theme|Why and How to use Stylelint for your Obsidian Theme]]
 -  [[04 - Guides, Workflows, & Courses/Guides/YT  - Intro to Dataview Plugin|YT  - Intro to Dataview Plugin]]
 -  [[04 - Guides, Workflows, & Courses/Guides/YT - Dataview Plugin - How to Use this Powerful Obsidian Plugin (With Examples)|YT - Dataview Plugin - How to Use this Powerful Obsidian Plugin (With Examples)]]
 -  [[04 - Guides, Workflows, & Courses/Guides/YT - How to use QuickAdd|YT - How to use QuickAdd]]

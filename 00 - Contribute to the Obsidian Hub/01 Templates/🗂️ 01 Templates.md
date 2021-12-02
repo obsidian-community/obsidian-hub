@@ -9,6 +9,7 @@ tags:
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/T - Author|T - Author]]
+-  [[00 - Contribute to the Obsidian Hub/01 Templates/T - Auxiliary Tool Category|T - Auxiliary Tool Category]]
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/T - Auxiliary tool|T - Auxiliary tool]]
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/T - Blog posts|T - Blog posts]]
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/T - CSS Snippet|T - CSS Snippet]]
