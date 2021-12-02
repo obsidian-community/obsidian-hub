@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `table-extended`
 Links: [GitHub repository](https://github.com/aidenlx/table-extended) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=table-extended)
 Developed by: [[aidenlx]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Enable extended table support with MultiMarkdown 6 syntax
 

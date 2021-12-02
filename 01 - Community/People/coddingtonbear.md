@@ -21,7 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-csv-table|CSV Table]]
-- [[obsidian-itinerary|Itinterary]]
+- [[obsidian-itinerary|Itinerary]]
 
 %% End Hub: Released contributions %%
 

@@ -39,47 +39,52 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Show or Hide UI Elements**: Re-enable Elements hidden by this theme.
+**Show/Hide UI Elements**: Re-enable Elements hidden by this theme
 - Re-enable Title Bar: Re-enable this to have a title bar, e.g. for moving the Obsidian window
 - Re-enable Ribbons: Ribbons are the thin vertical bars to the very left & right
 - Permanently show the Header Bar: When false, the Header bar is still visible upon focus and hover
-- Permanently show the Status Bar: When false, the Status bar is still visible upon focus and hover
+- Permanently show the Status Bar: When false, the Status bar is still visible when hovering. (This setting will be overriden when you use the default status bar.)
+- Default Theme Status Bar: Use the Status Bar from the default theme, which will also be permanently visible.
 - Re-enable Close Buttons: When false, you can close the menu with `Esc` or by clicking outside the menu area.
-- Permanently show the Edit Mode Collapse Arrows (Fold Arrows): When false, you collapse buttons still become visible upon hovering.
-- Re-enable the Fold Markers: Folder markers are the "..." next to a folded/collapsed item.
+- Re-enable Scrollbars: When false, only the scroll bars in the Editor are shown.
+- Permanently show the Edit Mode Collapse Arrows: When false, you collapse buttons still become visible upon hovering.
+- Re-enable the Fold Markers: Fold markers are the ellipses ("...") next to a folded/collapsed item.
+- Permanently show the Graph Controls: When false, Graph controls are still visible when open, or upon hovering the top-left area.
+- Re-enable the Starred Pane Buttons: The two buttons to star the current file and the current search.
+
+**Aesthetics**: Shapes, Color Schemes (coming soon), Cursor, & Decoration
+- Angular Shapes: Enable to use angular shapes (🔲). Disable to use rounded shapes (🔘).
+- Block Cursor: Use a block cursor instead of a line cursor. For best results, also switch the main font to a monospace font.
+- Mono-colored Cursor: Use a mono-colored, purple cursor like in previous versions of "Shimmering Focus".
+- Normal Checkboxes: Use the checkboxes from the default theme.
+- Colored YAML: Use colored YAML frontmatter (in Edit Mode).
 
 **Fonts**: Sizes, Font-Face, Letter-Spacing
 - Main Font
-- Monospace Font: Code blocks, YAML in edit mode, tables, etc.
+- Monospace Font: Used in Code blocks, YAML in Edit Mode, tables in Edit Mode, etc.
 - Monospace Font Size
 - Side Bar Font: Applies to all text in the left and right side bar
 - Side Bar Font Size
 - Menu Font: Font used in menus (i.e., Settings, Plugin Browser, Theme Browser).
 - Menu Font Size
-
-**Headings**: Level-Specific Sizes, Font, Italics
-- Heading Font: Applies to H1 to H5 Headings
-- No Alternating Italic of Headings: In this theme, the Heading Levels alternate between italic/regular to make them more distinguishable. You can turn that feature off if you prefer non-italic at all heading levels.
+- Normal-sized Blockquotes: Blockquotes have the same size and line-height as the rest of the text.
+- Status Bar Font Size
+- Heading Font: Applies to h1 to h5 Headings. (h6 headings are used for Pseudo-Admonitions.)
+- No Alternating Italic of Headings: In this theme, the Heading Levels alternate between italic/regular to make them more distinguishable. You can turn that feature off if you prefer non-italic for all heading levels.
 - Level 1 Headings
 - Level 2 Headings
 - Level 3 Headings
 - Level 4 Headings
 - Level 5 Headings
 
-**Blockquotes**: Decoration, Size
-- Normal-sized Blockquotes: Blockquotes have the same size and line-height as the rest of the text.
-
-**Editor Content**: Images, PDFs, Tables, Line Length, & Max View
-- Turn off the "Max View" feature: "Max View" makes panes full length and images/PDFs full width when the left sidebar is hidden and readable line length when the left sidebar is shown.
-- Turn off Alternating Row Coloring: Affects tables, Command Palette & Suggesters
+**Views & Content**: Max View, Focus View, Images, PDFs, & Line Length
+- Disable "Max View": "Max View" makes panes full length and images/PDFs full width when the left sidebar is hidden and readable line length when the left sidebar is shown.
+- Enable "Focus View": Hiding the left side bar will also hide the right one. Note that with this feature, the right side bar stays hidden until the left one is shown again. Synergizes with "Max View", but also works with "Max View" disabled. 
 - Size of Images: Size of Images in % (when Max View is disabled or not active)
-- Size of embeded PDFs: Size of embeded PDFs in % (when Max View is disabled or not active)
+- Size of embedded PDFs: Size of embedded PDFs in % (when Max View is disabled or not active)
+- Remove image borders: Disables the frame put around images.
 - Align Images & PDFs to the left: When disabled, they will be aligned to the center instead.
-- No Darkmode for PDFs: Disable Dark Mode for PDFs when Obsidian is set to dark mode.
-
-**Cursor**: Type & Color
-- Block Cursor: Use a block instead of a line as cursor. For best results, also switch the main font to a monospaced one.
-- Use a mono-colored Cursor: Use a (light purple) cursor, as in previous versions of "Shimmering Focus".
+- No Dark Mode for PDFs: Disable Dark Mode for PDFs when Obsidian is set to dark mode.
 
 **Spellcheck**: Style & Fine-tuning
 - Use Classic Spellcheck Styling: Turns off the spellcheck styling of this theme and use the classic spellcheck styling.
@@ -98,14 +103,17 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - No Background Color for Longform Notes: Turn off the slight coloring of longform notes.
 - Hide files named "Index.md" from File Explorer: Files named that way are created by some plugins like the Longform Plugin and in many cases should not be touched.
 
-**Mobile**: mobile-specific settings
+**Mobile**: Settings specifically for mobile
 - Mobile Font Size
 
-**Miscellaneous**: Checkboxes, Pandoc Citations, Popovers, Annotation Tags
-- Normal Checkboxes: Use the normal checkboxes from the default theme.
-- No Emphasis of Pandoc Citations: Turn off the coloring of Pandoc Citations [@citekey] done by this theme.
+**Miscellaneous**: Popovers, Pandoc Citations, Annotation Tags, Active Line Highlighting, Command Palette, Alternating Row Colors, Relationship Lines
 - Size of Popovers (Page Previews): Width & Height of Popovers in px
+- No Emphasis of Pandoc Citations: Turn off the coloring of Pandoc Citations [@citekey] done by this theme.
 - Turn off "Annotation Tags": "Annotation Tags" will visually emphasize some tags that are commonly used for academic reading.
+- Turn off Active Line Highlighting
+- Turn off Alternating Row Coloring: Affects tables, Command Palette & Suggesters.
+- Command Palette: Move the plugin name back to the left: Enable this in case some commands are aren't displayed properly in the Command Palette.
+- Disable Relationship Lines for lists: If you want to use a custom relationship line snippet or the relationship lines from the Outliner plugin, you can disable this theme's relationship lines to prevent interference.
 
 ## Plugin Compatibility[^1]
 
