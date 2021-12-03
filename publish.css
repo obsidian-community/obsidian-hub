@@ -41,6 +41,7 @@ button#HH:hover:before {
 	padding: 20px;
 	z-index: 5;
 }
+body:not(.popover.is-loaded) button#HH:hover:before { margin-left: -2vh; }
 
 .external-link[href^="obsidian://goto-plugin?"] { background-image: none; }
 .tooltip { --layer-tooltip: 1; }
