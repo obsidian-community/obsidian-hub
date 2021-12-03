@@ -1,16 +1,16 @@
 ---
 aliases:
-- Adam Coddington <me@adamcoddington.net>
+- grassbl8d
 tags:
 - 
 publish: true
 ---
 
-# Adam Coddington <me@adamcoddington.net>
+# grassbl8d
 
-- GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
+- GitHub: [grassbl8d](https://github.com/grassbl8d/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://coddingtonbear.net/> ^website
+<!-- - Website: <> ^website-->
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,8 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-csv-table|CSV Table]]
-- [[obsidian-itinerary|Itinerary]]
+- [[obsidian-flexible-pomo|Flexible Pomodoro For Obsidian]]
 
 %% End Hub: Released contributions %%
 
@@ -42,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @coddingtonbear on GitHub Sponsors](https://github.com/sponsors/coddingtonbear) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @grassbl8d on GitHub Sponsors](https://github.com/sponsors/grassbl8d) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

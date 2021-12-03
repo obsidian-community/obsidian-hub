@@ -12,7 +12,7 @@ tags:
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
-
+-  [[03 - Showcases & Templates/Dashboards/Wordcount Dashboard|Wordcount Dashboard]]
 %% Hub MOCs: Don’t edit above  %%
 
 

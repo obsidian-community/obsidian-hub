@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-itinerary
 aliases:
-- Itinterary
+- Itinerary
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Itinterary
+# Itinerary
 
 Plugin ID: `obsidian-itinerary`
 Links: [GitHub repository](https://github.com/coddingtonbear/obsidian-itinerary) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-itinerary)

@@ -1,16 +1,16 @@
 ---
 aliases:
-- Adam Coddington <me@adamcoddington.net>
+- Clare Macrae
 tags:
 - 
 publish: true
 ---
 
-# Adam Coddington <me@adamcoddington.net>
+# Clare Macrae
 
-- GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
+- GitHub: [claremacrae](https://github.com/claremacrae/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://coddingtonbear.net/> ^website
+- Website: <https://claremacrae.co.uk> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,8 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-csv-table|CSV Table]]
-- [[obsidian-itinerary|Itinerary]]
+- [[reveal-active-file-button|Reveal Active File Button]]
 
 %% End Hub: Released contributions %%
 
@@ -42,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @coddingtonbear on GitHub Sponsors](https://github.com/sponsors/coddingtonbear) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @claremacrae on GitHub Sponsors](https://github.com/sponsors/claremacrae) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

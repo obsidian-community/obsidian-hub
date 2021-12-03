@@ -1,16 +1,16 @@
 ---
 aliases:
-- Adam Coddington <me@adamcoddington.net>
+- dobrovolsky
 tags:
 - 
 publish: true
 ---
 
-# Adam Coddington <me@adamcoddington.net>
+# dobrovolsky
 
-- GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
+- GitHub: [dobrovolsky](https://github.com/dobrovolsky/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://coddingtonbear.net/> ^website
+- Website: <https://github.com/dobrovolsky/obsidain-structure> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,8 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-csv-table|CSV Table]]
-- [[obsidian-itinerary|Itinerary]]
+- [[obsidian-structured-plugin|Structured Plugin]]
 
 %% End Hub: Released contributions %%
 
@@ -42,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @coddingtonbear on GitHub Sponsors](https://github.com/sponsors/coddingtonbear) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @dobrovolsky on GitHub Sponsors](https://github.com/sponsors/dobrovolsky) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

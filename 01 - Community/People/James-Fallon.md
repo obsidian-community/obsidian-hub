@@ -1,16 +1,16 @@
 ---
 aliases:
-- Adam Coddington <me@adamcoddington.net>
+- James Fallon
 tags:
 - 
 publish: true
 ---
 
-# Adam Coddington <me@adamcoddington.net>
+# James Fallon
 
-- GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
+- GitHub: [James-Fallon](https://github.com/James-Fallon/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://coddingtonbear.net/> ^website
+- Website: <https://github.com/James-Fallon> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,8 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-csv-table|CSV Table]]
-- [[obsidian-itinerary|Itinerary]]
+- [[obsidian-lineup-builder|Lineup Builder]]
 
 %% End Hub: Released contributions %%
 
@@ -42,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @coddingtonbear on GitHub Sponsors](https://github.com/sponsors/coddingtonbear) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @James-Fallon on GitHub Sponsors](https://github.com/sponsors/James-Fallon) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
