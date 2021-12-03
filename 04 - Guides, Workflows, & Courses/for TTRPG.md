@@ -14,17 +14,14 @@ This note collects resources for those using Obsidian for tabletop role-playing 
 
 - [[Obsidian and TTRPG|Obsidian for TTRPG]]
 - [Lazy D&D Talk Show: Obsidian for DM Prep - Slyflourish](https://www.youtube.com/watch?v=Dh1nybxv_vQ&t=235s)
-
-![[apolaine#^052eef]]
-![[nvanderhoevan#^b28090]]
+- ![[apolaine#^052eef|clean+bullet]]
+- ![[nvanderhoevan#^b28090|clean+bullet]]
 
 ## Blog posts
 
 - [Running Tabletop Games with Obsidian — blog.mjb.im](https://blog.mjb.im/running-tabletop-games-with-obsidian)
-
-![[nvanderhoevan#^f5500b]]
-![[nvanderhoevan#^b2167e]]
-
+- ![[nvanderhoevan#^f5500b|clean+bullet]]
+- ![[nvanderhoevan#^b2167e|clean+bullet]]
 
 ## Sample notes and vaults
 
