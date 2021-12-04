@@ -35,7 +35,7 @@ npm -v
 If the command returns a version number, you are good to go. If it doesn't, you need to [install Node on your machine](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). (Homebrew users on Mac can easily do that via `brew install node`.)
 
 ### Installing Stylelint
-When you have `npm` installed, you just need to run the following code in your Terminal to install `stylelint` and its dependency, `postcss`. While you are there, I'd also recommend that you run the second command, which installs some plugins/settings I would highly to start out with.
+When you have `npm` installed, you just need to run the following code in your Terminal to install `stylelint` and its dependency, `postcss`. 
 
 ```shell
 # Install stylelint & dependency
@@ -43,23 +43,28 @@ npm install -g stylelint postcss
 ```
 
 ### Stylelint Configuration File
-As opposed to other linters, `stylelint` does not work at all without a configuration file. So you have to create a configuration file (`.styelintrc.json`) before you are able to use `styelint`.
+In contrast to other linters, `stylelint` will not work without a configuration file. So you have to create a configuration file (`.styelintrc.json`) before you are able to use `styelint`.
 
 ```shell
 # Create a stylelint configuration file in your home directory
 touch ${HOME}/.stylelintrc.json
 ```
 
-*(Note that files beginning with `.`, so-called "dot files" are hidden by default on macOS, however you can simply make them visible by pressing `cmd + shift + .` ).*
-
-Also opposed to other linters, `stylelint` has *turned off all rules by default*, meaning you have to set up some basic configuration, too. Luckily, there is the `npm` package `stylelint-config-recommended` which activates all linting rules regarding ["possible errors"](https://stylelint.io/user-guide/rules/list/#possible-errors).
+Now creating the configuration isn't enough, since `stylelint` has *turned off all rules by default*. This means you have to set up some basic configuration, too, before you can use stylelint. Luckily, there is the `npm` package `stylelint-config-recommended` which activates all linting rules regarding ["possible errors"](https://stylelint.io/user-guide/rules/list/#possible-errors).
 
 ```shell
 # Install recommended configurations
 npm install -g stylelint-config-recommended
 ```
 
-Then, you open the `.stylelintrc.json` in your home directory. For getting started more easily, __I recommend to simply copypaste the following basic configuration__. This will activate `stylelint-config-recommended`, but disable two rules that mostly create false positives in the specific context of Obsidian theme development.
+Then, you open the `.stylelintrc.json` in your home directory. Note that files that begin with `.` (so-called "dot files") are hidden by default on macOS. So you either have to make hidden files visible (by pressing `cmd + shift + .` in Finder) or you by using this command in the Terminal:
+
+```bash
+# open config file via Terminal
+open ${HOME}/.stylelintrc.json
+```
+
+For getting started more easily, __I recommend to simply copypaste the following basic configuration__. This will activate `stylelint-config-recommended`, but disable two rules that mostly create false positives in the specific context of Obsidian theme development.
 
 ```json
 {
@@ -89,7 +94,7 @@ stylelint --fix "/path/to/my/css/file/theme.css"
 ### In the Code Editor
 More convenient than using `stylelint` in the Terminal is to install an integration for your code editor. With those editor integrations, you can get live feedback on linting rule violations as soon as you type them.
 
-There is a plugin for [Sublime Text](https://packagecontrol.io/packages/SublimeLinter-stylelint) (also requires the [SublimeLinter Plugin](https://packagecontrol.io/packages/SublimeLinter)), a plugin for [VS Code](https://marketplace.visualstudio.com/items), and a bunch of plugins for [other common code editors](https://stylelint.io/user-guide/integrations/editor/).
+There is a plugin for [Sublime Text](https://packagecontrol.io/packages/SublimeLinter-stylelint) (also requires the [SublimeLinter Plugin](https://packagecontrol.io/packages/SublimeLinter)), a plugin for [VS Code](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), and a bunch of plugins for [other common code editors](https://stylelint.io/user-guide/integrations/editor/).
 
 ## Further Configuration
 
