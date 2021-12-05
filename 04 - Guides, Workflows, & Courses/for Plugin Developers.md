@@ -1,6 +1,6 @@
 ---
 aliases: 
-  - 
+  - "Resources and Guides for Plugin Developers"
 tags:
   - seedling
   - MOC
