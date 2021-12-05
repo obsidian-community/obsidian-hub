@@ -15,6 +15,7 @@ This note collects resources and guides for beginner and expert plugin designers
 
 ## Guides
 
+- [Obsidian Plugin Developer Docs:](https://marcus.se.net/obsidian-plugin-docs/) - brilliant unofficial guide by [[marcusolsson|Marcus Olsson]]
 - [[How to get started developing plugins]]
 - [[How to update your plugins and CSS for live preview]]
 - [[How to release a new version of your plugin]]
