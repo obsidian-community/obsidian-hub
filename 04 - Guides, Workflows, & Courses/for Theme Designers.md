@@ -25,7 +25,7 @@ This note collects resources and guides for beginner and expert theme designers 
 
 ## Community Talks
 
-- [[CSS 101 - Community Talk]]]
+- [[CSS 101 - Community Talk]]
 
 ## Tools
 
