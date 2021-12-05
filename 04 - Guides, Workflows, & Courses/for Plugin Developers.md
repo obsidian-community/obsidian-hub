@@ -7,7 +7,7 @@ tags:
 ---
 
 # for Plugin Developers
-This note collects resources and guides for beginner and expert plugin designers for [[Obsidian]].
+This note collects resources and guides for beginner and expert plugin developers for [[Obsidian]].
 
 ## FAQ
 
