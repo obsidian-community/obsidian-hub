@@ -20,7 +20,6 @@ This note collects resources and guides for beginner and expert plugin developer
 - [[How to update your plugins and CSS for live preview]]
 - [[How to release a new version of your plugin]]
 - [[Using GitHub actions to create releases for plugins]]
-- [[How to update your plugins and CSS for live preview]]
 
 ## Community Talks
 
