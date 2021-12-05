@@ -6,3 +6,4 @@
 
 - [ ] I have renamed all attached images with descriptive file names (or I did not include any images)
 - [ ] Before creating a new note, I searched the vault (or I only edited existing notes)
+- [ ] I linked any newly created notes in a MoC or overview note.
