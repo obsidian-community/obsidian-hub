@@ -65,6 +65,5 @@ Plugins which have not yet been categorized by the community.
 - [[mousewheel-image-zoom|Mousewheel Image zoom]]
 - [[obsidian-flexible-pomo|Flexible Pomodoro For Obsidian]]
 - [[obsidian-lineup-builder|Lineup Builder]]
-- [[reveal-active-file-button|Reveal Active File Button]]
 - [[obsidian-structured-plugin|Structured Plugin]]
 
