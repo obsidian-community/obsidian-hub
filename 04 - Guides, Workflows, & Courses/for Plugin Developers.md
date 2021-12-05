@@ -20,6 +20,7 @@ This note collects resources and guides for beginner and expert plugin developer
 - [[How to update your plugins and CSS for live preview]]
 - [[How to release a new version of your plugin]]
 - [[Using GitHub actions to create releases for plugins]]
+- [[How to update your plugins and CSS for live preview]]
 
 ## Community Talks
 
@@ -49,5 +50,3 @@ This note collects resources and guides for beginner and expert plugin developer
 - [Liam Cain's Obsidian API FAQ](https://liamca.in/Obsidian/API+FAQ/index)
 - [obsidian-md at GitHub](https://github.com/topics/obsidian-md)
 - [What tools and libraries are used in Obsidian?](https://konhi.me/obsidian-stack.html)
-- [[How to update your plugins and CSS for live preview]]
-
