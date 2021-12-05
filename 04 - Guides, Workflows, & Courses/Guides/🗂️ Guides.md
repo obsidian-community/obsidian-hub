@@ -25,7 +25,6 @@ tags:
 -  [[04 - Guides, Workflows, & Courses/Guides/How to Style Obsidian|How to Style Obsidian]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to update your plugins and CSS for live preview|How to update your plugins and CSS for live preview]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Obsidian publish and pfSense|Obsidian publish and pfSense]]
--  [[04 - Guides, Workflows, & Courses/Guides/Resources and Guides for Plugin Developers|Resources and Guides for Plugin Developers]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using GitHub actions to create releases for plugins|Using GitHub actions to create releases for plugins]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using Pandoc inside Obsidian|Using Pandoc inside Obsidian]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Want some Sass with your obsidian theme‽ here's How and Why|Want some Sass with your obsidian theme‽ here's How and Why]]
