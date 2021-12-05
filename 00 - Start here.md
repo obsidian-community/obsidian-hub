@@ -14,7 +14,7 @@ We think of this vault as a [[Digital garden]]. This means that the content in o
 
 - [[Obsidian October 2021]]
 - [[🗂️ 02.01 Plugins by Category|Plugin Categories]]
-- [[Resources and Guides for Plugin Developers]]
+- [[for Plugin Developers|Resources and Guides for Plugin Developers]]
 - [[for Theme Designers|Resources and Guides for Theme Designers]]
 - [[How to update your plugins and CSS for live preview]]
 - [[How to Style Obsidian]]
