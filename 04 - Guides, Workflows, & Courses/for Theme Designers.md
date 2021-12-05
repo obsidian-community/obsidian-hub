@@ -17,9 +17,15 @@ This note collects resources and guides for beginner and expert theme designers 
 ## Guides
 
 - [[How to Style Obsidian]] by [[ryanjamurphy|Ryan J. A. Murphy]]
+- [[Default Obsidian Theme Colors]]
 - [[How to update your plugins and CSS for live preview]]
 - [[Why and How to use Stylelint for your Obsidian Theme]] by [[chrisgrieser|pseudometa]]
 - [[Want some Sass with your obsidian theme‽ here's How and Why]] by [[jdanielmourao]]
+- [[Adding plugin compatibility for themes to the Obsidian Hub]]
+
+## Community Talks
+
+- [[CSS 101 - Community Talk]]]
 
 ## Tools
 
