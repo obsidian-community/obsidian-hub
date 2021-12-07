@@ -41,6 +41,18 @@ def process_released_plugins(overwrite=False, verbose=False):
         repo = plugin.get("repo")
         branch = plugin.get("branch", "master")
         manifest = get_plugin_manifest(repo, branch)
+
+        ids_match = True
+        id_according_to_releases = plugin.get('id')
+        id_according_to_manifest = manifest.get('id')
+        if id_according_to_releases != id_according_to_manifest:
+            print(f"ERROR repo:{repo} ID {id_according_to_releases} does not match ID in manifest: {id_according_to_manifest}")
+            file_groups.setdefault("error", list()).append(f"{id_according_to_releases}/{id_according_to_manifest}")
+            ids_match = False
+
+        if not ids_match:
+            continue
+
         user = repo.split("/")[0]
         if manifest.get("isDesktopOnly"):
             mobile = DESKTOP_ONLY

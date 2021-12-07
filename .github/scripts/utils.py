@@ -125,6 +125,7 @@ def format_link(note_name, alias=None):
 
 def print_file_summary(file_groups, verbose=False):
     messages = {
+        "error": "has an error, so was ignored.",
         "exists": "exist but no changes were detected.",
         "modified": "exist, but file contents and filled out template don't match.",
         "new": "were newly created.",
