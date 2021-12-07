@@ -42,13 +42,7 @@ def process_released_plugins(overwrite=False, verbose=False):
         branch = plugin.get("branch", "master")
         manifest = get_plugin_manifest(repo, branch)
 
-        ids_match = True
-        id_according_to_releases = plugin.get('id')
-        id_according_to_manifest = manifest.get('id')
-        if id_according_to_releases != id_according_to_manifest:
-            print(f"ERROR repo:{repo} ID {id_according_to_releases} does not match ID in manifest: {id_according_to_manifest}")
-            file_groups.setdefault("error", list()).append(f"{id_according_to_releases}/{id_according_to_manifest}")
-            ids_match = False
+        ids_match = check_ids_match(plugin, manifest, repo, file_groups)
 
         if not ids_match:
             continue
@@ -73,6 +67,18 @@ def process_released_plugins(overwrite=False, verbose=False):
     print_file_summary(file_groups)
 
     return devs
+
+
+def check_ids_match(plugin, manifest, repo, file_groups):
+    ids_match = True
+    id_according_to_releases = plugin.get('id')
+    id_according_to_manifest = manifest.get('id')
+    if id_according_to_releases != id_according_to_manifest:
+        print(
+            f"ERROR repo:{repo} ID {id_according_to_releases} does not match ID in manifest: {id_according_to_manifest}")
+        file_groups.setdefault("error", list()).append(f"{id_according_to_releases}/{id_according_to_manifest}")
+        ids_match = False
+    return ids_match
 
 
 def process_released_themes(overwrite=False, verbose=False):
