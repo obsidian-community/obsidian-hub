@@ -16,7 +16,7 @@ There are five categories in Gems of the Year 2021:
 
 ### Timeline
 
-Nomination phase: Decemeber 8 ~ 15, 2021;
+Nomination phase: December 8 ~ 15, 2021;
 
 Voting phase: December 17, 2021 ~ January 5, 2022.
 
@@ -69,7 +69,7 @@ Please provide the following information:
 	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-themes/28225" target="_blank_">Submit your nomination</a></button>
 </p>
 
-##### Content creator
+##### Content creators
 
 Share a content creator who you benefit from or yourself.
 
@@ -83,7 +83,7 @@ Please provide the following information:
 	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-content-creators/28226" target="_blank_">Submit your nomination</a></button>
 </p>
 
-##### Workflow
+##### Workflows
 
 Share a workflow write-up that you benefit from or your own.
 
