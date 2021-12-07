@@ -87,7 +87,7 @@ Please provide the following information:
 
 For content creators, workflows, and wins, you can alternatively submit a link to your tweet or Twitter thread under the forum nomination thread. 
 
-Please make sure that your tweets contains the required information and also mentions the official account @obsdmd.
+Please make sure that your tweets contain the required information and also mention the official account @obsdmd.
 
 In addition to entering the contest, you also get a chance to get retweeted by our official account.
 
