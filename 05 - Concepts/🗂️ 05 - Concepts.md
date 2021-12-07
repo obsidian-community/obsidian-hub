@@ -38,6 +38,7 @@ Then this is the right folder for you. Here, the various technical and knowledge
 -  [[05 - Concepts/PayPal|PayPal]]
 -  [[05 - Concepts/Publish sites|Publish sites]]
 -  [[05 - Concepts/SCSS|SCSS]]
+-  [[05 - Concepts/Sherlocking|Sherlocking]]
 -  [[05 - Concepts/Spaced repetition|Spaced repetition]]
 -  [[05 - Concepts/Websites|Websites]]
 -  [[05 - Concepts/YAML frontmatter|YAML frontmatter]]
