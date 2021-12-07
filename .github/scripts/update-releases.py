@@ -69,12 +69,12 @@ def process_released_plugins(overwrite=False, verbose=False):
 
 def check_ids_match(plugin, manifest, repo, file_groups):
     ids_match = True
-    id_according_to_releases = plugin.get('id')
-    id_according_to_manifest = manifest.get('id')
-    if id_according_to_releases != id_according_to_manifest:
+    releases_id = plugin.get('id')
+    manifest_id = manifest.get('id')
+    if releases_id != manifest_id:
         print(
-            f"ERROR repo:{repo} ID {id_according_to_releases} does not match ID in manifest: {id_according_to_manifest}")
-        file_groups.setdefault("error", list()).append(f"{id_according_to_releases}/{id_according_to_manifest}")
+            f"ERROR repo:{repo} ID {releases_id} does not match ID in manifest: {manifest_id}")
+        file_groups.setdefault("error", list()).append(f"{releases_id}/{manifest_id}")
         ids_match = False
     return ids_match
 
