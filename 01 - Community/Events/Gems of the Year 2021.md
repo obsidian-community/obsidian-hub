@@ -12,7 +12,7 @@ There are five categories in Gems of the Year 2021:
 2. **Themes**. Top 10 most popular themes will be awarded, by number of votes;
 3. **Content creators**. Any YouTuber, blogger, podcaster, or streamer that produces content. Top 10 creators will get an award, by number of votes;
 4. **Workflows**. Share your setup and workflow with a screenshot. Top 3 helpful workflows wil get awards, and we'll draw 3 lucky winners;
-5. **Wins**. Share what you were able to achieve in 2021 with the help of Obsidian!
+5. **Achievements**. Share what you were able to achieve in 2021 with the help of Obsidian!
 
 ### Timeline
 
@@ -40,16 +40,34 @@ Before nominating, please review all the existing nominations to make sure you'r
 
 Nominate by posting the required information to the corresponding forum thread:
 
-##### Plugins and themes
+##### Plugins
 
-Nominate your favoriate plugin or theme. The plugin or theme needs to be on the community stores to qualify.
+Nominate your favorite plugin. The plugin needs to be on the community store to qualify.
 
 Please provide the following information:
 
-1. Name;
-2. GitHub repository link (can be found on its community plugin page);
-3. Featured screenshot;
-4. A short paragraph on why you like it or how it helps your workflow.
+1.  Name;
+2.  GitHub repository link (can be found on its community plugin page);
+3.  A short paragraph on why you like it or how it helps your workflow.
+
+<p class="u-center-text">
+	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-plugins/28224" target="_blank_">Submit your nomination</a></button>
+</p>
+
+##### Themes
+
+Nominate your favorite theme. The theme needs to be on the community store to qualify.
+
+Please provide the following information:
+
+1.  Name of theme;
+2.  GitHub repository link;
+3.  Screenshot;
+4.  A short paragraph on why you like it or how it helps your workflow.
+
+<p class="u-center-text">
+	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-themes/28225" target="_blank_">Submit your nomination</a></button>
+</p>
 
 ##### Content creator
 
@@ -60,6 +78,10 @@ Please provide the following information:
 1. Name;
 2. Link to featured work, must be Obsidian related;
 3. Link to more work if available (for example, blog, YouTube channel, podcast page).
+
+<p class="u-center-text">
+	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-content-creators/28226" target="_blank_">Submit your nomination</a></button>
+</p>
 
 ##### Workflow
 
@@ -73,9 +95,13 @@ Please provide the following information:
 4. Link to a longer write-up if available;
 5. If it's not your own workflow and you're just nominating someone else's workflow, provide a short write-up how it helped you (300 words max).
 
-##### Wins
+<p class="u-center-text">
+	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-workflows/28227" target="_blank_">Submit your nomination</a></button>
+</p>
 
-Share your own or someone else's feat 
+##### Achivements
+
+Share your own or someone else's achievement with the help of Obsidian during this year.
 
 Please provide the following information:
 
@@ -83,9 +109,13 @@ Please provide the following information:
 2. Short write-up of what happened (500 words max);
 3. If the person is not you, how do we contact them for their reward (website, blog, etc).
 
+<p class="u-center-text">
+	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-achivements/28228" target="_blank_">Submit your nomination</a></button>
+</p>
+
 ##### Participate via Twitter
 
-For content creators, workflows, and wins, you can alternatively submit a link to your tweet or Twitter thread under the forum nomination thread. 
+For content creators, workflows, and achievements, you can alternatively submit a link to your tweet or Twitter thread under the forum nomination thread. 
 
 Please make sure that your tweets contain the required information and also mention the official account @obsdmd.
 
