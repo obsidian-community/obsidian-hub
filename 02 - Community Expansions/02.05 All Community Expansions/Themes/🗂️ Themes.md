@@ -16,6 +16,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/80s Neon|80s Neon]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Agora|Agora]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Al Dente|Al Dente]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Alchemy|Alchemy]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Amethyst|Amethyst]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ars Magna|Ars Magna]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Atom|Atom]]
@@ -117,6 +118,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vileplume|Vileplume]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Warmth|Warmth]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wasp|Wasp]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/WilcoxOne|WilcoxOne]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wyrd|Wyrd]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yin and Yang|Yin and Yang]]
 %% Hub MOCs: Don’t edit above  %%

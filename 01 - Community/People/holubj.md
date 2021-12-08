@@ -1,16 +1,16 @@
 ---
 aliases:
-- Johannes Theiner
+- Jakub Holub
 tags:
 - 
 publish: true
 ---
 
-# Johannes Theiner
+# Jakub Holub
 
-- GitHub: [joethei](https://github.com/joethei/) ^github
+- GitHub: [holubj](https://github.com/holubj/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/joethei> ^website
+- Website: <https://github.com/holubj> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,11 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-plantuml|PlantUML]]
-- [[key-promoter|Key Promoter]]
-- [[rss-reader|RSS Reader]]
-- [[obsidian-tts|Text to Speech]]
-- [[link-favicon|Link Favicons]]
+- [[obsidian-dialogue-plugin|Dialogue]]
 
 %% End Hub: Released contributions %%
 
@@ -45,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @joethei on GitHub Sponsors](https://github.com/sponsors/joethei) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @holubj on GitHub Sponsors](https://github.com/sponsors/holubj) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

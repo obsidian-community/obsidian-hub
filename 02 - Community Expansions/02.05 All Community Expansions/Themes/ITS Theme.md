@@ -262,6 +262,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Kanban Plugin Adjustments: Personal adjustments for less noisy Kanban layout
 - Image Zoom: Hold and click an image to zoom into it.
 - Swap Sliding Pane Icons
+- Icon Folder Icon Swaps: Swap the order of icons back to default. (Will also revert file types).
 - Cross Reference Plugin Adjustments
 - Sidebar Notes Adjustments: Adjustments to padding for better displays of notes moved into sidebars.
 - Mobile Toolbar Adjustment: Multi-row bar sorts properly, but scrolls vertically now.

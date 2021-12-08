@@ -1,16 +1,16 @@
 ---
 aliases:
-- Johannes Theiner
+- Jeppe Klitgaard
 tags:
 - 
 publish: true
 ---
 
-# Johannes Theiner
+# Jeppe Klitgaard
 
-- GitHub: [joethei](https://github.com/joethei/) ^github
+- GitHub: [JeppeKlitgaard](https://github.com/JeppeKlitgaard/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/joethei> ^website
+- Website: <https://jeppe.science> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,11 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-plantuml|PlantUML]]
-- [[key-promoter|Key Promoter]]
-- [[rss-reader|RSS Reader]]
-- [[obsidian-tts|Text to Speech]]
-- [[link-favicon|Link Favicons]]
+- [[obsidian-ankibridge|AnkiBridge]]
 
 %% End Hub: Released contributions %%
 
@@ -45,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @joethei on GitHub Sponsors](https://github.com/sponsors/joethei) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @JeppeKlitgaard on GitHub Sponsors](https://github.com/sponsors/JeppeKlitgaard) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

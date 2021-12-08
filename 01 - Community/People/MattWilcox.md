@@ -1,16 +1,16 @@
 ---
 aliases:
-- Johannes Theiner
+- MattWilcox
 tags:
 - 
 publish: true
 ---
 
-# Johannes Theiner
+# MattWilcox
 
-- GitHub: [joethei](https://github.com/joethei/) ^github
+- GitHub: [MattWilcox](https://github.com/MattWilcox/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/joethei> ^website
+<!-- - Website: <> ^website-->
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -19,13 +19,9 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
-### Plugins
-- [[obsidian-plantuml|PlantUML]]
-- [[key-promoter|Key Promoter]]
-- [[rss-reader|RSS Reader]]
-- [[obsidian-tts|Text to Speech]]
-- [[link-favicon|Link Favicons]]
 
+### Themes
+- [[WilcoxOne]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -45,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @joethei on GitHub Sponsors](https://github.com/sponsors/joethei) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @MattWilcox on GitHub Sponsors](https://github.com/sponsors/MattWilcox) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

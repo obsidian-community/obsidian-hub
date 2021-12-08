@@ -1,16 +1,16 @@
 ---
 aliases:
-- Johannes Theiner
+- Domenic
 tags:
 - 
 publish: true
 ---
 
-# Johannes Theiner
+# Domenic
 
-- GitHub: [joethei](https://github.com/joethei/) ^github
+- GitHub: [yalvhe2009](https://github.com/yalvhe2009/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/joethei> ^website
+<!-- - Website: <> ^website-->
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,11 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-plantuml|PlantUML]]
-- [[key-promoter|Key Promoter]]
-- [[rss-reader|RSS Reader]]
-- [[obsidian-tts|Text to Speech]]
-- [[link-favicon|Link Favicons]]
+- [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]
 
 %% End Hub: Released contributions %%
 
@@ -45,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @joethei on GitHub Sponsors](https://github.com/sponsors/joethei) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @yalvhe2009 on GitHub Sponsors](https://github.com/sponsors/yalvhe2009) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

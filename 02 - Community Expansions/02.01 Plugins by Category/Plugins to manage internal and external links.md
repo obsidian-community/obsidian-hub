@@ -20,7 +20,7 @@ Plugins to manage external or internal links.
 - [[find-unlinked-files|Find unlinked files]]
 - [[obsidian-dangling-links|Dangling links panel]]
 - [[extract-url|Extract url content]]
-- [[obsidian-advanced-uri|Advanced Obsidian URI]]
+- [[obsidian-advanced-uri|Advanced URI]]
 - [[obsidian-auto-link-title|Auto Link Title]]
 - [[obsidian-open-link-with|Open Link With]]
 - [[obsidian-rich-links|Obsidian Rich Links]]

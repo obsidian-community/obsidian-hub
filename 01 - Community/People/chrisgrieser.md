@@ -18,6 +18,7 @@ I am a researcher in Sociology who also codes some small utilities in his free t
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-extra-md-commands|Extra Markdown Commands]]
+- [[obsidian-theme-design-utilities|Theme Design Utilities]]
 
 ### Themes
 - [[Shimmering Focus]]

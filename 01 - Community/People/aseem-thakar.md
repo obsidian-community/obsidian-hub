@@ -1,16 +1,16 @@
 ---
 aliases:
-- Johannes Theiner
+- Tressel
 tags:
 - 
 publish: true
 ---
 
-# Johannes Theiner
+# Tressel
 
-- GitHub: [joethei](https://github.com/joethei/) ^github
+- GitHub: [aseem-thakar](https://github.com/aseem-thakar/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/joethei> ^website
+- Website: <https://tressel.xyz> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,11 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-plantuml|PlantUML]]
-- [[key-promoter|Key Promoter]]
-- [[rss-reader|RSS Reader]]
-- [[obsidian-tts|Text to Speech]]
-- [[link-favicon|Link Favicons]]
+- [[obsidian-tressel|Tressel Sync for Obsidian]]
 
 %% End Hub: Released contributions %%
 
@@ -45,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @joethei on GitHub Sponsors](https://github.com/sponsors/joethei) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @aseem-thakar on GitHub Sponsors](https://github.com/sponsors/aseem-thakar) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon

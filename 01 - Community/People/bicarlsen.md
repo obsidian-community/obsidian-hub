@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# Brian Carlsen
+# bicarlsen
 
 - GitHub: [bicarlsen](https://github.com/bicarlsen/) ^github
 <!-- - Discord: `@` ^discord-->
