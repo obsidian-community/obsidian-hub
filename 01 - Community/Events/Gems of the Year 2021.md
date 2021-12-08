@@ -56,7 +56,7 @@ Please provide the following information:
 
 ##### Themes
 
-Nominate your favorite theme. The theme needs to be on the community store to qualify. Plugins that have won in the past years cannot enter again either (namely, Minimal and Blue Topaz).
+Nominate your favorite theme. The theme needs to be in the community store to qualify. Plugins that have won in the past years cannot enter again either (namely, Minimal and Blue Topaz).
 
 Please provide the following information:
 
@@ -90,10 +90,11 @@ Share a workflow write-up that you benefit from or your own.
 Please provide the following information:
 
 1. Author of the workflow;
-2. Screenshot of the workflow (sensitive information can be garbled if necessary but should still show the gist of the setup);
-3. Short write-up to describe the gist of the workflow (1,000 words max), please talk about what plugins you use, how you organize content, how do you process input and how do you output content if applicable;
-4. Link to a longer write-up if available;
-5. If it's not your own workflow and you're just nominating someone else's workflow, provide a short write-up how it helped you (300 words max).
+2. Short title (for voting purposes);
+3. Screenshot of the workflow (sensitive information can be garbled if necessary but should still show the gist of the setup);
+4. Short write-up to describe the gist of the workflow (1,000 words max), please talk about what plugins you use, how you organize content, how do you process input and how do you output content if applicable;
+5. Link to a longer write-up if available;
+6. If it's not your own workflow and you're just nominating someone else's workflow, provide a short write-up how it helped you (300 words max).
 
 <p class="u-center-text">
 	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-workflows/28227" target="_blank_">Submit your nomination</a></button>
@@ -105,9 +106,10 @@ Share your own or someone else's achievement with the help of Obsidian during th
 
 Please provide the following information:
 
-1. Name;
-2. Short write-up of what happened (500 words max);
-3. If the person is not you, how do we contact them for their reward (website, blog, etc).
+1. Name of the person;
+2. Short title (for voting purposes);
+3. Short write-up of what happened (500 words max);
+4. If the person is not you, how do we contact them for their reward (website, blog, etc).
 
 <p class="u-center-text">
 	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-achivements/28228" target="_blank_">Submit your nomination</a></button>
