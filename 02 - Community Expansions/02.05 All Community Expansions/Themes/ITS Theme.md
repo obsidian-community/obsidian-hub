@@ -35,6 +35,17 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- Features of **ITS Theme** available as snippets:
+  - [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
+    Pre-made alternate color schemes are available with the css snippet.
+  - [[Image Adjustments]]
+  - [[Embed Adjustments]]
+  - [[Kanban (SlRvb)|Kanban]]
+  - [[Asides (SlRvb)|Asides]]
+  - [[Alternate Checkboxes (SlRvb)|Alternate Checkboxes]]
+  - [[Folder Styles (SlRvb)|Folder Styles]]
+  - [[Alternate Admonitions (SlRvb)]]
+  - [[Center Tables]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
