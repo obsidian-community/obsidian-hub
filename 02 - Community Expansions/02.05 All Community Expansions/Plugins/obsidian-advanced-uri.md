@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-advanced-uri
 aliases:
-- Advanced Obsidian URI
+- Advanced URI
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Advanced Obsidian URI
+# Advanced URI
 
 Plugin ID: `obsidian-advanced-uri`
 Links: [GitHub repository](https://github.com/Vinzent03/obsidian-advanced-uri) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-advanced-uri)
