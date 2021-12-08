@@ -4,7 +4,7 @@
 
 Gems of the Year (GotY) is an official end-of-year event to appreciate all the great creations and people in the community.
 
-### Catogories and awards
+### Categories and awards
 
 There are five categories in Gems of the Year 2021:
 
