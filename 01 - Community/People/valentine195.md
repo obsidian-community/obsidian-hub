@@ -28,6 +28,7 @@ publish: true
 - [[markdown-attributes|Markdown Attributes]]
 - [[obsidian-prominent-starred-files|Prominent Starred Files]]
 - [[fantasy-calendar|Fantasy Calendar]]
+- [[image-window|Image Window]]
 
 %% End Hub: Released contributions %%
 

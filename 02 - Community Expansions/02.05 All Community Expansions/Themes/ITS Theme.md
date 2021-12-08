@@ -35,17 +35,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
-- Features of **ITS Theme** available as snippets:
-  - [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
-    Pre-made alternate color schemes are available with the css snippet.
-  - [[Image Adjustments]]
-  - [[Embed Adjustments]]
-  - [[Kanban (SlRvb)|Kanban]]
-  - [[Asides (SlRvb)|Asides]]
-  - [[Alternate Checkboxes (SlRvb)|Alternate Checkboxes]]
-  - [[Folder Styles (SlRvb)|Folder Styles]]
-  - [[Alternate Admonitions (SlRvb)]]
-  - [[Center Tables]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
@@ -262,6 +251,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Kanban Plugin Adjustments: Personal adjustments for less noisy Kanban layout
 - Image Zoom: Hold and click an image to zoom into it.
 - Swap Sliding Pane Icons
+- Icon Folder Icon Swaps: Swap the order of icons back to default. (Will also revert file types).
 - Cross Reference Plugin Adjustments
 - Sidebar Notes Adjustments: Adjustments to padding for better displays of notes moved into sidebars.
 - Mobile Toolbar Adjustment: Multi-row bar sorts properly, but scrolls vertically now.

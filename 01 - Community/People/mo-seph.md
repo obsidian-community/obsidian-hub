@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[copy-as-latex|Copy as Latex]]
+- [[obsidian-notes-from-template|From Template]]
 
 %% End Hub: Released contributions %%
 

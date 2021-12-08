@@ -90,7 +90,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Tag-7
         - Tag-8
         - Tag-9
-- **2.2 Font**: 
+- **2.2 Typography**: 
     - **2.2.1 Font Family**: 
         - Use Obsidian Default Font-family
         - Main Font: Fonts except from the code texts
@@ -107,11 +107,29 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Bold Text
         - Vault Name
     - **2.2.2 Font Size**: 
-- **2.3 Element Style**: 
-    - Wide status bar: Use full width status bar
-    - Text-indent of the first line in preview mode
+        - Vault Name
+        - File Header (NOT for Sliding Pane plugin)
+        - File Header (for Sliding Pane plugin)
+        - Folder and File
+        - Codeblock
+        - Header 1
+        - Header 2
+        - Header 3
+        - Header 4
+        - Header 5
+        - Header 6
+    - **2.2.3 Other Settings**: 
+        - Line Height
+        - Letter Spacing
+        - Letter Spacing for Code
+        - Text-indent of the first line in preview mode
+- **2.3 Element Styles**: 
+    - Reduced Status Bar: Use  half width status bar
     - Remove underlines of header 1 & 2
     - Circular Checkbox
+    - Mute Active Line
+    - Mute  zoom into the image  on click
+    - Mute  link underline
     - **2.3.1 Horizontal Ruler (hr, ---)**: 
         - Fancy Horizontal Ruler (hr)
         - Centre Icon: Do not remove the quotes
@@ -141,6 +159,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **3.3 Kanban (Coming soon)**: 
     - Static (Coming soon)
     - Dynamic (Coming soon)
+- **3.2 Checklist Plugin**: 
+    - Rainbow Checklist
 
 **4. Built-in Style Intro**: There are some built-in CSS classes that should be manually declared in the YAML area. Details refer to the TIPS demo vault for Blue Topaz on Github.
 - **Pseudo-kanban**: ❗cssclass：kanban❗ A kind of kanban-liked style for unordered lists. (Adapted from Spectrum theme by @Wiktoria Mielcarek)

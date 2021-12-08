@@ -42,4 +42,5 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - Text scale: The rate of growth between text and heading sizes. No scaling means headings and body text are the same size. Blank means Typomagical will attempt to choose the right scale based on your screen size.
 - Heading bold
 - Title (H1) font: Titles, or H1s, are special. Thus, they should look special. Choose a Title font that suits you!
+- MathJax font: Font for MathJax e.g. $inline equation$ and $$centered equation$$
 

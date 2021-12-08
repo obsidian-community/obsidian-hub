@@ -23,6 +23,8 @@ publish: true
 - [[obsidian-plantuml|PlantUML]]
 - [[key-promoter|Key Promoter]]
 - [[rss-reader|RSS Reader]]
+- [[obsidian-tts|Text to Speech]]
+- [[link-favicon|Link Favicons]]
 
 %% End Hub: Released contributions %%
 

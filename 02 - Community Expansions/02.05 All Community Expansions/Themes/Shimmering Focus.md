@@ -43,8 +43,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Re-enable Title Bar: Re-enable this to have a title bar, e.g. for moving the Obsidian window
 - Re-enable Ribbons: Ribbons are the thin vertical bars to the very left & right
 - Permanently show the Header Bar: When false, the Header bar is still visible upon focus and hover
-- Permanently show the Status Bar: When false, the Status bar is still visible when hovering. (This setting will be overriden when you use the default status bar.)
+- Permanently show the Status Bar: When false, the Status bar is still visible when hovering. (This setting will be overridden when you use the default status bar.)
 - Default Theme Status Bar: Use the Status Bar from the default theme, which will also be permanently visible.
+- Hide the "✧" in the Status Bar: Hide the "signature" icon of the theme in the status bar.
 - Re-enable Close Buttons: When false, you can close the menu with `Esc` or by clicking outside the menu area.
 - Re-enable Scrollbars: When false, only the scroll bars in the Editor are shown.
 - Permanently show the Edit Mode Collapse Arrows: When false, you collapse buttons still become visible upon hovering.
@@ -53,7 +54,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Re-enable the Starred Pane Buttons: The two buttons to star the current file and the current search.
 
 **Aesthetics**: Shapes, Color Schemes (coming soon), Cursor, & Decoration
-- Angular Shapes: Enable to use angular shapes (🔲). Disable to use rounded shapes (🔘).
+- ❇️ Angular Shapes: Enable to use angular shapes (🔲). Disable to use rounded shapes (🔘).
 - Block Cursor: Use a block cursor instead of a line cursor. For best results, also switch the main font to a monospace font.
 - Mono-colored Cursor: Use a mono-colored, purple cursor like in previous versions of "Shimmering Focus".
 - Normal Checkboxes: Use the checkboxes from the default theme.
@@ -106,7 +107,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Mobile**: Settings specifically for mobile
 - Mobile Font Size
 
-**Miscellaneous**: Popovers, Pandoc Citations, Annotation Tags, Active Line Highlighting, Command Palette, Alternating Row Colors, Relationship Lines
+**Miscellaneous**: Popovers, Pandoc Citations, Annotation Tags, Active Line Highlighting, Command Palette, Alternating Row Colors, Relationship Lines, Calendar Plugin
 - Size of Popovers (Page Previews): Width & Height of Popovers in px
 - No Emphasis of Pandoc Citations: Turn off the coloring of Pandoc Citations [@citekey] done by this theme.
 - Turn off "Annotation Tags": "Annotation Tags" will visually emphasize some tags that are commonly used for academic reading.
@@ -114,6 +115,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Turn off Alternating Row Coloring: Affects tables, Command Palette & Suggesters.
 - Command Palette: Move the plugin name back to the left: Enable this in case some commands are aren't displayed properly in the Command Palette.
 - Disable Relationship Lines for lists: If you want to use a custom relationship line snippet or the relationship lines from the Outliner plugin, you can disable this theme's relationship lines to prevent interference.
+- Remove lines in Calendar: Remove the lines in the Calendar plugin's Calendar (making it more similar to its default look).
 
 ## Plugin Compatibility[^1]
 
@@ -150,5 +152,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[obsidian-style-settings|Style Settings]]
 - [[obsidian-activity-history|Activity History]]
 - [[breadcrumbs|Breadcrumbs]]
+- [[link-favicon|Link Favicons]]
+- [[get-info-plugin|Get Info]]
+- [[obsidian-languagetool-plugin|LanguageTool Integration]]
+- [[hotkey-helper|Hotkey Helper]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
