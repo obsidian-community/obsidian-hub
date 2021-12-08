@@ -11,8 +11,8 @@ There are five categories in Gems of the Year 2021:
 1. **Plugins**. Top 10 most popular plugins will be awarded, by number of votes;
 2. **Themes**. Top 10 most popular themes will be awarded, by number of votes;
 3. **Content creators**. Any YouTuber, blogger, podcaster, or streamer that produces content. Top 10 creators will get an award, by number of votes;
-4. **Workflows**. Share your setup and workflow with a screenshot. Top 3 helpful workflows wil get awards, and we'll draw 3 lucky winners;
-5. **Achievements**. Share what you were able to achieve in 2021 with the help of Obsidian! The 3 most voted submissions wil get awards, and we'll draw 3 lucky winners.
+4. **Workflows**. Share your setup and workflow with a screenshot. Top 3 helpful workflows will get awards, and we'll draw 3 lucky winners;
+5. **Achievements**. Share what you were able to achieve in 2021 with the help of Obsidian! The 3 most voted submissions will get awards, and we'll draw 3 lucky winners.
 
 ### Timeline
 
@@ -100,7 +100,7 @@ Please provide the following information:
 	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-workflows/28227" target="_blank_">Submit your nomination</a></button>
 </p>
 
-##### Achivements
+##### Achievements
 
 Share your own or someone else's achievement with the help of Obsidian during this year.
 
