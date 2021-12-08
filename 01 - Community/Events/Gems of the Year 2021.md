@@ -12,7 +12,7 @@ There are five categories in Gems of the Year 2021:
 2. **Themes**. Top 10 most popular themes will be awarded, by number of votes;
 3. **Content creators**. Any YouTuber, blogger, podcaster, or streamer that produces content. Top 10 creators will get an award, by number of votes;
 4. **Workflows**. Share your setup and workflow with a screenshot. Top 3 helpful workflows wil get awards, and we'll draw 3 lucky winners;
-5. **Achievements**. Share what you were able to achieve in 2021 with the help of Obsidian!
+5. **Achievements**. Share what you were able to achieve in 2021 with the help of Obsidian! The 3 most voted submissions wil get awards, and we'll draw 3 lucky winners.
 
 ### Timeline
 
@@ -28,11 +28,11 @@ The event works in three phases.
 
 ### Nomination
 
-Because many themes and plugins were produced this year, we will have members of the community nominate them limit the number of options to vote for.
+Because many themes and plugins were produced this year, we will have members of the community nominate them to limit the number of options to vote for.
 
 If a plugin or theme has been very useful to you, please make sure they are nominated so they can be voted for after.
 
-You can nominate for yourself and your own creations as well! We encourage all creators to do that.
+You can nominate yourself and your own creations as well! We encourage all creators to do that.
 
 Before nominating, please review all the existing nominations to make sure you're not making a duplicate nomination.
 
@@ -42,7 +42,7 @@ Nominate by posting the required information to the corresponding forum thread:
 
 ##### Plugins
 
-Nominate your favorite plugin. The plugin needs to be on the community store to qualify.
+Nominate your favorite plugin. The plugin needs to be in the community store to qualify. Plugins that have won in the past years cannot enter again either (namely, Sliding Panes and Calendar).
 
 Please provide the following information:
 
@@ -56,7 +56,7 @@ Please provide the following information:
 
 ##### Themes
 
-Nominate your favorite theme. The theme needs to be on the community store to qualify.
+Nominate your favorite theme. The theme needs to be on the community store to qualify. Plugins that have won in the past years cannot enter again either (namely, Minimal and Blue Topaz).
 
 Please provide the following information:
 
@@ -124,7 +124,7 @@ In addition to entering the contest, you also get a chance to get retweeted by o
 
 ### Voting
 
-After nomination period ends, we will open up polls so that you can vote for your favorite entries.
+After the nomination period ends, we will open up polls so that you can vote for your favorite entries.
 
 Only nominated entries can be voted for, so if you want to vote for something, please make sure it's nominated, either by you or by someone else.
 
@@ -134,7 +134,9 @@ Vote for the ones you like and/or find useful and spend your votes wisely!
 
 ### Results
 
-Results will be announced shortly after we collect all results. We'll announce on our Discord, forum, and Twitter so if you've participated, don't miss out!
+Results will be announced shortly after we've collected all results. Winners are selected based on number of votes, and lucky winners are selected randomly.
+
+We'll announce the results on our Discord, forum, and Twitter, so if you've participated, don't miss out!
 
 All winners and lucky winners will be featured and awards will be arranged as soon as we can!
 
