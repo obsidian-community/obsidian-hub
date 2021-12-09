@@ -19,6 +19,8 @@ publish: true
 - [[obsidian-pomodoro-plugin|Pomodoro Plugin]]
 - [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]
 - [[obsidian-toggl-integration|Toggl Track]]
+- [[obsidian-flexible-pomo|Flexible Pomodoro For Obsidian]]
+- [[obsidian-stopwatch-plugin|Stopwatch Plugin]]
 
 ## Related categories
 
