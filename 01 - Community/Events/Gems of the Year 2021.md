@@ -56,7 +56,7 @@ Please provide the following information:
 
 ##### Themes
 
-Nominate your favorite theme. The theme needs to be in the community store to qualify. Plugins that have won in the past years cannot enter again either (namely, Minimal and Blue Topaz).
+Nominate your favorite theme. The theme needs to be in the community store to qualify. Themes that have won in the past years cannot enter again either (namely, Minimal and Blue Topaz).
 
 Please provide the following information:
 
