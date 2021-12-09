@@ -9,16 +9,7 @@ publish: true
 
 ## Obsidian Updates
 
-[v0.13.3](https://forum.obsidian.md/t/obsidian-release-v0-13-3-insider-build/27381) and [v0.13.4](https://forum.obsidian.md/t/obsidian-release-v0-13-4-insider-build/27387) are now available for Insiders, with many improvements for Live Preview, including backlinks in document, mermaid, query blocks & block quotes, better image handling, (some) custom code blocks from plugins & other code block improvements (see the developers section for more), more native cursor handling on MacOS, better IME handling (which should help Chinese and Japanese users) and auto-pairing of brackets for markdown formatting symbols such as `---
-link: https://www.obsidianroundup.org/2021-11-20/
-author: Eleanor Konik
-published: 2021-11-20T13:11:00
-publish: true
----
-
-# 2021-11-20: Live Preview Updates, Fancy Checkboxes & Tips for Devs
-
-, `=`, `~` and `%`.
+[v0.13.3](https://forum.obsidian.md/t/obsidian-release-v0-13-3-insider-build/27381) and [v0.13.4](https://forum.obsidian.md/t/obsidian-release-v0-13-4-insider-build/27387) are now available for Insiders, with many improvements for Live Preview, including backlinks in document, mermaid, query blocks & block quotes, better image handling, (some) custom code blocks from plugins & other code block improvements (see the developers section for more), more native cursor handling on MacOS, better IME handling (which should help Chinese and Japanese users) and auto-pairing of brackets for markdown formatting symbols such as `$`, `=`, `~` and `%`.
 
 The devs also...:
 
