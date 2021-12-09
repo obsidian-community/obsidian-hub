@@ -12,7 +12,7 @@ tags:
 
 We think of this vault as a [[Digital garden]]. This means that the content in our vault is very much a work in progress. Since we're at a very early stage, there's a lot of space to grow! You can check out a few sample notes here:
 
-- [[Obsidian October 2021]]
+- [[Gems of the Year 2021]]
 - [[🗂️ 02.01 Plugins by Category|Plugin Categories]]
 - [[for Plugin Developers|Resources and Guides for Plugin Developers]]
 - [[for Theme Designers|Resources and Guides for Theme Designers]]
