@@ -21,6 +21,7 @@ publish: true
 - [[obsidian-5e-statblocks|5e Statblocks]]
 - [[fantasy-calendar|Fantasy Calendar]]
 - [[obsidian-leaflet-plugin|Obsidian Leaflet]]
+- [[generic-initiative-tracker|Generic Initiative Tracker]]
 
 ## Unlisted plugins
 

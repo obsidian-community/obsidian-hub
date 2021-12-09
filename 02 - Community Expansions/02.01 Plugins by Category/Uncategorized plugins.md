@@ -71,7 +71,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-dialogue-plugin|Dialogue]]
 - [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]
 - [[obsidian-theme-design-utilities|Theme Design Utilities]]
-- [[generic-initiative-tracker|Generic Initiative Tracker]]
 - [[obsidian-ankibridge|AnkiBridge]]
 - [[obsidian-tressel|Tressel Sync for Obsidian]]
 - [[image-window|Image Window]]
