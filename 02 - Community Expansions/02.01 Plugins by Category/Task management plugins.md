@@ -33,6 +33,8 @@ publish: true
 - [[obsidian-task-archiver|Obsidian Task Archiver]]
 - [[obsidian-apple-reminders-plugin|Apple Reminders]]
 - [[things-logbook|Things Logbook]]
+- [[obsidian-overdue|Overdue]]
+- [[obsidian-task-collector|Task Collector (TC)]]
 
 ## Related categories
 
