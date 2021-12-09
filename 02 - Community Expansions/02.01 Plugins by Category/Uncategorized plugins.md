@@ -48,7 +48,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-custom-attachment-location|Custom Attachment Location]]
 - [[cryptsidian|Cryptsidian]]
 - [[obsidian-crypto-lookup|Crypto Lookup for Obsidian]]
-- [[copy-as-latex|Copy as Latex]]
 - [[obsidian-auto-split|Auto Split]]
 - [[obsidian-word-sprint|Word Sprint for Obsidian]]
 - [[copy-publish-url|Copy Publish URL]]
