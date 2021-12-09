@@ -59,6 +59,8 @@ Plugins to integrate with other services or applications.
 - [[netwik|Netwik]]
 - [[obsidian-jupyter|Jupyter plugin]]
 - [[obsidian-plotly|Plotly]]
+- [[obsidian-ankibridge|AnkiBridge]]
+- [[obsidian-tressel|Tressel Sync for Obsidian]]
 
 ## Related categories
 

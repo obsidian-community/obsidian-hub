@@ -71,8 +71,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-dialogue-plugin|Dialogue]]
 - [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]
 - [[obsidian-theme-design-utilities|Theme Design Utilities]]
-- [[obsidian-ankibridge|AnkiBridge]]
-- [[obsidian-tressel|Tressel Sync for Obsidian]]
 - [[image-window|Image Window]]
 - [[obsidian-tts|Text to Speech]]
 - [[link-favicon|Link Favicons]]
