@@ -3,6 +3,7 @@
 import sys
 import argparse
 from themes import get_theme_plugin_support, get_theme_settings
+from plugins import validate_plugin
 
 from utils import (
     THEME_CSS_FILE,
@@ -65,22 +66,6 @@ def process_released_plugins(overwrite=False, verbose=False):
     print_file_summary(file_groups)
 
     return devs
-
-
-def validate_plugin(plugin, manifest, repo, file_groups):
-    return validate_plugin_ids(plugin, manifest, repo, file_groups)
-
-
-def validate_plugin_ids(plugin, manifest, repo, file_groups):
-    ids_match = True
-    releases_id = plugin.get('id')
-    manifest_id = manifest.get('id')
-    if releases_id != manifest_id:
-        print(
-            f"ERROR repo:{repo} ID {releases_id} does not match ID in manifest: {manifest_id}")
-        file_groups.setdefault("error", list()).append(f"{releases_id}/{manifest_id}")
-        ids_match = False
-    return ids_match
 
 
 def process_released_themes(overwrite=False, verbose=False):
