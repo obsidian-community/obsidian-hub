@@ -4,13 +4,22 @@ import re
 import requests
 
 from plugins import CORE_PLUGINS
-from utils import PLUGINS_JSON_FILE, get_json_from_github, get_output_dir
+from utils import (
+    PLUGINS_JSON_FILE,
+    THEME_CSS_FILE,
+    get_json_from_github,
+    get_output_dir,
+    get_theme_css
+)
 
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
 
 DOWNLOAD_COUNT_SHIELDS_URL_PREFIX = 'https://img.shields.io/badge/downloads-'
 DOWNLOAD_COUNT_SEARCH = re.compile(DOWNLOAD_COUNT_SHIELDS_URL_PREFIX + r"(\d+)-")
+
+DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
+LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 
 
 def get_theme_settings(theme_css):
@@ -125,6 +134,41 @@ def get_theme_downloads():
 def get_url_pattern_for_downloads_shield(placeholder_for_download_count):
     old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
     return old_text
+
+
+def collect_data_for_theme(theme, theme_downloads, template):
+    """
+    Take raw theme data from a community theme, and add information to it.
+
+    :param theme: A dict with data about the theme, to be updated by this function
+    :param theme_downloads: The download count of all themes
+    :param template: The template used for writing themes - needed to obtain the location of existing themes
+    :return: The name of the theme
+    """
+    repo = theme.get("repo")
+    user = repo.split("/")[0]
+    modes = (
+        ", ".join(theme.get("modes"))
+            .replace("dark", DARK_MODE_THEMES)
+            .replace("light", LIGHT_MODE_THEMES)
+    )
+    branch = theme.get("branch", "master")
+    css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
+    settings = get_theme_settings(css_file)
+    plugin_support = get_theme_plugin_support(css_file)
+
+    current_name = theme.get("name")
+    download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
+
+    theme.update(
+        user=user,
+        modes=modes,
+        branch=branch,
+        settings=settings,
+        plugins=plugin_support,
+        download_count=download_count,
+    )
+    return current_name
 
 
 def get_theme_download_count_preferring_previous(template, theme_downloads, current_name):

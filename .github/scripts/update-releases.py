@@ -2,29 +2,20 @@
 
 import sys
 import argparse
-from themes import get_theme_plugin_support, get_theme_settings
+from plugins import collect_data_for_plugin
 
 from utils import (
-    THEME_CSS_FILE,
     format_link,
     get_category_files,
     get_template,
-    get_theme_css,
     print_file_summary,
     print_progress_bar,
     write_file,
     get_json_from_github,
-    get_plugin_manifest,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
-from themes import get_theme_downloads, get_theme_download_count_preferring_previous, update_theme_download_count
+from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme
 
-
-MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
-DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
-
-DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
-LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 
 def process_released_plugins(overwrite=False, verbose=False):
     print("-----\nProcessing plugins....\n")
@@ -38,20 +29,11 @@ def process_released_plugins(overwrite=False, verbose=False):
         0, len(plugin_list),
     )
     for plugin in plugin_list:
-        repo = plugin.get("repo")
-        branch = plugin.get("branch", "master")
-        manifest = get_plugin_manifest(repo, branch)
+        plugin_is_valid = collect_data_for_plugin(plugin, file_groups)
 
-        if not check_ids_match(plugin, manifest, repo, file_groups):
+        if not plugin_is_valid:
             continue
 
-        user = repo.split("/")[0]
-        if manifest.get("isDesktopOnly"):
-            mobile = DESKTOP_ONLY
-        else:
-            mobile = MOBILE_COMPATIBLE
-
-        plugin.update(mobile=mobile, user=user, **manifest)
         group = write_file(
             template, plugin.get("id"), overwrite=overwrite, verbose=verbose, **plugin
         )
@@ -65,18 +47,6 @@ def process_released_plugins(overwrite=False, verbose=False):
     print_file_summary(file_groups)
 
     return devs
-
-
-def check_ids_match(plugin, manifest, repo, file_groups):
-    ids_match = True
-    releases_id = plugin.get('id')
-    manifest_id = manifest.get('id')
-    if releases_id != manifest_id:
-        print(
-            f"ERROR repo:{repo} ID {releases_id} does not match ID in manifest: {manifest_id}")
-        file_groups.setdefault("error", list()).append(f"{releases_id}/{manifest_id}")
-        ids_match = False
-    return ids_match
 
 
 def process_released_themes(overwrite=False, verbose=False):
@@ -93,29 +63,7 @@ def process_released_themes(overwrite=False, verbose=False):
     theme_downloads = get_theme_downloads()
 
     for theme in theme_list:
-        repo = theme.get("repo")
-        user = repo.split("/")[0]
-        modes = (
-            ", ".join(theme.get("modes"))
-            .replace("dark", DARK_MODE_THEMES)
-            .replace("light", LIGHT_MODE_THEMES)
-        )
-        branch = theme.get("branch", "master")
-        css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
-        settings = get_theme_settings(css_file)
-        plugin_support = get_theme_plugin_support(css_file)
-
-        current_name = theme.get("name")
-        download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
-
-        theme.update(
-            user=user,
-            modes=modes,
-            branch=branch,
-            settings=settings,
-            plugins=plugin_support,
-            download_count= download_count,
-        )
+        current_name = collect_data_for_theme(theme, theme_downloads, template)
         group = write_file(
             template, current_name, overwrite=overwrite, verbose=verbose, **theme
         )
@@ -255,7 +203,6 @@ def main(argv=sys.argv[1:]):
         help="Only update the download counts in existing themes. "
              "This ignores the overwrite argument, and always updates.",
     )
-
 
     args = parser.parse_args(argv)
 
