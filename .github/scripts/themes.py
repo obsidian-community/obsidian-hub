@@ -138,7 +138,7 @@ def get_url_pattern_for_downloads_shield(placeholder_for_download_count):
 
 def collect_data_for_theme(theme, theme_downloads, template):
     """
-    Take raw plugin data from a community theme, and add information to it.
+    Take raw theme data from a community theme, and add information to it.
 
     :param theme: A dict with data about the theme, to be updated by this function
     :param theme_downloads: The download count of all themes
