@@ -42,7 +42,7 @@ def process_released_plugins(overwrite=False, verbose=False):
         branch = plugin.get("branch", "master")
         manifest = get_plugin_manifest(repo, branch)
 
-        if not check_ids_match(plugin, manifest, repo, file_groups):
+        if not validate_plugin_ids(plugin, manifest, repo, file_groups):
             continue
 
         user = repo.split("/")[0]
@@ -67,7 +67,7 @@ def process_released_plugins(overwrite=False, verbose=False):
     return devs
 
 
-def check_ids_match(plugin, manifest, repo, file_groups):
+def validate_plugin_ids(plugin, manifest, repo, file_groups):
     ids_match = True
     releases_id = plugin.get('id')
     manifest_id = manifest.get('id')
