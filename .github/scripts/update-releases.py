@@ -44,8 +44,6 @@ def process_released_plugins(overwrite=False, verbose=False):
         manifest = get_plugin_manifest(repo, branch)
 
         plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
-        if not plugin_is_valid:
-            continue
 
         user = repo.split("/")[0]
         if manifest.get("isDesktopOnly"):
@@ -54,6 +52,10 @@ def process_released_plugins(overwrite=False, verbose=False):
             mobile = MOBILE_COMPATIBLE
 
         plugin.update(mobile=mobile, user=user, **manifest)
+
+        if not plugin_is_valid:
+            continue
+
         group = write_file(
             template, plugin.get("id"), overwrite=overwrite, verbose=verbose, **plugin
         )
