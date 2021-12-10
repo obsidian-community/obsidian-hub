@@ -2,26 +2,19 @@
 
 import sys
 import argparse
-from themes import get_theme_plugin_support, get_theme_settings
 from plugins import collect_data_for_plugin
 
 from utils import (
-    THEME_CSS_FILE,
     format_link,
     get_category_files,
     get_template,
-    get_theme_css,
     print_file_summary,
     print_progress_bar,
     write_file,
     get_json_from_github,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
-from themes import get_theme_downloads, get_theme_download_count_preferring_previous, update_theme_download_count
-
-
-DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
-LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
+from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme
 
 def process_released_plugins(overwrite=False, verbose=False):
     print("-----\nProcessing plugins....\n")
@@ -82,41 +75,6 @@ def process_released_themes(overwrite=False, verbose=False):
     print_file_summary(file_groups)
 
     return designers
-
-
-def collect_data_for_theme(theme, theme_downloads, template):
-    """
-    Take raw plugin data from a community theme, and add information to it.
-
-    :param theme: A dict with data about the theme, to be updated by this function
-    :param theme_downloads: The download count of all themes
-    :param template: The template used for writing themes - needed to obtain the location of existing themes
-    :return: The name of the theme
-    """
-    repo = theme.get("repo")
-    user = repo.split("/")[0]
-    modes = (
-        ", ".join(theme.get("modes"))
-            .replace("dark", DARK_MODE_THEMES)
-            .replace("light", LIGHT_MODE_THEMES)
-    )
-    branch = theme.get("branch", "master")
-    css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
-    settings = get_theme_settings(css_file)
-    plugin_support = get_theme_plugin_support(css_file)
-
-    current_name = theme.get("name")
-    download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
-
-    theme.update(
-        user=user,
-        modes=modes,
-        branch=branch,
-        settings=settings,
-        plugins=plugin_support,
-        download_count=download_count,
-    )
-    return current_name
 
 
 def get_uncategorized_plugins(overwrite=True, verbose=False):
