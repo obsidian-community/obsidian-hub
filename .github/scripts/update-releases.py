@@ -68,8 +68,7 @@ def process_released_plugins(overwrite=False, verbose=False):
 
 
 def validate_plugin(plugin, manifest, repo, file_groups):
-    xxx = validate_plugin_ids(plugin, manifest, repo, file_groups)
-    return xxx
+    return validate_plugin_ids(plugin, manifest, repo, file_groups)
 
 
 def validate_plugin_ids(plugin, manifest, repo, file_groups):
