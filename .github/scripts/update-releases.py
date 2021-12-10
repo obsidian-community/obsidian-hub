@@ -42,7 +42,7 @@ def process_released_plugins(overwrite=False, verbose=False):
         branch = plugin.get("branch", "master")
         manifest = get_plugin_manifest(repo, branch)
 
-        if not validate_plugin_ids(plugin, manifest, repo, file_groups):
+        if not validate_plugin(plugin, manifest, repo, file_groups):
             continue
 
         user = repo.split("/")[0]
@@ -65,6 +65,11 @@ def process_released_plugins(overwrite=False, verbose=False):
     print_file_summary(file_groups)
 
     return devs
+
+
+def validate_plugin(plugin, manifest, repo, file_groups):
+    xxx = validate_plugin_ids(plugin, manifest, repo, file_groups)
+    return xxx
 
 
 def validate_plugin_ids(plugin, manifest, repo, file_groups):
