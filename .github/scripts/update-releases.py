@@ -16,6 +16,7 @@ from utils import (
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
 from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme
 
+
 def process_released_plugins(overwrite=False, verbose=False):
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
@@ -202,7 +203,6 @@ def main(argv=sys.argv[1:]):
         help="Only update the download counts in existing themes. "
              "This ignores the overwrite argument, and always updates.",
     )
-
 
     args = parser.parse_args(argv)
 
