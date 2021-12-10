@@ -4,7 +4,11 @@ import re
 import requests
 
 from plugins import CORE_PLUGINS
-from utils import PLUGINS_JSON_FILE, get_json_from_github, get_output_dir
+from utils import (
+    PLUGINS_JSON_FILE,
+    get_json_from_github,
+    get_output_dir
+)
 
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
