@@ -3,7 +3,7 @@
 import sys
 import argparse
 from themes import get_theme_plugin_support, get_theme_settings
-from plugins import validate_plugin
+from plugins import collect_data_for_plugin
 
 from utils import (
     THEME_CSS_FILE,
@@ -15,14 +15,10 @@ from utils import (
     print_progress_bar,
     write_file,
     get_json_from_github,
-    get_plugin_manifest,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
 from themes import get_theme_downloads, get_theme_download_count_preferring_previous, update_theme_download_count
 
-
-MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
-DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 
 DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
 LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
@@ -57,32 +53,6 @@ def process_released_plugins(overwrite=False, verbose=False):
     print_file_summary(file_groups)
 
     return devs
-
-
-def collect_data_for_plugin(plugin, file_groups):
-    """
-    Take raw plugin data from a community plugin, and add information to it,
-    typically from its manifest file.
-
-    :param plugin: A dict with data about the plugin, to be updated by this function
-    :param file_groups: Place to store error message if the plugin is invalid
-    :return: Whether the plugin is valid, and is OK to be added to the Hub
-    """
-    repo = plugin.get("repo")
-    branch = plugin.get("branch", "master")
-    manifest = get_plugin_manifest(repo, branch)
-
-    plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
-
-    user = repo.split("/")[0]
-    if manifest.get("isDesktopOnly"):
-        mobile = DESKTOP_ONLY
-    else:
-        mobile = MOBILE_COMPATIBLE
-
-    plugin.update(mobile=mobile, user=user, **manifest)
-
-    return plugin_is_valid
 
 
 def process_released_themes(overwrite=False, verbose=False):
