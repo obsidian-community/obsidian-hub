@@ -43,7 +43,8 @@ def process_released_plugins(overwrite=False, verbose=False):
         branch = plugin.get("branch", "master")
         manifest = get_plugin_manifest(repo, branch)
 
-        if not validate_plugin(plugin, manifest, repo, file_groups):
+        plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
+        if not plugin_is_valid:
             continue
 
         user = repo.split("/")[0]
