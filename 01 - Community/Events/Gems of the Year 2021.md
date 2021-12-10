@@ -150,6 +150,12 @@ A: Yes, you can.
 
 ---
 
+Q: How many times can I nominate?
+
+A: You can nominate as many times as you want in whichever categories you prefer. Please make sure to **separate each nomination into each own reply**, as we'll be linking to each reply as an entry during voting.
+
+---
+
 Q: Who can vote?
 
 A:  Anyone with an account on [our forum](https://forum.obsidian.md/) can vote. **Please note that accounts on our official website do not work with the forum, if you haven't signed up on the forum you'll need to do that in order to vote.**
