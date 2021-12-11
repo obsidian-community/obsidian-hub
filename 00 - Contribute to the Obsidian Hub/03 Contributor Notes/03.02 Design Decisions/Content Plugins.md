@@ -1,6 +1,6 @@
 # Change plugins template to simplify manual intervention, when running `update-releases.py`
 
-Apply the conventions proposed in [[Content: Comments]] to this file.
+Apply the conventions proposed in [[Content Comments]] to this file.
 
 
 

@@ -9,7 +9,7 @@ There are some maintenance steps that are currently done manually, and that coul
 - Generating the MOCs
   - [[Updating MOC files]]
 - Sorting lists
-  - [[Content: Lists]]
+  - [[Content Lists]]
 - Running the Python tests
   - [[Testing Python Code with Approval Tests]]
 - Updating "[Structure of the Community Vault](https://publish.obsidian.md/hub/CONTRIBUTING#Structure+of+the+Community+Vault)" IN CONTRIBUTING

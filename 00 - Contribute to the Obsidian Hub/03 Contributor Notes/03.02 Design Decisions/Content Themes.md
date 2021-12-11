@@ -2,7 +2,7 @@
 
 
 
-Apply the conventions proposed in [[Content: Comments]] to this file.
+Apply the conventions proposed in [[Content Comments]] to this file.
 
 Replace these comments with new convention
 

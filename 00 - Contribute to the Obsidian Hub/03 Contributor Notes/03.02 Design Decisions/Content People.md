@@ -6,7 +6,7 @@
 
 ### Change author template to simplify manual intervention, when running `update-releases.py`
 
-The reasoning behind [[Content: Comments]] is to greatly reduce the number of lines that need to be reverted when the author pages are updated, from minimal edits to to the authors template(s).
+The reasoning behind [[Content Comments]] is to greatly reduce the number of lines that need to be reverted when the author pages are updated, from minimal edits to to the authors template(s).
 
 It will help contributors see the intention for links and `^` too...
 
