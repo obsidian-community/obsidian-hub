@@ -2,7 +2,7 @@
 
 ### Decisions and conclusions
 
-- Sort on Alias, not Plugin ID
+- Sort by Alias, not Plugin ID
 - Avoid comment markers
 - Find sections based on headers - and maybe location files and folders
 - This is doable by GitHub action
