@@ -1,0 +1,4 @@
+- Scripts location: [.github/scripts](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts)
+- For `update-releases.py`, see [[Updating Extensions]]
+- For `update-mocs.py`, see [[Updating MOC files]]
+    - If modifying that script, see also [[Testing Python Code with Approval Tests]]
