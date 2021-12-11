@@ -13,7 +13,7 @@ Suggested standard:
 
 ## Agree a standard begin/end prefix for marking 'do not edit' sections
 
-We use these markers in Author pages, and they do not seem to be well-understand:
+We use these markers in Author pages, and they do not seem to be well-understood:
 
 ```markdown
 ## Author of
