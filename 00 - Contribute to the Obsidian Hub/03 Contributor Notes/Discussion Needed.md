@@ -6,7 +6,11 @@ Mostly minor improvements over what we already have:
 - [[Content: Themes]]
 - [[Content: Lists]]
 
-More significant improvements?
+Next time
 
-- [[Content: Lifecycle of Extensions]]
 - [[GitHub Actions for the Hub]]
+- [[Content: Lifecycle of Extensions]]
+- Categories on issues
+    - When to use Good First Issue?
+    - Whether to mark "New Features" in Scripting?
+- Prioritise the [Hub Tools & Scripts](https://github.com/obsidian-community/obsidian-hub/projects/1) project backlog
