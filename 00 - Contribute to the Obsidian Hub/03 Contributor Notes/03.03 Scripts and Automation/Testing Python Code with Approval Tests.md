@@ -49,9 +49,11 @@ The diff tool allows you to easily inspect the changes between received and appr
 You can then either:
 
 1. Fix the code, if the differences show an unwanted change
-2. Use the diff tool to copy the changes over from received to approved, if the changes are intentional.
+2. Use the diff tool to copy the changes over from received to approved, if the changes are intentional. This is called "approving" the output.
 
 ### Scenario: First run of a new test
+
+The test always fails, and loads a diff tool showing the received file, and an empty approved file, for you to decide whether to approve the output.
 
 ### Scenario: Test passes
 
