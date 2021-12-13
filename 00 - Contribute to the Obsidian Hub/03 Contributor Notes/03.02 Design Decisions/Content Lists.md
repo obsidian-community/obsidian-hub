@@ -20,7 +20,7 @@ Compare these two:
 
 **Agreed**: For machine generated text, e.g. lists of plugins and themes in People pages, make the python code sort these lists by plugin/theme name.
 
-**Rejected**: For human-edited lists, e.g. categories: Introduce standard comment delimiters to mark lists that should be sorted by the text the link, case-insensitively, e.g. 
+**Rejected**: For human-edited lists, e.g. categories: Introduce standard comment delimiters to mark lists that should be sorted by the Alias in the link, case-insensitively, e.g. 
 
 ```markdown
 ## Plugins in this category
