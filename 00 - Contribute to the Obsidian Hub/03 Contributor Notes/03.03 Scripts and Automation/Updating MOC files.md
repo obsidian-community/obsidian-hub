@@ -6,7 +6,7 @@ To run it:
 
 ```bash
 cd obsidian-hub/.github/scripts
-./update-mocs.py
+python3 ./update-mocs.py
 ```
 
 And then review the changes and commit them.
