@@ -14,7 +14,7 @@ For example, I find it hard to glance at the category pages and see what I'm aft
 
 Compare these two:
 
-![task-plugins-sorted](attachments/images/task-plugins-sorted.png)
+![[task-plugins-sorted.png]]
 
 ### Suggestions
 
