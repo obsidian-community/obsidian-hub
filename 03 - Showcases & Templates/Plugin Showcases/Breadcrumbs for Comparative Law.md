@@ -7,7 +7,7 @@ tags:
 publish: true
 ---
 
-*Note: this is a refined version of the post by [[lkadre]] on [this discussion](https://github.com/SkepticMystic/breadcrumbs/discussions/175) on Github.*
+*Note: this is a refined version of the post by [[lkadre]] on [this discussion](https://github.com/SkepticMystic/breadcrumbs/discussions/175) on Github about [[How to get the most out of the Breadcrumbs plugin]].*
 
 #### Example: Concept notes (Law)
 

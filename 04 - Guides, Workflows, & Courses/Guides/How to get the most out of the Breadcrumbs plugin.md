@@ -7,7 +7,7 @@ tags:
 publish: true
 ---
 
-The [Breadcrumbs Plugin](https://github.com/SkepticMystic/breadcrumbs) is a very powerful plugin. As such, it seems to have a rather steep learning curve. However, after some initial set-up, you can already start reaping the benefits of arbitrary, non-exclusive hierarchies within your vault. 
+The [[breadcrumbs|Breadcrumbs]] is a very powerful plugin. As such, it seems to have a rather steep learning curve. However, after some initial set-up, you can already start reaping the benefits of arbitrary, non-exclusive hierarchies within your vault. 
 
 *Note: this is a refined version of the post by [[lkadre]] on [this discussion](https://github.com/SkepticMystic/breadcrumbs/discussions/175) on Github.*
 
