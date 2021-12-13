@@ -54,7 +54,7 @@ Evolution of a plugin...
 
 - **The plugin's GitHub**
     - Currently used:
-        - Various details like author name, description
+        - Various details like author's name, description
 
     - Currently not used:
         - Whether there has ever been a release
