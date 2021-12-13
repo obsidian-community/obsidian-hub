@@ -12,6 +12,4 @@ They are documented in the [CONTRIBUTING](https://publish.obsidian.md/hub/CONTRI
 
 Argentum has kindly provided a Zipped copy of the `.obsidian` directory from a properly-configured hub vault.
 
-Rather than documenting all of these required settings, argentum has kindly provided a Zipped copy of the `.obsidian` directory from a properly-configured hub vault.
-
 You can find the download in [wiki](https://github.com/obsidian-community/obsidian-hub/wiki/Obsidian-Settings-for-Developers).
