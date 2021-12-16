@@ -20,6 +20,10 @@ Nomination phase: December 8 ~ 15, 2021;
 
 Voting phase: December 17, 2021 ~ January 5, 2022.
 
+<p class="u-center-text">
+	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-voting/28759" target="_blank_">Vote now</a></button>
+</p>
+
 Results will be announced soon after we collect all the results.
 
 ## How it works
@@ -125,6 +129,10 @@ In addition to entering the contest, you also get a chance to get retweeted by o
 
 
 ### Voting
+
+<p class="u-center-text">
+	<button class="mod-cta"><a href="https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-voting/28759" target="_blank_">Vote now</a></button>
+</p>
 
 After the nomination period ends, we will open up polls so that you can vote for your favorite entries.
 
