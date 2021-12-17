@@ -7,12 +7,33 @@ publish: true
 ---
 
 # Drafts
+Official website: https://getdrafts.com/
+Documentation: https://docs.getdrafts.com/
+Cost: Free / 1,99$ per month for [Drafts Pro](https://docs.getdrafts.com/draftspro)
+Available for: [[MacOS Tools|MacOS]], [[iOS Apps|iOS]], [[iPadOS Apps|iPad]]
 
-Official website: #placeholder/link
-Documentation: #placeholder/link
-Cost: #placeholder/tool
-Available for: [[MacOS Tools|MacOS]], [[iOS Apps|iOS]], [[iPadOS Apps]]
+Drafts is a markdown-based note-taking app that is focussed on good mobile experience, tight integration with the Apple ecosystem, and a frictionless process of adding content. It also has great extensibility through its [actions](https://actions.getdrafts.com/), which work very similar to [[templater-obsidian|Templater]] scripts. 
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. Mention [[🗂️ Auxiliary Tools]] and any other relevant notes in this vault. %%
+Due to the focus on mobile and quickly adding content, Drafts complements Obsidian well for iOS and Mac users.
 
-#placeholder/description
+## Readings
+- [Getting Started - Drafts User Guide](https://docs.getdrafts.com/gettingstarted/)
+- [Guide: Integrating Obsidian with Drafts](https://forums.getdrafts.com/t/using-obsidian-with-drafts/11221)
+- [Discussion in the Drafts Forum on working with Drafts & Obsidian](https://forums.getdrafts.com/t/drafts-and-obsidian-why/10968)
+
+## Moving content from Drafts to Obsidian
+There are about a dozen different Drafts Actions to do that, many of them relying on the [Advanced URI plugin](https://github.com/Vinzent03/obsidian-advanced-uri). ("Actions" is how plugins are called in the Drafts ecosystem.)
+
+[All Drafts Actions related to Obsidian](https://actions.getdrafts.com/search?utf8=%E2%9C%93&q=obsidian)
+
+## Moving content from Obsidian to Drafts
+There is no dedicated plugin for Obsidian that does that, *but* you can use the [URI commands plugin](https://github.com/kzhovn/uri-commands-obsidian) to send content from Obsidian to Drafts. Simply add the URL Scheme to the plugin: 
+
+```url
+drafts://x-callback-url/create?text=%23%20{{fileName}}%0A{{fileText}}&tags=via%20Obsidian
+```
+
+Refer to the README of the URI commands plugin and the [Drafts documentation of URL Schemes](https://docs.getdrafts.com/docs/automation/urlschemes) for further customizations.
+
+## Other Resources
+- [Obsidian Markdown Syntax](https://actions.getdrafts.com/s/1r1) (made by [[chrisgrieser|pseudometa]]): Makes Drafts use the same Markdown Syntax as Obsidian (e.g., `#tags` or `%%comments%%`)
