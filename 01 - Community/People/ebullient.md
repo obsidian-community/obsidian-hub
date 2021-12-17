@@ -1,6 +1,6 @@
 ---
 aliases:
-- ebullient
+- Erin Schnabel
 tags:
 - 
 publish: true
