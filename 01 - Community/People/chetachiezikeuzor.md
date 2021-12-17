@@ -22,6 +22,8 @@ publish: true
 ### Plugins
 - [[cmenu-plugin|cMenu]]
 - [[mysnippets-plugin|MySnippets]]
+- [[highlightr-plugin|Highlightr]]
+- [[get-info-plugin|Get Info]]
 
 ### Themes
 - [[Yin and Yang]]

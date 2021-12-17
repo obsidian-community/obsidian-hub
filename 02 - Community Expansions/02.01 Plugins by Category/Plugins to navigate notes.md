@@ -25,6 +25,7 @@ publish: true
 - [[breadcrumbs|Breadcrumbs]]
 - [[obsidian-zoom|Zoom]]
 - [[obsidian-another-quick-switcher|Another Quick Switcher]]
+- [[reveal-active-file-button|Reveal Active File Button]]
 
 ## Related categories
 

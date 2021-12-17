@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-4048-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-7507-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jdanielmourao/obsidian-sanctum?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/jdanielmourao/obsidian-sanctum/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jdanielmourao/obsidian-sanctum?color=573E7A&logo=github&style=for-the-badge)
@@ -70,13 +70,21 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **Headings**: 
     - Heading Font Preview Mode
     - Heading Font Editor Mode
-    - **Heading Sizes**: 
-        - Heading 1 Size: Changes the size of Heading 1 based on percentage.
-        - Heading 2 Size: Changes the size of Heading 2 based on percentage.
-        - Heading 3 Size: Changes the size of Heading 3 based on percentage.
-        - Heading 4 Size: Changes the size of Heading 4 based on percentage.
-        - Heading 5 Size: Changes the size of Heading 5 based on percentage.
-        - Heading 6 Size: Changes the size of Heading 6 based on percentage.
+    - Enable Productive Mode Headings: Smaller Headings for more compact notes. This will override Expressive Mode responsive headings!
+    - **Heading Weights**: Only available for Productive Mode
+        - Productive Mode Heading 1 Weight: Default value - semi-bold (600)
+        - Productive Mode Heading 2 Weight: Default value - semi-bold (600)
+        - Productive Mode Heading 3 Weight: Default value - semi-bold (600)
+        - Productive Mode Heading 4 Weight: Default value - semi-bold (600)
+        - Productive Mode Heading 5 Weight: Default value - semi-bold (600)
+        - Productive Mode Heading 6 Weight: Default value - semi-bold (600)
+    - **Heading Sizes**: Only available for Productive Mode
+        - Productive Mode Heading 1 Size
+        - Productive Mode Heading 2 Size
+        - Productive Mode Heading 3 Size
+        - Productive Mode Heading 4 Size
+        - Productive Mode Heading 5 Size
+        - Productive Mode Heading 6 Size
     - **Heading Colors**: 
         - Toggle Heading Font Colours
         - Toggle Heading Background Colours
@@ -98,7 +106,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Features**: 
 - <hr> ("---") Options: For Edit Mode
 - Edit Mode Tasks: Makes filled tasks green and empty ones red, in Edit Mode.
-- Wrap Note Titles: Displays the entire note title, even when the width is small.
 - Wrap Kanban Lanes: Makes Kanban Lanes wrap in multiple rows if needed.
 - **Footnotes**: 
     - Footnote Title: Places a lvl.2 heading before the Footnotes.
@@ -115,6 +122,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Alternating Relationship Lines Colors: Toggle alternating relationship lines on lists.
 
 **Elements**: 
+- Hide Titlebar center text: This setting hides the center text of the titlebar.
 - Hide Frontmatter: This setting hides frontmatter in Preview Mode.
 - Status Bar on top: This setting moves the status bar to the top. To click on icons aim for the border.
 - Tab Header Icon side padding: Changes tab header icons side padding.

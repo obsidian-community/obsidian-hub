@@ -2,6 +2,10 @@
 	display: none;
 }
 
+.markdown-preview-view h1{
+	line-height: 1.1em;
+}
+
 .site-body-left-column-site-logo {
 	max-width: 120px;
 }
@@ -37,6 +41,25 @@ button#HH:hover:before {
 	padding: 20px;
 	z-index: 5;
 }
+body:not(.popover.is-loaded) button#HH:hover:before { margin-left: -2vh; }
 
 .external-link[href^="obsidian://goto-plugin?"] { background-image: none; }
 .tooltip { --layer-tooltip: 1; }
+
+
+/* Embed Adjustments */
+.internal-embed[alt*="clean"] .markdown-embed,
+.markdown-preview-view .internal-embed[alt*="clean"]:not(.image-embed),
+.internal-embed[alt*="clean"] .markdown-embed .markdown-preview-view {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*Fix Embed Link Icon Alignment*/
+.internal-embed[alt*="clean"] .markdown-embed-link { top: 0px; }
+/*Hide Embed Link Icon Unless Hovered*/
+.internal-embed[alt*="clean"]:not(:hover) .markdown-embed-link { display: none; }
+
+/*"Hide" Bullet*/
+.internal-embed[alt*="bullet"] .markdown-embed ul { padding-inline-start: 0; }

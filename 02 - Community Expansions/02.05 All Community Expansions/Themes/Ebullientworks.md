@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-460-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-874-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ebullient/obsidian-theme-ebullientworks?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/ebullient/obsidian-theme-ebullientworks/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ebullient/obsidian-theme-ebullientworks?color=573E7A&logo=github&style=for-the-badge)
@@ -39,6 +39,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 - Show external links in edit mode: If true, external links (or the content of markdown links) will be shown in edit mode. External links are hidden by default.
+- Suppress or Remove this theme's checkbox styles: Set this to true if you are going to use other themes to manage the style for your lists and checkboxes.
 - Float front-matter in a box to the right: If true, front-matter in preview mode will be collapsed in a top-right container.
 - Prevent table content from extending beyond the width of the page: If true, tables will have a maximum width set. Cell content will be wrapped (mid-word if necessary).
 - Headings: Font for text headings (h1 to h6)

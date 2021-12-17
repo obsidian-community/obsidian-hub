@@ -25,7 +25,7 @@ publish: true
 - [[obsidian-shortcuts-for-starred-files|Hotkeys for starred files and searches]]
 - [[obsidian-hotkeys-for-specific-files|Hotkeys for specific files]]
 - [[obsidian-hotkeys-for-templates|Hotkeys for templates]]
-- [[obsidian-advanced-uri|Advanced Obsidian URI]]
+- [[obsidian-advanced-uri|Advanced URI]]
 
 %% End Hub: Released contributions %%
 

@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2402-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-4169-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SlRvb/Obsidian--ITS-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/SlRvb/Obsidian--ITS-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/SlRvb/Obsidian--ITS-Theme?color=573E7A&logo=github&style=for-the-badge)
@@ -178,6 +178,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Illusion Theme Inspired Headings
 - **Lists**: 
     - Colorful Task Text: Add color to the text of the task.
+    - Colorful Task Backgrounds: Add color to the background of the task.
+    - Normal Task Text: Reapply regular text color to the text of the task.
     - Restore Crossed Checkbox
     - Default Bullet Disc Shape
     - Bullet Shape: Add quotes around your new bullet. For example "~"
@@ -206,6 +208,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Colors**: 
 - **Text**: Change text colors
     - Text
+    - Soft Text
     - Faint Text
     - Headings: Heading, Vault title, HR Symbol, blockquote quotation mark, and open folder icon colors.
     - File Title: File text color.
@@ -218,7 +221,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Sidebar: Change only sidebar, right settings pane colors.
     - Dark Sidebar: Left settings bar, <i></i> background, graph background, and pane separator colors.
     - File: File icon color.
-    - Folder: Open folder icon color.
+    - Open Folder: Open folder icon color.
+    - Folder Title Hover: Open folder icon color.
     - Sliding Panes Dropshadow
 - **Note Elements**: 
     - Tag Color
@@ -258,6 +262,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Kanban Plugin Adjustments: Personal adjustments for less noisy Kanban layout
 - Image Zoom: Hold and click an image to zoom into it.
 - Swap Sliding Pane Icons
+- Icon Folder Icon Swaps: Swap the order of icons back to default. (Will also revert file types).
 - Cross Reference Plugin Adjustments
 - Sidebar Notes Adjustments: Adjustments to padding for better displays of notes moved into sidebars.
 - Mobile Toolbar Adjustment: Multi-row bar sorts properly, but scrolls vertically now.

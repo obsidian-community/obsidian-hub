@@ -4,8 +4,10 @@ import re
 import os
 import sys
 
-from utils import get_template
+from utils import get_template, get_plugin_manifest
 
+MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
+DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 
 CORE_PLUGINS = [
     {
@@ -160,6 +162,48 @@ def get_core_plugins():
 
     with open(file_path, "w") as md_file:
         md_file.write(new_contents)
+
+
+def collect_data_for_plugin(plugin, file_groups):
+    """
+    Take raw plugin data from a community plugin, and add information to it,
+    typically from its manifest file.
+
+    :param plugin: A dict with data about the plugin, to be updated by this function
+    :param file_groups: Place to store error message if the plugin is invalid
+    :return: Whether the plugin is valid, and is OK to be added to the Hub
+    """
+    repo = plugin.get("repo")
+    branch = plugin.get("branch", "master")
+    manifest = get_plugin_manifest(repo, branch)
+
+    plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
+
+    user = repo.split("/")[0]
+    if manifest.get("isDesktopOnly"):
+        mobile = DESKTOP_ONLY
+    else:
+        mobile = MOBILE_COMPATIBLE
+
+    plugin.update(mobile=mobile, user=user, **manifest)
+
+    return plugin_is_valid
+
+
+def validate_plugin(plugin, manifest, repo, file_groups):
+    return validate_plugin_ids(plugin, manifest, repo, file_groups)
+
+
+def validate_plugin_ids(plugin, manifest, repo, file_groups):
+    ids_match = True
+    releases_id = plugin.get('id')
+    manifest_id = manifest.get('id')
+    if releases_id != manifest_id:
+        print(
+            f"ERROR repo:{repo} ID {releases_id} does not match ID in manifest: {manifest_id}")
+        file_groups.setdefault("error", list()).append(f"{releases_id}/{manifest_id}")
+        ids_match = False
+    return ids_match
 
 
 def main(argv=sys.argv[1:]):

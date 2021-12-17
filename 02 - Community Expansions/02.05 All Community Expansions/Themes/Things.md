@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2568-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-7886-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/colineckert/obsidian-things?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/colineckert/obsidian-things/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/colineckert/obsidian-things?color=573E7A&logo=github&style=for-the-badge)
@@ -51,8 +51,8 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - UI font: Used for buttons, menus and sidebar
 
 **Typography**: 
-- Body font size: Font size in px of the main text
-- Sidebar font size: Font size in px of the sidebar and small text
+- Note titles, modals, and alt text size: Font size in px (main editor/preview text size now controlled via slider in Appearance settings)
+- Sidebar and tag font size: Font size in px of sidebar, tags, and small text
 - Body line height: Line height of the main text
 - Normal line width: Number of characters per line
 - Maximum line width: Percentage of space inside a pane that a line can fill. Recommended values between 80 to 100

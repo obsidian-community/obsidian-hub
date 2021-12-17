@@ -25,10 +25,10 @@ tags:
 -  [[04 - Guides, Workflows, & Courses/Guides/How to Style Obsidian|How to Style Obsidian]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to update your plugins and CSS for live preview|How to update your plugins and CSS for live preview]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Obsidian publish and pfSense|Obsidian publish and pfSense]]
--  [[04 - Guides, Workflows, & Courses/Guides/Resources and Guides for Plugin Developers|Resources and Guides for Plugin Developers]]
--  [[04 - Guides, Workflows, & Courses/Guides/Resources and Guides for Theme Designers|Resources and Guides for Theme Designers]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using GitHub actions to create releases for plugins|Using GitHub actions to create releases for plugins]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using Pandoc inside Obsidian|Using Pandoc inside Obsidian]]
+-  [[04 - Guides, Workflows, & Courses/Guides/Want some Sass with your obsidian theme‽ here's How and Why|Want some Sass with your obsidian theme‽ here's How and Why]]
+-  [[04 - Guides, Workflows, & Courses/Guides/Why and How to use Stylelint for your Obsidian Theme|Why and How to use Stylelint for your Obsidian Theme]]
 -  [[04 - Guides, Workflows, & Courses/Guides/YT  - Intro to Dataview Plugin|YT  - Intro to Dataview Plugin]]
 -  [[04 - Guides, Workflows, & Courses/Guides/YT - Dataview Plugin - How to Use this Powerful Obsidian Plugin (With Examples)|YT - Dataview Plugin - How to Use this Powerful Obsidian Plugin (With Examples)]]
 -  [[04 - Guides, Workflows, & Courses/Guides/YT - How to use QuickAdd|YT - How to use QuickAdd]]
@@ -36,7 +36,8 @@ tags:
 
 ## Contributing
 
-1. Create a note under [[🗂️ 04 - Guides, Workflows, & Courses]] or one of it's subfolders
+1. Create a note under one of the subfolders of `04 - Guides, Workflows, & Courses`
 2. Apply the [[T - New Note]] template
-3. Write to your heart's content!
-4. [[How to add content through GitHub|Submit your changes to GitHub]]
+3. Link the new guide in of the overview notes located in `04 - Guides, Workflows, & Courses`
+4. Write to your heart's content!
+5. [[How to add content through GitHub|Submit your changes to GitHub]]

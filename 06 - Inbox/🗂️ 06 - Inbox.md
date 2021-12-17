@@ -13,6 +13,7 @@ In this folder are all new things which haven't been properly sorted into the Ob
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
+-  [[06 - Inbox/Backlinks Panel HTML Svelte Component|Backlinks Panel HTML Svelte Component]]
 -  [[06 - Inbox/ClubMacStories|ClubMacStories]]
 -  [[06 - Inbox/Customer Relationship Management|Customer Relationship Management]]
 -  [[06 - Inbox/HAProxy|HAProxy]]

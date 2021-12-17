@@ -18,6 +18,7 @@ Plugins to enhance your [[Mathjax]] and [[LaTeX]] experience.
 - [[quick-latex|Quick Latex for Obsidian]]
 - [[obsidian-export-to-tex|Export To TeX]]
 - [[obsidian-pandoc|Pandoc Plugin]]
+- [[copy-as-latex|Copy as Latex]]
 
 ## Related categories
 

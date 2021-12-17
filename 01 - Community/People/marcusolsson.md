@@ -35,11 +35,9 @@ publish: true
 - 
 -->
 
-<!--
 ### Others
 
-- 
--->
+- [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs/) 
 
 <!--
 ## Sponsor this author

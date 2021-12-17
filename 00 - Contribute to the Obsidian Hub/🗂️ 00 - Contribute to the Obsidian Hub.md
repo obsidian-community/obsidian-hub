@@ -21,10 +21,13 @@ Got some question left? Check out the [[FAQ]] or drop by in the `#Obsidian-Hub` 
 %% Hub MOCs: Don’t edit below  %%
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/🗂️ 01 Templates|🗂️ 01 Templates]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/🗂️ 02 Attachments|🗂️ 02 Attachments]]
+-  [[00 - Contribute to the Obsidian Hub/03 Contributor Notes/🗂️ 03 Contributor Notes|🗂️ 03 Contributor Notes]]
 -  [[00 - Contribute to the Obsidian Hub/Contributing templates to the community vault|Contributing templates to the community vault]]
 -  [[00 - Contribute to the Obsidian Hub/Contributing with community plugins and themes|Contributing with community plugins and themes]]
 -  [[00 - Contribute to the Obsidian Hub/FAQ|FAQ]]
+-  [[00 - Contribute to the Obsidian Hub/Obsidian Settings for Contributors|Obsidian Settings for Contributors]]
 -  [[00 - Contribute to the Obsidian Hub/Tag glossary|Tag glossary]]
+-  [[00 - Contribute to the Obsidian Hub/Tip for Keeping Hub TODO lists|Tip for Keeping Hub TODO lists]]
 %% Hub MOCs: Don’t edit above  %%
 
 

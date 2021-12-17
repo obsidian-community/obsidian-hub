@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1168-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2553-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/damiankorcz/Prism-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/damiankorcz/Prism-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/damiankorcz/Prism-Theme?color=573E7A&logo=github&style=for-the-badge)
@@ -108,12 +108,17 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
             - Dark Theme Graph Highlight Line Opacity
 
 **User Interface**: Settings for spacing, position, alignment and other adjustments of different UI elements.
-- **Window Adjustments**: Settings for changing the gaps between windows and border radius around all UI elements.
-    - Window Gap (px): The size of the space between the Workspace Containers.
-    - Border Radius (px): The size of the border radius around larger elements of the UI.
-    - Border Radius Small (px): The size of the border radius around smaller elements of the UI.
-- **Background Options**: Adjust the UI Background to a solid color or an image.
-    - **Light Theme**: All options are based on CSS Background properties of the same name.
+- **Accent Colors and Styles**: Adjust the Accent Color and Styles used throughout the UI.
+    - **Light Theme**: 
+        - Light Theme Accent Style: Adjusts the style used by the Accented elements in the UI.
+        - Light Theme Accent Color Preset: Changes the Light Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and select your colour in the color picker below.
+        - Light Theme Custom Accent Color: Make sure you selected 'Custom' in Light Theme Accent Color Preset for this to work.
+    - **Dark Theme**: 
+        - Dark Theme Accent Style: Adjusts the style used by the Accented elements in the UI.
+        - Dark Theme Accent Color Preset: Changes the Dark Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and select your colour in the color picker below.
+        - Dark Theme Custom Accent Color: Make sure you selected 'Custom' in Accent Color Preset for this to work.
+- **Background Options**: Adjust the UI Background to a solid color or an image. All options are based on CSS Background properties of the same name.
+    - **Light Theme**: 
         - Light Theme Background Type: Select what type of background you would like in the Light Theme.
         - Light Theme Background Solid Color
         - Light Theme Background Image: Customise the Background Image for the Light Theme. Insert the link to an image between the brackets in the url().
@@ -122,7 +127,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Light Theme Background Attachment: Define whether the Light Theme Background Image's position is fixed within the viewport, or scrolls with its containing block.
         - Light Theme Background Position: Define the initial position for the Light Theme Background Image.
         - Light Theme Background Size: Define the size of the Light Theme Background Image. The image can be left to its natural size, stretched, or constrained to fit the available space.
-    - **Dark Theme**: All options are based on CSS Background properties of the same name.
+    - **Dark Theme**: 
         - Dark Theme Background Type: Select what type of background you would like in the Dark Theme.
         - Dark Theme Background Solid Color
         - Dark Theme Background Image: Customise the Background Image for the Dark Theme. Insert the link to an image between the brackets in the url().
@@ -131,26 +136,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Dark Theme Background Attachment: Define whether the Dark Theme Background Image's position is fixed within the viewport, or scrolls with its containing block.
         - Dark Theme Background Position: Define the initial position for the Dark Theme Background Image.
         - Dark Theme Background Size: Define the size of the Dark Theme Background Image. The image can be left to its natural size, stretched, or constrained to fit the available space.
-- **Accent Colors and Styles**: Adjust the Accent Color and Styles used throughout the UI.
-    - Light Theme Accent Style: Adjusts the style used by the Accented elements in the UI.
-    - Light Theme Accent Color Preset: Changes the Light Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and select your colour in the color picker below.
-    - Light Theme Custom Accent Color: Make sure you selected 'Custom' in Light Theme Accent Color Preset for this to work.
-    - Dark Theme Accent Style: Adjusts the style used by the Accented elements in the UI.
-    - Dark Theme Accent Color Preset: Changes the Dark Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and select your colour in the color picker below.
-    - Dark Theme Custom Accent Color: Make sure you selected 'Custom' in Accent Color Preset for this to work.
+- **Window Adjustments**: Settings for changing the gaps between windows and border radius around all UI elements.
+    - Window Gap (px): The size of the space between the Workspace Containers.
+    - Border Radius (px): The size of the border radius around larger elements of the UI.
+    - Border Radius Small (px): The size of the border radius around smaller elements of the UI.
 - **Sidebar Elements**: Settings for positioning, alignment, etc. of different UI elements within the Sidebars.
-    - **Custom Vault Banner**: Custom Vault Banner in the File Explorer with a custom icon option.
-        - Enable Custom Vault Banner: Enable the Custom Vault Banner in the File Explorer.
-        - Custom Vault Banner Alignment: Horizontally align the Custom Vault Banner content.
-        - Custom Vault Banner Order: Select the order in which the content appears in the Custom Vault Banner.
-        - Custom Vault Banner Sticky: Make the Custom Vault Banner stick to the top of the File Explorer.
-        - Vault Banner Icon Type: Select which format you want to use to display the Vault Banner Icon.
-        - Vault Banner Icon (URL): Customise the Vault Banner Icon. Insert a URL to an image in between the brackets in the URL.
-        - Vault Banner Icon (Base64): (WIP - Currently not working) Customise the Vault Banner Icon. Insert a Base64 Encoded image in between the brackets in the URL.
-    - **File Explorer**: Customisation options for the File Explorer module.
-        - File Explorer Text Wrap: Toggles Text Wrapping on the file/folder names in the File Explorer to help fit the whole name when the name is longer than the visible area.
-        - File Explorer Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the File Explorer to help visualise the folder and file depth.
-        - File Explorer Vertical Lines Width (px)
     - **Tab Label**: Settings for positioning, alignment, etc. of the Tab Labels.
         - Left Sidebar Tab Label Alignment: Horizontal Alignment of the Tab Labels in the Left Sidebar.
         - Right Sidebar Tab Label Alignment: Horizontal Alignment of the Tab Labels in the Right Sidebar.
@@ -159,13 +149,48 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Left Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Left Sidebar Workspace Leaf.
         - Right Sidebar Nav Header Position: Vertical Position of the Nav Header in the Right Sidebar Workspace Leaf.
         - Right Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Right Sidebar Workspace Leaf.
+    - **File Explorer**: Customisation options for the File Explorer module.
+        - File Explorer Text Wrap: Toggles Text Wrapping on the file/folder names in the File Explorer to help fit the whole name when the name is longer than the visible area.
+        - File Explorer Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the File Explorer to help visualise the folder and file depth.
+        - File Explorer Vertical Lines Width (px)
+        - **Custom Vault Banner**: Custom Vault Banner in the File Explorer with a custom icon option.
+            - Enable Custom Vault Banner: Enable the Custom Vault Banner in the File Explorer.
+            - Custom Vault Banner Alignment: Horizontally align the Custom Vault Banner content.
+            - Custom Vault Banner Order: Select the order in which the content appears in the Custom Vault Banner.
+            - Custom Vault Banner Sticky: Make the Custom Vault Banner stick to the top of the File Explorer.
+            - Vault Banner Icon (URL): Customise the Vault Banner Icon. Insert a URL to an image in between the brackets of 'url()'.
+    - **Outline**: Customisation options for the Outline module.
+        - Outline Text Wrap: Toggles Text Wrapping on the Headers in the Outline to help fit the whole name when the name is longer than the visible area.
+        - Outline Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the Outline to help visualise the Header depth.
+        - Outline Vertical Lines Width (px)
 - **Titlebar**: Settings for changing the style of the Titlebar.
     - Titlebar Style: Titlebar Style to fit the design of your Operating System Titlebar.
+    - Hide Titlebar Navigation Buttons: Hides the Titlebar Navigation Buttons.
     - Hide Titlebar Title Text: Hides the Titlebar Title Text (Useful when the Statusbar is at the top).
+    - **Light Theme Customisation**: None
+        - Light Theme Solid Titlebar Background: Change the entire Light Theme Titlebar background to be a solid color.
+        - Light Theme Titlebar Preset: Choose between Default and Custom colors for the Light Theme Titlebar.
+        - Light Theme Titlebar Background Color: Make sure you selected 'Custom' in Light Theme Titlebar Preset for this to work.
+        - Light Theme Titlebar Text/Icons Color: Choose the color used for the Light Theme Titlebar Text/Icons.
+    - **Dark Theme Customisation**: 
+        - Dark Theme Solid Titlebar Background: Change the entire Dark Theme Titlebar background to be a solid color.
+        - Dark Theme Titlebar Preset: Choose between Default and Custom colors for the Dark Theme Titlebar.
+        - Dark Theme Titlebar Background Color: Make sure you selected 'Custom' in Dark Theme Titlebar Preset for this to work.
+        - Dark Theme Titlebar Text/Icons Color: Choose the color used for the Dark Theme Titlebar Text/Icons.
 - **Status Bar**: Settings for the Status Bar; Adjust position, Change the order of items, etc.
-    - Status Bar Position: Change the Position of the Status Bar.
+    - Status Bar Position: Change the Position of the Status Bar. When in the Top position, the Status Bar inherits theme specific customisation options from the Titlebar.
     - Status Bar Horizontal Alignment: Change the Horizontal Alignment of the Status Bar.
     - Status Bar Items Order: Change the Items Order in the Status Bar.
+    - **Light Theme Customisation**: 
+        - Light Theme Status Bar Background: Change the entire Light Theme Status Bar background to be a solid color.
+        - Light Theme Solid Status Bar Preset: Choose between Default and Custom colors for the Light Theme Solid Status Bar.
+        - Light Theme Solid Status Bar Background Color: Make sure you selected 'Custom' in Light Theme Solid Status Bar Preset for this to work.
+        - Light Theme Status Bar Text/Icons Color: Choose the color used for the Light Theme Status Bar Text/Icons.
+    - **Dark Theme Customisation**: 
+        - Dark Theme Solid Status Bar Background: Change the entire Dark Theme Status Bar background to be a solid color.
+        - Dark Theme Solid Status Bar Preset: Choose between Default and Custom colors for the Dark Theme Solid Status Bar.
+        - Dark Theme Status Bar Background Color: Make sure you selected 'Custom' in Dark Theme Status Bar Preset for this to work.
+        - Dark Theme Status Bar Text/Icons Color: Choose the color used for the Dark Theme Status Bar Text/Icons.
 - **Scrollbar**: Settings for the Scrollbar; Adjust the width, Add Scroll Buttons, etc.
     - Scrollbar Width: Change the width of the Scrollbar (px).
     - Scroll Buttons: Adds Scroll Buttons to the ends of the Scrollbar for more accurate scroll adjustment.
@@ -176,6 +201,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **Kanban**: Mgmeyers' Obsidian Kanban Plugin (https://github.com/mgmeyers/obsidian-kanban).
     - Light Theme Kanban Background: Change the Light Theme background of the Kanban board.
     - Dark Theme Kanban Background: Change the Dark Theme background of the Kanban board.
+- **Advanced Tables**: Tgrosinger's Advanced Tables Plugin (https://github.com/tgrosinger/advanced-tables-obsidian).
+    - Advanced Tables Buttons Container Alignment: Change the horizontal alignment of the Advanced Tables buttons container.
 
 ## Plugin Compatibility[^1]
 
@@ -188,20 +215,29 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#File recovery|File recovery]]
 - [[Obsidian Core Plugins#Search|Search]]
 - [[Obsidian Core Plugins#Graph view|Graph view]]
+- [[Obsidian Core Plugins#Markdown format converter|Markdown format converter]]
+- [[Obsidian Core Plugins#Note composer|Note composer]]
+- [[Obsidian Core Plugins#Open in default app|Open in default app]]
 - [[Obsidian Core Plugins#Outgoing Links|Outgoing Links]]
 - [[Obsidian Core Plugins#Outline|Outline]]
 - [[Obsidian Core Plugins#Page preview|Page preview]]
+- [[Obsidian Core Plugins#Publish|Publish]]
 - [[Obsidian Core Plugins#Random note|Random note]]
 - [[Obsidian Core Plugins#Slash commands|Slash commands]]
+- [[Obsidian Core Plugins#Slides|Slides]]
 - [[Obsidian Core Plugins#Starred notes|Starred notes]]
+- [[Obsidian Core Plugins#Sync|Sync]]
 - [[Obsidian Core Plugins#Quick switcher|Quick switcher]]
 - [[Obsidian Core Plugins#Tag pane|Tag pane]]
+- [[Obsidian Core Plugins#Templates|Templates]]
 - [[Obsidian Core Plugins#Word count|Word count]]
 - [[Obsidian Core Plugins#Workspaces|Workspaces]]
+- [[Obsidian Core Plugins#Zettelkasten prefixer|Zettelkasten prefixer]]
 
 **Community plugins**:
 - [[obsidian-collapse-all-plugin|Collapse All]]
 - [[table-editor-obsidian|Advanced Tables]]
 - [[obsidian-kanban|Kanban]]
+- [[quick-explorer|Quick Explorer]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

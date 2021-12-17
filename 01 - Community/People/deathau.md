@@ -29,6 +29,7 @@ publish: true
 - [[txt-as-md-obsidian|txt as md]]
 - [[csv-obsidian|CSV Editor]]
 - [[snippet-commands-obsidian|Snippet Commands]]
+- [[cooklang-obsidian|CookLang Editor]]
 
 ### Themes
 - [[80s Neon]]
