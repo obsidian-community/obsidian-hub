@@ -17,7 +17,7 @@ publish: true
 %% Paste your template below %%
 
 ---
-[**Grab the snippet here**](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Theme%20-%20All%20Alternate%20Themes.css)
+[**Grab the snippet here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Images%20Adjustments.css)
 Included in the [[ITS Theme]].
 
 ---
@@ -26,8 +26,10 @@ Included in the [[ITS Theme]].
 ##### How to use the snippet:
 [Readme Guide](https://github.com/SlRvb/Obsidian--ITS-Theme#image-positions)
 
-**Video Explanation:** ["Slides" from the video](https://slrvb.github.io/Site/3_Nebula/ITS-Theme/ITST_Image-Positions/)
-<iframe width="100%" height="250px" src="https://www.youtube.com/embed/VRoBNWvw8sU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Video Explanation:**
+["Slides" from the video](https://slrvb.github.io/Site/3_Nebula/ITS-Theme/ITST_Image-Positions/)
+
+![[Image Adjustment Snippets - ITS Theme#^image-adjustment-community-talk|clean]]
 
 # Screenshots
 **Positions** around the note:
