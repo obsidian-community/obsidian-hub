@@ -13,7 +13,7 @@ publish: true
 
 This is specifically about my notes on Law, which I acknowledge is probably very niche but hopefully it can give you some ideas of how to set up your hierarchies and especially how to work with notes in multiple hierarchies. You don't have to choose one!
 
-The first line in my note for Limited Liability Company in Delawarereads:
+The first line in my note for Limited Liability Company in Delaware reads:
 
 `#j/US/DEL #t/entity #law/corporate `
 
