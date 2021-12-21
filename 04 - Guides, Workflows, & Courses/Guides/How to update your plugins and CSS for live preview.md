@@ -108,7 +108,7 @@ Even better would be to wrap the check in to a helper function such as `isLivePr
 - the css class for the search/replace modal (`.document-search-container`) does not have `position: relative` by default anymore, so you need to add that when the theme moves the location of that modal
 - Collapse indicators in Edit Mode are not part of the Code mirror line anymore, meaning they cannot be targeted individually anymore.
 - Live preview being a hybrid of edit and reading mode also shares certain css classes with *both*, meaning some css targeting elements in reading/edit mode will probably unintentionally target live preview as well. 
-	- Example: `.external` is used to style external link in Preview Mode, but is now used in Live preview as well. 
+	- Example: `.external` is used to style external links in Reading Mode, but is now used in Live preview as well. 
 	- Mostly, these issues can be solved via more specific selectors, e.g. `a.external` for Preview Mode and `span.external` for Edit Mode
 - trailing whitespace have a CSS class now, allowing them to target them, e.g. 
 
