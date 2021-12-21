@@ -105,7 +105,7 @@ Even better would be to wrap the check in to a helper function such as `isLivePr
 - Cursor styling has a new selector (`.cm-s-obsidian .cm-cursor`)
 - fold markers (the "..." when a a heading / list item is folded) has a new selector (`.cm-foldPlaceholder`)
 - the gutter has a new selector (`.markdown-source-view.mod-cm6 .cm-gutters`)
-- the css class for the search/replace modal (`.document-search-container`) is does not have `position: relative` by default anymore, so you need to add that when the theme moves the location of that modal
+- the css class for the search/replace modal (`.document-search-container`) does not have `position: relative` by default anymore, so you need to add that when the theme moves the location of that modal
 - Collapse indicators in Edit Mode are not part of the Code mirror line anymore, meaning they cannot be targeted individually anymore.
 - Live preview being a hybrid of edit and preview mode also also shares certain css classes with *both*, meaning some css targeting elements in preview/edit mode will probably be unintentionally target live preview as well. 
 	- Example: `.external` is used to style external link in Preview Mode, but is now used in Live preview as well. 
