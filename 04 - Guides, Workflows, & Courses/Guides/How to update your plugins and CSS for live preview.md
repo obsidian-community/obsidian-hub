@@ -6,7 +6,7 @@ tags:
 publish: true
 ---
 
-# How to update your Plugins and CSS for Live Preview
+# How to update your Plugins and CSS for Obsidian 0.13+
 
 **Target audience**: Authors of Plugins, Themes and CSS snippets
 
@@ -99,6 +99,24 @@ Even better would be to wrap the check in to a helper function such as `isLivePr
 	- The complete PR (which contains other fixes/refactoring too): [argenos/nldates-obsidian/#57](https://github.com/argenos/nldates-obsidian/pull/57 "https://github.com/argenos/nldates-obsidian/pull/57")
 
 ## For Theme Developers
+
+- `.CodeMirror-line` has changed to `.cm-line`
+- active line has a new selector (`.cm-active`), that needs to be added for active line highlighting
+- Cursor styling has a new selector (`.cm-s-obsidian .cm-cursor`)
+- fold markers (the "..." when a a heading / list item is folded) has a new selector (`.cm-foldPlaceholder`)
+- the gutter has a new selector (`.markdown-source-view.mod-cm6 .cm-gutters`)
+- the css class for the search/replace modal (`.document-search-container`) does not have `position: relative` by default anymore, so you need to add that when the theme moves the location of that modal
+- Collapse indicators in Edit Mode are not part of the Code mirror line anymore, meaning they cannot be targeted individually anymore.
+- Live preview being a hybrid of edit and reading mode also shares certain css classes with *both*, meaning some css targeting elements in reading/edit mode will probably unintentionally target live preview as well. 
+	- Example: `.external` is used to style external links in Reading Mode, but is now used in Live preview as well. 
+	- Mostly, these issues can be solved via more specific selectors, e.g. `a.external` for Reading Mode and `span.external` for Edit Mode
+- trailing whitespace have a CSS class now, allowing to target them, e.g. 
+
+```css
+.cm-line .cm-trailing-space-new-line::before {
+	content: "\21B5";
+}
+```
 
 From `@licat`:
 
