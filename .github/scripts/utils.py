@@ -19,13 +19,34 @@ OUTPUT_DIR = {
 }
 
 
-def get_template(template_name):
+def get_template(template_name: str):
+    """
+    Gets a particular template with template_name as name.
+    """
+    # Default templates directory
     directory = "./templates"
-    template_file_name = "{}.md.jinja".format(template_name)
+
+    # Grab the current working directory to figure out where the template dir is.
+    cwd = os.getcwd()
+    if cwd.endswith("obsidian-hub"):
+        # We're in root. Need to go down into .github/scripts/templates
+        directory = os.path.join(cwd, ".github", "scripts", "templates")
+    if cwd.endswith("github"):
+        # We're in .github. Need to do down into scripts/templates
+        directory = os.path.join(cwd, "scripts", "templates")
+    if cwd.endswith("scripts"):
+        # We're in scripts. Need to go down into templates
+        directory = os.path.join(cwd, "templates")
+    if cwd.endswith("templates"):
+        # We're already there. Current directory.
+        directory = cwd
+
+    # Construct the filename and return the template
+    template_file_name = f"{template_name}.md.jinja"
     return get_template_from_directory(directory, template_file_name)
 
 
-def get_template_from_directory(directory, template_name_with_extensions):
+def get_template_from_directory(directory: str, template_name_with_extensions: str):
     file_loader = FileSystemLoader(directory)
     # A note on writing templates...
     # trim_blocks and lstrip_blocks remove a lot of whitespace.
@@ -112,7 +133,8 @@ def get_plugin_manifest(repository, branch):
 
 def get_category_files():
     return glob.glob(
-        os.path.abspath(os.path.join("../..", OUTPUT_DIR["category"])) + "/*.md"
+        os.path.abspath(os.path.join(
+            "../..", OUTPUT_DIR["category"])) + "/*.md"
     )
 
 
@@ -153,7 +175,7 @@ def print_progress_bar(
     Call in a loop to create terminal progress bar
 
     Source: https://stackoverflow.com/questions/3173320/text-progress-bar-in-the-console
-    
+
     @params:
         iteration   - Required  : current iteration (Int)
         total       - Required  : total iterations (Int)
@@ -164,7 +186,8 @@ def print_progress_bar(
         fill        - Optional  : bar fill character (Str)
         printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
     """
-    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    percent = ("{0:." + str(decimals) + "f}").format(100 *
+                                                     (iteration / float(total)))
     filledLength = int(length * iteration // total)
     bar = fill * filledLength + "-" * (length - filledLength)
     print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)
