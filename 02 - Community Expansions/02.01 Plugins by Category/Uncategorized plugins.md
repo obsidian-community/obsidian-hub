@@ -73,4 +73,9 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-tts|Text to Speech]]
 - [[link-favicon|Link Favicons]]
 - [[get-info-plugin|Get Info]]
+- [[linked-data-helper|Linked Data Helper]]
+- [[linked-data-vocabularies|Linked Data Vocabularies]]
+- [[obsidian-regex-replace|Regex Find and Replace]]
+- [[obsidian-wordpress|Publish to WordPress for Obsidian]]
+- [[obsidian-icon-shortcodes|Icon Shortcodes]]
 
