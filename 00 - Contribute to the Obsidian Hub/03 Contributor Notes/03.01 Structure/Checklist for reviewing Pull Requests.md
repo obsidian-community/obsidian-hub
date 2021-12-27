@@ -8,6 +8,8 @@ When reviewing:
 - Does it add any text inside commented-out sections?
 - Does it add any text inside machine-generated content (that could be moved to a separate section)
 - Does it add any new dangling links?
+- If files have been added
+   - Do all the new files have file extensions?
 - If files have been renamed
     - Has the title been updated?
     - Have the linked mentions been updated?
