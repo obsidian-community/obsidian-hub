@@ -125,15 +125,23 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Heading 5 Color Editor
         - Heading 6 Color Preview
         - Heading 6 Color Editor
+    - **Heading Underlines**: Remove heading underlines individually. Overridden by "Hide Header Underline" in the section Note Elements > Headers.
+        - Hide H1 Underline
+        - Hide H2 Underline
+        - Hide H3 Underline
+        - Hide H4 Underline
+        - Hide H5 Underline
+        - Hide H6 Underline
 
 **Workspace**: 
 - Remove ITS Theme Icons
 - Wrap Note Title
 - Flat Note Title Color
 - Display Folder Arrow On Hover
-- Raise Right Sidebar: Raise the right sidebar if the status bar is covering part of it.
+- Raise Right Sidebar & Doc Search: Raise the right sidebar and the document search modal if the status bar is covering part of it.
 - Hide Outline Pane H
 - Disable Settings Animation
+- Bottom Navbar Buttons
 - **Minimalist Workspace**: Hide UI unless hovered over the edges of the app.
     - Writing: Minimalistic/distraction free layout design for notes.
     - Hide All UI: Hide everything listed below with just 1 toggle
@@ -187,6 +195,25 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Original Bullet Lines: Lines appear under bullet, not beside it. Won't connect to bullet if it's longer than 1 line.
     - Line Size
     - Live Preview Alternate Indent Style: Alternate style to differentiate lists sublevels in edit mode on cm6.
+    - **Checkbox Strike Specific**: 
+        - [x] Regular
+        - [X] Checked
+        - [-] Dropped
+        - [>] Forward
+        - [D] Defer
+        - [?] Question
+        - [/] Half
+        - [+] Add
+        - [R] Research
+        - [!] Important
+        - [i] Idea
+        - [B] Brainstorm
+        - [P] Pro
+        - [C] Con
+        - [Q] Quote
+        - [N] Note
+        - [b] Bookmark
+        - [I] info
     - **Colorful Lists**: 
         - Colorful Bullet Line Color: Toggle on to use colorful bullet lines
         - Colorful Bullet Color: Toggle on to use colorful bullets
@@ -220,6 +247,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Outer Sidebar
     - Sidebar: Change only sidebar, right settings pane colors.
     - Dark Sidebar: Left settings bar, <i></i> background, graph background, and pane separator colors.
+    - Sidebar Tab Colors
     - File: File icon color.
     - Open Folder: Open folder icon color.
     - Folder Title Hover: Open folder icon color.
