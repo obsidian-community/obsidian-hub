@@ -185,7 +185,9 @@ def collect_data_for_plugin(plugin, file_groups):
     else:
         mobile = MOBILE_COMPATIBLE
 
-    plugin.update(mobile=mobile, user=user, **manifest)
+    manifest.update(mobile=mobile)
+
+    plugin.update(user=user, manifest=manifest)
 
     return plugin_is_valid
 
