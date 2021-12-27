@@ -21,6 +21,7 @@ tags:
 -  [[04 - Guides, Workflows, & Courses/Guides/How to add your plugin to the community plugin list|How to add your plugin to the community plugin list]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to add your theme to the community theme store|How to add your theme to the community theme store]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to get started developing plugins|How to get started developing plugins]]
+-  [[04 - Guides, Workflows, & Courses/Guides/How to get the most out of the Breadcrumbs plugin|How to get the most out of the Breadcrumbs plugin]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to release a new version of your plugin|How to release a new version of your plugin]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to Style Obsidian|How to Style Obsidian]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to update your plugins and CSS for live preview|How to update your plugins and CSS for live preview]]

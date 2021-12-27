@@ -14,6 +14,7 @@ tags:
 %% Hub MOCs: Don’t edit below  %%
 -  [[03 - Showcases & Templates/Vaults/Life Disciplines Projects|Life Disciplines Projects]]
 -  [[03 - Showcases & Templates/Vaults/LYT Kit|LYT Kit]]
+-  [[03 - Showcases & Templates/Vaults/OB_Template|OB_Template]]
 -  [[03 - Showcases & Templates/Vaults/Obsidian JG Method|Obsidian JG Method]]
 -  [[03 - Showcases & Templates/Vaults/Obsidian Starter Templates|Obsidian Starter Templates]]
 -  [[03 - Showcases & Templates/Vaults/PARA Starter Kit|PARA Starter Kit]]
