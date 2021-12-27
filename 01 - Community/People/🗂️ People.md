@@ -173,6 +173,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/liamcain|liamcain]]
 -  [[01 - Community/People/lifegems|lifegems]]
 -  [[01 - Community/People/linjunpop|linjunpop]]
+-  [[01 - Community/People/lkadre|lkadre]]
 -  [[01 - Community/People/luckman212|luckman212]]
 -  [[01 - Community/People/lukauskas|lukauskas]]
 -  [[01 - Community/People/luke-rmaki|luke-rmaki]]
@@ -329,6 +330,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/ZaherAlMajed|ZaherAlMajed]]
 -  [[01 - Community/People/zapthedingbat|zapthedingbat]]
 -  [[01 - Community/People/zcysxy|zcysxy]]
+-  [[01 - Community/People/Zektor|Zektor]]
 -  [[01 - Community/People/zolrath|zolrath]]
 -  [[01 - Community/People/zsviczian|zsviczian]]
 %% Hub MOCs: Don’t edit above  %%
