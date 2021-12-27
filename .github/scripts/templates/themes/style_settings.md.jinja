@@ -1,0 +1,9 @@
+## Customization Options (Style Settings Plugin) 
+{% for s in settings %}
+{% if s.type == "heading" %}
+
+{{ s.header }}
+{% else %}
+{{ s.title }}
+{% endif %}
+{% endfor %}
