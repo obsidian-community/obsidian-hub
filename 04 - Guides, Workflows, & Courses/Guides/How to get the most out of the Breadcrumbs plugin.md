@@ -65,6 +65,8 @@ As part of my template for my ""literature"" notes, there's a dataview inline fi
 
 `- [i] Author:: {% if author %}[[{{author}}]]{% endif %}`
 
+Note that the `- [i]` syntax is recognized by some themes as a custom checkbox.
+
 (Well, this is in the Readwise export setting, but I believe many people have a similar set up in their literature notes, with ). Breadcrumbs picks up on this inline field and, since I have a hierarchy for "author", it reads that the author is above the literature, and all the other works by the same author are its "siblings". Basically, Breadcrumbs is magic.
 
 I don't create notes for every author or person, but I do create them for people who are important in their field or who I keep coming across from, or who I just have something to say about. When I do, the template includes these:
