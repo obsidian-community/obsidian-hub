@@ -12,7 +12,7 @@ In this folder, you can find various examples and showcases how other people use
 
 This channel is pretty much the equivalent of the `#snip-a-note` channel on Discord.
 
-Got inspired or looking for something to get started? a collection of all sorts of [[🗂️ Templates]] can be found here as well.
+Got inspired or looking for something to get started? A collection of all sorts of [[🗂️ Templates]] can be found here as well.
 
 ## MOC
 
