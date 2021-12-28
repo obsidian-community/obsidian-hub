@@ -31,7 +31,7 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 -   For folks who like the idea of saving Twitter threads to Readwise but don't want to get a whole Readwise subscription just to do that, check out the [Tressel](https://www.tressel.xyz/) app, which now has an [Obsidian plugin](https://github.com/aseem-thakar/obsidian-tressel/).
 -   The new [Calibre plugin](https://github.com/caronchen/obsidian-calibre-plugin) lets users access Calibre libraries and read books directly in Obsidian.
--   [Obsidian Overdue](https://github.com/parente/obsidian-overdue) Obsidian plugin that marks items as [[Overdue]] if they are not checked off by their due date
+-   [Obsidian Overdue](https://github.com/parente/obsidian-overdue) Obsidian plugin that marks items as `[[Overdue]]` if they are not checked off by their due date
 
 ### Updates
 
