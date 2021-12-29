@@ -18,4 +18,4 @@ tags:
 
 ## Contributing
 
-![[Contributing templates to the community vault]]
+![[Contributing templates to the community vault#Contributing templates to the community vault]]
