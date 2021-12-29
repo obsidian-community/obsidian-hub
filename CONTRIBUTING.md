@@ -155,3 +155,9 @@ Got some question left? Check out the [[FAQ]] or drop by in the `#Obsidian-Hub` 
 
 Please [open a new discussion at GitHub](https://github.com/obsidian-community/obsidian-hub/discussions/new) if you have suggestions or ideas for this vault.
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="github-footer">[<button class="footer-button">Edit in GitHub</button>](https://github.dev/obsidian-community/obsidian-hub/blob/main/CONTRIBUTING.md) [<button class="footer-button">Copy this Note</button>](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/CONTRIBUTING.md) [<button class="footer-button">Download this vault</button>](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip)</span>
