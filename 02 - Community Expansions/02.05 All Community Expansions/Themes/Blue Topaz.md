@@ -49,8 +49,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - deep color
 - **1.2 Background Images**: 
     - **1.2.1 Workplace background image**: 
-        - Image Style
+        - Activate Image Background
         - blur depth: To adjust the degree of blur
+        - Brightness of Image: To adjust the brightness
+        - Saturation of Image: To adjust the saturation
         - Theme light
         - Theme light (url): Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
         - Theme dark
@@ -60,6 +62,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Choose Images
         - Random Background Images: Images will be refreshed when Obsidian launches; network is needed
         - Random image with a certain color
+- **1.3 Layout (coming soon)**: 
+    - Layout Styles
 
 **2. Detail Settings**: 
 - **2.1 Color Settings**: 
@@ -71,8 +75,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Background Secondary (alt)
         - Background Modifier Border
     - **2.1.2 Accent Colors**: 
-        - Theme color
-        - Theme color 2
+        - Theme Color: interactive-accent
+        - Theme Color 2: text-accent
     - **2.1.3 Header colors**: 
         - Header 1
         - Header 2
@@ -80,7 +84,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Header 4
         - Header 5
         - Header 6
-    - **2.1.4 Tag colors**: 
+    - **2.1.4 Tag Colors**: 
+        - Tag Text
         - Tag-1
         - Tag-2
         - Tag-3
@@ -90,6 +95,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Tag-7
         - Tag-8
         - Tag-9
+    - **2.1.5 Other Colors**: 
+        - Inline Code Color
 - **2.2 Typography**: 
     - **2.2.1 Font Family**: 
         - Use Obsidian Default Font-family
@@ -119,21 +126,31 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Header 5
         - Header 6
     - **2.2.3 Other Settings**: 
+        - Line width (in the mode of 'Readable line length'): The maximum line width in rem units (1rem = Body font size)
         - Line Height
         - Letter Spacing
         - Letter Spacing for Code
         - Text-indent of the first line in preview mode
+        - clutter free headings: Adapted from https://github.com/deathau/obsidian-snippets/blob/main/clutter-free-headings.css
 - **2.3 Element Styles**: 
-    - Reduced Status Bar: Use  half width status bar
+    - Reduced Status Bar
     - Remove underlines of header 1 & 2
     - Circular Checkbox
     - Mute Active Line
-    - Mute  zoom into the image  on click
-    - Mute  link underline
+    - Deactivate image zooming
+    - Remove colorful background of active file title: Make it austere
+    - Remove underlines of external links
+    - Animation on the Loading Page
     - **2.3.1 Horizontal Ruler (hr, ---)**: 
         - Fancy Horizontal Ruler (hr)
-        - Centre Icon: Do not remove the quotes
-        - Degree of icon rotation
+        - **2.3.1.1 w/ Icons**: 
+            - Centre Icon: Do not remove the quotes
+            - Degree of icon rotation
+        - **2.3.1.1 w/o Icons**: 
+            - hr-color-1
+            - hr-color-2
+            - hr-color-3
+            - hr-color-4
     - **2.3.2 List**: 
         - List
     - **2.3.3 Folder**: 
@@ -149,18 +166,37 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - PDF Color Scheme
     - **2.3.6 Embeds**: 
         - Naked Embed
-        - hide embed headings
+        - hide embed title
+        - hide embed  headings like H1 H2
+        - embed note floating effect
+    - **2.3.7 Custom modal windows**: 
+        - disable math block on quickadd modal
+        - modal title icon: Do not remove the quotes
+    - **2.3.8 Table**: 
+        - Nowrap in Tables
+    - **2.3.9 rainbow outline**: 
+        - Enable rainbow outline
+        - Enable rainbow outline list order
+        - Enable rainbow outline checkbox
+        - **rainbow lines colors**: 
+            - Outline level 1
+            - Outline level 2
+            - Outline level 3
+            - Outline level 4
+            - Outline level 5
+            - Outline level 6
 
-**3. For Other Plugins (Coming soon)**: 
-- **3.1 Calendar**: 
-    - Calendar (Coming soon)
-- **3.2 Admonition Style**: 
-    - Admonition special style support: 目前支持ad类型：bank 全透明框🔸def definition🔸thm theorem🔸lem lemma🔸cor corollary🔸pro proposition 🔸🔸hibox ❗使用方法❗下面以thm类型为例，在admonition插件的设置页面中，类型填 thm，标题填 定理，图标选择hand-point-right，颜色自己选比如浅绿色，添加成功后，在正文中使用代码块```ad-thm 即可激活。其他类型以此类推。
-- **3.3 Kanban (Coming soon)**: 
-    - Static (Coming soon)
-    - Dynamic (Coming soon)
-- **3.2 Checklist Plugin**: 
+**3. For Plugins**: 
+- **3.1 Admonition Style**: 
+    - Admontion codebock background
+    - Admonition special style support: 目前支持ad类型：blank 全透明框🔸def definition🔸thm theorem🔸lem lemma🔸cor corollary🔸pro proposition 🔸hibox  自动隐藏框🔸col2 col3 col4内容分多栏🔸kanban 伪看板❗使用方法❗下面以thm类型为例，在admonition插件的设置页面中，类型填 thm，标题填 定理，图标选择hand-point-right，颜色自己选比如浅绿色，添加成功后，在正文中使用代码块```ad-thm 即可激活。其他类型以此类推。
+- **3.2 Calendar**: 
+    - Calendar
+- **3.3 Checklist Plugin**: 
     - Rainbow Checklist
+- **3.4 Kanban**: 
+    - Static
+    - Dynamic
 
 **4. Built-in Style Intro**: There are some built-in CSS classes that should be manually declared in the YAML area. Details refer to the TIPS demo vault for Blue Topaz on Github.
 - **Pseudo-kanban**: ❗cssclass：kanban❗ A kind of kanban-liked style for unordered lists. (Adapted from Spectrum theme by @Wiktoria Mielcarek)

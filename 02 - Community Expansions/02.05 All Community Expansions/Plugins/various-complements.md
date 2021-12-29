@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/tadashi-aikawa/obsidian-various-co
 Developed by: [[tadashi-aikawa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This plugin enables you to complement input in markdown files
+This plugin enables you to complete words like the auto-completion of IDE
 
 %% ----- Do not edit anything above this line ----- %% 
 

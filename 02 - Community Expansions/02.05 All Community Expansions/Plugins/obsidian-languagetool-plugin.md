@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Clemens-E/obsidian-languagetool-pl
 Developed by: [[Clemens-E]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-spell and grammar checks with the LanguageTool API
+Spelling and grammar checks with the LanguageTool API
 
 %% ----- Do not edit anything above this line ----- %% 
 

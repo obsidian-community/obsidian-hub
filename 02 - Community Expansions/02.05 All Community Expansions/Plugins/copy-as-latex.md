@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `copy-as-latex`
 Links: [GitHub repository](https://github.com/mo-seph/obsidian-copy-as-latex) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=copy-as-latex)
 Developed by: [[mo-seph]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Plugin to quickly copy markdown as Latex, with citations
 

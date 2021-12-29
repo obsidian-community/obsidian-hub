@@ -53,30 +53,37 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Fancy cursor: Editor cursor uses your accent color
 - Default icons: Use default icons instead of Minimal set
 - Wide status bar: Use full width status bar
-- Hide action buttons in focus mode: When sidebars are collapsed hide action buttons, accessible by hovering
+- Focus mode: Hide UI when a single file is open. UI is accessible via hover.
 - Hide borders: Removes borders between sidebar elements
 - Border below pane title: Show border below pane title (if borders are not hidden)
 - Full file names in sidebar: Turn off trimming on files in sidebar
 - Folding offset: Recommended if you use folding headings and indents
 - Relationship lines in Preview: Show vertical lines that connect related bullet points and task lists
 - Relationship lines in Editor: Show vertical lines that connect related bullet points and task lists
-- Maximize media: Images and videos fill the width of the line
-- Disable image zoom: Turns off click/hold to zoom images
 - Underline internal links: Show underlines on internal links
 - Underline external links: Show underlines on external links
+- Maximize media: Small images and videos fill the width of the line
+- Disable image zoom: Turns off click/hold to zoom images
 
-**Fonts**: 
-- Text font: Used in preview mode
-- Editor font: Used in edit mode
-- Monospace font: Used for code blocks and front matter
-- UI font: Used for buttons, menus and sidebar
+**Layout**: Requires Contextual Typography plugin. These options can also be defined on a per-file basis using YAML, see documentation for details.
+- Image grids: Turns consecutive images into columns. To make a new row, add an extra line break between images.
+- Image width: Default width for images and image grids
+- Table width: Default width for tables and Dataview elements
+- Iframe width: Default width for iframe elements
 
 **Typography**: 
 - Body font size: Font size in px of the main text
 - Sidebar font size: Font size in px of the sidebar and small text
 - Body line height: Line height of the main text
 - Normal line width: Number of characters per line
-- Maximum line width: Percentage of space inside a pane that a line can fill. Recommended values between 80 to 100
+- Wide line width: Number of characters per line for wide elements
+- Maximum line width %: Percentage of space inside a pane that a line can fill.
+
+**Fonts**: 
+- Text font: Used in preview mode
+- Editor font: Used in edit mode
+- Monospace font: Used for code blocks and front matter
+- UI font: Used for buttons, menus and sidebar
 
 **Headings**: 
 - **Level 1 Headings**: 

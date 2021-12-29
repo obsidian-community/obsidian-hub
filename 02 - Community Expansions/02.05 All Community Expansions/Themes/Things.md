@@ -40,6 +40,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 ## Customization Options (Style Settings Plugin) 
 
 **Features**: 
+- Default icons: Use default icons instead of minimal set
 - Show full file names: Turn off trimming on files in sidebar
 - Underline internal links: Show underlines on internal links
 - Underline external links: Show underlines on external links
@@ -51,6 +52,13 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - UI font: Used for buttons, menus and sidebar
 
 **Typography**: 
+- Bold font color
+- Italics font color
+- Blockquotes font color
+- Tag background color (Light mode)
+- Tag font color (Light mode)
+- Tag background color (Dark mode)
+- Tag font color (Dark mode)
 - Note titles, modals, and alt text size: Font size in px (main editor/preview text size now controlled via slider in Appearance settings)
 - Sidebar and tag font size: Font size in px of sidebar, tags, and small text
 - Body line height: Line height of the main text
@@ -61,26 +69,33 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - **Level 1 Headings**: 
     - H1 font size: Accepts any CSS font-size value
     - H1 font weight: Accepts numbers representing the CSS font-weight
+    - H1 color
 - **Level 2 Headings**: 
     - H2 font size: Accepts any CSS font-size value
     - H2 font weight: Accepts numbers representing the CSS font-weight
+    - H2 color
 - **Level 3 Headings**: 
     - H3 font size: Accepts any CSS font-size value
     - H3 font weight: Accepts numbers representing the CSS font-weight
+    - H3 color
 - **Level 4 Headings**: 
     - H4 font size: Accepts any CSS font-size value
     - H4 font weight: Accepts numbers representing the CSS font-weight
+    - H4 color
 - **Level 5 Headings**: 
     - H5 font size: Accepts any CSS font-size value
     - H5 font weight: Accepts numbers representing the CSS font-weight
+    - H5 color
 - **Level 6 Headings**: 
     - H6 font size: Accepts any CSS font-size value
     - H6 font weight: Accepts numbers representing the CSS font-weight
+    - H6 color
 
 **Advanced**: 
+- MacOS-Like Translucent Window: Give workspace a MacOS-like translucency
 - Cursor style: The cursor style for UI elements
 
-**Credits**: Created with ❤︎ by @colineckert. Support my work at buymeacoffee.com/colineckert
+**Credits**: Created with ❤︎ @colineckert. This theme uses code from Minimal by @kepano. Support @kepano at buymeacoffee.com/kepano and me at buymeacoffee.com/colineckert
 
 ## Plugin Compatibility[^1]
 

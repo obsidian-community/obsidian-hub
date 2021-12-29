@@ -35,4 +35,37 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
+## Customization Options (Style Settings Plugin) 
+
+**Workspace**: 
+- **Theme Presets**: Some color presets
+    - Bubble Mode Presets: Color Theme Presets for Bubble (Light) Mode
+    - Space Mode: Color Theme Presets for Space (Dark) Mode
+    - Header Image: toggle off to hide the header image in the file explorer
+
+## Plugin Compatibility[^1]
+
+**Core plugins**:
+- [[Obsidian Core Plugins#Command palette|Command palette]]
+- [[Obsidian Core Plugins#File explorer|File explorer]]
+- [[Obsidian Core Plugins#Search|Search]]
+- [[Obsidian Core Plugins#Graph view|Graph view]]
+- [[Obsidian Core Plugins#Outline|Outline]]
+- [[Obsidian Core Plugins#Quick switcher|Quick switcher]]
+- [[Obsidian Core Plugins#Tag pane|Tag pane]]
+
+**Community plugins**:
+- [[obsidian-admonition|Admonition]]
+- [[obsidian-word-sprint|Word Sprint for Obsidian]]
+- [[obsidian-icon-folder|Obsidian Icon Folder]]
+- [[fantasy-calendar|Fantasy Calendar]]
+- [[calendar|Calendar]]
+- [[obsidian-rich-links|Obsidian Rich Links]]
+- [[obsidian-daily-stats|Daily Stats]]
+- [[obsidian-day-planner|Day Planner]]
+- [[obsidian-style-settings|Style Settings]]
+- [[mysnippets-plugin|MySnippets]]
+
+[^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

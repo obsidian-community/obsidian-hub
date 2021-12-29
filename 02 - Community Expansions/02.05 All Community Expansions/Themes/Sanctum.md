@@ -42,7 +42,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Colors**: 
 - Light mode palette: Background color palette for light mode
 - Dark mode palette: Background color palette for dark mode
-- Dark Mode High Contrast Code Background: Gives a darker background to code in dark mode, for more contrast.
 - Use Accent color as Active Line Highlight: Replaces the grey with the accent color for active line highlighting.
 - **Accent Colors**: 
     - Light Mode Accent Color
@@ -118,18 +117,19 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Sidenote Options: Left and right sidenote colors
     - Inner Sidenote Options: Inner sidenote colors
 - **Relationship Lines**: 
-    - Relationship Lines: Toggle relationship lines on lists
-    - Alternating Relationship Lines Colors: Toggle alternating relationship lines on lists.
+    - Relationship Lines: Toggle relationship lines on lists for Reading and Editing View (Live Preview).
+    - Relationship Lines Spacing: Leave as default if you're using the default font. If using another font, you may try the other settings. If using IBM Plex, try the 'Proportional Font Fix' option.
 
 **Elements**: 
 - Hide Titlebar center text: This setting hides the center text of the titlebar.
 - Hide Frontmatter: This setting hides frontmatter in Preview Mode.
 - Status Bar on top: This setting moves the status bar to the top. To click on icons aim for the border.
 - Tab Header Icon side padding: Changes tab header icons side padding.
+- Compact Outline: Hides excess text in the outline pane so every title is 1 row tall.
 - **File Explorer**: 
     - Show Vault Name
     - Left Nav Arrows: Moves nav arrows to the left, like default obsidian.
-    - File Explorer Relationship Lines: Adds hierarchy lines in File explorer.
+    - File Explorer Relationship Lines [Temporarily Disabled]: Adds hierarchy lines in File explorer.
     - No File Icons: Removes file icons from file explorer.
     - No Folder Icons: Removes file icons from file explorer.
     - Show full titles: Turns off trimming of folder and file titles.

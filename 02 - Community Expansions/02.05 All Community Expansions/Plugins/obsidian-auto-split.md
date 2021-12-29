@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/jsartelle/obsidian-auto-split) or 
 Developed by: [[jsartelle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Open notes with split editor & preview
+Open notes with side-by-side editor & preview
 
 %% ----- Do not edit anything above this line ----- %% 
 
