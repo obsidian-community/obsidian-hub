@@ -96,7 +96,8 @@ def get_uncategorized_plugins(overwrite=True, verbose=False):
         with open(file) as category_file:
             contents = category_file.read()
             for plugin in plugin_list:
-                if plugin in contents:
+                link = f'[{plugin}|'
+                if link in contents:
                     categorized.add(plugin)
 
     uncategorized = list()
