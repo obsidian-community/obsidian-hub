@@ -177,6 +177,10 @@ def collect_data_for_plugin(plugin, file_groups):
     branch = plugin.get("branch", "master")
     manifest = get_plugin_manifest(repo, branch)
 
+    return collect_data_for_plugin_and_manifest(repo, plugin, manifest, file_groups)
+
+
+def collect_data_for_plugin_and_manifest(repo, plugin, manifest, file_groups):
     plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
     user = repo.split("/")[0]
