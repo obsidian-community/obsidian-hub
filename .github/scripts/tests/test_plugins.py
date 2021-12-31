@@ -7,14 +7,6 @@ from approvaltests.approvals import verify_as_json
 from test_make_mocs import approval_test_options
 
 
-# Names that are currently manually edited when update-releases.py is run:
-#  "Andrew Brown & Tim Hor" -> "Tim Hor",
-#  "bicarlsen" -> "Brian Carlsen",
-#       https://github.com/bicarlsen/obsidian_image_caption/pull/7
-#  "Chetachi" -> "Chetachi E.",
-#  "ryanjamurphy" -> "Ryan J. A. Murphy"
-
-
 def verify_plugin(manifest_as_json, plugin_as_json):
     plugin = json.loads(plugin_as_json)
     manifest = json.loads(manifest_as_json)
