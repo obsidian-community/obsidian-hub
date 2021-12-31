@@ -1,5 +1,5 @@
 {
-    "author": "ryanjamurphy",
+    "author": "Ryan J. A. Murphy",
     "authorUrl": "https://axle.design",
     "description": "Open or reveal the current note in DEVONthink.",
     "id": "DEVONlink-obsidian",

@@ -4,6 +4,7 @@ import re
 import os
 import sys
 
+from authors import adjust_author
 from utils import get_template, get_plugin_manifest
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
@@ -190,6 +191,7 @@ def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups):
     else:
         mobile = MOBILE_COMPATIBLE
 
+    adjust_author(manifest)
     plugin.update(mobile=mobile, user=user, **manifest)
 
     return plugin_is_valid
