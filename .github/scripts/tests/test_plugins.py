@@ -48,3 +48,29 @@ def test_author_augmented_for_ryanjamurphy():
     }
     '''
     verify_plugin(manifest_as_json, plugin_as_json)
+
+
+def test_author_missing_from_manifest():
+    # This plugin has the author name in the community plugins file, but not in its own manifest.json
+    # This test verifies that this situation is handled correctly.
+    plugin_as_json = '''
+    {
+        "id": "obsidian-git",
+        "name": "Obsidian Git",
+        "author": "Denis Olehov",
+        "description": "Backup your vault with git.",
+        "repo": "denolehov/obsidian-git"
+    }
+    '''
+
+    manifest_as_json = '''
+    {
+        "id": "obsidian-git",
+        "name": "Obsidian Git",
+        "description": "Backup your vault with git.",
+        "isDesktopOnly": true,
+        "js": "main.js",
+        "version": "1.19.0"
+    }
+    '''
+    verify_plugin(manifest_as_json, plugin_as_json)

@@ -191,8 +191,8 @@ def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups):
     else:
         mobile = MOBILE_COMPATIBLE
 
-    adjust_author(manifest)
     plugin.update(mobile=mobile, user=user, **manifest)
+    adjust_author(plugin)
 
     return plugin_is_valid
 
