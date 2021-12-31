@@ -166,6 +166,12 @@ def test_moc_for_root_directory():
         'svg-files-are-currently-included.svg',
         'css-files-are-currently-included.css',
 
+        # And that two specific top-level non .md files are currently included
+        'logo.svg should-not-be-included.md',
+        'publish.css should-not-be-included.md',
+        'logo.svg',
+        'publish.css',
+
         '00 - there should not be a link to a file called 🗂️ hub',
         '🗂️ hub.md',
     ]
