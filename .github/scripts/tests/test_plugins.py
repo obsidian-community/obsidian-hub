@@ -26,8 +26,22 @@ def test_author_augmented_for_ryanjamurphy():
         "repo": "ryanjamurphy/DEVONlink-obsidian"
     }
     '''
-
     plugin = json.loads(plugin_as_json)
+
+    manifest_as_json = '''
+    {
+        "id": "DEVONlink-obsidian",
+        "name": "DEVONlink",
+        "version": "2.2.1",
+        "minAppVersion": "0.9.12",
+        "description": "Open or reveal the current note in DEVONthink.",
+        "author": "ryanjamurphy",
+        "authorUrl": "https://axle.design",
+        "isDesktopOnly": true
+    }
+    '''
+    manifest = json.loads(manifest_as_json)
+
     file_groups = dict()
-    result = plugins.collect_data_for_plugin(plugin, file_groups)
+    result = plugins.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
     verify_as_json(plugin, options=approval_test_options())
