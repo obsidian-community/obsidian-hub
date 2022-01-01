@@ -32,6 +32,7 @@ Do you already have a good idea of your workflow, but are missing the tools to i
 -  [[04 - Guides, Workflows, & Courses/for Academic Writing|for Academic Writing]]
 -  [[04 - Guides, Workflows, & Courses/for Beginners|for Beginners]]
 -  [[04 - Guides, Workflows, & Courses/for Creative Writing|for Creative Writing]]
+-  [[04 - Guides, Workflows, & Courses/for Knowledge Management|for Knowledge Management]]
 -  [[04 - Guides, Workflows, & Courses/for Plugin Developers|for Plugin Developers]]
 -  [[04 - Guides, Workflows, & Courses/for Power Users|for Power Users]]
 -  [[04 - Guides, Workflows, & Courses/for Theme Designers|for Theme Designers]]
