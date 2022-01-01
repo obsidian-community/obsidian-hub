@@ -8,7 +8,6 @@ def adjust_author(extension):
     author = extension['author']
     substitutions = {
         "Andrew Brown & Tim Hor": "Tim Hor",
-        "bicarlsen": "Brian Carlsen", # remove when https://github.com/bicarlsen/obsidian_image_caption/pull/7 closed
         "Chetachi": "Chetachi E.",
         "ryanjamurphy": "Ryan J. A. Murphy"
     }
