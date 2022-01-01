@@ -1,7 +1,7 @@
 from typing import Dict
 
 
-def adjust_author(plugin: Dict[str, str]) -> None:
+def update_author_name_for_manual_exceptions(plugin: Dict[str, str]) -> None:
     """
     
     :param plugin: 
