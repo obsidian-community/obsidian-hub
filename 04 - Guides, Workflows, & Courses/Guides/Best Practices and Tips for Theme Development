@@ -1,0 +1,15 @@
+---
+aliases: 
+- 
+tags:
+- seedling
+publish: true
+---
+
+# Best Practices and Tips for Theme Development
+
+This note serves as a collection of tips and best practices for theme development which are too small to be their own guide.
+
+- Name the font-faces in your theme's CSS differently from the one you installed on your system to prevent potential issues with fonts from going unnoticed. 
+    By naming your base64-encoded font-faces (`@font-face`) the same as the font you installed on your system, you will never actually see how the fonts are rendered for other users, since Obsidian will prefer the system font when there are multiple fonts with the same name available (one via base64-encoded CSS, one on the system).
+- Prefer `woff2` over `ttf` as font format, since the former have a far smaller file size.

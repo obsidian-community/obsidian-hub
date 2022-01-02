@@ -13,6 +13,7 @@ This note collects resources and guides for beginner and expert theme designers 
 ## FAQ
 
 - [[How to add your theme to the community theme store]]
+- [[Adding plugin compatibility for themes to the Obsidian Hub]]
 
 ## Guides
 
@@ -21,7 +22,7 @@ This note collects resources and guides for beginner and expert theme designers 
 - [[How to update your plugins and CSS for live preview]]
 - [[Why and How to use Stylelint for your Obsidian Theme]] by [[chrisgrieser|pseudometa]]
 - [[Want some Sass with your obsidian theme‽ here's How and Why]] by [[jdanielmourao]]
-- [[Adding plugin compatibility for themes to the Obsidian Hub]]
+- [[Best Practices and Tips for Theme Development]]
 
 ## Community Talks
 
