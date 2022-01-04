@@ -35,9 +35,22 @@ jobs:
           cd .github/scripts
           pip3 install --upgrade --no-cache-dir -r requirements.txt
 
+      - name: Set up git config
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+        shell: bash
+
       - name: Update theme download counts
         run: |
           cd .github/scripts
           python3 ./update-releases.py --update-download-counts
-          git diff
-          # TODO Commit the changes
+          git commit -m "Update theme download counts" -a  || echo "nothing to commit"
+
+      - name: Push changes
+        run: |
+          remote="https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git"
+          branch="${GITHUB_REF:11}"
+          echo ${branch}
+#          git push "${remote}" ${branch} || echo "nothing to push"
+        shell: bash
