@@ -6,6 +6,11 @@ tags:
 publish: true
 ---
 
+>>>>>>>>
+Intentional diff to cause test failure in GitHub Actions
+And check the output is meaningful
+>>>>>>>>
+
 # test-user
 
 - GitHub: [test-user](https://github.com/test-user/) ^github
