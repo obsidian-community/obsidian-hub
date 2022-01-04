@@ -12,7 +12,7 @@ tags:
 Don't forget to add "title" (or whichever yaml key you use) to the "tag attributes for styling" in the [[supercharged-links-obsidian|Supercharged Links]] settings.
 
 ```css
-/* change "#pdf-annotations" to the tag of your literatur notes */
+/* change "#pdf-annotations" to the tag of your literature notes */
 /* change "title" in "data-link-title" to the yaml key of your title */
 
 .data-link-text[data-link-tags*="#pdf-annotations" i]:hover::after{
