@@ -51,12 +51,14 @@ jobs:
         run: |
           cd .github/scripts
           python3 ./update-releases.py --all
+          git add .
           git commit -m "Add new plugins, themes and authors" -a  || echo "nothing to commit"
 
       - name: Update MOC files
         run: |
           cd .github/scripts
           python3 ./update-releases.py --all
+          git add .
           git commit -m "Update MOC files" -a  || echo "nothing to commit"
 
       - name: Push changes
