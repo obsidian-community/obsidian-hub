@@ -7,7 +7,7 @@ tags:
 
 # Tooltips for Literature Notes with Supercharged Links
 
-![Screen Recording 2022-01-04 at 20 36 17](https://user-images.githubusercontent.com/73286100/148116001-8800ba0e-f24e-48f7-8bdf-87b30e6f0bb9.gif)
+![[Tooltips-for-Literature-Notes-with-Supercharged-Links.gif]]
 
 Don't forget to add "title" (or whichever yaml key you use) to the "tag attributes for styling" in the Supercherged Links settings.
 
