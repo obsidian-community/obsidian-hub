@@ -49,3 +49,4 @@ jobs:
         run: |
           cd .github/scripts
           python3 tests.py
+          echo $?
