@@ -48,4 +48,4 @@ jobs:
       - name: Run Python tests
         run: |
           cd .github/scripts
-          python3 -s -m pytest tests
+          python3 tests.py
