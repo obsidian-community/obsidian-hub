@@ -14,3 +14,4 @@ os.chdir(pathlib.Path.cwd() / 'tests')
 
 result = pytest.main()
 print(f'return code = {result}')
+exit(result)
