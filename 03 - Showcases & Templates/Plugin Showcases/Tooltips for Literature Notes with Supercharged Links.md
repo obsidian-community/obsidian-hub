@@ -9,7 +9,7 @@ tags:
 
 ![[Tooltips-for-Literature-Notes-with-Supercharged-Links.gif]]
 
-Don't forget to add "title" (or whichever yaml key you use) to the "tag attributes for styling" in the Supercherged Links settings.
+Don't forget to add "title" (or whichever yaml key you use) to the "tag attributes for styling" in the [[supercharged-links-obsidian|Supercharged Links]] settings.
 
 ```css
 /* change "#pdf-annotations" to the tag of your literatur notes */
