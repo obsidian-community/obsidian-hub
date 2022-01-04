@@ -47,6 +47,12 @@ jobs:
           python3 ./update-releases.py --update-download-counts
           git commit -m "Update theme download counts" -a  || echo "nothing to commit"
 
+      - name: Add new plugins, themes and authors
+        run: |
+          cd .github/scripts
+          python3 ./update-releases.py --all
+          git commit -m "Add new plugins, themes and authors" -a  || echo "nothing to commit"
+
       - name: Push changes
         run: |
           remote="https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git"
