@@ -51,6 +51,5 @@ jobs:
         run: |
           remote="https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git"
           branch="${GITHUB_REF:11}"
-          echo ${branch}
-#          git push "${remote}" ${branch} || echo "nothing to push"
+          git push "${remote}" ${branch} || echo "nothing to push"
         shell: bash
