@@ -42,10 +42,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd .gitub/scripts
+          cd .github/scripts
           pip3 install --upgrade --no-cache-dir -r requirements.txt
 
       - name: Run Python tests
         run: |
-          cd .gitub/scripts
+          cd .github/scripts
           python3 -s -m pytest tests
