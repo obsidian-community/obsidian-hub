@@ -40,7 +40,12 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Install dependencies - TODO
+      - name: Install dependencies
         run: |
-          pwd
-          ls -ls
+          cd .github/scripts
+          pip3 install --upgrade --no-cache-dir -r requirements.txt
+
+      - name: Run Python tests
+        run: |
+          cd .github/scripts
+          python3 tests.py
