@@ -12,4 +12,6 @@ import pytest
 # from https://stackoverflow.com/a/51334378/104370
 os.chdir(pathlib.Path.cwd() / 'tests')
 
-pytest.main()
+result = pytest.main()
+print(f'return code = {result}')
+exit(result)
