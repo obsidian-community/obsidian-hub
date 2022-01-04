@@ -1,0 +1,33 @@
+---
+plugin-id: obsidian-rant
+aliases:
+- Rant-Lang
+tags: 
+- 
+publish: true
+---
+
+%% ----- Badges ----- %%
+
+![GitHub all releases](https://img.shields.io/github/downloads/lanice/obsidian-rant/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/lanice/obsidian-rant?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/lanice/obsidian-rant/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/lanice/obsidian-rant?color=573E7A&logo=github&style=for-the-badge)
+
+%% ----- Badges ----- %%
+
+%% ----- Do not edit this section ----- %%
+
+# Rant-Lang
+
+Plugin ID: `obsidian-rant`
+Links: [GitHub repository](https://github.com/lanice/obsidian-rant) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-rant)
+Developed by: [[lanice]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
+
+Thin wrapper around the Rant language Rust crate
+
+%% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[lanice#Sponsor this author]] %%
