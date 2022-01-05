@@ -34,7 +34,7 @@ This note collects resources and guides for beginner and expert theme designers 
 - [[CSS 101 - Community Talk]]
 
 ## Tools
-- [**Obsidian Theme Template**](https://github.com/obsidian-community/obsidian-theme-template) A template theme to get started
+- [**Obsidian Theme Template**](https://github.com/obsidian-community/obsidian-theme-template) A GitHub repository template with everything you need to get started. Click `Use this template` to get a ready-to-go theme repository.
 - [**Theme Dev Vault**](https://github.com/obsidian-community/theme-dev-vault) An obsidian vault to aid in theme development
 - [**Transfonter**](https://transfonter.org/) Online `@font-face` generator for offline fonts
 - [**Iconify Icon Sets**](https://icon-sets.iconify.design/) Website to search and find icons from multiple icon sets
