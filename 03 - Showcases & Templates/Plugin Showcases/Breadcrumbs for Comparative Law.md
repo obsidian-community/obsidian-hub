@@ -9,9 +9,11 @@ publish: true
 
 *Note: this is a refined version of the post by [[lkadre]] on [this discussion](https://github.com/SkepticMystic/breadcrumbs/discussions/175) on Github about [[How to get the most out of the Breadcrumbs plugin]].*
 
-#### Example: Concept notes (Law)
+Since the [[breadcrumbs|Breadcrumbs]] plugin is so powerful, it can be useful to see an example (showcase?) of how other people use it to maximise creativity and analysis. 
 
 This is specifically about my notes on Law, which I acknowledge is probably very niche but hopefully it can give you some ideas of how to set up your hierarchies and especially how to work with notes in multiple hierarchies. You don't have to choose one!
+
+#### Example: Concept notes (Law)
 
 The first line in my note for Limited Liability Company in Delaware reads:
 
