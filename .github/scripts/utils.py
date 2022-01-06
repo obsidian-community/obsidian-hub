@@ -19,6 +19,12 @@ OUTPUT_DIR = {
 }
 
 
+# For performance reasons, we check the environment only once, and cache the value.
+# Doing it on every call to print_progress_bar() added 45 seconds to one 
+# GitHub Actions workflow
+running_in_continuous_integration = os.environ.get('GITHUB_ACTIONS') != None
+
+
 def get_template(template_name):
     directory = "./templates"
     template_file_name = "{}.md.jinja".format(template_name)
@@ -138,10 +144,6 @@ def print_file_summary(file_groups, verbose=False):
                 print("\t- {}".format(f))
 
 
-def running_in_continuous_integration() -> bool:
-    return os.environ.get('GITHUB_ACTIONS') != None
-
-
 # Print iterations progress, unless running in CI build
 def print_progress_bar(
     iteration,
@@ -170,7 +172,7 @@ def print_progress_bar(
     """
 
     # Don't clutter the CI logs up with progress bar:
-    if running_in_continuous_integration():
+    if running_in_continuous_integration:
         return
 
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
