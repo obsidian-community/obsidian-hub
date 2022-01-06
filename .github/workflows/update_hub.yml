@@ -63,5 +63,10 @@ jobs:
           git add .
           git commit -m "Update MOC files" -a  || echo "nothing to commit"
 
+      # Reference: https://github.com/marketplace/actions/create-pull-request
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
+        with:
+          title: Scripted update of Hub content
+          labels: |
+            scripted update
