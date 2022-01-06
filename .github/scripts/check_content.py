@@ -17,7 +17,7 @@ def check_content() -> int:
         for file in files:
             relative_path = os.path.join(root, file)
             if '.' not in file:
-                print(f'Error:\n  This file has no extension: consider added ".md" to its name:\n  {relative_path} ')
+                print(f'Error:\n  This file has no extension: consider adding ".md" to its name:\n  {relative_path} ')
                 error_count += 1
     return error_count
 
