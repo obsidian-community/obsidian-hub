@@ -63,9 +63,5 @@ jobs:
           git add .
           git commit -m "Update MOC files" -a  || echo "nothing to commit"
 
-      - name: Push changes
-        run: |
-          remote="https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git"
-          branch="${GITHUB_REF:11}"
-          git push "${remote}" ${branch} || echo "nothing to push"
-        shell: bash
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
