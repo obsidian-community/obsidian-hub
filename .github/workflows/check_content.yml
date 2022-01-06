@@ -33,4 +33,4 @@ jobs:
       - name: Check the content of the hub
         run: |
           cd .github/scripts
-          python3 ./check_content.yml
+          python3 ./check_content.py
