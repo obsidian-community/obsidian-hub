@@ -16,12 +16,17 @@ def check_content() -> int:
         files[:] = [f for f in files if f not in FILES_TO_EXCLUDE]
         for file in files:
             relative_path = os.path.join(root, file)
-            error = 0
-            if '.' not in file:
-                print(f'Error:\n  This file has no extension: consider adding ".md" to its name:\n  {relative_path} ')
-                error = 1
+            error = check_file(relative_path, file)
             error_count += error
     return error_count
+
+
+def check_file(relative_path: str, file: str) -> int:
+    error = 0
+    if '.' not in file:
+        print(f'Error:\n  This file has no extension: consider adding ".md" to its name:\n  {relative_path} ')
+        error = 1
+    return error
 
 
 def main() -> int:
