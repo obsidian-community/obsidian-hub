@@ -10,7 +10,6 @@ publish: true
 
 # Josh Plunkett
 
-%% - GitHub: [agathauy](https://github.com/agathauy/) ^github %%
 
 - Discord: `@sklore#8618` ^discord
 
