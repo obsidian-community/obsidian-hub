@@ -10,7 +10,7 @@ Link: [YouTube](https://youtube.com/playlist?list=PLV5XWfKkFpk7MJTKv5YdSSpT9b-vL
 
 Hosted by [[Josh Plunkett|Joshua Plunkett]].
 
-Looking for the perfect TTRPG Campaign Manager? Looks no further.
+Looking for the perfect TTRPG Campaign Manager? Look no further.
 
 Obsidian.md is free and has a whole heap of plugins that are designed to turn this simple note taking tool into a Campaign Manager that offers the same functionality as other common tools such as Realm Works, World Anvil, etc. 
 
