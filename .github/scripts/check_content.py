@@ -40,11 +40,15 @@ def check_file(relative_path: str, file: str) -> int:
     return errors
 
 
-def main() -> int:
+def get_root_of_vault() -> str:
     dir_path = os.path.dirname(os.path.realpath(__file__))
     up1 = os.path.dirname(dir_path)
     up2 = os.path.dirname(up1)
-    os.chdir(up2)
+    return up2
+
+
+def main() -> int:
+    os.chdir(get_root_of_vault())
     return check_content()
 
 
