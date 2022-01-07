@@ -9,6 +9,8 @@ tags:
 
 #placeholder/description
 
+- [@Rainbell's Obsidian Homepage](https://github.com/Rainbell129/Obsidian-Homepage)
+
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
