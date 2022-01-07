@@ -30,14 +30,14 @@ def check_file(relative_path: str, file: str) -> int:
     :param file: The name of the file, without any directory
     :return: The number of errors found in the given file 
     """
-    error = 0
+    errors = 0
 
     if '.' not in file:
         print(f'Error:\n  This file has no extension: consider adding ".md" to its name:\n  {relative_path} ')
-        error += 1
+        errors += 1
 
     # Other checks may be added here in future
-    return error
+    return errors
 
 
 def main() -> int:
