@@ -151,7 +151,7 @@ If you found a broken link, a typo or a mistake [please open an issue](https://g
 
 
 ## Further Questions?
-Got some question left? Check out the [[FAQ]] or drop by in the `#Obsidian-Hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
+Got some question left? Check out the [[FAQ]] or drop by in the `#hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
 
 Please [open a new discussion at GitHub](https://github.com/obsidian-community/obsidian-hub/discussions/new) if you have suggestions or ideas for this vault.
 
