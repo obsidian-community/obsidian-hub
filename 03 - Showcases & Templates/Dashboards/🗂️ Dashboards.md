@@ -9,7 +9,7 @@ tags:
 
 #placeholder/description
 
-[@Rainbell's Obsidian Homepage](https://github.com/Rainbell129/Obsidian-Homepage)
+- [@Rainbell's Obsidian Homepage](https://github.com/Rainbell129/Obsidian-Homepage)
 
 ## MOC
 
