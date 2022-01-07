@@ -8,11 +8,7 @@ publish: true
 
 # 🗂️ 03 Contributor Notes
 
-#placeholder/description 
-
-Welcome to the obsidian-hub wiki!
-
-See the list of "Pages" on the right hand side or below.
+The notes in this folder are a kind of behind-the-scenes place to keep notes about managing this vault.
 
 ## MOC
 
