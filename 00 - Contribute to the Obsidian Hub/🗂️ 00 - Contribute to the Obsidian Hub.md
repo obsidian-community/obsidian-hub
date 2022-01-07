@@ -16,6 +16,8 @@ In this folder, you can find all the resources you need to make contributions to
 
 Got some question left? Check out the [[FAQ]] or drop by in the `#Obsidian-Hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
 
+Want to know more about behind-the-scenes tending to this Community Vault? Check out the [[🗂️ 03 Contributor Notes|Contributor Notes]].
+
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
