@@ -1,3 +1,12 @@
+---
+aliases:
+- 
+tags:
+- 
+---
+
+# Content: People
+
 ## Ideas to reduce the overhead of these pages
 
 *There is some overlap between these ideas...*

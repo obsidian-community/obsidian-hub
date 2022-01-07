@@ -1,3 +1,12 @@
+---
+aliases:
+- 
+tags:
+- 
+---
+
+# GitHub Actions for the Hub
+
 ## Potentially automatable
 
 There are some maintenance steps that are currently done manually, and that could be run automatically, either on a cron schedule, or upon changes to the main branch.

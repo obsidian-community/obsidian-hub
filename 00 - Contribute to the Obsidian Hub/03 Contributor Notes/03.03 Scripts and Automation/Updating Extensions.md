@@ -1,3 +1,12 @@
+---
+aliases:
+- 
+tags:
+- 
+---
+
+# Updating Extensions
+
 The script `update-releases.py` reads current data from the Obsidian Releases repo, and generates outputs for any newly-added plugins or themes.
 
 ## Running the script
