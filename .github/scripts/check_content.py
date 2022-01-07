@@ -23,9 +23,12 @@ def check_content() -> int:
 
 def check_file(relative_path: str, file: str) -> int:
     error = 0
+
     if '.' not in file:
         print(f'Error:\n  This file has no extension: consider adding ".md" to its name:\n  {relative_path} ')
-        error = 1
+        error += 1
+
+    # Other checks may be added here in future
     return error
 
 
