@@ -17,9 +17,9 @@ Obsidian.md is free and has a whole heap of plugins that are designed to turn th
 ## Patreon - Tutorial and Resource List
 Patreon is where I share my content. If you are looking for video tutorials or the resources I talk about in my videos (such as the [Plugin List](https://www.patreon.com/posts/59873493) or [Templates](https://www.patreon.com/posts/59509023)); then this is where I post them. 
 
-![[TTRPG _Campaign _Mgt _- _Where _To _Begin.png|300]]
+![[TTRPG_Campaign_Mgt_-_Where_To_Begin.png|300]]
 [TTRPG Campaign Mgt - The Playlist](https://www.patreon.com/JPlunkett)
 
 ## Facebook Obsidian TTRPG User Group
 There is an active and growing community of Obsidian users on Facebook who are focussed on using Obsidian for their TTRPG needs! [Join Us](https://www.facebook.com/groups/obsidianttrpgusers)
-![[TTRPG _Campaign _Mgt _- _FacebookTTRPGUserGroup.png|300]]
+![[TTRPG_Campaign_Mgt_-_FacebookTTRPGUserGroup.png|300]]
