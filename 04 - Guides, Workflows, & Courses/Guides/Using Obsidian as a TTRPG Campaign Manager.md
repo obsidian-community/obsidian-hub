@@ -1,9 +1,6 @@
 ---
 aliases: 
-- Josh Plunkett
-- Obsidian TTRPG
-- D&D 5e
-- Pathfinder
+- 
 tags:
 - seedling
 publish: true
