@@ -1,6 +1,15 @@
+---
+aliases:
+- 
+tags:
+- 
+---
+
+# Content: Lifecycle of Extensions
+
 ## Purpose
 
-Try to capture the stages that community extensions (Plugins and Themes) go though.
+Try to capture the stages that community extensions (Plugins and Themes) go through.
 
 ## Questions on the following...
 

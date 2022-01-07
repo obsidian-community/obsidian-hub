@@ -1,4 +1,13 @@
-# Change themes template to simplify manual intervention, when running `update-releases.py`
+---
+aliases:
+- 
+tags:
+- 
+---
+
+# Content: Themes
+
+## Change themes template to simplify manual intervention, when running `update-releases.py`
 
 
 
