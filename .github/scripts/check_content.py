@@ -16,12 +16,20 @@ def check_content() -> int:
         files[:] = [f for f in files if f not in FILES_TO_EXCLUDE]
         for file in files:
             relative_path = os.path.join(root, file)
-            error = check_file(relative_path, file)
-            error_count += error
+            error_count += check_file(relative_path, file)
     return error_count
 
 
 def check_file(relative_path: str, file: str) -> int:
+    """
+    Check the given file for any issues.
+
+    Writes error messages to the console, and returns the number of errors found
+
+    :param relative_path: The path of the file, including the directory, relative to the vault's root
+    :param file: The name of the file, without any directory
+    :return: The number of errors found in the given file 
+    """
     error = 0
 
     if '.' not in file:
