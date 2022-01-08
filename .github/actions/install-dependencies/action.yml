@@ -7,3 +7,4 @@ runs:
         run: |
           cd .github/scripts
           pip3 install --upgrade --no-cache-dir -r requirements.txt
+        shell: bash
