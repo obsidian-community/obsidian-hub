@@ -2,7 +2,7 @@ import os.path
 from os import walk
 
 
-def check_content() -> int:
+def check_content_of_working_directory() -> int:
     """
     Walks through the filetree rooted at the current working directory.
     For each file that it finds, it validates the file
@@ -52,7 +52,7 @@ def get_root_of_vault() -> str:
 
 def main() -> int:
     os.chdir(get_root_of_vault())
-    return check_content()
+    return check_content_of_working_directory()
 
 
 if __name__ == "__main__":
