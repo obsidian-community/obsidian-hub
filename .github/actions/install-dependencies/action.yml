@@ -1,0 +1,9 @@
+name: "Install Python Dependencies"
+description: "Install the requirements"
+runs:
+  using: "composite"
+  steps:
+      - name: Install dependencies
+        run: |
+          cd .github/scripts
+          pip3 install --upgrade --no-cache-dir -r requirements.txt

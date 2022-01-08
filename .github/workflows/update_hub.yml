@@ -18,11 +18,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: ./.github/actions/setup-python
-
-      - name: Install dependencies
-        run: |
-          cd .github/scripts
-          pip3 install --upgrade --no-cache-dir -r requirements.txt
+      - uses: ./.github/actions/install-dependencies
 
       - name: Set up git config
         run: |
