@@ -19,4 +19,4 @@ jobs:
       - name: Run Python tests
         run: |
           cd .github/scripts
-          python3 tests.py
+          python3 ./tests.py
