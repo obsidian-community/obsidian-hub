@@ -12,9 +12,6 @@ on:
   schedule:
     - cron: '17 0 * * *'  # <https://crontab.guru/#17_0_*_*_*> - “At 00:17.”
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 jobs:
   update_hub_content:
     runs-on: ubuntu-latest
