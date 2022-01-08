@@ -47,7 +47,7 @@ In real CSS, that declaration looks like:
 
 CSS is interpreted sequentially. The last declaration rules over any that came before it. So, if you were to make the following declarations:
 
-```
+```css
 .markdown-source-view {
 	color: blue;
 }
@@ -60,7 +60,7 @@ CSS is interpreted sequentially. The last declaration rules over any that came b
 The text colour would be black, not blue. I.e., the app would layer what comes last in the document over whatever came before it.
 
 However, if you want to insist, you can write `!important`, like so:
-```
+```css
 .markdown-source-view {
 	color: blue !important;
 }
