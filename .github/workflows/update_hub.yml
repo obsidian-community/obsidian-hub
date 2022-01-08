@@ -1,11 +1,16 @@
 name: update_hub
 
 on:
-  # TODO Later, change to only running on main branch 
+  # TODO Later, change to only running on main branch, and likely only via a cron job
   push:
     branches: [ '*' ]
   pull_request:
     branches: [ '*' ]
+
+  # Docs for schedule: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#schedule
+  # This only runs on the default/protected branch
+  schedule:
+    - cron: '17 0 * * *'  # <https://crontab.guru/#17_0_*_*_*> - “At 00:17.”
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
