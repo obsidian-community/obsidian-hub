@@ -50,11 +50,11 @@ def get_root_of_vault() -> str:
     return up2
 
 
-def main() -> int:
+def check_content_of_vault() -> int:
     os.chdir(get_root_of_vault())
     return check_content_of_working_directory()
 
 
 if __name__ == "__main__":
-    result = main()
+    result = check_content_of_vault()
     exit(result)
