@@ -28,7 +28,7 @@ def check_file(relative_path: str, file: str) -> int:
 
     :param relative_path: The path of the file, including the directory, relative to the vault's root
     :param file: The name of the file, without any directory
-    :return: The number of errors found in the given file 
+    :return: The number of errors found in the given file
     """
     errors = 0
 
