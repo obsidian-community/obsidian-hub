@@ -1,6 +1,7 @@
 import os.path
 from os import walk
 
+from make_mocs import MocFileAndDirectoryFilter
 
 def check_content_of_working_directory() -> int:
     """
@@ -8,11 +9,11 @@ def check_content_of_working_directory() -> int:
     For each file that it finds, it validates the file
     """
     error_count = 0
-    DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', 'DO NOT COMMIT']
     FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore']
 
+    filter = MocFileAndDirectoryFilter()
     for root, dirs, files in walk('.', topdown=True):
-        dirs[:] = [d for d in dirs if d not in DIRECTORIES_TO_EXCLUDE]
+        filter.filter_directories(dirs)
         files[:] = [f for f in files if f not in FILES_TO_EXCLUDE]
         for file in files:
             relative_path = os.path.join(root, file)
