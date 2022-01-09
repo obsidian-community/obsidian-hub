@@ -9,12 +9,9 @@ def check_content_of_working_directory() -> int:
     For each file that it finds, it validates the file
     """
     error_count = 0
-    FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore']
-
     filter = MocFileAndDirectoryFilter()
     for root, dirs, files in walk('.', topdown=True):
         filter.filter_directories(dirs)
-        files[:] = [f for f in files if f not in FILES_TO_EXCLUDE]
         for file in files:
             relative_path = os.path.join(root, file)
             error_count += check_file(relative_path, file)
@@ -25,12 +22,18 @@ def check_file(relative_path: str, file: str) -> int:
     """
     Check the given file for any issues.
 
-    Writes error messages to the console, and returns the number of errors found
+    Writes error messages to the console, and returns the number of errors found.
+
+    'dot' files are ignored.
 
     :param relative_path: The path of the file, including the directory, relative to the vault's root
     :param file: The name of the file, without any directory
     :return: The number of errors found in the given file
     """
+    # Ignore 'dot' files, such as '.gitignore'
+    if file[0] == '.':
+        return 0
+
     errors = 0
 
     if '.' not in file:
