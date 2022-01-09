@@ -1,4 +1,6 @@
+import argparse
 import os.path
+import sys
 from os import walk
 
 from make_mocs import MocFileAndDirectoryFilter
@@ -59,6 +61,15 @@ def check_content_of_vault() -> int:
     return check_content_of_working_directory()
 
 
+def main(argv=sys.argv[1:]):
+    parser = argparse.ArgumentParser(
+        description="Check for issues with the content of the Hub vault (such as errors in file names)."
+    )
+    args = parser.parse_args(argv)
+
+    return check_content_of_vault()
+
+
 if __name__ == "__main__":
-    result = check_content_of_vault()
+    result = main()
     exit(result)
