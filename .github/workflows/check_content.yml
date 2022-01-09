@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: ./.github/actions/setup-python
+      - uses: ./.github/actions/install-dependencies
 
       - name: Check the content of the hub
         run: |
