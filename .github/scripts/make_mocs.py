@@ -176,7 +176,7 @@ class MocFileAndDirectoryFilter:
 
     def __init__(self):
         self.DIRECTORIES_TO_EXCLUDE = ['venv', 'DO NOT COMMIT']  # Directories beginning '.' are also excluded
-        self.FILES_TO_EXCLUDE = ['logo.svg', 'publish.css']
+        self.FILES_TO_EXCLUDE = ['logo.svg', 'publish.css']  # MOC files, and files beginning '.' are also excluded
 
     def include_directory_in_moc(self, directory):
         if directory[0] == '.':
