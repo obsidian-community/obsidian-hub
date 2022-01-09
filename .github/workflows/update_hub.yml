@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [ '*' ]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Once on the default branch, this workflow will only ever be triggered manuall:
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
