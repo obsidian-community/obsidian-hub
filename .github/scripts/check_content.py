@@ -15,9 +15,9 @@ def check_content_of_working_directory() -> int:
     For each file that it finds, it validates the file
     """
     error_count = 0
-    filter = MocFileAndDirectoryFilter()
+    moc_filter = MocFileAndDirectoryFilter()
     for root, dirs, files in walk('.', topdown=True):
-        filter.filter_directories(dirs)
+        moc_filter.filter_directories(dirs)
         for file in files:
             relative_path = os.path.join(root, file)
             error_count += check_file(relative_path, file)
