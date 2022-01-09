@@ -1,13 +1,8 @@
 name: update_hub
 
 on:
-  # TODO Later, change to only running on main branch, and likely only via a cron job
-  push:
-    branches: [ '*' ]
-  pull_request:
-    branches: [ '*' ]
-
-  # Once on the default branch, this workflow will only ever be triggered manually:
+  # This workflow is only ever be triggered manually.
+  # It only runs on the main branch.
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
