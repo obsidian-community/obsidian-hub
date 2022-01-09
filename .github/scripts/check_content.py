@@ -3,7 +3,11 @@ import os.path
 import sys
 from os import walk
 
+# This code is for validating the **Content** of the Hub, such as file names,
+# as opposed to validating the Python code and other infrastructure.
+
 from make_mocs import MocFileAndDirectoryFilter
+
 
 def check_content_of_working_directory() -> int:
     """
