@@ -9,6 +9,8 @@ tags:
 
 #placeholder/description
 
+[Blue topaz themes example vault for Obsidian](https://github.com/cumany/Blue-topaz-examples)
+
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
