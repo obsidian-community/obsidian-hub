@@ -21,8 +21,6 @@ publish: true
 -  [[06 - Inbox/🗂️ 06 - Inbox|🗂️ 06 - Inbox]]
 -  [[00 - Start here|00 - Start here]]
 -  [[CONTRIBUTING|CONTRIBUTING]]
--  [[logo.svg|logo.svg]]
--  [[publish.css|publish.css]]
 -  [[README|README]]
 %% Hub MOCs: Don’t edit above  %%
 

@@ -50,6 +50,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Discordian|Discordian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula for Obsidian|Dracula for Obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula Official|Dracula Official]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula Slim|Dracula Slim]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ebullientworks|Ebullientworks]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Emerald|Emerald]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Everforest|Everforest]]
