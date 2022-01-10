@@ -1,0 +1,60 @@
+name: update_hub
+
+on:
+  # This workflow is only ever be triggered manually.
+  # It only runs on the main branch.
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+
+jobs:
+  update_hub_content:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: ./.github/actions/setup-python
+      - uses: ./.github/actions/install-dependencies
+
+      - name: Set up git config
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+        shell: bash
+
+      - name: Update theme download counts
+        run: |
+          cd .github/scripts
+          python3 ./update-releases.py --update-download-counts
+          git commit -m "Update theme download counts" -a  || echo "nothing to commit"
+
+      - name: Add new plugins, themes and authors
+        run: |
+          cd .github/scripts
+          python3 ./update-releases.py --all
+          cd ../..
+          git add .
+          git commit -m "Add new plugins, themes and authors" -a  || echo "nothing to commit"
+
+      - name: Update MOC files
+        run: |
+          cd .github/scripts
+          python3 ./update-mocs.py
+          cd ../..
+          git add .
+          git commit -m "Update MOC files" -a  || echo "nothing to commit"
+
+      # Reference: https://github.com/marketplace/actions/create-pull-request
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Scripted update of Hub content
+          labels: |
+            scripted update
+
+      - name: Show Pull Request
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
