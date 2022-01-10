@@ -9,7 +9,8 @@ tags:
 
 #placeholder/description
 
-## MOC
+
+## Vaults with Descriptions in the Hub
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[03 - Showcases & Templates/Vaults/Life Disciplines Projects|Life Disciplines Projects]]
@@ -22,6 +23,9 @@ tags:
 -  [[03 - Showcases & Templates/Vaults/SlRvb's Journaling Setup|SlRvb's Journaling Setup]]
 -  [[03 - Showcases & Templates/Vaults/SlRvb's MediaDB Setup|SlRvb's MediaDB Setup]]
 %% Hub MOCs: Don’t edit above  %%
+
+## Vaults with External Descriptions
+- [Blue topaz themes example vault for Obsidian](https://github.com/cumany/Blue-topaz-examples)
 
 
 ## Contributing
