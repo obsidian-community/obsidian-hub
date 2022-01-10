@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [avr](https://github.com/avr/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+- Website: <https://github.com/avr> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
