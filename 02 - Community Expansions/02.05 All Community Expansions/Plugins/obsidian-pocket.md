@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-pocket
 aliases:
-- Pocket integration
+- Pocket
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Pocket integration
+# Pocket
 
 Plugin ID: `obsidian-pocket`
 Links: [GitHub repository](https://github.com/nybbles/obsidian-pocket) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pocket)

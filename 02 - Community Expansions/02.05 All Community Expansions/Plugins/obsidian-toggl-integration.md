@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/mcndt/obsidian-toggl-integration) 
 Developed by: [[mcndt]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-This plugin provides features for starting, stopping, and managing timers using Toggl Track.
+Manage timers and generate time reports using Toggl Track without leaving Obsidian.
 
 %% ----- Do not edit anything above this line ----- %% 
 
