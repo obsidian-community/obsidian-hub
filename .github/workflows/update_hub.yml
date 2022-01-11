@@ -26,13 +26,13 @@ jobs:
       - name: Update theme download counts
         run: |
           cd .github/scripts
-          python3 ./update-releases.py --update-download-counts
+          python3 ./update_releases.py --update-download-counts
           git commit -m "Update theme download counts" -a  || echo "nothing to commit"
 
       - name: Add new plugins, themes and authors
         run: |
           cd .github/scripts
-          python3 ./update-releases.py --all
+          python3 ./update_releases.py --all
           cd ../..
           git add .
           git commit -m "Add new plugins, themes and authors" -a  || echo "nothing to commit"
@@ -40,7 +40,7 @@ jobs:
       - name: Update MOC files
         run: |
           cd .github/scripts
-          python3 ./update-mocs.py
+          python3 ./update_mocs.py
           cd ../..
           git add .
           git commit -m "Update MOC files" -a  || echo "nothing to commit"
