@@ -19,6 +19,7 @@ I am a researcher in Sociology who also codes some small utilities in his free t
 ### Plugins
 - [[obsidian-extra-md-commands|Extra Markdown Commands]]
 - [[obsidian-theme-design-utilities|Theme Design Utilities]]
+- [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]]
 
 ### Themes
 - [[Shimmering Focus]]

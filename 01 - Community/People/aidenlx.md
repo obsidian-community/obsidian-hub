@@ -28,6 +28,7 @@ publish: true
 - [[alx-folder-note|AidenLx's Folder Note]]
 - [[folder-note-core|Folder Note Core]]
 - [[marginnote-companion|MarginNote Companion]]
+- [[obsidian-icon-shortcodes|Icon Shortcodes]]
 
 %% End Hub: Released contributions %%
 
