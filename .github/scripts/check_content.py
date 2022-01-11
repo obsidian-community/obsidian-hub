@@ -7,6 +7,7 @@ from os import walk
 # as opposed to validating the Python code and other infrastructure.
 
 from make_mocs import MocFileAndDirectoryFilter
+from utils import get_root_of_vault
 
 
 def check_content_of_working_directory() -> int:
@@ -48,16 +49,6 @@ def check_file(relative_path: str, file: str) -> int:
 
     # Other checks may be added here in future
     return errors
-
-
-def get_root_of_vault() -> str:
-    """
-    Helper method that returns the root directory of the vault.
-    """
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    up1 = os.path.dirname(dir_path)
-    up2 = os.path.dirname(up1)
-    return up2
 
 
 def check_content_of_vault() -> int:

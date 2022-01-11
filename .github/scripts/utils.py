@@ -200,3 +200,13 @@ def print_progress_bar(
     # Print New Line on Complete
     if iteration == total:
         print()
+
+
+def get_root_of_vault() -> str:
+    """
+    Helper method that returns the root directory of the vault.
+    """
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    up1 = os.path.dirname(dir_path)
+    up2 = os.path.dirname(up1)
+    return up2
