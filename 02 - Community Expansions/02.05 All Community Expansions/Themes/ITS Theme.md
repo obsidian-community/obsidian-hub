@@ -35,17 +35,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
-- Features of **ITS Theme** available as snippets:
-  - [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
-    Pre-made alternate color schemes are available with the css snippet.
-  - [[Image Adjustments]]
-  - [[Embed Adjustments]]
-  - [[Kanban (SlRvb)|Kanban]]
-  - [[Asides (SlRvb)|Asides]]
-  - [[Alternate Checkboxes (SlRvb)|Alternate Checkboxes]]
-  - [[Folder Styles (SlRvb)|Folder Styles]]
-  - [[Alternate Admonitions (SlRvb)]]
-  - [[Center Tables]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
@@ -86,6 +75,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Editor Strikethrough Color
 - **Specific View Heading Changes**: Change Headings in preview/edit mode
     - Specific Heading Adjustments: Toggle on to edit headings individually.
+    - Specific Heading Notes Only: Toggle on to only affect notes. (Disable Adjustments toggle)
     - **Heading Fonts**: 
         - Heading 1 Font Preview
         - Heading 1 Font Editor
@@ -184,36 +174,41 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Center Headings
     - Center Heading With Lines: Center headings and have lines appear at either side of it.
     - Illusion Theme Inspired Headings
+    - Header Color Override: Header color always applied over other markdown in the header
 - **Lists**: 
-    - Colorful Task Text: Add color to the text of the task.
-    - Colorful Task Backgrounds: Add color to the background of the task.
-    - Normal Task Text: Reapply regular text color to the text of the task.
-    - Restore Crossed Checkbox
     - Default Bullet Disc Shape
     - Bullet Shape: Add quotes around your new bullet. For example "~"
     - 1 Color Bullets & Lines: Bullet and Line colors no longer alternates. Bullet color is set to Accent 2.
     - Original Bullet Lines: Lines appear under bullet, not beside it. Won't connect to bullet if it's longer than 1 line.
     - Line Size
+    - Murf's Rainbow Line Spacing
+    - Disable Murf's Rainbow Lines
     - Live Preview Alternate Indent Style: Alternate style to differentiate lists sublevels in edit mode on cm6.
-    - **Checkbox Strike Specific**: 
-        - [x] Regular
-        - [X] Checked
-        - [-] Dropped
-        - [>] Forward
-        - [D] Defer
-        - [?] Question
-        - [/] Half
-        - [+] Add
-        - [R] Research
-        - [!] Important
-        - [i] Idea
-        - [B] Brainstorm
-        - [P] Pro
-        - [C] Con
-        - [Q] Quote
-        - [N] Note
-        - [b] Bookmark
-        - [I] info
+    - Fix Double Bullet Issue: Bandaid solution that doesn't look good but fixes the double bullet LP issue.
+    - **Checkboxes**: 
+        - Colorful Task Text: Add color to the text of the task.
+        - Colorful Task Backgrounds: Add color to the background of the task.
+        - Normal Task Text: Reapply regular text color to the text of the task.
+        - Restore Checkbox Strike
+        - **Checkbox Strike Specific**: 
+            - [x] Regular
+            - [X] Checked
+            - [-] Dropped
+            - [>] Forward
+            - [D] Defer
+            - [?] Question
+            - [/] Half
+            - [+] Add
+            - [R] Research
+            - [!] Important
+            - [i] Idea
+            - [B] Brainstorm
+            - [P] Pro
+            - [C] Con
+            - [Q] Quote
+            - [N] Note
+            - [b] Bookmark
+            - [I] info
     - **Colorful Lists**: 
         - Colorful Bullet Line Color: Toggle on to use colorful bullet lines
         - Colorful Bullet Color: Toggle on to use colorful bullets

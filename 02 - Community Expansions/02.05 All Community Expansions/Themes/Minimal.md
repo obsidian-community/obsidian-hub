@@ -51,15 +51,14 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Features**: 
 - Fancy cursor: Editor cursor uses your accent color
+- Text labels for primary navigation: Navigation in left sidebar uses text labels. For non-English users this feature requires an additional snippet available on Github.
+- Full file names in sidebar: Do not trim file names in sidebar
 - Default icons: Use default icons instead of Minimal set
 - Wide status bar: Use full width status bar
 - Focus mode: Hide UI when a single file is open. UI is accessible via hover.
 - Hide borders: Removes borders between sidebar elements
 - Border below pane title: Show border below pane title (if borders are not hidden)
-- Full file names in sidebar: Turn off trimming on files in sidebar
 - Folding offset: Recommended if you use folding headings and indents
-- Relationship lines in Preview: Show vertical lines that connect related bullet points and task lists
-- Relationship lines in Editor: Show vertical lines that connect related bullet points and task lists
 - Underline internal links: Show underlines on internal links
 - Underline external links: Show underlines on external links
 - Maximize media: Small images and videos fill the width of the line
@@ -70,6 +69,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Image width: Default width for images and image grids
 - Table width: Default width for tables and Dataview elements
 - Iframe width: Default width for iframe elements
+
+**Tables**: 
+- Trim Dataview columns: Disables word wrapping in table cells, and trims long text
+- Dataview maximum column width: Maximum width for Dataview columns, accepts any CSS unit
 
 **Typography**: 
 - Body font size: Font size in px of the main text
@@ -90,30 +93,39 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H1 font size: Accepts any CSS font-size value
     - H1 font weight: Accepts numbers representing the CSS font-weight
     - H1 font color
+    - H1 font variant
 - **Level 2 Headings**: 
     - H2 font size: Accepts any CSS font-size value
     - H2 font weight: Accepts numbers representing the CSS font-weight
     - H2 font color
+    - H2 font variant
 - **Level 3 Headings**: 
     - H3 font size: Accepts any CSS font-size value
     - H3 font weight: Accepts numbers representing the CSS font-weight
     - H3 font color
+    - H3 font variant
 - **Level 4 Headings**: 
     - H4 font size: Accepts any CSS font-size value
     - H4 font weight: Accepts numbers representing the CSS font-weight
     - H4 font color
+    - H4 font variant
 - **Level 5 Headings**: 
     - H5 font size: Accepts any CSS font-size value
     - H5 font weight: Accepts numbers representing the CSS font-weight
     - H5 font color
+    - H5 font variant
 - **Level 6 Headings**: 
     - H6 font size: Accepts any CSS font-size value
     - H6 font weight: Accepts numbers representing the CSS font-weight
     - H6 font color
+    - H6 font variant
 
 **Advanced**: 
-- Code color
 - Cursor style: The cursor style for UI elements
+- Strike completed tasks: Use line through greyed text for completed tasks
+- Bold text color
+- Italic text color
+- Code text color
 - Small font size: Font size in px of the main text
 - Tiny font size: Font size in px of the main text
 
@@ -141,11 +153,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#Word count|Word count]]
 
 **Community plugins**:
+- [[buttons|Buttons]]
 - [[dataview|Dataview]]
 - [[calendar|Calendar]]
 - [[obsidian-checklist-plugin|Checklist]]
 - [[obsidian-codemirror-options|CodeMirror Options]]
 - [[obsidian-dictionary-plugin|Dictionary]]
+- [[obsidian-embedded-note-titles|Embedded Note Titles]]
 - [[obsidian-excalidraw-plugin|Excalidraw]]
 - [[obsidian-git|Obsidian Git]]
 - [[obsidian-hider|Hider]]
@@ -154,6 +168,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[obsidian-outliner|Outliner]]
 - [[obsidian-system-dark-mode|System Dark Mode]]
 - [[obsidian-style-settings|Style Settings]]
+- [[quickadd|QuickAdd]]
 - [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

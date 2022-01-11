@@ -39,11 +39,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**1. Global customization (Logo OR title, Accent color, navigation folder style, icon style)**: 
-- Accent color
-- Colorful background for pages
-- Icons: Activate minimal icons
-- Live preview theme style and WYSIWYG in edit mode (Ozan's Image plugin needed to show images and transclusion)
+**1. Global customization (Accent color, Logo OR title, navigation folder style, icon style...)**: 
+- Activate live preview and edit mode theme customization
+- **Global style (accent color, backgrounds, icons, title bar style)**: 
+    - Accent color
+    - Colorful background for pages
+    - Icons: Activate minimal icons
+    - Title bar style of main page
 - **Choose a logo OR a title for your obsidian**: 
     - Your obsidian title: Put the title in quotation marks (see default parameter)
     - Color accent for your obsidian title: Display the title with the bold and italic accent color (menu > Make pages pop)
@@ -70,13 +72,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Writing focus: Hightligh the paragraph you are writing, faint the others (edit mode)
 - Opacity of the fainted text in writing focus mode: Change the Opacity of the fainted text
 
-**3. Make pages pop (bold and italic accentuation, image, blockquote, outline)**: 
+**3. Make pages pop (bold and italic accentuation, image, blockquote, checkboxes, external link, outline)**: 
 - **Customize bold and italic**: 
     - Bold and italic accentuation: Make bold and italic pop with an other color
     - Bold and italic hue: Change the hue of the accent color (step -> 45 degrees)
     - Use this color to display tag
-- **Customize text style**: 
-    - Capitalize first letter of a praragraph
 - **Customize images**: 
     - Border radius for images
     - To make rounded images
@@ -84,12 +84,24 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Shadow for images
     - Black and white for images
     - Display a sequence of images as grid
-    - Height of grid images: Choose the height of grid images
 - **Customize blockquote**: 
     - Display background and border for quote
     - Quotation mark for quote
     - Serif font for quote
     - Center text for quote
+    - Brackets for quote (works in combination with text serif, not the others)
+- **Customize checkbox style**: 
+    - Choose the style of checkboxes: Choose diffent styles for the left and right sidebars
+- **External link style**: 
+    - Display icon for external links
+    - External link underline width
+    - Text color of external links
+    - Border bottom color
+- **Internal link style**: 
+    - Display icon for internal links
+    - Internal link underline width
+    - Text color of internal links
+    - Border bottom color
 - **Outlines for lists**: 
     - Outline for list: Activate outlines for list
 
@@ -99,7 +111,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Paragraph offset: Change your paragraph offset
 
 **5. Fonts (Preview mode, edit mode, monospace, titles)**: 
-- **Font pre-installed with the theme**: IA Writer Mono V, Ia Writer Quattro V and Pre-installed google fonts - Cabin, Heebo, Hind, IBM Plex Sans, Josefin Sans, Jost, Lato, Libre Baskerville, Lora, Montserrat, Mukta, Mulish, Noto Sans, Nunito, Nunito Sans, Open Sans, Outfit, Oxygen, Readex Pro, Roboto, "Source Sans 3", Source Sans Pro, Work Sans
+- **Font pre-installed with the theme**: IA Writer Mono V, Ia Writer Quattro V and Pre-installed google fonts - Anton, Avenir Next Cyr, Cabin, Dosis, Fjalla one, Heebo, Hind, IBM Plex Sans, Josefin Sans, Jost, Kalam, Lato, Libre Baskerville, Lora, Metropolis, Montserrat, Mukta, Mulish, Noto Sans, Nunito, Nunito Sans, Open Sans, Oswald, Outfit, Oxygen, Poppins, Quicksand, Readex Pro, Roboto, "Source Sans 3", Source Sans Pro, Work Sans, Zen kaku Gothic new
 - **Choose your fonts**: 
     - Text font: Font used for paragraph in preview mode
     - Editor font: Font used for paragraph in edit mode
@@ -127,31 +139,55 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H1 font weight: Accepts numbers representing the CSS font-weight
     - H1 font style: Accepts normal or italic representing the CSS font-style
     - H1 font color
+    - Title text align
 - **Level 2 Headings**: 
     - H2 font size: Accepts any CSS font-size value
     - H2 font weight: Accepts numbers representing the CSS font-weight
     - H2 font style: Accepts normal or italic representing the CSS font-style
     - H2 font color
+    - Title text align
 - **Level 3 Headings**: 
     - H3 font size: Accepts any CSS font-size value
     - H3 font weight: Accepts numbers representing the CSS font-weight
     - H3 font style: Accepts normal or italic representing the CSS font-style
     - H3 font color
+    - Title text align
 - **Level 4 Headings**: 
     - H4 font size: Accepts any CSS font-size value
     - H4 font weight: Accepts numbers representing the CSS font-weight
     - H4 font style: Accepts normal or italic representing the CSS font-style
     - H4 font color
+    - Title text align
 - **Level 5 Headings**: 
     - H5 font size: Accepts any CSS font-size value
     - H5 font weight: Accepts numbers representing the CSS font-weight
     - H5 font style: Accepts normal or italic representing the CSS font-style
     - H5 font color
+    - Title text align
 - **Level 6 Headings**: 
     - H6 font size: Accepts any CSS font-size value
     - H6 font weight: Accepts numbers representing the CSS font-weight
     - H6 font style: Accepts normal or italic representing the CSS font-style
     - H6 font color
+    - Title text align
 
-**Credits**: Made by @Thiews to be shared. Support my work at buymeacoffee.com/thiews
+**8. More options (‼️ Overwites previous option choices and can break color harmony)**: If you really need it !
+- Activate more options
+- Main panel color
+- Sidebar color
+- Text color
+- Navigation folder text color
+- Navigation file text color
+- Active navigation file text color
+- Active navigation file background color
+- Bold and italic color (desactivate bold and italic accent in Make your page pop)
+- Hx color (for title)
+- Internal link color
+- External link color
+- Tag color
+- Tag background color
+
+**→ Presets**: Available at https://github.com/Thiews/Obsidian-Harmonic > theme-presets
+
+**⭐️ Credits**: Made by @Thiews to be shared. Support my work at buymeacoffee.com/thiews
 

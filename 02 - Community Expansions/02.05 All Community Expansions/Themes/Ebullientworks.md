@@ -41,6 +41,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Show external links in edit mode: If true, external links (or the content of markdown links) will be shown in edit mode. External links are hidden by default.
 - Suppress or Remove this theme's checkbox styles: Set this to true if you are going to use other themes to manage the style for your lists and checkboxes.
 - Float front-matter in a box to the right: If true, front-matter in preview mode will be collapsed in a top-right container.
+- Hide collapse indicators unless hovered or active: If true, hide collapse indicators in all three modes unless they are hovered over or the line is active.
 - Prevent table content from extending beyond the width of the page: If true, tables will have a maximum width set. Cell content will be wrapped (mid-word if necessary).
 - Headings: Font for text headings (h1 to h6)
 - Tags: Font for displaying inline
@@ -48,4 +49,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Monospace
 - Primary accent color: Choose the primary accent color. You should define a snippet if you select primary-accent-custom. See the Theme's README.
 - Secondary accent color: Choose the secondary accent color. You should define a snippet if you select secondary-accent-custom. See the Theme's README.
+- Tag brightness - dark mode: Select tag brightness/contrast level for dark mode
+- Tag brightness - light mode: Select tag brightness/contrast level for light mode
 

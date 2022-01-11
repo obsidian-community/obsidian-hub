@@ -40,20 +40,19 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ## Customization Options (Style Settings Plugin) 
 
 **Colors**: 
-- Light mode palette: Background color palette for light mode
-- Dark mode palette: Background color palette for dark mode
+- Light mode color scheme: Background color palette for light mode
+- Dark mode color scheme: Background color palette for dark mode
 - Use Accent color as Active Line Highlight: Replaces the grey with the accent color for active line highlighting.
 - **Accent Colors**: 
     - Light Mode Accent Color
     - Dark Mode Accent Color
     - Text accent hover color: Color that displays when hovering elements that have the accent color by default (e.g. footnote numbers).
+    - Checkbox Color: The color of the regular "- [x]" checkbox
+    - Text Selection Color
 - **Highlight Colors**: Set the colors for highlights and highlighted text!
     - Highlight 1: The color of the highlight.
-    - Highlight 1 Text: The color of highlighted text when hovered.
     - Highlight 2: The color of the highlight.
-    - Highlight 2 Text: The color of highlighted text when hovered.
     - Highlight 3: The color of the highlight.
-    - Highlight 3 Text: The color of highlighted text when hovered.
 - **Graph Colors**: 
     - Active Note Node Color
     - Tag Node Color
@@ -66,43 +65,70 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Edit Mode Font
     - UI font
     - Monospace Font
+    - Frontmatter/YAML Font
 - **Headings**: 
     - Heading Font Preview Mode
     - Heading Font Editor Mode
-    - Enable Productive Mode Headings: Smaller Headings for more compact notes. This will override Expressive Mode responsive headings!
-    - **Heading Weights**: Only available for Productive Mode
-        - Productive Mode Heading 1 Weight: Default value - semi-bold (600)
-        - Productive Mode Heading 2 Weight: Default value - semi-bold (600)
-        - Productive Mode Heading 3 Weight: Default value - semi-bold (600)
-        - Productive Mode Heading 4 Weight: Default value - semi-bold (600)
-        - Productive Mode Heading 5 Weight: Default value - semi-bold (600)
-        - Productive Mode Heading 6 Weight: Default value - semi-bold (600)
-    - **Heading Sizes**: Only available for Productive Mode
-        - Productive Mode Heading 1 Size
-        - Productive Mode Heading 2 Size
-        - Productive Mode Heading 3 Size
-        - Productive Mode Heading 4 Size
-        - Productive Mode Heading 5 Size
-        - Productive Mode Heading 6 Size
-    - **Heading Colors**: 
-        - Toggle Heading Font Colours
-        - Toggle Heading Background Colours
+    - Heading Indicators: Disable the typora-like heading indicators in Live Preview.
+    - Heading Indicators in active line only: Enables typora-like heading indicators in Live Preview, only in the active line.
+    - **Weights**: 
+        - Heading 1 Weight: Default value - semi-bold (600)
+        - Heading 2 Weight: Default value - semi-bold (600)
+        - Heading 3 Weight: Default value - semi-bold (600)
+        - Heading 4 Weight: Default value - semi-bold (600)
+        - Heading 5 Weight: Default value - semi-bold (600)
+        - Heading 6 Weight: Default value - semi-bold (600)
+    - **Sizes**: 
+        - Heading 1 Size
+        - Heading 2 Size
+        - Heading 3 Size
+        - Heading 4 Size
+        - Heading 5 Size
+        - Heading 6 Size
+    - **Colors**: 
+        - Toggle Heading Font Colors
+        - Toggle Heading Background Colors
         - **Heading Font Colors**: 
-            - Heading 1 Color
-            - Heading 2 Color
-            - Heading 3 Color
-            - Heading 4 Color
-            - Heading 5 Color
-            - Heading 6 Color
+            - **Heading 1**: 
+                - Heading 1 Light Mode
+                - Heading 1 Dark Mode
+            - **Heading 2**: 
+                - Heading 2 Light Mode
+                - Heading 2 Dark Mode
+            - **Heading 3**: 
+                - Heading 3 Light Mode
+                - Heading 3 Dark Mode
+            - **Heading 4**: 
+                - Heading 4 Light Mode
+                - Heading 4 Dark Mode
+            - **Heading 5**: 
+                - Heading 5 Light Mode
+                - Heading 5 Dark Mode
+            - **Heading 6**: 
+                - Heading 6 Light Mode
+                - Heading 6 Dark Mode
         - **Heading Background Colors**: 
-            - Heading 1 Color
-            - Heading 2 Color
-            - Heading 3 Color
-            - Heading 4 Color
-            - Heading 5 Color
-            - Heading 6 Color
+            - **Heading 1**: 
+                - Heading 1 Light Mode: The higher the number, the lower the brightness
+                - Heading 1 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 2**: 
+                - Heading 2 Light Mode: The higher the number, the lower the brightness
+                - Heading 2 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 3**: 
+                - Heading 3 Light Mode: The higher the number, the lower the brightness
+                - Heading 3 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 4**: 
+                - Heading 4 Light Mode: The higher the number, the lower the brightness
+                - Heading 4 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 5**: 
+                - Heading 5 Light Mode: The higher the number, the lower the brightness
+                - Heading 5 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 6**: 
+                - Heading 6 Light Mode: The higher the number, the lower the brightness
+                - Heading 6 Dark Mode: The higher the number, the lower the brightness
 
 **Features**: 
+- Disable active line highlighting: Disables active line highlighting
 - <hr> ("---") Options: For Edit Mode
 - Edit Mode Tasks: Makes filled tasks green and empty ones red, in Edit Mode.
 - Wrap Kanban Lanes: Makes Kanban Lanes wrap in multiple rows if needed.
@@ -112,17 +138,20 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **Tables**: 
     - Table Width: Increase table width threshold.
     - Center Tables: Centers all tables in the note.
-    - Alternate Dataview Tables: Alternates row colors for easier reading.
+    - Full note width dataview tables: Forces dataview tables to occupy 100% of the note pane's width.
+    - Alternate Row Colors for Dataview Tables: Alternates row colors for easier reading.
 - **Sidenotes**: 
     - Sidenote Options: Left and right sidenote colors
     - Inner Sidenote Options: Inner sidenote colors
-- **Relationship Lines**: 
-    - Relationship Lines: Toggle relationship lines on lists for Reading and Editing View (Live Preview).
-    - Relationship Lines Spacing: Leave as default if you're using the default font. If using another font, you may try the other settings. If using IBM Plex, try the 'Proportional Font Fix' option.
+- **Lists**: 
+    - Odd numbered list marker content: –\2009\2009 by default, \2009 is unicode for small space
+    - Even numbered list marker content
+    - Enable Relationship Lines in Reading View [OFF by default]: Toggle relationship lines in Reading View lists.
+    - Disable Relationship Lines in Editing View [ON by default]: Disable relationship lines in Editing View (Live Preview) lists.
 
 **Elements**: 
 - Hide Titlebar center text: This setting hides the center text of the titlebar.
-- Hide Frontmatter: This setting hides frontmatter in Preview Mode.
+- Show YAML: Disables YAML reveal on hover and simply shows it as a code block.
 - Status Bar on top: This setting moves the status bar to the top. To click on icons aim for the border.
 - Tab Header Icon side padding: Changes tab header icons side padding.
 - Compact Outline: Hides excess text in the outline pane so every title is 1 row tall.
@@ -142,6 +171,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - No Scrollbar in Notes: Disables Scrollbars in Notes.
     - No Scrollbar in File Explorer: Disables Scrollbars in File Explorer.
     - No Scrollbar in Modal: Disables Scrollbars in settings menus.
+
+**Mobile**: 
+- Disable floating button: This setting disables the floating Editing/Reading view button, making it go back to the top.
 
 **Advanced Options**: 
 - No background blur: This setting disables background blur on modals.

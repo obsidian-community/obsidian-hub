@@ -39,22 +39,24 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Show/Hide UI Elements**: Re-enable Elements hidden by this theme
+**Show/Hide UI Elements**: Re-enable elements hidden by this theme
 - Re-enable Title Bar: Re-enable this to have a title bar, e.g. for moving the Obsidian window
 - Re-enable Ribbons: Ribbons are the thin vertical bars to the very left & right. The left ribbon is the element that contains the settings button.
-- Permanently show the Header Bar: When false, the Header bar is still visible upon focus and hover
+- Permanently show the Header Bar: When false, the Header bar is still visible upon focus and hover. (When you are using Sliding Panes with rotated headers, the headers will be permanently shown and this setting has no effect.)
 - Permanently show the Status Bar: When false, the Status bar is still visible when hovering. (This setting will be overridden when you use the default status bar.)
 - Default Theme Status Bar: Use the Status Bar from the default theme, which will also be permanently visible.
-- Source Mode: Permanently show full URLs (new Editor only): In Source Mode, URLs on non-active lines will are folded (Obsidian 0.13+ only). Enable this to permanently show the full URL.
+- Permanently show full URLs (new Editor Source Mode only): In Source Mode, URLs on non-active lines will are folded (Obsidian 0.13+ only). Enable this to permanently show the full URL.
 - Re-enable Close Buttons: When false, you can close the menu with `Esc` or by clicking outside the menu area.
 - Re-enable Scrollbars: When false, only the scroll bars in the Editor are shown.
+- Permanently show the Collapse Arrows: When false, collapse arrows only become visible when hovered or in the active line.
 - Re-enable the Fold Markers: Fold markers are the ellipses ("...") next to a folded/collapsed item.
+- Show all line numbers: When 'Show line number' is enabled in the settings, all line numbers will be shown. When false, only the line numbers of the active and hovered line will be shown.
 - Permanently show the Graph Controls: When false, graph controls are still visible when open, or upon hovering the top-left area.
 - Starred Pane: Re-enable Buttons: The two buttons to star the current file and the current search.
 
-**Aesthetics 🎨**: Brightness, Color, Shapes, Cursor, & Decoration
+**Aesthetics**: Brightness, Color, Shapes, Cursor, Decoration, Animations
 - Shapes: Enable to use angular shapes (🔲) throughout the whole theme. Disable to use rounded shapes (🔘).
-- Preset Color Schemes: New Color Scheme: Nord ❄️. Selecting a preset color scheme other than "Custom Colors" overrides any Brightness, Color Tone, and Color Intensity settings. (More color schemes coming in the future!)
+- Color Schemes: New Color Scheme: Nord ❄️. Selecting a color scheme other than "Custom Colors" overrides any Brightness, Color Tone, and Color Intensity settings. (More color schemes coming in the future!)
 - Custom Colors: Brightness (Light Mode): Note that a high brightness in light mode results in a white theme, regardless of the selected hue.
 - Custom Colors: Hue (Light Mode): Overall color tone of the theme. Mind that the appearance of the color is also affected by brightness and saturation.
 - Custom Colors: Saturation (Light Mode): Intensity of the chosen color tone (hue). Setting this to zero will result in grayscale, regardless of the hue chosen. 
@@ -63,13 +65,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Custom Colors: Saturation (Dark Mode): Intensity of the chosen color tone (hue). Setting this to zero will result in grayscale, regardless of the hue chosen. 
 - Block Cursor: Use a block cursor instead of a line cursor. For best results, also switch the main font to a monospace font.
 - Mono-colored Cursor: Use a mono-colored, purple cursor.
-- Menus: Normal Checkboxes: Use the checkboxes from the default theme.
 - YAML: Coloring: Use colored YAML frontmatter (in Edit Mode).
 - Block Quotes: Decorative Quotation Mark: Show a decorative quotation mark next to blockquotes in Reading Mode.
+- Turn off all animations
+- Global Filter
 
-**Font & Text**: Font Sizes, Font Faces, Kerning, Alignment
+**Typography**: Font, Headings, Blockquotes, Font Sizes, Headings, Letter Spacing, Alignment
 - Main Font
-- Relationship Line Fix for Custom Main Font: If you are using a custom main font, and the relationship lines for lists are off, try one of these. Otherwise, leave this at "Default".
 - Monospace Font: Used in Code blocks, YAML in Edit Mode, tables in Edit Mode, etc.
 - Monospace Font Size
 - UI Font: Affects the left side bar, right side bar, status bar, and header bar.
@@ -78,7 +80,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Menu Font: Affects the settings menu, plugin browser and theme browser.
 - Menu Font Size
 - Normal-sized Blockquotes: Blockquotes have the same size and line-height as the rest of the text.
-- Left-aligned BLockquote Text: Use left-aligned text in blockquotes instead of justified text.
+- Left-aligned Blockquote Text: Use left-aligned text in blockquotes instead of justified text.
 - Heading Font: Applies to h1 to h6 Headings
 - Compact Headings: Makes Headings more compact by decreasing their letter spacing.
 - No Alternating Italic of Headings: In this theme, the Heading Levels alternate between italic/regular to make them more distinguishable. You can turn that feature off if you prefer non-italic for all heading levels.
@@ -89,13 +91,44 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Level 5 Headings
 - Level 6 Headings
 
-**Views & Content**: Max View, Focus View, Images, PDFs, & Line Length
+**Views & Media**: Line Length, Max View, Focus View, Images, PDFs
+- Line Length: When "Readable Line length" is enabled and "Max View" is not active.
 - Enable "Max View": Makes panes full length and images/PDFs full width when the left sidebar is hidden. Switches back to readable line length and smaller images/PDFs when the left sidebar is shown. Can be combined with "Focus View". (Requires "Readable Line Length" to be enabled.)
 - Enable "Focus View": Hiding the left side bar will also hide the right one. Note that with this feature, the right side bar stays hidden until the left one is shown again. Can be combined with "Max View".
 - Size of Images: Size of Images in % (when Max View is disabled or not active)
 - Size of embedded PDFs: Size of embedded PDFs in % (when Max View is disabled or not active)
 - Align Images & PDFs to the left: When disabled, they will be aligned to the center instead.
 - No Dark Mode for PDFs: Disable Dark Mode for PDFs when Obsidian is set to dark mode.
+
+**🆕 Gutter & Active Line**: Active & Focused Line Highlight, Indicators in the Gutter
+- ⚡️ Active Line Highlight: "Focused Highlight" will only emphasize the active line instead of the active paragraph (block), similar to Code Editors. ⚠️ However, this comes at the cost of disabling any form of horizontal scrolling in the editor. (Focused Highlight does not work in the Legacy Editor.)
+- ⦿ Footnote Indicator: Displays a small indicator in the gutter when a footnote is present. (Note that the numbered indicator does not count properly footnotes on the same line.)
+- Disable Unresolved Link Indicators: The indicators are only shown in Reading Mode.
+- Disable Search Result Indicators: The indicators are only shown in Source Mode and Live Preview.
+
+**Mobile**: Settings specifically for mobile
+- Mobile Font Size
+
+**Plugin-Specific Settings**: File Explorer, Outline, Supercharged Links, Page Preview, Command Palette, Calendar, Link Favicons
+- File Explorer: No Icons: Removes the icons next next to files and folders in the file explorer and re-enables the collapse arrows.
+- Outline: Remove First Level of Headings: In case you have only one H1 heading per file, this will make the outline sidebar more compact.
+- Supercharged Links: Turn off built-in styling: This theme has some styling for the Supercharged Links plugin built-in, so can make use of the plugin without knowledge of CSS. See the theme's README on GitHub for more information.
+- Page Preview: Size: Width & Height of Page Previews (Popovers) in px. (Note that this setting means a quadratic growth of the preview size.)
+- Link Favicons: Grayscale Icons
+
+**Longform Plugin Settings**: Font, Alignment, Indentation, Background, Index File
+- Longform Main Font: Font used in folders marked as Longform Project. (Except code, which will keep using the monospace font.)
+- Longform Font Size
+- Left-aligned text: Use left-aligned text instead of justified text.
+- First-Line Indent (Preview Mode): Indent the first Line of a paragraph in longform notes (preview mode only).
+- Background Color Shift: Degree longform notes have a different color than normal notes (hue added). Setting this to "0" will make longform projects have the same background color as other notes.
+
+**Other Theme Features**: File Name Trimming, Pseudo-Admonitions, Pandoc Citations, Annotation Tags, Alternating Row Colors, Relationship Lines
+- Sidebar: Trim File Names: When enabled long filenames will be trimmed. When disabled, long filenames will be wrapped to the next line. Affects most, but not all side bar plugin.
+- Pseudo-Admonitions: Prefixed Icon: Needs to be enclosed in quotation marks
+- No Emphasis of Pandoc Citations: Turn off the coloring of Pandoc Citations [@citekey] done by this theme.
+- Turn off "Annotation Tags": "Annotation Tags" are about a dozen of tags for academic reading, e.g. "#definition" that are visually emphasized.
+- Turn off Alternating Row Coloring
 
 **Spellcheck (deprecated)**: Legacy Editor only
 - Use Classic Spellcheck Styling: Turns off the spellcheck styling of this theme and use the classic spellcheck styling.
@@ -106,29 +139,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - No Spellcheck in Strikethroughs: Turn off Spellcheck in any text enclosed by the strikethrough syntax (~~foobar~~).
 - No Spellcheck in Comments: Turn off Spellcheck in comments (%%comments%% as well as <!--comments-->).
 - No Spellcheck in Pandoc Citations: Turn off Spellcheck in Pandoc Citations (Bare Links).
-
-**Mobile**: Settings specifically for mobile
-- Mobile Font Size
-
-**Plugin-Specific Settings**: File Explorer, Outline, Page Preview, Command Palette, Calendar, Link Favicons
-- File Explorer: No Icons: Removes the icons next next to files and folders in the file explorer and re-enables the collapse arrows.
-- Outline: Remove First Level of Headings: In case you have only one H1 heading per file, this will make the outline sidebar more compact.
-- Page Preview: Size: Width & Height of Page Previews (Popovers) in px. (Note that this means a quadratic growth of the preview size.)
-- Link Favicons: Grayscale Icons
-
-**Longform Plugin Settings**: Font, Alignment, Indentation, Background, Index File
-- Longform Main Font: Font used in folders marked as Longform Project. (Except code, which will keep using the monospace font.)
-- Longform Font Size
-- Left-aligned text: Use left-aligned text instead of justified text.
-- First-Line Indent (Preview Mode): Indent the first Line of a paragraph in longform notes (preview mode only).
-- Background Color Shift: Degree longform notes have a different color than normal notes (hue added). Setting this to "0" will make longform projects have the same background color as other notes.
-
-**Miscellaneous**: File Name Trimming, Pandoc Citations, Annotation Tags, Active Line Highlighting, Alternating Row Colors, Relationship Lines
-- Sidebar: Trim File Names: When enabled long filenames will be trimmed. When disabled, long filenames will be wrapped to the next line.
-- No Emphasis of Pandoc Citations: Turn off the coloring of Pandoc Citations [@citekey] done by this theme.
-- Turn off "Annotation Tags": "Annotation Tags" are about a dozen of tags for academic reading, e.g. "#definition" that are visually emphasized.
-- Turn off Active Line Highlighting
-- Turn off Alternating Row Coloring
 
 ## Plugin Compatibility[^1]
 
@@ -178,5 +188,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[dataview|Dataview]]
 - [[obsidian-cursor-location-plugin|Cursor Location]]
 - [[obsidian-dictionary-plugin|Dictionary]]
+- [[obsidian-highlight-current-word|obsidian-highlight-current-word]]
+- [[obsidian-emoji-toolbar|Emoji Toolbar]]
+- [[supercharged-links-obsidian|Supercharged Links]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
