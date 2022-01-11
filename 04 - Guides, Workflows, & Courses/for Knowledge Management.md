@@ -22,7 +22,7 @@ tags:
 - [GTD in 15 minutes – A Pragmatic Guide to Getting Things Done](https://hamberg.no/gtd)
 
 ### Linking your Thinking
-- [The PARA Method: A Universal System for Organizing Digital Information - Forte Labs](https://fortelabs.co/blog/para/)
+- [Linking Your Thinking - YouTube Channel](https://www.youtube.com/channel/UC85D7ERwhke7wVqskV_DZUA)
 
 ### PARA
 - [The PARA Method: A Universal System for Organizing Digital Information - Forte Labs](https://fortelabs.co/blog/para/)
@@ -30,6 +30,9 @@ tags:
 
 ### Johnny Decimal
 - [Johnny•Decimal](https://johnnydecimal.com/)
+
+## People Management
+- [Obsidian for people managers - Obsidian Forum](https://forum.obsidian.md/t/obsidian-for-people-managers/25495)
 
 ## Collaborative Knowledge Management
 - [Obsidian, Taming a Collective Consciousness - TrustedSec](https://www.trustedsec.com/blog/obsidian-taming-a-collective-consciousness/)

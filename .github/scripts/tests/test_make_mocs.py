@@ -75,9 +75,9 @@ def approval_test_options():
     # The supported tool names are listed in:
     #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
     #
-    diff_tool_name = "AraxisMergeMac"
-    diff_tool = GenericDiffReporterFactory().get(diff_tool_name)
-    options = options.with_reporter(diff_tool)
+    # diff_tool_name = "AraxisMergeMac"
+    # diff_tool = GenericDiffReporterFactory().get(diff_tool_name)
+    # options = options.with_reporter(diff_tool)
 
     return options
 
@@ -165,6 +165,13 @@ def test_moc_for_root_directory():
         # Confirm whether some non .md files are included
         'svg-files-are-currently-included.svg',
         'css-files-are-currently-included.css',
+
+        # Add messages that should explain test failure, if unwanted files ever get added back to the moc:
+        'logo.svg should-not-be-included.md',
+        'publish.css should-not-be-included.md',
+        # And that two specific top-level non .md files are currently excluded
+        'logo.svg',
+        'publish.css',
 
         '00 - there should not be a link to a file called 🗂️ hub',
         '🗂️ hub.md',

@@ -1,4 +1,14 @@
-# About the Python tests in [.github/scripts](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts)
+---
+aliases:
+- 
+tags:
+- 
+---
+
+# Testing Python Code with Approval Tests
+
+
+About the Python tests in [.github/scripts](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts)
 
 ## TL;DR
 

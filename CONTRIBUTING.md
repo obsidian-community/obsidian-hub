@@ -151,7 +151,13 @@ If you found a broken link, a typo or a mistake [please open an issue](https://g
 
 
 ## Further Questions?
-Got some question left? Check out the [[FAQ]] or drop by in the `#Obsidian-Hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
+Got some question left? Check out the [[FAQ]] or drop by in the `#hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
 
 Please [open a new discussion at GitHub](https://github.com/obsidian-community/obsidian-hub/discussions/new) if you have suggestions or ideas for this vault.
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="github-footer">[<button class="footer-button">Edit in GitHub</button>](https://github.dev/obsidian-community/obsidian-hub/blob/main/CONTRIBUTING.md) [<button class="footer-button">Copy this Note</button>](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/CONTRIBUTING.md) [<button class="footer-button">Download this vault</button>](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip)</span>

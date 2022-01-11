@@ -1,3 +1,12 @@
+---
+aliases:
+- 
+tags:
+- 
+---
+
+# Content: Lists
+
 ## Sorting of lists, to aid readability
 
 ### Decisions and conclusions

@@ -4,6 +4,7 @@ import re
 import os
 import sys
 
+from authors import update_author_name_for_manual_exceptions
 from utils import get_template, get_plugin_manifest
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
@@ -177,6 +178,11 @@ def collect_data_for_plugin(plugin, file_groups):
     branch = plugin.get("branch", "master")
     manifest = get_plugin_manifest(repo, branch)
 
+    return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+
+
+def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups):
+    repo = plugin.get("repo")
     plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
     user = repo.split("/")[0]
@@ -186,6 +192,7 @@ def collect_data_for_plugin(plugin, file_groups):
         mobile = MOBILE_COMPATIBLE
 
     plugin.update(mobile=mobile, user=user, **manifest)
+    update_author_name_for_manual_exceptions(plugin)
 
     return plugin_is_valid
 

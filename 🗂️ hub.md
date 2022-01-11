@@ -21,7 +21,11 @@ publish: true
 -  [[06 - Inbox/🗂️ 06 - Inbox|🗂️ 06 - Inbox]]
 -  [[00 - Start here|00 - Start here]]
 -  [[CONTRIBUTING|CONTRIBUTING]]
--  [[logo.svg|logo.svg]]
--  [[publish.css|publish.css]]
 -  [[README|README]]
 %% Hub MOCs: Don’t edit above  %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In Github](https://github.dev/obsidian-community/obsidian-hub/blob/main/%F0%9F%97%82%EF%B8%8F%20hub.md "git-hub-edit-note") | [Copy this Note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/%F0%9F%97%82%EF%B8%8F%20hub.md "git-hub-edit-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-edit-note") </span>

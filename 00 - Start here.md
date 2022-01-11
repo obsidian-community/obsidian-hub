@@ -25,3 +25,9 @@ You can also take a look at the (auto-generated) index for our vault:
 ![[🗂️ hub#MOC]]
 
 Didn't find what you were looking for? Found a mistake or a broken link? Have ideas or suggestions of what to include in this vault? Please check out [[CONTRIBUTING|how to contribute]].
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In Github](https://github.dev/obsidian-community/obsidian-hub/blob/main/00%20-%20Start%20here.md "git-hub-edit-note") | [Copy this Note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/00%20-%20Start%20here.md "git-hub-edit-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-edit-note") </span>

@@ -1,6 +1,17 @@
+---
+aliases:
+- 
+tags:
+- 
+---
+
+# GitHub Actions for the Hub
+
 ## Potentially automatable
 
 There are some maintenance steps that are currently done manually, and that could be run automatically, either on a cron schedule, or upon changes to the main branch.
+
+This work is being tracked in [Automate (some) scripts with GitHub Actions · Issue #153](https://github.com/obsidian-community/obsidian-hub/issues/153)
 
 - Updating theme download counts
   - Part of [[Updating Extensions]]

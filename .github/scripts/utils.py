@@ -19,11 +19,13 @@ OUTPUT_DIR = {
 }
 
 
-def get_template(template_name: str):
-    """
-    Gets a particular template with template_name as name.
-    """
-    # Default templates directory
+# For performance reasons, we check the environment only once, and cache the value.
+# Doing it on every call to print_progress_bar() added 45 seconds to one 
+# GitHub Actions workflow
+running_in_continuous_integration = os.environ.get('GITHUB_ACTIONS') != None
+
+
+def get_template(template_name):
     directory = "./templates"
 
     # Grab the current working directory to figure out where the template dir is.
@@ -160,7 +162,7 @@ def print_file_summary(file_groups, verbose=False):
                 print("\t- {}".format(f))
 
 
-# Print iterations progress
+# Print iterations progress, unless running in CI build
 def print_progress_bar(
     iteration,
     total,
@@ -186,8 +188,12 @@ def print_progress_bar(
         fill        - Optional  : bar fill character (Str)
         printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
     """
-    percent = ("{0:." + str(decimals) + "f}").format(100 *
-                                                     (iteration / float(total)))
+
+    # Don't clutter the CI logs up with progress bar:
+    if running_in_continuous_integration:
+        return
+
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
     filledLength = int(length * iteration // total)
     bar = fill * filledLength + "-" * (length - filledLength)
     print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)

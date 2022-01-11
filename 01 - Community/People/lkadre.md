@@ -14,7 +14,7 @@ publish: true
  - [Publish Site](https://brain.lkadre.com/§+001+HOMEPAGE): ^publish
 
 %% Feel free to add a bio below this comment %%
-I'm a Law student and a PKM enthusiast. My focuses are comparative law and international financial law, though I'm also deeply interest in philosophy, aesthetics and literature.
+I'm a Law student with focuses in comparative law and international financial law. I'm also deeply interested in philosophy, aesthetics and literature. Some of my notes are published online in what I call my "second brain".
 
 <!--## Author of-->
 
