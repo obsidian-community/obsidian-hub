@@ -27,24 +27,7 @@ running_in_continuous_integration = os.environ.get('GITHUB_ACTIONS') != None
 
 def get_template(template_name):
     directory = "./templates"
-
-    # Grab the current working directory to figure out where the template dir is.
-    cwd = os.getcwd()
-    if cwd.endswith("obsidian-hub"):
-        # We're in root. Need to go down into .github/scripts/templates
-        directory = os.path.join(cwd, ".github", "scripts", "templates")
-    if cwd.endswith("github"):
-        # We're in .github. Need to do down into scripts/templates
-        directory = os.path.join(cwd, "scripts", "templates")
-    if cwd.endswith("scripts"):
-        # We're in scripts. Need to go down into templates
-        directory = os.path.join(cwd, "templates")
-    if cwd.endswith("templates"):
-        # We're already there. Current directory.
-        directory = cwd
-
-    # Construct the filename and return the template
-    template_file_name = f"{template_name}.md.jinja"
+    template_file_name = "{}.md.jinja".format(template_name)
     return get_template_from_directory(directory, template_file_name)
 
 
