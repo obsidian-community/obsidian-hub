@@ -1,10 +1,11 @@
-from os import walk, getcwd
-from os.path import join
+from os import walk
+from os.path import join, relpath
 from utils import get_template
-from re import sub
-
+from re import sub, search
+from urllib.parse import quote
 
 from utils import get_root_of_vault
+
 # These are directories and files to exclude
 # By adding a dir/file, this script will ignore them and never change them!
 DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', 'DO NOT COMMIT']
@@ -23,8 +24,10 @@ def add_footer(root: str, debug: bool = True):
     # Grab the template
     template = get_template("footer")
 
-    # This is the line to search for
-    comment = r"%% Hub footer: Please don't edit anything below this line %%"
+    # This is the regex to search for
+    # Note that we select the comment itself, and then ANYTHING afterwards
+    # This requires the "DOTALL" (?s) and "MULTILINE" (?m) flags to be set
+    comment = r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
 
     # Loop through the files
     for root, dirs, files in walk(root, topdown=True):
@@ -38,22 +41,24 @@ def add_footer(root: str, debug: bool = True):
             # Note: Alternative implementation is to use os.splitext;
             # both work for this usecase
             if file.endswith(".md"):
-                # Get the full filepath
+
+                # Get the ABSOLUTE filepath
                 the_file = join(root, file)
 
                 if debug:
-                    print(f"Processing '{the_file}'...")
+                    print(f"Processing '{relpath(the_file, root)}'...")
 
-                # Get the rendered template
-                render = template.render(file_path=the_file)
+                # Get the rendered template (file => relative path => html encoded)
+                render = template.render(
+                    file_path=quote(relpath(the_file, root)))
 
-                # Open the file in read/write mode
+                # Open the (ABSOLUTE) file in read/write mode
                 with open(the_file, "r+") as f:
                     # Read the file contents
                     contents = f.read()
 
                     # Check if our particular comment is present
-                    if comment in contents:
+                    if search(comment, contents):
                         replacement = sub(comment, render, contents)
                         if debug:
                             print(
@@ -78,7 +83,7 @@ def main():
     # Grab the root folder to run in.
     # Uses the utility method to get root of the vault.
     root = get_root_of_vault()
-    
+
     # Set debug to whichever you'd like; true by default
     add_footer(root)
 
