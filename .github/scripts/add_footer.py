@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from os import walk
 from os.path import join, relpath
 from utils import get_template
