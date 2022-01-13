@@ -10,7 +10,7 @@ from utils import get_root_of_vault
 
 # These are directories and files to exclude
 # By adding a dir/file, this script will ignore them and never change them!
-DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', 'DO NOT COMMIT']
+DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', '01 Templates', 'DO NOT COMMIT']
 FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore']
 
 
