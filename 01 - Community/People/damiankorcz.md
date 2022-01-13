@@ -1,6 +1,7 @@
 ---
 aliases:
 - Damian Korcz
+- damikiller37
 tags:
 - 
 publish: true
@@ -25,7 +26,8 @@ publish: true
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
-
+### Guides
+- [[Using Visual Studio Code for Theme Development]]
 <!--
 ### Unlisted plugins
 
@@ -38,12 +40,13 @@ publish: true
 - 
 -->
 
-<!--
 ## Sponsor this author
 
+- [[Buy me a coffee]]: <https://www.buymeacoffee.com/DamianKorcz> ^buy-me-a-coffee
+- [[PayPal]]: <https://paypal.me/damikiller37>^paypal
+
+<!--
 - [[GitHub sponsors]]: [Sponsor @damiankorcz on GitHub Sponsors](https://github.com/sponsors/damiankorcz) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 
 -->
