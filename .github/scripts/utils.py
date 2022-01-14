@@ -31,7 +31,7 @@ def get_template(template_name):
     return get_template_from_directory(directory, template_file_name)
 
 
-def get_template_from_directory(directory, template_name_with_extensions):
+def get_template_from_directory(directory: str, template_name_with_extensions: str):
     file_loader = FileSystemLoader(directory)
     # A note on writing templates...
     # trim_blocks and lstrip_blocks remove a lot of whitespace.
@@ -118,7 +118,8 @@ def get_plugin_manifest(repository, branch):
 
 def get_category_files():
     return glob.glob(
-        os.path.abspath(os.path.join("../..", OUTPUT_DIR["category"])) + "/*.md"
+        os.path.abspath(os.path.join(
+            "../..", OUTPUT_DIR["category"])) + "/*.md"
     )
 
 
@@ -159,7 +160,7 @@ def print_progress_bar(
     Call in a loop to create terminal progress bar
 
     Source: https://stackoverflow.com/questions/3173320/text-progress-bar-in-the-console
-    
+
     @params:
         iteration   - Required  : current iteration (Int)
         total       - Required  : total iterations (Int)
@@ -182,3 +183,13 @@ def print_progress_bar(
     # Print New Line on Complete
     if iteration == total:
         print()
+
+
+def get_root_of_vault() -> str:
+    """
+    Helper method that returns the root directory of the vault.
+    """
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    up1 = os.path.dirname(dir_path)
+    up2 = os.path.dirname(up1)
+    return up2

@@ -456,4 +456,4 @@ tags:
 
 ## Contributing
 
-![[Contributing with community plugins and themes]]
+![[Contributing with community plugins and themes#Contributing with community plugins and themes]]
