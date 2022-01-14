@@ -10,6 +10,17 @@ from make_mocs import MocFileAndDirectoryFilter
 from utils import get_root_of_vault
 
 
+class ErrorLogger:
+    def __init__(self):
+        self.error_count = 0
+
+    def log_error(self, relative_path, message):
+        print(f'Error:\n  {message}:\n  {relative_path} ')
+
+
+logger = ErrorLogger()
+
+
 def check_content_of_working_directory() -> int:
     """
     Walks through the filetree rooted at the current working directory.
@@ -44,7 +55,7 @@ def check_file(relative_path: str, file: str) -> int:
     errors = 0
 
     if '.' not in file:
-        print(f'Error:\n  This file has no extension: consider adding ".md" to its name:\n  {relative_path} ')
+        logger.log_error(relative_path, 'This file has no extension: consider adding ".md" to its name')
         errors += 1
 
     # Other checks may be added here in future
