@@ -16,8 +16,17 @@ class ErrorLogger:
         self.error_count = 0
 
     def log_error(self, relative_path, message):
+        """
+        Log an error. Errors are treated as failures, giving a non-zero exit code from the script.
+        """
         print(f'\nError:\n  {message}:\n  {relative_path} ')
         self.error_count += 1
+
+    def log_warning(self, relative_path, message):
+        """
+        Log a warning. These will not cause the script to fail.
+        """
+        print(f'\nWarning:\n  {message}:\n  {relative_path} ')
 
 
 logger = ErrorLogger()
@@ -77,7 +86,7 @@ def check_file_markdown_content(file) -> None:
 def check_link(file, link) -> None:
     number_of_pipes = link.count('|')
     if number_of_pipes > 1:
-        logger.log_error(file, f"Too many aliases in wiki link: {link}")
+        logger.log_warning(file, f"Too many aliases in wiki link: {link}")
 
 
 def check_content_of_vault() -> None:
