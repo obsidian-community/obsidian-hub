@@ -1,5 +1,6 @@
 import argparse
 import os.path
+import re
 import sys
 from os import walk
 
@@ -15,7 +16,7 @@ class ErrorLogger:
         self.error_count = 0
 
     def log_error(self, relative_path, message):
-        print(f'Error:\n  {message}:\n  {relative_path} ')
+        print(f'\nError:\n  {message}:\n  {relative_path} ')
         self.error_count += 1
 
 
@@ -49,12 +50,34 @@ def check_file(relative_path: str, file: str) -> None:
     """
     # Ignore 'dot' files, such as '.gitignore'
     if file[0] == '.':
-        return 0
+        return
 
     if '.' not in file:
         logger.log_error(relative_path, 'This file has no extension: consider adding ".md" to its name')
 
-    # Other checks may be added here in future
+    check_file_markdown_content(relative_path)
+
+
+def get_internal_links(content):
+    regex = r'\[\[[^[]*]]'
+    return re.findall(regex, content)
+
+
+def check_file_markdown_content(file) -> None:
+    if not file.endswith('.md'):
+        return
+    with open(file) as f:
+        content = f.read()
+
+        internal_links = get_internal_links(content)
+        for link in internal_links:
+            check_link(file, link)
+
+
+def check_link(file, link) -> None:
+    number_of_pipes = link.count('|')
+    if number_of_pipes > 1:
+        logger.log_error(file, f"Too many aliases in wiki link: {link}")
 
 
 def check_content_of_vault() -> None:
