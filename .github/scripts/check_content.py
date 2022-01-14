@@ -16,27 +16,26 @@ class ErrorLogger:
 
     def log_error(self, relative_path, message):
         print(f'Error:\n  {message}:\n  {relative_path} ')
+        self.error_count += 1
 
 
 logger = ErrorLogger()
 
 
-def check_content_of_working_directory() -> int:
+def check_content_of_working_directory() -> None:
     """
     Walks through the filetree rooted at the current working directory.
     For each file that it finds, it validates the file
     """
-    error_count = 0
     moc_filter = MocFileAndDirectoryFilter()
     for root, dirs, files in walk('.', topdown=True):
         moc_filter.filter_directories(dirs)
         for file in files:
             relative_path = os.path.join(root, file)
-            error_count += check_file(relative_path, file)
-    return error_count
+            check_file(relative_path, file)
 
 
-def check_file(relative_path: str, file: str) -> int:
+def check_file(relative_path: str, file: str) -> None:
     """
     Check the given file for any issues.
 
@@ -52,30 +51,26 @@ def check_file(relative_path: str, file: str) -> int:
     if file[0] == '.':
         return 0
 
-    errors = 0
-
     if '.' not in file:
         logger.log_error(relative_path, 'This file has no extension: consider adding ".md" to its name')
-        errors += 1
 
     # Other checks may be added here in future
-    return errors
 
 
-def check_content_of_vault() -> int:
+def check_content_of_vault() -> None:
     os.chdir(get_root_of_vault())
-    return check_content_of_working_directory()
+    check_content_of_working_directory()
 
 
-def main(argv=sys.argv[1:]):
+def main(argv=sys.argv[1:]) -> None:
     parser = argparse.ArgumentParser(
         description="Check for issues with the content of the Hub vault (such as errors in file names)."
     )
     args = parser.parse_args(argv)
 
-    return check_content_of_vault()
+    check_content_of_vault()
 
 
 if __name__ == "__main__":
-    result = main()
-    exit(result)
+    main()
+    exit(logger.error_count)
