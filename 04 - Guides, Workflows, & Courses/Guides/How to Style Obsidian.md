@@ -6,7 +6,7 @@ By [[ryanjamurphy|Ryan J. A. Murphy]]
 Ancient proverb:
 > Give a person some CSS, style them for a day. Teach them CSS, and they'll procrastinate for a lifetime.
 
-So you've downloaded that sleek new theme everyone's talking about. Your notes have never looked better. You sit at your desk, coffee steaming, hands hovering over your keyboard, and the most important thought you'll ever have is—wait, no, that header is the wrong shade of [Pantone's 2015 colour of the year, marsala!](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2015)
+So you've downloaded that sleek new theme everyone's talking about. Your notes have never looked better. You sit at your desk, coffee steaming, hands hovering over your keyboard, and the most important thought you'll ever have is—wait, no, that header is the wrong shade of [Pantone's 2015 colour of the year, marsala!](https://www.diamondvogel.com/architectural/blog/2015-pantone-color-of-the-year)
 
 EVERYTHING IS RUINED.
 
