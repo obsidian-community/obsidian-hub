@@ -86,7 +86,11 @@ def check_file_markdown_content(file) -> None:
 def check_link(file, link) -> None:
     number_of_pipes = link.count('|')
     if number_of_pipes > 1:
-        logger.log_warning(file, f"Too many aliases in wiki link: {link}")
+        allowed_links_with_pipes = [
+            '[[obsidian-plugin-todo|Obsidian TODO | Text-based GTD]]'
+        ]
+        if link not in allowed_links_with_pipes:
+            logger.log_warning(file, f"Too many aliases in wiki link: {link}")
 
 
 def check_content_of_vault() -> None:
