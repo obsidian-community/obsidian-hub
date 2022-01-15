@@ -21,7 +21,7 @@ def add_footer(top_directory: str, debug: bool = True):
 
     Parameters:
         top_directory: path from which this method should run. Generally: root of the hub.
-        debug: boolean that indicates wether or not to print logging statements
+        debug: boolean that indicates whether or not to print logging statements
     """
     # Grab the template
     template = get_template("footer")
