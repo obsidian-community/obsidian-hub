@@ -56,22 +56,7 @@ def add_footer(root: str, debug: bool = True):
                     # Read the file contents
                     contents = f.read()
 
-                    # Get the rendered template (file => relative path => html encoded)
-                    render = template.render(
-                        file_path=quote(relative_path))
-
-                    # Check if our particular comment is present
-                    if search(comment, contents):
-                        replacement = sub(comment, render, contents)
-                        if debug:
-                            print(
-                                f"\t=> Replacing everything below the line with the template for '{file}'.")
-                    # If it's not there: Add it
-                    else:
-                        replacement = contents + "\n" + render
-
-                        if debug:
-                            print(f"\t=> Adding the template for '{file}'.")
+                    replacement = add_footer_to_markdown(relative_path, contents, comment, template, file, debug)
 
                     # Actually write
                     # This is done by seeking to the beginning of the file
@@ -80,6 +65,27 @@ def add_footer(root: str, debug: bool = True):
                     f.write(replacement)
                     # And finally truncating the file to close it
                     f.truncate()
+
+
+def add_footer_to_markdown(relative_path, contents, comment, template, file, debug):
+    # Get the rendered template (file => relative path => html encoded)
+    render = template.render(
+        file_path=quote(relative_path))
+
+    # Check if our particular comment is present
+    if search(comment, contents):
+        replacement = sub(comment, render, contents)
+        if debug:
+            print(
+                f"\t=> Replacing everything below the line with the template for '{file}'.")
+    # If it's not there: Add it
+    else:
+        replacement = contents + "\n" + render
+
+        if debug:
+            print(f"\t=> Adding the template for '{file}'.")
+
+    return replacement
 
 
 def main():
