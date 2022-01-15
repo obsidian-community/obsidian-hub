@@ -56,7 +56,7 @@ def add_footer(top_directory: str, debug: bool = True):
                     # Read the file contents
                     contents = f.read()
 
-                    replacement = add_footer_to_markdown(relative_path, contents, comment, template, file, debug)
+                    replacement = add_footer_to_markdown(relative_path, contents, comment, template, debug)
 
                     # Actually write
                     # This is done by seeking to the beginning of the file
@@ -67,7 +67,7 @@ def add_footer(top_directory: str, debug: bool = True):
                     f.truncate()
 
 
-def add_footer_to_markdown(relative_path, contents, comment, template, file, debug):
+def add_footer_to_markdown(relative_path, contents, comment, template, debug):
     # Get the rendered template (file => relative path => html encoded)
     render = template.render(
         file_path=quote(relative_path))
@@ -77,13 +77,13 @@ def add_footer_to_markdown(relative_path, contents, comment, template, file, deb
         replacement = sub(comment, render, contents)
         if debug:
             print(
-                f"\t=> Replacing everything below the line with the template for '{file}'.")
+                f"\t=> Replacing everything below the line with the template for '{relative_path}'.")
     # If it's not there: Add it
     else:
         replacement = contents + "\n" + render
 
         if debug:
-            print(f"\t=> Adding the template for '{file}'.")
+            print(f"\t=> Adding the template for '{relative_path}'.")
 
     return replacement
 
