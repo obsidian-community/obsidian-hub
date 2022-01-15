@@ -74,22 +74,23 @@ def add_footer_to_markdown(relative_path, contents, comment, template, debug):
     render = template.render(
         file_path=quote(relative_path))
 
+    debug_message = ""
+
     # Check if our particular comment is present
     if search(comment, contents):
         replacement = sub(comment, render, contents)
         if debug:
             if replacement != contents:
-                print(
-                    f"\t=> Replacing everything below the line with the template for '{relative_path}'.")
+                debug_message = "Replacing everything below the line with the template"
             else:
-                print(
-                    f"\t=> File is unchanged: '{relative_path}'.")
+                debug_message = "File is unchanged"
     # If it's not there: Add it
     else:
         replacement = contents + "\n" + render
+        debug_message = "Adding the template"
 
-        if debug:
-            print(f"\t=> Adding the template for '{relative_path}'.")
+    if debug:
+        print(f"\t=> {debug_message} for '{relative_path}'.")
 
     return replacement
 
