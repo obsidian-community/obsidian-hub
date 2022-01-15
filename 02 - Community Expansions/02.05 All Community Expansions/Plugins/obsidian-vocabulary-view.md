@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/nnshi-s/obsidian-vocabulary-view-p
 Developed by: [[nnshi-s]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Write down some words and their explanations and preview them in a vocabulary test style
+Write down some words with their explanations and preview them in a vocabulary test style
 
 %% ----- Do not edit anything above this line ----- %% 
 

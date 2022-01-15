@@ -54,15 +54,15 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Brightness of Image: To adjust the brightness
         - Saturation of Image: To adjust the saturation
         - Theme light
-        - Theme light (url): Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
+        - Custom Theme light (url): Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
         - Theme dark
-        - Theme Dark (url): Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
+        - Custom Theme Dark (url): Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
     - **1.2.2 Note Page Background Image**: 
         - Switch off Background Images
         - Choose Images
         - Random Background Images: Images will be refreshed when Obsidian launches; network is needed
         - Random image with a certain color
-- **1.3 Layout (coming soon)**: 
+- **1.3 Layout**: 
     - Layout Styles
 
 **2. Detail Settings**: 
@@ -97,6 +97,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Tag-9
     - **2.1.5 Other Colors**: 
         - Inline Code Color
+        - Bullet Color of Unordered List
+        - Number Color of Ordered List
+        - Bold Type color
+        - Italic Type color
+        - Color of Mathematical Expressions
 - **2.2 Typography**: 
     - **2.2.1 Font Family**: 
         - Use Obsidian Default Font-family
@@ -165,9 +170,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - **2.3.5 Exported PDF in Dark Mode**: 
         - PDF Color Scheme
     - **2.3.6 Embeds**: 
-        - Naked Embed
-        - hide embed title
-        - hide embed  headings like H1 H2
+        - Fix Height of Embedded Content
+        - Height of Embedded Content: Switch on the above button to activate
+        - Transparent Embedded background
+        - Hide Embedded Title
+        - hide embed headings like H1 H2
         - embed note floating effect
     - **2.3.7 Custom modal windows**: 
         - disable math block on quickadd modal
@@ -197,10 +204,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **3.4 Kanban**: 
     - Static
     - Dynamic
+- **3.5 Buttons**: 
+    - Buttons special style support: 目前内置class：🔸circle_btn 圆形按钮🔸blank_btn 透明按钮🔸grad_button渐变按钮🟣g_purple 紫色🔵g_blue蓝色🟢g_green 绿色💚g_lightgreen 浅绿🟡g_yellow黄色
 
 **4. Built-in Style Intro**: There are some built-in CSS classes that should be manually declared in the YAML area. Details refer to the TIPS demo vault for Blue Topaz on Github.
 - **Pseudo-kanban**: ❗cssclass：kanban❗ A kind of kanban-liked style for unordered lists. (Adapted from Spectrum theme by @Wiktoria Mielcarek)
-- **Code  Wrap**: ❗cssclass：code-wrap❗ Can be used to wrap code in code blocks for individual .md file
+- **Code Wrap**: ❗cssclass：code-wrap❗ Can be used to wrap code in code blocks for individual .md file
 - **List in a horizontal row (inline list)**: ❗cssclass：inline-list❗ To make the list show in a horizontal row. Meanwhile, it makes the list show inline which can be used with inline images (like ![[xxx.jpg|inlineR]])
 - **Image Grid**: ❗cssclass：img-grid❗ To make images, which are not separated by line breaks, arrange in a grid in the preview mode. (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
 - **Eisenhower Matrix**: ❗cssclass：matrix❗ Usage https://forum.obsidian.md/t/theme-spectrum-version-1-0-0-and-resise-graphs-controls/12688/34 (Adapted from Spectrum theme by @Wiktoria Mielcarek)

@@ -59,7 +59,6 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - Tag font color (Light mode)
 - Tag background color (Dark mode)
 - Tag font color (Dark mode)
-- Note titles, modals, and alt text size: Font size in px (main editor/preview text size now controlled via slider in Appearance settings)
 - Sidebar and tag font size: Font size in px of sidebar, tags, and small text
 - Body line height: Line height of the main text
 - Normal line width: Number of characters per line

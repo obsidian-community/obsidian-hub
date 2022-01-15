@@ -21,8 +21,10 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[metadata-extractor|Metadata Extractor]]
-- [[copy-publish-url|Copy Publish URL]]
+- [[copy-publish-url|Publish and GitHub URL]]
 - [[customizable-page-header-buttons|Customizable Page Header]]
+- [[linked-data-helper|Linked Data Helper]]
+- [[linked-data-vocabularies|Linked Data Vocabularies]]
 
 %% End Hub: Released contributions %%
 

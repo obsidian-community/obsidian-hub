@@ -1,7 +1,7 @@
 ---
 plugin-id: copy-publish-url
 aliases:
-- Copy Publish URL
+- Publish and GitHub URL
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Copy Publish URL
+# Publish and GitHub URL
 
 Plugin ID: `copy-publish-url`
 Links: [GitHub repository](https://github.com/kometenstaub/copy-publish-url) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=copy-publish-url)
 Developed by: [[kometenstaub]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Copy the URL of a published note.
+Copy or open the URL of the corresponding note on your Publish site. You can also open its Git commit history on GitHub.
 
 %% ----- Do not edit anything above this line ----- %% 
 

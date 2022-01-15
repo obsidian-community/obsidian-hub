@@ -28,6 +28,8 @@ publish: true
 - [[obsidian-electron-window-tweaker|Electron Window Tweaker]]
 - [[obsidian-smart-typography|Smart Typography]]
 - [[obsidian-copy-block-link|Copy Block Link]]
+- [[obsidian-native-scrollbars|Native Scrollbars]]
+- [[obsidian-indentation-guides|Indentation Guides]]
 
 ### Themes
 - [[California Coast]]

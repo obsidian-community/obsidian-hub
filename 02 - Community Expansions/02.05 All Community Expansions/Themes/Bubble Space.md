@@ -44,6 +44,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Bubble Mode Presets: Color Theme Presets for Bubble (Light) Mode
     - Space Mode: Color Theme Presets for Space (Dark) Mode
     - Header Image: toggle off to hide the header image in the file explorer
+    - Hide Titlebar: toggle on to hide titlebar
 
 ## Plugin Compatibility[^1]
 
@@ -55,6 +56,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#Outline|Outline]]
 - [[Obsidian Core Plugins#Quick switcher|Quick switcher]]
 - [[Obsidian Core Plugins#Tag pane|Tag pane]]
+- [[Obsidian Core Plugins#Backlinks|Backlinks]]
+- [[Obsidian Core Plugins#Outgoing Links|Outgoing Links]]
+- [[Obsidian Core Plugins#Starred notes|Starred notes]]
 
 **Community plugins**:
 - [[obsidian-admonition|Admonition]]
@@ -66,6 +70,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[obsidian-daily-stats|Daily Stats]]
 - [[obsidian-day-planner|Day Planner]]
 - [[obsidian-style-settings|Style Settings]]
-- [[mysnippets-plugin|MySnippets]]
+- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
+- [[obsidian-checklist-plugin|Checklist]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

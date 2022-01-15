@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-livesync|Self-hosted LiveSync]]
+- [[obsidian-tagfolder|TagFolder]]
 
 %% End Hub: Released contributions %%
 

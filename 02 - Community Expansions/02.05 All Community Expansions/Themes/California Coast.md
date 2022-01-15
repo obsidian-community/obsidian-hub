@@ -39,8 +39,17 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Accent Color**: 
+**Colors**: 
 - Accent Color
+- Highlight Color
+- Bold Color
+- Italic Color
+- H1 Color
+- H2 Color
+- H3 Color
+- H4 Color
+- H5 Color
+- H6 Color
 
 **Fonts**: 
 - UI font: Font used for the user interface
@@ -55,6 +64,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Translucent popovers: Menus and notifications will take on a translucent background. Turning this setting on might slow down obsidian on some computers.
 - Page preview scale: Percentage amount to scale hover preview and sidebar document font
 - File explorer wrapping: By default, files with long names will wrap in the file explorer. This setting ensures each file name only takes up a single line
+- Truncate table columns: Prevent table columns from wrapping to a new line in narrow panes
+- Minimum table column width: Table columns will not strink below this width
 
 **Editor Customization**: 
 - Accented cursor: The editor cursor takes on your accent color
@@ -64,7 +75,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Bold and italics: Styles bold and italic formatting to be less prominent
 - Horizontal rule (source mode): Styles horizontal rules to span the width of the editor
 - Editor list bullets (source mode): Replace *, -, + with a bullet character when creating lists
-- Live preview bullet size adjust: Increase or decrease live preview mode bullet sizes. The default is 100%, or no change.
 
 **Preview Customization**: 
 - Dynamic Header Spacing: Applies the top and bottom header margins defined below, and adjusts spacing dynamically when the "Contextual Typography" plugin is active
@@ -72,7 +82,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Seamless embed: Display embedded content seamlessly as a part of the containing document
 - Preview bullet size adjust: Increase or decrease preview mode bullet sizes. The default is 100%, or no change.
 - **Level 1 Headings**: 
-    - H1 Color
     - H1 font size: Accepts any CSS font-size value
     - H1 line height: Accepts decimal values
     - H1 top margin: Accepts decimal values representing the number of lines to add before the heading
@@ -80,7 +89,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H1 font weight: Accepts numbers represeting the CSS font-weight
     - H1 font style: Accepts any CSS font-style value
 - **Level 2 Headings**: 
-    - H2 Color
     - H2 font size: Accepts any CSS font-size value
     - H2 line height: Accepts decimal values
     - H2 top margin: Accepts decimal values representing the number of lines to add before the heading
@@ -88,7 +96,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H2 font weight: Accepts numbers represeting the CSS font-weight
     - H2 font style: Accepts any CSS font-style value
 - **Level 3 Headings**: 
-    - H3 Color
     - H3 font size: Accepts any CSS font-size value
     - H3 line height: Accepts decimal values
     - H3 top margin: Accepts decimal values representing the number of lines to add before the heading
@@ -96,7 +103,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H3 font weight: Accepts numbers represeting the CSS font-weight
     - H3 font style: Accepts any CSS font-style value
 - **Level 4 Headings**: 
-    - H4 Color
     - H4 font size: Accepts any CSS font-size value
     - H4 line height: Accepts decimal values
     - H4 top margin: Accepts decimal values representing the number of lines to add before the heading
@@ -104,7 +110,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H4 font weight: Accepts numbers represeting the CSS font-weight
     - H4 font style: Accepts any CSS font-style value
 - **Level 5 Headings**: 
-    - H5 Color
     - H5 font size: Accepts any CSS font-size value
     - H5 line height: Accepts decimal values
     - H5 top margin: Accepts decimal values representing the number of lines to add before the heading
@@ -112,7 +117,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H5 font weight: Accepts numbers represeting the CSS font-weight
     - H5 font style: Accepts any CSS font-style value
 - **Level 6 Headings**: 
-    - H6 Color
     - H6 font size: Accepts any CSS font-size value
     - H6 line height: Accepts decimal values
     - H6 top margin: Accepts decimal values representing the number of lines to add before the heading

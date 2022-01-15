@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-pocket|Pocket integration]]
+- [[obsidian-pocket|Pocket]]
 
 %% End Hub: Released contributions %%
 

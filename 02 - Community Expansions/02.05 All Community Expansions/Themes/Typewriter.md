@@ -70,5 +70,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[obsidian-day-planner|Day Planner]]
 - [[workbench-obsidian|Workbench]]
 - [[obsidian-citation-plugin|Citations]]
+- [[obsidian-journey-plugin|Journey]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

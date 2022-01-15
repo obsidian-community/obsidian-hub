@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [mcndt](https://github.com/mcndt/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/mcndt> ^website
+- Website: <https://mcndt.github.io/> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%

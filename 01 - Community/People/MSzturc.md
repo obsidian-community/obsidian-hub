@@ -1,12 +1,12 @@
 ---
 aliases:
-- MSzturc
+- Matthäus Szturc
 tags:
 - 
 publish: true
 ---
 
-# MSzturc
+# Matthäus Szturc
 
 - GitHub: [MSzturc](https://github.com/MSzturc/) ^github
 <!-- - Discord: `@` ^discord-->
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[better-pdf-plugin|Better PDF Plugin]]
+- [[obsidian-advanced-slides|Advanced Slides]]
 
 %% End Hub: Released contributions %%
 
