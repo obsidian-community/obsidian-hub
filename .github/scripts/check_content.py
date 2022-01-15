@@ -1,5 +1,6 @@
 import argparse
 import os.path
+import re
 import sys
 from os import walk
 
@@ -10,22 +11,41 @@ from make_mocs import MocFileAndDirectoryFilter
 from utils import get_root_of_vault
 
 
-def check_content_of_working_directory() -> int:
+class ErrorLogger:
+    def __init__(self):
+        self.error_count = 0
+
+    def log_error(self, relative_path, message):
+        """
+        Log an error. Errors are treated as failures, giving a non-zero exit code from the script.
+        """
+        print(f'\nError:\n  {message}:\n  {relative_path} ')
+        self.error_count += 1
+
+    def log_warning(self, relative_path, message):
+        """
+        Log a warning. These will not cause the script to fail.
+        """
+        print(f'\nWarning:\n  {message}:\n  {relative_path} ')
+
+
+logger = ErrorLogger()
+
+
+def check_content_of_working_directory() -> None:
     """
     Walks through the filetree rooted at the current working directory.
     For each file that it finds, it validates the file
     """
-    error_count = 0
     moc_filter = MocFileAndDirectoryFilter()
     for root, dirs, files in walk('.', topdown=True):
         moc_filter.filter_directories(dirs)
         for file in files:
             relative_path = os.path.join(root, file)
-            error_count += check_file(relative_path, file)
-    return error_count
+            check_file(relative_path, file)
 
 
-def check_file(relative_path: str, file: str) -> int:
+def check_file(relative_path: str, file: str) -> None:
     """
     Check the given file for any issues.
 
@@ -39,32 +59,54 @@ def check_file(relative_path: str, file: str) -> int:
     """
     # Ignore 'dot' files, such as '.gitignore'
     if file[0] == '.':
-        return 0
-
-    errors = 0
+        return
 
     if '.' not in file:
-        print(f'Error:\n  This file has no extension: consider adding ".md" to its name:\n  {relative_path} ')
-        errors += 1
+        logger.log_error(relative_path, 'This file has no extension: consider adding ".md" to its name')
 
-    # Other checks may be added here in future
-    return errors
+    check_file_markdown_content(relative_path)
 
 
-def check_content_of_vault() -> int:
+def get_internal_links(content):
+    regex = r'\[\[[^[]*]]'
+    return re.findall(regex, content)
+
+
+def check_file_markdown_content(file) -> None:
+    if not file.endswith('.md'):
+        return
+    with open(file) as f:
+        content = f.read()
+
+        internal_links = get_internal_links(content)
+        for link in internal_links:
+            check_link(file, link)
+
+
+def check_link(file, link) -> None:
+    number_of_pipes = link.count('|')
+    if number_of_pipes > 1:
+        allowed_links_with_pipes = [
+            '[[obsidian-plugin-todo|Obsidian TODO | Text-based GTD]]'
+        ]
+        if link not in allowed_links_with_pipes:
+            logger.log_warning(file, f"Too many aliases in wiki link: {link}")
+
+
+def check_content_of_vault() -> None:
     os.chdir(get_root_of_vault())
-    return check_content_of_working_directory()
+    check_content_of_working_directory()
 
 
-def main(argv=sys.argv[1:]):
+def main(argv=sys.argv[1:]) -> None:
     parser = argparse.ArgumentParser(
         description="Check for issues with the content of the Hub vault (such as errors in file names)."
     )
     args = parser.parse_args(argv)
 
-    return check_content_of_vault()
+    check_content_of_vault()
 
 
 if __name__ == "__main__":
-    result = main()
-    exit(result)
+    main()
+    exit(logger.error_count)
