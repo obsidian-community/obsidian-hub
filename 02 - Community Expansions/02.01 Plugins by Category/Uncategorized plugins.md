@@ -95,4 +95,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-rant|Rant-Lang]]
 - [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]]
 - [[obsidian-global-hotkeys|Global Hotkeys]]
+- [[obsidian-timestamper|TimeStamper]]
+- [[obsidian-import-json|JSON Importer]]
+- [[import-foundry|Foundry world Importer]]
 
