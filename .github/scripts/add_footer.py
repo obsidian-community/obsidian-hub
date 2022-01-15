@@ -53,12 +53,12 @@ def add_footer(root: str, debug: bool = True):
                     if debug:
                         print(f"Processing '{relative_path}'...")
 
+                    # Read the file contents
+                    contents = f.read()
+
                     # Get the rendered template (file => relative path => html encoded)
                     render = template.render(
                         file_path=quote(relative_path))
-
-                    # Read the file contents
-                    contents = f.read()
 
                     # Check if our particular comment is present
                     if search(comment, contents):
