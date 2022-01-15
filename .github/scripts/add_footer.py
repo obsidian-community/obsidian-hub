@@ -14,13 +14,13 @@ DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', '01 Templates', 'D
 FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore']
 
 
-def add_footer(root: str, debug: bool = True):
+def add_footer(top_directory: str, debug: bool = True):
     """
     Walks through the filetree rooted at `root`.
     For each markdown file that it finds, it replaces a particular comment line with the corresponding template.
 
     Parameters:
-        root: path from which this method should run. Generally: root of the hub.
+        top_directory: path from which this method should run. Generally: root of the hub.
         debug: boolean that indicates wether or not to print logging statements
     """
     # Grab the template
@@ -32,7 +32,7 @@ def add_footer(root: str, debug: bool = True):
     comment = r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
 
     # Loop through the files
-    for root, dirs, files in walk(root, topdown=True):
+    for root, dirs, files in walk(top_directory, topdown=True):
         # Exclude directories and files
         dirs[:] = [d for d in dirs if d not in DIRECTORIES_TO_EXCLUDE]
         files[:] = [f for f in files if f not in FILES_TO_EXCLUDE]
@@ -47,7 +47,7 @@ def add_footer(root: str, debug: bool = True):
                 # Get the ABSOLUTE filepath
                 absolute_path = join(root, file)
 
-                relative_path = relpath(absolute_path, root)
+                relative_path = relpath(absolute_path, top_directory)
                 # Open the (ABSOLUTE) file in read/write mode
                 with open(absolute_path, "r+") as f:
                     if debug:
