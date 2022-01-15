@@ -50,23 +50,23 @@ def add_footer(top_directory: str, debug: bool = True):
                 absolute_path = join(root, file)
 
                 relative_path = relpath(absolute_path, top_directory)
-                # Open the (ABSOLUTE) file in read/write mode
-                with open(absolute_path, "r+") as f:
+                # Read the Markdown
+                with open(absolute_path, "r") as f:
                     if debug:
                         print(f"Processing '{relative_path}'...")
 
                     # Read the file contents
                     contents = f.read()
 
-                    replacement = add_footer_to_markdown(relative_path, contents, comment, template, debug)
+                replacement = add_footer_to_markdown(relative_path, contents, comment, template, debug)
 
-                    # Actually write
-                    # This is done by seeking to the beginning of the file
-                    f.seek(0)
-                    # Then writing the replacement string
+                if replacement == contents:
+                    # Nothing to do!
+                    continue
+
+                # Write the updated Markdown content:
+                with open(absolute_path, "w") as f:
                     f.write(replacement)
-                    # And finally truncating the file to close it
-                    f.truncate()
 
 
 def add_footer_to_markdown(relative_path, contents, comment, template, debug):
