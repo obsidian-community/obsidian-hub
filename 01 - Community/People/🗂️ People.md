@@ -114,6 +114,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/erichalldev|erichalldev]]
 -  [[01 - Community/People/erykwalder|erykwalder]]
 -  [[01 - Community/People/esm7|esm7]]
+-  [[01 - Community/People/farling42|farling42]]
 -  [[01 - Community/People/FHachez|FHachez]]
 -  [[01 - Community/People/firinael|firinael]]
 -  [[01 - Community/People/fivol|fivol]]
