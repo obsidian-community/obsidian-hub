@@ -35,7 +35,9 @@ def add_footer(top_directory: str, debug: bool = True):
     for root, dirs, files in walk(top_directory, topdown=True):
         # Exclude directories and files
         dirs[:] = [d for d in dirs if d not in DIRECTORIES_TO_EXCLUDE]
+        dirs.sort()
         files[:] = [f for f in files if f not in FILES_TO_EXCLUDE]
+        files.sort()
 
         # Loop through the files
         for file in files:
