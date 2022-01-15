@@ -48,15 +48,15 @@ def add_footer(root: str, debug: bool = True):
                 absolute_path = join(root, file)
 
                 relative_path = relpath(absolute_path, root)
-                if debug:
-                    print(f"Processing '{relative_path}'...")
-
-                # Get the rendered template (file => relative path => html encoded)
-                render = template.render(
-                    file_path=quote(relative_path))
-
                 # Open the (ABSOLUTE) file in read/write mode
                 with open(absolute_path, "r+") as f:
+                    if debug:
+                        print(f"Processing '{relative_path}'...")
+
+                    # Get the rendered template (file => relative path => html encoded)
+                    render = template.render(
+                        file_path=quote(relative_path))
+
                     # Read the file contents
                     contents = f.read()
 
