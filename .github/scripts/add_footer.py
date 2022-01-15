@@ -45,9 +45,9 @@ def add_footer(root: str, debug: bool = True):
             if file.endswith(".md"):
 
                 # Get the ABSOLUTE filepath
-                the_file = join(root, file)
+                absolute_path = join(root, file)
 
-                relative_path = relpath(the_file, root)
+                relative_path = relpath(absolute_path, root)
                 if debug:
                     print(f"Processing '{relative_path}'...")
 
@@ -56,7 +56,7 @@ def add_footer(root: str, debug: bool = True):
                     file_path=quote(relative_path))
 
                 # Open the (ABSOLUTE) file in read/write mode
-                with open(the_file, "r+") as f:
+                with open(absolute_path, "r+") as f:
                     # Read the file contents
                     contents = f.read()
 
