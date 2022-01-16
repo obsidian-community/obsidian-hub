@@ -7,12 +7,6 @@ import utils
 from test_templates import JINJA_TEMPLATES_DIR, approval_test_options
 
 
-# TODO
-# Test rewriting
-# Test that file is not changed if it already has the header
-# Test behaviour if no EOL at end of content
-
-
 # Test that the footer finds the template
 def test_consistency_that_search_expression_matches_template():
     relative_path = 'Any old file.md'
