@@ -1,3 +1,4 @@
+import re
 from approvaltests.approvals import verify
 
 import add_footer
@@ -9,8 +10,25 @@ from test_templates import JINJA_TEMPLATES_DIR, approval_test_options
 # TODO
 # Test rewriting
 # Test that file is not changed if it already has the header
-# Test that the footer finds the template
 # Test behaviour if no EOL at end of content
+
+
+# Test that the footer finds the template
+def test_consistency_that_search_expression_matches_template():
+    relative_path = 'Any old file.md'
+    empty_input = ''
+    output = add_footer_to_markdown_test(empty_input, relative_path)
+
+    explanation = """
+
+ERROR.
+If this test fails, the search expression in add_footer.py does not find the footer template.
+They need to be consistent, to prevent multiple footer accumulating.
+"""
+    comment = add_footer.get_footer_comment_regex()
+    # Make sure that the regex comment finds the text added from the footer template
+    assert re.search(comment, output), explanation
+
 
 # Simple test, that footer is added if not present.
 def test_footer_added_if_missing():
