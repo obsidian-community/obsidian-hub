@@ -222,6 +222,7 @@ Here is a list of useful Extensions:
 ### General
 - [**Color Highlight**](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) - Adds a background of the color corresponding to the color value in the code. 
 - [**Code Spell Checker**](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spell checking for VSCode. By Default it's set to US English and comes with GB English as well. Other languages are available as additional Extensions.
+- [Change Color Format](https://marketplace.visualstudio.com/items?itemName=bbugh.change-color-format) - enables you to quickly convert colors into different color formats.
 
 ### Sass/SCSS
 - [**Sass**](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) - Indented Sass syntax highlighting, autocomplete & Formatter for VSCode.
