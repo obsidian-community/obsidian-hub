@@ -143,3 +143,9 @@ If you'd like to support my work (and potentially fund the purchase of a new iPa
 In more personal news, my son just started daycare. To celebrate, I'm getting ready for a major refactor of my vault to bring some of my older files in line with my newly developed "best practices." **If there's anything you'd like me to write an article about or host a community talk for, let me know.** I'll have my hands in the guts of my system, so it's a good time to showcase what I used to do, what I do now, and why  I'm changing it.
 
 I'll try to set aside time for more writing about knowledge management if there's interest. Mostly I default to focusing on [writing about obscure history and science](http://newsletter.eleanorkonik.com/) over on my fiction + research newsletter, but I'm pretty open to answering questions about Obsidian if you have any.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-01-15%20%20Dataview%20Optimizations%2C%20Live%20Preview%20for%20Mobile%2C%20and%20Community%20Talks.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-01-15%20%20Dataview%20Optimizations%2C%20Live%20Preview%20for%20Mobile%2C%20and%20Community%20Talks.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

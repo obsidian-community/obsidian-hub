@@ -105,3 +105,9 @@ You can subscribe to the calendar of upcoming talks using [this link](https://se
 
 -   I found this awesome explanation about why it's best to [just ask your question](https://dontasktoask.com/) instead of asking "can I ask a question" or "does anybody know anything about this thing." It pairs nicely with this twitter thread I wrote about [my guidelines for beta-testing and bug-reporting](https://twitter.com/EleanorKonik/status/1443616759441920001).
 -   If anybody wants to adapt the current roundup theme to have a JavaScript button to have a dark mode option like my newsletter [The Iceberg](http://newsletter.eleanorkonik.com/) does, I'm happy to send over the files — I just haven't been able to figure it out. In the  meantime, `@Optional#4159` made this [dark theme](https://userstyles.world/style/1266/obsidian-roundup-dark).
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-10-02%20%20Premade%20Concept%20Hierarchies%20%26%20a%20Virtual%20Community%20Meeting%20Space.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-10-02%20%20Premade%20Concept%20Hierarchies%20%26%20a%20Virtual%20Community%20Meeting%20Space.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

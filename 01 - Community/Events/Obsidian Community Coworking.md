@@ -43,3 +43,9 @@ The far left is the Library, there are areas for people to work alone. On the fa
 
 ## Other Areas
 Other areas are currently a work in progress. Contact `Leah#9156` on the Community Talks Topia Discord channel or ping her on the Obsidian Discord if you have questions about these areas.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Events/Obsidian%20Community%20Coworking.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Events/Obsidian%20Community%20Coworking.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

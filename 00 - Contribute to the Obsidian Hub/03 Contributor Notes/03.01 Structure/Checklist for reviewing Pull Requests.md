@@ -31,3 +31,9 @@ After merging:
 - Do the MOCs need updating? See [[Updating MOC files]]
 - Does the [tree of directories in Contributing](https://github.com/obsidian-community/obsidian-hub/blob/main/CONTRIBUTING.md#structure-of-the-community-vault) need to be updated? See comments in the source of that file.
 - If a directory was renamed (rare), check to see if you need delete the previous MOC
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/03%20Contributor%20Notes/03.01%20Structure/Checklist%20for%20reviewing%20Pull%20Requests.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/03%20Contributor%20Notes/03.01%20Structure/Checklist%20for%20reviewing%20Pull%20Requests.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

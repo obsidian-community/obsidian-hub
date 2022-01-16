@@ -94,3 +94,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 -   Sorry about another abbreviated edition of the Roundup, but whelp, my family celebrates Christmas and I kind of forgot I wouldn't have childcare yesterday, whups. Merry Christmas from my family to yours, I promise to do better for New Year's! If there's something cool you saw in the last three weeks and it didn't make it into the Roundup, please feel free to reach out and make sure I don't miss it.
 -   Contrary to how things went for December, I expect to have some extra time in January when my son starts going half-days to daycare. If there's a burning question or topic you've been hoping I'd write an article about, reach out and I'll see about adding it to my list of projects.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-12-25%20%20Live%20Preview%20Updates%20and%20Documentation.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-12-25%20%20Live%20Preview%20Updates%20and%20Documentation.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
