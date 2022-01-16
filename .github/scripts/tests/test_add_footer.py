@@ -37,6 +37,16 @@ CHECK that path in URLs has been encoded.
     output = add_footer_to_markdown_test(input, relative_path)
     verify_footer_addition(input, output)
 
+# Ensure eol is added before footer, if missing from input file
+def test_end_of_line_added_if_missing():
+    relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
+    input = \
+        f"""# Sample note content.
+Path used for this test: `{relative_path}`
+I do not have a line-ending at end of file. A blank line should be added."""
+    output = add_footer_to_markdown_test(input, relative_path)
+    verify_footer_addition(input, output)
+
 
 # Test that footer is not added twice
 # Test that footer is updated if content differs

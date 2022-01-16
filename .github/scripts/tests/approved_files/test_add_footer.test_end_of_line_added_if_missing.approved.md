@@ -4,10 +4,7 @@ INPUT:
 ---
 # Sample note content.
 Path used for this test: `04 - Guides, Workflows, & Courses/for Plugin Developers.md`
-If the above file still exists in the vault, then the generated links
-should still work.
-CHECK that path in URLs has been encoded.
-
+I do not have a line-ending at end of file. A blank line should be added.
 ---
 
 OUTPUT:
@@ -15,9 +12,7 @@ OUTPUT:
 ---
 # Sample note content.
 Path used for this test: `04 - Guides, Workflows, & Courses/for Plugin Developers.md`
-If the above file still exists in the vault, then the generated links
-should still work.
-CHECK that path in URLs has been encoded.
+I do not have a line-ending at end of file. A blank line should be added.
 
 %% Hub footer: Please don't edit anything below this line %%
 
