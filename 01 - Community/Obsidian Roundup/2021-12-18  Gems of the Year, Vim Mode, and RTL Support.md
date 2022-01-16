@@ -15,7 +15,7 @@ publish: true
 
 ### [Insider 0.13.8](https://forum.obsidian.md/t/obsidian-release-v0-13-8-insider-build/28329/2)
 
--   Obsidian Sync now has a bulk restore functionality for deleted files.
+-   [[Obsidian Sync]] now has a bulk restore functionality for deleted files.
 -   “Preview mode” has been renamed to “Reading view” to avoid confusion.
 -   Vim mode is now available for both Live Preview and Source mode.
 -   You can now set the default editing mode to Live Preview or Source Mode.

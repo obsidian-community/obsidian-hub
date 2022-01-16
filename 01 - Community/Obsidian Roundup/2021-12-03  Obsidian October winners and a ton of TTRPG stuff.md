@@ -27,7 +27,7 @@ _Note: Not all new plugins are available in the community list yet, as they need
 -   You can now get a [page count](https://github.com/ReaderGuy42/Obsidian-Page-Count) on your status bar.
 -   You can now launch an image file in your vault in a new Obsidian window thanks to [Image Window](https://github.com/valentine195/obsidian-image-window), which I'm told is handy for TTRPG DMs who can't see their second monitor.
 -   Title Serial Number automatically [gives section headings an ID number](https://github.com/yalvhe2009/obsidian-title-serial-number-plugin).
--   This [graphviz](https://github.com/QAMichaelPeng/obsidian-graphviz) integration seems like a nifty alternative to mermaid.
+-   This [graphviz](https://github.com/QAMichaelPeng/obsidian-graphviz) integration seems like a nifty alternative to [[Mermaid]].
 -   [Preview Mode Keybinds](https://github.com/horriblename/preview-mode-keybinds-obsidian) adds vim-like keybindings to preview mode.
 
 ### Updates
@@ -73,7 +73,7 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 ## Knowledge Management
 
--   `@aBoppy6` discussed their thought process for reviewing conceptual notes with spaced repetition. You can read more about it on [their Obsidian Publish site](https://publish.obsidian.md/tim/50_Projects/Using+spaced+repetition+for+your+conceptual+notes).
+-   `@aBoppy6` discussed their thought process for reviewing conceptual notes with [[Spaced repetition|spaced repetition]]. You can read more about it on [their Obsidian Publish site](https://publish.obsidian.md/tim/50_Projects/Using+spaced+repetition+for+your+conceptual+notes).
 
 ## Ancillary Tools
 

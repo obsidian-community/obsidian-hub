@@ -16,7 +16,7 @@ publish: true
 versions [v0.13.11](https://forum.obsidian.md/t/obsidian-release-v0-13-11-insider-build/28809), [v0.13.12](https://forum.obsidian.md/t/obsidian-release-v0-13-12-insider-build/28813/2), [v0.13.13](https://forum.obsidian.md/t/obsidian-release-v0-13-13-insider-build/28955/1) & [v0.13.14](https://forum.obsidian.md/t/obsidian-release-v0-13-14/29006)  have been bundled up and are now available for public access, which means:
 
 -   [Live Preview](https://help.obsidian.md/Live+preview+update) is now available for public access. Not all plugins and themes are updated to support the new editor, so please be patient and check the relevant repositories if the update leads to missing functionality you really need.
--   Obsidian Sync now has bulk restore functionality.
+-   [[Obsidian Sync]] now has bulk restore functionality.
 -   There's now RTL support, a better spellchecker, built in syntax highlighting, and several performance improvements.
 
 ## Plugin News

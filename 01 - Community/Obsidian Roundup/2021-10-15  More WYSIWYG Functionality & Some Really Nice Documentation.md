@@ -74,7 +74,7 @@ publish: true
 -   My community talk about [project management in Obsidian](https://youtube.com/watch?v=F4LE-nIzefM) is live on YouTube. I focused mostly on fiction, but it's a comprehensive overview of my workflow from beginning (ideation) to end (tracking the marketing for a finished product).
 -   Here's a new and very comprehensive [getting started" guide for PKM in Obsidian](https://www.nickseitz.com/writing/obsidian-day-one-starterpack) from `@_Nick`
 -   `@ryanjamurphy` put together a guide to creating [an Obsidian homescreen](https://axle.design/an-obsidian-homescreen-for-iphone-and-ipad) for iOS. It includes detailed instructions for each of the shortcuts and a video walkthrough of what it looks like to use each button/widget.
--   `@joshduffney` tried out a paper Zettelkasten and then re-read _How to Take Smart Notes_ to get a better understanding of the practice and shared his new understanding [on YouTube](https://www.youtube.com/watch?v=OP2WnLgvYBs).
+-   `@joshduffney` tried out a paper [[Zettelkasten]] and then re-read _How to Take Smart Notes_ to get a better understanding of the practice and shared his new understanding [on YouTube](https://www.youtube.com/watch?v=OP2WnLgvYBs).
 -   Here's a guide for [how to build a plugin using Svelte](https://marcus.se.net/obsidian-plugin-docs/guides/svelte).
 
 ## Discussions

@@ -59,7 +59,7 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 ### Updates
 
 -   As of [0.3.2](https://github.com/lanice/obsidian-rant), inline rant-lang blocks now also markdown-parse the output.
--   Version 1.7.0 of the Spaced Repetition Plugin supports note transclusion, audio & video in flashcards. It also got some bug fixes, and allows users to zoom into an image when clicking it. It's even been translated into German and Dutch!
+-   Version 1.7.0 of the [[obsidian-spaced-repetition|Spaced Repetition Plugin]] supports note transclusion, audio & video in flashcards. It also got some bug fixes, and allows users to zoom into an image when clicking it. It's even been translated into German and Dutch!
 -   [Metacopy](https://github.com/Mara-Li/obsidian-metacopy/releases/tag/0.0.20) now allows users to create a link based on a frontmatter key and a base value. Users can also disable the file and context menus using a frontmatter key.
 -   React Components 0.1.3 now supports Live Preview.
 -   [Advanced Slides 1.3.0](https://github.com/MSzturc/obsidian-advanced-slides) allows users to export slides to html and got a bunch of bugfixes. 1.5.0 added a chalkboard, a menu plugin, and a bunch of settings.
