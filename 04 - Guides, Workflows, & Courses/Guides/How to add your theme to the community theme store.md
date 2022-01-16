@@ -43,3 +43,9 @@ Your theme must be hosted on GitHub on a public repository. Before submitting yo
 5. You'll be prompted to use the pull request template. Complete everything in it and submit.
 	![[theme-submission-PR-template.png]]
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20add%20your%20theme%20to%20the%20community%20theme%20store.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20add%20your%20theme%20to%20the%20community%20theme%20store.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
