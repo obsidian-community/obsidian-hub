@@ -106,3 +106,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 -   For clarity's sake, [CardBoard](https://github.com/roovo/obsidian-card-board) is the plugin that works like an alternate kanban board. [CorkBoard](https://github.com/jmilldotdev/obsidian-corkboard) is a Scrivener-esque corkboard view that functions as a visual canvas for Obsidian notes.
 -   Normally, a premium membership for my history & fantasy fiction newsletter is $20/year, but I'm currently running a [25% off sale](https://newsletter.eleanorkonik.com/100-500) for the annual membership. I don't mention it often, but membership comes with .zip files of my actual working Obsidian vault backups. I remove obvious stuff like my taxes & copyrighted PDFs, but otherwise it's my actual setup, complete with all my notes into weird history, niche science, and how my fantasy stories connect with everything.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-11-20%20%20Live%20Preview%20Updates%2C%20Fancy%20Checkboxes%20and%20Tips%20for%20Devs.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-11-20%20%20Live%20Preview%20Updates%2C%20Fancy%20Checkboxes%20and%20Tips%20for%20Devs.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

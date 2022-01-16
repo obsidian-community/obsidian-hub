@@ -106,3 +106,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 -   My family all tested negative for COVID, thank you for all the well-wishes! I'm still recovering from whatever minor bug I coincidentally caught, but we're doing well. 💚
 -   Note: I shipped this Thursday morning, because I'll be on vacation when you get it, so if I missed something that would normally have been included, check back next week
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-12-11%20%20Nominate%20Gems%20of%20the%20Year%20and%20a%20new%20book%20club.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-12-11%20%20Nominate%20Gems%20of%20the%20Year%20and%20a%20new%20book%20club.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

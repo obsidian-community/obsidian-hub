@@ -219,3 +219,9 @@ Note that variables that are contained in a module that's imported need to have 
 TIP: You can keep your variables in a `_var.scss` file, and then whenever you use a variable from that module, write `@use 'var';` at the beginning of the file, and `var.$variable-name` as the variable name. This makes it somewhat similar to CSS custom properties syntax, so it's easier to remember.
 
 These are just a few SCSS features you can use in order to make writing CSS easier for you. You can read up on the [SASS Documentation](https://sass-lang.com/documentation) to get a better grasp of its rules and capabilities.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Want%20some%20Sass%20with%20your%20obsidian%20theme%E2%80%BD%20here%27s%20How%20and%20Why.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Want%20some%20Sass%20with%20your%20obsidian%20theme%E2%80%BD%20here%27s%20How%20and%20Why.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

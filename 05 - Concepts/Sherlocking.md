@@ -20,3 +20,9 @@ However, Sherlocking is often also often seen as a *desired* behavior, e.g. when
 - [Paste that Shizz](https://github.com/shabegom/paste-that-shizz)
 - [Copy Button for Code Blocks](https://github.com/jdbrice/obsidian-code-block-copy)
 - [[obsidian-code-copy|Code Copy]]
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/05%20-%20Concepts/Sherlocking.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/05%20-%20Concepts/Sherlocking.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

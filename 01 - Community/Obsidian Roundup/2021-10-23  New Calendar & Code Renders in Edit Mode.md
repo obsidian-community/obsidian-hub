@@ -110,3 +110,9 @@ _Remember: You can manually install plugins that aren't in the community list by
 -   Here's a discussion of [Windows file explorer tools](https://www.reddit.com/r/ObsidianMD/comments/qcetgb/using_obsidian_as_a_file_explorer/) that "feel" like Obsidian for navigating files.
 
 ## Housekeeping
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-10-23%20%20New%20Calendar%20%26%20Code%20Renders%20in%20Edit%20Mode.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-10-23%20%20New%20Calendar%20%26%20Code%20Renders%20in%20Edit%20Mode.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
