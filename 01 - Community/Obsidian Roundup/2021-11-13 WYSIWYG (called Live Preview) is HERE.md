@@ -154,3 +154,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 ## Housekeeping
 
 -   I shared a [pretty wholesome thread](https://twitter.com/EleanorKonik/status/1458774483569893379) about the impact Obsidian has had on me personally, and why I believe that tools _do_ matter and that "tweaking settings instead of writing" _can_ be "productive." Check it out!
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-11-13%20WYSIWYG%20%28called%20Live%20Preview%29%20is%20HERE.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-11-13%20WYSIWYG%20%28called%20Live%20Preview%29%20is%20HERE.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

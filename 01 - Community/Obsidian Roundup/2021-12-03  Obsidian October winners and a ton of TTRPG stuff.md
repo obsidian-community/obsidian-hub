@@ -83,3 +83,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 -   My family had a COVID exposure so we're going into quarantine, and bonus, I'm not feeling well (at-home COVID test read negative, have a dr appt Monday, wish me luck), so sorry if this is a little abrupt and short this week. Happy birthday to me! Anything I missed this week (aka reddit, twitter, the forum, and my bookmarks) I'll try to include next week.
 -   Also, thank you to moderator Leah who helped me write this so I could take a nap. I offered to pay her, but she said to [donate to her local Alzheimer Society](https://alzheimer.ca/greybruce/en/take-action/donate), which offers services and support to people living with dementia, their families and their caregivers. If you'd like to join me in thanking her for stepping up so that the Roundup could still happen, I'm sure it would make her day. 💚
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-12-03%20%20Obsidian%20October%20winners%20and%20a%20ton%20of%20TTRPG%20stuff.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-12-03%20%20Obsidian%20October%20winners%20and%20a%20ton%20of%20TTRPG%20stuff.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
