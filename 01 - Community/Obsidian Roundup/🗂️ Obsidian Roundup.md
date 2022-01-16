@@ -49,3 +49,9 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2021.09.18|2021.09.18]]
 -  [[01 - Community/Obsidian Roundup/2021.09.25|2021.09.25]]
 %% Hub MOCs: Don’t edit above  %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/%F0%9F%97%82%EF%B8%8F%20Obsidian%20Roundup.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/%F0%9F%97%82%EF%B8%8F%20Obsidian%20Roundup.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

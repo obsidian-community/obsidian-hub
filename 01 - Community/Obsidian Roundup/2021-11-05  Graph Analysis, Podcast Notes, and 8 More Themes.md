@@ -98,3 +98,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 -   Snipd lets users [export podcast highlights to Obsidian](https://blog.snipd.com/how-to-export-your-podcast-highlights-to-obsidian-54208c06d491).
 -   Here's a nifty list of [name generators](https://discord.com/channels/686053708261228577/805952223124520961/904118778160377917).
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-11-05%20%20Graph%20Analysis%2C%20Podcast%20Notes%2C%20and%208%20More%20Themes.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-11-05%20%20Graph%20Analysis%2C%20Podcast%20Notes%2C%20and%208%20More%20Themes.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

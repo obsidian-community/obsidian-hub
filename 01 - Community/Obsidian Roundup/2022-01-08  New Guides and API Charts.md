@@ -112,3 +112,9 @@ Last week, we discussed "shoot for the moon" ideas for exciting things the commu
 -   Here's a sample [Airtable Database for Personal Knowledge Management](https://airtable.com/shrIw43VorHcjsJWn)
 -   [The Raycast Obsidian extension](https://www.raycast.com/marcjulian/obsidian) now supports opening vaults, easy vault switching, and multiple vaults.
 -   Here's a writeup about the "future of search" as it relates to [Semantic Search & Obsidian](https://bram.substack.com/p/the-future-of-search-is-not-what).
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-01-08%20%20New%20Guides%20and%20API%20Charts.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-01-08%20%20New%20Guides%20and%20API%20Charts.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

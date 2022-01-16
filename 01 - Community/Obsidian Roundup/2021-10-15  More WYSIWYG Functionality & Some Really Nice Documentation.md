@@ -92,3 +92,9 @@ publish: true
 -   Sorry I sent this early last week — I know I confused a couple of people! I hit the wrong button in Ghost because I was in a hurry, totally my own fault.
 -   If the lack of dark mode for the Obsidian Roundup website has been annoying you, please buy `@phibr0` [a coffee](https://www.buymeacoffee.com/phibr0), because he fixed the [Roundup's CSS](https://www.obsidianroundup.org/) so that it updates based on your system preferences (and made a few other tweaks that I have been putting off).
 -   I did not forget about the topia community coworking space, but we ran into some technical limitations that didn't get caught in testing (we uh, we have more than 9 people who show up to events). I have some meetings with various software folks next week to see if we can't find something that works for the numbers of people who show up. Most stuff seems geared mostly for workplaces or conventions? If you have any recommendations please reach out!
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-10-15%20%20More%20WYSIWYG%20Functionality%20%26%20Some%20Really%20Nice%20Documentation.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-10-15%20%20More%20WYSIWYG%20Functionality%20%26%20Some%20Really%20Nice%20Documentation.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

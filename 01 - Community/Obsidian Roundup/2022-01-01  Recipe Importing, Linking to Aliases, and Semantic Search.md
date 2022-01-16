@@ -136,3 +136,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 Thanks to how many of you guys were interested in [Refind](https://refind.com/?utm_source=newsletter&utm_medium=barter&utm_campaign=Mn6vY1aQFu5DtmSrH9P7sg) ("The essence of the web, every morning in your inbox") when it got mentioned because it syncs to Readwise (which syncs to Obsidian), the developer invited me to curate a deep dive into [the history of food](https://refind.com/EleanorKonik/the-history-of-food). I'm pretty stoked about it, and the developer was impressed at how fast I was able to get it written, thanks to my Obsidian notes ;)
 
 Refind's thing is that they try to summarize and offer overviews of things you might be interested in. It's mostly focused on getting machine learning algorithms to find you articles you're likely to enjoy, but there are also hand-curated lists and some interesting database features. I mostly use it for the ability to search a database that's limited to interesting longform articles (i.e. not the SEO dreck I get from most search engines).
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-01-01%20%20Recipe%20Importing%2C%20Linking%20to%20Aliases%2C%20and%20Semantic%20Search.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-01-01%20%20Recipe%20Importing%2C%20Linking%20to%20Aliases%2C%20and%20Semantic%20Search.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

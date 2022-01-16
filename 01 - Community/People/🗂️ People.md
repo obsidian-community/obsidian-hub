@@ -354,3 +354,9 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/zolrath|zolrath]]
 -  [[01 - Community/People/zsviczian|zsviczian]]
 %% Hub MOCs: Don’t edit above  %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/People/%F0%9F%97%82%EF%B8%8F%20People.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/People/%F0%9F%97%82%EF%B8%8F%20People.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

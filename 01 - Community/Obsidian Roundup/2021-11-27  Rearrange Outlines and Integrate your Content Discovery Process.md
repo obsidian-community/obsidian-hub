@@ -102,3 +102,9 @@ This week was Thanksgiving in America, which means two things:
 
 -   First, I want to take a moment to thank everyone who has signed up for a [recurring membership](https://www.obsidianroundup.org/membership/) or [donated on ko-fi](https://ko-fi.com/eleanorkonik) to help defer my hosting costs. This newsletter currently has 2,963 subscribers, and once we hit 3k, the hosting fees go up a fair bit 😅
 -   Second, my life is about to get _really hectic_. This week was Thanksgiving _and_ my husband's birthday, next weekend is my birthday, the weekend after that we're taking our toddler on his first vacation, the weekend after _that_ is [WorldCon](http://www.worldcon.org/), and the weekend after that is Christmas, then New Year's, then my son's birthday. I fully intend that the Roundup's publishing schedule not be interrupted, but if I'm slightly less responsive for the next month, please be gentle 💚
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-11-27%20%20Rearrange%20Outlines%20and%20Integrate%20your%20Content%20Discovery%20Process.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-11-27%20%20Rearrange%20Outlines%20and%20Integrate%20your%20Content%20Discovery%20Process.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
