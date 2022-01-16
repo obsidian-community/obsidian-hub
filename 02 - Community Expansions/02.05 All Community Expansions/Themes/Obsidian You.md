@@ -51,3 +51,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Advanced toolbar mode: Adapts automatically to avanced mobile toolbar
 - Obsidian You branding: Toggles contrasting branding in the sidebars
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/Obsidian%20You.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/Obsidian%20You.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
