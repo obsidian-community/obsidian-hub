@@ -30,3 +30,9 @@ The hierarchy for types took a bit of figuring out, but for my workflow it is im
 Cross-referencing with different topics might sound like it gets messy, but it's eye opening. Another example is look through the `#t/principle` and comparing them. When a judge considers a case they weigh different principles just like this, which is a nice exercise. Or, looking through `#t/authority`, I can consider the American SEC against the Brazilian CVM. 
 
 *And none of these are exclusive.* If I want to focus on one hierarchy, I can fold the others. Breadcrumbs offers me all the potential of hierarchies, and doesn't really take anything away.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/03%20-%20Showcases%20%26%20Templates/Plugin%20Showcases/Breadcrumbs%20for%20Comparative%20Law.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/03%20-%20Showcases%20%26%20Templates/Plugin%20Showcases/Breadcrumbs%20for%20Comparative%20Law.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
