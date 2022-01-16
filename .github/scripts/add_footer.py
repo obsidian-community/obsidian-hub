@@ -27,9 +27,7 @@ def add_footer(top_directory: str, debug: bool = True):
     template = get_template("footer")
 
     # This is the regex to search for
-    # Note that we select the comment itself, and then ANYTHING afterwards
-    # This requires the "DOTALL" (?s) and "MULTILINE" (?m) flags to be set
-    comment = r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
+    comment = get_footer_comment_regex()
 
     # Loop through the files
     for root, dirs, files in walk(top_directory, topdown=True):
@@ -67,6 +65,13 @@ def add_footer(top_directory: str, debug: bool = True):
                 # Write the updated Markdown content:
                 with open(absolute_path, "w") as f:
                     f.write(replacement)
+
+
+def get_footer_comment_regex() -> str:
+    # This is the regex to search for
+    # Note that we select the comment itself, and then ANYTHING afterwards
+    # This requires the "DOTALL" (?s) and "MULTILINE" (?m) flags to be set
+    return r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
 
 
 def add_footer_to_markdown(relative_path, contents, comment, template, debug):
