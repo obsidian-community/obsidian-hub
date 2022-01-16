@@ -44,3 +44,9 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - Title (H1) font: Titles, or H1s, are special. Thus, they should look special. Choose a Title font that suits you!
 - MathJax font: Font for MathJax e.g. $inline equation$ and $$centered equation$$
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/Typomagical.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/Typomagical.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
