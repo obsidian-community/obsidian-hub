@@ -30,4 +30,4 @@ Didn't find what you were looking for? Found a mistake or a broken link? Have id
 
 # This note in GitHub
 
-<span class="git-footer">[Edit In Github](https://github.dev/obsidian-community/obsidian-hub/blob/main/00%20-%20Start%20here.md "git-hub-edit-note") | [Copy this Note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/00%20-%20Start%20here.md "git-hub-edit-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-edit-note") </span>
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/00%20-%20Start%20here.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/00%20-%20Start%20here.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
