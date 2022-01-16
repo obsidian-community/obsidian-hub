@@ -14,28 +14,28 @@ DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', '01 Templates', 'D
 FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore']
 
 
-def add_footer(root: str, debug: bool = True):
+def add_footer(top_directory: str, debug: bool = True):
     """
     Walks through the filetree rooted at `root`.
     For each markdown file that it finds, it replaces a particular comment line with the corresponding template.
 
     Parameters:
-        root: path from which this method should run. Generally: root of the hub.
-        debug: boolean that indicates wether or not to print logging statements
+        top_directory: path from which this method should run. Generally: root of the hub.
+        debug: boolean that indicates whether or not to print logging statements
     """
     # Grab the template
     template = get_template("footer")
 
     # This is the regex to search for
-    # Note that we select the comment itself, and then ANYTHING afterwards
-    # This requires the "DOTALL" (?s) and "MULTILINE" (?m) flags to be set
-    comment = r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
+    comment = get_footer_comment_regex()
 
     # Loop through the files
-    for root, dirs, files in walk(root, topdown=True):
+    for root, dirs, files in walk(top_directory, topdown=True):
         # Exclude directories and files
         dirs[:] = [d for d in dirs if d not in DIRECTORIES_TO_EXCLUDE]
+        dirs.sort()
         files[:] = [f for f in files if f not in FILES_TO_EXCLUDE]
+        files.sort()
 
         # Loop through the files
         for file in files:
@@ -45,41 +45,59 @@ def add_footer(root: str, debug: bool = True):
             if file.endswith(".md"):
 
                 # Get the ABSOLUTE filepath
-                the_file = join(root, file)
+                absolute_path = join(root, file)
 
-                relative_path = relpath(the_file, root)
-                if debug:
-                    print(f"Processing '{relative_path}'...")
+                relative_path = relpath(absolute_path, top_directory)
+                # Read the Markdown
+                with open(absolute_path, "r") as f:
+                    if debug:
+                        print(f"Processing '{relative_path}'...")
 
-                # Get the rendered template (file => relative path => html encoded)
-                render = template.render(
-                    file_path=quote(relative_path))
-
-                # Open the (ABSOLUTE) file in read/write mode
-                with open(the_file, "r+") as f:
                     # Read the file contents
                     contents = f.read()
 
-                    # Check if our particular comment is present
-                    if search(comment, contents):
-                        replacement = sub(comment, render, contents)
-                        if debug:
-                            print(
-                                f"\t=> Replacing everything below the line with the template for '{file}'.")
-                    # If it's not there: Add it
-                    else:
-                        replacement = contents + "\n" + render
+                replacement = add_footer_to_markdown(relative_path, contents, comment, template, debug)
 
-                        if debug:
-                            print(f"\t=> Adding the template for '{file}'.")
+                if replacement == contents:
+                    # Nothing to do!
+                    continue
 
-                    # Actually write
-                    # This is done by seeking to the beginning of the file
-                    f.seek(0)
-                    # Then writing the replacement string
+                # Write the updated Markdown content:
+                with open(absolute_path, "w") as f:
                     f.write(replacement)
-                    # And finally truncating the file to close it
-                    f.truncate()
+
+
+def get_footer_comment_regex() -> str:
+    # This is the regex to search for
+    # Note that we select the comment itself, and then ANYTHING afterwards
+    # This requires the "DOTALL" (?s) and "MULTILINE" (?m) flags to be set
+    return r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
+
+
+def add_footer_to_markdown(relative_path, contents, comment, template, debug):
+    # Get the rendered template (file => relative path => html encoded)
+    render = template.render(
+        file_path=quote(relative_path))
+
+    debug_message = ""
+
+    # Check if our particular comment is present
+    if search(comment, contents):
+        replacement = sub(comment, render, contents)
+        if debug:
+            if replacement != contents:
+                debug_message = "Replacing everything below the line with the template"
+            else:
+                debug_message = "File is unchanged"
+    # If it's not there: Add it
+    else:
+        replacement = contents + "\n" + render
+        debug_message = "Adding the template"
+
+    if debug:
+        print(f"\t=> {debug_message} for '{relative_path}'.")
+
+    return replacement
 
 
 def main():
