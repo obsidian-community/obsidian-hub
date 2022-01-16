@@ -5,7 +5,7 @@ tags:
 - seedling
 ---
 
-# A Brief History and Ethos of the Digital Garden
+# A Brief History and Ethos of the [[Digital garden|Digital Garden]]
 
 Author: Maggie Appleton
 Link: [A Brief History & Ethos of the Digital Garden](https://maggieappleton.com/garden-history)
