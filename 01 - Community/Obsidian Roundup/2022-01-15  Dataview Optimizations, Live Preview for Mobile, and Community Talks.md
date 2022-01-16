@@ -18,7 +18,7 @@ publish: true
 
 ## Obsidian Updates
 
--   Live Preview has come to the Insider build for Mobile. The only [announcement](https://discord.com/channels/686053708261228577/817515900349448202/930508939987124224) I was able to find was in  Discord.
+-   Live Preview has come to the Insider build for Mobile. The only [announcement](https://discord.com/channels/686053708261228577/817515900349448202/930508939987124224) I was able to find was in Discord.
 
 ## Plugin News
 
