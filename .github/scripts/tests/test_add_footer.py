@@ -16,7 +16,7 @@ from test_templates import JINJA_TEMPLATES_DIR, approval_test_options
 
 def test_footer_added_if_missing():
     relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
-    contents = \
+    input = \
         f"""Sample note content.
 Path used for this test: `{relative_path}`
 If the above file still exists in the vault, then the generated links
@@ -26,18 +26,18 @@ CHECK that path in URLs has been encoded.
     comment = add_footer.get_footer_comment_regex()
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "footer.md.jinja")
     debug = False
-    result = add_footer.add_footer_to_markdown(relative_path, contents, comment, template, debug)
+    output = add_footer.add_footer_to_markdown(relative_path, input, comment, template, debug)
     text_to_verify = f"""
 INPUT:
 
 ---
-{contents}
+{input}
 ---
 
 OUTPUT:
 
 ---
-{result}
+{output}
 ---
 """
     verify(text_to_verify, options=approval_test_options())
