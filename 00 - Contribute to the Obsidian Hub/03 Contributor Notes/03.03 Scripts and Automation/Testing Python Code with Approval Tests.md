@@ -98,3 +98,9 @@ But note that this links to the latest file, and we may be using a pinned versio
       - The start of the 2019-02-05 video is probably the best introduction.
 2. Python ApprovalTests library:
       - https://github.com/approvals/ApprovalTests.Python
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/03%20Contributor%20Notes/03.03%20Scripts%20and%20Automation/Testing%20Python%20Code%20with%20Approval%20Tests.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/03%20Contributor%20Notes/03.03%20Scripts%20and%20Automation/Testing%20Python%20Code%20with%20Approval%20Tests.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

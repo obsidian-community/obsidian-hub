@@ -56,3 +56,9 @@ You can now put your own temporary notes and images in to `DO NOT COMMIT/`, conf
     - **disadvantages**
         - it is not easy to edit those lists in Obsidian
         - they cannot contain internal Obsidian wiki links (as used 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/Tip%20for%20Keeping%20Hub%20TODO%20lists.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/Tip%20for%20Keeping%20Hub%20TODO%20lists.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
