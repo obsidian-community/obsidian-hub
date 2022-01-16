@@ -160,4 +160,4 @@ Please [open a new discussion at GitHub](https://github.com/obsidian-community/o
 
 # This note in GitHub
 
-<span class="github-footer">[<button class="footer-button">Edit in GitHub</button>](https://github.dev/obsidian-community/obsidian-hub/blob/main/CONTRIBUTING.md) [<button class="footer-button">Copy this Note</button>](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/CONTRIBUTING.md) [<button class="footer-button">Download this vault</button>](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip)</span>
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/CONTRIBUTING.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/CONTRIBUTING.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
