@@ -86,6 +86,5 @@ OUTPUT:
 
 ---
 {output}
----
 """
     verify(text_to_verify, options=approval_test_options())
