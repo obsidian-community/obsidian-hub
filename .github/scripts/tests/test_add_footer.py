@@ -16,7 +16,7 @@ from test_templates import JINJA_TEMPLATES_DIR, approval_test_options
 def test_footer_added_if_missing():
     relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
     input = \
-        f"""Sample note content.
+        f"""# Sample note content.
 Path used for this test: `{relative_path}`
 If the above file still exists in the vault, then the generated links
 should still work.
@@ -32,7 +32,7 @@ def test_footer_updated_if_present():
     relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
     text_to_be_overwritten = 'CHECK THAT I AM NOT PRESENT IN FINAL OUTPUT'
     raw_content = \
-        f"""Sample note content.
+        f"""# Sample note content.
 Path used for this test: `{relative_path}`
 CHECK that the footer is only present once in the output.
 CHECK that UPPER-CASE of this text is not present: '{text_to_be_overwritten.lower()}'

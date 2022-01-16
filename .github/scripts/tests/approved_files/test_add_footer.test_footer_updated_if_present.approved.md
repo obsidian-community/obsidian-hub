@@ -2,7 +2,7 @@
 INPUT:
 
 ---
-Sample note content.
+# Sample note content.
 Path used for this test: `04 - Guides, Workflows, & Courses/for Plugin Developers.md`
 CHECK that the footer is only present once in the output.
 CHECK that UPPER-CASE of this text is not present: 'check that i am not present in final output'
@@ -17,7 +17,7 @@ CHECK THAT I AM NOT PRESENT IN FINAL OUTPUT
 OUTPUT:
 
 ---
-Sample note content.
+# Sample note content.
 Path used for this test: `04 - Guides, Workflows, & Courses/for Plugin Developers.md`
 CHECK that the footer is only present once in the output.
 CHECK that UPPER-CASE of this text is not present: 'check that i am not present in final output'

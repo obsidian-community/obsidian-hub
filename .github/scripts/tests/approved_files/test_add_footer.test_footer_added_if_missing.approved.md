@@ -2,7 +2,7 @@
 INPUT:
 
 ---
-Sample note content.
+# Sample note content.
 Path used for this test: `04 - Guides, Workflows, & Courses/for Plugin Developers.md`
 If the above file still exists in the vault, then the generated links
 should still work.
@@ -13,7 +13,7 @@ CHECK that path in URLs has been encoded.
 OUTPUT:
 
 ---
-Sample note content.
+# Sample note content.
 Path used for this test: `04 - Guides, Workflows, & Courses/for Plugin Developers.md`
 If the above file still exists in the vault, then the generated links
 should still work.
