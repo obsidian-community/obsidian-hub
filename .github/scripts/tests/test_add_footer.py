@@ -10,10 +10,9 @@ from test_templates import JINJA_TEMPLATES_DIR, approval_test_options
 # Test rewriting
 # Test that file is not changed if it already has the header
 # Test that the footer finds the template
-# Test that footer is not added twice
-# Test that footer is updated if content differs
 # Test behaviour if no EOL at end of content
 
+# Simple test, that footer is added if not present.
 def test_footer_added_if_missing():
     relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
     input = \
@@ -24,6 +23,27 @@ should still work.
 CHECK that path in URLs has been encoded.
 """
     output = add_footer_to_markdown_test(input, relative_path)
+    verify_footer_addition(input, output)
+
+
+# Test that footer is not added twice
+# Test that footer is updated if content differs
+def test_footer_updated_if_present():
+    relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
+    text_to_be_overwritten = 'CHECK THAT I AM NOT PRESENT IN FINAL OUTPUT'
+    raw_content = \
+        f"""Sample note content.
+Path used for this test: `{relative_path}`
+CHECK that the footer is only present once in the output.
+CHECK that UPPER-CASE of this text is not present: '{text_to_be_overwritten.lower()}'
+"""
+    content_with_footer_added = add_footer_to_markdown_test(raw_content, relative_path)
+    input = content_with_footer_added + '\n' + text_to_be_overwritten
+    assert text_to_be_overwritten in input
+
+    output = add_footer_to_markdown_test(input, relative_path)
+    assert not text_to_be_overwritten in output
+
     verify_footer_addition(input, output)
 
 
