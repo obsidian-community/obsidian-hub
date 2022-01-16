@@ -27,6 +27,10 @@ CHECK that path in URLs has been encoded.
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "footer.md.jinja")
     debug = False
     output = add_footer.add_footer_to_markdown(relative_path, input, comment, template, debug)
+    verify_footer_addition(input, output)
+
+
+def verify_footer_addition(input, output):
     text_to_verify = f"""
 INPUT:
 
