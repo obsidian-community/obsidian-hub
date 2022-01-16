@@ -28,6 +28,7 @@ This note collects resources and guides for beginner and expert theme designers 
 - [custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css)
   - [Getting comfortable with Obsidian CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
   - [Common Selectors for Custom CSS](https://forum.obsidian.md/t/common-selectors-for-custom-css/1984)
+- [[Using Visual Studio Code for Theme Development]] by [[damiankorcz|Damian Korcz]]
 
 ## Community Talks
 
