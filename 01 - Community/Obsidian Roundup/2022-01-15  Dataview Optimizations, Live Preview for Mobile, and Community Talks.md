@@ -103,7 +103,7 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 ## Guides
 
 -   Here's a guide that explains [how to sync Obsidian on iOS via Rclone](https://gist.github.com/agmm/ea97a3c2b5bf713567aad89672116e12). With Rclone you can sync files to remote SFTP servers, WebDAV servers, Google Drive, Amazon S3, and many other providers.
--   Here's a [simple note-taking setup](https://www.youtube.com/watch?v=E6ySG7xYgjY) guide that uses Zettelkasten methodology.
+-   Here's a [simple note-taking setup](https://www.youtube.com/watch?v=E6ySG7xYgjY) guide that uses [[Zettelkasten]] methodology.
 -   There's a new Contributed Video up on the Community Talks channel. It gives an in-depth look into [use-cases for the co-citations algorithm in the Graph Analysis plugin](https://www.youtube.com/watch?v=rK6JVDrGERA&ab_channel=ObsidianCommunityTalks). This is high on my list of things to try and figure out before spring.
 -   Here are [two methods of creating a 'Game Master' screen in Obsidian](https://youtu.be/0tTZZa7u92w), using a kanban board and the Obsidian sidebar.
 

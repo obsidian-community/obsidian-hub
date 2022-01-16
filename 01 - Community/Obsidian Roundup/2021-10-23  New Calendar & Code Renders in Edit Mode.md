@@ -11,7 +11,7 @@ publish: true
 
 -   The community talk by `@phibr0` for [creating your own obsidian plugin](https://www.youtube.com/watch?v=XaES2G3PVpg) is now available.
 -   The [TTRPG panel community talk](https://www.youtube.com/watch?v=Ovqu_1aW3Sw) is now available.
--   The LYT House talk with `@ryanjamurphy` about making [Obsidian an Integrated Thinking Environment](https://www.youtube.com/watch?v=fhkwEgGFOg8) is now available.
+-   The [[LYT House]] talk with `@ryanjamurphy` about making [Obsidian an Integrated Thinking Environment](https://www.youtube.com/watch?v=fhkwEgGFOg8) is now available.
 -   A bunch of Discord accounts got hacked and are spamming scam links. It'd be great if you enabled 2-factor authentication on your accounts.
 -   `u/tonystar29` made a [keypad with a macro to automatically](https://www.reddit.com/r/ObsidianMD/comments/qcw5ck/i_made_a_macro_pad_to_track_my_mood_in_my/) put mood ratings into Obsidian daily notes. It's really cool.
 
@@ -97,7 +97,7 @@ _Remember: You can manually install plugins that aren't in the community list by
 ## Discussions
 
 -   Here's a [discussion thread for Obsidian with NaNoWriMo](https://forum.obsidian.md/t/nanowrimo-obsidian/25076/10) that covers a lot of things relevant to authors.
--   Here's a reminder that Zettelkasten style notes are [not optimized for doing well on exams](https://www.reddit.com/r/ObsidianMD/comments/qbigpl/help_needed_when_it_comes_to_integrating_obsidian/).
+-   Here's a reminder that [[Zettelkasten]] style notes are [not optimized for doing well on exams](https://www.reddit.com/r/ObsidianMD/comments/qbigpl/help_needed_when_it_comes_to_integrating_obsidian/).
 -   [How are you using Obsidian to organize your podcast notes?](https://forum.obsidian.md/t/how-are-you-organizing-your-knowledge-from-podcasts/26013)
 
 ## Knowledge Management

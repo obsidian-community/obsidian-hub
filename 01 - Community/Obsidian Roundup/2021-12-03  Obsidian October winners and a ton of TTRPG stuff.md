@@ -73,7 +73,7 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 ## Knowledge Management
 
--   `@aBoppy6` discussed their thought process for reviewing conceptual notes with spaced repetition. You can read more about it on [their Obsidian Publish site](https://publish.obsidian.md/tim/50_Projects/Using+spaced+repetition+for+your+conceptual+notes).
+-   `@aBoppy6` discussed their thought process for reviewing conceptual notes with [[Spaced repetition|spaced repetition]]. You can read more about it on [their Obsidian Publish site](https://publish.obsidian.md/tim/50_Projects/Using+spaced+repetition+for+your+conceptual+notes).
 
 ## Ancillary Tools
 
