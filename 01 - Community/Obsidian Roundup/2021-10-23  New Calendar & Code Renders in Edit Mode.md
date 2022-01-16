@@ -24,7 +24,7 @@ _Remember: You can manually install plugins that aren't in the community list by
 ### New
 
 -   [Fantasy Calendar](https://github.com/valentine195/obsidian-fantasy-calendar) is already one of my favorite plugins — I literally downloaded [BRAT](https://github.com/TfTHacker/obsidian42-brat) so I could automatically get updates for it even before it's gone through code review, it's that good. It was technically made to manage events in fantasy worlds with non-standard calendars, but the Gregorian calendar works great for real life stuff too. It's dynamic, it's beautiful, it's flexible, it's literally better than any fantasy calendar app I've ever used in my life. I've been looking for something like for _years_ and as a bonus it solves _two_ huge problems for me.
--   The new [Pikt plugin](https://github.com/arnau/obsidian-pikt) adds support for the Pikchr markup language for diagrams in technical documentations. It looks like a more flexible version of mermaid.
+-   The new [Pikt plugin](https://github.com/arnau/obsidian-pikt) adds support for the Pikchr markup language for diagrams in technical documentations. It looks like a more flexible version of [[Mermaid]].
 -   You can now [tab out](https://github.com/phibr0/obsidian-tabout) of markup.
 -   [Another Quick Switcher](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher) has a bunch of nice functionality for searching, including backlinks search, emoji support, and more.
 -   Here's a nice [daily quote](https://github.com/twentytwokhz/quote-of-the-day) plugin.
