@@ -22,3 +22,9 @@ We also have a #placeholder tag we use to signal the type of information that is
 - #placeholder/tool - Similar to the author tag, any information about a tool
 
 Other than that, we use the `#MOC` tag for [[Maps of Content (MOC)]].
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/Tag%20glossary.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/Tag%20glossary.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
