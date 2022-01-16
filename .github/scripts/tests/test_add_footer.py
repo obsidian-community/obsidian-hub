@@ -23,11 +23,23 @@ If the above file still exists in the vault, then the generated links
 should still work.
 CHECK that path in URLs has been encoded.
 """
+    output = add_footer_to_markdown_test(input, relative_path)
+    verify_footer_addition(input, output)
+
+
+def add_footer_to_markdown_test(input: str, relative_path:str) -> str:
+    """
+    Convenience wrapper for calling add_footer.add_footer_to_markdown()
+
+    :param input: Simulated content of a markdown note
+    :param relative_path: The path to use, to represent the location of input
+    :return: The result of adding or updating the footer in input
+    """
     comment = add_footer.get_footer_comment_regex()
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "footer.md.jinja")
     debug = False
     output = add_footer.add_footer_to_markdown(relative_path, input, comment, template, debug)
-    verify_footer_addition(input, output)
+    return output
 
 
 def verify_footer_addition(input, output):
