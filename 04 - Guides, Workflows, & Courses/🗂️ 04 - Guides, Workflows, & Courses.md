@@ -33,3 +33,9 @@ Do you already have a good idea of your workflow, but are missing the tools to i
 -  [[04 - Guides, Workflows, & Courses/for TTRPG|for TTRPG]]
 -  [[04 - Guides, Workflows, & Courses/for Using Obsidian on Mobile|for Using Obsidian on Mobile]]
 %% Hub MOCs: Don’t edit above  %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/%F0%9F%97%82%EF%B8%8F%2004%20-%20Guides%2C%20Workflows%2C%20%26%20Courses.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/%F0%9F%97%82%EF%B8%8F%2004%20-%20Guides%2C%20Workflows%2C%20%26%20Courses.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

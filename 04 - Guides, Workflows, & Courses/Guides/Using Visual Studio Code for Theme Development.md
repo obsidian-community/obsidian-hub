@@ -233,3 +233,9 @@ Here are my personal favourites I'm currently using:
 - [**Lucy Theme**](https://marketplace.visualstudio.com/items?itemName=juliettepretot.lucy-vscode) - Easy on the eyes and nice looking theme. I use the `lucy-evening` variant.
 - [**File Icons**](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) - Icon set for files in the File Explorer.
 - [**Fluent Icons**](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) - Changes the icons in the Left Sidebar to more rounded ones.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Using%20Visual%20Studio%20Code%20for%20Theme%20Development.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Using%20Visual%20Studio%20Code%20for%20Theme%20Development.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

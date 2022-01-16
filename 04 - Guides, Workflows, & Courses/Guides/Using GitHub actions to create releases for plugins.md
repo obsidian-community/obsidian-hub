@@ -37,3 +37,9 @@ You can grab the [release workflow here](https://github.com/argenos/nldates-obsi
 ## Other ways to automate
 
 The [original post](https://forum.obsidian.md/t/using-github-actions-to-release-plugins/7877) covers other ways to automate this, including a script by [[schemar]] and using [obsidian-tools](https://github.com/obsidian-tools/obsidian-tools) 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Using%20GitHub%20actions%20to%20create%20releases%20for%20plugins.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Using%20GitHub%20actions%20to%20create%20releases%20for%20plugins.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

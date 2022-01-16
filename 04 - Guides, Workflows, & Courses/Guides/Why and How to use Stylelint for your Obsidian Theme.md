@@ -122,3 +122,9 @@ You can take a look at the [stylelint configuration of *Shimmering Focus*](https
 [^1]: There is also [[obsidian-linter|Linter specifically for Obsidian]].
 [^2]: You can find out which rules can be autofixed by checking the [documentation of the specific rules](https://stylelint.io/user-guide/rules/list/#possible-errors).
 [^3]: You can, however, add them to apply some manual changes, like [changing the severity of a rule](https://stylelint.io/user-guide/configure#severity) from `error` to `warning`.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Why%20and%20How%20to%20use%20Stylelint%20for%20your%20Obsidian%20Theme.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Why%20and%20How%20to%20use%20Stylelint%20for%20your%20Obsidian%20Theme.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

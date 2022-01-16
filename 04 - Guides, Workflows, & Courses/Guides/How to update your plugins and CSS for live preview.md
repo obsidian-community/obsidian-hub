@@ -125,3 +125,9 @@ From `@licat`:
 ### Example Code for Updating Themes
 
 - [CSS for inline block references that works for both NEW CM6 Live Preview and also Preview Mode for both CM5 (Legacy) and CM6 (New)](https://gist.github.com/GitMurf/46c9ae78d6c3ce53d42d7832c7601271) - by `@Murf`
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20update%20your%20plugins%20and%20CSS%20for%20live%20preview.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20update%20your%20plugins%20and%20CSS%20for%20live%20preview.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
