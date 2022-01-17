@@ -195,7 +195,12 @@ def get_root_of_vault() -> str:
     return up2
 
 
-def ensure_last_line_has_eol(contents):
+def ensure_last_line_has_eol(contents) -> str:
+    """
+    Ensure that the given string ends with an end-of-line character.
+    :param contents: The string to check
+    :return: The supplied string, with a `\n` added, if needed
+    """
     eol = '\n'
     if len(contents) == 0 or contents[-1] != eol:
         contents += eol
