@@ -84,9 +84,7 @@ def add_footer_to_markdown(relative_path, contents, comment, template, debug):
     # If the original file didn't have an end-of-line on the last line,
     # add one here, to ensure that there is a gap between the body of the note
     # and the footer.
-    eol = '\n'
-    if len(contents) == 0 or contents[-1] != eol:
-        contents += eol
+    contents = ensure_last_line_has_eol(contents)
 
     # Check if our particular comment is present
     if search(comment, contents):
@@ -105,6 +103,13 @@ def add_footer_to_markdown(relative_path, contents, comment, template, debug):
         print(f"\t=> {debug_message} for '{relative_path}'.")
 
     return replacement
+
+
+def ensure_last_line_has_eol(contents):
+    eol = '\n'
+    if len(contents) == 0 or contents[-1] != eol:
+        contents += eol
+    return contents
 
 
 def main():
