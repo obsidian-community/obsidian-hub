@@ -193,3 +193,10 @@ def get_root_of_vault() -> str:
     up1 = os.path.dirname(dir_path)
     up2 = os.path.dirname(up1)
     return up2
+
+
+def ensure_last_line_has_eol(contents):
+    eol = '\n'
+    if len(contents) == 0 or contents[-1] != eol:
+        contents += eol
+    return contents

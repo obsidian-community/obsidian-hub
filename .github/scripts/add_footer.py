@@ -6,7 +6,7 @@ from utils import get_template
 from re import sub, search
 from urllib.parse import quote
 
-from utils import get_root_of_vault
+from utils import ensure_last_line_has_eol, get_root_of_vault
 
 # These are directories and files to exclude
 # By adding a dir/file, this script will ignore them and never change them!
@@ -103,13 +103,6 @@ def add_footer_to_markdown(relative_path, contents, comment, template, debug):
         print(f"\t=> {debug_message} for '{relative_path}'.")
 
     return replacement
-
-
-def ensure_last_line_has_eol(contents):
-    eol = '\n'
-    if len(contents) == 0 or contents[-1] != eol:
-        contents += eol
-    return contents
 
 
 def main():
