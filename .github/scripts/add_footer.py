@@ -6,7 +6,7 @@ from utils import get_template
 from re import sub, search
 from urllib.parse import quote
 
-from utils import get_root_of_vault
+from utils import ensure_last_line_has_eol, get_root_of_vault
 
 # These are directories and files to exclude
 # By adding a dir/file, this script will ignore them and never change them!
@@ -78,15 +78,14 @@ def add_footer_to_markdown(relative_path, contents, comment, template, debug):
     # Get the rendered template (file => relative path => html encoded)
     render = template.render(
         file_path=quote(relative_path))
+    render = ensure_last_line_has_eol(render)
 
     debug_message = ""
 
     # If the original file didn't have an end-of-line on the last line,
     # add one here, to ensure that there is a gap between the body of the note
     # and the footer.
-    eol = '\n'
-    if len(contents) == 0 or contents[-1] != eol:
-        contents += eol
+    contents = ensure_last_line_has_eol(contents)
 
     # Check if our particular comment is present
     if search(comment, contents):
