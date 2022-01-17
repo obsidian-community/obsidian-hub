@@ -85,6 +85,14 @@ def add_footer_to_markdown_test(input: str, relative_path:str) -> str:
 
 
 def verify_footer_addition(input, output):
+
+    # First make sure that the output has a finely end-of-line character.
+    explanation = """
+    ERROR.
+    The generated footer does not have an end-of-line character on the last line.
+    """
+    assert output[-1] == '\n', explanation
+
     text_to_verify = f"""
 INPUT:
 

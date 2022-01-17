@@ -78,6 +78,7 @@ def add_footer_to_markdown(relative_path, contents, comment, template, debug):
     # Get the rendered template (file => relative path => html encoded)
     render = template.render(
         file_path=quote(relative_path))
+    render = ensure_last_line_has_eol(render)
 
     debug_message = ""
 
