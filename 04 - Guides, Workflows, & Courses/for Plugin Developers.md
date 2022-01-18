@@ -49,7 +49,11 @@ This note collects resources and guides for beginner and expert plugin developer
 - [Liam Cain's Obsidian API FAQ](https://liamca.in/Obsidian/API+FAQ/index)
 - [obsidian-md at GitHub](https://github.com/topics/obsidian-md)
 - [What tools and libraries are used in Obsidian?](https://konhi.me/obsidian-stack.html)
+- Ways to download all of Obsidian's plugin source codes to learn from and search through:
+  - [Repoistories Downloader](https://github.com/konhi/obsidian-repositories-downloader)
+  - [Plugin Downloader](https://github.com/luckman212/obsidian-plugin-downloader)
 
+  
 %% Hub footer: Please don't edit anything below this line %%
 
 # This note in GitHub
