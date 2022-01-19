@@ -31,6 +31,7 @@ tags:
 -  [[04 - Guides, Workflows, & Courses/Guides/Using GitHub actions to create releases for plugins|Using GitHub actions to create releases for plugins]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using Obsidian as a TTRPG Campaign Manager|Using Obsidian as a TTRPG Campaign Manager]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using Pandoc inside Obsidian|Using Pandoc inside Obsidian]]
+-  [[04 - Guides, Workflows, & Courses/Guides/Using Visual Studio Code for Theme Development|Using Visual Studio Code for Theme Development]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Want some Sass with your obsidian theme‽ here's How and Why|Want some Sass with your obsidian theme‽ here's How and Why]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Why and How to use Stylelint for your Obsidian Theme|Why and How to use Stylelint for your Obsidian Theme]]
 -  [[04 - Guides, Workflows, & Courses/Guides/YT  - Intro to Dataview Plugin|YT  - Intro to Dataview Plugin]]

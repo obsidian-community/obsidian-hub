@@ -98,6 +98,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-timestamper|TimeStamper]]
 - [[obsidian-import-json|JSON Importer]]
 - [[import-foundry|Foundry world Importer]]
+- [[obsidian-attachment-name-formatting|Attachment Name Formatting]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
