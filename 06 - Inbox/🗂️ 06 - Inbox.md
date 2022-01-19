@@ -24,7 +24,6 @@ In this folder are all new things which haven't been properly sorted into the Ob
 -  [[06 - Inbox/Obsidian Flight School|Obsidian Flight School]]
 -  [[06 - Inbox/pfSense|pfSense]]
 -  [[06 - Inbox/Productivity Guru|Productivity Guru]]
--  [[06 - Inbox/Santi Younger|Santi Younger]]
 -  [[06 - Inbox/Seedbox|Seedbox]]
 -  [[06 - Inbox/SkillShare|SkillShare]]
 -  [[06 - Inbox/Yet Another Free Publish Alternative|Yet Another Free Publish Alternative]]

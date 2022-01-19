@@ -24,6 +24,9 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2021-11-20  Live Preview Updates, Fancy Checkboxes and Tips for Devs|2021-11-20  Live Preview Updates, Fancy Checkboxes and Tips for Devs]]
 -  [[01 - Community/Obsidian Roundup/2021-11-27  Rearrange Outlines and Integrate your Content Discovery Process|2021-11-27  Rearrange Outlines and Integrate your Content Discovery Process]]
 -  [[01 - Community/Obsidian Roundup/2021-12-03  Obsidian October winners and a ton of TTRPG stuff|2021-12-03  Obsidian October winners and a ton of TTRPG stuff]]
+-  [[01 - Community/Obsidian Roundup/2021-12-11  Nominate Gems of the Year and a new book club|2021-12-11  Nominate Gems of the Year and a new book club]]
+-  [[01 - Community/Obsidian Roundup/2021-12-18  Gems of the Year, Vim Mode, and RTL Support|2021-12-18  Gems of the Year, Vim Mode, and RTL Support]]
+-  [[01 - Community/Obsidian Roundup/2021-12-25  Live Preview Updates and Documentation|2021-12-25  Live Preview Updates and Documentation]]
 -  [[01 - Community/Obsidian Roundup/2021.04.17|2021.04.17]]
 -  [[01 - Community/Obsidian Roundup/2021.04.24|2021.04.24]]
 -  [[01 - Community/Obsidian Roundup/2021.05.01|2021.05.01]]
@@ -48,6 +51,9 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2021.09.11|2021.09.11]]
 -  [[01 - Community/Obsidian Roundup/2021.09.18|2021.09.18]]
 -  [[01 - Community/Obsidian Roundup/2021.09.25|2021.09.25]]
+-  [[01 - Community/Obsidian Roundup/2022-01-01  Recipe Importing, Linking to Aliases, and Semantic Search|2022-01-01  Recipe Importing, Linking to Aliases, and Semantic Search]]
+-  [[01 - Community/Obsidian Roundup/2022-01-08  New Guides and API Charts|2022-01-08  New Guides and API Charts]]
+-  [[01 - Community/Obsidian Roundup/2022-01-15  Dataview Optimizations, Live Preview for Mobile, and Community Talks|2022-01-15  Dataview Optimizations, Live Preview for Mobile, and Community Talks]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
