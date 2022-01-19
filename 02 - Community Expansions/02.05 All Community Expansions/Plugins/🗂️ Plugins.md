@@ -152,6 +152,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-apple-reminders-plugin|obsidian-apple-reminders-plugin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-apply-patterns|obsidian-apply-patterns]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-argdown-plugin|obsidian-argdown-plugin]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-attachment-name-formatting|obsidian-attachment-name-formatting]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-audio-speed-plugin|obsidian-audio-speed-plugin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-auto-link-title|obsidian-auto-link-title]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-auto-pair-chinese-symbol|obsidian-auto-pair-chinese-symbol]]
