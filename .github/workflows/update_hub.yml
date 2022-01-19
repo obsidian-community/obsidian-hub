@@ -51,6 +51,16 @@ jobs:
           git add .
           git commit -m "Update MOC files" -a  || echo "nothing to commit"
 
+      # This must be the last edit, to ensure that no later steps accidentally
+      # overwrite the footer. 
+      - name: Add Footer
+        run: |
+          cd .github/scripts
+          python3 ./add_footer.py
+          cd ../..
+          git add .
+          git commit -m "Add 'This note in GitHub' footers" -a  || echo "nothing to commit"
+
       # ----------------------------------------------------------------------------------
       # Finalisation
       # ----------------------------------------------------------------------------------
