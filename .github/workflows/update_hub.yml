@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # ----------------------------------------------------------------------------------
+      # Setup
+      # ----------------------------------------------------------------------------------
       - uses: actions/checkout@v2
 
       - uses: ./.github/actions/setup-python
@@ -23,6 +26,9 @@ jobs:
           git config --local user.name "github-actions[bot]"
         shell: bash
 
+      # ----------------------------------------------------------------------------------
+      # Run scripted updates to Hub Vault Content
+      # ----------------------------------------------------------------------------------
       - name: Update theme download counts
         run: |
           cd .github/scripts
@@ -35,7 +41,7 @@ jobs:
           python3 ./update_releases.py --all
           cd ../..
           git add .
-          git commit -m "Add new plugins, themes and authors" -a  || echo "nothing to commit"
+          git commit -m "Add new plugins, themes and authors" || echo "nothing to commit"
 
       - name: Update MOC files
         run: |
@@ -43,8 +49,21 @@ jobs:
           python3 ./update_mocs.py
           cd ../..
           git add .
-          git commit -m "Update MOC files" -a  || echo "nothing to commit"
+          git commit -m "Update MOC files" || echo "nothing to commit"
 
+      # This must be the last edit, to ensure that no later steps accidentally
+      # overwrite the footer. 
+      - name: Add Footer
+        run: |
+          cd .github/scripts
+          python3 ./add_footer.py
+          cd ../..
+          git add .
+          git commit -m "Add 'This note in GitHub' footers" || echo "nothing to commit"
+
+      # ----------------------------------------------------------------------------------
+      # Finalisation
+      # ----------------------------------------------------------------------------------
       # Reference: https://github.com/marketplace/actions/create-pull-request
       - name: Create Pull Request
         id: cpr
