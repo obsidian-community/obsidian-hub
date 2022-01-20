@@ -60,8 +60,8 @@ def get_output_dir(template, file_name):
 
 def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
     file_path = get_output_dir(template, file_name)
-
     encoded_path = encode_absolute_path_for_footer(os.path.abspath(file_path))
+
     file_content = template.render(file_path=encoded_path, **kwargs)
     file_content = ensure_last_line_has_eol(file_content)
 
