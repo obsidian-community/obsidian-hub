@@ -59,6 +59,10 @@ def get_output_dir(template, file_name):
 
 
 def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
+    # This add_footer function cannot be imported at top of this file,
+    # as this would cause a cyclic reference:
+    from add_footer import encode_absolute_path_for_footer 
+
     file_path = get_output_dir(template, file_name)
     encoded_path = encode_absolute_path_for_footer(os.path.abspath(file_path))
 
@@ -92,12 +96,6 @@ def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
         group = "new"
 
     return group
-
-
-def encode_absolute_path_for_footer(absolute_path):
-    relative_path = os.path.relpath(absolute_path, get_root_of_vault())
-    encoded_path = urllib.parse.quote(relative_path)
-    return encoded_path
 
 
 def have_same_contents(file_path, rendered_template):
