@@ -1,6 +1,8 @@
 import os
 import json
 import glob
+import urllib
+
 import requests
 
 from urllib.request import urlopen
@@ -58,7 +60,12 @@ def get_output_dir(template, file_name):
 
 def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
     file_path = get_output_dir(template, file_name)
-    file_content = template.render(**kwargs)
+
+    absolute_path = os.path.abspath(file_path)
+    relative_path = os.path.relpath(absolute_path, get_root_of_vault())
+    encoded_path = urllib.parse.quote(relative_path)
+    file_content = template.render(file_path=encoded_path, **kwargs)
+    file_content = ensure_last_line_has_eol(file_content)
 
     # Check if file exists
     if os.path.exists(file_path) and not overwrite:
