@@ -20,6 +20,8 @@ To open the editor you'll usually have two options:
 1. On the Hub's [publish site](https://publish.obsidian.md/hub/00+-+Start+here), each note has an "Edit in GitHub" button in its footer.
 2. When you are in the Hub's [GitHub repository](https://github.com/obsidian-community/obsidian-hub), pressing <kbd>.</kbd> will take you to the editor. 
 
+Note that you will need a GitHub account to make edits, and if you aren't logged in to it, launching the github.dev editor will prompt you for your GitHub login details.
+
 ## Making changes to the notes
 
 1. To make changes, you can select files from the file explorer (1), and make edits to the note (2) as you would on any text editor or paste any changes made in Obsidian to existing notes. To add new files, you can also drag from your system's file explorer to the file explorer in the editor (1).
