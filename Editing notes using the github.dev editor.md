@@ -39,7 +39,11 @@ Note that you will need a GitHub account to make edits, and if you aren't logged
 	![[github.dev switch to fork.png|300]]
 	![[github.dev fork view.png]]
 
+At this stage, your edits are in your fork of the Hub.
+
 ## Submitting changes to the Hub
+
+Now you need to submit the changes in Fork to the original Hub repository.
 
 Using git terminology, this is called creating a **Pull Request**.
 
