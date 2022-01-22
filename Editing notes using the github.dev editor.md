@@ -53,3 +53,11 @@ Using git terminology, this is called creating a **Pull Request**.
 	![[github create pull request.png]] 
 3. Fill out the template and when you are done, press on <kbd>Create pull request</kbd>.  
 	![[github fill out PR template.png]]
+
+## What happens next?
+
+Your Pull Request will be added to the [list of Pull Requests](https://github.com/obsidian-community/obsidian-hub/pulls) in the original Hub repository.
+
+Your edits will later be reviewed by a volunteer of the Hub project, and then merged in to the latest version of the Hub.
+
+When the Publish site is next updated, your improvement will be visible to all. Thank you!
