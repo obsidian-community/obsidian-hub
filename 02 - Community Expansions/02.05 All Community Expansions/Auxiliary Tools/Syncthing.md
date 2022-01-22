@@ -27,7 +27,7 @@ You'll probably want the following files to be excluded from synchronisation in 
 ```
 You *can* exclude your entire `.obsidian` directory instead for simplicity, but in that case your plugins and configuration will not be synchronised at all.
 
-Note that Syncthing does *not* synchronise the `.stignore` itself, so you will need to set up your ignore patterns on each device separately. We recommend saving a copy of your `.stignore` elsewhere in your Obsidian vault, so it can simply be copied to set up a new device smoothly.
+Note that Syncthing does *not* synchronise the `.stignore` itself, so you will need to set up your ignore patterns on each device separately. If you save a copy of your `.stignore` elsewhere in your Obsidian vault, it can simply be copied to set up a new device smoothly.
 
 %% Hub footer: Please don't edit anything below this line %%
 
