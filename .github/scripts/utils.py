@@ -1,7 +1,6 @@
 import os
 import json
 import glob
-import urllib
 
 import requests
 
