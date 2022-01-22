@@ -64,14 +64,15 @@ def test_author_from_jinja():
                                   themes=[
                                       "[[my-theme1]]",
                                       "[[my-theme2]]",
-                                  ], )
+                                  ],
+                                  file_path="Some%20Encoded%20Path.md")
 
     verify(new_content, options=approval_test_options())
 
 
 def test_author_from_jinja_minimal():
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "author.md.jinja")
-    new_content = template.render(user="test-user", author="test-user")
+    new_content = template.render(user="test-user", author="test-user", file_path="Some%20Encoded%20Path.md")
 
     verify(new_content, options=approval_test_options())
 
