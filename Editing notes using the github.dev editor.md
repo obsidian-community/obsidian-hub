@@ -17,8 +17,8 @@ In particular, if you are browsing the Hub and you see a note that you would lik
 ## Opening the github.dev editor
 
 To open the editor you'll usually have two options: 
-1. On the Hub's publish site, each note has an "Edit in GitHub" button in its footer
-2. When you are in the Hub's repository, pressing <kbd>.</kbd> will take you to the editor. 
+1. On the Hub's [publish site](https://publish.obsidian.md/hub/00+-+Start+here), each note has an "Edit in GitHub" button in its footer.
+2. When you are in the Hub's [GitHub repository](https://github.com/obsidian-community/obsidian-hub), pressing <kbd>.</kbd> will take you to the editor. 
 
 ## Making changes to the notes
 
