@@ -71,11 +71,6 @@ publish: true
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Search.gif|VSCode Guide - Search.gif]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Toggle Wrapping.gif|VSCode Guide - Toggle Wrapping.gif]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/vscode-regex-find-replace.png|vscode-regex-find-replace.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Category_view.png|YAFPA_Showcase_Category_view.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Collections_view.png|YAFPA_Showcase_Collections_view.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Feed.png|YAFPA_Showcase_Feed.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Note.png|YAFPA_Showcase_Note.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Tags.png|YAFPA_Showcase_Tags.png]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
