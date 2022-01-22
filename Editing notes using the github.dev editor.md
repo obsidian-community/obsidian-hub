@@ -15,7 +15,7 @@ This guide will cover the basics of using the github.dev editor for the [[Obsidi
 ## Opening the github.dev editor
 
 To open the editor you'll usually have two options: 
-1. On the Hub's publish site, each note has an "Edit in GitHub" button in it's footer
+1. On the Hub's publish site, each note has an "Edit in GitHub" button in its footer
 2. When you are in the Hub's repository, pressing <kbd>.</kbd> will take you to the editor. 
 
 ## Making changes to the notes
