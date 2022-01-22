@@ -2,6 +2,7 @@
 
 - [Writing a novel in Markdown](https://pdworkman.com/writing-a-novel-in-markdown/) by @pdworkman
 - [Using Obsidian For Writing Fiction & Notes](https://eleanorkonik.com/obsidian-for-writing/) by [[eleanorkonik|Eleanor Konik]]
+- [9 Must Have Obsidian Plugins for Writers](https://curtismchale.ca/2022/01/10/9-obsidian-writing-plugins/) by Curtis McHale
 
 %% Hub footer: Please don't edit anything below this line %%
 
