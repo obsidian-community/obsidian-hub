@@ -1,0 +1,14 @@
+{
+  "no-hard-tabs": false,
+  "whitespace": false,
+  "line-length": false,
+  "first-line-heading": false,
+  "no-inline-html": false,
+  "blanks-around-headings": { "lines_below": 0 },
+  "blanks-around-lists": false,
+  "no-alt-text": false,
+  "no-multiple-blanks": 1,
+  "heading-increment": true,
+  "no-emphasis-as-heading": false,
+  "ul-indent": false
+}
