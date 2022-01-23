@@ -99,6 +99,13 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-import-json|JSON Importer]]
 - [[import-foundry|Foundry world Importer]]
 - [[obsidian-attachment-name-formatting|Attachment Name Formatting]]
+- [[obsidian-completr|Completr]]
+- [[obsidian-binary-file-manager-plugin|Binary File Manager]]
+- [[obsidian-local-file-interface-plugin|Local File Interface]]
+- [[obsidian-siteswap|Siteswap]]
+- [[obsidian-tweaks|ObsidianTweaks]]
+- [[obsidian-wordle|Wordle for Obsidian]]
+- [[obsidian-memos|Obsidian Memos]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
