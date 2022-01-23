@@ -9,6 +9,7 @@
   "no-multiple-blanks": 1,
   "heading-increment": true,
   "no-emphasis-as-heading": false,
+  "single-h1": false,
   "ul-indent": false,
   "no-bare-urls": false
 }
