@@ -73,3 +73,4 @@ $RECYCLE.BIN/
 
 # See https://github.com/obsidian-community/obsidian-hub/wiki/Tip:-Keeping-Hub-TODO-lists
 /DO NOT COMMIT/
+node_modules/
