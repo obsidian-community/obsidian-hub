@@ -7,6 +7,7 @@
   "blanks-around-headings": { "lines_below": 0 },
   "blanks-around-lists": false,
   "no-multiple-blanks": 1,
+  "no-space-in-code": false,
   "heading-increment": true,
   "no-emphasis-as-heading": false,
   "single-h1": false,
