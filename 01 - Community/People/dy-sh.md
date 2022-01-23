@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [dy-sh](https://github.com/dy-sh/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/derwish-pro/> ^website
+- Website: <https://github.com/dy-sh/> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
