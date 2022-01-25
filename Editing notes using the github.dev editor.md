@@ -59,5 +59,6 @@ This is called creating a **Pull Request**.
 Your Pull Request will be added to the [list of Pull Requests](https://github.com/obsidian-community/obsidian-hub/pulls) in the original Hub repository.
 
 Your edits will later be reviewed by a volunteer of the Hub project, and then merged in to the latest version of the Hub.
+Reviewers may request changes before merging. 
 
 When the Publish site is next updated, your improvement will be visible to all. Thank you!
