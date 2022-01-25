@@ -36,6 +36,8 @@ GitHub: [Zektor](https://github.com/llZektorll) ^github
 
 - [[OB_Template]]
 
+### Auxilliary Tool
+- [[DSS_Folder_Maker]]
 
 %%
 ## Sponsor this author
