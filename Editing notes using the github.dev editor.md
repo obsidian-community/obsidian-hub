@@ -12,7 +12,7 @@ publish: true
 
 This guide will cover the basics of using the github.dev editor for the [[Obsidian Hub]]. This editor is great when you are making quick edits that don't need any Obsidian-specific functionality.
 
-In particular, if you are browsing the Hub and you see a note that you would like to improve, this guide talks you through how to make the edit, using the "Edit in GitHub" button at the bottom of the note.
+In particular, if you are browsing the Hub and you see a note that you would like to improve, this guide shows you how to make the edit, using the "Edit in GitHub" button at the bottom of the note.
 
 ## Opening the github.dev editor
 
