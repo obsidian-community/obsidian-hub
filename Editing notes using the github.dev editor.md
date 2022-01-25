@@ -45,7 +45,7 @@ At this stage, your edits are in your fork of the Hub.
 
 Now you need to submit the changes in Fork to the original Hub repository.
 
-Using git terminology, this is called creating a **Pull Request**.
+This is called creating a **Pull Request**.
 
 1. Clicking on [this](https://github.com/obsidian-community/obsidian-hub/compare) link is equivalent to going to the Hub repository, clicking on the Pull Requests tab and choosing New. Click on compare across forks, and choose yours on head repository. For the branch, switch to the one you chose on [[#^8cdfd9|step 6]] on the previous section:
 	![[github compare forks.png]]
