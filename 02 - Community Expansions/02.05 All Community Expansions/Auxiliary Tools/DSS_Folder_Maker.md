@@ -1,5 +1,5 @@
 ---
-aliases:DSS_Folder_Maker
+aliases:
   -
 tags: 
   - seedling
