@@ -37,7 +37,7 @@ This note collects resources and guides for beginner and expert theme designers 
 ## Tools
 - [**Obsidian Theme Template**](https://github.com/obsidian-community/obsidian-theme-template) A GitHub repository template with everything you need to get started. Click `Use this template` to get a ready-to-go theme repository.
 - [**Theme Dev Vault**](https://github.com/obsidian-community/theme-dev-vault) An obsidian vault to aid in theme development
-- [Theme Design Utilities Plugin](https://github.com/chrisgrieser/obsidian-theme-design-utilities)
+- [obsidian-theme-design-utilities|Theme Design Utilities Plugin]
 - [**Transfonter**](https://transfonter.org/) Online `@font-face` generator for offline fonts
 - [**Iconify Icon Sets**](https://icon-sets.iconify.design/) Website to search and find icons from multiple icon sets
 - [**URL-encoder for SVG**](https://yoksel.github.io/url-encoder/) Encodes icon's svg code into useful `background-image` url
