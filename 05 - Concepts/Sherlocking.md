@@ -14,7 +14,7 @@ Historically, the term was coined by Apple's macOS copying the feature of an app
 
 Sherlocking in the context of the app economy is often seen as "unfair" behavior by the platform, as it is often seen as a platform "stealing" an innovation a third-party had. In academic circles, this is also called *"ecosystem cannibalization"*, since this behavior discourages third-parties from making contributions to the ecosystem.
 
-However, Sherlocking is often also often seen as a *desired* behavior, e.g. when a community believes that a plugin's feature is so useful that it should be part of the core feature set available without the need to install a plugin. In the case of a volunteer development community like Obsidian's, it also means that that the core developers are taking over maintenence of the feature, which is beneficial for third-party developers. 
+However, Sherlocking is often also often seen as a *desired* behavior, e.g. when a community believes that a plugin's feature is so useful that it should be part of the core feature set available without the need to install a plugin. In the case of a volunteer development community like Obsidian's, it also means that the core developers are taking over maintenance of the feature, which is beneficial for third-party developers. 
 
 ## Plugins sherlocked by Obsidian
 - [Paste that Shizz](https://github.com/shabegom/paste-that-shizz)
