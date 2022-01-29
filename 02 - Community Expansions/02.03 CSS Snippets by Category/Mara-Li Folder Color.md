@@ -18,8 +18,6 @@ Folder color allow to :
 
 You can adjust color and line with [[obsidian-style-settings|Style Settings]]. 
 
-
-
 ```css
 /* 
 =========================================================================================================   
@@ -1172,3 +1170,7 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 ![[Mara_FolderColor.png]]![[Mara_FolderColor2.png]]
 
 *Note : The files and folder icons is from [[obsidian-icon-folder|Icon Folder]]*
+
+<u>Credit</u>: 
+- [Lithou](https://forum.obsidian.md/t/adding-color-to-obsidian-a-rainbow-of-possibility/12805/11)
+- [Javalent](https://github.com/valentine195/Obsidian-Vault/blob/master/.obsidian/snippets/colors.folders.css)
