@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/derwish-pro/obsidian-code-block-from-selection/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/derwish-pro/obsidian-code-block-from-selection?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/derwish-pro/obsidian-code-block-from-selection/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/derwish-pro/obsidian-code-block-from-selection?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/dy-sh/obsidian-code-block-from-selection/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/dy-sh/obsidian-code-block-from-selection?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/dy-sh/obsidian-code-block-from-selection/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/dy-sh/obsidian-code-block-from-selection?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Code block from selection
 
 Plugin ID: `code-block-from-selection`
-Links: [GitHub repository](https://github.com/derwish-pro/obsidian-code-block-from-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=code-block-from-selection)
-Developed by: [[derwish-pro]]
+Links: [GitHub repository](https://github.com/dy-sh/obsidian-code-block-from-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=code-block-from-selection)
+Developed by: [[dy-sh]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Adds code block for the selected text
@@ -30,7 +30,7 @@ Adds code block for the selected text
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[derwish-pro#Sponsor this author]] %%
+%% ![[dy-sh#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 
