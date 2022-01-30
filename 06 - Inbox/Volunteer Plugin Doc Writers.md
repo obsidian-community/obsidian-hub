@@ -1,4 +1,4 @@
-# Volunteer Doc Writers
+# Volunteer Plugin Doc Writers
 
 Half (maybe all?) the fun of using Obsidian is its comprehensive set of plugins. We recently crossed the 500 mark! However, a few plugins could use some better documentation. We'd like to help bridge that gap.
 
