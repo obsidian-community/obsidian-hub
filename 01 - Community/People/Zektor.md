@@ -36,6 +36,9 @@ GitHub: [Zektor](https://github.com/llZektorll) ^github
 
 - [[OB_Template]]
 
+### Auxilliary Tool
+- [[DDC_Folder_Maker]]
+- [[LCC_Folder_Maker]]
 
 %%
 ## Sponsor this author
