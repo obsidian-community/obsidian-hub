@@ -18,6 +18,7 @@ publish: true
 %% Hub MOCs: Don’t edit below  %%
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Alfred|Alfred]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Calibre|Calibre]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/DDC_Folder_Maker|DDC_Folder_Maker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Docker|Docker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Drafts App|Drafts App]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dragon speech recognition|Dragon speech recognition]]
@@ -29,6 +30,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Hugo|Hugo]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/icalBuddy|icalBuddy]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Jekyll|Jekyll]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/LCC_Folder_Maker|LCC_Folder_Maker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/mailbox.org|mailbox.org]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/MarginNote|MarginNote]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Mdnotes|Mdnotes]]

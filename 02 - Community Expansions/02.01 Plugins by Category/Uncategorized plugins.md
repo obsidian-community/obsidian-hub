@@ -106,6 +106,17 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-tweaks|ObsidianTweaks]]
 - [[obsidian-wordle|Wordle for Obsidian]]
 - [[obsidian-memos|Obsidian Memos]]
+- [[para-shortcuts|PARA Shortcuts]]
+- [[13th-age-statblocks|13th Age statblocks]]
+- [[obsidian-dynamic-highlights|Dynamic Highlights]]
+- [[obsidian-koreader-plugin|KOReader Sync]]
+- [[obsidian-snippetor|Snippetor]]
+- [[obsidian-sortable|Sortable]]
+- [[link-info-server|Link Server]]
+- [[weather-fetcher|Weather Fetcher]]
+- [[obsidian-lock-screen-plugin|Lock Screen]]
+- [[pinboard-sync|Pinboard Sync]]
+- [[obsidian-shortcut-launcher|Shortcut Launcher]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
