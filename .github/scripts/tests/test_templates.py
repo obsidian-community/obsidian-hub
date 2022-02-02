@@ -3,16 +3,13 @@
 
 # -------------------------------------------------------------------------------------------------------------
 # For how to use and maintain these tests, please see:
-#       https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+#       https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 # -------------------------------------------------------------------------------------------------------------
 import glob
-import os
 
 import utils
 
-from approvaltests.approvals import verify, verify_all
-
-from test_make_mocs import approval_test_options
+from helpers_for_testing import verify_as_markdown
 
 JINJA_TEMPLATES_DIR = "../templates"
 OBSIDIAN_TEMPLATES_DIR = "../../../00 - Contribute to the Obsidian Hub/01 Templates/"
@@ -67,18 +64,18 @@ def test_author_from_jinja():
                                   ],
                                   file_path="Some%20Encoded%20Path.md")
 
-    verify(new_content, options=approval_test_options())
+    verify_as_markdown(new_content)
 
 
 def test_author_from_jinja_minimal():
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "author.md.jinja")
     new_content = template.render(user="test-user", author="test-user", file_path="Some%20Encoded%20Path.md")
 
-    verify(new_content, options=approval_test_options())
+    verify_as_markdown(new_content)
 
 
 def test_author_from_templates():
     template = utils.get_template_from_directory(OBSIDIAN_TEMPLATES_DIR, 'T - Author.md')
     new_content = template.render(title="test-user")
 
-    verify(new_content, options=approval_test_options())
+    verify_as_markdown(new_content)

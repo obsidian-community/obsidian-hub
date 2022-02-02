@@ -1,10 +1,10 @@
 import re
-from approvaltests.approvals import verify
 
 import add_footer
 import utils
 
-from test_templates import JINJA_TEMPLATES_DIR, approval_test_options
+from helpers_for_testing import verify_as_markdown
+from test_templates import JINJA_TEMPLATES_DIR
 
 
 # Test that the footer finds the template
@@ -100,7 +100,7 @@ OUTPUT:
 ---
 {output}
 """
-    verify(text_to_verify, options=approval_test_options())
+    verify_as_markdown(text_to_verify)
 
 
 def check_output_has_eol_on_last_line(output):
