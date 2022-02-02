@@ -69,16 +69,6 @@ def verify_updating_existing_moc(existing_moc_file_name):
 
 def approval_test_options():
     options = Options().for_file.with_extension(".md")
-
-    # Remainder here is specific to Clare's machine
-    #
-    # The supported tool names are listed in:
-    #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
-    #
-    # diff_tool_name = "AraxisMergeMac"
-    # diff_tool = GenericDiffReporterFactory().get(diff_tool_name)
-    # options = options.with_reporter(diff_tool)
-
     return options
 
 
