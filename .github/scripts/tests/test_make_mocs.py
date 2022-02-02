@@ -4,7 +4,7 @@ import os
 
 # -------------------------------------------------------------------------------------------------------------
 # For how to use and maintain these tests, please see:
-#       https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+#       https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 # -------------------------------------------------------------------------------------------------------------
 
 from helpers_for_testing import verify_as_markdown
@@ -22,7 +22,7 @@ def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
     verifying that the output is unchanged since the previous approved output,
     by calling the ApprovalTests method verify()
 
-    For more info, see https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+    For more info, see https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 
     :param directory: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
     :param sub_directories: List of names of sub-directories in the given directory

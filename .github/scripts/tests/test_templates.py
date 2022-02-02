@@ -3,7 +3,7 @@
 
 # -------------------------------------------------------------------------------------------------------------
 # For how to use and maintain these tests, please see:
-#       https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+#       https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 # -------------------------------------------------------------------------------------------------------------
 import glob
 
