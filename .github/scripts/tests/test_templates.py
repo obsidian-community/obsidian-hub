@@ -6,13 +6,14 @@
 #       https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 # -------------------------------------------------------------------------------------------------------------
 import glob
+from pathlib import Path
 
 import utils
 
 from helpers_for_testing import verify_as_markdown
 
-JINJA_TEMPLATES_DIR = "../templates"
-OBSIDIAN_TEMPLATES_DIR = "../../../00 - Contribute to the Obsidian Hub/01 Templates/"
+JINJA_TEMPLATES_DIR = str(Path(__file__).parent.parent.absolute() / 'templates')
+OBSIDIAN_TEMPLATES_DIR = str(Path(__file__).parent.parent.parent.parent / "00 - Contribute to the Obsidian Hub/01 Templates/")
 
 
 # It's tempting to copy template text between the Jinja templates (JINJA_TEMPLATES_DIR)
