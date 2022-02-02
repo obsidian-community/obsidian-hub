@@ -8,8 +8,7 @@ import os
 # -------------------------------------------------------------------------------------------------------------
 
 from approvaltests import Options
-from approvaltests.approvals import verify, verify_all
-from approvaltests.reporters import GenericDiffReporterFactory
+from helpers_for_testing import verify_as_markdown
 
 import make_mocs
 
@@ -33,7 +32,7 @@ def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
     """
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_directory_with_delimiters(directory, sub_directories, files)
-    verify(result, options=approval_test_options())
+    verify_as_markdown(result)
 
 
 def verify_updating_existing_moc(existing_moc_file_name):
@@ -64,7 +63,7 @@ def verify_updating_existing_moc(existing_moc_file_name):
     new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters('test', directories, files)
 
     result = moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters)
-    verify(result, options=approval_test_options())
+    verify_as_markdown(result)
 
 
 def approval_test_options():
