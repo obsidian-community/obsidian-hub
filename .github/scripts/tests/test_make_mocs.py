@@ -7,7 +7,6 @@ import os
 #       https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
 # -------------------------------------------------------------------------------------------------------------
 
-from approvaltests import Options
 from helpers_for_testing import verify_as_markdown
 
 import make_mocs
@@ -64,11 +63,6 @@ def verify_updating_existing_moc(existing_moc_file_name):
 
     result = moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters)
     verify_as_markdown(result)
-
-
-def approval_test_options():
-    options = Options().for_file.with_extension(".md")
-    return options
 
 
 # -------------------------------------------------------------------------------------------------------------
