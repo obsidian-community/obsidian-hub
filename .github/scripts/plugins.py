@@ -159,6 +159,7 @@ def get_core_plugins():
     for plugin in CORE_PLUGINS:
         plugin["slug"] = "Plugins/" + plugin["name"].replace(" ", "+")
 
+    assert match  # Needed to stop match[1] giving 'error: Value of type "Optional[Match[str]]" is not indexable'
     new_contents = contents.replace(match[1], template.render(plugins=CORE_PLUGINS))
 
     with open(file_path, "w") as md_file:
