@@ -27,7 +27,7 @@ class VaultMoc:
 class DirectoryMoc:
     """Class to create or update the MOC file for a single directory"""
 
-    def __init__(self, directory: str, sub_directories: List[Union[str, Any]], files: List[str]) -> None:
+    def __init__(self, directory: str, sub_directories: List[str], files: List[str]) -> None:
         """
         
         :param directory: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
@@ -83,7 +83,7 @@ class MocMaker:
     That is, it generates a Markdown list of links to files and directories
     """
 
-    def make_moc_for_files(self, directory: str, files: List[Union[str, Any]]) -> str:
+    def make_moc_for_files(self, directory: str, files: List[str]) -> str:
         output = ''
         moc_filter = MocFileAndDirectoryFilter()
         for file in files:
@@ -92,7 +92,7 @@ class MocMaker:
             output += self.make_line_for_file(directory, file)
         return output
 
-    def make_moc_for_sub_directories(self, directory: str, sub_directories: List[Union[str, Any]]) -> str:
+    def make_moc_for_sub_directories(self, directory: str, sub_directories: List[str]) -> str:
         output = ''
         moc_filter = MocFileAndDirectoryFilter()
         for sub_directory in sub_directories:
@@ -101,7 +101,7 @@ class MocMaker:
             output += self.make_line_for_sub_directory(directory, sub_directory)
         return output
 
-    def make_moc_for_directory(self, directory: str, dirs: List[Union[str, Any]], files: List[Union[str, Any]]) -> str:
+    def make_moc_for_directory(self, directory: str, dirs: List[str], files: List[str]) -> str:
         result = ''
 
         sorted_dirs = sorted(dirs, key=str.casefold)
@@ -114,7 +114,7 @@ class MocMaker:
             result = '\n'
         return result
 
-    def make_moc_for_directory_with_delimiters(self, directory: str, dirs: List[Union[str, Any]], files: List[Union[str, Any]]) -> str:
+    def make_moc_for_directory_with_delimiters(self, directory: str, dirs: List[str], files: List[str]) -> str:
         result = ''
         result += MocDelimiter().initial_delimiter()
         result += self.make_moc_for_directory(directory, dirs, files)
@@ -196,7 +196,7 @@ class MocFileAndDirectoryFilter:
         namer = MocFileNamer()
         return file == namer.moc_file_name_for_directory(directory)
 
-    def filter_directories(self, dirs: List[Union[str, Any]]) -> None:
+    def filter_directories(self, dirs: List[str]) -> None:
         dirs[:] = [d for d in dirs if self.include_directory_in_moc(d)]
 
 
