@@ -2,7 +2,8 @@
 
 import sys
 import argparse
-from plugins import collect_data_for_plugin
+
+from plugins import collect_data_for_plugin, PluginList
 
 from utils import (
     format_link,
@@ -21,7 +22,7 @@ from themes import get_theme_downloads, update_theme_download_count, collect_dat
 def process_released_plugins(overwrite=False, verbose=False):
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
-    plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
+    plugin_list: PluginList = get_json_from_github(PLUGINS_JSON_FILE)
 
     devs = list()
     file_groups: FileGroups = dict()

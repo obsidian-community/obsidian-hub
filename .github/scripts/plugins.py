@@ -3,9 +3,14 @@
 import re
 import os
 import sys
+from typing import Any, Dict, List
 
 from authors import update_author_name_for_manual_exceptions
 from utils import get_template, get_plugin_manifest, FileGroups
+
+# Type aliases:
+Plugin = Dict[str, Any]
+PluginList = List[Plugin]
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
 DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
@@ -166,7 +171,7 @@ def get_core_plugins():
         md_file.write(new_contents)
 
 
-def collect_data_for_plugin(plugin, file_groups: FileGroups):
+def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
     """
     Take raw plugin data from a community plugin, and add information to it,
     typically from its manifest file.
@@ -182,8 +187,9 @@ def collect_data_for_plugin(plugin, file_groups: FileGroups):
     return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
 
 
-def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups: FileGroups):
-    repo = plugin.get("repo")
+def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest, file_groups: FileGroups) -> bool:
+    # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
+    repo = str(plugin.get("repo"))
     plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
     user = repo.split("/")[0]
@@ -198,11 +204,11 @@ def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups: FileGrou
     return plugin_is_valid
 
 
-def validate_plugin(plugin, manifest, repo, file_groups: FileGroups):
+def validate_plugin(plugin: Plugin, manifest, repo, file_groups: FileGroups):
     return validate_plugin_ids(plugin, manifest, repo, file_groups)
 
 
-def validate_plugin_ids(plugin, manifest, repo, file_groups: FileGroups):
+def validate_plugin_ids(plugin: Plugin, manifest, repo, file_groups: FileGroups):
     ids_match = True
     releases_id = plugin.get('id')
     manifest_id = manifest.get('id')
