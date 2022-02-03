@@ -75,7 +75,7 @@ def get_footer_comment_regex() -> str:
     return r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
 
 
-def encode_absolute_path_for_footer(absolute_path):
+def encode_absolute_path_for_footer(absolute_path: str) -> str:
     relative_path = relpath(absolute_path, get_root_of_vault())
     encoded_path = quote(relative_path)
     return encoded_path
