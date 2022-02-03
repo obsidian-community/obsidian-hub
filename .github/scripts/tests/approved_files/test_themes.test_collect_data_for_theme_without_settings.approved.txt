@@ -1,0 +1,26 @@
+Initial:
+{
+    "author": "deathau",
+    "modes": [
+        "dark",
+        "light"
+    ],
+    "name": "Christmas",
+    "repo": "deathau/obsidian-christmas-theme",
+    "screenshot": "screenshot.png"
+}
+
+Frame #1:
+{
+    "author": "deathau",
+    "branch": "master",
+    "download_count": 804,
+    "modes": "[[Dark-mode themes|dark]], [[Light-mode themes|light]]",
+    "name": "Christmas",
+    "plugins": null,
+    "repo": "deathau/obsidian-christmas-theme",
+    "screenshot": "screenshot.png",
+    "settings": null,
+    "user": "deathau"
+}
+
