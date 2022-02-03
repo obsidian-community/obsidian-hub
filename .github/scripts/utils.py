@@ -1,7 +1,7 @@
 import os
 import json
 import glob
-from typing import Dict, List
+from typing import Dict, List, Union, Any
 
 import requests
 
@@ -22,6 +22,8 @@ OUTPUT_DIR = {
 
 # Type aliases:
 FileGroups = Dict[str, List[str]]
+# JSONType is from https://stackoverflow.com/a/58405201/104370
+JSONType = Union[str, int, float, bool, None, Dict[str, Any], List[Any]]
 
 
 # For performance reasons, we check the environment only once, and cache the value.
@@ -112,7 +114,7 @@ def have_same_contents(file_path, rendered_template):
     return False
 
 
-def get_json_from_github(url):
+def get_json_from_github(url: str) -> JSONType:
     with urlopen(url) as response:
         json_file = json.loads(response.read())
 
