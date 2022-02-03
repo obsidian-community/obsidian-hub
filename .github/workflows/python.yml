@@ -23,5 +23,5 @@ jobs:
 
       - name: Check type hints
         run: |
-          cd .github/scripts/tests
+          cd .github/scripts
           ./check_type_hints.sh
