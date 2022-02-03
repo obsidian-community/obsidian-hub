@@ -2,7 +2,7 @@
 
 import sys
 import argparse
-from typing import Any, Dict
+from typing import Any, Dict, Sequence
 
 from plugins import collect_data_for_plugin, PluginList
 
@@ -164,11 +164,11 @@ def process_authors(theme_designers: ThemeList,
     print_file_summary(file_groups)
 
 
-def update_download_counts(verbose=True):
+def update_download_counts(verbose: bool = True) -> None:
     update_theme_download_counts(verbose)
 
 
-def update_theme_download_counts(verbose):
+def update_theme_download_counts(verbose: bool) -> None:
     print("-----\nUpdating theme download counts....\n")
     # This is so fast that there is no point showing the progress bar
 
@@ -182,7 +182,7 @@ def update_theme_download_counts(verbose):
         update_theme_download_count(template, theme_downloads, current_name, verbose)
 
 
-def main(argv=sys.argv[1:]):
+def main(argv: Sequence[str] = sys.argv[1:]) -> None:
     parser = argparse.ArgumentParser(
         description="Create notes based on the obsidian-releases repo"
     )
