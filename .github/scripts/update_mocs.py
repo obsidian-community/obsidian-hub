@@ -2,11 +2,12 @@
 
 import sys
 import argparse
+from typing import Sequence
 
 from make_mocs import VaultMoc
 
 
-def main(argv=sys.argv[1:]):
+def main(argv: Sequence[str] = sys.argv[1:]) -> None:
     parser = argparse.ArgumentParser(
         description="Create and update MOCs, mimicking Zoottelkeeper output"
     )

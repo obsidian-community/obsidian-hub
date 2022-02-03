@@ -3,7 +3,7 @@
 import re
 import os
 import sys
-from typing import Union, Any, Dict, List
+from typing import Union, Any, Dict, List, Sequence
 
 from authors import update_author_name_for_manual_exceptions
 from utils import get_template, get_plugin_manifest, FileGroups
@@ -221,7 +221,7 @@ def validate_plugin_ids(plugin: Plugin, manifest: PluginManifest, repo: str, fil
     return ids_match
 
 
-def main(argv=sys.argv[1:]):
+def main(argv: Sequence[str] = sys.argv[1:]) -> None:
     get_core_plugins()
 
 

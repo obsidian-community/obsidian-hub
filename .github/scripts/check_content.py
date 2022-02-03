@@ -3,6 +3,7 @@ import os.path
 import re
 import sys
 from os import walk
+from typing import Sequence
 
 # This code is for validating the **Content** of the Hub, such as file names,
 # as opposed to validating the Python code and other infrastructure.
@@ -98,7 +99,7 @@ def check_content_of_vault() -> None:
     check_content_of_working_directory()
 
 
-def main(argv=sys.argv[1:]) -> None:
+def main(argv: Sequence[str] = sys.argv[1:]) -> None:
     parser = argparse.ArgumentParser(
         description="Check for issues with the content of the Hub vault (such as errors in file names)."
     )
