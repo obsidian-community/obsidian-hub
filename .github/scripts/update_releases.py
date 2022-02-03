@@ -2,6 +2,7 @@
 
 import sys
 import argparse
+from typing import Any, Dict
 
 from plugins import collect_data_for_plugin, PluginList
 
@@ -118,13 +119,17 @@ def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> 
     )
 
 
-def process_authors(theme_designers, plugin_devs, overwrite=False, verbose=False):
+def process_authors(theme_designers: ThemeList,
+                    plugin_devs: PluginList,
+                    overwrite: bool = False,
+                    verbose: bool = False) -> None:
     print("-----\nProcessing authors....\n")
     template = get_template("author")
     total = len(theme_designers) + len(plugin_devs)
 
     print_progress_bar(0, total)
-    all_authors = dict()
+    AllAuthors = Dict[str, Dict[str, Any]]
+    all_authors: AllAuthors = dict()
     for designer in theme_designers:
         author = designer.get("author")
         user = designer.get("user")
