@@ -14,5 +14,8 @@
 python3 -m mypy \
   --follow-imports=skip \
   --ignore-missing-imports \
+  --allow-untyped-calls \
+  --allow-untyped-defs \
+  --allow-incomplete-defs \
   *.py \
   tests/*.py
