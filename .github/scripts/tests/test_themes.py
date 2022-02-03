@@ -2,7 +2,7 @@ import os
 
 import approvaltests
 from approvaltests import verify_as_json, verify, Options
-from approvaltests.scrubbers import create_regex_scrubber
+from approvaltests.scrubbers import create_regex_scrubber, Scrubber
 from approvaltests.storyboard import StoryBoard
 
 import utils
@@ -10,6 +10,24 @@ from tests.helpers_for_testing import verify_as_markdown
 from tests.test_templates import JINJA_TEMPLATES_DIR
 from themes import get_theme_downloads, collect_data_for_theme, ThemeList
 from utils import THEMES_JSON_FILE, get_json_from_github
+
+
+def make_download_numbers_stable() -> Scrubber:
+    return create_regex_scrubber(
+        r'"download": \d+,',
+        r'"download": 9999,')
+
+
+def make_download_count_numbers_stable() -> Scrubber:
+    return create_regex_scrubber(
+        r'"download_count": \d+,',
+        r'"download_count": 9999,')
+
+
+def make_download_badge_numbers_stable() -> Scrubber:
+    return create_regex_scrubber(
+        r'https://img.shields.io/badge/downloads-\d+-',
+        r'https://img.shields.io/badge/downloads-9999-')
 
 
 def test_get_theme_downloads() -> None:
@@ -23,7 +41,7 @@ def test_get_theme_downloads() -> None:
 
     # TODO Don't add new themes
     verify_as_json(downloads,
-                   options=Options().with_scrubber(create_regex_scrubber('"download": \d+,', '"download": 9999,')))
+                   options=Options().with_scrubber(make_download_numbers_stable()))
 
 
 def test_get_community_themes() -> None:
@@ -37,7 +55,7 @@ def test_get_community_themes() -> None:
     assert first_theme["screenshot"] != ""
 
     # TODO Don't add new themes - maybe get a fixed revision
-    # verify_as_json(theme_list)
+    verify_as_json(theme_list)
 
 
 def test_collect_data_for_theme_with_settings() -> None:
@@ -73,8 +91,9 @@ def test_rendering_of_theme() -> None:
 
     assert len(file_content) > 0
 
-    # TODO Scrub the download numbers
-    # verify_as_markdown(file_content)
+    verify_as_markdown(
+        file_content,
+        options=Options().with_scrubber(make_download_badge_numbers_stable()))
 
 
 def verify_theme_data(theme_name: str) -> None:
@@ -101,5 +120,5 @@ def verify_theme_data(theme_name: str) -> None:
     assert theme["user"] != ""
     s.add_frame(approvaltests.utils.to_json(theme))
 
-    # TODO Scrub the download numbers
-    # verify(s)
+    verify(s,
+           options=Options().with_scrubber(make_download_count_numbers_stable()))

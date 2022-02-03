@@ -1,470 +1,470 @@
 {
     "80s Neon": {
-        "download": 9195,
+        "download": 9999,
         "id": "80s Neon"
     },
     "Agora": {
-        "download": 1818,
+        "download": 9999,
         "id": "Agora"
     },
     "Al Dente": {
-        "download": 911,
+        "download": 9999,
         "id": "Al Dente"
     },
     "Alchemy": {
-        "download": 1506,
+        "download": 9999,
         "id": "Alchemy"
     },
     "Amethyst": {
-        "download": 1513,
+        "download": 9999,
         "id": "Amethyst"
     },
     "Ars Magna": {
-        "download": 4575,
+        "download": 9999,
         "id": "Ars Magna"
     },
     "Atom": {
-        "download": 23422,
+        "download": 9999,
         "id": "Atom"
     },
     "Aurora": {
-        "download": 1178,
+        "download": 9999,
         "id": "Aurora"
     },
     "Ayu": {
-        "download": 764,
+        "download": 9999,
         "id": "Ayu"
     },
     "Ayu Mirage": {
-        "download": 802,
+        "download": 9999,
         "id": "Ayu Mirage"
     },
     "Base2Tone": {
-        "download": 700,
+        "download": 9999,
         "id": "Base2Tone"
     },
     "Behave dark": {
-        "download": 1099,
+        "download": 9999,
         "id": "Behave dark"
     },
     "Big Sur Aesthetic": {
-        "download": 10013,
+        "download": 9999,
         "id": "Big Sur Aesthetic"
     },
     "Blackbird": {
-        "download": 1935,
+        "download": 9999,
         "id": "Blackbird"
     },
     "Blue Topaz": {
-        "download": 37417,
+        "download": 9999,
         "id": "Blue Topaz"
     },
     "Bubble Space": {
-        "download": 4046,
+        "download": 9999,
         "id": "Bubble Space"
     },
     "California Coast": {
-        "download": 19815,
+        "download": 9999,
         "id": "California Coast"
     },
     "Cardstock": {
-        "download": 2012,
+        "download": 9999,
         "id": "Cardstock"
     },
     "Carnelian": {
-        "download": 1055,
+        "download": 9999,
         "id": "Carnelian"
     },
     "Carpe Noctem": {
-        "download": 312,
+        "download": 9999,
         "id": "Carpe Noctem"
     },
     "Charcoal": {
-        "download": 810,
+        "download": 9999,
         "id": "Charcoal"
     },
     "Christmas": {
-        "download": 804,
+        "download": 9999,
         "id": "Christmas"
     },
     "Cidreira Coast": {
-        "download": 1733,
+        "download": 9999,
         "id": "Cidreira Coast"
     },
     "Clair de Lune": {
-        "download": 6387,
+        "download": 9999,
         "id": "Clair de Lune"
     },
     "Comfort Smooth": {
-        "download": 1707,
+        "download": 9999,
         "id": "Comfort Smooth"
     },
     "Comfort color dark": {
-        "download": 2262,
+        "download": 9999,
         "id": "Comfort color dark"
     },
     "Creature": {
-        "download": 1052,
+        "download": 9999,
         "id": "Creature"
     },
     "Cyber Glow": {
-        "download": 2724,
+        "download": 9999,
         "id": "Cyber Glow"
     },
     "Cybertron": {
-        "download": 11088,
+        "download": 9999,
         "id": "Cybertron"
     },
     "Dark Graphite": {
-        "download": 892,
+        "download": 9999,
         "id": "Dark Graphite"
     },
     "Dark Graphite Pie": {
-        "download": 1436,
+        "download": 9999,
         "id": "Dark Graphite Pie"
     },
     "Dark Moss": {
-        "download": 3809,
+        "download": 9999,
         "id": "Dark Moss"
     },
     "Darkyan": {
-        "download": 649,
+        "download": 9999,
         "id": "Darkyan"
     },
     "Deep": {
-        "download": 940,
+        "download": 9999,
         "id": "Deep"
     },
     "Deep Work": {
-        "download": 18888,
+        "download": 9999,
         "id": "Deep Work"
     },
     "Discordian": {
-        "download": 4459,
+        "download": 9999,
         "id": "Discordian"
     },
     "Dracula Official": {
-        "download": 1830,
+        "download": 9999,
         "id": "Dracula Official"
     },
     "Dracula Slim": {
-        "download": 607,
+        "download": 9999,
         "id": "Dracula Slim"
     },
     "Dracula for Obsidian": {
-        "download": 13082,
+        "download": 9999,
         "id": "Dracula for Obsidian"
     },
     "Ebullientworks": {
-        "download": 1931,
+        "download": 9999,
         "id": "Ebullientworks"
     },
     "Emerald": {
-        "download": 1782,
+        "download": 9999,
         "id": "Emerald"
     },
     "Everforest": {
-        "download": 7097,
+        "download": 9999,
         "id": "Everforest"
     },
     "Faded": {
-        "download": 1087,
+        "download": 9999,
         "id": "Faded"
     },
     "Firefly": {
-        "download": 1637,
+        "download": 9999,
         "id": "Firefly"
     },
     "Friendly": {
-        "download": 1157,
+        "download": 9999,
         "id": "Friendly"
     },
     "GDCT": {
-        "download": 583,
+        "download": 9999,
         "id": "GDCT"
     },
     "GDCT Dark": {
-        "download": 647,
+        "download": 9999,
         "id": "GDCT Dark"
     },
     "Gastown": {
-        "download": 933,
+        "download": 9999,
         "id": "Gastown"
     },
     "Gitsidian": {
-        "download": 2625,
+        "download": 9999,
         "id": "Gitsidian"
     },
     "Golden Book": {
-        "download": 1584,
+        "download": 9999,
         "id": "Golden Book"
     },
     "Golden Coffee": {
-        "download": 2755,
+        "download": 9999,
         "id": "Golden Coffee"
     },
     "Golden Topaz": {
-        "download": 3494,
+        "download": 9999,
         "id": "Golden Topaz"
     },
     "Harmonic": {
-        "download": 3138,
+        "download": 9999,
         "id": "Harmonic"
     },
     "Higlighter": {
-        "download": 995,
+        "download": 9999,
         "id": "Higlighter"
     },
     "Hipstersmoothie": {
-        "download": 1495,
+        "download": 9999,
         "id": "Hipstersmoothie"
     },
     "Horizon": {
-        "download": 2397,
+        "download": 9999,
         "id": "Horizon"
     },
     "Hulk": {
-        "download": 1030,
+        "download": 9999,
         "id": "Hulk"
     },
     "ITS Theme": {
-        "download": 8448,
+        "download": 9999,
         "id": "ITS Theme"
     },
     "Iceberg": {
-        "download": 719,
+        "download": 9999,
         "id": "Iceberg"
     },
     "Illusion": {
-        "download": 1306,
+        "download": 9999,
         "id": "Illusion"
     },
     "LYT Mode": {
-        "download": 1333,
+        "download": 9999,
         "id": "LYT Mode"
     },
     "Lizardmen Zettelkasten": {
-        "download": 1290,
+        "download": 9999,
         "id": "Lizardmen Zettelkasten"
     },
     "Mammoth": {
-        "download": 1292,
+        "download": 9999,
         "id": "Mammoth"
     },
     "Minimal": {
-        "download": 60228,
+        "download": 9999,
         "id": "Minimal"
     },
     "Molecule": {
-        "download": 1102,
+        "download": 9999,
         "id": "Molecule"
     },
     "Moonlight": {
-        "download": 1759,
+        "download": 9999,
         "id": "Moonlight"
     },
     "Nebula": {
-        "download": 1251,
+        "download": 9999,
         "id": "Nebula"
     },
     "Night Owl": {
-        "download": 4771,
+        "download": 9999,
         "id": "Night Owl"
     },
     "Notation": {
-        "download": 7204,
+        "download": 9999,
         "id": "Notation"
     },
     "Obsdn-Dark-Rmx": {
-        "download": 2107,
+        "download": 9999,
         "id": "Obsdn-Dark-Rmx"
     },
     "Obsidian Boom": {
-        "download": 775,
+        "download": 9999,
         "id": "Obsidian Boom"
     },
     "Obsidian Nord": {
-        "download": 25503,
+        "download": 9999,
         "id": "Obsidian Nord"
     },
     "Obsidian Nord Enhanced": {
-        "download": 943,
+        "download": 9999,
         "id": "Obsidian Nord Enhanced"
     },
     "Obsidian Windows 98 Edition": {
-        "download": 2373,
+        "download": 9999,
         "id": "Obsidian Windows 98 Edition"
     },
     "Obsidian You": {
-        "download": 6897,
+        "download": 9999,
         "id": "Obsidian You"
     },
     "Obsidian gruvbox": {
-        "download": 7892,
+        "download": 9999,
         "id": "Obsidian gruvbox"
     },
     "Obsidianite": {
-        "download": 20333,
+        "download": 9999,
         "id": "Obsidianite"
     },
     "Obuntu": {
-        "download": 4214,
+        "download": 9999,
         "id": "Obuntu"
     },
     "Ono Sendai": {
-        "download": 3521,
+        "download": 9999,
         "id": "Ono Sendai"
     },
     "Palatinate": {
-        "download": 790,
+        "download": 9999,
         "id": "Palatinate"
     },
     "Panic Mode": {
-        "download": 845,
+        "download": 9999,
         "id": "Panic Mode"
     },
     "Pine Forest Berry": {
-        "download": 1762,
+        "download": 9999,
         "id": "Pine Forest Berry"
     },
     "Pink Topaz": {
-        "download": 3197,
+        "download": 9999,
         "id": "Pink Topaz"
     },
     "Pisum": {
-        "download": 2132,
+        "download": 9999,
         "id": "Pisum"
     },
     "Primary": {
-        "download": 15250,
+        "download": 9999,
         "id": "Primary"
     },
     "Prism": {
-        "download": 6145,
+        "download": 9999,
         "id": "Prism"
     },
     "Purple Aurora": {
-        "download": 1072,
+        "download": 9999,
         "id": "Purple Aurora"
     },
     "Purple Owl": {
-        "download": 1213,
+        "download": 9999,
         "id": "Purple Owl"
     },
     "Red Graphite": {
-        "download": 4427,
+        "download": 9999,
         "id": "Red Graphite"
     },
     "Reverie": {
-        "download": 2022,
+        "download": 9999,
         "id": "Reverie"
     },
     "Rmaki": {
-        "download": 745,
+        "download": 9999,
         "id": "Rmaki"
     },
     "Ros\u00e9 Pine Moon": {
-        "download": 1064,
+        "download": 9999,
         "id": "Ros\u00e9 Pine Moon"
     },
     "Ruby": {
-        "download": 1442,
+        "download": 9999,
         "id": "Ruby"
     },
     "Sanctum": {
-        "download": 16360,
+        "download": 9999,
         "id": "Sanctum"
     },
     "Sandstorm": {
-        "download": 431,
+        "download": 9999,
         "id": "Sandstorm"
     },
     "Shimmering Focus": {
-        "download": 13394,
+        "download": 9999,
         "id": "Shimmering Focus"
     },
     "Slytherin": {
-        "download": 1867,
+        "download": 9999,
         "id": "Slytherin"
     },
     "Sodalite": {
-        "download": 4471,
+        "download": 9999,
         "id": "Sodalite"
     },
     "Solarized": {
-        "download": 5630,
+        "download": 9999,
         "id": "Solarized"
     },
     "Spectrum": {
-        "download": 4985,
+        "download": 9999,
         "id": "Spectrum"
     },
     "Subtlegold": {
-        "download": 1227,
+        "download": 9999,
         "id": "Subtlegold"
     },
     "Suddha": {
-        "download": 1346,
+        "download": 9999,
         "id": "Suddha"
     },
     "Terminal": {
-        "download": 5834,
+        "download": 9999,
         "id": "Terminal"
     },
     "Things": {
-        "download": 27689,
+        "download": 9999,
         "id": "Things"
     },
     "Tokyo Night": {
-        "download": 3547,
+        "download": 9999,
         "id": "Tokyo Night"
     },
     "Traffic Lights": {
-        "download": 1633,
+        "download": 9999,
         "id": "Traffic Lights"
     },
     "Typewriter": {
-        "download": 5485,
+        "download": 9999,
         "id": "Typewriter"
     },
     "Typomagical": {
-        "download": 3460,
+        "download": 9999,
         "id": "Typomagical"
     },
     "Ursa": {
-        "download": 1428,
+        "download": 9999,
         "id": "Ursa"
     },
     "Vileplume": {
-        "download": 2601,
+        "download": 9999,
         "id": "Vileplume"
     },
     "Vintage Theme": {
-        "download": 361,
+        "download": 9999,
         "id": "Vintage Theme"
     },
     "Warmth": {
-        "download": 2,
+        "download": 9999,
         "id": "Warmth"
     },
     "Wasp": {
-        "download": 11419,
+        "download": 9999,
         "id": "Wasp"
     },
     "WilcoxOne": {
-        "download": 821,
+        "download": 9999,
         "id": "WilcoxOne"
     },
     "Wyrd": {
-        "download": 2367,
+        "download": 9999,
         "id": "Wyrd"
     },
     "Yin and Yang": {
-        "download": 28302,
+        "download": 9999,
         "id": "Yin and Yang"
     },
     "obsidian_ia": {
-        "download": 3153,
+        "download": 9999,
         "id": "obsidian_ia"
     }
 }

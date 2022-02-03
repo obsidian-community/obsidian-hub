@@ -14,7 +14,7 @@ Frame #1:
 {
     "author": "deathau",
     "branch": "master",
-    "download_count": 804,
+    "download_count": 9999,
     "modes": "[[Dark-mode themes|dark]], [[Light-mode themes|light]]",
     "name": "Christmas",
     "plugins": null,
