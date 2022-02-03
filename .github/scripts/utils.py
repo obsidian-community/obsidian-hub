@@ -20,7 +20,7 @@ OUTPUT_DIR = {
     "author": "01 - Community/People",
 }
 
-# Type hint aliases:
+# Type aliases:
 FileGroups = Dict[str, List[str]]
 
 
