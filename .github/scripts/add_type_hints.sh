@@ -7,7 +7,7 @@ rm -f monkeytype.sqlite3
 monkeytype run -m pytest tests/*.py
 monkeytype run ./add_footer.py > /dev/null
 #monkeytype run ./check_contents.py
-#monkeytype run ./update_mocs.py
+monkeytype run ./update_mocs.py
 #monkeytype run ./update_releases.py
 #monkeytype run ./update_releases.py --all
 #monkeytype run ./update_releases.py --update-download-counts

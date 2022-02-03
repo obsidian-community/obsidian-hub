@@ -2,6 +2,7 @@ import os.path
 
 from utils import get_template
 from typing import Any, List, Union
+from argparse import Namespace
 
 
 class VaultMoc:
@@ -13,7 +14,7 @@ class VaultMoc:
     directory containing this script.
     """
 
-    def update_all_mocs(self, args):
+    def update_all_mocs(self, args: Namespace) -> None:
         directory = '../..'  # Note: use forward slash on all platforms, for consistent output across platforms
         moc_filter = MocFileAndDirectoryFilter()
         for root, dirs, files in os.walk(directory):
@@ -26,7 +27,7 @@ class VaultMoc:
 class DirectoryMoc:
     """Class to create or update the MOC file for a single directory"""
 
-    def __init__(self, directory, sub_directories, files):
+    def __init__(self, directory: str, sub_directories: List[Union[str, Any]], files: List[str]) -> None:
         """
         
         :param directory: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
@@ -40,7 +41,7 @@ class DirectoryMoc:
         self.sub_directories = sub_directories
         self.files = files
 
-    def generate_moc(self):
+    def generate_moc(self) -> None:
         """
         Currently, it either updates the list of files in an existing MOC,
         or if none is present, it creates a new MOC file, using the template file
@@ -60,7 +61,7 @@ class DirectoryMoc:
         else:
             self.write_new_moc_file(new_moc_content_with_delimiters)
 
-    def rewrite_existing_moc_file(self, new_moc_content_with_delimiters):
+    def rewrite_existing_moc_file(self, new_moc_content_with_delimiters: str) -> None:
         with open(self.moc_file_path, 'r') as input:
             initial_content = input.readlines()
         with open(self.moc_file_path, 'w') as output:
@@ -195,7 +196,7 @@ class MocFileAndDirectoryFilter:
         namer = MocFileNamer()
         return file == namer.moc_file_name_for_directory(directory)
 
-    def filter_directories(self, dirs):
+    def filter_directories(self, dirs: List[Union[str, Any]]) -> None:
         dirs[:] = [d for d in dirs if self.include_directory_in_moc(d)]
 
 
@@ -222,7 +223,7 @@ class MocFileNamer:
     def moc_file_name_for_directory(self, directory: str) -> str:
         return self.moc_base_name_for_directory(directory) + ".md"
 
-    def moc_file_path_for_directory(self, directory):
+    def moc_file_path_for_directory(self, directory: str) -> str:
         moc_file_basename = self.moc_file_name_for_directory(directory)
         return os.path.join(directory, moc_file_basename)
 
