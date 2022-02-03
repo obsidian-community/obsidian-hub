@@ -9,6 +9,8 @@ MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
     no-multiple-blanks \
     no-trailing-spaces \
     list-marker-space \
+    blanks-around-fences \
+    fenced-code-language \
   -o ${OUTPUT_FILE}"
 
 ${MARKDOWN_COMMAND} \
