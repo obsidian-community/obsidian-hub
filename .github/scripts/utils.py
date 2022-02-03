@@ -1,6 +1,7 @@
 import os
 import json
 import glob
+from typing import Dict, List
 
 import requests
 
@@ -18,6 +19,9 @@ OUTPUT_DIR = {
     "theme": "02 - Community Expansions/02.05 All Community Expansions/Themes",
     "author": "01 - Community/People",
 }
+
+# Type hint aliases:
+FileGroups = Dict[str, List[str]]
 
 
 # For performance reasons, we check the environment only once, and cache the value.
@@ -139,7 +143,7 @@ def format_link(note_name, alias=None):
         return "[[{}|{}]]".format(note_name, alias)
 
 
-def print_file_summary(file_groups, verbose=False):
+def print_file_summary(file_groups: FileGroups, verbose=False):
     messages = {
         "error": "has an error, so was ignored.",
         "exists": "exist but no changes were detected.",

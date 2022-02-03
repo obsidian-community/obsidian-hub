@@ -8,6 +8,7 @@ from utils import (
     format_link,
     get_category_files,
     get_template,
+    FileGroups,
     print_file_summary,
     print_progress_bar,
     write_file,
@@ -23,7 +24,7 @@ def process_released_plugins(overwrite=False, verbose=False):
     plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
 
     devs = list()
-    file_groups = dict()
+    file_groups: FileGroups = dict()
 
     print_progress_bar(
         0, len(plugin_list),
@@ -55,7 +56,7 @@ def process_released_themes(overwrite=False, verbose=False):
     theme_list = get_json_from_github(THEMES_JSON_FILE)
     designers = list()
 
-    file_groups = dict()
+    file_groups: FileGroups = dict()
     print_progress_bar(
         0, len(theme_list),
     )
@@ -147,7 +148,7 @@ def process_authors(theme_designers, plugin_devs, overwrite=False, verbose=False
         )
 
     print("\nCreating author notes....\n")
-    file_groups = dict()
+    file_groups: FileGroups = dict()
     for user, author_info in all_authors.items():
         group = write_file(
             template, user, overwrite=overwrite, verbose=verbose, **author_info

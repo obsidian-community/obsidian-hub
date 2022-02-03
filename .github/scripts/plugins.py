@@ -5,7 +5,7 @@ import os
 import sys
 
 from authors import update_author_name_for_manual_exceptions
-from utils import get_template, get_plugin_manifest
+from utils import get_template, get_plugin_manifest, FileGroups
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
 DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
@@ -166,7 +166,7 @@ def get_core_plugins():
         md_file.write(new_contents)
 
 
-def collect_data_for_plugin(plugin, file_groups):
+def collect_data_for_plugin(plugin, file_groups: FileGroups):
     """
     Take raw plugin data from a community plugin, and add information to it,
     typically from its manifest file.
@@ -182,7 +182,7 @@ def collect_data_for_plugin(plugin, file_groups):
     return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
 
 
-def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups):
+def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups: FileGroups):
     repo = plugin.get("repo")
     plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
@@ -198,11 +198,11 @@ def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups):
     return plugin_is_valid
 
 
-def validate_plugin(plugin, manifest, repo, file_groups):
+def validate_plugin(plugin, manifest, repo, file_groups: FileGroups):
     return validate_plugin_ids(plugin, manifest, repo, file_groups)
 
 
-def validate_plugin_ids(plugin, manifest, repo, file_groups):
+def validate_plugin_ids(plugin, manifest, repo, file_groups: FileGroups):
     ids_match = True
     releases_id = plugin.get('id')
     manifest_id = manifest.get('id')

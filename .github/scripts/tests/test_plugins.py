@@ -3,12 +3,13 @@ import json
 import plugins
 
 from helpers_for_testing import verify_in_json_format_to_markdown
+from utils import FileGroups
 
 
 def verify_plugin(manifest_as_json, plugin_as_json):
     plugin = json.loads(plugin_as_json)
     manifest = json.loads(manifest_as_json)
-    file_groups = dict()
+    file_groups: FileGroups = dict()
     result = plugins.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
     verify_in_json_format_to_markdown(plugin)
 
