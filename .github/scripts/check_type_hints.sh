@@ -14,5 +14,5 @@
 python3 -m mypy \
   --follow-imports=skip \
   --ignore-missing-imports \
-  *.py
-#  tests/*.py
+  *.py \
+  tests/*.py
