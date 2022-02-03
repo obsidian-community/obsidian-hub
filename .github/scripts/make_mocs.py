@@ -68,7 +68,7 @@ class DirectoryMoc:
             moc_maker = MocMaker()
             output.write(moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters))
 
-    def write_new_moc_file(self, new_moc_content_with_delimiters):
+    def write_new_moc_file(self, new_moc_content_with_delimiters: str) -> None:
         template = get_template("directory_moc")
         moc_base_name = self.namer.moc_base_name_for_directory(self.directory)
         new_content = template.render(title=moc_base_name, list_of_files_and_dirs=new_moc_content_with_delimiters)
