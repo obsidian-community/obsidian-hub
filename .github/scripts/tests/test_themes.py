@@ -1,7 +1,8 @@
 import os
 
 import approvaltests
-from approvaltests import verify_as_json, verify
+from approvaltests import verify_as_json, verify, Options
+from approvaltests.scrubbers import create_regex_scrubber
 from approvaltests.storyboard import StoryBoard
 
 import utils
@@ -20,9 +21,9 @@ def test_get_theme_downloads() -> None:
     assert download["id"] == key_of_first_download, download["id"]
     assert download["download"] > 0, download["download"]
 
-    # TODO Scrub the download numbers
     # TODO Don't add new themes
-    # verify_as_json(downloads)
+    verify_as_json(downloads,
+                   options=Options().with_scrubber(create_regex_scrubber('"download": \d+,', '"download": 9999,')))
 
 
 def test_get_community_themes() -> None:
