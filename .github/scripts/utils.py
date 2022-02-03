@@ -1,6 +1,7 @@
 import os
 import json
 import glob
+
 import requests
 
 from urllib.request import urlopen
@@ -58,22 +59,30 @@ def get_output_dir(template, file_name):
 
 
 def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
+    # This add_footer function cannot be imported at top of this file,
+    # as this would cause a cyclic reference:
+    from add_footer import encode_absolute_path_for_footer 
+
     file_path = get_output_dir(template, file_name)
+    encoded_path = encode_absolute_path_for_footer(os.path.abspath(file_path))
+
+    file_content = template.render(file_path=encoded_path, **kwargs)
+    file_content = ensure_last_line_has_eol(file_content)
 
     # Check if file exists
     if os.path.exists(file_path) and not overwrite:
         group = "modified"
         modified = "File contents don't match template."
 
-        if have_same_contents(file_path, template.render(**kwargs)):
+        if have_same_contents(file_path, file_content):
             modified = ""
             group = "exists"
 
         if verbose:
             print("{} exists. {}".format(file_name, modified))
     elif os.path.exists(file_path) and overwrite:
-        if not have_same_contents(file_path, template.render(**kwargs)):
-            template.stream(**kwargs).dump(file_path)
+        if not have_same_contents(file_path, file_content):
+            open(file_path, 'w').write(file_content)
             group = "overwritten"
             if verbose:
                 print("Overwriting {}".format(file_name))
@@ -83,7 +92,7 @@ def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
         # Create file
         if verbose:
             print("Creating {}".format(file_name))
-        template.stream(**kwargs).dump(file_path)
+        open(file_path, 'w').write(file_content)
         group = "new"
 
     return group

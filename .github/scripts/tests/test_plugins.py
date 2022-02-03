@@ -2,9 +2,7 @@ import json
 
 import plugins
 
-from approvaltests.approvals import verify_as_json
-
-from test_make_mocs import approval_test_options
+from helpers_for_testing import verify_in_json_format_to_markdown
 
 
 def verify_plugin(manifest_as_json, plugin_as_json):
@@ -12,8 +10,7 @@ def verify_plugin(manifest_as_json, plugin_as_json):
     manifest = json.loads(manifest_as_json)
     file_groups = dict()
     result = plugins.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
-    verify_as_json(plugin, options=approval_test_options())
-
+    verify_in_json_format_to_markdown(plugin)
 
 def test_author_augmented_for_ryanjamurphy():
     # Copied from https://github.com/obsidianmd/obsidian-releases/blob/30b6c827db345e92ce62d50c431878b80ede9d17/community-plugins.json

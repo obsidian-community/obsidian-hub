@@ -15,6 +15,9 @@ publish: true
 %% Hub MOCs: Don’t edit below  %%
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/css-obsidian-layout.png|css-obsidian-layout.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/file-and-link-settings.png|file-and-link-settings.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github compare forks.png|github compare forks.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github create pull request.png|github create pull request.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github fill out PR template.png|github fill out PR template.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github-actions-running.png|github-actions-running.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github-actions.png|github-actions.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github-add-new-file.png|github-add-new-file.png]]
@@ -27,6 +30,13 @@ publish: true
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github-plugin-release.png|github-plugin-release.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github-propose-changes.png|github-propose-changes.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github-use-template-repo.png|github-use-template-repo.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev editor commit changes.png|github.dev editor commit changes.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev editor create branch.png|github.dev editor create branch.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev editor stage changes.png|github.dev editor stage changes.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev editor version control.png|github.dev editor version control.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev editor.png|github.dev editor.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev fork view.png|github.dev fork view.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev switch to fork.png|github.dev switch to fork.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/plugin-submission-PR-template.png|plugin-submission-PR-template.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/project-cards-screenshot.png|project-cards-screenshot.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/publish-pfsense-acme_1.png|publish-pfsense-acme_1.png]]
@@ -71,11 +81,6 @@ publish: true
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Search.gif|VSCode Guide - Search.gif]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/VSCode Guide - Toggle Wrapping.gif|VSCode Guide - Toggle Wrapping.gif]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/vscode-regex-find-replace.png|vscode-regex-find-replace.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Category_view.png|YAFPA_Showcase_Category_view.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Collections_view.png|YAFPA_Showcase_Collections_view.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Feed.png|YAFPA_Showcase_Feed.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Note.png|YAFPA_Showcase_Note.png]]
--  [[00 - Contribute to the Obsidian Hub/02 Attachments/YAFPA_Showcase_Tags.png|YAFPA_Showcase_Tags.png]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%

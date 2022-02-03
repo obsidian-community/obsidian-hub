@@ -8,9 +8,9 @@ publish: true
 
 # Dmitry Savosh
 
-- GitHub: [derwish-pro](https://github.com/derwish-pro/) ^github
+- GitHub: [dy-sh](https://github.com/dy-sh/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/derwish-pro/> ^website
+- Website: <https://github.com/dy-sh/> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -45,7 +45,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @derwish-pro on GitHub Sponsors](https://github.com/sponsors/derwish-pro) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @dy-sh on GitHub Sponsors](https://github.com/sponsors/dy-sh) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
@@ -64,4 +64,4 @@ publish: true
 
 # This note in GitHub
 
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/People/derwish-pro.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/People/derwish-pro.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/People/dy-sh.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/People/dy-sh.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

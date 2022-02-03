@@ -74,6 +74,12 @@ def get_footer_comment_regex() -> str:
     return r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
 
 
+def encode_absolute_path_for_footer(absolute_path):
+    relative_path = relpath(absolute_path, get_root_of_vault())
+    encoded_path = quote(relative_path)
+    return encoded_path
+
+
 def add_footer_to_markdown(relative_path, contents, comment, template, debug):
     # Get the rendered template (file => relative path => html encoded)
     render = template.render(

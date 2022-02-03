@@ -8,14 +8,26 @@ publish: true
 
 # Syncthing
 
-Official website: #placeholder/link
-Documentation: #placeholder/link
-Cost: #placeholder/tool
-Available for: #placeholder/tool %% Uncomment this and remove those that don't apply: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|Linux]], [[Android Apps|Android]], [[iOS Apps|iOS]], [[iPadOS Apps]] %%
+Official website: https://syncthing.net/
+Documentation: https://docs.syncthing.net/
+Cost: free, open source
+Available for: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|Linux]], [[Android Apps|Android]]
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. Mention [[🗂️ Auxiliary Tools]] and any other relevat notes in this vault. %%
+A peer-to-peer file synchronisation application, which can be used to keep your Obsidian vault synchronised across multiple devices almost instantaneously.
 
-#placeholder/description
+## Configuration for Obsidian
+You'll probably want the following files to be excluded from synchronisation in your `.stignore`. If you're not using the [[metadata-extractor|Metadata Extractor]] plugin, you'll only need to exclude `workspace`.
+```
+// most important one. this keeps track of your open panes and files in the app
+.obsidian/workspace
+// Metadata Extractor generates these automatically, so you shouldn't sync them
+.obsidian/plugins/metadata-extractor/allExceptMd.json
+.obsidian/plugins/metadata-extractor/metadata.json
+.obsidian/plugins/metadata-extractor/tags.json
+```
+You *can* exclude your entire `.obsidian` directory instead for simplicity, but in that case your plugins and configuration will not be synchronised at all.
+
+Note that Syncthing does *not* synchronise the `.stignore` itself, so you will need to set up your ignore patterns on each device separately. If you save a copy of your `.stignore` elsewhere in your Obsidian vault, it can simply be copied to set up a new device smoothly.
 
 %% Hub footer: Please don't edit anything below this line %%
 

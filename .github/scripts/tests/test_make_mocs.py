@@ -4,12 +4,10 @@ import os
 
 # -------------------------------------------------------------------------------------------------------------
 # For how to use and maintain these tests, please see:
-#       https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+#       https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 # -------------------------------------------------------------------------------------------------------------
 
-from approvaltests import Options
-from approvaltests.approvals import verify, verify_all
-from approvaltests.reporters import GenericDiffReporterFactory
+from helpers_for_testing import verify_as_markdown
 
 import make_mocs
 
@@ -24,7 +22,7 @@ def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
     verifying that the output is unchanged since the previous approved output,
     by calling the ApprovalTests method verify()
 
-    For more info, see https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+    For more info, see https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 
     :param directory: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
     :param sub_directories: List of names of sub-directories in the given directory
@@ -33,7 +31,7 @@ def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
     """
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_directory_with_delimiters(directory, sub_directories, files)
-    verify(result, options=approval_test_options())
+    verify_as_markdown(result)
 
 
 def verify_updating_existing_moc(existing_moc_file_name):
@@ -64,22 +62,7 @@ def verify_updating_existing_moc(existing_moc_file_name):
     new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters('test', directories, files)
 
     result = moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters)
-    verify(result, options=approval_test_options())
-
-
-def approval_test_options():
-    options = Options().for_file.with_extension(".md")
-
-    # Remainder here is specific to Clare's machine
-    #
-    # The supported tool names are listed in:
-    #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
-    #
-    # diff_tool_name = "AraxisMergeMac"
-    # diff_tool = GenericDiffReporterFactory().get(diff_tool_name)
-    # options = options.with_reporter(diff_tool)
-
-    return options
+    verify_as_markdown(result)
 
 
 # -------------------------------------------------------------------------------------------------------------
