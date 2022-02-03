@@ -80,7 +80,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
     return designers
 
 
-def get_uncategorized_plugins(overwrite=True, verbose=False):
+def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> None:
     print("Finding uncategorized plugins....\n")
     template = get_template("category")
     UNCATEGORIZED = "Uncategorized plugins"
