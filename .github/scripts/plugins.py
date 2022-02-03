@@ -150,7 +150,7 @@ CORE_PLUGINS = [
 ]
 
 
-def get_core_plugins():
+def get_core_plugins() -> None:
     template = get_template("core_plugin")
     file_path = os.path.join("../..", "05 - Concepts/Obsidian Core Plugins.md")
     with open(file_path, "r") as md_file:
