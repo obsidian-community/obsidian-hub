@@ -143,7 +143,7 @@ def get_category_files() -> List[str]:
     )
 
 
-def format_link(note_name: str, alias: str = None) -> str:
+def format_link(note_name: str, alias: Union[str, None] = None) -> str:
     if alias is None:
         return "[[{}]]".format(note_name)
     else:
