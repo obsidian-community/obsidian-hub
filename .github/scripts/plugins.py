@@ -3,7 +3,7 @@
 import re
 import os
 import sys
-from typing import Any, Dict, List
+from typing import Union, Any, Dict, List
 
 from authors import update_author_name_for_manual_exceptions
 from utils import get_template, get_plugin_manifest, FileGroups
@@ -187,7 +187,7 @@ def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
     return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
 
 
-def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest, file_groups: FileGroups) -> bool:
+def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest: Dict[str, Union[str, bool]], file_groups: FileGroups) -> bool:
     # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
     repo = str(plugin.get("repo"))
     plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
@@ -204,11 +204,11 @@ def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest, file_groups: 
     return plugin_is_valid
 
 
-def validate_plugin(plugin: Plugin, manifest, repo, file_groups: FileGroups):
+def validate_plugin(plugin: Plugin, manifest: Dict[str, Union[str, bool]], repo: str, file_groups: FileGroups) -> bool:
     return validate_plugin_ids(plugin, manifest, repo, file_groups)
 
 
-def validate_plugin_ids(plugin: Plugin, manifest, repo, file_groups: FileGroups):
+def validate_plugin_ids(plugin: Plugin, manifest: Dict[str, Union[str, bool]], repo: str, file_groups: FileGroups) -> bool:
     ids_match = True
     releases_id = plugin.get('id')
     manifest_id = manifest.get('id')

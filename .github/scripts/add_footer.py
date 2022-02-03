@@ -7,6 +7,7 @@ from re import sub, search
 from urllib.parse import quote
 
 from utils import ensure_last_line_has_eol, get_root_of_vault
+from jinja2.environment import Template
 
 # These are directories and files to exclude
 # By adding a dir/file, this script will ignore them and never change them!
@@ -80,7 +81,7 @@ def encode_absolute_path_for_footer(absolute_path):
     return encoded_path
 
 
-def add_footer_to_markdown(relative_path, contents, comment, template, debug):
+def add_footer_to_markdown(relative_path: str, contents: str, comment: str, template: Template, debug: bool) -> str:
     # Get the rendered template (file => relative path => html encoded)
     render = template.render(
         file_path=quote(relative_path))

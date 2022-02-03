@@ -1,6 +1,7 @@
 import os.path
 
 from utils import get_template
+from typing import Any, List, Union
 
 
 class VaultMoc:
@@ -81,7 +82,7 @@ class MocMaker:
     That is, it generates a Markdown list of links to files and directories
     """
 
-    def make_moc_for_files(self, directory, files):
+    def make_moc_for_files(self, directory: str, files: List[Union[str, Any]]) -> str:
         output = ''
         moc_filter = MocFileAndDirectoryFilter()
         for file in files:
@@ -90,7 +91,7 @@ class MocMaker:
             output += self.make_line_for_file(directory, file)
         return output
 
-    def make_moc_for_sub_directories(self, directory, sub_directories):
+    def make_moc_for_sub_directories(self, directory: str, sub_directories: List[Union[str, Any]]) -> str:
         output = ''
         moc_filter = MocFileAndDirectoryFilter()
         for sub_directory in sub_directories:
@@ -99,7 +100,7 @@ class MocMaker:
             output += self.make_line_for_sub_directory(directory, sub_directory)
         return output
 
-    def make_moc_for_directory(self, directory, dirs, files):
+    def make_moc_for_directory(self, directory: str, dirs: List[Union[str, Any]], files: List[Union[str, Any]]) -> str:
         result = ''
 
         sorted_dirs = sorted(dirs, key=str.casefold)
@@ -112,14 +113,14 @@ class MocMaker:
             result = '\n'
         return result
 
-    def make_moc_for_directory_with_delimiters(self, directory, dirs, files):
+    def make_moc_for_directory_with_delimiters(self, directory: str, dirs: List[Union[str, Any]], files: List[Union[str, Any]]) -> str:
         result = ''
         result += MocDelimiter().initial_delimiter()
         result += self.make_moc_for_directory(directory, dirs, files)
         result += MocDelimiter().final_delimiter()
         return result
 
-    def update_existing_moc(self, initial_content, new_moc_content_with_delimiters):
+    def update_existing_moc(self, initial_content: List[str], new_moc_content_with_delimiters: str) -> str:
         inside_old_index = False
         index_written = False
         result = ''
@@ -142,19 +143,19 @@ class MocMaker:
 
         return result
 
-    def make_line_for_file(self, directory, file):
+    def make_line_for_file(self, directory: str, file: str) -> str:
         link_name, extension = os.path.splitext(file)
         if extension != '.md':
             link_name += extension
         return self.make_link_line(directory, link_name)
 
-    def make_line_for_sub_directory(self, directory, sub_directory):
+    def make_line_for_sub_directory(self, directory: str, sub_directory: str) -> str:
         path = directory + '/' + sub_directory
         namer = MocFileNamer()
         file = namer.moc_name_for_sub_directory(sub_directory)
         return self.make_link_line(path, file)
 
-    def strip_parent_directories_from_directory(self, directory):
+    def strip_parent_directories_from_directory(self, directory: str) -> str:
         # Ugly hack because all directory names start with '../../'
         # Note: use forward slash on all platforms, for consistent output across platforms
         result = directory.replace('../', '')
@@ -162,7 +163,7 @@ class MocMaker:
             result = ''
         return result
 
-    def make_link_line(self, directory, link_name):
+    def make_link_line(self, directory: str, link_name: str) -> str:
         adjusted_directory = self.strip_parent_directories_from_directory(directory)
         if len(adjusted_directory) > 0:
             adjusted_directory += '/'
@@ -174,23 +175,23 @@ class MocMaker:
 class MocFileAndDirectoryFilter:
     """Various filtering functions, to determine what is included in the generated MOC"""
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.DIRECTORIES_TO_EXCLUDE = ['venv', 'DO NOT COMMIT']  # Directories beginning '.' are also excluded
         self.FILES_TO_EXCLUDE = ['logo.svg', 'publish.css']  # MOC files, and files beginning '.' are also excluded
 
-    def include_directory_in_moc(self, directory):
+    def include_directory_in_moc(self, directory: str) -> bool:
         if directory[0] == '.':
             return False
         return directory not in self.DIRECTORIES_TO_EXCLUDE
 
-    def include_file_in_moc(self, directory, file):
+    def include_file_in_moc(self, directory: str, file: str) -> bool:
         if self.file_is_moc_for_directory(directory, file):
             return False
         if file in self.FILES_TO_EXCLUDE:
             return False
         return file[0] != '.'
 
-    def file_is_moc_for_directory(self, directory, file):
+    def file_is_moc_for_directory(self, directory: str, file: str) -> bool:
         namer = MocFileNamer()
         return file == namer.moc_file_name_for_directory(directory)
 
@@ -208,17 +209,17 @@ class MocFileNamer:
     This matches the configuration of the Zoottelkeeper plugin as of November 2021.
     """
 
-    def moc_name_for_sub_directory(self, sub_directory):
+    def moc_name_for_sub_directory(self, sub_directory: str) -> str:
         name = sub_directory
         if name == '..':
             name = 'hub'
         return '🗂️ ' + name
 
-    def moc_base_name_for_directory(self, directory):
+    def moc_base_name_for_directory(self, directory: str) -> str:
         directory_name = os.path.basename(directory)
         return self.moc_name_for_sub_directory(directory_name)
 
-    def moc_file_name_for_directory(self, directory):
+    def moc_file_name_for_directory(self, directory: str) -> str:
         return self.moc_base_name_for_directory(directory) + ".md"
 
     def moc_file_path_for_directory(self, directory):
@@ -239,15 +240,15 @@ class MocDelimiter:
     """
 
     @staticmethod
-    def whole_line_is_initial_delimiter(line):
+    def whole_line_is_initial_delimiter(line: str) -> bool:
         return line in MocDelimiter().all_known_initial_delimiters()
 
     @staticmethod
-    def whole_line_is_final_delimiter(line):
+    def whole_line_is_final_delimiter(line: str) -> bool:
         return line in MocDelimiter().all_known_final_delimiters()
 
     @staticmethod
-    def all_known_initial_delimiters():
+    def all_known_initial_delimiters() -> List[str]:
         return [
             # From oldest to newest: the last one is the current one
             '%% Zoottelkeeper: Beginning of the autogenerated index file list  %%\n',
@@ -255,7 +256,7 @@ class MocDelimiter:
         ]
 
     @staticmethod
-    def all_known_final_delimiters():
+    def all_known_final_delimiters() -> List[str]:
         return [
             # From oldest to newest: the last one is the current one
             '%% Zoottelkeeper: End of the autogenerated index file list  %%\n',
@@ -263,9 +264,9 @@ class MocDelimiter:
         ]
 
     @staticmethod
-    def initial_delimiter():
+    def initial_delimiter() -> str:
         return MocDelimiter.all_known_initial_delimiters()[-1]
 
     @staticmethod
-    def final_delimiter():
+    def final_delimiter() -> str:
         return MocDelimiter.all_known_final_delimiters()[-1]

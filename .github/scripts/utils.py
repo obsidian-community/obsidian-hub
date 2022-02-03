@@ -7,6 +7,7 @@ import requests
 
 from urllib.request import urlopen
 from jinja2 import FileSystemLoader, Environment, DebugUndefined
+from jinja2.environment import Template
 
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
 PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
@@ -38,7 +39,7 @@ def get_template(template_name):
     return get_template_from_directory(directory, template_file_name)
 
 
-def get_template_from_directory(directory: str, template_name_with_extensions: str):
+def get_template_from_directory(directory: str, template_name_with_extensions: str) -> Template:
     file_loader = FileSystemLoader(directory)
     # A note on writing templates...
     # trim_blocks and lstrip_blocks remove a lot of whitespace.
@@ -210,7 +211,7 @@ def get_root_of_vault() -> str:
     return up2
 
 
-def ensure_last_line_has_eol(contents) -> str:
+def ensure_last_line_has_eol(contents: str) -> str:
     """
     Ensure that the given string ends with an end-of-line character.
     :param contents: The string to check
