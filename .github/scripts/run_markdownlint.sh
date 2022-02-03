@@ -17,4 +17,4 @@ ${MARKDOWN_COMMAND} \
   "00 - Contribute to the Obsidian Hub" \
   "04 - Guides, Workflows, & Courses"
 
-sed 's/^.* MD/MD/' ${OUTPUT_FILE} | sort | uniq -c | sort -n
+sed 's/^.* MD/MD/' ${OUTPUT_FILE} | sort
