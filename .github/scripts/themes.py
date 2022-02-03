@@ -17,6 +17,7 @@ from utils import (
 # Type aliases:
 Theme = Dict[str, Any]
 ThemeList = List[Theme]
+ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
 
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
@@ -132,7 +133,7 @@ def get_theme_plugin_support(theme_css: str, comm_plugins: None=None) -> Optiona
         return plugins
 
 
-def get_theme_downloads() -> Dict[str, Dict[str, Union[str, int]]]:
+def get_theme_downloads() -> ThemeDownloads:
     theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
     return theme_downloads
 
@@ -142,7 +143,7 @@ def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) ->
     return old_text
 
 
-def collect_data_for_theme(theme: Dict[str, Union[str, List[str]]], theme_downloads: Dict[str, Dict[str, Union[str, int]]], template: Template) -> str:
+def collect_data_for_theme(theme: Dict[str, Union[str, List[str]]], theme_downloads: ThemeDownloads, template: Template) -> str:
     """
     Take raw theme data from a community theme, and add information to it.
 
@@ -177,7 +178,7 @@ def collect_data_for_theme(theme: Dict[str, Union[str, List[str]]], theme_downlo
     return current_name
 
 
-def get_theme_download_count_preferring_previous(template: Template, theme_downloads: Dict[str, Dict[str, Union[str, int]]], current_name: str) -> int:
+def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads, current_name: str) -> int:
     previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
     if previous_download_count:
         return previous_download_count
@@ -185,7 +186,7 @@ def get_theme_download_count_preferring_previous(template: Template, theme_downl
     return get_theme_current_download_count(theme_downloads, current_name)
 
 
-def get_theme_current_download_count(theme_downloads: Dict[str, Dict[str, Union[str, int]]], current_name: str) -> int:
+def get_theme_current_download_count(theme_downloads: ThemeDownloads, current_name: str) -> int:
     return theme_downloads[current_name]["download"]
 
 
@@ -249,6 +250,6 @@ def set_theme_download_count(template: Template, current_name: str, new_download
         print("Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
 
 
-def update_theme_download_count(template: Template, theme_downloads: Dict[str, Dict[str, Union[str, int]]], current_name: str, verbose: bool) -> None:
+def update_theme_download_count(template: Template, theme_downloads: ThemeDownloads, current_name: str, verbose: bool) -> None:
     download_count = get_theme_current_download_count(theme_downloads, current_name)
     set_theme_download_count(template, current_name, download_count, verbose)
