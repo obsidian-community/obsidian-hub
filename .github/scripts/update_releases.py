@@ -19,12 +19,12 @@ from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
 from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme
 
 
-def process_released_plugins(overwrite=False, verbose=False):
+def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
     plugin_list: PluginList = get_json_from_github(PLUGINS_JSON_FILE)
 
-    devs = list()
+    devs: PluginList = list()
     file_groups: FileGroups = dict()
 
     print_progress_bar(
