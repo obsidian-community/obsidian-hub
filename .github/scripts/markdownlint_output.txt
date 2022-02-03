@@ -1,4 +1,3 @@
-00 - Contribute to the Obsidian Hub/01 Templates/T - GitHub Repository.md:14:125 MD037/no-space-in-emphasis Spaces inside emphasis markers [Context: "* ![GitHub mani...or-the-badge) *"]
 00 - Contribute to the Obsidian Hub/01 Templates/T - Templates.md:18:3 MD047/single-trailing-newline Files should end with a single newline character
 00 - Contribute to the Obsidian Hub/01 Templates/T - Title.md:1:11 MD047/single-trailing-newline Files should end with a single newline character
 00 - Contribute to the Obsidian Hub/01 Templates/T - TODO.md:4:2 MD047/single-trailing-newline Files should end with a single newline character
