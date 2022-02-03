@@ -33,7 +33,7 @@ JSONType = Union[str, int, float, bool, None, Dict[str, Any], List[Any]]
 running_in_continuous_integration = os.environ.get('GITHUB_ACTIONS') != None
 
 
-def get_template(template_name):
+def get_template(template_name: str) -> Template:
     directory = "./templates"
     template_file_name = "{}.md.jinja".format(template_name)
     return get_template_from_directory(directory, template_file_name)
