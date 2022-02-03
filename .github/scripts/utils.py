@@ -69,15 +69,10 @@ def write_file(template: Template,
                overwrite: bool = False,
                verbose: bool = False,
                **kwargs: Any) -> str:
-    # This add_footer function cannot be imported at top of this file,
-    # as this would cause a cyclic reference:
-    from add_footer import encode_absolute_path_for_footer 
-
     file_path = get_output_dir(template, file_name)
-    encoded_path = encode_absolute_path_for_footer(os.path.abspath(file_path))
+    absolute_file_path = os.path.abspath(file_path)
 
-    file_content = template.render(file_path=encoded_path, **kwargs)
-    file_content = ensure_last_line_has_eol(file_content)
+    file_content = render_template_for_file(template, absolute_file_path, kwargs)
 
     # Check if file exists
     if os.path.exists(file_path) and not overwrite:
@@ -106,6 +101,17 @@ def write_file(template: Template,
         group = "new"
 
     return group
+
+
+def render_template_for_file(template: Template, absolute_file_path: str, kwargs: Any) -> Any:
+    # This add_footer function cannot be imported at top of this file,
+    # as this would cause a cyclic reference:
+    from add_footer import encode_absolute_path_for_footer
+    encoded_path = encode_absolute_path_for_footer(absolute_file_path)
+
+    file_content = template.render(file_path=encoded_path, **kwargs)
+    file_content = ensure_last_line_has_eol(file_content)
+    return file_content
 
 
 def have_same_contents(file_path: str, rendered_template: str) -> bool:
