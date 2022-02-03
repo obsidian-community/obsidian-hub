@@ -103,7 +103,7 @@ def write_file(template: Template,
     return group
 
 
-def render_template_for_file(template: Template, absolute_file_path: str, kwargs: Any) -> Any:
+def render_template_for_file(template: Template, absolute_file_path: str, **kwargs: Any) -> Any:
     # This add_footer function cannot be imported at top of this file,
     # as this would cause a cyclic reference:
     from add_footer import encode_absolute_path_for_footer
