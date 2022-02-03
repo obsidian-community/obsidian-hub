@@ -16,7 +16,7 @@ from utils import (
     get_json_from_github,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
-from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme
+from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme, ThemeList
 
 
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
@@ -51,11 +51,11 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
     return devs
 
 
-def process_released_themes(overwrite=False, verbose=False):
+def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:
     print("-----\nProcessing themes....\n")
     template = get_template("theme")
-    theme_list = get_json_from_github(THEMES_JSON_FILE)
-    designers = list()
+    theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
+    designers: ThemeList = list()
 
     file_groups: FileGroups = dict()
     print_progress_bar(

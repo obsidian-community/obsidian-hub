@@ -2,6 +2,7 @@ import yaml
 import os
 import re
 import requests
+from typing import Any, Dict, List
 
 from plugins import CORE_PLUGINS
 from utils import (
@@ -11,6 +12,10 @@ from utils import (
     get_output_dir,
     get_theme_css
 )
+
+# Type aliases:
+Theme = Dict[str, Any]
+ThemeList = List[Theme]
 
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
