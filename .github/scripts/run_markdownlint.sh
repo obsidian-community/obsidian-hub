@@ -4,7 +4,11 @@ cd ../..
 
 OUTPUT_FILE='.github/scripts/markdownlint_output.txt'
 # --disable no-multiple-blanks no-trailing-spaces added to make review of other changes easier
-MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint --disable no-multiple-blanks no-trailing-spaces -o ${OUTPUT_FILE}"
+MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
+  --disable \
+    no-multiple-blanks \
+    no-trailing-spaces \
+  -o ${OUTPUT_FILE}"
 
 ${MARKDOWN_COMMAND} \
   "00 - Contribute to the Obsidian Hub" \
