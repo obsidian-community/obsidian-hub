@@ -55,7 +55,7 @@ def get_template_from_directory(directory: str, template_name_with_extensions: s
     return env.get_template(template_name_with_extensions)
 
 
-def get_output_dir(template, file_name):
+def get_output_dir(template: Template, file_name: str) -> str:
     template_name, _, _ = template.name.split(".")
     return os.path.join(
         "../..",
@@ -64,7 +64,11 @@ def get_output_dir(template, file_name):
     )
 
 
-def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
+def write_file(template: Template,
+               file_name: str,
+               overwrite: bool = False,
+               verbose: bool = False,
+               **kwargs: Any) -> str:
     # This add_footer function cannot be imported at top of this file,
     # as this would cause a cyclic reference:
     from add_footer import encode_absolute_path_for_footer 
@@ -104,7 +108,7 @@ def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
     return group
 
 
-def have_same_contents(file_path, rendered_template):
+def have_same_contents(file_path: str, rendered_template: str) -> bool:
     # Compare filled-out template against contents of an existing file
     with open(file_path) as file:
         contents = file.read()
@@ -122,31 +126,31 @@ def get_json_from_github(url: str) -> JSONType:
     return json_file
 
 
-def get_theme_css(url):
+def get_theme_css(url: str) -> str:
     with requests.get(url) as response:
         return response.text
 
 
-def get_plugin_manifest(repository, branch):
+def get_plugin_manifest(repository: str, branch: str) -> JSONType:
     manifest = get_json_from_github(PLUGIN_MANIFEST.format(repository, branch))
     return manifest
 
 
-def get_category_files():
+def get_category_files() -> List[str]:
     return glob.glob(
         os.path.abspath(os.path.join(
             "../..", OUTPUT_DIR["category"])) + "/*.md"
     )
 
 
-def format_link(note_name, alias=None):
+def format_link(note_name: str, alias: str = None) -> str:
     if alias is None:
         return "[[{}]]".format(note_name)
     else:
         return "[[{}|{}]]".format(note_name, alias)
 
 
-def print_file_summary(file_groups: FileGroups, verbose=False):
+def print_file_summary(file_groups: FileGroups, verbose: bool = False) -> None:
     messages = {
         "error": "has an error, so was ignored.",
         "exists": "exist but no changes were detected.",
@@ -163,15 +167,15 @@ def print_file_summary(file_groups: FileGroups, verbose=False):
 
 # Print iterations progress, unless running in CI build
 def print_progress_bar(
-    iteration,
-    total,
-    prefix="",
-    suffix="",
-    decimals=1,
-    length=100,
-    fill="█",
-    printEnd="\r",
-):
+        iteration: int,
+        total: int,
+        prefix: str = "",
+        suffix: str = "",
+        decimals: int = 1,
+        length: int = 100,
+        fill: str = "█",
+        printEnd: str = "\r",
+) -> None:
     """
     Call in a loop to create terminal progress bar
 
