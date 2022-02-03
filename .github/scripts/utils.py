@@ -72,7 +72,7 @@ def write_file(template: Template,
     file_path = get_output_dir(template, file_name)
     absolute_file_path = os.path.abspath(file_path)
 
-    file_content = render_template_for_file(template, absolute_file_path, kwargs)
+    file_content = render_template_for_file(template, absolute_file_path, **kwargs)
 
     # Check if file exists
     if os.path.exists(file_path) and not overwrite:
