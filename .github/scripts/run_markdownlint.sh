@@ -8,6 +8,7 @@ MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
   --disable \
     no-multiple-blanks \
     no-trailing-spaces \
+    list-marker-space \
   -o ${OUTPUT_FILE}"
 
 ${MARKDOWN_COMMAND} \
