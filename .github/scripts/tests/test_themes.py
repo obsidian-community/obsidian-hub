@@ -1,8 +1,11 @@
+import os
+
 import approvaltests
 from approvaltests import verify_as_json, verify
 from approvaltests.storyboard import StoryBoard
 
 import utils
+from tests.helpers_for_testing import verify_as_markdown
 from tests.test_templates import JINJA_TEMPLATES_DIR
 from themes import get_theme_downloads, collect_data_for_theme, ThemeList
 from utils import THEMES_JSON_FILE, get_json_from_github
@@ -44,6 +47,33 @@ def test_collect_data_for_theme_with_settings() -> None:
 def test_collect_data_for_theme_without_settings() -> None:
     theme_name = "Christmas"
     verify_theme_data(theme_name)
+
+
+def test_rendering_of_theme() -> None:
+    theme_name = "Minimal"
+
+    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
+    theme_downloads = get_theme_downloads()
+
+    theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
+    theme = None
+    for t in theme_list:
+        if t["name"] == theme_name:
+            theme = t
+            break
+    assert theme
+
+    name = collect_data_for_theme(theme, theme_downloads, template)
+    assert name == theme_name
+
+    file_path = "delete_me.md"
+    absolute_file_path = os.path.abspath(file_path)
+    file_content = utils.render_template_for_file(template, absolute_file_path, **theme)
+
+    assert len(file_content) > 0
+
+    # TODO Scrub the download numbers
+    # verify_as_markdown(file_content)
 
 
 def verify_theme_data(theme_name: str) -> None:
