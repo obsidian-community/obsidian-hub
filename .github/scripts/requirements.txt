@@ -6,3 +6,4 @@ pytest
 mypy
 types-PyYAML
 types-requests
+monkeytype

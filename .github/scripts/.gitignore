@@ -1,3 +1,4 @@
 *.received.*
 .pytest_cache/
 __pycache__/
+monkeytype.sqlite3
