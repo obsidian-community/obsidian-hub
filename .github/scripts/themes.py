@@ -190,7 +190,7 @@ def get_theme_current_download_count(theme_downloads: ThemeDownloads, current_na
     return theme_downloads[current_name]["download"]
 
 
-def get_theme_previous_download_count_or_none(template: Template, current_name: str) -> int:
+def get_theme_previous_download_count_or_none(template: Template, current_name: str) -> Union[int, None]:
     """
     Read the theme file from disk, and return the previously-saved download count
     :return: The saved theme download count, or None if this could not be obtained 
