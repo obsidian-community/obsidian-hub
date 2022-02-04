@@ -9,7 +9,7 @@ from jinja2 import Template
 import utils
 from tests.helpers_for_testing import verify_as_markdown, get_saved_sample_data_for_theme
 from tests.test_templates import JINJA_TEMPLATES_DIR
-from themes import get_theme_downloads, collect_data_for_theme, ThemeList, collect_data_for_theme_and_css
+from themes import get_theme_downloads, ThemeList, collect_data_for_theme_and_css
 from utils import THEMES_JSON_FILE, get_json_from_github
 
 
