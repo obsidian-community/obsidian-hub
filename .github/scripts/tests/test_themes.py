@@ -1,35 +1,14 @@
 import os
 
 import approvaltests
-from approvaltests import verify_as_json, verify, Options
-from approvaltests.scrubbers import create_regex_scrubber, Scrubber
+from approvaltests import verify
 from approvaltests.storyboard import StoryBoard
 from jinja2 import Template
 
 import utils
 from tests.helpers_for_testing import verify_as_markdown, get_saved_sample_data_for_theme
 from tests.test_templates import JINJA_TEMPLATES_DIR
-from themes import get_theme_downloads, ThemeList, collect_data_for_theme_and_css
-from utils import THEMES_JSON_FILE, get_json_from_github
-
-
-# TODO  Several of these tests download data from GitHub.
-#       This makes the tests slow and prone to failure when data changes.
-#       Change them to read test data files from the repo.
-
-
-def test_get_community_themes() -> None:
-    theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
-    assert len(theme_list) >= 115, len(theme_list)
-
-    first_theme = theme_list[0]
-    assert len(first_theme["modes"]) > 0
-    assert first_theme["author"] != ""
-    assert first_theme["name"] != ""
-    assert first_theme["screenshot"] != ""
-
-    # TODO Don't add new themes - maybe get a fixed revision
-    verify_as_json(theme_list)
+from themes import collect_data_for_theme_and_css
 
 
 def test_collect_data_for_theme_with_settings() -> None:
