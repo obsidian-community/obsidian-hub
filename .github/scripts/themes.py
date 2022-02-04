@@ -15,7 +15,7 @@ from utils import (
 )
 
 # Type aliases:
-Theme = Dict[str, Any]
+Theme = Dict[str, Union[str, List[str]]]
 ThemeList = List[Theme]
 ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
 ThemeSettings = List[Dict[str, str]]
@@ -152,7 +152,7 @@ def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) ->
     return old_text
 
 
-def collect_data_for_theme(theme: Dict[str, Union[str, List[str]]], theme_downloads: ThemeDownloads, template: Template) -> str:
+def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template) -> str:
     """
     Take raw theme data from a community theme, and add information to it.
 
