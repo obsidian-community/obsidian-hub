@@ -163,6 +163,9 @@ def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, templa
     :return: The name of the theme
     """
     repo = str(theme.get("repo"))
+    branch = theme.get("branch", "master")
+    css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
+
     user = repo.split("/")[0]
     raw_modes = theme.get("modes")
     assert raw_modes
@@ -173,8 +176,6 @@ def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, templa
             .replace("dark", DARK_MODE_THEMES)
             .replace("light", LIGHT_MODE_THEMES)
     )
-    branch = theme.get("branch", "master")
-    css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
     settings = get_theme_settings(css_file)
     plugin_support = get_theme_plugin_support(css_file)
 
