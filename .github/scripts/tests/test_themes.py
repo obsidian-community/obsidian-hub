@@ -4,6 +4,7 @@ import approvaltests
 from approvaltests import verify_as_json, verify, Options
 from approvaltests.scrubbers import create_regex_scrubber, Scrubber
 from approvaltests.storyboard import StoryBoard
+from jinja2 import Template
 
 import utils
 from tests.helpers_for_testing import verify_as_markdown, get_saved_sample_data_for_theme
@@ -76,7 +77,7 @@ def test_collect_data_for_theme_without_settings() -> None:
 def test_rendering_of_theme() -> None:
     theme_name = "Minimal"
 
-    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
+    template = get_template_for_theme()
 
     theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
 
@@ -94,10 +95,15 @@ def test_rendering_of_theme() -> None:
         options=Options().with_scrubber(make_download_badge_numbers_stable()))
 
 
+def get_template_for_theme() -> Template:
+    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
+    return template
+
+
 def verify_theme_data(theme_name: str) -> None:
     s = StoryBoard()
 
-    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
+    template = get_template_for_theme()
     theme_downloads = get_theme_downloads()
 
     theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
