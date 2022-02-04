@@ -19,6 +19,7 @@ Theme = Dict[str, Any]
 ThemeList = List[Theme]
 ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
 ThemeSettings = List[Dict[str, str]]
+ThemePluginSupport = Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]]]
 
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
@@ -105,7 +106,7 @@ def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
         return markdown_settings
 
 
-def get_theme_plugin_support(theme_css: str, comm_plugins: None=None) -> Optional[Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]]]]:
+def get_theme_plugin_support(theme_css: str, comm_plugins: None=None) -> Optional[ThemePluginSupport]:
     match = re.search(plugins_regex, theme_css, re.MULTILINE)
     if match:
         plugin_str = match[1]
