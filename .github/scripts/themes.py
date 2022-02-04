@@ -163,8 +163,10 @@ def collect_data_for_theme(theme: Dict[str, Union[str, List[str]]], theme_downlo
     """
     repo = str(theme.get("repo"))
     user = repo.split("/")[0]
+    raw_modes = theme.get("modes")
+    assert raw_modes
     modes = (
-        ", ".join(str(theme.get("modes")))
+        ", ".join(raw_modes)
             .replace("dark", DARK_MODE_THEMES)
             .replace("light", LIGHT_MODE_THEMES)
     )
