@@ -18,6 +18,7 @@ from utils import (
 Theme = Dict[str, Any]
 ThemeList = List[Theme]
 ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
+ThemeSettings = Optional[List[Dict[str, str]]]
 
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
@@ -29,7 +30,7 @@ DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
 LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 
 
-def get_theme_settings(theme_css: str) -> Optional[List[Dict[str, str]]]:
+def get_theme_settings(theme_css: str) -> ThemeSettings:
     """
     Based on the style settings plugin: https://github.com/mgmeyers/obsidian-style-settings/blob/main/src/main.ts
     
@@ -132,6 +133,7 @@ def get_theme_plugin_support(theme_css: str, comm_plugins: None=None) -> Optiona
 
         return plugins
 
+    return None
 
 def get_theme_downloads() -> ThemeDownloads:
     theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
