@@ -24,18 +24,6 @@ def make_download_numbers_stable() -> Scrubber:
         r'"download": 9999,')
 
 
-def make_download_count_numbers_stable() -> Scrubber:
-    return create_regex_scrubber(
-        r'"download_count": \d+,',
-        r'"download_count": 9999,')
-
-
-def make_download_badge_numbers_stable() -> Scrubber:
-    return create_regex_scrubber(
-        r'https://img.shields.io/badge/downloads-\d+-',
-        r'https://img.shields.io/badge/downloads-9999-')
-
-
 def test_get_theme_downloads() -> None:
     downloads = get_theme_downloads()
     assert len(downloads) >= 117, len(downloads)
@@ -90,9 +78,7 @@ def test_rendering_of_theme() -> None:
 
     assert len(file_content) > 0
 
-    verify_as_markdown(
-        file_content,
-        options=Options().with_scrubber(make_download_badge_numbers_stable()))
+    verify_as_markdown(file_content)
 
 
 def get_template_for_theme() -> Template:
@@ -119,5 +105,4 @@ def verify_theme_data(theme_name: str) -> None:
     assert theme["user"] != ""
     s.add_frame(approvaltests.utils.to_json(theme))
 
-    verify(s,
-           options=Options().with_scrubber(make_download_count_numbers_stable()))
+    verify(s)
