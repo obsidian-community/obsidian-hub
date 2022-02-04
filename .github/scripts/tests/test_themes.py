@@ -104,14 +104,9 @@ def verify_theme_data(theme_name: str) -> None:
     s = StoryBoard()
 
     template = get_template_for_theme()
-    theme_downloads = get_theme_downloads()
 
-    theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
-    theme = None
-    for t in theme_list:
-        if t["name"] == theme_name:
-            theme = t
-            break
+    theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
+
     assert theme
     assert theme["name"] == theme_name
     assert len(theme["modes"]) > 0
@@ -119,7 +114,7 @@ def verify_theme_data(theme_name: str) -> None:
 
     s.add_frame(approvaltests.utils.to_json(theme))
 
-    name = collect_data_for_theme(theme, theme_downloads, template)
+    name = collect_data_for_theme_and_css(theme, css_file, theme_downloads, template)
     assert name == theme_name
     assert theme["user"] != ""
     s.add_frame(approvaltests.utils.to_json(theme))
