@@ -144,6 +144,16 @@ def get_theme_plugin_support(
     return None
 
 def get_theme_downloads() -> ThemeDownloads:
+    # Example content:
+    # {
+    #     "80s Neon": {
+    #         "download": 9271,
+    #         "id": "80s Neon"
+    #     },
+    #     "Agora": {
+    #         "download": 1824,
+    #         "id": "Agora"
+    #     },
     theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
     return theme_downloads
 

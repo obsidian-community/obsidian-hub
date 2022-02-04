@@ -18,26 +18,6 @@ from utils import THEMES_JSON_FILE, get_json_from_github
 #       Change them to read test data files from the repo.
 
 
-def make_download_numbers_stable() -> Scrubber:
-    return create_regex_scrubber(
-        r'"download": \d+,',
-        r'"download": 9999,')
-
-
-def test_get_theme_downloads() -> None:
-    downloads = get_theme_downloads()
-    assert len(downloads) >= 117, len(downloads)
-
-    key_of_first_download = list(downloads.keys())[0]
-    download = downloads[key_of_first_download]
-    assert download["id"] == key_of_first_download, download["id"]
-    assert download["download"] > 0, download["download"]
-
-    # TODO Don't add new themes
-    verify_as_json(downloads,
-                   options=Options().with_scrubber(make_download_numbers_stable()))
-
-
 def test_get_community_themes() -> None:
     theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
     assert len(theme_list) >= 115, len(theme_list)
