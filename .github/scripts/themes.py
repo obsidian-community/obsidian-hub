@@ -105,6 +105,8 @@ def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
                 content = True
         return markdown_settings
 
+    return None
+
 
 def get_theme_plugin_support(theme_css: str, comm_plugins: None=None) -> Optional[ThemePluginSupport]:
     match = re.search(plugins_regex, theme_css, re.MULTILINE)
