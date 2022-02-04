@@ -173,14 +173,14 @@ def print_file_summary(file_groups: FileGroups, verbose: bool = False) -> None:
 
 # Print iterations progress, unless running in CI build
 def print_progress_bar(
-        iteration: int,
-        total: int,
-        prefix: str = "",
-        suffix: str = "",
-        decimals: int = 1,
-        length: int = 100,
-        fill: str = "█",
-        printEnd: str = "\r",
+    iteration: int,
+    total: int,
+    prefix: str = "",
+    suffix: str = "",
+    decimals: int = 1,
+    length: int = 100,
+    fill: str = "█",
+    printEnd: str = "\r",
 ) -> None:
     """
     Call in a loop to create terminal progress bar
