@@ -44,31 +44,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Interface**: 
 - Base color: Defines all background and border colors unless overridden below
 - Accent color: Defines link and checkbox colors unless overridden below
-- Main window background
-- Sidebar background
-- Active background: For hovered buttons and current file
-- Border color: For divider lines and outlined elements
-- Border color (highlighted)
-- Border color (focused)
 
 **Icons**: 
 - Icon opacity (inactive)
-- Icon color
-- Icon color (hover)
-- Icon color (active)
-
-**Links**: 
-- Link color
-- Link color (hovering)
-- Link font weight: Accepts numbers representing the CSS font-weight
-
-**Text**: 
-- Normal text color
-- Selected text background
-- Muted text color
-- Faint text color
-- Bold text color
-- Italic text color
 
 **Headings**: 
 - **Level 1 Headings**: 
@@ -83,44 +61,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H2 font color
     - H2 font variant
     - H2 font style
-- **Level 3 Headings**: 
-    - H3 font size: Accepts any CSS font-size value
-    - H3 font weight: Accepts numbers representing the CSS font-weight
-    - H3 font color
-    - H3 font variant
-    - H3 font style
-- **Level 4 Headings**: 
-    - H4 font size: Accepts any CSS font-size value
-    - H4 font weight: Accepts numbers representing the CSS font-weight
-    - H4 font color
-    - H4 font variant
-    - H4 font style
-- **Level 5 Headings**: 
-    - H5 font size: Accepts any CSS font-size value
-    - H5 font weight: Accepts numbers representing the CSS font-weight
-    - H5 font color
-    - H5 font variant
-    - H5 font style
-- **Level 6 Headings**: 
-    - H6 font size: Accepts any CSS font-size value
-    - H6 font weight: Accepts numbers representing the CSS font-weight
-    - H6 font color
-    - H6 font variant
-    - H6 font style
-
-**Blockquotes**: 
-- Blockquotes text color
-- Blockquotes font size: Accepts any CSS font-size value
-- Blockquotes font style
-
-**Lists and checkboxes**: 
-- Checkbox color
-- Strike completed tasks: Use line through greyed text for completed tasks
-- List item spacing: Space between list items in em units
-
-**Code blocks**: 
-- Code text color: Where syntax highlighting is not present
-- Code font size: Accepts any CSS font-size value
 
 ## Plugin Compatibility[^1]
 
