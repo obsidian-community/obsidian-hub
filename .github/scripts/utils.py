@@ -132,6 +132,13 @@ def get_json_from_github(url: str) -> JSONType:
     return json_file
 
 
+def get_json_from_file(file_path: str) -> JSONType:
+    with open(file_path) as f:
+        json_file = json.loads(f.read())
+
+    return json_file
+
+
 def get_theme_css(url: str) -> str:
     with requests.get(url) as response:
         return response.text

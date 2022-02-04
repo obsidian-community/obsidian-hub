@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 import approvaltests
 from approvaltests import verify_as_json, verify, Options
@@ -8,7 +9,7 @@ from approvaltests.storyboard import StoryBoard
 import utils
 from tests.helpers_for_testing import verify_as_markdown
 from tests.test_templates import JINJA_TEMPLATES_DIR
-from themes import get_theme_downloads, collect_data_for_theme, ThemeList
+from themes import get_theme_downloads, collect_data_for_theme, ThemeList, collect_data_for_theme_and_css
 from utils import THEMES_JSON_FILE, get_json_from_github
 
 
@@ -77,17 +78,18 @@ def test_rendering_of_theme() -> None:
     theme_name = "Minimal"
 
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
-    theme_downloads = get_theme_downloads()
 
-    theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
-    theme = None
-    for t in theme_list:
-        if t["name"] == theme_name:
-            theme = t
-            break
-    assert theme
+    sample_data_for_theme = Path(__file__).parent.absolute() / 'sample_data/themes' / theme_name
+    assert sample_data_for_theme.exists()
 
-    name = collect_data_for_theme(theme, theme_downloads, template)
+    theme_downloads = utils.get_json_from_file(str(sample_data_for_theme / 'stats-theme.json'))
+    theme_list: ThemeList = utils.get_json_from_file(str(sample_data_for_theme / 'community-css-themes.json'))
+    theme = theme_list[0]
+
+    with open(sample_data_for_theme / 'obsidian.css') as f:
+        css_file = f.read()
+
+    name = collect_data_for_theme_and_css(theme, css_file, theme_downloads, template)
     assert name == theme_name
 
     file_path = "delete_me.md"
