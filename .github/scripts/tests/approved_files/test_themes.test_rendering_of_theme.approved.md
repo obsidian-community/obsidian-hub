@@ -52,15 +52,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - **Level 1 Headings**: 
     - H1 font size: Accepts any CSS font-size value
     - H1 font weight: Accepts numbers representing the CSS font-weight
-    - H1 font color
     - H1 font variant
-    - H1 font style
 - **Level 2 Headings**: 
     - H2 font size: Accepts any CSS font-size value
     - H2 font weight: Accepts numbers representing the CSS font-weight
-    - H2 font color
     - H2 font variant
-    - H2 font style
 
 ## Plugin Compatibility[^1]
 
@@ -68,39 +64,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#Backlinks|Backlinks]]
 - [[Obsidian Core Plugins#Command palette|Command palette]]
 - [[Obsidian Core Plugins#Daily notes|Daily notes]]
-- [[Obsidian Core Plugins#File explorer|File explorer]]
-- [[Obsidian Core Plugins#File recovery|File recovery]]
-- [[Obsidian Core Plugins#Search|Search]]
-- [[Obsidian Core Plugins#Graph view|Graph view]]
-- [[Obsidian Core Plugins#Outgoing Links|Outgoing Links]]
-- [[Obsidian Core Plugins#Outline|Outline]]
-- [[Obsidian Core Plugins#Page preview|Page preview]]
-- [[Obsidian Core Plugins#Publish|Publish]]
-- [[Obsidian Core Plugins#Random note|Random note]]
-- [[Obsidian Core Plugins#Starred notes|Starred notes]]
-- [[Obsidian Core Plugins#Quick switcher|Quick switcher]]
-- [[Obsidian Core Plugins#Sync|Sync]]
-- [[Obsidian Core Plugins#Tag pane|Tag pane]]
-- [[Obsidian Core Plugins#Word count|Word count]]
 
 **Community plugins**:
 - [[buttons|Buttons]]
 - [[dataview|Dataview]]
 - [[calendar|Calendar]]
 - [[obsidian-checklist-plugin|Checklist]]
-- [[obsidian-codemirror-options|CodeMirror Options]]
-- [[obsidian-dictionary-plugin|Dictionary]]
-- [[obsidian-embedded-note-titles|Embedded Note Titles]]
-- [[obsidian-excalidraw-plugin|Excalidraw]]
-- [[obsidian-git|Obsidian Git]]
-- [[obsidian-hider|Hider]]
-- [[obsidian-kanban|Kanban]]
-- [[obsidian-minimal-settings|Minimal Theme Settings]]
-- [[obsidian-outliner|Outliner]]
-- [[obsidian-system-dark-mode|System Dark Mode]]
-- [[obsidian-style-settings|Style Settings]]
-- [[quickadd|QuickAdd]]
-- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

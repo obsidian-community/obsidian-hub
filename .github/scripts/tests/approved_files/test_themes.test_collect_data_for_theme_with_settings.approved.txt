@@ -22,39 +22,12 @@ Frame #1:
             "buttons|Buttons",
             "dataview|Dataview",
             "calendar|Calendar",
-            "obsidian-checklist-plugin|Checklist",
-            "obsidian-codemirror-options|CodeMirror Options",
-            "obsidian-dictionary-plugin|Dictionary",
-            "obsidian-embedded-note-titles|Embedded Note Titles",
-            "obsidian-excalidraw-plugin|Excalidraw",
-            "obsidian-git|Obsidian Git",
-            "obsidian-hider|Hider",
-            "obsidian-kanban|Kanban",
-            "obsidian-minimal-settings|Minimal Theme Settings",
-            "obsidian-outliner|Outliner",
-            "obsidian-system-dark-mode|System Dark Mode",
-            "obsidian-style-settings|Style Settings",
-            "quickadd|QuickAdd",
-            "sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)"
+            "obsidian-checklist-plugin|Checklist"
         ],
         "core": [
             "Obsidian Core Plugins#Backlinks|Backlinks",
             "Obsidian Core Plugins#Command palette|Command palette",
-            "Obsidian Core Plugins#Daily notes|Daily notes",
-            "Obsidian Core Plugins#File explorer|File explorer",
-            "Obsidian Core Plugins#File recovery|File recovery",
-            "Obsidian Core Plugins#Search|Search",
-            "Obsidian Core Plugins#Graph view|Graph view",
-            "Obsidian Core Plugins#Outgoing Links|Outgoing Links",
-            "Obsidian Core Plugins#Outline|Outline",
-            "Obsidian Core Plugins#Page preview|Page preview",
-            "Obsidian Core Plugins#Publish|Publish",
-            "Obsidian Core Plugins#Random note|Random note",
-            "Obsidian Core Plugins#Starred notes|Starred notes",
-            "Obsidian Core Plugins#Quick switcher|Quick switcher",
-            "Obsidian Core Plugins#Sync|Sync",
-            "Obsidian Core Plugins#Tag pane|Tag pane",
-            "Obsidian Core Plugins#Word count|Word count"
+            "Obsidian Core Plugins#Daily notes|Daily notes"
         ]
     },
     "repo": "kepano/obsidian-minimal",
@@ -100,15 +73,7 @@ Frame #1:
             "type": "variable-number"
         },
         {
-            "title": "    - H1 font color",
-            "type": "variable-themed-color"
-        },
-        {
             "title": "    - H1 font variant",
-            "type": "variable-select"
-        },
-        {
-            "title": "    - H1 font style",
             "type": "variable-select"
         },
         {
@@ -123,15 +88,7 @@ Frame #1:
             "type": "variable-number"
         },
         {
-            "title": "    - H2 font color",
-            "type": "variable-themed-color"
-        },
-        {
             "title": "    - H2 font variant",
-            "type": "variable-select"
-        },
-        {
-            "title": "    - H2 font style",
             "type": "variable-select"
         }
     ],
