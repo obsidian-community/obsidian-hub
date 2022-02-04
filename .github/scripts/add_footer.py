@@ -15,7 +15,7 @@ DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', '01 Templates', 'D
 FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore']
 
 
-def add_footer(top_directory: str, debug: bool = True):
+def add_footer(top_directory: str, debug: bool = True) -> None:
     """
     Walks through the filetree rooted at `root`.
     For each markdown file that it finds, it replaces a particular comment line with the corresponding template.
@@ -113,7 +113,7 @@ def add_footer_to_markdown(relative_path: str, contents: str, comment: str, temp
     return replacement
 
 
-def main():
+def main() -> None:
     # Grab the root folder to run in.
     # Uses the utility method to get root of the vault.
     root = get_root_of_vault()
