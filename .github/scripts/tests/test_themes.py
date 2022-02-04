@@ -12,6 +12,11 @@ from themes import get_theme_downloads, collect_data_for_theme, ThemeList
 from utils import THEMES_JSON_FILE, get_json_from_github
 
 
+# TODO  Several of these tests download data from GitHub.
+#       This makes the tests slow and prone to failure when data changes.
+#       Change them to read test data files from the repo.
+
+
 def make_download_numbers_stable() -> Scrubber:
     return create_regex_scrubber(
         r'"download": \d+,',
