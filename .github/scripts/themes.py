@@ -166,11 +166,13 @@ def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, templa
     branch = theme.get("branch", "master")
     css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
-    return collect_data_for_theme_and_css(theme, css_file, repo, branch, theme_downloads, template)
+    return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template)
 
 
-def collect_data_for_theme_and_css(theme: Theme, css_file: str, repo: str, branch: str, theme_downloads: ThemeDownloads,
+def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads,
                                    template: Template) -> str:
+    repo = str(theme.get("repo"))
+    branch = theme.get("branch", "master")
     user = repo.split("/")[0]
     raw_modes = theme.get("modes")
     assert raw_modes
