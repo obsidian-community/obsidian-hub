@@ -3,7 +3,7 @@ import os.path
 import re
 import sys
 from os import walk
-from typing import Sequence
+from typing import Sequence, List
 
 # This code is for validating the **Content** of the Hub, such as file names,
 # as opposed to validating the Python code and other infrastructure.
@@ -13,17 +13,17 @@ from utils import get_root_of_vault
 
 
 class ErrorLogger:
-    def __init__(self):
+    def __init__(self) -> None:
         self.error_count = 0
 
-    def log_error(self, relative_path, message):
+    def log_error(self, relative_path: str, message: str) -> None:
         """
         Log an error. Errors are treated as failures, giving a non-zero exit code from the script.
         """
         print(f'\nError:\n  {message}:\n  {relative_path} ')
         self.error_count += 1
 
-    def log_warning(self, relative_path, message):
+    def log_warning(self, relative_path: str, message: str) -> None:
         """
         Log a warning. These will not cause the script to fail.
         """
@@ -68,12 +68,12 @@ def check_file(relative_path: str, file: str) -> None:
     check_file_markdown_content(relative_path)
 
 
-def get_internal_links(content):
+def get_internal_links(content: str) -> List[str]:
     regex = r'\[\[[^[]*]]'
     return re.findall(regex, content)
 
 
-def check_file_markdown_content(file) -> None:
+def check_file_markdown_content(file: str) -> None:
     if not file.endswith('.md'):
         return
     with open(file) as f:
@@ -84,7 +84,7 @@ def check_file_markdown_content(file) -> None:
             check_link(file, link)
 
 
-def check_link(file, link) -> None:
+def check_link(file: str, link: str) -> None:
     number_of_pipes = link.count('|')
     if number_of_pipes > 1:
         allowed_links_with_pipes = [
