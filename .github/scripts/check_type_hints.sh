@@ -10,12 +10,12 @@
 #                            Disallow defining functions with incomplete type
 #                            annotations (inverse: --allow-incomplete-defs)
 
-# TODO Add missing type hints then enable all the options above
 python3 -m mypy \
   --follow-imports=skip \
   --ignore-missing-imports \
-  --allow-untyped-calls \
-  --allow-untyped-defs \
+  --disallow-untyped-calls \
+  --disallow-untyped-defs \
+  --disallow-incomplete-defs \
   --allow-incomplete-defs \
   *.py \
   tests/*.py
