@@ -22,6 +22,14 @@ def verify_in_json_format_to_markdown(data: Any, options: Options = Options()) -
 
 
 def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeDownloads]:
+    """
+    A convenience function to load data for a theme that has previous been saved
+    to .github/scripts/tests/sample_data/themes
+
+    This allows for tests to be written using data stored in this repo, instead of
+    having to download real themes and community release information, whose contents will
+    change over time, likely causing random test failures and maintenance pain in the future.
+    """
     sample_data_for_theme = Path(__file__).parent.absolute() / 'sample_data/themes' / theme_name
     assert sample_data_for_theme.exists()
 
