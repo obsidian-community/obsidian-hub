@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Minimal",
+        "author": "kepano",
+        "repo": "kepano/obsidian-minimal",
+        "screenshot": "dark-simple.png",
+        "modes": ["dark", "light"]
+    }
+]
+
+
