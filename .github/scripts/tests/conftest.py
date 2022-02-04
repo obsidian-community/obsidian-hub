@@ -4,7 +4,7 @@ from approvaltests import set_default_reporter
 from approvaltests.reporters import GenericDiffReporterFactory
 
 
-def configure_approvaltests():
+def configure_approvaltests() -> None:
     # The supported tool names are listed in:
     #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
     #
@@ -18,5 +18,5 @@ def configure_approvaltests():
 # For how this works, see:
 # https://github.com/approvals/ApprovalTests.Python/blob/main/docs/configuration.md#how-to-configure-a-default-reporter-for-your-system
 @pytest.fixture(scope="session", autouse=True)
-def set_default_reporter_for_all_tests():
+def set_default_reporter_for_all_tests() -> None:
     configure_approvaltests()

@@ -6,14 +6,14 @@ from helpers_for_testing import verify_in_json_format_to_markdown
 from utils import FileGroups
 
 
-def verify_plugin(manifest_as_json, plugin_as_json):
+def verify_plugin(manifest_as_json: str, plugin_as_json: str) -> None:
     plugin = json.loads(plugin_as_json)
     manifest = json.loads(manifest_as_json)
     file_groups: FileGroups = dict()
     result = plugins.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
     verify_in_json_format_to_markdown(plugin)
 
-def test_author_augmented_for_ryanjamurphy():
+def test_author_augmented_for_ryanjamurphy() -> None:
     # Copied from https://github.com/obsidianmd/obsidian-releases/blob/30b6c827db345e92ce62d50c431878b80ede9d17/community-plugins.json
     plugin_as_json = '''
     {
@@ -40,7 +40,7 @@ def test_author_augmented_for_ryanjamurphy():
     verify_plugin(manifest_as_json, plugin_as_json)
 
 
-def test_author_missing_from_manifest():
+def test_author_missing_from_manifest() -> None:
     # This plugin has the author name in the community plugins file, but not in its own manifest.json
     # This test verifies that this situation is handled correctly.
     plugin_as_json = '''

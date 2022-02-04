@@ -29,12 +29,12 @@ OBSIDIAN_TEMPLATES_DIR = str(Path(__file__).parent.parent.parent.parent / "00 - 
 #
 # This test therefore inspects all the Obsidian templates, and fails if
 # any of them have Jinja-style variables with spaces in.
-def test_all_template_variables_are_valid():
+def test_all_template_variables_are_valid() -> None:
     error_message = check_for_invalid_spaces_in_templates()
     assert '' == error_message
 
 
-def check_for_invalid_spaces_in_templates():
+def check_for_invalid_spaces_in_templates() -> str:
     error_message = ''
     for template_file in glob.glob(OBSIDIAN_TEMPLATES_DIR + '*.md'):
         # print(template_file)
@@ -52,7 +52,7 @@ def check_for_invalid_spaces_in_templates():
     return error_message
 
 
-def test_author_from_jinja():
+def test_author_from_jinja() -> None:
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "author.md.jinja")
     new_content = template.render(user="test-user", author="Test User", website="https://mysite.com",
                                   plugins=[
@@ -68,14 +68,14 @@ def test_author_from_jinja():
     verify_as_markdown(new_content)
 
 
-def test_author_from_jinja_minimal():
+def test_author_from_jinja_minimal() -> None:
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "author.md.jinja")
     new_content = template.render(user="test-user", author="test-user", file_path="Some%20Encoded%20Path.md")
 
     verify_as_markdown(new_content)
 
 
-def test_author_from_templates():
+def test_author_from_templates() -> None:
     template = utils.get_template_from_directory(OBSIDIAN_TEMPLATES_DIR, 'T - Author.md')
     new_content = template.render(title="test-user")
 
