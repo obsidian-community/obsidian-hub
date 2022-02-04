@@ -2,6 +2,7 @@ import yaml
 import os
 import re
 import requests
+import typing
 from typing import Optional, Union, Any, Dict, List
 from jinja2.environment import Template
 
@@ -15,11 +16,11 @@ from utils import (
 )
 
 # Type aliases:
-Theme = Dict[str, Union[str, List[str]]]
-ThemeList = List[Theme]
 ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
 ThemeSettings = List[Dict[str, str]]
 ThemePluginSupport = Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]]]
+Theme = Dict[str, Union[str, List[str], Optional[ThemeSettings], Optional[ThemePluginSupport], int]]
+ThemeList = List[Theme]
 
 CommunityPluginsIDAndName = Dict[str, str]
 
@@ -165,6 +166,8 @@ def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, templa
     user = repo.split("/")[0]
     raw_modes = theme.get("modes")
     assert raw_modes
+    # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
+    raw_modes = typing.cast(typing.List[str], raw_modes)
     modes = (
         ", ".join(raw_modes)
             .replace("dark", DARK_MODE_THEMES)
@@ -178,11 +181,6 @@ def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, templa
     current_name = str(theme.get("name"))
     download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
-    # TODO Understand why this gives this error - and then remove the comment '# type: ignore' at the end of the line
-    #  No overload variant of "update" of "dict" matches argument types
-    #   "Union[str, Any]", "str", "Union[str, List[str]]", "Optional[List[Dict[str, str]]]",
-    #   "Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]], None]", "int"
-    #  More info in: https://github.com/python/mypy/issues/2254
     theme.update(
         user=user,
         modes=modes,
@@ -190,7 +188,7 @@ def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, templa
         settings=settings,
         plugins=plugin_support,
         download_count=download_count,
-    ) # type: ignore
+    )
     return current_name
 
 
