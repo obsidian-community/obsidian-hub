@@ -14,7 +14,7 @@ Frame #1:
 {
     "author": "kepano",
     "branch": "master",
-    "download_count": 9999,
+    "download_count": 48049,
     "modes": "[[Dark-mode themes|dark]], [[Light-mode themes|light]]",
     "name": "Minimal",
     "plugins": {
