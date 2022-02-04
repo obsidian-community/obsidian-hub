@@ -34,7 +34,7 @@ Frame #1:
     "screenshot": "dark-simple.png",
     "settings": [
         {
-            "header": "**Welcome \ud83d\udc4b**: Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.",
+            "header": "**Welcome \ud83d\udc4b**: THIS IS A CUT-DOWN COPY OF THIS THEME, FOR TESTING CODE IN THE OBSIDIAN HUB. Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.",
             "type": "heading"
         },
         {

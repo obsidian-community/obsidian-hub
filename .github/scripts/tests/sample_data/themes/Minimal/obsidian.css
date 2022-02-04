@@ -1,5 +1,7 @@
 /* Minimal Obsidian 5.0.0 by @kepano
 
+THIS IS A CUT-DOWN COPY OF THIS THEME, FOR TESTING CODE IN THE OBSIDIAN HUB. 
+
 User interface replacement for Obsidian.
 
 Designed to be used with the Minimal Theme Settings 
@@ -60,7 +62,7 @@ settings:
         type: heading
         level: 2
         collapsed: true
-        description: Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.
+        description: THIS IS A CUT-DOWN COPY OF THIS THEME, FOR TESTING CODE IN THE OBSIDIAN HUB. Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.
     -
         id: interface
         title: Interface

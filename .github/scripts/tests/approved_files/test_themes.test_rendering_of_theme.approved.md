@@ -39,7 +39,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Welcome 👋**: Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.
+**Welcome 👋**: THIS IS A CUT-DOWN COPY OF THIS THEME, FOR TESTING CODE IN THE OBSIDIAN HUB. Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.
 
 **Interface**: 
 - Base color: Defines all background and border colors unless overridden below
