@@ -161,10 +161,10 @@ def collect_data_for_theme(theme: Dict[str, Union[str, List[str]]], theme_downlo
     :param template: The template used for writing themes - needed to obtain the location of existing themes
     :return: The name of the theme
     """
-    repo = theme.get("repo")
+    repo = str(theme.get("repo"))
     user = repo.split("/")[0]
     modes = (
-        ", ".join(theme.get("modes"))
+        ", ".join(str(theme.get("modes")))
             .replace("dark", DARK_MODE_THEMES)
             .replace("light", LIGHT_MODE_THEMES)
     )
@@ -173,9 +173,14 @@ def collect_data_for_theme(theme: Dict[str, Union[str, List[str]]], theme_downlo
     settings = get_theme_settings(css_file)
     plugin_support = get_theme_plugin_support(css_file)
 
-    current_name = theme.get("name")
+    current_name = str(theme.get("name"))
     download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
+    # TODO Understand why this gives this error - and then remove the comment '# type: ignore' at the end of the line
+    #  No overload variant of "update" of "dict" matches argument types
+    #   "Union[str, Any]", "str", "Union[str, List[str]]", "Optional[List[Dict[str, str]]]",
+    #   "Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]], None]", "int"
+    #  More info in: https://github.com/python/mypy/issues/2254
     theme.update(
         user=user,
         modes=modes,
@@ -183,7 +188,7 @@ def collect_data_for_theme(theme: Dict[str, Union[str, List[str]]], theme_downlo
         settings=settings,
         plugins=plugin_support,
         download_count=download_count,
-    )
+    ) # type: ignore
     return current_name
 
 
@@ -196,7 +201,7 @@ def get_theme_download_count_preferring_previous(template: Template, theme_downl
 
 
 def get_theme_current_download_count(theme_downloads: ThemeDownloads, current_name: str) -> int:
-    return theme_downloads[current_name]["download"]
+    return int(theme_downloads[current_name]["download"])
 
 
 def get_theme_previous_download_count_or_none(template: Template, current_name: str) -> Union[int, None]:
