@@ -74,11 +74,6 @@ def test_collect_data_for_theme_without_settings() -> None:
 
 
 def test_rendering_of_theme() -> None:
-    # TODO Figure out why, in PyCharm on one Mac, that starts failing by this URL
-    #           https://github.dev/obsidian-community/obsidian-hub/blob/main/../../../Obsidian/obsidian-community/obsidian-hub/.github/scripts/tests/delete_me.md
-    #       instead of this one:
-    #           https://github.dev/obsidian-community/obsidian-hub/blob/main/.github/scripts/tests/delete_me.md
-    #      The workaround is to delete the 'Python tests in tests' test configuration and recreate it
     theme_name = "Minimal"
 
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
