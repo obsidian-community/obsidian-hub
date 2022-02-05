@@ -17,6 +17,6 @@ def configure_approvaltests() -> None:
 
 # For how this works, see:
 # https://github.com/approvals/ApprovalTests.Python/blob/main/docs/configuration.md#how-to-configure-a-default-reporter-for-your-system
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="session", autouse=True)  # type: ignore # Untyped decorator makes function "set_default_reporter_for_all_tests" untyped
 def set_default_reporter_for_all_tests() -> None:
     configure_approvaltests()
