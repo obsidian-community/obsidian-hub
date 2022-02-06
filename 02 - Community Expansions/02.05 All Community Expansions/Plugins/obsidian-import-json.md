@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/farling42/obsidian-import-json) or
 Developed by: [[farling42]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-This plugin imports a JSON file and creates notes from a Handlebars template file
+This plugin imports a JSON file (or text block) and creates notes from a Handlebars template file
 
 %% ----- Do not edit anything above this line ----- %% 
 
