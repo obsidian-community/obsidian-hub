@@ -117,10 +117,14 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-lock-screen-plugin|Lock Screen]]
 - [[pinboard-sync|Pinboard Sync]]
 - [[obsidian-shortcut-launcher|Shortcut Launcher]]
+- [[obsidian-file-info-plugin|File Info Panel]]
+- [[obsidian-topic-linking|Topic Linking]]
+- [[multi-column-markdown|Multi-Column Markdown]]
+- [[copy-as-html|Copy as HTML]]
+- [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Sugest]]
+- [[simple-note-quiz|Simple note quiz]]
+- [[obsidian-local-rest-api|Local REST API]]
+- [[obsidian-codeblock-labels|Code Block Labels]]
+- [[obsidian-better-command-palette|Better Command Palette]]
+- [[obsidian-relativenumber|Relativenumber (relative line numbers)]]
 
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
