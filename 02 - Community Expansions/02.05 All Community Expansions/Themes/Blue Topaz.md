@@ -63,6 +63,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Random Background Images: Images will be refreshed when Obsidian launches; network is needed
         - Random image with a certain color
 - **1.3 Layout**: 
+    - Fix Right Ribbon
     - Layout Styles
 
 **2. Detail Settings**: 
@@ -102,6 +103,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Bold Type color
         - Italic Type color
         - Color of Mathematical Expressions
+        - Color of Leaf Resize Handle
 - **2.2 Typography**: 
     - **2.2.1 Font Family**: 
         - Use Obsidian Default Font-family
@@ -117,6 +119,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Inline Code
         - Tag
         - Bold Text
+        - Italic Text
         - Vault Name
     - **2.2.2 Font Size**: 
         - Vault Name
@@ -130,22 +133,42 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Header 4
         - Header 5
         - Header 6
-    - **2.2.3 Other Settings**: 
+    - **2.2.3 Headering**: 
+        - Clutter Free Headings: Adapted from https://github.com/deathau/obsidian-snippets/blob/main/clutter-free-headings.css
+        - **2.2.3.1 Header 1**: 
+            - toggle h1 underline
+            - H1 text-align
+        - **2.2.3.2 Header 2**: 
+            - toggle H2 underline
+            - H2 text-align
+        - **2.2.3.3 Header 3**: 
+            - toggle H3 underline
+            - H3 text-align
+        - **2.2.3.4 Header 4**: 
+            - toggle H4 underline
+            - H4 text-align
+        - **2.2.3.5 Header 5**: 
+            - toggle H5 underline
+            - H5 text-align
+        - **2.2.3.6 Header 6**: 
+            - toggle H6 underline
+            - H6 text-align
+    - **2.2.4 Other Settings**: 
         - Line width (in the mode of 'Readable line length'): The maximum line width in rem units (1rem = Body font size)
         - Line Height
         - Letter Spacing
         - Letter Spacing for Code
         - Text-indent of the first line in preview mode
-        - clutter free headings: Adapted from https://github.com/deathau/obsidian-snippets/blob/main/clutter-free-headings.css
 - **2.3 Element Styles**: 
     - Reduced Status Bar
-    - Remove underlines of header 1 & 2
     - Circular Checkbox
     - Mute Active Line
     - Deactivate image zooming
     - Remove colorful background of active file title: Make it austere
     - Remove underlines of external links
     - Animation on the Loading Page
+    - Remove Custom Icons
+    - Remove Collapse Icons
     - **2.3.1 Horizontal Ruler (hr, ---)**: 
         - Fancy Horizontal Ruler (hr)
         - **2.3.1.1 w/ Icons**: 
@@ -157,11 +180,24 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
             - hr-color-3
             - hr-color-4
     - **2.3.2 List**: 
+        - Line Height of List
         - List
+        - **2.3.2.1 Rainbow Outline Style Settings**: Settings for "Rainbow Outlines" option
+            - Enable rainbow outline list order
+            - Enable rainbow outline checkbox
+        - **2.3.2.2 Rainbow Lines Colors Settings**: Settings for "Rainbow Outlines" option
+            - Outline level 1
+            - Outline level 2
+            - Outline level 3
+            - Outline level 4
+            - Outline level 5
+            - Outline level 6
     - **2.3.3 Folder**: 
         - Light File Background
         - Unmute Collapsed Folder: To normalize opacity of collapsed folder
         - Remove File Icons: To remove the icons before .md files
+        - Activate Folder Icons
+        - Color of File Icons
         - **2.3.3.1 Colorful Folder**: 
             - Make Folder Colorful: Folders should start with the numbers "0-9" or capital letters "A-Z"
             - Folder Style
@@ -170,7 +206,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - **2.3.5 Exported PDF in Dark Mode**: 
         - PDF Color Scheme
     - **2.3.6 Embeds**: 
-        - Fix Height of Embedded Content
+        - To Fix Height of Embedded Content
         - Height of Embedded Content: Switch on the above button to activate
         - Transparent Embedded background
         - Hide Embedded Title
@@ -181,17 +217,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - modal title icon: Do not remove the quotes
     - **2.3.8 Table**: 
         - Nowrap in Tables
-    - **2.3.9 rainbow outline**: 
-        - Enable rainbow outline
-        - Enable rainbow outline list order
-        - Enable rainbow outline checkbox
-        - **rainbow lines colors**: 
-            - Outline level 1
-            - Outline level 2
-            - Outline level 3
-            - Outline level 4
-            - Outline level 5
-            - Outline level 6
+    - **2.3.9 Codeblock**: 
+        - Code Wrap
 
 **3. For Plugins**: 
 - **3.1 Admonition Style**: 
@@ -206,6 +233,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Dynamic
 - **3.5 Buttons**: 
     - Buttons special style support: 目前内置class：🔸circle_btn 圆形按钮🔸blank_btn 透明按钮🔸grad_button渐变按钮🟣g_purple 紫色🔵g_blue蓝色🟢g_green 绿色💚g_lightgreen 浅绿🟡g_yellow黄色
+- **3.6 Dataview**: 
+    - **3.6.1 Dataview List**: 
+        - Style
+    - **3.6.1 Dataview Table**: 
+        - Nowrap in DataviewTables
+        - Hides the X-axis scroll bar in DataviewTables
 
 **4. Built-in Style Intro**: There are some built-in CSS classes that should be manually declared in the YAML area. Details refer to the TIPS demo vault for Blue Topaz on Github.
 - **Pseudo-kanban**: ❗cssclass：kanban❗ A kind of kanban-liked style for unordered lists. (Adapted from Spectrum theme by @Wiktoria Mielcarek)

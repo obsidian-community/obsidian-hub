@@ -30,7 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[02 - Community Expansions/02.05 All Community Expansions/Themes/Hipstersmoothie#Sponsor this author]] %%
+%% ![[hipstersmoothie#Sponsor this author]] %%
 
 
 ## Features
