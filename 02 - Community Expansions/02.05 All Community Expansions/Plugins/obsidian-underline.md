@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Benature/obsidian-underline) or [<
 Developed by: [[Benature]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Add underline with shortcut
+Add underline(`<u>xxx</u>`) with shortcut, and `<center>xxx</center>`, `[[#xxx]]`, `[[#^xxx]]`
 
 %% ----- Do not edit anything above this line ----- %% 
 

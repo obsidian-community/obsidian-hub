@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [Vinzent03](https://github.com/Vinzent03/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+- Website: <https://github.com/Vinzent03> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%

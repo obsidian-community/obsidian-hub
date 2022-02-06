@@ -72,7 +72,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Writing focus: Hightligh the paragraph you are writing, faint the others (edit mode)
 - Opacity of the fainted text in writing focus mode: Change the Opacity of the fainted text
 
-**3. Make pages pop (bold and italic accentuation, image, blockquote, checkboxes, external link, outline)**: 
+**3. Make pages pop (bold and italic accentuation, image, blockquote, checkboxes, links, outline)**: 
 - **Customize bold and italic**: 
     - Bold and italic accentuation: Make bold and italic pop with an other color
     - Bold and italic hue: Change the hue of the accent color (step -> 45 degrees)

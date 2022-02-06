@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/caronchen/obsidian-chartsview-plug
 Developed by: [[caronchen]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This is a charts view plugin for Obsidian.
+Data visualization solution in Obsidian based on Ant Design Charts.
 
 %% ----- Do not edit anything above this line ----- %% 
 

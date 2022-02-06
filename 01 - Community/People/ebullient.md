@@ -23,6 +23,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-task-collector|Task Collector (TC)]]
+- [[obsidian-snippetor|Snippetor]]
 
 ### Themes
 - [[Ebullientworks]]

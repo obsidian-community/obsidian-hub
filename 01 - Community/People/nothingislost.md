@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[obsidian-codemirror-options|CodeMirror Options]]
 - [[workspaces-plus|Workspaces Plus]]
+- [[obsidian-dynamic-highlights|Dynamic Highlights]]
 
 %% End Hub: Released contributions %%
 

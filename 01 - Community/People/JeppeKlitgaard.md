@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-ankibridge|AnkiBridge]]
+- [[obsidian-tweaks|ObsidianTweaks]]
 
 %% End Hub: Released contributions %%
 

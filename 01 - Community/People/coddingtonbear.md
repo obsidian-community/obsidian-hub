@@ -1,12 +1,12 @@
 ---
 aliases:
-- Adam Coddington <me@adamcoddington.net>
+- Adam Coddington
 tags:
 - 
 publish: true
 ---
 
-# Adam Coddington <me@adamcoddington.net>
+# Adam Coddington
 
 - GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
 <!-- - Discord: `@` ^discord-->
@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[obsidian-csv-table|CSV Table]]
 - [[obsidian-itinerary|Itinerary]]
+- [[obsidian-local-rest-api|Local REST API]]
 
 %% End Hub: Released contributions %%
 

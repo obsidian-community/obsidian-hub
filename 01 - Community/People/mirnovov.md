@@ -1,12 +1,12 @@
 ---
 aliases:
-- Novov
+- novov
 tags:
 - 
 publish: true
 ---
 
-# Novov
+# novov
 
 - GitHub: [mirnovov](https://github.com/mirnovov/) ^github
 <!-- - Discord: `@` ^discord-->
