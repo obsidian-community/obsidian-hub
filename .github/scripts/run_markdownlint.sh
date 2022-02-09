@@ -23,10 +23,11 @@ MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
     no-space-in-emphasis \
     no-empty-links \
     single-trailing-newline \
+    no-alt-text \
+    no-duplicate-heading \
+    no-space-in-links \
   -o ${OUTPUT_FILE}"
 
-${MARKDOWN_COMMAND} \
-  "00 - Contribute to the Obsidian Hub" \
-  "04 - Guides, Workflows, & Courses"
+${MARKDOWN_COMMAND} .
 
 sed 's/^.* MD/MD/' ${OUTPUT_FILE} | sort

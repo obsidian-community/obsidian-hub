@@ -6,3 +6,7 @@
 
 # This file generates a number of warnings and does not render well in published site
 04 - Guides, Workflows, & Courses/Guides/An Introduction to Dataview.md
+
+# Directories on developer machines
+DO NOT COMMIT
+venv
