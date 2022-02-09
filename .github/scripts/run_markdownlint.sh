@@ -3,10 +3,9 @@
 cd ../..
 
 OUTPUT_FILE='.github/scripts/markdownlint_output.txt'
-# --disable no-multiple-blanks no-trailing-spaces added to make review of other changes easier
-# For discussion:
-#  blanks-around-headings
-#  no-trailing-punctuation - in headings
+# TODO The rules disabled here are things that we wish to enable, but first we will need
+#      to fix the markdown files which break each rule, then we can enable the rule.
+#      Recommendation: Fix and enable one rule at a time.
 MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
   --disable \
     no-multiple-blanks \
