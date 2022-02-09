@@ -1,0 +1,12 @@
+# These have a double-space which gets edited out - fix the code
+🗂️ *
+
+# Later, see if his file can be removed - or make it consistent with its Python Jinja counterpart
+00 - Contribute to the Obsidian Hub/01 Templates/T - GitHub Repository.md
+
+# This file generates a number of warnings and does not render well in published site
+04 - Guides, Workflows, & Courses/Guides/An Introduction to Dataview.md
+
+# Directories on developer machines
+DO NOT COMMIT
+venv

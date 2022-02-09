@@ -1,0 +1,14 @@
+{
+  "no-hard-tabs": false,
+  "no-missing-space-atx": false,
+  "line-length": false,
+  "first-line-heading": false,
+  "no-inline-html": false,
+  "blanks-around-lists": false,
+  "no-multiple-blanks": 1,
+  "no-space-in-code": false,
+  "no-emphasis-as-heading": false,
+  "single-h1": false,
+  "ul-indent": false,
+  "no-bare-urls": false
+}
