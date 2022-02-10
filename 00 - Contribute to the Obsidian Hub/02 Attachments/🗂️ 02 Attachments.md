@@ -37,6 +37,8 @@ publish: true
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev editor.png|github.dev editor.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev fork view.png|github.dev fork view.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/github.dev switch to fork.png|github.dev switch to fork.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/Mara_FolderColor.png|Mara_FolderColor.png]]
+-  [[00 - Contribute to the Obsidian Hub/02 Attachments/Mara_FolderColor2.png|Mara_FolderColor2.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/plugin-submission-PR-template.png|plugin-submission-PR-template.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/project-cards-screenshot.png|project-cards-screenshot.png]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/publish-pfsense-acme_1.png|publish-pfsense-acme_1.png]]

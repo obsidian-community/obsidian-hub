@@ -19,6 +19,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/CSS Snippets/Asides (SlRvb)|Asides (SlRvb)]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/CSS Snippets/Center Tables|Center Tables]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/CSS Snippets/Embed Adjustments|Embed Adjustments]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/CSS Snippets/Files explorer relations & color (Mara-Li)|Files explorer relations & color (Mara-Li)]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/CSS Snippets/Folder Styles (SlRvb)|Folder Styles (SlRvb)]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/CSS Snippets/Image Adjustments|Image Adjustments]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/CSS Snippets/Kanban (SlRvb)|Kanban (SlRvb)]]
