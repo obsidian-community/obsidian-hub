@@ -2,6 +2,9 @@ import yaml
 import os
 import re
 import requests
+import typing
+from typing import Optional, Union, Any, Dict, List
+from jinja2.environment import Template
 
 from plugins import CORE_PLUGINS
 from utils import (
@@ -11,6 +14,15 @@ from utils import (
     get_output_dir,
     get_theme_css
 )
+
+# Type aliases:
+ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
+ThemeSettings = List[Dict[str, str]]
+ThemePluginSupport = Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]]]
+Theme = Dict[str, Union[str, List[str], Optional[ThemeSettings], Optional[ThemePluginSupport], int]]
+ThemeList = List[Theme]
+
+CommunityPluginsIDAndName = Dict[str, str]
 
 settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
@@ -22,7 +34,7 @@ DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
 LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 
 
-def get_theme_settings(theme_css):
+def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
     """
     Based on the style settings plugin: https://github.com/mgmeyers/obsidian-style-settings/blob/main/src/main.ts
     
@@ -96,8 +108,12 @@ def get_theme_settings(theme_css):
                 content = True
         return markdown_settings
 
+    return None
 
-def get_theme_plugin_support(theme_css, comm_plugins=None):
+
+def get_theme_plugin_support(
+        theme_css: str,
+        comm_plugins: Optional[CommunityPluginsIDAndName] = None) -> Optional[ThemePluginSupport]:
     match = re.search(plugins_regex, theme_css, re.MULTILINE)
     if match:
         plugin_str = match[1]
@@ -125,18 +141,29 @@ def get_theme_plugin_support(theme_css, comm_plugins=None):
 
         return plugins
 
+    return None
 
-def get_theme_downloads():
+def get_theme_downloads() -> ThemeDownloads:
+    # Example content:
+    # {
+    #     "80s Neon": {
+    #         "download": 9271,
+    #         "id": "80s Neon"
+    #     },
+    #     "Agora": {
+    #         "download": 1824,
+    #         "id": "Agora"
+    #     },
     theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
     return theme_downloads
 
 
-def get_url_pattern_for_downloads_shield(placeholder_for_download_count):
+def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
     old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
     return old_text
 
 
-def collect_data_for_theme(theme, theme_downloads, template):
+def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template) -> str:
     """
     Take raw theme data from a community theme, and add information to it.
 
@@ -145,19 +172,31 @@ def collect_data_for_theme(theme, theme_downloads, template):
     :param template: The template used for writing themes - needed to obtain the location of existing themes
     :return: The name of the theme
     """
-    repo = theme.get("repo")
+    repo = str(theme.get("repo"))
+    branch = theme.get("branch", "master")
+    css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
+
+    return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template)
+
+
+def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads,
+                                   template: Template) -> str:
+    repo = str(theme.get("repo"))
+    branch = theme.get("branch", "master")
     user = repo.split("/")[0]
+    raw_modes = theme.get("modes")
+    assert raw_modes
+    # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
+    raw_modes = typing.cast(typing.List[str], raw_modes)
     modes = (
-        ", ".join(theme.get("modes"))
+        ", ".join(raw_modes)
             .replace("dark", DARK_MODE_THEMES)
             .replace("light", LIGHT_MODE_THEMES)
     )
-    branch = theme.get("branch", "master")
-    css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
     settings = get_theme_settings(css_file)
     plugin_support = get_theme_plugin_support(css_file)
 
-    current_name = theme.get("name")
+    current_name = str(theme.get("name"))
     download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
     theme.update(
@@ -171,7 +210,7 @@ def collect_data_for_theme(theme, theme_downloads, template):
     return current_name
 
 
-def get_theme_download_count_preferring_previous(template, theme_downloads, current_name):
+def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads, current_name: str) -> int:
     previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
     if previous_download_count:
         return previous_download_count
@@ -179,11 +218,11 @@ def get_theme_download_count_preferring_previous(template, theme_downloads, curr
     return get_theme_current_download_count(theme_downloads, current_name)
 
 
-def get_theme_current_download_count(theme_downloads, current_name):
-    return theme_downloads[current_name]["download"]
+def get_theme_current_download_count(theme_downloads: ThemeDownloads, current_name: str) -> int:
+    return int(theme_downloads[current_name]["download"])
 
 
-def get_theme_previous_download_count_or_none(template, current_name):
+def get_theme_previous_download_count_or_none(template: Template, current_name: str) -> Union[int, None]:
     """
     Read the theme file from disk, and return the previously-saved download count
     :return: The saved theme download count, or None if this could not be obtained 
@@ -203,7 +242,7 @@ def get_theme_previous_download_count_or_none(template, current_name):
         return int(result.group(1))
 
 
-def set_theme_download_count(template, current_name, new_download_count, verbose):
+def set_theme_download_count(template: Template, current_name: str, new_download_count: int, verbose: bool) -> None:
     file_name = get_output_dir(template, current_name)
 
     if not os.path.exists(file_name):
@@ -243,6 +282,6 @@ def set_theme_download_count(template, current_name, new_download_count, verbose
         print("Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
 
 
-def update_theme_download_count(template, theme_downloads, current_name, verbose):
+def update_theme_download_count(template: Template, theme_downloads: ThemeDownloads, current_name: str, verbose: bool) -> None:
     download_count = get_theme_current_download_count(theme_downloads, current_name)
     set_theme_download_count(template, current_name, download_count, verbose)

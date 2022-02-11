@@ -1,11 +1,13 @@
 import os
 import json
 import glob
+from typing import Dict, List, Union, Any
 
 import requests
 
 from urllib.request import urlopen
 from jinja2 import FileSystemLoader, Environment, DebugUndefined
+from jinja2.environment import Template
 
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
 PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
@@ -19,6 +21,11 @@ OUTPUT_DIR = {
     "author": "01 - Community/People",
 }
 
+# Type aliases:
+FileGroups = Dict[str, List[str]]
+# JSONType is from https://stackoverflow.com/a/58405201/104370
+JSONType = Union[str, int, float, bool, None, Dict[str, Any], List[Any]]
+
 
 # For performance reasons, we check the environment only once, and cache the value.
 # Doing it on every call to print_progress_bar() added 45 seconds to one 
@@ -26,13 +33,13 @@ OUTPUT_DIR = {
 running_in_continuous_integration = os.environ.get('GITHUB_ACTIONS') != None
 
 
-def get_template(template_name):
+def get_template(template_name: str) -> Template:
     directory = "./templates"
     template_file_name = "{}.md.jinja".format(template_name)
     return get_template_from_directory(directory, template_file_name)
 
 
-def get_template_from_directory(directory: str, template_name_with_extensions: str):
+def get_template_from_directory(directory: str, template_name_with_extensions: str) -> Template:
     file_loader = FileSystemLoader(directory)
     # A note on writing templates...
     # trim_blocks and lstrip_blocks remove a lot of whitespace.
@@ -48,7 +55,7 @@ def get_template_from_directory(directory: str, template_name_with_extensions: s
     return env.get_template(template_name_with_extensions)
 
 
-def get_output_dir(template, file_name):
+def get_output_dir(template: Template, file_name: str) -> str:
     template_name, _, _ = template.name.split(".")
     return os.path.join(
         "../..",
@@ -57,16 +64,15 @@ def get_output_dir(template, file_name):
     )
 
 
-def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
-    # This add_footer function cannot be imported at top of this file,
-    # as this would cause a cyclic reference:
-    from add_footer import encode_absolute_path_for_footer 
-
+def write_file(template: Template,
+               file_name: str,
+               overwrite: bool = False,
+               verbose: bool = False,
+               **kwargs: Any) -> str:
     file_path = get_output_dir(template, file_name)
-    encoded_path = encode_absolute_path_for_footer(os.path.abspath(file_path))
+    absolute_file_path = os.path.abspath(file_path)
 
-    file_content = template.render(file_path=encoded_path, **kwargs)
-    file_content = ensure_last_line_has_eol(file_content)
+    file_content = render_template_for_file(template, absolute_file_path, **kwargs)
 
     # Check if file exists
     if os.path.exists(file_path) and not overwrite:
@@ -97,7 +103,18 @@ def write_file(template, file_name, overwrite=False, verbose=False, **kwargs):
     return group
 
 
-def have_same_contents(file_path, rendered_template):
+def render_template_for_file(template: Template, absolute_file_path: str, **kwargs: Any) -> Any:
+    # This add_footer function cannot be imported at top of this file,
+    # as this would cause a cyclic reference:
+    from add_footer import encode_absolute_path_for_footer
+    encoded_path = encode_absolute_path_for_footer(absolute_file_path)
+
+    file_content = template.render(file_path=encoded_path, **kwargs)
+    file_content = ensure_last_line_has_eol(file_content)
+    return file_content
+
+
+def have_same_contents(file_path: str, rendered_template: str) -> bool:
     # Compare filled-out template against contents of an existing file
     with open(file_path) as file:
         contents = file.read()
@@ -108,38 +125,45 @@ def have_same_contents(file_path, rendered_template):
     return False
 
 
-def get_json_from_github(url):
+def get_json_from_github(url: str) -> JSONType:
     with urlopen(url) as response:
         json_file = json.loads(response.read())
 
     return json_file
 
 
-def get_theme_css(url):
+def get_json_from_file(file_path: str) -> JSONType:
+    with open(file_path) as f:
+        json_file = json.loads(f.read())
+
+    return json_file
+
+
+def get_theme_css(url: str) -> str:
     with requests.get(url) as response:
         return response.text
 
 
-def get_plugin_manifest(repository, branch):
+def get_plugin_manifest(repository: str, branch: str) -> JSONType:
     manifest = get_json_from_github(PLUGIN_MANIFEST.format(repository, branch))
     return manifest
 
 
-def get_category_files():
+def get_category_files() -> List[str]:
     return glob.glob(
         os.path.abspath(os.path.join(
             "../..", OUTPUT_DIR["category"])) + "/*.md"
     )
 
 
-def format_link(note_name, alias=None):
+def format_link(note_name: str, alias: Union[str, None] = None) -> str:
     if alias is None:
         return "[[{}]]".format(note_name)
     else:
         return "[[{}|{}]]".format(note_name, alias)
 
 
-def print_file_summary(file_groups, verbose=False):
+def print_file_summary(file_groups: FileGroups, verbose: bool = False) -> None:
     messages = {
         "error": "has an error, so was ignored.",
         "exists": "exist but no changes were detected.",
@@ -156,15 +180,15 @@ def print_file_summary(file_groups, verbose=False):
 
 # Print iterations progress, unless running in CI build
 def print_progress_bar(
-    iteration,
-    total,
-    prefix="",
-    suffix="",
-    decimals=1,
-    length=100,
-    fill="█",
-    printEnd="\r",
-):
+    iteration: int,
+    total: int,
+    prefix: str = "",
+    suffix: str = "",
+    decimals: int = 1,
+    length: int = 100,
+    fill: str = "█",
+    printEnd: str = "\r",
+) -> None:
     """
     Call in a loop to create terminal progress bar
 
@@ -204,7 +228,7 @@ def get_root_of_vault() -> str:
     return up2
 
 
-def ensure_last_line_has_eol(contents) -> str:
+def ensure_last_line_has_eol(contents: str) -> str:
     """
     Ensure that the given string ends with an end-of-line character.
     :param contents: The string to check

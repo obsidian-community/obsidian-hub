@@ -7,6 +7,7 @@ from re import sub, search
 from urllib.parse import quote
 
 from utils import ensure_last_line_has_eol, get_root_of_vault
+from jinja2.environment import Template
 
 # These are directories and files to exclude
 # By adding a dir/file, this script will ignore them and never change them!
@@ -14,7 +15,7 @@ DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', '01 Templates', 'D
 FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore']
 
 
-def add_footer(top_directory: str, debug: bool = True):
+def add_footer(top_directory: str, debug: bool = True) -> None:
     """
     Walks through the filetree rooted at `root`.
     For each markdown file that it finds, it replaces a particular comment line with the corresponding template.
@@ -74,13 +75,13 @@ def get_footer_comment_regex() -> str:
     return r"(?sm)%% Hub footer: Please don't edit anything below this line %%.*"
 
 
-def encode_absolute_path_for_footer(absolute_path):
+def encode_absolute_path_for_footer(absolute_path: str) -> str:
     relative_path = relpath(absolute_path, get_root_of_vault())
     encoded_path = quote(relative_path)
     return encoded_path
 
 
-def add_footer_to_markdown(relative_path, contents, comment, template, debug):
+def add_footer_to_markdown(relative_path: str, contents: str, comment: str, template: Template, debug: bool) -> str:
     # Get the rendered template (file => relative path => html encoded)
     render = template.render(
         file_path=quote(relative_path))
@@ -112,7 +113,7 @@ def add_footer_to_markdown(relative_path, contents, comment, template, debug):
     return replacement
 
 
-def main():
+def main() -> None:
     # Grab the root folder to run in.
     # Uses the utility method to get root of the vault.
     root = get_root_of_vault()

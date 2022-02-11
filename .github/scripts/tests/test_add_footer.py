@@ -8,7 +8,7 @@ from test_templates import JINJA_TEMPLATES_DIR
 
 
 # Test that the footer finds the template
-def test_consistency_that_search_expression_matches_template():
+def test_consistency_that_search_expression_matches_template() -> None:
     relative_path = 'Any old file.md'
     empty_input = ''
     output = add_footer_to_markdown_test(empty_input, relative_path)
@@ -25,7 +25,7 @@ They need to be consistent, to prevent multiple footer accumulating.
 
 
 # Simple test, that footer is added if not present.
-def test_footer_added_if_missing():
+def test_footer_added_if_missing() -> None:
     relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
     input = \
         f"""# Sample note content.
@@ -38,7 +38,7 @@ CHECK that path in URLs has been encoded.
     verify_footer_addition(input, output)
 
 # Ensure eol is added before footer, if missing from input file
-def test_end_of_line_added_if_missing():
+def test_end_of_line_added_if_missing() -> None:
     relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
     input = \
         f"""# Sample note content.
@@ -50,7 +50,7 @@ I do not have a line-ending at end of file. A blank line should be added."""
 
 # Test that footer is not added twice
 # Test that footer is updated if content differs
-def test_footer_updated_if_present():
+def test_footer_updated_if_present() -> None:
     relative_path = '04 - Guides, Workflows, & Courses/for Plugin Developers.md'
     text_to_be_overwritten = 'CHECK THAT I AM NOT PRESENT IN FINAL OUTPUT'
     raw_content = \
@@ -84,7 +84,7 @@ def add_footer_to_markdown_test(input: str, relative_path:str) -> str:
     return output
 
 
-def verify_footer_addition(input, output):
+def verify_footer_addition(input: str, output: str) -> None:
 
     check_output_has_eol_on_last_line(output)
 
@@ -103,7 +103,7 @@ OUTPUT:
     verify_as_markdown(text_to_verify)
 
 
-def check_output_has_eol_on_last_line(output):
+def check_output_has_eol_on_last_line(output: str) -> None:
     # First make sure that the output has a finely end-of-line character.
     explanation = """
     ERROR.

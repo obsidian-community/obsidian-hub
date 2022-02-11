@@ -1,0 +1,104 @@
+body.theme-light, body.theme-dark {  
+  --background-primary:         #35674d;
+  --background-primary-alt:     #2c5640;
+  --background-secondary:       #a23227;
+  --background-secondary-alt:   #952e24;
+  
+  --background-modifier-border: rgba(0, 0, 0, 0.25);
+  
+  --text-normal:                #f2f2f2;
+  --text-muted:                 #f2f2f2;
+  --text-faint:                 #c5c5c5;
+  --text-accent:                #f2f2f2;
+  --text-accent-hover:          #ffffff;
+
+  --interactive-accent-rgb:     255, 191, 0;
+  --interactive-accent:         #ffbf00;
+  --interactive-accent-hover:   #d0a011;
+  --text-on-accent:             #000000;
+
+  --background-accent:          #b5aa29;
+  --text-highlight-bg:          #b5aa29;
+  --text-selection:             rgba(44, 86, 64, 0.99);
+  /*
+  --interactive-normal:         #f2f3f5;
+  --interactive-hover:          #e9e9e9;
+  */
+}
+
+.markdown-preview-view code,
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian pre.HyperMD-codeblock {
+  color: #ff4073;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-bg,
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+  border:none;
+}
+
+.cm-s-obsidian span.cm-inline-code.cm-hmd-indented-code {
+  background-color: var(--background-primary-alt);
+}
+
+
+.view-content {
+  --background-modifier-border: #a37a00;
+}
+
+.view-header, .workspace-leaf.mod-active .view-header, .workspace-leaf-resize-handle,
+.workspace > .workspace-split > .workspace-leaf:first-of-type:last-of-type .view-header {
+  background-color: var(--background-secondary-alt);
+}
+
+.workspace-leaf.mod-active .view-header-title-container:after,
+.view-header-title-container:after {
+    background: linear-gradient(to right, transparent, var(--background-secondary-alt));
+}
+
+/* Falling snow! (If it bothers you, remove everything below this comment) */
+body:before,
+body:after,
+html:before,
+html:after 
+{
+  content: "";
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(https://freepngimg.com/download/winter_snow/6-2-clear-snow-png.png);
+  opacity: 0.5;
+  animation: MOVE-BG 500s linear infinite;
+  z-index: 100;
+  pointer-events: none;
+}
+body:after {
+  top: -3000%;
+}
+body:before {
+  top: -2500%;
+  filter: blur(1px);
+  background-size: 75%;
+}
+html:after {
+  filter: blur(2px);
+  top: -2000%;
+  background-size: 50%;
+}
+
+html:before {
+  filter: blur(3px);
+  top: -1500%;
+  background-size: 25%;
+}
+
+@keyframes MOVE-BG {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+/* end falling snow */

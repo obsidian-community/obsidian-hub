@@ -20,3 +20,8 @@ jobs:
         run: |
           cd .github/scripts/tests
           python3 -m pytest -s --verbose
+
+      - name: Check type hints
+        run: |
+          cd .github/scripts
+          ./check_type_hints.sh
