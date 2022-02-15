@@ -15,12 +15,12 @@ from utils import PLUGINS_JSON_FILE
 
 def process_issues_for_plugin(gh_client, plugin, label):
     issues = list()
-    print(label)
     repo_issues = gh_client.get(f'/repos/{plugin["repo"]}/issues?labels={label}', _get="all")
     for issue in repo_issues:
         # pull requests are also an issue according to the gh api
         if "pull_request" not in issue:
-            issues.append({"title": issue['title'], "url": issue['html_url']})
+            issues.append(
+                {"title": issue['title'], "url": issue['html_url'], "pluginID": plugin['id'], "plugin": plugin["name"]})
     return issues
 
 
@@ -48,7 +48,6 @@ def process_issues(api_key, overwrite=True, verbose=False):
         print_progress_bar(
             plugin_list.index(plugin) + 1, len(plugin_list),
         )
-    print(help_wanted)
     args = {"help_wanted": help_wanted, "documentation": documentation, "good_first_issue": good_first_issue}
     write_file(template, "Plugin Issues", overwrite=overwrite, verbose=verbose, **args)
     return args

@@ -40,6 +40,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           title: Scripted update of Hub content
+          assignees: argenos
           labels: |
             scripted update
 
