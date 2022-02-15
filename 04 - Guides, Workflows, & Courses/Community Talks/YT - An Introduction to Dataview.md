@@ -7,7 +7,7 @@ tags:
 
 # An Introduction to [[dataview|Dataview]]
 
-Slides [[An Introduction to Dataview]]
+Slides: [[An Introduction to Dataview Slides]]
 
 This was the very first [[Obsidian Community Talks|Obsidian Community Talk]].  [[SkepticMystic]] gave a great overview of the [[dataview|Dataview]] plugin. 
 
