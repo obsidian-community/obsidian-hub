@@ -1,4 +1,4 @@
-name: update issues
+name: update community plugin issue list
 on:
   schedule:
     - cron: "0 1 * * *"
@@ -15,15 +15,10 @@ jobs:
 
       - uses: ./.github/actions/setup-python
       - uses: ./.github/actions/install-dependencies
-
-      - name: Set up git config
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "github-actions[bot]"
-        shell: bash
+      - uses: ./.github/actions/setup-git-config
 
       # ----------------------------------------------------------------------------------
-      # Run scripted updates to Hub Vault Content
+      # Run scripted update of community plugin issues with labels
       # ----------------------------------------------------------------------------------
       - name: Update theme download counts
         run: |
@@ -40,7 +35,6 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           title: Scripted update of Hub content
-          assignees: argenos
           labels: |
             scripted update
 

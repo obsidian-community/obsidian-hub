@@ -48,8 +48,15 @@ def process_issues(api_key, overwrite=True, verbose=False):
         print_progress_bar(
             plugin_list.index(plugin) + 1, len(plugin_list),
         )
-    args = {"help_wanted": help_wanted, "documentation": documentation, "good_first_issue": good_first_issue}
-    write_file(template, "Plugin Issues", overwrite=overwrite, verbose=verbose, **args)
+    sorted_help_wanted = sorted(help_wanted, key=lambda issue: issue['plugin'])
+    sorted_documentation = sorted(documentation, key=lambda issue: issue['plugin'])
+    sorted_good_first_issue = sorted(good_first_issue, key=lambda issue: issue['plugin'])
+    args = {
+        "help_wanted": sorted_help_wanted,
+        "documentation": sorted_documentation,
+        "good_first_issue": sorted_good_first_issue
+    }
+    write_file(template, "Plugins seeking help", overwrite=overwrite, verbose=verbose, **args)
     return args
 
 
