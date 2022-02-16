@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # ----------------------------------------------------------------------------------
+      # Setup
+      # ----------------------------------------------------------------------------------
       - uses: actions/checkout@v2
 
       - uses: ./.github/actions/setup-python
@@ -22,7 +25,15 @@ jobs:
         with:
           node-version: "14.x"
 
-      - name: Check the content of the hub
+      - name: Install markdownlint-cli
+        run: |
+          cd .github/scripts
+          npm install markdownlint-cli
+
+      # ----------------------------------------------------------------------------------
+      # Run checks
+      # ----------------------------------------------------------------------------------
+      - name: Hub-specific checks such as missing .md extensions
         run: |
           cd .github/scripts
           python3 ./check_content.py
@@ -30,5 +41,4 @@ jobs:
       - name: Ensure consistent markdown formatting via markdownlint
         run: |
           cd .github/scripts
-          npm install markdownlint-cli
           ./run_markdownlint.sh
