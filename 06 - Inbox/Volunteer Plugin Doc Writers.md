@@ -10,3 +10,4 @@ Don't be shy to contribute! The worst that could happen is that the plugin devel
 
 - [shabegom/buttons](https://github.com/shabegom/buttons)
 - [valentine195/obsidian-leaflet-plugin](https://github.com/valentine195/obsidian-leaflet-plugin)
+- [blacksmithgu/obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview)
