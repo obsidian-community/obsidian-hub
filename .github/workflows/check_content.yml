@@ -17,7 +17,18 @@ jobs:
       - uses: ./.github/actions/setup-python
       - uses: ./.github/actions/install-dependencies
 
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14.x"
+
       - name: Check the content of the hub
         run: |
           cd .github/scripts
           python3 ./check_content.py
+
+      - name: Ensure consistent markdown formatting via markdownlint
+        run: |
+          cd .github/scripts
+          npm install markdownlint-cli
+          ./run_markdownlint.sh
