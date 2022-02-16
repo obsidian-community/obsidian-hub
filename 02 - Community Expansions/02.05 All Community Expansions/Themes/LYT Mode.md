@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1177-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-1610-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nickmilo/LYT-Mode?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/nickmilo/LYT-Mode/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nickmilo/LYT-Mode?color=573E7A&logo=github&style=for-the-badge)
@@ -35,6 +35,13 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Header Style: Preferred Style makes the theme pop with gorgeous gradient headers. Safe Style opts for flat-colored headers which fixes visual bugs.
+- Highlight Style: Preferred Style gives highlight a subtle but beautiful look. Safe Style gives highlights a gradient background but flat colored text which fixes visual bugs.
+- Unwrap File Explorer Titles
+- Unwrap Search Explorer Titles
 
 
 %% Hub footer: Please don't edit anything below this line %%

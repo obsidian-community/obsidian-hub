@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[remotely-save|Remotely Save]]
+- [[weather-fetcher|Weather Fetcher]]
 
 %% End Hub: Released contributions %%
 

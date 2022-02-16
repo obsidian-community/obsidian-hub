@@ -1,12 +1,12 @@
 ---
 aliases:
-- Bonianll
+- Boninall
 tags:
 - 
 publish: true
 ---
 
-# Bonianll
+# Boninall
 
 - GitHub: [quorafind](https://github.com/quorafind/) ^github
 <!-- - Discord: `@` ^discord-->

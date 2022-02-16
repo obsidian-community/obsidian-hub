@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-3330-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-3751-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hungsu/typomagical-obsidian?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/hungsu/typomagical-obsidian/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/hungsu/typomagical-obsidian?color=573E7A&logo=github&style=for-the-badge)
@@ -43,6 +43,12 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - Heading bold
 - Title (H1) font: Titles, or H1s, are special. Thus, they should look special. Choose a Title font that suits you!
 - MathJax font: Font for MathJax e.g. $inline equation$ and $$centered equation$$
+- List numbers: Whether numerical lists should have circled, or ordinary numbers
+- Link font: The font for links
+- Blockquotes: How all blockquotes should look
+- Alignment: How all text is aligned
+- Line Height on Headings: Height of each line in headings. I recommend around 1.2
+- Line Height in Body: Height of each line in a multi-line passage. Obsidian default is 1.5.
 
 
 %% Hub footer: Please don't edit anything below this line %%

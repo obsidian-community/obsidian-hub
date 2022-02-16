@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-12935-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-14302-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/chrisgrieser/shimmering-focus?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/chrisgrieser/shimmering-focus/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/chrisgrieser/shimmering-focus?color=573E7A&logo=github&style=for-the-badge)
@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/chrisgrieser/shimmering-focus/raw/main/dual-theme-screenshot.png)
+![screenshot](https://github.com/chrisgrieser/shimmering-focus/raw/main/docs/images/Promo%20Screenshot/promo-screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
@@ -40,7 +40,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ## Customization Options (Style Settings Plugin) 
 
 **Show/Hide UI Elements**: Re-enable elements hidden by this theme
-- Re-enable Title Bar: Re-enable this to have a title bar, e.g. for moving the Obsidian window
+- Hide Settings Button: Hide the floating Settings button. The settings can still be accessed by using the hotkey 'cmd + ,' on Mac or 'ctrl + ,' on Windows/Linux.
+- Permanently show the Sidebar Tabs: When false, the Sidebar Tabs become visible upon hovering.
+- Re-enable Title Bar: Enable this to have a title bar, for example to move the Obsidian window
+- Show Vault Name in Title Bar: When the Title Bar is re-enabled, shows the name of the vault there.
 - Re-enable Ribbons: Ribbons are the thin vertical bars to the very left & right. The left ribbon is the element that contains the settings button.
 - Permanently show the Header Bar: When false, the Header bar is still visible upon focus and hover. (When you are using Sliding Panes with rotated headers, the headers will be permanently shown and this setting has no effect.)
 - Permanently show the Status Bar: When false, the Status bar is still visible when hovering. (This setting will be overridden when you use the default status bar.)
@@ -56,34 +59,36 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Aesthetics**: Brightness, Color, Shapes, Cursor, Decoration, Animations
 - Shapes: Enable to use angular shapes (🔲) throughout the whole theme. Disable to use rounded shapes (🔘).
-- Color Schemes: New Color Scheme: Nord ❄️. Selecting a color scheme other than "Custom Colors" overrides any Brightness, Color Tone, and Color Intensity settings. (More color schemes coming in the future!)
+- Color Schemes: Selecting a color scheme other than "Custom Colors" overrides any Brightness, Color Tone, and Color Intensity settings.
 - Custom Colors: Brightness (Light Mode): Note that a high brightness in light mode results in a white theme, regardless of the selected hue.
 - Custom Colors: Hue (Light Mode): Overall color tone of the theme. Mind that the appearance of the color is also affected by brightness and saturation.
 - Custom Colors: Saturation (Light Mode): Intensity of the chosen color tone (hue). Setting this to zero will result in grayscale, regardless of the hue chosen. 
 - Custom Colors: Brightness (Dark Mode): Note that a low brightness in dark mode results in a black theme, regardless of the selected hue.
 - Custom Colors: Hue (Dark Mode): Overall color tone of the theme. Mind that the appearance of the color is also affected by brightness and saturation.
 - Custom Colors: Saturation (Dark Mode): Intensity of the chosen color tone (hue). Setting this to zero will result in grayscale, regardless of the hue chosen. 
-- Block Cursor: Use a block cursor instead of a line cursor. For best results, also switch the main font to a monospace font.
-- Mono-colored Cursor: Use a mono-colored, purple cursor.
+- ✨ Cursor Style: Color and general look of the cursor.
+- Cursor Blink Style
+- Block Cursor: Use a block cursor instead of a line cursor. For best results, switch the main font to a monospace font.
 - YAML: Coloring: Use colored YAML frontmatter (in Edit Mode).
 - Block Quotes: Decorative Quotation Mark: Show a decorative quotation mark next to blockquotes in Reading Mode.
 - Turn off all animations
 - Global Filter
 
 **Typography**: Font, Headings, Blockquotes, Font Sizes, Headings, Letter Spacing, Alignment
-- Main Font
+- Editor Font (Desktop)
 - Monospace Font: Used in Code blocks, YAML in Edit Mode, tables in Edit Mode, etc.
 - Monospace Font Size
-- UI Font: Affects the left side bar, right side bar, status bar, and header bar.
+- UI Font (Desktop): Affects the left side bar, right side bar, status bar, and header bar.
 - Side Bar Font Size: Affects the left side bar and right side bar.
 - Status Bar Font Size
-- Menu Font: Affects the settings menu, plugin browser and theme browser.
+- Menu Font (Desktop): Affects the settings menu, plugin browser and theme browser.
 - Menu Font Size
 - Normal-sized Blockquotes: Blockquotes have the same size and line-height as the rest of the text.
 - Left-aligned Blockquote Text: Use left-aligned text in blockquotes instead of justified text.
 - Heading Font: Applies to h1 to h6 Headings
 - Compact Headings: Makes Headings more compact by decreasing their letter spacing.
 - No Alternating Italic of Headings: In this theme, the Heading Levels alternate between italic/regular to make them more distinguishable. You can turn that feature off if you prefer non-italic for all heading levels.
+- No Heading Level Indicator in Live Preview: Removes the small 'H1', 'H2', that are in front of headings in Live Preview.
 - Level 1 Headings
 - Level 2 Headings
 - Level 3 Headings
@@ -100,33 +105,40 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Align Images & PDFs to the left: When disabled, they will be aligned to the center instead.
 - No Dark Mode for PDFs: Disable Dark Mode for PDFs when Obsidian is set to dark mode.
 
-**🆕 Gutter & Active Line**: Active & Focused Line Highlight, Indicators in the Gutter
-- ⚡️ Active Line Highlight: "Focused Highlight" will only emphasize the active line instead of the active paragraph (block), similar to Code Editors. ⚠️ However, this comes at the cost of disabling any form of horizontal scrolling in the editor. (Focused Highlight does not work in the Legacy Editor.)
-- ⦿ Footnote Indicator: Displays a small indicator in the gutter when a footnote is present. (Note that the numbered indicator does not count properly footnotes on the same line.)
-- Disable Unresolved Link Indicators: The indicators are only shown in Reading Mode.
-- Disable Search Result Indicators: The indicators are only shown in Source Mode and Live Preview.
+**Gutter & Active Line**: Active & Focused Line Highlight, Indicators in the Gutter
+- Active Line Highlight: "Focused Highlight" will only emphasize the active line instead of the active paragraph (block), similar to Code Editors. ⚠️ However, this comes at the cost of disabling any form of horizontal scrolling in the editor. (Focused Highlight does not work in the Legacy Editor.)
+- Footnote Indicator: Displays a small indicator (⦿) in the gutter when a footnote is present. (Note that the numbered indicator does not count properly footnotes on the same line.)
+- Disable Unresolved Link Indicators: The indicators (𝘅) are only shown in Reading Mode.
+- Disable Search Result Indicators: The indicators (▶) are only shown in Source Mode and Live Preview.
 
-**Mobile**: Settings specifically for mobile
+**Mobile**: Header Bar, Font Size, Font Type
+- Re-enable Header: When false, a floating button to toggle between Reading and Source Mode will be shown.
 - Mobile Font Size
+- Editor Font (Mobile)
+- Menu Font (Mobile): Affects the settings menu, plugin browser and theme browser.
+- UI Font (Mobile): Affects the left side bar, right side bar, status bar, and header bar.
 
 **Plugin-Specific Settings**: File Explorer, Outline, Supercharged Links, Page Preview, Command Palette, Calendar, Link Favicons
-- File Explorer: No Icons: Removes the icons next next to files and folders in the file explorer and re-enables the collapse arrows.
+- File Explorer: No File Icons: Removes the icons next to files in the file explorer.
+- File Explorer: No Folder Icons: Removes the icons next to folders in the file explorer.
 - Outline: Remove First Level of Headings: In case you have only one H1 heading per file, this will make the outline sidebar more compact.
 - Supercharged Links: Turn off built-in styling: This theme has some styling for the Supercharged Links plugin built-in, so can make use of the plugin without knowledge of CSS. See the theme's README on GitHub for more information.
 - Page Preview: Size: Width & Height of Page Previews (Popovers) in px. (Note that this setting means a quadratic growth of the preview size.)
 - Link Favicons: Grayscale Icons
+- Core Search Assistant: Card View with full content: When false, some elements like frontmatter or h1 will be removed from the cards to save space.
 
-**Longform Plugin Settings**: Font, Alignment, Indentation, Background, Index File
-- Longform Main Font: Font used in folders marked as Longform Project. (Except code, which will keep using the monospace font.)
-- Longform Font Size
+**Longform Plugin & Writing cssclass**: Font, Alignment, Indentation, Background, Index File
+- Main Font: Font used in longform/writing notes (Except code, which still use the monospace font.)
+- Font Size longform/writing notes
 - Left-aligned text: Use left-aligned text instead of justified text.
-- First-Line Indent (Preview Mode): Indent the first Line of a paragraph in longform notes (preview mode only).
-- Background Color Shift: Degree longform notes have a different color than normal notes (hue added). Setting this to "0" will make longform projects have the same background color as other notes.
+- First-Line Indent (Preview Mode): Indent the first Line of a paragraph in longform/writing notes (preview mode only).
+- Background Color Shift: Degree longform/writing notes have a different color than normal notes (hue added). Setting this to "0" will make longform projects have the same background color as other notes. Note that a low saturation or very high or low brightness will make the color shift less noticiable.
 
-**Other Theme Features**: File Name Trimming, Pseudo-Admonitions, Pandoc Citations, Annotation Tags, Alternating Row Colors, Relationship Lines
+**Miscellaneous**: Menu Sizes, File Name Trimming, Pseudo-Admonitions, Pandoc Citations, Annotation Tags, Alternating Row Colors, Relationship Lines
+- Menu Size: Modifies the size of modals like the settings menu, plugin browser, or theme browser.
 - Sidebar: Trim File Names: When enabled long filenames will be trimmed. When disabled, long filenames will be wrapped to the next line. Affects most, but not all side bar plugin.
-- Pseudo-Admonitions: Prefixed Icon: Needs to be enclosed in quotation marks
-- No Emphasis of Pandoc Citations: Turn off the coloring of Pandoc Citations [@citekey] done by this theme.
+- Pseudo-Admonitions: Prefixed Icon: Needs to be enclosed in quotation marks.
+- No Emphasis of Pandoc Citations and Dataview Inline Fields.: Turn off the coloring of Pandoc Citations [@citekey] and dataview inline fields [key:: value] in source mode.
 - Turn off "Annotation Tags": "Annotation Tags" are about a dozen of tags for academic reading, e.g. "#definition" that are visually emphasized.
 - Turn off Alternating Row Coloring
 
@@ -155,6 +167,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#Quick switcher|Quick switcher]]
 - [[Obsidian Core Plugins#Tag pane|Tag pane]]
 - [[Obsidian Core Plugins#File recovery|File recovery]]
+- [[Obsidian Core Plugins#Publish|Publish]]
 
 **Community plugins**:
 - [[recent-files-obsidian|Recent Files]]
@@ -171,7 +184,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[quick-explorer|Quick Explorer]]
 - [[templater-obsidian|Templater]]
 - [[obsidian-system-dark-mode|System Dark Mode]]
-- [[obsidian-extra-md-commands|Extra Markdown Commands]]
 - [[obsidian-style-settings|Style Settings]]
 - [[obsidian-activity-history|Activity History]]
 - [[breadcrumbs|Breadcrumbs]]
@@ -182,15 +194,20 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[obsidian-git|Obsidian Git]]
 - [[various-complements|Various Complements]]
 - [[obsidian-excalidraw-plugin|Excalidraw]]
-- [[obsidian-file-info-plugin|obsidian-file-info-plugin]]
+- [[obsidian-file-info-plugin|File Info Panel]]
 - [[obsidian-zoom|Zoom]]
 - [[table-editor-obsidian|Advanced Tables]]
 - [[dataview|Dataview]]
 - [[obsidian-cursor-location-plugin|Cursor Location]]
 - [[obsidian-dictionary-plugin|Dictionary]]
-- [[obsidian-highlight-current-word|obsidian-highlight-current-word]]
+- [[obsidian-dynamic-highlights|Dynamic Highlights]]
 - [[obsidian-emoji-toolbar|Emoji Toolbar]]
 - [[supercharged-links-obsidian|Supercharged Links]]
+- [[obsidian-better-command-palette|Better Command Palette]]
+- [[obsidian-core-search-assistant-plugin|obsidian-core-search-assistant-plugin]]
+- [[obsidian-footnote-indicator|obsidian-footnote-indicator]]
+- [[cooklang-obsidian|CookLang Editor]]
+- [[obsidian-codeblock-labels|Code Block Labels]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

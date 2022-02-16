@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-15754-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-17487-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jdanielmourao/obsidian-sanctum?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/jdanielmourao/obsidian-sanctum/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jdanielmourao/obsidian-sanctum?color=573E7A&logo=github&style=for-the-badge)
@@ -40,23 +40,26 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ## Customization Options (Style Settings Plugin) 
 
 **Colors**: 
-- Light mode color scheme: Background color palette for light mode
-- Dark mode color scheme: Background color palette for dark mode
-- Use Accent color as Active Line Highlight: Replaces the grey with the accent color for active line highlighting.
+- **Color Schemes**: 
+    - Light mode color scheme: Background color palette for light mode
+    - Dark mode color scheme: Background color palette for dark mode
+    - **Custom Colors**: ⚠️ Don't change brightness values if you wish to keep the theme's contrast ratios closer to the original palette
+        - Light Mode Hue
+        - Light Mode Saturation
+        - Light Mode Brightness
+        - Dark Mode Hue
+        - Dark Mode Saturation
+        - Dark Mode Brightness
 - **Accent Colors**: 
     - Light Mode Accent Color
     - Dark Mode Accent Color
-    - Text accent hover color: Color that displays when hovering elements that have the accent color by default (e.g. footnote numbers).
     - Checkbox Color: The color of the regular "- [x]" checkbox
     - Text Selection Color
-- **Highlight Colors**: Set the colors for highlights and highlighted text!
-    - Highlight 1: The color of the highlight.
-    - Highlight 2: The color of the highlight.
-    - Highlight 3: The color of the highlight.
 - **Graph Colors**: 
     - Active Note Node Color
     - Tag Node Color
     - Attachment Node Color
+    - Unresolved Node Color
 
 **Typography**: 
 - Preview Mode line width: The maximum number of characters per line.
@@ -128,26 +131,27 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
                 - Heading 6 Dark Mode: The higher the number, the lower the brightness
 
 **Features**: 
-- Disable active line highlighting: Disables active line highlighting
+- Fade inactive panes: Fades every pane other than the active one, for better focus
+- Disable custom tasks and pseudo-admonitions
 - <hr> ("---") Options: For Edit Mode
 - Edit Mode Tasks: Makes filled tasks green and empty ones red, in Edit Mode.
 - Wrap Kanban Lanes: Makes Kanban Lanes wrap in multiple rows if needed.
+- **Active Line Highlighting**: 
+    - Enable active line highlighting: Disables active line highlighting
+    - Use Accent color as Active Line Highlight: Replaces the grey with the accent color for active line highlighting.
 - **Footnotes**: 
     - Footnote Title: Places a lvl.2 heading before the Footnotes.
     - Footnotes heading
 - **Tables**: 
-    - Table Width: Increase table width threshold.
-    - Center Tables: Centers all tables in the note.
-    - Full note width dataview tables: Forces dataview tables to occupy 100% of the note pane's width.
-    - Alternate Row Colors for Dataview Tables: Alternates row colors for easier reading.
+    - Table Options: Customize the look of your tables!
 - **Sidenotes**: 
     - Sidenote Options: Left and right sidenote colors
     - Inner Sidenote Options: Inner sidenote colors
+- **Links**: 
+    - Change internal link appearance: Switches to more understated internal links.
 - **Lists**: 
     - Odd numbered list marker content: –\2009\2009 by default, \2009 is unicode for small space
     - Even numbered list marker content
-    - Enable Relationship Lines in Reading View [OFF by default]: Toggle relationship lines in Reading View lists.
-    - Disable Relationship Lines in Editing View [ON by default]: Disable relationship lines in Editing View (Live Preview) lists.
 
 **Elements**: 
 - Hide Titlebar center text: This setting hides the center text of the titlebar.
@@ -156,6 +160,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Tab Header Icon side padding: Changes tab header icons side padding.
 - Compact Outline: Hides excess text in the outline pane so every title is 1 row tall.
 - **File Explorer**: 
+    - Justify Note titles to the left
     - Show Vault Name
     - Left Nav Arrows: Moves nav arrows to the left, like default obsidian.
     - File Explorer Relationship Lines [Temporarily Disabled]: Adds hierarchy lines in File explorer.

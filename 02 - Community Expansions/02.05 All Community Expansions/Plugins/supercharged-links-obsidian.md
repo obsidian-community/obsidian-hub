@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/mdelobelle/obsidian_supercharged_l
 Developed by: [[mdelobelle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Adds properties and menu options to internal links
+Add properties and menu options to links and style them!
 
 %% ----- Do not edit anything above this line ----- %% 
 

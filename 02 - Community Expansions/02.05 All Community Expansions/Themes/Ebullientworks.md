@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1871-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2042-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ebullient/obsidian-theme-ebullientworks?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/ebullient/obsidian-theme-ebullientworks/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ebullient/obsidian-theme-ebullientworks?color=573E7A&logo=github&style=for-the-badge)
@@ -38,15 +38,22 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
+- Use the default indent for lists: This theme compresses list indent whitespace by default. Enable this to use the indent spacing from the default theme.
+- Suppress/Remove this checkbox styles: Set this to true if you are going to use your own task snippet
+
+**Showing and Hiding content**: 
 - Show external links in edit mode: If true, external links (or the content of markdown links) will be shown in edit mode. External links are hidden by default.
-- Suppress or Remove this theme's checkbox styles: Set this to true if you are going to use other themes to manage the style for your lists and checkboxes.
-- Float front-matter in a box to the right: If true, front-matter in preview mode will be collapsed in a top-right container.
 - Hide collapse indicators unless hovered or active: If true, hide collapse indicators in all three modes unless they are hovered over or the line is active.
-- Prevent table content from extending beyond the width of the page: If true, tables will have a maximum width set. Cell content will be wrapped (mid-word if necessary).
+- Float front-matter in a box to the right: If true, front-matter in preview mode will be collapsed in a top-right container.
+- Show collapsed sidebars on hover: If true, collapsed side-bars will be shown when you hover over the ribbon.
+
+**Fonts**: 
 - Headings: Font for text headings (h1 to h6)
 - Tags: Font for displaying inline
 - Text: Default text font for preview and edit mode.
 - Monospace
+
+**Colors**: 
 - Primary accent color: Choose the primary accent color. You should define a snippet if you select primary-accent-custom. See the Theme's README.
 - Secondary accent color: Choose the secondary accent color. You should define a snippet if you select secondary-accent-custom. See the Theme's README.
 - Tag brightness - dark mode: Select tag brightness/contrast level for dark mode

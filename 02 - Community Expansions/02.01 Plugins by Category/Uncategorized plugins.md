@@ -117,6 +117,21 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-lock-screen-plugin|Lock Screen]]
 - [[pinboard-sync|Pinboard Sync]]
 - [[obsidian-shortcut-launcher|Shortcut Launcher]]
+- [[obsidian-file-info-plugin|File Info Panel]]
+- [[obsidian-topic-linking|Topic Linking]]
+- [[multi-column-markdown|Multi-Column Markdown]]
+- [[copy-as-html|Copy as HTML]]
+- [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Suggest]]
+- [[simple-note-quiz|Simple note quiz]]
+- [[obsidian-local-rest-api|Local REST API]]
+- [[obsidian-codeblock-labels|Code Block Labels]]
+- [[obsidian-better-command-palette|Better Command Palette]]
+- [[obsidian-relativenumber|Relativenumber (relative line numbers)]]
+- [[obsidian-core-search-assistant-plugin|Core Search Assistant]]
+- [[obsidian-save-as-gist|Save as Gist]]
+- [[obsidian-divide-and-conquer|Divide & Conquer]]
+- [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]
+- [[obsidian-power-search|Power Search]]
 
 
 %% Hub footer: Please don't edit anything below this line %%

@@ -3,9 +3,15 @@
 import re
 import os
 import sys
+from typing import Union, Any, Dict, List, Sequence
 
 from authors import update_author_name_for_manual_exceptions
-from utils import get_template, get_plugin_manifest
+from utils import get_template, get_plugin_manifest, FileGroups
+
+# Type aliases:
+Plugin = Dict[str, Any]
+PluginList = List[Plugin]
+PluginManifest = Dict[str, Union[str, bool]]
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
 DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
@@ -144,7 +150,7 @@ CORE_PLUGINS = [
 ]
 
 
-def get_core_plugins():
+def get_core_plugins() -> None:
     template = get_template("core_plugin")
     file_path = os.path.join("../..", "05 - Concepts/Obsidian Core Plugins.md")
     with open(file_path, "r") as md_file:
@@ -159,13 +165,14 @@ def get_core_plugins():
     for plugin in CORE_PLUGINS:
         plugin["slug"] = "Plugins/" + plugin["name"].replace(" ", "+")
 
+    assert match  # Needed to stop match[1] giving 'error: Value of type "Optional[Match[str]]" is not indexable'
     new_contents = contents.replace(match[1], template.render(plugins=CORE_PLUGINS))
 
     with open(file_path, "w") as md_file:
         md_file.write(new_contents)
 
 
-def collect_data_for_plugin(plugin, file_groups):
+def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
     """
     Take raw plugin data from a community plugin, and add information to it,
     typically from its manifest file.
@@ -181,8 +188,9 @@ def collect_data_for_plugin(plugin, file_groups):
     return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
 
 
-def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups):
-    repo = plugin.get("repo")
+def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest: PluginManifest, file_groups: FileGroups) -> bool:
+    # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
+    repo = str(plugin.get("repo"))
     plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
     user = repo.split("/")[0]
@@ -197,11 +205,11 @@ def collect_data_for_plugin_and_manifest(plugin, manifest, file_groups):
     return plugin_is_valid
 
 
-def validate_plugin(plugin, manifest, repo, file_groups):
+def validate_plugin(plugin: Plugin, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
     return validate_plugin_ids(plugin, manifest, repo, file_groups)
 
 
-def validate_plugin_ids(plugin, manifest, repo, file_groups):
+def validate_plugin_ids(plugin: Plugin, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
     ids_match = True
     releases_id = plugin.get('id')
     manifest_id = manifest.get('id')
@@ -213,7 +221,7 @@ def validate_plugin_ids(plugin, manifest, repo, file_groups):
     return ids_match
 
 
-def main(argv=sys.argv[1:]):
+def main(argv: Sequence[str] = sys.argv[1:]) -> None:
     get_core_plugins()
 
 

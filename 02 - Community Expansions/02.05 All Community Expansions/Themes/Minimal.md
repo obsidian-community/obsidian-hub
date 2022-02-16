@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-57762-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-64785-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kepano/obsidian-minimal?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/kepano/obsidian-minimal/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/kepano/obsidian-minimal?color=573E7A&logo=github&style=for-the-badge)
@@ -39,54 +39,42 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Background styles**: 
-- Light mode style: Background color style in light mode
-- Dark mode style: Background color style in dark mode
+**Welcome 👋**: Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.
 
-**Colors**: 
-- Accent color
-- Base color
-- Accent color adjust for dark mode: Adjust darkness of the accent color in dark mode
-- Base color adjustment for dark mode: Adjust darkness of the base color in dark mode
+**Interface**: 
+- Base color: Defines all background and border colors unless overridden below
+- Accent color: Defines link and checkbox colors unless overridden below
+- Main window background
+- Sidebar background
+- Active background: For hovered buttons and current file
+- Border color: For divider lines and outlined elements
+- Border color (highlighted)
+- Border color (focused)
 
-**Features**: 
-- Fancy cursor: Editor cursor uses your accent color
-- Text labels for primary navigation: Navigation in left sidebar uses text labels. For non-English users this feature requires an additional snippet available on Github.
-- Full file names in sidebar: Do not trim file names in sidebar
-- Default icons: Use default icons instead of Minimal set
-- Wide status bar: Use full width status bar
-- Focus mode: Hide UI when a single file is open. UI is accessible via hover.
-- Hide borders: Removes borders between sidebar elements
-- Border below pane title: Show border below pane title (if borders are not hidden)
-- Folding offset: Recommended if you use folding headings and indents
-- Underline internal links: Show underlines on internal links
-- Underline external links: Show underlines on external links
-- Maximize media: Small images and videos fill the width of the line
-- Disable image zoom: Turns off click/hold to zoom images
+**Icons**: 
+- Icon opacity (inactive)
+- Icon color
+- Icon color (hover)
+- Icon color (active)
 
-**Layout**: Requires Contextual Typography plugin. These options can also be defined on a per-file basis using YAML, see documentation for details.
-- Image grids: Turns consecutive images into columns. To make a new row, add an extra line break between images.
-- Image width: Default width for images and image grids
-- Table width: Default width for tables and Dataview elements
-- Iframe width: Default width for iframe elements
+**Title bar**: 
+- Title font size: Accepts any CSS font-size value
+- Title font weight: Accepts numbers representing the CSS font-weight
+- Title font color (inactive)
+- Title font color (active)
 
-**Tables**: 
-- Trim Dataview columns: Disables word wrapping in table cells, and trims long text
-- Dataview maximum column width: Maximum width for Dataview columns, accepts any CSS unit
+**Links**: 
+- Link color
+- Link color (hovering)
+- Link font weight: Accepts numbers representing the CSS font-weight
 
-**Typography**: 
-- Body font size: Font size in px of the main text
-- Sidebar font size: Font size in px of the sidebar and small text
-- Body line height: Line height of the main text
-- Normal line width: Number of characters per line
-- Wide line width: Number of characters per line for wide elements
-- Maximum line width %: Percentage of space inside a pane that a line can fill.
-
-**Fonts**: 
-- Text font: Used in preview mode
-- Editor font: Used in edit mode
-- Monospace font: Used for code blocks and front matter
-- UI font: Used for buttons, menus and sidebar
+**Text**: 
+- Normal text color
+- Selected text background
+- Muted text color
+- Faint text color
+- Bold text color
+- Italic text color
 
 **Headings**: 
 - **Level 1 Headings**: 
@@ -94,42 +82,51 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H1 font weight: Accepts numbers representing the CSS font-weight
     - H1 font color
     - H1 font variant
+    - H1 font style
 - **Level 2 Headings**: 
     - H2 font size: Accepts any CSS font-size value
     - H2 font weight: Accepts numbers representing the CSS font-weight
     - H2 font color
     - H2 font variant
+    - H2 font style
 - **Level 3 Headings**: 
     - H3 font size: Accepts any CSS font-size value
     - H3 font weight: Accepts numbers representing the CSS font-weight
     - H3 font color
     - H3 font variant
+    - H3 font style
 - **Level 4 Headings**: 
     - H4 font size: Accepts any CSS font-size value
     - H4 font weight: Accepts numbers representing the CSS font-weight
     - H4 font color
     - H4 font variant
+    - H4 font style
 - **Level 5 Headings**: 
     - H5 font size: Accepts any CSS font-size value
     - H5 font weight: Accepts numbers representing the CSS font-weight
     - H5 font color
     - H5 font variant
+    - H5 font style
 - **Level 6 Headings**: 
     - H6 font size: Accepts any CSS font-size value
     - H6 font weight: Accepts numbers representing the CSS font-weight
     - H6 font color
     - H6 font variant
+    - H6 font style
 
-**Advanced**: 
-- Cursor style: The cursor style for UI elements
+**Blockquotes**: 
+- Blockquotes text color
+- Blockquotes font size: Accepts any CSS font-size value
+- Blockquotes font style
+
+**Lists and checkboxes**: 
+- Checkbox color
 - Strike completed tasks: Use line through greyed text for completed tasks
-- Bold text color
-- Italic text color
-- Code text color
-- Small font size: Font size in px of the main text
-- Tiny font size: Font size in px of the main text
+- List item spacing: Space between list items in em units
 
-**Credits**: Made with ❤︎ by @kepano. Support my work at buymeacoffee.com/kepano
+**Code blocks**: 
+- Code text color: Where syntax highlighting is not present
+- Code font size: Accepts any CSS font-size value
 
 ## Plugin Compatibility[^1]
 

@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-5e-statblocks
 aliases:
-- 5e Statblocks
+- TTRPG Statblocks
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# 5e Statblocks
+# TTRPG Statblocks
 
 Plugin ID: `obsidian-5e-statblocks`
 Links: [GitHub repository](https://github.com/valentine195/obsidian-5e-statblocks) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-5e-statblocks)

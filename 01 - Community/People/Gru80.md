@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-regex-replace|Regex Find/Replace]]
+- [[obsidian-timestamper|TimeStamper]]
 
 %% End Hub: Released contributions %%
 

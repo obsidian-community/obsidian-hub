@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [ericbiewener](https://github.com/ericbiewener/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://obsidian.md> ^website
+- Website: <https://github.com/ericbiewener> ^website
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%

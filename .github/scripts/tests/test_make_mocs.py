@@ -6,6 +6,7 @@ import os
 # For how to use and maintain these tests, please see:
 #       https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 # -------------------------------------------------------------------------------------------------------------
+from typing import List
 
 from helpers_for_testing import verify_as_markdown
 
@@ -16,7 +17,7 @@ import make_mocs
 # Helper Functions
 # -------------------------------------------------------------------------------------------------------------
 
-def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
+def verify_moc_for_directory_with_delimiters(directory: str, sub_directories: List[str], files: List[str]) -> None:
     """
     Generate the MOC output for given directory and its contents, and save it disk,
     verifying that the output is unchanged since the previous approved output,
@@ -34,7 +35,7 @@ def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
     verify_as_markdown(result)
 
 
-def verify_updating_existing_moc(existing_moc_file_name):
+def verify_updating_existing_moc(existing_moc_file_name: str) -> None:
     """
     Read an existing MOC file (which must be in scripts/tests/) and update the
     contents, saving the output to a new file on disk, verifying that the output
@@ -70,7 +71,7 @@ def verify_updating_existing_moc(existing_moc_file_name):
 # -------------------------------------------------------------------------------------------------------------
 
 
-def test_moc_name_for_directory():
+def test_moc_name_for_directory() -> None:
     namer = make_mocs.MocFileNamer()
 
     # Test that the prefix is correctly added to a directory name:
@@ -85,7 +86,7 @@ def test_moc_name_for_directory():
 # -------------------------------------------------------------------------------------------------------------
 
 
-def test_delimiter_detection():
+def test_delimiter_detection() -> None:
     # Note the presence of the end-of-line marker in the test strings below
     
     # Initial delimiters
@@ -112,13 +113,13 @@ def test_delimiter_detection():
 # -------------------------------------------------------------------------------------------------------------
 
 
-def test_moc_for_empty_directory():
+def test_moc_for_empty_directory() -> None:
     # This tests that a blank line is inserted between the delimiters,
     # if the directory is empty.
     verify_moc_for_directory_with_delimiters('../..', [], [])
 
 
-def test_moc_for_root_directory():
+def test_moc_for_root_directory() -> None:
     directory = '../..'
     directories = [
         # Directories that should not be included
@@ -163,9 +164,9 @@ def test_moc_for_root_directory():
     verify_moc_for_directory_with_delimiters(directory, directories, files)
 
 
-def test_updating_moc_with_zoottelkeeper_delimiters():
+def test_updating_moc_with_zoottelkeeper_delimiters() -> None:
     verify_updating_existing_moc('sample-existing-moc-1.md')
 
 
-def test_updating_moc_with_hub_delimiters():
+def test_updating_moc_with_hub_delimiters() -> None:
     verify_updating_existing_moc('sample-existing-moc-2.md')

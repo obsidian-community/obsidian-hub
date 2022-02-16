@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-8211-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-8985-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SlRvb/Obsidian--ITS-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/SlRvb/Obsidian--ITS-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/SlRvb/Obsidian--ITS-Theme?color=573E7A&logo=github&style=for-the-badge)
@@ -156,6 +156,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Justify Text: Justify preview and editor text
 - Centered Tables: Move all tables to the center of the page.
 - Center Images: Center images by default
+- Disable Triple Blockquote Syntax
 - **Horizontal Line**: 
     - Horizontal Line Symbol: Add quotations around symbol for it to work. For Example "⚡". Use the codepoint for symbols from supported font icons. For Example "\e800".
     - Horizontal Line Symbol Fonts: Font Icons. Default font aligns emojis.
@@ -186,6 +187,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Live Preview Alternate Indent Style: Alternate style to differentiate lists sublevels in edit mode on cm6.
     - Fix Double Bullet Issue: Bandaid solution that doesn't look good but fixes the double bullet LP issue.
     - **Checkboxes**: 
+        - Disable Alternate Checkboxes
         - Colorful Task Text: Add color to the text of the task.
         - Colorful Task Backgrounds: Add color to the background of the task.
         - Normal Task Text: Reapply regular text color to the text of the task.
@@ -253,6 +255,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Code Background
     - Horizontal Line
     - Aside Background Color: Aside background color and dark theme setting alternating setting item color.
+    - Progress Bar Value Color: HTML <progress> value color
+    - Progress Bar Background Color: HTML <progress> value color
 - **Other**: 
     - Accent
     - Lite Accent: Link hover, scrollbar active, tags, embed titles and links colors.
@@ -289,6 +293,17 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Cross Reference Plugin Adjustments
 - Sidebar Notes Adjustments: Adjustments to padding for better displays of notes moved into sidebars.
 - Mobile Toolbar Adjustment: Multi-row bar sorts properly, but scrolls vertically now.
+
+**Alternate Color Schemes**: 
+- SlRvb Blue
+- SlRvb Gray
+- School Days
+- TTRPG
+- Tangerine Dunes
+- Drowned
+- Nord
+- Minimalist
+- ITS Dark
 
 
 %% Hub footer: Please don't edit anything below this line %%

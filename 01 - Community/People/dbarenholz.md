@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-plaintext|Plaintext]]
+- [[obsidian-wordle|Wordle]]
 
 %% End Hub: Released contributions %%
 

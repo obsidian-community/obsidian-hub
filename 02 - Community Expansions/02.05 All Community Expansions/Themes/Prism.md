@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-5911-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-6608-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/damiankorcz/Prism-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/damiankorcz/Prism-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/damiankorcz/Prism-Theme?color=573E7A&logo=github&style=for-the-badge)
@@ -475,7 +475,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Right Sidebar Nav Header Position: Vertical Position of the Nav Header in the Right Sidebar Workspace Leaf.
         - Right Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Right Sidebar Workspace Leaf.
     - **File Explorer**: Customisation options for the File Explorer module.
-        - File Explorer Text Wrap: Toggles Text Wrapping on the file/folder names in the File Explorer to help fit the whole name when the name is longer than the visible area.
         - File Explorer Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the File Explorer to help visualise the folder and file depth.
         - File Explorer Vertical Lines Width (px)
         - **Custom Vault Banner**: Custom Vault Banner in the File Explorer with a custom icon option.
@@ -485,7 +484,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
             - Custom Vault Banner Sticky: Make the Custom Vault Banner stick to the top of the File Explorer.
             - Vault Banner Icon (URL): Customise the Vault Banner Icon. Insert a URL to an image in between the brackets of 'url()'.
     - **Outline**: Customisation options for the Outline module.
-        - Outline Text Wrap: Toggles Text Wrapping on the Headers in the Outline to help fit the whole name when the name is longer than the visible area.
         - Outline Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the Outline to help visualise the Header depth.
         - Outline Vertical Lines Width (px)
 - **Titlebar**: Settings for changing the style of the Titlebar.
@@ -528,6 +526,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Dark Theme Kanban Background: Change the Dark Theme background of the Kanban board.
 - **Advanced Tables**: Tgrosinger's Advanced Tables Plugin (https://github.com/tgrosinger/advanced-tables-obsidian).
     - Advanced Tables Buttons Container Alignment: Change the horizontal alignment of the Advanced Tables buttons container.
+- **Icon Folder**: Florian Woelki's Icon Folder (https://github.com/FlorianWoelki/obsidian-icon-folder).
+    - Use UI Accent Color for Icon Folder: Makes the Folder Icons inherit the UI Accent Color.
 
 ## Plugin Compatibility[^1]
 
@@ -564,6 +564,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[table-editor-obsidian|Advanced Tables]]
 - [[obsidian-kanban|Kanban]]
 - [[quick-explorer|Quick Explorer]]
+- [[calendar|Calendar]]
+- [[cmenu-plugin|cMenu]]
+- [[obsidian-dangling-links|Dangling links panel]]
+- [[pane-relief|Pane Relief]]
+- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
+- [[obsidian-icon-folder|Obsidian Icon Folder]]
+- [[obsidian-map-view|Map View]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

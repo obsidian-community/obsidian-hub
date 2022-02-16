@@ -1,0 +1,171 @@
+/* Minimal Obsidian 5.0.0 by @kepano
+
+THIS IS A CUT-DOWN COPY OF THIS THEME, FOR TESTING CODE IN THE OBSIDIAN HUB. 
+
+User interface replacement for Obsidian.
+
+Designed to be used with the Minimal Theme Settings 
+plugin and the Hider plugin.
+
+Sponsor my work:
+https://www.buymeacoffee.com/kepano
+
+Readme:
+https://github.com/kepano/obsidian-minimal
+
+-----------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2020-2022 Stephan Ango (@kepano)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+/* Plugin compatibility */
+
+/* @plugins
+core:
+- backlink
+- command-palette
+- daily-notes
+community:
+- buttons
+- dataview
+- calendar
+- obsidian-checklist-plugin
+*/
+/* @settings
+
+name: Minimal Custom Color Scheme
+id: minimal-style
+settings:
+    -
+        id: instructions
+        title: Welcome 👋
+        type: heading
+        level: 2
+        collapsed: true
+        description: THIS IS A CUT-DOWN COPY OF THIS THEME, FOR TESTING CODE IN THE OBSIDIAN HUB. Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.
+    -
+        id: interface
+        title: Interface
+        type: heading
+        level: 2
+        collapsed: true
+    - 
+        id: base
+        title: Base color
+        description: Defines all background and border colors unless overridden below
+        type: variable-themed-color
+        format: hsl-split
+        default-light: '#'
+        default-dark: '#'
+    - 
+        id: accent
+        title: Accent color
+        description: Defines link and checkbox colors unless overridden below
+        type: variable-themed-color
+        format: hsl-split
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: icons
+        title: Icons
+        type: heading
+        level: 2
+        collapsed: true
+    - 
+        id: icon-muted
+        title: Icon opacity (inactive)
+        type: variable-number-slider
+        default: 0.5
+        min: 0.25
+        max: 1
+        step: 0.05
+    -
+        id: headings
+        title: Headings
+        type: heading
+        level: 2
+        collapsed: true
+    - 
+        id: level-1-headings
+        title: Level 1 Headings
+        type: heading
+        level: 3
+        collapsed: true
+    - 
+        id: h1
+        title: H1 font size
+        description: Accepts any CSS font-size value
+        type: variable-text
+        default: 1.125em
+    - 
+        id: h1-weight
+        title: H1 font weight
+        description: Accepts numbers representing the CSS font-weight
+        type: variable-number
+        default: 600
+    - 
+        id: h1-variant
+        title: H1 font variant
+        type: variable-select
+        allowEmpty: false
+        default: normal
+        options:
+            - 
+                label: Normal
+                value: normal
+            - 
+                label: Small caps
+                value: small-caps 
+    -
+        id: level-2-headings
+        title: Level 2 Headings
+        type: heading
+        level: 3
+        collapsed: true
+    - 
+        id: h2
+        title: H2 font size
+        description: Accepts any CSS font-size value
+        type: variable-text
+        default: 1em
+    - 
+        id: h2-weight
+        title: H2 font weight
+        description: Accepts numbers representing the CSS font-weight
+        type: variable-number
+        default: 600
+    - 
+        id: h2-variant
+        title: H2 font variant
+        type: variable-select
+        allowEmpty: false
+        default: normal
+        options:
+            - 
+                label: Normal
+                value: normal
+            - 
+                label: Small caps
+                value: small-caps
+
+*/

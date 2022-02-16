@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-wikipedia|Wikipedia]]
+- [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Suggest]]
 
 %% End Hub: Released contributions %%
 

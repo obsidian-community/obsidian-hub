@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1460-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-1577-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hipstersmoothie/hipstersmoothie-obsidian-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/hipstersmoothie/hipstersmoothie-obsidian-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/hipstersmoothie/hipstersmoothie-obsidian-theme?color=573E7A&logo=github&style=for-the-badge)
@@ -30,7 +30,7 @@ Modes: [[Dark-mode themes|dark]]
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[02 - Community Expansions/02.05 All Community Expansions/Themes/Hipstersmoothie#Sponsor this author]] %%
+%% ![[hipstersmoothie#Sponsor this author]] %%
 
 
 ## Features

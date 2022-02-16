@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2988-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-3437-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Thiews/Obsidian-Harmonic?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/Thiews/Obsidian-Harmonic/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Thiews/Obsidian-Harmonic?color=573E7A&logo=github&style=for-the-badge)
@@ -72,7 +72,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Writing focus: Hightligh the paragraph you are writing, faint the others (edit mode)
 - Opacity of the fainted text in writing focus mode: Change the Opacity of the fainted text
 
-**3. Make pages pop (bold and italic accentuation, image, blockquote, checkboxes, external link, outline)**: 
+**3. Make pages pop (bold and italic accentuation, image, blockquote, checkboxes, links, outline)**: 
 - **Customize bold and italic**: 
     - Bold and italic accentuation: Make bold and italic pop with an other color
     - Bold and italic hue: Change the hue of the accent color (step -> 45 degrees)

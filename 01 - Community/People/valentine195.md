@@ -23,7 +23,7 @@ publish: true
 - [[obsidian-leaflet-plugin|Obsidian Leaflet]]
 - [[obsidian-dice-roller|Dice Roller]]
 - [[obsidian-admonition|Admonition]]
-- [[obsidian-5e-statblocks|5e Statblocks]]
+- [[obsidian-5e-statblocks|TTRPG Statblocks]]
 - [[initiative-tracker|Initiative Tracker]]
 - [[markdown-attributes|Markdown Attributes]]
 - [[obsidian-prominent-starred-files|Prominent Starred Files]]

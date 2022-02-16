@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-4564-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-5131-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/bencodezen/obsidian-night-owl-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/bencodezen/obsidian-night-owl-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/bencodezen/obsidian-night-owl-theme?color=573E7A&logo=github&style=for-the-badge)
@@ -35,6 +35,14 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Colors**: 
+- Bold Color
+- Italic Color
+- Italic Bold Color
 
 
 %% Hub footer: Please don't edit anything below this line %%
