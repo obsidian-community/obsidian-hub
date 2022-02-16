@@ -29,5 +29,15 @@ MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
   -o ${OUTPUT_FILE}"
 
 ${MARKDOWN_COMMAND} .
+LINT_EXIT_CODE=$?
+# For error codes, see https://github.com/igorshubovych/markdownlint-cli#exit-codes
 
+echo '-------------------------------------------------------------------------------'
+echo "Raw output:"
+cat ${OUTPUT_FILE}
+
+echo '-------------------------------------------------------------------------------'
+echo "Summary of output:"
 sed 's/^.* MD/MD/' ${OUTPUT_FILE} | sort
+
+exit ${LINT_EXIT_CODE}
