@@ -30,4 +30,10 @@ MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
 
 ${MARKDOWN_COMMAND} .
 
+echo '-------------------------------------------------------------------------------'
+echo "Raw output:"
+cat ${OUTPUT_FILE}
+
+echo '-------------------------------------------------------------------------------'
+echo "Summary of output:"
 sed 's/^.* MD/MD/' ${OUTPUT_FILE} | sort
