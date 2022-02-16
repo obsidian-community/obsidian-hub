@@ -15,7 +15,6 @@ MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
     fenced-code-language \
     heading-increment \
     heading-style \
-    list-indent \
     blanks-around-headings \
     heading-start-left \
     no-trailing-punctuation \
@@ -29,6 +28,7 @@ MARKDOWN_COMMAND=".github/scripts/node_modules/.bin/markdownlint \
   -o ${OUTPUT_FILE}"
 
 ${MARKDOWN_COMMAND} .
+
 
 echo '-------------------------------------------------------------------------------'
 echo "Raw output:"
