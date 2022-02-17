@@ -2,6 +2,8 @@
 
 import sys
 import argparse
+from typing import Sequence, Dict, List
+
 from github3api import GitHubAPI
 
 from utils import (
@@ -12,8 +14,16 @@ from utils import (
 )
 from utils import PLUGINS_JSON_FILE
 
+from plugins import Plugin
 
-def process_issues_for_plugin(gh_client, plugin, label):
+PluginIssue = Dict[str, str]
+
+
+class GithubClient:
+    def get(self, url: str, _get: str) -> List: ...
+
+
+def process_issues_for_plugin(gh_client: GithubClient, plugin: Plugin, label: str) -> List[PluginIssue]:
     issues = list()
     repo_issues = gh_client.get(f'/repos/{plugin["repo"]}/issues?labels={label}', _get="all")
     for issue in repo_issues:
@@ -24,7 +34,7 @@ def process_issues_for_plugin(gh_client, plugin, label):
     return issues
 
 
-def process_issues(api_key, overwrite=True, verbose=False):
+def process_issues(api_key: str, overwrite: bool = True, verbose: bool = False) -> None:
     plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
     client = GitHubAPI(bearer_token=api_key)
     rate_limit = client.get('/rate_limit')['resources']['core']['remaining']
@@ -57,10 +67,9 @@ def process_issues(api_key, overwrite=True, verbose=False):
         "good_first_issue": sorted_good_first_issue
     }
     write_file(template, "Plugins seeking help", overwrite=overwrite, verbose=verbose, **args)
-    return args
 
 
-def main(argv=sys.argv[1:]):
+def main(argv: Sequence[str] = sys.argv[1:]) -> None:
     parser = argparse.ArgumentParser(
         description="Update Plugin Issues"
     )
