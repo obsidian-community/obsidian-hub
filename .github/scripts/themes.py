@@ -12,7 +12,9 @@ from utils import (
     THEME_CSS_FILE,
     get_json_from_github,
     get_output_dir,
-    get_theme_css
+    get_theme_css,
+    FileGroups,
+    add_file_group
 )
 
 # Type aliases:
@@ -163,24 +165,26 @@ def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) ->
     return old_text
 
 
-def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template) -> typing.Tuple[str, bool]:
+def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template,
+                           file_groups: FileGroups) -> typing.Tuple[str, bool]:
     """
     Take raw theme data from a community theme, and add information to it.
 
     :param theme: A dict with data about the theme, to be updated by this function
     :param theme_downloads: The download count of all themes
     :param template: The template used for writing themes - needed to obtain the location of existing themes
+    :param file_groups:  Place to store error message if the theme is invalid
     :return: The name of the theme, and whether it is valid
     """
     repo = str(theme.get("repo"))
     branch = theme.get("branch", "master")
     css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
-    return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template)
+    return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
 
 
-def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads,
-                                   template: Template) -> typing.Tuple[str, bool]:
+def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads, template: Template,
+                                   file_groups: FileGroups) -> typing.Tuple[str, bool]:
     valid = True
     current_name = str(theme.get("name"))
 
@@ -212,8 +216,8 @@ def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads:
         )
     except Exception as err:
         print(f'ERROR processing theme {current_name}. Error message: {err}')
+        add_file_group(file_groups, "error", f"{current_name}")
         valid = False
-        # TODO Add message to file_groups
 
     return current_name, valid
 
