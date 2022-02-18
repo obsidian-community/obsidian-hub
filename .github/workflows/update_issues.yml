@@ -1,0 +1,44 @@
+name: update community plugin issue list
+on:
+  schedule:
+    - cron: "0 1 * * *"
+
+jobs:
+  update_issues:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ----------------------------------------------------------------------------------
+      # Setup
+      # ----------------------------------------------------------------------------------
+      - uses: actions/checkout@v2
+
+      - uses: ./.github/actions/setup-python
+      - uses: ./.github/actions/install-dependencies
+      - uses: ./.github/actions/setup-git-config
+
+      # ----------------------------------------------------------------------------------
+      # Run scripted update of community plugin issues with labels
+      # ----------------------------------------------------------------------------------
+      - name: Update theme download counts
+        run: |
+          cd .github/scripts
+          python3 ./update_issues.py --apikey ${{ secrets.GITHUB_TOKEN }}
+          git commit -m "Update Issues" -a  || echo "nothing to commit"
+
+      # ----------------------------------------------------------------------------------
+      # Finalisation
+      # ----------------------------------------------------------------------------------
+      # Reference: https://github.com/marketplace/actions/create-pull-request
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Scripted update of Hub content
+          labels: |
+            scripted update
+
+      - name: Show Pull Request
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
