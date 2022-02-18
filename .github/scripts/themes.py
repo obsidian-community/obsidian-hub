@@ -163,14 +163,14 @@ def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) ->
     return old_text
 
 
-def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template) -> str:
+def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template) -> typing.Tuple[str, bool]:
     """
     Take raw theme data from a community theme, and add information to it.
 
     :param theme: A dict with data about the theme, to be updated by this function
     :param theme_downloads: The download count of all themes
     :param template: The template used for writing themes - needed to obtain the location of existing themes
-    :return: The name of the theme
+    :return: The name of the theme, and whether it is valid
     """
     repo = str(theme.get("repo"))
     branch = theme.get("branch", "master")
@@ -180,7 +180,9 @@ def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, templa
 
 
 def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads,
-                                   template: Template) -> str:
+                                   template: Template) -> typing.Tuple[str, bool]:
+    valid = True
+
     repo = str(theme.get("repo"))
     branch = theme.get("branch", "master")
     user = repo.split("/")[0]
@@ -207,7 +209,7 @@ def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads:
         plugins=plugin_support,
         download_count=download_count,
     )
-    return current_name
+    return current_name, valid
 
 
 def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads, current_name: str) -> int:
