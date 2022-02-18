@@ -21,7 +21,7 @@ publish: true
 # Obsidian42 - WordNet Dictionary
 
 Plugin ID: `obsidian-wordnet-plugin`
-Links: [GitHub repository](https://github.com/TfTHacker/Obsidian-WordNet) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-wordnet-plugin)
+Links: [GitHub repository](https://github.com/TfTHacker/Obsidian-WordNet) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-wordnet-plugin)
 Developed by: [[TfTHacker]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

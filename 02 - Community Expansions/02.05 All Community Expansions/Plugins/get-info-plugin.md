@@ -21,7 +21,7 @@ publish: true
 # Get Info
 
 Plugin ID: `get-info-plugin`
-Links: [GitHub repository](https://github.com/chetachiezikeuzor/Get-Info-Plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=get-info-plugin)
+Links: [GitHub repository](https://github.com/chetachiezikeuzor/Get-Info-Plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=get-info-plugin)
 Developed by: [[chetachiezikeuzor]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

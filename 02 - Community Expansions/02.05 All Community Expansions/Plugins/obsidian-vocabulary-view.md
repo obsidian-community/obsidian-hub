@@ -21,7 +21,7 @@ publish: true
 # Vocabulary View
 
 Plugin ID: `obsidian-vocabulary-view`
-Links: [GitHub repository](https://github.com/nnshi-s/obsidian-vocabulary-view-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-vocabulary-view)
+Links: [GitHub repository](https://github.com/nnshi-s/obsidian-vocabulary-view-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-vocabulary-view)
 Developed by: [[nnshi-s]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

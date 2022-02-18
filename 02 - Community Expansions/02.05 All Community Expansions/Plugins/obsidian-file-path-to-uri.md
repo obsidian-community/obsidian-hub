@@ -21,7 +21,7 @@ publish: true
 # File path to URI
 
 Plugin ID: `obsidian-file-path-to-uri`
-Links: [GitHub repository](https://github.com/MichalBures/obsidian-file-path-to-uri) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-file-path-to-uri)
+Links: [GitHub repository](https://github.com/MichalBures/obsidian-file-path-to-uri) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-file-path-to-uri)
 Developed by: [[MichalBures]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Lineup Builder
 
 Plugin ID: `obsidian-lineup-builder`
-Links: [GitHub repository](https://github.com/James-Fallon/obsidian-lineup-builder) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-lineup-builder)
+Links: [GitHub repository](https://github.com/James-Fallon/obsidian-lineup-builder) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-lineup-builder)
 Developed by: [[James-Fallon]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

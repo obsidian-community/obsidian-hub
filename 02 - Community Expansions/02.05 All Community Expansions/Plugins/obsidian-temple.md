@@ -21,7 +21,7 @@ publish: true
 # Obsidian Temple
 
 Plugin ID: `obsidian-temple`
-Links: [GitHub repository](https://github.com/garyng/obsidian-temple) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-temple)
+Links: [GitHub repository](https://github.com/garyng/obsidian-temple) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-temple)
 Developed by: [[garyng]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

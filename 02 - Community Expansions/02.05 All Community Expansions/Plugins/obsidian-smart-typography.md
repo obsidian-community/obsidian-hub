@@ -21,7 +21,7 @@ publish: true
 # Smart Typography
 
 Plugin ID: `obsidian-smart-typography`
-Links: [GitHub repository](https://github.com/mgmeyers/obsidian-smart-typography) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-smart-typography)
+Links: [GitHub repository](https://github.com/mgmeyers/obsidian-smart-typography) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-smart-typography)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

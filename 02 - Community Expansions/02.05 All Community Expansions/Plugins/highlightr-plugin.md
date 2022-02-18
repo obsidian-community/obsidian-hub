@@ -21,7 +21,7 @@ publish: true
 # Highlightr
 
 Plugin ID: `highlightr-plugin`
-Links: [GitHub repository](https://github.com/chetachiezikeuzor/Highlightr-Plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=highlightr-plugin)
+Links: [GitHub repository](https://github.com/chetachiezikeuzor/Highlightr-Plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=highlightr-plugin)
 Developed by: [[chetachiezikeuzor]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

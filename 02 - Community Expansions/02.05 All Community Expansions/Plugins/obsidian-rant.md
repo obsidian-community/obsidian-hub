@@ -21,7 +21,7 @@ publish: true
 # Rant-Lang
 
 Plugin ID: `obsidian-rant`
-Links: [GitHub repository](https://github.com/lanice/obsidian-rant) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-rant)
+Links: [GitHub repository](https://github.com/lanice/obsidian-rant) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-rant)
 Developed by: [[lanice]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

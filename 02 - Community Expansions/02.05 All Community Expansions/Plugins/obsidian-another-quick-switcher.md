@@ -21,7 +21,7 @@ publish: true
 # Another Quick Switcher
 
 Plugin ID: `obsidian-another-quick-switcher`
-Links: [GitHub repository](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-another-quick-switcher)
+Links: [GitHub repository](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-another-quick-switcher)
 Developed by: [[tadashi-aikawa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

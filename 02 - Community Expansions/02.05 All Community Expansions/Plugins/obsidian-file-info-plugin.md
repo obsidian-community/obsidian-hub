@@ -21,7 +21,7 @@ publish: true
 # File Info Panel
 
 Plugin ID: `obsidian-file-info-plugin`
-Links: [GitHub repository](https://github.com/CattailNu/obsidian-file-info-panel-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-file-info-plugin)
+Links: [GitHub repository](https://github.com/CattailNu/obsidian-file-info-panel-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-file-info-plugin)
 Developed by: [[CattailNu]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

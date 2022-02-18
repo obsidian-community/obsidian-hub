@@ -21,7 +21,7 @@ publish: true
 # Icons
 
 Plugin ID: `obsidian-icons-plugin`
-Links: [GitHub repository](https://github.com/visini/obsidian-icons-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-icons-plugin)
+Links: [GitHub repository](https://github.com/visini/obsidian-icons-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-icons-plugin)
 Developed by: [[visini]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

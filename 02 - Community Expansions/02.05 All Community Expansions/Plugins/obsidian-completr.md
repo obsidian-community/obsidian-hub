@@ -21,7 +21,7 @@ publish: true
 # Completr
 
 Plugin ID: `obsidian-completr`
-Links: [GitHub repository](https://github.com/tth05/obsidian-completr) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-completr)
+Links: [GitHub repository](https://github.com/tth05/obsidian-completr) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-completr)
 Developed by: [[tth05]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

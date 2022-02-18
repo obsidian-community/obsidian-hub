@@ -21,7 +21,7 @@ publish: true
 # Pikt
 
 Plugin ID: `obsidian-pikt`
-Links: [GitHub repository](https://github.com/arnau/obsidian-pikt) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pikt)
+Links: [GitHub repository](https://github.com/arnau/obsidian-pikt) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-pikt)
 Developed by: [[arnau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

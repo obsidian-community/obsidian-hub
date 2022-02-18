@@ -21,7 +21,7 @@ publish: true
 # Vale
 
 Plugin ID: `obsidian-vale`
-Links: [GitHub repository](https://github.com/marcusolsson/obsidian-vale) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-vale)
+Links: [GitHub repository](https://github.com/marcusolsson/obsidian-vale) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-vale)
 Developed by: [[marcusolsson]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

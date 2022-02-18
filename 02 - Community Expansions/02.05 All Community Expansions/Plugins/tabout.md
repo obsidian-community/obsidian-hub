@@ -21,7 +21,7 @@ publish: true
 # Tabout
 
 Plugin ID: `tabout`
-Links: [GitHub repository](https://github.com/phibr0/obsidian-tabout) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=tabout)
+Links: [GitHub repository](https://github.com/phibr0/obsidian-tabout) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=tabout)
 Developed by: [[phibr0]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

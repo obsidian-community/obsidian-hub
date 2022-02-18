@@ -21,7 +21,7 @@ publish: true
 # Language Translator
 
 Plugin ID: `language-translator`
-Links: [GitHub repository](https://github.com/twentytwokhz/language-translator) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=language-translator)
+Links: [GitHub repository](https://github.com/twentytwokhz/language-translator) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=language-translator)
 Developed by: [[twentytwokhz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Pinboard Sync
 
 Plugin ID: `pinboard-sync`
-Links: [GitHub repository](https://github.com/Automatt/obsidian-pinboard-sync) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=pinboard-sync)
+Links: [GitHub repository](https://github.com/Automatt/obsidian-pinboard-sync) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=pinboard-sync)
 Developed by: [[Automatt]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

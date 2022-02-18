@@ -21,7 +21,7 @@ publish: true
 # Sentence Navigator
 
 Plugin ID: `obsidian-sentence-navigator`
-Links: [GitHub repository](https://github.com/timhor/obsidian-sentence-navigator) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-sentence-navigator)
+Links: [GitHub repository](https://github.com/timhor/obsidian-sentence-navigator) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-sentence-navigator)
 Developed by: [[timhor]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

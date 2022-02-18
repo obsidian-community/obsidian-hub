@@ -21,7 +21,7 @@ publish: true
 # Emotion Picker
 
 Plugin ID: `obsidian-emotion-picker`
-Links: [GitHub repository](https://github.com/dartungar/obsidian-emotion-picker) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-emotion-picker)
+Links: [GitHub repository](https://github.com/dartungar/obsidian-emotion-picker) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-emotion-picker)
 Developed by: [[dartungar]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

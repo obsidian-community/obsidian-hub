@@ -21,7 +21,7 @@ publish: true
 # Weather Fetcher
 
 Plugin ID: `weather-fetcher`
-Links: [GitHub repository](https://github.com/fyears/weather-fetcher) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=weather-fetcher)
+Links: [GitHub repository](https://github.com/fyears/weather-fetcher) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=weather-fetcher)
 Developed by: [[fyears]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

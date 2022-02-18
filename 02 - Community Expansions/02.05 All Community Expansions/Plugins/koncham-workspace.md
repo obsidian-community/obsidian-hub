@@ -21,7 +21,7 @@ publish: true
 # koncham workspace
 
 Plugin ID: `koncham-workspace`
-Links: [GitHub repository](https://github.com/manogna4/obsidian-koncham-workspace) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=koncham-workspace)
+Links: [GitHub repository](https://github.com/manogna4/obsidian-koncham-workspace) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=koncham-workspace)
 Developed by: [[manogna4]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

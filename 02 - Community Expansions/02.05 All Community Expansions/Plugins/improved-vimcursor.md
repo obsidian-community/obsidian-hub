@@ -21,7 +21,7 @@ publish: true
 # Improved VimCursor
 
 Plugin ID: `improved-vimcursor`
-Links: [GitHub repository](https://github.com/hhhapz/improved-obsidian-vimcursor) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=improved-vimcursor)
+Links: [GitHub repository](https://github.com/hhhapz/improved-obsidian-vimcursor) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=improved-vimcursor)
 Developed by: [[hhhapz]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -21,7 +21,7 @@ publish: true
 # TimeStamper
 
 Plugin ID: `obsidian-timestamper`
-Links: [GitHub repository](https://github.com/Gru80/obsidian-timestamper) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-timestamper)
+Links: [GitHub repository](https://github.com/Gru80/obsidian-timestamper) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-timestamper)
 Developed by: [[Gru80]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

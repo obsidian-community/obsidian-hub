@@ -21,7 +21,7 @@ publish: true
 # Obsidian Link Converter
 
 Plugin ID: `obsidian-link-converter`
-Links: [GitHub repository](https://github.com/ozntel/obsidian-link-converter) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-link-converter)
+Links: [GitHub repository](https://github.com/ozntel/obsidian-link-converter) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-link-converter)
 Developed by: [[ozntel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

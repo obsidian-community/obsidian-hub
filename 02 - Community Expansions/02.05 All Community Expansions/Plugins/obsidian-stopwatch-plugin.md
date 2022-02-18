@@ -21,7 +21,7 @@ publish: true
 # Stopwatch Plugin
 
 Plugin ID: `obsidian-stopwatch-plugin`
-Links: [GitHub repository](https://github.com/tokuhirom/obsidian-stopwatch-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-stopwatch-plugin)
+Links: [GitHub repository](https://github.com/tokuhirom/obsidian-stopwatch-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-stopwatch-plugin)
 Developed by: [[tokuhirom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

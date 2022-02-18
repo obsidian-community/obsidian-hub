@@ -21,7 +21,7 @@ publish: true
 # Tressel Sync for Obsidian
 
 Plugin ID: `obsidian-tressel`
-Links: [GitHub repository](https://github.com/aseem-thakar/obsidian-tressel) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tressel)
+Links: [GitHub repository](https://github.com/aseem-thakar/obsidian-tressel) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tressel)
 Developed by: [[aseem-thakar]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

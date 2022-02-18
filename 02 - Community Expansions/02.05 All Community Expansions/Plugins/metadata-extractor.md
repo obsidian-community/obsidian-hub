@@ -21,7 +21,7 @@ publish: true
 # Metadata Extractor
 
 Plugin ID: `metadata-extractor`
-Links: [GitHub repository](https://github.com/kometenstaub/metadata-extractor) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=metadata-extractor)
+Links: [GitHub repository](https://github.com/kometenstaub/metadata-extractor) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=metadata-extractor)
 Developed by: [[kometenstaub]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

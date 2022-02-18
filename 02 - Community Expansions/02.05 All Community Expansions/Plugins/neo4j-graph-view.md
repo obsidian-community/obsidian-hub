@@ -21,7 +21,7 @@ publish: true
 # Neo4j Graph View
 
 Plugin ID: `neo4j-graph-view`
-Links: [GitHub repository](https://github.com/HEmile/obsidian-neo4j-graph-view) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=neo4j-graph-view)
+Links: [GitHub repository](https://github.com/HEmile/obsidian-neo4j-graph-view) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=neo4j-graph-view)
 Developed by: [[HEmile]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -21,7 +21,7 @@ publish: true
 # Footlinks
 
 Plugin ID: `footlinks`
-Links: [GitHub repository](https://github.com/DahaWong/obsidian-footlinks) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=footlinks)
+Links: [GitHub repository](https://github.com/DahaWong/obsidian-footlinks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=footlinks)
 Developed by: [[DahaWong]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

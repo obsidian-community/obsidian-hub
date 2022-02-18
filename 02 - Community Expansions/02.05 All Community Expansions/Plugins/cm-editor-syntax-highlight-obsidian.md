@@ -21,7 +21,7 @@ publish: true
 # Editor Syntax Highlight
 
 Plugin ID: `cm-editor-syntax-highlight-obsidian`
-Links: [GitHub repository](https://github.com/deathau/cm-editor-syntax-highlight-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cm-editor-syntax-highlight-obsidian)
+Links: [GitHub repository](https://github.com/deathau/cm-editor-syntax-highlight-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=cm-editor-syntax-highlight-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

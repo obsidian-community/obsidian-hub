@@ -21,7 +21,7 @@ publish: true
 # Smart Random Note
 
 Plugin ID: `smart-random-note`
-Links: [GitHub repository](https://github.com/erichalldev/obsidian-smart-random-note) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=smart-random-note)
+Links: [GitHub repository](https://github.com/erichalldev/obsidian-smart-random-note) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=smart-random-note)
 Developed by: [[erichalldev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Relativenumber (relative line numbers)
 
 Plugin ID: `obsidian-relativenumber`
-Links: [GitHub repository](https://github.com/thisdotrob/obsidian-relativenumber-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-relativenumber)
+Links: [GitHub repository](https://github.com/thisdotrob/obsidian-relativenumber-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-relativenumber)
 Developed by: [[thisdotrob]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

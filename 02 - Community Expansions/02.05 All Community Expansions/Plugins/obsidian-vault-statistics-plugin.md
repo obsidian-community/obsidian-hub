@@ -21,7 +21,7 @@ publish: true
 # Vault Statistics
 
 Plugin ID: `obsidian-vault-statistics-plugin`
-Links: [GitHub repository](https://github.com/bkyle/obsidian-vault-statistics-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-vault-statistics-plugin)
+Links: [GitHub repository](https://github.com/bkyle/obsidian-vault-statistics-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-vault-statistics-plugin)
 Developed by: [[bkyle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Advanced URI
 
 Plugin ID: `obsidian-advanced-uri`
-Links: [GitHub repository](https://github.com/Vinzent03/obsidian-advanced-uri) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-advanced-uri)
+Links: [GitHub repository](https://github.com/Vinzent03/obsidian-advanced-uri) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-advanced-uri)
 Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

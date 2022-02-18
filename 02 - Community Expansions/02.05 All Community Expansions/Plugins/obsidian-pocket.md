@@ -21,7 +21,7 @@ publish: true
 # Pocket
 
 Plugin ID: `obsidian-pocket`
-Links: [GitHub repository](https://github.com/nybbles/obsidian-pocket) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pocket)
+Links: [GitHub repository](https://github.com/nybbles/obsidian-pocket) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-pocket)
 Developed by: [[nybbles]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

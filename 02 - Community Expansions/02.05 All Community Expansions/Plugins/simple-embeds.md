@@ -21,7 +21,7 @@ publish: true
 # Simple Embeds
 
 Plugin ID: `simple-embeds`
-Links: [GitHub repository](https://github.com/samwarnick/obsidian-simple-embeds) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=simple-embeds)
+Links: [GitHub repository](https://github.com/samwarnick/obsidian-simple-embeds) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=simple-embeds)
 Developed by: [[samwarnick]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

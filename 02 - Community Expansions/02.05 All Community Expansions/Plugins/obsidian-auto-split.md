@@ -21,7 +21,7 @@ publish: true
 # Auto Split
 
 Plugin ID: `obsidian-auto-split`
-Links: [GitHub repository](https://github.com/jsartelle/obsidian-auto-split) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-auto-split)
+Links: [GitHub repository](https://github.com/jsartelle/obsidian-auto-split) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-auto-split)
 Developed by: [[jsartelle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

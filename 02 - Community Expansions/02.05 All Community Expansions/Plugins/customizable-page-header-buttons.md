@@ -21,7 +21,7 @@ publish: true
 # Customizable Page Header
 
 Plugin ID: `customizable-page-header-buttons`
-Links: [GitHub repository](https://github.com/kometenstaub/customizable-page-header-buttons) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=customizable-page-header-buttons)
+Links: [GitHub repository](https://github.com/kometenstaub/customizable-page-header-buttons) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=customizable-page-header-buttons)
 Developed by: [[kometenstaub]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

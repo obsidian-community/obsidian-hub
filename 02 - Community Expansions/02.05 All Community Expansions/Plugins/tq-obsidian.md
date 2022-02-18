@@ -21,7 +21,7 @@ publish: true
 # tq
 
 Plugin ID: `tq-obsidian`
-Links: [GitHub repository](https://github.com/tgrosinger/tq-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=tq-obsidian)
+Links: [GitHub repository](https://github.com/tgrosinger/tq-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=tq-obsidian)
 Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

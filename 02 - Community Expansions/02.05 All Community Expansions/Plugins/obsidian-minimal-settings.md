@@ -21,7 +21,7 @@ publish: true
 # Minimal Theme Settings
 
 Plugin ID: `obsidian-minimal-settings`
-Links: [GitHub repository](https://github.com/kepano/obsidian-minimal-settings) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-minimal-settings)
+Links: [GitHub repository](https://github.com/kepano/obsidian-minimal-settings) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-minimal-settings)
 Developed by: [[kepano]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

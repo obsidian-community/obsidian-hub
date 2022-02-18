@@ -21,7 +21,7 @@ publish: true
 # Tweet to Markdown
 
 Plugin ID: `obsidian-tweet-to-markdown`
-Links: [GitHub repository](https://github.com/kbravh/obsidian-tweet-to-markdown) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tweet-to-markdown)
+Links: [GitHub repository](https://github.com/kbravh/obsidian-tweet-to-markdown) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tweet-to-markdown)
 Developed by: [[kbravh]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

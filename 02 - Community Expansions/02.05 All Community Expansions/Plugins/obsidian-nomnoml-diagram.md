@@ -21,7 +21,7 @@ publish: true
 # Nomnoml Diagram
 
 Plugin ID: `obsidian-nomnoml-diagram`
-Links: [GitHub repository](https://github.com/Daeik/obsidian-nomnoml-diagram) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-nomnoml-diagram)
+Links: [GitHub repository](https://github.com/Daeik/obsidian-nomnoml-diagram) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-nomnoml-diagram)
 Developed by: [[Daeik]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

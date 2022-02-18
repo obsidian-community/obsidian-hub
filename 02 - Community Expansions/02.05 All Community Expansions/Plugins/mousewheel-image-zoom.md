@@ -21,7 +21,7 @@ publish: true
 # Mousewheel Image zoom
 
 Plugin ID: `mousewheel-image-zoom`
-Links: [GitHub repository](https://github.com/nicojeske/mousewheel-image-zoom) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mousewheel-image-zoom)
+Links: [GitHub repository](https://github.com/nicojeske/mousewheel-image-zoom) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=mousewheel-image-zoom)
 Developed by: [[nicojeske]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -21,7 +21,7 @@ publish: true
 # Global Hotkeys
 
 Plugin ID: `obsidian-global-hotkeys`
-Links: [GitHub repository](https://github.com/mjessome/obsidian-global-hotkeys) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-global-hotkeys)
+Links: [GitHub repository](https://github.com/mjessome/obsidian-global-hotkeys) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-global-hotkeys)
 Developed by: [[mjessome]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

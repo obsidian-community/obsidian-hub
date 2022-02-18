@@ -21,7 +21,7 @@ publish: true
 # Advanced new file
 
 Plugin ID: `obsidian-advanced-new-file`
-Links: [GitHub repository](https://github.com/vanadium23/obsidian-advanced-new-file) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-advanced-new-file)
+Links: [GitHub repository](https://github.com/vanadium23/obsidian-advanced-new-file) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-advanced-new-file)
 Developed by: [[vanadium23]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

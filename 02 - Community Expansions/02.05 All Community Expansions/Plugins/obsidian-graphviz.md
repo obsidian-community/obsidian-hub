@@ -21,7 +21,7 @@ publish: true
 # Obsidian Graphviz
 
 Plugin ID: `obsidian-graphviz`
-Links: [GitHub repository](https://github.com/QAMichaelPeng/obsidian-graphviz) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-graphviz)
+Links: [GitHub repository](https://github.com/QAMichaelPeng/obsidian-graphviz) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-graphviz)
 Developed by: [[QAMichaelPeng]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

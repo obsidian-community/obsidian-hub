@@ -21,7 +21,7 @@ publish: true
 # Better Command Palette
 
 Plugin ID: `obsidian-better-command-palette`
-Links: [GitHub repository](https://github.com/AlexBieg/obsidian-better-command-palette) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-better-command-palette)
+Links: [GitHub repository](https://github.com/AlexBieg/obsidian-better-command-palette) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-better-command-palette)
 Developed by: [[AlexBieg]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

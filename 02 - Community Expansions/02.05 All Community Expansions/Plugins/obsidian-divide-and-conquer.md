@@ -21,7 +21,7 @@ publish: true
 # Divide & Conquer
 
 Plugin ID: `obsidian-divide-and-conquer`
-Links: [GitHub repository](https://github.com/chrisgrieser/obsidian-divide-and-conquer) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-divide-and-conquer)
+Links: [GitHub repository](https://github.com/chrisgrieser/obsidian-divide-and-conquer) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-divide-and-conquer)
 Developed by: [[chrisgrieser]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

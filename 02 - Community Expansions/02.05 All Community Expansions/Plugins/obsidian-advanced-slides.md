@@ -21,7 +21,7 @@ publish: true
 # Advanced Slides
 
 Plugin ID: `obsidian-advanced-slides`
-Links: [GitHub repository](https://github.com/MSzturc/obsidian-advanced-slides) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-advanced-slides)
+Links: [GitHub repository](https://github.com/MSzturc/obsidian-advanced-slides) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-advanced-slides)
 Developed by: [[MSzturc]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

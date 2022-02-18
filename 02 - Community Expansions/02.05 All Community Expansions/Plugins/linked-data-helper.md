@@ -21,7 +21,7 @@ publish: true
 # Linked Data Helper
 
 Plugin ID: `linked-data-helper`
-Links: [GitHub repository](https://github.com/kometenstaub/linked-data-helper) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=linked-data-helper)
+Links: [GitHub repository](https://github.com/kometenstaub/linked-data-helper) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=linked-data-helper)
 Developed by: [[kometenstaub]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

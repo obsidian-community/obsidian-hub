@@ -21,7 +21,7 @@ publish: true
 # Advanced Appearance
 
 Plugin ID: `obsidian-advanced-appearance`
-Links: [GitHub repository](https://github.com/kepano/obsidian-advanced-appearance) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-advanced-appearance)
+Links: [GitHub repository](https://github.com/kepano/obsidian-advanced-appearance) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-advanced-appearance)
 Developed by: [[kepano]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Apply Patterns
 
 Plugin ID: `obsidian-apply-patterns`
-Links: [GitHub repository](https://github.com/jglev/obsidian-apply-patterns-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-apply-patterns)
+Links: [GitHub repository](https://github.com/jglev/obsidian-apply-patterns-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-apply-patterns)
 Developed by: [[jglev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

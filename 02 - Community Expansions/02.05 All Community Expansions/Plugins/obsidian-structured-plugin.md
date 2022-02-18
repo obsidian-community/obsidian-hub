@@ -21,7 +21,7 @@ publish: true
 # Structured Plugin
 
 Plugin ID: `obsidian-structured-plugin`
-Links: [GitHub repository](https://github.com/dobrovolsky/obsidain-structure) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-structured-plugin)
+Links: [GitHub repository](https://github.com/dobrovolsky/obsidain-structure) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-structured-plugin)
 Developed by: [[dobrovolsky]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

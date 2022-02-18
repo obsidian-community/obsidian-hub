@@ -21,7 +21,7 @@ publish: true
 # Chessboard Viewer
 
 Plugin ID: `obsidian-chessboard`
-Links: [GitHub repository](https://github.com/THeK3nger/obsidian-chessboard) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-chessboard)
+Links: [GitHub repository](https://github.com/THeK3nger/obsidian-chessboard) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-chessboard)
 Developed by: [[THeK3nger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

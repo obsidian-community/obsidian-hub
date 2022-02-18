@@ -21,7 +21,7 @@ publish: true
 # Shortcut Launcher
 
 Plugin ID: `obsidian-shortcut-launcher`
-Links: [GitHub repository](https://github.com/macstories/obsidian-shortcut-launcher) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-shortcut-launcher)
+Links: [GitHub repository](https://github.com/macstories/obsidian-shortcut-launcher) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-shortcut-launcher)
 Developed by: [[macstories]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

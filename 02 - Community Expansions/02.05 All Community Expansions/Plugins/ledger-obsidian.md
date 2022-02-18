@@ -21,7 +21,7 @@ publish: true
 # Ledger
 
 Plugin ID: `ledger-obsidian`
-Links: [GitHub repository](https://github.com/tgrosinger/ledger-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=ledger-obsidian)
+Links: [GitHub repository](https://github.com/tgrosinger/ledger-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=ledger-obsidian)
 Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

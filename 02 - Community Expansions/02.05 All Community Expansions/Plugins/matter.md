@@ -21,7 +21,7 @@ publish: true
 # Matter
 
 Plugin ID: `matter`
-Links: [GitHub repository](https://github.com/getmatterapp/obsidian-matter) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=matter)
+Links: [GitHub repository](https://github.com/getmatterapp/obsidian-matter) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=matter)
 Developed by: [[getmatterapp]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

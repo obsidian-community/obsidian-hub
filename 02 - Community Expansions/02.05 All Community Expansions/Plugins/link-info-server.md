@@ -21,7 +21,7 @@ publish: true
 # Link Server
 
 Plugin ID: `link-info-server`
-Links: [GitHub repository](https://github.com/moelody/link-to-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=link-info-server)
+Links: [GitHub repository](https://github.com/moelody/link-to-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=link-info-server)
 Developed by: [[moelody]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

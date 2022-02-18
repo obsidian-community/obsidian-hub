@@ -21,7 +21,7 @@ publish: true
 # Indentation Guides
 
 Plugin ID: `obsidian-indentation-guides`
-Links: [GitHub repository](https://github.com/mgmeyers/obsidian-indentation-guides) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-indentation-guides)
+Links: [GitHub repository](https://github.com/mgmeyers/obsidian-indentation-guides) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-indentation-guides)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

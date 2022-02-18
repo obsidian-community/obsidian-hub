@@ -21,7 +21,7 @@ publish: true
 # Aut-O-Backups
 
 Plugin ID: `obsidian-dropbox-backups`
-Links: [GitHub repository](https://github.com/ryanpcmcquen/obsidian-dropbox-backups) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-dropbox-backups)
+Links: [GitHub repository](https://github.com/ryanpcmcquen/obsidian-dropbox-backups) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-dropbox-backups)
 Developed by: [[ryanpcmcquen]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

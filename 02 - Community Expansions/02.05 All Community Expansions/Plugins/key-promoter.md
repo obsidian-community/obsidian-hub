@@ -21,7 +21,7 @@ publish: true
 # Key Promoter
 
 Plugin ID: `key-promoter`
-Links: [GitHub repository](https://github.com/joethei/obsidian-key-promoter) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=key-promoter)
+Links: [GitHub repository](https://github.com/joethei/obsidian-key-promoter) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=key-promoter)
 Developed by: [[joethei]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

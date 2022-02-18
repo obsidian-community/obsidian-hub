@@ -21,7 +21,7 @@ publish: true
 # DEVONlink
 
 Plugin ID: `DEVONlink-obsidian`
-Links: [GitHub repository](https://github.com/ryanjamurphy/DEVONlink-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=DEVONlink-obsidian)
+Links: [GitHub repository](https://github.com/ryanjamurphy/DEVONlink-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=DEVONlink-obsidian)
 Developed by: [[ryanjamurphy]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

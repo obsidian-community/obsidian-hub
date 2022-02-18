@@ -21,7 +21,7 @@ publish: true
 # Better Word Count
 
 Plugin ID: `better-word-count`
-Links: [GitHub repository](https://github.com/lukeleppan/better-word-count) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=better-word-count)
+Links: [GitHub repository](https://github.com/lukeleppan/better-word-count) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=better-word-count)
 Developed by: [[lukeleppan]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

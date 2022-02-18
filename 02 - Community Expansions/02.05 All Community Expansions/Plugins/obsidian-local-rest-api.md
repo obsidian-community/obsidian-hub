@@ -21,7 +21,7 @@ publish: true
 # Local REST API
 
 Plugin ID: `obsidian-local-rest-api`
-Links: [GitHub repository](https://github.com/coddingtonbear/obsidian-local-rest-api) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-local-rest-api)
+Links: [GitHub repository](https://github.com/coddingtonbear/obsidian-local-rest-api) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-local-rest-api)
 Developed by: [[coddingtonbear]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

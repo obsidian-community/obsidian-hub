@@ -21,7 +21,7 @@ publish: true
 # Snippet Commands
 
 Plugin ID: `snippet-commands-obsidian`
-Links: [GitHub repository](https://github.com/deathau/snippet-commands-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=snippet-commands-obsidian)
+Links: [GitHub repository](https://github.com/deathau/snippet-commands-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=snippet-commands-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

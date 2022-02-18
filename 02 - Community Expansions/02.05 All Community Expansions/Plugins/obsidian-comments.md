@@ -21,7 +21,7 @@ publish: true
 # Comments
 
 Plugin ID: `obsidian-comments`
-Links: [GitHub repository](https://github.com/Darakah/obsidian-comments-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-comments)
+Links: [GitHub repository](https://github.com/Darakah/obsidian-comments-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-comments)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Daily Named Folder
 
 Plugin ID: `obsidian-daily-named-folder`
-Links: [GitHub repository](https://github.com/nemoandrea/obsidian-daily-named-folder) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-daily-named-folder)
+Links: [GitHub repository](https://github.com/nemoandrea/obsidian-daily-named-folder) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-daily-named-folder)
 Developed by: [[nemoandrea]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

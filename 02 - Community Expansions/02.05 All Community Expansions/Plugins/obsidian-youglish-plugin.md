@@ -21,7 +21,7 @@ publish: true
 # Youglish Plugin
 
 Plugin ID: `obsidian-youglish-plugin`
-Links: [GitHub repository](https://github.com/nhaouari/obsidian-youglish-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-youglish-plugin)
+Links: [GitHub repository](https://github.com/nhaouari/obsidian-youglish-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-youglish-plugin)
 Developed by: [[nhaouari]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

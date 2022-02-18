@@ -21,7 +21,7 @@ publish: true
 # Simple note quiz
 
 Plugin ID: `simple-note-quiz`
-Links: [GitHub repository](https://github.com/dorisxx/Obsidian-simple-note-quiz) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=simple-note-quiz)
+Links: [GitHub repository](https://github.com/dorisxx/Obsidian-simple-note-quiz) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=simple-note-quiz)
 Developed by: [[dorisxx]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

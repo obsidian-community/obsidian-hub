@@ -21,7 +21,7 @@ publish: true
 # Metronome
 
 Plugin ID: `obsidian-metronome-plugin`
-Links: [GitHub repository](https://github.com/curtgrimes/obsidian-metronome-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-metronome-plugin)
+Links: [GitHub repository](https://github.com/curtgrimes/obsidian-metronome-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-metronome-plugin)
 Developed by: [[curtgrimes]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

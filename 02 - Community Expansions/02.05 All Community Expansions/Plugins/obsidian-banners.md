@@ -21,7 +21,7 @@ publish: true
 # Banners
 
 Plugin ID: `obsidian-banners`
-Links: [GitHub repository](https://github.com/noatpad/obsidian-banners) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-banners)
+Links: [GitHub repository](https://github.com/noatpad/obsidian-banners) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-banners)
 Developed by: [[noatpad]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Remotely Save
 
 Plugin ID: `remotely-save`
-Links: [GitHub repository](https://github.com/fyears/remotely-save) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=remotely-save)
+Links: [GitHub repository](https://github.com/fyears/remotely-save) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=remotely-save)
 Developed by: [[fyears]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

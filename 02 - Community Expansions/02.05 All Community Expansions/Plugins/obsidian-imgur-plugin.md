@@ -21,7 +21,7 @@ publish: true
 # Imgur Plugin
 
 Plugin ID: `obsidian-imgur-plugin`
-Links: [GitHub repository](https://github.com/gavvvr/obsidian-imgur-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-imgur-plugin)
+Links: [GitHub repository](https://github.com/gavvvr/obsidian-imgur-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-imgur-plugin)
 Developed by: [[gavvvr]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

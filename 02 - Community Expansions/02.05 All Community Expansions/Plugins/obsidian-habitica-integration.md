@@ -21,7 +21,7 @@ publish: true
 # Habitica Sync
 
 Plugin ID: `obsidian-habitica-integration`
-Links: [GitHub repository](https://github.com/SuperChamp234/habitica-sync) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-habitica-integration)
+Links: [GitHub repository](https://github.com/SuperChamp234/habitica-sync) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-habitica-integration)
 Developed by: [[SuperChamp234]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

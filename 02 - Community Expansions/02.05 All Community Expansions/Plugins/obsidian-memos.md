@@ -21,7 +21,7 @@ publish: true
 # Obsidian Memos
 
 Plugin ID: `obsidian-memos`
-Links: [GitHub repository](https://github.com/quorafind/obsidian-memos) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-memos)
+Links: [GitHub repository](https://github.com/quorafind/obsidian-memos) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-memos)
 Developed by: [[quorafind]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Image Caption
 
 Plugin ID: `obsidian-image-caption`
-Links: [GitHub repository](https://github.com/bicarlsen/obsidian_image_caption) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-image-caption)
+Links: [GitHub repository](https://github.com/bicarlsen/obsidian_image_caption) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-image-caption)
 Developed by: [[bicarlsen]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

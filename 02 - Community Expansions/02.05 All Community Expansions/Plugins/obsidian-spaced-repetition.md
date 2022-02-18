@@ -21,7 +21,7 @@ publish: true
 # Spaced Repetition
 
 Plugin ID: `obsidian-spaced-repetition`
-Links: [GitHub repository](https://github.com/st3v3nmw/obsidian-spaced-repetition) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-spaced-repetition)
+Links: [GitHub repository](https://github.com/st3v3nmw/obsidian-spaced-repetition) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-spaced-repetition)
 Developed by: [[st3v3nmw]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # PARA Shortcuts
 
 Plugin ID: `para-shortcuts`
-Links: [GitHub repository](https://github.com/gOATiful/para-shortcuts) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=para-shortcuts)
+Links: [GitHub repository](https://github.com/gOATiful/para-shortcuts) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=para-shortcuts)
 Developed by: [[gOATiful]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

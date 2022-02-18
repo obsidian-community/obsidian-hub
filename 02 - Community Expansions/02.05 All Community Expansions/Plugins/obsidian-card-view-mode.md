@@ -21,7 +21,7 @@ publish: true
 # Card View Mode
 
 Plugin ID: `obsidian-card-view-mode`
-Links: [GitHub repository](https://github.com/yo-goto/obsidian-card-view-mode) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-card-view-mode)
+Links: [GitHub repository](https://github.com/yo-goto/obsidian-card-view-mode) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-card-view-mode)
 Developed by: [[yo-goto]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

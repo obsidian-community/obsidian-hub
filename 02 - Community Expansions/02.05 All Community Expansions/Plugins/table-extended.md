@@ -21,7 +21,7 @@ publish: true
 # Table Extended
 
 Plugin ID: `table-extended`
-Links: [GitHub repository](https://github.com/aidenlx/table-extended) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=table-extended)
+Links: [GitHub repository](https://github.com/aidenlx/table-extended) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=table-extended)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Meld Calc
 
 Plugin ID: `meld-calc`
-Links: [GitHub repository](https://github.com/meld-cp/obsidian-calc) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=meld-calc)
+Links: [GitHub repository](https://github.com/meld-cp/obsidian-calc) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=meld-calc)
 Developed by: [[meld-cp]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Readwise Community
 
 Plugin ID: `obsidian-readwise`
-Links: [GitHub repository](https://github.com/renehernandez/obsidian-readwise) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-readwise)
+Links: [GitHub repository](https://github.com/renehernandez/obsidian-readwise) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-readwise)
 Developed by: [[renehernandez]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Pipe tricks
 
 Plugin ID: `obsidian-pipe-tricks`
-Links: [GitHub repository](https://github.com/marcusolsson/obsidian-pipe-tricks) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pipe-tricks)
+Links: [GitHub repository](https://github.com/marcusolsson/obsidian-pipe-tricks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-pipe-tricks)
 Developed by: [[marcusolsson]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

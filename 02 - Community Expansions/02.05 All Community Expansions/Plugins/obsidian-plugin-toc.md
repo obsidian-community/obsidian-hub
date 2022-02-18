@@ -21,7 +21,7 @@ publish: true
 # Table of Contents
 
 Plugin ID: `obsidian-plugin-toc`
-Links: [GitHub repository](https://github.com/hipstersmoothie/obsidian-plugin-toc) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plugin-toc)
+Links: [GitHub repository](https://github.com/hipstersmoothie/obsidian-plugin-toc) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-plugin-toc)
 Developed by: [[01 - Community/People/hipstersmoothie|hipstersmoothie]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

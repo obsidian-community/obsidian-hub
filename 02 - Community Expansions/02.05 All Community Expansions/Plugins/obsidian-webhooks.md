@@ -21,7 +21,7 @@ publish: true
 # Webhook Plugin
 
 Plugin ID: `obsidian-webhooks`
-Links: [GitHub repository](https://github.com/trashhalo/obsidian-webhooks) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-webhooks)
+Links: [GitHub repository](https://github.com/trashhalo/obsidian-webhooks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-webhooks)
 Developed by: [[trashhalo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

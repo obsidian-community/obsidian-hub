@@ -21,7 +21,7 @@ publish: true
 # Cryptsidian
 
 Plugin ID: `cryptsidian`
-Links: [GitHub repository](https://github.com/triumphantomato/cryptsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cryptsidian)
+Links: [GitHub repository](https://github.com/triumphantomato/cryptsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=cryptsidian)
 Developed by: [[triumphantomato]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

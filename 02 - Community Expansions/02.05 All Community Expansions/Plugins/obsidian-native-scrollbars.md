@@ -21,7 +21,7 @@ publish: true
 # Native Scrollbars
 
 Plugin ID: `obsidian-native-scrollbars`
-Links: [GitHub repository](https://github.com/mgmeyers/obsidian-native-scrollbars) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-native-scrollbars)
+Links: [GitHub repository](https://github.com/mgmeyers/obsidian-native-scrollbars) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-native-scrollbars)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -21,7 +21,7 @@ publish: true
 # Regex Find/Replace
 
 Plugin ID: `obsidian-regex-replace`
-Links: [GitHub repository](https://github.com/Gru80/obsidian-regex-replace) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-regex-replace)
+Links: [GitHub repository](https://github.com/Gru80/obsidian-regex-replace) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-regex-replace)
 Developed by: [[Gru80]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

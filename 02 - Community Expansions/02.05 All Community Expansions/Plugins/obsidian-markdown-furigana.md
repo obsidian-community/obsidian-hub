@@ -21,7 +21,7 @@ publish: true
 # Markdown Furigana
 
 Plugin ID: `obsidian-markdown-furigana`
-Links: [GitHub repository](https://github.com/steven-kraft/obsidian-markdown-furigana) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-markdown-furigana)
+Links: [GitHub repository](https://github.com/steven-kraft/obsidian-markdown-furigana) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-markdown-furigana)
 Developed by: [[steven-kraft]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

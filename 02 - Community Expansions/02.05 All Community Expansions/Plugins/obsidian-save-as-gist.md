@@ -21,7 +21,7 @@ publish: true
 # Save as Gist
 
 Plugin ID: `obsidian-save-as-gist`
-Links: [GitHub repository](https://github.com/ghedamat/obsidian-save-as-gist) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-save-as-gist)
+Links: [GitHub repository](https://github.com/ghedamat/obsidian-save-as-gist) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-save-as-gist)
 Developed by: [[ghedamat]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

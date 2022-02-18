@@ -21,7 +21,7 @@ publish: true
 # Wordpress
 
 Plugin ID: `obsidian-wordpress`
-Links: [GitHub repository](https://github.com/devbean/obsidian-wordpress) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-wordpress)
+Links: [GitHub repository](https://github.com/devbean/obsidian-wordpress) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-wordpress)
 Developed by: [[devbean]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

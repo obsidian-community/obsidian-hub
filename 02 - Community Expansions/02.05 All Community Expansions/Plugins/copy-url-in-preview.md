@@ -21,7 +21,7 @@ publish: true
 # Copy Image and URL in Preview
 
 Plugin ID: `copy-url-in-preview`
-Links: [GitHub repository](https://github.com/NomarCub/obsidian-copy-url-in-preview) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=copy-url-in-preview)
+Links: [GitHub repository](https://github.com/NomarCub/obsidian-copy-url-in-preview) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=copy-url-in-preview)
 Developed by: [[NomarCub]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Power Search
 
 Plugin ID: `obsidian-power-search`
-Links: [GitHub repository](https://github.com/aviral-batra/obsidian-power-search) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-power-search)
+Links: [GitHub repository](https://github.com/aviral-batra/obsidian-power-search) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-power-search)
 Developed by: [[aviral-batra]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

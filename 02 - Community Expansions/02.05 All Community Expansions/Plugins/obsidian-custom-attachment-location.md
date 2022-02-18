@@ -21,7 +21,7 @@ publish: true
 # Custom Attachment Location
 
 Plugin ID: `obsidian-custom-attachment-location`
-Links: [GitHub repository](https://github.com/RainCat1998/obsidian-custom-attachment-location) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-custom-attachment-location)
+Links: [GitHub repository](https://github.com/RainCat1998/obsidian-custom-attachment-location) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-custom-attachment-location)
 Developed by: [[RainCat1998]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

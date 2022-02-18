@@ -21,7 +21,7 @@ publish: true
 # Image Uploader
 
 Plugin ID: `obsidian-image-uploader`
-Links: [GitHub repository](https://github.com/Creling/obsidian-image-uploader) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-image-uploader)
+Links: [GitHub repository](https://github.com/Creling/obsidian-image-uploader) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-image-uploader)
 Developed by: [[Creling]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

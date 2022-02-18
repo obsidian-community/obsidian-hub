@@ -21,7 +21,7 @@ publish: true
 # ReadItLater
 
 Plugin ID: `obsidian-read-it-later`
-Links: [GitHub repository](https://github.com/DominikPieper/obsidian-ReadItLater) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-read-it-later)
+Links: [GitHub repository](https://github.com/DominikPieper/obsidian-ReadItLater) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-read-it-later)
 Developed by: [[DominikPieper]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

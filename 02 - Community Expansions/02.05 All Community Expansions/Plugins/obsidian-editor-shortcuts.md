@@ -21,7 +21,7 @@ publish: true
 # Code Editor Shortcuts
 
 Plugin ID: `obsidian-editor-shortcuts`
-Links: [GitHub repository](https://github.com/timhor/obsidian-editor-shortcuts) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-editor-shortcuts)
+Links: [GitHub repository](https://github.com/timhor/obsidian-editor-shortcuts) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-editor-shortcuts)
 Developed by: [[timhor]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

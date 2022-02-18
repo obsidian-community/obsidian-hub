@@ -21,7 +21,7 @@ publish: true
 # Podcast Note
 
 Plugin ID: `podcast-note`
-Links: [GitHub repository](https://github.com/marcjulianschwarz/obsidian-podcast-note) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=podcast-note)
+Links: [GitHub repository](https://github.com/marcjulianschwarz/obsidian-podcast-note) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=podcast-note)
 Developed by: [[marcjulianschwarz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

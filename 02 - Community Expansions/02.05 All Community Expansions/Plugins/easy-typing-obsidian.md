@@ -21,7 +21,7 @@ publish: true
 # Easy Typing
 
 Plugin ID: `easy-typing-obsidian`
-Links: [GitHub repository](https://github.com/Yaozhuwa/easy-typing-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=easy-typing-obsidian)
+Links: [GitHub repository](https://github.com/Yaozhuwa/easy-typing-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=easy-typing-obsidian)
 Developed by: [[Yaozhuwa]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

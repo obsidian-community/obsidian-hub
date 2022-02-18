@@ -21,7 +21,7 @@ publish: true
 # Activity History
 
 Plugin ID: `obsidian-activity-history`
-Links: [GitHub repository](https://github.com/Darakah/obsidian-activity-history) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-activity-history)
+Links: [GitHub repository](https://github.com/Darakah/obsidian-activity-history) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-activity-history)
 Developed by: [[Darakah]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

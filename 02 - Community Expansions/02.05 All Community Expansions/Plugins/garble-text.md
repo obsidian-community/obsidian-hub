@@ -21,7 +21,7 @@ publish: true
 # Garble Text
 
 Plugin ID: `garble-text`
-Links: [GitHub repository](https://github.com/kurakart/garble-text) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=garble-text)
+Links: [GitHub repository](https://github.com/kurakart/garble-text) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=garble-text)
 Developed by: [[kurakart]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
