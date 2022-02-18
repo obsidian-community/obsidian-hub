@@ -15,6 +15,7 @@ These guides will help you get started with [[Obsidian]] and related topics.
 - [[Obsidian Garden]]
 - [[YouTube]]
 - [[Course for Getting Started with Obsidian]]
+- [[Obsidian Training Course in Russian|For Russian speakers: Obsidian Training Course on YouTube]]
 
 %% Hub footer: Please don't edit anything below this line %%
 

@@ -36,11 +36,11 @@ publish: true
 - 
 -->
 
-<!--
+
 ### Others
 
-- 
--->
+- Playlist for [[Obsidian Training Course in Russian]]: https://youtube.com/playlist?list=PLrRc3UisLr6KVOYhzpSnywtHkCi2PEza5
+
 
 <!--
 ## Sponsor this author
@@ -52,10 +52,10 @@ publish: true
 
 -->
 
-<!--
 ## Follow this author
 
-- [[YouTube Channels|On YouTube]]: ^youtube
+- [[YouTube Channels|On YouTube]]: [dy-sh's YouTube channel](https://www.youtube.com/c/dysh1) ^youtube
+<!--
 - Twitter: ^twitter
 - ...
 -->
