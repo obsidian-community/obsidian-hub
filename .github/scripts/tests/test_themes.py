@@ -29,7 +29,7 @@ def test_reading_theme__with_error_logs_error() -> None:
     file_groups: utils.FileGroups = dict()
     name, valid = collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
 
-    assert name == 'Blue Topaz'
+    assert name == theme_name
     assert valid == False
     # Check that an error has been logged for this theme
     assert 'error' in file_groups
