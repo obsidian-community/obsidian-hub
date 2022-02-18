@@ -6,7 +6,7 @@ import sys
 from typing import Union, Any, Dict, List, Sequence
 
 from authors import update_author_name_for_manual_exceptions
-from utils import get_template, get_plugin_manifest, FileGroups
+from utils import get_template, get_plugin_manifest, FileGroups, add_file_group
 
 # Type aliases:
 Plugin = Dict[str, Any]
@@ -216,7 +216,7 @@ def validate_plugin_ids(plugin: Plugin, manifest: PluginManifest, repo: str, fil
     if releases_id != manifest_id:
         print(
             f"ERROR repo:{repo} ID {releases_id} does not match ID in manifest: {manifest_id}")
-        file_groups.setdefault("error", list()).append(f"{releases_id}/{manifest_id}")
+        add_file_group(file_groups, "error", f"{releases_id}/{manifest_id}")
         ids_match = False
     return ids_match
 
