@@ -21,7 +21,7 @@ publish: true
 # Dynamic Highlights
 
 Plugin ID: `obsidian-dynamic-highlights`
-Links: [GitHub repository](https://github.com/nothingislost/obsidian-dynamic-highlights) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-dynamic-highlights)
+Links: [GitHub repository](https://github.com/nothingislost/obsidian-dynamic-highlights) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-dynamic-highlights)
 Developed by: [[nothingislost]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

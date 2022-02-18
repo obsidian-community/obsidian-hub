@@ -21,7 +21,7 @@ publish: true
 # Homepage
 
 Plugin ID: `homepage`
-Links: [GitHub repository](https://github.com/mirnovov/obsidian-homepage) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=homepage)
+Links: [GitHub repository](https://github.com/mirnovov/obsidian-homepage) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=homepage)
 Developed by: [[mirnovov]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

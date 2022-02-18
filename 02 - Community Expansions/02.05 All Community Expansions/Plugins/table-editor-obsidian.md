@@ -21,7 +21,7 @@ publish: true
 # Advanced Tables
 
 Plugin ID: `table-editor-obsidian`
-Links: [GitHub repository](https://github.com/tgrosinger/advanced-tables-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=table-editor-obsidian)
+Links: [GitHub repository](https://github.com/tgrosinger/advanced-tables-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=table-editor-obsidian)
 Developed by: [[tgrosinger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Quoth
 
 Plugin ID: `quoth`
-Links: [GitHub repository](https://github.com/erykwalder/quoth) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=quoth)
+Links: [GitHub repository](https://github.com/erykwalder/quoth) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=quoth)
 Developed by: [[erykwalder]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Obsidian42 - BRAT
 
 Plugin ID: `obsidian42-brat`
-Links: [GitHub repository](https://github.com/TfTHacker/obsidian42-brat) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian42-brat)
+Links: [GitHub repository](https://github.com/TfTHacker/obsidian42-brat) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian42-brat)
 Developed by: [[TfTHacker]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

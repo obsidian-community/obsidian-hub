@@ -21,7 +21,7 @@ publish: true
 # Wordle
 
 Plugin ID: `obsidian-wordle`
-Links: [GitHub repository](https://github.com/dbarenholz/obsidian-wordle) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-wordle)
+Links: [GitHub repository](https://github.com/dbarenholz/obsidian-wordle) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-wordle)
 Developed by: [[dbarenholz]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

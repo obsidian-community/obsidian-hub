@@ -21,7 +21,7 @@ publish: true
 # Limelight
 
 Plugin ID: `obsidian-limelight`
-Links: [GitHub repository](https://github.com/smikula/obsidian-limelight) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-limelight)
+Links: [GitHub repository](https://github.com/smikula/obsidian-limelight) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-limelight)
 Developed by: [[smikula]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Extra Markdown Commands
 
 Plugin ID: `obsidian-extra-md-commands`
-Links: [GitHub repository](https://github.com/chrisgrieser/obsidian-extra-md-commands) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-extra-md-commands)
+Links: [GitHub repository](https://github.com/chrisgrieser/obsidian-extra-md-commands) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-extra-md-commands)
 Developed by: [[chrisgrieser]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

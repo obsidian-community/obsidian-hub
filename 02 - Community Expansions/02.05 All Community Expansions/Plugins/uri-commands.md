@@ -21,7 +21,7 @@ publish: true
 # URI Commands
 
 Plugin ID: `uri-commands`
-Links: [GitHub repository](https://github.com/kzhovn/uri-commands-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=uri-commands)
+Links: [GitHub repository](https://github.com/kzhovn/uri-commands-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=uri-commands)
 Developed by: [[kzhovn]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Code Block Labels
 
 Plugin ID: `obsidian-codeblock-labels`
-Links: [GitHub repository](https://github.com/stbowers/obsidian-codeblock-labels) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-codeblock-labels)
+Links: [GitHub repository](https://github.com/stbowers/obsidian-codeblock-labels) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-codeblock-labels)
 Developed by: [[stbowers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

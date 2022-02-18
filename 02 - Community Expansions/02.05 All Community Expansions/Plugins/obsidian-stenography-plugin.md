@@ -21,7 +21,7 @@ publish: true
 # Stenography
 
 Plugin ID: `obsidian-stenography-plugin`
-Links: [GitHub repository](https://github.com/bramses/stenography-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-stenography-plugin)
+Links: [GitHub repository](https://github.com/bramses/stenography-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-stenography-plugin)
 Developed by: [[bramses]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

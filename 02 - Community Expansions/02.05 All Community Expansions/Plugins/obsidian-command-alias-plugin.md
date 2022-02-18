@@ -21,7 +21,7 @@ publish: true
 # Command Alias
 
 Plugin ID: `obsidian-command-alias-plugin`
-Links: [GitHub repository](https://github.com/yajamon/obsidian-command-alias-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-command-alias-plugin)
+Links: [GitHub repository](https://github.com/yajamon/obsidian-command-alias-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-command-alias-plugin)
 Developed by: [[yajamon]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

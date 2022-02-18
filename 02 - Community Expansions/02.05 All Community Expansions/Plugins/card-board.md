@@ -21,7 +21,7 @@ publish: true
 # CardBoard
 
 Plugin ID: `card-board`
-Links: [GitHub repository](https://github.com/roovo/obsidian-card-board) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=card-board)
+Links: [GitHub repository](https://github.com/roovo/obsidian-card-board) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=card-board)
 Developed by: [[roovo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

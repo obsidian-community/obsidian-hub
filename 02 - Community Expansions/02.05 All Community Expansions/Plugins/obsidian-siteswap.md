@@ -21,7 +21,7 @@ publish: true
 # Siteswap
 
 Plugin ID: `obsidian-siteswap`
-Links: [GitHub repository](https://github.com/tdresser/obsidian-siteswap) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-siteswap)
+Links: [GitHub repository](https://github.com/tdresser/obsidian-siteswap) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-siteswap)
 Developed by: [[tdresser]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

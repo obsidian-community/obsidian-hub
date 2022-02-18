@@ -21,7 +21,7 @@ publish: true
 # Things Logbook
 
 Plugin ID: `things-logbook`
-Links: [GitHub repository](https://github.com/liamcain/obsidian-things-logbook) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=things-logbook)
+Links: [GitHub repository](https://github.com/liamcain/obsidian-things-logbook) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=things-logbook)
 Developed by: [[liamcain]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

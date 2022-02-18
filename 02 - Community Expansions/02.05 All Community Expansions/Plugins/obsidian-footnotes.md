@@ -21,7 +21,7 @@ publish: true
 # Footnote Shortcut
 
 Plugin ID: `obsidian-footnotes`
-Links: [GitHub repository](https://github.com/akaalias/obsidian-footnotes) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-footnotes)
+Links: [GitHub repository](https://github.com/akaalias/obsidian-footnotes) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-footnotes)
 Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

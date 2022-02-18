@@ -21,7 +21,7 @@ publish: true
 # RSS Reader
 
 Plugin ID: `rss-reader`
-Links: [GitHub repository](https://github.com/joethei/obsidian-rss) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=rss-reader)
+Links: [GitHub repository](https://github.com/joethei/obsidian-rss) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=rss-reader)
 Developed by: [[joethei]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

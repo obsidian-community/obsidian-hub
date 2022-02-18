@@ -21,7 +21,7 @@ publish: true
 # Contextual Typography
 
 Plugin ID: `obsidian-contextual-typography`
-Links: [GitHub repository](https://github.com/mgmeyers/obsidian-contextual-typography) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-contextual-typography)
+Links: [GitHub repository](https://github.com/mgmeyers/obsidian-contextual-typography) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-contextual-typography)
 Developed by: [[mgmeyers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

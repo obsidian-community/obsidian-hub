@@ -21,7 +21,7 @@ publish: true
 # Obsidian Cloudinary Uploader
 
 Plugin ID: `obsidian-cloudinary-uploader`
-Links: [GitHub repository](https://github.com/jordanhandy/obsidian-cloudinary-uploader) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-cloudinary-uploader)
+Links: [GitHub repository](https://github.com/jordanhandy/obsidian-cloudinary-uploader) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-cloudinary-uploader)
 Developed by: [[jordanhandy]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

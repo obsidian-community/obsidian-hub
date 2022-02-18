@@ -21,7 +21,7 @@ publish: true
 # Enhancing Mindmap
 
 Plugin ID: `obsidian-enhancing-mindmap`
-Links: [GitHub repository](https://github.com/MarkMindCkm/obsidian-enhancing-mindmap) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-enhancing-mindmap)
+Links: [GitHub repository](https://github.com/MarkMindCkm/obsidian-enhancing-mindmap) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-enhancing-mindmap)
 Developed by: [[MarkMindCkm]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Rollover Daily Todos
 
 Plugin ID: `obsidian-rollover-daily-todos`
-Links: [GitHub repository](https://github.com/shichongrui/obsidian-rollover-daily-todos) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-rollover-daily-todos)
+Links: [GitHub repository](https://github.com/shichongrui/obsidian-rollover-daily-todos) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-rollover-daily-todos)
 Developed by: [[shichongrui]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

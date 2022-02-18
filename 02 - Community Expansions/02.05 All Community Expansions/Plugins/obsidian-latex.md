@@ -21,7 +21,7 @@ publish: true
 # Extended MathJax
 
 Plugin ID: `obsidian-latex`
-Links: [GitHub repository](https://github.com/xldenis/obsidian-latex) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-latex)
+Links: [GitHub repository](https://github.com/xldenis/obsidian-latex) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-latex)
 Developed by: [[xldenis]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

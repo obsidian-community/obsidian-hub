@@ -21,7 +21,7 @@ publish: true
 # Pomodoro Plugin
 
 Plugin ID: `obsidian-pomodoro-plugin`
-Links: [GitHub repository](https://github.com/tokuhirom/obsidian-pomodoro-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pomodoro-plugin)
+Links: [GitHub repository](https://github.com/tokuhirom/obsidian-pomodoro-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-pomodoro-plugin)
 Developed by: [[tokuhirom]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # RTL Support
 
 Plugin ID: `obsidian-rtl`
-Links: [GitHub repository](https://github.com/esm7/obsidian-rtl) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-rtl)
+Links: [GitHub repository](https://github.com/esm7/obsidian-rtl) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-rtl)
 Developed by: [[esm7]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

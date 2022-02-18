@@ -21,7 +21,7 @@ publish: true
 # Bible Reference
 
 Plugin ID: `obsidian-bible-reference`
-Links: [GitHub repository](https://github.com/tim-hub/obsidian-bible-reference) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-bible-reference)
+Links: [GitHub repository](https://github.com/tim-hub/obsidian-bible-reference) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-bible-reference)
 Developed by: [[tim-hub]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Relative Line Numbers
 
 Plugin ID: `obsidian-relative-line-numbers`
-Links: [GitHub repository](https://github.com/nadavspi/obsidian-relative-line-numbers) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-relative-line-numbers)
+Links: [GitHub repository](https://github.com/nadavspi/obsidian-relative-line-numbers) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-relative-line-numbers)
 Developed by: [[nadavspi]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

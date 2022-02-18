@@ -21,7 +21,7 @@ publish: true
 # Zoottelkeeper Plugin
 
 Plugin ID: `zoottelkeeper-obsidian-plugin`
-Links: [GitHub repository](https://github.com/akosbalasko/zoottelkeeper-obsidian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=zoottelkeeper-obsidian-plugin)
+Links: [GitHub repository](https://github.com/akosbalasko/zoottelkeeper-obsidian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=zoottelkeeper-obsidian-plugin)
 Developed by: [[akosbalasko]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Obsidian Chess
 
 Plugin ID: `obsidian-chess`
-Links: [GitHub repository](https://github.com/pmorim/obsidian-chess) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-chess)
+Links: [GitHub repository](https://github.com/pmorim/obsidian-chess) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-chess)
 Developed by: [[pmorim]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

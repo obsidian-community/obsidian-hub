@@ -21,7 +21,7 @@ publish: true
 # Prettier Format
 
 Plugin ID: `obsidian-plugin-prettier`
-Links: [GitHub repository](https://github.com/hipstersmoothie/obsidian-plugin-prettier) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plugin-prettier)
+Links: [GitHub repository](https://github.com/hipstersmoothie/obsidian-plugin-prettier) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-plugin-prettier)
 Developed by: [[01 - Community/People/hipstersmoothie|hipstersmoothie]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

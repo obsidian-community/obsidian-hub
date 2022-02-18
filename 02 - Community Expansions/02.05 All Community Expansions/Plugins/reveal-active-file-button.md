@@ -21,7 +21,7 @@ publish: true
 # Reveal Active File Button
 
 Plugin ID: `reveal-active-file-button`
-Links: [GitHub repository](https://github.com/claremacrae/reveal-active-file-button-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=reveal-active-file-button)
+Links: [GitHub repository](https://github.com/claremacrae/reveal-active-file-button-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=reveal-active-file-button)
 Developed by: [[claremacrae]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

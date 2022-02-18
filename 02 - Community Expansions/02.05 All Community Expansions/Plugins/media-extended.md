@@ -21,7 +21,7 @@ publish: true
 # Media Extended
 
 Plugin ID: `media-extended`
-Links: [GitHub repository](https://github.com/aidenlx/media-extended) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=media-extended)
+Links: [GitHub repository](https://github.com/aidenlx/media-extended) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=media-extended)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

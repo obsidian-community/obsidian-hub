@@ -21,7 +21,7 @@ publish: true
 # Markdown Formatting Assistant
 
 Plugin ID: `obsidian-markdown-formatting-assistant-plugin`
-Links: [GitHub repository](https://github.com/Reocin/obsidian-markdown-formatting-assistant-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-markdown-formatting-assistant-plugin)
+Links: [GitHub repository](https://github.com/Reocin/obsidian-markdown-formatting-assistant-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-markdown-formatting-assistant-plugin)
 Developed by: [[Reocin]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

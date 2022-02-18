@@ -21,7 +21,7 @@ publish: true
 # Wrap with shortcuts
 
 Plugin ID: `obsidian-wrap-with-shortcuts`
-Links: [GitHub repository](https://github.com/manic/obsidian-wrap-with-shortcuts) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-wrap-with-shortcuts)
+Links: [GitHub repository](https://github.com/manic/obsidian-wrap-with-shortcuts) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-wrap-with-shortcuts)
 Developed by: [[manic]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

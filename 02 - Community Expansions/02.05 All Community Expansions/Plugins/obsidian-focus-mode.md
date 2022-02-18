@@ -21,7 +21,7 @@ publish: true
 # Focus Mode
 
 Plugin ID: `obsidian-focus-mode`
-Links: [GitHub repository](https://github.com/ryanpcmcquen/obsidian-focus-mode) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-focus-mode)
+Links: [GitHub repository](https://github.com/ryanpcmcquen/obsidian-focus-mode) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-focus-mode)
 Developed by: [[ryanpcmcquen]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

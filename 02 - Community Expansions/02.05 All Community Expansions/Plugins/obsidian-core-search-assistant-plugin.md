@@ -21,7 +21,7 @@ publish: true
 # Core Search Assistant
 
 Plugin ID: `obsidian-core-search-assistant-plugin`
-Links: [GitHub repository](https://github.com/qawatake/obsidian-core-search-assistant-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-core-search-assistant-plugin)
+Links: [GitHub repository](https://github.com/qawatake/obsidian-core-search-assistant-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-core-search-assistant-plugin)
 Developed by: [[qawatake]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

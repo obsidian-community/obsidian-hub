@@ -21,7 +21,7 @@ publish: true
 # Crypto Lookup
 
 Plugin ID: `obsidian-crypto-lookup`
-Links: [GitHub repository](https://github.com/kinabalu/obsidian-crypto-lookup) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-crypto-lookup)
+Links: [GitHub repository](https://github.com/kinabalu/obsidian-crypto-lookup) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-crypto-lookup)
 Developed by: [[kinabalu]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

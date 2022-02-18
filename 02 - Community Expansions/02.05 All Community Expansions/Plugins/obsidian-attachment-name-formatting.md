@@ -21,7 +21,7 @@ publish: true
 # Attachment Name Formatting
 
 Plugin ID: `obsidian-attachment-name-formatting`
-Links: [GitHub repository](https://github.com/JYC333/obsidian-attachment-name-formatting) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-attachment-name-formatting)
+Links: [GitHub repository](https://github.com/JYC333/obsidian-attachment-name-formatting) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-attachment-name-formatting)
 Developed by: [[JYC333]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

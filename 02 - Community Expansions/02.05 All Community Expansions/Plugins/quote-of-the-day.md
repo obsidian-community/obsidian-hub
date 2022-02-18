@@ -21,7 +21,7 @@ publish: true
 # Quote of the Day
 
 Plugin ID: `quote-of-the-day`
-Links: [GitHub repository](https://github.com/twentytwokhz/quote-of-the-day) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=quote-of-the-day)
+Links: [GitHub repository](https://github.com/twentytwokhz/quote-of-the-day) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=quote-of-the-day)
 Developed by: [[twentytwokhz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

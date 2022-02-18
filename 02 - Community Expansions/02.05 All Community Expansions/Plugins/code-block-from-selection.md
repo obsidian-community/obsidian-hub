@@ -21,7 +21,7 @@ publish: true
 # Code block from selection
 
 Plugin ID: `code-block-from-selection`
-Links: [GitHub repository](https://github.com/dy-sh/obsidian-code-block-from-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=code-block-from-selection)
+Links: [GitHub repository](https://github.com/dy-sh/obsidian-code-block-from-selection) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=code-block-from-selection)
 Developed by: [[dy-sh]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

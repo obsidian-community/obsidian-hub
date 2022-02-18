@@ -21,7 +21,7 @@ publish: true
 # KOReader Highlights
 
 Plugin ID: `obsidian-koreader-plugin`
-Links: [GitHub repository](https://github.com/Edo78/obsidian-koreader-sync) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-koreader-plugin)
+Links: [GitHub repository](https://github.com/Edo78/obsidian-koreader-sync) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-koreader-plugin)
 Developed by: [[Edo78]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

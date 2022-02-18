@@ -21,7 +21,7 @@ publish: true
 # Publish and GitHub URL
 
 Plugin ID: `copy-publish-url`
-Links: [GitHub repository](https://github.com/kometenstaub/copy-publish-url) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=copy-publish-url)
+Links: [GitHub repository](https://github.com/kometenstaub/copy-publish-url) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=copy-publish-url)
 Developed by: [[kometenstaub]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

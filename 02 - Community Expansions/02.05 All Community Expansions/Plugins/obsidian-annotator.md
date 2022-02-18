@@ -21,7 +21,7 @@ publish: true
 # Annotator
 
 Plugin ID: `obsidian-annotator`
-Links: [GitHub repository](https://github.com/elias-sundqvist/obsidian-annotator) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-annotator)
+Links: [GitHub repository](https://github.com/elias-sundqvist/obsidian-annotator) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-annotator)
 Developed by: [[elias-sundqvist]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

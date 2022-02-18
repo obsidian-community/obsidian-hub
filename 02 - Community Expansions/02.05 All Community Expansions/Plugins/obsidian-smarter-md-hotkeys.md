@@ -21,7 +21,7 @@ publish: true
 # Smarter Markdown Hotkeys
 
 Plugin ID: `obsidian-smarter-md-hotkeys`
-Links: [GitHub repository](https://github.com/chrisgrieser/obsidian-smarter-md-hotkeys) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-smarter-md-hotkeys)
+Links: [GitHub repository](https://github.com/chrisgrieser/obsidian-smarter-md-hotkeys) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-smarter-md-hotkeys)
 Developed by: [[chrisgrieser]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

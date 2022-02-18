@@ -21,7 +21,7 @@ publish: true
 # Snippetor
 
 Plugin ID: `obsidian-snippetor`
-Links: [GitHub repository](https://github.com/ebullient/obsidian-snippetor) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-snippetor)
+Links: [GitHub repository](https://github.com/ebullient/obsidian-snippetor) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-snippetor)
 Developed by: [[ebullient]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

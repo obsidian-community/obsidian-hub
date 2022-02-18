@@ -21,7 +21,7 @@ publish: true
 # Chesser
 
 Plugin ID: `chesser-obsidian`
-Links: [GitHub repository](https://github.com/SilentVoid13/Chesser) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=chesser-obsidian)
+Links: [GitHub repository](https://github.com/SilentVoid13/Chesser) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=chesser-obsidian)
 Developed by: [[SilentVoid13]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

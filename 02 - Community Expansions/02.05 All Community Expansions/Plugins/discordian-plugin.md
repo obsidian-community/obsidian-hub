@@ -21,7 +21,7 @@ publish: true
 # Discordian Theme
 
 Plugin ID: `discordian-plugin`
-Links: [GitHub repository](https://github.com/radekkozak/discordian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=discordian-plugin)
+Links: [GitHub repository](https://github.com/radekkozak/discordian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=discordian-plugin)
 Developed by: [[radekkozak]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

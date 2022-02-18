@@ -21,7 +21,7 @@ publish: true
 # JSON Importer
 
 Plugin ID: `obsidian-import-json`
-Links: [GitHub repository](https://github.com/farling42/obsidian-import-json) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-import-json)
+Links: [GitHub repository](https://github.com/farling42/obsidian-import-json) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-import-json)
 Developed by: [[farling42]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

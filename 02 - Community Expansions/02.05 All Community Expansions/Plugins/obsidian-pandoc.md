@@ -21,7 +21,7 @@ publish: true
 # Pandoc Plugin
 
 Plugin ID: `obsidian-pandoc`
-Links: [GitHub repository](https://github.com/OliverBalfour/obsidian-pandoc) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pandoc)
+Links: [GitHub repository](https://github.com/OliverBalfour/obsidian-pandoc) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-pandoc)
 Developed by: [[OliverBalfour]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

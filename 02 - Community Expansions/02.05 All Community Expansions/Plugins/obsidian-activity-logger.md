@@ -21,7 +21,7 @@ publish: true
 # Activity Logger
 
 Plugin ID: `obsidian-activity-logger`
-Links: [GitHub repository](https://github.com/Creling/obsidian-activity-logger) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-activity-logger)
+Links: [GitHub repository](https://github.com/Creling/obsidian-activity-logger) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-activity-logger)
 Developed by: [[Creling]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -21,7 +21,7 @@ publish: true
 # Snippets plugin
 
 Plugin ID: `snippets`
-Links: [GitHub repository](https://github.com/cristianvasquez/obsidian-snippets-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=snippets)
+Links: [GitHub repository](https://github.com/cristianvasquez/obsidian-snippets-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=snippets)
 Developed by: [[cristianvasquez]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

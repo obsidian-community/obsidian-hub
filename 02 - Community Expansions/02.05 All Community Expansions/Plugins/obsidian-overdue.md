@@ -21,7 +21,7 @@ publish: true
 # Overdue
 
 Plugin ID: `obsidian-overdue`
-Links: [GitHub repository](https://github.com/parente/obsidian-overdue) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-overdue)
+Links: [GitHub repository](https://github.com/parente/obsidian-overdue) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-overdue)
 Developed by: [[parente]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

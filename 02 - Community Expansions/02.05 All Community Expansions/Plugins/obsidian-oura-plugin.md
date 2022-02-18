@@ -21,7 +21,7 @@ publish: true
 # Oura Ring
 
 Plugin ID: `obsidian-oura-plugin`
-Links: [GitHub repository](https://github.com/kinabalu/obsidian-oura-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-oura-plugin)
+Links: [GitHub repository](https://github.com/kinabalu/obsidian-oura-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-oura-plugin)
 Developed by: [[kinabalu]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

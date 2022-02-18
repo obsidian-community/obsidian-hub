@@ -21,7 +21,7 @@ publish: true
 # Relative Find
 
 Plugin ID: `obsidian-relative-find`
-Links: [GitHub repository](https://github.com/phibr0/obsidian-relative-find) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-relative-find)
+Links: [GitHub repository](https://github.com/phibr0/obsidian-relative-find) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-relative-find)
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Tomorrow's Daily Note
 
 Plugin ID: `obsidian-tomorrows-daily-note`
-Links: [GitHub repository](https://github.com/frankolson/obsidian-tomorrows-daily-note) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tomorrows-daily-note)
+Links: [GitHub repository](https://github.com/frankolson/obsidian-tomorrows-daily-note) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tomorrows-daily-note)
 Developed by: [[frankolson]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

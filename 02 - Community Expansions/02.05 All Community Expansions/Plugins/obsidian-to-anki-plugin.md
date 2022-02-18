@@ -21,7 +21,7 @@ publish: true
 # Obsidian_to_Anki
 
 Plugin ID: `obsidian-to-anki-plugin`
-Links: [GitHub repository](https://github.com/Pseudonium/Obsidian_to_Anki) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-to-anki-plugin)
+Links: [GitHub repository](https://github.com/Pseudonium/Obsidian_to_Anki) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-to-anki-plugin)
 Developed by: [[Pseudonium]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

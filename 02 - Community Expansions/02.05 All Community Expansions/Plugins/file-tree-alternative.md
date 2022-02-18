@@ -21,7 +21,7 @@ publish: true
 # File Tree Alternative Plugin
 
 Plugin ID: `file-tree-alternative`
-Links: [GitHub repository](https://github.com/ozntel/file-tree-alternative) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=file-tree-alternative)
+Links: [GitHub repository](https://github.com/ozntel/file-tree-alternative) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=file-tree-alternative)
 Developed by: [[ozntel]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

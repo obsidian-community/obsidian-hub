@@ -21,7 +21,7 @@ publish: true
 # Link Archive
 
 Plugin ID: `obsidian-link-archive`
-Links: [GitHub repository](https://github.com/tomzorz/obsidian-link-archive) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-link-archive)
+Links: [GitHub repository](https://github.com/tomzorz/obsidian-link-archive) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-link-archive)
 Developed by: [[tomzorz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

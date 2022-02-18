@@ -21,7 +21,7 @@ publish: true
 # Task Collector (TC)
 
 Plugin ID: `obsidian-task-collector`
-Links: [GitHub repository](https://github.com/ebullient/obsidian-task-collector) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-task-collector)
+Links: [GitHub repository](https://github.com/ebullient/obsidian-task-collector) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-task-collector)
 Developed by: [[ebullient]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

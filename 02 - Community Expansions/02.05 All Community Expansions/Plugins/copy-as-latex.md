@@ -21,7 +21,7 @@ publish: true
 # Copy as Latex
 
 Plugin ID: `copy-as-latex`
-Links: [GitHub repository](https://github.com/mo-seph/obsidian-copy-as-latex) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=copy-as-latex)
+Links: [GitHub repository](https://github.com/mo-seph/obsidian-copy-as-latex) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=copy-as-latex)
 Developed by: [[mo-seph]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

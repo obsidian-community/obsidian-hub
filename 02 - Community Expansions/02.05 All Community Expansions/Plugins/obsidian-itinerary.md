@@ -21,7 +21,7 @@ publish: true
 # Itinerary
 
 Plugin ID: `obsidian-itinerary`
-Links: [GitHub repository](https://github.com/coddingtonbear/obsidian-itinerary) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-itinerary)
+Links: [GitHub repository](https://github.com/coddingtonbear/obsidian-itinerary) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-itinerary)
 Developed by: [[coddingtonbear]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

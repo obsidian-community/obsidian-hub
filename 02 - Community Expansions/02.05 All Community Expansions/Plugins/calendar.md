@@ -21,7 +21,7 @@ publish: true
 # Calendar
 
 Plugin ID: `calendar`
-Links: [GitHub repository](https://github.com/liamcain/obsidian-calendar-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=calendar)
+Links: [GitHub repository](https://github.com/liamcain/obsidian-calendar-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=calendar)
 Developed by: [[liamcain]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

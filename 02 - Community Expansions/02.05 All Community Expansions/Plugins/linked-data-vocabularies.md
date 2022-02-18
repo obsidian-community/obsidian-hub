@@ -21,7 +21,7 @@ publish: true
 # Linked Data Vocabularies
 
 Plugin ID: `linked-data-vocabularies`
-Links: [GitHub repository](https://github.com/kometenstaub/obsidian-linked-data-vocabularies) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=linked-data-vocabularies)
+Links: [GitHub repository](https://github.com/kometenstaub/obsidian-linked-data-vocabularies) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=linked-data-vocabularies)
 Developed by: [[kometenstaub]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

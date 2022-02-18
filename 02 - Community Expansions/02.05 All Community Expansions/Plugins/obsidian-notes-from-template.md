@@ -21,7 +21,7 @@ publish: true
 # From Template
 
 Plugin ID: `obsidian-notes-from-template`
-Links: [GitHub repository](https://github.com/mo-seph/obsidian-note-from-template) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-notes-from-template)
+Links: [GitHub repository](https://github.com/mo-seph/obsidian-note-from-template) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-notes-from-template)
 Developed by: [[mo-seph]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

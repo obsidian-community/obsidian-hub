@@ -21,7 +21,7 @@ publish: true
 # Copy as HTML
 
 Plugin ID: `copy-as-html`
-Links: [GitHub repository](https://github.com/jenningsb2/copy-as-html) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=copy-as-html)
+Links: [GitHub repository](https://github.com/jenningsb2/copy-as-html) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=copy-as-html)
 Developed by: [[jenningsb2]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

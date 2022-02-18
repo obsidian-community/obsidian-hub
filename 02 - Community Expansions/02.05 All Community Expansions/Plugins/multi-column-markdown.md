@@ -21,7 +21,7 @@ publish: true
 # Multi-Column Markdown
 
 Plugin ID: `multi-column-markdown`
-Links: [GitHub repository](https://github.com/ckRobinson/multi-column-markdown) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=multi-column-markdown)
+Links: [GitHub repository](https://github.com/ckRobinson/multi-column-markdown) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=multi-column-markdown)
 Developed by: [[ckRobinson]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

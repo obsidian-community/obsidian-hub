@@ -21,7 +21,7 @@ publish: true
 # Sortable
 
 Plugin ID: `obsidian-sortable`
-Links: [GitHub repository](https://github.com/alexandru-dinu/obsidian-sortable) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-sortable)
+Links: [GitHub repository](https://github.com/alexandru-dinu/obsidian-sortable) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-sortable)
 Developed by: [[alexandru-dinu]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

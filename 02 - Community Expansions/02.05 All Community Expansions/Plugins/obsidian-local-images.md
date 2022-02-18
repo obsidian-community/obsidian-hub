@@ -21,7 +21,7 @@ publish: true
 # Local images
 
 Plugin ID: `obsidian-local-images`
-Links: [GitHub repository](https://github.com/aleksey-rezvov/obsidian-local-images) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-local-images)
+Links: [GitHub repository](https://github.com/aleksey-rezvov/obsidian-local-images) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-local-images)
 Developed by: [[aleksey-rezvov]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

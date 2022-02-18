@@ -21,7 +21,7 @@ publish: true
 # Metacopy
 
 Plugin ID: `obsidian-metacopy`
-Links: [GitHub repository](https://github.com/Mara-Li/obsidian-metacopy) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-metacopy)
+Links: [GitHub repository](https://github.com/Mara-Li/obsidian-metacopy) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-metacopy)
 Developed by: [[Mara-Li]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

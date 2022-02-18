@@ -21,7 +21,7 @@ publish: true
 # ObsidianTweaks
 
 Plugin ID: `obsidian-tweaks`
-Links: [GitHub repository](https://github.com/JeppeKlitgaard/ObsidianTweaks) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tweaks)
+Links: [GitHub repository](https://github.com/JeppeKlitgaard/ObsidianTweaks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tweaks)
 Developed by: [[JeppeKlitgaard]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

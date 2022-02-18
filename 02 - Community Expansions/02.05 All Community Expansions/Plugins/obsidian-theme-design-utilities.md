@@ -21,7 +21,7 @@ publish: true
 # Theme Design Utilities
 
 Plugin ID: `obsidian-theme-design-utilities`
-Links: [GitHub repository](https://github.com/chrisgrieser/obsidian-theme-design-utilities) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-theme-design-utilities)
+Links: [GitHub repository](https://github.com/chrisgrieser/obsidian-theme-design-utilities) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-theme-design-utilities)
 Developed by: [[chrisgrieser]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -21,7 +21,7 @@ publish: true
 # Daf Yomi
 
 Plugin ID: `obsidian-daf-yomi`
-Links: [GitHub repository](https://github.com/lyonsquark/obsidian-daf-yomi) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-daf-yomi)
+Links: [GitHub repository](https://github.com/lyonsquark/obsidian-daf-yomi) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-daf-yomi)
 Developed by: [[lyonsquark]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

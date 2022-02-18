@@ -21,7 +21,7 @@ publish: true
 # Lock Screen
 
 Plugin ID: `obsidian-lock-screen-plugin`
-Links: [GitHub repository](https://github.com/ericbiewener/obsidian-lock-screen-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-lock-screen-plugin)
+Links: [GitHub repository](https://github.com/ericbiewener/obsidian-lock-screen-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-lock-screen-plugin)
 Developed by: [[ericbiewener]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

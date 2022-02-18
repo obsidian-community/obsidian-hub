@@ -21,7 +21,7 @@ publish: true
 # Auto Class
 
 Plugin ID: `auto-class`
-Links: [GitHub repository](https://github.com/OfficerHalf/obsidian-auto-class) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=auto-class)
+Links: [GitHub repository](https://github.com/OfficerHalf/obsidian-auto-class) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=auto-class)
 Developed by: [[OfficerHalf]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Incremental Writing
 
 Plugin ID: `obsidian-incremental-writing`
-Links: [GitHub repository](https://github.com/bjsi/incremental-writing) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-incremental-writing)
+Links: [GitHub repository](https://github.com/bjsi/incremental-writing) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-incremental-writing)
 Developed by: [[bjsi]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

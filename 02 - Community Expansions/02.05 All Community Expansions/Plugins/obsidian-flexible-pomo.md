@@ -21,7 +21,7 @@ publish: true
 # Flexible Pomodoro For Obsidian
 
 Plugin ID: `obsidian-flexible-pomo`
-Links: [GitHub repository](https://github.com/grassbl8d/flexible-pomo-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-flexible-pomo)
+Links: [GitHub repository](https://github.com/grassbl8d/flexible-pomo-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-flexible-pomo)
 Developed by: [[grassbl8d]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

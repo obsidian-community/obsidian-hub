@@ -21,7 +21,7 @@ publish: true
 # Local File Interface
 
 Plugin ID: `obsidian-local-file-interface-plugin`
-Links: [GitHub repository](https://github.com/qawatake/obsidian-local-file-interface-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-local-file-interface-plugin)
+Links: [GitHub repository](https://github.com/qawatake/obsidian-local-file-interface-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-local-file-interface-plugin)
 Developed by: [[qawatake]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

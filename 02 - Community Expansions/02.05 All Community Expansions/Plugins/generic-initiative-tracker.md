@@ -21,7 +21,7 @@ publish: true
 # Generic Initiative Tracker
 
 Plugin ID: `generic-initiative-tracker`
-Links: [GitHub repository](https://github.com/beaushinkle/obsidian-generic-initiative-tracker) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=generic-initiative-tracker)
+Links: [GitHub repository](https://github.com/beaushinkle/obsidian-generic-initiative-tracker) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=generic-initiative-tracker)
 Developed by: [[beaushinkle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

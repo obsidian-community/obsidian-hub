@@ -21,7 +21,7 @@ publish: true
 # Link Headers Directly
 
 Plugin ID: `link-headers-directly`
-Links: [GitHub repository](https://github.com/Signynt/link-headers-directly) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=link-headers-directly)
+Links: [GitHub repository](https://github.com/Signynt/link-headers-directly) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=link-headers-directly)
 Developed by: [[Signynt]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

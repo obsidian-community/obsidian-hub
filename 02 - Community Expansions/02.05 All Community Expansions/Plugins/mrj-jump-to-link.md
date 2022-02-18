@@ -21,7 +21,7 @@ publish: true
 # Jump to link
 
 Plugin ID: `mrj-jump-to-link`
-Links: [GitHub repository](https://github.com/mrjackphil/obsidian-jump-to-link) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=mrj-jump-to-link)
+Links: [GitHub repository](https://github.com/mrjackphil/obsidian-jump-to-link) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=mrj-jump-to-link)
 Developed by: [[mrjackphil]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

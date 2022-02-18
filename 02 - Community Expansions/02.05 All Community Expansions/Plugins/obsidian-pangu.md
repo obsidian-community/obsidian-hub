@@ -21,7 +21,7 @@ publish: true
 # 盘古
 
 Plugin ID: `obsidian-pangu`
-Links: [GitHub repository](https://github.com/Natumsol/obsidian-pangu) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-pangu)
+Links: [GitHub repository](https://github.com/Natumsol/obsidian-pangu) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-pangu)
 Developed by: [[Natumsol]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

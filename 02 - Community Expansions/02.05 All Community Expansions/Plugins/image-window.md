@@ -21,7 +21,7 @@ publish: true
 # Image Window
 
 Plugin ID: `image-window`
-Links: [GitHub repository](https://github.com/valentine195/obsidian-image-window) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=image-window)
+Links: [GitHub repository](https://github.com/valentine195/obsidian-image-window) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=image-window)
 Developed by: [[valentine195]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

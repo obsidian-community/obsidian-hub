@@ -21,7 +21,7 @@ publish: true
 # AnkiBridge
 
 Plugin ID: `obsidian-ankibridge`
-Links: [GitHub repository](https://github.com/JeppeKlitgaard/ObsidianAnkiBridge) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-ankibridge)
+Links: [GitHub repository](https://github.com/JeppeKlitgaard/ObsidianAnkiBridge) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-ankibridge)
 Developed by: [[JeppeKlitgaard]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

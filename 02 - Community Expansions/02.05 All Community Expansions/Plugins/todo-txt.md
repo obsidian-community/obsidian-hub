@@ -21,7 +21,7 @@ publish: true
 # Todo.txt support
 
 Plugin ID: `todo-txt`
-Links: [GitHub repository](https://github.com/trashhalo/obsidian-todo-txt) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=todo-txt)
+Links: [GitHub repository](https://github.com/trashhalo/obsidian-todo-txt) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=todo-txt)
 Developed by: [[trashhalo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

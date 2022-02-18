@@ -21,7 +21,7 @@ publish: true
 # 13th Age Statblocks
 
 Plugin ID: `13th-age-statblocks`
-Links: [GitHub repository](https://github.com/ben/obsidian-13th-age-statblocks) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=13th-age-statblocks)
+Links: [GitHub repository](https://github.com/ben/obsidian-13th-age-statblocks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=13th-age-statblocks)
 Developed by: [[ben]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

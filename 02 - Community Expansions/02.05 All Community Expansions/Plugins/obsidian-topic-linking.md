@@ -21,7 +21,7 @@ publish: true
 # Topic Linking
 
 Plugin ID: `obsidian-topic-linking`
-Links: [GitHub repository](https://github.com/liammagee/obsidian-topic-linking) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-topic-linking)
+Links: [GitHub repository](https://github.com/liammagee/obsidian-topic-linking) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-topic-linking)
 Developed by: [[liammagee]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

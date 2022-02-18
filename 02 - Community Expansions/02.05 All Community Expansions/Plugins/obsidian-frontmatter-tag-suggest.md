@@ -21,7 +21,7 @@ publish: true
 # Frontmatter Tag Suggest
 
 Plugin ID: `obsidian-frontmatter-tag-suggest`
-Links: [GitHub repository](https://github.com/jmilldotdev/obsidian-frontmatter-tag-suggest) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-frontmatter-tag-suggest)
+Links: [GitHub repository](https://github.com/jmilldotdev/obsidian-frontmatter-tag-suggest) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-frontmatter-tag-suggest)
 Developed by: [[jmilldotdev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

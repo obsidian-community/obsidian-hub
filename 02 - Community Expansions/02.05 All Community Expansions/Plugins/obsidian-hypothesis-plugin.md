@@ -21,7 +21,7 @@ publish: true
 # Hypothes.is
 
 Plugin ID: `obsidian-hypothesis-plugin`
-Links: [GitHub repository](https://github.com/weichenw/obsidian-hypothesis-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-hypothesis-plugin)
+Links: [GitHub repository](https://github.com/weichenw/obsidian-hypothesis-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-hypothesis-plugin)
 Developed by: [[weichenw]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -21,7 +21,7 @@ publish: true
 # Graph Analysis
 
 Plugin ID: `graph-analysis`
-Links: [GitHub repository](https://github.com/SkepticMystic/graph-analysis) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=graph-analysis)
+Links: [GitHub repository](https://github.com/SkepticMystic/graph-analysis) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=graph-analysis)
 Developed by: [[SkepticMystic]] and [[HEmile]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

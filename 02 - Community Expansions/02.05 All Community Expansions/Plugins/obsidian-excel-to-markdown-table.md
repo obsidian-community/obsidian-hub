@@ -21,7 +21,7 @@ publish: true
 # Excel to Markdown Table
 
 Plugin ID: `obsidian-excel-to-markdown-table`
-Links: [GitHub repository](https://github.com/ganesshkumar/obsidian-excel-to-markdown-table) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-excel-to-markdown-table)
+Links: [GitHub repository](https://github.com/ganesshkumar/obsidian-excel-to-markdown-table) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-excel-to-markdown-table)
 Developed by: [[ganesshkumar]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

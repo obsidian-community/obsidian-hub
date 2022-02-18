@@ -21,7 +21,7 @@ publish: true
 # MarginNote Companion
 
 Plugin ID: `marginnote-companion`
-Links: [GitHub repository](https://github.com/aidenlx/marginnote-companion) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=marginnote-companion)
+Links: [GitHub repository](https://github.com/aidenlx/marginnote-companion) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=marginnote-companion)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

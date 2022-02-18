@@ -21,7 +21,7 @@ publish: true
 # CookLang Editor
 
 Plugin ID: `cooklang-obsidian`
-Links: [GitHub repository](https://github.com/deathau/cooklang-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cooklang-obsidian)
+Links: [GitHub repository](https://github.com/deathau/cooklang-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=cooklang-obsidian)
 Developed by: [[deathau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

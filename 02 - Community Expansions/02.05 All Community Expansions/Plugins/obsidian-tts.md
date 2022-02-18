@@ -21,7 +21,7 @@ publish: true
 # Text to Speech
 
 Plugin ID: `obsidian-tts`
-Links: [GitHub repository](https://github.com/joethei/obsidian-tts) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tts)
+Links: [GitHub repository](https://github.com/joethei/obsidian-tts) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tts)
 Developed by: [[joethei]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

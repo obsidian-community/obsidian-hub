@@ -21,7 +21,7 @@ publish: true
 # Journey
 
 Plugin ID: `obsidian-journey-plugin`
-Links: [GitHub repository](https://github.com/akaalias/obsidian-journey-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-journey-plugin)
+Links: [GitHub repository](https://github.com/akaalias/obsidian-journey-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-journey-plugin)
 Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

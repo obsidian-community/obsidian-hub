@@ -21,7 +21,7 @@ publish: true
 # HTML Tags Autocomplete
 
 Plugin ID: `obsidian-html-tags-autocomplete`
-Links: [GitHub repository](https://github.com/bicarlsen/obsidian_html_tags_autocomplete) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-html-tags-autocomplete)
+Links: [GitHub repository](https://github.com/bicarlsen/obsidian_html_tags_autocomplete) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-html-tags-autocomplete)
 Developed by: [[bicarlsen]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

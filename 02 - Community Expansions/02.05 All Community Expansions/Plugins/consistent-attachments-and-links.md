@@ -21,7 +21,7 @@ publish: true
 # Consistent attachments and links
 
 Plugin ID: `consistent-attachments-and-links`
-Links: [GitHub repository](https://github.com/dy-sh/obsidian-consistent-attachments-and-links) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=consistent-attachments-and-links)
+Links: [GitHub repository](https://github.com/dy-sh/obsidian-consistent-attachments-and-links) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=consistent-attachments-and-links)
 Developed by: [[dy-sh]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

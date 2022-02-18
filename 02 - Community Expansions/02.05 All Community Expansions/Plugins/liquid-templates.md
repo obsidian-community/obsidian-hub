@@ -21,7 +21,7 @@ publish: true
 # Liquid Templates
 
 Plugin ID: `liquid-templates`
-Links: [GitHub repository](https://github.com/oeN/liquid-template) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=liquid-templates)
+Links: [GitHub repository](https://github.com/oeN/liquid-template) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=liquid-templates)
 Developed by: [[oeN]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

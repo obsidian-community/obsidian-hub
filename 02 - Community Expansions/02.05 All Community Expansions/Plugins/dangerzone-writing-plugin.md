@@ -21,7 +21,7 @@ publish: true
 # Dangerzone Writing
 
 Plugin ID: `dangerzone-writing-plugin`
-Links: [GitHub repository](https://github.com/akaalias/dangerzone-writing-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=dangerzone-writing-plugin)
+Links: [GitHub repository](https://github.com/akaalias/dangerzone-writing-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=dangerzone-writing-plugin)
 Developed by: [[akaalias]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

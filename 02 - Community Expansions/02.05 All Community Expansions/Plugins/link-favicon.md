@@ -21,7 +21,7 @@ publish: true
 # Link Favicons
 
 Plugin ID: `link-favicon`
-Links: [GitHub repository](https://github.com/joethei/obsidian-link-favicon) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=link-favicon)
+Links: [GitHub repository](https://github.com/joethei/obsidian-link-favicon) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=link-favicon)
 Developed by: [[joethei]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

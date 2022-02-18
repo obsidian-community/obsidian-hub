@@ -21,7 +21,7 @@ publish: true
 # Better File Link
 
 Plugin ID: `obsidian-file-link`
-Links: [GitHub repository](https://github.com/marcjulianschwarz/obsidian-file-link) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-file-link)
+Links: [GitHub repository](https://github.com/marcjulianschwarz/obsidian-file-link) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-file-link)
 Developed by: [[marcjulianschwarz]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

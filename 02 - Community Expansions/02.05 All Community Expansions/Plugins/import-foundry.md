@@ -21,7 +21,7 @@ publish: true
 # Import Foundry VTT journal entries
 
 Plugin ID: `import-foundry`
-Links: [GitHub repository](https://github.com/farling42/obsidian-import-foundry) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=import-foundry)
+Links: [GitHub repository](https://github.com/farling42/obsidian-import-foundry) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=import-foundry)
 Developed by: [[farling42]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

@@ -21,7 +21,7 @@ publish: true
 # Quick Explorer
 
 Plugin ID: `quick-explorer`
-Links: [GitHub repository](https://github.com/pjeby/quick-explorer) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=quick-explorer)
+Links: [GitHub repository](https://github.com/pjeby/quick-explorer) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=quick-explorer)
 Developed by: [[pjeby]]
 Mobile compatible: [[Desktop-only plugins|No]]
 

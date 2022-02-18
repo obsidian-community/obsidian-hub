@@ -21,7 +21,7 @@ publish: true
 # Audio Speed Plugin
 
 Plugin ID: `obsidian-audio-speed-plugin`
-Links: [GitHub repository](https://github.com/kaizau/obsidian-audio-speed-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-audio-speed-plugin)
+Links: [GitHub repository](https://github.com/kaizau/obsidian-audio-speed-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-audio-speed-plugin)
 Developed by: [[kaizau]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

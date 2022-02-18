@@ -21,7 +21,7 @@ publish: true
 # Plotly
 
 Plugin ID: `obsidian-plotly`
-Links: [GitHub repository](https://github.com/Dmitriy-Shulha/obsidian-plotly) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-plotly)
+Links: [GitHub repository](https://github.com/Dmitriy-Shulha/obsidian-plotly) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-plotly)
 Developed by: [[Dmitriy-Shulha]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

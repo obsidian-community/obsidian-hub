@@ -21,7 +21,7 @@ publish: true
 # TagFolder
 
 Plugin ID: `obsidian-tagfolder`
-Links: [GitHub repository](https://github.com/vrtmrz/obsidian-tagfolder) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-tagfolder)
+Links: [GitHub repository](https://github.com/vrtmrz/obsidian-tagfolder) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tagfolder)
 Developed by: [[vrtmrz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
