@@ -1,0 +1,1835 @@
+/*蓝色托帕石，适合Obsidian v0.13.23。uid [20220202] flying fly flies制作，欢迎使用及分享，借鉴（copy）了许多主题，在此一一感谢。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
+/*Blue Topaz for Obsidian v0.13.23, uid [20220202] created by flying fly flies. Feel free to use, share and modify. Thanks for all shared css themes which inspire me a lot. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
+
+/* 致谢 Credits：
+@LillianWho @成雙酱 @嘴上云 @Cuman @Klaas @Thinkbond @Rainbell129(AKA Lavi) @awyugan */
+
+
+/* @settings
+name: Blue Topaz Theme
+id: blue-topaz-theme
+settings:
+  - 
+    id: translucent-setting-panel
+    title: Translucent Setting Panel
+    title.zh: 半透明窗口
+    description: Make this panel translucent
+    description.zh: 使本窗口半透明，便于设置
+    type: class-toggle
+    default: false
+  - 
+    id: background-settings
+    title: 1. General Settings
+    title.zh: 1. 整体性设置
+    type: heading
+    level: 1
+    collapsed: false
+  - 
+    id: color-settings
+    title: 1.1 Color Palette
+    title.zh: 1.1 颜色设置
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: color-scheme-options
+    title: Color Palette (from Topaz Community)
+    title.zh: 整体配色选择 (由Topaz社区贡献)
+    type: class-select
+    allowEmpty: false
+    default: color-scheme-options-default
+    options:
+      - 
+        label: Default
+        value: color-scheme-options-default
+      - 
+        label: Avocado
+        value: color-scheme-options-avocado-topaz
+      - 
+        label: Monochrome 
+        value: color-scheme-options-monochrome-topaz
+      - 
+        label: Pink
+        value: color-scheme-options-pink-topaz
+      - 
+        label: Topaz-Nord (Coming soon)
+        value: color-scheme-options-topaz-nord
+      - 
+        label: =↓👩😺 Created by Topaz Community 🐵🧑↓=
+        value: 
+      -
+        label: Flamingo (@Mouth on Cloud & @Rainbell)
+        value: color-scheme-options-flamingo
+      -
+        label: Honey milk (@LillianWho)
+        value: color-scheme-options-honey-milk-topaz
+      -
+        label: 榛子巧克力 Hazelnut chocolate (@LillianWho)
+        value: color-scheme-options-chocolate-topaz
+      - 
+        label: Lilac (@awyugan)
+        value: color-scheme-options-lilac
+      - 
+        label: Autumn (@LillianWho)
+        value: color-scheme-options-autumn-topaz  
+      -
+        label: 魔方 Rubik's Cube (@LillianWho)
+        value: color-scheme-options-lillimon-topaz 
+  -
+    id: color-magic
+    title: Color of Rubik's Cube palette
+    title.zh: 魔方配色
+    description.zh: 当整体配色为【魔方】时生效
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: magic-main-color
+    title: main color
+    title.zh: 主题色
+    description.zh: 主题色主要作用于标题，字体，列表等主色调，建议用对比度强，不易疲劳的色系。如果想单独调整个别类目请在2.1中继续细调。
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    default-light: '#95a503'
+    default-dark: '#95a503'
+  -
+    id: magic-low-color
+    title: low color
+    title.zh: 浅色
+    description.zh: 浅色主要作用于各类触发背景底色，建议用不影响阅读的背景色系。
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    default-light: '#e0e79a'
+    default-dark: '#e0e79a'
+  -
+    id: magic-deep-color
+    title: deep color
+    title.zh: 深色
+    description.zh: 深色主要作用于主题强调色系，用在各种控件，提示等使用，建议用浅色相关的醒目色系。
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    default-light: '#746909'
+    default-dark: '#746909'
+  - 
+    id: background-settings
+    title: 1.2 Background Images
+    title.zh: 1.2 背景设置
+    type: heading
+    level: 2
+    collapsed: true
+  - 
+    id: background-settings-workplace
+    title: 1.2.1 Workplace background image
+    title.zh: 1.2.1 工作页面背景
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: background-settings-workplace-background-image
+    title:  Activate Image Background
+    title.zh: 开启背景
+    type: class-toggle
+    default: false
+  - 
+    id: blur-depth
+    title: blur depth
+    title.zh: 模糊程度
+    description: To adjust the degree of blur
+    description.zh: 调整背景壁纸模糊程度
+    type: variable-number-slider
+    default: 10
+    format: px
+    min: 0
+    max: 30
+    step: 1
+  - 
+    id: brightness-4-bg
+    title: Brightness of Image
+    title.zh: 图片亮度
+    description: To adjust the brightness
+    description.zh: 调整背景壁纸亮度
+    type: variable-number-slider
+    default: 0.9
+    min: 0.3
+    max: 1.5
+    step: 0.1
+  - 
+    id: saturate-4-bg
+    title: Saturation of Image
+    title.zh: 图片饱和度
+    description: To adjust the saturation
+    description.zh: 调整背景壁纸饱和度
+    type: variable-number-slider
+    default: 1
+    min: 0
+    max: 2
+    step: 0.1
+  -
+    id: background-settings-workplace-theme-light
+    title: Theme light
+    type: class-select
+    allowEmpty: false
+    default: background-settings-workplace-theme-light-in-the-sky
+    options:
+      - 
+        label: Blue Mountain
+        value: background-settings-workplace-theme-light-blue-mountain
+      - 
+        label: In the sky
+        value: background-settings-workplace-theme-light-in-the-sky
+      - 
+        label: Orange
+        value: background-settings-workplace-theme-light-orange
+      - 
+        label: Macaw
+        value: background-settings-workplace-theme-light-macaw
+      - 
+        label: Leaf
+        value: background-settings-workplace-theme-light-leaf
+      - 
+        label: Custom
+        value: background-settings-workplace-theme-light-custom-option
+  -
+    id: background-settings-workplace-theme-light-custom
+    title: Custom Theme light (url)
+    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片  url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    type: variable-text
+    default: url("https://") 
+  -
+    id: background-settings-workplace-theme-dark
+    title: Theme dark
+    type: class-select
+    allowEmpty: false
+    default: background-settings-workplace-theme-dark-in-the-sky
+    options:
+      - 
+        label: Night sky 
+        value: background-settings-workplace-theme-dark-night-sky
+      - 
+        label: Dark sky 
+        value: background-settings-workplace-theme-dark-dark-sky
+      - 
+        label: In the sky
+        value: background-settings-workplace-theme-dark-in-the-sky
+      - 
+        label: Blue wave 
+        value: background-settings-workplace-theme-dark-blue-wave
+      - 
+        label: Jellyfish 1     
+        value: background-settings-workplace-theme-dark-jellyfish-1
+      - 
+        label: Jellyfish 2   
+        value: background-settings-workplace-theme-dark-jellyfish-2
+      - 
+        label: Hyacinth macaw
+        value: background-settings-workplace-theme-dark-hyacinth-macaw
+      - 
+        label: Custom
+        value: background-settings-workplace-theme-dark-custom-option
+  -
+    id: background-settings-workplace-theme-dark-custom
+    title: Custom Theme Dark (url)
+    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片  url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    type: variable-text
+    default: url("https://")
+  -
+    id: background-settings-markdown-page
+    title: 1.2.2 Note Page Background Image
+    title.zh: 1.2.2 笔记背景
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: background-image-settings-switch
+    title: Switch off Background Images
+    title.zh: 移除笔记背景
+    type: class-toggle
+    default: false
+  - 
+    id: background-image-settings-markdown-page-options
+    title: Choose Images 
+    title.zh: 选择背景
+    type: class-select
+    allowEmpty: false
+    default: background-image-settings-markdown-page-default
+    options:
+      - 
+        label: Default
+        value: background-image-settings-markdown-page-default
+      - 
+        label: Sea and Sky
+        value: background-image-settings-markdown-page-sea-and-sky
+      - 
+        label: Four Seasons
+        value: background-image-settings-markdown-page-four-seasons
+      - 
+        label: Woof Meow
+        value: background-image-settings-markdown-page-woof-meow
+      - 
+        label: White and Black
+        value: background-image-settings-markdown-page-white-and-black
+      - 
+        label: Kawaii
+        value: background-image-settings-markdown-page-kawaii 
+  -
+    id: background-image-settings-markdown-page-random
+    title: Random Background Images
+    title.zh: 随机背景
+    description: Images will be refreshed when Obsidian launches; network is needed
+    description.zh: 图片在Obsidian打开时刷新；需要联网 
+    type: class-toggle
+    default: false
+  - 
+    id: background-image-settings-markdown-page-random-options
+    title: Random image with a certain color
+    title.zh: 特定颜色的随机背景
+    type: class-select
+    allowEmpty: false
+    default: background-image-settings-markdown-page-random-default
+    options:
+      - 
+        label: None
+        value: background-image-settings-markdown-page-random-default
+      - 
+        label: Blue
+        value: background-image-settings-markdown-page-random-blue
+      - 
+        label: Green
+        value: background-image-settings-markdown-page-random-green
+      - 
+        label: Pink
+        value: background-image-settings-markdown-page-random-pink
+      -
+        label: Purple
+        value: background-image-settings-markdown-page-random-purple
+      -
+        label: Red
+        value: background-image-settings-markdown-page-random-red
+      - 
+        label: Yellow and Orange
+        value: background-image-settings-markdown-page-random-yellow-and-orange
+  - 
+    id: layout-settings
+    title: 1.3 Layout
+    title.zh: 1.3 界面布局样式
+    type: heading
+    level: 2
+    collapsed: true
+  - 
+    id: fix-right-ribbon
+    title: Fix Right Ribbon
+    title.zh: 固定右侧边栏
+    type: class-toggle
+    default: false
+  -
+    id: layout-style-options
+    title: Layout Styles
+    title.zh: 界面布局样式选择
+    type: class-select
+    allowEmpty: false
+    default: layout-style-options-default
+    options:
+      - 
+        label: Default
+        value: layout-style-options-default
+      - 
+        label: Rectangle
+        value: layout-style-options-rectangle
+  -
+    id: hide-titlebar-text
+    title: Hide text in Title Bar
+    title.zh: 隐藏Obsidian标题栏中的文字
+    type: class-toggle
+    default: false
+  -
+    id: hide-vault-name
+    title: Hide vault name
+    title.zh: 隐藏侧边栏中的库名称
+    type: class-toggle
+    default: false
+  -
+    id: bt-status-off
+    title: Reduced Status Bar
+    title.zh: 使用半宽状态栏
+    type: class-toggle
+    default: false
+	-
+    id: background-settings
+    title: 2. Detail Settings
+    title.zh: 2. 细节设置
+    type: heading
+    level: 1
+    collapsed: true
+  - 
+    id: color-settings
+    title: 2.1 Color Settings
+    title.zh: 2.1 颜色设置
+    type: heading
+    level: 2
+    collapsed: true
+  - 
+    id: text-normal
+    title: Main text color
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#0e0e0e'
+    default-dark: '#bdbdbd'
+  -
+    id: background-color-settings
+    title: 2.1.1 Background Colors
+    title.zh: 2.1.1 背景颜色设置
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: background-primary-bg-4-bt
+    title: Background Primary
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#ffffff'
+    default-dark: '#222222'
+  -
+    id: background-primary-alt-bg-4-bt
+    title: Background Primary (alt)
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#e9e9e9'
+    default-dark: '#444444'
+  -
+    id: background-secondary-bg-4-bt
+    title: Background Secondary
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#fcfcfc'
+    default-dark: '#2c2c2c'
+  -
+    id: background-secondary-alt-bg-4-bt
+    title: Background Secondary (alt)
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#eeeeee'
+    default-dark: '#000000'
+  -
+    id: background-modifier-border
+    title: Background Modifier Border
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    default-light: '#dddddd'
+    default-dark: '#333333'
+  -
+    id: accent-color-settings
+    title: 2.1.2 Accent Colors
+    title.zh: 2.1.2 强调色设置
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: interactive-accent
+    title: Theme Color
+    title.zh: 主题色
+    description: interactive-accent
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#2f92e4'
+    default-dark: '#2d82cc'
+  -
+    id: text-accent
+    title: Theme Color 2
+    title.zh: 主题色 2
+    description: text-accent
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#007de4'
+    default-dark: '#4695da'
+  -
+    id: header-color-settings
+    title: 2.1.3 Header colors
+    title.zh: 2.1.3 标题颜色
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: h1-color
+    title: Header 1
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#08367c'
+    default-dark: '#85bb1f'
+  -
+    id: h2-color
+    title: Header 2
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#004faa'
+    default-dark: '#27b822'
+  -
+    id: h3-color
+    title: Header 3
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#0e64bb'
+    default-dark: '#1bbbbb'
+  -
+    id: h4-color
+    title: Header 4
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#3481c5'
+    default-dark: '#2f7fe9'
+  -
+    id: h5-color
+    title: Header 5
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#59a0e2'
+    default-dark: '#a192f7'
+  -
+    id: h6-color
+    title: Header 6
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#88b8e6'
+    default-dark: '#c173ee'
+  -
+    id: tag-color-settings
+    title: 2.1.4 Tag Colors
+    title.zh: 2.1.4 标签颜色
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: tag-text
+    title: Tag Text
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#f8f8f8'
+    default-dark: '#e4e4e4'
+  - 
+    id: tag1
+    title: Tag-1
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#1f75ff'
+    default-dark: '#006ec7'
+  -
+    id: tag2
+    title: Tag-2
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#2193f0'
+    default-dark: '#007e78'
+  -
+    id: tag3
+    title: Tag-3
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#17a5e7'
+    default-dark: '#007b06'
+  -
+    id: tag4
+    title: Tag-4
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#14acc7'
+    default-dark: '#827900'
+  -
+    id: tag5
+    title: Tag-5
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#10bdbd'
+    default-dark: '#96390e'
+  -
+    id: tag6
+    title: Tag-6
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#12c690'
+    default-dark: '#9a0c0c'
+  -
+    id: tag7
+    title: Tag-7
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#0dc416'
+    default-dark: '#9a1e93'
+  -
+    id: tag8
+    title: Tag-8
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#61c108'
+    default-dark: '#6e2ec1'
+  -
+    id: tag9
+    title: Tag-9
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#6ab607'
+    default-dark: '#2244d8'
+  -
+    id: other-color-settings
+    title: 2.1.5 Other Colors
+    title.zh: 2.1.5 其他颜色
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: text-color-code
+    title: Inline Code Color
+    title.zh: 行内代码颜色
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#e95d00'
+    default-dark: '#d58000'
+  -
+    id: list-format-ul
+    title: Bullet Color of Unordered List
+    title.zh: 无序列表点颜色
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#0e0e0e'
+    default-dark: '#bdbdbd'
+  -
+    id: list-ol-number-color
+    title: Number Color of Ordered List
+    title.zh: 有序列表数字颜色
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#6196d6'
+    default-dark: '#2c7bd6'
+  -
+    id: accent-strong
+    title: Bold Type color
+    title.zh: 加粗颜色
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#000000'
+    default-dark: '#f7f7f7'
+  -
+    id: accent-em
+    title: Italic Type color
+    title.zh: 斜体颜色
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#099d4e'
+    default-dark: '#a4ca8e'
+  -
+    id: mjx-math-color
+    title: Color of Mathematical Expressions
+    title.zh: 数学表达式颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#0e0e0e'
+    default-dark: '#bdbdbd'
+  -
+    id: background-leaf-resize-handle
+    title: Color of Leaf Resize Handle
+    title.zh: 页面大小调整条颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#e9e9e9'
+    default-dark: '#000000'
+  -
+    id: font-settings
+    title: 2.2 Typography
+    title.zh: 2.2 排版
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: font-settings
+    title: 2.2.1 Font Family
+    title.zh: 2.2.1 字体设置
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: font-family-change-to-default
+    title: Use Obsidian Default Font-family
+    title.zh: 使用Obsidian默认字体
+    type: class-toggle
+    default: false
+  -
+    id: font-family-major
+    title: Main Font
+    title.zh: 主体字体
+    description: Fonts except from the code texts
+    description.zh: 除代码框外字体
+    type: variable-text
+    default: "Bookerly, Merriweather, 'LXGW WenKai', 'Segoe UI Emoji', var(--default-font)"
+  - 
+    id: font-family-h1
+    title: Header 1
+    type: variable-text
+    default: "var(--default-font)"
+  - 
+    id: font-family-h2
+    title: Header 2 
+    type: variable-text
+    default: "var(--default-font)"
+  - 
+    id: font-family-h3
+    title: Header 3
+    type: variable-text
+    default: "var(--default-font)"
+  -
+    id: font-family-h4
+    title: Header 4
+    type: variable-text
+    default: "var(--default-font)"
+  - 
+    id: font-family-h5
+    title: Header 5
+    type: variable-text
+    default: "Bookerly, Merriweather, 'LXGW WenKai', var(--default-font)"
+  - 
+    id: font-family-h6
+    title: Header 6
+    type: variable-text
+    default: "Bookerly, Merriweather, 'LXGW WenKai', var(--default-font)"
+  - 
+    id: font-family-folder-file-title
+    title: Folder & File Title
+    title.zh: 文件栏字体
+    type: variable-text
+    default: "Arlrdbd, 'Source Han Sans', 'Noto Sans CJK', 'Source Sans Pro', 'Segoe UI Emoji', sans-serif"
+  - 
+    id: font-family-preview-edit-code
+    title: Codebox
+    title.zh: 代码框字体
+    type: variable-text
+    default: "Consolas, Monaco, 'Source Han Mono', 'Microsoft Yahei Mono', 'Segoe UI Emoji', 'Microsoft YaHei', 'Source Code Pro',  monospace"
+  -
+    id: font-family-inline-code
+    title: Inline Code
+    title.zh: 行内代码字体
+    type: variable-text
+    default: var(--font-family-preview-edit-code)
+  - 
+    id: font-family-tag
+    title: Tag
+    title.zh: 标签字体
+    type: variable-text
+    default: "Bookerly, 'Microsoft YaHei', STzhongsong, STSong, 'Segoe UI Emoji', Serif"
+  - 
+    id: font-family-strong
+    title: Bold Text
+    title.zh: 加粗文字字体
+    type: variable-text
+    default: "Bookerly, 'LXGW WenKai Screen R', 'LXGW WenKai UI', 'Segoe UI Emoji', var(--default-font)"
+  - 
+    id: font-family-em
+    title: Italic Text
+    title.zh: 斜体文字字体
+    type: variable-text
+    default: "var(--font-family-major)"
+  - 
+    id: font-family-vault
+    title: Vault Name
+    title.zh: 库名字体
+    type: variable-text
+    default: "'Lucida Handwriting', 'Segoe UI Emoji'"
+  - 
+    id: font-size-settings
+    title: 2.2.2 Font Size
+    title.zh: 2.2.2 字体大小
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: font-size-vault-name
+    title: Vault Name
+    title.zh: 库名称大小
+    type: variable-text
+    default: 0.95em
+  -
+    id: font-size-file-header-title
+    title: File Header (NOT for Sliding Pane plugin)
+    title.zh: 文件抬头标题 (非Sliding Pane plugin)
+    type: variable-text
+    default: 0.9375em
+  -
+    id: font-size-file-header-title-andy-plugin
+    title: File Header (for Sliding Pane plugin)
+    title.zh: 文件抬头标题 (Sliding Pane plugin)
+    type: variable-text
+    default: 1em
+  -
+    id: font-size-folder-and-file
+    title: Folder and File
+    title.zh: 左侧边栏文件字体大小
+    type: variable-text
+    default: 0.85em
+  -
+    id: font-size-code
+    title: Codeblock
+    title.zh: 代码框字体大小
+    type: variable-text
+    default: 1em
+  -
+    id: font-size-h1
+    title: Header 1
+    title.zh: 标题 1
+    type: variable-text
+    default: 1.5625em
+  -
+    id: font-size-h2
+    title: Header 2
+    title.zh: 标题 2
+    type: variable-text
+    default: 1.4375em
+  -
+    id: font-size-h3
+    title: Header 3
+    title.zh: 标题 3
+    type: variable-text
+    default: 1.3125em
+  -
+    id: font-size-h4
+    title: Header 4
+    title.zh: 标题 4
+    type: variable-text
+    default: 1.1875em
+  -
+    id: font-size-h5
+    title: Header 5
+    title.zh: 标题 5
+    type: variable-text
+    default: 1.0625em
+  -
+    id: font-size-h6
+    title: Header 6
+    title.zh: 标题 6
+    type: variable-text
+    default: 0.9375em
+  -
+    id: headering-settings
+    title: 2.2.3 Headering
+    title.zh: 2.2.3 文内标题（H1-H6）
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: clutter-free-headings
+    title: Clutter Free Headings
+    title.zh: 编辑状态使用H1 H2 替代「#」(显示标题级别)
+    description:  Adapted from https://github.com/deathau/obsidian-snippets/blob/main/clutter-free-headings.css
+    type: class-toggle
+    default: false
+  -
+    id: h1-settings
+    title: 2.2.3.1 Header 1
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: h1-toggle-underline
+    title: toggle h1 underline
+    title.zh: 切换h1下划线
+    type: class-toggle
+    default: false
+  -
+    id: h1-text-align-settings
+    title: H1 text-align
+    title.zh: H1 位置
+    type: class-select
+    allowEmpty: false
+    default: h1-text-align-start
+    options:
+      -
+        label: Default (Left/Start)
+        value: h1-text-align-start
+      - 
+        label: Center
+        value: h1-text-align-center
+      -
+        label: Right/End
+        value: h1-text-align-end
+  -
+    id: h2-settings
+    title: 2.2.3.2 Header 2
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: h2-toggle-underline
+    title: toggle H2 underline
+    title.zh: 切换H2下划线
+    type: class-toggle
+    default: false
+  -
+    id: h2-text-align-settings
+    title: H2 text-align
+    title.zh: H2 位置
+    type: class-select
+    allowEmpty: false
+    default: h2-text-align-start
+    options:
+      -
+        label: Default (Left/Start)
+        value: h2-text-align-start
+      - 
+        label: Center
+        value: h2-text-align-center
+      -
+        label: Right/End
+        value: h2-text-align-end
+  -
+    id: h3-settings
+    title: 2.2.3.3 Header 3
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: h3-toggle-underline
+    title: toggle H3 underline
+    title.zh: 切换H3下划线
+    type: class-toggle
+    default: false
+  -
+    id: h3-text-align-settings
+    title: H3 text-align
+    title.zh: H3 位置
+    type: class-select
+    allowEmpty: false
+    default: h3-text-align-start
+    options:
+      -
+        label: Default (Left/Start)
+        value: h3-text-align-start
+      - 
+        label: Center
+        value: h3-text-align-center
+      -
+        label: Right/End
+        value: h3-text-align-end
+  -
+    id: h4-settings
+    title: 2.2.3.4 Header 4
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: h4-toggle-underline
+    title: toggle H4 underline
+    title.zh: 切换H4下划线
+    type: class-toggle
+    default: false
+  -
+    id: h4-text-align-settings
+    title: H4 text-align
+    title.zh: H4 位置
+    type: class-select
+    allowEmpty: false
+    default: h4-text-align-start
+    options:
+      -
+        label: Default (Left/Start)
+        value: h4-text-align-start
+      - 
+        label: Center
+        value: h4-text-align-center
+      -
+        label: Right/End
+        value: h4-text-align-end
+  -
+    id: h5-settings
+    title: 2.2.3.5 Header 5
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: h5-toggle-underline
+    title: toggle H5 underline
+    title.zh: 切换H5下划线
+    type: class-toggle
+    default: false
+  -
+    id: h5-text-align-settings
+    title: H5 text-align
+    title.zh: H5 位置
+    type: class-select
+    allowEmpty: false
+    default: h5-text-align-start
+    options:
+      -
+        label: Default (Left/Start)
+        value: h5-text-align-start
+      - 
+        label: Center
+        value: h5-text-align-center
+      -
+        label: Right/End
+        value: h5-text-align-end
+  -
+    id: h6-settings
+    title: 2.2.3.6 Header 6
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: h6-toggle-underline
+    title: toggle H6 underline
+    title.zh: 切换H6下划线
+    type: class-toggle
+    default: false
+  -
+    id: h6-text-align-settings
+    title: H6 text-align
+    title.zh: H6 位置
+    type: class-select
+    allowEmpty: false
+    default: h6-text-align-start
+    options:
+      -
+        label: Default (Left/Start)
+        value: h6-text-align-start
+      - 
+        label: Center
+        value: h6-text-align-center
+      -
+        label: Right/End
+        value: h5-text-align-end
+  -
+    id: other-typography-settings
+    title: 2.2.4 Other Settings
+    title.zh: 2.2.4 其他设置
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: line-width-readable
+    title: Line width (in the mode of 'Readable line length')
+    title.zh: 行宽（缩减栏宽模式下）
+    description: The maximum line width in rem units (1rem = Body font size)
+    type: variable-number
+    default: 42
+    format: rem
+  -
+    id: line-height-main
+    title: Line Height
+    title.zh: 行间距
+    type: variable-number
+    default: 1.5
+  -
+    id: letter-space-main
+    title: Letter Spacing
+    title.zh: 字间距
+    type: variable-number-slider
+    default: 1
+    min: 0
+    max: 2
+    step: 0.1
+  -
+    id: letter-space-code
+    title: Letter Spacing for Code
+    title.zh: 代码字间距
+    type: variable-number-slider
+    default: 0
+    min: 0
+    max: 2
+    step: 0.1
+  -
+    id: text-indentation-two-em
+    title: Text-indent of the first line in preview mode
+    title.zh: 段落首行缩进（预览模式）
+    type: class-toggle
+    default: false
+  -
+    id: style-change-options
+    title: 2.3 Element Styles
+    title.zh: 2.3 其他样式设置
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: circular-checkbox
+    title: Circular Checkbox
+    title.zh: 圆形勾选框
+    type: class-toggle
+    default: false
+  -
+    id: muted-activeline-bg
+    title: Mute Active Line
+    title.zh: 取消所在行高亮
+    type: class-toggle
+    default: false
+  -
+    id: image-zoom
+    title: Deactivate image zooming
+    title.zh: 取消点击图片放大效果
+    type: class-toggle
+    default: false
+  -
+    id: plain-file-title
+    title: Remove colorful background of active file title
+    title.zh: 取消激活文件标题的彩色背景
+    description: Make it austere
+    type: class-toggle
+    default: false
+  -
+    id: link-underline
+    title: Remove underlines of external links
+    title.zh: 取消预览状态链接下划线
+    type: class-toggle
+    default: false
+  -
+    id: loading-animation
+    title: Animation on the Loading Page 
+    title.zh: 加载页面的动画
+    type: class-toggle
+    default: false
+  -
+    id: remove-custom-svg-icons
+    title: Remove Custom Icons
+    title.zh: 还原默认图标
+    type: class-toggle
+    default: false
+  - 
+    id: default-icons
+    title: Remove Collapse Icons
+    title.zh: 还原折叠图标
+    type: class-toggle
+    default: false
+  - 
+    id: fancy-hr-folder
+    title: 2.3.1 Horizontal Ruler (hr, ---)
+    title.zh: 2.3.1 分割线（hr，---）
+    type: heading
+    level: 3
+    collapsed: true  
+  -
+    id: fancy-hr
+    title: Fancy Horizontal Ruler (hr)
+    title.zh: 装饰性分割线（hr，---）
+    type: class-select
+    allowEmpty: false
+    default: default-hr
+    options:
+      -
+        label: Default
+        value: default-hr
+      - 
+        label: with icons
+        value: fancy-hr-icon
+      - 
+        label: without icons
+        value: fancy-hr-no-icon
+  -
+    id: fancy-hr-folder-icon
+    title: 2.3.1.1 w/ Icons
+    title.zh: 2.3.1.1 有图标的hr
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: fancy-hr-icon
+    title: Centre Icon
+    title.zh: 分割线中间图标
+    description: Do not remove the quotes
+    description.zh: 保留引号
+    type: variable-text
+    default: "'😀'"
+  -
+    id: fancy-hr-rotate
+    title: Degree of icon rotation 
+    title.zh: 图标旋转角度
+    type: variable-number
+    default: 0
+    format: deg
+  -
+    id: fancy-hr-folder-no-icon
+    title: 2.3.1.1 w/o Icons
+    title.zh: 2.3.1.1 没有图标的hr
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: hr-color-1
+    title: hr-color-1
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#007de4'
+    default-dark: '#53aaf5'
+  -
+    id: hr-color-2
+    title: hr-color-2
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#007de4'
+    default-dark: '#53aaf5'
+  -
+    id: hr-color-3
+    title: hr-color-3
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#007de4'
+    default-dark: '#53aaf5'
+  -
+    id: hr-color-4
+    title: hr-color-4
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#007de4'
+    default-dark: '#53aaf5'
+  -
+    id: list-style-change-options-folder
+    title: 2.3.2 List
+    title.zh: 2.3.2 列表
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: line-height-list
+    title: Line Height of List
+    title.zh: 列表行间距
+    type: variable-number
+    default: 1.4
+  -
+    id: list-style-change-options
+    title: List
+    title.zh: 列表样式
+    type: class-select
+    allowEmpty: false
+    default: list-bracket-left
+    options:
+      - 
+        label: Bracket 1
+        value: list-bracket-left
+      - 
+        label: Bracket 2 (1.1.1)
+        value: list-bracket-left-two
+      - 
+        label: Vertical line 1
+        value: list-vertical-line-one
+      - 
+        label: Vertical line 2
+        value: list-vertical-line-two
+      - 
+        label: Vertical line 3 (1.1.1)
+        value: list-vertical-line-three
+      - 
+        label: Nothing
+        value: list-no-border
+      - 
+        label: Rainbow Outline
+        value: rainbow-lines
+  -
+    id: rainbow-lines-head
+    title:  2.3.2.1 Rainbow Outline Style Settings
+    title.zh: 2.3.2.1 彩虹大纲线设置
+    description: Settings for "Rainbow Outlines" option
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: rainbow-ordered-list
+    title:  Enable rainbow outline list order
+    title.zh: 开启彩虹列表序号
+    type: class-toggle
+    default: false
+  -
+    id: rainbow-checkbox
+    title:  Enable rainbow outline checkbox
+    title.zh: 开启彩虹任务选择框
+    type: class-toggle
+    default: false
+  -
+    id: rainbow-lines-color-settings
+    title: 2.3.2.2 Rainbow Lines Colors Settings
+    title.zh: 2.3.2.2 彩虹线颜色设置
+    description: Settings for "Rainbow Outlines" option
+    type: heading
+    level: 4
+    collapsed: true
+  - 
+    id: accent-1
+    title: Outline level 1
+    type: variable-color
+    opacity: false
+    format: hex
+    alt-format:
+          -
+            id: accent-1-rgb
+            format: rgb-values
+    default: '#38558b'
+  -
+    id: accent-2
+    title: Outline level 2
+    type: variable-color
+    opacity: false
+    format: hex
+    alt-format:
+          -
+            id: accent-2-rgb
+            format: rgb-values
+    default: '#5f388b'
+  -
+    id: accent-3
+    title: Outline level 3
+    type: variable-color
+    opacity: false
+    format: hex
+    alt-format:
+          -
+            id: accent-3-rgb
+            format: rgb-values
+    default: '#8b3884'
+  -
+    id: accent-4
+    title: Outline level 4
+    type: variable-color
+    opacity: false
+    format: hex
+    alt-format:
+          -
+            id: accent-4-rgb
+            format: rgb-values
+    default: '#388b38'
+  -
+    id: accent-5
+    title: Outline level 5
+    type: variable-color
+    opacity: false
+    format: hex
+    alt-format:
+          -
+            id: accent-5-rgb
+            format: rgb-values
+    default: '#e08e13'
+  -
+    id: accent-6
+    title: Outline level 6
+    type: variable-color
+    opacity: false
+    format: hex
+    alt-format:
+          -
+            id: accent-6-rgb
+            format: rgb-values
+    default: '#cccecc'
+  -
+    id: folder-style-change-options-folder
+    title: 2.3.3 Folder
+    title.zh: 2.3.3 文件夹
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: light-background-color-files
+    title: Light File Background
+    title.zh: 当前文件背景变浅
+    type: class-toggle
+    default: false
+  -
+    id: unmuted-collapsed-folder
+    title: Unmute Collapsed Folder
+    title.zh: 未激活文件夹不再黯淡
+    description: To normalize opacity of collapsed folder
+    description.zh: 统一激活/未激活文件夹亮度
+    type: class-toggle
+    default: false
+  - 
+    id: remove-file-icons
+    title: Remove File Icons
+    title.zh: 移除文件前图标
+    description: To remove the icons before .md files
+    description.zh: 移除md文件前图标
+    type: class-toggle
+    default: false
+  - 
+    id: folder-icons
+    title: Activate Folder Icons
+    title.zh: 激活文件夹图标
+    type: class-toggle
+    default: false
+  - 
+    id: text-folder-file-icon
+    title: Color of File Icons
+    title.zh: 文件前图标颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#272727'
+    default-dark: '#b3b3b3'
+  -
+    id: folder-style-change-options-colorful-folder
+    title: 2.3.3.1 Colorful Folder
+    title.zh: 2.3.3.1 多彩文件夹
+    type: heading
+    level: 4
+    collapsed: true
+  -
+    id: folder-style-change-options-colorful
+    title: Make Folder Colorful
+    title.zh: 彩色化
+    description: Folders should start with the numbers "0-9" or capital letters "A-Z"
+    description.zh: 文件夹需以数字“0-9”或英文字母“A-Z”开头
+    type: class-toggle
+    default: false
+  - 
+    id: folder-style-change-options-colorful-subfolder
+    title: Folder Style
+    title.zh: 文件夹样式
+    type: class-select
+    allowEmpty: false
+    default: folder-colorful-one
+    options:
+      -
+        label: Style 1 (high transparency)
+        value: folder-colorful-one
+      - 
+        label: Style 2 (low transparency)
+        value: folder-colorful-two
+      - 
+        label: Style 3
+        value: folder-colorful-three
+      - 
+        label: Style 4
+        value: folder-colorful-four
+      - 
+        label: Style 5
+        value: folder-colorful-five
+  - 
+    id: blockquote-style-change-options-folder
+    title: 2.3.4 Blockquote
+    title.zh: 2.3.4 引用框
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: blockquote-style-change-options
+    title: Blockquote
+    title.zh: 引用框样式
+    type: class-select
+    allowEmpty: false
+    default: blockquote-style-default
+    options:
+      - 
+        label: Default
+        value: blockquote-style-default
+      - 
+        label: With quotation mark
+        value: blockquote-style-quotation-mark
+      - 
+        label: Speech Bubble 1
+        value: blockquote-style-speech-bubble-one
+      - 
+        label: Speech Bubble 2
+        value: blockquote-style-speech-bubble-two
+      - 
+        label: Outline
+        value: blockquote-style-outline
+      - 
+        label: Border left 
+        value: blockquote-style-border-left
+  - 
+    id: export-pdf-style-folder
+    title: 2.3.5 Exported PDF in Dark Mode
+    title.zh: 2.3.5 黑暗模式下导出PDF样式
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: export-pdf-style-options
+    title: PDF Color Scheme
+    title.zh: PDF配色
+    type: class-select
+    allowEmpty: false
+    default: export-pdf-style-default
+    options:
+      - 
+        label: Default
+        value: export-pdf-style-default
+      - 
+        label: All Dark
+        value: export-pdf-style-default-all-dark
+      - 
+        label: Dark Codebox
+        value: export-pdf-style-default-dark-codebox
+  -
+    id: embed-folder
+    title: 2.3.6 Embeds
+    title.zh: 2.3.6 嵌入样式
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: adjustable-embed-content-height
+    title: To Fix Height of Embedded Content
+    title.zh: 固定嵌入页面高度
+    type: class-toggle
+    default: false
+  -
+    id: embed-content-height
+    title: Height of Embedded Content
+    title.zh: 嵌入页面高度
+    description: Switch on the above button to activate
+    type: variable-number
+    default: 600
+    format: px
+  -
+    id: naked-embed
+    title: Transparent Embedded background
+    title.zh: 嵌入背景透明
+    type: class-toggle
+    default: false
+  -
+    id: embed-title
+    title: Hide Embedded Title
+    title.zh: 隐藏嵌入文档标题
+    type: class-toggle
+    default: false
+  - 
+    id: embed-hd
+    title: hide embed headings like H1 H2
+    title.zh: 隐藏嵌入文档中的H1 H2 H3标题
+    type: class-toggle
+    default: false
+  - 
+    id: embed-hover
+    title:  embed note floating effect
+    title.zh: 嵌入笔记浮动效果
+    type: class-toggle
+    default: false
+  -
+    id: custom-modal-windows
+    title: 2.3.7 Custom modal windows
+    title.zh: 2.3.7 个性化弹窗
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: modal-title-icon
+    title: modal title icon
+    title.zh: 弹窗标题自定义
+    description: Do not remove the quotes
+    description.zh: 保留引号
+    type: variable-text
+    default: "'  '"
+  -   
+    id: table-styles
+    title: 2.3.8 Table
+    title.zh: 2.3.8 表格
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: no-wrapped-table
+    title: Nowrap in Tables
+    title.zh: 表格不换行
+    type: class-toggle
+    default: false
+  -
+    id: codeblock-folder
+    title: 2.3.9 Codeblock
+    title.zh: 2.3.9 代码框
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: whole-code-wrap
+    title: Code Wrap
+    title.zh: 代码换行
+    type: class-toggle
+    default: false
+  -
+    id: style-options-for-other-plugins
+    title: 3. For Plugins
+    title.zh: 3. 插件样式
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: style-options-for-admonition-plugin-header
+    title: 3.1 Admonition Style
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: admonition-bg-color
+    title: Admontion codebock background
+    title.zh: 预览状态Admonition代码块背景色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#ffffffa6'
+    default-dark: '#1111118f'  
+  -
+    id: style-options-for-admonition-plugin
+    title: Admonition special style support
+    title.zh: 是否开启Admonition特别样式支持
+    type: class-toggle
+    default: false
+    description : 目前支持ad类型：blank 全透明框🔸def definition🔸thm theorem🔸lem lemma🔸cor corollary🔸pro proposition 🔸hibox  自动隐藏框🔸col2 col3 col4内容分多栏🔸kanban 伪看板❗使用方法❗下面以thm类型为例，在admonition插件的设置页面中，类型填 thm，标题填 定理，图标选择hand-point-right，颜色自己选比如浅绿色，添加成功后，在正文中使用代码块```ad-thm 即可激活。其他类型以此类推。  
+  -
+    id: style-options-for-calendar-plugin-header
+    title: 3.2 Calendar
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: style-options-for-calendar-plugin
+    title: Calendar
+    type: class-select
+    allowEmpty: false
+    default: style-options-for-calendar-plugin-default
+    options:
+      - 
+        label: Default
+        value: style-options-for-calendar-plugin-default
+      - 
+        label: Style 1
+        value: style-options-for-calendar-plugin-style-one
+      - 
+        label: Style 2
+        value: style-options-for-calendar-plugin-style-two
+  -
+    id: rainbow-checklist-folder
+    title: 3.3 Checklist Plugin
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: rainbow-checklist
+    title: Rainbow Checklist
+    title.zh: 彩虹色条目
+    type: class-toggle
+    default: false
+  -
+    id: style-options-for-kanban-plugin-header
+    title: 3.4 Kanban
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: style-options-for-kanban-plugin-static
+    title: Static
+    type: class-select
+    allowEmpty: false
+    default: style-options-for-kanban-plugin-static-default
+    options:
+      - 
+        label: Default
+        value: style-options-for-kanban-plugin-static-default
+      - 
+        label: All color (instead of images in light mode)
+        value: style-options-for-kanban-plugin-static-all-color
+      - 
+        label: All image-1 
+        value: style-options-for-kanban-plugin-static-all-image-one
+      - 
+        label: All image-2 abstract
+        value: style-options-for-kanban-plugin-static-all-image-two
+      - 
+        label: Plain
+        value: style-options-for-kanban-plugin-static-plain
+      -
+        label: Little color
+        value: style-options-for-kanban-plugin-static-little-color
+  -
+    id: style-options-for-kanban-plugin-dynamic
+    title: Dynamic
+    type: class-select
+    allowEmpty: false
+    default: style-options-for-kanban-plugin-dynamic-default
+    options:
+      - 
+        label: None
+        value: style-options-for-kanban-plugin-dynamic-default
+      - 
+        label: Neon-1
+        value: style-options-for-kanban-plugin-dynamic-neon-one
+      - 
+        label: Neon-2
+        value: style-options-for-kanban-plugin-dynamic-neon-two
+      - 
+        label: Neon-3
+        value: style-options-for-kanban-plugin-dynamic-neon-three
+  -
+    id: style-options-for-buttons-plugin-heading
+    title: 3.5 Buttons
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: style-options-for-buttons-plugin
+    title: Buttons special style support
+    title.zh: 是否开启Buttons特别样式支持
+    type: class-toggle
+    default: false
+    description : 目前内置class：🔸circle_btn 圆形按钮🔸blank_btn 透明按钮🔸grad_button渐变按钮🟣g_purple 紫色🔵g_blue蓝色🟢g_green 绿色💚g_lightgreen 浅绿🟡g_yellow黄色
+  -
+    id: style-options-for-buttons-plugin-heading
+    title: 3.6 Dataview
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: style-options-for-dataview-plugin-heading
+    title: 3.6.1 Dataview List
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: folder-dataview-list-style
+    title: Style
+    title.zh: 样式
+    type: class-select
+    allowEmpty: false
+    default: dataview-list-style-pacman
+    options:
+      -
+        label: Pac-man
+        value: dataview-list-style-pacman
+      - 
+        label: Normal
+        value: dataview-list-style-normal
+  -
+    id: style-options-for-dataview-table-plugin-heading
+    title: 3.6.1 Dataview Table
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: no-wrapped-dvtable
+    title: Nowrap in DataviewTables
+    title.zh: Dataview表格紧凑显示
+    type: class-toggle
+    default: false
+  -
+    id: overflow-x-dvtable
+    title:  Hides the X-axis scroll bar in DataviewTables
+    title.zh: 是否隐藏dv表格中的横向滚动条
+    type: class-toggle
+    default: false
+    description.zh: 如果开启表格内容过长用...省略
+  -
+    id: style-options-for-dialogue-plugin-heading
+    title: 3.7 Dialogue
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: dialogue-style
+    title: dialogue Style
+    title.zh: 聊天框样式
+    type: class-select
+    allowEmpty: false
+    default: dialogue-style-default
+    description.zh: Wechat样式适合titleMode：all ，chat样式适合 titleMode：first
+    description: Wechat options is for ’titleMode：all‘ ，chat options is for  ‘titleMode：first’
+    options:
+      -
+        label: Default
+        value: dialogue-style-default
+      -
+        label: Wechat
+        value: dialogue-style-wechat
+      - 
+        label: Chat
+        value: dialogue-style-chat
+  -
+    id: build-in-style-folder
+    title: 4. Built-in Style Intro
+    title.zh: 4. 内置样式介绍
+    description: There are some built-in CSS classes that should be manually declared in the YAML area. Details refer to the TIPS demo vault for Blue Topaz on Github.
+    description.zh: 主题内置css类，手动在文档YAML区域进行cssclass声明，详细用法可以参考主题tips库，可以在主题QQ群（社区）获取。
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: built-in-style-kanban
+    title: Pseudo-kanban
+    title.zh: 伪看板 kanban
+    type: heading
+    level: 2
+    collapsed: true
+    description:  ❗cssclass：kanban❗ A kind of kanban-liked style for unordered lists. (Adapted from Spectrum theme by @Wiktoria Mielcarek)
+    description.zh:  ❗cssclass：kanban❗ 实现类似看板样式并排显示，只对无序列表生效。改自Spectrum theme by @Wiktoria Mielcarek
+  -
+    id: built-in-style-code-wrap
+    title:  Code Wrap
+    title.zh: 代码行自动换行 code-wrap
+    type: heading
+    level: 2
+    collapsed: true
+    description.zh:  ❗cssclass：code-wrap❗实现代码块中的代码行自动换行。
+    description:  ❗cssclass：code-wrap❗ Can be used to wrap code in code blocks for individual .md file
+  -
+    id: built-in-style-inline-list
+    title:  List in a horizontal row (inline list)
+    title.zh: 行内列表 inline-list
+    type: heading
+    level: 2
+    collapsed: true
+    description.zh:  ❗cssclass：inline-list❗列表项横向排布。
+    description:  ❗cssclass：inline-list❗ To make the list show in a horizontal row. Meanwhile, it makes the list show inline which can be used with inline images (like ![[xxx.jpg|inlineR]])
+  -
+    id: built-in-style-img-grid
+    title:  Image Grid
+    title.zh: 图片自适应横排显示 img-grid
+    type: heading
+    level: 2
+    collapsed: true
+    description.zh:  ❗cssclass：img-grid❗实现图片类似网格一样自适应横排显示。也可以使用类似格式单独调整![[obsidian_image.png|inl|100]]  (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
+    description: ❗cssclass：img-grid❗ To make images, which are not separated by line breaks, arrange in a grid in the preview mode. (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
+  -
+    id: built-in-style-matrix
+    title: Eisenhower Matrix
+    title.zh: 表格四象图分布 matrix
+    type: heading
+    level: 2
+    collapsed: true
+    description:  ❗cssclass：matrix❗ Usage https://forum.obsidian.md/t/theme-spectrum-version-1-0-0-and-resise-graphs-controls/12688/34 (Adapted from Spectrum theme by @Wiktoria Mielcarek)
+    description.zh:  ❗cssclass：matrix❗ 实现N*2表格四象限分布。表格内容使用![[XXX]]引入 见 https://forum.obsidian.md/t/theme-spectrum-version-1-0-0-and-resise-graphs-controls/12688/34。改自Spectrum theme by @Wiktoria Mielcarek
+  -
+    id: topaz-community
+    title: Supported by Topaz Community 😁
+    title.zh: 感谢Topaz社区支持😁，欢迎来访，QQ群:908688452
+    type: heading
+    level: 1
+    collapsed: true
+*/
+
