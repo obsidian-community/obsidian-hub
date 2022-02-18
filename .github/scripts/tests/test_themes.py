@@ -27,6 +27,8 @@ def test_reading_theme__with_error_logs_error() -> None:
     theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
     name, valid = collect_data_for_theme_and_css(theme, css_file, theme_downloads, template)
 
+    assert valid == False
+
 
 def test_rendering_of_theme() -> None:
     theme_name = "Minimal"

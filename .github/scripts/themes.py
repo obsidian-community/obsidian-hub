@@ -182,33 +182,39 @@ def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, templa
 def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads,
                                    template: Template) -> typing.Tuple[str, bool]:
     valid = True
-
-    repo = str(theme.get("repo"))
-    branch = theme.get("branch", "master")
-    user = repo.split("/")[0]
-    raw_modes = theme.get("modes")
-    assert raw_modes
-    # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
-    raw_modes = typing.cast(typing.List[str], raw_modes)
-    modes = (
-        ", ".join(raw_modes)
-            .replace("dark", DARK_MODE_THEMES)
-            .replace("light", LIGHT_MODE_THEMES)
-    )
-    settings = get_theme_settings(css_file)
-    plugin_support = get_theme_plugin_support(css_file)
-
     current_name = str(theme.get("name"))
-    download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
-    theme.update(
-        user=user,
-        modes=modes,
-        branch=branch,
-        settings=settings,
-        plugins=plugin_support,
-        download_count=download_count,
-    )
+    try:
+        repo = str(theme.get("repo"))
+        branch = theme.get("branch", "master")
+        user = repo.split("/")[0]
+        raw_modes = theme.get("modes")
+        assert raw_modes
+        # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
+        raw_modes = typing.cast(typing.List[str], raw_modes)
+        modes = (
+            ", ".join(raw_modes)
+                .replace("dark", DARK_MODE_THEMES)
+                .replace("light", LIGHT_MODE_THEMES)
+        )
+        settings = get_theme_settings(css_file)
+        plugin_support = get_theme_plugin_support(css_file)
+
+        download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
+
+        theme.update(
+            user=user,
+            modes=modes,
+            branch=branch,
+            settings=settings,
+            plugins=plugin_support,
+            download_count=download_count,
+        )
+    except Exception as err:
+        print(f'ERROR processing theme {current_name}. Error message: {err}')
+        valid = False
+        # TODO Add message to file_groups
+
     return current_name, valid
 
 

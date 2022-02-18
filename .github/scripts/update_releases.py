@@ -67,6 +67,9 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     for theme in theme_list:
         current_name, valid = collect_data_for_theme(theme, theme_downloads, template)
+        if not valid:
+            continue
+
         group = write_file(
             template, current_name, overwrite=overwrite, verbose=verbose, **theme
         )
