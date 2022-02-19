@@ -67,8 +67,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
     theme_downloads = get_theme_downloads()
 
     for theme in theme_list:
-        current_name, valid = collect_data_for_theme(
-            theme, theme_downloads, template, file_groups)
+        current_name, valid = collect_data_for_theme(theme, theme_downloads, template, file_groups)
         if not valid:
             continue
 
@@ -184,8 +183,7 @@ def update_theme_download_counts(verbose: bool) -> None:
 
     for theme in theme_list:
         current_name = theme.get("name")
-        update_theme_download_count(
-            template, theme_downloads, current_name, verbose)
+        update_theme_download_count(template, theme_downloads, current_name, verbose)
 
 
 def main(argv: Sequence[str] = sys.argv[1:]) -> None:
