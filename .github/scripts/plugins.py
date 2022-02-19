@@ -165,7 +165,7 @@ def get_core_plugins() -> None:
     for plugin in CORE_PLUGINS:
         plugin["slug"] = "Plugins/" + plugin["name"].replace(" ", "+")
 
-    assert match  # Needed to stop match[1] giving 'error: Value of type "Optional[Match[str]]" is not indexable'
+    assert match # Needed to stop match[1] giving 'error: Value of type "Optional[Match[str]]" is not indexable'
     new_contents = contents.replace(match[1], template.render(plugins=CORE_PLUGINS))
 
     with open(file_path, "w") as md_file:
@@ -183,9 +183,17 @@ def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
     """
     repo = plugin.get("repo")
     branch = plugin.get("branch", "master")
-    manifest = get_plugin_manifest(repo, branch)
+    current_name = str(plugin.get("name"))
 
-    return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+    try:
+        manifest = get_plugin_manifest(repo, branch)
+        return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+
+    except Exception as err:
+        print(f'ERROR processing plugin {current_name}. Error message: {err}')
+        plugin_is_valid = False
+        add_file_group(file_groups, "error", f"{current_name}")
+        return plugin_is_valid
 
 
 def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest: PluginManifest, file_groups: FileGroups) -> bool:
