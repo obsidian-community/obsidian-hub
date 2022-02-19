@@ -96,7 +96,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]]
 - [[obsidian-global-hotkeys|Global Hotkeys]]
 - [[obsidian-timestamper|TimeStamper]]
-- [[obsidian-import-json|JSON Importer]]
+- [[obsidian-import-json|JSON/CSV Importer]]
 - [[import-foundry|Foundry world Importer]]
 - [[obsidian-attachment-name-formatting|Attachment Name Formatting]]
 - [[obsidian-completr|Completr]]
@@ -132,10 +132,12 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-divide-and-conquer|Divide & Conquer]]
 - [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]
 - [[obsidian-power-search|Power Search]]
+- [[tag-word-cloud|Tag, Word & Link Cloud]]
+- [[persistent-graph|Persistent Graph]]
+- [[auto-note-mover|Auto Note Mover]]
+- [[insert-heading-link|Insert Heading Link]]
+- [[settings-search|Settings Search]]
+- [[obsidian-footnote-indicator|Footnote & Citation Indicator]]
+- [[japanese-word-splitter|Word Splitting for Japanese in Edit Mode]]
+- [[alx-folder-note-folderv|AidenLx's Folder Note - folderv Component]]
 
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
