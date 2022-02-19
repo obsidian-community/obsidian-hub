@@ -14,7 +14,8 @@ from utils import (
     print_file_summary,
     print_progress_bar,
     write_file,
-    get_json_from_github, add_file_group,
+    get_json_from_github,
+    add_file_group,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
 from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme, ThemeList
