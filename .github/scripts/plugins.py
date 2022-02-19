@@ -194,6 +194,7 @@ def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
     except Exception as err:
         print(f'ERROR processing plugin {current_name}. Error message: {err}')
         plugin_is_valid = False
+        add_file_group(file_groups, "error", f"{current_name}")
         return plugin_is_valid
 
 
