@@ -165,8 +165,10 @@ def get_core_plugins() -> None:
     for plugin in CORE_PLUGINS:
         plugin["slug"] = "Plugins/" + plugin["name"].replace(" ", "+")
 
-    assert match  # Needed to stop match[1] giving 'error: Value of type "Optional[Match[str]]" is not indexable'
-    new_contents = contents.replace(match[1], template.render(plugins=CORE_PLUGINS))
+    # Needed to stop match[1] giving 'error: Value of type "Optional[Match[str]]" is not indexable'
+    assert match
+    new_contents = contents.replace(
+        match[1], template.render(plugins=CORE_PLUGINS))
 
     with open(file_path, "w") as md_file:
         md_file.write(new_contents)
@@ -190,17 +192,22 @@ def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
 
 def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest: PluginManifest, file_groups: FileGroups) -> bool:
     # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
-    repo = str(plugin.get("repo"))
-    plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
+    try:
+        repo = str(plugin.get("repo"))
+        plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
-    user = repo.split("/")[0]
-    if manifest.get("isDesktopOnly"):
-        mobile = DESKTOP_ONLY
-    else:
-        mobile = MOBILE_COMPATIBLE
+        user = repo.split("/")[0]
+        if manifest.get("isDesktopOnly"):
+            mobile = DESKTOP_ONLY
+        else:
+            mobile = MOBILE_COMPATIBLE
 
-    plugin.update(mobile=mobile, user=user, **manifest)
-    update_author_name_for_manual_exceptions(plugin)
+        plugin.update(mobile=mobile, user=user, **manifest)
+        update_author_name_for_manual_exceptions(plugin)
+
+    except Exception as err:
+        print(f'ERROR processing plugin {plugin}. Error message: {err}')
+        add_file_group(file_groups, "error", f"{plugin}")
 
     return plugin_is_valid
 
