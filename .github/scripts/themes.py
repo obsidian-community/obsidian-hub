@@ -12,7 +12,9 @@ from utils import (
     THEME_CSS_FILE,
     get_json_from_github,
     get_output_dir,
-    get_theme_css
+    get_theme_css,
+    FileGroups,
+    add_file_group
 )
 
 # Type aliases:
@@ -163,51 +165,61 @@ def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) ->
     return old_text
 
 
-def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template) -> str:
+def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template,
+                           file_groups: FileGroups) -> typing.Tuple[str, bool]:
     """
     Take raw theme data from a community theme, and add information to it.
 
     :param theme: A dict with data about the theme, to be updated by this function
     :param theme_downloads: The download count of all themes
     :param template: The template used for writing themes - needed to obtain the location of existing themes
-    :return: The name of the theme
+    :param file_groups:  Place to store error message if the theme is invalid
+    :return: The name of the theme, and whether it is valid
     """
     repo = str(theme.get("repo"))
     branch = theme.get("branch", "master")
     css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
-    return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template)
+    return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
 
 
-def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads,
-                                   template: Template) -> str:
-    repo = str(theme.get("repo"))
-    branch = theme.get("branch", "master")
-    user = repo.split("/")[0]
-    raw_modes = theme.get("modes")
-    assert raw_modes
-    # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
-    raw_modes = typing.cast(typing.List[str], raw_modes)
-    modes = (
-        ", ".join(raw_modes)
-            .replace("dark", DARK_MODE_THEMES)
-            .replace("light", LIGHT_MODE_THEMES)
-    )
-    settings = get_theme_settings(css_file)
-    plugin_support = get_theme_plugin_support(css_file)
-
+def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads, template: Template,
+                                   file_groups: FileGroups) -> typing.Tuple[str, bool]:
+    valid = True
     current_name = str(theme.get("name"))
-    download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
-    theme.update(
-        user=user,
-        modes=modes,
-        branch=branch,
-        settings=settings,
-        plugins=plugin_support,
-        download_count=download_count,
-    )
-    return current_name
+    try:
+        repo = str(theme.get("repo"))
+        branch = theme.get("branch", "master")
+        user = repo.split("/")[0]
+        raw_modes = theme.get("modes")
+        assert raw_modes
+        # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
+        raw_modes = typing.cast(typing.List[str], raw_modes)
+        modes = (
+            ", ".join(raw_modes)
+                .replace("dark", DARK_MODE_THEMES)
+                .replace("light", LIGHT_MODE_THEMES)
+        )
+        settings = get_theme_settings(css_file)
+        plugin_support = get_theme_plugin_support(css_file)
+
+        download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
+
+        theme.update(
+            user=user,
+            modes=modes,
+            branch=branch,
+            settings=settings,
+            plugins=plugin_support,
+            download_count=download_count,
+        )
+    except Exception as err:
+        print(f'ERROR processing theme {current_name}. Error message: {err}')
+        add_file_group(file_groups, "error", f"{current_name}")
+        valid = False
+
+    return current_name, valid
 
 
 def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads, current_name: str) -> int:

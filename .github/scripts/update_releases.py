@@ -15,6 +15,7 @@ from utils import (
     print_progress_bar,
     write_file,
     get_json_from_github,
+    add_file_group,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
 from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme, ThemeList
@@ -42,7 +43,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
         )
         devs.append(plugin)
 
-        file_groups.setdefault(group, list()).append(plugin.get("id"))
+        add_file_group(file_groups, group, plugin.get("id"))
         print_progress_bar(
             plugin_list.index(plugin) + 1, len(plugin_list),
         )
@@ -66,12 +67,15 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
     theme_downloads = get_theme_downloads()
 
     for theme in theme_list:
-        current_name = collect_data_for_theme(theme, theme_downloads, template)
+        current_name, valid = collect_data_for_theme(theme, theme_downloads, template, file_groups)
+        if not valid:
+            continue
+
         group = write_file(
             template, current_name, overwrite=overwrite, verbose=verbose, **theme
         )
         designers.append(theme)
-        file_groups.setdefault(group, list()).append(current_name)
+        add_file_group(file_groups, group, current_name)
         print_progress_bar(
             theme_list.index(theme) + 1, len(theme_list),
         )
@@ -159,7 +163,7 @@ def process_authors(theme_designers: ThemeList,
         group = write_file(
             template, user, overwrite=overwrite, verbose=verbose, **author_info
         )
-        file_groups.setdefault(group, list()).append(user)
+        add_file_group(file_groups, group, user)
 
     print_file_summary(file_groups)
 

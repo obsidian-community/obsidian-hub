@@ -164,6 +164,10 @@ def format_link(note_name: str, alias: Union[str, None] = None) -> str:
         return "[[{}|{}]]".format(note_name, alias)
 
 
+def add_file_group(file_groups: FileGroups, category: str, file_name_or_id: str) -> None:
+    file_groups.setdefault(category, list()).append(file_name_or_id)
+
+
 def print_file_summary(file_groups: FileGroups, verbose: bool = False) -> None:
     messages = {
         "error": "has an error, so was ignored.",
