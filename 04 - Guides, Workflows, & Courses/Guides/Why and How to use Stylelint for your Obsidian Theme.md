@@ -84,7 +84,7 @@ While there are far more things `stylelint` can do, this should suffice to get s
 ## Usage
 
 ### In the Terminal
-The most basic usage is done via the command line. The two most common commands are the one to report all issues and the one to auto-fix issues (and report the ones that cannot be auto-fixed).[^2]
+The most basic usage is done via the command line. The two most common commands are the one to report all issues and the one to auto-fix issues (and report those that cannot be auto-fixed).[^2]
 
 ```shell
 # Report all issues
