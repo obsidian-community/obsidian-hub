@@ -20,6 +20,7 @@ Want to get in touch yourself? Check out the [Obsidian Forum](https://forum.obsi
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
+-  [[01 - Community/Contributing to the Community/🗂️ Contributing to the Community|🗂️ Contributing to the Community]]
 -  [[01 - Community/Events/🗂️ Events|🗂️ Events]]
 -  [[01 - Community/Obsidian Roundup/🗂️ Obsidian Roundup|🗂️ Obsidian Roundup]]
 -  [[01 - Community/People/🗂️ People|🗂️ People]]

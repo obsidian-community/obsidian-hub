@@ -114,6 +114,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Slytherin|Slytherin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sodalite|Sodalite]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Solarized|Solarized]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sparkling Wisdom|Sparkling Wisdom]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Spectrum|Spectrum]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Subtlegold|Subtlegold]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Suddha|Suddha]]
@@ -130,6 +131,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Warmth|Warmth]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wasp|Wasp]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/WilcoxOne|WilcoxOne]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Willemstad|Willemstad]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wyrd|Wyrd]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yin and Yang|Yin and Yang]]
 %% Hub MOCs: Don’t edit above  %%

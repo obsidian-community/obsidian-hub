@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2547-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2759-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/curio-heart/obsidian-wyrd?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/curio-heart/obsidian-wyrd/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/curio-heart/obsidian-wyrd?color=573E7A&logo=github&style=for-the-badge)

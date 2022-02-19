@@ -16,6 +16,7 @@ publish: true
 -  [[04 - Guides, Workflows, & Courses/Courses/Course for Getting Started with Obsidian|Course for Getting Started with Obsidian]]
 -  [[04 - Guides, Workflows, & Courses/Courses/Linking Your Thinking|Linking Your Thinking]]
 -  [[04 - Guides, Workflows, & Courses/Courses/Obsidian Made Simple|Obsidian Made Simple]]
+-  [[04 - Guides, Workflows, & Courses/Courses/Obsidian Training Course in Russian|Obsidian Training Course in Russian]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
