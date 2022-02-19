@@ -185,7 +185,10 @@ def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
     """
     repo = plugin.get("repo")
     branch = plugin.get("branch", "master")
-    manifest = get_plugin_manifest(repo, branch)
+    try:
+        manifest = get_plugin_manifest(repo, branch)
+    except Exception as err:
+        print(f'ERROR processing plugin {plugin}. Error message: {err}')
 
     return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
 
