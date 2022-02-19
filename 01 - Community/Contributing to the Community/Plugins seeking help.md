@@ -143,3 +143,9 @@ See also [[Volunteer Plugin Doc Writers]] for some more developers that want hel
 - [[mrj-text-expand|Text {{expand}}]] - [Better plugin info](https://github.com/mrjackphil/obsidian-text-expand/issues/4)
 - [[obsidian-timelines|Timelines]] - [timeline-vis dates default to 20th century](https://github.com/Darakah/obsidian-timelines/issues/16)
 - [[obsidian-toggl-integration|Toggl Track Integration]] - [Create custom documentation using GitHub pages](https://github.com/mcndt/obsidian-toggl-integration/issues/61)
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Contributing%20to%20the%20Community/Plugins%20seeking%20help.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Contributing%20to%20the%20Community/Plugins%20seeking%20help.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

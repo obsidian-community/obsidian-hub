@@ -11,3 +11,9 @@ Don't be shy to contribute! The worst that could happen is that the plugin devel
 - [shabegom/buttons](https://github.com/shabegom/buttons)
 - [valentine195/obsidian-leaflet-plugin](https://github.com/valentine195/obsidian-leaflet-plugin)
 - [blacksmithgu/obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview)
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Contributing%20to%20the%20Community/Volunteer%20Plugin%20Doc%20Writers.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Contributing%20to%20the%20Community/Volunteer%20Plugin%20Doc%20Writers.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
