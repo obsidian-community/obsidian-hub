@@ -185,32 +185,32 @@ def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
     """
     repo = plugin.get("repo")
     branch = plugin.get("branch", "master")
+    current_name = str(plugin.get("name"))
+
     try:
         manifest = get_plugin_manifest(repo, branch)
-    except Exception as err:
-        print(f'ERROR processing plugin {plugin}. Error message: {err}')
+        return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
 
-    return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+    except Exception as err:
+        print(f'ERROR processing plugin {current_name}. Error message: {err}')
+        plugin_is_valid = False
+        return plugin_is_valid
 
 
 def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest: PluginManifest, file_groups: FileGroups) -> bool:
     # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
-    try:
-        repo = str(plugin.get("repo"))
-        plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
-        user = repo.split("/")[0]
-        if manifest.get("isDesktopOnly"):
-            mobile = DESKTOP_ONLY
-        else:
-            mobile = MOBILE_COMPATIBLE
+    repo = str(plugin.get("repo"))
+    plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
-        plugin.update(mobile=mobile, user=user, **manifest)
-        update_author_name_for_manual_exceptions(plugin)
+    user = repo.split("/")[0]
+    if manifest.get("isDesktopOnly"):
+        mobile = DESKTOP_ONLY
+    else:
+        mobile = MOBILE_COMPATIBLE
 
-    except Exception as err:
-        print(f'ERROR processing plugin {plugin}. Error message: {err}')
-        add_file_group(file_groups, "error", f"{plugin}")
+    plugin.update(mobile=mobile, user=user, **manifest)
+    update_author_name_for_manual_exceptions(plugin)
 
     return plugin_is_valid
 
