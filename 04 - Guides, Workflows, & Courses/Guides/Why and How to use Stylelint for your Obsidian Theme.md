@@ -13,7 +13,7 @@ publish: true
 This guide explains why it is beneficial for theme designers to use a linter and how to get started with [Stylelint](https://stylelint.io/), the most popular linter for CSS.
 
 ## What is Linting, and what is its purpose?
-[Linters](https://w3.wikiwand.com/en/Lint_(software)) are tools that analyze code to report bugs and stylistic problems. There are linters for pretty much every programming language,[^1] and [Stylelint](https://stylelint.io/) is regarded as the state-of-the-art linter for CSS.
+[Linters](https://www.wikiwand.com/en/Lint_(software)) are tools that analyze code to report bugs and stylistic problems. There are linters for pretty much every programming language,[^1] and [Stylelint](https://stylelint.io/) is regarded as the state-of-the-art linter for CSS.
 
 __Using linters has several advantages:__
 1. They point out *invalid code*, e.g., using `//comments` which are invalid in CSS.
@@ -26,7 +26,7 @@ As the rules regarding styling are quite subjective, they are all opt-in and con
 ## Getting Started
 
 ### Requirements
-`stylelint,` as most linters, is installed via `npm`. To check whether you have `npm` installed, you can run this command in your Terminal:
+`stylelint`, as most linters, is installed via `npm`. To check whether you have `npm` installed, you can run this command in your Terminal:
 
 ```shell
 # Check whether npm is installed
@@ -44,14 +44,14 @@ npm install -g stylelint postcss
 ```
 
 ### Stylelint Configuration File
-In contrast to most other linters, `stylelint` will not work without a configuration file. This means you have to create such a configuration file (`.styelintrc.json`) before you can use `styelint`.
+In contrast to most other linters, `stylelint` will not work without a configuration file. This means you have to create such a configuration file (`.stylelintrc.json`) before you can use `stylelint`.
 
 ```shell
 # Create a stylelint configuration file in your home directory
 touch ${HOME}/.stylelintrc.json
 ```
 
-By default, all `stylint` rules are turned off, meaning you have to add some basic configuration before you can use `stylelint.` Luckily, there is the `npm` package `stylelint-config-recommended` which activates all linting rules regarding ["possible errors"](https://stylelint.io/user-guide/rules/list/#possible-errors). You can install it via:
+By default, all `stylelint` rules are turned off, meaning you have to add some basic configuration before you can use `stylelint`. Luckily, there is the `npm` package `stylelint-config-recommended` which activates all linting rules regarding ["possible errors"](https://stylelint.io/user-guide/rules/list/#possible-errors). You can install it via:
 
 ```shell
 # Install recommended configurations
@@ -102,7 +102,7 @@ There is a plugin for [Sublime Text](https://packagecontrol.io/packages/SublimeL
 ## Further Configuration
 
 ### Rules for Best Practices and Code Formatting
-With the current configuration, `stylelint` will only report clear and likely errors in your CSS. You can, however, also set up `stylelint`  to check consistency, best practices, and increased readability.
+With the current configuration, `stylelint` will only report clear and likely errors in your CSS. You can, however, also set up `stylelint` to check consistency, best practices, and increased readability.
 
 The `stylelint` documentation [lists a total of 170 rules](https://stylelint.io/user-guide/rules/list/) from which you can choose. (Remember that all rules under the section "Possible Errors" are already enabled by `stylelint-config-recommended`, so you do not need to add them.)
 
