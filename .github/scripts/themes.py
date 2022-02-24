@@ -136,7 +136,7 @@ def get_theme_plugin_support(
         plugins["core"] = supported_core_plugins
 
         if comm_plugins is None:
-            plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
+            plugin_list = get_community_plugins()
             comm_plugins = {n.get("id"): n.get("name") for n in plugin_list}
 
         supported_comm_plugins = list()
@@ -149,6 +149,12 @@ def get_theme_plugin_support(
         return plugins
 
     return None
+
+
+def get_community_plugins() -> ThemeList:
+    plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
+    return plugin_list
+
 
 def get_theme_downloads() -> ThemeDownloads:
     # Example content:
