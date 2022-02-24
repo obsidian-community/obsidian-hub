@@ -6,7 +6,7 @@ import typing
 from typing import Optional, Union, Dict, List
 from jinja2.environment import Template
 
-from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage
+from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage, ThemeStorageValues
 from plugins import CORE_PLUGINS
 from utils import (
     PLUGINS_JSON_FILE,
@@ -18,9 +18,24 @@ from utils import (
     add_file_group
 )
 
-class Theme(ThemeStorage):
-    pass
+class Theme:
+    def __init__(self, data: ThemeStorage):
+        self.data = data
 
+    def name(self) -> str:
+        return str(self.get("name"))
+
+    def repo(self) -> str:
+        return str(self.get("repo"))
+
+    def branch(self) -> str:
+        return str(self.get("branch", "master"))
+
+    def get(self, key: str, default_value: ThemeStorageValues = None) -> ThemeStorageValues:
+        return self.data.get(key, default_value)
+
+    def __getitem__(self, key: str) -> ThemeStorageValues:
+        return self.data[key]
 
 ThemeList = List[Theme]
 
@@ -215,7 +230,7 @@ def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads:
 
         download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
-        theme.update(
+        theme.data.update(
             user=user,
             modes=modes,
             branch=branch,
