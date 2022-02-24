@@ -3,9 +3,10 @@ import os
 import re
 import requests
 import typing
-from typing import Optional, Union, Any, Dict, List
+from typing import Optional, Union, Dict, List
 from jinja2.environment import Template
 
+from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage, ThemeStorageValues
 from plugins import CORE_PLUGINS
 from utils import (
     PLUGINS_JSON_FILE,
@@ -17,11 +18,27 @@ from utils import (
     add_file_group
 )
 
-# Type aliases:
-ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
-ThemeSettings = List[Dict[str, str]]
-ThemePluginSupport = Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]]]
-Theme = Dict[str, Union[str, List[str], Optional[ThemeSettings], Optional[ThemePluginSupport], int]]
+class Theme:
+    def __init__(self, data: ThemeStorage):
+        self.data = data
+
+    def name(self) -> str:
+        return str(self.get("name"))
+
+    def repo(self) -> str:
+        return str(self.get("repo"))
+
+    def branch(self) -> str:
+        return str(self.get("branch", "master"))
+
+    # This allows accessing data via theme.get("author"), until we can add theme.author() etc
+    def get(self, key: str, default_value: ThemeStorageValues = None) -> ThemeStorageValues:
+        return self.data.get(key, default_value)
+
+    # This allows accessing data via theme["author"], until we can add theme.author() etc
+    def __getitem__(self, key: str) -> ThemeStorageValues:
+        return self.data[key]
+
 ThemeList = List[Theme]
 
 CommunityPluginsIDAndName = Dict[str, str]
@@ -131,8 +148,11 @@ def get_theme_plugin_support(
         plugins["core"] = supported_core_plugins
 
         if comm_plugins is None:
-            plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
-            comm_plugins = {n.get("id"): n.get("name") for n in plugin_list}
+            plugin_list = get_community_plugins()
+            # "id" and "name" are not typed on the object, so they could return types other than string.
+            # We know their values are always strings.
+            # The str() cast prevents mypy from warning about possible type error
+            comm_plugins = {str(n.get("id")): str(n.get("name")) for n in plugin_list}
 
         supported_comm_plugins = list()
         for p in plugins.get("community", list()):
@@ -144,6 +164,12 @@ def get_theme_plugin_support(
         return plugins
 
     return None
+
+
+def get_community_plugins() -> ThemeList:
+    plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
+    return plugin_list
+
 
 def get_theme_downloads() -> ThemeDownloads:
     # Example content:
@@ -206,7 +232,7 @@ def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads:
 
         download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
-        theme.update(
+        theme.data.update(
             user=user,
             modes=modes,
             branch=branch,

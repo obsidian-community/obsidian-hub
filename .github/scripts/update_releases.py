@@ -2,8 +2,9 @@
 
 import sys
 import argparse
-from typing import Any, Dict, Sequence
+from typing import Any, Dict, Sequence, List
 
+from hub_types import ThemeStorage
 from plugins import collect_data_for_plugin, PluginList
 
 from utils import (
@@ -18,7 +19,7 @@ from utils import (
     add_file_group,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
-from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme, ThemeList
+from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme, ThemeList, Theme
 
 
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
@@ -56,7 +57,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
 def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:
     print("-----\nProcessing themes....\n")
     template = get_template("theme")
-    theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
+    theme_list: List[ThemeStorage] = get_json_from_github(THEMES_JSON_FILE)
     designers: ThemeList = list()
 
     file_groups: FileGroups = dict()
@@ -66,18 +67,19 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     theme_downloads = get_theme_downloads()
 
-    for theme in theme_list:
+    for theme2 in theme_list:
+        theme = Theme(theme2)
         current_name, valid = collect_data_for_theme(theme, theme_downloads, template, file_groups)
         if not valid:
             continue
 
         group = write_file(
-            template, current_name, overwrite=overwrite, verbose=verbose, **theme
+            template, current_name, overwrite=overwrite, verbose=verbose, **theme.data
         )
         designers.append(theme)
         add_file_group(file_groups, group, current_name)
         print_progress_bar(
-            theme_list.index(theme) + 1, len(theme_list),
+            theme_list.index(theme.data) + 1, len(theme_list),
         )
 
     print_file_summary(file_groups)
