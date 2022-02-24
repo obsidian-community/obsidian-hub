@@ -21,7 +21,12 @@ from utils import (
 ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
 ThemeSettings = List[Dict[str, str]]
 ThemePluginSupport = Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]]]
-Theme = Dict[str, Union[str, List[str], Optional[ThemeSettings], Optional[ThemePluginSupport], int]]
+ThemeStorage = Dict[str, Union[str, List[str], Optional[ThemeSettings], Optional[ThemePluginSupport], int]]
+
+class Theme(ThemeStorage):
+    pass
+
+
 ThemeList = List[Theme]
 
 CommunityPluginsIDAndName = Dict[str, str]
