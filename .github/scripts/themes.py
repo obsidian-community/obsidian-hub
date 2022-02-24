@@ -3,9 +3,10 @@ import os
 import re
 import requests
 import typing
-from typing import Optional, Union, Any, Dict, List
+from typing import Optional, Union, Dict, List
 from jinja2.environment import Template
 
+from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage
 from plugins import CORE_PLUGINS
 from utils import (
     PLUGINS_JSON_FILE,
@@ -16,12 +17,6 @@ from utils import (
     FileGroups,
     add_file_group
 )
-
-# Type aliases:
-ThemeDownloads = Dict[str, Dict[str, Union[str, int]]]
-ThemeSettings = List[Dict[str, str]]
-ThemePluginSupport = Union[Dict[str, List[Union[str, Any]]], Dict[str, List[str]]]
-ThemeStorage = Dict[str, Union[str, List[str], Optional[ThemeSettings], Optional[ThemePluginSupport], int]]
 
 class Theme(ThemeStorage):
     pass

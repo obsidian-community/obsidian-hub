@@ -4,7 +4,8 @@ from typing import Any, Tuple
 from approvaltests import verify, verify_as_json, Options
 
 import utils
-from themes import Theme, ThemeDownloads, ThemeList
+from themes import Theme, ThemeList
+from hub_types import ThemeDownloads
 
 
 def verify_as_markdown(data: Any, options: Options = Options()) -> None:
