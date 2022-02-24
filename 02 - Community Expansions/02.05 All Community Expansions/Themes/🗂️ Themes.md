@@ -107,6 +107,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Reverie|Reverie]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Rmaki|Rmaki]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Rosé Pine Moon|Rosé Pine Moon]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Royal Velvet|Royal Velvet]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ruby|Ruby]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sanctum|Sanctum]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sandstorm|Sandstorm]]
