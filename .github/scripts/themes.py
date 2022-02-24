@@ -31,9 +31,11 @@ class Theme:
     def branch(self) -> str:
         return str(self.get("branch", "master"))
 
+    # This allows accessing data via theme.get("author"), until we can add theme.author() etc
     def get(self, key: str, default_value: ThemeStorageValues = None) -> ThemeStorageValues:
         return self.data.get(key, default_value)
 
+    # This allows accessing data via theme["author"], until we can add theme.author() etc
     def __getitem__(self, key: str) -> ThemeStorageValues:
         return self.data[key]
 

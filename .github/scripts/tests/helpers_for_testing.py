@@ -1,11 +1,11 @@
 from pathlib import Path
-from typing import Any, Tuple
+from typing import Any, Tuple, List
 
 from approvaltests import verify, verify_as_json, Options
 
 import utils
 from themes import Theme, ThemeList
-from hub_types import ThemeDownloads
+from hub_types import ThemeDownloads, ThemeStorage
 
 
 def verify_as_markdown(data: Any, options: Options = Options()) -> None:
@@ -35,8 +35,8 @@ def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeD
     assert sample_data_for_theme.exists()
 
     theme_downloads = utils.get_json_from_file(str(sample_data_for_theme / 'stats-theme.json'))
-    theme_list: ThemeList = utils.get_json_from_file(str(sample_data_for_theme / 'community-css-themes.json'))
-    theme = theme_list[0]
+    theme_list: List[ThemeStorage] = utils.get_json_from_file(str(sample_data_for_theme / 'community-css-themes.json'))
+    theme = Theme(theme_list[0])
 
     with open(sample_data_for_theme / 'obsidian.css') as f:
         css_file = f.read()
