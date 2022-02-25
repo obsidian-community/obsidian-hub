@@ -3,9 +3,9 @@ name: check_content
 on:
   # Intentionally check on all branches, to detect any issues as early as possible
   push:
-    branches: [ '*' ]
+    branches: [ '**' ]
   pull_request:
-    branches: [ '*' ]
+    branches: [ '**' ]
 
 jobs:
   check_hub_content:
