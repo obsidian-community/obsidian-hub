@@ -131,41 +131,41 @@ class Theme:
 
         return None
 
+    @staticmethod
+    def get_theme_plugin_support(
+            theme_css: str,
+            comm_plugins: Optional[CommunityPluginsIDAndName] = None) -> Optional[ThemePluginSupport]:
+        match = re.search(plugins_regex, theme_css, re.MULTILINE)
+        if match:
+            plugin_str = match[1]
+            plugins = yaml.load(plugin_str.replace("\t", "    "), Loader=yaml.FullLoader)
 
-def get_theme_plugin_support(
-        theme_css: str,
-        comm_plugins: Optional[CommunityPluginsIDAndName] = None) -> Optional[ThemePluginSupport]:
-    match = re.search(plugins_regex, theme_css, re.MULTILINE)
-    if match:
-        plugin_str = match[1]
-        plugins = yaml.load(plugin_str.replace("\t", "    "), Loader=yaml.FullLoader)
+            core_plugins = {n.get("id"): n.get("name") for n in CORE_PLUGINS}
+            supported_core_plugins = list()
+            for p in plugins.get("core", list()):
+                plugin_name = core_plugins.get(p)
+                supported_core_plugins.append(
+                    "Obsidian Core Plugins#{}|{}".format(plugin_name, plugin_name)
+                )
+            plugins["core"] = supported_core_plugins
 
-        core_plugins = {n.get("id"): n.get("name") for n in CORE_PLUGINS}
-        supported_core_plugins = list()
-        for p in plugins.get("core", list()):
-            plugin_name = core_plugins.get(p)
-            supported_core_plugins.append(
-                "Obsidian Core Plugins#{}|{}".format(plugin_name, plugin_name)
-            )
-        plugins["core"] = supported_core_plugins
+            if comm_plugins is None:
+                plugin_list = get_community_plugins()
+                # "id" and "name" are not typed on the object, so they could return types other than string.
+                # We know their values are always strings.
+                # The str() cast prevents mypy from warning about possible type error
+                comm_plugins = {str(n.get("id")): str(n.get("name")) for n in plugin_list}
 
-        if comm_plugins is None:
-            plugin_list = get_community_plugins()
-            # "id" and "name" are not typed on the object, so they could return types other than string.
-            # We know their values are always strings.
-            # The str() cast prevents mypy from warning about possible type error
-            comm_plugins = {str(n.get("id")): str(n.get("name")) for n in plugin_list}
+            supported_comm_plugins = list()
+            for p in plugins.get("community", list()):
+                plugin_name = comm_plugins.get(p, p)
+                supported_comm_plugins.append("{}|{}".format(p, plugin_name))
 
-        supported_comm_plugins = list()
-        for p in plugins.get("community", list()):
-            plugin_name = comm_plugins.get(p, p)
-            supported_comm_plugins.append("{}|{}".format(p, plugin_name))
+            plugins["community"] = supported_comm_plugins
 
-        plugins["community"] = supported_comm_plugins
+            return plugins
 
-        return plugins
-
-    return None
+        return None
 
 
 def get_theme_downloads() -> ThemeDownloads:
@@ -225,7 +225,7 @@ def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads:
                 .replace("light", LIGHT_MODE_THEMES)
         )
         settings = Theme.get_theme_settings(css_file)
-        plugin_support = get_theme_plugin_support(css_file)
+        plugin_support = Theme.get_theme_plugin_support(css_file)
 
         download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
