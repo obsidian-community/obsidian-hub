@@ -136,7 +136,7 @@ def process_authors(theme_designers: ThemeList,
     AllAuthors = Dict[str, Dict[str, Any]]
     all_authors: AllAuthors = dict()
     for designer in theme_designers:
-        author = designer.get("author")
+        author = designer.author()
         user = designer.get("user")
         theme_link = format_link(designer.get("name"))
         all_authors.setdefault(user, dict()).update(author=author, user=user)
