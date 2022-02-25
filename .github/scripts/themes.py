@@ -54,82 +54,82 @@ class Theme:
     def __getitem__(self, key: str) -> ThemeStorageValues:
         return self.data[key]
 
+    @staticmethod
+    def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
+        """
+        Based on the style settings plugin: https://github.com/mgmeyers/obsidian-style-settings/blob/main/src/main.ts
 
-def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
-    """
-    Based on the style settings plugin: https://github.com/mgmeyers/obsidian-style-settings/blob/main/src/main.ts
-    
-    Example with Yin and Yang settings: https://regex101.com/r/ZAQcf6/1
-    """
-    match = re.search(settings_regex, theme_css, re.MULTILINE)
-    if match:
-        settings_str = match[1]
-        settings = yaml.load(settings_str.replace("\t", "    "), Loader=yaml.FullLoader)
+        Example with Yin and Yang settings: https://regex101.com/r/ZAQcf6/1
+        """
+        match = re.search(settings_regex, theme_css, re.MULTILINE)
+        if match:
+            settings_str = match[1]
+            settings = yaml.load(settings_str.replace("\t", "    "), Loader=yaml.FullLoader)
 
-        start_h = None
+            start_h = None
 
-        markdown_settings = list()
+            markdown_settings = list()
 
-        tab_level = 0
-        last_h = None
-        content = True
+            tab_level = 0
+            last_h = None
+            content = True
 
-        for setting in settings.get("settings", list()):
-            if setting is None or setting.get("hub") == "ignore":
-                continue
+            for setting in settings.get("settings", list()):
+                if setting is None or setting.get("hub") == "ignore":
+                    continue
 
-            if setting.get("type") == "heading":
-                title = setting.get("title")
-                description = setting.get("description", "")
-                last_h = setting.get("level")
-                content = False
+                if setting.get("type") == "heading":
+                    title = setting.get("title")
+                    description = setting.get("description", "")
+                    last_h = setting.get("level")
+                    content = False
 
-                if start_h is None:
-                    start_h = setting.get("level")
+                    if start_h is None:
+                        start_h = setting.get("level")
 
-                if setting.get("level") == start_h:
+                    if setting.get("level") == start_h:
+                        markdown_settings.append(
+                            {
+                                "header": "**{}**: {}".format(title, description),
+                                "type": setting.get("type"),
+                            }
+                        )
+                        tab_level = 0
+
+                    else:
+                        tab_level = setting.get("level") - start_h - 1
+
+                        markdown_settings.append(
+                            {
+                                "title": "{}- **{}**: {}".format(
+                                    "    " * tab_level, title, description,
+                                ),
+                            }
+                        )
+                else:
+                    if last_h is None:
+                        tab_level = 0
+                    elif not content and last_h != start_h:
+                        tab_level = tab_level + 1
+
+                    if setting.get("description"):
+                        description = ": {}".format(setting.get("description"))
+                    else:
+                        description = ""
+
                     markdown_settings.append(
                         {
-                            "header": "**{}**: {}".format(title, description),
+                            "title": "{}- {}{}".format(
+                                "    " * tab_level, setting.get("title"), description
+                            ),
                             "type": setting.get("type"),
                         }
                     )
-                    tab_level = 0
 
-                else:
-                    tab_level = setting.get("level") - start_h - 1
+                    content = True
+            return markdown_settings
 
-                    markdown_settings.append(
-                        {
-                            "title": "{}- **{}**: {}".format(
-                                "    " * tab_level, title, description,
-                            ),
-                        }
-                    )
-            else:
-                if last_h is None:
-                    tab_level = 0
-                elif not content and last_h != start_h:
-                    tab_level = tab_level + 1
-
-                if setting.get("description"):
-                    description = ": {}".format(setting.get("description"))
-                else:
-                    description = ""
-
-                markdown_settings.append(
-                    {
-                        "title": "{}- {}{}".format(
-                            "    " * tab_level, setting.get("title"), description
-                        ),
-                        "type": setting.get("type"),
-                    }
-                )
-
-                content = True
-        return markdown_settings
-
-    return None
+        return None
 
 
 def get_theme_plugin_support(
@@ -224,7 +224,7 @@ def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads:
                 .replace("dark", DARK_MODE_THEMES)
                 .replace("light", LIGHT_MODE_THEMES)
         )
-        settings = get_theme_settings(css_file)
+        settings = Theme.get_theme_settings(css_file)
         plugin_support = get_theme_plugin_support(css_file)
 
         download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
