@@ -202,10 +202,10 @@ class Theme:
         branch = self.get("branch", "master")
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
-        return self.collect_data_for_theme_and_css(css_file, theme_downloads, Theme.template, file_groups)
+        return self.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
 
     def collect_data_for_theme_and_css(self, css_file: str, theme_downloads: ThemeDownloads,
-                                       template: Template, file_groups: FileGroups) -> typing.Tuple[str, bool]:
+                                       file_groups: FileGroups) -> typing.Tuple[str, bool]:
         valid = True
         current_name = str(self.get("name"))
 
@@ -225,7 +225,7 @@ class Theme:
             settings = Theme.get_theme_settings(css_file)
             plugin_support = Theme.get_theme_plugin_support(css_file)
 
-            download_count = ThemeDownloadCount.get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
+            download_count = ThemeDownloadCount.get_theme_download_count_preferring_previous(Theme.template, theme_downloads, current_name)
 
             self.data.update(
                 user=user,
