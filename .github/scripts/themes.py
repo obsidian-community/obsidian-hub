@@ -182,10 +182,10 @@ class Theme:
         theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
         return theme_downloads
 
-
-def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
-    old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
-    return old_text
+    @staticmethod
+    def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
+        old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
+        return old_text
 
 
 def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template,
@@ -306,8 +306,8 @@ def set_theme_download_count(template: Template, current_name: str, new_download
     with open(file_name) as file:
         old_contents = file.read()
 
-    old_text = get_url_pattern_for_downloads_shield(previous_download_count)
-    new_text = get_url_pattern_for_downloads_shield(new_download_count)
+    old_text = Theme.get_url_pattern_for_downloads_shield(previous_download_count)
+    new_text = Theme.get_url_pattern_for_downloads_shield(new_download_count)
     new_contents = old_contents.replace(old_text, new_text)
     assert new_contents != old_contents
 
