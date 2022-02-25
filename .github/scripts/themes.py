@@ -179,7 +179,7 @@ class Theme:
         :param file_groups:  Place to store error message if the theme is invalid
         :return: The name of the theme, and whether it is valid
         """
-        repo = str(self.get("repo"))
+        repo = self.repo()
         branch = self.get("branch", "master")
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
@@ -191,7 +191,7 @@ class Theme:
         current_name = str(self.get("name"))
 
         try:
-            repo = str(self.get("repo"))
+            repo = self.repo()
             branch = self.get("branch", "master")
             user = repo.split("/")[0]
             raw_modes = self.get("modes")
