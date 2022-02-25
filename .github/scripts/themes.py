@@ -170,9 +170,8 @@ class Theme:
 
         return None
 
-
-
-    def collect_data_for_theme(self, theme_downloads: ThemeDownloads, file_groups: FileGroups) -> typing.Tuple[str, bool]:
+    def collect_data_for_theme(self, theme_downloads: ThemeDownloads, file_groups: FileGroups) -> typing.Tuple[
+        str, bool]:
         """
         Take raw theme data from a community theme, and add information to it.
 
@@ -207,7 +206,9 @@ class Theme:
             settings = Theme.get_theme_settings(css_file)
             plugin_support = Theme.get_theme_plugin_support(css_file)
 
-            download_count = ThemeDownloadCount.get_theme_download_count_preferring_previous(Theme.template, theme_downloads, current_name)
+            download_count = ThemeDownloadCount.get_theme_download_count_preferring_previous(Theme.template,
+                                                                                             theme_downloads,
+                                                                                             current_name)
 
             self.data.update(
                 user=user,
@@ -299,7 +300,8 @@ class ThemeDownloadCount:
 
         if verbose:
             print(
-                "Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
+                "Download count updated       {} - {} -> {}".format(file_name, previous_download_count,
+                                                                    new_download_count))
 
     @staticmethod
     def update_theme_download_count(template: Template, theme_downloads: ThemeDownloads, current_name: str,
