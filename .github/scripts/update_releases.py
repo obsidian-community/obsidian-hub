@@ -19,7 +19,7 @@ from utils import (
     add_file_group,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
-from themes import update_theme_download_count, ThemeList, Theme
+from themes import ThemeList, Theme, ThemeDownloadCount
 
 
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
@@ -185,7 +185,7 @@ def update_theme_download_counts(verbose: bool) -> None:
 
     for theme in theme_list:
         current_name = theme.get("name")
-        update_theme_download_count(template, theme_downloads, current_name, verbose)
+        ThemeDownloadCount.update_theme_download_count(template, theme_downloads, current_name, verbose)
 
 
 def main(argv: Sequence[str] = sys.argv[1:]) -> None:

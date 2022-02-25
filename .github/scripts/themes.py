@@ -322,11 +322,11 @@ class ThemeDownloadCount:
             print(
                 "Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
 
-
-def update_theme_download_count(template: Template, theme_downloads: ThemeDownloads, current_name: str,
-                                verbose: bool) -> None:
-    download_count = ThemeDownloadCount.get_theme_current_download_count(theme_downloads, current_name)
-    ThemeDownloadCount.set_theme_download_count(template, current_name, download_count, verbose)
+    @staticmethod
+    def update_theme_download_count(template: Template, theme_downloads: ThemeDownloads, current_name: str,
+                                    verbose: bool) -> None:
+        download_count = ThemeDownloadCount.get_theme_current_download_count(theme_downloads, current_name)
+        ThemeDownloadCount.set_theme_download_count(template, current_name, download_count, verbose)
 
 
 def get_community_plugins() -> ThemeList:
