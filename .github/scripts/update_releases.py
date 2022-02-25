@@ -56,7 +56,6 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
 
 def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:
     print("-----\nProcessing themes....\n")
-    template = get_template("theme")
     theme_list: List[ThemeStorage] = get_json_from_github(THEMES_JSON_FILE)
     designers: ThemeList = list()
 
@@ -69,12 +68,12 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     for theme2 in theme_list:
         theme = Theme(theme2)
-        current_name, valid = theme.collect_data_for_theme(theme_downloads, template, file_groups)
+        current_name, valid = theme.collect_data_for_theme(theme_downloads, file_groups)
         if not valid:
             continue
 
         group = write_file(
-            template, current_name, overwrite=overwrite, verbose=verbose, **theme.data
+            Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data
         )
         designers.append(theme)
         add_file_group(file_groups, group, current_name)

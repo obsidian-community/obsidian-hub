@@ -15,7 +15,7 @@ from utils import (
     get_output_dir,
     get_theme_css,
     FileGroups,
-    add_file_group
+    add_file_group, get_template
 )
 
 # enquote Theme so that it can be used before it is declared
@@ -34,6 +34,9 @@ LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 
 
 class Theme:
+    # will be shared between all instances, so only created once
+    template = get_template("theme")
+
     def __init__(self, data: ThemeStorage):
         self.data = data
 
@@ -187,13 +190,11 @@ class Theme:
         old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
         return old_text
 
-    def collect_data_for_theme(self, theme_downloads: ThemeDownloads, template: Template,
-                               file_groups: FileGroups) -> typing.Tuple[str, bool]:
+    def collect_data_for_theme(self, theme_downloads: ThemeDownloads, file_groups: FileGroups) -> typing.Tuple[str, bool]:
         """
         Take raw theme data from a community theme, and add information to it.
 
         :param theme_downloads: The download count of all themes
-        :param template: The template used for writing themes - needed to obtain the location of existing themes
         :param file_groups:  Place to store error message if the theme is invalid
         :return: The name of the theme, and whether it is valid
         """
@@ -201,7 +202,7 @@ class Theme:
         branch = self.get("branch", "master")
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
-        return self.collect_data_for_theme_and_css(css_file, theme_downloads, template, file_groups)
+        return self.collect_data_for_theme_and_css(css_file, theme_downloads, Theme.template, file_groups)
 
     def collect_data_for_theme_and_css(self, css_file: str, theme_downloads: ThemeDownloads,
                                        template: Template, file_groups: FileGroups) -> typing.Tuple[str, bool]:
