@@ -251,7 +251,7 @@ class ThemeDownloadCount:
     @staticmethod
     def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads,
                                                      current_name: str) -> int:
-        previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
+        previous_download_count = ThemeDownloadCount.get_theme_previous_download_count_or_none(template, current_name)
         if previous_download_count:
             return previous_download_count
 
@@ -261,25 +261,25 @@ class ThemeDownloadCount:
     def get_theme_current_download_count(theme_downloads: ThemeDownloads, current_name: str) -> int:
         return int(theme_downloads[current_name]["download"])
 
-
-def get_theme_previous_download_count_or_none(template: Template, current_name: str) -> Union[int, None]:
-    """
-    Read the theme file from disk, and return the previously-saved download count
-    :return: The saved theme download count, or None if this could not be obtained 
-    """
-    file_name = get_output_dir(template, current_name)
-    if not os.path.exists(file_name):
-        # This is a new theme, so we don't yet have a previous download count:
-        return None
-
-    with open(file_name) as file:
-        contents = file.read()
-        result = DOWNLOAD_COUNT_SEARCH.search(contents)
-        if not result:
-            # We could not extract the previous download count.
-            # Perhaps the URL in the theme template has been modified?
+    @staticmethod
+    def get_theme_previous_download_count_or_none(template: Template, current_name: str) -> Union[int, None]:
+        """
+        Read the theme file from disk, and return the previously-saved download count
+        :return: The saved theme download count, or None if this could not be obtained
+        """
+        file_name = get_output_dir(template, current_name)
+        if not os.path.exists(file_name):
+            # This is a new theme, so we don't yet have a previous download count:
             return None
-        return int(result.group(1))
+
+        with open(file_name) as file:
+            contents = file.read()
+            result = DOWNLOAD_COUNT_SEARCH.search(contents)
+            if not result:
+                # We could not extract the previous download count.
+                # Perhaps the URL in the theme template has been modified?
+                return None
+            return int(result.group(1))
 
 
 def set_theme_download_count(template: Template, current_name: str, new_download_count: int, verbose: bool) -> None:
@@ -290,7 +290,7 @@ def set_theme_download_count(template: Template, current_name: str, new_download
             print("No note for theme            {}".format(file_name))
         return
 
-    previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
+    previous_download_count = ThemeDownloadCount.get_theme_previous_download_count_or_none(template, current_name)
     if not previous_download_count:
         if verbose:
             print("Cannot read download count   {}".format(file_name))
