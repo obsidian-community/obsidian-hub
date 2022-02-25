@@ -19,7 +19,7 @@ from utils import (
     add_file_group,
 )
 from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
-from themes import update_theme_download_count, collect_data_for_theme, ThemeList, Theme
+from themes import update_theme_download_count, ThemeList, Theme
 
 
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
@@ -69,7 +69,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     for theme2 in theme_list:
         theme = Theme(theme2)
-        current_name, valid = collect_data_for_theme(theme, theme_downloads, template, file_groups)
+        current_name, valid = Theme.collect_data_for_theme(theme, theme_downloads, template, file_groups)
         if not valid:
             continue
 

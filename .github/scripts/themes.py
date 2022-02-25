@@ -187,23 +187,23 @@ class Theme:
         old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
         return old_text
 
+    @staticmethod
+    def collect_data_for_theme(theme: "Theme", theme_downloads: ThemeDownloads, template: Template,
+                               file_groups: FileGroups) -> typing.Tuple[str, bool]:
+        """
+        Take raw theme data from a community theme, and add information to it.
 
-def collect_data_for_theme(theme: Theme, theme_downloads: ThemeDownloads, template: Template,
-                           file_groups: FileGroups) -> typing.Tuple[str, bool]:
-    """
-    Take raw theme data from a community theme, and add information to it.
+        :param theme: A dict with data about the theme, to be updated by this function
+        :param theme_downloads: The download count of all themes
+        :param template: The template used for writing themes - needed to obtain the location of existing themes
+        :param file_groups:  Place to store error message if the theme is invalid
+        :return: The name of the theme, and whether it is valid
+        """
+        repo = str(theme.get("repo"))
+        branch = theme.get("branch", "master")
+        css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
-    :param theme: A dict with data about the theme, to be updated by this function
-    :param theme_downloads: The download count of all themes
-    :param template: The template used for writing themes - needed to obtain the location of existing themes
-    :param file_groups:  Place to store error message if the theme is invalid
-    :return: The name of the theme, and whether it is valid
-    """
-    repo = str(theme.get("repo"))
-    branch = theme.get("branch", "master")
-    css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
-
-    return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
+        return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
 
 
 def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads, template: Template,
