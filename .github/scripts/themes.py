@@ -32,6 +32,7 @@ DOWNLOAD_COUNT_SEARCH = re.compile(DOWNLOAD_COUNT_SHIELDS_URL_PREFIX + r"(\d+)-"
 DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
 LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
 
+
 class Theme:
     def __init__(self, data: ThemeStorage):
         self.data = data
@@ -52,6 +53,7 @@ class Theme:
     # This allows accessing data via theme["author"], until we can add theme.author() etc
     def __getitem__(self, key: str) -> ThemeStorageValues:
         return self.data[key]
+
 
 def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
     """
@@ -243,7 +245,8 @@ def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads:
     return current_name, valid
 
 
-def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads, current_name: str) -> int:
+def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads,
+                                                 current_name: str) -> int:
     previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
     if previous_download_count:
         return previous_download_count
@@ -312,10 +315,12 @@ def set_theme_download_count(template: Template, current_name: str, new_download
         file.write(new_contents)
 
     if verbose:
-        print("Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
+        print(
+            "Download count updated       {} - {} -> {}".format(file_name, previous_download_count, new_download_count))
 
 
-def update_theme_download_count(template: Template, theme_downloads: ThemeDownloads, current_name: str, verbose: bool) -> None:
+def update_theme_download_count(template: Template, theme_downloads: ThemeDownloads, current_name: str,
+                                verbose: bool) -> None:
     download_count = get_theme_current_download_count(theme_downloads, current_name)
     set_theme_download_count(template, current_name, download_count, verbose)
 
