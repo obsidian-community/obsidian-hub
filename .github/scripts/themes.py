@@ -227,7 +227,7 @@ class Theme:
             settings = Theme.get_theme_settings(css_file)
             plugin_support = Theme.get_theme_plugin_support(css_file)
 
-            download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
+            download_count = ThemeDownloadCount.get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
             theme.data.update(
                 user=user,
@@ -245,13 +245,17 @@ class Theme:
         return current_name, valid
 
 
-def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads,
-                                                 current_name: str) -> int:
-    previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
-    if previous_download_count:
-        return previous_download_count
+class ThemeDownloadCount:
+    pass
 
-    return get_theme_current_download_count(theme_downloads, current_name)
+    @staticmethod
+    def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads,
+                                                     current_name: str) -> int:
+        previous_download_count = get_theme_previous_download_count_or_none(template, current_name)
+        if previous_download_count:
+            return previous_download_count
+
+        return get_theme_current_download_count(theme_downloads, current_name)
 
 
 def get_theme_current_download_count(theme_downloads: ThemeDownloads, current_name: str) -> int:
