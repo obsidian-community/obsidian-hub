@@ -34,8 +34,14 @@ JSONType = Union[str, int, float, bool, None, Dict[str, Any], List[Any]]
 running_in_continuous_integration = os.environ.get('GITHUB_ACTIONS') != None
 
 
+def get_scripts_directory() -> str:
+    scripts_dir = os.path.join(get_root_of_vault(), ".github", "scripts")
+    assert os.path.exists(scripts_dir)
+    return scripts_dir
+
+
 def get_template(template_name: str) -> Template:
-    directory = "./templates"
+    directory = os.path.join(get_scripts_directory(), "templates")
     template_file_name = "{}.md.jinja".format(template_name)
     return get_template_from_directory(directory, template_file_name)
 
