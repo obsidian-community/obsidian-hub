@@ -18,6 +18,20 @@ from utils import (
     add_file_group
 )
 
+# enquote Theme so that it can be used before it is declared
+ThemeList = List["Theme"]
+
+CommunityPluginsIDAndName = Dict[str, str]
+
+settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
+plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
+
+DOWNLOAD_COUNT_SHIELDS_URL_PREFIX = 'https://img.shields.io/badge/downloads-'
+DOWNLOAD_COUNT_SEARCH = re.compile(DOWNLOAD_COUNT_SHIELDS_URL_PREFIX + r"(\d+)-")
+
+DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
+LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
+
 class Theme:
     def __init__(self, data: ThemeStorage):
         self.data = data
@@ -38,20 +52,6 @@ class Theme:
     # This allows accessing data via theme["author"], until we can add theme.author() etc
     def __getitem__(self, key: str) -> ThemeStorageValues:
         return self.data[key]
-
-ThemeList = List[Theme]
-
-CommunityPluginsIDAndName = Dict[str, str]
-
-settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
-plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
-
-DOWNLOAD_COUNT_SHIELDS_URL_PREFIX = 'https://img.shields.io/badge/downloads-'
-DOWNLOAD_COUNT_SEARCH = re.compile(DOWNLOAD_COUNT_SHIELDS_URL_PREFIX + r"(\d+)-")
-
-DARK_MODE_THEMES = "[[Dark-mode themes|dark]]"
-LIGHT_MODE_THEMES = "[[Light-mode themes|light]]"
-
 
 def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
     """
