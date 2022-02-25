@@ -170,20 +170,6 @@ class Theme:
 
         return None
 
-    @staticmethod
-    def get_theme_downloads() -> ThemeDownloads:
-        # Example content:
-        # {
-        #     "80s Neon": {
-        #         "download": 9271,
-        #         "id": "80s Neon"
-        #     },
-        #     "Agora": {
-        #         "download": 1824,
-        #         "id": "Agora"
-        #     },
-        theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
-        return theme_downloads
 
     @staticmethod
     def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
@@ -326,6 +312,20 @@ class ThemeDownloadCount:
         download_count = ThemeDownloadCount.get_theme_current_download_count(theme_downloads, current_name)
         ThemeDownloadCount.set_theme_download_count(template, current_name, download_count, verbose)
 
+    @staticmethod
+    def get_theme_downloads() -> ThemeDownloads:
+        # Example content:
+        # {
+        #     "80s Neon": {
+        #         "download": 9271,
+        #         "id": "80s Neon"
+        #     },
+        #     "Agora": {
+        #         "download": 1824,
+        #         "id": "Agora"
+        #     },
+        theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
+        return theme_downloads
 
 def get_community_plugins() -> ThemeList:
     plugin_list = get_json_from_github(PLUGINS_JSON_FILE)

@@ -64,7 +64,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
         0, len(theme_list),
     )
 
-    theme_downloads = Theme.get_theme_downloads()
+    theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
     for theme2 in theme_list:
         theme = Theme(theme2)
@@ -180,7 +180,7 @@ def update_theme_download_counts(verbose: bool) -> None:
     template = get_template("theme")
     theme_list = get_json_from_github(THEMES_JSON_FILE)
 
-    theme_downloads = Theme.get_theme_downloads()
+    theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
     for theme in theme_list:
         current_name = theme.get("name")
