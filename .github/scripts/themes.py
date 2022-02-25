@@ -171,10 +171,6 @@ class Theme:
         return None
 
 
-    @staticmethod
-    def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
-        old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
-        return old_text
 
     def collect_data_for_theme(self, theme_downloads: ThemeDownloads, file_groups: FileGroups) -> typing.Tuple[str, bool]:
         """
@@ -294,8 +290,8 @@ class ThemeDownloadCount:
         with open(file_name) as file:
             old_contents = file.read()
 
-        old_text = Theme.get_url_pattern_for_downloads_shield(previous_download_count)
-        new_text = Theme.get_url_pattern_for_downloads_shield(new_download_count)
+        old_text = ThemeDownloadCount.get_url_pattern_for_downloads_shield(previous_download_count)
+        new_text = ThemeDownloadCount.get_url_pattern_for_downloads_shield(new_download_count)
         new_contents = old_contents.replace(old_text, new_text)
         assert new_contents != old_contents
 
@@ -326,6 +322,12 @@ class ThemeDownloadCount:
         #     },
         theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
         return theme_downloads
+
+    @staticmethod
+    def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
+        old_text = f"{DOWNLOAD_COUNT_SHIELDS_URL_PREFIX}{placeholder_for_download_count}-"
+        return old_text
+
 
 def get_community_plugins() -> ThemeList:
     plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
