@@ -203,46 +203,46 @@ class Theme:
         branch = theme.get("branch", "master")
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
-        return collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
+        return Theme.collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
 
+    @staticmethod
+    def collect_data_for_theme_and_css(theme: "Theme", css_file: str, theme_downloads: ThemeDownloads,
+                                       template: Template, file_groups: FileGroups) -> typing.Tuple[str, bool]:
+        valid = True
+        current_name = str(theme.get("name"))
 
-def collect_data_for_theme_and_css(theme: Theme, css_file: str, theme_downloads: ThemeDownloads, template: Template,
-                                   file_groups: FileGroups) -> typing.Tuple[str, bool]:
-    valid = True
-    current_name = str(theme.get("name"))
+        try:
+            repo = str(theme.get("repo"))
+            branch = theme.get("branch", "master")
+            user = repo.split("/")[0]
+            raw_modes = theme.get("modes")
+            assert raw_modes
+            # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
+            raw_modes = typing.cast(typing.List[str], raw_modes)
+            modes = (
+                ", ".join(raw_modes)
+                    .replace("dark", DARK_MODE_THEMES)
+                    .replace("light", LIGHT_MODE_THEMES)
+            )
+            settings = Theme.get_theme_settings(css_file)
+            plugin_support = Theme.get_theme_plugin_support(css_file)
 
-    try:
-        repo = str(theme.get("repo"))
-        branch = theme.get("branch", "master")
-        user = repo.split("/")[0]
-        raw_modes = theme.get("modes")
-        assert raw_modes
-        # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
-        raw_modes = typing.cast(typing.List[str], raw_modes)
-        modes = (
-            ", ".join(raw_modes)
-                .replace("dark", DARK_MODE_THEMES)
-                .replace("light", LIGHT_MODE_THEMES)
-        )
-        settings = Theme.get_theme_settings(css_file)
-        plugin_support = Theme.get_theme_plugin_support(css_file)
+            download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
-        download_count = get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
+            theme.data.update(
+                user=user,
+                modes=modes,
+                branch=branch,
+                settings=settings,
+                plugins=plugin_support,
+                download_count=download_count,
+            )
+        except Exception as err:
+            print(f'ERROR processing theme {current_name}. Error message: {err}')
+            add_file_group(file_groups, "error", f"{current_name}")
+            valid = False
 
-        theme.data.update(
-            user=user,
-            modes=modes,
-            branch=branch,
-            settings=settings,
-            plugins=plugin_support,
-            download_count=download_count,
-        )
-    except Exception as err:
-        print(f'ERROR processing theme {current_name}. Error message: {err}')
-        add_file_group(file_groups, "error", f"{current_name}")
-        valid = False
-
-    return current_name, valid
+        return current_name, valid
 
 
 def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads,

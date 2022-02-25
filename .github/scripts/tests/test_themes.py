@@ -8,7 +8,7 @@ from jinja2 import Template
 import utils
 from tests.helpers_for_testing import verify_as_markdown, get_saved_sample_data_for_theme
 from tests.test_templates import JINJA_TEMPLATES_DIR
-from themes import collect_data_for_theme_and_css
+from themes import Theme
 
 
 def test_collect_data_for_theme_with_settings() -> None:
@@ -27,7 +27,7 @@ def test_reading_theme__with_error_logs_error() -> None:
     theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
 
     file_groups: utils.FileGroups = dict()
-    name, valid = collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
+    name, valid = Theme.collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
 
     assert name == theme_name
     assert valid == False
@@ -44,7 +44,7 @@ def test_rendering_of_theme() -> None:
     theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
 
     file_groups: utils.FileGroups = dict()
-    name, valid = collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
+    name, valid = Theme.collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
     assert name == theme_name
 
     file_path = "delete_me.md"
@@ -76,7 +76,7 @@ def verify_theme_data(theme_name: str) -> None:
     s.add_frame(approvaltests.utils.to_json(theme.data))
 
     file_groups: utils.FileGroups = dict()
-    name, valid = collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
+    name, valid = Theme.collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
     assert name == theme_name
     assert theme["user"] != ""
     s.add_frame(approvaltests.utils.to_json(theme.data))
