@@ -69,7 +69,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     for theme2 in theme_list:
         theme = Theme(theme2)
-        current_name, valid = Theme.collect_data_for_theme(theme, theme_downloads, template, file_groups)
+        current_name, valid = theme.collect_data_for_theme(theme_downloads, template, file_groups)
         if not valid:
             continue
 
