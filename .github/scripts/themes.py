@@ -203,19 +203,18 @@ class Theme:
         branch = theme.get("branch", "master")
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
-        return Theme.collect_data_for_theme_and_css(theme, css_file, theme_downloads, template, file_groups)
+        return theme.collect_data_for_theme_and_css(css_file, theme_downloads, template, file_groups)
 
-    @staticmethod
-    def collect_data_for_theme_and_css(theme: "Theme", css_file: str, theme_downloads: ThemeDownloads,
+    def collect_data_for_theme_and_css(self, css_file: str, theme_downloads: ThemeDownloads,
                                        template: Template, file_groups: FileGroups) -> typing.Tuple[str, bool]:
         valid = True
-        current_name = str(theme.get("name"))
+        current_name = str(self.get("name"))
 
         try:
-            repo = str(theme.get("repo"))
-            branch = theme.get("branch", "master")
+            repo = str(self.get("repo"))
+            branch = self.get("branch", "master")
             user = repo.split("/")[0]
-            raw_modes = theme.get("modes")
+            raw_modes = self.get("modes")
             assert raw_modes
             # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
             raw_modes = typing.cast(typing.List[str], raw_modes)
@@ -229,7 +228,7 @@ class Theme:
 
             download_count = ThemeDownloadCount.get_theme_download_count_preferring_previous(template, theme_downloads, current_name)
 
-            theme.data.update(
+            self.data.update(
                 user=user,
                 modes=modes,
                 branch=branch,
