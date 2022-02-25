@@ -167,20 +167,20 @@ class Theme:
 
         return None
 
-
-def get_theme_downloads() -> ThemeDownloads:
-    # Example content:
-    # {
-    #     "80s Neon": {
-    #         "download": 9271,
-    #         "id": "80s Neon"
-    #     },
-    #     "Agora": {
-    #         "download": 1824,
-    #         "id": "Agora"
-    #     },
-    theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
-    return theme_downloads
+    @staticmethod
+    def get_theme_downloads() -> ThemeDownloads:
+        # Example content:
+        # {
+        #     "80s Neon": {
+        #         "download": 9271,
+        #         "id": "80s Neon"
+        #     },
+        #     "Agora": {
+        #         "download": 1824,
+        #         "id": "Agora"
+        #     },
+        theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
+        return theme_downloads
 
 
 def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
