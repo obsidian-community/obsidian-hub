@@ -226,7 +226,6 @@ class Theme:
 
 
 class ThemeDownloadCount:
-    pass
 
     @staticmethod
     def get_theme_download_count_preferring_previous(template: Template, theme_downloads: ThemeDownloads,
