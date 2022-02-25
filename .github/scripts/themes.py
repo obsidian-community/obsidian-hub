@@ -46,6 +46,9 @@ class Theme:
     def author(self) -> str:
         return str(self.get("author"))
 
+    def user(self) -> str:
+        return str(self.get("user"))
+
     def repo(self) -> str:
         return str(self.get("repo"))
 
