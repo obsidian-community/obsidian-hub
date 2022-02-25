@@ -188,7 +188,7 @@ class Theme:
     def collect_data_for_theme_and_css(self, css_file: str, theme_downloads: ThemeDownloads,
                                        file_groups: FileGroups) -> typing.Tuple[str, bool]:
         valid = True
-        current_name = str(self.get("name"))
+        current_name = self.name()
 
         try:
             repo = self.repo()
