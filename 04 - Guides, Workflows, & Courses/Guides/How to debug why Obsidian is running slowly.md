@@ -14,7 +14,7 @@ The first thing you'll want to investigate is if the slowness is being caused by
 
 ![[safe-mode-on.png]]
 
-While this should cause all the plugins to be unloaded from the app, it is recommended that you restart Obsidian in case any plugins did fully clean up after themselves (i.e. suspend any running processes and return all allocated memory).
+While this should cause all the plugins to be unloaded from the app, it is recommended that you restart Obsidian in case any plugins didn't fully clean up after themselves (i.e. suspend any running processes and return all allocated memory).
 
 Choose your own adventure time:
 - Obsidian is fast with Safe Mode enabled
@@ -24,13 +24,13 @@ Choose your own adventure time:
 
 If you've determined that the slowness you're experiencing is due to a plugin, the next step is finding out which one.
 
-The simplest way to do this is to then the plugins on one-by-one and see when the slowness gets introduced.
+The simplest way to do this is to turn the plugins on one-by-one and see when the slowness gets introduced.
 
-If you have many plugins, this process can be very tedius. To accelerate this process, you can **bisect** your plugin list using the "divide and conquer" method. This is a term stemming from computer science that simply describes the process of repeatedly splitting a problem in half until you've reached the simplest "base" problem.
+If you have many plugins, this process can be very tedious. To accelerate this process, you can **bisect** your plugin list using the "divide and conquer" method. This is a term stemming from computer science that simply describes the process of repeatedly splitting a problem in half until you've reached the simplest "base" problem.
 
 So if you're trying to find the slow plugin from your list of 16 plugins, for example, you start by turning off 8 plugins. If Obsidian is still slow, then you turn off 4 of those remaining 8 plugins. If the slowness has stopped, then you know that it was caused by one of the 4 plugins you just disabled, so you repeat this process with those plugins: disable 2, check. Disable 1, check.
 
-> This operation is faster but still a bit tedius, so luckily there's actually a [[obsidian-divide-and-conquer|Divide & Conquer]] plugin that automates some of these steps for you.
+> This operation is faster but still a bit tedious, so luckily there's actually a [[obsidian-divide-and-conquer|Divide & Conquer]] plugin that automates some of these steps for you.
 
 Now you have your culprit: the offending plugin that's causing slowness. Now what? You can take the opportunity to be a good citizen and file a report with the plugin author.
 
@@ -46,13 +46,13 @@ In the event that you're experiencing slowness _even with plugins disabled,_ the
 
 A performance snapshot will tell you exactly what operations/functions are taking up all the CPU cycles when Obsidian is being slow.
 
-To take a performance snapshot, first open the Developer Tools (`View › Toggle Developer Tools`). Find the "Performance" tab.
+To take a performance snapshot, first open the Developer Tools (<kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>I</kbd> on Windows/Linux or <kbd>Cmd</kbd>-<kbd>Opt</kbd>-<kbd>I</kbd> on MacOS; on MacOS alternatively `View › Toggle Developer Tools`). Find the "Performance" tab.
 
 ![[performance-snapshot-step1.png]]
 
 From the performance tab, press "Record."
 
-While it's recording, interact with Obsidian until you experience the slowness you were observing before–a couple seconds of interaction is enough.
+While it's recording, interact with Obsidian until you experience the slowness you were observing before—a couple seconds of interaction is enough.
 
 Next, stop the recording.
 
