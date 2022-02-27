@@ -40,6 +40,7 @@ def process_issues(api_key: str, overwrite: bool = True, verbose: bool = False) 
     rate_limit = client.get('/rate_limit')['resources']['core']['remaining']
     if rate_limit < len(plugin_list) * 3:
         print("will hit the rate limit: aborting")
+        quit(1)
         return
     print("-----\nProcessing plugin issues....\n")
     template = get_template("plugin_issues")
