@@ -6,6 +6,6 @@ cd ../..
 
 OUTPUT_FILE="00 - Contribute to the Obsidian Hub/03 Contributor Notes/03.01 Structure/Hub Tree Structure.md"
 
-echo -e '%% Hub Tree: Don’t edit below %%\n```' > "$OUTPUT_FILE"
+echo -e '%% Hub Tree: Don’t edit this file directly %%\n```' > "$OUTPUT_FILE"
 tree -d -N -I venv --noreport >> "$OUTPUT_FILE"
 echo -e '```\n%% Hub Tree: Don’t edit above %%' >> "$OUTPUT_FILE"
