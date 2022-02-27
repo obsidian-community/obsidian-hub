@@ -1,5 +1,4 @@
-# Hub Tree
-%% Hub Tree: Don’t edit below %%
+%% Hub Tree: Don’t edit this file directly %%
 ```
 .
 ├── 00 - Contribute to the Obsidian Hub

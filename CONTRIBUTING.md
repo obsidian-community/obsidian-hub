@@ -36,7 +36,7 @@ Once you have added or edited the note using Obsidian, come back and check out [
 ### Overview
 This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folder structure of this Community Vault.
 
-![[Hub Tree Structure#Hub Tree]]
+![[Hub Tree Structure]]
 
 ### The Main Folders
 Lets have a brief look at the main folders:
