@@ -7,10 +7,9 @@ We'll maintain a list of plugins that need better docs. You can reach out to the
 Don't be shy to contribute! The worst that could happen is that the plugin developer requests you write things slightly differently. Feel free to drop by on our Discord (`#plugin-general`) if you need help as well.
 
 ## Looking for help
+The following issues are collected automatically from GitHub issues of plugins.
 
-- [shabegom/buttons](https://github.com/shabegom/buttons)
-- [valentine195/obsidian-leaflet-plugin](https://github.com/valentine195/obsidian-leaflet-plugin)
-- [blacksmithgu/obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview)
+[[Plugins seeking help#Documentation|Plugins seeking help with documentation]]
 
 %% Hub footer: Please don't edit anything below this line %%
 

@@ -140,6 +140,11 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-footnote-indicator|Footnote & Citation Indicator]]
 - [[japanese-word-splitter|Word Splitting for Japanese in Edit Mode]]
 - [[alx-folder-note-folderv|AidenLx's Folder Note - folderv Component]]
+- [[obsidian-chevereto-image-uploader|Chevereto Image Uploader for Obsidian]]
+- [[todoist-text|Todoist Text]]
+- [[big-calendar|Big Calendar]]
+- [[sekund|Obsidian Social (Sekund)]]
+- [[obsidian-command-palette-minus-plugin|Command Palette--]]
 
 
 %% Hub footer: Please don't edit anything below this line %%

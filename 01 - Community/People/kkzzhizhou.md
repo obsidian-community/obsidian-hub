@@ -1,16 +1,16 @@
 ---
 aliases:
-- Signynt
+- kkzzhizhou
 tags:
 - 
 publish: true
 ---
 
-# Signynt
+# kkzzhizhou
 
-- GitHub: [signynt](https://github.com/signynt/) ^github
+- GitHub: [kkzzhizhou](https://github.com/kkzzhizhou/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/Signynt> ^website
+<!-- - Website: <> ^website-->
 <!-- - [[Publish sites|Publish site]]: ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[insert-heading-link|Insert Heading Link]]
+- [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]
 
 %% End Hub: Released contributions %%
 
@@ -41,7 +41,7 @@ publish: true
 <!--
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @signynt on GitHub Sponsors](https://github.com/sponsors/signynt) ^github-sponsor
+- [[GitHub sponsors]]: [Sponsor @kkzzhizhou on GitHub Sponsors](https://github.com/sponsors/kkzzhizhou) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
@@ -60,4 +60,4 @@ publish: true
 
 # This note in GitHub
 
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/People/signynt.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/People/signynt.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/People/kkzzhizhou.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/People/kkzzhizhou.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
