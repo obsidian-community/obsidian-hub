@@ -28,8 +28,7 @@ When reviewing:
 
 After merging:
 
-- Do the MOCs need updating? See [[Updating MOC files]]
-- Add footers if a new note has been added. See [[Adding footers]] 
+- Run the [[update_hub GitHub Action]]. See here [[GitHub Actions for the Hub#^3df057|what it does]].
 - Does the [tree of directories in Contributing](https://github.com/obsidian-community/obsidian-hub/blob/main/CONTRIBUTING.md#structure-of-the-community-vault) need to be updated? See comments in the source of that file.
 - If a directory was renamed (rare), check to see if you need delete the previous MOC
 
