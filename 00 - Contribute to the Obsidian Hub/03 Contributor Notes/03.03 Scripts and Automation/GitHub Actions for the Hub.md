@@ -7,7 +7,7 @@ tags:
 
 # GitHub Actions for the Hub
 
-One GitHub Action that combines updating theme download counts, adds new plugins, themes and authors, [[Updating MOC files|updates MOC files]] and [[Adding footers|adds footers]] is the [[update_hub GitHub Action]].   ^3df057
+One GitHub Action that combines updating theme download counts, adds new plugins, themes and authors, [[Updating MOC files|updates MOC files]], updates the [tree of directories in Contributing](https://github.com/obsidian-community/obsidian-hub/blob/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/03%20Contributor%20Notes/03.01%20Structure/Hub%20Tree%20Structure.md) and [[Adding footers|adds footers]] is the [[update_hub GitHub Action]].   ^3df057
 
 ## Potentially automatable
 
