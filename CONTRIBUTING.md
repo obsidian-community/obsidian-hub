@@ -36,51 +36,7 @@ Once you have added or edited the note using Obsidian, come back and check out [
 ### Overview
 This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folder structure of this Community Vault.
 
-%% Keep this updated when the Vault structure changes! %%
-%% The command is 'tree -d -N -I venv --noreport' %%
-%% On Mac, pipe it through pbcopy to get the output on to the clipboard %%
-```
-├── 00 - Contribute to the Obsidian Hub
-│   ├── 01 Templates
-│   └── 02 Attachments
-├── 01 - Community
-│   ├── Events
-│   ├── Obsidian Roundup
-│   ├── People
-│   └── Video Channels
-├── 02 - Community Expansions
-│   ├── 02.01 Plugins by Category
-│   ├── 02.02 Themes by Category
-│   ├── 02.03 CSS Snippets by Category
-│   ├── 02.04 Auxiliary Tools by Category
-│   └── 02.05 All Community Expansions
-│       ├── Auxiliary Tools
-│       ├── CSS Snippets
-│       ├── Plugins
-│       └── Themes
-├── 03 - Showcases & Templates
-│   ├── Note Examples
-│   ├── Plugin Showcases
-│   ├── Publish Sites
-│   ├── Templates
-│   │   ├── Daily notes
-│   │   ├── Literature notes
-│   │   ├── Monthly notes
-│   │   ├── Plugin-specific templates
-│   │   │   ├── Dataview templates
-│   │   │   └── Templater templates
-│   │   ├── Projects
-│   │   ├── Weekly notes
-│   │   └── Yearly notes
-│   └── Vaults
-├── 04 - Guides, Workflows, & Courses
-│   ├── Community Talks
-│   ├── Courses
-│   └── Guides
-├── 05 - Concepts
-└── 06 - Inbox
-```
-
+![[Hub Tree Structure]]
 
 ### The Main Folders
 Lets have a brief look at the main folders:
