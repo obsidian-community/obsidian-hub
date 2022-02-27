@@ -7,6 +7,8 @@ tags:
 
 # GitHub Actions for the Hub
 
+One GitHub Action that combines updating theme download counts, adds new plugins, themes and authors, [[Updating MOC files|updates MOC files]] and [[Adding footers|adds footers]] is the [[update_hub GitHub Action]].   ^3df057
+
 ## Potentially automatable
 
 There are some maintenance steps that are currently done manually, and that could be run automatically, either on a cron schedule, or upon changes to the main branch.

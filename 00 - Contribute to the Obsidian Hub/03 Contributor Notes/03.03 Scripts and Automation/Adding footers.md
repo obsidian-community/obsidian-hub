@@ -20,6 +20,8 @@ python3 ./add_footer.py
 
 And then review the changes and commit them.
 
+This can be done by hand, but we also have a [[update_hub GitHub Action|GitHub Action]] that runs it. However, this action [[GitHub Actions for the Hub#^3df057|executes other update scripts as well]]. 
+
 %% Hub footer: Please don't edit anything below this line %%
 
 # This note in GitHub
