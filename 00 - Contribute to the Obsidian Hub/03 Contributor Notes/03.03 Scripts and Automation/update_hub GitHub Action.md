@@ -8,9 +8,14 @@ publish: true
 
 # update_hub GitHub Action
 
-Link to Action: [`update_hub`](https://github.com/obsidian-community/obsidian-hub/actions/workflows/update_hub.yml) 
+Links to Action:
+
+- Source of the workflow: [`update_hub.yml`](https://github.com/obsidian-community/obsidian-hub/blob/main/.github/workflows/update_hub.yml)
+- Logs from runs of workflow: [`update_hub`](https://github.com/obsidian-community/obsidian-hub/actions/workflows/update_hub.yml)
 
 Running this action will automatically create a Pull Request.
+
+To see the associated Pull Request created from a successful run, expanding the run's log and click on the 'Show Pull Request' step.
 
 %% Hub footer: Please don't edit anything below this line %%
 
