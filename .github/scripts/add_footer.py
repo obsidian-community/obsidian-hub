@@ -11,8 +11,7 @@ from jinja2.environment import Template
 
 # These are directories and files to exclude
 # By adding a dir/file, this script will ignore them and never change them!
-DIRECTORIES_TO_EXCLUDE = ['.git', '.github',
-                          '.idea', 'venv', '01 Templates', 'DO NOT COMMIT']
+DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', '01 Templates', 'DO NOT COMMIT']
 FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore', 'Hub Tree Structure.md']
 
 
@@ -58,8 +57,7 @@ def add_footer(top_directory: str, debug: bool = True) -> None:
                     # Read the file contents
                     contents = f.read()
 
-                replacement = add_footer_to_markdown(
-                    relative_path, contents, comment, template, debug)
+                replacement = add_footer_to_markdown(relative_path, contents, comment, template, debug)
 
                 if replacement == contents:
                     # Nothing to do!
