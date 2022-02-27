@@ -29,7 +29,6 @@ When reviewing:
 After merging:
 
 - Run the [[update_hub GitHub Action]]. See here [[GitHub Actions for the Hub#^3df057|what it does]].
-- Does the [tree of directories in Contributing](https://github.com/obsidian-community/obsidian-hub/blob/main/CONTRIBUTING.md#structure-of-the-community-vault) need to be updated? See comments in the source of that file.
 - If a directory was renamed (rare), check to see if you need delete the previous MOC
 
 %% Hub footer: Please don't edit anything below this line %%
