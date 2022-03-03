@@ -18,7 +18,6 @@ The following issues are good for beginners wanting to help with fixing issues a
 - [[obsidian-divide-and-conquer|Divide & Conquer]] - [Re-create `Count Plugins` command](https://github.com/chrisgrieser/obsidian-divide-and-conquer/issues/8)
 - [[obsidian-divide-and-conquer|Divide & Conquer]] - [Reload after CSS snippet bisection when on Linux](https://github.com/chrisgrieser/obsidian-divide-and-conquer/issues/7)
 - [[obsidian-excalidraw-plugin|Excalidraw]] - [How do I draw Bezier curves on the iPad?](https://github.com/zsviczian/obsidian-excalidraw-plugin/issues/429)
-- [[obsidian-excalidraw-plugin|Excalidraw]] - [Make pen width smaller](https://github.com/zsviczian/obsidian-excalidraw-plugin/issues/220)
 - [[flashcards-obsidian|Flashcards]] - [Missing Media when create bulk cards (ca. 150 cards)](https://github.com/reuseman/flashcards-obsidian/issues/60)
 - [[flashcards-obsidian|Flashcards]] - [Plugin adds \ when not needed. ](https://github.com/reuseman/flashcards-obsidian/issues/53)
 - [[flashcards-obsidian|Flashcards]] - [Remove Reference For Aliases ](https://github.com/reuseman/flashcards-obsidian/issues/41)
@@ -27,6 +26,7 @@ The following issues are good for beginners wanting to help with fixing issues a
 - [[obsidian-itinerary|Itinerary]] - [Tags displayed incorrectly in event preview](https://github.com/coddingtonbear/obsidian-itinerary/issues/6)
 - [[leader-hotkeys-obsidian|Leader Hotkeys]] - [simple key chords](https://github.com/tgrosinger/leader-hotkeys-obsidian/issues/14)
 - [[leader-hotkeys-obsidian|Leader Hotkeys]] - [Allow using Ctrl and Alt as modifier keys in the "followed by" keys](https://github.com/tgrosinger/leader-hotkeys-obsidian/issues/9)
+- [[obsidian-linter|Linter]] - [Move Footnotes to the bottom: inserts extra 2 blank lines every time you run it](https://github.com/platers/obsidian-linter/issues/174)
 - [[obsidian-linter|Linter]] - [Rule suggestion: Sort YAML attributes](https://github.com/platers/obsidian-linter/issues/170)
 - [[obsidian-linter|Linter]] - [Add rules from markdownlint](https://github.com/platers/obsidian-linter/issues/32)
 - [[longform|Longform]] - [Enlarge font size in the side pane](https://github.com/kevboh/longform/issues/6)
@@ -68,7 +68,6 @@ These issues might not always be easy to solve.
 - [[obsidian-citation-plugin|Citations]] - [Pulling tags into the literature note templates?](https://github.com/hans/obsidian-citation-plugin/issues/23)
 - [[obsidian-command-alias-plugin|Command Alias]] - [Add testing framework](https://github.com/yajamon/obsidian-command-alias-plugin/issues/12)
 - [[copy-as-latex|Copy as Latex]] - [Extended citation templates](https://github.com/mo-seph/obsidian-copy-as-latex/issues/11)
-- [[obsidian-dictionary-plugin|Dictionary]] - [FreeDictionaryAPI will stop supporting Languages other than English](https://github.com/phibr0/obsidian-dictionary/issues/43)
 - [[obsidian-discordrpc|Discord Rich Presence]] - [Failed to connect to Discord error](https://github.com/lukeleppan/obsidian-discordrpc/issues/5)
 - [[obsidian-divide-and-conquer|Divide & Conquer]] - [Change CSS snippet Bisection Logic to the new Bisection Logic](https://github.com/chrisgrieser/obsidian-divide-and-conquer/issues/5)
 - [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]] - [Add GraphQL SDL syntax](https://github.com/deathau/cm-editor-syntax-highlight-obsidian/issues/9)
@@ -90,6 +89,7 @@ These issues might not always be easy to solve.
 - [[obsidian-metatable|Metatable]] - [Feature Request: Is this possible to working backlinks for link-value in meta-data?](https://github.com/arnau/obsidian-metatable/issues/9)
 - [[nldates-obsidian|Natural Language Dates]] - [Not shown from preferred calendar on MacOs](https://github.com/argenos/nldates-obsidian/issues/76)
 - [[nldates-obsidian|Natural Language Dates]] - [Multilanguage support](https://github.com/argenos/nldates-obsidian/issues/19)
+- [[obsidian-git|Obsidian Git]] - [[Bug]: pull/push not working with keybase encrypted git](https://github.com/denolehov/obsidian-git/issues/191)
 - [[obsidian-git|Obsidian Git]] - [Clarify the way to use plugin with Git for Windows](https://github.com/denolehov/obsidian-git/issues/34)
 - [[obsidian-memos|Obsidian Memos]] - [手机移动端的记录叠在一起无法显示](https://github.com/Quorafind/Obsidian-Memos/issues/128)
 - [[obsidian-memos|Obsidian Memos]] - [设置flomo API](https://github.com/Quorafind/Obsidian-Memos/issues/119)
@@ -100,6 +100,7 @@ These issues might not always be easy to solve.
 - [[obsidian-org-mode|Org Mode]] - [Stylish Org-Bullets for headings](https://github.com/ryanpcmcquen/obsidian-org-mode/issues/2)
 - [[obsidian-plaintext|Plaintext for Obsidian]] - [Reuse the existing CodeMirror 6 instance](https://github.com/dbarenholz/obsidian-plaintext/issues/1)
 - [[rss-reader|RSS Reader]] - [Translate into multiple languages](https://github.com/joethei/obsidian-rss/issues/43)
+- [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]] - [[Bug]: interference with search function](https://github.com/chrisgrieser/obsidian-smarter-md-hotkeys/issues/23)
 - [[obsidian-spaced-repetition|Spaced Repetition]] - [Help Translate the Plugin - Multilingual support](https://github.com/st3v3nmw/obsidian-spaced-repetition/issues/282)
 - [[obsidian-tasks-plugin|Tasks]] - [The cursor is placed before the task when creating a new task using the modal](https://github.com/schemar/obsidian-tasks/issues/525)
 - [[obsidian-tasks-plugin|Tasks]] - [Update documentation to clarify ban of multi-line checklist items (if they are tasks)](https://github.com/schemar/obsidian-tasks/issues/469)
@@ -110,6 +111,7 @@ These issues might not always be easy to solve.
 - [[obsidian-tasks-plugin|Tasks]] - [There should be an option to put the global filter at the end](https://github.com/schemar/obsidian-tasks/issues/147)
 - [[obsidian-tasks-plugin|Tasks]] - [Show open tasks badge](https://github.com/schemar/obsidian-tasks/issues/140)
 - [[obsidian-tasks-plugin|Tasks]] - [Checkboxes should have more prominent style](https://github.com/schemar/obsidian-tasks/issues/2)
+- [[obsidian-text-format|Text Format]] - [Mobile Support?](https://github.com/Benature/obsidian-text-format/issues/19)
 - [[obsidian-tts|Text to Speech]] - [Use rendered content as text source](https://github.com/joethei/obsidian-tts/issues/4)
 - [[cm-typewriter-scroll-obsidian|Typewriter Scroll Obsidian Plugin]] - [Not working in Vim's normal mode](https://github.com/deathau/cm-typewriter-scroll-obsidian/issues/1)
 
@@ -152,6 +154,7 @@ See also [[Volunteer Plugin Doc Writers]] for some more developers that want hel
 - [[mrj-text-expand|Text {{expand}}]] - [Better plugin info](https://github.com/mrjackphil/obsidian-text-expand/issues/4)
 - [[obsidian-timelines|Timelines]] - [timeline-vis dates default to 20th century](https://github.com/Darakah/obsidian-timelines/issues/16)
 - [[obsidian-toggl-integration|Toggl Track Integration]] - [Create custom documentation using GitHub pages](https://github.com/mcndt/obsidian-toggl-integration/issues/61)
+- [[various-complements|Various Complements]] - [Editing the doc gives 404](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin/issues/97)
 
 %% Hub footer: Please don't edit anything below this line %%
 
