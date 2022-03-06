@@ -17,7 +17,7 @@ For the best experience, we recommend [downloading the latest version](https://g
 
 To contribute, please [download the latest version](https://github.com/obsidian-community/obsidian-hub/releases/latest) of this vault and open it in Obsidian. This is important to avoid duplicating content, and allows you to use the autocomplete when linking to other notes, searching and following our content guidelines.
 
-Because Personal Knowledge Management is usually (as it name states) _highly_ personal, we have added a few rules about how we use Obsidian features to keep this Community vault consistent (and to preserve our sanity 🙂)
+Because Personal Knowledge Management is usually (as it name states) _highly_ personal, we have added a few rules about how we use Obsidian features to keep this Community vault consistent (and to preserve our sanity 🙂).
 
 - **Tags**: We mostly use tags to indicate the status of a note. You can find more details in the [[Tag glossary]].
 - **Files & Links**: Make sure that any time you add or edit a note, your settings are configured correctly. This should be set up by default. To sum up:
@@ -28,8 +28,8 @@ Because Personal Knowledge Management is usually (as it name states) _highly_ pe
 - **Templates**: We have [[🗂️ 01 Templates|predefined a few templates for any new content to be added]] (more about this later). These templates include comments and instructions of when to use them.
 - **Folders**: We have roughly pre-defined the structure of the vault using Johnny Decimal-ish prefixes. *Before adding new folders, please open an issue to discuss the changes you'd like to propose. *
 
-Now that you have configured Obsidian, you are ready to do your first contribution! Have a look at the [[#Types of contributions]], and depending on what you want to contribute open the linked note for further instructions.
-Once you have added or edited the note using Obsidian, come back and check out [[#Submitting your contribution]].
+Now that you have configured Obsidian, you are ready to do your first contribution! Have a look at the [[#The Main Folders|types of contributions]], and depending on what you want to contribute open the linked note for further instructions.
+Once you have added or edited the note using Obsidian, come back and check out [[#Submitting|Submitting your contribution]].
 
 ## Structure of the Community Vault
 
