@@ -6,12 +6,11 @@ import typing
 from typing import Optional, Union, Dict, List
 from jinja2.environment import Template
 
-from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage, ThemeStorageValues
-from plugins import CORE_PLUGINS, PluginList
+from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage
+from obsidian_releases import get_community_plugins
+from plugins import CORE_PLUGINS
 from utils import (
-    PLUGINS_JSON_FILE,
     THEME_CSS_FILE,
-    get_json_from_github,
     get_output_dir,
     get_theme_css,
     FileGroups,
@@ -331,6 +330,3 @@ class ThemeDownloadCount:
         return old_text
 
 
-def get_community_plugins() -> PluginList:
-    plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
-    return plugin_list
