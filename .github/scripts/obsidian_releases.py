@@ -6,8 +6,7 @@ THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releas
 
 
 def get_community_plugins() -> PluginList:
-    plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
-    return plugin_list
+    return get_json_from_github(PLUGINS_JSON_FILE)
 
 
 def get_community_themes() -> JSONType:
