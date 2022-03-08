@@ -145,10 +145,17 @@ Plugins which have not yet been categorized by the community.
 - [[big-calendar|Big Calendar]]
 - [[sekund|Obsidian Social (Sekund)]]
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]
+- [[obsidian-remember-file-state|Remember File State]]
+- [[obsidian-things-link|Things Link]]
+- [[markdown-shortcuts|Marjdown shortcuts]]
+- [[digitalgarden|Digital Garden]]
+- [[obsidian-living-graph|Living Graph]]
+- [[obsidian-hotkeys-chords|Hotkeys Chords]]
+- [[obsidian-key-sequence-shortcut|Key Sequence Shortcut]]
+- [[obsidian-full-calendar|Full Calendar]]
+- [[heatmap-calendar|Heatmap Calendar]]
+- [[obsidian-daily-notes-new-tab|Daily notes new tab]]
+- [[obsidian-advanced-new-folder|Obsidian Advanced New Folder]]
+- [[obsidian-mark-and-select|Mark and Select]]
+- [[obsidian-bible-linker|Bible Linker]]
 
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
