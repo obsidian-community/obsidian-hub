@@ -5,7 +5,7 @@ import argparse
 from typing import Any, Dict, Sequence, List
 
 from hub_types import ThemeStorage
-from obsidian_releases import get_community_plugins
+from obsidian_releases import get_community_plugins, get_community_themes
 from plugins import collect_data_for_plugin, PluginList
 
 from utils import (
@@ -57,7 +57,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
 
 def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:
     print("-----\nProcessing themes....\n")
-    theme_list: List[ThemeStorage] = get_json_from_github(THEMES_JSON_FILE)
+    theme_list = get_community_themes()
     designers: ThemeList = list()
 
     file_groups: FileGroups = dict()
@@ -179,7 +179,7 @@ def update_theme_download_counts(verbose: bool) -> None:
     # This is so fast that there is no point showing the progress bar
 
     template = get_template("theme")
-    theme_list = get_json_from_github(THEMES_JSON_FILE)
+    theme_list = get_community_themes()
 
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
