@@ -7,14 +7,14 @@ from typing import Optional, Union, Dict, List
 from jinja2.environment import Template
 
 from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage
-from obsidian_releases import get_community_plugins
+from obsidian_releases import get_community_plugins, THEMES_JSON_FILE
 from plugins import CORE_PLUGINS
 from utils import (
     THEME_CSS_FILE,
     get_output_dir,
     get_theme_css,
     FileGroups,
-    add_file_group, get_template
+    add_file_group, get_template, get_json_from_github
 )
 
 # enquote Theme so that it can be used before it is declared
@@ -330,3 +330,9 @@ class ThemeDownloadCount:
         return old_text
 
 
+def get_community_themes() -> ThemeList:
+    raw_data = get_json_from_github(THEMES_JSON_FILE)
+    theme_list = list()
+    for el in raw_data:
+        theme_list.append(Theme(el))
+    return theme_list

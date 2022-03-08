@@ -2,10 +2,9 @@
 
 import sys
 import argparse
-from typing import Any, Dict, Sequence, List
+from typing import Any, Dict, Sequence
 
-from hub_types import ThemeStorage
-from obsidian_releases import get_community_plugins, get_community_themes, THEMES_JSON_FILE
+from obsidian_releases import get_community_plugins
 from plugins import collect_data_for_plugin, PluginList
 
 from utils import (
@@ -16,10 +15,9 @@ from utils import (
     print_file_summary,
     print_progress_bar,
     write_file,
-    get_json_from_github,
     add_file_group,
 )
-from themes import ThemeList, Theme, ThemeDownloadCount
+from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 
 
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
@@ -66,8 +64,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
-    for index, theme2 in enumerate(theme_list):
-        theme = Theme(theme2)
+    for index, theme in enumerate(theme_list):
         current_name, valid = theme.collect_data_for_theme(theme_downloads, file_groups)
         if not valid:
             continue
@@ -183,7 +180,7 @@ def update_theme_download_counts(verbose: bool) -> None:
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
     for theme in theme_list:
-        current_name = theme.get("name")
+        current_name = theme.name()
         ThemeDownloadCount.update_theme_download_count(template, theme_downloads, current_name, verbose)
 
 
