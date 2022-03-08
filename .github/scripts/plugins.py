@@ -95,7 +95,7 @@ CORE_PLUGINS = [
     {
         "id": "publish",
         "name": "Publish",
-        "description": "Publish your notes through [[Obsidian Publish.]]",
+        "description": "Publish your notes through [[Obsidian Publish]]",
     },
     {
         "id": "random-note",
