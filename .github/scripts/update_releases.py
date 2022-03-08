@@ -5,7 +5,7 @@ import argparse
 from typing import Any, Dict, Sequence, List
 
 from hub_types import ThemeStorage
-from obsidian_releases import get_community_plugins, get_community_themes
+from obsidian_releases import get_community_plugins, get_community_themes, THEMES_JSON_FILE
 from plugins import collect_data_for_plugin, PluginList
 
 from utils import (
@@ -19,7 +19,6 @@ from utils import (
     get_json_from_github,
     add_file_group,
 )
-from utils import THEMES_JSON_FILE
 from themes import ThemeList, Theme, ThemeDownloadCount
 
 
