@@ -38,6 +38,11 @@ CORE_PLUGINS = [
         "description": "Create or open today’s daily note.",
     },
     {
+        "id": "editor-status",
+        "name": "Editor status",
+        "description": "Adds a status bar item to show and change the current editor mode."
+    },
+    {
         "id": "file-explorer",
         "name": "File explorer",
         "description": "See the files and folders in your vault.",
