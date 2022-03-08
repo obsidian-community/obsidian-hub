@@ -64,16 +64,16 @@ def verify_theme_data(theme_name: str) -> None:
     theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
 
     assert theme
-    assert theme["name"] == theme_name
-    assert len(theme["modes"]) > 0
-    assert theme["author"] != ""
+    assert theme.name() == theme_name
+    assert len(theme.modes()) > 0
+    assert theme.author() != ""
 
     s.add_frame(approvaltests.utils.to_json(theme.data))
 
     file_groups: utils.FileGroups = dict()
     name, valid = theme.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
     assert name == theme_name
-    assert theme["user"] != ""
+    assert theme.user() != ""
     s.add_frame(approvaltests.utils.to_json(theme.data))
 
     verify(s)

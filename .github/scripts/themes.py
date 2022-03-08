@@ -58,10 +58,6 @@ class Theme:
     def modes(self) -> List[str]:
         return typing.cast(typing.List[str], self.data.get("modes"))
 
-    # This allows accessing data via theme["author"], until we can add theme.author() etc
-    def __getitem__(self, key: str) -> ThemeStorageValues:
-        return self.data[key]
-
     @staticmethod
     def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
         """
