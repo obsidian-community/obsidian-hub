@@ -38,25 +38,28 @@ class Theme:
     template = get_template("theme")
 
     def __init__(self, data: ThemeStorage):
-        self.data = data
+        self.__data = data
 
     def name(self) -> str:
-        return str(self.data.get("name"))
+        return str(self.__data.get("name"))
 
     def author(self) -> str:
-        return str(self.data.get("author"))
+        return str(self.__data.get("author"))
 
     def user(self) -> str:
-        return str(self.data.get("user"))
+        return str(self.__data.get("user"))
 
     def repo(self) -> str:
-        return str(self.data.get("repo"))
+        return str(self.__data.get("repo"))
 
     def branch(self) -> str:
-        return str(self.data.get("branch", "master"))
+        return str(self.__data.get("branch", "master"))
 
     def modes(self) -> List[str]:
-        return typing.cast(typing.List[str], self.data.get("modes"))
+        return typing.cast(typing.List[str], self.__data.get("modes"))
+
+    def data(self) -> ThemeStorage:
+        return self.__data
 
     @staticmethod
     def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
@@ -209,7 +212,7 @@ class Theme:
                                                                                              theme_downloads,
                                                                                              current_name)
 
-            self.data.update(
+            self.__data.update(
                 user=user,
                 modes=modes,
                 branch=branch,

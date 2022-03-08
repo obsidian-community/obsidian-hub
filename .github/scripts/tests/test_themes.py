@@ -46,7 +46,7 @@ def test_rendering_of_theme() -> None:
 
     file_path = "delete_me.md"
     absolute_file_path = os.path.abspath(file_path)
-    file_content = utils.render_template_for_file(Theme.template, absolute_file_path, **theme.data)
+    file_content = utils.render_template_for_file(Theme.template, absolute_file_path, **theme.data())
 
     assert len(file_content) > 0
 
@@ -68,12 +68,12 @@ def verify_theme_data(theme_name: str) -> None:
     assert len(theme.modes()) > 0
     assert theme.author() != ""
 
-    s.add_frame(approvaltests.utils.to_json(theme.data))
+    s.add_frame(approvaltests.utils.to_json(theme.data()))
 
     file_groups: utils.FileGroups = dict()
     name, valid = theme.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
     assert name == theme_name
     assert theme.user() != ""
-    s.add_frame(approvaltests.utils.to_json(theme.data))
+    s.add_frame(approvaltests.utils.to_json(theme.data()))
 
     verify(s)

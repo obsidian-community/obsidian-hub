@@ -73,12 +73,12 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
             continue
 
         group = write_file(
-            Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data
+            Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data()
         )
         designers.append(theme)
         add_file_group(file_groups, group, current_name)
         print_progress_bar(
-            theme_list.index(theme.data) + 1, len(theme_list),
+            theme_list.index(theme.data()) + 1, len(theme_list),
         )
 
     print_file_summary(file_groups)
