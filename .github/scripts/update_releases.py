@@ -77,8 +77,9 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
         )
         designers.append(theme)
         add_file_group(file_groups, group, current_name)
+        index = theme_list.index(theme.data())
         print_progress_bar(
-            theme_list.index(theme.data()) + 1, len(theme_list),
+            index + 1, len(theme_list),
         )
 
     print_file_summary(file_groups)
