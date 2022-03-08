@@ -55,9 +55,8 @@ class Theme:
     def branch(self) -> str:
         return str(self.data.get("branch", "master"))
 
-    # This allows accessing data via theme.get("author"), until we can add theme.author() etc
-    def get(self, key: str, default_value: ThemeStorageValues = None) -> ThemeStorageValues:
-        return self.data.get(key, default_value)
+    def modes(self) -> List[str]:
+        return typing.cast(typing.List[str], self.data.get("modes"))
 
     # This allows accessing data via theme["author"], until we can add theme.author() etc
     def __getitem__(self, key: str) -> ThemeStorageValues:
@@ -186,7 +185,7 @@ class Theme:
         :return: The name of the theme, and whether it is valid
         """
         repo = self.repo()
-        branch = self.get("branch", "master")
+        branch = self.branch()
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
         return self.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
@@ -198,12 +197,10 @@ class Theme:
 
         try:
             repo = self.repo()
-            branch = self.get("branch", "master")
+            branch = self.branch()
             user = repo.split("/")[0]
-            raw_modes = self.get("modes")
+            raw_modes = self.modes()
             assert raw_modes
-            # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
-            raw_modes = typing.cast(typing.List[str], raw_modes)
             modes = (
                 ", ".join(raw_modes)
                     .replace("dark", DARK_MODE_THEMES)
