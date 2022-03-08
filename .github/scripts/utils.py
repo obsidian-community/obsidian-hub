@@ -6,11 +6,10 @@ from typing import Dict, List, Union, Any
 import requests
 
 from urllib.request import urlopen
-from jinja2 import FileSystemLoader, Environment, DebugUndefined
+from jinja2 import FileSystemLoader, Environment
 from jinja2.environment import Template
 
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
-PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
 THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-css-themes.json"
 THEME_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/obsidian.css"
 
