@@ -41,19 +41,19 @@ class Theme:
         self.data = data
 
     def name(self) -> str:
-        return str(self.get("name"))
+        return str(self.data.get("name"))
 
     def author(self) -> str:
-        return str(self.get("author"))
+        return str(self.data.get("author"))
 
     def user(self) -> str:
-        return str(self.get("user"))
+        return str(self.data.get("user"))
 
     def repo(self) -> str:
-        return str(self.get("repo"))
+        return str(self.data.get("repo"))
 
     def branch(self) -> str:
-        return str(self.get("branch", "master"))
+        return str(self.data.get("branch", "master"))
 
     # This allows accessing data via theme.get("author"), until we can add theme.author() etc
     def get(self, key: str, default_value: ThemeStorageValues = None) -> ThemeStorageValues:
