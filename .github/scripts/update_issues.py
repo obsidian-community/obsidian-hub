@@ -6,13 +6,12 @@ from typing import Sequence, Dict, List, Any
 
 from github3api import GitHubAPI
 
+from obsidian_releases import get_community_plugins
 from utils import (
     get_template,
     print_progress_bar,
     write_file,
-    get_json_from_github,
 )
-from utils import PLUGINS_JSON_FILE
 
 from plugins import Plugin
 
@@ -35,7 +34,7 @@ def process_issues_for_plugin(gh_client: GithubClient, plugin: Plugin, label: st
 
 
 def process_issues(api_key: str, overwrite: bool = True, verbose: bool = False) -> None:
-    plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
+    plugin_list = get_community_plugins()
     client = GitHubAPI(bearer_token=api_key)
     rate_limit = client.get('/rate_limit')['resources']['core']['remaining']
     if rate_limit < len(plugin_list) * 3:

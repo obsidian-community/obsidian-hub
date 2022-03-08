@@ -5,6 +5,7 @@ import argparse
 from typing import Any, Dict, Sequence, List
 
 from hub_types import ThemeStorage
+from obsidian_releases import get_community_plugins
 from plugins import collect_data_for_plugin, PluginList
 
 from utils import (
@@ -18,14 +19,14 @@ from utils import (
     get_json_from_github,
     add_file_group,
 )
-from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
+from utils import THEMES_JSON_FILE
 from themes import ThemeList, Theme, ThemeDownloadCount
 
 
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
-    plugin_list: PluginList = get_json_from_github(PLUGINS_JSON_FILE)
+    plugin_list: PluginList = get_community_plugins()
 
     devs: PluginList = list()
     file_groups: FileGroups = dict()
@@ -91,7 +92,7 @@ def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> 
     template = get_template("category")
     UNCATEGORIZED = "Uncategorized plugins"
 
-    released_plugins = get_json_from_github(PLUGINS_JSON_FILE)
+    released_plugins = get_community_plugins()
     plugin_list = [p.get("id") for p in released_plugins]
     categorized = set()
 
