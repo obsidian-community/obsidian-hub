@@ -110,7 +110,7 @@ def add_footer_to_markdown(relative_path: str, contents: str, comment: str, temp
     if debug:
         print(f"\t=> {debug_message} for '{relative_path}'.")
 
-    return replacement
+    return str(replacement) # cast needed to silence warnings about possibly returning Any
 
 
 def main() -> None:
