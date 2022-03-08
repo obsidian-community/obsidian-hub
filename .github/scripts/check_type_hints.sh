@@ -24,6 +24,7 @@
 #                            annotations (inverse: --allow-incomplete-defs)
 
 python3 -m mypy \
+  --strict \
   --follow-imports=skip \
   --ignore-missing-imports \
   --disallow-untyped-calls \
