@@ -2,7 +2,7 @@
 
 import sys
 import argparse
-from typing import Sequence, Dict, List
+from typing import Sequence, Dict, List, Any
 
 from github3api import GitHubAPI
 
@@ -20,7 +20,7 @@ PluginIssue = Dict[str, str]
 
 
 class GithubClient:
-    def get(self, url: str, _get: str) -> List: ...
+    def get(self, url: str, _get: str) -> List[Any]: ...
 
 
 def process_issues_for_plugin(gh_client: GithubClient, plugin: Plugin, label: str) -> List[PluginIssue]:
