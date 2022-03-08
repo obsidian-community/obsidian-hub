@@ -110,7 +110,7 @@ def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> 
         if p.get("id") in set(plugin_list).difference(categorized):
             uncategorized.append(p)
 
-    group = write_file(
+    write_file(
         template,
         UNCATEGORIZED,
         name=UNCATEGORIZED,
