@@ -66,7 +66,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
-    for theme2 in theme_list:
+    for index, theme2 in enumerate(theme_list):
         theme = Theme(theme2)
         current_name, valid = theme.collect_data_for_theme(theme_downloads, file_groups)
         if not valid:
@@ -77,7 +77,6 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
         )
         designers.append(theme)
         add_file_group(file_groups, group, current_name)
-        index = theme_list.index(theme.data())
         print_progress_bar(
             index + 1, len(theme_list),
         )
