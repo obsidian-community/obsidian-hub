@@ -136,14 +136,14 @@ def get_json_from_github(url: str) -> JSONType:
     with urlopen(url) as response:
         json_file = json.loads(response.read())
 
-    return json_file
+    return json_file  # type: ignore
 
 
 def get_json_from_file(file_path: str) -> JSONType:
     with open(file_path) as f:
         json_file = json.loads(f.read())
 
-    return json_file
+    return json_file  # type: ignore
 
 
 def get_theme_css(url: str) -> str:

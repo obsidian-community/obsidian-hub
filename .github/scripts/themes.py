@@ -327,8 +327,7 @@ class ThemeDownloadCount:
         #         "download": 1824,
         #         "id": "Agora"
         #     },
-        theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
-        return theme_downloads
+        return requests.get('https://releases.obsidian.md/stats/theme').json()
 
     @staticmethod
     def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
