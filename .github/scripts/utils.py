@@ -6,12 +6,10 @@ from typing import Dict, List, Union, Any
 import requests
 
 from urllib.request import urlopen
-from jinja2 import FileSystemLoader, Environment, DebugUndefined
+from jinja2 import FileSystemLoader, Environment
 from jinja2.environment import Template
 
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
-PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
-THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-css-themes.json"
 THEME_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/obsidian.css"
 
 OUTPUT_DIR = {
@@ -136,14 +134,14 @@ def get_json_from_github(url: str) -> JSONType:
     with urlopen(url) as response:
         json_file = json.loads(response.read())
 
-    return json_file
+    return json_file  # type: ignore
 
 
 def get_json_from_file(file_path: str) -> JSONType:
     with open(file_path) as f:
         json_file = json.loads(f.read())
 
-    return json_file
+    return json_file  # type: ignore
 
 
 def get_theme_css(url: str) -> str:

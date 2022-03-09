@@ -6,16 +6,15 @@ import typing
 from typing import Optional, Union, Dict, List
 from jinja2.environment import Template
 
-from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage, ThemeStorageValues
+from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage
+from obsidian_releases import get_community_plugins, THEMES_JSON_FILE
 from plugins import CORE_PLUGINS
 from utils import (
-    PLUGINS_JSON_FILE,
     THEME_CSS_FILE,
-    get_json_from_github,
     get_output_dir,
     get_theme_css,
     FileGroups,
-    add_file_group, get_template
+    add_file_group, get_template, get_json_from_github
 )
 
 # enquote Theme so that it can be used before it is declared
@@ -38,30 +37,28 @@ class Theme:
     template = get_template("theme")
 
     def __init__(self, data: ThemeStorage):
-        self.data = data
+        self.__data = data
 
     def name(self) -> str:
-        return str(self.get("name"))
+        return str(self.__data.get("name"))
 
     def author(self) -> str:
-        return str(self.get("author"))
+        return str(self.__data.get("author"))
 
     def user(self) -> str:
-        return str(self.get("user"))
+        return str(self.__data.get("user"))
 
     def repo(self) -> str:
-        return str(self.get("repo"))
+        return str(self.__data.get("repo"))
 
     def branch(self) -> str:
-        return str(self.get("branch", "master"))
+        return str(self.__data.get("branch", "master"))
 
-    # This allows accessing data via theme.get("author"), until we can add theme.author() etc
-    def get(self, key: str, default_value: ThemeStorageValues = None) -> ThemeStorageValues:
-        return self.data.get(key, default_value)
+    def modes(self) -> List[str]:
+        return typing.cast(typing.List[str], self.__data.get("modes"))
 
-    # This allows accessing data via theme["author"], until we can add theme.author() etc
-    def __getitem__(self, key: str) -> ThemeStorageValues:
-        return self.data[key]
+    def data(self) -> ThemeStorage:
+        return self.__data
 
     @staticmethod
     def get_theme_settings(theme_css: str) -> Optional[ThemeSettings]:
@@ -186,7 +183,7 @@ class Theme:
         :return: The name of the theme, and whether it is valid
         """
         repo = self.repo()
-        branch = self.get("branch", "master")
+        branch = self.branch()
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
 
         return self.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
@@ -198,12 +195,10 @@ class Theme:
 
         try:
             repo = self.repo()
-            branch = self.get("branch", "master")
+            branch = self.branch()
             user = repo.split("/")[0]
-            raw_modes = self.get("modes")
+            raw_modes = self.modes()
             assert raw_modes
-            # Because of Theme's variety of types, we use typing.cast to persuade mypy to trust the later join(raw_modes) call
-            raw_modes = typing.cast(typing.List[str], raw_modes)
             modes = (
                 ", ".join(raw_modes)
                     .replace("dark", DARK_MODE_THEMES)
@@ -216,7 +211,7 @@ class Theme:
                                                                                              theme_downloads,
                                                                                              current_name)
 
-            self.data.update(
+            self.__data.update(
                 user=user,
                 modes=modes,
                 branch=branch,
@@ -327,8 +322,7 @@ class ThemeDownloadCount:
         #         "download": 1824,
         #         "id": "Agora"
         #     },
-        theme_downloads: dict = requests.get('https://releases.obsidian.md/stats/theme').json()
-        return theme_downloads
+        return requests.get('https://releases.obsidian.md/stats/theme').json()
 
     @staticmethod
     def get_url_pattern_for_downloads_shield(placeholder_for_download_count: int) -> str:
@@ -336,6 +330,9 @@ class ThemeDownloadCount:
         return old_text
 
 
-def get_community_plugins() -> ThemeList:
-    plugin_list = get_json_from_github(PLUGINS_JSON_FILE)
-    return plugin_list
+def get_community_themes() -> ThemeList:
+    raw_data = get_json_from_github(THEMES_JSON_FILE)
+    theme_list = list()
+    for el in raw_data:
+        theme_list.append(Theme(el))
+    return theme_list
