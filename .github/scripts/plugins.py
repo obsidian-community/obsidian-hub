@@ -6,7 +6,7 @@ import sys
 from typing import Union, Any, Dict, List, Sequence
 
 from authors import update_author_name_for_manual_exceptions
-from utils import get_template, get_plugin_manifest, FileGroups
+from utils import get_template, get_plugin_manifest, FileGroups, add_file_group
 
 # Type aliases:
 Plugin = Dict[str, Any]
@@ -36,6 +36,11 @@ CORE_PLUGINS = [
         "id": "daily-notes",
         "name": "Daily notes",
         "description": "Create or open today’s daily note.",
+    },
+    {
+        "id": "editor-status",
+        "name": "Editor status",
+        "description": "Adds a status bar item to show and change the current editor mode."
     },
     {
         "id": "file-explorer",
@@ -90,7 +95,7 @@ CORE_PLUGINS = [
     {
         "id": "publish",
         "name": "Publish",
-        "description": "Publish your notes through [[Obsidian Publish.]]",
+        "description": "Publish your notes through [[Obsidian Publish]]",
     },
     {
         "id": "random-note",
@@ -165,7 +170,7 @@ def get_core_plugins() -> None:
     for plugin in CORE_PLUGINS:
         plugin["slug"] = "Plugins/" + plugin["name"].replace(" ", "+")
 
-    assert match  # Needed to stop match[1] giving 'error: Value of type "Optional[Match[str]]" is not indexable'
+    assert match # Needed to stop match[1] giving 'error: Value of type "Optional[Match[str]]" is not indexable'
     new_contents = contents.replace(match[1], template.render(plugins=CORE_PLUGINS))
 
     with open(file_path, "w") as md_file:
@@ -183,9 +188,17 @@ def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
     """
     repo = plugin.get("repo")
     branch = plugin.get("branch", "master")
-    manifest = get_plugin_manifest(repo, branch)
+    current_name = str(plugin.get("name"))
 
-    return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+    try:
+        manifest = get_plugin_manifest(repo, branch)
+        return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+
+    except Exception as err:
+        print(f'ERROR processing plugin {current_name}. Error message: {err}')
+        plugin_is_valid = False
+        add_file_group(file_groups, "error", f"{current_name}")
+        return plugin_is_valid
 
 
 def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest: PluginManifest, file_groups: FileGroups) -> bool:
@@ -216,7 +229,7 @@ def validate_plugin_ids(plugin: Plugin, manifest: PluginManifest, repo: str, fil
     if releases_id != manifest_id:
         print(
             f"ERROR repo:{repo} ID {releases_id} does not match ID in manifest: {manifest_id}")
-        file_groups.setdefault("error", list()).append(f"{releases_id}/{manifest_id}")
+        add_file_group(file_groups, "error", f"{releases_id}/{manifest_id}")
         ids_match = False
     return ids_match
 

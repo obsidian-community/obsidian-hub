@@ -6,12 +6,10 @@ from typing import Dict, List, Union, Any
 import requests
 
 from urllib.request import urlopen
-from jinja2 import FileSystemLoader, Environment, DebugUndefined
+from jinja2 import FileSystemLoader, Environment
 from jinja2.environment import Template
 
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
-PLUGINS_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugins.json"
-THEMES_JSON_FILE = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-css-themes.json"
 THEME_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/obsidian.css"
 
 OUTPUT_DIR = {
@@ -34,8 +32,14 @@ JSONType = Union[str, int, float, bool, None, Dict[str, Any], List[Any]]
 running_in_continuous_integration = os.environ.get('GITHUB_ACTIONS') != None
 
 
+def get_scripts_directory() -> str:
+    scripts_dir = os.path.join(get_root_of_vault(), ".github", "scripts")
+    assert os.path.exists(scripts_dir)
+    return scripts_dir
+
+
 def get_template(template_name: str) -> Template:
-    directory = "./templates"
+    directory = os.path.join(get_scripts_directory(), "templates")
     template_file_name = "{}.md.jinja".format(template_name)
     return get_template_from_directory(directory, template_file_name)
 
@@ -130,14 +134,14 @@ def get_json_from_github(url: str) -> JSONType:
     with urlopen(url) as response:
         json_file = json.loads(response.read())
 
-    return json_file
+    return json_file  # type: ignore
 
 
 def get_json_from_file(file_path: str) -> JSONType:
     with open(file_path) as f:
         json_file = json.loads(f.read())
 
-    return json_file
+    return json_file  # type: ignore
 
 
 def get_theme_css(url: str) -> str:
@@ -162,6 +166,10 @@ def format_link(note_name: str, alias: Union[str, None] = None) -> str:
         return "[[{}]]".format(note_name)
     else:
         return "[[{}|{}]]".format(note_name, alias)
+
+
+def add_file_group(file_groups: FileGroups, category: str, file_name_or_id: str) -> None:
+    file_groups.setdefault(category, list()).append(file_name_or_id)
 
 
 def print_file_summary(file_groups: FileGroups, verbose: bool = False) -> None:

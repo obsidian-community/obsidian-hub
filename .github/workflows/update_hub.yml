@@ -51,6 +51,15 @@ jobs:
           git add .
           git commit -m "Update MOC files" || echo "nothing to commit"
 
+      # This should be run after all the content additions have been made in case the structure of the vault changed.
+      - name: Update directory tree
+        run: |
+          cd .github/scripts
+          ./update_directory_tree.sh
+          cd ../..
+          git add .
+          git commit -m "Update directory tree" || echo "nothing to commit"
+
       # This must be the last edit, to ensure that no later steps accidentally
       # overwrite the footer. 
       - name: Add Footer

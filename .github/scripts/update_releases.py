@@ -4,6 +4,7 @@ import sys
 import argparse
 from typing import Any, Dict, Sequence
 
+from obsidian_releases import get_community_plugins
 from plugins import collect_data_for_plugin, PluginList
 
 from utils import (
@@ -14,16 +15,15 @@ from utils import (
     print_file_summary,
     print_progress_bar,
     write_file,
-    get_json_from_github,
+    add_file_group,
 )
-from utils import PLUGINS_JSON_FILE, THEMES_JSON_FILE
-from themes import get_theme_downloads, update_theme_download_count, collect_data_for_theme, ThemeList
+from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 
 
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
-    plugin_list: PluginList = get_json_from_github(PLUGINS_JSON_FILE)
+    plugin_list: PluginList = get_community_plugins()
 
     devs: PluginList = list()
     file_groups: FileGroups = dict()
@@ -42,7 +42,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
         )
         devs.append(plugin)
 
-        file_groups.setdefault(group, list()).append(plugin.get("id"))
+        add_file_group(file_groups, group, plugin.get("id"))
         print_progress_bar(
             plugin_list.index(plugin) + 1, len(plugin_list),
         )
@@ -54,8 +54,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
 
 def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:
     print("-----\nProcessing themes....\n")
-    template = get_template("theme")
-    theme_list: ThemeList = get_json_from_github(THEMES_JSON_FILE)
+    theme_list = get_community_themes()
     designers: ThemeList = list()
 
     file_groups: FileGroups = dict()
@@ -63,17 +62,20 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
         0, len(theme_list),
     )
 
-    theme_downloads = get_theme_downloads()
+    theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
-    for theme in theme_list:
-        current_name = collect_data_for_theme(theme, theme_downloads, template)
+    for index, theme in enumerate(theme_list):
+        current_name, valid = theme.collect_data_for_theme(theme_downloads, file_groups)
+        if not valid:
+            continue
+
         group = write_file(
-            template, current_name, overwrite=overwrite, verbose=verbose, **theme
+            Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data()
         )
         designers.append(theme)
-        file_groups.setdefault(group, list()).append(current_name)
+        add_file_group(file_groups, group, current_name)
         print_progress_bar(
-            theme_list.index(theme) + 1, len(theme_list),
+            index + 1, len(theme_list),
         )
 
     print_file_summary(file_groups)
@@ -86,7 +88,7 @@ def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> 
     template = get_template("category")
     UNCATEGORIZED = "Uncategorized plugins"
 
-    released_plugins = get_json_from_github(PLUGINS_JSON_FILE)
+    released_plugins = get_community_plugins()
     plugin_list = [p.get("id") for p in released_plugins]
     categorized = set()
 
@@ -108,7 +110,7 @@ def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> 
         if p.get("id") in set(plugin_list).difference(categorized):
             uncategorized.append(p)
 
-    group = write_file(
+    write_file(
         template,
         UNCATEGORIZED,
         name=UNCATEGORIZED,
@@ -131,9 +133,9 @@ def process_authors(theme_designers: ThemeList,
     AllAuthors = Dict[str, Dict[str, Any]]
     all_authors: AllAuthors = dict()
     for designer in theme_designers:
-        author = designer.get("author")
-        user = designer.get("user")
-        theme_link = format_link(designer.get("name"))
+        author = designer.author()
+        user = designer.user()
+        theme_link = format_link(designer.name())
         all_authors.setdefault(user, dict()).update(author=author, user=user)
         all_authors[user].setdefault("themes", []).append(theme_link)
         print_progress_bar(
@@ -159,7 +161,7 @@ def process_authors(theme_designers: ThemeList,
         group = write_file(
             template, user, overwrite=overwrite, verbose=verbose, **author_info
         )
-        file_groups.setdefault(group, list()).append(user)
+        add_file_group(file_groups, group, user)
 
     print_file_summary(file_groups)
 
@@ -173,13 +175,13 @@ def update_theme_download_counts(verbose: bool) -> None:
     # This is so fast that there is no point showing the progress bar
 
     template = get_template("theme")
-    theme_list = get_json_from_github(THEMES_JSON_FILE)
+    theme_list = get_community_themes()
 
-    theme_downloads = get_theme_downloads()
+    theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
     for theme in theme_list:
-        current_name = theme.get("name")
-        update_theme_download_count(template, theme_downloads, current_name, verbose)
+        current_name = theme.name()
+        ThemeDownloadCount.update_theme_download_count(template, theme_downloads, current_name, verbose)
 
 
 def main(argv: Sequence[str] = sys.argv[1:]) -> None:

@@ -107,6 +107,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Reverie|Reverie]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Rmaki|Rmaki]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Rosé Pine Moon|Rosé Pine Moon]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Royal Velvet|Royal Velvet]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ruby|Ruby]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sanctum|Sanctum]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sandstorm|Sandstorm]]
@@ -114,6 +115,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Slytherin|Slytherin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sodalite|Sodalite]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Solarized|Solarized]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sparkling Wisdom|Sparkling Wisdom]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Spectrum|Spectrum]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Subtlegold|Subtlegold]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Suddha|Suddha]]
@@ -130,6 +132,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Warmth|Warmth]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wasp|Wasp]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/WilcoxOne|WilcoxOne]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Willemstad|Willemstad]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wyrd|Wyrd]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yin and Yang|Yin and Yang]]
 %% Hub MOCs: Don’t edit above  %%

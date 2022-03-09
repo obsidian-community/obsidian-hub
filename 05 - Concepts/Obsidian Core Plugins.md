@@ -39,6 +39,13 @@ Create or open today’s daily note.
 Plugin ID: `daily-notes`
 Documentation: [Daily notes](https://help.obsidian.md/Plugins/Daily+notes)
 
+## Editor status
+
+Adds a status bar item to show and change the current editor mode.
+
+Plugin ID: `editor-status`
+%% Documentation: [Editor status](https://help.obsidian.md/Plugins/Editor+status) %%
+
 ## File explorer
 
 See the files and folders in your vault.
@@ -111,7 +118,7 @@ Documentation: [Page preview](https://help.obsidian.md/Plugins/Page+preview)
 
 ## Publish
 
-Publish your notes through [[Obsidian Publish]]
+Publish your notes through [[Obsidian Publish.]]
 
 Plugin ID: `publish`
 Documentation: [Publish](https://help.obsidian.md/Plugins/Publish)

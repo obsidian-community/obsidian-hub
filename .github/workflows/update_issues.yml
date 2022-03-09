@@ -23,7 +23,7 @@ jobs:
       # ----------------------------------------------------------------------------------
       # Run scripted update of community plugin issues with labels
       # ----------------------------------------------------------------------------------
-      - name: Update theme download counts
+      - name: Update list of community plugin issues with labels
         run: |
           cd .github/scripts
           python3 ./update_issues.py --apikey ${{ secrets.GITHUB_TOKEN }}

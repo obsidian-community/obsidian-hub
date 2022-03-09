@@ -80,8 +80,9 @@ def add_footer_to_markdown_test(input: str, relative_path:str) -> str:
     comment = add_footer.get_footer_comment_regex()
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "footer.md.jinja")
     debug = False
-    output = add_footer.add_footer_to_markdown(relative_path, input, comment, template, debug)
-    return output
+
+    # Cast is to force type for 'mypy --strict'
+    return str(add_footer.add_footer_to_markdown(relative_path, input, comment, template, debug))
 
 
 def verify_footer_addition(input: str, output: str) -> None:
