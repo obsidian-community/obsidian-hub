@@ -31,7 +31,7 @@ class Plugin(PluginStorage):
 
         try:
             manifest = get_plugin_manifest(repo, branch)
-            return Plugin.collect_data_for_plugin_and_manifest(self, manifest, file_groups)
+            return self.collect_data_for_plugin_and_manifest(manifest, file_groups)
 
         except Exception as err:
             print(f'ERROR processing plugin {current_name}. Error message: {err}')
@@ -39,11 +39,10 @@ class Plugin(PluginStorage):
             add_file_group(file_groups, "error", f"{current_name}")
             return plugin_is_valid
 
-    @staticmethod
-    def collect_data_for_plugin_and_manifest(plugin: "Plugin", manifest: PluginManifest, file_groups: FileGroups) -> bool:
+    def collect_data_for_plugin_and_manifest(self, manifest: PluginManifest, file_groups: FileGroups) -> bool:
         # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
-        repo = str(plugin.get("repo"))
-        plugin_is_valid = Plugin.validate_plugin(plugin, manifest, repo, file_groups)
+        repo = str(self.get("repo"))
+        plugin_is_valid = Plugin.validate_plugin(self, manifest, repo, file_groups)
 
         user = repo.split("/")[0]
         if manifest.get("isDesktopOnly"):
@@ -51,8 +50,8 @@ class Plugin(PluginStorage):
         else:
             mobile = MOBILE_COMPATIBLE
 
-        plugin.update(mobile=mobile, user=user, **manifest)
-        update_author_name_for_manual_exceptions(plugin)
+        self.update(mobile=mobile, user=user, **manifest)
+        update_author_name_for_manual_exceptions(self)
 
         return plugin_is_valid
 
