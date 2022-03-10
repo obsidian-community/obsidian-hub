@@ -5,7 +5,7 @@ import argparse
 from typing import Any, Dict, Sequence
 
 from obsidian_releases import get_community_plugins
-from plugins import collect_data_for_plugin, PluginList
+from plugins import Plugin, PluginList
 
 from utils import (
     format_link,
@@ -32,7 +32,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
         0, len(plugin_list),
     )
     for plugin in plugin_list:
-        plugin_is_valid = collect_data_for_plugin(plugin, file_groups)
+        plugin_is_valid = Plugin.collect_data_for_plugin(plugin, file_groups)
 
         if not plugin_is_valid:
             continue

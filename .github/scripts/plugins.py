@@ -15,31 +15,30 @@ DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 
 
 class Plugin(PluginStorage):
-    ...
 
+    @staticmethod
+    def collect_data_for_plugin(plugin: "Plugin", file_groups: FileGroups) -> bool:
+        """
+        Take raw plugin data from a community plugin, and add information to it,
+        typically from its manifest file.
 
-def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
-    """
-    Take raw plugin data from a community plugin, and add information to it,
-    typically from its manifest file.
+        :param plugin: A dict with data about the plugin, to be updated by this function
+        :param file_groups: Place to store error message if the plugin is invalid
+        :return: Whether the plugin is valid, and is OK to be added to the Hub
+        """
+        repo = plugin.get("repo")
+        branch = plugin.get("branch", "master")
+        current_name = str(plugin.get("name"))
 
-    :param plugin: A dict with data about the plugin, to be updated by this function
-    :param file_groups: Place to store error message if the plugin is invalid
-    :return: Whether the plugin is valid, and is OK to be added to the Hub
-    """
-    repo = plugin.get("repo")
-    branch = plugin.get("branch", "master")
-    current_name = str(plugin.get("name"))
+        try:
+            manifest = get_plugin_manifest(repo, branch)
+            return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
 
-    try:
-        manifest = get_plugin_manifest(repo, branch)
-        return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
-
-    except Exception as err:
-        print(f'ERROR processing plugin {current_name}. Error message: {err}')
-        plugin_is_valid = False
-        add_file_group(file_groups, "error", f"{current_name}")
-        return plugin_is_valid
+        except Exception as err:
+            print(f'ERROR processing plugin {current_name}. Error message: {err}')
+            plugin_is_valid = False
+            add_file_group(file_groups, "error", f"{current_name}")
+            return plugin_is_valid
 
 
 def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest: PluginManifest, file_groups: FileGroups) -> bool:
