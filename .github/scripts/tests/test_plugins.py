@@ -10,7 +10,7 @@ def verify_plugin(manifest_as_json: str, plugin_as_json: str) -> None:
     plugin = json.loads(plugin_as_json)
     manifest = json.loads(manifest_as_json)
     file_groups: FileGroups = dict()
-    result = plugins.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+    result = plugins.Plugin.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
     verify_in_json_format_to_markdown(plugin)
 
 def test_author_augmented_for_ryanjamurphy() -> None:

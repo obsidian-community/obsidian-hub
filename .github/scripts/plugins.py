@@ -32,7 +32,7 @@ class Plugin(PluginStorage):
 
         try:
             manifest = get_plugin_manifest(repo, branch)
-            return collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+            return Plugin.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
 
         except Exception as err:
             print(f'ERROR processing plugin {current_name}. Error message: {err}')
@@ -40,22 +40,22 @@ class Plugin(PluginStorage):
             add_file_group(file_groups, "error", f"{current_name}")
             return plugin_is_valid
 
+    @staticmethod
+    def collect_data_for_plugin_and_manifest(plugin: "Plugin", manifest: PluginManifest, file_groups: FileGroups) -> bool:
+        # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
+        repo = str(plugin.get("repo"))
+        plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
 
-def collect_data_for_plugin_and_manifest(plugin: Plugin, manifest: PluginManifest, file_groups: FileGroups) -> bool:
-    # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
-    repo = str(plugin.get("repo"))
-    plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
+        user = repo.split("/")[0]
+        if manifest.get("isDesktopOnly"):
+            mobile = DESKTOP_ONLY
+        else:
+            mobile = MOBILE_COMPATIBLE
 
-    user = repo.split("/")[0]
-    if manifest.get("isDesktopOnly"):
-        mobile = DESKTOP_ONLY
-    else:
-        mobile = MOBILE_COMPATIBLE
+        plugin.update(mobile=mobile, user=user, **manifest)
+        update_author_name_for_manual_exceptions(plugin)
 
-    plugin.update(mobile=mobile, user=user, **manifest)
-    update_author_name_for_manual_exceptions(plugin)
-
-    return plugin_is_valid
+        return plugin_is_valid
 
 
 def validate_plugin(plugin: Plugin, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
