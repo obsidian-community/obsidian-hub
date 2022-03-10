@@ -7,11 +7,12 @@ from utils import FileGroups
 
 
 def verify_plugin(manifest_as_json: str, plugin_as_json: str) -> None:
-    plugin = json.loads(plugin_as_json)
+    plugin = plugins.Plugin(json.loads(plugin_as_json))
     manifest = json.loads(manifest_as_json)
     file_groups: FileGroups = dict()
-    result = plugins.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
-    verify_in_json_format_to_markdown(plugin)
+    result = plugin.collect_data_for_plugin_and_manifest(manifest, file_groups)
+    verify_in_json_format_to_markdown(plugin.data())
+
 
 def test_author_augmented_for_ryanjamurphy() -> None:
     # Copied from https://github.com/obsidianmd/obsidian-releases/blob/30b6c827db345e92ce62d50c431878b80ede9d17/community-plugins.json
