@@ -132,27 +132,27 @@ def process_authors(themes: ThemeList,
     print_progress_bar(0, total)
     AllAuthors = Dict[str, Dict[str, Any]]
     all_authors: AllAuthors = dict()
-    for designer in themes:
-        author = designer.author()
-        user = designer.user()
-        theme_link = format_link(designer.name())
+    for theme in themes:
+        author = theme.author()
+        user = theme.user()
+        theme_link = format_link(theme.name())
         all_authors.setdefault(user, dict()).update(author=author, user=user)
         all_authors[user].setdefault("themes", []).append(theme_link)
         print_progress_bar(
-            themes.index(designer) + 1, total,
+            themes.index(theme) + 1, total,
         )
 
     # We process plugins after because they have richer info
-    for dev in plugins:
-        author = dev.author()
-        user = dev.user()
-        plugin_link = format_link(dev.id(), dev.name())
+    for plugin in plugins:
+        author = plugin.author()
+        user = plugin.user()
+        plugin_link = format_link(plugin.id(), plugin.name())
         all_authors.setdefault(user, dict()).update(
-            author=author, user=user, website=dev.authorUrl()
+            author=author, user=user, website=plugin.authorUrl()
         )
         all_authors[user].setdefault("plugins", []).append(plugin_link)
         print_progress_bar(
-            len(themes) + plugins.index(dev) + 1, total,
+            len(themes) + plugins.index(plugin) + 1, total,
         )
 
     print("\nCreating author notes....\n")
