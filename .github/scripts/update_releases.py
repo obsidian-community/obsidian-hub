@@ -5,7 +5,7 @@ import argparse
 from typing import Any, Dict, Sequence
 
 from obsidian_releases import get_community_plugins
-from plugins import Plugin, PluginList
+from plugins import PluginList
 
 from utils import (
     format_link,
