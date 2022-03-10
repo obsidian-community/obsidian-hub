@@ -59,16 +59,16 @@ class Plugin(PluginStorage):
 
     @staticmethod
     def validate_plugin(plugin: "Plugin", manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
-        return validate_plugin_ids(plugin, manifest, repo, file_groups)
+        return Plugin.validate_plugin_ids(plugin, manifest, repo, file_groups)
 
-
-def validate_plugin_ids(plugin: Plugin, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
-    ids_match = True
-    releases_id = plugin.get('id')
-    manifest_id = manifest.get('id')
-    if releases_id != manifest_id:
-        print(
-            f"ERROR repo:{repo} ID {releases_id} does not match ID in manifest: {manifest_id}")
-        add_file_group(file_groups, "error", f"{releases_id}/{manifest_id}")
-        ids_match = False
-    return ids_match
+    @staticmethod
+    def validate_plugin_ids(plugin: "Plugin", manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
+        ids_match = True
+        releases_id = plugin.get('id')
+        manifest_id = manifest.get('id')
+        if releases_id != manifest_id:
+            print(
+                f"ERROR repo:{repo} ID {releases_id} does not match ID in manifest: {manifest_id}")
+            add_file_group(file_groups, "error", f"{releases_id}/{manifest_id}")
+            ids_match = False
+        return ids_match
