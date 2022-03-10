@@ -24,12 +24,12 @@ class GithubClient:
 
 def process_issues_for_plugin(gh_client: GithubClient, plugin: Plugin, label: str) -> List[PluginIssue]:
     issues = list()
-    repo_issues = gh_client.get(f'/repos/{plugin["repo"]}/issues?labels={label}', _get="all")
+    repo_issues = gh_client.get(f'/repos/{plugin.repo()}/issues?labels={label}', _get="all")
     for issue in repo_issues:
         # pull requests are also an issue according to the gh api
         if "pull_request" not in issue:
             issues.append(
-                {"title": issue['title'], "url": issue['html_url'], "pluginID": plugin['id'], "plugin": plugin["name"]})
+                {"title": issue['title'], "url": issue['html_url'], "pluginID": plugin.id(), "plugin": plugin.name()})
     return issues
 
 
