@@ -16,8 +16,7 @@ DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 
 class Plugin(PluginStorage):
 
-    @staticmethod
-    def collect_data_for_plugin(plugin: "Plugin", file_groups: FileGroups) -> bool:
+    def collect_data_for_plugin(self, file_groups: FileGroups) -> bool:
         """
         Take raw plugin data from a community plugin, and add information to it,
         typically from its manifest file.
@@ -26,13 +25,13 @@ class Plugin(PluginStorage):
         :param file_groups: Place to store error message if the plugin is invalid
         :return: Whether the plugin is valid, and is OK to be added to the Hub
         """
-        repo = plugin.get("repo")
-        branch = plugin.get("branch", "master")
-        current_name = str(plugin.get("name"))
+        repo = self.get("repo")
+        branch = self.get("branch", "master")
+        current_name = str(self.get("name"))
 
         try:
             manifest = get_plugin_manifest(repo, branch)
-            return Plugin.collect_data_for_plugin_and_manifest(plugin, manifest, file_groups)
+            return Plugin.collect_data_for_plugin_and_manifest(self, manifest, file_groups)
 
         except Exception as err:
             print(f'ERROR processing plugin {current_name}. Error message: {err}')

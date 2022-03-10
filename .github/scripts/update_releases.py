@@ -32,7 +32,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
         0, len(plugin_list),
     )
     for plugin in plugin_list:
-        plugin_is_valid = Plugin.collect_data_for_plugin(plugin, file_groups)
+        plugin_is_valid = plugin.collect_data_for_plugin(file_groups)
 
         if not plugin_is_valid:
             continue
