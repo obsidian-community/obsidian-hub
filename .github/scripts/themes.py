@@ -8,7 +8,7 @@ from jinja2.environment import Template
 
 from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage
 from obsidian_releases import get_community_plugins, THEMES_JSON_FILE
-from plugins import CORE_PLUGINS
+from core_plugins import CORE_PLUGINS
 from utils import (
     THEME_CSS_FILE,
     get_output_dir,
@@ -157,10 +157,7 @@ class Theme:
 
             if comm_plugins is None:
                 plugin_list = get_community_plugins()
-                # "id" and "name" are not typed on the object, so they could return types other than string.
-                # We know their values are always strings.
-                # The str() cast prevents mypy from warning about possible type error
-                comm_plugins = {str(n.get("id")): str(n.get("name")) for n in plugin_list}
+                comm_plugins = {n.id(): n.name() for n in plugin_list}
 
             supported_comm_plugins = list()
             for p in plugins.get("community", list()):
