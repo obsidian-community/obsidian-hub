@@ -14,20 +14,37 @@ MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
 DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 
 
-class Plugin(PluginStorage):
+class Plugin:
+
+    def __init__(self, data: PluginStorage):
+        self.__data = data
+
+    def repo(self) -> str:
+        return str(self.__data.get("repo"))
+
+    def branch(self) -> str:
+        return str(self.__data.get("branch", "master"))
+
+    def name(self) -> str:
+        return str(self.__data.get("name"))
+
+    def id(self) -> str:
+        return str(self.__data.get("id"))
+
+    def data(self) -> PluginStorage:
+        return self.__data
 
     def collect_data_for_plugin(self, file_groups: FileGroups) -> bool:
         """
         Take raw plugin data from a community plugin, and add information to it,
         typically from its manifest file.
 
-        :param plugin: A dict with data about the plugin, to be updated by this function
         :param file_groups: Place to store error message if the plugin is invalid
         :return: Whether the plugin is valid, and is OK to be added to the Hub
         """
-        repo = self.get("repo")
-        branch = self.get("branch", "master")
-        current_name = str(self.get("name"))
+        repo = self.repo()
+        branch = self.branch()
+        current_name = self.name()
 
         try:
             manifest = get_plugin_manifest(repo, branch)
@@ -41,7 +58,7 @@ class Plugin(PluginStorage):
 
     def collect_data_for_plugin_and_manifest(self, manifest: PluginManifest, file_groups: FileGroups) -> bool:
         # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
-        repo = str(self.get("repo"))
+        repo = self.repo()
         plugin_is_valid = self.validate_plugin(manifest, repo, file_groups)
 
         user = repo.split("/")[0]
@@ -50,8 +67,8 @@ class Plugin(PluginStorage):
         else:
             mobile = MOBILE_COMPATIBLE
 
-        self.update(mobile=mobile, user=user, **manifest)
-        update_author_name_for_manual_exceptions(self)
+        self.__data.update(mobile=mobile, user=user, **manifest)
+        update_author_name_for_manual_exceptions(self.__data)
 
         return plugin_is_valid
 
@@ -60,7 +77,7 @@ class Plugin(PluginStorage):
 
     def validate_plugin_ids(self, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
         ids_match = True
-        releases_id = self.get('id')
+        releases_id = self.id()
         manifest_id = manifest.get('id')
         if releases_id != manifest_id:
             print(
