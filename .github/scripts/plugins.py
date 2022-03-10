@@ -44,7 +44,7 @@ class Plugin(PluginStorage):
     def collect_data_for_plugin_and_manifest(plugin: "Plugin", manifest: PluginManifest, file_groups: FileGroups) -> bool:
         # the cast to str is to silence: error: Item "None" of "Optional[Any]" has no attribute "split"
         repo = str(plugin.get("repo"))
-        plugin_is_valid = validate_plugin(plugin, manifest, repo, file_groups)
+        plugin_is_valid = Plugin.validate_plugin(plugin, manifest, repo, file_groups)
 
         user = repo.split("/")[0]
         if manifest.get("isDesktopOnly"):
@@ -57,9 +57,9 @@ class Plugin(PluginStorage):
 
         return plugin_is_valid
 
-
-def validate_plugin(plugin: Plugin, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
-    return validate_plugin_ids(plugin, manifest, repo, file_groups)
+    @staticmethod
+    def validate_plugin(plugin: "Plugin", manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
+        return validate_plugin_ids(plugin, manifest, repo, file_groups)
 
 
 def validate_plugin_ids(plugin: Plugin, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
