@@ -31,6 +31,15 @@ class Plugin:
     def id(self) -> str:
         return str(self.__data.get("id"))
 
+    def author(self) -> str:
+        return str(self.__data.get("author"))
+
+    def user(self) -> str:
+        return str(self.__data.get("user"))
+
+    def authorUrl(self) -> str:
+        return str(self.__data.get("authorUrl", ""))
+
     def data(self) -> PluginStorage:
         return self.__data
 

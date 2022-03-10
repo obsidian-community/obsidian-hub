@@ -38,11 +38,11 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
             continue
 
         group = write_file(
-            template, plugin.get("id"), overwrite=overwrite, verbose=verbose, **plugin
+            template, plugin.id(), overwrite=overwrite, verbose=verbose, **plugin.data()
         )
         devs.append(plugin)
 
-        add_file_group(file_groups, group, plugin.get("id"))
+        add_file_group(file_groups, group, plugin.id())
         print_progress_bar(
             plugin_list.index(plugin) + 1, len(plugin_list),
         )
@@ -89,7 +89,7 @@ def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> 
     UNCATEGORIZED = "Uncategorized plugins"
 
     released_plugins = get_community_plugins()
-    plugin_list = [p.get("id") for p in released_plugins]
+    plugin_list = [p.id() for p in released_plugins]
     categorized = set()
 
     file_list = get_category_files()
@@ -107,8 +107,8 @@ def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> 
 
     uncategorized = list()
     for p in released_plugins:
-        if p.get("id") in set(plugin_list).difference(categorized):
-            uncategorized.append(p)
+        if p.id() in set(plugin_list).difference(categorized):
+            uncategorized.append(p.data())
 
     write_file(
         template,
@@ -144,11 +144,11 @@ def process_authors(theme_designers: ThemeList,
 
     # We process plugins after because they have richer info
     for dev in plugin_devs:
-        author = dev.get("author")
-        user = dev.get("user")
-        plugin_link = format_link(dev.get("id"), dev.get("name"))
+        author = dev.author()
+        user = dev.user()
+        plugin_link = format_link(dev.id(), dev.name())
         all_authors.setdefault(user, dict()).update(
-            author=author, user=user, website=dev.get("authorUrl", "")
+            author=author, user=user, website=dev.authorUrl()
         )
         all_authors[user].setdefault("plugins", []).append(plugin_link)
         print_progress_bar(
