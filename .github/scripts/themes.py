@@ -8,7 +8,7 @@ from jinja2.environment import Template
 
 from hub_types import ThemeDownloads, ThemeSettings, ThemePluginSupport, ThemeStorage
 from obsidian_releases import get_community_plugins, THEMES_JSON_FILE
-from plugins import CORE_PLUGINS
+from core_plugins import CORE_PLUGINS
 from utils import (
     THEME_CSS_FILE,
     get_output_dir,
