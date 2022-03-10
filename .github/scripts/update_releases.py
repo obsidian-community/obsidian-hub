@@ -2,8 +2,9 @@
 
 import sys
 import argparse
-from typing import Any, Dict, Sequence
+from typing import Sequence
 
+from authors import AllAuthors
 from obsidian_releases import get_community_plugins
 from plugins import PluginList
 
@@ -130,7 +131,6 @@ def process_authors(themes: ThemeList,
     total = len(themes) + len(plugins)
 
     print_progress_bar(0, total)
-    AllAuthors = Dict[str, Dict[str, Any]]
     all_authors: AllAuthors = dict()
     for theme in themes:
         author = theme.author()
