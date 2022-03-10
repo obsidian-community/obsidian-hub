@@ -21,7 +21,7 @@ Learn more about this technique:
 ## How to get started
 While some people prefer to use regular paper flashcards, there are many software tools out there to help you set up a proper revision schedule and regular reminders. One often mentioned is [[Anki]], an open-source project for creating and revisiting digital decks of flashcards.
 
-Obsidian offers [[Built-in Review Systems|some built-in functionalities]] which could help you set up a spaced repetition workflow but also make sure to take a look at [[Spaced Repetition Plugins|Spaced Repetition plugins]] where you will find community-created memorization tools such as integretations with Anki.
+There are several community-created [[Spaced Repetition Plugins|Spaced Repetition plugins]], some of which implement this method right inside Obsidian, while others offer integretations with [[Anki]] and [Mochi Cards](https://mochi.cards/).
 
 %% Hub footer: Please don't edit anything below this line %%
 
