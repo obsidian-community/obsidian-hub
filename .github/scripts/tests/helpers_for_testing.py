@@ -4,8 +4,9 @@ from typing import Any, Tuple, List
 from approvaltests import verify, verify_as_json, Options
 
 import utils
+from plugins import Plugin
 from themes import Theme, ThemeList
-from hub_types import ThemeDownloads, ThemeStorage
+from hub_types import ThemeDownloads, ThemeStorage, PluginStorage
 
 
 def verify_as_markdown(data: Any, options: Options = Options()) -> None:
@@ -42,3 +43,21 @@ def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeD
         css_file = f.read()
 
     return theme, css_file, theme_downloads
+
+
+def get_saved_sample_data_for_plugin(plugin_id: str) -> Plugin:
+    """
+    A convenience function to load data for a plugin that has previous been saved
+    to .github/scripts/tests/sample_data/plugins
+
+    This allows for tests to be written using data stored in this repo, instead of
+    having to download real plugins and community release information, whose contents will
+    change over time, likely causing random test failures and maintenance pain in the future.
+    """
+    sample_data_for_plugin = Path(__file__).parent.absolute() / 'sample_data/plugins' / plugin_id
+    assert sample_data_for_plugin.exists()
+
+    plugin_list: List[PluginStorage] = utils.get_json_from_file(str(sample_data_for_plugin / 'community-plugins.json'))
+    plugin = Plugin(plugin_list[0])
+
+    return plugin
