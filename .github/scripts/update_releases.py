@@ -131,7 +131,7 @@ def process_authors(themes: ThemeList,
     total = len(themes) + len(plugins)
 
     print_progress_bar(0, total)
-    all_authors: AllAuthors = dict()
+    all_authors = AllAuthors()
     for theme in themes:
         author = theme.author()
         user = theme.user()
