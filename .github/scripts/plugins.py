@@ -56,12 +56,11 @@ class Plugin(PluginStorage):
         return plugin_is_valid
 
     def validate_plugin(self, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
-        return Plugin.validate_plugin_ids(self, manifest, repo, file_groups)
+        return self.validate_plugin_ids(manifest, repo, file_groups)
 
-    @staticmethod
-    def validate_plugin_ids(plugin: "Plugin", manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
+    def validate_plugin_ids(self, manifest: PluginManifest, repo: str, file_groups: FileGroups) -> bool:
         ids_match = True
-        releases_id = plugin.get('id')
+        releases_id = self.get('id')
         manifest_id = manifest.get('id')
         if releases_id != manifest_id:
             print(
