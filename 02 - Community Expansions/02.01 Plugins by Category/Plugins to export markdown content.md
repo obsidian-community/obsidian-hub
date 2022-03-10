@@ -22,8 +22,7 @@ Plugins to convert from [[Markdown]].
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%
-
-#placeholder/notes
+[[Third-Party Integration Plugins]]
 
 %% Hub footer: Please don't edit anything below this line %%
 
