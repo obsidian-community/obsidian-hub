@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 
-from typing import Union, Any, Dict, List
+from typing import List
 
 from authors import update_author_name_for_manual_exceptions
+from hub_types import PluginStorage, PluginManifest
 from utils import get_plugin_manifest, FileGroups, add_file_group
 
 # Type aliases:
-PluginStorage = Dict[str, Any]
 PluginList = List["Plugin"]
-PluginManifest = Dict[str, Union[str, bool]]
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
 DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
