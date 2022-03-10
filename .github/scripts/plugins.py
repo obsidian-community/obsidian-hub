@@ -6,12 +6,16 @@ from authors import update_author_name_for_manual_exceptions
 from utils import get_plugin_manifest, FileGroups, add_file_group
 
 # Type aliases:
-Plugin = Dict[str, Any]
-PluginList = List[Plugin]
+PluginStorage = Dict[str, Any]
+PluginList = List["Plugin"]
 PluginManifest = Dict[str, Union[str, bool]]
 
 MOBILE_COMPATIBLE = "[[Mobile-compatible plugins|Yes]]"
 DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
+
+
+class Plugin(PluginStorage):
+    ...
 
 
 def collect_data_for_plugin(plugin: Plugin, file_groups: FileGroups) -> bool:
