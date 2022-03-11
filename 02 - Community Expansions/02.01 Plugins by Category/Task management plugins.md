@@ -37,6 +37,7 @@ publish: true
 - [[obsidian-task-collector|Task Collector (TC)]]
 - [[todoist-text|Todoist Text]]
 - [[obsidian-things-link|Things Link]]
+- [[card-board|CardBoard]]
 
 ## Related categories
 

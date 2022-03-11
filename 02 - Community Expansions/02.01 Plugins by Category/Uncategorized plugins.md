@@ -49,7 +49,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-auto-split|Auto Split]]
 - [[obsidian-word-sprint|Word Sprint]]
 - [[copy-publish-url|Publish and GitHub URL]]
-- [[card-board|CardBoard]]
 - [[obsidian-bible-reference|Bible Reference]]
 - [[obsidian-sentence-navigator|Sentence Navigator]]
 - [[language-translator|Language Translator]]
