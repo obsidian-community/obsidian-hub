@@ -19,6 +19,7 @@ Plugins that handle PDF files.
 - [[obsidian-annotator|Annotator]]
 - [[oz-image-plugin|Ozan's Image in Editor Plugin]]
 - [[obsidian-markmind|Obsidian markmind]]
+- [[obsidian-extract-pdf-annotations|Extract PDF Annotations]]
 
 ## Related categories
 

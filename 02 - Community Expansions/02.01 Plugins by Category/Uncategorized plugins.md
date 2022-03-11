@@ -160,7 +160,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-textgenerator-plugin|Text Generator]]
 - [[markdown-table-editor|Markdown Table Editor]]
 - [[obsidian-vim-multibyte-char-search|Vim Multibyte Char Search]]
-- [[obsidian-extract-pdf-annotations|Extract PDF Annotations]]
 - [[obsidian-file-cleaner|File Cleaner]]
 
 
