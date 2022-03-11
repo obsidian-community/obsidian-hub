@@ -88,8 +88,7 @@ def get_uncategorized_plugins(valid_plugins, overwrite: bool = True, verbose: bo
     template = get_template("category")
     UNCATEGORIZED = "Uncategorized plugins"
 
-    released_plugins = valid_plugins
-    plugin_list = [p.id() for p in released_plugins]
+    plugin_list = [p.id() for p in (valid_plugins)]
     categorized = set()
 
     file_list = get_category_files()
@@ -106,7 +105,7 @@ def get_uncategorized_plugins(valid_plugins, overwrite: bool = True, verbose: bo
                     categorized.add(plugin)
 
     uncategorized = list()
-    for p in released_plugins:
+    for p in valid_plugins:
         if p.id() in set(plugin_list).difference(categorized):
             uncategorized.append(p.data())
 
