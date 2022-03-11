@@ -133,7 +133,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]
 - [[markdown-shortcuts|Markdown shortcuts]]
 - [[digitalgarden|Digital Garden]]
-- [[heatmap-calendar|Heatmap Calendar]]
 - [[obsidian-daily-notes-new-tab|Daily notes new tab]]
 - [[obsidian-advanced-new-folder|Advanced new folder]]
 - [[obsidian-mark-and-select|Mark and Select]]
