@@ -17,6 +17,9 @@ Plugins to manage tags.
 
 - [[tag-wrangler|Tag Wrangler]]
 - [[tag-page-preview|Tag Page Preview]]
+- [[obsidian-tagfolder|TagFolder]]
+- [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Suggest]]
+- [[tag-word-cloud|Tag & Word Cloud]]
 
 ## Related categories
 
