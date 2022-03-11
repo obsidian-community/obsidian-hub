@@ -124,7 +124,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-save-as-gist|Save as Gist]]
 - [[obsidian-divide-and-conquer|Divide & Conquer]]
 - [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]
-- [[obsidian-power-search|Power Search]]
 - [[auto-note-mover|Auto Note Mover]]
 - [[insert-heading-link|Insert Heading Link]]
 - [[settings-search|Settings Search]]
