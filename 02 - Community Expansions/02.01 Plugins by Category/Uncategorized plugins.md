@@ -78,7 +78,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-wordpress|WordPress]]
 - [[obsidian-icon-shortcodes|Icon Shortcodes]]
 - [[obsidian-advanced-slides|Advanced Slides]]
-- [[vim-im-select|Vim IM Select]]
 - [[obsidian-emotion-picker|Emotion Picker]]
 - [[quoth|Quoth]]
 - [[obsidian-metronome-plugin|Metronome]]
