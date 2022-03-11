@@ -17,6 +17,7 @@ publish: true
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Alfred|Alfred]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Anki|Anki]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Calibre|Calibre]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/DDC_Folder_Maker|DDC_Folder_Maker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Docker|Docker]]
@@ -38,6 +39,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Notepad++|Notepad++]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidian-web-clipper|obsidian-web-clipper]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Onyx Boox|Onyx Boox]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Open in Obsidian|Open in Obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pandoc|Pandoc]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pocket|Pocket]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/ProtonMail|ProtonMail]]

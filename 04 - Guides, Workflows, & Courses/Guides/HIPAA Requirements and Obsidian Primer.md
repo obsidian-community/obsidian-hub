@@ -40,3 +40,9 @@ Obsidian's "native" philosophy is that the user of Obsidian is the owner of data
 For example, as of this document date, Obsidian does not offer user access control. It is not possible (with native Obsidian functionality) to distinguish which changes to a document were performed by separate users.
 
 Nearly every requirement to maintain HIPAA compliance would need to be enacted outside of Obsidian, would require dedicated maintenance, and finally would require documented processes to demonstrate adherence to regulations. Dedicated maintenance would include (but not be limited to) regular penetration testing, data access review, verification of backup viability, ongoing timely correction to or retrieval of PHI as instructed by owner of PHI or authorized agency. Such overhead is not practical in day-to-day use of typical care providers.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/HIPAA%20Requirements%20and%20Obsidian%20Primer.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/HIPAA%20Requirements%20and%20Obsidian%20Primer.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

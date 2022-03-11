@@ -18,3 +18,9 @@ Available for: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|L
 Anki is a free and open-source [[🗂️ Auxiliary Tools|tool]] to create digital flashcards. It uses a [[Spaced repetition]] algorithm to help you prevent forgetting what you have learned. It lets you review information over a long period of time as revisions are spaced out based on your confidence to recall the learned content.
 
 There are several community-developed plugins to integrate Obsidian into an Anki workflow. See: [[Spaced Repetition Plugins]]
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Auxiliary%20Tools/Anki.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Auxiliary%20Tools/Anki.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

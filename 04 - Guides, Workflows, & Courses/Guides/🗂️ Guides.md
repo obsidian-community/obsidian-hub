@@ -13,11 +13,13 @@ tags:
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[04 - Guides, Workflows, & Courses/Guides/Adding plugin compatibility for themes to the Obsidian Hub|Adding plugin compatibility for themes to the Obsidian Hub]]
+-  [[04 - Guides, Workflows, & Courses/Guides/An Introduction to Dataview Slides|An Introduction to Dataview Slides]]
 -  [[04 - Guides, Workflows, & Courses/Guides/An Introduction to Dataview|An Introduction to Dataview]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Best Practices and Tips for Theme Development|Best Practices and Tips for Theme Development]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Controlling Obsidian via a Third-party App|Controlling Obsidian via a Third-party App]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Default Obsidian Theme Colors|Default Obsidian Theme Colors]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Effective Remote Work|Effective Remote Work]]
+-  [[04 - Guides, Workflows, & Courses/Guides/HIPAA Requirements and Obsidian Primer|HIPAA Requirements and Obsidian Primer]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to add content through GitHub|How to add content through GitHub]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to add your plugin to the community plugin list|How to add your plugin to the community plugin list]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to add your theme to the community theme store|How to add your theme to the community theme store]]
