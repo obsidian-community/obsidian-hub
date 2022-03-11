@@ -22,6 +22,7 @@ Plugins to convert to [[Markdown]].
 - [[extract-url|Extract url content]]
 - [[obsidian-csv-table|CSV Table]]
 - [[obsidian-pluck|Pluck]]
+- [[obsidian-extract-pdf-annotations|Extract PDF Annotations]]
 
 ## Related categories
 

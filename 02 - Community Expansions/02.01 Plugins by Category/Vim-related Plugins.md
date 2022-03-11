@@ -18,6 +18,8 @@ Plugins related to [[Vim]] mode
 - [[obsidian-vim-im-switch-plugin|Vim Input Method Switch]]
 - [[obsidian-relative-line-numbers|Relative Line Numbers]]
 - [[improved-vimcursor|Improved VimCursor]]
+- [[vim-im-select|Vim IM Select]]
+- [[obsidian-vim-multibyte-char-search|Vim Multibyte Char Search]]
 
 ## Related categories
 

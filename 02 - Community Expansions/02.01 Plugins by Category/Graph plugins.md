@@ -20,6 +20,9 @@ publish: true
 - [[juggl|Juggl]]
 - [[breadcrumbs|Breadcrumbs]]
 - [[graph-analysis|Graph Analysis]]
+- [[obsidian-graphviz|Obsidian Graphviz]]
+- [[persistent-graph|Persistent Graph]]
+- [[obsidian-living-graph|Living Graph]]
 
 ## Related categories
 

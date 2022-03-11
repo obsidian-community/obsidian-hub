@@ -15,6 +15,7 @@ Plugins related to Japanese language
 
 - [[obsidian-markdown-furigana|Markdown Furigana]]
 - [[obsidian-furigana|Furigana]]
+- [[japanese-word-splitter|Word Splitting for Japanese in Edit Mode]]
 
 ## Related categories
 

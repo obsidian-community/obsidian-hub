@@ -20,6 +20,7 @@ Plugins to create diagrams other than [[Mermaid]] (which is [already natively su
 - [[obsidian-plantuml|PlantUML]]
 - [[obsidian-kroki|Kroki]]
 - [[obsidian-nomnoml-diagram|Nomnoml Diagram]]
+- [[obsidian-graphviz|Obsidian Graphviz]]
 
 ## Related categories
 

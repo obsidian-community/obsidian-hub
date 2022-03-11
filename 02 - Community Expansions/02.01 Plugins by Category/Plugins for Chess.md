@@ -15,6 +15,7 @@ publish: true
 
 - [[chesser-obsidian|Chesser]]
 - [[obsidian-chessboard|Chessboard Viewer]]
+- [[obsidian-chess|Obsidian Chess]]
 
 ## Related categories
 

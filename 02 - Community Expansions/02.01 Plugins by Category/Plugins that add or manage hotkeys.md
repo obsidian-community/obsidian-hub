@@ -31,6 +31,10 @@ publish: true
 - [[editor-commands-remap|Editor Commands Remap]]
 - [[obsidian-command-alias-plugin|Command Alias]]
 - [[obsidian-editor-shortcuts|Code Editor Shortcuts]]
+- [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]]
+- [[obsidian-global-hotkeys|Global Hotkeys]]
+- [[obsidian-hotkeys-chords|Hotkeys Chords]]
+- [[obsidian-key-sequence-shortcut|Key Sequence Shortcut]]
 
 ## Related categories
 
