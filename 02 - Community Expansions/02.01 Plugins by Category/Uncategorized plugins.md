@@ -39,7 +39,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-audio-speed-plugin|Audio Speed Plugin]]
 - [[obsidian-limelight|Limelight]]
 - [[prompt|Prompt]]
-- [[obsidian-chess|Obsidian Chess]]
 - [[stenography-obsidian|Stenography]]
 - [[obsidian-oura-plugin|Oura Ring]]
 - [[obsidian-metacopy|Metacopy]]
