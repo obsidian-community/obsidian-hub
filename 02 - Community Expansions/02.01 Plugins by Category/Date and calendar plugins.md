@@ -19,6 +19,7 @@ Handling dates
 - [[calendar|Calendar]]
 - [[fantasy-calendar|Fantasy Calendar]]
 - [[big-calendar|Obsidian Big Calendar]]
+- [[obsidian-full-calendar|Full Calendar]]
 
 ## Related categories
 
