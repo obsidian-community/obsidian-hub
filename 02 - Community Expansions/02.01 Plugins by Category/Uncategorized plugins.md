@@ -126,7 +126,6 @@ Plugins which have not yet been categorized by the community.
 - [[insert-heading-link|Insert Heading Link]]
 - [[settings-search|Settings Search]]
 - [[obsidian-footnote-indicator|Footnote & Citation Indicator]]
-- [[japanese-word-splitter|Word Splitting for Japanese in Edit Mode]]
 - [[alx-folder-note-folderv|AidenLx's Folder Note - folderv component]]
 - [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]
 - [[sekund|Sekund]]
