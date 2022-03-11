@@ -83,12 +83,12 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
     return designers
 
 
-def get_uncategorized_plugins(overwrite: bool = True, verbose: bool = False) -> None:
+def get_uncategorized_plugins(valid_plugins, overwrite: bool = True, verbose: bool = False) -> None:
     print("Finding uncategorized plugins....\n")
     template = get_template("category")
     UNCATEGORIZED = "Uncategorized plugins"
 
-    released_plugins = get_community_plugins()
+    released_plugins = valid_plugins
     plugin_list = [p.id() for p in released_plugins]
     categorized = set()
 
@@ -220,7 +220,7 @@ def main(argv: Sequence[str] = sys.argv[1:]) -> None:
     designers = list()
     if args.all or args.plugins:
         devs = process_released_plugins(args.overwrite, args.verbose)
-        get_uncategorized_plugins()
+        get_uncategorized_plugins(devs)
     if args.all or args.themes:
         designers = process_released_themes(args.overwrite, args.verbose)
     if args.update_download_counts:
