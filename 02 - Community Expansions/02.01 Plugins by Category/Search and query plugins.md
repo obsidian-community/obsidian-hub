@@ -25,6 +25,8 @@ Querying
 - [[obsidian-spotlight|Spotlight]]
 - [[obsidian-related-notes-finder|Related Notes Finder]]
 - [[obsidian-relative-find|Relative Find]]
+- [[obsidian-core-search-assistant-plugin|Core Search Assistant]]
+- [[obsidian-search-everywhere-plugin|Search Everywhere]]
 
 ## Related categories
 
