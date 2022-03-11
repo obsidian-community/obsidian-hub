@@ -62,6 +62,7 @@ Plugins to integrate with other services or applications.
 - [[obsidian-ankibridge|AnkiBridge]]
 - [[obsidian-tressel|Tressel Sync for Obsidian]]
 - [[obsidian-graphviz|Obsidian Graphviz]]
+- [[obsidian-power-search|Power Search]]
 
 ## Related categories
 
