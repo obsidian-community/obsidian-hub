@@ -143,7 +143,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-kindle-export|Kindle]]
 - [[obsidian-textgenerator-plugin|Text Generator]]
 - [[markdown-table-editor|Markdown Table Editor]]
-- [[obsidian-vim-multibyte-char-search|Vim Multibyte Char Search]]
 - [[obsidian-file-cleaner|File Cleaner]]
 
 
