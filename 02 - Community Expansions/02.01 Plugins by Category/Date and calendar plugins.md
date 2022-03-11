@@ -18,6 +18,7 @@ Handling dates
 - [[obsidian-jump-to-date-plugin|Obsidian42 - Jump-to-Date]]
 - [[calendar|Calendar]]
 - [[fantasy-calendar|Fantasy Calendar]]
+- [[big-calendar|Obsidian Big Calendar]]
 
 ## Related categories
 

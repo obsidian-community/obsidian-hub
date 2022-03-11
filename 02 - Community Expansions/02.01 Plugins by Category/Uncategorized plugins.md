@@ -129,7 +129,6 @@ Plugins which have not yet been categorized by the community.
 - [[japanese-word-splitter|Word Splitting for Japanese in Edit Mode]]
 - [[alx-folder-note-folderv|AidenLx's Folder Note - folderv component]]
 - [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]
-- [[big-calendar|Obsidian Big Calendar]]
 - [[sekund|Sekund]]
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]
 - [[markdown-shortcuts|Markdown shortcuts]]
