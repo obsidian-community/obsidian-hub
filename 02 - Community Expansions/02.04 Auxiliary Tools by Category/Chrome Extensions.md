@@ -12,6 +12,7 @@ Extension for the [Chrome Browser](https://www.google.com/chrome/). (Note that C
 
 ## Tools in this category
 - [MarkDownload - Markdown Web Clipper](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB)
+- [Obsidian Clipper (unofficial)](https://chrome.google.com/webstore/detail/obsidian-clipper/mphkdfmipddgfobjhphabphmpdckgfhb)
 
 
 ## Related categories
