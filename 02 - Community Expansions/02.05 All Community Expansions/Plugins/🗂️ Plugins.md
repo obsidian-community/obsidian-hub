@@ -366,6 +366,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-relative-find|obsidian-relative-find]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-relative-line-numbers|obsidian-relative-line-numbers]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-relativenumber|obsidian-relativenumber]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-remember-file-state|obsidian-remember-file-state]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-reminder-plugin|obsidian-reminder-plugin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-reset-font-size|obsidian-reset-font-size]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-reveal-active-file|obsidian-reveal-active-file]]
