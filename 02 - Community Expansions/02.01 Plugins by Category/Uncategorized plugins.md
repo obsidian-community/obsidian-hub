@@ -129,6 +129,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]
 - [[sekund|Sekund]]
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]
+- [[obsidian-remember-file-state|Remember File State]]
 - [[markdown-shortcuts|Markdown shortcuts]]
 - [[digitalgarden|Digital Garden]]
 - [[obsidian-daily-notes-new-tab|Daily notes new tab]]
@@ -145,9 +146,3 @@ Plugins which have not yet been categorized by the community.
 - [[markdown-table-editor|Markdown Table Editor]]
 - [[obsidian-file-cleaner|File Cleaner]]
 
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
