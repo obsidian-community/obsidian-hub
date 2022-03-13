@@ -223,6 +223,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/linjunpop|linjunpop]]
 -  [[01 - Community/People/lkadre|lkadre]]
 -  [[01 - Community/People/luckman212|luckman212]]
+-  [[01 - Community/People/ludovicchabant|ludovicchabant]]
 -  [[01 - Community/People/lukauskas|lukauskas]]
 -  [[01 - Community/People/luke-rmaki|luke-rmaki]]
 -  [[01 - Community/People/lukeleppan|lukeleppan]]

@@ -129,6 +129,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]
 - [[sekund|Sekund]]
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]
+- [[obsidian-remember-file-state|Remember File State]]
 - [[markdown-shortcuts|Markdown shortcuts]]
 - [[digitalgarden|Digital Garden]]
 - [[obsidian-daily-notes-new-tab|Daily notes new tab]]
