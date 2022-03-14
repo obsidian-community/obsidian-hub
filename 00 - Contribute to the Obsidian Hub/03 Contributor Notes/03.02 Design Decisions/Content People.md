@@ -92,7 +92,7 @@ To this:
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @{{title}} on GitHub Sponsors](https://github.com/sponsors/{{title}}) ^github-sponsor -->
+<!-- - [[GitHub sponsors]]: [Sponsor @{{title}} on GitHub Sponsors](https://github.com/sponsors/{{title}}) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->
@@ -119,7 +119,7 @@ To this:
 
 <!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
 <!-- - Twitter: <https://> ^twitter-->
-<!-- - ... -->
+<!-- - ...-->
 ```
 
 ### Create-and-include separate files for machine-generated content
