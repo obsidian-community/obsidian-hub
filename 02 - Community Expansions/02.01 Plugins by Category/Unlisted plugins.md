@@ -30,6 +30,7 @@ These plugins are not listed in Obsidian's plugin store. Keep in mind that the a
 %% Add links to other 02.02 - Category notes %%
 
 - [[Plugins in Beta]]
+- [[Discontinued plugins]]
 
 %% Hub footer: Please don't edit anything below this line %%
 
