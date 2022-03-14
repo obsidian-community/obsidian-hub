@@ -11,6 +11,8 @@ tags:
 
 Try to capture the stages that community extensions (Plugins and Themes) go through.
 
+**Status:** *This page has not been fully reviewed or decided upon.*
+
 ## Questions on the following...
 
 - Are the life-cycle stages correct?
@@ -73,13 +75,13 @@ Evolution of a plugin...
 ### How the sources of truth are represented in the Hub
 - **Hub structure**
     - Whether the plugin has a note in `02.05 All Community Expansions/Plugins`
-    - Whether the plugin has a note in the Unlisted plugins category
-        - <https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Unlisted+plugins>
-    - Whether the plugin has a note in the Unlisted plugins folder
-        - <https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/Unlisted/🗂%EF%B8%8F+Unlisted>
+    - Whether the plugin is linked in the [[Plugins in Beta]] category
+    - Whether the plugin is linked in the [[Unlisted plugins]] category
+    - Whether the plugin has a note in the [[02 - Community Expansions/02.05 All Community Expansions/Plugins/Unlisted/🗂️ Unlisted|Unlisted plugins folder]]
+    - Whether the plugin is linked in the [[Discontinued plugins]] category
 - Hub Content
     - Whether the plugin is listed in the 'Unlisted plugins' section of the author's note
-        - e.g. <https://publish.obsidian.md/hub/01+-+Community/People/SkepticMystic>
+        - e.g. [[SkepticMystic]]
     - Not represented in note content:
         - Whether the plugin is archived
 

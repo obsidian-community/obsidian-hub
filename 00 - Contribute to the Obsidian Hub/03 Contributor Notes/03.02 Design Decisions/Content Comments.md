@@ -11,6 +11,8 @@ tags:
 
 Suggested standard:
 
+**Note:** *See the other files in this folder for progress on implementing this in each of the types of notes (namely, Plugin, Theme and Author/Person).*
+
 - `%% .... %%` for instructions and comments to maintainers
 - `<!-- .... -->` for things that may be activated (either on one line, or split, depending on context)
     - Never use this for multi-line sections, where activating individual lines means moving some text up or down.
@@ -22,7 +24,11 @@ Suggested standard:
 
 ## Agree a standard begin/end prefix for marking 'do not edit' sections
 
-We use these markers in Author pages, and they do not seem to be well-understood:
+**Note:** *See [Agree a standard begin/end prefix for marking 'do not edit' sections · Issue #351](https://github.com/obsidian-community/obsidian-hub/issues/351) for discussion and implementation progress on this.*
+
+In various parts of the Hub, we use  markers to highlight sections which should not be edited manually because they are instead created or updated automatically by our [[GitHub Actions for the Hub]].
+
+We use these markers in Author pages, and they do not seem to be well-understood: occasionally people add new text inside these matching pairs of comments.
 
 ```markdown
 ## Author of

@@ -15,6 +15,8 @@ tags:
 
 ### Change author template to simplify manual intervention, when running `update-releases.py`
 
+**Note:** *This is being tracked in [Make automated edits of Author/People pages less error-prone · Issue #348](https://github.com/obsidian-community/obsidian-hub/issues/348)*
+
 The reasoning behind [[Content Comments]] is to greatly reduce the number of lines that need to be reverted when the author pages are updated, from minimal edits to to the authors template(s).
 
 It will help contributors see the intention for links and `^` too...
@@ -90,7 +92,7 @@ To this:
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @{{title}} on GitHub Sponsors](https://github.com/sponsors/{{title}}) ^github-sponsor -->
+<!-- - [[GitHub sponsors]]: [Sponsor @{{title}} on GitHub Sponsors](https://github.com/sponsors/{{title}}) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->
@@ -117,14 +119,14 @@ To this:
 
 <!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
 <!-- - Twitter: <https://> ^twitter-->
-<!-- - ... -->
+<!-- - ...-->
 ```
 
 ### Create-and-include separate files for machine-generated content
 
-**Decision**: Get the same benefit by replacing chunks of code inside the single files, such as is done for MOCs and Uncategorized Plugins.
+**Decision**: **Rejected** Get the same benefit by replacing chunks of code inside the single files, such as is done for MOCs and Uncategorized Plugins.
 
-Make the Python script that creates Author pages put the generated text in to little files for inclusion in the main file.
+Make the Python script that creates Author pages put the generated text in to little files for inclusion in the main file. See [[#Divide up the jinja templates in to component parts]] below.
 
 For example, we would end up with something like this:
 
@@ -160,6 +162,16 @@ For discussion:
 
 - Would need to identify a sub-dir to put the files in
 - If manually creating new author pages, would need to create the 2 extra files and put them in the right location
+
+### Divide up the author jinja template in to component parts.
+
+**Note:** *This is being tracked in [Make automated edits of Author/People pages less error-prone · Issue #348](https://github.com/obsidian-community/obsidian-hub/issues/348)*
+
+This follows on from the rejected [[#Create-and-include separate files for machine-generated content]] above.
+
+The idea is to break up the long Jinja template files in [.github/scripts/templates](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts/templates) in to separate files. This would allow us to use the individual templates to selectively update parts of individual notes.
+
+As of 2022-03-14, this division has already been done for the [plugins](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts/templates/plugins) and [themes](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts/templates/themes) templates, but not yet for [author.md.jinja](https://github.com/obsidian-community/obsidian-hub/blob/main/.github/scripts/templates/author.md.jinja)
 
 ## Odds and Ends
 
