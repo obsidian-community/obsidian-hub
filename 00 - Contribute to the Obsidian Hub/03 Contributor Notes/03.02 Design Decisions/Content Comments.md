@@ -11,7 +11,7 @@ tags:
 
 Suggested standard:
 
-**Note:** *See the other files in this folder for progress on implementing this in each of the types of note.*
+**Note:** *See the other files in this folder for progress on implementing this in each of the types of notes (namely, Plugin, Theme and Author/Person).*
 
 - `%% .... %%` for instructions and comments to maintainers
 - `<!-- .... -->` for things that may be activated (either on one line, or split, depending on context)
