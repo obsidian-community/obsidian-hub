@@ -11,6 +11,8 @@ tags:
 
 Suggested standard:
 
+**Note:** *See the other files in this folder for progress on implementing this in each of the types of note.*
+
 - `%% .... %%` for instructions and comments to maintainers
 - `<!-- .... -->` for things that may be activated (either on one line, or split, depending on context)
     - Never use this for multi-line sections, where activating individual lines means moving some text up or down.
@@ -21,6 +23,8 @@ Suggested standard:
     - It's important that there are no spaces after the `^`marker, for it to work and display correctly
 
 ## Agree a standard begin/end prefix for marking 'do not edit' sections
+
+**Note:** *See [Agree a standard begin/end prefix for marking 'do not edit' sections · Issue #351](https://github.com/obsidian-community/obsidian-hub/issues/351) for discussion and implementation progress on this.*
 
 We use these markers in Author pages, and they do not seem to be well-understood:
 
