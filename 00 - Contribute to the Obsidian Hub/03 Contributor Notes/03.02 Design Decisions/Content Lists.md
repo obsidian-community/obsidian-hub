@@ -9,6 +9,8 @@ tags:
 
 ## Sorting of lists, to aid readability
 
+**Status:** Agreed, and being tracked in [Implement automated sorting of some lists on links · Issue #282](https://github.com/obsidian-community/obsidian-hub/issues/282)
+
 ### Decisions and conclusions
 
 - Sort by Alias, not Plugin ID
