@@ -26,7 +26,9 @@ Suggested standard:
 
 **Note:** *See [Agree a standard begin/end prefix for marking 'do not edit' sections · Issue #351](https://github.com/obsidian-community/obsidian-hub/issues/351) for discussion and implementation progress on this.*
 
-We use these markers in Author pages, and they do not seem to be well-understood:
+In various parts of the Hub, we use  markers to highlight sections which should not be edited manually because they are instead created or updated automatically by our [[GitHub Actions for the Hub]].
+
+We use these markers in Author pages, and they do not seem to be well-understood: occasionally people add new text inside these matching pairs of comments.
 
 ```markdown
 ## Author of
