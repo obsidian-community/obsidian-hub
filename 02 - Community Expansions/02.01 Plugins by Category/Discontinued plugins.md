@@ -16,6 +16,7 @@ These plugins were once published, but have have since been withdrawn, or are no
 %% Add a bullet here and link to the plugins you'd like to categorize - and sort them alphabetically! %%
 
 - [[obsidian-advanced-appearance|Advanced Appearance]]
+- [[obsidian-extra-md-commands|Extra Markdown Commands]] (use [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]] instead.)
 - [[pdf-to-markdown-plugin|PDF to Markdown]]
 - [[obsidian-stenography-plugin|Stenography]]
 - [[todo-txt|Todo.txt support]]
