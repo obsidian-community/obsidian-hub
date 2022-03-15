@@ -26,8 +26,6 @@ publish: true
 
 <!--
 ### Themes
-
-- 
 -->
 
 %% End Hub: Released contributions %%
