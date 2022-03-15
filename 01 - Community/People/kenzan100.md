@@ -11,7 +11,7 @@ publish: true
 - GitHub: [kenzan100](https://github.com/kenzan100/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://twitter.com/kenzan100> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

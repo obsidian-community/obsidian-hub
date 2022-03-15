@@ -11,7 +11,7 @@ publish: true
 - GitHub: [obsidian-ezs](https://github.com/obsidian-ezs/) ^github
 <!-- - Discord: `@` ^discord-->
 <!-- - Website: <> ^website-->
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

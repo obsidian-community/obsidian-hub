@@ -11,7 +11,7 @@ publish: true
 - GitHub: [trashhalo](https://github.com/trashhalo/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://obsidian-buffer.web.app> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

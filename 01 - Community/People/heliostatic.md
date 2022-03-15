@@ -11,7 +11,7 @@ publish: true
 - GitHub: [heliostatic](https://github.com/heliostatic/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/heliostatic/completed-task-display> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

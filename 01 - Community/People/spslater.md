@@ -11,7 +11,7 @@ publish: true
 - GitHub: [spslater](https://github.com/spslater/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/spslater/obsidian-cursor-location-plugin> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

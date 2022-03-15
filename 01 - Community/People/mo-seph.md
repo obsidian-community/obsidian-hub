@@ -11,7 +11,7 @@ publish: true
 - GitHub: [mo-seph](https://github.com/mo-seph/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://dave.murray-rust.org> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

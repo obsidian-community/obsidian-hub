@@ -11,7 +11,7 @@ publish: true
 - GitHub: [arpitbbhayani](https://github.com/arpitbbhayani/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://arpitbhayani.me> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

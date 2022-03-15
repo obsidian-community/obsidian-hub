@@ -11,7 +11,7 @@ publish: true
 - GitHub: [aleksey-rezvov](https://github.com/aleksey-rezvov/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/aleksey-rezvov/obsidian-local-images> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

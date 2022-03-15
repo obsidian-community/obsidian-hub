@@ -11,7 +11,7 @@ publish: true
 - GitHub: [tgrosinger](https://github.com/tgrosinger/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://grosinger.net> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [getmatterapp](https://github.com/getmatterapp/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://hq.getmatter.app> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

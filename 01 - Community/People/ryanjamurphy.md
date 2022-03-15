@@ -11,7 +11,7 @@ publish: true
 - GitHub: [ryanjamurphy](https://github.com/ryanjamurphy/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://axle.design> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 A mod for both Discord and forum and a plugin author.

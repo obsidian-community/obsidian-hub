@@ -11,7 +11,7 @@ publish: true
 - GitHub: [James-Fallon](https://github.com/James-Fallon/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/James-Fallon> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

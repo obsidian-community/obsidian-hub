@@ -11,7 +11,7 @@ publish: true
 - GitHub: [mgmeyers](https://github.com/mgmeyers/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/mgmeyers/obsidian-copy-block-link> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

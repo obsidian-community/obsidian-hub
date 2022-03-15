@@ -11,7 +11,7 @@ publish: true
 - GitHub: [dhruvik7](https://github.com/dhruvik7/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/dhruvik7> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

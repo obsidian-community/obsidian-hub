@@ -11,7 +11,7 @@ publish: true
 - GitHub: [debanjandhar12](https://github.com/debanjandhar12/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/debanjandhar12> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [Gru80](https://github.com/Gru80/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.gruware.org> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

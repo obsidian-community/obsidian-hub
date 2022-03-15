@@ -11,7 +11,7 @@ publish: true
 - GitHub: [delashum](https://github.com/delashum/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.hivewire.co/jobs> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

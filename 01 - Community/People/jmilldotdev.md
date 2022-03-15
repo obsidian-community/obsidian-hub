@@ -11,7 +11,7 @@ publish: true
 - GitHub: [jmilldotdev](https://github.com/jmilldotdev/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://jmill.dev> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

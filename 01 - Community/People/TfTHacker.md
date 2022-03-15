@@ -11,7 +11,7 @@ publish: true
 - GitHub: [TfTHacker](https://github.com/TfTHacker/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/TfTHacker/obsidian42-brat> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

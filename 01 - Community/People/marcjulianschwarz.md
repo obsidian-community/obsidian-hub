@@ -11,7 +11,7 @@ publish: true
 - GitHub: [marcjulianschwarz](https://github.com/marcjulianschwarz/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.marc-julian.de> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

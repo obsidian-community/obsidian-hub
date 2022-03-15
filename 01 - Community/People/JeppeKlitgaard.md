@@ -11,7 +11,7 @@ publish: true
 - GitHub: [JeppeKlitgaard](https://github.com/JeppeKlitgaard/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://jeppe.science> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

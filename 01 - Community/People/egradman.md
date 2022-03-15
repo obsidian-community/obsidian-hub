@@ -11,7 +11,7 @@ publish: true
 - GitHub: [egradman](https://github.com/egradman/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.gradman.com> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

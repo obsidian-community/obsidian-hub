@@ -11,7 +11,7 @@ publish: true
 - GitHub: [parente](https://github.com/parente/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/parente> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

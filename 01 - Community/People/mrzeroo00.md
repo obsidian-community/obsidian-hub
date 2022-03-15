@@ -11,7 +11,7 @@ publish: true
 - GitHub: [mrzeroo00](https://github.com/mrzeroo00/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/MrZeroo00> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [shichongrui](https://github.com/shichongrui/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.matthewsessions.com> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

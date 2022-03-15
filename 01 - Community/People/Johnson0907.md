@@ -11,7 +11,7 @@ publish: true
 - GitHub: [Johnson0907](https://github.com/Johnson0907/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/Johnson0907> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

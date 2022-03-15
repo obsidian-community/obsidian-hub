@@ -11,7 +11,7 @@ publish: true
 - GitHub: [tim-hub](https://github.com/tim-hub/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/tim-hub> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

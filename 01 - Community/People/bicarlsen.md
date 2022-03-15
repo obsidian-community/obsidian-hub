@@ -11,7 +11,7 @@ publish: true
 - GitHub: [bicarlsen](https://github.com/bicarlsen/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/bicarlsen> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

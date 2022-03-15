@@ -11,7 +11,7 @@ publish: true
 - GitHub: [arnau](https://github.com/arnau/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.seachess.net/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

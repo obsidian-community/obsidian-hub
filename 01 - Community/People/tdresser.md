@@ -11,7 +11,7 @@ publish: true
 - GitHub: [tdresser](https://github.com/tdresser/) ^github
 <!-- - Discord: `@` ^discord-->
 <!-- - Website: <> ^website-->
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

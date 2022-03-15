@@ -11,7 +11,7 @@ publish: true
 - GitHub: [hhhapz](https://github.com/hhhapz/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/hhhapz> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [joethei](https://github.com/joethei/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/joethei> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

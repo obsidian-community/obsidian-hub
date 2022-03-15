@@ -11,7 +11,7 @@ publish: true
 - GitHub: [rudimuc](https://github.com/rudimuc/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/rudimuc> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

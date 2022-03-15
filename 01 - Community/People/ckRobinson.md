@@ -11,7 +11,7 @@ publish: true
 - GitHub: [ckRobinson](https://github.com/ckRobinson/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://portfolio.ckrobinson.net> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

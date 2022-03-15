@@ -11,7 +11,7 @@ publish: true
 - GitHub: [zolrath](https://github.com/zolrath/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/zolrath> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

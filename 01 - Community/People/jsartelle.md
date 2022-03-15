@@ -11,7 +11,7 @@ publish: true
 - GitHub: [jsartelle](https://github.com/jsartelle/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/jsartelle> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

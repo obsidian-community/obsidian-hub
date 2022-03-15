@@ -11,7 +11,7 @@ publish: true
 - GitHub: [bramses](https://github.com/bramses/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://stenography.dev/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

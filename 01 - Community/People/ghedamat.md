@@ -11,7 +11,7 @@ publish: true
 - GitHub: [ghedamat](https://github.com/ghedamat/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://ghedam.at> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

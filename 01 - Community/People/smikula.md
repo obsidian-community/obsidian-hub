@@ -11,7 +11,7 @@ publish: true
 - GitHub: [smikula](https://github.com/smikula/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/smikula/obsidian-limelight> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

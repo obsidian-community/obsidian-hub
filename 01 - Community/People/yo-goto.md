@@ -11,7 +11,7 @@ publish: true
 - GitHub: [yo-goto](https://github.com/yo-goto/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/yo-goto> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

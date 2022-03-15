@@ -11,7 +11,7 @@ publish: true
 - GitHub: [yajamon](https://github.com/yajamon/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/yajamon/obsidian-command-alias-plugin> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

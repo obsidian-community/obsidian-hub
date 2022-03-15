@@ -11,7 +11,7 @@ publish: true
 - GitHub: [TilBlechschmidt](https://github.com/TilBlechschmidt/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/TilBlechschmidt/obsidian-plugin-abcjs> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

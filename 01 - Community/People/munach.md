@@ -11,7 +11,7 @@ publish: true
 - GitHub: [munach](https://github.com/munach/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/munach/obsidian-extract-pdf-annotations> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

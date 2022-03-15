@@ -11,7 +11,7 @@ publish: true
 - GitHub: [hadynz](https://github.com/hadynz/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://hady.geek.nz> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

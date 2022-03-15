@@ -11,7 +11,7 @@ publish: true
 - GitHub: [dennisseidel](https://github.com/dennisseidel/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://dennisseidel.de> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

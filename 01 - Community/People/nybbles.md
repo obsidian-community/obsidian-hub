@@ -11,7 +11,7 @@ publish: true
 - GitHub: [nybbles](https://github.com/nybbles/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://twitter.com/nimalan> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [jenningsb2](https://github.com/jenningsb2/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://twitter.com/Bailey_Jennings> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

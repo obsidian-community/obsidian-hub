@@ -11,7 +11,7 @@ publish: true
 - GitHub: [onlyafly](https://github.com/onlyafly/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.kevinalbrecht.com> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [SimeonLukas](https://github.com/SimeonLukas/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/SimeonLukas> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

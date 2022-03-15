@@ -11,7 +11,7 @@ publish: true
 - GitHub: [tokuhirom](https://github.com/tokuhirom/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/tokuhirom/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

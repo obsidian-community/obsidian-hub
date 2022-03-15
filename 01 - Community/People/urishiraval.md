@@ -11,7 +11,7 @@ publish: true
 - GitHub: [urishiraval](https://github.com/urishiraval/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://urishiraval.github.io> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

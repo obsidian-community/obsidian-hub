@@ -11,7 +11,7 @@ publish: true
 - GitHub: [ebullient](https://github.com/ebullient/) ^github
 - Discord: `@ebullient#3764` ^discord
 - Website: <https://github.com/ebullient> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

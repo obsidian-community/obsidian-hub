@@ -11,7 +11,7 @@ publish: true
 - GitHub: [moelody](https://github.com/moelody/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.moelody.com> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [OfficerHalf](https://github.com/OfficerHalf/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://nathan-smith.org/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

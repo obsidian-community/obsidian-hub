@@ -11,7 +11,7 @@ publish: true
 - GitHub: [NatiAris](https://github.com/NatiAris/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/NatiAris/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

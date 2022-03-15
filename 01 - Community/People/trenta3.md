@@ -11,7 +11,7 @@ publish: true
 - GitHub: [trenta3](https://github.com/trenta3/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/trenta3> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

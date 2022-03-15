@@ -11,7 +11,7 @@ publish: true
 - GitHub: [marcusolsson](https://github.com/marcusolsson/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://marcus.se.net> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

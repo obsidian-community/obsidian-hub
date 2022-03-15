@@ -11,7 +11,7 @@ publish: true
 - GitHub: [RainCat1998](https://github.com/RainCat1998/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/RainCat1998> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

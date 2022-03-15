@@ -11,7 +11,7 @@ publish: true
 - GitHub: [dobrovolsky](https://github.com/dobrovolsky/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/dobrovolsky/obsidain-structure> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

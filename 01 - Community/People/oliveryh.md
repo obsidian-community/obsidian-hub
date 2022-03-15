@@ -11,7 +11,7 @@ publish: true
 - GitHub: [oliveryh](https://github.com/oliveryh/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/oliveryh/obsidian-emoji-toolbar> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

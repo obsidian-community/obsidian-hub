@@ -11,7 +11,7 @@ publish: true
 - GitHub: [coddingtonbear](https://github.com/coddingtonbear/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://coddingtonbear.net/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

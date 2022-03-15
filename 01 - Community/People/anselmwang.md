@@ -11,7 +11,7 @@ publish: true
 - GitHub: [anselmwang](https://github.com/anselmwang/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/anselmwang> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

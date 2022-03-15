@@ -11,7 +11,7 @@ publish: true
 - GitHub: [motif-software](https://github.com/motif-software/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://motif.software> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [erykwalder](https://github.com/erykwalder/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/erykwalder/quoth> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

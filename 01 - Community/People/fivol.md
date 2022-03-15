@@ -11,7 +11,7 @@ publish: true
 - GitHub: [fivol](https://github.com/fivol/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/fivol> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

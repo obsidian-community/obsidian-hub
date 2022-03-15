@@ -11,7 +11,7 @@ publish: true
 - GitHub: [manic](https://github.com/manic/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/manic/obsidian-wrap-with-shortcuts> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [claremacrae](https://github.com/claremacrae/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://claremacrae.co.uk> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

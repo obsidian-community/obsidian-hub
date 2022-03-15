@@ -11,7 +11,7 @@ publish: true
 - GitHub: [ShockThunder](https://github.com/ShockThunder/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/ShockThunder> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [fxal](https://github.com/fxal/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://almer.dev> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

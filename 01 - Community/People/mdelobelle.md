@@ -11,7 +11,7 @@ publish: true
 - GitHub: [mdelobelle](https://github.com/mdelobelle/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/mdelobelle/mdelobelle/tree/main> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

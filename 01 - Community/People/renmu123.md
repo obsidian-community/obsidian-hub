@@ -11,7 +11,7 @@ publish: true
 - GitHub: [renmu123](https://github.com/renmu123/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/renmu123/obsidian-markdown-index> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [martin-jw](https://github.com/martin-jw/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/martin-jw/obsidian-recall> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

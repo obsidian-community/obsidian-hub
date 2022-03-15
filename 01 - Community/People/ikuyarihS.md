@@ -11,7 +11,7 @@ publish: true
 - GitHub: [ikuyarihS](https://github.com/ikuyarihS/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/ikuyarihS> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [yuanotes](https://github.com/yuanotes/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/yuanotes> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

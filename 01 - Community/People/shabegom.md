@@ -11,7 +11,7 @@ publish: true
 - GitHub: [shabegom](https://github.com/shabegom/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://shbgm.ca> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

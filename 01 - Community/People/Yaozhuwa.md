@@ -11,7 +11,7 @@ publish: true
 - GitHub: [Yaozhuwa](https://github.com/Yaozhuwa/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/Yaozhuwa> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

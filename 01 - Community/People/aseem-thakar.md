@@ -11,7 +11,7 @@ publish: true
 - GitHub: [aseem-thakar](https://github.com/aseem-thakar/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://tressel.xyz> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

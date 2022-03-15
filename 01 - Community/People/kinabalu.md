@@ -11,7 +11,7 @@ publish: true
 - GitHub: [kinabalu](https://github.com/kinabalu/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://mysticcoders.com> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [nicojeske](https://github.com/nicojeske/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/nicojeske/mousewheel-image-zoom> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

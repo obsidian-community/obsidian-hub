@@ -11,7 +11,7 @@ publish: true
 - GitHub: [MichaBrugger](https://github.com/MichaBrugger/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://publish.obsidian.md/alexisrondeau> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [qawatake](https://github.com/qawatake/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/qawatake/obsidian-local-file-interface-plugin> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

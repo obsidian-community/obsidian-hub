@@ -11,7 +11,7 @@ publish: true
 - GitHub: [CattailNu](https://github.com/CattailNu/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.Cattail.Nu> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

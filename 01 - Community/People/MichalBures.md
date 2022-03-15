@@ -11,7 +11,7 @@ publish: true
 - GitHub: [MichalBures](https://github.com/MichalBures/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/MichalBures> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

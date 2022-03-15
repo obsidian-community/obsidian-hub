@@ -11,7 +11,7 @@ publish: true
 - GitHub: [ben](https://github.com/ben/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://ben.straub.cc> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

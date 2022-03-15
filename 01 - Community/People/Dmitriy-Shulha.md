@@ -11,7 +11,7 @@ publish: true
 - GitHub: [Dmitriy-Shulha](https://github.com/Dmitriy-Shulha/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/Dmitriy-Shulha> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

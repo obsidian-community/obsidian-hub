@@ -11,7 +11,7 @@ publish: true
 - GitHub: [farux](https://github.com/farux/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/farux/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

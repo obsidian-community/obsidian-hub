@@ -11,7 +11,7 @@ publish: true
 - GitHub: [ivan-lednev](https://github.com/ivan-lednev/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/ivan-lednev> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

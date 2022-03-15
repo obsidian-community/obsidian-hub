@@ -11,7 +11,7 @@ publish: true
 - GitHub: [kbravh](https://github.com/kbravh/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://kbravh.dev> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

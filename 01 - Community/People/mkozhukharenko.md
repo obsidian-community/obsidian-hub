@@ -11,7 +11,7 @@ publish: true
 - GitHub: [mkozhukharenko](https://github.com/mkozhukharenko/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/mkozhukharenko> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

@@ -11,7 +11,7 @@ publish: true
 - GitHub: [gavvvr](https://github.com/gavvvr/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/gavvvr> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

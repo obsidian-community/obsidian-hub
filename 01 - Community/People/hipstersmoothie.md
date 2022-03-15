@@ -11,7 +11,7 @@ publish: true
 - GitHub: [hipstersmoothie](https://github.com/hipstersmoothie/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://twitter.com/hipstersmoothie> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

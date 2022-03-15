@@ -11,7 +11,7 @@ publish: true
 - GitHub: [sonarAIT](https://github.com/sonarAIT/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/sonarAIT> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 

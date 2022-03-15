@@ -11,7 +11,7 @@ publish: true
 - GitHub: [blacksmithgu](https://github.com/blacksmithgu/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/blacksmithgu> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
