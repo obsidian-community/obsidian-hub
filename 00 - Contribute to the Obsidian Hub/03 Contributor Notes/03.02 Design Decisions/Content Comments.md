@@ -37,8 +37,6 @@ We use these markers in Author pages, and they do not seem to be well-understood
 
 <!--
 ### Plugins
-
-- 
 -->
 
 <!--markdown

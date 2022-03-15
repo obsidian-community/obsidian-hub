@@ -15,13 +15,15 @@ tags:
 
 ### Change author template to simplify manual intervention, when running `update-releases.py`
 
+**Status: DONE**
+
 **Note:** *This is being tracked in [Make automated edits of Author/People pages less error-prone · Issue #348](https://github.com/obsidian-community/obsidian-hub/issues/348)*
 
 The reasoning behind [[Content Comments]] is to greatly reduce the number of lines that need to be reverted when the author pages are updated, from minimal edits to to the authors template(s).
 
 It will help contributors see the intention for links and `^` too...
 
-**Change this:**
+**Change this: DONE**
 
 ```markdown
 <!-- - Website: <> ^website-->
@@ -35,7 +37,7 @@ To this:
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 ```
 
-**Change this:**
+**Change this: DONE**
 
 ```markdown
 <!--
@@ -53,7 +55,7 @@ To this:
 -->
 ```
 
-Change this:
+**Change this: DONE**
 
 ```markdown
 <!--
@@ -71,7 +73,7 @@ To this:
 -->
 ```
 
-**Change this:**
+**Change this: DONE**
 
 ```markdown
 <!--
@@ -98,7 +100,7 @@ To this:
 <!-- - [[Patreon]]: <https://> ^patreon-->
 ```
 
-Change this:
+**Change this: DONE**
 
 ```markdown
 <!--
@@ -165,13 +167,13 @@ For discussion:
 
 ### Divide up the author jinja template in to component parts.
 
+**Status: DONE**
+
 **Note:** *This is being tracked in [Make automated edits of Author/People pages less error-prone · Issue #348](https://github.com/obsidian-community/obsidian-hub/issues/348)*
 
 This follows on from the rejected [[#Create-and-include separate files for machine-generated content]] above.
 
 The idea is to break up the long Jinja template files in [.github/scripts/templates](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts/templates) in to separate files. This would allow us to use the individual templates to selectively update parts of individual notes.
-
-As of 2022-03-14, this division has already been done for the [plugins](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts/templates/plugins) and [themes](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts/templates/themes) templates, but not yet for [author.md.jinja](https://github.com/obsidian-community/obsidian-hub/blob/main/.github/scripts/templates/author.md.jinja)
 
 ## Odds and Ends
 

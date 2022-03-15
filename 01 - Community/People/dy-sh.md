@@ -11,7 +11,7 @@ publish: true
 - GitHub: [dy-sh](https://github.com/dy-sh/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/dy-sh/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -32,8 +32,6 @@ publish: true
 
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 
@@ -44,13 +42,12 @@ publish: true
 
 <!--
 ## Sponsor this author
-
-- [[GitHub sponsors]]: [Sponsor @dy-sh on GitHub Sponsors](https://github.com/sponsors/dy-sh) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
 -->
+
+<!-- - [[GitHub sponsors]]: [Sponsor @dy-sh on GitHub Sponsors](https://github.com/sponsors/dy-sh) ^github-sponsor-->
+<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 ## Follow this author
 

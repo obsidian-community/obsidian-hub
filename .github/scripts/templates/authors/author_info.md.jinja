@@ -2,7 +2,11 @@
 
 - GitHub: [{{user}}](https://github.com/{{user}}/) ^github
 <!-- - Discord: `@` ^discord-->
-{% if not website %}<!-- {% endif %}- Website: <{{ website }}> ^website{% if not website %}-->{% endif +%}
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+{% if website %}
+- Website: <{{ website }}> ^website
+{% else %}
+<!-- - Website: <https://> ^website-->
+{% endif %}
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

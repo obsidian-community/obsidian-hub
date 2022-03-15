@@ -11,7 +11,7 @@ publish: true
 - GitHub: [trashhalo](https://github.com/trashhalo/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://obsidian-buffer.web.app> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -30,33 +30,28 @@ publish: true
 
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 <!--
 ### Others
-
-- 
 -->
 
 <!--
 ## Sponsor this author
-
-- [[GitHub sponsors]]: [Sponsor @trashhalo on GitHub Sponsors](https://github.com/sponsors/trashhalo) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
 -->
+
+<!-- - [[GitHub sponsors]]: [Sponsor @trashhalo on GitHub Sponsors](https://github.com/sponsors/trashhalo) ^github-sponsor-->
+<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author
-
-- [[YouTube Channels|On YouTube]]: ^youtube
-- Twitter: ^twitter
-- ...
 -->
+
+<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
+<!-- - Twitter: <https://> ^twitter-->
+<!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
 
