@@ -1,0 +1,13 @@
+%% Begin Hub: Released contributions %%
+{% if plugins %}### Plugins
+{% for plugin in plugins %}
+- {{ plugin }}
+{% endfor %}
+{% endif %}
+
+{% if themes %}### Themes
+{% for theme in themes %}
+- {{ theme }}
+{% endfor %}
+{% endif %}
+%% End Hub: Released contributions %%
