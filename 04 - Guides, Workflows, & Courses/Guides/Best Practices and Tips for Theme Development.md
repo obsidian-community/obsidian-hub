@@ -20,8 +20,8 @@ This note serves as a collection of tips and best practices for theme developmen
 	- You could also achieve more specificity by adding more elements before the targeted class, like `body .workspace-leaf-content .timer-start-button`, but an advantage of `body .timer-start-button.timer-start-button` is that it's not dependent on any other classes - if `.workspace-leaf-content` changed at some point, or the timer start button was used outside it, the custom style would still work if you just doubled its class.
 - You can enter `process.versions.chrome` in the console to get the current Chrome version utilized by Obsidian to render CSS. CSS documentation pages like [MDN](https://developer.mozilla.org/en-US/) or [W3-Schools](https://www.w3schools.com/cssref/css3_pr_overflow-y.asp) usually document which Chrome version is required for a certain CSS feature at the bottom of the feature's documentation page.
 - An easy way to get both a style settings class toggle and a regular cssclass is to either:
-	- Avoid specifying the view and just using a non-specific `.class` styling
-	- Include a class with and without a space if you need to specify the view: `.justified .markdown-preview-section` for style settings and `.justified.markdown-preview-section` for cssclasses
+	- Avoid specifying the view and just using a non-specific `.class-name` styling
+	- Include a class with and without a space if you need to specify the view: `.class-name .markdown-preview-section` for style settings and `.class-name.markdown-preview-section` for cssclasses
 
 %% Hub footer: Please don't edit anything below this line %%
 
