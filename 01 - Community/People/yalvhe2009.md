@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [yalvhe2009](https://github.com/yalvhe2009/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+<!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

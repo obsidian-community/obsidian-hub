@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [seanwcom](https://github.com/seanwcom/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+<!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

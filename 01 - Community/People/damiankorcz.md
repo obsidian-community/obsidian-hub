@@ -11,7 +11,7 @@ publish: true
 
 - GitHub: [damiankorcz](https://github.com/damiankorcz/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+<!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

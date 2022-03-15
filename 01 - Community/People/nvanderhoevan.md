@@ -10,7 +10,7 @@ publish: true
 
 <!-- - GitHub: [nvanderhoevan](https://github.com/nvanderhoevan/) ^github-->
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+<!-- - Website: <https://> ^website-->
 [[Publish sites|Publish site]]: <https://notes.nicolevanderhoeven.com/>  ^publish
 
 %% Feel free to add a bio below this comment %%

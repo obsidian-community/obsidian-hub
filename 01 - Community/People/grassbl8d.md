@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [grassbl8d](https://github.com/grassbl8d/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+<!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

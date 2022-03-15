@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [superDuperCyberTechno](https://github.com/superDuperCyberTechno/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+<!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

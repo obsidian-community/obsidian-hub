@@ -10,7 +10,7 @@ publish: true
 
  - GitHub: [lkadre](https://github.com/lkadre) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+<!-- - Website: <https://> ^website-->
  - [Publish Site](https://brain.lkadre.com/§+001+HOMEPAGE): ^publish
 
 %% Feel free to add a bio below this comment %%

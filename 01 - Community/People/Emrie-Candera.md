@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [Emrie-Candera](https://github.com/Emrie-Candera/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
+<!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
