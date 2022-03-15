@@ -23,8 +23,6 @@ I'm a Law student with focuses in comparative law and international financial la
 
 <!--
 ### Plugins
-
-- 
 -->
 
 <!--
