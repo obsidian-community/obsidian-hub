@@ -27,7 +27,7 @@ It will help contributors see the intention for links and `^` too...
 
 ```markdown
 <!-- - Website: <> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+<!-- - [[Publish sites|Publish site]]: ^publish-->
 ```
 
 To this:
