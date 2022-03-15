@@ -35,7 +35,7 @@ To this:
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 ```
 
-**Change this:**
+**Change this: DONE**
 
 ```markdown
 <!--
@@ -53,7 +53,7 @@ To this:
 -->
 ```
 
-Change this:
+**Change this: DONE**
 
 ```markdown
 <!--
@@ -71,7 +71,7 @@ To this:
 -->
 ```
 
-**Change this:**
+**Change this: DONE**
 
 ```markdown
 <!--
@@ -98,7 +98,7 @@ To this:
 <!-- - [[Patreon]]: <https://> ^patreon-->
 ```
 
-Change this:
+**Change this: DONE**
 
 ```markdown
 <!--
