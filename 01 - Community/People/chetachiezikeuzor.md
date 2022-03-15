@@ -33,8 +33,6 @@ publish: true
 
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 <!--

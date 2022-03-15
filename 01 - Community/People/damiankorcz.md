@@ -30,8 +30,6 @@ publish: true
 - [[Using Visual Studio Code for Theme Development]]
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 <!--

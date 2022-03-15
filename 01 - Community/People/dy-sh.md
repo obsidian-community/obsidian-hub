@@ -32,8 +32,6 @@ publish: true
 
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 

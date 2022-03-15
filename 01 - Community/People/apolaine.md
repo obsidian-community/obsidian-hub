@@ -38,8 +38,6 @@ publish: true
 
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 
