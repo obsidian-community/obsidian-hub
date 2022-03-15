@@ -36,13 +36,12 @@ publish: true
 
 <!--
 ## Sponsor this author
-
-- [[GitHub sponsors]]: [Sponsor @duoani on GitHub Sponsors](https://github.com/sponsors/duoani) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
 -->
+
+<!-- - [[GitHub sponsors]]: [Sponsor @duoani on GitHub Sponsors](https://github.com/sponsors/duoani) ^github-sponsor-->
+<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author

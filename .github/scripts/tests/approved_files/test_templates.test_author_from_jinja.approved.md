@@ -40,13 +40,12 @@ publish: true
 
 <!--
 ## Sponsor this author
-
-- [[GitHub sponsors]]: [Sponsor @test-user on GitHub Sponsors](https://github.com/sponsors/test-user) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
 -->
+
+<!-- - [[GitHub sponsors]]: [Sponsor @test-user on GitHub Sponsors](https://github.com/sponsors/test-user) ^github-sponsor-->
+<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author

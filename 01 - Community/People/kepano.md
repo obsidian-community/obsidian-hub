@@ -41,13 +41,12 @@ publish: true
 
 <!--
 ## Sponsor this author
-
-- [[GitHub sponsors]]: [Sponsor @kepano on GitHub Sponsors](https://github.com/sponsors/kepano) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
 -->
+
+<!-- - [[GitHub sponsors]]: [Sponsor @kepano on GitHub Sponsors](https://github.com/sponsors/kepano) ^github-sponsor-->
+<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author

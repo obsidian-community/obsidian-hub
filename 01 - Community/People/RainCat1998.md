@@ -36,13 +36,12 @@ publish: true
 
 <!--
 ## Sponsor this author
-
-- [[GitHub sponsors]]: [Sponsor @RainCat1998 on GitHub Sponsors](https://github.com/sponsors/RainCat1998) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
 -->
+
+<!-- - [[GitHub sponsors]]: [Sponsor @RainCat1998 on GitHub Sponsors](https://github.com/sponsors/RainCat1998) ^github-sponsor-->
+<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author
