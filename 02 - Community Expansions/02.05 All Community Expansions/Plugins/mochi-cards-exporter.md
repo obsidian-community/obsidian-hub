@@ -1,4 +1,4 @@
- ￼￼￼￼￼Mochi Cards Exporter￼￼ exports markdown notes to Mochi flashcards. Cards are designated via tags.---
+---
 plugin-id: mochi-cards-exporter
 aliases:
 - Mochi Cards Exporter
