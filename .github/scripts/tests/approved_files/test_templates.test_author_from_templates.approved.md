@@ -42,8 +42,6 @@ publish: true
 
 <!--
 ### Others
-
-- 
 -->
 
 <!--

@@ -35,8 +35,6 @@ publish: true
 
 <!--
 ### Others
-
-- 
 -->
 
 ## Sponsor this author

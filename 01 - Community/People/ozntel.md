@@ -37,8 +37,6 @@ publish: true
 
 <!--
 ### Others
-
-- 
 -->
 
 <!--

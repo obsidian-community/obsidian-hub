@@ -34,8 +34,6 @@ publish: true
 
 <!--
 ### Others
-
-- 
 -->
 
 <!--

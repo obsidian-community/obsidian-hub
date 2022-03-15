@@ -40,8 +40,6 @@ publish: true
 
 <!--
 ### Others
-
-- 
 -->
 
 <!--
