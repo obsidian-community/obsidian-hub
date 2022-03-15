@@ -56,8 +56,8 @@ publish: true
 
 <!--
 ## Follow this author
-
-- [[YouTube Channels|On YouTube]]: ^youtube
-- Twitter: ^twitter
-- ...
 -->
+
+<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
+<!-- - Twitter: <https://> ^twitter-->
+<!-- - ... -->
