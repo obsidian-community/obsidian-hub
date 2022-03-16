@@ -52,7 +52,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-bible-reference|Bible Reference]]
 - [[obsidian-sentence-navigator|Sentence Navigator]]
 - [[language-translator|Language Translator]]
-- [[obsidian-extra-md-commands|Extra Markdown Commands]]
 - [[customizable-page-header-buttons|Customizable Page Header]]
 - [[auto-class|Auto Class]]
 - [[obsidian-cloudinary-uploader|Obsidian Cloudinary Uploader]]

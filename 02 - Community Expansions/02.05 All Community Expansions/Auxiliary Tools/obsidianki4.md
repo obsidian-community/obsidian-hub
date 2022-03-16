@@ -26,3 +26,9 @@ Download the `Obsidianki 4.ankiaddon` file as well as the card deck template `Ob
 Open Anki, navigate to *Tools > Add-ons > Install from file* and choose the `.ankiaddon` file you downloaded. Restart Anki and import the `.apkg` deck template via *File > Import*.
 
 For further explanations, please take a look at the official documentation which is linked above.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Auxiliary%20Tools/obsidianki4.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Auxiliary%20Tools/obsidianki4.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
