@@ -24,4 +24,4 @@ If you ever had to work on some kind of group project and wanted to collaborate 
 
 %% Add links to other 02.02 - Category notes %%
 
-[[Plugins for Editing Notes]]
+- [[Plugins for Editing Notes]]
