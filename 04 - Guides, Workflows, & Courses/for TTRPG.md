@@ -39,8 +39,7 @@ This note collects resources for those using Obsidian for tabletop role-playing 
 
 ## Resources
 
-- [OldManUmby/OGL-SRD5: D&D 5E SRD converted line-by-line to Markdown and many other publishing formats.](https://github.com/OldManUmby/OGL-SRD5)
-- [twisterghost/5e-obsidian](https://github.com/twisterghost/5e-obsidian) - A script to break down the excellent compiled [D&D SRD Remastered](https://github.com/Umbyology/OGL-SRD5) into a workable reference directory for use in Obsidian.
+- [D&D 5E SRD REmastered to Markdown](https://github.com/OldManUmby/DND.SRD.Wiki) and other publishing formats. Now Obsidian-Friendly!
 - [WychWitch/Obsidian-Dice-Roller-Tables: This is a collection of Dice Roller Tables that I use to run my DND campaigns](https://github.com/WychWitch/Obsidian-Dice-Roller-Tables). Formatted for use with the [[obsidian-dice-roller|Dice Roller]] plugin.
 - [SRD Obsidian Importer](https://github.com/mProjectsCode/d20pfsrd_obsidian_importer) - A script to scrape and import the excellent [d20pfsrd](https://www.d20pfsrd.com/) and [5esrd](https://www.5esrd.com/) into Obsidian.
 
