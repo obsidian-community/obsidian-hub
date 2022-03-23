@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-5142-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-5458-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cannibalox/ono-sendai_obsdn?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/cannibalox/ono-sendai_obsdn/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/cannibalox/ono-sendai_obsdn?color=573E7A&logo=github&style=for-the-badge)

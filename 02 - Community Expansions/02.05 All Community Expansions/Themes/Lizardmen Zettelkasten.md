@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1751-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-1822-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dogwaddle/lizardmen-zettelkasten?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/dogwaddle/lizardmen-zettelkasten/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/dogwaddle/lizardmen-zettelkasten?color=573E7A&logo=github&style=for-the-badge)

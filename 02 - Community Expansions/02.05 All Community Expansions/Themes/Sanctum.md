@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-23383-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-24384-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jdanielmourao/obsidian-sanctum?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/jdanielmourao/obsidian-sanctum/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jdanielmourao/obsidian-sanctum?color=573E7A&logo=github&style=for-the-badge)
