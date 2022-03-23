@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2045-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2123-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kinmury/Golden-Book?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/kinmury/Golden-Book/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/kinmury/Golden-Book?color=573E7A&logo=github&style=for-the-badge)
