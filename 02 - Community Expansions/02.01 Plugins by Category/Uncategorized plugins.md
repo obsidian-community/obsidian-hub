@@ -52,7 +52,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-bible-reference|Bible Reference]]
 - [[obsidian-sentence-navigator|Sentence Navigator]]
 - [[language-translator|Language Translator]]
-- [[customizable-page-header-buttons|Customizable Page Header]]
+- [[customizable-page-header-buttons|Customizable Page Header and Title Bar]]
 - [[auto-class|Auto Class]]
 - [[obsidian-cloudinary-uploader|Obsidian Cloudinary Uploader]]
 - [[rss-reader|RSS Reader]]
@@ -66,7 +66,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-dialogue-plugin|Dialogue]]
 - [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]
 - [[obsidian-theme-design-utilities|Theme Design Utilities]]
-- [[image-window|Image Window]]
+- [[image-window|Second Window]]
 - [[obsidian-tts|Text to Speech]]
 - [[link-favicon|Link Favicons]]
 - [[get-info-plugin|Get Info]]
@@ -144,10 +144,19 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-textgenerator-plugin|Text Generator]]
 - [[markdown-table-editor|Markdown Table Editor]]
 - [[obsidian-file-cleaner|File Cleaner]]
+- [[obsidian-card-view-switcher-plugin|Card View Switcher]]
+- [[novel-word-count|Novel word count]]
+- [[heycalmdown-navigate-cursor-history|Navigate Cursor History]]
+- [[obsidian-matrix|Obsidian matrix]]
+- [[waypoint|Waypoint]]
+- [[obsidian-hover-editor|Hover Editor]]
+- [[obsidian-screwdriver|Screwdriver]]
+- [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]]
+- [[obsidian-format-code|Format code]]
+- [[obsidian-buttondown-plugin|Buttondown]]
+- [[lapel|Lapel]]
+- [[obsidian-desmos|Desmos]]
+- [[obsidian-custom-frames|Custom Frames]]
+- [[obsidian-etherpad-plugin|Etherpad]]
+- [[obsidian-quiet-outline|Quiet Outline]]
 
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Uncategorized%20plugins.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
