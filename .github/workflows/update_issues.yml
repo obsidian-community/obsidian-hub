@@ -26,7 +26,7 @@ jobs:
       - name: Update list of community plugin issues with labels
         run: |
           cd .github/scripts
-          python3 ./update_issues.py --apikey ${{ secrets.GITHUB_TOKEN }}
+          python3 ./update_issues.py --apikey ${{ secrets.TOKEN }}
           git commit -m "Update Issues" -a  || echo "nothing to commit"
 
       # ----------------------------------------------------------------------------------
