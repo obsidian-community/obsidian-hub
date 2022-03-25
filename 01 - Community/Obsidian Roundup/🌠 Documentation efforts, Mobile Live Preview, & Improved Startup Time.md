@@ -31,7 +31,7 @@ Not all new plugins are available in the community list yet, as they need to go 
 -   [Living Graph](https://github.com/geoffreysflaminglasersword/obsidian-living-graph) by `@geoffreysflaminglasersword` animates the graph so it does a fun little dance.
 -   [Digital Garden](https://github.com/oleeskild/obsidian-digital-garden) by `@oleeskild` is one of the easiest free ways to publish your notes to a digital garden that I've seen.
 
-__You can manually install plugins that aren't in the community list yet by using the [Beta Reviewer's Auto-update Tool](https://github.com/TfTHacker/obsidian42-brat). Note, though, that this is not as safe as waiting for them to go through code review.__
+**You can manually install plugins that aren't in the community list yet by using the [Beta Reviewer's Auto-update Tool](https://github.com/TfTHacker/obsidian42-brat). Note, though, that this is not as safe as waiting for them to go through code review.**
 
 ### Updates
 
@@ -59,7 +59,7 @@ I'm not going to cover every single update to every single plugin that happened 
 Note: these plugins have not yet been submitted for code review, and are being made available primarily for testing purposes.
 
 -   v0.2.0 of [Full Calendar](https://github.com/davish/obsidian-full-calendar/releases/tag/0.2.0) now has read-only views of Google Calendar, and multiple calendar colors with configurable colors.
--   [Graphvidian](https://github.com/ooker777/graphvidian) is an Obsidian plugin to generate hierarchical graphs, with the nodes are from your Obsidian vault. It works by converting a breadcrumbs database into a format Graphvis can use. Here's the [overview and proposal](https://forum.obsidian.md/t/graphviz-and-hierarchical-graph-layout-a-review-and-plugin-proposal/) about the problems it solves. I __really__ need to get off my butt and set up a proper Breadcrumbs hierarchy for my notes so I can use this.
+-   [Graphvidian](https://github.com/ooker777/graphvidian) is an Obsidian plugin to generate hierarchical graphs, with the nodes are from your Obsidian vault. It works by converting a breadcrumbs database into a format Graphvis can use. Here's the [overview and proposal](https://forum.obsidian.md/t/graphviz-and-hierarchical-graph-layout-a-review-and-plugin-proposal/) about the problems it solves. I **really** need to get off my butt and set up a proper Breadcrumbs hierarchy for my notes so I can use this.
 -   [Quick Jump](https://github.com/tadashi-aikawa/obsidian-quick-jump-plugin) is a port of the Jump to Link plugin that works in Live Preview.
 
 ### For Developers

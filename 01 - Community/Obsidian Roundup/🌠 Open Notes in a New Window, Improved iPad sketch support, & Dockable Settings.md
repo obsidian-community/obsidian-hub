@@ -21,13 +21,13 @@ Easily share one-off notes & code, automatic note moving, & no-code supercharged
 
 ### New in Community Plugins
 
-__These plugins went through code review and are now available in Obsidian's plugin list.__
+**These plugins went through code review and are now available in Obsidian's plugin list.**
 
 -   [Excel to Markdown Table](https://github.com/ganesshkumar/obsidian-excel-to-markdown-table) by `@ganesshkumar` will **paste** data from Microsoft Excel, Google Sheets, Apple Numbers and LibreOffice Calc **as properly formatted Markdown tables**.
 -   [Save as Gist](https://github.com/ghedamat/obsidian-save-as-gist) by `@ghedamat` saves the current note as Gist on github, which his handy for easily sharing your templates & dataviewjs queries and such. It also makes it super easy to **share one-off notes**!
 -   [Multi-Column Markdown](https://github.com/ckRobinson/multi-column_markdown) by `@ckRobinson` adds functionality to create markdown documents with **multiple columns** of content viewable within Obsidian's preview mode.
 -   [Topic Linking](https://github.com/liammagee/obsidian-topic-linking) by `@liammagee` **converts PDF files and web links to Markdown**.
--   [File Info Panel](https://github.com/CattailNu/obsidian-file-info-panel-plugin) by `@CattailNu` is a plugin for Obsidian that creates a File Information view that displays the active file's date created, date modified, file size, and links to open the file in its native application and to open the file's folder. It also has **writing statistics** (character, word, sentence, and paragraph counts) and a word frequency analysis. It is __amazingly__ useful for writers of any kind.
+-   [File Info Panel](https://github.com/CattailNu/obsidian-file-info-panel-plugin) by `@CattailNu` is a plugin for Obsidian that creates a File Information view that displays the active file's date created, date modified, file size, and links to open the file in its native application and to open the file's folder. It also has **writing statistics** (character, word, sentence, and paragraph counts) and a word frequency analysis. It is **amazingly** useful for writers of any kind.
 -   [Power Search](https://github.com/aviral-batra/obsidian-power-search) by `@aviral-batra` searches Anki Notes based on your current line
 -   [Code Block Labels](https://github.com/stbowers/obsidian-codeblock-labels) by `@stbowers` adds labels to fenced code blocks
 -   [Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api) by `@coddingtonbear` lets users get, change or otherwise interact with your notes in Obsidian via a REST API.
@@ -39,7 +39,7 @@ __These plugins went through code review and are now available in Obsidian's plu
 
 ### Pending (as of Friday morning)
 
-__Note: Not all new plugins are available in the community list yet, as they need to go through code review first. You can manually install plugins that aren't in the community list yet by using the [Beta Reviewer's Auto-update Tool](https://github.com/TfTHacker/obsidian42-brat). Note, though, that this is not as safe as waiting for them to go through code review.__
+**Note: Not all new plugins are available in the community list yet, as they need to go through code review first. You can manually install plugins that aren't in the community list yet by using the [Beta Reviewer's Auto-update Tool](https://github.com/TfTHacker/obsidian42-brat). Note, though, that this is not as safe as waiting for them to go through code review.**
 
 -   [Settings Search](https://github.com/valentine195/obsidian-settings-search) by `@valentine195` lets users globally search settings in Obsidian.md
 -   [Sidekick](https://github.com/hadynz/obsidian-sidekick) by `@hadynz` suggests new connections by highlighting text that could match existing links and tags
@@ -65,7 +65,7 @@ __Note: Not all new plugins are available in the community list yet, as they nee
 
 ### Betas
 
-__Note: these plugins have not yet been submitted for code review, and are being made available primarily for testing purposes.__
+**Note: these plugins have not yet been submitted for code review, and are being made available primarily for testing purposes.**
 
 -   You can now [pop your notes out into a second window](https://github.com/valentine195/obsidian-image-window). It's incredibly useful but also, be warned (and please don't spam the dev with feature requests, he knows!), very limited — the data is read-only. Embeds and links don't work. Plugins that generate static rendered HTML will work (i.e. Admonitions) but essentially none of the others (i.e. Dataview).
 -   Here's [a fork of Obsidian Tasks](https://github.com/dcao/obsidian-tasks) that adds some features like agenda view, date autocomplete, and mobile widgets. Here's the [developer announcing it on Reddit](https://www.reddit.com/r/ObsidianMD/comments/sm7ozt/my_obsidian_tasks_workflow_agenda_views_date/).
