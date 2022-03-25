@@ -6,6 +6,8 @@ publish: true
 ---
 
 # 🌠 Dashboards, Dataview Tips, & global publish graphs
+A new GPT-3 plugin for generating text, support for Microsoft Document Syntax style admonition blocks, and "live preview" inside search panels. 
+
 ## In The Community
 
 -   I'm going to be joining researcher Bianca Pereira (of Linking Your Thinking) for a [Twitter Spaces event about tracking history timelines](https://twitter.com/i/spaces/1yoKMWDaaqOJQ), i.e. how to take research notes on concepts and ideas that change across time, aren't necessarily bounded by space, and vary by perspective. Stuff like social identity and geopolitical changes can be tricky to classify neatly. Join us Sunday, March 6 at 11am EST.

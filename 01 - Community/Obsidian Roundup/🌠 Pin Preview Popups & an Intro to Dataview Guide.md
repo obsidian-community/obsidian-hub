@@ -6,6 +6,8 @@ publish: true
 ---
 
 # 🌠 Pin Preview Popups & an Intro to Dataview Guide
+Tags, glossaries, & beginner-friendly classification methods. 
+
 ## In The Community
 
 -   The [Apply Patterns](https://github.com/jglev/obsidian-apply-patterns-plugin) plugin lets users search & replace with regex. Ben Hamilton is trying to encourage users to create a [gallery of patterns](https://github.com/jglev/obsidian-apply-patterns-plugin/discussions/43) to help users understand the value; if you have something to contribute, please consider adding your own examples.

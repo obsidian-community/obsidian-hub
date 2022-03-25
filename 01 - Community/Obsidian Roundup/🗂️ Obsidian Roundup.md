@@ -53,7 +53,7 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2021.09.25|2021.09.25]]
 -  [[01 - Community/Obsidian Roundup/2022-01-01  Recipe Importing, Linking to Aliases, and Semantic Search|2022-01-01  Recipe Importing, Linking to Aliases, and Semantic Search]]
 -  [[01 - Community/Obsidian Roundup/2022-01-08  New Guides and API Charts|2022-01-08  New Guides and API Charts]]
--  [[01 - Community/Obsidian Roundup/2022-01-15  Dataview Optimizations, Live Preview for Mobile, and Community Talks|2022-01-15  Dataview Optimizations, Live Preview for Mobile, and Community Talks]]
+-  [[2022-01-15  Dataview Optimizations, Live Preview for Mobile, and Community Talks|2022-01-15  Dataview Optimizations, Live Preview for Mobile, and Community Talks]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%

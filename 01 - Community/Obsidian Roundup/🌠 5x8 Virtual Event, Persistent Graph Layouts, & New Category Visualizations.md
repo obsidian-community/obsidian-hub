@@ -6,6 +6,8 @@ publish: true
 ---
 
 # 🌠 5x8 Virtual Event, Persistent Graph Layouts, & New Category Visualizations
+The Gems of the Year were announced, Obsidian won ProductHunt's Golden Kitty, we're now tracking plugin/theme compatibility, & there's improved code block behavior available. 
+
 ## In The Community
 
 -   The [results of Gems of the Year 2021](https://obsidian.md/goty2021) have been posted. I am deeply honored to have been voted Content Creator of the year and to have had the top achievement. Thank you to everyone who voted 💚 but also, go check out the other awesome stuff this community has done! Several winners donated parts of their prizes to active & helpful members of the community, which has been heartwarming.

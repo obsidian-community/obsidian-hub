@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-10-09: Style Guide Enforcement & Sitemap-style view
+The Codemirror Options plugin added some new WYSIWYG functionality & you can mass-convert links between wiki-style and markdown Link Converter.
 
 ## In The Community
 

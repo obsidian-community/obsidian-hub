@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-10-15: More WYSIWYG Functionality & Some Really Nice Documentation
+Improved snippet management, a GUI for multi-color highlighting, & chart generation from markdown tables.
 
 ## In The Community
 

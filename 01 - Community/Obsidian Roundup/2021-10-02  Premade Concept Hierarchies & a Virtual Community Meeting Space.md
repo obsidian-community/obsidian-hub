@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-10-02: Premade Concept Hierarchies & a Virtual Community Meeting Space
+Templater is looking for an additional maintainer. There's also a new plugin to enforce style guides.
 
 ## In The Community
 

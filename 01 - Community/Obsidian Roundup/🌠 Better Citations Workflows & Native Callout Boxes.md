@@ -6,6 +6,8 @@ publish: true
 ---
 
 # 🌠 Better Citations Workflows & Native Callout Boxes
+The hover editor plugin got secondary support from other plugins, there's a new option for dynamic indexes, & a guide for browser-based Obsidian.
+
 ## In The Community
 
 -   Matthew Meyers, the developer of Style Settings, Smart Typography, Kanban, Indentation Guides, Contextual Typography, and the California Coast theme — oh, and the new [Zotero Connector](https://github.com/mgmeyers/obsidian-zotero-desktop-connector) (!) plugin — is currently studying to be a therapist and is [looking for part time & contract-based work](https://github.com/mgmeyers). If you have any front end web development work you need done, please [reach out](https://matthewmeye.rs/). Also, if you enjoy his plugins, this is one of those times when money can really make a big difference to one of our wonderful plugin devs, so consider [donating to his ko-fi](https://www.buymeacoffee.com/mgme).

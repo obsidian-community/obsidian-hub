@@ -6,6 +6,8 @@ publish: true
 ---
 
 # 🌠 Better Android performance & custom sorting of files
+Themes with built-in color schemes! Plus, it's now easier to debug mobile plugins, QuickAdd has mobile support, and clouds of frequently-used words. 
+
 ## Obsidian Updates
 
 Insider Mobile v1.1.0 (Build 37) is up to parity with Desktop and also:

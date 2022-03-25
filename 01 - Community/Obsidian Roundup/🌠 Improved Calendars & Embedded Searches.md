@@ -6,6 +6,8 @@ publish: true
 ---
 
 # 🌠 Improved Calendars & Embedded Searches
+There's a new proof of concept plugin for collaborative live editing, and other plugins looking for new maintainers & assistant. Plus other updates for devs. 
+
 ## In The Community
 
 -   The developer of [Buttons](https://github.com/shabegom/buttons) is hoping for [user feedback](https://forms.gle/TCaU2qfsnadVHsUB8) about feature prioritization for the plugin.

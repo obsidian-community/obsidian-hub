@@ -6,6 +6,8 @@ publish: true
 ---
 
 # 🌠 Open Notes in a New Window, Improved iPad sketch support, & Dockable Settings
+Easily share one-off notes & code, automatic note moving, & no-code supercharged linked. Plus, migration tips &  use-case discussions. 
+
 ## In The Community
 
 -   Here's a (very) [short feedback survey](https://airtable.com/shr94ZN7tfQt6tv5n) for the Workspaces Plus plugin in Obsidian.

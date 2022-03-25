@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-10-23: New Calendar & Code Renders in Edit Mode
+iOS guides, more WYSIWYG improvements, & some neat text tabbing & cursor tricks.
 
 ## In The Community
 

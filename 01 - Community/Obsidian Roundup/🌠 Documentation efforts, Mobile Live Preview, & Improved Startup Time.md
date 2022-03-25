@@ -6,6 +6,8 @@ publish: true
 ---
 
 # 🌠 Documentation efforts, Mobile Live Preview, & Improved Startup Time
+Ganessh Kumar built a mindblowly good way to navigate plugins, so hopefully developers will take advantage of the features it offers and write good release notes ;) 
+
 -   I wrote a (really long, I'm sorry) ... article? manifesto? about [how I view my work in this community](https://www.obsidianroundup.org/community-role/), why I'm not enthusiastic about creating courseware and guides, and some behind the scenes things I try to do. You can help by telling me what you need, what you want, and what kinds of opportunities you're available for.
 -   This week's survey is about the [dataview docs](https://cryptpad.fr/form/#/2/form/view/H-nrhw0AKZBxCF0G73UxMJBQU-VgmS7QlNigWJv-qig/); if you've ever used Dataview, please consider filling this out so the folks helping out with documentation can best direct their efforts.
 -   If you've got some time and would like to help out our developers put together more accessible READMEs and documentation, please check out the [plugins seeking documentation help](https://publish.obsidian.md/hub/01+-+Community/Contributing+to+the+Community/Volunteer+Plugin+Doc+Writers) page. You don't need to be any kind of expert for this, but it has the potential to help a lot of people and is a great way to get involved in the community.

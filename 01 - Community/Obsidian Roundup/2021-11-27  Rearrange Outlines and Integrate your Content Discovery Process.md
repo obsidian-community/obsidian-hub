@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-11-27: Rearrange Outlines & Integrate your Content Discovery Process
+A new way to save tweets to Obsidian, more flexible hierarchy options, text to speech, and a new focused writing theme
 
 ## In The Community
 

@@ -6,6 +6,8 @@ publish: true
 ---
 
 # API improvements for devs & Reference vs. Reflection usage
+Workflow explanations, including a series about migrating from Evernote by the original "paperless ambassador." Plus: upcoming monthly essays from me
+
 ## In The Community
 
 -   The next [4-week Book Club](https://www.youtube.com/watch?v=19_QNqBQ6LE) hosted by Dan Allosso will take place in February. It'll be focused on note-taking workflow and will cover _How to Take Smart Notes_ and a couple of Zettelkasten articles.

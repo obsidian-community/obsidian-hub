@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-12-11: Nominate Gems of the Year & a new book club
+National Novel Writing Month reflections, a bunch of helpful stuff for theme developers, & more tips for students.
 
 ## In The Community
 
