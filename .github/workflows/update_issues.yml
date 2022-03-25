@@ -28,6 +28,17 @@ jobs:
           cd .github/scripts
           python3 ./update_issues.py --apikey ${{ secrets.TOKEN }}
           git commit -m "Update Issues" -a  || echo "nothing to commit"
+          
+
+      # This must be the last edit, to ensure that no later steps accidentally
+      # overwrite the footer.
+      - name: Add Footer
+        run: |
+          cd .github/scripts
+          python3 ./add_footer.py
+          cd ../..
+          git add .
+          git commit -m "Add 'This note in GitHub' footers" || echo "nothing to commit"
 
       # ----------------------------------------------------------------------------------
       # Finalisation
@@ -38,6 +49,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           title: Scripted update of Hub content
+          body: |
+            Updating list of plugin issues with labels.
           labels: |
             scripted update
 
