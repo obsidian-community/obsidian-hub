@@ -1,7 +1,7 @@
 ---
 link: https://www.obsidianroundup.org/2021-10-09/
 author: Eleanor Konik
-published: Fri, 08 Oct 2021 21:09:00 GMT
+published: 2021-10-08T21:09:00
 publish: true
 ---
 
