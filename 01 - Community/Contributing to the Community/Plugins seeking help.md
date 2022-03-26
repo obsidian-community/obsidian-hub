@@ -21,6 +21,7 @@ The following issues are good for beginners wanting to help with fixing issues a
 - [[flashcards-obsidian|Flashcards]] - [Plugin adds \ when not needed. ](https://github.com/reuseman/flashcards-obsidian/issues/53)
 - [[flashcards-obsidian|Flashcards]] - [Remove Reference For Aliases ](https://github.com/reuseman/flashcards-obsidian/issues/41)
 - [[obsidian-full-calendar|Full Calendar]] - [Focus on datepicker by default in the new event modal](https://github.com/davish/obsidian-full-calendar/issues/29)
+- [[heatmap-calendar|Heatmap Calendar]] - [FEATURE REQUEST: ability to change color of background cells OR support dark mode](https://github.com/Richardsl/heatmap-calendar-obsidian/issues/6)
 - [[obsidian-icons-plugin|Icons Plugin]] - [aws cloud icons](https://github.com/visini/obsidian-icons-plugin/issues/8)
 - [[obsidian-itinerary|Itinerary]] - [Calendar does not resize with editor pane](https://github.com/coddingtonbear/obsidian-itinerary/issues/17)
 - [[obsidian-itinerary|Itinerary]] - [Tags displayed incorrectly in event preview](https://github.com/coddingtonbear/obsidian-itinerary/issues/6)
@@ -128,6 +129,7 @@ See also [[Volunteer Plugin Doc Writers]] for some more developers that want hel
 
 - [[obsidian-ankibridge|AnkiBridge]] - [Error: model was not found: Basic](https://github.com/JeppeKlitgaard/ObsidianAnkiBridge/issues/12)
 - [[auto-class|Auto Class]] - [Significantly revamp documentation](https://github.com/OfficerHalf/obsidian-auto-class/issues/33)
+- [[better-pdf-plugin|Better PDF Plugin]] - [JavaScript for Adobe Acrobat Pro and AppleScript for Skim for creating automatically the necessary Better PDF Plugin snippet ](https://github.com/MSzturc/obsidian-better-pdf-plugin/issues/27)
 - [[obsidian-checklist-plugin|Checklist]] - [Update Examples](https://github.com/delashum/obsidian-checklist-plugin/issues/82)
 - [[obsidian-citation-plugin|Citations]] - [Document advanced templating](https://github.com/hans/obsidian-citation-plugin/issues/44)
 - [[obsidian-collapse-all-plugin|Collapse All]] - [Document tag pane feature](https://github.com/OfficerHalf/obsidian-collapse-all/issues/20)
@@ -162,9 +164,3 @@ See also [[Volunteer Plugin Doc Writers]] for some more developers that want hel
 - [[mrj-text-expand|Text {{expand}}]] - [Better plugin info](https://github.com/mrjackphil/obsidian-text-expand/issues/4)
 - [[obsidian-timelines|Timelines]] - [timeline-vis dates default to 20th century](https://github.com/Darakah/obsidian-timelines/issues/16)
 - [[obsidian-toggl-integration|Toggl Track Integration]] - [Create custom documentation using GitHub pages](https://github.com/mcndt/obsidian-toggl-integration/issues/61)
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Contributing%20to%20the%20Community/Plugins%20seeking%20help.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Contributing%20to%20the%20Community/Plugins%20seeking%20help.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
