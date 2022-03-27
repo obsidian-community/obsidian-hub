@@ -5,7 +5,7 @@ published: 2022-03-05T13:30:00
 publish: true
 ---
 
-# 🌠 Dashboards, Dataview Tips, & global publish graphs
+# 2022-03-05: Dashboards, Dataview Tips, & global publish graphs
 A new GPT-3 plugin for generating text, support for Microsoft Document Syntax style admonition blocks, and "live preview" inside search panels. 
 
 ## In The Community

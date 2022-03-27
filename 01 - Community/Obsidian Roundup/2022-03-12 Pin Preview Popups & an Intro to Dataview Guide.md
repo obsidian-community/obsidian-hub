@@ -5,7 +5,7 @@ published: 2022-03-12T13:30:00
 publish: true
 ---
 
-# 🌠 Pin Preview Popups & an Intro to Dataview Guide
+# 2022-03-12: Pin Preview Popups & an Intro to Dataview Guide
 Tags, glossaries, & beginner-friendly classification methods. 
 
 ## In The Community

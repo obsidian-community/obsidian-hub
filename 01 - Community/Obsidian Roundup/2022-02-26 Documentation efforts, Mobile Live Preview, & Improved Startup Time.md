@@ -5,7 +5,7 @@ published: 2022-02-26T13:30:00
 publish: true
 ---
 
-# 🌠 Documentation efforts, Mobile Live Preview, & Improved Startup Time
+# 2022-02-26: Documentation efforts, Mobile Live Preview, & Improved Startup Time
 Ganessh Kumar built a mindblowly good way to navigate plugins, so hopefully developers will take advantage of the features it offers and write good release notes ;) 
 
 -   I wrote a (really long, I'm sorry) ... article? manifesto? about [how I view my work in this community](https://www.obsidianroundup.org/community-role/), why I'm not enthusiastic about creating courseware and guides, and some behind the scenes things I try to do. You can help by telling me what you need, what you want, and what kinds of opportunities you're available for.

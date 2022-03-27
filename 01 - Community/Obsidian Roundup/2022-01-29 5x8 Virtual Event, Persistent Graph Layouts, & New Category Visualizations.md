@@ -5,7 +5,7 @@ published: 2022-01-29T13:30:00
 publish: true
 ---
 
-# 🌠 5x8 Virtual Event, Persistent Graph Layouts, & New Category Visualizations
+# 2022-01-29: 5x8 Virtual Event, Persistent Graph Layouts, & New Category Visualizations
 The Gems of the Year were announced, Obsidian won ProductHunt's Golden Kitty, we're now tracking plugin/theme compatibility, & there's improved code block behavior available. 
 
 ## In The Community

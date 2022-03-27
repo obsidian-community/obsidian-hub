@@ -5,7 +5,7 @@ published: 2022-03-19T12:30:00
 publish: true
 ---
 
-# 🌠 Better Citations Workflows & Native Callout Boxes
+# 2022-03-19: Better Citations Workflows & Native Callout Boxes
 The hover editor plugin got secondary support from other plugins, there's a new option for dynamic indexes, & a guide for browser-based Obsidian.
 
 ## In The Community

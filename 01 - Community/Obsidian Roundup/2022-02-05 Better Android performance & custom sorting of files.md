@@ -5,7 +5,7 @@ published: 2022-02-05T13:30:00
 publish: true
 ---
 
-# 🌠 Better Android performance & custom sorting of files
+# 2022-02-05: Better Android performance & custom sorting of files
 Themes with built-in color schemes! Plus, it's now easier to debug mobile plugins, QuickAdd has mobile support, and clouds of frequently-used words. 
 
 ## Obsidian Updates

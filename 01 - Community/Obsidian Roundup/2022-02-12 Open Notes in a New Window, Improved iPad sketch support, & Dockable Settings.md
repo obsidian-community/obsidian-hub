@@ -5,7 +5,7 @@ published: 2022-02-12T13:30:00
 publish: true
 ---
 
-# 🌠 Open Notes in a New Window, Improved iPad sketch support, & Dockable Settings
+# 2022-02-12: Open Notes in a New Window, Improved iPad sketch support, & Dockable Settings
 Easily share one-off notes & code, automatic note moving, & no-code supercharged linked. Plus, migration tips &  use-case discussions. 
 
 ## In The Community
