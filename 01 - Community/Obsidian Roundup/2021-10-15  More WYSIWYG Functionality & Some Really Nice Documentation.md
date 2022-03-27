@@ -1,11 +1,12 @@
 ---
 link: https://www.obsidianroundup.org/2021-10-15/
 author: Eleanor Konik
-published: Sat, 16 Oct 2021 11:30:00 GMT
+published: 2021-10-16T11:30:00
 publish: true
 ---
 
 # 2021-10-15: More WYSIWYG Functionality & Some Really Nice Documentation
+Improved snippet management, a GUI for multi-color highlighting, & chart generation from markdown tables.
 
 ## In The Community
 

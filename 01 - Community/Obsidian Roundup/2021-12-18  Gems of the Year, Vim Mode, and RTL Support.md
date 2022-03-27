@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-12-18: Gems of the Year, Vim Mode, & RTL Support
+There's a new sample plugin for the Codemirror 6, which developers can now access the API for.
 
 ## In The Community
 

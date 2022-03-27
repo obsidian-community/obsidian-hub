@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-11-05: Graph Analysis, Podcast Notes, & 8 More (!) Themes
+The initial load-in on mobile got some improvements. There's new courseware, and lots of new integration opportunities with Alfred.
 
 ## In The Community
 

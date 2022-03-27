@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2022-01-01: Recipe Importing, Linking to Aliases, & Semantic Search
+New daily notes templates, personal knowledge management guides, and new sync alternatives.
 
 ## In The Community
 

@@ -1,11 +1,12 @@
 ---
 link: https://www.obsidianroundup.org/2021-10-09/
 author: Eleanor Konik
-published: Fri, 08 Oct 2021 21:09:00 GMT
+published: 2021-10-08T21:09:00
 publish: true
 ---
 
 # 2021-10-09: Style Guide Enforcement & Sitemap-style view
+The Codemirror Options plugin added some new WYSIWYG functionality & you can mass-convert links between wiki-style and markdown Link Converter.
 
 ## In The Community
 

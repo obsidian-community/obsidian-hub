@@ -1,11 +1,12 @@
 ---
 link: https://www.obsidianroundup.org/2021-10-23/
 author: Eleanor Konik
-published: Sat, 23 Oct 2021 11:30:00 GMT
+published: 2021-10-23T11:30:00
 publish: true
 ---
 
 # 2021-10-23: New Calendar & Code Renders in Edit Mode
+iOS guides, more WYSIWYG improvements, & some neat text tabbing & cursor tricks.
 
 ## In The Community
 
