@@ -5,7 +5,7 @@ published: 2022-01-22T13:30:00
 publish: true
 ---
 
-# API improvements for devs & Reference vs. Reflection usage
+# 2022-01-22: API improvements for devs & Reference vs. Reflection usage
 Workflow explanations, including a series about migrating from Evernote by the original "paperless ambassador." Plus: upcoming monthly essays from me
 
 ## In The Community

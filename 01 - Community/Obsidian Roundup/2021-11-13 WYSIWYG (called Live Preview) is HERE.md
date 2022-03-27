@@ -5,7 +5,7 @@ published: 2021-11-13T13:11:00
 publish: true
 ---
 
-# 2021-11-13 WYSIWYG (called "Live Preview") is HERE!
+# 2021-11-13: WYSIWYG (called "Live Preview") is HERE!
 Beta test a new Scrivener corkboard alternative, "CorkBoard." Manage your recipes in Obsidian with CookLang. 9 themes updated!
 
 ## Obsidian Updates
