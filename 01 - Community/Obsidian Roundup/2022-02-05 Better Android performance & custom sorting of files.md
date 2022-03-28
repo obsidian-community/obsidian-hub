@@ -102,3 +102,9 @@ I also officially finalized moving my articles off Wordpress & onto Ghost thanks
 I still have some auditing to do, and I haven't decided if/how to transfer comments over to the Roundup, but in the meantime, the Roundup is now the official home of my Obsidian-adjacent essays & thoughts, while the Iceberg hosts all of my worldbuilding/history/book review stuff.
 
 If you haven't already read my piece on [why it's hard to teach critical thinking skills](https://www.obsidianroundup.org/difficulties-teaching-critical-thinking/), maybe check it out at its new home?
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-02-05%20Better%20Android%20performance%20%26%20custom%20sorting%20of%20files.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-02-05%20Better%20Android%20performance%20%26%20custom%20sorting%20of%20files.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

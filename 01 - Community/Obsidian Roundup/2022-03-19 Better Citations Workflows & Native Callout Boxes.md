@@ -120,3 +120,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 My article about how to [avoid feeling guilty about a big pile of unfinished articles to read](https://www.obsidianroundup.org/rebrand-your-tbr-list/) (or, it must be said, write) just went live to Obsidian Roundup supporters. Embrace having a filtered list of high-quality reading available when you need it ;)
 
 Up on the third Thursday of next month is "Sensemaking through Fiction" aka why storytelling is a deeply underutilized method for gaining & integrating knowledge, as well as conveying information (and wisdom) to an audience.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-03-19%20Better%20Citations%20Workflows%20%26%20Native%20Callout%20Boxes.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-03-19%20Better%20Citations%20Workflows%20%26%20Native%20Callout%20Boxes.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
