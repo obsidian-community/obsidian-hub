@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-12-25: Live Preview Updates & Documentation
+A bunch of popular themes got updated, and some discussions about productivity & workflows.
 
 ## In The Community
 

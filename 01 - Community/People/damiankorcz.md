@@ -11,8 +11,8 @@ publish: true
 
 - GitHub: [damiankorcz](https://github.com/damiankorcz/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <> ^website-->
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - Website: <https://> ^website-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -30,14 +30,10 @@ publish: true
 - [[Using Visual Studio Code for Theme Development]]
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 <!--
 ### Others
-
-- 
 -->
 
 ## Sponsor this author
@@ -53,11 +49,11 @@ publish: true
 
 <!--
 ## Follow this author
-
-- [[YouTube Channels|On YouTube]]: ^youtube
-- Twitter: ^twitter
-- ...
 -->
+
+<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
+<!-- - Twitter: <https://> ^twitter-->
+<!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
 

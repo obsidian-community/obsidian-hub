@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-11-20: Live Preview Updates, Fancy Checkboxes & Tips for Devs
+Check out how Obsidian is used by software developers, content creators, & TTRPG fans. Plus, a roundup of how people use tags.
 
 ## Obsidian Updates
 

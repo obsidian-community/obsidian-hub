@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2022-01-15: Dataview Optimizations, Live Preview for Mobile, & Community Talks
+Browse plugins by category, sync & publish alternatives, & more Zotero tricks. Plus, are you a consultant? Help me help you find clients!
 
 ## In The Community
 

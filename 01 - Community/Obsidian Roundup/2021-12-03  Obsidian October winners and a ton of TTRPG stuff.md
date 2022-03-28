@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2021-12-03: Obsidian October winners & a ton of TTRPG stuff
+Great & tools for theme developers, a new plugin for chat formatting, & a new method for diagram support.
 
 ## In The Community
 

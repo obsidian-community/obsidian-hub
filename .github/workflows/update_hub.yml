@@ -1,8 +1,11 @@
 name: update_hub
 
 on:
-  # This workflow is only ever be triggered manually.
+  # This workflow is run every Wednesday.
+  # It can also be triggered manually.
   # It only runs on the main branch.
+  schedule:
+    - cron: "59 23 * * 3" 
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:

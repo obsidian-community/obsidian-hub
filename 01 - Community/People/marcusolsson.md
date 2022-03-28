@@ -11,7 +11,7 @@ publish: true
 - GitHub: [marcusolsson](https://github.com/marcusolsson/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://marcus.se.net> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -31,8 +31,6 @@ publish: true
 
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 ### Others
@@ -41,21 +39,20 @@ publish: true
 
 <!--
 ## Sponsor this author
-
-- [[GitHub sponsors]]: [Sponsor @marcusolsson on GitHub Sponsors](https://github.com/sponsors/marcusolsson) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
 -->
+
+<!-- - [[GitHub sponsors]]: [Sponsor @marcusolsson on GitHub Sponsors](https://github.com/sponsors/marcusolsson) ^github-sponsor-->
+<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author
-
-- [[YouTube Channels|On YouTube]]: ^youtube
-- Twitter: ^twitter
-- ...
 -->
+
+<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
+<!-- - Twitter: <https://> ^twitter-->
+<!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
 

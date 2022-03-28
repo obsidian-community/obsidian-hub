@@ -6,6 +6,7 @@ publish: true
 ---
 
 # 2022-01-08: New Guides & API Charts
+The Gems of the Year voting has ended, and there's a new YouTube channel for people to contribute videos to a community playlist.
 
 ## In The Community
 

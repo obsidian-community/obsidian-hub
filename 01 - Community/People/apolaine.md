@@ -11,7 +11,7 @@ publish: true
 <!-- - GitHub: [apolaine](https://github.com/apolaine/) ^github-->
 <!-- - Discord: `@` ^discord-->
 - Website: <https://www.polaine.com/> ^website
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 
@@ -22,14 +22,10 @@ publish: true
 
 <!--
 ### Plugins
-
-- 
 -->
 
 <!--
 ### Themes
-
-- 
 -->
 
 %% End Hub: Released contributions %%
@@ -38,8 +34,6 @@ publish: true
 
 <!--
 ### Unlisted plugins
-
-- 
 -->
 
 
@@ -50,21 +44,20 @@ publish: true
 
 <!--
 ## Sponsor this author
-
-- [[GitHub sponsors]]: [Sponsor @apolaine on GitHub Sponsors](https://github.com/sponsors/apolaine) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
 -->
+
+<!-- - [[GitHub sponsors]]: [Sponsor @apolaine on GitHub Sponsors](https://github.com/sponsors/apolaine) ^github-sponsor-->
+<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author
-
-- [[YouTube Channels|On YouTube]]: ^youtube
-- Twitter: ^twitter
-- ...
 -->
+
+<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
+<!-- - Twitter: <https://> ^twitter-->
+<!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
 

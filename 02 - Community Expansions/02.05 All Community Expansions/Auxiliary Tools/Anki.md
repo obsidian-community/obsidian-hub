@@ -17,7 +17,7 @@ Available for: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|L
 
 Anki is a free and open-source [[🗂️ Auxiliary Tools|tool]] to create digital flashcards. It uses a [[Spaced repetition]] algorithm to help you prevent forgetting what you have learned. It lets you review information over a long period of time as revisions are spaced out based on your confidence to recall the learned content.
 
-There are several community-developed plugins to integrate Obsidian into an Anki workflow. See: [[Spaced Repetition Plugins]]
+To integrate Obsidian into your Anki workflow, you may want to take a look at several community-developed plugins over at [[Spaced Repetition Plugins]] or consider third-party tools such as [[obsidianki4]].
 
 %% Hub footer: Please don't edit anything below this line %%
 

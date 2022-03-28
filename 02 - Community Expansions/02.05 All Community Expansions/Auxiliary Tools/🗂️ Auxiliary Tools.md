@@ -38,6 +38,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/MGit|MGit]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Notepad++|Notepad++]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidian-web-clipper|obsidian-web-clipper]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidianki4|obsidianki4]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Onyx Boox|Onyx Boox]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Open in Obsidian|Open in Obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pandoc|Pandoc]]
