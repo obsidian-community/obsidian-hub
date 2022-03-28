@@ -27,7 +27,7 @@ jobs:
         run: |
           cd .github/scripts
           python3 ./update_issues.py --apikey ${{ secrets.TOKEN }}
-          git commit -m "Update Issues" -a  || echo "nothing to commit"
+          git commit -m "Update 'Plugins seeking help'" -a  || echo "nothing to commit"
           
       # ----------------------------------------------------------------------------------
       # Finalisation
@@ -37,9 +37,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
-          title: Scripted update of Hub content
-          body: |
-            Updating list of plugin issues with labels.
+          title: Update 'Plugins seeking help'
           labels: |
             scripted update
 
