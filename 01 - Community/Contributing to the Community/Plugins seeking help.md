@@ -70,6 +70,7 @@ These issues might not always be easy to solve.
 - [[obsidian-citation-plugin|Citations]] - [Pulling tags into the literature note templates?](https://github.com/hans/obsidian-citation-plugin/issues/23)
 - [[obsidian-command-alias-plugin|Command Alias]] - [Add testing framework](https://github.com/yajamon/obsidian-command-alias-plugin/issues/12)
 - [[copy-as-latex|Copy as Latex]] - [Extended citation templates](https://github.com/mo-seph/obsidian-copy-as-latex/issues/11)
+- [[customizable-page-header-buttons|Customizable Page Header and Title Bar]] - [Two Line Custom Title Bar](https://github.com/kometenstaub/customizable-page-header-buttons/issues/24)
 - [[obsidian-discordrpc|Discord Rich Presence]] - [Failed to connect to Discord error](https://github.com/lukeleppan/obsidian-discordrpc/issues/5)
 - [[obsidian-divide-and-conquer|Divide & Conquer]] - [Change CSS snippet Bisection Logic to the new Bisection Logic](https://github.com/chrisgrieser/obsidian-divide-and-conquer/issues/5)
 - [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]] - [Add GraphQL SDL syntax](https://github.com/deathau/cm-editor-syntax-highlight-obsidian/issues/9)
@@ -95,6 +96,7 @@ These issues might not always be easy to solve.
 - [[nldates-obsidian|Natural Language Dates]] - [Not shown from preferred calendar on MacOs](https://github.com/argenos/nldates-obsidian/issues/76)
 - [[nldates-obsidian|Natural Language Dates]] - [Multilanguage support](https://github.com/argenos/nldates-obsidian/issues/19)
 - [[obsidian-git|Obsidian Git]] - [[Bug]: pull/push not working with keybase encrypted git](https://github.com/denolehov/obsidian-git/issues/191)
+- [[obsidian-git|Obsidian Git]] - [Idea: Show git blame next to each text line](https://github.com/denolehov/obsidian-git/issues/77)
 - [[obsidian-git|Obsidian Git]] - [Clarify the way to use plugin with Git for Windows](https://github.com/denolehov/obsidian-git/issues/34)
 - [[obsidian-memos|Obsidian Memos]] - [手机移动端的记录叠在一起无法显示](https://github.com/Quorafind/Obsidian-Memos/issues/128)
 - [[obsidian-memos|Obsidian Memos]] - [设置flomo API](https://github.com/Quorafind/Obsidian-Memos/issues/119)
@@ -121,6 +123,8 @@ These issues might not always be easy to solve.
 - [[obsidian-text-format|Text Format]] - [Mobile Support?](https://github.com/Benature/obsidian-text-format/issues/19)
 - [[obsidian-tts|Text to Speech]] - [Use rendered content as text source](https://github.com/joethei/obsidian-tts/issues/4)
 - [[cm-typewriter-scroll-obsidian|Typewriter Scroll Obsidian Plugin]] - [Not working in Vim's normal mode](https://github.com/deathau/cm-typewriter-scroll-obsidian/issues/1)
+- [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]] - [Error message when viewing git history](https://github.com/kometenstaub/obsidian-version-history-diff/issues/5)
+- [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]] - [FR: Add info on what Similarity treshold means](https://github.com/kometenstaub/obsidian-version-history-diff/issues/1)
 
 ## Documentation
 
@@ -164,6 +168,7 @@ See also [[Volunteer Plugin Doc Writers]] for some more developers that want hel
 - [[mrj-text-expand|Text {{expand}}]] - [Better plugin info](https://github.com/mrjackphil/obsidian-text-expand/issues/4)
 - [[obsidian-timelines|Timelines]] - [timeline-vis dates default to 20th century](https://github.com/Darakah/obsidian-timelines/issues/16)
 - [[obsidian-toggl-integration|Toggl Track Integration]] - [Create custom documentation using GitHub pages](https://github.com/mcndt/obsidian-toggl-integration/issues/61)
+- [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]] - [FR: Add info on what Similarity treshold means](https://github.com/kometenstaub/obsidian-version-history-diff/issues/1)
 
 %% Hub footer: Please don't edit anything below this line %%
 
