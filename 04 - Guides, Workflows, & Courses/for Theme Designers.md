@@ -29,6 +29,7 @@ This note collects resources and guides for beginner and expert theme designers 
   - [Getting comfortable with Obsidian CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
   - [Common Selectors for Custom CSS](https://forum.obsidian.md/t/common-selectors-for-custom-css/1984)
 - [[Using Visual Studio Code for Theme Development]] by [[damiankorcz|Damian Korcz]]
+- [[Graph view customization|Styling the graph view]] 
 
 ## Community Talks
 
