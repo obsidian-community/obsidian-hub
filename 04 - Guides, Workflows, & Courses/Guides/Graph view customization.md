@@ -1,6 +1,6 @@
 # Graph view customization
 
-Since the graph is rendered using `<canvas>` and WebGL, CSS is unable to affect things like nodes and links. To customize graph view, we have provided a way to convert CSS colors into WebGL commands.
+Since the graph is rendered using `<canvas>` and WebGL, CSS is unable to affect things like nodes and links. To customize graph view, we have provided a bridge to use CSS colors for customizing WebGL.
 
 ## The following CSS classes are supported:
 
