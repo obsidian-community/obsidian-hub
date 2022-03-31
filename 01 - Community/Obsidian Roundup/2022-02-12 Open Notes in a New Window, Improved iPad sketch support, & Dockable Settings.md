@@ -138,3 +138,9 @@ Also, several people signed up for one-on-one meetings with me this week. I was 
 If you want to book a one-on-one meeting with me, here's my [calendar](https://obsidianroundup.org/consult). If the time zones don't align with my autobook times, just shoot me an email (or use my [contact form](https://www.obsidianroundup.org/contact/)) and we'll work something out.
 
 Lastly, a request: Does anybody use obsidian for something like private practice psychology, social work, etc., where you have to balance session notes, keeping up with the literature, client paperwork, etc., who would be willing to write a guide or advise me on writing a guide for this? There's interest in this from folks in these fields, and one way or another I'm going to make it a point to help them. I initiated some [discussion about HIPAA considerations](https://twitter.com/EleanorKonik/status/1491789570182025216) on Twitter, but I would love to speak with or signal boost an expert on this.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-02-12%20Open%20Notes%20in%20a%20New%20Window%2C%20Improved%20iPad%20sketch%20support%2C%20%26%20Dockable%20Settings.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-02-12%20Open%20Notes%20in%20a%20New%20Window%2C%20Improved%20iPad%20sketch%20support%2C%20%26%20Dockable%20Settings.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

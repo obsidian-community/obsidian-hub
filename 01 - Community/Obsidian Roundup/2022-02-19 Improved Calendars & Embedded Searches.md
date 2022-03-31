@@ -138,3 +138,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 -   Next month's exclusive article will be about creating mental shifts to lower stress and improve productivity. I promise it's not as hokey as it sounds.
 -   Some folks asked, so: as things stand, the Roundup has to have about twice as many subscribers as it currently does to support me enough for me to quit teaching when my leave ends. It would have to grow by about 5x to replace my teaching income. Or I guess I could try to figure some kind of ad thing but, ugh, I'd rather not.
 -   But! If my consulting work continues at its current rate (I have no idea if this is likely), I'll be able to afford to stay home and continue doing Obsidian community work at my current level even at the current numbers. I'm really hoping that this will all be sustainable for me, and I appreciate everyone's support 💚
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-02-19%20Improved%20Calendars%20%26%20Embedded%20Searches.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-02-19%20Improved%20Calendars%20%26%20Embedded%20Searches.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
