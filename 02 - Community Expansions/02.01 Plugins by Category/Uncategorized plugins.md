@@ -83,7 +83,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-plaintext|Plaintext]]
 - [[obsidian-native-scrollbars|Native Scrollbars]]
 - [[obsidian-wrap-with-shortcuts|Wrap with shortcuts]]
-- [[obsidian-indentation-guides|Indentation Guides]]
 - [[obsidian-tomorrows-daily-note|Tomorrow's Daily Note]]
 - [[obsidian-rant|Rant-Lang]]
 - [[obsidian-timestamper|TimeStamper]]
@@ -151,7 +150,7 @@ Plugins which have not yet been categorized by the community.
 - [[waypoint|Waypoint]]
 - [[obsidian-hover-editor|Hover Editor]]
 - [[obsidian-screwdriver|Screwdriver]]
-- [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]]
+- [[obsidian-version-history-diff|Version History Diff]]
 - [[obsidian-format-code|Format code]]
 - [[obsidian-buttondown-plugin|Buttondown]]
 - [[lapel|Lapel]]
@@ -159,6 +158,8 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-custom-frames|Custom Frames]]
 - [[obsidian-etherpad-plugin|Etherpad]]
 - [[obsidian-quiet-outline|Quiet Outline]]
+- [[obsidian-daily-notes-viewer|Daily Notes Viewer]]
+- [[obsidian-zotero-desktop-connector|Zotero Desktop Connector]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
