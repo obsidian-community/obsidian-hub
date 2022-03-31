@@ -120,3 +120,9 @@ Knowing that so many of you get so much value out of the Roundup is incredibly m
 [SUPPORT MY WORK](https://www.obsidianroundup.org/#/portal/signup)
 
 Next Thursday is the third Thursday of the month, which means I'll be sending a new supporters-only article. Continuing my theme of pushing back against popular wisdom, this month the topic is the value of creating an index of quality resources, _even if you never have time to read them_.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-03-12%20Pin%20Preview%20Popups%20%26%20an%20Intro%20to%20Dataview%20Guide.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-03-12%20Pin%20Preview%20Popups%20%26%20an%20Intro%20to%20Dataview%20Guide.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

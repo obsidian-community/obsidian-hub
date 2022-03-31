@@ -109,3 +109,9 @@ If you're on the Insider build you should probably update your themes; several w
 -   the MarkDownload browser extension added support for MathJax to LaTeX, some extra keyboard shortcuts, downloading images as Base64 embedded urls (!), and more. The [full release notes](https://github.com/deathau/markdownload/releases/tag/3.1.0) are worth a read.
 -   [iDoRecall](https://www.idorecall.com/) is a nifty freemium Anki alternative for creating spaced repetition flashcards. It's designed to be a bit more social, more tightly integrated into the learning materials (they have a browser extension for highlighting), and is meant to be easier to use than Anki. They're interested in developing an Obsidian plugin, and when I mentioned I planned to include it in the Roundup, they created a 20% off coupon code that'll be good until March: `ObsidianCommunity20`
 -   [Elicit](https://elicit.org/) is the best implementation of machine learning + natural language search of academic databases I've ever personally seen and as far as I can tell it's free. One of the developers happens to be an Obsidian user, and is [active in Discord](https://discord.com/channels/686053708261228577/722584061087842365/946480247153496124).
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-02-26%20Documentation%20efforts%2C%20Mobile%20Live%20Preview%2C%20%26%20Improved%20Startup%20Time.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-02-26%20Documentation%20efforts%2C%20Mobile%20Live%20Preview%2C%20%26%20Improved%20Startup%20Time.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

@@ -154,3 +154,9 @@ Also, almost 10% of Roundup subscribers have upgraded to a paid plan, which is a
 [LEARN MORE](https://www.obsidianroundup.org/thank-you-wanna-hop-on-zoom/)
 
 I have a steep road ahead of me before I can meaningfully replace my teaching income by working from home, but the guideposts are well-marked and my fellow travelers have been very kind. Thank you 💚
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-01-29%205x8%20Virtual%20Event%2C%20Persistent%20Graph%20Layouts%2C%20%26%20New%20Category%20Visualizations.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-01-29%205x8%20Virtual%20Event%2C%20Persistent%20Graph%20Layouts%2C%20%26%20New%20Category%20Visualizations.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
