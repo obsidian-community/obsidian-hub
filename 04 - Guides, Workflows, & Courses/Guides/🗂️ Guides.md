@@ -19,6 +19,7 @@ tags:
 -  [[04 - Guides, Workflows, & Courses/Guides/Controlling Obsidian via a Third-party App|Controlling Obsidian via a Third-party App]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Default Obsidian Theme Colors|Default Obsidian Theme Colors]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Effective Remote Work|Effective Remote Work]]
+-  [[04 - Guides, Workflows, & Courses/Guides/Graph view customization|Graph view customization]]
 -  [[04 - Guides, Workflows, & Courses/Guides/HIPAA Requirements and Obsidian Primer|HIPAA Requirements and Obsidian Primer]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to add content through GitHub|How to add content through GitHub]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to add your plugin to the community plugin list|How to add your plugin to the community plugin list]]
