@@ -10,6 +10,9 @@ jobs:
   update_issues:
     runs-on: ubuntu-latest
 
+    # Prevent cron job from triggering on forks
+    if: github.repository_owner == 'obsidian-community'
+
     steps:
       # ----------------------------------------------------------------------------------
       # Setup

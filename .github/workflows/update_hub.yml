@@ -14,6 +14,9 @@ jobs:
   update_hub_content:
     runs-on: ubuntu-latest
 
+    # Prevent cron job from triggering on forks
+    if: github.repository_owner == 'obsidian-community'
+
     steps:
       # ----------------------------------------------------------------------------------
       # Setup
