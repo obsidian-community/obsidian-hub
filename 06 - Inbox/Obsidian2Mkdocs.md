@@ -1,4 +1,4 @@
----https://github.com/Mara-Li/mkdocs_obsidian_template/raw/main/screenshot/image_1.png
+---
 aliases: 
 - Mkdocs Publish
 - Material Publish
