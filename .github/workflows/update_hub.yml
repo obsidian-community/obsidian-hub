@@ -85,6 +85,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           title: Scripted update of Hub content
+          branch: create-pull-request/${{ github.workflow }}
           labels: |
             scripted update
 
