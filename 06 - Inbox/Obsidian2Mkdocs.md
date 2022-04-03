@@ -1,4 +1,4 @@
----
+---https://github.com/Mara-Li/mkdocs_obsidian_template/raw/main/screenshot/image_1.png
 aliases: 
 - Mkdocs Publish
 - Material Publish
@@ -62,10 +62,7 @@ options:
 ```
 
 # Showcase
-![](https://github.com/Mara-Li/mkdocs_obsidian_template/raw/main/screenshot/image_1.png)
-![](https://github.com/Mara-Li/mkdocs_obsidian_template/raw/main/screenshot/image_2.png)
-![](https://github.com/Mara-Li/mkdocs_obsidian_publish/raw/main/screenshot/image_3.png)
-![](https://github.com/Mara-Li/mkdocs_obsidian_publish/raw/main/screenshot/image_4.png)
+![](https://github.com/Mara-Li/mkdocs_embed_file_plugins/raw/main/docs/demo.gif)
 ![](https://github.com/Mara-Li/mkdocs_embed_file_plugins/raw/main/docs/note3.png)
 
 %% Hub footer: Please don't edit anything below this line %%
