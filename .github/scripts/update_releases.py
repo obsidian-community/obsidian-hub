@@ -26,7 +26,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
     template = get_template("plugin")
     plugin_list: PluginList = get_community_plugins()
 
-    devs: PluginList = list()
+    valid_plugins: PluginList = list()
     file_groups: FileGroups = dict()
 
     print_progress_bar(
@@ -41,7 +41,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
         group = write_file(
             template, plugin.id(), overwrite=overwrite, verbose=verbose, **plugin.data()
         )
-        devs.append(plugin)
+        valid_plugins.append(plugin)
 
         add_file_group(file_groups, group, plugin.id())
         print_progress_bar(
@@ -50,13 +50,13 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
 
     print_file_summary(file_groups)
 
-    return devs
+    return valid_plugins
 
 
 def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:
     print("-----\nProcessing themes....\n")
     theme_list = get_community_themes()
-    designers: ThemeList = list()
+    valid_themes: ThemeList = list()
 
     file_groups: FileGroups = dict()
     print_progress_bar(
@@ -73,7 +73,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
         group = write_file(
             Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data()
         )
-        designers.append(theme)
+        valid_themes.append(theme)
         add_file_group(file_groups, group, current_name)
         print_progress_bar(
             index + 1, len(theme_list),
@@ -81,7 +81,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     print_file_summary(file_groups)
 
-    return designers
+    return valid_themes
 
 
 def get_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = True, verbose: bool = False) -> None:
