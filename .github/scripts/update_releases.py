@@ -128,6 +128,20 @@ def process_authors(themes: ThemeList,
                     verbose: bool = False) -> None:
     print("-----\nProcessing authors....\n")
     template = get_template("author")
+    all_authors = collate_authors(themes, plugins)
+
+    print("\nCreating author notes....\n")
+    file_groups: FileGroups = dict()
+    for user, author_info in all_authors.items():
+        group = write_file(
+            template, user, overwrite=overwrite, verbose=verbose, **author_info
+        )
+        add_file_group(file_groups, group, user)
+
+    print_file_summary(file_groups)
+
+
+def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
     total = len(themes) + len(plugins)
 
     print_progress_bar(0, total)
@@ -154,16 +168,7 @@ def process_authors(themes: ThemeList,
         print_progress_bar(
             len(themes) + plugins.index(plugin) + 1, total,
         )
-
-    print("\nCreating author notes....\n")
-    file_groups: FileGroups = dict()
-    for user, author_info in all_authors.items():
-        group = write_file(
-            template, user, overwrite=overwrite, verbose=verbose, **author_info
-        )
-        add_file_group(file_groups, group, user)
-
-    print_file_summary(file_groups)
+    return all_authors
 
 
 def update_download_counts(verbose: bool = True) -> None:

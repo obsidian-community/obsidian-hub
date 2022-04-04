@@ -1,0 +1,17 @@
+{
+    "argenos": {
+        "author": "Argentina Ortega Sainz",
+        "plugins": [
+            "[[nldates-obsidian|Natural Language Dates]]"
+        ],
+        "user": "argenos",
+        "website": "https://argentinaos.com/"
+    },
+    "deathau": {
+        "author": "deathau",
+        "themes": [
+            "[[Christmas]]"
+        ],
+        "user": "deathau"
+    }
+}
