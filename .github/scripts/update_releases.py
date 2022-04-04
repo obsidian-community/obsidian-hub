@@ -26,7 +26,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
     template = get_template("plugin")
     plugin_list: PluginList = get_community_plugins()
 
-    devs: PluginList = list()
+    valid_plugins: PluginList = list()
     file_groups: FileGroups = dict()
 
     print_progress_bar(
@@ -41,7 +41,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
         group = write_file(
             template, plugin.id(), overwrite=overwrite, verbose=verbose, **plugin.data()
         )
-        devs.append(plugin)
+        valid_plugins.append(plugin)
 
         add_file_group(file_groups, group, plugin.id())
         print_progress_bar(
@@ -50,13 +50,13 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
 
     print_file_summary(file_groups)
 
-    return devs
+    return valid_plugins
 
 
 def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:
     print("-----\nProcessing themes....\n")
     theme_list = get_community_themes()
-    designers: ThemeList = list()
+    valid_themes: ThemeList = list()
 
     file_groups: FileGroups = dict()
     print_progress_bar(
@@ -73,7 +73,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
         group = write_file(
             Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data()
         )
-        designers.append(theme)
+        valid_themes.append(theme)
         add_file_group(file_groups, group, current_name)
         print_progress_bar(
             index + 1, len(theme_list),
@@ -81,15 +81,14 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     print_file_summary(file_groups)
 
-    return designers
+    return valid_themes
 
 
-def get_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = True, verbose: bool = False) -> None:
+def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = True) -> None:
     print("Finding uncategorized plugins....\n")
-    template = get_template("category")
     UNCATEGORIZED = "Uncategorized plugins"
 
-    plugin_list = [p.id() for p in (valid_plugins)]
+    plugin_ids = [p.id() for p in valid_plugins]
     categorized = set()
 
     file_list = get_category_files()
@@ -100,16 +99,17 @@ def get_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = True,
 
         with open(file) as category_file:
             contents = category_file.read()
-            for plugin in plugin_list:
+            for plugin in plugin_ids:
                 link = f'[{plugin}|'
                 if link in contents:
                     categorized.add(plugin)
 
     uncategorized = list()
     for p in valid_plugins:
-        if p.id() in set(plugin_list).difference(categorized):
+        if p.id() in set(plugin_ids).difference(categorized):
             uncategorized.append(p.data())
 
+    template = get_template("category")
     write_file(
         template,
         UNCATEGORIZED,
@@ -141,9 +141,7 @@ def process_authors(themes: ThemeList,
 
 
 def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
-    total = len(themes) + len(plugins)
 
-    print_progress_bar(0, total)
     all_authors = AllAuthors()
     for theme in themes:
         author = theme.author()
@@ -151,9 +149,6 @@ def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
         theme_link = format_link(theme.name())
         all_authors.setdefault(user, dict()).update(author=author, user=user)
         all_authors[user].setdefault("themes", []).append(theme_link)
-        print_progress_bar(
-            themes.index(theme) + 1, total,
-        )
 
     # We process plugins after because they have richer info
     for plugin in plugins:
@@ -164,9 +159,7 @@ def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
             author=author, user=user, website=plugin.authorUrl()
         )
         all_authors[user].setdefault("plugins", []).append(plugin_link)
-        print_progress_bar(
-            len(themes) + plugins.index(plugin) + 1, total,
-        )
+
     return all_authors
 
 
@@ -220,18 +213,18 @@ def main(argv: Sequence[str] = sys.argv[1:]) -> None:
 
     args = parser.parse_args(argv)
 
-    devs = list()
-    designers = list()
+    plugins = list()
+    themes = list()
     if args.all or args.plugins:
-        devs = process_released_plugins(args.overwrite, args.verbose)
-        get_uncategorized_plugins(devs)
+        plugins = process_released_plugins(args.overwrite, args.verbose)
+        update_uncategorized_plugins(plugins)
     if args.all or args.themes:
-        designers = process_released_themes(args.overwrite, args.verbose)
+        themes = process_released_themes(args.overwrite, args.verbose)
     if args.update_download_counts:
         update_download_counts(args.verbose)
 
     if args.all:
-        process_authors(designers, devs, args.overwrite, args.verbose)
+        process_authors(themes, plugins, args.overwrite, args.verbose)
 
 
 if __name__ == "__main__":
