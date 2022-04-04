@@ -1,6 +1,9 @@
 from typing import Dict, Any
 
-Author = Dict[str, Any]
+
+class Author(Dict[str, Any]):
+    ...
+
 
 AllAuthorsStorage = Dict[str, Author]
 
