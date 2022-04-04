@@ -141,9 +141,7 @@ def process_authors(themes: ThemeList,
 
 
 def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
-    total = len(themes) + len(plugins)
 
-    print_progress_bar(0, total)
     all_authors = AllAuthors()
     for theme in themes:
         author = theme.author()
@@ -151,9 +149,6 @@ def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
         theme_link = format_link(theme.name())
         all_authors.setdefault(user, dict()).update(author=author, user=user)
         all_authors[user].setdefault("themes", []).append(theme_link)
-        print_progress_bar(
-            themes.index(theme) + 1, total,
-        )
 
     # We process plugins after because they have richer info
     for plugin in plugins:
@@ -164,9 +159,7 @@ def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
             author=author, user=user, website=plugin.authorUrl()
         )
         all_authors[user].setdefault("plugins", []).append(plugin_link)
-        print_progress_bar(
-            len(themes) + plugins.index(plugin) + 1, total,
-        )
+
     return all_authors
 
 
