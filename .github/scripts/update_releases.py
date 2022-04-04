@@ -220,18 +220,18 @@ def main(argv: Sequence[str] = sys.argv[1:]) -> None:
 
     args = parser.parse_args(argv)
 
-    devs = list()
-    designers = list()
+    plugins = list()
+    themes = list()
     if args.all or args.plugins:
-        devs = process_released_plugins(args.overwrite, args.verbose)
-        get_uncategorized_plugins(devs)
+        plugins = process_released_plugins(args.overwrite, args.verbose)
+        get_uncategorized_plugins(plugins)
     if args.all or args.themes:
-        designers = process_released_themes(args.overwrite, args.verbose)
+        themes = process_released_themes(args.overwrite, args.verbose)
     if args.update_download_counts:
         update_download_counts(args.verbose)
 
     if args.all:
-        process_authors(designers, devs, args.overwrite, args.verbose)
+        process_authors(themes, plugins, args.overwrite, args.verbose)
 
 
 if __name__ == "__main__":
