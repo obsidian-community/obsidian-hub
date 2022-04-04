@@ -84,7 +84,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
     return valid_themes
 
 
-def get_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = True) -> None:
+def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = True) -> None:
     print("Finding uncategorized plugins....\n")
     template = get_template("category")
     UNCATEGORIZED = "Uncategorized plugins"
@@ -217,7 +217,7 @@ def main(argv: Sequence[str] = sys.argv[1:]) -> None:
     themes = list()
     if args.all or args.plugins:
         plugins = process_released_plugins(args.overwrite, args.verbose)
-        get_uncategorized_plugins(plugins)
+        update_uncategorized_plugins(plugins)
     if args.all or args.themes:
         themes = process_released_themes(args.overwrite, args.verbose)
     if args.update_download_counts:
