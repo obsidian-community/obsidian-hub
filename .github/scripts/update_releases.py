@@ -86,10 +86,9 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
 def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = True) -> None:
     print("Finding uncategorized plugins....\n")
-    template = get_template("category")
     UNCATEGORIZED = "Uncategorized plugins"
 
-    plugin_list = [p.id() for p in valid_plugins]
+    plugin_ids = [p.id() for p in valid_plugins]
     categorized = set()
 
     file_list = get_category_files()
@@ -100,16 +99,17 @@ def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = Tr
 
         with open(file) as category_file:
             contents = category_file.read()
-            for plugin in plugin_list:
+            for plugin in plugin_ids:
                 link = f'[{plugin}|'
                 if link in contents:
                     categorized.add(plugin)
 
     uncategorized = list()
     for p in valid_plugins:
-        if p.id() in set(plugin_list).difference(categorized):
+        if p.id() in set(plugin_ids).difference(categorized):
             uncategorized.append(p.data())
 
+    template = get_template("category")
     write_file(
         template,
         UNCATEGORIZED,
