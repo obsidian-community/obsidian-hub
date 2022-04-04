@@ -1,4 +1,4 @@
-name: update community plugin issue list
+name: update_community_plugin_issue_list
 on:
   schedule:
     - cron: "0 1 * * *"
