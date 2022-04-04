@@ -3,8 +3,13 @@ from typing import Dict, Any
 AuthorStorage = Dict[str, Any]
 
 
-class Author(AuthorStorage):
-    ...
+class Author:
+
+    def __init__(self, data: AuthorStorage) -> None:
+        self.__data = data
+
+    def data(self) -> AuthorStorage:
+        return self.__data
 
 
 AllAuthorsStorage = Dict[str, Author]

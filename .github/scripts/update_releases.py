@@ -4,7 +4,7 @@ import sys
 import argparse
 from typing import Sequence
 
-from authors import AllAuthors
+from authors import AllAuthors, Author, AuthorStorage
 from obsidian_releases import get_community_plugins
 from plugins import PluginList
 
@@ -152,6 +152,12 @@ def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
         theme_link = format_link(theme.name())
         all_authors.setdefault(user, dict()).update(author=author, user=user)
         all_authors[user].setdefault("themes", []).append(theme_link)
+
+        storage: AuthorStorage = dict()
+        storage["author"] = author
+        storage["user"] = user
+        storage.setdefault("themes", []).append(theme_link)
+
         print_progress_bar(
             themes.index(theme) + 1, total,
         )
