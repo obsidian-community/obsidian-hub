@@ -6,7 +6,7 @@ from approvaltests import verify, verify_as_json, Options
 import utils
 from plugins import Plugin
 from themes import Theme, ThemeList
-from hub_types import ThemeDownloads, ThemeStorage, PluginStorage
+from hub_types import ThemeDownloads, ThemeStorage, PluginStorage, PluginManifest
 
 
 def verify_as_markdown(data: Any, options: Options = Options()) -> None:
@@ -45,7 +45,7 @@ def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeD
     return theme, css_file, theme_downloads
 
 
-def get_saved_sample_data_for_plugin(plugin_id: str) -> Plugin:
+def get_saved_sample_data_for_plugin(plugin_id: str) -> Tuple[Plugin, PluginManifest]:
     """
     A convenience function to load data for a plugin that has previous been saved
     to .github/scripts/tests/sample_data/plugins
@@ -60,4 +60,6 @@ def get_saved_sample_data_for_plugin(plugin_id: str) -> Plugin:
     plugin_list: List[PluginStorage] = utils.get_json_from_file(str(sample_data_for_plugin / 'community-plugins.json'))
     plugin = Plugin(plugin_list[0])
 
-    return plugin
+    manifest = utils.get_json_from_file(str(sample_data_for_plugin / 'manifest.json'))
+
+    return plugin, manifest
