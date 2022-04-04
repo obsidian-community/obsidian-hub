@@ -146,6 +146,7 @@ def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
 
     print_progress_bar(0, total)
     all_authors = AllAuthors()
+    all_authors2 = AllAuthors()
     for theme in themes:
         author = theme.author()
         user = theme.user()
@@ -157,6 +158,8 @@ def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
         storage["author"] = author
         storage["user"] = user
         storage.setdefault("themes", []).append(theme_link)
+        author2 = Author(storage)
+        all_authors2[user] = author2
 
         print_progress_bar(
             themes.index(theme) + 1, total,
