@@ -1,4 +1,10 @@
-from typing import Dict
+from typing import Dict, Any
+
+AllAuthorsStorage = Dict[str, Dict[str, Any]]
+
+
+class AllAuthors(AllAuthorsStorage):
+    ...
 
 
 def update_author_name_for_manual_exceptions(plugin: Dict[str, str]) -> None:

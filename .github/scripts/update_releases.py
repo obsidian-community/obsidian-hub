@@ -2,8 +2,9 @@
 
 import sys
 import argparse
-from typing import Any, Dict, Sequence
+from typing import Sequence
 
+from authors import AllAuthors
 from obsidian_releases import get_community_plugins
 from plugins import PluginList
 
@@ -120,39 +121,13 @@ def get_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = True,
     )
 
 
-def process_authors(theme_designers: ThemeList,
-                    plugin_devs: PluginList,
+def process_authors(themes: ThemeList,
+                    plugins: PluginList,
                     overwrite: bool = False,
                     verbose: bool = False) -> None:
     print("-----\nProcessing authors....\n")
     template = get_template("author")
-    total = len(theme_designers) + len(plugin_devs)
-
-    print_progress_bar(0, total)
-    AllAuthors = Dict[str, Dict[str, Any]]
-    all_authors: AllAuthors = dict()
-    for designer in theme_designers:
-        author = designer.author()
-        user = designer.user()
-        theme_link = format_link(designer.name())
-        all_authors.setdefault(user, dict()).update(author=author, user=user)
-        all_authors[user].setdefault("themes", []).append(theme_link)
-        print_progress_bar(
-            theme_designers.index(designer) + 1, total,
-        )
-
-    # We process plugins after because they have richer info
-    for dev in plugin_devs:
-        author = dev.author()
-        user = dev.user()
-        plugin_link = format_link(dev.id(), dev.name())
-        all_authors.setdefault(user, dict()).update(
-            author=author, user=user, website=dev.authorUrl()
-        )
-        all_authors[user].setdefault("plugins", []).append(plugin_link)
-        print_progress_bar(
-            len(theme_designers) + plugin_devs.index(dev) + 1, total,
-        )
+    all_authors = collate_authors(themes, plugins)
 
     print("\nCreating author notes....\n")
     file_groups: FileGroups = dict()
@@ -163,6 +138,36 @@ def process_authors(theme_designers: ThemeList,
         add_file_group(file_groups, group, user)
 
     print_file_summary(file_groups)
+
+
+def collate_authors(themes: ThemeList, plugins: PluginList) -> AllAuthors:
+    total = len(themes) + len(plugins)
+
+    print_progress_bar(0, total)
+    all_authors = AllAuthors()
+    for theme in themes:
+        author = theme.author()
+        user = theme.user()
+        theme_link = format_link(theme.name())
+        all_authors.setdefault(user, dict()).update(author=author, user=user)
+        all_authors[user].setdefault("themes", []).append(theme_link)
+        print_progress_bar(
+            themes.index(theme) + 1, total,
+        )
+
+    # We process plugins after because they have richer info
+    for plugin in plugins:
+        author = plugin.author()
+        user = plugin.user()
+        plugin_link = format_link(plugin.id(), plugin.name())
+        all_authors.setdefault(user, dict()).update(
+            author=author, user=user, website=plugin.authorUrl()
+        )
+        all_authors[user].setdefault("plugins", []).append(plugin_link)
+        print_progress_bar(
+            len(themes) + plugins.index(plugin) + 1, total,
+        )
+    return all_authors
 
 
 def update_download_counts(verbose: bool = True) -> None:
