@@ -119,6 +119,7 @@ These issues might not always be easy to solve.
 - [[obsidian-text-format|Text Format]] - [Mobile Support?](https://github.com/Benature/obsidian-text-format/issues/19)
 - [[obsidian-tts|Text to Speech]] - [Use rendered content as text source](https://github.com/joethei/obsidian-tts/issues/4)
 - [[cm-typewriter-scroll-obsidian|Typewriter Scroll Obsidian Plugin]] - [Not working in Vim's normal mode](https://github.com/deathau/cm-typewriter-scroll-obsidian/issues/1)
+- [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]] - [`git obsidian error: fatal: path 'my-file-path' exists on disk, but not in '9b812828....'`](https://github.com/kometenstaub/obsidian-version-history-diff/issues/7)
 - [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]] - [Error message when viewing git history](https://github.com/kometenstaub/obsidian-version-history-diff/issues/5)
 - [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]] - [FR: Add info on what Similarity treshold means](https://github.com/kometenstaub/obsidian-version-history-diff/issues/1)
 
