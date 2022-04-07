@@ -111,7 +111,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-topic-linking|Topic Linking]]
 - [[multi-column-markdown|Multi-Column Markdown]]
 - [[copy-as-html|Copy as HTML]]
-- [[simple-note-quiz|Simple note quiz]]
+- [[simple-note-quiz|Simple Note Quiz]]
 - [[obsidian-local-rest-api|Local REST API]]
 - [[obsidian-codeblock-labels|Code Block Labels]]
 - [[obsidian-better-command-palette|Better Command Palette]]
@@ -160,6 +160,13 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-quiet-outline|Quiet Outline]]
 - [[obsidian-daily-notes-viewer|Daily Notes Viewer]]
 - [[obsidian-zotero-desktop-connector|Zotero Desktop Connector]]
+- [[obsidian-telegraph-publish|Telegraph Publish]]
+- [[obsidian-path-title|Path Title]]
+- [[obsidian-jira-issue|JiraIssue]]
+- [[smort-obsidian|Smort]]
+- [[control-characters|Control Characters]]
+- [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]
+- [[fleeting-notes-obsidian|Fleeting Notes Sync]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
