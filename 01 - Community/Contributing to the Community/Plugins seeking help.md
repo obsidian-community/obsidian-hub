@@ -165,6 +165,7 @@ See also [[Volunteer Plugin Doc Writers]] for some more developers that want hel
 - [[mrj-text-expand|Text {{expand}}]] - [Better plugin info](https://github.com/mrjackphil/obsidian-text-expand/issues/4)
 - [[obsidian-timelines|Timelines]] - [timeline-vis dates default to 20th century](https://github.com/Darakah/obsidian-timelines/issues/16)
 - [[obsidian-toggl-integration|Toggl Track Integration]] - [Create custom documentation using GitHub pages](https://github.com/mcndt/obsidian-toggl-integration/issues/61)
+- [[various-complements|Various Complements]] - [[Not issue] My new video introduced Various Complements plugin](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin/issues/109)
 - [[obsidian-version-history-diff|Version History Diff (Sync, File Recovery & Git)]] - [FR: Add info on what Similarity treshold means](https://github.com/kometenstaub/obsidian-version-history-diff/issues/1)
 
 %% Hub footer: Please don't edit anything below this line %%
