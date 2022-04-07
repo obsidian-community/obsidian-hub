@@ -51,6 +51,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Deep Work|Deep Work]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Deep|Deep]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Discordian|Discordian]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula + LYT|Dracula + LYT]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula for Obsidian|Dracula for Obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula Official|Dracula Official]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula Slim|Dracula Slim]]
