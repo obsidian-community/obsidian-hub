@@ -59,6 +59,7 @@ This may be a result of a number of factors:
 
 These issues might not always be easy to solve.
 
+- [[obsidian-advanced-slides|Advanced Slides]] - [Looking a Frontend Developer to join the team](https://github.com/MSzturc/obsidian-advanced-slides/issues/62)
 - [[table-editor-obsidian|Advanced Tables]] - [CJK improvement by listening keyboard input events](https://github.com/tgrosinger/advanced-tables-obsidian/issues/53)
 - [[table-editor-obsidian|Advanced Tables]] - [Emoji break the column alignment](https://github.com/tgrosinger/advanced-tables-obsidian/issues/44)
 - [[obsidian-ankibridge|AnkiBridge]] - [Logo](https://github.com/JeppeKlitgaard/ObsidianAnkiBridge/issues/11)
