@@ -75,6 +75,7 @@ These issues might not always be easy to solve.
 - [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]] - [Add GraphQL SDL syntax](https://github.com/deathau/cm-editor-syntax-highlight-obsidian/issues/9)
 - [[flashcards-obsidian|Flashcards]] - [Plugin adds \ when not needed. ](https://github.com/reuseman/flashcards-obsidian/issues/53)
 - [[flashcards-obsidian|Flashcards]] - [Remove Reference For Aliases ](https://github.com/reuseman/flashcards-obsidian/issues/41)
+- [[hotkeysplus-obsidian|Hotkeys++]] - [Need a hotkey for "Toggle bullet | checkbox"](https://github.com/argenos/hotkeysplus-obsidian/issues/33)
 - [[hotkeysplus-obsidian|Hotkeys++]] - [Switch to numbered list with right numbers in markdown](https://github.com/argenos/hotkeysplus-obsidian/issues/16)
 - [[obsidian-indent-lines|Indentation Lines]] - [Preview pane won't follow as scrolling on edit pane.](https://github.com/Arch-Storm/obsidian-indent-lines/issues/1)
 - [[juggl|Juggl]] - [Render Laxtex formula  as Node Name](https://github.com/HEmile/juggl/issues/124)
