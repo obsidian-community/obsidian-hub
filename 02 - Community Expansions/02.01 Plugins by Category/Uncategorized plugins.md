@@ -130,7 +130,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-remember-file-state|Remember File State]]
 - [[markdown-shortcuts|Markdown shortcuts]]
 - [[digitalgarden|Digital Garden]]
-- [[obsidian-daily-notes-new-tab|Daily notes new tab]]
+- [[obsidian-daily-notes-new-tab|Daily notes opener]]
 - [[obsidian-advanced-new-folder|Advanced new folder]]
 - [[obsidian-mark-and-select|Mark and Select]]
 - [[obsidian-bible-linker|Bible Linker]]
@@ -167,6 +167,7 @@ Plugins which have not yet been categorized by the community.
 - [[control-characters|Control Characters]]
 - [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]
 - [[fleeting-notes-obsidian|Fleeting Notes Sync]]
+- [[obsidian-chat-view|Chat View]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
