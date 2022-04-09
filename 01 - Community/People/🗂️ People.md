@@ -13,6 +13,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
+-  [[01 - Community/People/adifyr|adifyr]]
 -  [[01 - Community/People/agathauy|agathauy]]
 -  [[01 - Community/People/aidanglickman|aidanglickman]]
 -  [[01 - Community/People/aidenlx|aidenlx]]
