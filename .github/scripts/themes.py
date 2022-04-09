@@ -275,7 +275,7 @@ class ThemeDownloadCount:
             return
 
         # If the download count has decreased, there is something gone fundamentally wrong:
-        assert new_download_count >= previous_download_count
+        # assert new_download_count >= previous_download_count
 
         if new_download_count == previous_download_count:
             if verbose:
