@@ -191,6 +191,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-carry-forward|obsidian-carry-forward]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-charts|obsidian-charts]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-chartsview-plugin|obsidian-chartsview-plugin]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-chat-view|obsidian-chat-view]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-checklist-plugin|obsidian-checklist-plugin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-chess|obsidian-chess]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-chessboard|obsidian-chessboard]]
