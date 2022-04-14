@@ -14,6 +14,7 @@ See also [[for Plugin Developers|Resources and Guides for Plugin Developers]].
 
 ## Guides
 
+- [[Why automate tests for plugins|Why automate tests for plugins?]]
 - [[How to add automated tests to your plugin]]
 - [[How to test plugin code that uses Obsidian APIs]]
 
