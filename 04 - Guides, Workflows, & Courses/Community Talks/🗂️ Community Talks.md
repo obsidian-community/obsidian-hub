@@ -26,6 +26,7 @@ publish: true
 -  [[04 - Guides, Workflows, & Courses/Community Talks/Metadata Group Discussion|Metadata Group Discussion]]
 -  [[04 - Guides, Workflows, & Courses/Community Talks/Obsidian 101|Obsidian 101]]
 -  [[04 - Guides, Workflows, & Courses/Community Talks/Obsidian and TTRPG|Obsidian and TTRPG]]
+-  [[04 - Guides, Workflows, & Courses/Community Talks/Plugin Testing for Developers|Plugin Testing for Developers]]
 -  [[04 - Guides, Workflows, & Courses/Community Talks/Project management for fiction writing|Project management for fiction writing]]
 -  [[04 - Guides, Workflows, & Courses/Community Talks/Spaced repetition - An Introduction|Spaced repetition - An Introduction]]
 -  [[04 - Guides, Workflows, & Courses/Community Talks/What your vault knows|What your vault knows]]
