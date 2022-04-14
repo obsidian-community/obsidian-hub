@@ -9,6 +9,8 @@ tags:
 # for Plugin Developers
 This note collects resources and guides for beginner and expert plugin developers for [[Obsidian]].
 
+See also [[for Plugin Developers to Automate Tests|Resources and Guides for Plugin Developers writing Tests]].
+
 ## FAQ
 
 - [[How to add your plugin to the community plugin list]]
