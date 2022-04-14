@@ -11,3 +11,5 @@ publish: true
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 
 #placeholder/description 
+
+For now, see the talk [[Plugin Testing for Developers]].
