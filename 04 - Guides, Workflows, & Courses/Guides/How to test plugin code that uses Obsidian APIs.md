@@ -31,3 +31,9 @@ There are some useful discussions and links in the Obsidian API issue [Error run
     - [[obsimian-exporter#Obsimian Exporter]]: an Obsidian simulation framework for testing Obsidian plugins
     - These are both many months old, and may not be being maintained
 - In [this comment](https://github.com/obsidianmd/obsidian-api/issues/13#issuecomment-1003880942) [[timhor]] reported that If anyone just needs to test editor-related functionality, he has had success substituting [CodeMirror](https://codemirror.net/doc/manual.html) as the editor on which his tests run (that's what Obsidian uses under the hood anyway). There are links showing how he did this.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20test%20plugin%20code%20that%20uses%20Obsidian%20APIs.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20test%20plugin%20code%20that%20uses%20Obsidian%20APIs.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
