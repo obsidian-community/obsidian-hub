@@ -1,9 +1,9 @@
 ---
 aliases: 
-  - "Why automate tests for plugins?"
+- "Why automate tests for plugins?"
 tags:
-  - seedling
-  - MOC
+- seedling
+publish: true
 ---
 
 # Why automate tests for plugins?

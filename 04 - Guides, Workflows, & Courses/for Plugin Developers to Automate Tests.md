@@ -1,9 +1,9 @@
 ---
 aliases: 
-  - "Resources and Guides for Plugin Developers writing Tests"
+- "Resources and Guides for Plugin Developers writing Tests"
 tags:
-  - seedling
-  - MOC
+- seedling
+publish: true
 ---
 
 # for Plugin Developers to Automate Tests

@@ -1,10 +1,11 @@
 ---
 aliases: 
-  -
+- 
 tags:
-  - seedling
-  - MOC
+- seedling
+publish: true
 ---
+
 # How to test plugin code that uses Obsidian APIs
 
 When writing [[for Plugin Developers to Automate Tests|automated tests]] for plugins, it's common to find that your test code needs to use functions or classes in source files that use the Obsidian API.
