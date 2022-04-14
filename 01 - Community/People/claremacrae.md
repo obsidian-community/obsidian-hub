@@ -30,9 +30,9 @@ publish: true
 ### Unlisted plugins
 -->
 
-<!--
 ### Others
--->
+
+- [[Plugin Testing for Developers]]
 
 <!--
 ## Sponsor this author
