@@ -21,11 +21,15 @@ Because Personal Knowledge Management is usually (as it name states) _highly_ pe
 
 - **Tags**: We mostly use tags to indicate the status of a note. You can find more details in the [[Tag glossary]].
 - **Files & Links**: Make sure that any time you add or edit a note, your settings are configured correctly. This should be set up by default. To sum up:
-  - Configure `Location of new notes` to go the [[🗂️ 06 - Inbox]] folder.
-  - Links should be set to `Shortest path` and wikilinks must be enabled.
+  - Configure `Default location for new notes` to `In the folder specified below`
+  - In the new `Folder to create new notes in` option, select the [[🗂️ 06 - Inbox]] folder.
+  - Set the `New link format` setting to `Shortest path when possible`
+  - Set the `Use [[Wikilinks]]` setting to `Enabled`
   - The `Default location for new attachments` should be the folder [[🗂️ 02 Attachments]].
     ![[file-and-link-settings.png]]
-- **Templates**: We have [[🗂️ 01 Templates|predefined a few templates for any new content to be added]] (more about this later). These templates include comments and instructions of when to use them.
+- **Templates**: We have [[🗂️ 01 Templates|predefined a few templates for any new content to be added]] (more about this later). These templates include comments and instructions of when to use them. To enable Obsidian to use this folder:
+	- Under `Core plugins`, locate `Templates` and `Enable` this plugin.
+	- Scroll down to the `Templates` settings under the `PLUGIN OPTIONS` header and set `Template folder location` option to `00 - Contribute to the Obsidian Hub/01 Templates`
 - **Folders**: We have roughly pre-defined the structure of the vault using Johnny Decimal-ish prefixes. *Before adding new folders, please open an issue to discuss the changes you'd like to propose. *
 
 Now that you have configured Obsidian, you are ready to do your first contribution! Have a look at the [[#The Main Folders|types of contributions]], and depending on what you want to contribute open the linked note for further instructions.
