@@ -35,7 +35,18 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+Custom support for:
 
+- ITS-like asides, image captioning and positioning (no callouts because I don't understand them yet);
+- Kanban plugin;
+- Page-breaking on print with double line-break (--- in two consecutive lines);
+- Quick Explorer plugin;
+- cMenu plugin;
+- Alternative table styling (excel or excelite class in frontmatter);
+- Center and cite styling (<b class=cen>centered text</b> or <b class=cit>source</b>);
+- Calendar plugin;
+- Clean and join note embeds (clean-embeds in frontmatter);
+- LanguageTool plugin.
 
 %% Hub footer: Please don't edit anything below this line %%
 
