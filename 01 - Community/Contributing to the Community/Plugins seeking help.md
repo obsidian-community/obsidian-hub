@@ -14,7 +14,6 @@ The following issues are good for beginners wanting to help with fixing issues a
 - [[breadcrumbs|Breadcrumbs]] - [Feature Request: Creating an "Contact" category](https://github.com/SkepticMystic/breadcrumbs/issues/71)
 - [[obsidian-citation-plugin|Citations]] - [Specific error for note formatting errors](https://github.com/hans/obsidian-citation-plugin/issues/50)
 - [[obsidian-citation-plugin|Citations]] - [Search by citekey](https://github.com/hans/obsidian-citation-plugin/issues/46)
-- [[obsidian-collapse-all-plugin|Collapse All]] - [Use built-in icons](https://github.com/OfficerHalf/obsidian-collapse-all/issues/14)
 - [[obsidian-divide-and-conquer|Divide & Conquer]] - [Re-create `Count Plugins` command](https://github.com/chrisgrieser/obsidian-divide-and-conquer/issues/8)
 - [[obsidian-divide-and-conquer|Divide & Conquer]] - [Reload after CSS snippet bisection when on Linux](https://github.com/chrisgrieser/obsidian-divide-and-conquer/issues/7)
 - [[flashcards-obsidian|Flashcards]] - [Missing Media when create bulk cards (ca. 150 cards)](https://github.com/reuseman/flashcards-obsidian/issues/60)
