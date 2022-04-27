@@ -1,3 +1,11 @@
+---
+aliases: 
+- 
+tags:
+- seedling
+publish: true
+---
+
 # Markdown Syntax
 
 ## Lesser known Markdown Syntax
