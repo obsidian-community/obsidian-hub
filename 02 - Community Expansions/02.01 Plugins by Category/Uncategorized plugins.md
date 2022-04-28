@@ -182,6 +182,19 @@ Plugins which have not yet been categorized by the community.
 - [[obsius-publish|Obsius Publish]]
 - [[obsidian-snippet-downloader|Snippet Downloader]]
 - [[execute-code|Execute Code]]
+- [[obsidian-badge|Obsidian Badge]]
+- [[kr-book-info-plugin|KoreanBook Info Plugin]]
+- [[obsidian-drag-n-drop-plugin|Drag-n-Drop for blocks]]
+- [[obsidian-link-embed|Link Embed]]
+- [[obsidian-columns|Obsidian Columns]]
+- [[obsidian-mkdocs-publisher|Mkdocs Publisher]]
+- [[obsidian-notion-video|Notion Video]]
+- [[obsidian-math-plus|Obsidian Math+]]
+- [[obsidian-todoist-link|Todoist Link]]
+- [[obsidian-rewarder|Rewarder]]
+- [[obsidian-calibre-plugin|Calibre]]
+- [[omnisearch|Omnisearch]]
+- [[plugins-galore|Plugins Galore]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
