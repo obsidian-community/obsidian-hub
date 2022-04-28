@@ -14,7 +14,7 @@ publish: true
 		- [Markdown Reference](https://commonmark.org/help/)
 		- [Markdown Tutorial - Introduction](https://commonmark.org/help/tutorial/index.html)
 - [John Gruber's Original Documentation](https://daringfireball.net/projects/markdown/)
-- The full syntax used by Obsidian (including its [[#Obsidian's Custom markdown syntax|custom syntax]] ) is described here: [Format your notes - Obsidian Help](https://help.obsidian.md/How+to/Format+your+notes)
+- The full syntax used by Obsidian (including its [[#Obsidian's Custom markdown syntax|custom syntax]]) is described here: [Format your notes - Obsidian Help](https://help.obsidian.md/How+to/Format+your+notes)
 
 ### Obsidian's Custom markdown syntax
 
