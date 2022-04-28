@@ -66,7 +66,7 @@ Report issues by clicking [here](www.github.com/octocat/mytheme/issues).
 
 ### Theme features
 
-The main goal of adding a list of features is to help compare themes based on what they offer, before one has to try them out. Keep in mind that themes (especially large ones) have many many features, and it's not our intention to make an exhaustive list of **all** the things your theme can do. Instead, ==ideally the features you list are a way to pitch to (new) users what makes your theme unique==. For that, the idea is to parse the `feature` key to identify some of the frequently sought-after features with a controlled vocabulary and automatically add links to pre-defined categories in the hub. The controlled vocabulary is based on the feature list proposed by pseudometa and extended by argentum:
+The main goal of adding a list of features is to help compare themes based on what they offer, to save one having to try them out. Keep in mind that themes (especially large ones) have many many features, and it's not our intention to make an exhaustive list of **all** the things your theme can do. Instead, ==ideally the features you list are a way to pitch to (new) users what makes your theme unique==. For that, the idea is to parse the `feature` key to identify some of the frequently sought-after features with a controlled vocabulary and automatically add links to pre-defined categories in the hub. The controlled vocabulary is based on the feature list proposed by pseudometa and extended by argentum:
 
 | Key | Hub note | Description |
 |----|-----|------|
