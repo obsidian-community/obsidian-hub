@@ -59,7 +59,7 @@ And the contents of `theme_overview.md`:
 
 This is a small description of my theme. You can find more information about the following features in the documentation:
 - [Callouts](www.mytheme.com/callouts)
-- [Checklists](www.mytheme.com/checklists)
+- [checkboxes](www.mytheme.com/checkboxes)
 
 Report issues by clicking [here](www.github.com/octocat/mytheme/issues).
 ```
@@ -80,9 +80,9 @@ The main goal of adding a list of features is to help compare themes based on wh
 | `images` | `[[Themes with image handling options]]` | Does your theme add any image-handling features, e.g. zooming, galleries, aligning/wrapping around text, etc.
 |`highlights` | `[[Themes with custom highlights]]` | Additional colours or ways to achieve the core `==highlight==` behaviour
 |`asides` | `[[Themes with side notes]]` | Any features related to the `<aside>` tag or any of its css workarounds, sometimes also called side notes or margin notes
-|`checklists` | `[[Themes with custom checklists]]` |Particularly if you added custom types
+|`checkboxes` | `[[Themes with custom checkboxes]]` |Particularly if you added custom types
 | `callouts` | `[[Themes with custom callouts]]` | Does the theme add special callouts?
-| `css_classes` | `[[Themes with custom css classes]]` | Does the theme add css classes that are not covered on other features? 
+| `cssclass` | `[[Themes with custom css classes]]` | Does the theme add css classes that are not covered on other features? 
 | `miscellaneous` | Only for certain keywords (see below)| Any other feature you'd like to mention as a markdown formatted string. Mentioning the following two will add links to the corresponding pages:
 
 Recognised words in the `miscellaneous` features:
@@ -239,7 +239,7 @@ theme:
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
-        checklists:
+        checkboxes:
 	        docs:
                 file: # from root of repo, to be included as is
 		        links: [] # markdown-formatted strings
@@ -288,7 +288,7 @@ theme:
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
-        css_classes: []
+        cssclass: []
 	        docs:
                 file: # from root of repo, to be included as is
 		        links: [] # markdown-formatted strings
