@@ -26,8 +26,8 @@ This is covers the very basic information for most themes, but
 - is not very user-friendly when trying to find themes that have X (which themes support asides? highlights?) and users have to try out the themes to find out
 - limits you to a single screenshot
 - requires manual edits on your side if you want to add text or other features not mentioned in style settings or list sponsorship information
-	- content you add to the hub is  outside to your theme repo and will easily get out of date
-	- adding or updating any content you do add to the hub requires you to go through the fork and PR workflow, which adds friction and makes it less likely that you do either
+    - content you add to the hub is  outside to your theme repo and will easily get out of date
+    - adding or updating any content you do add to the hub requires you to go through the fork and PR workflow, which adds friction and makes it less likely that you do either
 - requires manual work in the hub  repo when there are manual changes to make sure the scripts haven't removed manually added content and handling other edge cases (at least for now)
 
 ## Proposal
@@ -49,7 +49,7 @@ Similarly, if you wanted to have some control on the contents of your theme note
 For example, with the contents of `hub.yaml` as show below:
 ```yaml
 hub_content: # List of markdown documents to be included as is to the hub relative to the root of the repo.
-	- docs/theme_overview.md
+    - docs/theme_overview.md
 ```
 
 And the contents of `theme_overview.md`:
@@ -94,10 +94,10 @@ As an example:
 
 ```yaml
 theme:
-    features: 
-	    miscellaneous:
-		    - A minimalistic theme perfect for focusing on writing
-		    - Opinionated but highly customizable
+    features:
+        miscellaneous:
+            - A minimalistic theme perfect for focusing on writing
+            - Opinionated but highly customizable
 
 ```
 
@@ -111,13 +111,13 @@ Listing features in the `hub.yaml` should be extremely flexible. For the hub to 
 - A boolean
   ```yaml
   theme:
-    features: 
+      features:
           callouts: true
    ```
 - A path to one or many screenshots on your repo
   ```yaml
   theme:
-    features: 
+    features:
           callouts:
             screenshots: # Path to screenshots for this feature (from the root of the repo)
                 - file: docs/all_dnd_callouts.png
@@ -128,34 +128,34 @@ Listing features in the `hub.yaml` should be extremely flexible. For the hub to 
 - A path to a markdown document to be included as is in the hub
   ```yaml
   theme:
-    features: 
+      features:
           custom_callouts:
-            docs:
-               file: docs/dnd_callouts_overview.md # from root of repo, to be included as is
+              docs:
+                  file: docs/dnd_callouts_overview.md # from root of repo, to be included as is
    ```
 - A link to your own documentation
   ```yaml
   theme:
-    features: 
+      features:
           custom_callouts:
-            docs:
-		       links: # List of strings (can be markdown-formatted)
-		           - [More information](www.mytheme.com/dnd_callouts)
+              docs:
+                  links: # List of strings (can be markdown-formatted)
+                      - [More information](www.mytheme.com/dnd_callouts)
    ```
 - Combinations of the above options (except boolean)
   ```yaml
   theme:
-    features: 
+      features:
           custom_callouts:
-            docs:
-               file: docs/dnd_callouts_overview.md # from root of repo, to be included as is
-		       links: # List of strings (can be markdown-formatted)
-		           - [More information](www.mytheme.com/dnd_callouts)
-            screenshots: # Path to screenshots for this feature (from the root of the repo)
-                - file: docs/all_dnd_callouts.png
-                  caption: All the D&D callouts for My Theme
-                - file: docs/treasure_dnd_callout.png
-                  caption: Example of the treasure D&D callout
+              docs:
+                  file: docs/dnd_callouts_overview.md # from root of repo, to be included as is
+                  links: # List of strings (can be markdown-formatted)
+                      - [More information](www.mytheme.com/dnd_callouts)
+              screenshots: # Path to screenshots for this feature (from the root of the repo)
+                  - file: docs/all_dnd_callouts.png
+                    caption: All the D&D callouts for My Theme
+                  - file: docs/treasure_dnd_callout.png
+                    caption: Example of the treasure D&D callout
                   
    ```
 
@@ -203,95 +203,95 @@ authors: # More than one author is possible, start a new line with -
 maintainers: [] # GitHub user names of those maintaining the plugin (leave empty if it's the same as author)
 
 theme:
-    features: 
+    features:
         mobile:
-	        docs:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
         publish: true
-	        docs:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
         gutter:
-	        docs:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
         print:
-	        docs:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
         callouts:
-	        docs:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
         checkboxes:
-	        docs:
+          docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
-        images: []
-	        docs:
+        images:
+          docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
-        tables: []
-	        docs:
+        tables:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
-        asides: []
-	        docs:
+        asides:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
-        highlights: []
-	        docs:
+        highlights:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
-        color_schemes: []
-	        docs:
+        color_schemes:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
-        snippets: [] # Path to css snippets relative to the root of the repo. We could parse the css similar to style settings
-	        docs:
-                file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings, e.g. pointing to the css files for download
+        snippets:
+            docs:
+                file: # path to markdown file from root of repo, to be included as is
+                links: [] # markdown-formatted strings, e.g. pointing to the css files for download
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
         cssclass: []
-	        docs:
+            docs:
                 file: # from root of repo, to be included as is
-		        links: [] # markdown-formatted strings
+                links: [] # markdown-formatted strings
             screenshots: # Path to other screenshots from the root of the repo
                 - file: 
                   caption:
