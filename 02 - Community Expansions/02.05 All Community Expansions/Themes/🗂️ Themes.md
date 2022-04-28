@@ -14,6 +14,7 @@ publish: true
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/80s Neon|80s Neon]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/AbsoluteGruv|AbsoluteGruv]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Agora|Agora]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Al Dente|Al Dente]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Alchemy|Alchemy]]
@@ -57,6 +58,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula Slim|Dracula Slim]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ebullientworks|Ebullientworks]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Emerald|Emerald]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Everblush|Everblush]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Everforest|Everforest]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Faded|Faded]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Firefly|Firefly]]
@@ -78,6 +80,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/ITS Theme|ITS Theme]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Lizardmen Zettelkasten|Lizardmen Zettelkasten]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/LYT Mode|LYT Mode]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mado 11|Mado 11]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mammoth|Mammoth]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal|Minimal]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Molecule|Molecule]]
