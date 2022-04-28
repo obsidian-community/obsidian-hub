@@ -32,7 +32,7 @@ This is covers the very basic information for most themes, but
 
 ## Proposal
 
-Our proposal is to add an optional `hub.yaml` file at the root of theme repos to add some of this information. Note that all entries are optional, so maintenance and effort can be managed by each theme designer based on the their theme's complexity and requirements. We'll cover some of the basics with examples below, but you can find the full file with all the options further down in the [[#Template]] section.
+Our proposal is to add an optional `hub.yaml` file at the root of theme repos to add some of this information. Note that all entries are optional, so maintenance and effort can be managed by each theme designer based on their theme's complexity and requirements. We'll cover some of the basics with examples below, but you can find the full file with all the options further down in the [[#Template]] section.
 
 ### Link to the theme's documentation
 
