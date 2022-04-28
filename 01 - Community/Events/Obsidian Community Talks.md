@@ -40,35 +40,40 @@ You can then go over to this thread to vote for the talks you're interested in: 
 
 <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showCalendars=0&mode=AGENDA&title=Obsidian%20Community%20Talks&hl=en_GB&src=cHU0bmwwc2tqZnVnOTE0NzR0Y3VvYjh0dDBkMTFjbG9AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
 
-- [[How to create your own Obsidian plugin]]
+
 
 ### Previous talks
 
-- [[YT - An Introduction to Dataview|An Introduction to Dataview]]
-- [[Zotero 101]]
+- [[YT - An Introduction to Dataview|An Introduction to Dataview]] by [[SkepticMystic]]
+- [[Zotero 101]] by [[argenos]]
 - [[Note-taking for University Students]]
-- [[CSS 101 - Community Talk]]
-- [[Deep Learning on Networks]]
-- [[Metadata Group Discussion]]
-- [[Knowledge Organization, Cataloguing and Classification in Obsidian]]
-- [[Using Pandoc inside Obsidian|Pandoc and Obsidian - Create slideshows, PDFs and Word documents]]
-- [[What your vault knows]]
-- [[Spaced repetition - An Introduction]]
-- [[Breadcrumbs Showcase]]
-- [[Image Adjustment Snippets - ITS Theme]]
-- [[Customizable workspaces]]
-- [[Introduction to Buttons]]
-- [[Journaling Showcase]]
-- [[Obsidian 101]]
-- [[Project management for fiction writing]]
-- [[Obsidian and TTRPG]]
+- [[CSS 101 - Community Talk]] by [[lithou]]
+- [[Deep Learning on Networks]] by [[Phnx]]
+- [[Metadata Group Discussion]] by [[Cat]]
+- [[Knowledge Organization, Cataloguing and Classification in Obsidian]] by [[bri]]
+- [[Using Pandoc inside Obsidian|Pandoc and Obsidian - Create slideshows, PDFs and Word documents]] by [[SkepticMystic]]
+- [[What your vault knows]] by [[Phnx]], [[HEmile]]
+- [[Spaced repetition - An Introduction]] by [[jamesb]]
+- [[Breadcrumbs Showcase]] by [[SkepticMystic]]
+- [[Image Adjustment Snippets - ITS Theme]] by [[SlRvb]]
+- [[Customizable workspaces]] by [[chetachiezikeuzor]]
+- [[Introduction to Buttons]] by [[shabegom]]
+- [[Journaling Showcase]] by [[SlRvb]]
+- [[Obsidian 101]] by [[learningrabbithole]]
+- [[Project management for fiction writing]] by [[eleanorkonik|Eleanor Konik]]
+- [[Obsidian and TTRPG]] by [[valentine195|Jeremy Valentine]], [[nvanderhoevan]], [[apolaine]], [[SlRvb]] and [[Leah]]
+- [[How to create your own Obsidian plugin]] by [[phibr0]]
+- [[Obsidian October Showcase]]
+- [[Plugin Testing for Developers]] by [[claremacrae|Clare Macrae]]
+- [[Zettelkasten 101]] by [[TheHighPony]]
 
 ## Organisers
 
-The talks are organised over on this [Discord server](https://discord.gg/HvGbz2tr). Anyone is welcome to join and contribute ideas or to help organsie! If the link doesn't work, you can contact the organisers on Discord:
+The talks are organised over on this [Discord server](https://discord.gg/HvGbz2tr). Anyone is welcome to join and contribute ideas or to help organise! If the link doesn't work, you can contact the organisers on Discord:
 
 - [[argenos]]
 - [[SkepticMystic]]
+- [[Leah]]
 - [[Phnx]]
 
 ## Original Inspiration ✨
