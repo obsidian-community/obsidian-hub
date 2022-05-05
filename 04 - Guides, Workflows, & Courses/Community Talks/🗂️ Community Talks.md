@@ -32,6 +32,7 @@ publish: true
 -  [[04 - Guides, Workflows, & Courses/Community Talks/What your vault knows|What your vault knows]]
 -  [[04 - Guides, Workflows, & Courses/Community Talks/YT - An Introduction to Dataview|YT - An Introduction to Dataview]]
 -  [[04 - Guides, Workflows, & Courses/Community Talks/YT - Pandoc and Obsidian - Create slideshows, PDFs and Word documents|YT - Pandoc and Obsidian - Create slideshows, PDFs and Word documents]]
+-  [[04 - Guides, Workflows, & Courses/Community Talks/Zettelkasten 101|Zettelkasten 101]]
 -  [[04 - Guides, Workflows, & Courses/Community Talks/Zotero 101|Zotero 101]]
 %% Hub MOCs: Don’t edit above  %%
 
