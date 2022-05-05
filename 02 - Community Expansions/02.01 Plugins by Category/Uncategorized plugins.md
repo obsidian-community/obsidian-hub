@@ -195,6 +195,10 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-calibre-plugin|Calibre]]
 - [[omnisearch|Omnisearch]]
 - [[plugins-galore|Plugins Galore]]
+- [[auto-card-link|Auto Card Link]]
+- [[notion-like-tables|Notion-Like Tables]]
+- [[auto-moc|AutoMOC]]
+- [[obsidian-paste-png-to-jpeg|Paste image Png to Jpeg]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
