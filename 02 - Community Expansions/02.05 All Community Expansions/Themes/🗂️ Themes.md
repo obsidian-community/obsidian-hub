@@ -134,6 +134,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ursa|Ursa]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vileplume|Vileplume]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vintage Theme|Vintage Theme]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Violet Evening|Violet Evening]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Warmth|Warmth]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wasp|Wasp]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/WilcoxOne|WilcoxOne]]
