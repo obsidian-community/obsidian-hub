@@ -141,6 +141,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Willemstad|Willemstad]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wyrd|Wyrd]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yin and Yang|Yin and Yang]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Zenburn|Zenburn]]
 %% Hub MOCs: Don’t edit above  %%
 
 ## Contributing
