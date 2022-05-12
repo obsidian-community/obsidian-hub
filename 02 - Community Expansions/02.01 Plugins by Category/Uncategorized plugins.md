@@ -199,6 +199,10 @@ Plugins which have not yet been categorized by the community.
 - [[notion-like-tables|Notion-Like Tables]]
 - [[auto-moc|AutoMOC]]
 - [[obsidian-paste-png-to-jpeg|Paste image Png to Jpeg]]
+- [[obsidian-folder-index|Folder Index]]
+- [[obsidian-filename-emoji-remover|Filename Emoji Remover]]
+- [[obsidian-epub-plugin|ePub Reader]]
+- [[obsidian-pandoc-reference-list|Pandoc Reference List]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
