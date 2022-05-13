@@ -85,26 +85,24 @@ def test_author_from_templates() -> None:
 
 
 def test_plugin_from_jinja() -> None:
-    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "plugin.md.jinja")
-
     plugin = get_processed_saved_sample_data_for_plugin("nldates-obsidian")
 
+    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "plugin.md.jinja")
     new_content = template.render(**plugin.data())
+
     verify_as_markdown(new_content)
 
 
 def test_theme_from_jinja() -> None:
-    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
-
     theme = get_processed_saved_sample_data_for_theme("Christmas")
 
+    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
     new_content = template.render(**theme.data())
+
     verify_as_markdown(new_content)
 
 
 def test_author_from_jinja_real_data() -> None:
-    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "author.md.jinja")
-
     # A plugin and theme written by the same author, deathau
     plugin = get_processed_saved_sample_data_for_plugin("cooklang-obsidian")
     theme = get_processed_saved_sample_data_for_theme("Christmas")
@@ -113,5 +111,7 @@ def test_author_from_jinja_real_data() -> None:
     assert len(all_authors) == 1
     author = all_authors['deathau']
 
+    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "author.md.jinja")
     new_content = template.render(**author)
+
     verify_as_markdown(new_content)
