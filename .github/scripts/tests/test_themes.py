@@ -6,7 +6,7 @@ from approvaltests.storyboard import StoryBoard
 from jinja2 import Template
 
 import utils
-from tests.helpers_for_testing import verify_as_markdown, get_saved_sample_data_for_theme
+from tests.helpers_for_testing import verify_as_markdown, get_raw_saved_sample_data_for_theme
 from tests.test_templates import JINJA_TEMPLATES_DIR
 from themes import Theme
 
@@ -23,7 +23,7 @@ def test_collect_data_for_theme_without_settings() -> None:
 
 def test_reading_theme__with_error_logs_error() -> None:
     theme_name = "InvalidSettingsData"
-    theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
+    theme, css_file, theme_downloads = get_raw_saved_sample_data_for_theme(theme_name)
 
     file_groups: utils.FileGroups = dict()
     name, valid = theme.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
@@ -38,7 +38,7 @@ def test_reading_theme__with_error_logs_error() -> None:
 def test_rendering_of_theme() -> None:
     theme_name = "Minimal"
 
-    theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
+    theme, css_file, theme_downloads = get_raw_saved_sample_data_for_theme(theme_name)
 
     file_groups: utils.FileGroups = dict()
     name, valid = theme.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
@@ -61,7 +61,7 @@ def get_template_for_theme() -> Template:
 def verify_theme_data(theme_name: str) -> None:
     s = StoryBoard()
 
-    theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
+    theme, css_file, theme_downloads = get_raw_saved_sample_data_for_theme(theme_name)
 
     assert theme
     assert theme.name() == theme_name
