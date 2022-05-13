@@ -1,0 +1,10 @@
+{
+  "id": "cooklang-obsidian",
+  "name": "CookLang Editor",
+  "author": "death_au",
+  "authorUrl": "https://github.com/deathau",
+  "description": "Edit and display CookLang recipes in Obsidian",
+  "isDesktopOnly": false,
+  "version": "0.3.0",
+  "minAppVersion": "0.10.12"
+}
