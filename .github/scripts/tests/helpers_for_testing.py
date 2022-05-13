@@ -45,7 +45,7 @@ def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeD
     return theme, css_file, theme_downloads
 
 
-def get_saved_sample_data_for_plugin(plugin_id: str) -> Tuple[Plugin, PluginManifest]:
+def get_raw_saved_sample_data_for_plugin(plugin_id: str) -> Tuple[Plugin, PluginManifest]:
     """
     A convenience function to load raw data for a plugin that has previous been saved
     to .github/scripts/tests/sample_data/plugins
@@ -75,7 +75,7 @@ def get_processed_saved_sample_data_for_plugin(plugin_id: str) -> Plugin:
     A convenience function to load processed/collated data for a plugin that has previous been saved
     to .github/scripts/tests/sample_data/plugins
     """
-    plugin, manifest = get_saved_sample_data_for_plugin(plugin_id)
+    plugin, manifest = get_raw_saved_sample_data_for_plugin(plugin_id)
     plugin_file_groups: utils.FileGroups = dict()
     plugin.collect_data_for_plugin_and_manifest(manifest, plugin_file_groups)
     return plugin
