@@ -10,7 +10,7 @@ from pathlib import Path
 
 import utils
 
-from helpers_for_testing import verify_as_markdown
+from helpers_for_testing import verify_as_markdown, get_processed_saved_sample_data_for_plugin
 
 JINJA_TEMPLATES_DIR = str(Path(__file__).parent.parent.absolute() / 'templates')
 OBSIDIAN_TEMPLATES_DIR = str(Path(__file__).parent.parent.parent.parent / "00 - Contribute to the Obsidian Hub/01 Templates/")
@@ -79,4 +79,13 @@ def test_author_from_templates() -> None:
     template = utils.get_template_from_directory(OBSIDIAN_TEMPLATES_DIR, 'T - Author.md')
     new_content = template.render(title="test-user")
 
+    verify_as_markdown(new_content)
+
+
+def test_plugin_from_jinja() -> None:
+    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "plugin.md.jinja")
+
+    plugin = get_processed_saved_sample_data_for_plugin("nldates-obsidian")
+
+    new_content = template.render(**plugin.data())
     verify_as_markdown(new_content)
