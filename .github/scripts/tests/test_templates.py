@@ -84,7 +84,7 @@ def test_author_from_templates() -> None:
     verify_as_markdown(new_content)
 
 
-def test_plugin_from_jinja() -> None:
+def test_real_data_in_plugin_template() -> None:
     plugin = get_processed_saved_sample_data_for_plugin("nldates-obsidian")
 
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "plugin.md.jinja")
@@ -93,7 +93,7 @@ def test_plugin_from_jinja() -> None:
     verify_as_markdown(new_content)
 
 
-def test_theme_from_jinja() -> None:
+def test_real_data_in_theme_template() -> None:
     theme = get_processed_saved_sample_data_for_theme("Christmas")
 
     template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "theme.md.jinja")
@@ -102,7 +102,7 @@ def test_theme_from_jinja() -> None:
     verify_as_markdown(new_content)
 
 
-def test_author_from_jinja_real_data() -> None:
+def test_real_data_in_author_template() -> None:
     # A plugin and theme written by the same author, deathau
     plugin = get_processed_saved_sample_data_for_plugin("cooklang-obsidian")
     theme = get_processed_saved_sample_data_for_theme("Christmas")
