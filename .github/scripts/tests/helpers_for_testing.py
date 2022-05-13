@@ -23,7 +23,7 @@ def verify_in_json_format_to_markdown(data: Any, options: Options = Options()) -
     verify_as_json(data, options=options.for_file.with_extension(".md"))
 
 
-def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeDownloads]:
+def get_raw_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeDownloads]:
     """
     A convenience function to load data for a theme that has previous been saved
     to .github/scripts/tests/sample_data/themes
@@ -54,7 +54,7 @@ def get_processed_saved_sample_data_for_theme(theme_name: str) -> Theme:
     to .github/scripts/tests/sample_data/themes
     """
 
-    theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
+    theme, css_file, theme_downloads = get_raw_saved_sample_data_for_theme(theme_name)
     theme_file_groups: utils.FileGroups = dict()
     theme.collect_data_for_theme_and_css(css_file, theme_downloads, theme_file_groups)
     return theme
