@@ -47,12 +47,17 @@ def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeD
 
 def get_saved_sample_data_for_plugin(plugin_id: str) -> Tuple[Plugin, PluginManifest]:
     """
-    A convenience function to load data for a plugin that has previous been saved
+    A convenience function to load raw data for a plugin that has previous been saved
     to .github/scripts/tests/sample_data/plugins
 
     This allows for tests to be written using data stored in this repo, instead of
     having to download real plugins and community release information, whose contents will
     change over time, likely causing random test failures and maintenance pain in the future.
+
+    This returns the data from raw Plugin and Manifest json files.
+
+    See also get_processed_saved_sample_data_for_plugin() which collates data from those
+    two files together.
     """
     sample_data_for_plugin = Path(__file__).parent.absolute() / 'sample_data/plugins' / plugin_id
     assert sample_data_for_plugin.exists()
@@ -63,3 +68,14 @@ def get_saved_sample_data_for_plugin(plugin_id: str) -> Tuple[Plugin, PluginMani
     manifest = utils.get_json_from_file(str(sample_data_for_plugin / 'manifest.json'))
 
     return plugin, manifest
+
+
+def get_processed_saved_sample_data_for_plugin(plugin_id: str) -> Plugin:
+    """
+    A convenience function to load processed/collated data for a plugin that has previous been saved
+    to .github/scripts/tests/sample_data/plugins
+    """
+    plugin, manifest = get_saved_sample_data_for_plugin(plugin_id)
+    plugin_file_groups: utils.FileGroups = dict()
+    plugin.collect_data_for_plugin_and_manifest(manifest, plugin_file_groups)
+    return plugin
