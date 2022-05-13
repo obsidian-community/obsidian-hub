@@ -12,6 +12,7 @@ import utils
 
 from helpers_for_testing import verify_as_markdown, get_processed_saved_sample_data_for_plugin, \
     get_processed_saved_sample_data_for_theme
+from update_releases import collate_authors
 
 JINJA_TEMPLATES_DIR = str(Path(__file__).parent.parent.absolute() / 'templates')
 OBSIDIAN_TEMPLATES_DIR = str(Path(__file__).parent.parent.parent.parent / "00 - Contribute to the Obsidian Hub/01 Templates/")
@@ -98,4 +99,19 @@ def test_theme_from_jinja() -> None:
     theme = get_processed_saved_sample_data_for_theme("Christmas")
 
     new_content = template.render(**theme.data())
+    verify_as_markdown(new_content)
+
+
+def test_author_from_jinja_real_data() -> None:
+    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "author.md.jinja")
+
+    # A plugin and theme written by the same author, deathau
+    plugin = get_processed_saved_sample_data_for_plugin("cooklang-obsidian")
+    theme = get_processed_saved_sample_data_for_theme("Christmas")
+
+    all_authors = collate_authors([theme], [plugin])
+    assert len(all_authors) == 1
+    author = all_authors['deathau']
+
+    new_content = template.render(**author)
     verify_as_markdown(new_content)
