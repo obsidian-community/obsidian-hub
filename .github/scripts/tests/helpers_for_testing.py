@@ -31,6 +31,9 @@ def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeD
     This allows for tests to be written using data stored in this repo, instead of
     having to download real themes and community release information, whose contents will
     change over time, likely causing random test failures and maintenance pain in the future.
+
+    See also get_processed_saved_sample_data_for_theme() which collates data from those
+    two files together.
     """
     sample_data_for_theme = Path(__file__).parent.absolute() / 'sample_data/themes' / theme_name
     assert sample_data_for_theme.exists()
@@ -43,6 +46,18 @@ def get_saved_sample_data_for_theme(theme_name: str) -> Tuple[Theme, str, ThemeD
         css_file = f.read()
 
     return theme, css_file, theme_downloads
+
+
+def get_processed_saved_sample_data_for_theme(theme_name: str) -> Theme:
+    """
+    A convenience function to load processed/collated data for a theme that has previous been saved
+    to .github/scripts/tests/sample_data/themes
+    """
+
+    theme, css_file, theme_downloads = get_saved_sample_data_for_theme(theme_name)
+    theme_file_groups: utils.FileGroups = dict()
+    theme.collect_data_for_theme_and_css(css_file, theme_downloads, theme_file_groups)
+    return theme
 
 
 def get_raw_saved_sample_data_for_plugin(plugin_id: str) -> Tuple[Plugin, PluginManifest]:
