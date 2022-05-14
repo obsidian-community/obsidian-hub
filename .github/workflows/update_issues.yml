@@ -1,7 +1,7 @@
 name: update_community_plugin_issue_list
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "59 23 * * 3"
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
