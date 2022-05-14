@@ -30,6 +30,7 @@ This note collects resources for those using Obsidian for tabletop role-playing 
 	- [Forgotten Realms - World - Fork My Brain](https://notes.nicolevanderhoeven.com/ForgottenRealms/World)
 	- [Exandria - World - Fork My Brain](https://notes.nicolevanderhoeven.com/Exandria/World)
 - [Obsidian Table Top Templates](https://github.com/mProjectsCode/Obsidian-Table-Top-Templates) Templates and a Vault structure for TTRPG campaigns and worldbuilding
+- [ObsidianSworn](https://github.com/lolbat/ObsidianSworn). A Vault for use in playing the [Ironsworn RPG](https://www.ironswornrpg.com). 
 
 ## CSS Snippets
 
