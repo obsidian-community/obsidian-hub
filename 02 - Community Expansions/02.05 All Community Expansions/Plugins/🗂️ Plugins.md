@@ -253,6 +253,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-embedded-note-titles|obsidian-embedded-note-titles]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-emoji-toolbar|obsidian-emoji-toolbar]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-emotion-picker|obsidian-emotion-picker]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-enhancing-export|obsidian-enhancing-export]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-enhancing-mindmap|obsidian-enhancing-mindmap]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-epub-plugin|obsidian-epub-plugin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/obsidian-etherpad-plugin|obsidian-etherpad-plugin]]
