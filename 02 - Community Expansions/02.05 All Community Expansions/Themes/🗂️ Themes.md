@@ -83,6 +83,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mado 11|Mado 11]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mammoth|Mammoth]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal|Minimal]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Modern Dark|Modern Dark]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Molecule|Molecule]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Moonlight|Moonlight]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Nebula|Nebula]]

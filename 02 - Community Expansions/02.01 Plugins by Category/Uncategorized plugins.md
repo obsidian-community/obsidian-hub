@@ -203,6 +203,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-filename-emoji-remover|Filename Emoji Remover]]
 - [[obsidian-epub-plugin|ePub Reader]]
 - [[obsidian-pandoc-reference-list|Pandoc Reference List]]
+- [[obsidian-enhancing-export|Obsidian Enhancing Export]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
