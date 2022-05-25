@@ -159,7 +159,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-etherpad-plugin|Etherpad]]
 - [[obsidian-quiet-outline|Quiet Outline]]
 - [[obsidian-daily-notes-viewer|Daily Notes Viewer]]
-- [[obsidian-zotero-desktop-connector|Zotero Desktop Connector]]
+- [[obsidian-zotero-desktop-connector|Zotero Integration]]
 - [[obsidian-telegraph-publish|Telegraph Publish]]
 - [[obsidian-path-title|Path Title]]
 - [[obsidian-jira-issue|JiraIssue]]
@@ -187,7 +187,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-drag-n-drop-plugin|Drag-n-Drop for blocks]]
 - [[obsidian-link-embed|Link Embed]]
 - [[obsidian-columns|Obsidian Columns]]
-- [[obsidian-mkdocs-publisher|Mkdocs Publisher]]
+- [[obsidian-mkdocs-publisher|Github Publisher]]
 - [[obsidian-notion-video|Notion Video]]
 - [[obsidian-math-plus|Obsidian Math+]]
 - [[obsidian-todoist-link|Todoist Link]]
@@ -204,6 +204,13 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-epub-plugin|ePub Reader]]
 - [[obsidian-pandoc-reference-list|Pandoc Reference List]]
 - [[obsidian-enhancing-export|Obsidian Enhancing Export]]
+- [[enlightenment-obsidian|Enlightenment ✨]]
+- [[obsidian-release-timeline|Release Timeline]]
+- [[obsidian-folder-focus-mode|Folder Focus Mode]]
+- [[obsidian-bbcode|BBCode Convertor]]
+- [[obsidian-upcoming|Upcoming]]
+- [[nuke-orphans|Nuke Orphans]]
+- [[obsidian-front-matter-title-plugin|Front Matter Title]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
