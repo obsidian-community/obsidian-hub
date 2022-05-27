@@ -21,13 +21,19 @@ publish: true
 # Supercharged Links
 
 Plugin ID: `supercharged-links-obsidian`
-Links: [GitHub repository](https://github.com/mdelobelle/obsidian_supercharged_links) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=supercharged-links-obsidian)
+Links: [GitHub repository](https://github.com/mdelobelle/obsidian_supercharged_links) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=supercharged-links-obsidian)
 Developed by: [[mdelobelle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Adds properties and menu options to internal links
+Add properties and menu options to links and style them!
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[mdelobelle#Sponsor this author]] %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/supercharged-links-obsidian.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/supercharged-links-obsidian.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

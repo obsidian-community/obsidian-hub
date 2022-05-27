@@ -9,11 +9,13 @@ tags:
 
 #placeholder/description
 
-## MOC
+
+## Vaults with Descriptions in the Hub
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[03 - Showcases & Templates/Vaults/Life Disciplines Projects|Life Disciplines Projects]]
 -  [[03 - Showcases & Templates/Vaults/LYT Kit|LYT Kit]]
+-  [[03 - Showcases & Templates/Vaults/OB_Template|OB_Template]]
 -  [[03 - Showcases & Templates/Vaults/Obsidian JG Method|Obsidian JG Method]]
 -  [[03 - Showcases & Templates/Vaults/Obsidian Starter Templates|Obsidian Starter Templates]]
 -  [[03 - Showcases & Templates/Vaults/PARA Starter Kit|PARA Starter Kit]]
@@ -21,6 +23,9 @@ tags:
 -  [[03 - Showcases & Templates/Vaults/SlRvb's Journaling Setup|SlRvb's Journaling Setup]]
 -  [[03 - Showcases & Templates/Vaults/SlRvb's MediaDB Setup|SlRvb's MediaDB Setup]]
 %% Hub MOCs: Don’t edit above  %%
+
+## Vaults with External Descriptions
+- [Blue topaz themes example vault for Obsidian](https://github.com/cumany/Blue-topaz-examples)
 
 
 ## Contributing
@@ -56,3 +61,9 @@ The steps for both are roughly the same:
    - [[T - Folder structure]] if you're sharing how you've organized your vault (or a part of it)
 3. Fill out any placeholders
 4. [[How to add content through GitHub|Submit your changes to GitHub]]
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/03%20-%20Showcases%20%26%20Templates/Vaults/%F0%9F%97%82%EF%B8%8F%20Vaults.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/03%20-%20Showcases%20%26%20Templates/Vaults/%F0%9F%97%82%EF%B8%8F%20Vaults.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

@@ -1,17 +1,18 @@
 ---
 link: https://www.obsidianroundup.org/2021-10-23/
 author: Eleanor Konik
-published: Sat, 23 Oct 2021 11:30:00 GMT
+published: 2021-10-23T11:30:00
 publish: true
 ---
 
 # 2021-10-23: New Calendar & Code Renders in Edit Mode
+iOS guides, more WYSIWYG improvements, & some neat text tabbing & cursor tricks.
 
 ## In The Community
 
 -   The community talk by `@phibr0` for [creating your own obsidian plugin](https://www.youtube.com/watch?v=XaES2G3PVpg) is now available.
 -   The [TTRPG panel community talk](https://www.youtube.com/watch?v=Ovqu_1aW3Sw) is now available.
--   The LYT House talk with `@ryanjamurphy` about making [Obsidian an Integrated Thinking Environment](https://www.youtube.com/watch?v=fhkwEgGFOg8) is now available.
+-   The [[LYT House]] talk with `@ryanjamurphy` about making [Obsidian an Integrated Thinking Environment](https://www.youtube.com/watch?v=fhkwEgGFOg8) is now available.
 -   A bunch of Discord accounts got hacked and are spamming scam links. It'd be great if you enabled 2-factor authentication on your accounts.
 -   `u/tonystar29` made a [keypad with a macro to automatically](https://www.reddit.com/r/ObsidianMD/comments/qcw5ck/i_made_a_macro_pad_to_track_my_mood_in_my/) put mood ratings into Obsidian daily notes. It's really cool.
 
@@ -24,7 +25,7 @@ _Remember: You can manually install plugins that aren't in the community list by
 ### New
 
 -   [Fantasy Calendar](https://github.com/valentine195/obsidian-fantasy-calendar) is already one of my favorite plugins — I literally downloaded [BRAT](https://github.com/TfTHacker/obsidian42-brat) so I could automatically get updates for it even before it's gone through code review, it's that good. It was technically made to manage events in fantasy worlds with non-standard calendars, but the Gregorian calendar works great for real life stuff too. It's dynamic, it's beautiful, it's flexible, it's literally better than any fantasy calendar app I've ever used in my life. I've been looking for something like for _years_ and as a bonus it solves _two_ huge problems for me.
--   The new [Pikt plugin](https://github.com/arnau/obsidian-pikt) adds support for the Pikchr markup language for diagrams in technical documentations. It looks like a more flexible version of mermaid.
+-   The new [Pikt plugin](https://github.com/arnau/obsidian-pikt) adds support for the Pikchr markup language for diagrams in technical documentations. It looks like a more flexible version of [[Mermaid]].
 -   You can now [tab out](https://github.com/phibr0/obsidian-tabout) of markup.
 -   [Another Quick Switcher](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher) has a bunch of nice functionality for searching, including backlinks search, emoji support, and more.
 -   Here's a nice [daily quote](https://github.com/twentytwokhz/quote-of-the-day) plugin.
@@ -97,7 +98,7 @@ _Remember: You can manually install plugins that aren't in the community list by
 ## Discussions
 
 -   Here's a [discussion thread for Obsidian with NaNoWriMo](https://forum.obsidian.md/t/nanowrimo-obsidian/25076/10) that covers a lot of things relevant to authors.
--   Here's a reminder that Zettelkasten style notes are [not optimized for doing well on exams](https://www.reddit.com/r/ObsidianMD/comments/qbigpl/help_needed_when_it_comes_to_integrating_obsidian/).
+-   Here's a reminder that [[Zettelkasten]] style notes are [not optimized for doing well on exams](https://www.reddit.com/r/ObsidianMD/comments/qbigpl/help_needed_when_it_comes_to_integrating_obsidian/).
 -   [How are you using Obsidian to organize your podcast notes?](https://forum.obsidian.md/t/how-are-you-organizing-your-knowledge-from-podcasts/26013)
 
 ## Knowledge Management
@@ -110,3 +111,9 @@ _Remember: You can manually install plugins that aren't in the community list by
 -   Here's a discussion of [Windows file explorer tools](https://www.reddit.com/r/ObsidianMD/comments/qcetgb/using_obsidian_as_a_file_explorer/) that "feel" like Obsidian for navigating files.
 
 ## Housekeeping
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-10-23%20%20New%20Calendar%20%26%20Code%20Renders%20in%20Edit%20Mode.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-10-23%20%20New%20Calendar%20%26%20Code%20Renders%20in%20Edit%20Mode.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

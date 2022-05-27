@@ -1,0 +1,10 @@
+name: "Setup git config"
+description: "Shared action for ensuring consistent git user"
+runs:
+  using: "composite"
+  steps:
+      - name: Set up git config
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+        shell: bash

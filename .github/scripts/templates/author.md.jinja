@@ -1,65 +1,22 @@
----
-aliases:
-- {{author}}
-tags:
-- 
-publish: true
----
+{% include "authors/frontmatter.md.jinja" %}
 
-# {{author}}
 
-- GitHub: [{{user}}](https://github.com/{{user}}/) ^github
-<!-- - Discord: `@` ^discord-->
-{% if not website %}<!-- {% endif %}- Website: <{{ website }}> ^website{% if not website %}-->{% endif +%}
-<!-- - [[Publish sites|Publish site]]: ^publish-->
+{% include "authors/author_info.md.jinja" %}
 
-%% Feel free to add a bio below this comment %%
 
 
 ## Author of
 
-%% Begin Hub: Released contributions %%
-{% if plugins %}### Plugins
-{% for plugin in plugins %}
-- {{ plugin }}
-{% endfor %}
-{% endif %}
+{% include "authors/released_contributions.md.jinja" %}
 
-{% if themes %}### Themes
-{% for theme in themes %}
-- {{ theme }}
-{% endfor %}
-{% endif %}
-%% End Hub: Released contributions %%
 
-%% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
+{% include "authors/unreleased_contributions.md.jinja" %}
 
-<!--
-### Unlisted plugins
 
-- 
--->
+{% include "authors/sponsor_author.md.jinja" %}
 
-<!--
-### Others
 
-- 
--->
+{% include "authors/follow_author.md.jinja" %}
 
-<!--
-## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @{{user}} on GitHub Sponsors](https://github.com/sponsors/{{user}}) ^github-sponsor
-- [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
--->
-
-<!--
-## Follow this author
-
-- [[YouTube Channels|On YouTube]]: ^youtube
-- Twitter: ^twitter
-- ...
--->
+{% include "footer.md.jinja" %}

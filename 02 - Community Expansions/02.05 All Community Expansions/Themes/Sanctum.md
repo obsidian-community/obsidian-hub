@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-4048-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-33982-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jdanielmourao/obsidian-sanctum?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/jdanielmourao/obsidian-sanctum/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jdanielmourao/obsidian-sanctum?color=573E7A&logo=github&style=for-the-badge)
@@ -40,25 +40,26 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 ## Customization Options (Style Settings Plugin) 
 
 **Colors**: 
-- Light mode palette: Background color palette for light mode
-- Dark mode palette: Background color palette for dark mode
-- Dark Mode High Contrast Code Background: Gives a darker background to code in dark mode, for more contrast.
-- Use Accent color as Active Line Highlight: Replaces the grey with the accent color for active line highlighting.
+- **Color Schemes**: 
+    - Light mode color scheme: Background color palette for light mode
+    - Dark mode color scheme: Background color palette for dark mode
+    - **Custom Colors**: ⚠️ Don't change brightness values if you wish to keep the theme's contrast ratios closer to the original palette
+        - Light Mode Hue
+        - Light Mode Saturation
+        - Light Mode Brightness
+        - Dark Mode Hue
+        - Dark Mode Saturation
+        - Dark Mode Brightness
 - **Accent Colors**: 
     - Light Mode Accent Color
     - Dark Mode Accent Color
-    - Text accent hover color: Color that displays when hovering elements that have the accent color by default (e.g. footnote numbers).
-- **Highlight Colors**: Set the colors for highlights and highlighted text!
-    - Highlight 1: The color of the highlight.
-    - Highlight 1 Text: The color of highlighted text when hovered.
-    - Highlight 2: The color of the highlight.
-    - Highlight 2 Text: The color of highlighted text when hovered.
-    - Highlight 3: The color of the highlight.
-    - Highlight 3 Text: The color of highlighted text when hovered.
+    - Checkbox Color: The color of the regular "- [x]" checkbox
+    - Text Selection Color
 - **Graph Colors**: 
     - Active Note Node Color
     - Tag Node Color
     - Attachment Node Color
+    - Unresolved Node Color
 
 **Typography**: 
 - Preview Mode line width: The maximum number of characters per line.
@@ -67,61 +68,102 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Edit Mode Font
     - UI font
     - Monospace Font
+    - Frontmatter/YAML Font
 - **Headings**: 
     - Heading Font Preview Mode
     - Heading Font Editor Mode
-    - **Heading Sizes**: 
-        - Heading 1 Size: Changes the size of Heading 1 based on percentage.
-        - Heading 2 Size: Changes the size of Heading 2 based on percentage.
-        - Heading 3 Size: Changes the size of Heading 3 based on percentage.
-        - Heading 4 Size: Changes the size of Heading 4 based on percentage.
-        - Heading 5 Size: Changes the size of Heading 5 based on percentage.
-        - Heading 6 Size: Changes the size of Heading 6 based on percentage.
-    - **Heading Colors**: 
-        - Toggle Heading Font Colours
-        - Toggle Heading Background Colours
+    - Heading Indicators: Disable the typora-like heading indicators in Live Preview.
+    - Heading Indicators in active line only: Enables typora-like heading indicators in Live Preview, only in the active line.
+    - **Weights**: 
+        - Heading 1 Weight: Default value - semi-bold (600)
+        - Heading 2 Weight: Default value - semi-bold (600)
+        - Heading 3 Weight: Default value - semi-bold (600)
+        - Heading 4 Weight: Default value - semi-bold (600)
+        - Heading 5 Weight: Default value - semi-bold (600)
+        - Heading 6 Weight: Default value - semi-bold (600)
+    - **Sizes**: 
+        - Heading 1 Size
+        - Heading 2 Size
+        - Heading 3 Size
+        - Heading 4 Size
+        - Heading 5 Size
+        - Heading 6 Size
+    - **Colors**: 
+        - Toggle Heading Font Colors
+        - Toggle Heading Background Colors
         - **Heading Font Colors**: 
-            - Heading 1 Color
-            - Heading 2 Color
-            - Heading 3 Color
-            - Heading 4 Color
-            - Heading 5 Color
-            - Heading 6 Color
+            - **Heading 1**: 
+                - Heading 1 Light Mode
+                - Heading 1 Dark Mode
+            - **Heading 2**: 
+                - Heading 2 Light Mode
+                - Heading 2 Dark Mode
+            - **Heading 3**: 
+                - Heading 3 Light Mode
+                - Heading 3 Dark Mode
+            - **Heading 4**: 
+                - Heading 4 Light Mode
+                - Heading 4 Dark Mode
+            - **Heading 5**: 
+                - Heading 5 Light Mode
+                - Heading 5 Dark Mode
+            - **Heading 6**: 
+                - Heading 6 Light Mode
+                - Heading 6 Dark Mode
         - **Heading Background Colors**: 
-            - Heading 1 Color
-            - Heading 2 Color
-            - Heading 3 Color
-            - Heading 4 Color
-            - Heading 5 Color
-            - Heading 6 Color
+            - **Heading 1**: 
+                - Heading 1 Light Mode: The higher the number, the lower the brightness
+                - Heading 1 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 2**: 
+                - Heading 2 Light Mode: The higher the number, the lower the brightness
+                - Heading 2 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 3**: 
+                - Heading 3 Light Mode: The higher the number, the lower the brightness
+                - Heading 3 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 4**: 
+                - Heading 4 Light Mode: The higher the number, the lower the brightness
+                - Heading 4 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 5**: 
+                - Heading 5 Light Mode: The higher the number, the lower the brightness
+                - Heading 5 Dark Mode: The higher the number, the lower the brightness
+            - **Heading 6**: 
+                - Heading 6 Light Mode: The higher the number, the lower the brightness
+                - Heading 6 Dark Mode: The higher the number, the lower the brightness
 
 **Features**: 
+- Fade inactive panes: Fades every pane other than the active one, for better focus
+- Disable custom tasks and pseudo-admonitions
 - <hr> ("---") Options: For Edit Mode
 - Edit Mode Tasks: Makes filled tasks green and empty ones red, in Edit Mode.
-- Wrap Note Titles: Displays the entire note title, even when the width is small.
 - Wrap Kanban Lanes: Makes Kanban Lanes wrap in multiple rows if needed.
+- **Active Line Highlighting**: 
+    - Enable active line highlighting: Disables active line highlighting
+    - Use Accent color as Active Line Highlight: Replaces the grey with the accent color for active line highlighting.
 - **Footnotes**: 
     - Footnote Title: Places a lvl.2 heading before the Footnotes.
     - Footnotes heading
 - **Tables**: 
-    - Table Width: Increase table width threshold.
-    - Center Tables: Centers all tables in the note.
-    - Alternate Dataview Tables: Alternates row colors for easier reading.
+    - Table Options: Customize the look of your tables!
 - **Sidenotes**: 
     - Sidenote Options: Left and right sidenote colors
     - Inner Sidenote Options: Inner sidenote colors
-- **Relationship Lines**: 
-    - Relationship Lines: Toggle relationship lines on lists
-    - Alternating Relationship Lines Colors: Toggle alternating relationship lines on lists.
+- **Links**: 
+    - Change internal link appearance: Switches to more understated internal links.
+- **Lists**: 
+    - Odd numbered list marker content: –\2009\2009 by default, \2009 is unicode for small space
+    - Even numbered list marker content
 
 **Elements**: 
-- Hide Frontmatter: This setting hides frontmatter in Preview Mode.
+- Hide Titlebar center text: This setting hides the center text of the titlebar.
+- Show YAML: Disables YAML reveal on hover and simply shows it as a code block.
 - Status Bar on top: This setting moves the status bar to the top. To click on icons aim for the border.
 - Tab Header Icon side padding: Changes tab header icons side padding.
+- Compact Outline: Hides excess text in the outline pane so every title is 1 row tall.
 - **File Explorer**: 
+    - Justify Note titles to the left
     - Show Vault Name
     - Left Nav Arrows: Moves nav arrows to the left, like default obsidian.
-    - File Explorer Relationship Lines: Adds hierarchy lines in File explorer.
+    - File Explorer Relationship Lines [Temporarily Disabled]: Adds hierarchy lines in File explorer.
     - No File Icons: Removes file icons from file explorer.
     - No Folder Icons: Removes file icons from file explorer.
     - Show full titles: Turns off trimming of folder and file titles.
@@ -134,6 +176,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - No Scrollbar in Notes: Disables Scrollbars in Notes.
     - No Scrollbar in File Explorer: Disables Scrollbars in File Explorer.
     - No Scrollbar in Modal: Disables Scrollbars in settings menus.
+
+**Mobile**: 
+- Disable floating button: This setting disables the floating Editing/Reading view button, making it go back to the top.
 
 **Advanced Options**: 
 - No background blur: This setting disables background blur on modals.
@@ -174,3 +219,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[templater-obsidian|Templater]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/Sanctum.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/Sanctum.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

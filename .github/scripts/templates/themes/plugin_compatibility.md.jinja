@@ -1,0 +1,13 @@
+{% if plugins.core %}
+**Core plugins**:
+{% endif %}
+{% for plugin in plugins.core %}
+- [[{{ plugin }}]]
+{% endfor %}
+{% if plugins.community %}
+
+**Community plugins**:
+{% endif %}
+{% for plugin in plugins.community %}
+- [[{{ plugin }}]]
+{% endfor %}

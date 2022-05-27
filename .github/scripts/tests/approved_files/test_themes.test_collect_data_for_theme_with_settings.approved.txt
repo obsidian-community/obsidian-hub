@@ -1,0 +1,97 @@
+Initial:
+{
+    "author": "kepano",
+    "modes": [
+        "dark",
+        "light"
+    ],
+    "name": "Minimal",
+    "repo": "kepano/obsidian-minimal",
+    "screenshot": "dark-simple.png"
+}
+
+Frame #1:
+{
+    "author": "kepano",
+    "branch": "master",
+    "download_count": 48049,
+    "modes": "[[Dark-mode themes|dark]], [[Light-mode themes|light]]",
+    "name": "Minimal",
+    "plugins": {
+        "community": [
+            "buttons|Buttons",
+            "dataview|Dataview",
+            "calendar|Calendar",
+            "obsidian-checklist-plugin|Checklist"
+        ],
+        "core": [
+            "Obsidian Core Plugins#Backlinks|Backlinks",
+            "Obsidian Core Plugins#Command palette|Command palette",
+            "Obsidian Core Plugins#Daily notes|Daily notes"
+        ]
+    },
+    "repo": "kepano/obsidian-minimal",
+    "screenshot": "dark-simple.png",
+    "settings": [
+        {
+            "header": "**Welcome \ud83d\udc4b**: THIS IS A CUT-DOWN COPY OF THIS THEME, FOR TESTING CODE IN THE OBSIDIAN HUB. Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.",
+            "type": "heading"
+        },
+        {
+            "header": "**Interface**: ",
+            "type": "heading"
+        },
+        {
+            "title": "- Base color: Defines all background and border colors unless overridden below",
+            "type": "variable-themed-color"
+        },
+        {
+            "title": "- Accent color: Defines link and checkbox colors unless overridden below",
+            "type": "variable-themed-color"
+        },
+        {
+            "header": "**Icons**: ",
+            "type": "heading"
+        },
+        {
+            "title": "- Icon opacity (inactive)",
+            "type": "variable-number-slider"
+        },
+        {
+            "header": "**Headings**: ",
+            "type": "heading"
+        },
+        {
+            "title": "- **Level 1 Headings**: "
+        },
+        {
+            "title": "    - H1 font size: Accepts any CSS font-size value",
+            "type": "variable-text"
+        },
+        {
+            "title": "    - H1 font weight: Accepts numbers representing the CSS font-weight",
+            "type": "variable-number"
+        },
+        {
+            "title": "    - H1 font variant",
+            "type": "variable-select"
+        },
+        {
+            "title": "- **Level 2 Headings**: "
+        },
+        {
+            "title": "    - H2 font size: Accepts any CSS font-size value",
+            "type": "variable-text"
+        },
+        {
+            "title": "    - H2 font weight: Accepts numbers representing the CSS font-weight",
+            "type": "variable-number"
+        },
+        {
+            "title": "    - H2 font variant",
+            "type": "variable-select"
+        }
+    ],
+    "user": "kepano"
+}
+

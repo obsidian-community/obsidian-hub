@@ -42,3 +42,9 @@ This note is based on the instructions of the [obsidian sample plugin readme](ht
 5. Once you've opened the PR, you'll be prompted to use the pull request template. Complete everything in it and submit.
 	![[plugin-submission-PR-template.png]]
 6. Your plugin will go through a small review process. Once your plugin is approved, the PR will be merged and users will be able to install it from the community plugin list.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20add%20your%20plugin%20to%20the%20community%20plugin%20list.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20add%20your%20plugin%20to%20the%20community%20plugin%20list.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

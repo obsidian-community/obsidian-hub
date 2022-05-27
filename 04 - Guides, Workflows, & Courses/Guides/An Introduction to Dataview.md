@@ -11,110 +11,67 @@ publish: true
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 
-The markdown slides from my [[Obsidian Community Talks|Community Talk]] on [[YT - An Introduction to Dataview|An Introduction to Dataview]].
-You can convert these slides to [[revealjs]] by [[Using Pandoc inside Obsidian|using Pandoc]].
+This is a reformatted, web-compatible version of the very first [[Obsidian Community Talks|Obsidian Community Talk]], an overview of the [[dataview|Dataview]] plugin, held by [[SkepticMystic]].
+
+The original slides can be found [[An Introduction to Dataview Slides|here]] and are best viewed with Obsidian and the [[obsidian-advanced-slides|Advanced Slides]] plugin or converted to [[revealjs]] with [[YT - Pandoc and Obsidian - Create slideshows, PDFs and Word documents|Pandoc]]. Make sure to also take a look at the [[YT - An Introduction to Dataview|YouTube video]] for in-depth explanations.
 
 By [[SkepticMystic]]
 
-# Overview
+## Overview
+1. [[An Introduction to Dataview#Introduction|Broad Intro to Dataview]]
+2. [[An Introduction to Dataview#Metadata|Metadata]]
+3. [[An Introduction to Dataview#Dataview Queries|Dataview Queries]]
+    - [[An Introduction to Dataview#List|List]]
+    - [[An Introduction to Dataview#From|From]]
+    - [[An Introduction to Dataview#Where|Where]]
+    - [[An Introduction to Dataview#Task|Task]]
+    - [[An Introduction to Dataview#Table|Table]]
+    - [[An Introduction to Dataview#Sort|Sort]]
+    - [[An Introduction to Dataview#Flatten|Flatten]]
+    - [[An Introduction to Dataview#Group by|Group by]]
+    
+## Introduction
+[[dataview|Dataview]] is a plugin which lets you query data from your vault. The *official documentation* which you can use for reference is available here:
 
----
+https://blacksmithgu.github.io/obsidian-dataview
 
-1.  Broad Intro to Dataview
+## Metadata
 
-. . .
+### What is it?
 
-2.  Metadata
-
-::: incremental
-
-3.  Dataview Queries
-    - `List`
-    - `From`
-    - `Where`
-    - `Task`
-    - `Table`
-    - `Sort`
-    - `Flatten`
-    - `Group by`
-
-:::
-
-# Introduction
-
-## {data-background-iframe="https://blacksmithgu.github.io/obsidian-dataview/#/README"}
-
-# Metadata
-
-## What is it?
-
-Metadata provides information _about_ your data.
-
-. . .
-
+Metadata provides information _about_ your data. 
 It is _extra_ info that is either already _inherent_ in your data, or info that you **manually add**.
 
-## Examples of Metadata 💡
+### Examples of Metadata 💡
 
----
-
-### Photographs
-
-::: incremental
-
+#### Photographs
 - Date & time ⏰
 - Location 🌍
 - People 🧑‍🤝‍🧑
 
-:::
-
----
-
 My display picture has the following _inherent_ metadata:
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-![|SkepticMystic Mandala dp](https://i.imgur.com/UrwAWzI.jpg)
-:::
-::: {.column width="40%"}
-![|Image metadata](https://i.imgur.com/dWmowLU.png)
-:::
-::::::::::::::
+![SkepticMystic Mandala dp|400](https://i.imgur.com/UrwAWzI.jpg)
 
----
+![Image metadata|400](https://i.imgur.com/dWmowLU.png)
 
 But it could also be given other properties:
 
-![|Edit image metadata](https://i.imgur.com/YPT6Gzb.png){ height=400px }
+![Edit image metadata|400](https://i.imgur.com/YPT6Gzb.png)
 
----
-
-### Markdown Notes
+#### Markdown Notes
 
 We can also add metadata to **Markdown notes** using a language called <abbr title="Yaml Ain't Markup Language"><em>YAML</em></abbr>.
 
 - YAML is a **structured** way of adding _arbitrary_ metadata to a file.
 
----
-
-#### Adding YAML Metadata
+### Adding YAML Metadata
 
 1.  At the **top** of your note, add 3 dashes `---`
 2.  Underneath that, you can start adding key-value pairs in the form `key: value`
-    - In the photo example, this would look as follows:
-
-```yaml
----
-dimensions: 1200x1200
-bit depth: 24
-title: "Mandala Display Picture"
-rating: 5
----
-```
-
 3.  To finish the metadata block, close it off with 3 dashes again `---`.
 
----
+In the photo example, this would look as follows:
 
 ```yaml
 ---
@@ -125,7 +82,7 @@ rating: 5
 ---
 ```
 
-## YAML Lists
+#### YAML Lists
 
 You can add more than one `value` to each `key` using _lists_.
 
@@ -137,8 +94,6 @@ There are two notations you can use:
 foods: [apples, pears, oranges]
 ```
 
----
-
 ##### 2. Indented
 
 ```yaml
@@ -148,11 +103,11 @@ foods:
   - oranges
 ```
 
-==Note the spacing==
+**Note the spacing!**
 
-## Types of Metadata
+### Types of Metadata
 
-You can find this information on the [Dataview reference page](https://blacksmithgu.github.io/obsidian-dataview/#/README)
+You can find this information on the [Dataview reference page](https://blacksmithgu.github.io/obsidian-dataview/#/README).
 
 ```yaml
 number: 3.6
@@ -171,8 +126,6 @@ date:
 link: [[2021-04-09 Daily Note]]
 ```
 
----
-
 ### Implicit Metadata in all notes
 
 | Property     | Value                                    | Type     |
@@ -184,36 +137,23 @@ link: [[2021-04-09 Daily Note]]
 | `file.ctime` | Date that the file was **created**       | `date`   |
 | `file.mtime` | Date that the file was last **modified** | `date`   |
 | `file.day`   | The **date** contained in the note title | `date`   |
+| `file.tags`  | An `array` of all **tags** in the note.  | `array`  |
 
----
+Subtags are broken down by each level, so `#Tag/1/A` will be stored in the array as `[#Tag, #Tag/1, #Tag/1/A]`
 
-`file.tags` - An `array` of all **tags** in the note.
-
-. . .
-
-- Subtags are broken down by each level, so `#Tag/1/A` will be stored in the array as
-
-<br>
-
-`[#Tag, #Tag/1, #Tag/1/A]`
-
-# Dataview Queries
-
-## `List`
-
+## Dataview Queries
+### `List`
 Creates a _list_ of the specified notes
 
 ```dataview
 list
 ```
 
-## `From`
+### `From`
 
 Determines **where** to get notes _from_.
 
----
-
-### From \#Tag
+#### From \#Tag
 
 You can get all notes _from_ a specified **tag**:
 
@@ -222,9 +162,7 @@ list
 from #MOC
 ```
 
----
-
-### From "Folder"
+#### From "Folder"
 
 All notes from a **folder**:
 
@@ -233,9 +171,7 @@ list
 from "1. Projects"
 ```
 
----
-
-### From \[\[Links\]\]
+#### From \[\[Links\]\]
 
 And even all notes with links coming _into_ a note:
 
@@ -253,24 +189,16 @@ from outgoing([[yoga MOC]])
 
 - This syntax may change in an upcoming release.
 
----
-
-### Combining Sources
+#### Combining Sources
 
 You can use the 3 basic logical operators to create more complex `from` queries:
-
-::: incremental
 
 - `list from #A and #B`
 - `list from "University" or "Work"`
 - `list from -#Personal`
 - `list from [[CSS]] and -#HTML`
 
-:::
-
----
-
-### String Concatenation
+#### String Concatenation
 
 In the results of a `list`, you can include metadata fields joined with strings
 
@@ -279,9 +207,7 @@ list "File Path: " + file.path + " :)"
 from #SN
 ```
 
----
-
-### Lists of lists
+#### Lists of lists
 
 A `list` can also display indented sublists of metadata:
 
@@ -290,7 +216,7 @@ list authors
 from #SN/Blog
 ```
 
-## `Task`
+### `Task`
 
 `Task` searches for all checkboxes `- [ ] ` in your vault.
 
@@ -300,25 +226,16 @@ It returns a list of all tasks, grouped by their parent note
 task from #MOC
 ```
 
-# `Where`
-
----
+### `Where`
 
 After choosing _which_ notes to use, you can narrow down the list further using a `where` block.
-
-. . .
-
 This lets you use the various _comparison operators_ on the metadata fields in your notes.
 
 `>`, `>=`, `<`, `<=`, `=`, `!=`
 
-. . .
+`where {condition}`
 
-<center>`where {condition}`</center>
-
-## Examples
-
-::: incremental
+#### Examples
 
 - `where file.size > 1000`
 
@@ -328,52 +245,42 @@ This lets you use the various _comparison operators_ on the metadata fields in y
 
 - `where !complete`
 
-:::
-
-# `Table`
-
----
+### `Table`
 
 `Table` can show you a _table_ of various metadata fields linked to each note.
 
 `Table {field 1}, {field 2}, ...`
 
-## Examples
+#### Examples
 
 ```dataview
 table intensity
 from #Uni/2021/Asg
 ```
 
-![|Dataview table](https://i.imgur.com/OnEoP7J.png)
-
----
+![Dataview table](https://i.imgur.com/OnEoP7J.png)
 
 ```dataview
 table title, type
 from #SN
 ```
 
----
-
 ```dataview
 table file.tags
 from Kw/Yoga
 ```
 
-## `Sort`
+### `Sort`
 
 You can use `sort` to define which order to list the results in, and which `field` to sort by:
 
 `sort field asc/desc`
 
-. . .
-
 Give multiple fields to decide ties
 
 `sort field1 asc/desc, field2 asc/desc, ...`
 
-## `Flatten`
+### `Flatten`
 
 Use `flatten` to "unroll" lists into their own rows.
 
@@ -381,43 +288,35 @@ Use `flatten` to "unroll" lists into their own rows.
 table authors from #SN
 ```
 
-Versus
+<center>versus</center>
 
 ```dataview
 table authors from #SN
 flatten authors
 ```
 
-## `Group by`
+### `Group by`
 
 `Group by` lets do gather together results based on the value of a field.
 
-Examples:
-
-- Group tasks by `completed`
-- Group games by `rating`
-- Group assignments by `intensity`
-
----
+You may group:
+- tasks by `completed`
+- games by `rating`
+- assignments by `intensity`
 
 First, gather all the assignments:
 
-<center>`from #Uni/2021/Asg `</center>
+`from #Uni/2021/Asg`
 
-Then, group by `intensity`:
+Then, group by `intensity`: 
 
-<center>`group by intensity`</center>
+`group by intensity`
 
----
-
-### `rows` Object
+#### `rows` Object
 
 By grouping the notes, we've created a **new object**.
 
-This is a **nested list** of all the assignments grouped by intensity.
-
-. . .
-
+This is a **nested list** of all the assignments grouped by intensity. 
 Something like:
 
 ```js
@@ -428,14 +327,10 @@ Something like:
 ];
 ```
 
----
-
 To access this new list, we use the `rows` object.
 
 - Get the file name of every note in the array: `rows.file.name`
 - Get the due date of every note: `rows.dueDate`
-
----
 
 ```dataview
 table intensity, rows.title
@@ -443,7 +338,7 @@ from #Uni/2021/Asg
 group by intensity
 ```
 
-## Group by tags
+#### Group by tags
 
 ```dataview
 table rows.file.tags, rows.file.link
@@ -451,62 +346,57 @@ from #Fi/Yoga
 group by file.tags
 ```
 
-. . .
-
-### Limitations
+##### Limitations
 
 It will only consider two notes to be in the same group if they have **exactly the same tags**.
 
 - So even if two notes have `#Note/Author`, if the one has a tag that the other doesn't, they won't be grouped together.
 
-# Functions
+## Functions
 
-## `Contains()`
+### `Contains()`
 
 Used to see if:
 
 - a `string` _contains_ a substring
 - a `list` _contains_ a value
 
-. . .
-
 `where contains(file.name, "Daily Note")`
-
-. . .
-
 `where contains(authors, "Robert Lamb")`
 
-## `Length()`
+### `Length()`
 
 Returns the _length_ of a `string` or `list`
 
-. . .
-
 `where length(file.name) > 10`
 
-## `Sum()`
+### `Sum()`
 
 Returns the _sum_ of the numbers in a `list`
 
-. . .
-
 `where sum(minutesStudied) < 60`
 
-## Many other Functions
+### Many other Functions
+For further info on implemented functions, head over to [the official documentation](https://blacksmithgu.github.io/obsidian-dataview/#/functions).
 
-[Further reading](https://blacksmithgu.github.io/obsidian-dataview/#/functions)
+## Neat Examples
+People have come up with a lot of interesting ways of leveraging Dataview. Many have been shared in the central [Dataview Snippet Showcase](https://forum.obsidian.md/t/dataview-plugin-snippet-showcase/13673) on the Obsidian Forum.
 
-# Neat Examples
+### Untagged Notes
+For example, finding all untagged notes in your vault is as simple as:
 
-## [Snippet Showcase](https://forum.obsidian.md/t/dataview-plugin-snippet-showcase/13673) {data-background-iframe="https://forum.obsidian.md/t/dataview-plugin-snippet-showcase/13673"}
+`list where length(file.tags) = 0`
 
-## Untagged Notes
-
-<center>`list where length(file.tags) = 0`</center>
-
-## Birthdays
+### Birthdays
+If you track \#People in separate notes and add their Birthday as a dataview property, you could compile a list of everyone whose birthday is today like this:
 
 ```dataview
 list from #People
 where Dates.Birthday = "<% tp.date.now(format = "YYYY-MM-DD") %>"
 ```
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/An%20Introduction%20to%20Dataview.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/An%20Introduction%20to%20Dataview.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

@@ -1,11 +1,12 @@
 ---
 link: https://www.obsidianroundup.org/2021-10-15/
 author: Eleanor Konik
-published: Sat, 16 Oct 2021 11:30:00 GMT
+published: 2021-10-16T11:30:00
 publish: true
 ---
 
 # 2021-10-15: More WYSIWYG Functionality & Some Really Nice Documentation
+Improved snippet management, a GUI for multi-color highlighting, & chart generation from markdown tables.
 
 ## In The Community
 
@@ -74,7 +75,7 @@ publish: true
 -   My community talk about [project management in Obsidian](https://youtube.com/watch?v=F4LE-nIzefM) is live on YouTube. I focused mostly on fiction, but it's a comprehensive overview of my workflow from beginning (ideation) to end (tracking the marketing for a finished product).
 -   Here's a new and very comprehensive [getting started" guide for PKM in Obsidian](https://www.nickseitz.com/writing/obsidian-day-one-starterpack) from `@_Nick`
 -   `@ryanjamurphy` put together a guide to creating [an Obsidian homescreen](https://axle.design/an-obsidian-homescreen-for-iphone-and-ipad) for iOS. It includes detailed instructions for each of the shortcuts and a video walkthrough of what it looks like to use each button/widget.
--   `@joshduffney` tried out a paper Zettelkasten and then re-read _How to Take Smart Notes_ to get a better understanding of the practice and shared his new understanding [on YouTube](https://www.youtube.com/watch?v=OP2WnLgvYBs).
+-   `@joshduffney` tried out a paper [[Zettelkasten]] and then re-read _How to Take Smart Notes_ to get a better understanding of the practice and shared his new understanding [on YouTube](https://www.youtube.com/watch?v=OP2WnLgvYBs).
 -   Here's a guide for [how to build a plugin using Svelte](https://marcus.se.net/obsidian-plugin-docs/guides/svelte).
 
 ## Discussions
@@ -92,3 +93,9 @@ publish: true
 -   Sorry I sent this early last week — I know I confused a couple of people! I hit the wrong button in Ghost because I was in a hurry, totally my own fault.
 -   If the lack of dark mode for the Obsidian Roundup website has been annoying you, please buy `@phibr0` [a coffee](https://www.buymeacoffee.com/phibr0), because he fixed the [Roundup's CSS](https://www.obsidianroundup.org/) so that it updates based on your system preferences (and made a few other tweaks that I have been putting off).
 -   I did not forget about the topia community coworking space, but we ran into some technical limitations that didn't get caught in testing (we uh, we have more than 9 people who show up to events). I have some meetings with various software folks next week to see if we can't find something that works for the numbers of people who show up. Most stuff seems geared mostly for workplaces or conventions? If you have any recommendations please reach out!
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-10-15%20%20More%20WYSIWYG%20Functionality%20%26%20Some%20Really%20Nice%20Documentation.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-10-15%20%20More%20WYSIWYG%20Functionality%20%26%20Some%20Really%20Nice%20Documentation.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

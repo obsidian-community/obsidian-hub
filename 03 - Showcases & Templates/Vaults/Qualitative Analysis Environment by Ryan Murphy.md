@@ -37,3 +37,9 @@ Link: https://forum.obsidian.md/t/slrvbs-mediadb-setup/23227
 1. Step 1
 2. Step 2
 %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/03%20-%20Showcases%20%26%20Templates/Vaults/Qualitative%20Analysis%20Environment%20by%20Ryan%20Murphy.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/03%20-%20Showcases%20%26%20Templates/Vaults/Qualitative%20Analysis%20Environment%20by%20Ryan%20Murphy.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

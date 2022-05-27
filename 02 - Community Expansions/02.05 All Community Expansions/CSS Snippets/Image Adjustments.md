@@ -17,7 +17,7 @@ publish: true
 %% Paste your template below %%
 
 ---
-[**Grab the snippet here**](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Theme%20-%20All%20Alternate%20Themes.css)
+[**Grab the snippet here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Images%20Adjustments.css)
 Included in the [[ITS Theme]].
 
 ---
@@ -26,8 +26,10 @@ Included in the [[ITS Theme]].
 ##### How to use the snippet:
 [Readme Guide](https://github.com/SlRvb/Obsidian--ITS-Theme#image-positions)
 
-**Video Explanation:** ["Slides" from the video](https://slrvb.github.io/Site/3_Nebula/ITS-Theme/ITST_Image-Positions/)
-<iframe width="100%" height="250px" src="https://www.youtube.com/embed/VRoBNWvw8sU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Video Explanation:**
+["Slides" from the video](https://slrvb.github.io/Site/3_Nebula/ITS-Theme/ITST_Image-Positions/)
+
+![[Image Adjustment Snippets - ITS Theme#^image-adjustment-community-talk|clean]]
 
 # Screenshots
 **Positions** around the note:
@@ -38,3 +40,9 @@ Included in the [[ITS Theme]].
 
 **Image Grids & Captions:**
 [![](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Image-Grids.png)](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Image-Grids.png)
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/CSS%20Snippets/Image%20Adjustments.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/CSS%20Snippets/Image%20Adjustments.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

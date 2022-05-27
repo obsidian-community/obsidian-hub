@@ -21,7 +21,7 @@ publish: true
 # Crypto Lookup
 
 Plugin ID: `obsidian-crypto-lookup`
-Links: [GitHub repository](https://github.com/kinabalu/obsidian-crypto-lookup) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-crypto-lookup)
+Links: [GitHub repository](https://github.com/kinabalu/obsidian-crypto-lookup) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-crypto-lookup)
 Developed by: [[kinabalu]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
@@ -31,3 +31,9 @@ A plugin for Obsidian which uses the Cryptonator API to pull back prices for cry
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[kinabalu#Sponsor this author]] %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/obsidian-crypto-lookup.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/obsidian-crypto-lookup.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

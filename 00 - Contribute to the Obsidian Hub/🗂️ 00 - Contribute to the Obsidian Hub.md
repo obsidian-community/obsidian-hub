@@ -14,20 +14,31 @@ publish: true
 
 In this folder, you can find all the resources you need to make contributions to the collective knowledge base of the Obsidian Community – this Community Vault. To keep this community vault manageable and consistent, we have standardized [[🗂️ 01 Templates|Templates for new pages]] and a [[Tag glossary]]. Furthermore, we use [[🗂️ 02 Attachments|one central attachment folder]], where all images and other attachments are stored.
 
-Got some question left? Check out the [[FAQ]] or drop by in the `#Obsidian-Hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
+Got some question left? Check out the [[FAQ]] or drop by in the `#hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
+
+Want to know more about behind-the-scenes tending to this Community Vault? Check out the [[🗂️ 03 Contributor Notes|Contributor Notes]].
 
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[00 - Contribute to the Obsidian Hub/01 Templates/🗂️ 01 Templates|🗂️ 01 Templates]]
 -  [[00 - Contribute to the Obsidian Hub/02 Attachments/🗂️ 02 Attachments|🗂️ 02 Attachments]]
+-  [[00 - Contribute to the Obsidian Hub/03 Contributor Notes/🗂️ 03 Contributor Notes|🗂️ 03 Contributor Notes]]
 -  [[00 - Contribute to the Obsidian Hub/Contributing templates to the community vault|Contributing templates to the community vault]]
 -  [[00 - Contribute to the Obsidian Hub/Contributing with community plugins and themes|Contributing with community plugins and themes]]
 -  [[00 - Contribute to the Obsidian Hub/FAQ|FAQ]]
+-  [[00 - Contribute to the Obsidian Hub/Obsidian Settings for Contributors|Obsidian Settings for Contributors]]
 -  [[00 - Contribute to the Obsidian Hub/Tag glossary|Tag glossary]]
+-  [[00 - Contribute to the Obsidian Hub/Tip for Keeping Hub TODO lists|Tip for Keeping Hub TODO lists]]
 %% Hub MOCs: Don’t edit above  %%
 
 
 
 
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/%F0%9F%97%82%EF%B8%8F%2000%20-%20Contribute%20to%20the%20Obsidian%20Hub.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/00%20-%20Contribute%20to%20the%20Obsidian%20Hub/%F0%9F%97%82%EF%B8%8F%2000%20-%20Contribute%20to%20the%20Obsidian%20Hub.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

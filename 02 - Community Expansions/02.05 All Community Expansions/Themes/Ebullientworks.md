@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-460-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-3639-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ebullient/obsidian-theme-ebullientworks?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/ebullient/obsidian-theme-ebullientworks/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ebullient/obsidian-theme-ebullientworks?color=573E7A&logo=github&style=for-the-badge)
@@ -38,13 +38,30 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
+- Use the default indent for lists: This theme compresses list indent whitespace by default. Enable this to use the indent spacing from the default theme.
+- Suppress/Remove this checkbox styles: Set this to true if you are going to use your own task snippet
+
+**Showing and Hiding content**: 
 - Show external links in edit mode: If true, external links (or the content of markdown links) will be shown in edit mode. External links are hidden by default.
+- Hide collapse indicators unless hovered or active: If true, hide collapse indicators in all three modes unless they are hovered over or the line is active.
 - Float front-matter in a box to the right: If true, front-matter in preview mode will be collapsed in a top-right container.
-- Prevent table content from extending beyond the width of the page: If true, tables will have a maximum width set. Cell content will be wrapped (mid-word if necessary).
+- Show collapsed sidebars on hover: If true, collapsed side-bars will be shown when you hover over the ribbon.
+
+**Fonts**: 
 - Headings: Font for text headings (h1 to h6)
 - Tags: Font for displaying inline
 - Text: Default text font for preview and edit mode.
 - Monospace
+
+**Colors**: 
 - Primary accent color: Choose the primary accent color. You should define a snippet if you select primary-accent-custom. See the Theme's README.
 - Secondary accent color: Choose the secondary accent color. You should define a snippet if you select secondary-accent-custom. See the Theme's README.
+- Tag brightness - dark mode: Select tag brightness/contrast level for dark mode
+- Tag brightness - light mode: Select tag brightness/contrast level for light mode
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/Ebullientworks.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/Ebullientworks.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

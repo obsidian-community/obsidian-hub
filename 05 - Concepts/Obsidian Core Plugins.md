@@ -39,6 +39,13 @@ Create or open today’s daily note.
 Plugin ID: `daily-notes`
 Documentation: [Daily notes](https://help.obsidian.md/Plugins/Daily+notes)
 
+## Editor status
+
+Adds a status bar item to show and change the current editor mode.
+
+Plugin ID: `editor-status`
+%% Documentation: [Editor status](https://help.obsidian.md/Plugins/Editor+status) %%
+
 ## File explorer
 
 See the files and folders in your vault.
@@ -111,7 +118,7 @@ Documentation: [Page preview](https://help.obsidian.md/Plugins/Page+preview)
 
 ## Publish
 
-Publish your notes through [[Obsidian Publish]]
+Publish your notes through [[Obsidian Publish.]]
 
 Plugin ID: `publish`
 Documentation: [Publish](https://help.obsidian.md/Plugins/Publish)
@@ -194,3 +201,9 @@ Plugin ID: `zk-prefixer`
 Documentation: [Zettelkasten prefixer](https://help.obsidian.md/Plugins/Zettelkasten+prefixer)
 
 %% End Hub: Core Plugins %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/05%20-%20Concepts/Obsidian%20Core%20Plugins.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/05%20-%20Concepts/Obsidian%20Core%20Plugins.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

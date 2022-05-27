@@ -17,70 +17,30 @@ For the best experience, we recommend [downloading the latest version](https://g
 
 To contribute, please [download the latest version](https://github.com/obsidian-community/obsidian-hub/releases/latest) of this vault and open it in Obsidian. This is important to avoid duplicating content, and allows you to use the autocomplete when linking to other notes, searching and following our content guidelines.
 
-Because Personal Knowledge Management is usually (as it name states) _highly_ personal, we have added a few rules about how we use Obsidian features to keep this Community vault consistent (and to preserve our sanity 🙂)
+Because Personal Knowledge Management is usually (as it name states) _highly_ personal, we have added a few rules about how we use Obsidian features to keep this Community vault consistent (and to preserve our sanity 🙂).
 
 - **Tags**: We mostly use tags to indicate the status of a note. You can find more details in the [[Tag glossary]].
 - **Files & Links**: Make sure that any time you add or edit a note, your settings are configured correctly. This should be set up by default. To sum up:
-  - Configure `Location of new notes` to go the [[🗂️ 06 - Inbox]] folder.
-  - Links should be set to `Shortest path` and wikilinks must be enabled.
+  - Configure `Default location for new notes` to `In the folder specified below`
+  - In the new `Folder to create new notes in` option, select the [[🗂️ 06 - Inbox]] folder.
+  - Set the `New link format` setting to `Shortest path when possible`
+  - Set the `Use [[Wikilinks]]` setting to `Enabled`
   - The `Default location for new attachments` should be the folder [[🗂️ 02 Attachments]].
     ![[file-and-link-settings.png]]
-- **Templates**: We have [[🗂️ 01 Templates|predefined a few templates for any new content to be added]] (more about this later). These templates include comments and instructions of when to use them.
+- **Templates**: We have [[🗂️ 01 Templates|predefined a few templates for any new content to be added]] (more about this later). These templates include comments and instructions of when to use them. To enable Obsidian to use this folder:
+	- Under `Core plugins`, locate `Templates` and `Enable` this plugin.
+	- Scroll down to the `Templates` settings under the `PLUGIN OPTIONS` header and set `Template folder location` option to `00 - Contribute to the Obsidian Hub/01 Templates`
 - **Folders**: We have roughly pre-defined the structure of the vault using Johnny Decimal-ish prefixes. *Before adding new folders, please open an issue to discuss the changes you'd like to propose. *
 
-Now that you have configured Obsidian, you are ready to do your first contribution! Have a look at the [[#Types of contributions]], and depending on what you want to contribute open the linked note for further instructions.
-Once you have added or edited the note using Obsidian, come back and check out [[#Submitting your contribution]].
+Now that you have configured Obsidian, you are ready to do your first contribution! Have a look at the [[#The Main Folders|types of contributions]], and depending on what you want to contribute open the linked note for further instructions.
+Once you have added or edited the note using Obsidian, come back and check out [[#Submitting|Submitting your contribution]].
 
 ## Structure of the Community Vault
 
 ### Overview
 This is a [tree](https://github.com/MrRaindrop/tree-cli) view of the basic folder structure of this Community Vault.
 
-%% Keep this updated when the Vault structure changes! %%
-%% The command is 'tree -d -N -I venv --noreport' %%
-%% On Mac, pipe it through pbcopy to get the output on to the clipboard %%
-```
-├── 00 - Contribute to the Obsidian Hub
-│   ├── 01 Templates
-│   └── 02 Attachments
-├── 01 - Community
-│   ├── Events
-│   ├── Obsidian Roundup
-│   ├── People
-│   └── Video Channels
-├── 02 - Community Expansions
-│   ├── 02.01 Plugins by Category
-│   ├── 02.02 Themes by Category
-│   ├── 02.03 CSS Snippets by Category
-│   ├── 02.04 Auxiliary Tools by Category
-│   └── 02.05 All Community Expansions
-│       ├── Auxiliary Tools
-│       ├── CSS Snippets
-│       ├── Plugins
-│       └── Themes
-├── 03 - Showcases & Templates
-│   ├── Note Examples
-│   ├── Plugin Showcases
-│   ├── Publish Sites
-│   ├── Templates
-│   │   ├── Daily notes
-│   │   ├── Literature notes
-│   │   ├── Monthly notes
-│   │   ├── Plugin-specific templates
-│   │   │   ├── Dataview templates
-│   │   │   └── Templater templates
-│   │   ├── Projects
-│   │   ├── Weekly notes
-│   │   └── Yearly notes
-│   └── Vaults
-├── 04 - Guides, Workflows, & Courses
-│   ├── Community Talks
-│   ├── Courses
-│   └── Guides
-├── 05 - Concepts
-└── 06 - Inbox
-```
-
+![[Hub Tree Structure]]
 
 ### The Main Folders
 Lets have a brief look at the main folders:
@@ -151,7 +111,13 @@ If you found a broken link, a typo or a mistake [please open an issue](https://g
 
 
 ## Further Questions?
-Got some question left? Check out the [[FAQ]] or drop by in the `#Obsidian-Hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
+Got some question left? Check out the [[FAQ]] or drop by in the `#hub` at [the Obsidian Discord Server](https://discord.gg/veuWUTm) Wondering how a certain tag is used? Refer to the [[Tag glossary]].
 
 Please [open a new discussion at GitHub](https://github.com/obsidian-community/obsidian-hub/discussions/new) if you have suggestions or ideas for this vault.
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/CONTRIBUTING.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/CONTRIBUTING.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

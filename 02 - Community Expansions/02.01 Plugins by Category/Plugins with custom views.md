@@ -47,3 +47,9 @@ Plugins that change or add new views, modify how notes are displayed or add popo
 - [[Status bar plugins]]
 - [[Graph plugins]]
 - [[Pane Management plugins]]
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Plugins%20with%20custom%20views.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.01%20Plugins%20by%20Category/Plugins%20with%20custom%20views.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

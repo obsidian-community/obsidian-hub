@@ -4,12 +4,11 @@ import os
 
 # -------------------------------------------------------------------------------------------------------------
 # For how to use and maintain these tests, please see:
-#       https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+#       https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 # -------------------------------------------------------------------------------------------------------------
+from typing import List
 
-from approvaltests import Options
-from approvaltests.approvals import verify, verify_all
-from approvaltests.reporters import GenericDiffReporterFactory
+from helpers_for_testing import verify_as_markdown
 
 import make_mocs
 
@@ -18,13 +17,13 @@ import make_mocs
 # Helper Functions
 # -------------------------------------------------------------------------------------------------------------
 
-def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
+def verify_moc_for_directory_with_delimiters(directory: str, sub_directories: List[str], files: List[str]) -> None:
     """
     Generate the MOC output for given directory and its contents, and save it disk,
     verifying that the output is unchanged since the previous approved output,
     by calling the ApprovalTests method verify()
 
-    For more info, see https://github.com/obsidian-community/obsidian-hub/wiki/Testing-Python-Code-with-Approval-Tests
+    For more info, see https://publish.obsidian.md/hub/00+-+Contribute+to+the+Obsidian+Hub/03+Contributor+Notes/03.03+Scripts+and+Automation/Testing+Python+Code+with+Approval+Tests
 
     :param directory: name of the directory, such as '../..', 'Directory 1' or 'Directory 1/Sub-directory'
     :param sub_directories: List of names of sub-directories in the given directory
@@ -33,10 +32,10 @@ def verify_moc_for_directory_with_delimiters(directory, sub_directories, files):
     """
     moc_maker = make_mocs.MocMaker()
     result = moc_maker.make_moc_for_directory_with_delimiters(directory, sub_directories, files)
-    verify(result, options=approval_test_options())
+    verify_as_markdown(result)
 
 
-def verify_updating_existing_moc(existing_moc_file_name):
+def verify_updating_existing_moc(existing_moc_file_name: str) -> None:
     """
     Read an existing MOC file (which must be in scripts/tests/) and update the
     contents, saving the output to a new file on disk, verifying that the output
@@ -64,22 +63,7 @@ def verify_updating_existing_moc(existing_moc_file_name):
     new_moc_content_with_delimiters = moc_maker.make_moc_for_directory_with_delimiters('test', directories, files)
 
     result = moc_maker.update_existing_moc(initial_content, new_moc_content_with_delimiters)
-    verify(result, options=approval_test_options())
-
-
-def approval_test_options():
-    options = Options().for_file.with_extension(".md")
-
-    # Remainder here is specific to Clare's machine
-    #
-    # The supported tool names are listed in:
-    #   https://github.com/approvals/ApprovalTests.Python/blob/master/approvaltests/reporters/reporters.json
-    #
-    diff_tool_name = "AraxisMergeMac"
-    diff_tool = GenericDiffReporterFactory().get(diff_tool_name)
-    options = options.with_reporter(diff_tool)
-
-    return options
+    verify_as_markdown(result)
 
 
 # -------------------------------------------------------------------------------------------------------------
@@ -87,7 +71,7 @@ def approval_test_options():
 # -------------------------------------------------------------------------------------------------------------
 
 
-def test_moc_name_for_directory():
+def test_moc_name_for_directory() -> None:
     namer = make_mocs.MocFileNamer()
 
     # Test that the prefix is correctly added to a directory name:
@@ -102,7 +86,7 @@ def test_moc_name_for_directory():
 # -------------------------------------------------------------------------------------------------------------
 
 
-def test_delimiter_detection():
+def test_delimiter_detection() -> None:
     # Note the presence of the end-of-line marker in the test strings below
     
     # Initial delimiters
@@ -129,13 +113,13 @@ def test_delimiter_detection():
 # -------------------------------------------------------------------------------------------------------------
 
 
-def test_moc_for_empty_directory():
+def test_moc_for_empty_directory() -> None:
     # This tests that a blank line is inserted between the delimiters,
     # if the directory is empty.
     verify_moc_for_directory_with_delimiters('../..', [], [])
 
 
-def test_moc_for_root_directory():
+def test_moc_for_root_directory() -> None:
     directory = '../..'
     directories = [
         # Directories that should not be included
@@ -166,6 +150,13 @@ def test_moc_for_root_directory():
         'svg-files-are-currently-included.svg',
         'css-files-are-currently-included.css',
 
+        # Add messages that should explain test failure, if unwanted files ever get added back to the moc:
+        'logo.svg should-not-be-included.md',
+        'publish.css should-not-be-included.md',
+        # And that two specific top-level non .md files are currently excluded
+        'logo.svg',
+        'publish.css',
+
         '00 - there should not be a link to a file called 🗂️ hub',
         '🗂️ hub.md',
     ]
@@ -173,9 +164,9 @@ def test_moc_for_root_directory():
     verify_moc_for_directory_with_delimiters(directory, directories, files)
 
 
-def test_updating_moc_with_zoottelkeeper_delimiters():
+def test_updating_moc_with_zoottelkeeper_delimiters() -> None:
     verify_updating_existing_moc('sample-existing-moc-1.md')
 
 
-def test_updating_moc_with_hub_delimiters():
+def test_updating_moc_with_hub_delimiters() -> None:
     verify_updating_existing_moc('sample-existing-moc-2.md')

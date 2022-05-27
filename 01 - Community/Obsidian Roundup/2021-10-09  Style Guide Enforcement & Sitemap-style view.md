@@ -1,11 +1,12 @@
 ---
 link: https://www.obsidianroundup.org/2021-10-09/
 author: Eleanor Konik
-published: Fri, 08 Oct 2021 21:09:00 GMT
+published: 2021-10-08T21:09:00
 publish: true
 ---
 
 # 2021-10-09: Style Guide Enforcement & Sitemap-style view
+The Codemirror Options plugin added some new WYSIWYG functionality & you can mass-convert links between wiki-style and markdown Link Converter.
 
 ## In The Community
 
@@ -85,3 +86,9 @@ publish: true
 ## Housekeeping
 
 -   I'm working on migrating to Ghost Pro managed hosting (the headaches are just not worth the handful of dollars I'm saving at this point) so if things are slightly weird for the next week, I'm sorry and also, please let me know.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-10-09%20%20Style%20Guide%20Enforcement%20%26%20Sitemap-style%20view.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-10-09%20%20Style%20Guide%20Enforcement%20%26%20Sitemap-style%20view.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

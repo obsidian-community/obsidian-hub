@@ -1,0 +1,95 @@
+name: update_hub
+
+on:
+  # This workflow is run every Wednesday.
+  # It can also be triggered manually.
+  # It only runs on the main branch.
+  schedule:
+    - cron: "59 21 * * 3" 
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+
+jobs:
+  update_hub_content:
+    runs-on: ubuntu-latest
+
+    # Prevent cron job from triggering on forks
+    if: github.repository_owner == 'obsidian-community'
+
+    steps:
+      # ----------------------------------------------------------------------------------
+      # Setup
+      # ----------------------------------------------------------------------------------
+      - uses: actions/checkout@v2
+
+      - uses: ./.github/actions/setup-python
+      - uses: ./.github/actions/install-dependencies
+
+      - name: Set up git config
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+        shell: bash
+
+      # ----------------------------------------------------------------------------------
+      # Run scripted updates to Hub Vault Content
+      # ----------------------------------------------------------------------------------
+      - name: Update theme download counts
+        run: |
+          cd .github/scripts
+          python3 ./update_releases.py --update-download-counts
+          git commit -m "Update theme download counts" -a  || echo "nothing to commit"
+
+      - name: Add new plugins, themes and authors
+        run: |
+          cd .github/scripts
+          python3 ./update_releases.py --all
+          cd ../..
+          git add .
+          git commit -m "Add new plugins, themes and authors" || echo "nothing to commit"
+
+      - name: Update MOC files
+        run: |
+          cd .github/scripts
+          python3 ./update_mocs.py
+          cd ../..
+          git add .
+          git commit -m "Update MOC files" || echo "nothing to commit"
+
+      # This should be run after all the content additions have been made in case the structure of the vault changed.
+      - name: Update directory tree
+        run: |
+          cd .github/scripts
+          ./update_directory_tree.sh
+          cd ../..
+          git add .
+          git commit -m "Update directory tree" || echo "nothing to commit"
+
+      # This must be the last edit, to ensure that no later steps accidentally
+      # overwrite the footer. 
+      - name: Add Footer
+        run: |
+          cd .github/scripts
+          python3 ./add_footer.py
+          cd ../..
+          git add .
+          git commit -m "Add 'This note in GitHub' footers" || echo "nothing to commit"
+
+      # ----------------------------------------------------------------------------------
+      # Finalisation
+      # ----------------------------------------------------------------------------------
+      # Reference: https://github.com/marketplace/actions/create-pull-request
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Scripted update of Hub content
+          branch: create-pull-request/${{ github.workflow }}
+          labels: |
+            scripted update
+
+      - name: Show Pull Request
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"

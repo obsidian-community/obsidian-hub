@@ -21,7 +21,7 @@ publish: true
 # Word Splitting for Simplified Chinese in Edit Mode
 
 Plugin ID: `cm-chs-patch`
-Links: [GitHub repository](https://github.com/aidenlx/cm-chs-patch) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=cm-chs-patch)
+Links: [GitHub repository](https://github.com/aidenlx/cm-chs-patch) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=cm-chs-patch)
 Developed by: [[aidenlx]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
@@ -31,3 +31,9 @@ A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[aidenlx#Sponsor this author]] %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/cm-chs-patch.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/cm-chs-patch.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

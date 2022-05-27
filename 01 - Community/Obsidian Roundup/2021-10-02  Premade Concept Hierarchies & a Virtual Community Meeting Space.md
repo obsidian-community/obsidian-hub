@@ -1,15 +1,16 @@
 ---
 link: https://www.obsidianroundup.org/2021-10-02/
 author: Eleanor Konik
-published: Sat, 02 Oct 2021 11:30:00 GMT
+published: 2021-10-02T11:30:00
 publish: true
 ---
 
 # 2021-10-02: Premade Concept Hierarchies & a Virtual Community Meeting Space
+Templater is looking for an additional maintainer. There's also a new plugin to enforce style guides.
 
 ## In The Community
 
--   Obsidian now has [a persistent virtual meeting space](https://topia.io/obsidiancommunitycoworking)![[Obsidian Community Coworking|Topia]] is a "social engagement platform" with  customizable virtual worlds. The audiovisual feed is based on how close your "toon avatar" is to someone else's, which means you can sort of edge away from a group chat and have a side conversation then wander around to join another conversation, like at a real life conference. It's officially organized through the [[Obsidian Community Talks|community talks]] discord. It's being offered up as an alternative to Zoom for talks that are meant to be more "fireside chat" or "freeform workshop" in nature — the q&a session at the end of my talk on Sunday will be on Topia, so feel free to drop by and check it out then.
+-   Obsidian now has [a persistent virtual meeting space](https://topia.io/obsidiancommunitycoworking). [[Obsidian Community Coworking#Obsidian Community Coworking|Topia]] is a "social engagement platform" with  customizable virtual worlds. The audiovisual feed is based on how close your "toon avatar" is to someone else's, which means you can sort of edge away from a group chat and have a side conversation then wander around to join another conversation, like at a real life conference. It's officially organized through the [[Obsidian Community Talks|community talks]] discord. It's being offered up as an alternative to Zoom for talks that are meant to be more "fireside chat" or "freeform workshop" in nature — the q&a session at the end of my talk on Sunday will be on Topia, so feel free to drop by and check it out then.
 -   We're also going to try out using Topia as a [co-working space](https://nomadfinanceandfreedom.com/virtual-coworking-flexible-work-space/) for people in the community to log in and hang out with others wanting an accountability buddy while they do focused personal knowledge management (or whatever related thing). Please fill out this [whentomeet](https://www.when2meet.com/?13103059-rG85D) if you're interested in showing up regularly or "anchoring" a recurring timeslot.
 -   It's been about a week since [[Obsidian October 2021]] was first announced, but there's still plenty of time to participate. If you're interested in making a plugin or theme or just hanging out in a community event, check out the [details here](https://publish.obsidian.md/hub/11+-+Events/Obsidian+October+2021).
 -  [[00 - Start here|Obsidian Hub]] is a new experimental vault maintained by the obsidian community (that means you, if you want to help out!). I mentioned it in passing last week, but the idea is to try and consolidate some of the amazing resources this community has collected over the last year and a half, so _please_ check it out because I cannot do it justice with one paragraph. It's got vault examples, plugins and template info, events, github contribution guides, information about community events, & more.
@@ -105,3 +106,9 @@ You can subscribe to the calendar of upcoming talks using [this link](https://se
 
 -   I found this awesome explanation about why it's best to [just ask your question](https://dontasktoask.com/) instead of asking "can I ask a question" or "does anybody know anything about this thing." It pairs nicely with this twitter thread I wrote about [my guidelines for beta-testing and bug-reporting](https://twitter.com/EleanorKonik/status/1443616759441920001).
 -   If anybody wants to adapt the current roundup theme to have a JavaScript button to have a dark mode option like my newsletter [The Iceberg](http://newsletter.eleanorkonik.com/) does, I'm happy to send over the files — I just haven't been able to figure it out. In the  meantime, `@Optional#4159` made this [dark theme](https://userstyles.world/style/1266/obsidian-roundup-dark).
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2021-10-02%20%20Premade%20Concept%20Hierarchies%20%26%20a%20Virtual%20Community%20Meeting%20Space.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2021-10-02%20%20Premade%20Concept%20Hierarchies%20%26%20a%20Virtual%20Community%20Meeting%20Space.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

@@ -17,7 +17,9 @@ publish: true
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Alfred|Alfred]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Anki|Anki]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Calibre|Calibre]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/DDC_Folder_Maker|DDC_Folder_Maker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Docker|Docker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Drafts App|Drafts App]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dragon speech recognition|Dragon speech recognition]]
@@ -29,19 +31,23 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Hugo|Hugo]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/icalBuddy|icalBuddy]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Jekyll|Jekyll]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/LCC_Folder_Maker|LCC_Folder_Maker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/mailbox.org|mailbox.org]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/MarginNote|MarginNote]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Mdnotes|Mdnotes]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/MGit|MGit]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Notepad++|Notepad++]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidian-web-clipper|obsidian-web-clipper]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidianki4|obsidianki4]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Onyx Boox|Onyx Boox]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Open in Obsidian|Open in Obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pandoc|Pandoc]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pocket|Pocket]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/ProtonMail|ProtonMail]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Readwise|Readwise]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Research Rabbit|Research Rabbit]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/revealjs|revealjs]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Shimmering Obsidian|Shimmering Obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Sublime Text|Sublime Text]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Syncthing|Syncthing]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Tesseract|Tesseract]]
@@ -65,3 +71,9 @@ Adding tools that are useful in combination with Obsidian is done in two parts. 
 2. Apply the [[T - Auxiliary tool]] template
 3. Fill out the placeholders
 4. [[How to add content through GitHub|Submit your changes to GitHub]]
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Auxiliary%20Tools/%F0%9F%97%82%EF%B8%8F%20Auxiliary%20Tools.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Auxiliary%20Tools/%F0%9F%97%82%EF%B8%8F%20Auxiliary%20Tools.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

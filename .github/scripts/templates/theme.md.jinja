@@ -1,36 +1,13 @@
----
-aliases:
-- 
-tags: 
-- 
-publish: true
----
+{% include "themes/frontmatter.md.jinja"%}
 
-%% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-{{download_count}}-573E7A?style=for-the-badge&logo=)
-![GitHub last commit](https://img.shields.io/github/last-commit/{{repo}}?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/{{repo}}/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub Repo stars](https://img.shields.io/github/stars/{{repo}}?color=573E7A&logo=github&style=for-the-badge)
+{% include "themes/badges.md.jinja" %}
 
-%% ----- Badges ----- %%
 
-%% ----- Do not edit this section ----- %%
+{% include "themes/theme_info.md.jinja" %}
 
-# {{name}}
 
-Repository: [GitHub](https://github.com/{{repo}})
-Designed by: [[{{user}}]]
-Modes: {{modes}}
-
-{{description}}
-
-![screenshot](https://github.com/{{repo}}/raw/{{branch}}/{{screenshot}})
-
-%% ----- Do not edit anything above this line ----- %% 
-
-%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[{{ user }}#Sponsor this author]] %%
+{% include "funding.md.jinja" %}
 
 
 ## Features
@@ -38,33 +15,15 @@ Modes: {{modes}}
 {% if settings %}
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
-## Customization Options (Style Settings Plugin) 
-{% for s in settings %}
-{% if s.type == "heading" %}
-
-{{ s.header }}
-{% else %}
-{{ s.title }}
-{% endif %}
-{% endfor %}
+{% include "themes/style_settings.md.jinja" %}
 {% endif %}
 
 {% if plugins %}
 ## Plugin Compatibility[^1]
 
-{% if plugins.core %}
-**Core plugins**:
-{% endif %}
-{% for plugin in plugins.core %}
-- [[{{ plugin }}]]
-{% endfor %}
-{% if plugins.community %}
-
-**Community plugins**:
-{% endif %}
-{% for plugin in plugins.community %}
-- [[{{ plugin }}]]
-{% endfor %}
+{% include "themes/plugin_compatibility.md.jinja" %}
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 {% endif%}
+
+{% include "footer.md.jinja" %}

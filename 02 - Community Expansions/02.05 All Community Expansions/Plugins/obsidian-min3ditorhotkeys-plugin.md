@@ -21,7 +21,7 @@ publish: true
 # Min3ditorHotkeys
 
 Plugin ID: `obsidian-min3ditorhotkeys-plugin`
-Links: [GitHub repository](https://github.com/d-sauer/Obsidian-Min3ditorHotkeys-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-min3ditorhotkeys-plugin)
+Links: [GitHub repository](https://github.com/d-sauer/Obsidian-Min3ditorHotkeys-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-min3ditorhotkeys-plugin)
 Developed by: [[d-sauer]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
@@ -31,3 +31,9 @@ Additional editor hotkeys inspired by coding editors
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[d-sauer#Sponsor this author]] %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/obsidian-min3ditorhotkeys-plugin.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/obsidian-min3ditorhotkeys-plugin.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

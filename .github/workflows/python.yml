@@ -1,0 +1,27 @@
+name: python
+
+on:
+  push:
+    branches: [ '**' ]
+  pull_request:
+    branches: [ '**' ]
+
+jobs:
+  python_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: ./.github/actions/setup-python
+      - uses: ./.github/actions/install-dependencies
+
+      - name: Run Python tests
+        run: |
+          cd .github/scripts/tests
+          python3 -m pytest -s --verbose
+
+      - name: Check type hints
+        run: |
+          cd .github/scripts
+          ./check_type_hints.sh

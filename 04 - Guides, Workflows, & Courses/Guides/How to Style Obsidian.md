@@ -6,7 +6,7 @@ By [[ryanjamurphy|Ryan J. A. Murphy]]
 Ancient proverb:
 > Give a person some CSS, style them for a day. Teach them CSS, and they'll procrastinate for a lifetime.
 
-So you've downloaded that sleek new theme everyone's talking about. Your notes have never looked better. You sit at your desk, coffee steaming, hands hovering over your keyboard, and the most important thought you'll ever have is—wait, no, that header is the wrong shade of [Pantone's 2015 colour of the year, marsala!](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2015)
+So you've downloaded that sleek new theme everyone's talking about. Your notes have never looked better. You sit at your desk, coffee steaming, hands hovering over your keyboard, and the most important thought you'll ever have is—wait, no, that header is the wrong shade of [Pantone's 2015 colour of the year, marsala!](https://www.diamondvogel.com/architectural/blog/2015-pantone-color-of-the-year)
 
 EVERYTHING IS RUINED.
 
@@ -47,7 +47,7 @@ In real CSS, that declaration looks like:
 
 CSS is interpreted sequentially. The last declaration rules over any that came before it. So, if you were to make the following declarations:
 
-```
+```css
 .markdown-source-view {
 	color: blue;
 }
@@ -60,7 +60,7 @@ CSS is interpreted sequentially. The last declaration rules over any that came b
 The text colour would be black, not blue. I.e., the app would layer what comes last in the document over whatever came before it.
 
 However, if you want to insist, you can write `!important`, like so:
-```
+```css
 .markdown-source-view {
 	color: blue !important;
 }
@@ -204,3 +204,9 @@ CSS Tricks is a fantastic resource for finding neat ways of working with CSS (an
 
 ---
 Topics: [[Obsidian community themes]] [[Obsidian CSS]]
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20Style%20Obsidian.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20Style%20Obsidian.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

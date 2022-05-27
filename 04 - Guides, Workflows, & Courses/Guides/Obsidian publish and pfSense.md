@@ -261,3 +261,9 @@ Enable HSTS and cookie protection
 [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) enforces clients to always use a secure connection and require a valid certificate when communicating with a site and setting the secure attribute in cookies enforces them to be only ever sent over a secure connection, ie. HTTPS.
 
 Click _Save_ and apply the configuration changes.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Obsidian%20publish%20and%20pfSense.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Obsidian%20publish%20and%20pfSense.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

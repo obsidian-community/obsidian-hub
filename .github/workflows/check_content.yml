@@ -1,0 +1,44 @@
+name: check_content
+
+on:
+  # Intentionally check on all branches, to detect any issues as early as possible
+  push:
+    branches: [ '**' ]
+  pull_request:
+    branches: [ '**' ]
+
+jobs:
+  check_hub_content:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ----------------------------------------------------------------------------------
+      # Setup
+      # ----------------------------------------------------------------------------------
+      - uses: actions/checkout@v2
+
+      - uses: ./.github/actions/setup-python
+      - uses: ./.github/actions/install-dependencies
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14.x"
+
+      - name: Install markdownlint-cli
+        run: |
+          cd .github/scripts
+          npm install markdownlint-cli
+
+      # ----------------------------------------------------------------------------------
+      # Run checks
+      # ----------------------------------------------------------------------------------
+      - name: Hub-specific checks such as missing .md extensions
+        run: |
+          cd .github/scripts
+          python3 ./check_content.py
+
+      - name: Ensure consistent markdown formatting via markdownlint
+        run: |
+          cd .github/scripts
+          ./run_markdownlint.sh

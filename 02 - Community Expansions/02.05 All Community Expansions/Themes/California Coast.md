@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-5419-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-37403-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mgmeyers/obsidian-california-coast-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/mgmeyers/obsidian-california-coast-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/mgmeyers/obsidian-california-coast-theme?color=573E7A&logo=github&style=for-the-badge)
@@ -39,38 +39,48 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Accent Color**: 
+**Colors**: 
 - Accent Color
-- Accented cursor: The editor cursor takes on your accent color
+- Highlight Color
+- Bold Color
+- Italic Color
+- H1 Color
+- H2 Color
+- H3 Color
+- H4 Color
+- H5 Color
+- H6 Color
 
-**Custom Fonts**: 
+**Fonts**: 
 - UI font: Font used for the user interface
-- Body font: Font used for the editor and preview
-- Body font features: eg. "ss01", "cv05", "cv07", "case"
+- Editor font: Font used for the editor and preview
+- Editor font features: Enable various features supported by your font, such as ligatures. See: https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings
 - Monospace font: Used for code blocks, front matter, etc
-- Body line height: Line height of the main text, expects a decimal value
-- Line width: The maximum line width in rem units (1rem = Body font size)
+- Editor line height: Line height of the editor, expects a decimal value
+- Line width: The maximum line width in pixels
 
 **Misc**: 
+- Show vault name in file explorer
+- Translucent popovers: Menus and notifications will take on a translucent background. Turning this setting on might slow down obsidian on some computers.
 - Page preview scale: Percentage amount to scale hover preview and sidebar document font
-- Truncate file titles: By default, files with long names will wrap in the file explorer. This setting ensures each file name only takes up a single line
-- Disable sidebar animations: Closing and opening sidebars will occur immediately rather than animating to the open or closed positions
-- Disable tree animations: Closing and opening folders, nested tags, etc. will occur immediately rather than animating to the open or closed positions
+- File explorer wrapping: By default, files with long names will wrap in the file explorer. This setting ensures each file name only takes up a single line
+- Truncate table columns: Prevent table columns from wrapping to a new line in narrow panes
+- Minimum table column width: Table columns will not strink below this width
 
 **Editor Customization**: 
+- Accented cursor: The editor cursor takes on your accent color
 - Soft-blink cursor: The editor cursor will fade in and out rather than blinking
-- Flush headings: Shifts heading hashes so headings are aligned with the edge of the editor
-- Blockquotes: De-emphasizes the blockquote formatting character
+- Flush headings (source mode): Shifts heading hashes so headings are aligned with the edge of the editor. This feature is currently incompatible with mobile.
+- Flush headings (live preview mode): Shifts heading hashes so headings are aligned with the edge of the editor. This feature is currently incompatible with mobile.
 - Bold and italics: Styles bold and italic formatting to be less prominent
-- Horizontal rule: Styles horizontal rules to span the width of the editor
-- Editor list bullets: Replace *, -, + with a bullet character when creating lists
-- Editor list indentation lines: Display vertical lines to distinguish list indentation level
-- Soft wrap code-blocks
+- Horizontal rule (source mode): Styles horizontal rules to span the width of the editor
+- Editor list bullets (source mode): Replace *, -, + with a bullet character when creating lists
 
 **Preview Customization**: 
-- Enhanced Preview Typography: Adds context aware padding between text elements in preview mode (requires the "contextual typography" plugin)
-- Hide vertical table dividers
+- Dynamic Header Spacing: Applies the top and bottom header margins defined below, and adjusts spacing dynamically when the "Contextual Typography" plugin is active
+- Soft wrap code-blocks
 - Seamless embed: Display embedded content seamlessly as a part of the containing document
+- Preview bullet size adjust: Increase or decrease preview mode bullet sizes. The default is 100%, or no change.
 - **Level 1 Headings**: 
     - H1 font size: Accepts any CSS font-size value
     - H1 line height: Accepts decimal values
@@ -115,10 +125,16 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - H6 font style: Accepts any CSS font-style value
 
 **Icons**: 
-- Use Custom Icons: Replace obsidian's default icons
-- Use File Icons
-- Use Folder Icons
+- Use Obsidian's default icons
+- Hide file icons
+- Hide folder icons
 - Folder icon color
 - Folder icon saturation
 - Folder icon brightness
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/California%20Coast.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/California%20Coast.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

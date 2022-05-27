@@ -349,3 +349,9 @@ cd "C:/Users/SkepticMystic/OneDrive/1D Personal" & pandoc -t revealjs --slide-le
 ```sh
 cd "C:/Users/SkepticMystic/OneDrive/1D Personal" & pandoc -t revealjs -V theme=beige --slide-level=2 -s "git-Vault 1D/3. Resources/Field/reveal test.md" --citeproc --csl "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl" --bibliography "Zotero Exports\My Library.json" -H "C:\Users\SkepticMystic\Pandoc\Stylesheets\reveal-js-styles.css" -o "Pandoc\Conversions\reveal test %date:/=-%.html" & start "" "Pandoc\Conversions\reveal test %date:/=-%.html"
 ```
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Using%20Pandoc%20inside%20Obsidian.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Using%20Pandoc%20inside%20Obsidian.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

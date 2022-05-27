@@ -1,5 +1,10 @@
 jinja2
 pyyaml
 requests
-approvaltests==3.0.0
+approvaltests==3.5.0
 pytest
+mypy
+types-PyYAML
+types-requests
+monkeytype
+github3api

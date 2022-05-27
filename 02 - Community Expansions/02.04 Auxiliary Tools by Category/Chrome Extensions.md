@@ -1,18 +1,27 @@
 ---
 aliases:
-  -
-tags:
-  - seedling
+- 
+tags: 
+- seedling 
 publish: true
 ---
 
 # Chrome Extensions
 
-Official website: #placeholder/link
-Documentation: #placeholder/link
-Cost: #placeholder/tool
-Available for: #placeholder/tool %% Uncomment this and remove those that don't apply: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|Linux]], [[Android Apps|Android]], [[iOS Apps|iOS]], [[iPadOS Apps]] %%
+Extension for the [Chrome Browser](https://www.google.com/chrome/). (Note that Chrome Extensions work on any [Chromium-based Browser](https://www.wikiwand.com/en/Chromium_(web_browser)#/Browsers_based_on_Chromium), so you can use them with [Brave](https://brave.com/) or [Vivaldi](https://vivaldi.com/) as well.)
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. Mention [[🗂️ 02.04 Auxiliary Tools by Category]] and any other relevat notes in this vault. %%
+## Tools in this category
+- [MarkDownload - Markdown Web Clipper](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB)
+- [Obsidian Clipper (unofficial)](https://chrome.google.com/webstore/detail/obsidian-clipper/mphkdfmipddgfobjhphabphmpdckgfhb)
+- [Obsidian Web](https://chrome.google.com/webstore/detail/obsidian-web/edoacekkjanmingkbkgjndndibhkegad)
 
-#placeholder/description
+
+## Related categories
+
+%% Add links to other 02.04 - Category notes %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.04%20Auxiliary%20Tools%20by%20Category/Chrome%20Extensions.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.04%20Auxiliary%20Tools%20by%20Category/Chrome%20Extensions.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

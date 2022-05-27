@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2402-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-17869-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SlRvb/Obsidian--ITS-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/SlRvb/Obsidian--ITS-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/SlRvb/Obsidian--ITS-Theme?color=573E7A&logo=github&style=for-the-badge)
@@ -32,19 +32,22 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[SlRvb#Sponsor this author]] %%
 
+## Snippets
+
+- Features of **ITS Theme** available as snippets:
+   - [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
+     Pre-made alternate color schemes are available with the css snippet.
+   - [[Image Adjustments]]
+   - [[Embed Adjustments]]
+   - [[Kanban (SlRvb)|Kanban]]
+   - [[Asides (SlRvb)|Asides]]
+   - [[Alternate Checkboxes (SlRvb)|Alternate Checkboxes]]
+   - [[Folder Styles (SlRvb)|Folder Styles]]
+   - [[Alternate Admonitions (SlRvb)]]
+   - [[Center Tables]]
 
 ## Features
 
-- Features of **ITS Theme** available as snippets:
-  - [[All Alternate Themes (ITS Theme)|All Alternate Themes]]
-    Pre-made alternate color schemes are available with the css snippet.
-  - [[Image Adjustments]]
-  - [[Embed Adjustments]]
-  - [[Kanban (SlRvb)|Kanban]]
-  - [[Asides (SlRvb)|Asides]]
-  - [[Alternate Checkboxes (SlRvb)|Alternate Checkboxes]]
-  - [[Folder Styles (SlRvb)|Folder Styles]]
-  - [[Alternate Admonitions (SlRvb)]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
@@ -85,6 +88,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Editor Strikethrough Color
 - **Specific View Heading Changes**: Change Headings in preview/edit mode
     - Specific Heading Adjustments: Toggle on to edit headings individually.
+    - Specific Heading Notes Only: Toggle on to only affect notes. (Disable Adjustments toggle)
     - **Heading Fonts**: 
         - Heading 1 Font Preview
         - Heading 1 Font Editor
@@ -124,15 +128,23 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Heading 5 Color Editor
         - Heading 6 Color Preview
         - Heading 6 Color Editor
+    - **Heading Underlines**: Remove heading underlines individually. Overridden by "Hide Header Underline" in the section Note Elements > Headers.
+        - Hide H1 Underline
+        - Hide H2 Underline
+        - Hide H3 Underline
+        - Hide H4 Underline
+        - Hide H5 Underline
+        - Hide H6 Underline
 
 **Workspace**: 
 - Remove ITS Theme Icons
 - Wrap Note Title
 - Flat Note Title Color
 - Display Folder Arrow On Hover
-- Raise Right Sidebar: Raise the right sidebar if the status bar is covering part of it.
+- Raise Right Sidebar & Doc Search: Raise the right sidebar and the document search modal if the status bar is covering part of it.
 - Hide Outline Pane H
 - Disable Settings Animation
+- Bottom Navbar Buttons
 - **Minimalist Workspace**: Hide UI unless hovered over the edges of the app.
     - Writing: Minimalistic/distraction free layout design for notes.
     - Hide All UI: Hide everything listed below with just 1 toggle
@@ -157,6 +169,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Justify Text: Justify preview and editor text
 - Centered Tables: Move all tables to the center of the page.
 - Center Images: Center images by default
+- Disable Triple Blockquote Syntax
 - **Horizontal Line**: 
     - Horizontal Line Symbol: Add quotations around symbol for it to work. For Example "⚡". Use the codepoint for symbols from supported font icons. For Example "\e800".
     - Horizontal Line Symbol Fonts: Font Icons. Default font aligns emojis.
@@ -175,15 +188,42 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Center Headings
     - Center Heading With Lines: Center headings and have lines appear at either side of it.
     - Illusion Theme Inspired Headings
+    - Header Color Override: Header color always applied over other markdown in the header
 - **Lists**: 
-    - Colorful Task Text: Add color to the text of the task.
-    - Restore Crossed Checkbox
     - Default Bullet Disc Shape
     - Bullet Shape: Add quotes around your new bullet. For example "~"
     - 1 Color Bullets & Lines: Bullet and Line colors no longer alternates. Bullet color is set to Accent 2.
     - Original Bullet Lines: Lines appear under bullet, not beside it. Won't connect to bullet if it's longer than 1 line.
     - Line Size
+    - Murf's Rainbow Line Spacing
+    - Disable Murf's Rainbow Lines
     - Live Preview Alternate Indent Style: Alternate style to differentiate lists sublevels in edit mode on cm6.
+    - Fix Double Bullet Issue: Bandaid solution that doesn't look good but fixes the double bullet LP issue.
+    - **Checkboxes**: 
+        - Disable Alternate Checkboxes
+        - Colorful Task Text: Add color to the text of the task.
+        - Colorful Task Backgrounds: Add color to the background of the task.
+        - Normal Task Text: Reapply regular text color to the text of the task.
+        - Restore Checkbox Strike
+        - **Checkbox Strike Specific**: 
+            - [x] Regular
+            - [X] Checked
+            - [-] Dropped
+            - [>] Forward
+            - [D] Defer
+            - [?] Question
+            - [/] Half
+            - [+] Add
+            - [R] Research
+            - [!] Important
+            - [i] Idea
+            - [B] Brainstorm
+            - [P] Pro
+            - [C] Con
+            - [Q] Quote
+            - [N] Note
+            - [b] Bookmark
+            - [I] info
     - **Colorful Lists**: 
         - Colorful Bullet Line Color: Toggle on to use colorful bullet lines
         - Colorful Bullet Color: Toggle on to use colorful bullets
@@ -205,6 +245,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Colors**: 
 - **Text**: Change text colors
     - Text
+    - Soft Text
     - Faint Text
     - Headings: Heading, Vault title, HR Symbol, blockquote quotation mark, and open folder icon colors.
     - File Title: File text color.
@@ -216,8 +257,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Outer Sidebar
     - Sidebar: Change only sidebar, right settings pane colors.
     - Dark Sidebar: Left settings bar, <i></i> background, graph background, and pane separator colors.
+    - Sidebar Tab Colors
     - File: File icon color.
-    - Folder: Open folder icon color.
+    - Open Folder: Open folder icon color.
+    - Folder Title Hover: Open folder icon color.
     - Sliding Panes Dropshadow
 - **Note Elements**: 
     - Tag Color
@@ -225,6 +268,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Code Background
     - Horizontal Line
     - Aside Background Color: Aside background color and dark theme setting alternating setting item color.
+    - Progress Bar Value Color: HTML <progress> value color
+    - Progress Bar Background Color: HTML <progress> value color
 - **Other**: 
     - Accent
     - Lite Accent: Link hover, scrollbar active, tags, embed titles and links colors.
@@ -257,7 +302,25 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Kanban Plugin Adjustments: Personal adjustments for less noisy Kanban layout
 - Image Zoom: Hold and click an image to zoom into it.
 - Swap Sliding Pane Icons
+- Icon Folder Icon Swaps: Swap the order of icons back to default. (Will also revert file types).
 - Cross Reference Plugin Adjustments
 - Sidebar Notes Adjustments: Adjustments to padding for better displays of notes moved into sidebars.
 - Mobile Toolbar Adjustment: Multi-row bar sorts properly, but scrolls vertically now.
 
+**Alternate Color Schemes**: 
+- SlRvb Blue
+- SlRvb Gray
+- School Days
+- TTRPG
+- Tangerine Dunes
+- Drowned
+- Nord
+- Minimalist
+- ITS Dark
+
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/ITS%20Theme.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Themes/ITS%20Theme.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

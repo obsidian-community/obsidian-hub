@@ -50,3 +50,9 @@ I teach (& research) ancient civilizations, then write stories & articles inspir
 
 - [[YouTube Channels|On Youtube]]: [Interviews with Eleanor Konik](https://www.youtube.com/playlist?list=PLGflcghBUIauy2We-93G3u8PQdx2DRSJi) ^youtube
 - Twitter: [@eleanorkonik](https://twitter.com/EleanorKonik) ^twitter
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/People/eleanorkonik.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/People/eleanorkonik.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

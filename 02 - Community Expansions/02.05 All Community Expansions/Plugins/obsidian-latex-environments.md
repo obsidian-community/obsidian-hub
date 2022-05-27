@@ -21,7 +21,7 @@ publish: true
 # Latex Environments
 
 Plugin ID: `obsidian-latex-environments`
-Links: [GitHub repository](https://github.com/raineszm/obsidian-latex-environments) or [<button id=HH>Open in Obsidian</button>](obsidian://goto-plugin?id=obsidian-latex-environments)
+Links: [GitHub repository](https://github.com/raineszm/obsidian-latex-environments) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-latex-environments)
 Developed by: [[raineszm]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
@@ -31,3 +31,9 @@ Allows to quickly insert and change latex environments within math environments.
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[raineszm#Sponsor this author]] %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/obsidian-latex-environments.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/obsidian-latex-environments.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

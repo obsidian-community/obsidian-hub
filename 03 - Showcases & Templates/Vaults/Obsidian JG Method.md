@@ -38,3 +38,9 @@ To download this vault, you first need to complete the following steps
 2. **Download ZIP**
 
 or [download directly](https://github.com/joshwingreene/Obsidian-JG-Method/archive/refs/heads/master.zip)
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/03%20-%20Showcases%20%26%20Templates/Vaults/Obsidian%20JG%20Method.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/03%20-%20Showcases%20%26%20Templates/Vaults/Obsidian%20JG%20Method.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
