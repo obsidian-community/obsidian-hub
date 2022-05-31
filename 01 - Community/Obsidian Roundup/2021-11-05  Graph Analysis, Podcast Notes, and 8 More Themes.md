@@ -42,7 +42,7 @@ _Note: Not all new plugins are available in the community list yet, as they need
 -   [Word Sprint 0.2.0](https://github.com/kinabalu/obsidian-word-sprint) includes integration with National Novel Writing Month, a pomodoro-style timer, goals, nudges, stats, and more.
 -   [Excalidraw 1.4.3](https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.4.3) has LaTeX support.
 -   [Obsidian Git](https://github.com/denolehov/obsidian-git/releases/tag/1.14.0) has UI support for staging and committing individual files.
--   [Tasks v1.4.0](https://github.com/schemar/obsidian-tasks/releases/tag/1.4.0) has new sorting options, reminder plugin integration support, expanded documentation, priorities, scheduled and start dates, recurring tasks, and more.
+-   [Tasks v1.4.0](https://github.com/obsidian-tasks-group/obsidian-tasks/releases/tag/1.4.0) has new sorting options, reminder plugin integration support, expanded documentation, priorities, scheduled and start dates, recurring tasks, and more.
 -   [Advanced Cursors](https://github.com/SkepticMystic/advanced-cursors) can now insert an incrementing value at each of your multiple cursors.
 
 ### Betas

@@ -56,7 +56,7 @@ These are the plugins reviewed.
 - Uses **Jest**
 - Nice data-driven tests
 - Nice integration with GitHub Actions
-- Nice integration with git: [lefthook.yml](https://github.com/schemar/obsidian-tasks/blob/3210fffba1afba3520366531f084adab268f0622/lefthook.yml)
+- Nice integration with git: [lefthook.yml](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/3210fffba1afba3520366531f084adab268f0622/lefthook.yml)
 - Shows mocking of dates in Jest
 - General comment: quite a lot of repetition of code in the tests, at the time of the talk
 - Demonstration: using 'extract method' refactoring

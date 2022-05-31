@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/schemar/obsidian-tasks/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/schemar/obsidian-tasks?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/schemar/obsidian-tasks/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/schemar/obsidian-tasks?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/obsidian-tasks-group/obsidian-tasks/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/obsidian-tasks-group/obsidian-tasks?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/obsidian-tasks-group/obsidian-tasks/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/obsidian-tasks-group/obsidian-tasks?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Tasks
 
 Plugin ID: `obsidian-tasks-plugin`
-Links: [GitHub repository](https://github.com/schemar/obsidian-tasks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tasks-plugin)
-Developed by: [[schemar]]
+Links: [GitHub repository](https://github.com/obsidian-tasks-group/obsidian-tasks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tasks-plugin)
+Developed by: [[claremacrae]] (and formerly [[schemar]])
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Task management for Obsidian
@@ -31,7 +31,7 @@ Task management for Obsidian
 
 %% The repository or author does not have any sponsoring links. %%
 
-For complete information, see the **[official documentation](https://schemar.github.io/obsidian-tasks/)**.
+For complete information, see the **[official documentation](https://obsidian-tasks-group.github.io/obsidian-tasks/)**.
 
 ---
 
@@ -49,16 +49,16 @@ A more convenient way to create a task is by using the `Tasks: Create or edit` c
 
 *All screenshots assume the global filter `#task` which is not set by default (see also "Getting Started").*
 
-![ACME Tasks](https://github.com/schemar/obsidian-tasks/raw/main/resources/screenshots/acme.png)
+![ACME Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/acme.png)
 The `ACME` note has some tasks.
 
-![Important Project Tasks](https://github.com/schemar/obsidian-tasks/raw/main/resources/screenshots/important_project.png)
+![Important Project Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/important_project.png)
 The `Important Project` note also has some tasks.
 
-![Tasks Queries](https://github.com/schemar/obsidian-tasks/raw/main/resources/screenshots/tasks_queries.png)
+![Tasks Queries](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/tasks_queries.png)
 The `Tasks` note gathers all tasks from the vault and displays them using queries.
 
-![Create or Edit Modal](https://github.com/schemar/obsidian-tasks/raw/main/resources/screenshots/modal.png)
+![Create or Edit Modal](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/modal.png)
 The `Tasks: Create or edit` command helps you when editing a task.
 
 %% Hub footer: Please don't edit anything below this line %%
