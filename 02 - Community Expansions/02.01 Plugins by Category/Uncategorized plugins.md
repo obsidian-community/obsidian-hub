@@ -211,6 +211,21 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-upcoming|Upcoming]]
 - [[nuke-orphans|Nuke Orphans]]
 - [[obsidian-front-matter-title-plugin|Front Matter Title]]
+- [[obsidian-bellboy|Bellboy]]
+- [[obsidian-functionplot|Obsidian Functionplot]]
+- [[obsidian-note-autocreator|Note Auto Creator]]
+- [[local-quotes|Local Quotes]]
+- [[obsidian-state-switcher|State Switcher]]
+- [[obsidian-media-db-plugin|Media DB Plugin]]
+- [[obsidian-sequence-hotkeys|Sequence Hotkeys]]
+- [[tasks-packrat-plugin|Packrat]]
+- [[excalibrain|ExcaliBrain]]
+- [[obsidian-expand-bullet|Expand Bullet]]
+- [[dbfolder|DB Folder]]
+- [[obsidian-advanced-codeblock|Advanced Codeblock]]
+- [[booksidian-plugin|Booksidian]]
+- [[simple-dice-roller|Simple Dice Roller]]
+- [[obsidian-camera|Obsidian Camera]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
