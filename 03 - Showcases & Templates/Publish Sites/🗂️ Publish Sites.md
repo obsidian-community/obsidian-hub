@@ -13,6 +13,7 @@ publish: true
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
+-  [[03 - Showcases & Templates/Publish Sites/Data Engineering Wiki|Data Engineering Wiki]]
 -  [[03 - Showcases & Templates/Publish Sites/Obsidian Garden|Obsidian Garden]]
 %% Hub MOCs: Don’t edit above  %%
 
