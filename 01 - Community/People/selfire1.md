@@ -11,7 +11,7 @@ publish: true
 - GitHub: [selfire1](https://github.com/selfire1/) ^github
 <!-- - Discord: `@` ^discord-->
 <!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+- [[Publish sites|Publish site]]: <https://joschuasgarden.com/> ^publish-
 
 %% Feel free to add a bio below this comment %%
 
@@ -34,14 +34,12 @@ publish: true
 ### Others
 -->
 
-<!--
 ## Sponsor this author
--->
 
 <!-- - [[GitHub sponsors]]: [Sponsor @selfire1 on GitHub Sponsors](https://github.com/sponsors/selfire1) ^github-sponsor-->
-<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+- [[Buy me a coffee]]: <https://www.buymeacoffee.com/joschua> ^buy-me-a-coffee
 <!-- - [[PayPal]]: <https://> ^paypal-->
-<!-- - [[Patreon]]: <https://> ^patreon-->
+- [[Patreon]]: <https://www.patreon.com/joschua> ^patreon
 
 <!--
 ## Follow this author

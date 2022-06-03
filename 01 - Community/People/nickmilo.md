@@ -1,6 +1,7 @@
 ---
 aliases:
 - nickmilo
+- Nick Milo
 tags:
 - 
 publish: true
@@ -14,7 +15,7 @@ publish: true
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
+Nick Milo is the creator of [[Linking Your Thinking]] and the corresponding theme ([[LYT Mode]]) and vault starter kit ([[LYT Kit]]).
 
 ## Author of
 
@@ -31,9 +32,10 @@ publish: true
 ### Unlisted plugins
 -->
 
-<!--
 ### Others
--->
+- [[LYT Kit]] is a starter vault for Obsidian.
+- [LYT Notes](https://lyt.ck.page/e552e5b39e) is a weekly newsletter with tips on how to make, retrieve and link notes.
+- In 2022, Nick held the first [[Linking Your Thinking]] [conference](https://www.linkingyourthinking.com/conference).
 
 <!--
 ## Sponsor this author
@@ -48,8 +50,8 @@ publish: true
 ## Follow this author
 -->
 
-<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
-<!-- - Twitter: <https://> ^twitter-->
+- [[YouTube Channels|On YouTube]]: [Linking Your Thinking](https://www.youtube.com/channel/UC85D7ERwhke7wVqskV_DZUA) ^youtube
+- Twitter: <https://twitter.com/NickMilo> ^twitter
 <!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
