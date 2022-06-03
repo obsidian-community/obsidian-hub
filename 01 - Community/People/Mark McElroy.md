@@ -30,7 +30,7 @@ Mark McElroy is a writer and adviser who helps people find their creative path.
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @sonarAIT on GitHub Sponsors](https://github.com/sponsors/sonarAIT) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: []() ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->
