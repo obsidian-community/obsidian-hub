@@ -146,3 +146,9 @@ By default, Breadcrumbs will imply relationships for you. If you have `[[Languag
 Shoutout to [[SkepticMystic]] for all their hard work on making such a fantastic resource and for being receptive to this documentation.
 
 Thanks for reading! I hope this helps clarify some things for you, and that you continue on your journey with Breadcrumbs!
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Breadcrumbs%20Quickstart%20Guide.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/Breadcrumbs%20Quickstart%20Guide.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
