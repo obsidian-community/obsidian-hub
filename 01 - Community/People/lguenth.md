@@ -30,7 +30,7 @@ Luke is a maintainer of the Hub and he tries to be an active member of the commu
 
 ## Sponsor this author
 
-<!-- - [[GitHub sponsors]]: [Sponsor @selfire1 on GitHub Sponsors](https://github.com/sponsors/selfire1) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: []() ^github-sponsor-->
 - [[Buy me a coffee]]: <https://ko-fi.com/lguenth> ^buy-me-a-coffee
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->
