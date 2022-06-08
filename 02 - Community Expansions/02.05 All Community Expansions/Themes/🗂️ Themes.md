@@ -110,6 +110,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Purple Aurora|Purple Aurora]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Purple Owl|Purple Owl]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Red Graphite|Red Graphite]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Red Solitude|Red Solitude]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Reverie|Reverie]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Rmaki|Rmaki]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Rosé Pine Moon|Rosé Pine Moon]]
