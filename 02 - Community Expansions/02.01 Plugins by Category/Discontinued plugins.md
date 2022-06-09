@@ -17,11 +17,11 @@ These plugins were once published, but have have since been withdrawn, or are no
 
 - [[obsidian-advanced-appearance|Advanced Appearance]]
 - [[obsidian-extra-md-commands|Extra Markdown Commands]] (use [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]] instead.)
+- [[linked-data-helper|Linked Data Helper]]
+- [[linked-data-vocabularies|Linked Data Vocabularies]]
 - [[pdf-to-markdown-plugin|PDF to Markdown]]
 - [[obsidian-stenography-plugin|Stenography]]
 - [[todo-txt|Todo.txt support]]
-- [[linked-data-helper|Linked Data Helper]]
-- [[linked-data-vocabularies|Linked Data Vocabularies]]
 
 ## Related categories
 
