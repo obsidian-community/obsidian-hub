@@ -71,8 +71,6 @@ Plugins which have not yet been categorized by the community.
 - [[link-favicon|Link Favicons]]
 - [[get-info-plugin|Get Info]]
 - [[matter|Matter]]
-- [[linked-data-helper|Linked Data Helper]]
-- [[linked-data-vocabularies|Linked Data Vocabularies]]
 - [[obsidian-regex-replace|Regex Find/Replace]]
 - [[obsidian-wordpress|WordPress]]
 - [[obsidian-icon-shortcodes|Icon Shortcodes]]
@@ -226,6 +224,8 @@ Plugins which have not yet been categorized by the community.
 - [[booksidian-plugin|Booksidian]]
 - [[simple-dice-roller|Simple Dice Roller]]
 - [[obsidian-camera|Obsidian Camera]]
+- [[obsidian-markbase|Markbase for Obsidian]]
+- [[obsidian-user-plugins|User Plugins]]
 
 
 %% Hub footer: Please don't edit anything below this line %%

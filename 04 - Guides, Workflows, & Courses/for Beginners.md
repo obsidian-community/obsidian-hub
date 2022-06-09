@@ -9,7 +9,6 @@ tags:
 
 These guides will help you get started with [[Obsidian]] and related topics.
 
-![[2021.07.17#^594d70]]
 ## Introduction to Basic Concepts
 - [**Sitepoint**: Obsidian Beginner Guide](https://www.sitepoint.com/obsidian-beginner-guide/)
 - [[Obsidian Help]]
