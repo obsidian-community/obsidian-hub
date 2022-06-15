@@ -329,6 +329,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/nybbles|nybbles]]
 -  [[01 - Community/People/obsidian-ezs|obsidian-ezs]]
 -  [[01 - Community/People/obsidian-tasks-group|obsidian-tasks-group]]
+-  [[01 - Community/People/obsidianMkdocs|obsidianMkdocs]]
 -  [[01 - Community/People/ocapraro|ocapraro]]
 -  [[01 - Community/People/oeN|oeN]]
 -  [[01 - Community/People/OfficerHalf|OfficerHalf]]
