@@ -10,7 +10,7 @@ tags:
 This site is for all information valuable to users familiar with vim, that want to use Obsidian's vim mode. 
 
 ## Basics
-- You can enable Obsidian's vim mode under the settings under `Editor – Advanced – Vim key bindings`.
+- You can enable Obsidian's vim mode in the settings under `Editor – Advanced – Vim key bindings`.
 - Obsidian uses the [vim emulation from the CodeMirror Editor](https://github.com/codemirror/codemirror5/blob/master/keymap/vim.js), which does not include all vim commands, but most of them.
 - It is recommended to use the [vimrc Support Plugin](https://obsidian.md/plugins?id=obsidian-vimrc-support) to be able use an obsidian-specific `.vimrc` file.
 
