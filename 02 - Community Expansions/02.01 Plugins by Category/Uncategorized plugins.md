@@ -226,6 +226,14 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-camera|Obsidian Camera]]
 - [[obsidian-markbase|Markbase for Obsidian]]
 - [[obsidian-user-plugins|User Plugins]]
+- [[obsidian-ghost-publish|Obsidian Ghost Publish]]
+- [[obsidian-timestamp-notes|Timestamp Notes]]
+- [[linkify|Linkify]]
+- [[braincache|braincache]]
+- [[obsidian-share-as-gist|Share as Gist]]
+- [[code-block-plugin|Code Block]]
+- [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]
+- [[obsidian-stack-overflow|Stack Overflow Answers]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
