@@ -33,6 +33,7 @@ publish: true
 ### Others
 
 - [[Plugin Testing for Developers]]
+- [obsidian-repos-downloader](https://github.com/claremacrae/obsidian-repos-downloader) - Download every approved Obsidian.md community Plugin and Theme
 
 <!--
 ## Sponsor this author

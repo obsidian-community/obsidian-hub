@@ -43,6 +43,8 @@ This note collects resources and guides for beginner and expert theme designers 
 - [**Iconify Icon Sets**](https://icon-sets.iconify.design/) Website to search and find icons from multiple icon sets
 - [**URL-encoder for SVG**](https://yoksel.github.io/url-encoder/) Encodes icon's svg code into useful `background-image` url
 - [obsidian-style-settings:](https://github.com/mgmeyers/obsidian-style-settings) allows snippet, theme, and plugin CSS files to define a set of configuration options. It then allows users to see all the tweakable settings in one settings pane.
+- Ways to download all of Obsidian's theme source codes to learn from and search through:
+  - [obsidian-repos-downloader](https://github.com/claremacrae/obsidian-repos-downloader) - Download every approved Obsidian.md community Plugin and Theme
 
 %% Hub footer: Please don't edit anything below this line %%
 
