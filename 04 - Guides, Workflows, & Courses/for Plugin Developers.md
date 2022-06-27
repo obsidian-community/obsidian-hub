@@ -53,8 +53,9 @@ See also [[for Plugin Developers to Automate Tests|Resources and Guides for Plug
 - [obsidian-md at GitHub](https://github.com/topics/obsidian-md)
 - [What tools and libraries are used in Obsidian?](https://konhi.me/obsidian-stack.html)
 - Ways to download all of Obsidian's plugin source codes to learn from and search through:
-  - [Repoistories Downloader](https://github.com/konhi/obsidian-repositories-downloader)
+  - [Repositories Downloader](https://github.com/konhi/obsidian-repositories-downloader)
   - [Plugin Downloader](https://github.com/luckman212/obsidian-plugin-downloader)
+  - [obsidian-repos-downloader](https://github.com/claremacrae/obsidian-repos-downloader) - Download every approved Obsidian.md community Plugin and Theme
 
   
 %% Hub footer: Please don't edit anything below this line %%
