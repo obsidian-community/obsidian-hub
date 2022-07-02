@@ -20,3 +20,9 @@ This site is for all information valuable to users familiar with vim, that want 
 ## Example vimrcs
 - [obsidian.vimrc and usage infos](https://bauer.codes/notes/Obsidian#Obsidian+vim+window+controls) by pmbauer
 - [obsidian.vimrc](https://github.com/chrisgrieser/dotfiles/blob/main/obsidian.vimrc) by [[chrisgrieser|pseudometa]]
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/for%20Vim%20users.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/for%20Vim%20users.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

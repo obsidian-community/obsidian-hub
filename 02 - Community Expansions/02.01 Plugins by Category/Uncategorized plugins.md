@@ -213,7 +213,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-functionplot|Obsidian Functionplot]]
 - [[obsidian-note-autocreator|Note Auto Creator]]
 - [[local-quotes|Local Quotes]]
-- [[obsidian-state-switcher|State Switcher]]
+- [[obsidian-state-switcher|Yaml Manager]]
 - [[obsidian-media-db-plugin|Media DB Plugin]]
 - [[obsidian-sequence-hotkeys|Sequence Hotkeys]]
 - [[tasks-packrat-plugin|Packrat]]
@@ -234,6 +234,18 @@ Plugins which have not yet been categorized by the community.
 - [[code-block-plugin|Code Block]]
 - [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]
 - [[obsidian-stack-overflow|Stack Overflow Answers]]
+- [[obsidian-redirect|Redirect]]
+- [[zotero-bridge|Zotero Bridge]]
+- [[wielder|Wielder]]
+- [[obsidian-to-notion|Obsidian shared to Notion]]
+- [[obsidian-image-gallery|Image Gallery]]
+- [[obsidian-thumbnails|Thumbnails]]
+- [[obsidian-table-to-csv-exporter|Table to CSV Exporter]]
+- [[obsidian-task-progress-bar|Task Progress Bar]]
+- [[scroll-speed|Scroll Speed]]
+- [[obsidian-translator|Translator]]
+- [[obsidian-echarts|obsidian echarts]]
+- [[obsidian-diagrams-net|Diagrams.net]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
