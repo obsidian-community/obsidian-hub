@@ -15,7 +15,7 @@ tags:
 - [An Integrated Qualitative Analysis Environment with Obsidian - Axle](https://axle.design/an-integrated-qualitative-analysis-environment-with-obsidian) by [[ryanjamurphy|Ryan Murphy]]
 - [An Academic Workflow: Zotero & Obsidian | by Alexandra Phelan](https://medium.com/@alexandraphelan/an-academic-workflow-zotero-obsidian-56bf918d51ab) by @lexanka
 - [[YT - Pandoc and Obsidian - Create slideshows, PDFs and Word documents|Community Talk: Using Pandoc and Obsidian]] by [[SkepticMystic]]
-- [Doing History with Zotero and Obsidian: 01 Notetaking for Historians](https://publish.obsidian.md/history-notes/01+Notetaking+for+Historians) by [[Elena Razlogova|erazlogo]]*
+- [Doing History with Zotero and Obsidian: 01 Notetaking for Historians](https://publish.obsidian.md/history-notes/01+Notetaking+for+Historians) by [[Elena Razlogova|erazlogo]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
