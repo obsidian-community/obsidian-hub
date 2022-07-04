@@ -15,6 +15,9 @@ publish: true
 ## Law
 - [[Breadcrumbs for Comparative Law]]
 
+## Sales
+- [Dashboard for sales](https://forum.obsidian.md/t/dashboard-and-workflow-for-obsidian-at-work-sales/34794)
+
 %% Hub footer: Please don't edit anything below this line %%
 
 # This note in GitHub

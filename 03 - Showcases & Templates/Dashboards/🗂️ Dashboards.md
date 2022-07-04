@@ -10,6 +10,7 @@ tags:
 #placeholder/description
 
 - [@Rainbell's Obsidian Homepage](https://github.com/Rainbell129/Obsidian-Homepage)
+- [Dashboard with tasks, pomodoros and projects](https://forum.obsidian.md/t/dashboard-and-workflow-for-obsidian-at-work-sales/34794)
 
 ## MOC
 
