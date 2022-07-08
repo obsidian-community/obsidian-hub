@@ -226,6 +226,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-camera|Obsidian Camera]]
 - [[obsidian-markbase|Markbase for Obsidian]]
 - [[obsidian-user-plugins|User Plugins]]
+- [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]
 - [[obsidian-ghost-publish|Obsidian Ghost Publish]]
 - [[obsidian-timestamp-notes|Timestamp Notes]]
 - [[linkify|Linkify]]
@@ -246,6 +247,9 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-translator|Translator]]
 - [[obsidian-echarts|obsidian echarts]]
 - [[obsidian-diagrams-net|Diagrams.net]]
+- [[obsidian-weread-plugin|Weread Plugin]]
+- [[postgresql-obsidian|PostgreSQL Obsidian]]
+- [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
