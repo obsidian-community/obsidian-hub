@@ -250,6 +250,14 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-weread-plugin|Weread Plugin]]
 - [[postgresql-obsidian|PostgreSQL Obsidian]]
 - [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]
+- [[zotero-link|Zotero Link]]
+- [[obsidian-golinks|Obsidian GoLinks]]
+- [[habit-tracker|Habit Tracker]]
+- [[typing-transformer-obsidian|Typing Transformer]]
+- [[obsidian-list-callouts|List Callouts]]
+- [[obsidian-text-expander-js|Text Expander JS]]
+- [[metadata-menu|Metadata Menu]]
+- [[obsidian-plugin-time-diff|TimeDiff plugin]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
