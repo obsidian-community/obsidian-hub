@@ -8,7 +8,7 @@ publish: true
 ---
 
 # Template_Hub
-
+Author: [Hugo Sanots (Zektor)](Zektor)
 %% Add a description below this comment. It doesn't need to be long: one or two sentences should be a good start. 
 
 Longer descriptions are also welcome! A few things you could cover are: 
