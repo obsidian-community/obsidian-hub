@@ -35,7 +35,7 @@ GitHub: [Hugo Sanots (Zektor)](https://github.com/llZektorll) ^github
 ### Others
 
 - [[OB_Template]]
-- [[Template Hub]]
+- [[Template_Hub]]
 
 ### Auxilliary Tool
 - [[DDC_Folder_Maker]]
