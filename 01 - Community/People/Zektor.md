@@ -1,6 +1,6 @@
 ---
 aliases: 
-- Zektor
+- Hugo Santos (Zektor)
 tags:
 - 
 publish: true
@@ -8,7 +8,7 @@ publish: true
 
 # Zektor
 
-GitHub: [Zektor](https://github.com/llZektorll) ^github
+GitHub: [Hugo Sanots (Zektor)](https://github.com/llZektorll) ^github
 %% Website:  ^website%% 
 %%[[Publish sites|Publish site]]: ^publish%%
  
@@ -35,17 +35,19 @@ GitHub: [Zektor](https://github.com/llZektorll) ^github
 ### Others
 
 - [[OB_Template]]
+- [[Template Hub]]
 
 ### Auxilliary Tool
 - [[DDC_Folder_Maker]]
 - [[LCC_Folder_Maker]]
 
-%%
+
 ## Sponsor this author
 
-- [[GitHub sponsors]]: [Sponsor @Zektor on GitHub Sponsors](https://github.com/sponsors/llZektorll) ^github-sponsor
+- [PayPal](https://www.paypal.com/paypalme/llzektorll)
+- %%
+- - [[GitHub sponsors]]: [Sponsor @Zektor on GitHub Sponsors](https://github.com/sponsors/llZektorll) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
-- [[PayPal]]: ^paypal
 - [[Patreon]]: ^patreon
 %%
 
