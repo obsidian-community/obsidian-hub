@@ -34,3 +34,9 @@ If you have come across other resources for working with religious content insid
 Or let yourself be inspired by this wonderful (and very pretty!) [showcase of someone's setup](https://forum.obsidian.md/t/my-bible-study-workflow/39044) inside Obsidian:
 
 ![forum-bible-study-workflow-showcase](https://web.archive.org/web/20220621231316if_/https://forum.obsidian.md/uploads/default/original/3X/8/6/864dac12a1a08ef7dff7af0718137f589011a9e5.jpeg)
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/for%20Religious%20Uses.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/for%20Religious%20Uses.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
