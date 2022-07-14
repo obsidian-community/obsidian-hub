@@ -513,7 +513,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/ZaherAlMajed|ZaherAlMajed]]
 -  [[01 - Community/People/zapthedingbat|zapthedingbat]]
 -  [[01 - Community/People/zcysxy|zcysxy]]
--  [[Zektor|Hugo Santos (Zektor)]]
+-  [[01 - Community/People/Zektor|Hugo Santos (Zektor)]]
 -  [[01 - Community/People/zhaohongxuan|zhaohongxuan]]
 -  [[01 - Community/People/zolrath|zolrath]]
 -  [[01 - Community/People/zsviczian|zsviczian]]
