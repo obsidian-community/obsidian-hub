@@ -31,6 +31,7 @@ Because every person have a different workflow, note structure, thinking process
 %% Add the link where people can download this vault or kit %%
 
 Forum: [Obsidian Forum](https://forum.obsidian.md/t/template-hub/39499)
+
 Link: [GitHub](https://github.com/llZektorll/Template_Hub)
 
 %% If there are any steps one needs to complete to download the starter vault or kit list them here in an ordered list (e.g. uncomment the next comment)
