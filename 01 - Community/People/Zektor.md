@@ -8,7 +8,7 @@ publish: true
 
 # Zektor
 
-GitHub: [Hugo Sanots (Zektor)](https://github.com/llZektorll) ^github
+GitHub: [Hugo Santos (Zektor)](https://github.com/llZektorll) ^github
 %% Website:  ^website%% 
 %%[[Publish sites|Publish site]]: ^publish%%
  
