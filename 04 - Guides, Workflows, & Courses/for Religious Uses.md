@@ -27,6 +27,9 @@ The [[🗂️ 01 - Community|Obsidian Community]] has created plenty of resource
 - Joschua is a rich source for inspiration if you want to try digital Bible Studies:
 	- He published the [Bible Study in Obsidian Kit](https://forum.obsidian.md/t/bible-study-in-obsidian-kit-including-the-bible-in-markdown/12503) and also wrote [BibleGateway-to-Obsidian](https://github.com/selfire1/BibleGateway-to-Obsidian), a script to import various versions of the Bible. 
 	- The tool is also available in French and German.
+- [gapmiss](https://github.com/gapmiss) has [shared two Bible Study kits](https://forum.obsidian.md/t/introducing-kingdom-study-tools-for-obsidian/40394) as well.
+	- A Markdown version of the [Berean Study Bible](https://github.com/gapmiss/berean-study-bible-for-obsidian).
+	- The [Kingdom Study Tools](https://github.com/gapmiss/kingdom-study-tools-for-obsidian) which includes the KJV Bible with links to definitions, Hebrew & Greek Lexicons and [Noah Webster's Dictionary of the English Language](https://archive.org/details/noah-websters-1828-dictionary-ellen-g-white-estate) (1828). 
 - [mdbible](https://github.com/lguenth/mdbible) is a JSON-to-[[Markdown]] converter for [Javascripture's online bible](https://javascripture.org/), written by [[lguenth|Luke]]. Currently, only the ESV is provided but he is taking requests for other versions and formats.
 
 If you have come across other resources for working with religious content inside Obsidian, feel free to add them to this page! In the discussions leading up to the creation of this note, [some people chimed in on GitHub to share their workflows](https://github.com/obsidian-community/obsidian-hub/issues/449). 
