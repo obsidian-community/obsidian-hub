@@ -45,7 +45,8 @@ GitHub: [Hugo Santos (Zektor)](https://github.com/llZektorll) ^github
 ## Sponsor this author
 
 - [PayPal](https://www.paypal.com/paypalme/llzektorll)
-- %%
+ 
+%%
 - - [[GitHub sponsors]]: [Sponsor @Zektor on GitHub Sponsors](https://github.com/sponsors/llZektorll) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[Patreon]]: ^patreon
