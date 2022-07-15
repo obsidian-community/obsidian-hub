@@ -1,6 +1,5 @@
 ---
 aliases: Template_Hub
-- 
 tags:
 - seedling
 - Template_Hub
