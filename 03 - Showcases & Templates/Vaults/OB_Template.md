@@ -3,11 +3,12 @@ aliases:
 - 
 tags:
 - vault-kit
+- OB_Template
 publish: true
 ---
 
 # OB_Template
-Author: [[Zektor]]
+Author: [Hugo Santos (Zektor)](Zektor)
 
 %% Add a description below this comment. It doesn't need to be long: one or two sentences should be a good start. 
 
@@ -23,17 +24,17 @@ Longer descriptions are also welcome! A few things you could cover are:
 - Any ancilliary tools?
 %%
 
-This starter kit is designed to have a starting point when using Obsidian. 
+I have crafted these templates for my personal use, as such they are tailored made for my needs. In any case I decided to share them since most of them have been created based on other people templates, my OneNote, work notes and years of note taking.
 
-For this to work properly, make sure you have the Core Plugin "Templates" enabled.
+For this to work properly, make sure you have the Core Plugin "Templates" enabled, and it does not hurt to have DataView as well
 
 ## Download 
 
 %% Add the link where people can download this vault or kit %%
 
-Obsidian forum thread: https://forum.obsidian.md/t/obsidian-notes-template/28940
+Forum:  [Obsidian Forum](https://forum.obsidian.md/t/obsidian-notes-template/28940)
 
-Repository : https://github.com/llZektorll/OB_Template
+Repository : [GitHub](https://github.com/llZektorll/OB_Template)
 
 %% If there are any steps one needs to complete to download the starter vault or kit list them here in an ordered list (e.g. uncomment the next comment)
 %%
