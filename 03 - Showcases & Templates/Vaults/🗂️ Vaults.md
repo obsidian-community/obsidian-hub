@@ -22,6 +22,7 @@ tags:
 -  [[03 - Showcases & Templates/Vaults/Qualitative Analysis Environment by Ryan Murphy|Qualitative Analysis Environment by Ryan Murphy]]
 -  [[03 - Showcases & Templates/Vaults/SlRvb's Journaling Setup|SlRvb's Journaling Setup]]
 -  [[03 - Showcases & Templates/Vaults/SlRvb's MediaDB Setup|SlRvb's MediaDB Setup]]
+-  [[03 - Showcases & Templates/Vaults/Template_Hub|Template_Hub]]
 %% Hub MOCs: Don’t edit above  %%
 
 ## Vaults with External Descriptions
