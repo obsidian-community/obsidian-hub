@@ -17,7 +17,6 @@ Plugins which have not yet been categorized by the community.
 - [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]]
 - [[code-block-copy|Copy button for code blocks]]
 - [[workbench-obsidian|Workbench]]
-- [[plugin-changelogs|Plugin Changelogs]]
 - [[obsidian-apply-patterns|Apply Patterns]]
 - [[copy-note|Enhance Copy Note]]
 - [[customizable-menu|Customizable Menu]]
@@ -160,7 +159,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-zotero-desktop-connector|Zotero Integration]]
 - [[obsidian-telegraph-publish|Telegraph Publish]]
 - [[obsidian-path-title|Path Title]]
-- [[obsidian-jira-issue|JiraIssue]]
+- [[obsidian-jira-issue|Jira Issue]]
 - [[smort-obsidian|Smort]]
 - [[control-characters|Control Characters]]
 - [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]
@@ -258,6 +257,9 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-text-expander-js|Text Expander JS]]
 - [[metadata-menu|Metadata Menu]]
 - [[obsidian-plugin-time-diff|TimeDiff plugin]]
+- [[obsidian-trim-whitespace|Trim Whitespace]]
+- [[ninja-cursor|Ninja Cursor]]
+- [[cmdr|Commander]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
