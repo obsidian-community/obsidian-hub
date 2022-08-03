@@ -260,6 +260,11 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-trim-whitespace|Trim Whitespace]]
 - [[ninja-cursor|Ninja Cursor]]
 - [[cmdr|Commander]]
+- [[obsidian-attendance|Obsidian Attendance]]
+- [[OA-file-hider|File Hider]]
+- [[obsidian-sidebar-toggler|Sidebar Toggler]]
+- [[obsidian-path-finder|Path Finder]]
+- [[obsidian-focus-plugin|Focus and Highlight]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
