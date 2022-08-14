@@ -15,6 +15,15 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 ## MOC
 
 %% Hub MOCs: Don’t edit below  %%
+-  [[01 - Community/Obsidian Roundup/2021-04-17 RSS Tips, Self-Publish, & Debug Tools|2021-04-17 RSS Tips, Self-Publish, & Debug Tools]]
+-  [[01 - Community/Obsidian Roundup/2021-04-24 Inline Dataview, Showcases, & a Markdown GUI|2021-04-24 Inline Dataview, Showcases, & a Markdown GUI]]
+-  [[01 - Community/Obsidian Roundup/2021-05-01 Showcases, QoL Improvements, & Theme Updates|2021-05-01 Showcases, QoL Improvements, & Theme Updates]]
+-  [[01 - Community/Obsidian Roundup/2021-05-08 Templater, Syncthing & Requested Plugins|2021-05-08 Templater, Syncthing & Requested Plugins]]
+-  [[01 - Community/Obsidian Roundup/2021-05-15 Better Footnotes, Plugin Synergy, & an Electron Update|2021-05-15 Better Footnotes, Plugin Synergy, & an Electron Update]]
+-  [[01 - Community/Obsidian Roundup/2021-05-22 Templater Scripts, Sync workarounds & Obsidian for Work|2021-05-22 Templater Scripts, Sync workarounds & Obsidian for Work]]
+-  [[01 - Community/Obsidian Roundup/2021-05-29 Tricks for Mobile, Quick Capture, & Outliner Interoperability|2021-05-29 Tricks for Mobile, Quick Capture, & Outliner Interoperability]]
+-  [[01 - Community/Obsidian Roundup/2021-06-05 New Themes, Kanban Updates & Dropbox Backups|2021-06-05 New Themes, Kanban Updates & Dropbox Backups]]
+-  [[01 - Community/Obsidian Roundup/2021-06-12 Folder Indexer, Smarter Typography, & OCR|2021-06-12 Folder Indexer, Smarter Typography, & OCR]]
 -  [[01 - Community/Obsidian Roundup/2021-10-02  Premade Concept Hierarchies & a Virtual Community Meeting Space|2021-10-02  Premade Concept Hierarchies & a Virtual Community Meeting Space]]
 -  [[01 - Community/Obsidian Roundup/2021-10-09  Style Guide Enforcement & Sitemap-style view|2021-10-09  Style Guide Enforcement & Sitemap-style view]]
 -  [[01 - Community/Obsidian Roundup/2021-10-15  More WYSIWYG Functionality & Some Really Nice Documentation|2021-10-15  More WYSIWYG Functionality & Some Really Nice Documentation]]
@@ -27,15 +36,6 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2021-12-11  Nominate Gems of the Year and a new book club|2021-12-11  Nominate Gems of the Year and a new book club]]
 -  [[01 - Community/Obsidian Roundup/2021-12-18  Gems of the Year, Vim Mode, and RTL Support|2021-12-18  Gems of the Year, Vim Mode, and RTL Support]]
 -  [[01 - Community/Obsidian Roundup/2021-12-25  Live Preview Updates and Documentation|2021-12-25  Live Preview Updates and Documentation]]
--  [[01 - Community/Obsidian Roundup/2021.04.17|2021.04.17]]
--  [[01 - Community/Obsidian Roundup/2021.04.24|2021.04.24]]
--  [[01 - Community/Obsidian Roundup/2021.05.01|2021.05.01]]
--  [[01 - Community/Obsidian Roundup/2021.05.08|2021.05.08]]
--  [[01 - Community/Obsidian Roundup/2021.05.15|2021.05.15]]
--  [[01 - Community/Obsidian Roundup/2021.05.22|2021.05.22]]
--  [[01 - Community/Obsidian Roundup/2021.05.29|2021.05.29]]
--  [[01 - Community/Obsidian Roundup/2021.06.05|2021.06.05]]
--  [[01 - Community/Obsidian Roundup/2021.06.12|2021.06.12]]
 -  [[01 - Community/Obsidian Roundup/2021.06.19|2021.06.19]]
 -  [[01 - Community/Obsidian Roundup/2021.06.26|2021.06.26]]
 -  [[01 - Community/Obsidian Roundup/2021.07.03|2021.07.03]]
@@ -63,6 +63,7 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2022-03-05 Dashboards, Dataview Tips, & global publish graphs|2022-03-05 Dashboards, Dataview Tips, & global publish graphs]]
 -  [[01 - Community/Obsidian Roundup/2022-03-12 Pin Preview Popups & an Intro to Dataview Guide|2022-03-12 Pin Preview Popups & an Intro to Dataview Guide]]
 -  [[01 - Community/Obsidian Roundup/2022-03-19 Better Citations Workflows & Native Callout Boxes|2022-03-19 Better Citations Workflows & Native Callout Boxes]]
+-  [[01 - Community/Obsidian Roundup/2022-08-13 Dataview to Mermaid & PDF conversions|2022-08-13 Dataview to Mermaid & PDF conversions]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
