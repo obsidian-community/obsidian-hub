@@ -1,3 +1,13 @@
+---
+link: https://www.obsidianroundup.org/2022-08-13/
+author: Anon Person
+published: 2022-08-13T13:30:00
+publish: true
+---
+
+# 2022-08-13: Dataview to Mermaid & PDF conversions
+Sync highlights and annotations from Raindrop & execute codeblocks interactively, a la Jupyter.
+
 ## Obsidian Updates
 
 *   Obsidian Mobile v1.3.1 is available for testing [on Android](https://discord.com/channels/686053708261228577/817515900349448202/1006609288988463144) and iOS. It includes fixes up till v0.15.9 of Obsidian Desktop.
