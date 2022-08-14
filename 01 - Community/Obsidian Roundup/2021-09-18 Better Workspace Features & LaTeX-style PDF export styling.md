@@ -5,7 +5,7 @@ published: 2021-09-18
 publish: true
 ---
 
-# 2021.09.18: Better Workspace Features & LaTeX-style PDF export styling
+# 2021-09-18: Better Workspace Features & LaTeX-style PDF export styling
 You can kind of hack together a way to get Obsidian into a browser now, and Drafts on iOS has new Obsidian integration options.
 
 ## In The Community
