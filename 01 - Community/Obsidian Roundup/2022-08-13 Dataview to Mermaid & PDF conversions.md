@@ -1,6 +1,6 @@
 ---
 link: https://www.obsidianroundup.org/2022-08-13/
-author: Eleanor Konik
+author: Anon Person
 published: 2022-08-13T13:30:00
 publish: true
 ---
