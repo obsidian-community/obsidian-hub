@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-bible-reference`
 Links: [GitHub repository](https://github.com/tim-hub/obsidian-bible-reference) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-bible-reference)
 Developed by: [[tim-hub]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Mobile-compatible plugins|No]]
 
 Taking Bible Study note in Obsidian.md application easily. Automatically suggesting Bible Verses as references. 
 
