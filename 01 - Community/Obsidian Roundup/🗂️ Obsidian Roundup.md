@@ -63,6 +63,7 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2022-03-05 Dashboards, Dataview Tips, & global publish graphs|2022-03-05 Dashboards, Dataview Tips, & global publish graphs]]
 -  [[01 - Community/Obsidian Roundup/2022-03-12 Pin Preview Popups & an Intro to Dataview Guide|2022-03-12 Pin Preview Popups & an Intro to Dataview Guide]]
 -  [[01 - Community/Obsidian Roundup/2022-03-19 Better Citations Workflows & Native Callout Boxes|2022-03-19 Better Citations Workflows & Native Callout Boxes]]
+-  [[01 - Community/Obsidian Roundup/2022-08-13 Dataview to Mermaid & PDF conversions|2022-08-13 Dataview to Mermaid & PDF conversions]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
