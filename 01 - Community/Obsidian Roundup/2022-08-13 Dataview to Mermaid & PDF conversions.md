@@ -75,3 +75,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 ## Housekeeping
 
 *   I'm about to head to the airport; expect me back on Discord and Twitter tomorrow. Georgia was fun but I miss everyone. Thanks `@ab1908` for pinch hitting with the writing of this :)
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-08-13%20Dataview%20to%20Mermaid%20%26%20PDF%20conversions.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-08-13%20Dataview%20to%20Mermaid%20%26%20PDF%20conversions.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
