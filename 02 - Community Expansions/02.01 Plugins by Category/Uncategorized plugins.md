@@ -254,7 +254,7 @@ Plugins which have not yet been categorized by the community.
 - [[habit-tracker|Habit Tracker]]
 - [[typing-transformer-obsidian|Typing Transformer]]
 - [[obsidian-list-callouts|List Callouts]]
-- [[obsidian-text-expander-js|Text Expander JS]]
+- [[obsidian-text-expander-js|Inline Scripts]]
 - [[metadata-menu|Metadata Menu]]
 - [[obsidian-plugin-time-diff|TimeDiff plugin]]
 - [[obsidian-trim-whitespace|Trim Whitespace]]
@@ -265,6 +265,17 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-sidebar-toggler|Sidebar Toggler]]
 - [[obsidian-path-finder|Path Finder]]
 - [[obsidian-focus-plugin|Focus and Highlight]]
+- [[obsidian-file-cooker|File Cooker]]
+- [[hard-breaks|Hard Breaks]]
+- [[open-related-url|Open Related Url]]
+- [[podnotes|PodNotes]]
+- [[obsidian-meeting-notes|Meeting notes]]
+- [[obsidian-plugin-tagged-documents-viewer|Tagged Documents Viewer]]
+- [[better-inline-fields|Better Inline Fields]]
+- [[no-dupe-leaves|No dupe leaves]]
+- [[obsidian-open-file-by-magic-date|Open File by Magic Date]]
+- [[obsidian-heading-shifter|Heading Shifter]]
+- [[obsidian-group-snippets|Group Snippets]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
