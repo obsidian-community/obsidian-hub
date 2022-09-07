@@ -276,6 +276,18 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-open-file-by-magic-date|Open File by Magic Date]]
 - [[obsidian-heading-shifter|Heading Shifter]]
 - [[obsidian-group-snippets|Group Snippets]]
+- [[obsidian-raindrop-highlights|Raindrop Highlights]]
+- [[obisidian-note-linker|Note Linker]]
+- [[obsidian-dashing-cursor|Dashing cursor]]
+- [[obsidian-embedded-note-paths|Embedded Note Paths]]
+- [[obsidian-quickshare|QuickShare]]
+- [[rpg-manager|RPG Manager]]
+- [[literate-haskell|Literate Haskell]]
+- [[embed-code-file|Embed Code File]]
+- [[obsidian-bulk-rename-plugin|Bulk Rename]]
+- [[obsidian-agile-task-notes|Agile Task Notes]]
+- [[new-tab-default-page|Default New Tab Page]]
+- [[obsidian-open-in-other-editor|Open in other editor]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
