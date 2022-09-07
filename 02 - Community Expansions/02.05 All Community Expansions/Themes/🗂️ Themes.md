@@ -122,6 +122,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sanctum|Sanctum]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sandstorm|Sandstorm]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shimmering Focus|Shimmering Focus]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Silence|Silence]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Slytherin|Slytherin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sodalite|Sodalite]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Solarized|Solarized]]
