@@ -16,9 +16,9 @@ All data and graphs found below have been gathered from either GitHub or Obsidia
 The Python scripts to fetch, process and graph the data, alongside with all raw & processed data, can be found in this GitHub repository: [https://github.com/Fevol/obsidian-data-processing](https://github.com/Fevol/obsidian-data-processing)
 
 Before interpreting the data found below, be aware of the following:
-- The amount of downloads is usually much higher than the actual amount of users who've installed a plugin/Obsidian
-- Flatpak downloads are not included in the platform share, this accounts for 751k installs and updates
 - All data was collected on 2022/09/11
+- The amount of downloads is usually much higher than the actual amount of users who've installed a plugin/Obsidian
+- Flatpak downloads are not included in the platform share, this accounts for 751k installs and updates in total, spread across all versions of Obsidian
 
 
 ## Platform Share
@@ -27,9 +27,9 @@ This section contains the %-share of users for every platform Obsidian is availa
 
 As of *version 0.15.9*, the share between platforms is divided as follows:
 **Windows** — 53.1%
- >  64-bit: 98.01%
->   arm:    1.19%
->   32-bit: 0.79
+>  64-bit: 98.01%
+>  arm:    1.19%
+>  32-bit: 0.79
 
 **MacOS** — 34.4%
 
@@ -64,7 +64,7 @@ This chart graphs the downloads of community plugins on the y-axis, and the rela
 
 ## Theme Downloads
 
-This chart graphs the downloads of community themes on the y-axis,  and the relative age of a theme on the x-axis (from oldest theme to newest theme)
+This chart graphs the downloads of community themes on the y-axis, and the relative age of a theme on the x-axis (from oldest theme to newest theme)
 
 - 3 Themes have more than 100.000 downloads (2.13%)
 - 42 Themes have more than 10.000 downloads (29.79%)

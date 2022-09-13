@@ -9,7 +9,7 @@ publish: true
 # Fevol
 
 - GitHub: [Fevol](https://github.com/Fevol/) ^github
-- Discord: `@`Fevol#9470 ^discord
+- Discord: `@Fevol#9470` ^discord
 <!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
@@ -21,13 +21,6 @@ CompSci student trying to make plugins for Obsidian, has too many interests for 
 %% Begin Hub: Released contributions %%
 
 
-### Plugins
-- [[obsidian-translate|Obsidian Translate]]
-
-<!--
-### Themes
--->
-
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -36,9 +29,9 @@ CompSci student trying to make plugins for Obsidian, has too many interests for 
 ### Unlisted plugins
 -->
 
-<!--
+
 ### Others
--->
+- [[Obsidian ecosystem statistics|Brief analysis on Obsidian's ecosystem]]
 
 <!--
 ## Sponsor this author
