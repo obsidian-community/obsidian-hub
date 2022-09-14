@@ -35,6 +35,7 @@ tags:
 -  [[04 - Guides, Workflows, & Courses/Guides/How to test plugin code that uses Obsidian APIs|How to test plugin code that uses Obsidian APIs]]
 -  [[04 - Guides, Workflows, & Courses/Guides/How to update your plugins and CSS for live preview|How to update your plugins and CSS for live preview]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Markdown Syntax|Markdown Syntax]]
+-  [[04 - Guides, Workflows, & Courses/Guides/Obsidian ecosystem statistics|Obsidian ecosystem statistics]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Obsidian publish and pfSense|Obsidian publish and pfSense]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using Discord|Using Discord]]
 -  [[04 - Guides, Workflows, & Courses/Guides/Using GitHub actions to create releases for plugins|Using GitHub actions to create releases for plugins]]
