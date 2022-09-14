@@ -27,19 +27,19 @@ This section contains the %-share of users for every platform Obsidian is availa
 
 As of *version 0.15.9*, the share between platforms is divided as follows:
 **Windows** — 53.1%
->  64-bit: 98.01%
->  arm:    1.19%
->  32-bit: 0.79
+>64-bit: 98.01%
+>arm:    1.19%
+>32-bit: 0.79
 
 **MacOS** — 34.4%
 
 **Linux** — 12.1%
->  AppImage: 53.92%
->  Snap: 22.98%
->  Debian: 17.55%
->  AppImage(arm): 2.81%
->  tar.gz: 2.55%
->  tar.gz(arm): 0.17%
+>AppImage: 53.92%
+>Snap: 22.98%
+>Debian: 17.55%
+>AppImage(arm): 2.81%
+>tar.gz: 2.55%
+>tar.gz(arm): 0.17%
 
 ![Releases stats](https://raw.githubusercontent.com/Fevol/obsidian-data-processing/master/images/releases-platform-share.png)
 
