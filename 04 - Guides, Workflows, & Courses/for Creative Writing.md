@@ -7,7 +7,7 @@
 **Using [[Zettelkasten]] for Creative Writing:**
 - [The Zettelkasten Method for Fiction IV - Creating Stories](https://zettelkasten.de/posts/zettelkasten-fiction-writing-part-4-create-story/) by Sascha on Zettelkasten.de
 - [Zettelkasten For Writers](https://www.eadeverell.com/zettelkasten/) by Eva Deverell
-- [Zettelkasten For Musicians](https://anthonyamar.fr/Zettelkasten/Zettelkasten+for+musicians)
+- [Zettelkasten For Musicians](https://anthonyamar.fr/Zettelkasten/Zettelkasten+for+musicians) by Anthony Amar
 
 
 %% Hub footer: Please don't edit anything below this line %%
