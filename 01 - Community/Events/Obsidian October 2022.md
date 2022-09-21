@@ -29,7 +29,7 @@ The winners will be featured on our official website!
 
 ## Get started
 
-Starting now, we'll start accepting participants (abbreviated as OOers below). Anyone can participate! You'll get a special role to indicate you're participating too. You can get your role by reacting to a message that we'll soon post to Discord.
+Starting now, we'll start accepting participants (abbreviated as OOers below). Anyone can participate! You'll get a special role to indicate you're participating too. You can get your role by reacting to [this Discord message](https://discord.com/channels/686053708261228577/702717892533157999/1022202550344228874).
 
 You can sign up any time before October 31, but we encourage you to start early so you have a higher chance to finish your project.
 
