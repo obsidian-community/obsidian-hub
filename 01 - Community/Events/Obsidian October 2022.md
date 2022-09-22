@@ -11,6 +11,7 @@ We have the following categories this year:
 - **New plugin:** a new plugin that you made
 - **Plugin update:** a significant update of your existing plugin
 - **Video:** Obsidian related video posted to YouTube or TikTok
+- **Written content**: Obsidian related written content posted anywhere online
 - **Demo vault:** a downloadable vault to demonstrate how Obsidian can be used for a specific purpose
 
 You can participate in one or more categories. You can submit multiple entries per category.
