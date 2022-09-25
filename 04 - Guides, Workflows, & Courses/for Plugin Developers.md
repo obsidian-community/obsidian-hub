@@ -42,7 +42,6 @@ See also [[for Plugin Developers to Automate Tests|Resources and Guides for Plug
   - [Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
 - [obsidian-tools:](https://github.com/obsidian-tools/obsidian-tools) an unofficial collection of tools that helps devs build plugins for obsidian.
 - [obsidian-rust-plugin:](https://github.com/trashhalo/obsidian-rust-plugin) boilerplate needed to write obsidian plugins in rust!
-- [obsidian-api-docs:](https://github.com/HEmile/obsidian-api-docs/blob/main/docs/00_Home.md) community-provided documentation of the Obsidian API.
 - [API class diagram](https://i.joethei.space/obsidian-api.png): structure and relationships between API classes([svg version](https://i.joethei.space/obsidian-api.svg))
 - [obsidian-dev-tools:](https://github.com/KjellConnelly/obsidian-dev-tools)  allows for a modified console (useful for debugging on mobile), and viewing all Obsidian icons/strings.
 - [obsidian-daily-notes-interface:](https://github.com/liamcain/obsidian-daily-notes-interface) a collection of utility functions for working with dates and daily notes in Obsidian plugins.
