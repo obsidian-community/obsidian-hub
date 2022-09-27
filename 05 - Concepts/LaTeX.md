@@ -8,12 +8,12 @@ publish: true
 
 # LaTeX
 
-Official website: #placeholder/link
-Documentation: #placeholder/link
+Official website: https://www.latex-project.org/
+Documentation: https://www.latex-project.org/help/documentation/
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. Mention [[🗂️ 02.04 Auxiliary Tools by Category]] and any other relevat notes in this vault. %%
+%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. Mention [[🗂️ 02.04 Auxiliary Tools by Category]] and any other relevant notes in this vault. %%
 
-#placeholder/description
+LaTeX is a typesetting system designed for the production of technical and scientific documentation. It uses plain text to generate high-quality representation of mathematical and other specialized notation. See [[Mathjax and LaTeX Plugins]] for easy ways to integrate LaTeX into Obsidian.
 
 %% Hub footer: Please don't edit anything below this line %%
 
