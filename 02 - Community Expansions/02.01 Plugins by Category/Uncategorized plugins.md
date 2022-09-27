@@ -288,6 +288,14 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-agile-task-notes|Agile Task Notes]]
 - [[new-tab-default-page|Default New Tab Page]]
 - [[obsidian-open-in-other-editor|Open in other editor]]
+- [[obsidian-simple-mention|Simple Mention]]
+- [[obsidian-auto-hide|Auto Hide]]
+- [[janitor|Janitor]]
+- [[script-launcher|Script Launcher]]
+- [[obsidian-party|Party🎉]]
+- [[obsidian-day-and-night|Day and Night]]
+- [[obsidian-tikzjax|TikZJax]]
+- [[todoist-completed-tasks-plugin|Todoist completed tasks]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
