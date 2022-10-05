@@ -14,6 +14,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[01 - Community/People/9r0x|9r0x]]
+-  [[01 - Community/People/aciq|aciq]]
 -  [[01 - Community/People/adifyr|adifyr]]
 -  [[01 - Community/People/agathauy|agathauy]]
 -  [[01 - Community/People/aidanglickman|aidanglickman]]
@@ -106,6 +107,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/curtgrimes|curtgrimes]]
 -  [[01 - Community/People/cybeerboy|cybeerboy]]
 -  [[01 - Community/People/CyberT17|CyberT17]]
+-  [[01 - Community/People/czottmann|czottmann]]
 -  [[01 - Community/People/d-sauer|d-sauer]]
 -  [[01 - Community/People/Daeik|Daeik]]
 -  [[01 - Community/People/DahaWong|DahaWong]]
