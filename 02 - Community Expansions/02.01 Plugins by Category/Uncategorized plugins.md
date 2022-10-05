@@ -171,7 +171,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-better-codeblock|Better CodeBlock]]
 - [[obsidian-wordnik|Wordnik Definitions]]
 - [[typing-speed|Typing speed]]
-- [[obsidian-google-tasks|Obsidian Google Tasks]]
+- [[obsidian-google-tasks|Google Tasks]]
 - [[obsidian-jtab|Obsidian jTab]]
 - [[obsidian-book-search-plugin|Book Search]]
 - [[obsidian-paste-image-rename|Paste image rename]]
@@ -296,6 +296,10 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-day-and-night|Day and Night]]
 - [[obsidian-tikzjax|TikZJax]]
 - [[todoist-completed-tasks-plugin|Todoist completed tasks]]
+- [[quick-snippets-and-navigation|Quick snippets and navigation]]
+- [[google-calendar|Google Calendar]]
+- [[obsidian-copy-search-url|Copy Search URL]]
+- [[simple-time-tracker|Super Simple Time Tracker]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
