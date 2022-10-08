@@ -1,8 +1,6 @@
 ---
-aliases:
-- Davis Haupt
-tags:
-- 
+aliases: [Davis Haupt]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-full-calendar|Full Calendar]]
 
 %% End Hub: Released contributions %%

@@ -1,11 +1,13 @@
 ---
-aliases: 
-- YouTube Video
-- YouTube Channel
-- YouTube Playlist
-- YouTube Videos, Channels and Playlists
-tags:
-- seedling
+aliases:
+  [
+    YouTube Video,
+    YouTube Channel,
+    YouTube Playlist,
+    YouTube Videos,
+    Channels and Playlists,
+  ]
+tags: [seedling]
 publish: true
 ---
 
@@ -17,6 +19,7 @@ publish: true
 - [[Obsidian Community Talks]]: [YouTube Channel](https://www.youtube.com/channel/UCxNSTq2kmupdR6LD400FpvA)
 
 ## Playlists
+
 - [[Effective Remote Work]]: [Obsidian - Take Notes for the Long-Term](https://youtube.com/playlist?list=PLrI2d6gSaO9BCd8HjgkSY1yd50nyfxYpN)
 - [[santiyounger|Santi Younger]]: [Obsidian](https://www.youtube.com/playlist?list=PL_7j1BHf-xmj3Jr2h3lI6SXlvIaIjcmmo)
 - [[Productivity Guru]]: [Obsidian](https://www.youtube.com/playlist?list=PLvmlaxyxtsWz428CtIo_Ia8Bhbo8Uvq2f)

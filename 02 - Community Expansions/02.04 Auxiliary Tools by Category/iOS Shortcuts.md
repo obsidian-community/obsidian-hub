@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- evergreen
+aliases: []
+tags: [evergreen]
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 
-iOS/iPadOS/MacOS [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) for use in conjunction with Apple's [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334) app. 
+iOS/iPadOS/MacOS [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) for use in conjunction with Apple's [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334) app.
 
 - [[Open in Obsidian]]
 

@@ -1,12 +1,9 @@
 ---
-aliases:
-- Yes
-tags:
-- 
+aliases: [Yes]
+tags: []
 ---
 
 # Mobile-compatible plugins
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

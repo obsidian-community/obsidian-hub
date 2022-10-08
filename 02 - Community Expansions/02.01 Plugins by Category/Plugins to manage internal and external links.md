@@ -1,11 +1,8 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Plugins to manage internal and external links
 
@@ -38,7 +35,6 @@ Plugins to manage external or internal links.
 - [[obsidian-link-converter|Obsidian Link Converter]]
 - [[supercharged-links-obsidian|Supercharged Links]]
 - [[map-of-content|Map of Content]]
-
 
 ## Related categories
 

@@ -1,25 +1,24 @@
 ---
-aliases:
-- Aviral Batra
-tags:
-- 
+aliases: [Aviral Batra]
+tags: []
 publish: true
 ---
 
 # Aviral Batra
 
 - GitHub: [aviral-batra](https://github.com/aviral-batra/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-power-search|Power Search]]
 
 %% End Hub: Released contributions %%

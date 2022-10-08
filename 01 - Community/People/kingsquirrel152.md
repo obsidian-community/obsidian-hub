@@ -1,25 +1,24 @@
 ---
-aliases:
-- Alex Stewart
-tags:
-- 
+aliases: [Alex Stewart]
+tags: []
 publish: true
 ---
 
 # Alex Stewart
 
 - GitHub: [kingsquirrel152](https://github.com/kingsquirrel152/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-wavedrom|WaveDrom]]
 
 %% End Hub: Released contributions %%

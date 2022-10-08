@@ -1,8 +1,6 @@
 ---
-aliases:
-- Oliver Balfour
-tags:
-- 
+aliases: [Oliver Balfour]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-pandoc|Pandoc Plugin]]
 
 %% End Hub: Released contributions %%

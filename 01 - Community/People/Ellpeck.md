@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ellpeck
-tags:
-- 
+aliases: [Ellpeck]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-custom-frames|Custom Frames]]
 
 %% End Hub: Released contributions %%

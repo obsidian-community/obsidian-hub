@@ -1,8 +1,6 @@
 ---
-aliases:
-- b0o
-tags:
-- 
+aliases: [b0o]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-embedded-note-paths|Embedded Note Paths]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jules Guesnon
-tags:
-- 
+aliases: [Jules Guesnon]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[markdown-shortcuts|Markdown shortcuts]]
 
 %% End Hub: Released contributions %%

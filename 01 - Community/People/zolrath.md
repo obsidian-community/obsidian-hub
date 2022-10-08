@@ -1,8 +1,6 @@
 ---
-aliases:
-- Matt Furden
-tags:
-- 
+aliases: [Matt Furden]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-auto-link-title|Auto Link Title]]
 
 %% End Hub: Released contributions %%

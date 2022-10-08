@@ -1,8 +1,6 @@
 ---
-aliases:
-- Clare Macrae
-tags:
-- 
+aliases: [Clare Macrae]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[reveal-active-file-button|Reveal Active File Button]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Dhruvik Parikh
-tags:
-- 
+aliases: [Dhruvik Parikh]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-daily-stats|Daily Stats]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Badr Bouslikhin
-tags:
-- 
+aliases: [Badr Bouslikhin]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-vault-changelog|Vault Changelog]]
 
 %% End Hub: Released contributions %%

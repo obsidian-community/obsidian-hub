@@ -1,9 +1,6 @@
 ---
-aliases: 
-  - "Resources and Guides for Theme Designers"
-tags:
-  - seedling
-  - MOC
+aliases: ["Resources and Guides for Theme Designers"]
+tags: [seedling, MOC]
 ---
 
 # for Theme Designers
@@ -29,13 +26,14 @@ This note collects resources and guides for beginner and expert theme designers 
   - [Getting comfortable with Obsidian CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
   - [Common Selectors for Custom CSS](https://forum.obsidian.md/t/common-selectors-for-custom-css/1984)
 - [[Using Visual Studio Code for Theme Development]] by [[damiankorcz|Damian Korcz]]
-- [[Graph view customization|Styling the graph view]] 
+- [[Graph view customization|Styling the graph view]]
 
 ## Community Talks
 
 - [[CSS 101 - Community Talk]]
 
 ## Tools
+
 - [**Obsidian Theme Template**](https://github.com/obsidian-community/obsidian-theme-template) A GitHub repository template with everything you need to get started. Click `Use this template` to get a ready-to-go theme repository.
 - [**Theme Dev Vault**](https://github.com/obsidian-community/theme-dev-vault) An obsidian vault to aid in theme development
 - [[obsidian-theme-design-utilities|Theme Design Utilities Plugin]]

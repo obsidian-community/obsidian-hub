@@ -1,8 +1,6 @@
 ---
-aliases:
-- Alessandro Ruggiero
-tags:
-- 
+aliases: [Alessandro Ruggiero]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[script-launcher|Script Launcher]]
 
 %% End Hub: Released contributions %%

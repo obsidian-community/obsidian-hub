@@ -1,20 +1,19 @@
 ---
-aliases:
-- 
-tags:
-- MOC
+aliases: []
+tags: [MOC]
 publish: true
 ---
 
 # 🗂️ Unlisted
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
--  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/Unlisted/quick-monsters-5e|quick-monsters-5e]]
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit below %%
+
+- [[02 - Community Expansions/02.05 All Community Expansions/Plugins/Unlisted/quick-monsters-5e|quick-monsters-5e]]
+  %% Hub MOCs: Don’t edit above %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

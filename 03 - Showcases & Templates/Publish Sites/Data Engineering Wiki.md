@@ -1,14 +1,12 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
 # Data Engineering Wiki
 
-Link: https://dataengineering.wiki/Index 
+Link: https://dataengineering.wiki/Index
 Author: Jonathan Porter and [Data Engineering Community Contributors](https://github.com/data-engineering-community/data-engineering-wiki/graphs/contributors)
 Tool: [[Obsidian Publish]]
 

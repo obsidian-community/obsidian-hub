@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-remember-file-state
-aliases:
-- Remember File State
-tags: 
-- 
+aliases: [Remember File State]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/ludovicchabant/obsidian-remember-file-state/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ludovicchabant/obsidian-remember-file-state?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/ludovicchabant/obsidian-remember-file-state/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/ludovicchabant/obsidian-remember-file-state/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ludovicchabant/obsidian-remember-file-state?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/ludovicchabant/obsidian-remember-file-state/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/ludovicchabant/obsidian-remember-file-state?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Remembers cursor position, selection, scrolling, and more for each file
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[ludovicchabant#Sponsor this author]] %%

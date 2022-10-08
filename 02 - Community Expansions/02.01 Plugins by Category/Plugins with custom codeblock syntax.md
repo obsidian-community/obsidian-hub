@@ -1,11 +1,8 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Plugins with custom codeblock syntax
 

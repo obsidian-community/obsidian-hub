@@ -1,8 +1,6 @@
 ---
-aliases:
-- Yuan Chen
-tags:
-- 
+aliases: [Yuan Chen]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-vim-im-switch-plugin|Vim Input Method Switch]]
 
 %% End Hub: Released contributions %%

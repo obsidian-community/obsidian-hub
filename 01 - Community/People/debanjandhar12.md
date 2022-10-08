@@ -1,8 +1,6 @@
 ---
-aliases:
-- debanjandhar12
-tags:
-- 
+aliases: [debanjandhar12]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[ObsidianAnkiSync|Obsidian Anki Sync]]
 
 %% End Hub: Released contributions %%

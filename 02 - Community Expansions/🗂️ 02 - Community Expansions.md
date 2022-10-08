@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- MOC
+aliases: []
+tags: [MOC]
 publish: true
 ---
 
@@ -12,17 +10,18 @@ Are you looking for a list of all plugins related to [[Automation plugins|Automa
 
 For information on the Core Plugins, check out the [Official Obsidian Documentation](https://help.obsidian.md/Plugins/Core+plugins) (a.k.a. the Help Vault).
 
-If you prefer to browse the full directory of *all* expansions provided by the Obsidian Community instead, check out [[🗂️ 02.05 All Community Expansions|the full directory of all expansions]]. When you are looking for some guidance how to use which expansions, you should check out [[🗂️ 04 - Guides, Workflows, & Courses]]. 
+If you prefer to browse the full directory of _all_ expansions provided by the Obsidian Community instead, check out [[🗂️ 02.05 All Community Expansions|the full directory of all expansions]]. When you are looking for some guidance how to use which expansions, you should check out [[🗂️ 04 - Guides, Workflows, & Courses]].
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
--  [[02 - Community Expansions/02.01 Plugins by Category/🗂️ 02.01 Plugins by Category|🗂️ 02.01 Plugins by Category]]
--  [[02 - Community Expansions/02.02 Themes by Category/🗂️ 02.02 Themes by Category|🗂️ 02.02 Themes by Category]]
--  [[02 - Community Expansions/02.03 CSS Snippets by Category/🗂️ 02.03 CSS Snippets by Category|🗂️ 02.03 CSS Snippets by Category]]
--  [[02 - Community Expansions/02.04 Auxiliary Tools by Category/🗂️ 02.04 Auxiliary Tools by Category|🗂️ 02.04 Auxiliary Tools by Category]]
--  [[02 - Community Expansions/02.05 All Community Expansions/🗂️ 02.05 All Community Expansions|🗂️ 02.05 All Community Expansions]]
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit below %%
+
+- [[02 - Community Expansions/02.01 Plugins by Category/🗂️ 02.01 Plugins by Category|🗂️ 02.01 Plugins by Category]]
+- [[02 - Community Expansions/02.02 Themes by Category/🗂️ 02.02 Themes by Category|🗂️ 02.02 Themes by Category]]
+- [[02 - Community Expansions/02.03 CSS Snippets by Category/🗂️ 02.03 CSS Snippets by Category|🗂️ 02.03 CSS Snippets by Category]]
+- [[02 - Community Expansions/02.04 Auxiliary Tools by Category/🗂️ 02.04 Auxiliary Tools by Category|🗂️ 02.04 Auxiliary Tools by Category]]
+- [[02 - Community Expansions/02.05 All Community Expansions/🗂️ 02.05 All Community Expansions|🗂️ 02.05 All Community Expansions]]
+  %% Hub MOCs: Don’t edit above %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

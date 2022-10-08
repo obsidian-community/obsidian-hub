@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-timestamp-notes
-aliases:
-- Timestamp Notes
-tags: 
-- 
+aliases: [Timestamp Notes]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/juliang22/ObsidianTimestampNotes/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/juliang22/ObsidianTimestampNotes?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/juliang22/ObsidianTimestampNotes/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/juliang22/ObsidianTimestampNotes/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/juliang22/ObsidianTimestampNotes?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/juliang22/ObsidianTimestampNotes/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/juliang22/ObsidianTimestampNotes?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Desktop-only plugins|No]]
 
 This plugin allows side-by-side notetaking with videos. Annotate your notes with timestamps to directly control the video and remember where each note comes from.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[juliang22#Sponsor this author]] %%

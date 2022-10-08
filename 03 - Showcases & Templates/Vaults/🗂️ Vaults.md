@@ -1,33 +1,31 @@
 ---
-aliases:
-- 
-tags: 
-- MOC
+aliases: []
+tags: [MOC]
 ---
 
 # 🗂️ Vaults
 
 #placeholder/description
 
-
 ## Vaults with Descriptions in the Hub
 
-%% Hub MOCs: Don’t edit below  %%
--  [[03 - Showcases & Templates/Vaults/Life Disciplines Projects|Life Disciplines Projects]]
--  [[03 - Showcases & Templates/Vaults/LYT Kit|LYT Kit]]
--  [[03 - Showcases & Templates/Vaults/OB_Template|OB_Template]]
--  [[03 - Showcases & Templates/Vaults/Obsidian JG Method|Obsidian JG Method]]
--  [[03 - Showcases & Templates/Vaults/Obsidian Starter Templates|Obsidian Starter Templates]]
--  [[03 - Showcases & Templates/Vaults/PARA Starter Kit|PARA Starter Kit]]
--  [[03 - Showcases & Templates/Vaults/Qualitative Analysis Environment by Ryan Murphy|Qualitative Analysis Environment by Ryan Murphy]]
--  [[03 - Showcases & Templates/Vaults/SlRvb's Journaling Setup|SlRvb's Journaling Setup]]
--  [[03 - Showcases & Templates/Vaults/SlRvb's MediaDB Setup|SlRvb's MediaDB Setup]]
--  [[03 - Showcases & Templates/Vaults/Template_Hub|Template_Hub]]
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit below %%
+
+- [[03 - Showcases & Templates/Vaults/Life Disciplines Projects|Life Disciplines Projects]]
+- [[03 - Showcases & Templates/Vaults/LYT Kit|LYT Kit]]
+- [[03 - Showcases & Templates/Vaults/OB_Template|OB_Template]]
+- [[03 - Showcases & Templates/Vaults/Obsidian JG Method|Obsidian JG Method]]
+- [[03 - Showcases & Templates/Vaults/Obsidian Starter Templates|Obsidian Starter Templates]]
+- [[03 - Showcases & Templates/Vaults/PARA Starter Kit|PARA Starter Kit]]
+- [[03 - Showcases & Templates/Vaults/Qualitative Analysis Environment by Ryan Murphy|Qualitative Analysis Environment by Ryan Murphy]]
+- [[03 - Showcases & Templates/Vaults/SlRvb's Journaling Setup|SlRvb's Journaling Setup]]
+- [[03 - Showcases & Templates/Vaults/SlRvb's MediaDB Setup|SlRvb's MediaDB Setup]]
+- [[03 - Showcases & Templates/Vaults/Template_Hub|Template_Hub]]
+  %% Hub MOCs: Don’t edit above %%
 
 ## Vaults with External Descriptions
-- [Blue topaz themes example vault for Obsidian](https://github.com/cumany/Blue-topaz-examples)
 
+- [Blue topaz themes example vault for Obsidian](https://github.com/cumany/Blue-topaz-examples)
 
 ## Contributing
 
@@ -43,10 +41,11 @@ Here are a few suggestions on how you can share your vault structure:
 
 %%
 TODOs:
-- [ ] Add examples for the other types of contributions
-%%
 
-After that, the interesting bit comes from the *why* you organized things the way you did, so adding a small description and explanation is of course welcome!
+- [ ] Add examples for the other types of contributions
+      %%
+
+After that, the interesting bit comes from the _why_ you organized things the way you did, so adding a small description and explanation is of course welcome!
 
 ### Starter vaults or kits
 

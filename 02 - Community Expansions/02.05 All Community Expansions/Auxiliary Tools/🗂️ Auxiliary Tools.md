@@ -1,9 +1,6 @@
 ---
-aliases:
-- Third-party tools
-- Ancilliary tools
-tags: 
-- MOC
+aliases: [Third-party tools, Ancilliary tools]
+tags: [MOC]
 publish: true
 ---
 
@@ -15,53 +12,54 @@ publish: true
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Alfred|Alfred]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Anki|Anki]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Calibre|Calibre]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/DDC_Folder_Maker|DDC_Folder_Maker]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Docker|Docker]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Drafts App|Drafts App]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dragon speech recognition|Dragon speech recognition]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dropbox|Dropbox]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Emacs|Emacs]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Gingko app|Gingko app]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/GitHub Pages|GitHub Pages]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Hazel|Hazel]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Hugo|Hugo]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/icalBuddy|icalBuddy]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Jekyll|Jekyll]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/LCC_Folder_Maker|LCC_Folder_Maker]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/mailbox.org|mailbox.org]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/MarginNote|MarginNote]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Mdnotes|Mdnotes]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/MGit|MGit]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Notepad++|Notepad++]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidian-web-clipper|obsidian-web-clipper]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidianki4|obsidianki4]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Onyx Boox|Onyx Boox]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Open in Obsidian|Open in Obsidian]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pandoc|Pandoc]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pocket|Pocket]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/ProtonMail|ProtonMail]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Readwise|Readwise]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Research Rabbit|Research Rabbit]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/revealjs|revealjs]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Shimmering Obsidian|Shimmering Obsidian]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Sublime Text|Sublime Text]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Syncthing|Syncthing]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Tesseract|Tesseract]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Vim|Vim]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/VSCode|VSCode]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Working Copy|Working Copy]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/YAML|YAML]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/YiNote|YiNote]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zapier|Zapier]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zotero Better BibTex|Zotero Better BibTex]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zotero|Zotero]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zotfile|Zotfile]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zutilo|Zutilo]]
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit below %%
+
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Alfred|Alfred]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Anki|Anki]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Calibre|Calibre]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/DDC_Folder_Maker|DDC_Folder_Maker]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Docker|Docker]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Drafts App|Drafts App]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dragon speech recognition|Dragon speech recognition]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dropbox|Dropbox]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Emacs|Emacs]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Gingko app|Gingko app]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/GitHub Pages|GitHub Pages]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Hazel|Hazel]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Hugo|Hugo]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/icalBuddy|icalBuddy]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Jekyll|Jekyll]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/LCC_Folder_Maker|LCC_Folder_Maker]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/mailbox.org|mailbox.org]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/MarginNote|MarginNote]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Mdnotes|Mdnotes]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/MGit|MGit]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Notepad++|Notepad++]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidian-web-clipper|obsidian-web-clipper]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/obsidianki4|obsidianki4]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Onyx Boox|Onyx Boox]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Open in Obsidian|Open in Obsidian]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pandoc|Pandoc]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Pocket|Pocket]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/ProtonMail|ProtonMail]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Readwise|Readwise]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Research Rabbit|Research Rabbit]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/revealjs|revealjs]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Shimmering Obsidian|Shimmering Obsidian]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Sublime Text|Sublime Text]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Syncthing|Syncthing]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Tesseract|Tesseract]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Vim|Vim]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/VSCode|VSCode]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Working Copy|Working Copy]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/YAML|YAML]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/YiNote|YiNote]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zapier|Zapier]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zotero Better BibTex|Zotero Better BibTex]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zotero|Zotero]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zotfile|Zotfile]]
+- [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Zutilo|Zutilo]]
+  %% Hub MOCs: Don’t edit above %%
 
 ## Contributing
 

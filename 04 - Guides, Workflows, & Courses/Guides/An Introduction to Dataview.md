@@ -1,9 +1,7 @@
 ---
 author: SkepticMystic
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -18,20 +16,22 @@ The original slides can be found [[An Introduction to Dataview Slides|here]] and
 By [[SkepticMystic]]
 
 ## Overview
+
 1. [[An Introduction to Dataview#Introduction|Broad Intro to Dataview]]
 2. [[An Introduction to Dataview#Metadata|Metadata]]
 3. [[An Introduction to Dataview#Dataview Queries|Dataview Queries]]
-    - [[An Introduction to Dataview#List|List]]
-    - [[An Introduction to Dataview#From|From]]
-    - [[An Introduction to Dataview#Where|Where]]
-    - [[An Introduction to Dataview#Task|Task]]
-    - [[An Introduction to Dataview#Table|Table]]
-    - [[An Introduction to Dataview#Sort|Sort]]
-    - [[An Introduction to Dataview#Flatten|Flatten]]
-    - [[An Introduction to Dataview#Group by|Group by]]
-    
+   - [[An Introduction to Dataview#List|List]]
+   - [[An Introduction to Dataview#From|From]]
+   - [[An Introduction to Dataview#Where|Where]]
+   - [[An Introduction to Dataview#Task|Task]]
+   - [[An Introduction to Dataview#Table|Table]]
+   - [[An Introduction to Dataview#Sort|Sort]]
+   - [[An Introduction to Dataview#Flatten|Flatten]]
+   - [[An Introduction to Dataview#Group by|Group by]]
+
 ## Introduction
-[[dataview|Dataview]] is a plugin which lets you query data from your vault. The *official documentation* which you can use for reference is available here:
+
+[[dataview|Dataview]] is a plugin which lets you query data from your vault. The _official documentation_ which you can use for reference is available here:
 
 https://blacksmithgu.github.io/obsidian-dataview
 
@@ -39,12 +39,13 @@ https://blacksmithgu.github.io/obsidian-dataview
 
 ### What is it?
 
-Metadata provides information _about_ your data. 
+Metadata provides information _about_ your data.
 It is _extra_ info that is either already _inherent_ in your data, or info that you **manually add**.
 
 ### Examples of Metadata 💡
 
 #### Photographs
+
 - Date & time ⏰
 - Location 🌍
 - People 🧑‍🤝‍🧑
@@ -142,7 +143,9 @@ link: [[2021-04-09 Daily Note]]
 Subtags are broken down by each level, so `#Tag/1/A` will be stored in the array as `[#Tag, #Tag/1, #Tag/1/A]`
 
 ## Dataview Queries
+
 ### `List`
+
 Creates a _list_ of the specified notes
 
 ```dataview
@@ -300,6 +303,7 @@ flatten authors
 `Group by` lets do gather together results based on the value of a field.
 
 You may group:
+
 - tasks by `completed`
 - games by `rating`
 - assignments by `intensity`
@@ -308,7 +312,7 @@ First, gather all the assignments:
 
 `from #Uni/2021/Asg`
 
-Then, group by `intensity`: 
+Then, group by `intensity`:
 
 `group by intensity`
 
@@ -316,14 +320,14 @@ Then, group by `intensity`:
 
 By grouping the notes, we've created a **new object**.
 
-This is a **nested list** of all the assignments grouped by intensity. 
+This is a **nested list** of all the assignments grouped by intensity.
 Something like:
 
 ```js
 [
-	[A1, A2, A6], // Green
-	[A3, A4], // Yellow
-	[A5, A7], // Red
+  [A1, A2, A6], // Green
+  [A3, A4], // Yellow
+  [A5, A7], // Red
 ];
 ```
 
@@ -377,17 +381,21 @@ Returns the _sum_ of the numbers in a `list`
 `where sum(minutesStudied) < 60`
 
 ### Many other Functions
+
 For further info on implemented functions, head over to [the official documentation](https://blacksmithgu.github.io/obsidian-dataview/#/functions).
 
 ## Neat Examples
+
 People have come up with a lot of interesting ways of leveraging Dataview. Many have been shared in the central [Dataview Snippet Showcase](https://forum.obsidian.md/t/dataview-plugin-snippet-showcase/13673) on the Obsidian Forum.
 
 ### Untagged Notes
+
 For example, finding all untagged notes in your vault is as simple as:
 
 `list where length(file.tags) = 0`
 
 ### Birthdays
+
 If you track \#People in separate notes and add their Birthday as a dataview property, you could compile a list of everyone whose birthday is today like this:
 
 ```dataview

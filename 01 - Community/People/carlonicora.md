@@ -1,8 +1,6 @@
 ---
-aliases:
-- Carlo Nicora <carlo@carlonicora.com>
-tags:
-- 
+aliases: [Carlo Nicora <carlo@carlonicora.com>]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[rpg-manager|RPG Manager]]
 
 %% End Hub: Released contributions %%

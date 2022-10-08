@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jens M Gleditsch
-tags:
-- 
+aliases: [Jens M Gleditsch]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-diagrams-net|Diagrams.net]]
 
 %% End Hub: Released contributions %%

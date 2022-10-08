@@ -1,8 +1,6 @@
 ---
-aliases:
-- Martin Schenck
-tags:
-- 
+aliases: [Martin Schenck]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-tasks-plugin|Tasks]]
 
 %% End Hub: Released contributions %%

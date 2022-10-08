@@ -1,20 +1,17 @@
 ---
-aliases:
-- Scripts
-- Templater scripts
-tags: 
-- MOC
+aliases: [Scripts, Templater scripts]
+tags: [MOC]
 ---
 
 # 🗂️ Templater templates
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
+%% Hub MOCs: Don’t edit below %%
 
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit above %%
 
 ## Contributing
 

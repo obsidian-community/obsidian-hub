@@ -1,8 +1,6 @@
 ---
-aliases:
-- nadim@park5.io
-tags:
-- 
+aliases: [nadim@park5.io]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]
 
 %% End Hub: Released contributions %%

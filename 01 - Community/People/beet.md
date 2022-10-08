@@ -1,25 +1,24 @@
 ---
-aliases:
-- Mark Beattie
-tags:
-- 
+aliases: [Mark Beattie]
+tags: []
 publish: true
 ---
 
 # Mark Beattie
 
 - GitHub: [beet](https://github.com/beet/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[page-heading-from-links|Page Heading From Links]]
 
 %% End Hub: Released contributions %%

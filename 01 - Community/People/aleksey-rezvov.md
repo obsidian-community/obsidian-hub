@@ -1,8 +1,6 @@
 ---
-aliases:
-- catalysm, aleksey-rezvov
-tags:
-- 
+aliases: [catalysm, aleksey-rezvov]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-local-images|Local images]]
 
 %% End Hub: Released contributions %%

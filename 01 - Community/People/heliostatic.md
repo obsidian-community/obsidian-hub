@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ben Lee-Cohen
-tags:
-- 
+aliases: [Ben Lee-Cohen]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[completed-task-display|Completed Task Display]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- cjwilson
-tags:
-- 
+aliases: [cjwilson]
+tags: []
 publish: true
 ---
 
@@ -10,9 +8,10 @@ publish: true
 
 <!-- - GitHub: []() ^github -->
 <!-- - Discord: `@` ^discord-->
+
 - Website: <https://www.cjwilson.co.uk/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
- 
+
 Chris Wilson creates resources [[for Religious Uses|for Bible Study]] and shares how he uses [[Obsidian]] on his YouTube channel.
 
 ## Author of
@@ -24,6 +23,7 @@ Chris Wilson creates resources [[for Religious Uses|for Bible Study]] and shares
 -->
 
 ### Others
+
 - Chris has a playlist on his Obsidian setup: [Biblekasten Playlist](https://www.youtube.com/playlist?list=PLykefMsqC1neImu5aISN9ByTOKLaXgigk)
 
 <!--
@@ -38,8 +38,8 @@ Chris Wilson creates resources [[for Religious Uses|for Bible Study]] and shares
 ## Follow this author
 
 - [[YouTube Channels|On YouTube]]: <https://www.youtube.com/c/ChrisWilsonUK> ^youtube
-<!-- - Twitter: <https://> ^twitter-->
-<!-- - ... -->
+  <!-- - Twitter: <https://> ^twitter-->
+  <!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
 

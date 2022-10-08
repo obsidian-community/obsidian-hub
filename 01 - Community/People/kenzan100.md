@@ -1,8 +1,6 @@
 ---
-aliases:
-- Yuta Miyama
-tags:
-- 
+aliases: [Yuta Miyama]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[beeminder-word-count-plugin|Beeminder Word Count Plugin]]
 
 %% End Hub: Released contributions %%

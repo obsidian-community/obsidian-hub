@@ -1,8 +1,6 @@
 ---
-aliases:
-- braincache
-tags:
-- 
+aliases: [braincache]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[braincache|braincache]]
 
 %% End Hub: Released contributions %%

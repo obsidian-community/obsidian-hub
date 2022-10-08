@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-quickshare
-aliases:
-- QuickShare
-tags: 
-- 
+aliases: [QuickShare]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/mcndt/obsidian-quickshare/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mcndt/obsidian-quickshare?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/mcndt/obsidian-quickshare/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/mcndt/obsidian-quickshare/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mcndt/obsidian-quickshare?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/mcndt/obsidian-quickshare/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/mcndt/obsidian-quickshare?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Securely share your Obsidian notes with one click. Notes are end-to-end encrypted. No API keys or configuration required.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[mcndt#Sponsor this author]] %%

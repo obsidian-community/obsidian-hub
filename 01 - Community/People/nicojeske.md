@@ -1,8 +1,6 @@
 ---
-aliases:
-- Nico Jeske
-tags:
-- 
+aliases: [Nico Jeske]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[mousewheel-image-zoom|Mousewheel Image zoom]]
 
 %% End Hub: Released contributions %%

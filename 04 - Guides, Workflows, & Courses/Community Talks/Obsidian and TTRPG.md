@@ -1,14 +1,12 @@
 ---
-aliases: 
-- Obsidian for TTRPG
-tags:
-- seedling
+aliases: [Obsidian for TTRPG]
+tags: [seedling]
 publish: true
 ---
 
 # Obsidian and TTRPG
 
-In this panel talk,  Obsidian community members show how they are using Obsidian to run and participate in TTRPGs.
+In this panel talk, Obsidian community members show how they are using Obsidian to run and participate in TTRPGs.
 
 The order of speakers is as follows:
 
@@ -17,8 +15,6 @@ The order of speakers is as follows:
 - [[nvanderhoevan|Nicole vdH]] - Keeping games separate: Calendar. Use of metadata. Gallery plugin. Resources for inspiration. Random Rolls (Encounters, NPC characteristics). Customised stat blocks.
 - [[SlRvb]]- Vault and Notes Setup: Campaign Setup Folder & Session Notes with [[obsidian-admonition|Admonitions]]. Universe SRDs, Player Character Database, and Adventure Diary.
 - [[Leah]] - Player Perspective: Different take on character diary. [[templater-obsidian|Templater]] and [[dataview|Dataview]] for in-game reference (metadata). One-touch game day setup (Bunch app). D&D 5e starter vault (community resource, publicly available).
-
-
 
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/Ovqu_1aW3Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

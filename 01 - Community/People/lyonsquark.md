@@ -1,8 +1,6 @@
 ---
-aliases:
-- Adam Lyon
-tags:
-- 
+aliases: [Adam Lyon]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-daf-yomi|Daf Yomi]]
 
 %% End Hub: Released contributions %%

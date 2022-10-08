@@ -1,8 +1,6 @@
 ---
-aliases:
-- Shap Po
-tags:
-- 
+aliases: [Shap Po]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-party|Party🎉]]
 
 %% End Hub: Released contributions %%

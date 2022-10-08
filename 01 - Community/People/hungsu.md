@@ -1,8 +1,6 @@
 ---
-aliases:
-- Hung-Su
-tags:
-- 
+aliases: [Hung-Su]
+tags: []
 publish: true
 ---
 
@@ -15,17 +13,19 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[prompt|Prompt]]
 
 ### Themes
+
 - [[Vileplume]]
 - [[Typomagical]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 

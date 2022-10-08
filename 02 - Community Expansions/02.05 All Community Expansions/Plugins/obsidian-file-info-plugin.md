@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-file-info-plugin
-aliases:
-- File Info Panel
-tags: 
-- 
+aliases: [File Info Panel]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/CattailNu/obsidian-file-info-panel-plugin/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/CattailNu/obsidian-file-info-panel-plugin?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/CattailNu/obsidian-file-info-panel-plugin/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/CattailNu/obsidian-file-info-panel-plugin/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/CattailNu/obsidian-file-info-panel-plugin?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/CattailNu/obsidian-file-info-panel-plugin/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/CattailNu/obsidian-file-info-panel-plugin?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -25,9 +23,9 @@ Links: [GitHub repository](https://github.com/CattailNu/obsidian-file-info-panel
 Developed by: [[CattailNu]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Plugin for Obsidian that creates a File Information view that displays the active file's date created, date modified, file size, and links to open the file in its native application and to open the file's folder.  It also has writing statistics (character, word, sentence, and paragraph counts) and a word frequency analysis.
+Plugin for Obsidian that creates a File Information view that displays the active file's date created, date modified, file size, and links to open the file in its native application and to open the file's folder. It also has writing statistics (character, word, sentence, and paragraph counts) and a word frequency analysis.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[CattailNu#Sponsor this author]] %%

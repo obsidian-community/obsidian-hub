@@ -1,8 +1,6 @@
 ---
-aliases: 
-- "Why automate tests for plugins?"
-tags:
-- seedling
+aliases: ["Why automate tests for plugins?"]
+tags: [seedling]
 publish: true
 ---
 
@@ -20,7 +18,7 @@ This note describes the motivation for writing [[for Plugin Developers to Automa
 
 ### Steps to test Obsidian Plugins
 
-*Typically...*
+_Typically..._
 
 1. Write your code
 1. Build your plugin
@@ -39,18 +37,18 @@ Note:
 It starts off easy, and gets progressively harder.
 
 - You add a **feature**
-    - You know how to test it manually and you know it works
-    - The code is small and fresh in your mind
+  - You know how to test it manually and you know it works
+  - The code is small and fresh in your mind
 - You had **another feature**
-    - Now you have two features to test
+  - Now you have two features to test
 - You had another feature, and **a few more**
-    - Either you test by hand all the features so far and the interactions between them, or maybe you just test the newest features
-    - Now you have got more codes that could break and more features to test
-    - And of course the code becomes more complicated to
+  - Either you test by hand all the features so far and the interactions between them, or maybe you just test the newest features
+  - Now you have got more codes that could break and more features to test
+  - And of course the code becomes more complicated to
 - Maybe somebody comes along and submit a **pull request** to improve your plug-in
-    - They didn't know all the manual tests they needed to run, so now you need to run all the manual tests
+  - They didn't know all the manual tests they needed to run, so now you need to run all the manual tests
 - Or maybe you spend your time writing up a **load of detailed notes** about how to test it manually, and of course those notes quickly become out of date
-    - And the time that you're spending writing instructions about testing or testing manually it's not just boring time it's time when you're not adding value and not having fun
+  - And the time that you're spending writing instructions about testing or testing manually it's not just boring time it's time when you're not adding value and not having fun
 - Or maybe you wait for users to report bugs and breakages?
 
 ## Another way

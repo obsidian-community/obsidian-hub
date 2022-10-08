@@ -1,8 +1,6 @@
 ---
-aliases:
-- Oscar Capraro
-tags:
-- 
+aliases: [Oscar Capraro]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-math-plus|Obsidian Math+]]
 
 %% End Hub: Released contributions %%

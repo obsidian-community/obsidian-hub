@@ -1,16 +1,12 @@
 ---
-aliases:
-- 
-tags:
-- MOC
+aliases: []
+tags: [MOC]
 publish: true
 ---
 
 # Patreon
 
 The backlinks of this note contain [[🗂️ People]] that you can sponsor at <www.patreon.com>.
-
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

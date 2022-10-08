@@ -1,8 +1,6 @@
 ---
-aliases:
-- Liam Cain
-tags:
-- 
+aliases: [Liam Cain]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[calendar|Calendar]]
 - [[things-logbook|Things Logbook]]
 - [[periodic-notes|Periodic Notes]]

@@ -1,19 +1,17 @@
 ---
-aliases:
-- Project management templates
-tags: 
-- MOC
+aliases: [Project management templates]
+tags: [MOC]
 ---
 
 # Projects
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
+%% Hub MOCs: Don’t edit below %%
 
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit above %%
 
 ## Contributing
 

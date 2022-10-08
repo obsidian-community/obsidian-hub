@@ -1,15 +1,12 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
-
 # Discontinued plugins
 
-These plugins were once published, but have have since been withdrawn, or are no longer supported. These plugins may no longer work well with newer versions of Obsidian. These plugins should be installed only at your own risk and without placing any expectations on their authors. 
+These plugins were once published, but have have since been withdrawn, or are no longer supported. These plugins may no longer work well with newer versions of Obsidian. These plugins should be installed only at your own risk and without placing any expectations on their authors.
 
 ## Plugins in this category
 

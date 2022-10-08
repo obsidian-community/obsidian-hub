@@ -1,8 +1,6 @@
 ---
-aliases:
-- PADAone
-tags:
-- 
+aliases: [PADAone]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-card-view-mode|Card View Mode]]
 
 %% End Hub: Released contributions %%

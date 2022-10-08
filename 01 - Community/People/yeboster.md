@@ -1,8 +1,6 @@
 ---
-aliases:
-- Yeboster
-tags:
-- 
+aliases: [Yeboster]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-autocomplete-plugin|Autocomplete]]
 
 %% End Hub: Released contributions %%

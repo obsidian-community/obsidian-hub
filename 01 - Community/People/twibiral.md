@@ -1,8 +1,6 @@
 ---
-aliases:
-- twibiral
-tags:
-- 
+aliases: [twibiral]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[execute-code|Execute Code]]
 
 %% End Hub: Released contributions %%

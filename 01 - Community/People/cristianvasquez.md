@@ -1,25 +1,24 @@
 ---
-aliases:
-- Cristian Vasquez
-tags:
-- 
+aliases: [Cristian Vasquez]
+tags: []
 publish: true
 ---
 
 # Cristian Vasquez
 
 - GitHub: [cristianvasquez](https://github.com/cristianvasquez/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[markdown-prettifier|Markdown prettifier]]
 - [[snippets|Snippets plugin]]
 - [[python-lab-plugin|Python lab]]

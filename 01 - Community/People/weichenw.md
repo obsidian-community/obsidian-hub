@@ -1,8 +1,6 @@
 ---
-aliases:
-- weichenw
-tags:
-- 
+aliases: [weichenw]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-hypothesis-plugin|Hypothes.is]]
 
 %% End Hub: Released contributions %%

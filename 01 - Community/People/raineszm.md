@@ -1,8 +1,6 @@
 ---
-aliases:
-- Zach Raines
-tags:
-- 
+aliases: [Zach Raines]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-latex-environments|Latex Environments]]
 - [[obsidian-export-to-tex|Export To TeX]]
 

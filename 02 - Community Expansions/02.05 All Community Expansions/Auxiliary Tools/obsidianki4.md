@@ -1,9 +1,6 @@
 ---
-aliases:
-  - obsidianki 4
-  - Obsidianki 4
-tags:
-  - seedling
+aliases: [obsidianki 4, Obsidianki 4]
+tags: [seedling]
 publish: true
 ---
 
@@ -21,9 +18,10 @@ obsidianki4 is an add-on for the digital flashcard app [[Anki]]. It enables you 
 **Note:** The development of this [[🗂️ Auxiliary Tools|third-party tool]] is currently paused, meaning the code is unmaintained for the foreseeable future. (Status: 2022-03-15)
 
 ## Installation
+
 Download the `Obsidianki 4.ankiaddon` file as well as the card deck template `Obsidianki 4.0.apkg` from the [GitHub releases page](https://github.com/wxxedu/obsidianki4/releases) or the official [Anki Addon page](https://ankiweb.net/shared/info/620260832).
 
-Open Anki, navigate to *Tools > Add-ons > Install from file* and choose the `.ankiaddon` file you downloaded. Restart Anki and import the `.apkg` deck template via *File > Import*.
+Open Anki, navigate to _Tools > Add-ons > Install from file_ and choose the `.ankiaddon` file you downloaded. Restart Anki and import the `.apkg` deck template via _File > Import_.
 
 For further explanations, please take a look at the official documentation which is linked above.
 

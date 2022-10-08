@@ -1,8 +1,6 @@
 ---
-aliases:
-- der-tobi
-tags:
-- 
+aliases: [der-tobi]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-simple-mention|Simple Mention]]
 
 %% End Hub: Released contributions %%

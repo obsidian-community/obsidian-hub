@@ -1,8 +1,6 @@
 ---
-aliases:
-- cactus5
-tags:
-- 
+aliases: [cactus5]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[editor-commands-remap|Editor Commands Remap]]
 
 %% End Hub: Released contributions %%

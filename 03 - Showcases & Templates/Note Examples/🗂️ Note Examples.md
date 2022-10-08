@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- MOC
+aliases: []
+tags: [MOC]
 ---
 
 # 🗂️ Note Examples
@@ -11,10 +9,9 @@ tags:
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
+%% Hub MOCs: Don’t edit below %%
 
-%% Hub MOCs: Don’t edit above  %%
-
+%% Hub MOCs: Don’t edit above %%
 
 ## Contributing
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Brian Carlsen
-tags:
-- 
+aliases: [Brian Carlsen]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-html-tags-autocomplete|HTML Tags Autocomplete]]
 - [[obsidian-image-caption|Image Caption]]
 

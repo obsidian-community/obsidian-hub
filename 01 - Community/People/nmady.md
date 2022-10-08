@@ -1,25 +1,24 @@
 ---
-aliases:
-- nmady
-tags:
-- 
+aliases: [nmady]
+tags: []
 publish: true
 ---
 
 # nmady
 
 - GitHub: [nmady](https://github.com/nmady/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[multi-line-formatting|Multi-line Formatting]]
 
 %% End Hub: Released contributions %%

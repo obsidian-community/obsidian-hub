@@ -1,8 +1,6 @@
 ---
-aliases:
-- dandandan
-tags:
-- 
+aliases: [dandandan]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[code-block-copy|Copy button for code blocks]]
 - [[css-snippets|css snippets]]
 

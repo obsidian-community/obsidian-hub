@@ -1,28 +1,26 @@
 ---
-aliases:
-- caro401
-tags:
-- 
+aliases: [caro401]
+tags: []
 publish: true
 ---
 
 # caro401
 
 - GitHub: [caro401](https://github.com/caro401/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
 
 ### Themes
+
 - [[Royal Velvet]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 

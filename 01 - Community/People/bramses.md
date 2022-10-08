@@ -1,8 +1,6 @@
 ---
-aliases:
-- bramses
-tags:
-- 
+aliases: [bramses]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[stenography-obsidian|Stenography]]
 
 %% End Hub: Released contributions %%

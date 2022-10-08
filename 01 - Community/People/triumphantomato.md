@@ -1,8 +1,6 @@
 ---
-aliases:
-- triumphantomato
-tags:
-- 
+aliases: [triumphantomato]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[cryptsidian|Cryptsidian]]
 
 %% End Hub: Released contributions %%

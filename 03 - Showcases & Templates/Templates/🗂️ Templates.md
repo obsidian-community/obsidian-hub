@@ -1,23 +1,21 @@
 ---
-aliases:
-- 
-tags: 
-- MOC
+aliases: []
+tags: [MOC]
 ---
 
 # 🗂️ Templates
 
-%% Hub MOCs: Don’t edit below  %%
--  [[03 - Showcases & Templates/Templates/Daily notes/🗂️ Daily notes|🗂️ Daily notes]]
--  [[03 - Showcases & Templates/Templates/Literature notes/🗂️ Literature notes|🗂️ Literature notes]]
--  [[03 - Showcases & Templates/Templates/Monthly notes/🗂️ Monthly notes|🗂️ Monthly notes]]
--  [[03 - Showcases & Templates/Templates/Plugin-specific templates/🗂️ Plugin-specific templates|🗂️ Plugin-specific templates]]
--  [[03 - Showcases & Templates/Templates/Projects/🗂️ Projects|🗂️ Projects]]
--  [[03 - Showcases & Templates/Templates/TTRPG notes/🗂️ TTRPG notes|🗂️ TTRPG notes]]
--  [[03 - Showcases & Templates/Templates/Weekly notes/🗂️ Weekly notes|🗂️ Weekly notes]]
--  [[03 - Showcases & Templates/Templates/Yearly notes/🗂️ Yearly notes|🗂️ Yearly notes]]
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit below %%
 
+- [[03 - Showcases & Templates/Templates/Daily notes/🗂️ Daily notes|🗂️ Daily notes]]
+- [[03 - Showcases & Templates/Templates/Literature notes/🗂️ Literature notes|🗂️ Literature notes]]
+- [[03 - Showcases & Templates/Templates/Monthly notes/🗂️ Monthly notes|🗂️ Monthly notes]]
+- [[03 - Showcases & Templates/Templates/Plugin-specific templates/🗂️ Plugin-specific templates|🗂️ Plugin-specific templates]]
+- [[03 - Showcases & Templates/Templates/Projects/🗂️ Projects|🗂️ Projects]]
+- [[03 - Showcases & Templates/Templates/TTRPG notes/🗂️ TTRPG notes|🗂️ TTRPG notes]]
+- [[03 - Showcases & Templates/Templates/Weekly notes/🗂️ Weekly notes|🗂️ Weekly notes]]
+- [[03 - Showcases & Templates/Templates/Yearly notes/🗂️ Yearly notes|🗂️ Yearly notes]]
+  %% Hub MOCs: Don’t edit above %%
 
 ## Contributing
 

@@ -1,9 +1,7 @@
 ---
 author: SkepticMystic
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -425,9 +423,9 @@ Something like:
 
 ```js
 [
-	[A1, A2, A6], // Green
-	[A3, A4], // Yellow
-	[A5, A7], // Red
+  [A1, A2, A6], // Green
+  [A3, A4], // Yellow
+  [A5, A7], // Red
 ];
 ```
 

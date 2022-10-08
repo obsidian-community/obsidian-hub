@@ -1,8 +1,6 @@
 ---
-aliases:
-  -
-tags: 
-  - seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -10,11 +8,11 @@ publish: true
 
 Available for: [[Windows Tools|Windows]]
 
-Available on: 
+Available on:
 
-  Obsidian Forum: <a href="https://forum.obsidian.md/t/lcc-automatic-folder-creation/31406">Obsidian Forum</a>
-  
-  GitHub Repository: <a href="https://github.com/llZektorll/LCC_Folder_Maker">GitHub</a>
+Obsidian Forum: <a href="https://forum.obsidian.md/t/lcc-automatic-folder-creation/31406">Obsidian Forum</a>
+
+GitHub Repository: <a href="https://github.com/llZektorll/LCC_Folder_Maker">GitHub</a>
 
 This script will create all folders and sub folders according to LCC (Library of Congress Classification) automatically.
 

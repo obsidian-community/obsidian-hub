@@ -1,11 +1,8 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Plugins to edit other file types
 

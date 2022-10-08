@@ -1,8 +1,6 @@
 ---
-aliases:
-- ryanpcmcquen
-tags:
-- 
+aliases: [ryanpcmcquen]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-focus-mode|Focus Mode]]
 - [[obsidian-org-mode|Org Mode]]
 - [[obsidian-dropbox-backups|Aut-O-Backups]]

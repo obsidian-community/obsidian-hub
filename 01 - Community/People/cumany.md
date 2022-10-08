@@ -1,8 +1,6 @@
 ---
-aliases:
-- windily-cloud && Cuman
-tags:
-- 
+aliases: [windily-cloud && Cuman]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-echarts|obsidian echarts]]
 
 %% End Hub: Released contributions %%

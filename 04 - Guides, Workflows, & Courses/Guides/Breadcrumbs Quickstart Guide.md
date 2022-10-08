@@ -1,9 +1,7 @@
 ---
 author: ladle
-aliases:
-  -
-tags:
-  - seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 

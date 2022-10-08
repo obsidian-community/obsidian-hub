@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jonas Mohr
-tags:
-- 
+aliases: [Jonas Mohr]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-matrix|Obsidian matrix]]
 
 %% End Hub: Released contributions %%

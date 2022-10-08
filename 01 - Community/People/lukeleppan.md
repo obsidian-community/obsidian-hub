@@ -1,8 +1,6 @@
 ---
-aliases:
-- Luke Leppan
-tags:
-- 
+aliases: [Luke Leppan]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-discordrpc|Discord Rich Presence]]
 - [[better-word-count|Better Word Count]]
 

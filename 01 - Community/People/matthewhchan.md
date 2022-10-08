@@ -1,25 +1,24 @@
 ---
-aliases:
-- matthewhchan
-tags:
-- 
+aliases: [matthewhchan]
+tags: []
 publish: true
 ---
 
 # matthewhchan
 
 - GitHub: [matthewhchan](https://github.com/matthewhchan/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[linkify|Linkify]]
 
 %% End Hub: Released contributions %%

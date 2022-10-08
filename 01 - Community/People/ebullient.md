@@ -1,8 +1,6 @@
 ---
-aliases:
-- Erin Schnabel
-tags:
-- 
+aliases: [Erin Schnabel]
+tags: []
 publish: true
 ---
 
@@ -21,13 +19,16 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-task-collector|Task Collector (TC)]]
 - [[obsidian-snippetor|Snippetor]]
 
 ### Themes
+
 - [[Ebullientworks]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 

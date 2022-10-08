@@ -1,8 +1,6 @@
 ---
-aliases:
-- phibr0
-tags:
-- 
+aliases: [phibr0]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[cycle-through-panes|Cycle through Panes]]
 - [[obsidian-charts|Obsidian Charts]]
 - [[obsidian-dictionary-plugin|Dictionary]]

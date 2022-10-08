@@ -1,8 +1,6 @@
 ---
-aliases:
-- Vladimir Savenkov
-tags:
-- 
+aliases: [Vladimir Savenkov]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-format-code|Format code]]
 
 %% End Hub: Released contributions %%

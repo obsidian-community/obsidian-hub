@@ -1,11 +1,8 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Uncategorized plugins
 
@@ -300,7 +297,6 @@ Plugins which have not yet been categorized by the community.
 - [[google-calendar|Google Calendar]]
 - [[obsidian-copy-search-url|Copy Search URL]]
 - [[simple-time-tracker|Super Simple Time Tracker]]
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

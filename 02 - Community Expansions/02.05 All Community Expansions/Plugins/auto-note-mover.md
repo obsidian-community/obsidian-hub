@@ -1,17 +1,15 @@
 ---
 plugin-id: auto-note-mover
-aliases:
-- Auto Note Mover
-tags: 
-- 
+aliases: [Auto Note Mover]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/farux/obsidian-auto-note-mover/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/farux/obsidian-auto-note-mover?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/farux/obsidian-auto-note-mover/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/farux/obsidian-auto-note-mover/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/farux/obsidian-auto-note-mover?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/farux/obsidian-auto-note-mover/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/farux/obsidian-auto-note-mover?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Auto Note Mover will automatically move the active notes to their respective folders according to the rules.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[farux#Sponsor this author]] %%

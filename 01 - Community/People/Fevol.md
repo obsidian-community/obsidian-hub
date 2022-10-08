@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -10,8 +8,8 @@ publish: true
 
 - GitHub: [Fevol](https://github.com/Fevol/) ^github
 - Discord: `@Fevol#9470` ^discord
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 CompSci student trying to make plugins for Obsidian, has too many interests for their own good.
@@ -19,7 +17,6 @@ CompSci student trying to make plugins for Obsidian, has too many interests for 
 ## Author of
 
 %% Begin Hub: Released contributions %%
-
 
 %% End Hub: Released contributions %%
 
@@ -29,8 +26,8 @@ CompSci student trying to make plugins for Obsidian, has too many interests for 
 ### Unlisted plugins
 -->
 
-
 ### Others
+
 - [[Obsidian ecosystem statistics|Brief analysis on Obsidian's ecosystem]]
 
 <!--

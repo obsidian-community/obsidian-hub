@@ -1,8 +1,6 @@
 ---
-aliases:
-- yajamon<yajamon.cmnct@gmail.com>
-tags:
-- 
+aliases: [yajamon<yajamon.cmnct@gmail.com>]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-command-alias-plugin|Command Alias]]
 
 %% End Hub: Released contributions %%

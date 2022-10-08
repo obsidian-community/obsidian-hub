@@ -1,8 +1,6 @@
 ---
-aliases:
-- Mark
-tags:
-- 
+aliases: [Mark]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-enhancing-mindmap|Enhancing Mindmap]]
 - [[obsidian-markmind|obsidian markmind]]
 

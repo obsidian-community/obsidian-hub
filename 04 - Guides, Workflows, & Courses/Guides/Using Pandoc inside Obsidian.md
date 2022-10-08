@@ -1,9 +1,7 @@
 ---
 author: SkepticMystic
-aliases: 
-- Using Pandoc inside Obsidian
-tags:
-- seedling
+aliases: [Using Pandoc inside Obsidian]
+tags: [seedling]
 publish: true
 ---
 
@@ -28,7 +26,7 @@ Let's you give commands directly to the computer using text.
 `function args --options`
 
 - Options are like arguments, but optional
-    - They come with a default.
+  - They come with a default.
 
 ## Perspective
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Emile
-tags:
-- 
+aliases: [Emile]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[neo4j-graph-view|Neo4j Graph View]]
 - [[search-on-internet|Search on Internet]]
 - [[juggl|Juggl]]

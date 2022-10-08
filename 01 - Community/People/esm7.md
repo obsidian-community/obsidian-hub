@@ -1,25 +1,24 @@
 ---
-aliases:
-- esm
-tags:
-- 
+aliases: [esm]
+tags: []
 publish: true
 ---
 
 # esm
 
 - GitHub: [esm7](https://github.com/esm7/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-vimrc-support|Vimrc Support]]
 - [[obsidian-rtl|RTL Support]]
 - [[obsidian-map-view|Map View]]

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Camillo Visini
-tags:
-- 
+aliases: [Camillo Visini]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-icons-plugin|Icons]]
 
 %% End Hub: Released contributions %%

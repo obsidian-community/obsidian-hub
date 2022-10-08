@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jeremy Valentine
-tags:
-- 
+aliases: [Jeremy Valentine]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-leaflet-plugin|Obsidian Leaflet]]
 - [[obsidian-dice-roller|Dice Roller]]
 - [[obsidian-admonition|Admonition]]

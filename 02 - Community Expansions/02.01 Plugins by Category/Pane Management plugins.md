@@ -1,11 +1,8 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Pane Management plugins
 
@@ -21,7 +18,7 @@ Plugins to manage or cycle through panes.
 - [[maximise-active-pane-obsidian|Maximise Active Pane]]
 - [[obsidian-tabs|Obsidian Tabs]]
 - [[obsidian-focus-mode|Focus Mode]]
-- [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]] 
+- [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]]
 
 ## Related categories
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Trey Wallis
-tags:
-- 
+aliases: [Trey Wallis]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[notion-like-tables|Notion-Like Tables]]
 
 %% End Hub: Released contributions %%

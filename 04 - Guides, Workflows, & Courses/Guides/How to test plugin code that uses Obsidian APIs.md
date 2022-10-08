@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -28,9 +26,9 @@ There are some useful discussions and links in the Obsidian API issue [Error run
 
 - In [this comment](https://github.com/obsidianmd/obsidian-api/issues/13#issuecomment-819035670) [[renehernandez]] describes abstracting the usage of the filesystem capabilities from obsidian through an internal interface and depending on that interface instead of FileSystemAdapter directly. That way they can introduce a fake object during test to verify the logic they wanted in the FileDoc object.
 - In [this comment](https://github.com/obsidianmd/obsidian-api/issues/13#issuecomment-880504457) `@lishid` lists some test frameworks that have attempted to help with testing Obsidian plugins:
-    - [trashhalo/obsidian-plugin-e2e-test](https://github.com/trashhalo/obsidian-plugin-e2e-test): a sample repo with obsidian plugin e2e tests
-    - [[obsimian-exporter#Obsimian Exporter]]: an Obsidian simulation framework for testing Obsidian plugins
-    - These are both many months old, and may not be being maintained
+  - [trashhalo/obsidian-plugin-e2e-test](https://github.com/trashhalo/obsidian-plugin-e2e-test): a sample repo with obsidian plugin e2e tests
+  - [[obsimian-exporter#Obsimian Exporter]]: an Obsidian simulation framework for testing Obsidian plugins
+  - These are both many months old, and may not be being maintained
 - In [this comment](https://github.com/obsidianmd/obsidian-api/issues/13#issuecomment-1003880942) [[timhor]] reported that If anyone just needs to test editor-related functionality, he has had success substituting [CodeMirror](https://codemirror.net/doc/manual.html) as the editor on which his tests run (that's what Obsidian uses under the hood anyway). There are links showing how he did this.
 
 %% Hub footer: Please don't edit anything below this line %%

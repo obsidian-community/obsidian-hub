@@ -1,8 +1,6 @@
 ---
-aliases:
-- NatiAris
-tags:
-- 
+aliases: [NatiAris]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-random-todo|Random To-Do]]
 
 %% End Hub: Released contributions %%

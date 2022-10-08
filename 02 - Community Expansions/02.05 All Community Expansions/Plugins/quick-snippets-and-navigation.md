@@ -1,17 +1,15 @@
 ---
 plugin-id: quick-snippets-and-navigation
-aliases:
-- Quick snippets and navigation
-tags: 
-- 
+aliases: [Quick snippets and navigation]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/aciq/obsidian-keyboard-shortcuts/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/aciq/obsidian-keyboard-shortcuts?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/aciq/obsidian-keyboard-shortcuts/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/aciq/obsidian-keyboard-shortcuts/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/aciq/obsidian-keyboard-shortcuts?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/aciq/obsidian-keyboard-shortcuts/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/aciq/obsidian-keyboard-shortcuts?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -26,10 +24,11 @@ Developed by: [[aciq]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Keyboard navigation up/down for headings
+
 - Configurable default code block and callout
 - Copy code block via keyboard shortcut
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[aciq#Sponsor this author]] %%

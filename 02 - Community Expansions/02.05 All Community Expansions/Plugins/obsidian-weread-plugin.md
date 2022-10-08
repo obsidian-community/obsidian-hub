@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-weread-plugin
-aliases:
-- Weread Plugin
-tags: 
-- 
+aliases: [Weread Plugin]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/zhaohongxuan/obsidian-weread-plugin/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/zhaohongxuan/obsidian-weread-plugin?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/zhaohongxuan/obsidian-weread-plugin/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/zhaohongxuan/obsidian-weread-plugin/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/zhaohongxuan/obsidian-weread-plugin?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/zhaohongxuan/obsidian-weread-plugin/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/zhaohongxuan/obsidian-weread-plugin?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Desktop-only plugins|No]]
 
 This is obsidian plugin for Tencent weread.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[zhaohongxuan#Sponsor this author]] %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Florian Woelki
-tags:
-- 
+aliases: [Florian Woelki]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-icon-folder|Icon Folder]]
 
 %% End Hub: Released contributions %%

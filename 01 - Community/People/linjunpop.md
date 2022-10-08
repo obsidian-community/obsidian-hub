@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jun Lin
-tags:
-- 
+aliases: [Jun Lin]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-gist|Gist]]
 
 %% End Hub: Released contributions %%

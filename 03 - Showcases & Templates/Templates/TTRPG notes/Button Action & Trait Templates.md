@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -15,40 +13,43 @@ These use the [[buttons]] plugin to insert the template using `^button-name` on 
 %% Paste your template below %%
 
 ###### Trait
+
 ````markdown
 ```button
 name Add Trait
 type prepend template
 action Path/To/Trait Template
 ```
+
 ^button-trait
 ````
 
 ```markdown
 ###### Trait
+
 **Description of trait**
 
 - Bullet list of what traits do
 ```
 
 ###### Actions
+
 ````markdown
 ```button
 name Add Action
 type prepend template
 action Path/To/Actions Template
 ```
+
 ^button-action
 ````
-
 
 ```markdown
 ###### Name
 
-Type | To Hit | Hit | Reach | Targets |
----|:---:|:---:|---|:---:|
-**==Weapon/Feat Type==** |||||
-
+| Type                     | To Hit | Hit | Reach | Targets |
+| ------------------------ | :----: | :-: | ----- | :-----: |
+| **==Weapon/Feat Type==** |        |     |       |         |
 ```
 
 %% Hub footer: Please don't edit anything below this line %%

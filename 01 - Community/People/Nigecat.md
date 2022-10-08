@@ -1,25 +1,24 @@
 ---
-aliases:
-- Nigecat
-tags:
-- 
+aliases: [Nigecat]
+tags: []
 publish: true
 ---
 
 # Nigecat
 
 - GitHub: [Nigecat](https://github.com/Nigecat/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-desmos|Desmos]]
 
 %% End Hub: Released contributions %%

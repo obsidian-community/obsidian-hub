@@ -1,25 +1,24 @@
 ---
-aliases:
-- Diego Alcantara
-tags:
-- 
+aliases: [Diego Alcantara]
+tags: []
 publish: true
 ---
 
 # Diego Alcantara
 
 - GitHub: [dalcantara7](https://github.com/dalcantara7/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[auto-moc|AutoMOC]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Joschua
-tags:
-- 
+aliases: [Joschua]
+tags: []
 publish: true
 ---
 
@@ -20,8 +18,9 @@ Joschua is the creator of many well-known [[for Religious Uses|Bible resources f
 %% Begin Hub: Released contributions %%
 
 ### Themes
+
 - [[Obsidian You]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 
@@ -36,6 +35,7 @@ Joschua is the creator of many well-known [[for Religious Uses|Bible resources f
 ## Sponsor this author
 
 <!-- - [[GitHub sponsors]]: [Sponsor @selfire1 on GitHub Sponsors](https://github.com/sponsors/selfire1) ^github-sponsor-->
+
 - [[Buy me a coffee]]: <https://www.buymeacoffee.com/joschua> ^buy-me-a-coffee
 <!-- - [[PayPal]]: <https://> ^paypal-->
 - [[Patreon]]: <https://www.patreon.com/joschua> ^patreon

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ludovic Chabant
-tags:
-- 
+aliases: [Ludovic Chabant]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-remember-file-state|Remember File State]]
 
 %% End Hub: Released contributions %%

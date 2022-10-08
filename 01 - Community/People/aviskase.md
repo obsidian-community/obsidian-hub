@@ -1,8 +1,6 @@
 ---
-aliases:
-- Yuliya Bagriy
-tags:
-- 
+aliases: [Yuliya Bagriy]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-link-indexer|Link indexer]]
 
 %% End Hub: Released contributions %%

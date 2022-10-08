@@ -1,8 +1,6 @@
 ---
-aliases:
-- Alex Colucci
-tags:
-- 
+aliases: [Alex Colucci]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[flashcards-obsidian|Flashcards]]
 
 %% End Hub: Released contributions %%

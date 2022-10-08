@@ -1,8 +1,6 @@
 ---
-aliases:
-- Dominik Pieper
-tags:
-- 
+aliases: [Dominik Pieper]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-read-it-later|ReadItLater]]
 
 %% End Hub: Released contributions %%

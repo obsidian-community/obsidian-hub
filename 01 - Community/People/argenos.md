@@ -1,8 +1,6 @@
 ---
-aliases:
-- Argentina Ortega Sainz
-tags:
-- 
+aliases: [Argentina Ortega Sainz]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[nldates-obsidian|Natural Language Dates]]
 - [[hotkeysplus-obsidian|Hotkeys++]]
 

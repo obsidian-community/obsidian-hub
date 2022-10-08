@@ -1,8 +1,6 @@
 ---
-aliases:
-- YISH
-tags:
-- 
+aliases: [YISH]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-enhancing-export|Obsidian Enhancing Export]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Eleanor Konik
-tags:
-- 
+aliases: [Eleanor Konik]
+tags: []
 publish: true
 ---
 
@@ -21,8 +19,9 @@ I teach (& research) ancient civilizations, then write stories & articles inspir
 %% Begin Hub: Released contributions %%
 
 ### Themes
+
 - [[Palatinate]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 
@@ -38,7 +37,6 @@ I teach (& research) ancient civilizations, then write stories & articles inspir
 
 - [[GitHub sponsors]]: [Sponsor @eleanorkonik on GitHub Sponsors](https://github.com/sponsors/eleanorkonik) ^github
 - [[Buy me a coffee]]: [Sponsor @eleanorkonik on Ko-fi](https://ko-fi.com/eleanorkonik) ^buy-me-a-coffee
-
 
 <!--
 - [[Buy me a coffee]]: ^buy-me-a-coffee

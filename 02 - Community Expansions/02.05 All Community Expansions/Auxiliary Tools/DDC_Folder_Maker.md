@@ -1,8 +1,6 @@
 ---
-aliases:
-  -
-tags: 
-  - seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -10,11 +8,11 @@ publish: true
 
 Available for: [[Windows Tools|Windows]]
 
-Available on: 
+Available on:
 
-  Obsidian Forum: <a href="https://forum.obsidian.md/t/ddc-automatic-folder-creation/31216">Obsidian Forum</a>
-  
-  GitHub Repository: <a href="https://github.com/llZektorll/DDC-Folder-Maker">GitHub</a>
+Obsidian Forum: <a href="https://forum.obsidian.md/t/ddc-automatic-folder-creation/31216">Obsidian Forum</a>
+
+GitHub Repository: <a href="https://github.com/llZektorll/DDC-Folder-Maker">GitHub</a>
 
 This script will create all folders and sub folders according to DDC (List of Dewey Decimal classes) automatically.
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Rob Stevenson
-tags:
-- 
+aliases: [Rob Stevenson]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-relativenumber|Relativenumber (relative line numbers)]]
 
 %% End Hub: Released contributions %%

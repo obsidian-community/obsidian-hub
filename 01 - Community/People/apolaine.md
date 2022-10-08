@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -10,11 +8,11 @@ publish: true
 
 <!-- - GitHub: [apolaine](https://github.com/apolaine/) ^github-->
 <!-- - Discord: `@` ^discord-->
+
 - Website: <https://www.polaine.com/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
@@ -36,11 +34,9 @@ publish: true
 ### Unlisted plugins
 -->
 
-
 ### Others
 
 - [[YouTube|YouTube Playlist]] of [Obsidian for DMing](https://www.youtube.com/playlist?list=PLvLJHmYS4OnXZIvguaL6rnvkIbimzVqaI) ^052eef
-
 
 <!--
 ## Sponsor this author

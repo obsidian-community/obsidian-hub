@@ -1,8 +1,6 @@
 ---
-aliases:
-- roovo
-tags:
-- 
+aliases: [roovo]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[card-board|CardBoard]]
 
 %% End Hub: Released contributions %%

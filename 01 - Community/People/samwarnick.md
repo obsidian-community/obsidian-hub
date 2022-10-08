@@ -1,8 +1,6 @@
 ---
-aliases:
-- Sam Warnick
-tags:
-- 
+aliases: [Sam Warnick]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[simple-embeds|Simple Embeds]]
 
 %% End Hub: Released contributions %%

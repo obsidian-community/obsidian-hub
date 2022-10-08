@@ -1,14 +1,12 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
 # Obsidian for Tabletop Role-Playing Games
 
-This note collects resources for those using Obsidian for tabletop role-playing games (also known as TTRPG), such as Dungeons and Dragons. 
+This note collects resources for those using Obsidian for tabletop role-playing games (also known as TTRPG), such as Dungeons and Dragons.
 
 ## [[YouTube|YouTube Videos]]
 
@@ -27,10 +25,10 @@ This note collects resources for those using Obsidian for tabletop role-playing 
 
 - **Contains potential spoilers for Curse of Strahd**: [62.00 Two and a Half Strahds - Leah Ferguson - Obsidian Publish](https://publish.obsidian.md/leah/60+Games/62+Two+and+a+Half+Strahds/62.00+Two+and+a+Half+Strahds)
 - From [[nvanderhoevan]]'s Publish site:
-	- [Forgotten Realms - World - Fork My Brain](https://notes.nicolevanderhoeven.com/ForgottenRealms/World)
-	- [Exandria - World - Fork My Brain](https://notes.nicolevanderhoeven.com/Exandria/World)
+  - [Forgotten Realms - World - Fork My Brain](https://notes.nicolevanderhoeven.com/ForgottenRealms/World)
+  - [Exandria - World - Fork My Brain](https://notes.nicolevanderhoeven.com/Exandria/World)
 - [Obsidian Table Top Templates](https://github.com/mProjectsCode/Obsidian-Table-Top-Templates) Templates and a Vault structure for TTRPG campaigns and worldbuilding
-- [ObsidianSworn](https://github.com/lolbat/ObsidianSworn). A Vault for use in playing the [Ironsworn RPG](https://www.ironswornrpg.com). 
+- [ObsidianSworn](https://github.com/lolbat/ObsidianSworn). A Vault for use in playing the [Ironsworn RPG](https://www.ironswornrpg.com).
 
 ## CSS Snippets
 
@@ -43,7 +41,6 @@ This note collects resources for those using Obsidian for tabletop role-playing 
 - [D&D 5E SRD REmastered to Markdown](https://github.com/OldManUmby/DND.SRD.Wiki) and other publishing formats. Now Obsidian-Friendly!
 - [WychWitch/Obsidian-Dice-Roller-Tables: This is a collection of Dice Roller Tables that I use to run my DND campaigns](https://github.com/WychWitch/Obsidian-Dice-Roller-Tables). Formatted for use with the [[obsidian-dice-roller|Dice Roller]] plugin.
 - [SRD Obsidian Importer](https://github.com/mProjectsCode/d20pfsrd_obsidian_importer) - A script to scrape and import the excellent [d20pfsrd](https://www.d20pfsrd.com/) and [5esrd](https://www.5esrd.com/) into Obsidian.
-
 
 ## Community Plugins
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Eric Hall
-tags:
-- 
+aliases: [Eric Hall]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[smart-random-note|Smart Random Note]]
 
 %% End Hub: Released contributions %%

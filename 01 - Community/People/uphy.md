@@ -1,8 +1,6 @@
 ---
-aliases:
-- uphy
-tags:
-- 
+aliases: [uphy]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-reminder-plugin|Reminder]]
 
 %% End Hub: Released contributions %%

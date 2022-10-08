@@ -1,8 +1,6 @@
 ---
-aliases:
-- NothingIsLost
-tags:
-- 
+aliases: [NothingIsLost]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-codemirror-options|CodeMirror Options]]
 - [[workspaces-plus|Workspaces Plus]]
 - [[obsidian-dynamic-highlights|Dynamic Highlights]]

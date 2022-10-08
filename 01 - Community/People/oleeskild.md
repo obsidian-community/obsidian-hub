@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ole Eskild Steensen
-tags:
-- 
+aliases: [Ole Eskild Steensen]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[digitalgarden|Digital Garden]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Marc Julian Schwarz
-tags:
-- 
+aliases: [Marc Julian Schwarz]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-file-link|Better File Link]]
 - [[podcast-note|Podcast Note]]
 

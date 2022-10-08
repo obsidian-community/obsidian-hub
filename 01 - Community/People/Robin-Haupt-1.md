@@ -1,8 +1,6 @@
 ---
-aliases:
-- Robin Haupt
-tags:
-- 
+aliases: [Robin Haupt]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[map-of-content|Map of Content]]
 
 %% End Hub: Released contributions %%

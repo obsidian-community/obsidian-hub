@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags:
-- 
+aliases: []
+tags: []
 ---
 
 # Tip for Keeping Hub TODO lists
@@ -25,15 +23,15 @@ An example might be:
 ```
 Pages to create:
 
-- [ ] [[Anthony Gold]]  
+- [ ] [[Anthony Gold]]
 - [ ] [[Francesco D'Alessio]]  - need to work out naming convention with apostrophes
-- [ ] [[Justin DiRose]]  
+- [ ] [[Justin DiRose]]
 - [ ] [[Note-taking for University Students]]  - waiting for news from OCT
 - [ ] [[Phnx]]  - note the lower-case equivalent below
-- [ ] [[Tane Piper]]  
-- [ ] [[apolaine]]  
-- [ ] [[obsidian-drag-and-drop-blocks]]  
-- [ ] [[phnx]]  
+- [ ] [[Tane Piper]]
+- [ ] [[apolaine]]
+- [ ] [[obsidian-drag-and-drop-blocks]]
+- [ ] [[phnx]]
 - [ ] [[placeholder/link]]  - these are actually URLs to add, not pages to create
 - [ ] [[quick-monsters-5e]]  - need a system for managing plugins not yet in community list
 - [ ] [[uwi]]
@@ -51,11 +49,11 @@ You can now put your own temporary notes and images in to `DO NOT COMMIT/`, conf
 ## Alternative approaches
 
 - It's also possible to add `- [ ]` checklists in GitHub issues and pull requests, as in this example: [issue #65](https://github.com/obsidian-community/obsidian-hub/issues/65).
-    - **advantages**
-        - the lists are public, and other people can see the progress, and may even be able to help
-    - **disadvantages**
-        - it is not easy to edit those lists in Obsidian
-        - they cannot contain internal Obsidian wiki links (as used 
+  - **advantages**
+    - the lists are public, and other people can see the progress, and may even be able to help
+  - **disadvantages**
+    - it is not easy to edit those lists in Obsidian
+    - they cannot contain internal Obsidian wiki links (as used
 
 %% Hub footer: Please don't edit anything below this line %%
 

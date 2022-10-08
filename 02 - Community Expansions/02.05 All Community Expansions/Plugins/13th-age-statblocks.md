@@ -1,17 +1,15 @@
 ---
 plugin-id: 13th-age-statblocks
-aliases:
-- 13th Age Statblocks
-tags: 
-- 
+aliases: [13th Age Statblocks]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/ben/obsidian-13th-age-statblocks/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ben/obsidian-13th-age-statblocks?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/ben/obsidian-13th-age-statblocks/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/ben/obsidian-13th-age-statblocks/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ben/obsidian-13th-age-statblocks?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/ben/obsidian-13th-age-statblocks/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/ben/obsidian-13th-age-statblocks?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Render 13th Age statblocks in Obsidian.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[ben#Sponsor this author]] %%

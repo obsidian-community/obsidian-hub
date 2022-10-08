@@ -1,8 +1,6 @@
 ---
-aliases:
-- tim-hub
-tags:
-- 
+aliases: [tim-hub]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-bible-reference|Bible Reference]]
 
 %% End Hub: Released contributions %%

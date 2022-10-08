@@ -1,8 +1,6 @@
 ---
-aliases:
-- David Šarman
-tags:
-- 
+aliases: [David Šarman]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[better-inline-fields|Better Inline Fields]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Obsidian
-tags:
-- 
+aliases: [Obsidian]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[embed-code-file|Embed Code File]]
 
 %% End Hub: Released contributions %%

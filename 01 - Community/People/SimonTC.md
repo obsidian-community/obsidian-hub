@@ -1,8 +1,6 @@
 ---
-aliases:
-- Simon T. Clement
-tags:
-- 
+aliases: [Simon T. Clement]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-note-autocreator|Note Auto Creator]]
 
 %% End Hub: Released contributions %%

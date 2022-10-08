@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ruan Moolman
-tags:
-- 
+aliases: [Ruan Moolman]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-sequence-hotkeys|Sequence Hotkeys]]
 
 %% End Hub: Released contributions %%

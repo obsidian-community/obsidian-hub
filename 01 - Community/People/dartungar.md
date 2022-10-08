@@ -1,8 +1,6 @@
 ---
-aliases:
-- dartungar
-tags:
-- 
+aliases: [dartungar]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-emotion-picker|Emotion Picker]]
 
 %% End Hub: Released contributions %%

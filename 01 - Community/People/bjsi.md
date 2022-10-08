@@ -1,8 +1,6 @@
 ---
-aliases:
-- Experimental Learning
-tags:
-- 
+aliases: [Experimental Learning]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-incremental-writing|Incremental Writing]]
 
 %% End Hub: Released contributions %%

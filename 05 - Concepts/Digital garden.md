@@ -1,8 +1,6 @@
 ---
-aliases:
-- Digital gardens
-tags:
-- seedling
+aliases: [Digital gardens]
+tags: [seedling]
 publish: true
 ---
 

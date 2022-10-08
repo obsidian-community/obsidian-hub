@@ -1,33 +1,29 @@
 ---
-aliases: 
-- Folder Color
-- Coloured Folder
-- Relations line explorer
-tags:
-- Folder
-- Nested Folder
-- Explorer
+aliases: [Folder Color, Coloured Folder, Relations line explorer]
+tags: [Folder, Nested Folder, Explorer]
 publish: true
 ---
 
 # File explorer relations : Lines & Color
 
-*You can find more snippets in [My github repository : Obsidian Snippet Collection](https://github.com/Mara-Li/Obsidian-Snippet-collection)*
+_You can find more snippets in [My github repository : Obsidian Snippet Collection](https://github.com/Mara-Li/Obsidian-Snippet-collection)_
 
 Folder relation allows to :
+
 - Add color for each folder, numbered from 00 to 100
 - Add lines for children files of a folder
 
-You can adjust color and line with [[obsidian-style-settings|Style Settings]]. 
+You can adjust color and line with [[obsidian-style-settings|Style Settings]].
 
 - [Folder Relations [Relation line & background color]](https://raw.githubusercontent.com/Mara-Li/Obsidian-Snippet-collection/main/folder-color_bg.css)
 - [Folder Color [Font color]](https://github.com/Mara-Li/Obsidian-Snippet-collection/blob/main/folder-color_font.css)
 
 ![[Mara_FolderColor.png]]![[Mara_FolderColor2.png]]
 
-*Note : The files and folder icons is from [[obsidian-icon-folder|Icon Folder]]*
+_Note : The files and folder icons is from [[obsidian-icon-folder|Icon Folder]]_
 
-<u>Credit</u>: 
+<u>Credit</u>:
+
 - [Lithou](https://forum.obsidian.md/t/adding-color-to-obsidian-a-rainbow-of-possibility/12805/11)
 - [Javalent](https://github.com/valentine195/Obsidian-Vault/blob/master/.obsidian/snippets/colors.folders.css)
 
@@ -552,8 +548,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-file {
-    border-left: var(--nestlinestyle1) var(--nestlinesize1)
-      var(--nestlinecolor1);
+    border-left: var(--nestlinestyle1) var(--nestlinesize1) var(--nestlinecolor1);
     margin-left: var(--adjust-mobile);
   }
   .nav-folder.mod-root
@@ -563,8 +558,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-folder {
-    border-left: var(--nestlinestyle1) var(--nestlinesize1)
-      var(--nestlinecolor1);
+    border-left: var(--nestlinestyle1) var(--nestlinesize1) var(--nestlinecolor1);
     margin-left: var(--adjust-mobile);
   }
   .nav-folder.mod-root
@@ -576,8 +570,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-file {
-    border-left: var(--nestlinestyle2) var(--nestlinesize2)
-      var(--nestlinecolor2);
+    border-left: var(--nestlinestyle2) var(--nestlinesize2) var(--nestlinecolor2);
     margin-left: var(--adjust-mobile);
   }
   .nav-folder.mod-root
@@ -589,8 +582,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-folder {
-    border-left: var(--nestlinestyle2) var(--nestlinesize2)
-      var(--nestlinecolor2);
+    border-left: var(--nestlinestyle2) var(--nestlinesize2) var(--nestlinecolor2);
     margin-left: var(--adjust-mobile);
   }
   .nav-folder.mod-root
@@ -604,8 +596,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-file {
-    border-left: var(--nestlinestyle3) var(--nestlinesize3)
-      var(--nestlinecolor3);
+    border-left: var(--nestlinestyle3) var(--nestlinesize3) var(--nestlinecolor3);
     margin-left: var(--adjust-mobile);
   }
   .nav-folder.mod-root
@@ -619,8 +610,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-folder {
-    border-left: var(--nestlinestyle3) var(--nestlinesize3)
-      var(--nestlinecolor3);
+    border-left: var(--nestlinestyle3) var(--nestlinesize3) var(--nestlinecolor3);
     margin-left: var(--adjust-mobile);
   }
 }
@@ -633,8 +623,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-file {
-    border-left: var(--nestlinestyle1) var(--nestlinesize1)
-      var(--nestlinecolor1);
+    border-left: var(--nestlinestyle1) var(--nestlinesize1) var(--nestlinecolor1);
     margin-left: var(--adjust-pc);
   }
   .nav-folder.mod-root
@@ -644,8 +633,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-folder {
-    border-left: var(--nestlinestyle1) var(--nestlinesize1)
-      var(--nestlinecolor1);
+    border-left: var(--nestlinestyle1) var(--nestlinesize1) var(--nestlinecolor1);
     margin-left: var(--adjust-pc);
   }
   .nav-folder.mod-root
@@ -657,8 +645,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-file {
-    border-left: var(--nestlinestyle2) var(--nestlinesize2)
-      var(--nestlinecolor2);
+    border-left: var(--nestlinestyle2) var(--nestlinesize2) var(--nestlinecolor2);
     margin-left: var(--adjust-pc);
   }
   .nav-folder.mod-root
@@ -670,8 +657,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-folder {
-    border-left: var(--nestlinestyle2) var(--nestlinesize2)
-      var(--nestlinecolor2);
+    border-left: var(--nestlinestyle2) var(--nestlinesize2) var(--nestlinecolor2);
     margin-left: var(--adjust-pc);
   }
   .nav-folder.mod-root
@@ -685,8 +671,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-file {
-    border-left: var(--nestlinestyle3) var(--nestlinesize3)
-      var(--nestlinecolor3);
+    border-left: var(--nestlinestyle3) var(--nestlinesize3) var(--nestlinecolor3);
     margin-left: calc(var(--adjust-pc));
   }
   .nav-folder.mod-root
@@ -700,8 +685,7 @@ You can change these to match your use case. */
     > .nav-folder
     > .nav-folder-children
     > .nav-folder {
-    border-left: var(--nestlinestyle3) var(--nestlinesize3)
-      var(--nestlinecolor3);
+    border-left: var(--nestlinestyle3) var(--nestlinesize3) var(--nestlinecolor3);
     margin-left: calc(var(--adjust-pc));
   }
 }
@@ -939,7 +923,6 @@ settings:
 
 /* ======================== FILES =================== */
 
-
 .nav-file-title,
 .nav-folder-title {
   font-size: var(--augmente) !important;
@@ -1010,14 +993,12 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 
 /* ======================== FOLDER 10 =================== */
 
-
 .nav-folder-title[data-path^="10."],
 .nav-file-title[data-path*="10."] {
   color: var(--F10) !important;
 }
 
 /* ======================== FOLDER 20 - 23 =================== */
-
 
 .nav-folder-title[data-path^="20."],
 .nav-file-title[data-path^="20."],
@@ -1094,7 +1075,6 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 .nav-file-title[data-path*="Ressource"] {
   color: var(--FZZ) !important;
 }
-
 
 /* 
 ======================================================================================  

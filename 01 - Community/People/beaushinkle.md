@@ -1,8 +1,6 @@
 ---
-aliases:
-- Beau Shinkle
-tags:
-- 
+aliases: [Beau Shinkle]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[generic-initiative-tracker|Generic Initiative Tracker]]
 
 %% End Hub: Released contributions %%

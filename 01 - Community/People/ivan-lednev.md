@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ivan Lednev
-tags:
-- 
+aliases: [Ivan Lednev]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-task-archiver|Archiver]]
 
 %% End Hub: Released contributions %%

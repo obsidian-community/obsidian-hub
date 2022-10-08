@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-plugin-tagged-documents-viewer
-aliases:
-- Tagged Documents Viewer
-tags: 
-- 
+aliases: [Tagged Documents Viewer]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/mgeduld/obsidian-tagged-documents-viewer/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mgeduld/obsidian-tagged-documents-viewer?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/mgeduld/obsidian-tagged-documents-viewer/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/mgeduld/obsidian-tagged-documents-viewer/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mgeduld/obsidian-tagged-documents-viewer?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/mgeduld/obsidian-tagged-documents-viewer/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/mgeduld/obsidian-tagged-documents-viewer?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Opens a modal with scrollable content of all documents that contain a specific tag or tags.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[mgeduld#Sponsor this author]] %%

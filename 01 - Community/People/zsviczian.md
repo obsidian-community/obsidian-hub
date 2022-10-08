@@ -1,8 +1,6 @@
 ---
-aliases:
-- Zsolt Viczian
-tags:
-- 
+aliases: [Zsolt Viczian]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-excalidraw-plugin|Excalidraw]]
 
 %% End Hub: Released contributions %%

@@ -1,14 +1,12 @@
 ---
-aliases: 
-- Obsidian for Academics
-tags:
-- seedling
-- MOC
+aliases: [Obsidian for Academics]
+tags: [seedling, MOC]
 ---
 
 # for Academics
 
 ## Articles
+
 - [Comprehensive Academic Workflow from Reading to Writing in Markdown](https://chris-grieser.de/Comprehensive-Academic-Workflow-from-Reading-to-Writing-in-Markdown) by [[chrisgrieser|@pseudometa]]
 - [Zotero -> zotfile -> mdnotes -> obsidian -> dataview Workflow](https://forum.obsidian.md/t/zotero-zotfile-mdnotes-obsidian-dataview-workflow/15536) by @Cat
 - [Mathematical Notes With Obsidian. Transforming Obsidian Into the Perfect Tool for STEM Notes](https://medium.com/beyond-productivity/using-mathjax-in-obsidian-c57640af11ec) by Beyond Boundaries
@@ -19,6 +17,7 @@ tags:
 - [Research workflow as a PhD student in the Humanities](https://martinezponciano.es/2021/04/05/research-workflow-as-a-phd-student-in-the-humanities/) by Regina Martínez Ponciano
 
 ## Videos
+
 - [[YT - Pandoc and Obsidian - Create slideshows, PDFs and Word documents|Community Talk: Using Pandoc and Obsidian]] by [[SkepticMystic]]
 - [Comprehensive Obsidian & Zotero Workflow For Zettelkasten & Evergreen Notes](https://www.youtube.com/watch?v=_Fjhad-Z61o) by [[Bryan Jenks]]
 - [How I Use ObsidianMD and Zotero For Academic Research](https://www.youtube.com/watch?v=tZ7utIV5znw) by @peer-reviewed

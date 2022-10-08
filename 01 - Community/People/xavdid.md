@@ -1,8 +1,6 @@
 ---
-aliases:
-- David Brownman (@xavdid)
-tags:
-- 
+aliases: [David Brownman (@xavdid)]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-golinks|Obsidian GoLinks]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- piotryordanov
-tags:
-- 
+aliases: [piotryordanov]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-advanced-new-folder|Advanced new folder]]
 
 %% End Hub: Released contributions %%

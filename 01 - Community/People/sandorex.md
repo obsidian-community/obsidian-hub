@@ -1,8 +1,6 @@
 ---
-aliases:
-- Sandorex
-tags:
-- 
+aliases: [Sandorex]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[nuke-orphans|Nuke Orphans]]
 
 %% End Hub: Released contributions %%

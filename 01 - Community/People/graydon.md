@@ -1,8 +1,6 @@
 ---
-aliases:
-- Graydon Hoare
-tags:
-- 
+aliases: [Graydon Hoare]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-dangling-links|Dangling links]]
 
 %% End Hub: Released contributions %%

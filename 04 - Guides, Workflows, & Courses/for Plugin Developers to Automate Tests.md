@@ -1,8 +1,6 @@
 ---
-aliases: 
-- "Resources and Guides for Plugin Developers writing Tests"
-tags:
-- seedling
+aliases: ["Resources and Guides for Plugin Developers writing Tests"]
+tags: [seedling]
 publish: true
 ---
 

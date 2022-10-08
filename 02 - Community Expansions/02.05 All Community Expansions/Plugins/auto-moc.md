@@ -1,17 +1,15 @@
 ---
 plugin-id: auto-moc
-aliases:
-- AutoMOC
-tags: 
-- 
+aliases: [AutoMOC]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/dalcantara7/obsidian-auto-moc/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/dalcantara7/obsidian-auto-moc?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/dalcantara7/obsidian-auto-moc/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/dalcantara7/obsidian-auto-moc/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/dalcantara7/obsidian-auto-moc?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/dalcantara7/obsidian-auto-moc/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/dalcantara7/obsidian-auto-moc?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Desktop-only plugins|No]]
 
 Looks for missing linked mentions to the current note and imports them into the current note.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[dalcantara7#Sponsor this author]] %%

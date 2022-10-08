@@ -1,8 +1,6 @@
 ---
-aliases:
-- Shaked Lokits (shaked@melio.com)
-tags:
-- 
+aliases: [Shaked Lokits (shaked@melio.com)]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-bellboy|Bellboy]]
 
 %% End Hub: Released contributions %%

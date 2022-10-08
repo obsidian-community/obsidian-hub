@@ -1,8 +1,6 @@
 ---
-aliases:
-- Thomas Herden
-tags:
-- 
+aliases: [Thomas Herden]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[tasks-packrat-plugin|Packrat]]
 
 %% End Hub: Released contributions %%

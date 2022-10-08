@@ -1,8 +1,6 @@
 ---
-aliases:
-- Andrew 'Ledary' Kulishov
-tags:
-- 
+aliases: [Andrew 'Ledary' Kulishov]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[todoist-completed-tasks-plugin|Todoist completed tasks]]
 
 %% End Hub: Released contributions %%

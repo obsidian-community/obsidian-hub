@@ -1,8 +1,6 @@
 ---
-aliases:
-- Henry Gustafson
-tags:
-- 
+aliases: [Henry Gustafson]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-wordnik|Wordnik Definitions]]
 
 %% End Hub: Released contributions %%

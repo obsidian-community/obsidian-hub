@@ -1,8 +1,6 @@
 ---
-aliases:
-- Eric Biewener
-tags:
-- 
+aliases: [Eric Biewener]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-lock-screen-plugin|Lock Screen]]
 
 %% End Hub: Released contributions %%

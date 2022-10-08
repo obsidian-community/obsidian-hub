@@ -1,8 +1,6 @@
 ---
-aliases:
-- diomedet
-tags:
-- 
+aliases: [diomedet]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[liquid-templates|Liquid Templates]]
 
 %% End Hub: Released contributions %%

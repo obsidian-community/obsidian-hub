@@ -1,8 +1,6 @@
 ---
-aliases:
-- Hady Osman
-tags:
-- 
+aliases: [Hady Osman]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-kindle-plugin|Kindle Highlights]]
 
 %% End Hub: Released contributions %%

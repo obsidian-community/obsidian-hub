@@ -1,19 +1,17 @@
 ---
-aliases:
-- Weekly note templates
-tags: 
-- MOC
+aliases: [Weekly note templates]
+tags: [MOC]
 ---
 
 # Weekly notes
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
+%% Hub MOCs: Don’t edit below %%
 
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit above %%
 
 ## Contributing
 

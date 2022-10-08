@@ -1,8 +1,6 @@
 ---
-aliases:
-- James Sartelle
-tags:
-- 
+aliases: [James Sartelle]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-auto-split|Auto Split]]
 
 %% End Hub: Released contributions %%

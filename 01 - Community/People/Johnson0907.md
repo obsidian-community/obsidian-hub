@@ -1,8 +1,6 @@
 ---
-aliases:
-- Johnson0907
-tags:
-- 
+aliases: [Johnson0907]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-file-cleaner|File Cleaner]]
 
 %% End Hub: Released contributions %%

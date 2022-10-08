@@ -1,8 +1,6 @@
 ---
-aliases:
-- Francis Kafieh
-tags:
-- 
+aliases: [Francis Kafieh]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-list-modified|List Modified]]
 
 %% End Hub: Released contributions %%

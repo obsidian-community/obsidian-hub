@@ -1,8 +1,6 @@
 ---
-aliases:
-- renmu123
-tags:
-- 
+aliases: [renmu123]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-image-auto-upload-plugin|Image auto upload Plugin]]
 - [[obsidian-auto-pair-chinese-symbol|Auto pair chinese symbol]]
 - [[obsidian-title-index|obsidian-title-index]]

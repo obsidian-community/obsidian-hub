@@ -1,8 +1,6 @@
 ---
-aliases:
-- Alonelur
-tags:
-- 
+aliases: [Alonelur]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[vim-im-select|Vim IM Select]]
 
 %% End Hub: Released contributions %%

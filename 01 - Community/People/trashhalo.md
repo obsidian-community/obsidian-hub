@@ -1,8 +1,6 @@
 ---
-aliases:
-- Stephen Solka
-tags:
-- 
+aliases: [Stephen Solka]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[extract-url|Extract url content]]
 - [[todo-txt|Todo.txt support]]
 - [[obsidian-webhooks|Webhook Plugin]]

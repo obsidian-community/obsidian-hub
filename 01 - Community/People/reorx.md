@@ -1,8 +1,6 @@
 ---
-aliases:
-- Reorx
-tags:
-- 
+aliases: [Reorx]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-daily-notes-new-tab|Daily notes new tab]]
 
 %% End Hub: Released contributions %%

@@ -1,25 +1,24 @@
 ---
-aliases:
-- Tim Dresser
-tags:
-- 
+aliases: [Tim Dresser]
+tags: []
 publish: true
 ---
 
 # Tim Dresser
 
 - GitHub: [tdresser](https://github.com/tdresser/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-siteswap|Siteswap]]
 
 %% End Hub: Released contributions %%

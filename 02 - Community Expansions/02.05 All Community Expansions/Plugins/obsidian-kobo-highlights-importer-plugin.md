@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-kobo-highlights-importer-plugin
-aliases:
-- Kobo Highlights Importer
-tags: 
-- 
+aliases: [Kobo Highlights Importer]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/bitwiseops/obsidian-kobo-highlights-import/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bitwiseops/obsidian-kobo-highlights-import?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/bitwiseops/obsidian-kobo-highlights-import/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/bitwiseops/obsidian-kobo-highlights-import/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bitwiseops/obsidian-kobo-highlights-import?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/bitwiseops/obsidian-kobo-highlights-import/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/bitwiseops/obsidian-kobo-highlights-import?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Desktop-only plugins|No]]
 
 Import highlights from your Kobo device
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[bitwiseops#Sponsor this author]] %%

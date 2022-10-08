@@ -1,14 +1,11 @@
 ---
-aliases:
-- 
-tags:
-- 
+aliases: []
+tags: []
 ---
+
 # 00 - Start here
 
-
 ![[README#What is the Obsidian Hub]]
-
 
 We think of this vault as a [[Digital garden]]. This means that the content in our vault is very much a work in progress. Since we're at a very early stage, there's a lot of space to grow! You can check out a few sample notes here:
 

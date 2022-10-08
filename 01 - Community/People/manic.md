@@ -1,8 +1,6 @@
 ---
-aliases:
-- Manic Chuang
-tags:
-- 
+aliases: [Manic Chuang]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-wrap-with-shortcuts|Wrap with shortcuts]]
 
 %% End Hub: Released contributions %%

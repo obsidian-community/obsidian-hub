@@ -1,8 +1,6 @@
 ---
-aliases:
-- Börge Kiss
-tags:
-- 
+aliases: [Börge Kiss]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[hard-breaks|Hard Breaks]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Richard Slettevoll
-tags:
-- 
+aliases: [Richard Slettevoll]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[heatmap-calendar|Heatmap Calendar]]
 
 %% End Hub: Released contributions %%

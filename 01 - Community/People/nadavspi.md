@@ -1,8 +1,6 @@
 ---
-aliases:
-- Nadav Spiegelman
-tags:
-- 
+aliases: [Nadav Spiegelman]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-relative-line-numbers|Relative Line Numbers]]
 
 %% End Hub: Released contributions %%

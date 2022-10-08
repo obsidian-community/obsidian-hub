@@ -1,8 +1,6 @@
 ---
-aliases:
-- Kevin Albrecht (onlyafly@gmail.com)
-tags:
-- 
+aliases: [Kevin Albrecht (onlyafly@gmail.com)]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[number-headings-obsidian|Number Headings]]
 
 %% End Hub: Released contributions %%

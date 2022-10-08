@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -15,10 +13,12 @@ Spaced repetition is a learning technique which utilizes flashcards to enhance l
 Depending on the degree of your confidence, cards will either be revisited very soon or only after a few days or even weeks. The duration between reviews gets stretched and adjusted based on your rate of learning until all information can be recalled with ease.
 
 Learn more about this technique:
+
 - [How to Remember Anything by Nicky Case](https://ncase.me/remember/)
 - [Spaced Repetition for Efficient Learning by Gwern Branwen](https://www.gwern.net/Spaced-repetition)
 
 ## How to get started
+
 While some people prefer to use regular paper flashcards, there are many software tools out there to help you set up a proper revision schedule and regular reminders. One often mentioned is [[Anki]], an open-source project for creating and revisiting digital decks of flashcards.
 
 There are several community-created [[Spaced Repetition Plugins|Spaced Repetition plugins]], some of which implement this method right inside Obsidian, while others offer integretations with [[Anki]] and [Mochi Cards](https://mochi.cards/).

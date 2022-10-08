@@ -1,8 +1,6 @@
 ---
-aliases:
-- Agatha Uy
-tags:
-- 
+aliases: [Agatha Uy]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[wikilinks-to-mdlinks-obsidian|Wikilinks to MDLinks]]
 
 %% End Hub: Released contributions %%

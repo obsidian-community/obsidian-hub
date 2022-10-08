@@ -1,25 +1,24 @@
 ---
-aliases:
-- supercyp
-tags:
-- 
+aliases: [supercyp]
+tags: []
 publish: true
 ---
 
 # supercyp
 
 - GitHub: [supercip971](https://github.com/supercip971/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[typing-speed|Typing speed]]
 
 %% End Hub: Released contributions %%

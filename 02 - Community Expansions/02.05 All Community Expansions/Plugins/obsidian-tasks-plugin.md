@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-tasks-plugin
-aliases:
-- Tasks
-tags: 
-- 
+aliases: [Tasks]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/obsidian-tasks-group/obsidian-tasks/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/obsidian-tasks-group/obsidian-tasks?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/obsidian-tasks-group/obsidian-tasks/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/obsidian-tasks-group/obsidian-tasks/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/obsidian-tasks-group/obsidian-tasks?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/obsidian-tasks-group/obsidian-tasks/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/obsidian-tasks-group/obsidian-tasks?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Task management for Obsidian
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% The repository or author does not have any sponsoring links. %%
 
@@ -47,7 +45,7 @@ A more convenient way to create a task is by using the `Tasks: Create or edit` c
 
 ## Screenshots
 
-*All screenshots assume the global filter `#task` which is not set by default (see also "Getting Started").*
+_All screenshots assume the global filter `#task` which is not set by default (see also "Getting Started")._
 
 ![ACME Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/acme.png)
 The `ACME` note has some tasks.

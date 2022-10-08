@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- 
+aliases: []
+tags: []
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 ![Downloads](https://img.shields.io/badge/downloads-3311-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AndreasStandar/Obsidian-Theme---Purple-Aurora?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/AndreasStandar/Obsidian-Theme---Purple-Aurora/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub issues by-label](https://img.shields.io/github/issues/AndreasStandar/Obsidian-Theme---Purple-Aurora/help%20wanted?color=573E7A&logo=github&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/AndreasStandar/Obsidian-Theme---Purple-Aurora?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -23,19 +21,14 @@ Repository: [GitHub](https://github.com/AndreasStandar/Obsidian-Theme---Purple-A
 Designed by: [[AndreasStandar]]
 Modes: [[Dark-mode themes|dark]]
 
-
-
 ![screenshot](https://github.com/AndreasStandar/Obsidian-Theme---Purple-Aurora/raw/main/1 Purple Aurora screenshot.png)
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[AndreasStandar#Sponsor this author]] %%
 
-
 ## Features
-
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

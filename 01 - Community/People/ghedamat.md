@@ -1,8 +1,6 @@
 ---
-aliases:
-- ghedamat
-tags:
-- 
+aliases: [ghedamat]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-save-as-gist|Save as Gist]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- qawatake
-tags:
-- 
+aliases: [qawatake]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-binary-file-manager-plugin|Binary File Manager]]
 - [[obsidian-local-file-interface-plugin|Local File Interface]]
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-  -
-tags:
-  -  evergreen
+aliases: []
+tags: [evergreen]
 publish: true
 ---
 
@@ -18,7 +16,7 @@ To download: Visit the “official website” linked above, and tap the “Get S
 
 To use: In the Share menu, select “Save to Obsidian,” and the content should then magically appear in Obsidian.
 
-In principle, it will accept any input. In practice, some formats will work better than others. 
+In principle, it will accept any input. In practice, some formats will work better than others.
 
 If you run into formats it handles poorly, or any other problems, please leave feedback on the [shortcut website](https://rebrand.ly/SaveToObsidian) or on <a href="https://twitter.com/intent/tweet?text=@calion%20Re%20Save%20to%20Obsidian%3A">Twitter</a>.
 

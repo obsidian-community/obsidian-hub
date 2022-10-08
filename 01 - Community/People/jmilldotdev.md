@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jonathan Miller
-tags:
-- 
+aliases: [Jonathan Miller]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-wikipedia|Wikipedia]]
 - [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Suggest]]
 

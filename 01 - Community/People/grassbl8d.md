@@ -1,25 +1,24 @@
 ---
-aliases:
-- grassbl8d
-tags:
-- 
+aliases: [grassbl8d]
+tags: []
 publish: true
 ---
 
 # grassbl8d
 
 - GitHub: [grassbl8d](https://github.com/grassbl8d/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-flexible-pomo|Flexible Pomodoro For Obsidian]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Yüksel Tolun
-tags:
-- 
+aliases: [Yüksel Tolun]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-filename-emoji-remover|Filename Emoji Remover]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Kjell Connelly
-tags:
-- 
+aliases: [Kjell Connelly]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-jsonifier|JSONifier]]
 
 %% End Hub: Released contributions %%

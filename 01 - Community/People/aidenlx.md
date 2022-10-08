@@ -1,8 +1,6 @@
 ---
-aliases:
-- AidenLx
-tags:
-- 
+aliases: [AidenLx]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[cm-chs-patch|Word Splitting for Simplified Chinese in Edit Mode]]
 - [[table-extended|Table Extended]]
 - [[media-extended|Media Extended]]

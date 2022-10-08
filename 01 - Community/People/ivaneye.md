@@ -1,8 +1,6 @@
 ---
-aliases:
-- iuian
-tags:
-- 
+aliases: [iuian]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-file-cooker|File Cooker]]
 
 %% End Hub: Released contributions %%

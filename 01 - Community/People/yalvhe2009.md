@@ -1,25 +1,24 @@
 ---
-aliases:
-- Domenic
-tags:
-- 
+aliases: [Domenic]
+tags: []
 publish: true
 ---
 
 # Domenic
 
 - GitHub: [yalvhe2009](https://github.com/yalvhe2009/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]
 
 %% End Hub: Released contributions %%

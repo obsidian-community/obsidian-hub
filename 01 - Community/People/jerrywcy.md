@@ -1,8 +1,6 @@
 ---
-aliases:
-- jerrywcy
-tags:
-- 
+aliases: [jerrywcy]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-path-finder|Path Finder]]
 
 %% End Hub: Released contributions %%

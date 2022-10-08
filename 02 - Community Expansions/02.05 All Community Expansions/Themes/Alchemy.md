@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- 
+aliases: []
+tags: []
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 ![Downloads](https://img.shields.io/badge/downloads-5062-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kinmury/Alchemy?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/kinmury/Alchemy/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub issues by-label](https://img.shields.io/github/issues/kinmury/Alchemy/help%20wanted?color=573E7A&logo=github&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/kinmury/Alchemy?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -23,47 +21,48 @@ Repository: [GitHub](https://github.com/kinmury/Alchemy)
 Designed by: [[kinmury]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
-
-
 ![screenshot](https://github.com/kinmury/Alchemy/raw/main/Showcase/ShowcaseF.png)
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[kinmury#Sponsor this author]] %%
-
 
 ## Features
 
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
-## Customization Options (Style Settings Plugin) 
+## Customization Options (Style Settings Plugin)
 
-**Vault Name on the Top**: 
+**Vault Name on the Top**:
+
 - Hide the Vault Name of your vault on the top of the app
 
-**Workspace ribbons**: 
+**Workspace ribbons**:
+
 - Hide the left ribbon
 - Hide the right ribbon
 - Hide the status bar
 
-**Headings**: 
+**Headings**:
+
 - Get the \#'s back instead of the Hn's: Turn it off for you to have your \#'s back
 - Don't center the headings: Turn it off if you don't want to center your headings on preview view
 
-**Plugins**: 
+**Plugins**:
+
 - **Dataview**: Change the CSS Settings applied to "Dataview"
-    - Capitalize First Word: Capitalize the first word from every table in "Dataview"
+  - Capitalize First Word: Capitalize the first word from every table in "Dataview"
 - **Kanban**: Change the CSS Settings applied to "Kanban"
-    - Kanban Grid: Toggle the Grid Vision of Kanban
+  - Kanban Grid: Toggle the Grid Vision of Kanban
 - **Admonition**: Change the CSS Settings applied to "Admonition"
-    - Centered Admonition Title: Toggle the center status of the title
-    - Centered Admonition Content: Toggle the center status of the content of the Admonition Content. (Excluding some stuff that don't center well, like unordered lists and ordered lists)
+  - Centered Admonition Title: Toggle the center status of the title
+  - Centered Admonition Content: Toggle the center status of the content of the Admonition Content. (Excluding some stuff that don't center well, like unordered lists and ordered lists)
 
 ## Plugin Compatibility[^1]
 
-
 **Community plugins**:
+
 - [[file-tree-alternative|File Tree Alternative Plugin]]
 - [[quick-explorer|Quick Explorer]]
 - [[obsidian-admonition|Admonition]]

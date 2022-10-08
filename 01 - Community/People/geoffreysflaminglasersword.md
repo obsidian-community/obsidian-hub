@@ -1,25 +1,24 @@
 ---
-aliases:
-- Garrett
-tags:
-- 
+aliases: [Garrett]
+tags: []
 publish: true
 ---
 
 # Garrett
 
 - GitHub: [geoffreysflaminglasersword](https://github.com/geoffreysflaminglasersword/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-living-graph|Living Graph]]
 
 %% End Hub: Released contributions %%

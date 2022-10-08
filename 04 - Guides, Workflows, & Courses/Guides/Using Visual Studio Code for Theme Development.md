@@ -1,16 +1,15 @@
 ---
-aliases: 
-- vscode
-- visual studio code
-tags:
-- seedling
+aliases: [vscode, visual studio code]
+tags: [seedling]
 publish: true
 ---
 
 # Using Visual Studio Code for Theme Development
-*written by [[damiankorcz|Damian Korcz]]*
+
+_written by [[damiankorcz|Damian Korcz]]_
 
 ## 📝 Prerequisites
+
 This guide points out the most useful features of VSCode which will help you with Theme Development.
 
 If you are brand new to Theme Development in Obsidian, you might want to visit the [[for Theme Designers]] section of the Hub to familiarise yourself with a few basics.
@@ -22,9 +21,11 @@ VSCode is available for Windows, Linux and MacOS.
 To help you get up to speed with VSCode, the [**Documentation**](https://code.visualstudio.com/docs) from the VSCode team is a good place to start; specifically the [**Introductory Videos**](https://code.visualstudio.com/docs/getstarted/introvideos) and the section describing useful features for [**CSS, SCSS and Less**](https://code.visualstudio.com/docs/languages/css).
 
 ## 💻 Workspaces
-The Workspaces function in VSCode allows you to have an independent 'profile' for your project allowing it to have it's own set of specific settings, and Extensions that are enable/disabled for it, etc. 
+
+The Workspaces function in VSCode allows you to have an independent 'profile' for your project allowing it to have it's own set of specific settings, and Extensions that are enable/disabled for it, etc.
 
 **To create a Workspace in VSCode:**
+
 1. Open your Project's folder by going to `File` and selecting `Open Folder...`.
 2. Save it by going to `File` and selecting `Save Workspace As...`.
 
@@ -36,16 +37,16 @@ I personally like to disable most Extensions globally in VSCode and only enable 
 
 1. Open the Extensions window:
 
-	`Ctrl+Shift+X` (Windows/Linux)
-	`Cmd+Shift+X` (MacOS)
+   `Ctrl+Shift+X` (Windows/Linux)
+   `Cmd+Shift+X` (MacOS)
 
 2. Enable/Disable Extension globally:
 
-	`Right Click` on the Extension and select `Enable` / `Disable`.
+   `Right Click` on the Extension and select `Enable` / `Disable`.
 
 3. Enable/Disable Extension for the current Workspace:
 
-	`Right Click` on the Extension and select `Enable (Workspace)` / `Disable (Workspace)`.
+   `Right Click` on the Extension and select `Enable (Workspace)` / `Disable (Workspace)`.
 
 **More Info: [Workspaces](https://code.visualstudio.com/docs/editor/workspaces)**
 
@@ -71,10 +72,11 @@ Region Markers allow you to setup custom `Regions` which can help you with organ
 > 💡 **EXAMPLE**
 > ![[VSCode Guide - Folding and Regions.gif]]
 > You can organise different sections of your CSS/SCSS and make it easy to fold them away for easier navigation.
- 
+
 **More Info: [Folding and Regions](https://code.visualstudio.com/docs/editor/codebasics#_folding)**
 
 ## ⌨️ Useful Shortcuts
+
 To see the full list of available shortcuts inside VSCode use:
 
 `Ctrl+K` followed by `Ctrl+S` (Windows/Linux)
@@ -86,10 +88,10 @@ If you are coming from another IDE/Text Editor you might be able to use an exten
 
 Here are a few Shortcuts to handy functions of VSCode:
 
- ### Command Palette
- 
- `Ctrl+Shift+P` (Windows/Linux)
- `Cmd+Shift+P` (MacOS)
+### Command Palette
+
+`Ctrl+Shift+P` (Windows/Linux)
+`Cmd+Shift+P` (MacOS)
 
 > 💡 **EXAMPLE**
 > ![[VSCode Guide - Command Palette.gif]]
@@ -115,7 +117,7 @@ Here are a few Shortcuts to handy functions of VSCode:
 
 > 💡 **EXAMPLE**
 > ![[VSCode Guide - Search.gif]]
-> Search for a phrase across **all files in the Workspace**. You can replace that phrase with a new text. Click on any result to have it open up in the editor at the specific search result. 
+> Search for a phrase across **all files in the Workspace**. You can replace that phrase with a new text. Click on any result to have it open up in the editor at the specific search result.
 
 **More info: [Search](https://code.visualstudio.com/docs/editor/codebasics#_search-across-files)**
 
@@ -139,7 +141,7 @@ Here are a few Shortcuts to handy functions of VSCode:
 > ![[VSCode Guide - Multiple Selection-Multi-Cursor.gif]]
 > Place the cursor where you click or add an additional one directly above or below the current one.
 
-You can also `Click`  to select a word, and press:
+You can also `Click` to select a word, and press:
 
 `Ctrl+D` (Windows/Linux)
 `Cmd+D` (MacOS)
@@ -182,7 +184,8 @@ Click on what you want to rename and press `F2` (Windows/Linux/MacOS)
 
 **More Info: [Rename Symbol](https://code.visualstudio.com/docs/editor/editingevolved#_rename-symbol)**
 
-## ⚙️Settings 
+## ⚙️Settings
+
 You can access the Settings by pressing:
 
 `Ctrl+,` (Windows/Linux)
@@ -199,38 +202,47 @@ For generic settings I would recommend setting them in the User and for specific
 Here is a list of useful Settings (You can search for them using the Search Bar at the top of the Settings window):
 
 ### Files: Auto Save
+
 Using the `After Delay` option the files save after a set delay once any change is made to the file. You can adjust the delay time in the `Files: Auto Save Delay` setting to whatever you want. I have it set to `1000` milliseconds (1 second).
 
 ### Editor: Font Family
+
 This will change the font used in the editor area of VSCode. The fonts are sourced from the ones installed on your Operating System. Use the name of the system font to set it. You can also adjust the size of the font using the `Editor: Font Size` setting.
 
 ### Files: Exclude
+
 If there are any files or folders you don't want to show up in the File Explorer you can hide them by adding a new pattern.
 
 **More Info: [Settings](https://code.visualstudio.com/docs/getstarted/settings)**
 
 ## 💾 Settings Sync
+
 If you happen to be working with VSCode across multiple devices it is a good idea to setup Settings Sync. It will synchronise settings, key bindings and installed extensions across your machines. You will need to use a Microsoft account or a GitHub account to sync.
 
-Simply click on the `Cog` icon in the bottom left corner and select `Turn On Settings Sync...`. You will be presented with the options for data to be synchronised. 
+Simply click on the `Cog` icon in the bottom left corner and select `Turn On Settings Sync...`. You will be presented with the options for data to be synchronised.
 
 **More Info: [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync)**
 
 ## 🔌 Extensions
+
 Here is a list of useful Extensions:
 
 ### General
-- [**Color Highlight**](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) - Adds a background of the color corresponding to the color value in the code. 
+
+- [**Color Highlight**](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) - Adds a background of the color corresponding to the color value in the code.
 - [**Code Spell Checker**](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spell checking for VSCode. By Default it's set to US English and comes with GB English as well. Other languages are available as additional Extensions.
 - [Change Color Format](https://marketplace.visualstudio.com/items?itemName=bbugh.change-color-format) - enables you to quickly convert colors into different color formats.
 
 ### Sass/SCSS
+
 - [**Sass**](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) - Indented Sass syntax highlighting, autocomplete & Formatter for VSCode.
 - [**SCSS IntelliSense**](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss) - SCSS IntelliSense (Variables, Mixins and Functions) for all files in the workspace.
 - [**Stylelint**](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) - A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 
 ### Themes/Icons
+
 Here are my personal favourites I'm currently using:
+
 - [**Lucy Theme**](https://marketplace.visualstudio.com/items?itemName=juliettepretot.lucy-vscode) - Easy on the eyes and nice looking theme. I use the `lucy-evening` variant.
 - [**File Icons**](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) - Icon set for files in the File Explorer.
 - [**Fluent Icons**](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) - Changes the icons in the Left Sidebar to more rounded ones.

@@ -1,8 +1,6 @@
 ---
-aliases:
-- joeyuping
-tags:
-- 
+aliases: [joeyuping]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[quick-latex|Quick Latex for Obsidian]]
 
 %% End Hub: Released contributions %%

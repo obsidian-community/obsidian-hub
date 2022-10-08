@@ -1,8 +1,6 @@
 ---
-aliases:
-- tth05
-tags:
-- 
+aliases: [tth05]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-completr|Completr]]
 
 %% End Hub: Released contributions %%

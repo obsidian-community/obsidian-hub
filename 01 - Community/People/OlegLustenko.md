@@ -1,8 +1,6 @@
 ---
-aliases:
-- Oleg Lustenko
-tags:
-- 
+aliases: [Oleg Lustenko]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-bulk-rename-plugin|Bulk Rename]]
 
 %% End Hub: Released contributions %%

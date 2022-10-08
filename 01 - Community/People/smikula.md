@@ -1,8 +1,6 @@
 ---
-aliases:
-- Scott Mikula
-tags:
-- 
+aliases: [Scott Mikula]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-limelight|Limelight]]
 
 %% End Hub: Released contributions %%

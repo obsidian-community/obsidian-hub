@@ -1,6 +1,5 @@
 ---
-aliases:
-- Web Clipper Bookmarklet
+aliases: [Web Clipper Bookmarklet]
 ---
 
 # Web Clipper Bookmarklet
@@ -13,8 +12,8 @@ Saves articles and pages from the web (for Safari, Chrome, Firefox, and mobile b
 This bookmarklet creates a new Obsidian file from the main body of the web page (similar to Readability view). Alternatively you can choose to create a file from a selection, by either selecting all (`CMD+A` or `CTRL+A`), or just a portion of the page.
 
 ## Demo
-You can find a demo of this bookmarklet [on YouTube](https://www.youtube.com/watch?v=Vy1MdjickAI)
 
+You can find a demo of this bookmarklet [on YouTube](https://www.youtube.com/watch?v=Vy1MdjickAI)
 
 %% Hub footer: Please don't edit anything below this line %%
 

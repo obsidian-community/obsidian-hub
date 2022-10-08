@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jakub Holub
-tags:
-- 
+aliases: [Jakub Holub]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-dialogue-plugin|Dialogue]]
 
 %% End Hub: Released contributions %%

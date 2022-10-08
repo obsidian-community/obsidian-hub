@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 ---
 
 # Websites

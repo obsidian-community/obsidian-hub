@@ -1,8 +1,6 @@
 ---
-aliases:
-- kmsk99
-tags:
-- 
+aliases: [kmsk99]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[kr-book-info-plugin|KoreanBook Info Plugin]]
 
 %% End Hub: Released contributions %%

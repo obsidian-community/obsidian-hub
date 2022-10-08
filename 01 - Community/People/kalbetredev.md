@@ -1,8 +1,6 @@
 ---
-aliases:
-- Kalkidan Betre
-tags:
-- 
+aliases: [Kalkidan Betre]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[mochi-cards-exporter|Mochi Cards Exporter]]
 
 %% End Hub: Released contributions %%

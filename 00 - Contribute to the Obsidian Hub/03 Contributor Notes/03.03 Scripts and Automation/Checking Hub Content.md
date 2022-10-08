@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags:
--  
+aliases: []
+tags: []
 publish: true
 ---
 

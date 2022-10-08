@@ -1,9 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
-- moc
+aliases: []
+tags: [seedling, moc]
 ---
 
 # for Engaging with the Obsidian Community

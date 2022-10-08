@@ -1,8 +1,6 @@
 ---
-aliases:
-- gOAT
-tags:
-- 
+aliases: [gOAT]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[para-shortcuts|PARA Shortcuts]]
 
 %% End Hub: Released contributions %%

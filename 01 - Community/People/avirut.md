@@ -1,25 +1,24 @@
 ---
-aliases:
-- avirut
-tags:
-- 
+aliases: [avirut]
+tags: []
 publish: true
 ---
 
 # avirut
 
 - GitHub: [avirut](https://github.com/avirut/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-metatemplates|metatemplates]]
 - [[obsidian-query2table|query2table]]
 

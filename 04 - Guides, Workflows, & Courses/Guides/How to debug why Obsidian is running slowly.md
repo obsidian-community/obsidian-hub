@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -17,6 +15,7 @@ The first thing you'll want to investigate is if the slowness is being caused by
 While this should cause all the plugins to be unloaded from the app, it is recommended that you restart Obsidian in case any plugins didn't fully clean up after themselves (i.e. suspend any running processes and return all allocated memory).
 
 Choose your own adventure time:
+
 - Obsidian is fast with Safe Mode enabled
 - I am still experiencing slowness
 
@@ -64,13 +63,13 @@ The Performance tab will now load up an entire snapshot of with all the operatio
 
 If you look at the timeline across the top of the tab, you will see a graph of CPU usage. During particular interactions, you'll see the CPU usage in the graph spiked upward. If you want to drill into what caused that spike and what the computer was doing during that time: you can drag along the timeline. Drag from the start of the spike to the end of the spike. The view will zoom into that region.
 
-While there's a lot of useful information here, you're likely most interested in what's taking the _most_ time. For that, you can switch to the "Bottom-Up" tab. This will sort all the operations that were performed by the time it took to do them.  
+While there's a lot of useful information here, you're likely most interested in what's taking the _most_ time. For that, you can switch to the "Bottom-Up" tab. This will sort all the operations that were performed by the time it took to do them.
 
 ![[performance-snapshot-bottom-up.png]]
 
 > To create this example, I performed a few simple searches across the Obsidian hub vault.
 
-In the screenshot above, you can see that two categories **Layout** and **Recalculate Style** take up 911.5 ms and 259.8 ms respectively. This means that while performing a search across the vault, most of the CPU was actually spent on rendering and displaying the search results. 
+In the screenshot above, you can see that two categories **Layout** and **Recalculate Style** take up 911.5 ms and 259.8 ms respectively. This means that while performing a search across the vault, most of the CPU was actually spent on rendering and displaying the search results.
 
 %% Hub footer: Please don't edit anything below this line %%
 

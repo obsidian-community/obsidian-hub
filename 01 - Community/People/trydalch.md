@@ -1,8 +1,6 @@
 ---
-aliases:
-- Trevor Rydalch
-tags:
-- 
+aliases: [Trevor Rydalch]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[daily-activity|Daily Activity]]
 
 %% End Hub: Released contributions %%

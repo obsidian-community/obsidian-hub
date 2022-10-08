@@ -1,36 +1,32 @@
 ---
-aliases: 
-- Hugo Santos (Zektor)
-tags:
-- 
+aliases: [Hugo Santos (Zektor)]
+tags: []
 publish: true
 ---
 
 # Zektor
 
 GitHub: [Hugo Santos (Zektor)](https://github.com/llZektorll) ^github
-%% Website:  ^website%% 
+%% Website: ^website%%
 %%[[Publish sites|Publish site]]: ^publish%%
- 
-%% Feel free to add a bio below this comment %%
 
+%% Feel free to add a bio below this comment %%
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
 %%
+
 ### Plugins
 
-- 
+-
 
 ### Themes
 
-- 
-%%
-%% End Hub: Released contributions %%  
+- %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
-
 
 ### Others
 
@@ -38,27 +34,29 @@ GitHub: [Hugo Santos (Zektor)](https://github.com/llZektorll) ^github
 - [[Template_Hub]]
 
 ### Auxilliary Tool
+
 - [[DDC_Folder_Maker]]
 - [[LCC_Folder_Maker]]
-
 
 ## Sponsor this author
 
 - [PayPal](https://www.paypal.com/paypalme/llzektorll)
- 
+
 %%
+
 - - [[GitHub sponsors]]: [Sponsor @Zektor on GitHub Sponsors](https://github.com/sponsors/llZektorll) ^github-sponsor
 - [[Buy me a coffee]]: ^buy-me-a-coffee
 - [[Patreon]]: ^patreon
-%%
+  %%
 
 %%
+
 ## Follow this author
 
 - [[YouTube Channels|YouTube channel]]: ^youtube
 
 - ...
-%%
+  %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

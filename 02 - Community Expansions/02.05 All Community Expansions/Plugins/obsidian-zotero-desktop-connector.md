@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-zotero-desktop-connector
-aliases:
-- Zotero Desktop Connector
-tags: 
-- 
+aliases: [Zotero Desktop Connector]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/mgmeyers/obsidian-zotero-desktop-connector/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mgmeyers/obsidian-zotero-desktop-connector?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/mgmeyers/obsidian-zotero-desktop-connector/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/mgmeyers/obsidian-zotero-desktop-connector/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mgmeyers/obsidian-zotero-desktop-connector?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/mgmeyers/obsidian-zotero-desktop-connector/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/mgmeyers/obsidian-zotero-desktop-connector?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Desktop-only plugins|No]]
 
 Insert citations, bibliographies, and notes directly from Zotero desktop.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[mgmeyers#Sponsor this author]] %%

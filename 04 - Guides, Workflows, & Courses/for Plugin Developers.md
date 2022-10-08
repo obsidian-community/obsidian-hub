@@ -1,12 +1,10 @@
 ---
-aliases: 
-  - "Resources and Guides for Plugin Developers"
-tags:
-  - seedling
-  - MOC
+aliases: ["Resources and Guides for Plugin Developers"]
+tags: [seedling, MOC]
 ---
 
 # for Plugin Developers
+
 This note collects resources and guides for beginner and expert plugin developers for [[Obsidian]].
 
 See also [[for Plugin Developers to Automate Tests|Resources and Guides for Plugin Developers writing Tests]].
@@ -43,7 +41,7 @@ See also [[for Plugin Developers to Automate Tests|Resources and Guides for Plug
 - [obsidian-tools:](https://github.com/obsidian-tools/obsidian-tools) an unofficial collection of tools that helps devs build plugins for obsidian.
 - [obsidian-rust-plugin:](https://github.com/trashhalo/obsidian-rust-plugin) boilerplate needed to write obsidian plugins in rust!
 - [API class diagram](https://i.joethei.space/obsidian-api.png): structure and relationships between API classes([svg version](https://i.joethei.space/obsidian-api.svg))
-- [obsidian-dev-tools:](https://github.com/KjellConnelly/obsidian-dev-tools)  allows for a modified console (useful for debugging on mobile), and viewing all Obsidian icons/strings.
+- [obsidian-dev-tools:](https://github.com/KjellConnelly/obsidian-dev-tools) allows for a modified console (useful for debugging on mobile), and viewing all Obsidian icons/strings.
 - [obsidian-daily-notes-interface:](https://github.com/liamcain/obsidian-daily-notes-interface) a collection of utility functions for working with dates and daily notes in Obsidian plugins.
 - [obsidian-calendar-ui:](https://github.com/liamcain/obsidian-calendar-ui) provides an out-of-the-box calendar view for Obsidian plugins.
 - [obsidian-plugin-template](https://github.com/THeK3nger/obsidian-plugin-template): a plugin template customized with a nicer directory structure and some additional tool (like featuring automatic releases with Github's Actions).
@@ -56,7 +54,6 @@ See also [[for Plugin Developers to Automate Tests|Resources and Guides for Plug
   - [Plugin Downloader](https://github.com/luckman212/obsidian-plugin-downloader)
   - [obsidian-repos-downloader](https://github.com/claremacrae/obsidian-repos-downloader) - Download every approved Obsidian.md community Plugin and Theme
 
-  
 %% Hub footer: Please don't edit anything below this line %%
 
 # This note in GitHub

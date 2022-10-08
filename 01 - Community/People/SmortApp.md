@@ -1,8 +1,6 @@
 ---
-aliases:
-- Smort
-tags:
-- 
+aliases: [Smort]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[smort-obsidian|Smort]]
 
 %% End Hub: Released contributions %%

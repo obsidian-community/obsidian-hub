@@ -1,8 +1,6 @@
 ---
-aliases:
-- Vinzent
-tags:
-- 
+aliases: [Vinzent]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[find-unlinked-files|Find unlinked files and unresolved links]]
 - [[obsidian-sort-and-permute-lines|Sort & Permute lines]]
 - [[obsidian-shortcuts-for-starred-files|Hotkeys for starred files and searches]]

@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -11,6 +9,7 @@ publish: true
 This note contains a small index of the core plugins in obsidian.
 
 %% Begin Hub: Core Plugins %%
+
 ## Audio recorder
 
 Record audio and save as attachment.

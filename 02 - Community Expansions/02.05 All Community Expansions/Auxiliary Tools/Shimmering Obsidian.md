@@ -1,8 +1,6 @@
 ---
-aliases:
-  -
-tags:
-  - seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -19,6 +17,7 @@ Developed by: [[chrisgrieser|pseudometa]]
 ## Feature Overview
 
 ### Alfred-based Quick Switcher
+
 - Search Notes
 - Open Notes in new pane, append to notes, copy Markdown links, …
 - Includes Aliases
@@ -33,16 +32,19 @@ Developed by: [[chrisgrieser|pseudometa]]
 - Smart Search: A query like `o foobar #moc starred` displays only files named "foobar" with the tag "#moc" that are also starred.
 
 ### Note-related Features
+
 - Create new Notes (based on Template or via QuickAdd)
 - Move Note to a different folder
 - Daily Notes
 
 ### Screenshot Features
+
 - OCR Screenshots
 - Image Screenshot
 - Both work for screenshots taken in quick succession, e.g. during a live presentation or lecture.
 
 ### Utility Features
+
 - Backup your Vault
 - Paste URL into selection
 - Dual Mode (Edit + Preview)
@@ -50,33 +52,39 @@ Developed by: [[chrisgrieser|pseudometa]]
 - Carl Auto-Responses 🐢
 
 ### Plugin & Theme Search
+
 - Search Community Plugins and Themes
 - Open in Obsidian or GitHub
 - Access Plugin Settings
 - Search & Create GitHub Issues
 
 ### Workspace Switcher
+
 - Quickly switch workspaces
 - 🆕 Save workspaces
 - Manage workspaces
 - Automatically toggle spellchecking when switching to certain workspaces
 
 ### 🆕 Settings Search
+
 - Search & quickly open specific Settings Tabs, the Theme Browser, or the Community Browser.
 - Quickly update all plugins.
 - Open Plugin Settings.
 - Open local plugin folders in `.obsidian/plugins/`
 
 ### Documentation Search
+
 - Search the Official Obsidian Documentation
 - Simultaneously search the Obsidian Hub (this site you are on right now)
 - Search the Forum
 
 ### Vault Switcher
+
 - Switch the Vault controlled by this Alfred workflow.
 - Open vaults in Obsidian, Finder, or the Terminal.
 
 ### CSS-related Features
+
 - Access themes & CSS Snippets via Alfred
 - Create new Snippets from Clipboard content
 - Quick Access to cheat sheets for theme development, e.g. default variables
@@ -84,6 +92,7 @@ Developed by: [[chrisgrieser|pseudometa]]
 - Convert a font file base64-encoded CSS
 
 ### Features for Developers
+
 - Quickly open various development-related folders
 - Open a local plugin's folder in Finder or the Terminal
 - Quick Copy of a plugin's ID

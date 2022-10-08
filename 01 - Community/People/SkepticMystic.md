@@ -1,8 +1,6 @@
 ---
-aliases:
-- SkepticMystic
-tags:
-- 
+aliases: [SkepticMystic]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[adjacency-matrix-maker|Adjacency Matrix Maker]]
 - [[breadcrumbs|Breadcrumbs]]
 - [[advanced-cursors|Advanced Cursors]]

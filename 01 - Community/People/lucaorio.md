@@ -1,8 +1,6 @@
 ---
-aliases:
-- Luca Orio
-tags:
-- 
+aliases: [Luca Orio]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-image-gallery|Image Gallery]]
 
 %% End Hub: Released contributions %%

@@ -1,25 +1,24 @@
 ---
-aliases:
-- David Moeller
-tags:
-- 
+aliases: [David Moeller]
+tags: []
 publish: true
 ---
 
 # David Moeller
 
 - GitHub: [Narsail](https://github.com/Narsail/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[habit-tracker|Habit Tracker]]
 
 %% End Hub: Released contributions %%

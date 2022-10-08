@@ -1,8 +1,6 @@
 ---
-aliases:
-- Lars Lockefeer
-tags:
-- 
+aliases: [Lars Lockefeer]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-plugin-todo|Obsidian TODO | Text-based GTD]]
 
 %% End Hub: Released contributions %%

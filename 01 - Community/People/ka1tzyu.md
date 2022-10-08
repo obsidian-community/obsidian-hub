@@ -1,8 +1,6 @@
 ---
-aliases:
-- ka1tzyu
-tags:
-- 
+aliases: [ka1tzyu]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[local-quotes|Local Quotes]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Andrew Lombardi
-tags:
-- 
+aliases: [Andrew Lombardi]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-oura-plugin|Oura Ring]]
 - [[obsidian-crypto-lookup|Crypto Lookup]]
 - [[obsidian-word-sprint|Word Sprint]]

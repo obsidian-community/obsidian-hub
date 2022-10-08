@@ -1,8 +1,6 @@
 ---
-aliases:
-- Nemo Andrea
-tags:
-- 
+aliases: [Nemo Andrea]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-daily-named-folder|Daily Named Folder]]
 
 %% End Hub: Released contributions %%

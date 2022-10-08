@@ -1,8 +1,6 @@
 ---
-aliases:
-- Davide Aversa
-tags:
-- 
+aliases: [Davide Aversa]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-juliandate|Julian Date]]
 - [[obsidian-chessboard|Chessboard Viewer]]
 

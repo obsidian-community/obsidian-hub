@@ -1,8 +1,6 @@
 ---
-aliases:
-- Razum
-tags:
-- 
+aliases: [Razum]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-fullscreen-plugin|Fullscreen mode plugin]]
 
 %% End Hub: Released contributions %%

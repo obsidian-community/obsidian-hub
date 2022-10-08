@@ -1,8 +1,6 @@
 ---
-aliases:
-- Leander Neiß
-tags:
-- 
+aliases: [Leander Neiß]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-rant|Rant-Lang]]
 
 %% End Hub: Released contributions %%

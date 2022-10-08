@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-version-history-diff
-aliases:
-- Version History Diff (Sync, File Recovery & Git)
-tags: 
-- 
+aliases: [Version History Diff (Sync, File Recovery & Git)]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/kometenstaub/obsidian-version-history-diff/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/kometenstaub/obsidian-version-history-diff?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/kometenstaub/obsidian-version-history-diff/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/kometenstaub/obsidian-version-history-diff/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/kometenstaub/obsidian-version-history-diff?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/kometenstaub/obsidian-version-history-diff/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/kometenstaub/obsidian-version-history-diff?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Diff the version history of the core Sync and File Recovery plugins and Git. Adds a command to open the core Sync version history as well.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[kometenstaub#Sponsor this author]] %%

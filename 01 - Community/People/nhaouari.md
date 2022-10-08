@@ -1,25 +1,24 @@
 ---
-aliases:
-- Noureddine Haouari
-tags:
-- 
+aliases: [Noureddine Haouari]
+tags: []
 publish: true
 ---
 
 # Noureddine Haouari
 
 - GitHub: [nhaouari](https://github.com/nhaouari/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[searchpp|Search++]]
 - [[obsidian-youglish-plugin|Youglish Plugin]]
 

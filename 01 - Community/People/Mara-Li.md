@@ -1,25 +1,24 @@
 ---
-aliases:
-- Mara
-tags:
-- 
+aliases: [Mara]
+tags: []
 publish: true
 ---
 
 # Mara
 
 - GitHub: [Mara-Li](https://github.com/Mara-Li/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-metacopy|Metacopy]]
 
 %% End Hub: Released contributions %%

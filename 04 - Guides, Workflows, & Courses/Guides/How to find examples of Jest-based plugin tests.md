@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -16,7 +14,7 @@ For the popular [Jest](https://jestjs.io) framework, there are already many comm
 
 As of 2022-04-07.
 
-*Note: No guarantee that there are any tests written or run!*
+_Note: No guarantee that there are any tests written or run!_
 
 - FHachez/[obsidian-convert-url-to-iframe](https://github.com/FHachez/obsidian-convert-url-to-iframe)
 - JeppeKlitgaard/[ObsidianAnkiBridge](https://github.com/JeppeKlitgaard/ObsidianAnkiBridge)
@@ -82,7 +80,7 @@ find . -name jest.config.\* | grep -v node_modules | sort
 
 Converting the console output to the links above
 
-https:\/\/github\.com\/([^\/]+)\/([^ ]+) 
+https:\/\/github\.com\/([^\/]+)\/([^ ]+)
 
 | [$1](https://github.com/$1) | [$2](https://github.com/$1/$2) |
 

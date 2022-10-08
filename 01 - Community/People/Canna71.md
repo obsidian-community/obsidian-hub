@@ -1,8 +1,6 @@
 ---
-aliases:
-- Gabriele Cannata
-tags:
-- 
+aliases: [Gabriele Cannata]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[janitor|Janitor]]
 
 %% End Hub: Released contributions %%

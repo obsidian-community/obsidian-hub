@@ -1,8 +1,6 @@
 ---
-aliases:
-- caronchen
-tags:
-- 
+aliases: [caronchen]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-chartsview-plugin|Charts View]]
 
 %% End Hub: Released contributions %%

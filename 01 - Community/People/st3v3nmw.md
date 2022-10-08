@@ -1,8 +1,6 @@
 ---
-aliases:
-- Stephen Mwangi
-tags:
-- 
+aliases: [Stephen Mwangi]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-spaced-repetition|Spaced Repetition]]
 
 %% End Hub: Released contributions %%

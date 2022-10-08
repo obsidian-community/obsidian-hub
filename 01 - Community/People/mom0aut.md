@@ -1,8 +1,6 @@
 ---
-aliases:
-- Mom0
-tags:
-- 
+aliases: [Mom0]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-search-everywhere-plugin|Search Everywhere]]
 
 %% End Hub: Released contributions %%

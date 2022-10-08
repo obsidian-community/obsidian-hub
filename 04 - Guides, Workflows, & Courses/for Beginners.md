@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 ---
 
 # for Beginners
@@ -10,15 +8,18 @@ tags:
 These guides will help you get started with [[Obsidian]] and related topics.
 
 ## Introduction to Basic Concepts
+
 - [**Sitepoint**: Obsidian Beginner Guide](https://www.sitepoint.com/obsidian-beginner-guide/)
 - [[Obsidian Help]]
 - [[Obsidian Garden]]
 - [[Markdown Syntax]]
 
 ## Video Guides
+
 - [[YouTube]]
 
 ## Courses
+
 - [[Course for Getting Started with Obsidian]]
 - [[Obsidian Training Course in Russian|For Russian speakers: Obsidian Training Course on YouTube]]
 

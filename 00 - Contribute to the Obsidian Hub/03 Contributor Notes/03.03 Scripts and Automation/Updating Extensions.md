@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags:
-- 
+aliases: []
+tags: []
 ---
 
 # Updating Extensions
@@ -50,7 +48,6 @@ optional arguments:
 2. Commit the changes, with a message making it clear that all changes were made by automated script (so that only minimal review is required)
 
 ### Create a pull request
-
 
 ## Pull Request 2
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Tousif Iqbal Anik (toiq)
-tags:
-- 
+aliases: [Tousif Iqbal Anik (toiq)]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-sidebar-expand-on-hover|Sidebar Expand on Hover]]
 
 %% End Hub: Released contributions %%

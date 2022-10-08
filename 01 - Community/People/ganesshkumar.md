@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ganessh Kumar R P <rpganesshkumar@gmail.com>
-tags:
-- 
+aliases: [Ganessh Kumar R P <rpganesshkumar@gmail.com>]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]
 
 %% End Hub: Released contributions %%

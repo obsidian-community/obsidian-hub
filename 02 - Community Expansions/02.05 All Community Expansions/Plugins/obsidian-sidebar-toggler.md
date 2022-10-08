@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-sidebar-toggler
-aliases:
-- Sidebar Toggler
-tags: 
-- 
+aliases: [Sidebar Toggler]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/chrisgrieser/obsidian-sidebar-toggler/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/chrisgrieser/obsidian-sidebar-toggler?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/chrisgrieser/obsidian-sidebar-toggler/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/chrisgrieser/obsidian-sidebar-toggler/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/chrisgrieser/obsidian-sidebar-toggler?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/chrisgrieser/obsidian-sidebar-toggler/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/chrisgrieser/obsidian-sidebar-toggler?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Desktop-only plugins|No]]
 
 Finer control of the Obsidian sidebars. To be used with an external window manager.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[chrisgrieser#Sponsor this author]] %%

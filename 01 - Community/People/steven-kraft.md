@@ -1,8 +1,6 @@
 ---
-aliases:
-- Steven Kraft
-tags:
-- 
+aliases: [Steven Kraft]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-markdown-furigana|Markdown Furigana]]
 
 %% End Hub: Released contributions %%

@@ -1,25 +1,24 @@
 ---
-aliases:
-- PJ Eby
-tags:
-- 
+aliases: [PJ Eby]
+tags: []
 publish: true
 ---
 
 # PJ Eby
 
 - GitHub: [pjeby](https://github.com/pjeby/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[tag-wrangler|Tag Wrangler]]
 - [[note-folder-autorename|Note Folder Autorename]]
 - [[pane-relief|Pane Relief]]

@@ -1,8 +1,6 @@
 ---
-aliases:
-- heycalmdown
-tags:
-- 
+aliases: [heycalmdown]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[heycalmdown-navigate-cursor-history|Navigate Cursor History]]
 
 %% End Hub: Released contributions %%

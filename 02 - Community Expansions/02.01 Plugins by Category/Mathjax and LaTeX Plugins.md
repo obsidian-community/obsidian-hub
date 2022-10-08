@@ -1,11 +1,8 @@
 ---
-aliases:
-- Plugins to write math
-tags: 
-- seedling 
+aliases: [Plugins to write math]
+tags: [seedling]
 publish: true
 ---
-
 
 # Mathjax and LaTeX Plugins
 

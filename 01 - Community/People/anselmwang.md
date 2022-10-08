@@ -1,8 +1,6 @@
 ---
-aliases:
-- Yu Wang
-tags:
-- 
+aliases: [Yu Wang]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-key-sequence-shortcut|Key Sequence Shortcut]]
 - [[obsidian-mark-and-select|Mark and Select]]
 - [[obsidian-vim-multibyte-char-search|Vim Multibyte Char Search]]

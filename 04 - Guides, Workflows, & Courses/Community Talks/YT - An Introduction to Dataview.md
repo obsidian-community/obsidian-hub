@@ -1,8 +1,6 @@
 ---
-aliases: 
-- An Introduction to Dataview
-tags:
-- seedling
+aliases: [An Introduction to Dataview]
+tags: [seedling]
 ---
 
 # An Introduction to [[dataview|Dataview]]
@@ -10,7 +8,7 @@ tags:
 Overview: [[An Introduction to Dataview]]
 Slides: [[An Introduction to Dataview Slides]]
 
-This was the very first [[Obsidian Community Talks|Obsidian Community Talk]].  [[SkepticMystic]] gave a great overview of the [[dataview|Dataview]] plugin. 
+This was the very first [[Obsidian Community Talks|Obsidian Community Talk]]. [[SkepticMystic]] gave a great overview of the [[dataview|Dataview]] plugin.
 
 ## Part 1: Basics
 

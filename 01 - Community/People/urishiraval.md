@@ -1,8 +1,6 @@
 ---
-aliases:
-- urishiraval
-tags:
-- 
+aliases: [urishiraval]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-apple-reminders-plugin|Apple Reminders]]
 
 %% End Hub: Released contributions %%

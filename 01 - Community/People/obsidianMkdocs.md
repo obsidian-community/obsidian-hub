@@ -1,8 +1,6 @@
 ---
-aliases:
-- Mara-Li
-tags:
-- 
+aliases: [Mara-Li]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-mkdocs-publisher|Github Publisher]]
 
 %% End Hub: Released contributions %%

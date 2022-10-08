@@ -1,8 +1,6 @@
 ---
-aliases:
-- mdelobelle
-tags:
-- 
+aliases: [mdelobelle]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[supercharged-links-obsidian|Supercharged Links]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -11,7 +9,7 @@ publish: true
 By #placeholder/author
 
 %% Add one or two sentences describing the video and link it to at least one other note %%
-#placeholder/description 
+#placeholder/description
 
 %% In the tag below, plase fill out the #placeholder/link and then remove this comment%%
 

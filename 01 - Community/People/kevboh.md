@@ -1,8 +1,6 @@
 ---
-aliases:
-- Kevin Barrett
-tags:
-- 
+aliases: [Kevin Barrett]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-pluck|Pluck]]
 - [[longform|Longform]]
 

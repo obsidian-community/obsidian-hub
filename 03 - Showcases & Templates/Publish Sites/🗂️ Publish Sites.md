@@ -1,20 +1,19 @@
 ---
-aliases:
-- 
-tags: 
-- MOC
+aliases: []
+tags: [MOC]
 publish: true
 ---
 
 # 🗂️ Publish Sites
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
--  [[03 - Showcases & Templates/Publish Sites/Data Engineering Wiki|Data Engineering Wiki]]
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit below %%
+
+- [[03 - Showcases & Templates/Publish Sites/Data Engineering Wiki|Data Engineering Wiki]]
+  %% Hub MOCs: Don’t edit above %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- artisticat
-tags:
-- 
+aliases: [artisticat]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-latex-suite|Latex Suite]]
 
 %% End Hub: Released contributions %%

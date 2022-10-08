@@ -1,8 +1,6 @@
 ---
-aliases:
-- Dario Balboni
-tags:
-- 
+aliases: [Dario Balboni]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-hotkeys-chords|Hotkeys Chords]]
 
 %% End Hub: Released contributions %%

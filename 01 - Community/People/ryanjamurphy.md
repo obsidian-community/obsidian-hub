@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ryan J. A. Murphy
-tags:
-- 
+aliases: [Ryan J. A. Murphy]
+tags: []
 publish: true
 ---
 
@@ -16,11 +14,12 @@ publish: true
 %% Feel free to add a bio below this comment %%
 A mod for both Discord and forum and a plugin author.
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[review-obsidian|Review]]
 - [[workbench-obsidian|Workbench]]
 - [[macOS-keyboard-nav-obsidian|macOS Keyboard Navigation]]

@@ -1,8 +1,6 @@
 ---
-aliases:
-- kzhovn
-tags:
-- 
+aliases: [kzhovn]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]
 - [[copy-note|Enhance Copy Note]]
 - [[customizable-menu|Customizable Menu]]

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Artem Barmin
-tags:
-- 
+aliases: [Artem Barmin]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-drag-n-drop-plugin|Drag-n-Drop for blocks]]
 
 %% End Hub: Released contributions %%

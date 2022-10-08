@@ -1,8 +1,6 @@
 ---
-aliases:
-- jsonmartin
-tags:
-- 
+aliases: [jsonmartin]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[readwise-mirror|Readwise Mirror]]
 
 %% End Hub: Released contributions %%

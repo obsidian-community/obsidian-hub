@@ -1,8 +1,6 @@
 ---
-aliases:
-- Johannes Theiner
-tags:
-- 
+aliases: [Johannes Theiner]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-plantuml|PlantUML]]
 - [[key-promoter|Key Promoter]]
 - [[rss-reader|RSS Reader]]

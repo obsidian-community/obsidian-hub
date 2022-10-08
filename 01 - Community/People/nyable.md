@@ -1,8 +1,6 @@
 ---
-aliases:
-- hafuhafu
-tags:
-- 
+aliases: [hafuhafu]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-code-block-enhancer|Code Block Enhancer]]
 
 %% End Hub: Released contributions %%

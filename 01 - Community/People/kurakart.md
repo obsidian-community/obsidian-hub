@@ -1,25 +1,24 @@
 ---
-aliases:
-- kurakart
-tags:
-- 
+aliases: [kurakart]
+tags: []
 publish: true
 ---
 
 # kurakart
 
 - GitHub: [kurakart](https://github.com/kurakart/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[garble-text|Garble Text]]
 
 %% End Hub: Released contributions %%

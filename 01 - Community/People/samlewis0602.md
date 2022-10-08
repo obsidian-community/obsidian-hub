@@ -1,8 +1,6 @@
 ---
-aliases:
-- Sam Lewis
-tags:
-- 
+aliases: [Sam Lewis]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[customjs|CustomJS]]
 
 %% End Hub: Released contributions %%

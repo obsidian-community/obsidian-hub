@@ -1,8 +1,6 @@
 ---
-aliases:
-- tadashi-aikawa
-tags:
-- 
+aliases: [tadashi-aikawa]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[various-complements|Various Complements]]
 - [[obsidian-embedded-code-title|Embedded Code Title]]
 - [[obsidian-another-quick-switcher|Another Quick Switcher]]

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Thomas Clark
-tags:
-- 
+aliases: [Thomas Clark]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-find-and-replace-in-selection|Find & Replace in Selection]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- ShockThunder
-tags:
-- 
+aliases: [ShockThunder]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[random-structural-diary-plugin|Random Structural Diary]]
 
 %% End Hub: Released contributions %%

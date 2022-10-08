@@ -1,11 +1,8 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Third-Party Integration Plugins
 
@@ -71,6 +68,7 @@ Plugins to integrate with other services or applications.
 - [[Automation plugins]]
 
 ## Related Topics
+
 - [[Controlling Obsidian via a Third-party App]]
 
 %% Hub footer: Please don't edit anything below this line %%

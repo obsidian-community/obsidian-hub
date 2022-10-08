@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jill Alberts
-tags:
-- 
+aliases: [Jill Alberts]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[privacy-glasses|Privacy Glasses]]
 
 %% End Hub: Released contributions %%

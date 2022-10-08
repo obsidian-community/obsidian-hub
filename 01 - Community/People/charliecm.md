@@ -1,8 +1,6 @@
 ---
-aliases:
-- Charlie Chao
-tags:
-- 
+aliases: [Charlie Chao]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-tidy-footnotes|Tidy Footnotes]]
 
 %% End Hub: Released contributions %%

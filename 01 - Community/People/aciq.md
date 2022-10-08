@@ -1,8 +1,6 @@
 ---
-aliases:
-- aciq
-tags:
-- 
+aliases: [aciq]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[quick-snippets-and-navigation|Quick snippets and navigation]]
 
 %% End Hub: Released contributions %%

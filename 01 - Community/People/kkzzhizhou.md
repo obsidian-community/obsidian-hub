@@ -1,25 +1,24 @@
 ---
-aliases:
-- kkzzhizhou
-tags:
-- 
+aliases: [kkzzhizhou]
+tags: []
 publish: true
 ---
 
 # kkzzhizhou
 
 - GitHub: [kkzzhizhou](https://github.com/kkzzhizhou/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]
 
 %% End Hub: Released contributions %%

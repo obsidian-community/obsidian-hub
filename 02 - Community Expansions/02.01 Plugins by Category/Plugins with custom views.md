@@ -1,18 +1,14 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Plugins with custom views
 
 Plugins that change or add new views, modify how notes are displayed or add popovers for quick previews.
 
 ## Plugins in this category
-
 
 - [[obsidian-mind-map|Mind Map]]
 - [[obsidian-comments|Comments]]
@@ -35,7 +31,7 @@ Plugins that change or add new views, modify how notes are displayed or add popo
 - [[obsidian-stille|Stille]]
 - [[obsidian-card-view-mode|Card View Mode]]
 - [[obsidian-focus-mode|Focus Mode]]
-- [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]] 
+- [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]]
 - [[obsidian-view-mode-by-frontmatter|Force note view mode by front matter]]
 - [[obsidian-map-view|Map View]]
 

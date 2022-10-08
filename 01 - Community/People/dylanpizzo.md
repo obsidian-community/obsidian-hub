@@ -1,8 +1,6 @@
 ---
-aliases:
-- Dylan Pizzo
-tags:
-- 
+aliases: [Dylan Pizzo]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[plugins-galore|Plugins Galore]]
 
 %% End Hub: Released contributions %%

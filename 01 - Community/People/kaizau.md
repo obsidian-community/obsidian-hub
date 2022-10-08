@@ -1,8 +1,6 @@
 ---
-aliases:
-- kaizau
-tags:
-- 
+aliases: [kaizau]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-audio-speed-plugin|Audio Speed Plugin]]
 
 %% End Hub: Released contributions %%

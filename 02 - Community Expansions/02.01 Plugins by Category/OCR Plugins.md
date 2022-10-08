@@ -1,15 +1,12 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
-
 # OCR Plugins
 
-Plugins that add OCR for images and/or PDF. 
+Plugins that add OCR for images and/or PDF.
 
 ## Plugins in this category
 

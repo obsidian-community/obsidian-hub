@@ -1,11 +1,8 @@
 ---
-aliases:
--
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Plugins to convert content into Markdown
 

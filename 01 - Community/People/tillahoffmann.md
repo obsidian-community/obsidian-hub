@@ -1,8 +1,6 @@
 ---
-aliases:
-- Till Hoffmann
-tags:
-- 
+aliases: [Till Hoffmann]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-jupyter|Jupyter plugin]]
 
 %% End Hub: Released contributions %%

@@ -1,12 +1,8 @@
 ---
-aliases:
-- Collaboration plugins
-- Plugins for collaborative editing
-tags: 
-- seedling 
+aliases: [Collaboration plugins, Plugins for collaborative editing]
+tags: [seedling]
 publish: true
 ---
-
 
 # Plugins for collaboration
 

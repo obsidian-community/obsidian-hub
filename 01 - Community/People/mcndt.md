@@ -1,8 +1,6 @@
 ---
-aliases:
-- Maxime Cannoodt (@mcndt)
-tags:
-- 
+aliases: [Maxime Cannoodt (@mcndt)]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-toggl-integration|Toggl Track]]
 
 %% End Hub: Released contributions %%

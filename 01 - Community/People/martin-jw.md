@@ -1,8 +1,6 @@
 ---
-aliases:
-- Martin Jirlow
-tags:
-- 
+aliases: [Martin Jirlow]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-recall|Recall]]
 
 %% End Hub: Released contributions %%

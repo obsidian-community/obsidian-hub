@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -14,13 +12,11 @@ publish: true
 %% Paste your template below %%
 
 ````markdown
-
 ```dataview
 TABLE WITHOUT ID "**" + link(file.link, alias) + "** " + "<span style='border-bottom: 2px solid var(--interactive-accent);'>" + "[[#" + alias + "|#]]" AS Locales, Description, Notes AS NOTES
 FROM (#Location & !#Location/City) & #Campaign/Lost-Mine-Of-Phandelver
 SORT Number
 ```
-
 ````
 
 Image using the [[All Alternate Themes (ITS Theme)#D D WOTC\|D&D WOTC]] Alternate Theme Snippet.

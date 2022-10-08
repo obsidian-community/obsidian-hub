@@ -1,8 +1,6 @@
 ---
-aliases:
-- Shirayuki Nekomata
-tags:
-- 
+aliases: [Shirayuki Nekomata]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-amazingmarvin-plugin|Amazing Marvin]]
 
 %% End Hub: Released contributions %%

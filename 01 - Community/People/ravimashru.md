@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ravi Mashru
-tags:
-- 
+aliases: [Ravi Mashru]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-show-file-path|Show Current File Path]]
 
 %% End Hub: Released contributions %%

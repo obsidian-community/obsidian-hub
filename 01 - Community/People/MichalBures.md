@@ -1,8 +1,6 @@
 ---
-aliases:
-- Michal Bureš
-tags:
-- 
+aliases: [Michal Bureš]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-file-path-to-uri|File path to URI]]
 
 %% End Hub: Released contributions %%

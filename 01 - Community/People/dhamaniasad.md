@@ -1,8 +1,6 @@
 ---
-aliases:
-- Asad Dhamani
-tags:
-- 
+aliases: [Asad Dhamani]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-rich-links|Rich Links]]
 
 %% End Hub: Released contributions %%

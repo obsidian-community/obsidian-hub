@@ -1,21 +1,20 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
+
 # Default Obsidian Theme colors
 
 This table shows default colors used by Obsidian in a table with three columns. The first shows the color as defined in the CSS, the second assigns the value to the foreground color, and the third assigns the value to the background color.
 
 This table has been generated using cut/paste and generous application of regular expression find/replace in VSCode. For the curious, the details are at the bottom.
 
-For each theme: 
+For each theme:
+
 - the foreground colors are shown against `--background-primary`
 - the background colors use `--text-normal` for text
-- 
-
+-
 
 ## Dark Theme colors
 
@@ -115,7 +114,8 @@ For each theme:
     <td style="color: #dcddde; background-color: rgba(255, 255, 255, 0.1)">background</td></tr>
 </table>
 
-Additional: 
+Additional:
+
 - --highlight-mix-blend-mode: lighten;
 - --background-modifier-error-rgb: 61, 0, 0;
 - --text-muted-rgb: 153, 153, 153;
@@ -220,18 +220,18 @@ Additional:
     <td style="background-color: rgba(0, 0, 0, 0.1)">background</td></tr>
 </table>
 
-Notes: 
+Notes:
+
 - --highlight-mix-blend-mode: darken;
 - --interactive-accent-rgb: 123, 108, 217;
 - --text-muted-rgb: 136, 136, 136;
 - --background-modifier-error-rgb: 230, 135, 135;
 
-
 ---
 
 ### How to make a table like this without tons of manual effort:
 
-Cut/Paste from pick your favorite theme into a *.md file: 
+Cut/Paste from pick your favorite theme into a \*.md file:
 
 ```
   --text-accent: #7f6df2;
@@ -243,22 +243,23 @@ Cut/Paste from pick your favorite theme into a *.md file:
   --text-error: #ff3333;
 ```
 
-Open the file an editor that supports regular-expressions in search/replace. The following assumes VSCode. To use regular expressions for find/replace, select `.*` in the search box as shown: 
+Open the file an editor that supports regular-expressions in search/replace. The following assumes VSCode. To use regular expressions for find/replace, select `.*` in the search box as shown:
 
 ![[vscode-regex-find-replace.png]]
 
-For your search expression, use `^\s*(--([a-z-]*)): (.*);` which means: 
+For your search expression, use `^\s*(--([a-z-]*)): (.*);` which means:
+
 - `^` from the beginning of the line
 - `\s*` skip any leading whitespace
-- `(` begin capturing group 1 that contains.. 
-    - `--` two dashes
-    - `(` begin capturing group 2 that contains...
-        - `[a-z-]*` a combination of lowercase letters and dashes
-    - `)` end capturing group 2
+- `(` begin capturing group 1 that contains..
+  - `--` two dashes
+  - `(` begin capturing group 2 that contains...
+    - `[a-z-]*` a combination of lowercase letters and dashes
+  - `)` end capturing group 2
 - `)` end capturing group 1
 - `: ` the pattern must now contain a `:` followed by a space ` `
-- `(` begin capturing group 3 that contains... 
-	- `.*` any sequence of characters
+- `(` begin capturing group 3 that contains...
+  - `.*` any sequence of characters
 - `)` end capturing group 3
 - `;` the matching pattern must end with a semicolon
 
@@ -271,7 +272,6 @@ We then use the following as a replacement string (with `$1`, `$2`, and `$3` for
 ```
 
 Find/replace all. Add a `<table>` at the top, and a `</table>` at the bottom, make sure there aren't any blank lines in the middle, and you're good to go!
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

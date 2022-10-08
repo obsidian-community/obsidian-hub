@@ -1,8 +1,6 @@
 ---
-aliases:
-- Matt Sessions
-tags:
-- 
+aliases: [Matt Sessions]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-rollover-daily-todos|Rollover Daily Todos]]
 - [[obsidian-reveal-active-file|Automatically reveal active file]]
 

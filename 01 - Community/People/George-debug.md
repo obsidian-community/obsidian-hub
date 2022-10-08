@@ -1,25 +1,24 @@
 ---
-aliases:
-- George Butco
-tags:
-- 
+aliases: [George Butco]
+tags: []
 publish: true
 ---
 
 # George Butco
 
 - GitHub: [George-debug](https://github.com/George-debug/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-timeline|Timeline]]
 
 %% End Hub: Released contributions %%

@@ -1,15 +1,12 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
-
 # Task management
 
-#placeholder/description 
+#placeholder/description
 
 ## Plugins in this category
 

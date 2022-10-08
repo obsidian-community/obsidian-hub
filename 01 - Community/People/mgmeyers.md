@@ -1,8 +1,6 @@
 ---
-aliases:
-- mgmeyers
-tags:
-- 
+aliases: [mgmeyers]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-contextual-typography|Contextual Typography]]
 - [[obsidian-style-settings|Style Settings]]
 - [[obsidian-embedded-note-titles|Embedded Note Titles]]
@@ -32,8 +31,9 @@ publish: true
 - [[obsidian-indentation-guides|Indentation Guides]]
 
 ### Themes
+
 - [[California Coast]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 

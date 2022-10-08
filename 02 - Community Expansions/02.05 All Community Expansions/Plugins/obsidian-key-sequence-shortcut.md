@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-key-sequence-shortcut
-aliases:
-- Key Sequence Shortcut
-tags: 
-- 
+aliases: [Key Sequence Shortcut]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/anselmwang/obsidian-key-sequence-shortcut/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/anselmwang/obsidian-key-sequence-shortcut?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/anselmwang/obsidian-key-sequence-shortcut/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/anselmwang/obsidian-key-sequence-shortcut/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/anselmwang/obsidian-key-sequence-shortcut?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/anselmwang/obsidian-key-sequence-shortcut/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/anselmwang/obsidian-key-sequence-shortcut?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -25,9 +23,9 @@ Links: [GitHub repository](https://github.com/anselmwang/obsidian-key-sequence-s
 Developed by: [[anselmwang]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
- Execute obsidian commands with short key sequences. For example, 'tp' for 'Toggle Preview' and 'tb' for 'Toggle Sidebar'. Easier to remember.
+Execute obsidian commands with short key sequences. For example, 'tp' for 'Toggle Preview' and 'tb' for 'Toggle Sidebar'. Easier to remember.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[anselmwang#Sponsor this author]] %%

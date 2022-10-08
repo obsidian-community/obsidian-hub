@@ -1,8 +1,6 @@
 ---
-aliases:
-- Akos Balasko, Micha Brugger
-tags:
-- 
+aliases: [Akos Balasko, Micha Brugger]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[zoottelkeeper-obsidian-plugin|Zoottelkeeper Plugin]]
 
 %% End Hub: Released contributions %%

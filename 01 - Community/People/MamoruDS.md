@@ -1,8 +1,6 @@
 ---
-aliases:
-- MamoruDS
-tags:
-- 
+aliases: [MamoruDS]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-open-link-with|Open Link With]]
 
 %% End Hub: Released contributions %%

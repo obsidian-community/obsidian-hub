@@ -1,8 +1,6 @@
 ---
-aliases:
-- Dylan Garrett
-tags:
-- 
+aliases: [Dylan Garrett]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[phone-to-roam-to-obsidian|Phone to Roam to Obsidian]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- BoxThatBeat
-tags:
-- 
+aliases: [BoxThatBeat]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-agile-task-notes|Agile Task Notes]]
 
 %% End Hub: Released contributions %%

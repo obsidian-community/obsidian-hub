@@ -1,8 +1,6 @@
 ---
-aliases: 
-- Obsidian Docs
-tags:
-- seedling
+aliases: [Obsidian Docs]
+tags: [seedling]
 publish: true
 ---
 

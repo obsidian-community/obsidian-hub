@@ -1,25 +1,24 @@
 ---
-aliases:
-- Jordan Handy
-tags:
-- 
+aliases: [Jordan Handy]
+tags: []
 publish: true
 ---
 
 # Jordan Handy
 
 - GitHub: [jordanhandy](https://github.com/jordanhandy/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-cloudinary-uploader|Obsidian Cloudinary Uploader]]
 
 %% End Hub: Released contributions %%

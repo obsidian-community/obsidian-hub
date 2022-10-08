@@ -1,8 +1,6 @@
 ---
-aliases:
-- RainCat1998
-tags:
-- 
+aliases: [RainCat1998]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-custom-attachment-location|Custom Attachment Location]]
 
 %% End Hub: Released contributions %%

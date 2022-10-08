@@ -1,8 +1,6 @@
 ---
-aliases:
-- Cameron Robinson
-tags:
-- 
+aliases: [Cameron Robinson]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[multi-column-markdown|Multi-Column Markdown]]
 
 %% End Hub: Released contributions %%

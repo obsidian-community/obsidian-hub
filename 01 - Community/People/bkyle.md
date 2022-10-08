@@ -1,25 +1,24 @@
 ---
-aliases:
-- Bryan Kyle
-tags:
-- 
+aliases: [Bryan Kyle]
+tags: []
 publish: true
 ---
 
 # Bryan Kyle
 
 - GitHub: [bkyle](https://github.com/bkyle/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-vault-statistics-plugin|Vault Statistics]]
 
 %% End Hub: Released contributions %%

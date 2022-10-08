@@ -1,8 +1,6 @@
 ---
-aliases:
-- Carlo Zottmann
-tags:
-- 
+aliases: [Carlo Zottmann]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-copy-search-url|Copy Search URL]]
 
 %% End Hub: Released contributions %%

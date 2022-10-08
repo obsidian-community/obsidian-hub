@@ -1,8 +1,6 @@
 ---
-aliases:
-- darlal
-tags:
-- 
+aliases: [darlal]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[darlal-switcher-plus|Quick Switcher++]]
 
 %% End Hub: Released contributions %%

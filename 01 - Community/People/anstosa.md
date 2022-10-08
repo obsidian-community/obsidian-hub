@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ansel Santosa
-tags:
-- 
+aliases: [Ansel Santosa]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[format-hotkeys-obsidian|Format Hotkeys]]
 
 %% End Hub: Released contributions %%

@@ -1,25 +1,24 @@
 ---
-aliases:
-- Denis Olehov
-tags:
-- 
+aliases: [Denis Olehov]
+tags: []
 publish: true
 ---
 
 # Denis Olehov
 
 - GitHub: [denolehov](https://github.com/denolehov/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-git|Obsidian Git]]
 - [[url-into-selection|Paste URL into selection]]
 

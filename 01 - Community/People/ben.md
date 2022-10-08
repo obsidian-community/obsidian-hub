@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ben Straub
-tags:
-- 
+aliases: [Ben Straub]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[13th-age-statblocks|13th Age Statblocks]]
 
 %% End Hub: Released contributions %%

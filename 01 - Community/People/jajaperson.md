@@ -1,8 +1,6 @@
 ---
-aliases:
-- James Jensen
-tags:
-- 
+aliases: [James Jensen]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[literate-haskell|Literate Haskell]]
 
 %% End Hub: Released contributions %%

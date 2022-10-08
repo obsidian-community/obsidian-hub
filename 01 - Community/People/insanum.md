@@ -1,29 +1,27 @@
 ---
-aliases:
-- insanum
-tags:
-- 
+aliases: [insanum]
+tags: []
 publish: true
 ---
 
 # insanum
 
 - GitHub: [insanum](https://github.com/insanum/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
 
 ### Themes
+
 - [[Obsidian gruvbox]]
 - [[Obsidian Nord]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 

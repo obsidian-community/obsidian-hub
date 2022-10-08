@@ -1,25 +1,24 @@
 ---
-aliases:
-- pyrochlore
-tags:
-- 
+aliases: [pyrochlore]
+tags: []
 publish: true
 ---
 
 # pyrochlore
 
 - GitHub: [pyrochlore](https://github.com/pyrochlore/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-tracker|Tracker]]
 
 %% End Hub: Released contributions %%

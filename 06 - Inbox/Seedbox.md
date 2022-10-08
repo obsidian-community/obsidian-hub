@@ -1,8 +1,6 @@
 ---
-aliases:
-- seedbox
-tags:
-- MOC
+aliases: [seedbox]
+tags: [MOC]
 ---
 
 # 08 - Seedbox
@@ -13,8 +11,7 @@ Based on the [[Digital garden]] analogy, [this post](https://forum.obsidian.md/t
 > ...
 > In this metaphor, “seeds” are captured ideas. When you put a seed into your seedbox, you are “planting” it, in the hopes that it will grow into an Understanding. The thing is, when you plant a seed, you don’t really know what kind of plant it might grow up to be.
 
-In short, our seedbox holds notes that were "planted" by a contributor who added some initial content, but might need a bit more time before they are "complete" (when the notes are linked, filled out, and/or filed in a suitable folder). 
-
+In short, our seedbox holds notes that were "planted" by a contributor who added some initial content, but might need a bit more time before they are "complete" (when the notes are linked, filled out, and/or filed in a suitable folder).
 
 %% Hub footer: Please don't edit anything below this line %%
 

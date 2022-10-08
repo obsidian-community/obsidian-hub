@@ -1,8 +1,6 @@
 ---
-aliases:
-- moelody
-tags:
-- 
+aliases: [moelody]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[link-info-server|Link Server]]
 
 %% End Hub: Released contributions %%

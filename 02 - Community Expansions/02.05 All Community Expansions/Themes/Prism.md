@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- 
+aliases: []
+tags: []
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 ![Downloads](https://img.shields.io/badge/downloads-33891-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/damiankorcz/Prism-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/damiankorcz/Prism-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub issues by-label](https://img.shields.io/github/issues/damiankorcz/Prism-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/damiankorcz/Prism-Theme?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -23,515 +21,517 @@ Repository: [GitHub](https://github.com/damiankorcz/Prism-Theme)
 Designed by: [[damiankorcz]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
-
-
 ![screenshot](https://github.com/damiankorcz/Prism-Theme/raw/main/assets/screenshots/Community Themes Screenshot.png)
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[damiankorcz#Sponsor this author]] %%
-
 
 ## Features
 
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
-## Customization Options (Style Settings Plugin) 
+## Customization Options (Style Settings Plugin)
 
 **Editor**: Settings for elements inside the Editor / Preview area of Obsidian.
+
 - **Fonts**: Define the fonts used around Obsidian.
-    - Font Family (UI): Font used in the UI.
-    - Font Family (Edit Modes): Font used in the Edit/Source pane view mode.
-    - Font Family (Preview Modes): Font used in the Preview/Reading pane view mode.
-    - Font Family (Code): Font used in Code elements.
+  - Font Family (UI): Font used in the UI.
+  - Font Family (Edit Modes): Font used in the Edit/Source pane view mode.
+  - Font Family (Preview Modes): Font used in the Preview/Reading pane view mode.
+  - Font Family (Code): Font used in Code elements.
 - **Headers**: Customisation options for the Headers (H1 - H6).
-    - **Header Font Size**: The sizes are scalled based on the Font Size selected in the Appearance tab of the Settings.
-        - Header 1 (H1) Font Size (em)
-        - Header 2 (H2) Font Size (em)
-        - Header 3 (H3) Font Size (em)
-        - Header 4 (H4) Font Size (em)
-        - Header 5 (H5) Font Size (em)
-        - Header 6 (H6) Font Size (em)
-    - **Light Theme**: 
-        - **Light Theme Header 1 (H1) Style**: 
-            - **Light Theme Header 1 (H1) Text**: 
-                - Light Theme Header 1 (H1) Text Color Preset
-                - Light Theme Header 1 (H1) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Text Color Preset for this to work.
-                - Light Theme Header 1 (H1) Text Opacity (%)
-                - Light Theme Header 1 (H1) Text Horizontal Alignment
-            - **Light Theme Header 1 (H1) Underline**: 
-                - Light Theme Header 1 (H1) Underline Style
-                - Light Theme Header 1 (H1) Underline Color Preset
-                - Light Theme Header 1 (H1) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Underline Color Preset for this to work.
-                - Light Theme Header 1 (H1) Underline Opacity (%)
-                - Light Theme Header 1 (H1) Underline Thickness (px)
-            - **Light Theme Header 1 (H1) Background**: 
-                - Light Theme Header 1 (H1) Background Style
-                - Light Theme Header 1 (H1) Background Color Preset
-                - Light Theme Header 1 (H1) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Background Color Preset for this to work.
-                - Light Theme Header 1 (H1) Background Opacity (%)
-                - Light Theme Header 1 (H1) Background Width Style
-                - Light Theme Header 1 (H1) Background Horizontal Alignment
-            - **Light Theme Header 1 (H1) Border**: 
-                - Light Theme Header 1 (H1) Border Style
-                - Light Theme Header 1 (H1) Border Color Preset
-                - Light Theme Header 1 (H1) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Border Color Preset for this to work.
-                - Light Theme Header 1 (H1) Border Radius Style
-                - Light Theme Header 1 (H1) Border Width (px)
-                - Light Theme Header 1 (H1) Border Opacity (%)
-        - **Light Theme Header 2 (H2) Style**: 
-            - **Light Theme Header 2 (H2) Text**: 
-                - Light Theme Header 2 (H2) Text Color Preset
-                - Light Theme Header 2 (H2) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 2 (H2) Text Color Preset for this to work.
-                - Light Theme Header 2 (H2) Text Opacity (%)
-                - Light Theme Header 2 (H2) Text Horizontal Alignment
-            - **Light Theme Header 2 (H2) Underline**: 
-                - Light Theme Header 2 (H2) Underline Style
-                - Light Theme Header 2 (H2) Underline Color Preset
-                - Light Theme Header 2 (H2) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 2 (H2) Underline Color Preset for this to work.
-                - Light Theme Header 2 (H2) Underline Opacity (%)
-                - Light Theme Header 2 (H2) Underline Thickness (px)
-            - **Light Theme Header 2 (H2) Background**: 
-                - Light Theme Header 2 (H2) Background Style
-                - Light Theme Header 2 (H2) Background Color Preset
-                - Light Theme Header 2 (H2) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 2 (H2) Background Color Preset for this to work.
-                - Light Theme Header 2 (H2) Background Opacity (%)
-                - Light Theme Header 2 (H2) Background Width Style
-                - Light Theme Header 2 (H2) Background Horizontal Alignment
-            - **Light Theme Header 2 (H2) Border**: 
-                - Light Theme Header 2 (H2) Border Style
-                - Light Theme Header 2 (H2) Border Color Preset
-                - Light Theme Header 2 (H2) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 2 (H2) Border Color Preset for this to work.
-                - Light Theme Header 2 (H2) Border Radius Style
-                - Light Theme Header 2 (H2) Border Width (px)
-                - Light Theme Header 2 (H2) Border Opacity (%)
-        - **Light Theme Header 3 (H3) Style**: 
-            - **Light Theme Header 3 (H3) Text**: 
-                - Light Theme Header 3 (H3) Text Color Preset
-                - Light Theme Header 3 (H3) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 3 (H3) Text Color Preset for this to work.
-                - Light Theme Header 3 (H3) Text Opacity (%)
-                - Light Theme Header 3 (H3) Text Horizontal Alignment
-            - **Light Theme Header 3 (H3) Underline**: 
-                - Light Theme Header 3 (H3) Underline Style
-                - Light Theme Header 3 (H3) Underline Color Preset
-                - Light Theme Header 3 (H3) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 3 (H3) Underline Color Preset for this to work.
-                - Light Theme Header 3 (H3) Underline Opacity (%)
-                - Light Theme Header 3 (H3) Underline Thickness (px)
-            - **Light Theme Header 3 (H3) Background**: 
-                - Light Theme Header 3 (H3) Background Style
-                - Light Theme Header 3 (H3) Background Color Preset
-                - Light Theme Header 3 (H3) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 3 (H3) Background Color Preset for this to work.
-                - Light Theme Header 3 (H3) Background Opacity (%)
-                - Light Theme Header 3 (H3) Background Width Style
-                - Light Theme Header 3 (H3) Background Horizontal Alignment
-            - **Light Theme Header 3 (H3) Border**: 
-                - Light Theme Header 3 (H3) Border Style
-                - Light Theme Header 3 (H3) Border Color Preset
-                - Light Theme Header 3 (H3) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 3 (H3) Border Color Preset for this to work.
-                - Light Theme Header 3 (H3) Border Radius Style
-                - Light Theme Header 3 (H3) Border Width (px)
-                - Light Theme Header 3 (H3) Border Opacity (%)
-        - **Light Theme Header 4 (H4) Style**: 
-            - **Light Theme Header 4 (H4) Text**: 
-                - Light Theme Header 4 (H4) Text Color Preset
-                - Light Theme Header 4 (H4) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 4 (H4) Text Color Preset for this to work.
-                - Light Theme Header 4 (H4) Text Opacity (%)
-                - Light Theme Header 4 (H4) Text Horizontal Alignment
-            - **Light Theme Header 4 (H4) Underline**: 
-                - Light Theme Header 4 (H4) Underline Style
-                - Light Theme Header 4 (H4) Underline Color Preset
-                - Light Theme Header 4 (H4) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 4 (H4) Underline Color Preset for this to work.
-                - Light Theme Header 4 (H4) Underline Opacity (%)
-                - Light Theme Header 4 (H4) Underline Thickness (px)
-            - **Light Theme Header 4 (H4) Background**: 
-                - Light Theme Header 4 (H4) Background Style
-                - Light Theme Header 4 (H4) Background Color Preset
-                - Light Theme Header 4 (H4) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 4 (H4) Background Color Preset for this to work.
-                - Light Theme Header 4 (H4) Background Opacity (%)
-                - Light Theme Header 4 (H4) Background Width Style
-                - Light Theme Header 4 (H4) Background Horizontal Alignment
-            - **Light Theme Header 4 (H4) Border**: 
-                - Light Theme Header 4 (H4) Border Style
-                - Light Theme Header 4 (H4) Border Color Preset
-                - Light Theme Header 4 (H4) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 4 (H4) Border Color Preset for this to work.
-                - Light Theme Header 4 (H4) Border Radius Style
-                - Light Theme Header 4 (H4) Border Width (px)
-                - Light Theme Header 4 (H4) Border Opacity (%)
-        - **Light Theme Header 5 (H5) Style**: 
-            - **Light Theme Header 5 (H5) Text**: 
-                - Light Theme Header 5 (H5) Text Color Preset
-                - Light Theme Header 5 (H5) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 5 (H5) Text Color Preset for this to work.
-                - Light Theme Header 5 (H5) Text Opacity (%)
-                - Light Theme Header 5 (H5) Text Horizontal Alignment
-            - **Light Theme Header 5 (H5) Underline**: 
-                - Light Theme Header 5 (H5) Underline Style
-                - Light Theme Header 5 (H5) Underline Color Preset
-                - Light Theme Header 5 (H5) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 5 (H5) Underline Color Preset for this to work.
-                - Light Theme Header 5 (H5) Underline Opacity (%)
-                - Light Theme Header 5 (H5) Underline Thickness (px)
-            - **Light Theme Header 5 (H5) Background**: 
-                - Light Theme Header 5 (H5) Background Style
-                - Light Theme Header 5 (H5) Background Color Preset
-                - Light Theme Header 5 (H5) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 5 (H5) Background Color Preset for this to work.
-                - Light Theme Header 5 (H5) Background Opacity (%)
-                - Light Theme Header 5 (H5) Background Width Style
-                - Light Theme Header 5 (H5) Background Horizontal Alignment
-            - **Light Theme Header 5 (H5) Border**: 
-                - Light Theme Header 5 (H5) Border Style
-                - Light Theme Header 5 (H5) Border Color Preset
-                - Light Theme Header 5 (H5) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 5 (H5) Border Color Preset for this to work.
-                - Light Theme Header 5 (H5) Border Radius Style
-                - Light Theme Header 5 (H5) Border Width (px)
-                - Light Theme Header 5 (H5) Border Opacity (%)
-        - **Light Theme Header 6 (H6) Style**: 
-            - **Light Theme Header 6 (H6) Text**: 
-                - Light Theme Header 6 (H6) Text Color Preset
-                - Light Theme Header 6 (H6) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Text Color Preset for this to work.
-                - Light Theme Header 6 (H6) Text Opacity (%)
-                - Light Theme Header 6 (H6) Text Horizontal Alignment
-            - **Light Theme Header 6 (H6) Underline**: 
-                - Light Theme Header 6 (H6) Underline Style
-                - Light Theme Header 6 (H6) Underline Color Preset
-                - Light Theme Header 6 (H6) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Underline Color Preset for this to work.
-                - Light Theme Header 6 (H6) Underline Opacity (%)
-                - Light Theme Header 6 (H6) Underline Thickness (px)
-            - **Light Theme Header 6 (H6) Background**: 
-                - Light Theme Header 6 (H6) Background Style
-                - Light Theme Header 6 (H6) Background Color Preset
-                - Light Theme Header 6 (H6) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Background Color Preset for this to work.
-                - Light Theme Header 6 (H6) Background Opacity (%)
-                - Light Theme Header 6 (H6) Background Width Style
-                - Light Theme Header 6 (H6) Background Horizontal Alignment
-            - **Light Theme Header 6 (H6) Border**: 
-                - Light Theme Header 6 (H6) Border Style
-                - Light Theme Header 6 (H6) Border Color Preset
-                - Light Theme Header 6 (H6) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Border Color Preset for this to work.
-                - Light Theme Header 6 (H6) Border Radius Style
-                - Light Theme Header 6 (H6) Border Width (px)
-                - Light Theme Header 6 (H6) Border Opacity (%)
-    - **Dark Theme**: 
-        - **Dark Theme Header 1 (H1) Style**: 
-            - **Dark Theme Header 1 (H1) Text**: 
-                - Dark Theme Header 1 (H1) Text Color Preset
-                - Dark Theme Header 1 (H1) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Text Color Preset for this to work.
-                - Dark Theme Header 1 (H1) Text Opacity (%)
-                - Dark Theme Header 1 (H1) Text Horizontal Alignment
-            - **Dark Theme Header 1 (H1) Underline**: 
-                - Dark Theme Header 1 (H1) Underline Style
-                - Dark Theme Header 1 (H1) Underline Color Preset
-                - Dark Theme Header 1 (H1) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Underline Color Preset for this to work.
-                - Dark Theme Header 1 (H1) Underline Opacity (%)
-                - Dark Theme Header 1 (H1) Underline Thickness (px)
-            - **Dark Theme Header 1 (H1) Background**: 
-                - Dark Theme Header 1 (H1) Background Style
-                - Dark Theme Header 1 (H1) Background Color Preset
-                - Dark Theme Header 1 (H1) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Background Color Preset for this to work.
-                - Dark Theme Header 1 (H1) Background Opacity (%)
-                - Dark Theme Header 1 (H1) Background Width Style
-                - Dark Theme Header 1 (H1) Background Horizontal Alignment
-            - **Dark Theme Header 1 (H1) Border**: 
-                - Dark Theme Header 1 (H1) Border Style
-                - Dark Theme Header 1 (H1) Border Color Preset
-                - Dark Theme Header 1 (H1) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Border Color Preset for this to work.
-                - Dark Theme Header 1 (H1) Border Radius Style
-                - Dark Theme Header 1 (H1) Border Width (px)
-                - Dark Theme Header 1 (H1) Border Opacity (%)
-        - **Dark Theme Header 2 (H2) Style**: 
-            - **Dark Theme Header 2 (H2) Text**: 
-                - Dark Theme Header 2 (H2) Text Color Preset
-                - Dark Theme Header 2 (H2) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 2 (H2) Text Color Preset for this to work.
-                - Dark Theme Header 2 (H2) Text Opacity (%)
-                - Dark Theme Header 2 (H2) Text Horizontal Alignment
-            - **Dark Theme Header 2 (H2) Underline**: 
-                - Dark Theme Header 2 (H2) Underline Style
-                - Dark Theme Header 2 (H2) Underline Color Preset
-                - Dark Theme Header 2 (H2) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 2 (H2) Underline Color Preset for this to work.
-                - Dark Theme Header 2 (H2) Underline Opacity (%)
-                - Dark Theme Header 2 (H2) Underline Thickness (px)
-            - **Dark Theme Header 2 (H2) Background**: 
-                - Dark Theme Header 2 (H2) Background Style
-                - Dark Theme Header 2 (H2) Background Color Preset
-                - Dark Theme Header 2 (H2) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 2 (H2) Background Color Preset for this to work.
-                - Dark Theme Header 2 (H2) Background Opacity (%)
-                - Dark Theme Header 2 (H2) Background Width Style
-                - Dark Theme Header 2 (H2) Background Horizontal Alignment
-            - **Dark Theme Header 2 (H2) Border**: 
-                - Dark Theme Header 2 (H2) Border Style
-                - Dark Theme Header 2 (H2) Border Color Preset
-                - Dark Theme Header 2 (H2) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 2 (H2) Border Color Preset for this to work.
-                - Dark Theme Header 2 (H2) Border Radius Style
-                - Dark Theme Header 2 (H2) Border Width (px)
-                - Dark Theme Header 2 (H2) Border Opacity (%)
-        - **Dark Theme Header 3 (H3) Style**: 
-            - **Dark Theme Header 3 (H3) Text**: 
-                - Dark Theme Header 3 (H3) Text Color Preset
-                - Dark Theme Header 3 (H3) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 3 (H3) Text Color Preset for this to work.
-                - Dark Theme Header 3 (H3) Text Opacity (%)
-                - Dark Theme Header 3 (H3) Text Horizontal Alignment
-            - **Dark Theme Header 3 (H3) Underline**: 
-                - Dark Theme Header 3 (H3) Underline Style
-                - Dark Theme Header 3 (H3) Underline Color Preset
-                - Dark Theme Header 3 (H3) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 3 (H3) Underline Color Preset for this to work.
-                - Dark Theme Header 3 (H3) Underline Opacity (%)
-                - Dark Theme Header 3 (H3) Underline Thickness (px)
-            - **Dark Theme Header 3 (H3) Background**: 
-                - Dark Theme Header 3 (H3) Background Style
-                - Dark Theme Header 3 (H3) Background Color Preset
-                - Dark Theme Header 3 (H3) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 3 (H3) Background Color Preset for this to work.
-                - Dark Theme Header 3 (H3) Background Opacity (%)
-                - Dark Theme Header 3 (H3) Background Width Style
-                - Dark Theme Header 3 (H3) Background Horizontal Alignment
-            - **Dark Theme Header 3 (H3) Border**: 
-                - Dark Theme Header 3 (H3) Border Style
-                - Dark Theme Header 3 (H3) Border Color Preset
-                - Dark Theme Header 3 (H3) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 3 (H3) Border Color Preset for this to work.
-                - Dark Theme Header 3 (H3) Border Radius Style
-                - Dark Theme Header 3 (H3) Border Width (px)
-                - Dark Theme Header 3 (H3) Border Opacity (%)
-        - **Dark Theme Header 4 (H4) Style**: 
-            - **Dark Theme Header 4 (H4) Text**: 
-                - Dark Theme Header 4 (H4) Text Color Preset
-                - Dark Theme Header 4 (H4) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 4 (H4) Text Color Preset for this to work.
-                - Dark Theme Header 4 (H4) Text Opacity (%)
-                - Dark Theme Header 4 (H4) Text Horizontal Alignment
-            - **Dark Theme Header 4 (H4) Underline**: 
-                - Dark Theme Header 4 (H4) Underline Style
-                - Dark Theme Header 4 (H4) Underline Color Preset
-                - Dark Theme Header 4 (H4) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 4 (H4) Underline Color Preset for this to work.
-                - Dark Theme Header 4 (H4) Underline Opacity (%)
-                - Dark Theme Header 4 (H4) Underline Thickness (px)
-            - **Dark Theme Header 4 (H4) Background**: 
-                - Dark Theme Header 4 (H4) Background Style
-                - Dark Theme Header 4 (H4) Background Color Preset
-                - Dark Theme Header 4 (H4) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 4 (H4) Background Color Preset for this to work.
-                - Dark Theme Header 4 (H4) Background Opacity (%)
-                - Dark Theme Header 4 (H4) Background Width Style
-                - Dark Theme Header 4 (H4) Background Horizontal Alignment
-            - **Dark Theme Header 4 (H4) Border**: 
-                - Dark Theme Header 4 (H4) Border Style
-                - Dark Theme Header 4 (H4) Border Color Preset
-                - Dark Theme Header 4 (H4) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 4 (H4) Border Color Preset for this to work.
-                - Dark Theme Header 4 (H4) Border Radius Style
-                - Dark Theme Header 4 (H4) Border Width (px)
-                - Dark Theme Header 4 (H4) Border Opacity (%)
-        - **Dark Theme Header 5 (H5) Style**: 
-            - **Dark Theme Header 5 (H5) Text**: 
-                - Dark Theme Header 5 (H5) Text Color Preset
-                - Dark Theme Header 5 (H5) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 5 (H5) Text Color Preset for this to work.
-                - Dark Theme Header 5 (H5) Text Opacity (%)
-                - Dark Theme Header 5 (H5) Text Horizontal Alignment
-            - **Dark Theme Header 5 (H5) Underline**: 
-                - Dark Theme Header 5 (H5) Underline Style
-                - Dark Theme Header 5 (H5) Underline Color Preset
-                - Dark Theme Header 5 (H5) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 5 (H5) Underline Color Preset for this to work.
-                - Dark Theme Header 5 (H5) Underline Opacity (%)
-                - Dark Theme Header 5 (H5) Underline Thickness (px)
-            - **Dark Theme Header 5 (H5) Background**: 
-                - Dark Theme Header 5 (H5) Background Style
-                - Dark Theme Header 5 (H5) Background Color Preset
-                - Dark Theme Header 5 (H5) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 5 (H5) Background Color Preset for this to work.
-                - Dark Theme Header 5 (H5) Background Opacity (%)
-                - Dark Theme Header 5 (H5) Background Width Style
-                - Dark Theme Header 5 (H5) Background Horizontal Alignment
-            - **Dark Theme Header 5 (H5) Border**: 
-                - Dark Theme Header 5 (H5) Border Style
-                - Dark Theme Header 5 (H5) Border Color Preset
-                - Dark Theme Header 5 (H5) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 5 (H5) Border Color Preset for this to work.
-                - Dark Theme Header 5 (H5) Border Radius Style
-                - Dark Theme Header 5 (H5) Border Width (px)
-                - Dark Theme Header 5 (H5) Border Opacity (%)
-        - **Dark Theme Header 6 (H6) Style**: 
-            - **Dark Theme Header 6 (H6) Text**: 
-                - Dark Theme Header 6 (H6) Text Color Preset
-                - Dark Theme Header 6 (H6) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 6 (H6) Text Color Preset for this to work.
-                - Dark Theme Header 6 (H6) Text Opacity (%)
-                - Dark Theme Header 6 (H6) Text Horizontal Alignment
-            - **Dark Theme Header 6 (H6) Underline**: 
-                - Dark Theme Header 6 (H6) Underline Style
-                - Dark Theme Header 6 (H6) Underline Color Preset
-                - Dark Theme Header 6 (H6) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 6 (H6) Underline Color Preset for this to work.
-                - Dark Theme Header 6 (H6) Underline Opacity (%)
-                - Dark Theme Header 6 (H6) Underline Thickness (px)
-            - **Dark Theme Header 6 (H6) Background**: 
-                - Dark Theme Header 6 (H6) Background Style
-                - Dark Theme Header 6 (H6) Background Color Preset
-                - Dark Theme Header 6 (H6) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 6 (H6) Background Color Preset for this to work.
-                - Dark Theme Header 6 (H6) Background Opacity (%)
-                - Dark Theme Header 6 (H6) Background Width Style
-                - Dark Theme Header 6 (H6) Background Horizontal Alignment
-            - **Dark Theme Header 6 (H6) Border**: 
-                - Dark Theme Header 6 (H6) Border Style
-                - Dark Theme Header 6 (H6) Border Color Preset
-                - Dark Theme Header 6 (H6) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 6 (H6) Border Color Preset for this to work.
-                - Dark Theme Header 6 (H6) Border Radius Style
-                - Dark Theme Header 6 (H6) Border Width (px)
-                - Dark Theme Header 6 (H6) Border Opacity (%)
+  - **Header Font Size**: The sizes are scalled based on the Font Size selected in the Appearance tab of the Settings.
+    - Header 1 (H1) Font Size (em)
+    - Header 2 (H2) Font Size (em)
+    - Header 3 (H3) Font Size (em)
+    - Header 4 (H4) Font Size (em)
+    - Header 5 (H5) Font Size (em)
+    - Header 6 (H6) Font Size (em)
+  - **Light Theme**:
+    - **Light Theme Header 1 (H1) Style**:
+      - **Light Theme Header 1 (H1) Text**:
+        - Light Theme Header 1 (H1) Text Color Preset
+        - Light Theme Header 1 (H1) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Text Color Preset for this to work.
+        - Light Theme Header 1 (H1) Text Opacity (%)
+        - Light Theme Header 1 (H1) Text Horizontal Alignment
+      - **Light Theme Header 1 (H1) Underline**:
+        - Light Theme Header 1 (H1) Underline Style
+        - Light Theme Header 1 (H1) Underline Color Preset
+        - Light Theme Header 1 (H1) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Underline Color Preset for this to work.
+        - Light Theme Header 1 (H1) Underline Opacity (%)
+        - Light Theme Header 1 (H1) Underline Thickness (px)
+      - **Light Theme Header 1 (H1) Background**:
+        - Light Theme Header 1 (H1) Background Style
+        - Light Theme Header 1 (H1) Background Color Preset
+        - Light Theme Header 1 (H1) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Background Color Preset for this to work.
+        - Light Theme Header 1 (H1) Background Opacity (%)
+        - Light Theme Header 1 (H1) Background Width Style
+        - Light Theme Header 1 (H1) Background Horizontal Alignment
+      - **Light Theme Header 1 (H1) Border**:
+        - Light Theme Header 1 (H1) Border Style
+        - Light Theme Header 1 (H1) Border Color Preset
+        - Light Theme Header 1 (H1) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Border Color Preset for this to work.
+        - Light Theme Header 1 (H1) Border Radius Style
+        - Light Theme Header 1 (H1) Border Width (px)
+        - Light Theme Header 1 (H1) Border Opacity (%)
+    - **Light Theme Header 2 (H2) Style**:
+      - **Light Theme Header 2 (H2) Text**:
+        - Light Theme Header 2 (H2) Text Color Preset
+        - Light Theme Header 2 (H2) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 2 (H2) Text Color Preset for this to work.
+        - Light Theme Header 2 (H2) Text Opacity (%)
+        - Light Theme Header 2 (H2) Text Horizontal Alignment
+      - **Light Theme Header 2 (H2) Underline**:
+        - Light Theme Header 2 (H2) Underline Style
+        - Light Theme Header 2 (H2) Underline Color Preset
+        - Light Theme Header 2 (H2) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 2 (H2) Underline Color Preset for this to work.
+        - Light Theme Header 2 (H2) Underline Opacity (%)
+        - Light Theme Header 2 (H2) Underline Thickness (px)
+      - **Light Theme Header 2 (H2) Background**:
+        - Light Theme Header 2 (H2) Background Style
+        - Light Theme Header 2 (H2) Background Color Preset
+        - Light Theme Header 2 (H2) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 2 (H2) Background Color Preset for this to work.
+        - Light Theme Header 2 (H2) Background Opacity (%)
+        - Light Theme Header 2 (H2) Background Width Style
+        - Light Theme Header 2 (H2) Background Horizontal Alignment
+      - **Light Theme Header 2 (H2) Border**:
+        - Light Theme Header 2 (H2) Border Style
+        - Light Theme Header 2 (H2) Border Color Preset
+        - Light Theme Header 2 (H2) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 2 (H2) Border Color Preset for this to work.
+        - Light Theme Header 2 (H2) Border Radius Style
+        - Light Theme Header 2 (H2) Border Width (px)
+        - Light Theme Header 2 (H2) Border Opacity (%)
+    - **Light Theme Header 3 (H3) Style**:
+      - **Light Theme Header 3 (H3) Text**:
+        - Light Theme Header 3 (H3) Text Color Preset
+        - Light Theme Header 3 (H3) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 3 (H3) Text Color Preset for this to work.
+        - Light Theme Header 3 (H3) Text Opacity (%)
+        - Light Theme Header 3 (H3) Text Horizontal Alignment
+      - **Light Theme Header 3 (H3) Underline**:
+        - Light Theme Header 3 (H3) Underline Style
+        - Light Theme Header 3 (H3) Underline Color Preset
+        - Light Theme Header 3 (H3) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 3 (H3) Underline Color Preset for this to work.
+        - Light Theme Header 3 (H3) Underline Opacity (%)
+        - Light Theme Header 3 (H3) Underline Thickness (px)
+      - **Light Theme Header 3 (H3) Background**:
+        - Light Theme Header 3 (H3) Background Style
+        - Light Theme Header 3 (H3) Background Color Preset
+        - Light Theme Header 3 (H3) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 3 (H3) Background Color Preset for this to work.
+        - Light Theme Header 3 (H3) Background Opacity (%)
+        - Light Theme Header 3 (H3) Background Width Style
+        - Light Theme Header 3 (H3) Background Horizontal Alignment
+      - **Light Theme Header 3 (H3) Border**:
+        - Light Theme Header 3 (H3) Border Style
+        - Light Theme Header 3 (H3) Border Color Preset
+        - Light Theme Header 3 (H3) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 3 (H3) Border Color Preset for this to work.
+        - Light Theme Header 3 (H3) Border Radius Style
+        - Light Theme Header 3 (H3) Border Width (px)
+        - Light Theme Header 3 (H3) Border Opacity (%)
+    - **Light Theme Header 4 (H4) Style**:
+      - **Light Theme Header 4 (H4) Text**:
+        - Light Theme Header 4 (H4) Text Color Preset
+        - Light Theme Header 4 (H4) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 4 (H4) Text Color Preset for this to work.
+        - Light Theme Header 4 (H4) Text Opacity (%)
+        - Light Theme Header 4 (H4) Text Horizontal Alignment
+      - **Light Theme Header 4 (H4) Underline**:
+        - Light Theme Header 4 (H4) Underline Style
+        - Light Theme Header 4 (H4) Underline Color Preset
+        - Light Theme Header 4 (H4) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 4 (H4) Underline Color Preset for this to work.
+        - Light Theme Header 4 (H4) Underline Opacity (%)
+        - Light Theme Header 4 (H4) Underline Thickness (px)
+      - **Light Theme Header 4 (H4) Background**:
+        - Light Theme Header 4 (H4) Background Style
+        - Light Theme Header 4 (H4) Background Color Preset
+        - Light Theme Header 4 (H4) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 4 (H4) Background Color Preset for this to work.
+        - Light Theme Header 4 (H4) Background Opacity (%)
+        - Light Theme Header 4 (H4) Background Width Style
+        - Light Theme Header 4 (H4) Background Horizontal Alignment
+      - **Light Theme Header 4 (H4) Border**:
+        - Light Theme Header 4 (H4) Border Style
+        - Light Theme Header 4 (H4) Border Color Preset
+        - Light Theme Header 4 (H4) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 4 (H4) Border Color Preset for this to work.
+        - Light Theme Header 4 (H4) Border Radius Style
+        - Light Theme Header 4 (H4) Border Width (px)
+        - Light Theme Header 4 (H4) Border Opacity (%)
+    - **Light Theme Header 5 (H5) Style**:
+      - **Light Theme Header 5 (H5) Text**:
+        - Light Theme Header 5 (H5) Text Color Preset
+        - Light Theme Header 5 (H5) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 5 (H5) Text Color Preset for this to work.
+        - Light Theme Header 5 (H5) Text Opacity (%)
+        - Light Theme Header 5 (H5) Text Horizontal Alignment
+      - **Light Theme Header 5 (H5) Underline**:
+        - Light Theme Header 5 (H5) Underline Style
+        - Light Theme Header 5 (H5) Underline Color Preset
+        - Light Theme Header 5 (H5) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 5 (H5) Underline Color Preset for this to work.
+        - Light Theme Header 5 (H5) Underline Opacity (%)
+        - Light Theme Header 5 (H5) Underline Thickness (px)
+      - **Light Theme Header 5 (H5) Background**:
+        - Light Theme Header 5 (H5) Background Style
+        - Light Theme Header 5 (H5) Background Color Preset
+        - Light Theme Header 5 (H5) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 5 (H5) Background Color Preset for this to work.
+        - Light Theme Header 5 (H5) Background Opacity (%)
+        - Light Theme Header 5 (H5) Background Width Style
+        - Light Theme Header 5 (H5) Background Horizontal Alignment
+      - **Light Theme Header 5 (H5) Border**:
+        - Light Theme Header 5 (H5) Border Style
+        - Light Theme Header 5 (H5) Border Color Preset
+        - Light Theme Header 5 (H5) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 5 (H5) Border Color Preset for this to work.
+        - Light Theme Header 5 (H5) Border Radius Style
+        - Light Theme Header 5 (H5) Border Width (px)
+        - Light Theme Header 5 (H5) Border Opacity (%)
+    - **Light Theme Header 6 (H6) Style**:
+      - **Light Theme Header 6 (H6) Text**:
+        - Light Theme Header 6 (H6) Text Color Preset
+        - Light Theme Header 6 (H6) Text Custom Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Text Color Preset for this to work.
+        - Light Theme Header 6 (H6) Text Opacity (%)
+        - Light Theme Header 6 (H6) Text Horizontal Alignment
+      - **Light Theme Header 6 (H6) Underline**:
+        - Light Theme Header 6 (H6) Underline Style
+        - Light Theme Header 6 (H6) Underline Color Preset
+        - Light Theme Header 6 (H6) Underline Custom Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Underline Color Preset for this to work.
+        - Light Theme Header 6 (H6) Underline Opacity (%)
+        - Light Theme Header 6 (H6) Underline Thickness (px)
+      - **Light Theme Header 6 (H6) Background**:
+        - Light Theme Header 6 (H6) Background Style
+        - Light Theme Header 6 (H6) Background Color Preset
+        - Light Theme Header 6 (H6) Background Custom Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Background Color Preset for this to work.
+        - Light Theme Header 6 (H6) Background Opacity (%)
+        - Light Theme Header 6 (H6) Background Width Style
+        - Light Theme Header 6 (H6) Background Horizontal Alignment
+      - **Light Theme Header 6 (H6) Border**:
+        - Light Theme Header 6 (H6) Border Style
+        - Light Theme Header 6 (H6) Border Color Preset
+        - Light Theme Header 6 (H6) Border Custom Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Border Color Preset for this to work.
+        - Light Theme Header 6 (H6) Border Radius Style
+        - Light Theme Header 6 (H6) Border Width (px)
+        - Light Theme Header 6 (H6) Border Opacity (%)
+  - **Dark Theme**:
+    - **Dark Theme Header 1 (H1) Style**:
+      - **Dark Theme Header 1 (H1) Text**:
+        - Dark Theme Header 1 (H1) Text Color Preset
+        - Dark Theme Header 1 (H1) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Text Color Preset for this to work.
+        - Dark Theme Header 1 (H1) Text Opacity (%)
+        - Dark Theme Header 1 (H1) Text Horizontal Alignment
+      - **Dark Theme Header 1 (H1) Underline**:
+        - Dark Theme Header 1 (H1) Underline Style
+        - Dark Theme Header 1 (H1) Underline Color Preset
+        - Dark Theme Header 1 (H1) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Underline Color Preset for this to work.
+        - Dark Theme Header 1 (H1) Underline Opacity (%)
+        - Dark Theme Header 1 (H1) Underline Thickness (px)
+      - **Dark Theme Header 1 (H1) Background**:
+        - Dark Theme Header 1 (H1) Background Style
+        - Dark Theme Header 1 (H1) Background Color Preset
+        - Dark Theme Header 1 (H1) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Background Color Preset for this to work.
+        - Dark Theme Header 1 (H1) Background Opacity (%)
+        - Dark Theme Header 1 (H1) Background Width Style
+        - Dark Theme Header 1 (H1) Background Horizontal Alignment
+      - **Dark Theme Header 1 (H1) Border**:
+        - Dark Theme Header 1 (H1) Border Style
+        - Dark Theme Header 1 (H1) Border Color Preset
+        - Dark Theme Header 1 (H1) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Border Color Preset for this to work.
+        - Dark Theme Header 1 (H1) Border Radius Style
+        - Dark Theme Header 1 (H1) Border Width (px)
+        - Dark Theme Header 1 (H1) Border Opacity (%)
+    - **Dark Theme Header 2 (H2) Style**:
+      - **Dark Theme Header 2 (H2) Text**:
+        - Dark Theme Header 2 (H2) Text Color Preset
+        - Dark Theme Header 2 (H2) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 2 (H2) Text Color Preset for this to work.
+        - Dark Theme Header 2 (H2) Text Opacity (%)
+        - Dark Theme Header 2 (H2) Text Horizontal Alignment
+      - **Dark Theme Header 2 (H2) Underline**:
+        - Dark Theme Header 2 (H2) Underline Style
+        - Dark Theme Header 2 (H2) Underline Color Preset
+        - Dark Theme Header 2 (H2) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 2 (H2) Underline Color Preset for this to work.
+        - Dark Theme Header 2 (H2) Underline Opacity (%)
+        - Dark Theme Header 2 (H2) Underline Thickness (px)
+      - **Dark Theme Header 2 (H2) Background**:
+        - Dark Theme Header 2 (H2) Background Style
+        - Dark Theme Header 2 (H2) Background Color Preset
+        - Dark Theme Header 2 (H2) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 2 (H2) Background Color Preset for this to work.
+        - Dark Theme Header 2 (H2) Background Opacity (%)
+        - Dark Theme Header 2 (H2) Background Width Style
+        - Dark Theme Header 2 (H2) Background Horizontal Alignment
+      - **Dark Theme Header 2 (H2) Border**:
+        - Dark Theme Header 2 (H2) Border Style
+        - Dark Theme Header 2 (H2) Border Color Preset
+        - Dark Theme Header 2 (H2) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 2 (H2) Border Color Preset for this to work.
+        - Dark Theme Header 2 (H2) Border Radius Style
+        - Dark Theme Header 2 (H2) Border Width (px)
+        - Dark Theme Header 2 (H2) Border Opacity (%)
+    - **Dark Theme Header 3 (H3) Style**:
+      - **Dark Theme Header 3 (H3) Text**:
+        - Dark Theme Header 3 (H3) Text Color Preset
+        - Dark Theme Header 3 (H3) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 3 (H3) Text Color Preset for this to work.
+        - Dark Theme Header 3 (H3) Text Opacity (%)
+        - Dark Theme Header 3 (H3) Text Horizontal Alignment
+      - **Dark Theme Header 3 (H3) Underline**:
+        - Dark Theme Header 3 (H3) Underline Style
+        - Dark Theme Header 3 (H3) Underline Color Preset
+        - Dark Theme Header 3 (H3) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 3 (H3) Underline Color Preset for this to work.
+        - Dark Theme Header 3 (H3) Underline Opacity (%)
+        - Dark Theme Header 3 (H3) Underline Thickness (px)
+      - **Dark Theme Header 3 (H3) Background**:
+        - Dark Theme Header 3 (H3) Background Style
+        - Dark Theme Header 3 (H3) Background Color Preset
+        - Dark Theme Header 3 (H3) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 3 (H3) Background Color Preset for this to work.
+        - Dark Theme Header 3 (H3) Background Opacity (%)
+        - Dark Theme Header 3 (H3) Background Width Style
+        - Dark Theme Header 3 (H3) Background Horizontal Alignment
+      - **Dark Theme Header 3 (H3) Border**:
+        - Dark Theme Header 3 (H3) Border Style
+        - Dark Theme Header 3 (H3) Border Color Preset
+        - Dark Theme Header 3 (H3) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 3 (H3) Border Color Preset for this to work.
+        - Dark Theme Header 3 (H3) Border Radius Style
+        - Dark Theme Header 3 (H3) Border Width (px)
+        - Dark Theme Header 3 (H3) Border Opacity (%)
+    - **Dark Theme Header 4 (H4) Style**:
+      - **Dark Theme Header 4 (H4) Text**:
+        - Dark Theme Header 4 (H4) Text Color Preset
+        - Dark Theme Header 4 (H4) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 4 (H4) Text Color Preset for this to work.
+        - Dark Theme Header 4 (H4) Text Opacity (%)
+        - Dark Theme Header 4 (H4) Text Horizontal Alignment
+      - **Dark Theme Header 4 (H4) Underline**:
+        - Dark Theme Header 4 (H4) Underline Style
+        - Dark Theme Header 4 (H4) Underline Color Preset
+        - Dark Theme Header 4 (H4) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 4 (H4) Underline Color Preset for this to work.
+        - Dark Theme Header 4 (H4) Underline Opacity (%)
+        - Dark Theme Header 4 (H4) Underline Thickness (px)
+      - **Dark Theme Header 4 (H4) Background**:
+        - Dark Theme Header 4 (H4) Background Style
+        - Dark Theme Header 4 (H4) Background Color Preset
+        - Dark Theme Header 4 (H4) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 4 (H4) Background Color Preset for this to work.
+        - Dark Theme Header 4 (H4) Background Opacity (%)
+        - Dark Theme Header 4 (H4) Background Width Style
+        - Dark Theme Header 4 (H4) Background Horizontal Alignment
+      - **Dark Theme Header 4 (H4) Border**:
+        - Dark Theme Header 4 (H4) Border Style
+        - Dark Theme Header 4 (H4) Border Color Preset
+        - Dark Theme Header 4 (H4) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 4 (H4) Border Color Preset for this to work.
+        - Dark Theme Header 4 (H4) Border Radius Style
+        - Dark Theme Header 4 (H4) Border Width (px)
+        - Dark Theme Header 4 (H4) Border Opacity (%)
+    - **Dark Theme Header 5 (H5) Style**:
+      - **Dark Theme Header 5 (H5) Text**:
+        - Dark Theme Header 5 (H5) Text Color Preset
+        - Dark Theme Header 5 (H5) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 5 (H5) Text Color Preset for this to work.
+        - Dark Theme Header 5 (H5) Text Opacity (%)
+        - Dark Theme Header 5 (H5) Text Horizontal Alignment
+      - **Dark Theme Header 5 (H5) Underline**:
+        - Dark Theme Header 5 (H5) Underline Style
+        - Dark Theme Header 5 (H5) Underline Color Preset
+        - Dark Theme Header 5 (H5) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 5 (H5) Underline Color Preset for this to work.
+        - Dark Theme Header 5 (H5) Underline Opacity (%)
+        - Dark Theme Header 5 (H5) Underline Thickness (px)
+      - **Dark Theme Header 5 (H5) Background**:
+        - Dark Theme Header 5 (H5) Background Style
+        - Dark Theme Header 5 (H5) Background Color Preset
+        - Dark Theme Header 5 (H5) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 5 (H5) Background Color Preset for this to work.
+        - Dark Theme Header 5 (H5) Background Opacity (%)
+        - Dark Theme Header 5 (H5) Background Width Style
+        - Dark Theme Header 5 (H5) Background Horizontal Alignment
+      - **Dark Theme Header 5 (H5) Border**:
+        - Dark Theme Header 5 (H5) Border Style
+        - Dark Theme Header 5 (H5) Border Color Preset
+        - Dark Theme Header 5 (H5) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 5 (H5) Border Color Preset for this to work.
+        - Dark Theme Header 5 (H5) Border Radius Style
+        - Dark Theme Header 5 (H5) Border Width (px)
+        - Dark Theme Header 5 (H5) Border Opacity (%)
+    - **Dark Theme Header 6 (H6) Style**:
+      - **Dark Theme Header 6 (H6) Text**:
+        - Dark Theme Header 6 (H6) Text Color Preset
+        - Dark Theme Header 6 (H6) Text Custom Color: Make sure you selected 'Custom' in Dark Theme Header 6 (H6) Text Color Preset for this to work.
+        - Dark Theme Header 6 (H6) Text Opacity (%)
+        - Dark Theme Header 6 (H6) Text Horizontal Alignment
+      - **Dark Theme Header 6 (H6) Underline**:
+        - Dark Theme Header 6 (H6) Underline Style
+        - Dark Theme Header 6 (H6) Underline Color Preset
+        - Dark Theme Header 6 (H6) Underline Custom Color: Make sure you selected 'Custom' in Dark Theme Header 6 (H6) Underline Color Preset for this to work.
+        - Dark Theme Header 6 (H6) Underline Opacity (%)
+        - Dark Theme Header 6 (H6) Underline Thickness (px)
+      - **Dark Theme Header 6 (H6) Background**:
+        - Dark Theme Header 6 (H6) Background Style
+        - Dark Theme Header 6 (H6) Background Color Preset
+        - Dark Theme Header 6 (H6) Background Custom Color: Make sure you selected 'Custom' in Dark Theme Header 6 (H6) Background Color Preset for this to work.
+        - Dark Theme Header 6 (H6) Background Opacity (%)
+        - Dark Theme Header 6 (H6) Background Width Style
+        - Dark Theme Header 6 (H6) Background Horizontal Alignment
+      - **Dark Theme Header 6 (H6) Border**:
+        - Dark Theme Header 6 (H6) Border Style
+        - Dark Theme Header 6 (H6) Border Color Preset
+        - Dark Theme Header 6 (H6) Border Custom Color: Make sure you selected 'Custom' in Dark Theme Header 6 (H6) Border Color Preset for this to work.
+        - Dark Theme Header 6 (H6) Border Radius Style
+        - Dark Theme Header 6 (H6) Border Width (px)
+        - Dark Theme Header 6 (H6) Border Opacity (%)
 - **Mark Highlight**: Adjusts the style used by the <mark> tag highlight system. Colors available = red, orange, yellow, green, mint, aqua, blue, purple, pink and grey. e.g. <mark class="red">Your text</mark>
-    - Light Theme Mark Highlight Style
-    - Dark Theme Mark Highlight Style
+  - Light Theme Mark Highlight Style
+  - Dark Theme Mark Highlight Style
 
 **Graph View**: Define the colors used in the Graph View. In order to see changes you need to refresh the Graph View (restart Obsidian or toggle the Light/Dark theme).
-- **Graph Color Customisation**: 
-    - **Light Theme**: 
-        - **Graph Note Color**: The color of a Graph Node representing a note file.
-            - Light Theme Graph Note Color Presets
-            - Light Theme Graph Note Custom Color: Make sure you selected 'Custom' in Light Theme Graph Note Color Presets for this to work.
-            - Light Theme Graph Note Opacity
-        - **Graph Note Focused Color**: The color of a Graph Node representing currently focused note file.
-            - Light Theme Graph Note Focused Color Presets
-            - Light Theme Graph Note Focused Custom Color: Make sure you selected 'Custom' in Light Theme Graph Note Focused Color Presets for this to work.
-            - Light Theme Graph Note Focused Opacity
-        - **Graph Tag Color**: The color of a Graph Node representing a tag.
-            - Light Theme Graph Tag Color Presets
-            - Light Theme Graph Tag Custom Color: Make sure you selected 'Custom' in Light Theme Graph Tag Color Presets for this to work.
-            - Light Theme Graph Tag Opacity
-        - **Graph Attachment Color**: The color of a Graph Node representing an attachment.
-            - Light Theme Graph Attachment Color Presets
-            - Light Theme Graph Attachment Custom Color: Make sure you selected 'Custom' in Light Theme Graph Attachment Color Presets for this to work.
-            - Light Theme Graph Attachment Opacity
-        - **Graph Unresolved Color**: The color of a Graph Node representing an unresolved note.
-            - Light Theme Graph Unresolved Color Presets
-            - Light Theme Graph Unresolved Custom Color: Make sure you selected 'Custom' in Light Theme Graph Unresolved Color Presets for this to work.
-            - Light Theme Graph Unresolved Opacity
-        - **Graph Highlight Color**: The color of a Graph Node when highlighted.
-            - Light Theme Graph Highlight Color Presets
-            - Light Theme Graph Highlight Custom Color: Make sure you selected 'Custom' in Light Theme Graph Highlight Color Presets for this to work.
-            - Light Theme Graph Highlight Opacity
-        - **Graph Highlight Line Color**: The color of the lines connected to a highlighted Graph Node.
-            - Light Theme Graph Highlight Line Color Presets
-            - Light Theme Graph Highlight Line Custom Color: Make sure you selected 'Custom' in Light Theme Graph Highlight Color Presets for this to work.
-            - Light Theme Graph Highlight Line Opacity
-    - **Dark Theme**: 
-        - **Graph Note Color**: The color of a Graph Node representing a note file.
-            - Dark Theme Graph Note Color Presets
-            - Dark Theme Graph Note Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Note Color Presets for this to work.
-            - Dark Theme Graph Note Opacity
-        - **Graph Note Focused Color**: The color of a Graph Node representing currently focused note file.
-            - Dark Theme Graph Note Focused Color Presets
-            - Dark Theme Graph Note Focused Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Note Focused Color Presets for this to work.
-            - Dark Theme Graph Note Focused Opacity
-        - **Graph Tag Color**: The color of a Graph Node representing a tag.
-            - Dark Theme Graph Tag Color Presets
-            - Dark Theme Graph Tag Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Tag Color Presets for this to work.
-            - Dark Theme Graph Tag Opacity
-        - **Graph Attachment Color**: The color of a Graph Node representing an attachment.
-            - Dark Theme Graph Attachment Color Presets
-            - Dark Theme Graph Attachment Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Attachment Color Presets for this to work.
-            - Dark Theme Graph Attachment Opacity
-        - **Graph Unresolved Color**: The color of a Graph Node representing an unresolved note.
-            - Dark Theme Graph Unresolved Color Presets
-            - Dark Theme Graph Unresolved Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Unresolved Color Presets for this to work.
-            - Dark Theme Graph Unresolved Opacity
-        - **Graph Highlight Color**: The color of a Graph Node when highlighted.
-            - Dark Theme Graph Highlight Color Presets
-            - Dark Theme Graph Highlight Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Highlight Color Presets for this to work.
-            - Dark Theme Graph Highlight Opacity
-        - **Graph Highlight Line Color**: The color of the lines connected to a highlighted Graph Node.
-            - Dark Theme Graph Highlight Line Color Presets
-            - Dark Theme Graph Highlight Line Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Highlight Color Presets for this to work.
-            - Dark Theme Graph Highlight Line Opacity
+
+- **Graph Color Customisation**:
+  - **Light Theme**:
+    - **Graph Note Color**: The color of a Graph Node representing a note file.
+      - Light Theme Graph Note Color Presets
+      - Light Theme Graph Note Custom Color: Make sure you selected 'Custom' in Light Theme Graph Note Color Presets for this to work.
+      - Light Theme Graph Note Opacity
+    - **Graph Note Focused Color**: The color of a Graph Node representing currently focused note file.
+      - Light Theme Graph Note Focused Color Presets
+      - Light Theme Graph Note Focused Custom Color: Make sure you selected 'Custom' in Light Theme Graph Note Focused Color Presets for this to work.
+      - Light Theme Graph Note Focused Opacity
+    - **Graph Tag Color**: The color of a Graph Node representing a tag.
+      - Light Theme Graph Tag Color Presets
+      - Light Theme Graph Tag Custom Color: Make sure you selected 'Custom' in Light Theme Graph Tag Color Presets for this to work.
+      - Light Theme Graph Tag Opacity
+    - **Graph Attachment Color**: The color of a Graph Node representing an attachment.
+      - Light Theme Graph Attachment Color Presets
+      - Light Theme Graph Attachment Custom Color: Make sure you selected 'Custom' in Light Theme Graph Attachment Color Presets for this to work.
+      - Light Theme Graph Attachment Opacity
+    - **Graph Unresolved Color**: The color of a Graph Node representing an unresolved note.
+      - Light Theme Graph Unresolved Color Presets
+      - Light Theme Graph Unresolved Custom Color: Make sure you selected 'Custom' in Light Theme Graph Unresolved Color Presets for this to work.
+      - Light Theme Graph Unresolved Opacity
+    - **Graph Highlight Color**: The color of a Graph Node when highlighted.
+      - Light Theme Graph Highlight Color Presets
+      - Light Theme Graph Highlight Custom Color: Make sure you selected 'Custom' in Light Theme Graph Highlight Color Presets for this to work.
+      - Light Theme Graph Highlight Opacity
+    - **Graph Highlight Line Color**: The color of the lines connected to a highlighted Graph Node.
+      - Light Theme Graph Highlight Line Color Presets
+      - Light Theme Graph Highlight Line Custom Color: Make sure you selected 'Custom' in Light Theme Graph Highlight Color Presets for this to work.
+      - Light Theme Graph Highlight Line Opacity
+  - **Dark Theme**:
+    - **Graph Note Color**: The color of a Graph Node representing a note file.
+      - Dark Theme Graph Note Color Presets
+      - Dark Theme Graph Note Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Note Color Presets for this to work.
+      - Dark Theme Graph Note Opacity
+    - **Graph Note Focused Color**: The color of a Graph Node representing currently focused note file.
+      - Dark Theme Graph Note Focused Color Presets
+      - Dark Theme Graph Note Focused Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Note Focused Color Presets for this to work.
+      - Dark Theme Graph Note Focused Opacity
+    - **Graph Tag Color**: The color of a Graph Node representing a tag.
+      - Dark Theme Graph Tag Color Presets
+      - Dark Theme Graph Tag Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Tag Color Presets for this to work.
+      - Dark Theme Graph Tag Opacity
+    - **Graph Attachment Color**: The color of a Graph Node representing an attachment.
+      - Dark Theme Graph Attachment Color Presets
+      - Dark Theme Graph Attachment Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Attachment Color Presets for this to work.
+      - Dark Theme Graph Attachment Opacity
+    - **Graph Unresolved Color**: The color of a Graph Node representing an unresolved note.
+      - Dark Theme Graph Unresolved Color Presets
+      - Dark Theme Graph Unresolved Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Unresolved Color Presets for this to work.
+      - Dark Theme Graph Unresolved Opacity
+    - **Graph Highlight Color**: The color of a Graph Node when highlighted.
+      - Dark Theme Graph Highlight Color Presets
+      - Dark Theme Graph Highlight Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Highlight Color Presets for this to work.
+      - Dark Theme Graph Highlight Opacity
+    - **Graph Highlight Line Color**: The color of the lines connected to a highlighted Graph Node.
+      - Dark Theme Graph Highlight Line Color Presets
+      - Dark Theme Graph Highlight Line Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Highlight Color Presets for this to work.
+      - Dark Theme Graph Highlight Line Opacity
 
 **User Interface**: Settings for spacing, position, alignment and other adjustments of different UI elements.
+
 - **Accent Colors and Styles**: Adjust the Accent Color and Styles used throughout the UI.
-    - **Light Theme**: 
-        - Light Theme Accent Style: Adjusts the style used by the Accented elements in the UI.
-        - Light Theme Accent Color Preset: Changes the Light Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and select your colour in the color picker below.
-        - Light Theme Custom Accent Color: Make sure you selected 'Custom' in Light Theme Accent Color Preset for this to work.
-    - **Dark Theme**: 
-        - Dark Theme Accent Style: Adjusts the style used by the Accented elements in the UI.
-        - Dark Theme Accent Color Preset: Changes the Dark Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and select your colour in the color picker below.
-        - Dark Theme Custom Accent Color: Make sure you selected 'Custom' in Accent Color Preset for this to work.
+  - **Light Theme**:
+    - Light Theme Accent Style: Adjusts the style used by the Accented elements in the UI.
+    - Light Theme Accent Color Preset: Changes the Light Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and select your colour in the color picker below.
+    - Light Theme Custom Accent Color: Make sure you selected 'Custom' in Light Theme Accent Color Preset for this to work.
+  - **Dark Theme**:
+    - Dark Theme Accent Style: Adjusts the style used by the Accented elements in the UI.
+    - Dark Theme Accent Color Preset: Changes the Dark Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and select your colour in the color picker below.
+    - Dark Theme Custom Accent Color: Make sure you selected 'Custom' in Accent Color Preset for this to work.
 - **Background Options**: Adjust the UI Background to a solid color or an image. All options are based on CSS Background properties of the same name.
-    - **Light Theme**: 
-        - Light Theme Background Type: Select what type of background you would like in the Light Theme.
-        - Light Theme Background Solid Color: Make sure you selected 'Solid Color' in Light Theme Background Type for this to work.
-        - Light Theme Background Image: Customise the Background Image for the Light Theme. Insert the link to an image between the brackets in the url(). Make sure you selected 'Image' in Light Theme Background Type for this to work.
-        - Light Theme Background Blur (px): Select the amount of blur applied to the Light Theme Background Image.
-        - Light Theme Background Repeat: Define if the Light Theme Background Image should repeat (tile).
-        - Light Theme Background Attachment: Define whether the Light Theme Background Image's position is fixed within the viewport, or scrolls with its containing block.
-        - Light Theme Background Position: Define the initial position for the Light Theme Background Image.
-        - Light Theme Background Size: Define the size of the Light Theme Background Image. The image can be left to its natural size, stretched, or constrained to fit the available space.
-    - **Dark Theme**: 
-        - Dark Theme Background Type: Select what type of background you would like in the Dark Theme.
-        - Dark Theme Background Solid Color: Make sure you selected 'Solid Color' in Dark Theme Background Type for this to work.
-        - Dark Theme Background Image: Customise the Background Image for the Dark Theme. Insert the link to an image between the brackets in the url().Make sure you selected 'Image' in Dark Theme Background Type for this to work.
-        - Dark Theme Background Blur (px): Select the amount of blur applied to the Dark Theme Background Image.
-        - Dark Theme Background Repeat: Define if the Dark Theme Background Image should repeat (tile).
-        - Dark Theme Background Attachment: Define whether the Dark Theme Background Image's position is fixed within the viewport, or scrolls with its containing block.
-        - Dark Theme Background Position: Define the initial position for the Dark Theme Background Image.
-        - Dark Theme Background Size: Define the size of the Dark Theme Background Image. The image can be left to its natural size, stretched, or constrained to fit the available space.
+  - **Light Theme**:
+    - Light Theme Background Type: Select what type of background you would like in the Light Theme.
+    - Light Theme Background Solid Color: Make sure you selected 'Solid Color' in Light Theme Background Type for this to work.
+    - Light Theme Background Image: Customise the Background Image for the Light Theme. Insert the link to an image between the brackets in the url(). Make sure you selected 'Image' in Light Theme Background Type for this to work.
+    - Light Theme Background Blur (px): Select the amount of blur applied to the Light Theme Background Image.
+    - Light Theme Background Repeat: Define if the Light Theme Background Image should repeat (tile).
+    - Light Theme Background Attachment: Define whether the Light Theme Background Image's position is fixed within the viewport, or scrolls with its containing block.
+    - Light Theme Background Position: Define the initial position for the Light Theme Background Image.
+    - Light Theme Background Size: Define the size of the Light Theme Background Image. The image can be left to its natural size, stretched, or constrained to fit the available space.
+  - **Dark Theme**:
+    - Dark Theme Background Type: Select what type of background you would like in the Dark Theme.
+    - Dark Theme Background Solid Color: Make sure you selected 'Solid Color' in Dark Theme Background Type for this to work.
+    - Dark Theme Background Image: Customise the Background Image for the Dark Theme. Insert the link to an image between the brackets in the url().Make sure you selected 'Image' in Dark Theme Background Type for this to work.
+    - Dark Theme Background Blur (px): Select the amount of blur applied to the Dark Theme Background Image.
+    - Dark Theme Background Repeat: Define if the Dark Theme Background Image should repeat (tile).
+    - Dark Theme Background Attachment: Define whether the Dark Theme Background Image's position is fixed within the viewport, or scrolls with its containing block.
+    - Dark Theme Background Position: Define the initial position for the Dark Theme Background Image.
+    - Dark Theme Background Size: Define the size of the Dark Theme Background Image. The image can be left to its natural size, stretched, or constrained to fit the available space.
 - **Window Adjustments**: Settings for changing the gaps between windows and border radius around all UI elements.
-    - Window Gap (px): The size of the space between the Workspace Containers.
-    - Border Radius (px): The size of the border radius around larger elements of the UI.
-    - Border Radius Small (px): The size of the border radius around smaller elements of the UI.
+  - Window Gap (px): The size of the space between the Workspace Containers.
+  - Border Radius (px): The size of the border radius around larger elements of the UI.
+  - Border Radius Small (px): The size of the border radius around smaller elements of the UI.
 - **Sidebar Elements**: Settings for positioning, alignment, etc. of different UI elements within the Sidebars.
-    - **Tab Label**: Settings for positioning, alignment, etc. of the Tab Labels.
-        - Left Sidebar Tab Label Alignment: Horizontal Alignment of the Tab Labels in the Left Sidebar.
-        - Right Sidebar Tab Label Alignment: Horizontal Alignment of the Tab Labels in the Right Sidebar.
-    - **Nav Header**: Settings for positioning, alignment, etc. of the Nav Headers.
-        - Left Sidebar Nav Header Position: Vertical Position of the Nav Header in the Left Sidebar Workspace Leaf.
-        - Left Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Left Sidebar Workspace Leaf.
-        - Right Sidebar Nav Header Position: Vertical Position of the Nav Header in the Right Sidebar Workspace Leaf.
-        - Right Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Right Sidebar Workspace Leaf.
-    - **File Explorer**: Customisation options for the File Explorer module.
-        - File Explorer Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the File Explorer to help visualise the folder and file depth.
-        - File Explorer Vertical Lines Width (px)
-        - **Custom Vault Banner**: Custom Vault Banner in the File Explorer with a custom icon option.
-            - Enable Custom Vault Banner: Enables the Custom Vault Banner in the File Explorer.
-            - Custom Vault Banner Alignment: Horizontally aligns the Custom Vault Banner content.
-            - Custom Vault Banner Order: Select the order in which the content appears in the Custom Vault Banner.
-            - Custom Vault Banner Sticky: Make the Custom Vault Banner stick to the top of the File Explorer.
-            - Vault Banner Icon (URL): Customise the Vault Banner Icon. Insert a URL to an image in between the brackets of 'url()'.
-    - **Outline**: Customisation options for the Outline module.
-        - Outline Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the Outline to help visualise the Header depth.
-        - Outline Vertical Lines Width (px)
+  - **Tab Label**: Settings for positioning, alignment, etc. of the Tab Labels.
+    - Left Sidebar Tab Label Alignment: Horizontal Alignment of the Tab Labels in the Left Sidebar.
+    - Right Sidebar Tab Label Alignment: Horizontal Alignment of the Tab Labels in the Right Sidebar.
+  - **Nav Header**: Settings for positioning, alignment, etc. of the Nav Headers.
+    - Left Sidebar Nav Header Position: Vertical Position of the Nav Header in the Left Sidebar Workspace Leaf.
+    - Left Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Left Sidebar Workspace Leaf.
+    - Right Sidebar Nav Header Position: Vertical Position of the Nav Header in the Right Sidebar Workspace Leaf.
+    - Right Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Right Sidebar Workspace Leaf.
+  - **File Explorer**: Customisation options for the File Explorer module.
+    - File Explorer Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the File Explorer to help visualise the folder and file depth.
+    - File Explorer Vertical Lines Width (px)
+    - **Custom Vault Banner**: Custom Vault Banner in the File Explorer with a custom icon option.
+      - Enable Custom Vault Banner: Enables the Custom Vault Banner in the File Explorer.
+      - Custom Vault Banner Alignment: Horizontally aligns the Custom Vault Banner content.
+      - Custom Vault Banner Order: Select the order in which the content appears in the Custom Vault Banner.
+      - Custom Vault Banner Sticky: Make the Custom Vault Banner stick to the top of the File Explorer.
+      - Vault Banner Icon (URL): Customise the Vault Banner Icon. Insert a URL to an image in between the brackets of 'url()'.
+  - **Outline**: Customisation options for the Outline module.
+    - Outline Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the Outline to help visualise the Header depth.
+    - Outline Vertical Lines Width (px)
 - **Titlebar**: Settings for changing the style of the Titlebar.
-    - Titlebar Style: Titlebar Style to fit the design of your Operating System Titlebar.
-    - Hide Titlebar Navigation Buttons: Hides the Titlebar Navigation Buttons.
-    - Hide Titlebar Title Text: Hides the Titlebar Title Text (Useful when the Statusbar is at the top).
-    - **Light Theme Customisation**: None
-        - Light Theme Solid Titlebar Background: Changes the Light Theme Titlebar Background to a solid app wide bar container instead of separated containers.
-        - Light Theme Titlebar Preset: Choose between Default and Custom colors for the Light Theme Titlebar.
-        - Light Theme Titlebar Background Color: Make sure you selected 'Custom' in Light Theme Titlebar Preset for this to work.
-        - Light Theme Titlebar Text/Icons Color: Choose the color used for the Light Theme Titlebar Text/Icons.
-    - **Dark Theme Customisation**: 
-        - Dark Theme Solid Titlebar Background: Changes the Dark Theme Titlebar Background to a solid app wide bar container instead of separated containers.
-        - Dark Theme Titlebar Preset: Choose between Default and Custom colors for the Dark Theme Titlebar.
-        - Dark Theme Titlebar Background Color: Make sure you selected 'Custom' in Dark Theme Titlebar Preset for this to work.
-        - Dark Theme Titlebar Text/Icons Color: Choose the color used for the Dark Theme Titlebar Text/Icons.
+  - Titlebar Style: Titlebar Style to fit the design of your Operating System Titlebar.
+  - Hide Titlebar Navigation Buttons: Hides the Titlebar Navigation Buttons.
+  - Hide Titlebar Title Text: Hides the Titlebar Title Text (Useful when the Statusbar is at the top).
+  - **Light Theme Customisation**: None
+    - Light Theme Solid Titlebar Background: Changes the Light Theme Titlebar Background to a solid app wide bar container instead of separated containers.
+    - Light Theme Titlebar Preset: Choose between Default and Custom colors for the Light Theme Titlebar.
+    - Light Theme Titlebar Background Color: Make sure you selected 'Custom' in Light Theme Titlebar Preset for this to work.
+    - Light Theme Titlebar Text/Icons Color: Choose the color used for the Light Theme Titlebar Text/Icons.
+  - **Dark Theme Customisation**:
+    - Dark Theme Solid Titlebar Background: Changes the Dark Theme Titlebar Background to a solid app wide bar container instead of separated containers.
+    - Dark Theme Titlebar Preset: Choose between Default and Custom colors for the Dark Theme Titlebar.
+    - Dark Theme Titlebar Background Color: Make sure you selected 'Custom' in Dark Theme Titlebar Preset for this to work.
+    - Dark Theme Titlebar Text/Icons Color: Choose the color used for the Dark Theme Titlebar Text/Icons.
 - **Status Bar**: Settings for the Status Bar; Adjust position, Change the order of items, etc.
-    - Status Bar Position: Change the Position of the Status Bar. When in the Top position, the Status Bar inherits theme specific customisation options from the Titlebar.
-    - Status Bar Horizontal Alignment: Change the Horizontal Alignment of the Status Bar.
-    - Status Bar Items Order: Change the Items Order in the Status Bar.
-    - **Light Theme Customisation**: 
-        - Light Theme Solid Status Bar Background: Changes the Light Theme Status Bar Background to a solid app wide bar container instead of separated containers.
-        - Light Theme Status Bar Preset: Choose between Default and Custom colors for the Light Theme Status Bar.
-        - Light Theme Status Bar Background Color: Make sure you selected 'Custom' in Light Theme Status Bar Preset for this to work.
-        - Light Theme Status Bar Text/Icons Color: Choose the color used for the Light Theme Status Bar Text/Icons.
-    - **Dark Theme Customisation**: 
-        - Dark Theme Solid Status Bar Background: Changes the Dark Theme Status Bar Background to a solid app wide bar container instead of separated containers.
-        - Dark Theme Status Bar Preset: Choose between Default and Custom colors for the Dark Theme Status Bar.
-        - Dark Theme Status Bar Background Color: Make sure you selected 'Custom' in Dark Theme Status Bar Preset for this to work.
-        - Dark Theme Status Bar Text/Icons Color: Choose the color used for the Dark Theme Status Bar Text/Icons.
+  - Status Bar Position: Change the Position of the Status Bar. When in the Top position, the Status Bar inherits theme specific customisation options from the Titlebar.
+  - Status Bar Horizontal Alignment: Change the Horizontal Alignment of the Status Bar.
+  - Status Bar Items Order: Change the Items Order in the Status Bar.
+  - **Light Theme Customisation**:
+    - Light Theme Solid Status Bar Background: Changes the Light Theme Status Bar Background to a solid app wide bar container instead of separated containers.
+    - Light Theme Status Bar Preset: Choose between Default and Custom colors for the Light Theme Status Bar.
+    - Light Theme Status Bar Background Color: Make sure you selected 'Custom' in Light Theme Status Bar Preset for this to work.
+    - Light Theme Status Bar Text/Icons Color: Choose the color used for the Light Theme Status Bar Text/Icons.
+  - **Dark Theme Customisation**:
+    - Dark Theme Solid Status Bar Background: Changes the Dark Theme Status Bar Background to a solid app wide bar container instead of separated containers.
+    - Dark Theme Status Bar Preset: Choose between Default and Custom colors for the Dark Theme Status Bar.
+    - Dark Theme Status Bar Background Color: Make sure you selected 'Custom' in Dark Theme Status Bar Preset for this to work.
+    - Dark Theme Status Bar Text/Icons Color: Choose the color used for the Dark Theme Status Bar Text/Icons.
 - **Scrollbar**: Settings for the Scrollbar; Adjust the width, Add Scroll Buttons, etc.
-    - Scrollbar Width: Change the width of the Scrollbar (px).
-    - Scroll Buttons: Adds Scroll Buttons to the ends of the Scrollbar for more accurate scroll adjustment.
-    - Scrollbar Enlarge Width on Hover: Enlarges the Scrollbar when you Hover over scrollable content.
-    - Scrollbar Width on Hover: Change the width of the Enlarged scrollbar (px).
+  - Scrollbar Width: Change the width of the Scrollbar (px).
+  - Scroll Buttons: Adds Scroll Buttons to the ends of the Scrollbar for more accurate scroll adjustment.
+  - Scrollbar Enlarge Width on Hover: Enlarges the Scrollbar when you Hover over scrollable content.
+  - Scrollbar Width on Hover: Change the width of the Enlarged scrollbar (px).
 
 **Plugins**: Plugin Specific Settings.
+
 - **Kanban**: Mgmeyers' Obsidian Kanban Plugin (https://github.com/mgmeyers/obsidian-kanban).
-    - Light Theme Kanban Background: Change the Light Theme background of the Kanban board.
-    - Dark Theme Kanban Background: Change the Dark Theme background of the Kanban board.
+  - Light Theme Kanban Background: Change the Light Theme background of the Kanban board.
+  - Dark Theme Kanban Background: Change the Dark Theme background of the Kanban board.
 - **Advanced Tables**: Tgrosinger's Advanced Tables Plugin (https://github.com/tgrosinger/advanced-tables-obsidian).
-    - Advanced Tables Buttons Container Alignment: Change the horizontal alignment of the Advanced Tables buttons container.
+  - Advanced Tables Buttons Container Alignment: Change the horizontal alignment of the Advanced Tables buttons container.
 - **Icon Folder**: Florian Woelki's Icon Folder (https://github.com/FlorianWoelki/obsidian-icon-folder).
-    - Use UI Accent Color for Icon Folder: Makes the Folder Icons inherit the UI Accent Color.
+  - Use UI Accent Color for Icon Folder: Makes the Folder Icons inherit the UI Accent Color.
 
 ## Plugin Compatibility[^1]
 
 **Core plugins**:
+
 - [[Obsidian Core Plugins#Audio recorder|Audio recorder]]
 - [[Obsidian Core Plugins#Backlinks|Backlinks]]
 - [[Obsidian Core Plugins#Command palette|Command palette]]
@@ -560,6 +560,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#Zettelkasten prefixer|Zettelkasten prefixer]]
 
 **Community plugins**:
+
 - [[obsidian-collapse-all-plugin|Collapse All]]
 - [[table-editor-obsidian|Advanced Tables]]
 - [[obsidian-kanban|Kanban]]

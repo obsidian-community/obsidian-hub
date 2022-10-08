@@ -1,8 +1,6 @@
 ---
-aliases:
-- kasahala
-tags:
-- 
+aliases: [kasahala]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-heading-shifter|Heading Shifter]]
 
 %% End Hub: Released contributions %%

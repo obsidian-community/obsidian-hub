@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- 
+aliases: []
+tags: []
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 ![Downloads](https://img.shields.io/badge/downloads-145626-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/colineckert/obsidian-things?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/colineckert/obsidian-things/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub issues by-label](https://img.shields.io/github/issues/colineckert/obsidian-things/help%20wanted?color=573E7A&logo=github&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/colineckert/obsidian-things?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -23,35 +21,35 @@ Repository: [GitHub](https://github.com/colineckert/obsidian-things)
 Designed by: [[colineckert]]
 Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 
-
-
 ![screenshot](https://github.com/colineckert/obsidian-things/raw/main/assets/main-demo.png)
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[colineckert#Sponsor this author]] %%
-
 
 ## Features
 
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
-## Customization Options (Style Settings Plugin) 
+## Customization Options (Style Settings Plugin)
 
-**Features**: 
+**Features**:
+
 - Default icons: Use default icons instead of minimal set
 - Show full file names: Turn off trimming on files in sidebar
 - Underline internal links: Show underlines on internal links
 - Underline external links: Show underlines on external links
 
-**Fonts**: 
+**Fonts**:
+
 - Text font: Used in preview mode
 - Editor font: Used in edit mode
 - Monospace font: Used for code blocks and front matter
 - UI font: Used for buttons, menus and sidebar
 
-**Typography**: 
+**Typography**:
+
 - Bold font color
 - Italics font color
 - Blockquotes font color
@@ -64,33 +62,35 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - Normal line width: Number of characters per line
 - Maximum line width: Percentage of space inside a pane that a line can fill. Recommended values between 80 to 100
 
-**Headings**: 
-- **Level 1 Headings**: 
-    - H1 font size: Accepts any CSS font-size value
-    - H1 font weight: Accepts numbers representing the CSS font-weight
-    - H1 color
-- **Level 2 Headings**: 
-    - H2 font size: Accepts any CSS font-size value
-    - H2 font weight: Accepts numbers representing the CSS font-weight
-    - H2 color
-- **Level 3 Headings**: 
-    - H3 font size: Accepts any CSS font-size value
-    - H3 font weight: Accepts numbers representing the CSS font-weight
-    - H3 color
-- **Level 4 Headings**: 
-    - H4 font size: Accepts any CSS font-size value
-    - H4 font weight: Accepts numbers representing the CSS font-weight
-    - H4 color
-- **Level 5 Headings**: 
-    - H5 font size: Accepts any CSS font-size value
-    - H5 font weight: Accepts numbers representing the CSS font-weight
-    - H5 color
-- **Level 6 Headings**: 
-    - H6 font size: Accepts any CSS font-size value
-    - H6 font weight: Accepts numbers representing the CSS font-weight
-    - H6 color
+**Headings**:
 
-**Advanced**: 
+- **Level 1 Headings**:
+  - H1 font size: Accepts any CSS font-size value
+  - H1 font weight: Accepts numbers representing the CSS font-weight
+  - H1 color
+- **Level 2 Headings**:
+  - H2 font size: Accepts any CSS font-size value
+  - H2 font weight: Accepts numbers representing the CSS font-weight
+  - H2 color
+- **Level 3 Headings**:
+  - H3 font size: Accepts any CSS font-size value
+  - H3 font weight: Accepts numbers representing the CSS font-weight
+  - H3 color
+- **Level 4 Headings**:
+  - H4 font size: Accepts any CSS font-size value
+  - H4 font weight: Accepts numbers representing the CSS font-weight
+  - H4 color
+- **Level 5 Headings**:
+  - H5 font size: Accepts any CSS font-size value
+  - H5 font weight: Accepts numbers representing the CSS font-weight
+  - H5 color
+- **Level 6 Headings**:
+  - H6 font size: Accepts any CSS font-size value
+  - H6 font weight: Accepts numbers representing the CSS font-weight
+  - H6 color
+
+**Advanced**:
+
 - MacOS-Like Translucent Window: Give workspace a MacOS-like translucency
 - Cursor style: The cursor style for UI elements
 
@@ -99,6 +99,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 ## Plugin Compatibility[^1]
 
 **Core plugins**:
+
 - [[Obsidian Core Plugins#Backlinks|Backlinks]]
 - [[Obsidian Core Plugins#Command palette|Command palette]]
 - [[Obsidian Core Plugins#File explorer|File explorer]]
@@ -118,6 +119,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - [[Obsidian Core Plugins#Word count|Word count]]
 
 **Community plugins**:
+
 - [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
 - [[obsidian-codemirror-options|CodeMirror Options]]
 - [[obsidian-kanban|Kanban]]

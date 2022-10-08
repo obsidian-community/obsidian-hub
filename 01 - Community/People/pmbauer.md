@@ -1,8 +1,6 @@
 ---
-aliases:
-- Paul Bauer
-tags:
-- 
+aliases: [Paul Bauer]
+tags: []
 publish: true
 ---
 
@@ -26,6 +24,7 @@ publish: true
 -->
 
 ### Others
+
 - [av-obsidian](https://github.com/pmbauer/av-obsidian): A converter for the King James Bible, formatted for use in Obsidian.
 
 ## Sponsor this author

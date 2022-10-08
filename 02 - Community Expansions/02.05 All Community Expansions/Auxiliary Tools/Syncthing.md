@@ -1,8 +1,6 @@
 ---
-aliases:
-  -
-tags:
-  - seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -16,7 +14,9 @@ Available for: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|L
 A peer-to-peer file synchronisation application, which can be used to keep your Obsidian vault synchronised across multiple devices almost instantaneously.
 
 ## Configuration for Obsidian
+
 You'll probably want the following files to be excluded from synchronisation in your `.stignore`. If you're not using the [[metadata-extractor|Metadata Extractor]] plugin, you'll only need to exclude `workspace`.
+
 ```
 // most important one. this keeps track of your open panes and files in the app
 .obsidian/workspace
@@ -25,9 +25,10 @@ You'll probably want the following files to be excluded from synchronisation in 
 .obsidian/plugins/metadata-extractor/metadata.json
 .obsidian/plugins/metadata-extractor/tags.json
 ```
-You *can* exclude your entire `.obsidian` directory instead for simplicity, but in that case your plugins and configuration will not be synchronised at all.
 
-Note that Syncthing does *not* synchronise the `.stignore` itself, so you will need to set up your ignore patterns on each device separately. If you save a copy of your `.stignore` elsewhere in your Obsidian vault, it can simply be copied to set up a new device smoothly.
+You _can_ exclude your entire `.obsidian` directory instead for simplicity, but in that case your plugins and configuration will not be synchronised at all.
+
+Note that Syncthing does _not_ synchronise the `.stignore` itself, so you will need to set up your ignore patterns on each device separately. If you save a copy of your `.stignore` elsewhere in your Obsidian vault, it can simply be copied to set up a new device smoothly.
 
 %% Hub footer: Please don't edit anything below this line %%
 

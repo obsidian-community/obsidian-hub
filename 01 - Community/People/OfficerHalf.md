@@ -1,8 +1,6 @@
 ---
-aliases:
-- OfficerHalf
-tags:
-- 
+aliases: [OfficerHalf]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-collapse-all-plugin|Collapse All]]
 - [[obsidian-trello|Obsidian Trello]]
 - [[auto-class|Auto Class]]

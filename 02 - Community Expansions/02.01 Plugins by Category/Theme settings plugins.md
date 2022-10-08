@@ -1,15 +1,12 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
-
 # Theme settings plugins
 
-Plugins developed to adjust the settings of [[🗂️ Themes|Obsidian Themes]].  You might also want to check [[Themes with Friendly Settings]] to see which plugins support them!
+Plugins developed to adjust the settings of [[🗂️ Themes|Obsidian Themes]]. You might also want to check [[Themes with Friendly Settings]] to see which plugins support them!
 
 ## Plugins in this category
 

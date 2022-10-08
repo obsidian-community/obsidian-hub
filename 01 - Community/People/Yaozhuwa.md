@@ -1,8 +1,6 @@
 ---
-aliases:
-- yaozhuwa
-tags:
-- 
+aliases: [yaozhuwa]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[easy-typing-obsidian|Easy Typing]]
 
 %% End Hub: Released contributions %%

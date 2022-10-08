@@ -1,12 +1,9 @@
 ---
-aliases:
-- 
-tags:
-- 
+aliases: []
+tags: []
 ---
 
 # Testing Python Code with Approval Tests
-
 
 About the Python tests in [.github/scripts](https://github.com/obsidian-community/obsidian-hub/tree/main/.github/scripts)
 
@@ -49,8 +46,8 @@ The simplest use of Approval Tests is to call a `verify()` method, that:
 4. if the received differs from the approved, or if the approved does not exist yet,
    then the framework searches for a diff-tool on your machine,
    and uses it to show you the differences - with:
-     - received on the left
-     - approved on the right
+   - received on the left
+   - approved on the right
 
 ## Dealing with test failures
 
@@ -94,10 +91,10 @@ But note that this links to the latest file, and we may be using a pinned versio
 ## Reference material
 
 1. Clare's talks on Approval Tests:
-      - https://claremacrae.co.uk/conferences/presentations_by_topic.html#testing-legacy-c-code-with-approval-tests
-      - The start of the 2019-02-05 video is probably the best introduction.
+   - https://claremacrae.co.uk/conferences/presentations_by_topic.html#testing-legacy-c-code-with-approval-tests
+   - The start of the 2019-02-05 video is probably the best introduction.
 2. Python ApprovalTests library:
-      - https://github.com/approvals/ApprovalTests.Python
+   - https://github.com/approvals/ApprovalTests.Python
 
 %% Hub footer: Please don't edit anything below this line %%
 

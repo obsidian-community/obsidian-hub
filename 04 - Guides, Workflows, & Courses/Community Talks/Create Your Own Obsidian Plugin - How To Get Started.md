@@ -1,12 +1,10 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
-# Create Your Own Obsidian Plugin 
+# Create Your Own Obsidian Plugin
 
 By [Antone Heyward](https://www.youtube.com/channel/UC9w43btR2UUsfR6ZUf3AlqQ)
 

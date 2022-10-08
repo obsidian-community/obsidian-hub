@@ -1,20 +1,19 @@
 ---
-aliases:
-- Plugin-specific templates
-tags: 
-- MOC
+aliases: [Plugin-specific templates]
+tags: [MOC]
 ---
 
 # Plugin-specific templates
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
--  [[03 - Showcases & Templates/Templates/Plugin-specific templates/Dataview templates/🗂️ Dataview templates|🗂️ Dataview templates]]
--  [[03 - Showcases & Templates/Templates/Plugin-specific templates/Templater templates/🗂️ Templater templates|🗂️ Templater templates]]
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit below %%
+
+- [[03 - Showcases & Templates/Templates/Plugin-specific templates/Dataview templates/🗂️ Dataview templates|🗂️ Dataview templates]]
+- [[03 - Showcases & Templates/Templates/Plugin-specific templates/Templater templates/🗂️ Templater templates|🗂️ Templater templates]]
+  %% Hub MOCs: Don’t edit above %%
 
 ## Contributing
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags:
-- 
+aliases: []
+tags: []
 ---
 
 # Discussion Needed
@@ -20,8 +18,8 @@ Next time
 - [[GitHub Actions for the Hub]]
 - [[Content Lifecycle of Extensions]]
 - Categories on issues
-    - When to use Good First Issue?
-    - Whether to mark "New Features" in Scripting?
+  - When to use Good First Issue?
+  - Whether to mark "New Features" in Scripting?
 - Prioritise the [Hub Tools & Scripts](https://github.com/obsidian-community/obsidian-hub/projects/1) project backlog
 
 %% Hub footer: Please don't edit anything below this line %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- James Fallon
-tags:
-- 
+aliases: [James Fallon]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-lineup-builder|Lineup Builder]]
 
 %% End Hub: Released contributions %%

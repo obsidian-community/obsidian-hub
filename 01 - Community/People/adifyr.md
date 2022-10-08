@@ -1,25 +1,24 @@
 ---
-aliases:
-- Aditya Majethia
-tags:
-- 
+aliases: [Aditya Majethia]
+tags: []
 publish: true
 ---
 
 # Aditya Majethia
 
 - GitHub: [adifyr](https://github.com/adifyr/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-chat-view|Chat View]]
 
 %% End Hub: Released contributions %%

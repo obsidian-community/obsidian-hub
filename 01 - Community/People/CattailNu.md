@@ -1,8 +1,6 @@
 ---
-aliases:
-- T. L. Ford
-tags:
-- 
+aliases: [T. L. Ford]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-file-info-plugin|File Info Panel]]
 
 %% End Hub: Released contributions %%

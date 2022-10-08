@@ -1,8 +1,6 @@
 ---
-aliases:
-- Sami Korpela
-tags:
-- 
+aliases: [Sami Korpela]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[ghost-fade-focus|Ghost Fade Focus]]
 
 %% End Hub: Released contributions %%

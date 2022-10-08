@@ -1,8 +1,6 @@
 ---
-aliases:
-- Signynt
-tags:
-- 
+aliases: [Signynt]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[link-headers-directly|Link Headers Directly]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- d-sauer
-tags:
-- 
+aliases: [d-sauer]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-min3ditorhotkeys-plugin|Min3ditorHotkeys]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- farling42
-tags:
-- 
+aliases: [farling42]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-import-json|JSON Importer]]
 - [[import-foundry|Import Foundry VTT journal entries]]
 

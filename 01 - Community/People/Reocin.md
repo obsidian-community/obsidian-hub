@@ -1,8 +1,6 @@
 ---
-aliases:
-- Reocin
-tags:
-- 
+aliases: [Reocin]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-markdown-formatting-assistant-plugin|Markdown Formatting Assistant]]
 
 %% End Hub: Released contributions %%

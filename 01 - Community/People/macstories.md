@@ -1,8 +1,6 @@
 ---
-aliases:
-- MacStories
-tags:
-- 
+aliases: [MacStories]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-shortcut-launcher|Shortcut Launcher]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- kometenstaub
-tags:
-- 
+aliases: [kometenstaub]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[metadata-extractor|Metadata Extractor]]
 - [[copy-publish-url|Publish and GitHub URL]]
 - [[customizable-page-header-buttons|Customizable Page Header]]

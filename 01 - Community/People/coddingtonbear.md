@@ -1,8 +1,6 @@
 ---
-aliases:
-- Adam Coddington
-tags:
-- 
+aliases: [Adam Coddington]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-csv-table|CSV Table]]
 - [[obsidian-itinerary|Itinerary]]
 - [[obsidian-local-rest-api|Local REST API]]

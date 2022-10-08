@@ -1,8 +1,6 @@
 ---
-aliases:
-- Tim Hiller
-tags:
-- 
+aliases: [Tim Hiller]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-meeting-notes|Meeting notes]]
 
 %% End Hub: Released contributions %%

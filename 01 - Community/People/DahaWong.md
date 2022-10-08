@@ -1,25 +1,24 @@
 ---
-aliases:
-- Daha
-tags:
-- 
+aliases: [Daha]
+tags: []
 publish: true
 ---
 
 # Daha
 
 - GitHub: [DahaWong](https://github.com/DahaWong/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[footlinks|Footlinks]]
 - [[completed-area|Completed Area]]
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Tim Hor
-tags:
-- 
+aliases: [Tim Hor]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-editor-shortcuts|Code Editor Shortcuts]]
 - [[obsidian-sentence-navigator|Sentence Navigator]]
 

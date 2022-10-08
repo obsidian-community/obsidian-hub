@@ -1,8 +1,6 @@
 ---
-aliases:
-- Bob Doto
-tags:
-- seedling
+aliases: [Bob Doto]
+tags: [seedling]
 publish: true
 ---
 
@@ -10,6 +8,7 @@ publish: true
 
 <!-- - GitHub: [TheHighPony](https://github.com/TheHighPony/) ^github-->
 <!-- - Discord: `@` ^discord-->
+
 - Website: <https://bobdoto.computer/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish -->
 

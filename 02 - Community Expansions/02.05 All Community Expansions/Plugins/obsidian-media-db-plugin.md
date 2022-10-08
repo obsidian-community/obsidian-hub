@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-media-db-plugin
-aliases:
-- Media DB Plugin
-tags: 
-- 
+aliases: [Media DB Plugin]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/mProjectsCode/obsidian-media-db-plugin/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mProjectsCode/obsidian-media-db-plugin?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/mProjectsCode/obsidian-media-db-plugin/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/mProjectsCode/obsidian-media-db-plugin/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/mProjectsCode/obsidian-media-db-plugin?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/mProjectsCode/obsidian-media-db-plugin/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/mProjectsCode/obsidian-media-db-plugin?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -25,9 +23,9 @@ Links: [GitHub repository](https://github.com/mProjectsCode/obsidian-media-db-pl
 Developed by: [[mProjectsCode]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.  
+A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[mProjectsCode#Sponsor this author]] %%

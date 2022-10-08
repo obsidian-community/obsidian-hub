@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ivaylo Dabravin <ivaylo.dabravin@gmail.com>
-tags:
-- 
+aliases: [Ivaylo Dabravin <ivaylo.dabravin@gmail.com>]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-dynamic-embed|Dynamic Embed]]
 
 %% End Hub: Released contributions %%

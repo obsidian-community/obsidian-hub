@@ -1,8 +1,6 @@
 ---
-aliases:
-- marc0l92
-tags:
-- 
+aliases: [marc0l92]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-jira-issue|JiraIssue]]
 
 %% End Hub: Released contributions %%

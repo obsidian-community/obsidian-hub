@@ -1,8 +1,6 @@
 ---
-aliases:
-- OwnJoke
-tags:
-- 
+aliases: [OwnJoke]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-budget-wysiwyg|Budget WYSIWYG]]
 
 %% End Hub: Released contributions %%

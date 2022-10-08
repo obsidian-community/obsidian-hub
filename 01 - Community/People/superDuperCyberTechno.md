@@ -1,25 +1,24 @@
 ---
-aliases:
-- superDuperCyberTechno
-tags:
-- 
+aliases: [superDuperCyberTechno]
+tags: []
 publish: true
 ---
 
 # superDuperCyberTechno
 
 - GitHub: [superDuperCyberTechno](https://github.com/superDuperCyberTechno/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-code-copy|Code Copy]]
 
 %% End Hub: Released contributions %%

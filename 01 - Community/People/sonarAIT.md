@@ -1,8 +1,6 @@
 ---
-aliases:
-- sonarAIT
-tags:
-- 
+aliases: [sonarAIT]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[japanese-word-splitter|Word Splitting for Japanese in Edit Mode]]
 
 %% End Hub: Released contributions %%

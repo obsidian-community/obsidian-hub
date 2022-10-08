@@ -1,8 +1,6 @@
 ---
-aliases:
-- Dmitry Savosh
-tags:
-- 
+aliases: [Dmitry Savosh]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[code-block-from-selection|Code block from selection]]
 - [[remember-cursor-position|Remember cursor position]]
 - [[consistent-attachments-and-links|Consistent attachments and links]]
@@ -34,11 +33,9 @@ publish: true
 ### Unlisted plugins
 -->
 
-
 ### Others
 
 - Playlist for [[Obsidian Training Course in Russian]]: https://youtube.com/playlist?list=PLrRc3UisLr6KVOYhzpSnywtHkCi2PEza5
-
 
 <!--
 ## Sponsor this author
@@ -55,7 +52,7 @@ publish: true
 <!--
 - Twitter: ^twitter
 - ...
--->
+  -->
 
 %% Hub footer: Please don't edit anything below this line %%
 

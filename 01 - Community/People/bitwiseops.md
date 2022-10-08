@@ -1,8 +1,6 @@
 ---
-aliases:
-- Flavio Cordari
-tags:
-- 
+aliases: [Flavio Cordari]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-kobo-highlights-importer-plugin|Kobo Highlights Importer]]
 
 %% End Hub: Released contributions %%

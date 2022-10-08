@@ -1,25 +1,24 @@
 ---
-aliases:
-- Jakub Kuchejda
-tags:
-- 
+aliases: [Jakub Kuchejda]
+tags: []
 publish: true
 ---
 
 # Jakub Kuchejda
 
 - GitHub: [kuchejak](https://github.com/kuchejak/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-bible-linker|Bible Linker]]
 
 %% End Hub: Released contributions %%

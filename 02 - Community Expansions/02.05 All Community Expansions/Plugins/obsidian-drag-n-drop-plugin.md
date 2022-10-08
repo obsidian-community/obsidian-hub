@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-drag-n-drop-plugin
-aliases:
-- Drag-n-Drop for blocks
-tags: 
-- 
+aliases: [Drag-n-Drop for blocks]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/artem-barmin/obsidian-block-drag-n-drop/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/artem-barmin/obsidian-block-drag-n-drop?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/artem-barmin/obsidian-block-drag-n-drop/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/artem-barmin/obsidian-block-drag-n-drop/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/artem-barmin/obsidian-block-drag-n-drop?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/artem-barmin/obsidian-block-drag-n-drop/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/artem-barmin/obsidian-block-drag-n-drop?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Desktop-only plugins|No]]
 
 Allow moving/copying/and creation embeds for blocks with drag-n-drop just like Logseq or Roam
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[artem-barmin#Sponsor this author]] %%

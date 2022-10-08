@@ -1,8 +1,6 @@
 ---
-aliases:
-- Kevin Patel
-tags:
-- 
+aliases: [Kevin Patel]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-day-and-night|Day and Night]]
 
 %% End Hub: Released contributions %%

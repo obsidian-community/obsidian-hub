@@ -1,8 +1,6 @@
 ---
-aliases:
-- Chetachi E.
-tags:
-- 
+aliases: [Chetachi E.]
+tags: []
 publish: true
 ---
 
@@ -15,19 +13,21 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[cmenu-plugin|cMenu]]
 - [[mysnippets-plugin|MySnippets]]
 - [[highlightr-plugin|Highlightr]]
 - [[get-info-plugin|Get Info]]
 
 ### Themes
+
 - [[Yin and Yang]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 

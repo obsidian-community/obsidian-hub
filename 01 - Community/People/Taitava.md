@@ -1,25 +1,24 @@
 ---
-aliases:
-- Jarkko Linnanvirta
-tags:
-- 
+aliases: [Jarkko Linnanvirta]
+tags: []
 publish: true
 ---
 
 # Jarkko Linnanvirta
 
 - GitHub: [Taitava](https://github.com/Taitava/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-shellcommands|Shell commands]]
 
 %% End Hub: Released contributions %%

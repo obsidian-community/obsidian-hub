@@ -1,8 +1,6 @@
 ---
-aliases:
-- Marcus Olsson
-tags:
-- 
+aliases: [Marcus Olsson]
+tags: []
 publish: true
 ---
 
@@ -15,17 +13,19 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-vale|Vale]]
 - [[obsidian-pipe-tricks|Pipe tricks]]
 
 ### Themes
+
 - [[Creature]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 
@@ -35,7 +35,7 @@ publish: true
 
 ### Others
 
-- [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs/) 
+- [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs/)
 
 <!--
 ## Sponsor this author

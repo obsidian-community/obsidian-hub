@@ -1,8 +1,6 @@
 ---
-aliases:
-- Ozan Tellioglu
-tags:
-- 
+aliases: [Ozan Tellioglu]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[oz-image-plugin|Ozan's Image in Editor Plugin]]
 - [[oz-clear-unused-images|Clear Unused Images]]
 - [[file-tree-alternative|File Tree Alternative Plugin]]

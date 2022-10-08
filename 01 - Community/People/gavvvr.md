@@ -1,8 +1,6 @@
 ---
-aliases:
-- Kirill Gavrilov
-tags:
-- 
+aliases: [Kirill Gavrilov]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-imgur-plugin|Imgur Plugin]]
 
 %% End Hub: Released contributions %%

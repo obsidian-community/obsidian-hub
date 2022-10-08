@@ -1,8 +1,6 @@
 ---
-aliases:
-- Michael Hanson
-tags:
-- 
+aliases: [Michael Hanson]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-hide-sidebars-when-narrow|Hide Sidebars When Narrow]]
 
 %% End Hub: Released contributions %%

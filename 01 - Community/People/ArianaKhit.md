@@ -1,25 +1,24 @@
 ---
-aliases:
-- Ariana Khitrova
-tags:
-- 
+aliases: [Ariana Khitrova]
+tags: []
 publish: true
 ---
 
 # Ariana Khitrova
 
 - GitHub: [ArianaKhit](https://github.com/ArianaKhit/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[text-snippets-obsidian|Text Snippets]]
 
 %% End Hub: Released contributions %%

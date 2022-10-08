@@ -1,8 +1,6 @@
 ---
-aliases:
-- MrJackphil
-tags:
-- 
+aliases: [MrJackphil]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[mrj-text-expand|Text expand]]
 - [[mrj-jump-to-link|Jump to link]]
 - [[mrj-crosslink-between-notes|Add links to current note]]

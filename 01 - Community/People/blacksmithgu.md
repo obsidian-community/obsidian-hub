@@ -1,8 +1,6 @@
 ---
-aliases:
-- Michael Brenan <blacksmithgu@gmail.com>
-tags:
-- 
+aliases: [Michael Brenan <blacksmithgu@gmail.com>]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[dataview|Dataview]]
 
 %% End Hub: Released contributions %%

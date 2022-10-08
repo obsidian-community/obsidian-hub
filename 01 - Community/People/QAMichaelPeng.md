@@ -1,8 +1,6 @@
 ---
-aliases:
-- Feng Peng
-tags:
-- 
+aliases: [Feng Peng]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-graphviz|Obsidian Graphviz]]
 
 %% End Hub: Released contributions %%

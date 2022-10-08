@@ -1,8 +1,6 @@
 ---
-aliases:
-- Oliver Akins
-tags:
-- 
+aliases: [Oliver Akins]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[OA-file-hider|File Hider]]
 
 %% End Hub: Released contributions %%

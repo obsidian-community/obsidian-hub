@@ -1,8 +1,6 @@
 ---
-aliases:
-- Obsidian
-tags:
-- 
+aliases: [Obsidian]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]
 - [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]
 

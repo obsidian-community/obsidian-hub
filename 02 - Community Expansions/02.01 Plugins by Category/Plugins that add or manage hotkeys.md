@@ -1,14 +1,10 @@
 ---
-aliases:
-- Plugins that add or manage shortcuts
-tags: 
-- seedling 
+aliases: [Plugins that add or manage shortcuts]
+tags: [seedling]
 publish: true
 ---
 
-
 # Plugins that add or manage hotkeys
-
 
 ## Plugins in this category
 

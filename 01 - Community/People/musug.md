@@ -1,8 +1,6 @@
 ---
-aliases:
-- musug
-tags:
-- 
+aliases: [musug]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-paste-png-to-jpeg|Paste image Png to Jpeg]]
 
 %% End Hub: Released contributions %%

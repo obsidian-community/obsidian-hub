@@ -1,16 +1,12 @@
 ---
-aliases:
-- 
-tags:
-- MOC
+aliases: []
+tags: [MOC]
 publish: true
 ---
 
 # PayPal
 
 The backlinks of this note contain [[🗂️ People]] that have sponsoring through PayPal
-
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

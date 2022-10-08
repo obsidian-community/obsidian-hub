@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -47,7 +45,7 @@ These are the plugins reviewed.
 - Uses Jest snapshot testing to capture complex output
 
 > I have to say, it is really a good feeling that I can just run the tests and see that I get the same output instead of needing to run the commands inside Obsidian.
-> 
+>
 > @koala/@kometenstaub
 
 ### Tasks

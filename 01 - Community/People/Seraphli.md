@@ -1,8 +1,6 @@
 ---
-aliases:
-- SErAphLi
-tags:
-- 
+aliases: [SErAphLi]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-link-embed|Link Embed]]
 
 %% End Hub: Released contributions %%

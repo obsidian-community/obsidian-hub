@@ -1,8 +1,6 @@
 ---
-aliases:
-- Grzegorz Dominiczak (https://github.com/dominiczaq)
-tags:
-- 
+aliases: [Grzegorz Dominiczak (https://github.com/dominiczaq)]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-plugin-time-diff|TimeDiff plugin]]
 
 %% End Hub: Released contributions %%

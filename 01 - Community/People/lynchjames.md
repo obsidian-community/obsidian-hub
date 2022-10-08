@@ -1,25 +1,24 @@
 ---
-aliases:
-- James Lynch
-tags:
-- 
+aliases: [James Lynch]
+tags: []
 publish: true
 ---
 
 # James Lynch
 
 - GitHub: [lynchjames](https://github.com/lynchjames/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[note-refactor-obsidian|Note Refactor]]
 - [[obsidian-day-planner|Day Planner]]
 - [[obsidian-mind-map|Mind Map]]

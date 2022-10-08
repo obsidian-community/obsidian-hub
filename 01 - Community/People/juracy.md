@@ -1,8 +1,6 @@
 ---
-aliases:
-- Juracy Filho
-tags:
-- 
+aliases: [Juracy Filho]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]
 
 %% End Hub: Released contributions %%

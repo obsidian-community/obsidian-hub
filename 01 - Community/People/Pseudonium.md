@@ -1,8 +1,6 @@
 ---
-aliases:
-- Pseudonium
-tags:
-- 
+aliases: [Pseudonium]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-to-anki-plugin|Obsidian_to_Anki]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- evergreen
+aliases: []
+tags: [evergreen]
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 
-Tools that perform Optical Character Recognition (OCR) on images or PDF files. 
+Tools that perform Optical Character Recognition (OCR) on images or PDF files.
 
 - [[Tesseract]]
 

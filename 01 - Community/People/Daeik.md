@@ -1,25 +1,24 @@
 ---
-aliases:
-- Daeik Kim
-tags:
-- 
+aliases: [Daeik Kim]
+tags: []
 publish: true
 ---
 
 # Daeik Kim
 
 - GitHub: [Daeik](https://github.com/Daeik/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-nomnoml-diagram|Nomnoml Diagram]]
 
 %% End Hub: Released contributions %%

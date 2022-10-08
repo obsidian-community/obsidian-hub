@@ -1,8 +1,6 @@
 ---
-aliases:
-- meld-cp
-tags:
-- 
+aliases: [meld-cp]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[meld-encrypt|Meld Encrypt]]
 - [[meld-calc|Meld Calc]]
 

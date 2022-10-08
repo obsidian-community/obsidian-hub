@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-extract-pdf-annotations
-aliases:
-- Extract PDF Annotations
-tags: 
-- 
+aliases: [Extract PDF Annotations]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/munach/obsidian-extract-pdf-annotations/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/munach/obsidian-extract-pdf-annotations?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/munach/obsidian-extract-pdf-annotations/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/munach/obsidian-extract-pdf-annotations/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/munach/obsidian-extract-pdf-annotations?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/munach/obsidian-extract-pdf-annotations/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/munach/obsidian-extract-pdf-annotations?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -27,7 +25,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Extract PDF Annotations (Notes and Highlights) and sort them by topics
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[munach#Sponsor this author]] %%

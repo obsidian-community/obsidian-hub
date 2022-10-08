@@ -1,9 +1,6 @@
 ---
-aliases:
-- Luke
-- apfelstrudelig
-tags:
-- 
+aliases: [Luke, apfelstrudelig]
+tags: []
 publish: true
 ---
 
@@ -11,8 +8,8 @@ publish: true
 
 - GitHub: [lguenth](https://github.com/lguenth/) ^github
 - Discord: `@apfelstrudelig#1337` ^discord
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
 Luke is a maintainer of the Hub. Feel free to ask him questions regarding Obsidian or anything else that's on your mind whenever you see him around on the [[🗂️ 01 - Community|Discord server]].
@@ -26,14 +23,16 @@ Luke is a maintainer of the Hub. Feel free to ask him questions regarding Obsidi
 -->
 
 ### Others
+
 - [mdbible](https://github.com/lguenth/mdbible): A JSON-to-Markdown converter for [Javascripture's](https://javascripture.org/) ESV Bible.
 
 ## Sponsor this author
 
 <!-- - [[GitHub sponsors]]: []() ^github-sponsor-->
+
 - [[Buy me a coffee]]: <https://ko-fi.com/lguenth> ^buy-me-a-coffee
-<!-- - [[PayPal]]: <https://> ^paypal-->
-<!-- - [[Patreon]]: <https://> ^patreon-->
+  <!-- - [[PayPal]]: <https://> ^paypal-->
+  <!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author

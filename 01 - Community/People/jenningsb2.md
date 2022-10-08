@@ -1,8 +1,6 @@
 ---
-aliases:
-- Bailey Jennings
-tags:
-- 
+aliases: [Bailey Jennings]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[copy-as-html|Copy as HTML]]
 
 %% End Hub: Released contributions %%

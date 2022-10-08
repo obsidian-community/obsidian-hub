@@ -1,8 +1,6 @@
 ---
-aliases:
-- Jon Gauthier
-tags:
-- 
+aliases: [Jon Gauthier]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-citation-plugin|Citations]]
 
 %% End Hub: Released contributions %%

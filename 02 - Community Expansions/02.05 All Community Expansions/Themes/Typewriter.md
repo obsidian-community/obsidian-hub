@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- 
+aliases: []
+tags: []
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 ![Downloads](https://img.shields.io/badge/downloads-30656-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/crashmoney/obsidian-typewriter?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/crashmoney/obsidian-typewriter/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub issues by-label](https://img.shields.io/github/issues/crashmoney/obsidian-typewriter/help%20wanted?color=573E7A&logo=github&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/crashmoney/obsidian-typewriter?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -23,22 +21,19 @@ Repository: [GitHub](https://github.com/crashmoney/obsidian-typewriter)
 Designed by: [[crashmoney]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
-
-
 ![screenshot](https://github.com/crashmoney/obsidian-typewriter/raw/main/cover.jpg)
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[crashmoney#Sponsor this author]] %%
 
-
 ## Features
-
 
 ## Plugin Compatibility[^1]
 
 **Core plugins**:
+
 - [[Obsidian Core Plugins#Audio recorder|Audio recorder]]
 - [[Obsidian Core Plugins#Backlinks|Backlinks]]
 - [[Obsidian Core Plugins#Command palette|Command palette]]
@@ -61,6 +56,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#Zettelkasten prefixer|Zettelkasten prefixer]]
 
 **Community plugins**:
+
 - [[calendar|Calendar]]
 - [[obsidian-kanban|Kanban]]
 - [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]

@@ -1,15 +1,12 @@
 ---
-aliases:
-- 
-tags:
-- MOC
+aliases: []
+tags: [MOC]
 publish: true
 ---
 
 # Desktop-only plugins
 
-#placeholder/description 
-
+#placeholder/description
 
 %% Hub footer: Please don't edit anything below this line %%
 

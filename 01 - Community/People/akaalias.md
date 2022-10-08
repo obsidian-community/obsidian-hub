@@ -1,8 +1,6 @@
 ---
-aliases:
-- Alexis Rondeau
-tags:
-- 
+aliases: [Alexis Rondeau]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[extract-highlights-plugin|Extract Highlights]]
 - [[dangerzone-writing-plugin|Dangerzone Writing]]
 - [[pdf-to-markdown-plugin|PDF to Markdown]]

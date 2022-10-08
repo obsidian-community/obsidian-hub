@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- 
+aliases: []
+tags: []
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 ![Downloads](https://img.shields.io/badge/downloads-1685-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/danyim/obsidian-zenburn?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/danyim/obsidian-zenburn/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub issues by-label](https://img.shields.io/github/issues/danyim/obsidian-zenburn/help%20wanted?color=573E7A&logo=github&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/danyim/obsidian-zenburn?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -23,19 +21,14 @@ Repository: [GitHub](https://github.com/danyim/obsidian-zenburn)
 Designed by: [[danyim]]
 Modes: [[Dark-mode themes|dark]]
 
-
-
 ![screenshot](https://github.com/danyim/obsidian-zenburn/raw/main/screen.png)
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[danyim#Sponsor this author]] %%
 
-
 ## Features
-
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

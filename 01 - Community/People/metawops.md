@@ -1,8 +1,6 @@
 ---
-aliases:
-- Stefan Wolfrum
-tags:
-- 
+aliases: [Stefan Wolfrum]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-table-to-csv-exporter|Table to CSV Exporter]]
 
 %% End Hub: Released contributions %%

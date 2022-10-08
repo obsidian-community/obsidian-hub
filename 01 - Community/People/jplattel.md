@@ -1,8 +1,6 @@
 ---
-aliases:
-- Joost Plattel
-tags:
-- 
+aliases: [Joost Plattel]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-query-language|Obsidian Query Language]]
 - [[open-note-to-window-title|Custom window title]]
 

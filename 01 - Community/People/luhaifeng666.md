@@ -1,8 +1,6 @@
 ---
-aliases:
-- Haifeng Lu
-tags:
-- 
+aliases: [Haifeng Lu]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-translator|Translator]]
 
 %% End Hub: Released contributions %%

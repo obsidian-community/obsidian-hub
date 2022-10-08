@@ -1,8 +1,6 @@
 ---
-aliases:
-- dobrovolsky
-tags:
-- 
+aliases: [dobrovolsky]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-structured-plugin|Structured Plugin]]
 
 %% End Hub: Released contributions %%

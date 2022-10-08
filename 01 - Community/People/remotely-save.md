@@ -1,8 +1,6 @@
 ---
-aliases:
-- fyears
-tags:
-- 
+aliases: [fyears]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[remotely-save|Remotely Save]]
 
 %% End Hub: Released contributions %%

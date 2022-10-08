@@ -1,8 +1,6 @@
 ---
-aliases:
-- sissilab
-tags:
-- 
+aliases: [sissilab]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-image-toolkit|Image Toolkit]]
 
 %% End Hub: Released contributions %%

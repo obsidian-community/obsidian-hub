@@ -1,8 +1,6 @@
 ---
-aliases:
-- hhhapz
-tags:
-- 
+aliases: [hhhapz]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[improved-vimcursor|Improved VimCursor]]
 
 %% End Hub: Released contributions %%

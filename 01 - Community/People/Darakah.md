@@ -1,8 +1,6 @@
 ---
-aliases:
-- darakah
-tags:
-- 
+aliases: [darakah]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-paper-cut|PaperCut]]
 - [[obsidian-comments|Comments]]
 - [[obsidian-timelines|Timelines]]

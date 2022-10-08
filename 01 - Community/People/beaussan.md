@@ -1,8 +1,6 @@
 ---
-aliases:
-- @beaussan
-tags:
-- 
+aliases: ["@beaussan"]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[update-time-on-edit|Update time on edit]]
 
 %% End Hub: Released contributions %%

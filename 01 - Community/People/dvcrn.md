@@ -1,8 +1,6 @@
 ---
-aliases:
-- dvcrn
-tags:
-- 
+aliases: [dvcrn]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-filename-heading-sync|Filename Heading Sync]]
 
 %% End Hub: Released contributions %%

@@ -1,8 +1,6 @@
 ---
-aliases:
-- Tokuhiro Matsuno
-tags:
-- 
+aliases: [Tokuhiro Matsuno]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-2hop-links-plugin|2Hop Links Plugin]]
 - [[obsidian-stopwatch-plugin|Stopwatch Plugin]]
 - [[obsidian-pomodoro-plugin|Pomodoro Plugin]]

@@ -1,8 +1,6 @@
 ---
-aliases:
-- egradman
-tags:
-- 
+aliases: [egradman]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[scales-chords|Scales and Chords]]
 
 %% End Hub: Released contributions %%

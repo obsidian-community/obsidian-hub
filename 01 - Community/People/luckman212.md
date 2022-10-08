@@ -1,8 +1,6 @@
 ---
-aliases:
-- luckman212
-tags:
-- 
+aliases: [luckman212]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-reset-font-size|Reset Font Size]]
 
 %% End Hub: Released contributions %%

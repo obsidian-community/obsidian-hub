@@ -1,17 +1,16 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
 # Controlling Obsidian via a Third-Party App
+
 Overview where/how you can find various obsidian-related data in a form accessible to third-party apps.
 
 - `URI` refers to the [Obsidian URI Scheme](https://help.obsidian.md/Advanced+topics/Using+obsidian+URI#Using+Obsidian+URIs) for controlling Obsidian.
-- `Adv. URI` refers to the [[obsidian-advanced-uri\|Advanced URI Plugin]] for controlling Obsidian. You can easily get the respective URI Schemes by selecting the command `Advanced URI Plugin: Copy Command URI`, select `Don't specify a file`, and then the command whose URI you would like to have. 
-	- ⚠️ If you are developing something to share with others, remember to remove the vault-argument (`vault=vaultName`) from the URI or dynamically insert the proper vault name there — otherwise the URI schemes won't work
+- `Adv. URI` refers to the [[obsidian-advanced-uri\|Advanced URI Plugin]] for controlling Obsidian. You can easily get the respective URI Schemes by selecting the command `Advanced URI Plugin: Copy Command URI`, select `Don't specify a file`, and then the command whose URI you would like to have.
+  - ⚠️ If you are developing something to share with others, remember to remove the vault-argument (`vault=vaultName`) from the URI or dynamically insert the proper vault name there — otherwise the URI schemes won't work
 - `Hotkey Helper URI` refers to the [[hotkey-helper\|URI Scheme introduced by the Hotkey Helper Plugin]].
 - URI Schemes are generally practical, since they also work on any platform, including mobile.
 - [URLs must be properly encoded](https://www.w3schools.com/tags/ref_urlencode.ASP). The `Advanced URI Plugin: Copy Command URI` already applies proper URL encoding.

@@ -1,23 +1,19 @@
 ---
-aliases:
-- 
-tags:
-- 
+aliases: []
+tags: []
 ---
 
 # Content: People
 
 ## Ideas to reduce the overhead of these pages
 
-*There is some overlap between these ideas...*
-
-
+_There is some overlap between these ideas..._
 
 ### Change author template to simplify manual intervention, when running `update-releases.py`
 
 **Status: DONE**
 
-**Note:** *This is being tracked in [Make automated edits of Author/People pages less error-prone · Issue #348](https://github.com/obsidian-community/obsidian-hub/issues/348)*
+**Note:** _This is being tracked in [Make automated edits of Author/People pages less error-prone · Issue #348](https://github.com/obsidian-community/obsidian-hub/issues/348)_
 
 The reasoning behind [[Content Comments]] is to greatly reduce the number of lines that need to be reverted when the author pages are updated, from minimal edits to to the authors template(s).
 
@@ -43,7 +39,7 @@ To this:
 <!--
 ### Unlisted plugins
 
-- 
+-
 -->
 ```
 
@@ -61,7 +57,7 @@ To this:
 <!--
 ### Others
 
-- 
+-
 -->
 ```
 
@@ -148,6 +144,7 @@ In `chrisgrieser.plugins`:
 
 ```markdown
 ### Plugins
+
 - [[obsidian-extra-md-commands|Extra Markdown Commands]]
 ```
 
@@ -155,6 +152,7 @@ In `chrisgrieser.themes`:
 
 ```markdown
 ### Themes
+
 - [[Shimmering Focus]]
 ```
 
@@ -169,7 +167,7 @@ For discussion:
 
 **Status: DONE**
 
-**Note:** *This is being tracked in [Make automated edits of Author/People pages less error-prone · Issue #348](https://github.com/obsidian-community/obsidian-hub/issues/348)*
+**Note:** _This is being tracked in [Make automated edits of Author/People pages less error-prone · Issue #348](https://github.com/obsidian-community/obsidian-hub/issues/348)_
 
 This follows on from the rejected [[#Create-and-include separate files for machine-generated content]] above.
 

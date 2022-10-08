@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags:
-- 
+aliases: []
+tags: []
 publish: true
 ---
 
@@ -10,9 +8,10 @@ publish: true
 
 <!-- - GitHub: []() ^github -->
 <!-- - Discord: `@` ^discord-->
+
 - Website: <https://markmcelroy.com/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
- 
+
 Mark McElroy is a writer and adviser who helps people find their creative path.
 
 ## Author of
@@ -24,6 +23,7 @@ Mark McElroy is a writer and adviser who helps people find their creative path.
 -->
 
 ### Others
+
 - Marc McElroy has written multiple blog posts on how he uses Obsidian on a daily basis to process his readings and thoughts as a knowledge worker: [All Roads Lead to… Obsidian?](https://markmcelroy.com/all-roads-lead-to-obsidian/)
 
 <!--
@@ -38,6 +38,7 @@ Mark McElroy is a writer and adviser who helps people find their creative path.
 ## Follow this author
 
 <!-- [[YouTube Channels|On YouTube]]: <> ^youtube -->
+
 - Twitter: <https://twitter.com/markmcelroy> ^twitter
 - Instagram: <https://www.instagram.com/markmcelroydotcom/>
 - Facebook: <https://www.facebook.com/mark.mcelroy.378537>

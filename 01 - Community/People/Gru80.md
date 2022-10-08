@@ -1,8 +1,6 @@
 ---
-aliases:
-- Martin Eder
-tags:
-- 
+aliases: [Martin Eder]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-regex-replace|Regex Find/Replace]]
 - [[obsidian-timestamper|TimeStamper]]
 

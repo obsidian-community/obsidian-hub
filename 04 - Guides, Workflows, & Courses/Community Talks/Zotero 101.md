@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -11,7 +9,8 @@ publish: true
 By [[argenos]]
 
 This is a [[Obsidian Community Talks|Obsidian Community Talk]] for an introduction to [[Zotero]].
-The [[YouTube|video]] of this talk was split in two: 
+The [[YouTube|video]] of this talk was split in two:
+
 - [[#Part 1 Basics]] covers Zotero as a reference manager
 - [[#Part 2 Plugins]] covers how to set up [[Zotfile]], [[Zotero Better BibTex|Better BibTeX]], [[Mdnotes]] and briefly the [[obsidian-citation-plugin|Citations]] plugin.
 

@@ -1,8 +1,6 @@
 ---
-aliases:
-- NomarCub
-tags:
-- 
+aliases: [NomarCub]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[copy-url-in-preview|Copy Image and URL in Preview]]
 - [[open-vscode|Open vault in VSCode]]
 

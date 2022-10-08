@@ -1,25 +1,24 @@
 ---
-aliases:
-- Mara-Li
-tags:
-- 
+aliases: [Mara-Li]
+tags: []
 publish: true
 ---
 
 # Mara-Li
 
 - GitHub: [Lisandra-dev](https://github.com/Lisandra-dev/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-metacopy|Metacopy]]
 - [[obsidian-snippet-downloader|Snippet Downloader]]
 - [[obsidian-group-snippets|Group Snippets]]

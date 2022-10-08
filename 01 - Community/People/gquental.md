@@ -1,8 +1,6 @@
 ---
-aliases:
-- Guilherme Quental
-tags:
-- 
+aliases: [Guilherme Quental]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[window-collapse|Window Collapse]]
 
 %% End Hub: Released contributions %%

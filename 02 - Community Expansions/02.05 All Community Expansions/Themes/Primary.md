@@ -1,8 +1,6 @@
 ---
-aliases:
-- 
-tags: 
-- 
+aliases: []
+tags: []
 publish: true
 ---
 
@@ -10,7 +8,7 @@ publish: true
 
 ![Downloads](https://img.shields.io/badge/downloads-77382-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ceciliamay/obsidianmd-theme-primary?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/ceciliamay/obsidianmd-theme-primary/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub issues by-label](https://img.shields.io/github/issues/ceciliamay/obsidianmd-theme-primary/help%20wanted?color=573E7A&logo=github&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ceciliamay/obsidianmd-theme-primary?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -23,24 +21,20 @@ Repository: [GitHub](https://github.com/ceciliamay/obsidianmd-theme-primary)
 Designed by: [[ceciliamay]]
 Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 
-
-
 ![screenshot](https://github.com/ceciliamay/obsidianmd-theme-primary/raw/main/assets/primary-heroimg.png)
 
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[ceciliamay#Sponsor this author]] %%
-
 
 ## Features
 
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
-## Customization Options (Style Settings Plugin) 
+## Customization Options (Style Settings Plugin)
 
 **Coming Soon!**: Style Settings should come by mid-Feb!
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

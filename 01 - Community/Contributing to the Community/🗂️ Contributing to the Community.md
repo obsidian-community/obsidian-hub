@@ -1,21 +1,20 @@
 ---
-aliases:
-- 
-tags:
-- MOC
+aliases: []
+tags: [MOC]
 publish: true
 ---
 
 # 🗂️ Contributing to the Community
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
--  [[01 - Community/Contributing to the Community/Plugins seeking help|Plugins seeking help]]
--  [[01 - Community/Contributing to the Community/Volunteer Plugin Doc Writers|Volunteer Plugin Doc Writers]]
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit below %%
+
+- [[01 - Community/Contributing to the Community/Plugins seeking help|Plugins seeking help]]
+- [[01 - Community/Contributing to the Community/Volunteer Plugin Doc Writers|Volunteer Plugin Doc Writers]]
+  %% Hub MOCs: Don’t edit above %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

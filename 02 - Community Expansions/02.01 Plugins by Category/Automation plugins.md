@@ -1,11 +1,8 @@
 ---
-aliases:
-- 
-tags: 
-- seedling 
+aliases: []
+tags: [seedling]
 publish: true
 ---
-
 
 # Automation plugins
 
@@ -35,6 +32,7 @@ Automatically create, update, or delete notes.
 - [[Third-Party Integration Plugins]]
 
 ## Related Topics
+
 - [[Controlling Obsidian via a Third-party App]]
 
 %% Hub footer: Please don't edit anything below this line %%

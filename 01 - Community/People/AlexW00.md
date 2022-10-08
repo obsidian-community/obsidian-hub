@@ -1,8 +1,6 @@
 ---
-aliases:
-- Alexander Weichart
-tags:
-- 
+aliases: [Alexander Weichart]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obisidian-note-linker|Note Linker]]
 
 %% End Hub: Released contributions %%

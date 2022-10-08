@@ -1,8 +1,6 @@
 ---
-aliases:
-- Grochowski
-tags:
-- 
+aliases: [Grochowski]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-folder-focus-mode|Folder Focus Mode]]
 
 %% End Hub: Released contributions %%

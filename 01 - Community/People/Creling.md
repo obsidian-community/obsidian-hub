@@ -1,25 +1,24 @@
 ---
-aliases:
-- Creling
-tags:
-- 
+aliases: [Creling]
+tags: []
 publish: true
 ---
 
 # Creling
 
 - GitHub: [Creling](https://github.com/Creling/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-image-uploader|Image Uploader]]
 - [[obsidian-activity-logger|Activity Logger]]
 

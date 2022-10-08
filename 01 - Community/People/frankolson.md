@@ -1,8 +1,6 @@
 ---
-aliases:
-- Will Olson
-tags:
-- 
+aliases: [Will Olson]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-tomorrows-daily-note|Tomorrow's Daily Note]]
 
 %% End Hub: Released contributions %%

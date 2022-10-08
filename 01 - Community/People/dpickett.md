@@ -1,8 +1,6 @@
 ---
-aliases:
-- Dan Pickett
-tags:
-- 
+aliases: [Dan Pickett]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[open-related-url|Open Related Url]]
 
 %% End Hub: Released contributions %%

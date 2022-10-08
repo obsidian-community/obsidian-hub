@@ -1,17 +1,15 @@
 ---
-aliases:
-- 
-tags:
-- MOC
+aliases: []
+tags: [MOC]
 publish: true
 ---
 
 # {{title}}
 
-#placeholder/description 
+#placeholder/description
 
 ## MOC
 
-%% Hub MOCs: Don’t edit below  %%
+%% Hub MOCs: Don’t edit below %%
 
-%% Hub MOCs: Don’t edit above  %%
+%% Hub MOCs: Don’t edit above %%

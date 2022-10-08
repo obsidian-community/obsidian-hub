@@ -1,8 +1,6 @@
 ---
-aliases:
-- Alexis Rondeau, Micha Brugger
-tags:
-- 
+aliases: [Alexis Rondeau, Micha Brugger]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-footnotes|Footnote Shortcut]]
 
 %% End Hub: Released contributions %%

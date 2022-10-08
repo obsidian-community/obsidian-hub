@@ -1,25 +1,24 @@
 ---
-aliases:
-- the_tree
-tags:
-- 
+aliases: [the_tree]
+tags: []
 publish: true
 ---
 
 # the_tree
 
 - GitHub: [guopenghui](https://github.com/guopenghui/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-quiet-outline|Quiet Outline]]
 
 %% End Hub: Released contributions %%

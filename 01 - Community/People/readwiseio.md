@@ -1,8 +1,6 @@
 ---
-aliases:
-- Readwise
-tags:
-- 
+aliases: [Readwise]
+tags: []
 publish: true
 ---
 
@@ -15,11 +13,12 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
-
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[readwise-official|Readwise Official]]
 
 %% End Hub: Released contributions %%

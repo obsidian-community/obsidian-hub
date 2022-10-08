@@ -1,17 +1,15 @@
 ---
 plugin-id: obsidian-jira-issue
-aliases:
-- JiraIssue
-tags: 
-- 
+aliases: [JiraIssue]
+tags: []
 publish: true
 ---
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/marc0l92/obsidian-jira-issue/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/marc0l92/obsidian-jira-issue?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/marc0l92/obsidian-jira-issue/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub all releases](https://img.shields.io/github/downloads/marc0l92/obsidian-jira-issue/total?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/marc0l92/obsidian-jira-issue?color=573E7A&logo=github&style=for-the-badge)  
+![GitHub issues by-label](https://img.shields.io/github/issues/marc0l92/obsidian-jira-issue/help%20wanted?color=573E7A&logo=github&style=for-the-badge)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/marc0l92/obsidian-jira-issue?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
@@ -25,9 +23,7 @@ Links: [GitHub repository](https://github.com/marc0l92/obsidian-jira-issue) or [
 Developed by: [[marc0l92]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-
-
-%% ----- Do not edit anything above this line ----- %% 
+%% ----- Do not edit anything above this line ----- %%
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
 %% ![[marc0l92#Sponsor this author]] %%

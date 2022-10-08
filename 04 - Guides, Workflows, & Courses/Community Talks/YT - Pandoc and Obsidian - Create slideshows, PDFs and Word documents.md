@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -25,7 +23,6 @@ In this video, [[SkepticMystic]] discusses [[Pandoc]] and how it can be used to 
 The slides can be found here: [[Using Pandoc inside Obsidian]]
 
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/yYZiO6CVtj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 %% Hub footer: Please don't edit anything below this line %%
 

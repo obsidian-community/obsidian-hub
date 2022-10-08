@@ -1,28 +1,26 @@
 ---
-aliases:
-- Slowbad
-tags:
-- 
+aliases: [Slowbad]
+tags: []
 publish: true
 ---
 
 # Slowbad
 
 - GitHub: [Slowbad](https://github.com/Slowbad/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+  <!-- - Discord: `@` ^discord-->
+  <!-- - Website: <https://> ^website-->
+  <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
-
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
 
 ### Themes
+
 - [[Solarized]]
-%% End Hub: Released contributions %%
+  %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 

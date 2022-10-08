@@ -1,8 +1,6 @@
 ---
-aliases: 
-- 
-tags:
-- seedling
+aliases: []
+tags: [seedling]
 publish: true
 ---
 
@@ -72,18 +70,18 @@ If you need to write code whose behaviour depends on whether Live Preview is sup
 // Version 1: Not recommended, as it needs @ts-ignore
 //@ts-ignore
 if (this.app.vault.config?.livePreview) {
-    // Running new Obsidian, that supports Live Preview
+  // Running new Obsidian, that supports Live Preview
 } else {
-    // Running pre-Live Preview version of Obsidian
+  // Running pre-Live Preview version of Obsidian
 }
 ```
 
 ```typescript
 // Version 2: Bit better, as no need for @ts-ignore
 if ((this.app.vault as any).config?.livePreview) {
-    // Running new Obsidian, that supports Live Preview
+  // Running new Obsidian, that supports Live Preview
 } else {
-    // Running pre-Live Preview version of Obsidian
+  // Running pre-Live Preview version of Obsidian
 }
 ```
 
@@ -92,11 +90,11 @@ Even better would be to wrap the check in to a helper function such as `isLivePr
 ### Example Code for Updating Plugins
 
 - Porting the [[nldates-obsidian|Natural Language Dates]] plugin - by [[argenos|Argentina Ortega Sainz]]
-	- A selection of useful steps:
-		- [Use Editor interface for CM6 and CM5](https://github.com/argenos/nldates-obsidian/pull/57/commits/642bac6977597dc48ec994ecc1bcf957097647dd)
-		- [Refactor getWordBoundaries to support CM6](https://github.com/argenos/nldates-obsidian/pull/57/commits/16e103335409df6f259a9ef0fc65cb3f4fe55f40)
-		- [Fix hotkeys for CM5](https://github.com/argenos/nldates-obsidian/pull/57/commits/6094aa7c056954b9f3caf5376a66f10faccf6d82)
-	- The complete PR (which contains other fixes/refactoring too): [argenos/nldates-obsidian/#57](https://github.com/argenos/nldates-obsidian/pull/57 "https://github.com/argenos/nldates-obsidian/pull/57")
+  - A selection of useful steps:
+    - [Use Editor interface for CM6 and CM5](https://github.com/argenos/nldates-obsidian/pull/57/commits/642bac6977597dc48ec994ecc1bcf957097647dd)
+    - [Refactor getWordBoundaries to support CM6](https://github.com/argenos/nldates-obsidian/pull/57/commits/16e103335409df6f259a9ef0fc65cb3f4fe55f40)
+    - [Fix hotkeys for CM5](https://github.com/argenos/nldates-obsidian/pull/57/commits/6094aa7c056954b9f3caf5376a66f10faccf6d82)
+  - The complete PR (which contains other fixes/refactoring too): [argenos/nldates-obsidian/#57](https://github.com/argenos/nldates-obsidian/pull/57 "https://github.com/argenos/nldates-obsidian/pull/57")
 
 ## For Theme Developers
 
@@ -107,14 +105,14 @@ Even better would be to wrap the check in to a helper function such as `isLivePr
 - the gutter has a new selector (`.markdown-source-view.mod-cm6 .cm-gutters`)
 - the css class for the search/replace modal (`.document-search-container`) does not have `position: relative` by default anymore, so you need to add that when the theme moves the location of that modal
 - Collapse indicators in Edit Mode are not part of the Code mirror line anymore, meaning they cannot be targeted individually anymore.
-- Live preview being a hybrid of edit and reading mode also shares certain css classes with *both*, meaning some css targeting elements in reading/edit mode will probably unintentionally target live preview as well. 
-	- Example: `.external` is used to style external links in Reading Mode, but is now used in Live preview as well. 
-	- Mostly, these issues can be solved via more specific selectors, e.g. `a.external` for Reading Mode and `span.external` for Edit Mode
-- trailing whitespace have a CSS class now, allowing to target them, e.g. 
+- Live preview being a hybrid of edit and reading mode also shares certain css classes with _both_, meaning some css targeting elements in reading/edit mode will probably unintentionally target live preview as well.
+  - Example: `.external` is used to style external links in Reading Mode, but is now used in Live preview as well.
+  - Mostly, these issues can be solved via more specific selectors, e.g. `a.external` for Reading Mode and `span.external` for Edit Mode
+- trailing whitespace have a CSS class now, allowing to target them, e.g.
 
 ```css
 .cm-line .cm-trailing-space-new-line::before {
-	content: "\21B5";
+  content: "\21B5";
 }
 ```
 
