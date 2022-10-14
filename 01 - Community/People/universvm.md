@@ -20,8 +20,8 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Guides
-- [Obsidian Tutorial for Academic Writing](https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522) by 
-- [How to Boost your Productivity for Scientific Research](https://betterhumans.pub/how-to-boost-your-productivity-for-scientific-research-using-obsidian-fe85c98c63c8) by [[]]
+- [Obsidian Tutorial for Academic Writing](https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522) by [[universvm|Leonardo Castorina]]
+- [How to Boost your Productivity for Scientific Research](https://betterhumans.pub/how-to-boost-your-productivity-for-scientific-research-using-obsidian-fe85c98c63c8) by [[universvm|Leonardo Castorina]]
 
 ## Sponsor this author
 - [Ko-Fi](https://ko-fi.com/leocastorina) ^ko-fi
