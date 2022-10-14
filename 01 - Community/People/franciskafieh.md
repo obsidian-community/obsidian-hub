@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [franciskafieh](https://github.com/franciskafieh/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/franciskafieh> ^website
+- Website: <https://franciskafieh.com/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
