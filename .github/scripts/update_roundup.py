@@ -3,13 +3,7 @@ from feedparser import FeedParserDict, parse
 from markdownify import markdownify as md
 
 FEED_URL = "https://www.obsidianroundup.org/blog/rss/"
-USER_NAME = "AB1908"
-# COMMUNITY_REPO = "obsidian-community/obsidian-hub"
-REPO_NAME = "obsidian-hub"
-COMMUNITY_REPO = f"{USER_NAME}/{REPO_NAME}"
 ROUNDUP_FOLDER_PATH = "01 - Community/Obsidian Roundup"
-ROUNDUP_BRANCH = "roundup"
-LABELS = "scripted update"
 
 def date_conversion(parsed_feed_datetime: FeedParserDict) -> datetime:
     """Converts published_parsed attribute of a feed item into a pythonic datetime object"""
