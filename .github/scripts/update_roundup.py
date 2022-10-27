@@ -36,7 +36,7 @@ def get_normalized_file_name(entry: FeedParserDict) -> str:
 
 def generate_file_with_hub_yaml(entry: FeedParserDict) -> str:
     frontmatter: str = f"---\nlink: {entry.link}\nauthor: {entry.author}\npublished: {datetime_from_parsed_feed_datetime(entry)}\npublish: true\n---\n\n"
-    return frontmatter+f"# {get_normalized_file_name(entry)}\n{entry.summary}\n\n"+convert_feed_html(entry.content[0].value)
+    return frontmatter+f"# {date_from_parsed_feed_datetime(entry)}: {entry.title[2:]}\n{entry.summary}\n\n"+convert_feed_html(entry.content[0].value)
 
 def save_file(entry: FeedParserDict):
     file_contents: str = generate_file_with_hub_yaml(entry)
