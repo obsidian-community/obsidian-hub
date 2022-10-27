@@ -54,28 +54,8 @@ def save_file(entry: FeedParserDict):
     with open(file_name, 'w', encoding='utf8') as roundup_file:
         roundup_file.write(file_contents)
 
-def entries_not_synced(synced_list: list[ContentFile], sync_pending_list: list[FeedParserDict]):
-    # The last file is a folder note and not the last synced item
-    last_repo_item_name = synced_list[-2].name
-    pending_file_names = [get_normalized_file_name(entry) for entry in sync_pending_list]
-    return sync_pending_list[0:pending_file_names.index(last_repo_item_name)]
-
-def is_authenticated(g: Github) -> bool:
-    try:
-        return True if g.get_user().login == USER_NAME else False
-    except: 
-        # TODO: Check for 401 bad creds
-        return False
-
 def main():
     parsed_feed = parse(FEED_URL)
-    g = Github(API_KEY)
-    if not is_authenticated(g):
-        # TODO: Add log message for incorrect auth
-        return
-    obsidian_hub_repo = g.get_repo(COMMUNITY_REPO)
-    list_of_roundup_files = obsidian_hub_repo.get_contents(ROUNDUP_FOLDER_PATH)
-    # TODO: handle how multiple files are PRed
     for entry in parsed_feed.entries:
         if is_roundup_post(entry):
             # print(get_normalized_file_name(entry))
