@@ -1,9 +1,5 @@
 from datetime import datetime
 from feedparser import FeedParserDict, parse
-from github import Github
-from github.ContentFile import ContentFile
-from github.Repository import Repository
-from github.GithubException import UnknownObjectException
 from markdownify import markdownify as md
 
 FEED_URL = "https://www.obsidianroundup.org/blog/rss/"
