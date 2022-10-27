@@ -56,12 +56,6 @@ def add_file_to_repo(entry: FeedParserDict, repo: Repository):
     # TODO: Handle 422s for when the file exists already
     repo.create_file(f"{ROUNDUP_FOLDER_PATH}/{get_normalized_file_name(entry)}", "feat: add new feed item", file_contents, branch=ROUNDUP_BRANCH)
 
-def open_pr_against_main(entry: FeedParserDict, repo: Repository):
-    title = f"Add roundup post for {date_from_parsed_feed_datetime(entry)}"
-    body = f"Title: {entry.title}\nBody: {entry.link}"
-    pr = repo.create_pull(title=title, body=body, base=repo.default_branch, head=ROUNDUP_BRANCH, maintainer_can_modify=True)
-    pr.add_to_labels(LABELS)
-
 def entries_not_synced(synced_list: list[ContentFile], sync_pending_list: list[FeedParserDict]):
     # The last file is a folder note and not the last synced item
     last_repo_item_name = synced_list[-2].name
@@ -105,7 +99,6 @@ def main():
         if is_roundup_post(entry):
             # print(get_normalized_file_name(entry))
             add_file_to_repo(entry, obsidian_hub_repo)
-    open_pr_against_main(entry, obsidian_hub_repo)
 
 if __name__ == "__main__":
     main()
