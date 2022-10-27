@@ -8,3 +8,5 @@ types-PyYAML
 types-requests
 monkeytype
 github3api
+markdownify
+feedparser
