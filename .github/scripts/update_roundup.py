@@ -48,9 +48,6 @@ def generate_file_with_hub_yaml(entry: FeedParserDict) -> str:
     frontmatter: str = f"---\nlink: {entry.link}\nauthor: {entry.author}\npublished: {datetime_from_parsed_feed_datetime(entry)}\npublish: true\n---\n\n"
     return frontmatter+convert_feed_html(entry.content[0].value)
 
-def merge_main_into_branch(repo: Repository):
-    repo.merge(base=ROUNDUP_BRANCH, head="main")
-
 def add_file_to_repo(entry: FeedParserDict, repo: Repository):
     file_contents:str = generate_file_with_hub_yaml(entry)
     # TODO: Handle 422s for when the file exists already
@@ -93,7 +90,6 @@ def main():
     list_of_roundup_files = obsidian_hub_repo.get_contents(ROUNDUP_FOLDER_PATH)
     if not branch_exists(obsidian_hub_repo):
         create_branch(obsidian_hub_repo)
-    merge_main_into_branch(obsidian_hub_repo)
     # TODO: handle how multiple files are PRed
     for entry in entries_not_synced(list_of_roundup_files, d.entries):
         if is_roundup_post(entry):
