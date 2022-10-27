@@ -58,9 +58,6 @@ def entries_not_synced(synced_list: list[ContentFile], sync_pending_list: list[F
     last_repo_item_name = synced_list[-2].name
     pending_file_names = [get_normalized_file_name(entry) for entry in sync_pending_list]
     return sync_pending_list[0:pending_file_names.index(last_repo_item_name)]
-    
-def branch_exists(repo: Repository) -> bool:
-    return True if ROUNDUP_BRANCH in [i.name for i in repo.get_branches()] else False
 
 def is_authenticated(g: Github) -> bool:
     try:
@@ -77,8 +74,6 @@ def main():
         return
     obsidian_hub_repo = g.get_repo(COMMUNITY_REPO)
     list_of_roundup_files = obsidian_hub_repo.get_contents(ROUNDUP_FOLDER_PATH)
-    if not branch_exists(obsidian_hub_repo):
-        pass
     # TODO: handle how multiple files are PRed
     for entry in entries_not_synced(list_of_roundup_files, d.entries):
         if is_roundup_post(entry):
