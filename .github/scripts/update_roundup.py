@@ -62,17 +62,6 @@ def entries_not_synced(synced_list: list[ContentFile], sync_pending_list: list[F
 def branch_exists(repo: Repository) -> bool:
     return True if ROUNDUP_BRANCH in [i.name for i in repo.get_branches()] else False
 
-def create_branch(repo: Repository) -> None:
-    try:
-        main_head_sha = repo.get_branch(repo.default_branch).commit.sha
-        repo.create_git_ref(f"refs/heads/{ROUNDUP_BRANCH}", main_head_sha)
-        return
-    except UnknownObjectException:
-        # https://stackoverflow.com/a/67560638/13285428
-        # I had no idea 404s were because of scopes
-        print(UnknownObjectException)
-        print("Check your scopes")
-    
 def is_authenticated(g: Github) -> bool:
     try:
         return True if g.get_user().login == USER_NAME else False
@@ -89,7 +78,7 @@ def main():
     obsidian_hub_repo = g.get_repo(COMMUNITY_REPO)
     list_of_roundup_files = obsidian_hub_repo.get_contents(ROUNDUP_FOLDER_PATH)
     if not branch_exists(obsidian_hub_repo):
-        create_branch(obsidian_hub_repo)
+        pass
     # TODO: handle how multiple files are PRed
     for entry in entries_not_synced(list_of_roundup_files, d.entries):
         if is_roundup_post(entry):
