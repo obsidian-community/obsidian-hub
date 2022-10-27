@@ -48,10 +48,13 @@ def generate_file_with_hub_yaml(entry: FeedParserDict) -> str:
     frontmatter: str = f"---\nlink: {entry.link}\nauthor: {entry.author}\npublished: {datetime_from_parsed_feed_datetime(entry)}\npublish: true\n---\n\n"
     return frontmatter+convert_feed_html(entry.content[0].value)
 
-def add_file_to_repo(entry: FeedParserDict, repo: Repository):
-    file_contents:str = generate_file_with_hub_yaml(entry)
+def save_file(entry: FeedParserDict, repo: Repository):
+    file_contents: str = generate_file_with_hub_yaml(entry)
     # TODO: Handle 422s for when the file exists already
-    repo.create_file(f"{ROUNDUP_FOLDER_PATH}/{get_normalized_file_name(entry)}", "feat: add new feed item", file_contents, branch=ROUNDUP_BRANCH)
+    file_name = f"{ROUNDUP_FOLDER_PATH}/{get_normalized_file_name(entry)}"
+    with open(file_name, 'w', encoding='utf8') as roundup_file:
+        roundup_file.write(file_contents)
+    repo.create_file(file_name, "feat: add new feed item", file_contents, branch=ROUNDUP_BRANCH)
 
 def entries_not_synced(synced_list: list[ContentFile], sync_pending_list: list[FeedParserDict]):
     # The last file is a folder note and not the last synced item
@@ -78,7 +81,7 @@ def main():
     for entry in entries_not_synced(list_of_roundup_files, d.entries):
         if is_roundup_post(entry):
             # print(get_normalized_file_name(entry))
-            add_file_to_repo(entry, obsidian_hub_repo)
+            save_file(entry, obsidian_hub_repo)
 
 if __name__ == "__main__":
     main()
