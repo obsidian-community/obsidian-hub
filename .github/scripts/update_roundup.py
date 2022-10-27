@@ -68,7 +68,7 @@ def is_authenticated(g: Github) -> bool:
         return False
 
 def main():
-    d = parse(FEED_URL)
+    parsed_feed = parse(FEED_URL)
     g = Github(API_KEY)
     if not is_authenticated(g):
         # TODO: Add log message for incorrect auth
@@ -76,7 +76,7 @@ def main():
     obsidian_hub_repo = g.get_repo(COMMUNITY_REPO)
     list_of_roundup_files = obsidian_hub_repo.get_contents(ROUNDUP_FOLDER_PATH)
     # TODO: handle how multiple files are PRed
-    for entry in entries_not_synced(list_of_roundup_files, d.entries):
+    for entry in parsed_feed.entries:
         if is_roundup_post(entry):
             # print(get_normalized_file_name(entry))
             save_file(entry)
