@@ -44,7 +44,7 @@ Any OOer who finishes their project before the end of November 13, 2022 (extende
 
 We'll be publicly celebrating O_O contributions after the event wraps up, so you might be featured on the Obsidian website, via Twitter, or elsewhere!
 
-<iframe class="airtable-embed" src="https://airtable.com/shraMn6xDv4LwgRvA?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shraMn6xDv4LwgRvA?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 Also, be sure to submit your plugin and theme to our official community [plugin store](https://github.com/obsidianmd/obsidian-releases/blob/master/community-plugins.json) or [theme store](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) by submitting a Pull Request to the relevant list.
 
