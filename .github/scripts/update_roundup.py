@@ -29,7 +29,7 @@ def is_roundup_post(entry: FeedParserDict) -> bool:
         return False
 
 def convert_feed_html(html_content: str) -> str:
-    return md(html_content)
+    return str(md(html_content, heading_style='ATX', strong_em_symbol='_'))
 
 def get_normalized_file_name(entry: FeedParserDict) -> str:
     return f"{date_from_parsed_feed_datetime(entry)} {entry.title[2:]}.md"
