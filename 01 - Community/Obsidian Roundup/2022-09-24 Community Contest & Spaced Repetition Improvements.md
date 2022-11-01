@@ -94,3 +94,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 ## Housekeeping
 
 * I got a chance to see [Noteshare](https://noteshare.space/install) in action in the wild (i.e. used by someone in a discord server totally unrelated to Obsidian) this morning and it was really slick! If you want to quickly share a single Obsidian note with folks, this is a great way.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-09-24%20Community%20Contest%20%26%20Spaced%20Repetition%20Improvements.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-09-24%20Community%20Contest%20%26%20Spaced%20Repetition%20Improvements.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

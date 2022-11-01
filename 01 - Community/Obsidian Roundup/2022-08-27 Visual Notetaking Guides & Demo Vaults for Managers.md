@@ -88,3 +88,9 @@ _If you want a comprehensive list of what plugins updated this week, check out t
 ## Housekeeping
 
 * Ghost, the software that I run this newsletter with, now supports native commenting features. If you'd like to leave a comment on any of the articles or roundup editions, click the "view online" button and scroll to the bottom. You need to be logged in to comment, but you don't need to be a financial supporter. Login uses "magic links" so you should be able to sign in with whatever email address you use to access the Roundup. Folks who prefer RSS but want to comment can just register and unsubscribe to emails. I'd love to know which item in this week's Roundup was most useful for you!
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-08-27%20Visual%20Notetaking%20Guides%20%26%20Demo%20Vaults%20for%20Managers.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-08-27%20Visual%20Notetaking%20Guides%20%26%20Demo%20Vaults%20for%20Managers.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
