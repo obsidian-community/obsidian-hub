@@ -63,7 +63,19 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2022-03-05 Dashboards, Dataview Tips, & global publish graphs|2022-03-05 Dashboards, Dataview Tips, & global publish graphs]]
 -  [[01 - Community/Obsidian Roundup/2022-03-12 Pin Preview Popups & an Intro to Dataview Guide|2022-03-12 Pin Preview Popups & an Intro to Dataview Guide]]
 -  [[01 - Community/Obsidian Roundup/2022-03-19 Better Citations Workflows & Native Callout Boxes|2022-03-19 Better Citations Workflows & Native Callout Boxes]]
+-  [[01 - Community/Obsidian Roundup/2022-08-06 Quick Share & a new Minimalist Theme|2022-08-06 Quick Share & a new Minimalist Theme]]
 -  [[01 - Community/Obsidian Roundup/2022-08-13 Dataview to Mermaid & PDF conversions|2022-08-13 Dataview to Mermaid & PDF conversions]]
+-  [[01 - Community/Obsidian Roundup/2022-08-20 Mobile Git Backups & a Hotkey Keyboard Map|2022-08-20 Mobile Git Backups & a Hotkey Keyboard Map]]
+-  [[01 - Community/Obsidian Roundup/2022-08-27 Visual Notetaking Guides & Demo Vaults for Managers|2022-08-27 Visual Notetaking Guides & Demo Vaults for Managers]]
+-  [[01 - Community/Obsidian Roundup/2022-09-03 Tabs and a new Default Theme|2022-09-03 Tabs and a new Default Theme]]
+-  [[01 - Community/Obsidian Roundup/2022-09-10 Bulk Rename, Cleanup Routines & Mobile git|2022-09-10 Bulk Rename, Cleanup Routines & Mobile git]]
+-  [[01 - Community/Obsidian Roundup/2022-09-17 Dataview Example Vault, Book Club, & Ecosystem Stats|2022-09-17 Dataview Example Vault, Book Club, & Ecosystem Stats]]
+-  [[01 - Community/Obsidian Roundup/2022-09-24 Community Contest & Spaced Repetition Improvements|2022-09-24 Community Contest & Spaced Repetition Improvements]]
+-  [[01 - Community/Obsidian Roundup/2022-10-01 Pandoc, Happiness, & Dataview Tricks|2022-10-01 Pandoc, Happiness, & Dataview Tricks]]
+-  [[01 - Community/Obsidian Roundup/2022-10-08 PDF Indexing & Live Preview Table Edits|2022-10-08 PDF Indexing & Live Preview Table Edits]]
+-  [[01 - Community/Obsidian Roundup/2022-10-15 Obsidian Out of Beta, Obsidian October Extended|2022-10-15 Obsidian Out of Beta, Obsidian October Extended]]
+-  [[01 - Community/Obsidian Roundup/2022-10-22 Improved note relationship sensing & Catppuccinos!|2022-10-22 Improved note relationship sensing & Catppuccinos!]]
+-  [[01 - Community/Obsidian Roundup/2022-10-29 Supercharged tags & a new Zotero integration|2022-10-29 Supercharged tags & a new Zotero integration]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
