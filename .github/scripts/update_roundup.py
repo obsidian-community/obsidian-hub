@@ -19,9 +19,6 @@ def date_from_parsed_feed_datetime(entry: FeedParserDict) -> str:
     pythonic_datetime = date_conversion(entry.published_parsed)
     return pythonic_datetime.strftime("%Y-%m-%d")
 
-def does_previous_exist_in_hub():
-    pass
-
 def is_roundup_post(entry: FeedParserDict) -> bool:
     if entry.title.startswith('🌠'):
         return True
@@ -38,13 +35,13 @@ def generate_file_with_hub_yaml(entry: FeedParserDict) -> str:
     frontmatter: str = f"---\nlink: {entry.link}\nauthor: {entry.author}\npublished: {datetime_from_parsed_feed_datetime(entry)}\npublish: true\n---\n\n"
     return frontmatter+f"# {date_from_parsed_feed_datetime(entry)}: {entry.title[2:]}\n{entry.summary}\n\n"+convert_feed_html(entry.content[0].value)
 
-def save_file(entry: FeedParserDict):
+def save_file(entry: FeedParserDict) -> None:
     file_contents: str = generate_file_with_hub_yaml(entry)
     file_name = f"{ROUNDUP_FOLDER_PATH}/{get_normalized_file_name(entry)}"
     with open(file_name, 'w', encoding='utf8') as roundup_file:
         roundup_file.write(file_contents)
 
-def main():
+def main() -> None:
     parsed_feed = parse(FEED_URL)
     for entry in parsed_feed.entries:
         if is_roundup_post(entry):
