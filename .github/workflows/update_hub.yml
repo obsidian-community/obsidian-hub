@@ -49,6 +49,14 @@ jobs:
           git add .
           git commit -m "Add new plugins, themes and authors" || echo "nothing to commit"
 
+      - name: Add new roundup post, update existing if changed
+        run: |
+          cd .github/scripts
+          python3 ./update_roundup.py
+          cd ../..
+          git add .
+          git commit -m "Add new roundup post, update existing if changed" || echo "nothing to commit"
+
       - name: Update MOC files
         run: |
           cd .github/scripts
