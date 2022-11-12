@@ -104,3 +104,9 @@ __Note: these plugins have not yet been submitted for code review, and are being
 * Here's a guide for [pairing Obsidian and Logseq](https://twitter.com/fuzzygel/status/1586217261580230656).
 * [Acreom is now in 1.0](https://news.ycombinator.com/item?id=33451711) - like Logseq, it can run on top of an Obsidian vault, but unlike Logseq, it is not an outliner and doesn't involve bullet points. It can also sync your notes to the a browser version like GitHub hosted visual studio code, but without messing with Git. It's a more task management and calendar focused app than Obsidian is, but if you're looking for a straightforward way to get your plain text Obsidian notes into a browser for your work computer where you can work with them 🙃 it's less frustrating than most of the other options.
 * Here's a [tool for batch converting Daylio entries](https://github.com/DeutscheGabanna/Obsidian-Daylio-Parser) (a journaling & mood tracking app) into Markdown notes.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-11-05%20Email%20Fetching%2C%20Fancy%20Templating%20%26%20Improved%20Longform%20Writing.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-11-05%20Email%20Fetching%2C%20Fancy%20Templating%20%26%20Improved%20Longform%20Writing.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
