@@ -18,11 +18,7 @@ from plugins import Plugin
 PluginIssue = Dict[str, str]
 
 
-class GithubClient:
-    def get(self, url: str, _get: str) -> List[Any]: ...
-
-
-def process_issues_for_plugin(gh_client: GithubClient, plugin: Plugin, label: str) -> List[PluginIssue]:
+def process_issues_for_plugin(gh_client: GitHubAPI, plugin: Plugin, label: str) -> List[PluginIssue]:
     issues = list()
     repo_issues = gh_client.get(f'/repos/{plugin.repo()}/issues?labels={label}', _get="all")
     for issue in repo_issues:
