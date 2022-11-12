@@ -35,7 +35,7 @@ Leo is a PhD student in AI at the University of Edinburgh writing about producti
 
 ## Sponsor this author
 - [Ko-Fi](https://ko-fi.com/leocastorina) ^ko-fi
-- [[GitHub sponsors]]: [Sponsor @universvm on GitHub Sponsors](https://github.com/sponsors/universvm) ^github-sponsor-->
+- [[GitHub sponsors]]: [Sponsor @universvm on GitHub Sponsors](https://github.com/sponsors/universvm) ^github-sponsor
 
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->
