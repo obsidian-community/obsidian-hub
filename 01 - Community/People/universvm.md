@@ -9,23 +9,16 @@ publish: true
 # Leonardo Castorina
 
 - Publish sites: <https://medium.com/@universvm/> ^website
-- Twitter: [Twitter](https://twitter.com/leocastorina/) ^twitter-->
+- Twitter: [Twitter](https://twitter.com/leocastorina/) ^twitter
 - GitHub: [universvm](https://github.com/universvm/) ^github
 
 
 %% Feel free to add a bio below this comment %%
-
+Leo is a PhD student in AI at the University of Edinburgh writing about productivity and note-taking.
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
-### Guides
-- [Obsidian Tutorial for Academic Writing](https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522) by [[universvm|Leonardo Castorina]]
-- [How to Boost your Productivity for Scientific Research](https://betterhumans.pub/how-to-boost-your-productivity-for-scientific-research-using-obsidian-fe85c98c63c8) by [[universvm|Leonardo Castorina]]
-
-## Sponsor this author
-- [Ko-Fi](https://ko-fi.com/leocastorina) ^ko-fi
-
 
 %% End Hub: Released contributions %%
 
@@ -35,25 +28,22 @@ publish: true
 ### Unlisted plugins
 -->
 
-<!--
+
 ### Others
--->
+- [Obsidian Tutorial for Academic Writing](https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522) by [[universvm|Leonardo Castorina]]
+- [How to Boost your Productivity for Scientific Research](https://betterhumans.pub/how-to-boost-your-productivity-for-scientific-research-using-obsidian-fe85c98c63c8) by [[universvm|Leonardo Castorina]]
 
-<!--
 ## Sponsor this author
--->
+- [Ko-Fi](https://ko-fi.com/leocastorina) ^ko-fi
+- [[GitHub sponsors]]: [Sponsor @universvm on GitHub Sponsors](https://github.com/sponsors/universvm) ^github-sponsor-->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @YTolun on GitHub Sponsors](https://github.com/sponsors/YTolun) ^github-sponsor-->
-<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->
 
-<!--
 ## Follow this author
--->
-
-<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
-<!-- - Twitter: <https://> ^twitter-->
+- Medium: <https://medium.com/@universvm/> ^website
+- Twitter: [Twitter](https://twitter.com/leocastorina/) ^twitter
+- GitHub: [universvm](https://github.com/universvm/) ^github
 <!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
