@@ -59,3 +59,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 ## Discussions
 
 * I found this discussion of [why it can be helpful to block tags from showing up on the graph view](https://discord.com/channels/686053708261228577/710585052769157141/1005134287533789276) on Discord useful, as well as the accompanying discussion of the differences between tags and folders.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-08-06%20Quick%20Share%20%26%20a%20new%20Minimalist%20Theme.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-08-06%20Quick%20Share%20%26%20a%20new%20Minimalist%20Theme.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
