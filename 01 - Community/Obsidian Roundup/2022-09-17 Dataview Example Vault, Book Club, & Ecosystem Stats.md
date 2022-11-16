@@ -100,3 +100,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 * Glasp now allows users to [highlight YouTube video transcripts](https://medium.com/glasp/tutorial-how-to-highlight-youtube-transcript-30b5430efbe) and export them as Markdown.
 * Nicole van der Hoeven shared [why she likes Readwise Reader](https://www.youtube.com/watch?v=uNH1JDOmGJw). At 16:31 she talks about how she uses it with Obsidian.
 * Relatedly, this month's premium tips edition was all about [how I use RSS to curate opportunities](https://www.obsidianroundup.org/using-rss-to-curate-opportunities/), and although Readwise Reader isn't limited to RSS and it's entirely possible to replicate the workflow described using things other than Reader, there is a screenshot of how I take notes in Reader and send them to Obsidian.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-09-17%20Dataview%20Example%20Vault%2C%20Book%20Club%2C%20%26%20Ecosystem%20Stats.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-09-17%20Dataview%20Example%20Vault%2C%20Book%20Club%2C%20%26%20Ecosystem%20Stats.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

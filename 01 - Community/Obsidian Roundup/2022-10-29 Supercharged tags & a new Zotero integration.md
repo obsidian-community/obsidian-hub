@@ -88,3 +88,9 @@ I recently wrote a piece explaining how [I need to consolidate my newsletters an
 The upshot of this for the Obsidian Roundup is ironically that there will be more content available soon™. It's nothing to worry about, but I wanted to share it here so y'all know that changes are coming as soon as I can get this squared away on the "hiring a developer to help me pull this off" side of things. The short version is that there have been a lot of changes in newsletter software (and my life!) since I started the Obsidian Roundup, and I need to start taking advantage of some of those changes for my own sanity. 
 
 💚Also, a few people have asked me, so if you've been interested in chipping in to help defer my newsletter hosting fees and the costs of hiring developers, but aren't really interested in [a subscription](https://www.obsidianroundup.org/#/portal/signup), I do have a ko-fi page where you can [buy me a coffee](https://ko-fi.com/eleanorkonik).
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-10-29%20Supercharged%20tags%20%26%20a%20new%20Zotero%20integration.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-10-29%20Supercharged%20tags%20%26%20a%20new%20Zotero%20integration.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
