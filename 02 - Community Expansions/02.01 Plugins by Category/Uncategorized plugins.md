@@ -362,6 +362,10 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-scroll-to-top-plugin|Scroll to Top Plugin]]
 - [[obsidian-old-note-admonitor|Old Note Admonitor]]
 - [[obsidian-export-image|Export Image plugin]]
+- [[page-gallery|Page Gallery]]
+- [[obsidian42-strange-new-worlds|Obsidian42 - Strange New Worlds]]
+- [[obsidian-dynbedded|Dynbedded]]
+- [[copy-document-as-html|Copy document as HTML]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
