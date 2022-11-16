@@ -105,9 +105,3 @@ __Note: these plugins have not yet been submitted for code review, and are being
 ## Housekeeping
 
 * I think I'm caught up after my weekend without Discord or a mouse. If I missed something cool from the last 2-3 weeks (especially notable plugin or theme updates), please reach out and let me know! I'm still digesting some of the info in Discord, but from what I can tell, most of the focus is on the v0.16.x updates with tabs and all the new appearance stuff. I expect that'll take a few more weeks to shake out.
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-09-10%20Bulk%20Rename%2C%20Cleanup%20Routines%20%26%20Mobile%20git.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-09-10%20Bulk%20Rename%2C%20Cleanup%20Routines%20%26%20Mobile%20git.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
