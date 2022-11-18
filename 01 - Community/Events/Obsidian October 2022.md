@@ -40,7 +40,7 @@ There will be a special channel on Discord to ask questions and chat about your 
 
 ## Submitting your project
 
-Any OOer who finishes their project before the end of November 13, 2022 (extended due to 1.0 release and addition of the theme categories) [anywhere on Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth) can submit via [this form](https://airtable.com/shrUsaaJcOX7cEA73/) (embedded below, although it will not render if you're viewing this on GitHub).
+Any OOer who finishes their project before the end of November 13, 2022 (extended due to 1.0 release and addition of the theme categories) [anywhere on Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth) can submit via [this form](https://airtable.com/shraMn6xDv4LwgRvA) (embedded below, although it will not render if you're viewing this on GitHub).
 
 We'll be publicly celebrating O_O contributions after the event wraps up, so you might be featured on the Obsidian website, via Twitter, or elsewhere!
 
