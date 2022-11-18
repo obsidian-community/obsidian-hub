@@ -2,7 +2,7 @@
 link: https://www.obsidianroundup.org/2022-06-25/
 author: Eleanor Konik
 published: 2022-06-25T12:30:00
-tags: []
+publish: true
 ---
 # Highlights
 
