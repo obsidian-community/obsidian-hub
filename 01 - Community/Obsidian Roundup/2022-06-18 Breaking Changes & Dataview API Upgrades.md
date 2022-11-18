@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-06-18T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-06-18: Breaking Changes & Dataview API Upgrades
+Multiple windows is now a core feature, allowing for improved dual monitor use of Obsidian. There's also a great new beginner's guide to Dataview.
 
----
-# 🌠 Breaking Changes & Dataview API Upgrades
 ## In The Community
 
 -   It's moderator `@argentum`'s two year anniversary of using Obsidian. Check out [her graph](https://discord.com/channels/686053708261228577/744933215063638183/986956536976924693) in Discord.

@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-06-11T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-06-11: API changes & new public vaults
+A big release with improved collaboration, Sync, and sharing. Customize kindle imports, fancy databases, and improvements for task management.
 
----
-# 🌠API changes & new public vaults
 ## In The Community
 
 -   There's a community talk about daily notes & habits on 11-Jun-22 at 1pm Eastern (~5 hours after you get this email). Here's the [link to Zoom](https://discord.com/events/686053708261228577/983391524995858493), here's the link to the [Discord Event](https://discord.com/events/686053708261228577/983391524995858493).

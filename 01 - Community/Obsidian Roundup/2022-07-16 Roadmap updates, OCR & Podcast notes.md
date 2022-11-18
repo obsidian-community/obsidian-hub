@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-07-16T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-07-16: Roadmap updates, OCR & Podcast notes
+There were so many new guides and showcases I had to group them by topic: daily notes, dashboards, academic uses, links vs. folders, etc.
 
----
-# 🌠 Roadmap updates, OCR & Podcast notes
 ## In The Community
 
 -   The [Obsidian Book Club videos](https://vimeo.com/danallosso) are live now.

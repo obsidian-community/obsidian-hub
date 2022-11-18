@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-05-21T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-05-21: Database Discussions & Improved Search Options
+Leverage markdown's semantic line break features with help from a new plugin, or check out the new guide for using Zotero6 with Obsidian.
 
----
-# 🌠 Database Discussions & Improved Search Options
 ## Obsidian Updates
 
 As of [Insider v.0.14.11](https://forum.obsidian.md/t/obsidian-release-v0-14-11-insider-build/37580).

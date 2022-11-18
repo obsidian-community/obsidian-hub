@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-06-25T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-06-25: Popping out Plugins & Calendar Imports
+Obsidian reached the 600 plugin mark, there are some new references for vim users, and improved integration with Notion.
 
----
-# 🌠 Popping out Plugins & Calendar Imports
 ## In The Community
 
 -   As of this week, there are over 600 plugins officially in the community plugins list!

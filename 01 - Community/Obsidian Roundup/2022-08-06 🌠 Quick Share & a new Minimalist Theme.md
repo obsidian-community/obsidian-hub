@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-08-06T13:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-08-06: Quick Share & a new Minimalist Theme
+Group snippets for one-click activation, compare tags and folders, & improve your inline metadata.
 
----
-# 🌠 Quick Share & a new Minimalist Theme
 ## Housekeeping
 
 Fair warning, I caught a stomach bug from my son and it was too late to arrange coverage for the Roundup by the time I realized how badly it was going to interfere with my productivity yesterday. I'll loop back around later and include all the stuff from this week I didn't get a chance to add in 💚

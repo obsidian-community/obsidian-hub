@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-07-09T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-07-09: Dashboards & Tips for Students, Studying & Sales
+Discussions about quick capture methods, including inboxes, daily notes, and logs. Methods for copying shell commands, and metadata manipulation plugins.
 
----
-# 🌠 Dashboards & Tips for Students, Studying & Sales
 ## Obsidian Updates
 
 -   Insider [v0.15.4](https://forum.obsidian.md/t/obsidian-release-v0-15-4-insider-build/39897) added a "toggle always on top" command to pin popout windows above the other windows on your desktop, improved scrollbar styling and view dragging experiences, and fixed some other quirks that cropped up with the new popout windows. Insider [v0.15.5](https://forum.obsidian.md/t/obsidian-release-v0-15-5-insider-build/40031) had some other assorted fixes.

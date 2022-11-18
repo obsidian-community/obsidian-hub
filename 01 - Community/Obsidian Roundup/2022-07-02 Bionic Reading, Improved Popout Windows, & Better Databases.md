@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-07-02T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-07-02: "Bionic Reading," Improved Popout Windows, & Better Databases
+Showcases from game developers, roleplaying game players, and daily note takers. Plus a guide for when to use tags, folders and links.
 
----
-# 🌠 "Bionic Reading," Improved Popout Windows, & Better Databases
 ## In The Community
 
 -   This is your periodic reminder that Obsidian Community Talks are community organized, not "officially sponsored events" or anything, and basically anyone is welcome to propose or host one. If you're interested, reach out and I'll help you get in touch with the relevant people.

@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-07-23T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-07-23: Boolean Task Queries & Improved Sidebar Controls
+Plugin settings design tips & productivity book recommendations.
 
----
-# 🌠 Boolean Task Queries & Improved Sidebar Controls
 ## In The Community
 
 -   The subreddit has [new flairs](https://www.reddit.com/r/ObsidianMD/comments/w4bpun/robsidianmd_mod_update_20220721/) for plugins and themes, and encourages people who want to post memes to use the new [meme subreddit](https://www.reddit.com/r/ObsidianMDMemes/).

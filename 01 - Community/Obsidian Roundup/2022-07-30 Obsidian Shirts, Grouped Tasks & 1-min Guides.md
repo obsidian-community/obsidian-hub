@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-07-30T13:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-07-30: Obsidian Shirts, Grouped Tasks & 1-min Guides
+New ways to group tasks, customizable spaced repetition buttons, & default theme discussions.
 
----
-# 🌠 Obsidian Shirts, Grouped Tasks & 1-min Guides
 ## Obsidian Updates
 
 -   You can now [buy Obsidian merchandise](https://merch.obsidian.md/), mostly hoodies and t-shirts so far, but I've been hearing a lot of requests for stickers. You can use the code `SHIPSFREE` until August 31, to get worldwide free shipping when you spend over US$100.

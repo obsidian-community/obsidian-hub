@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-05-28T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-05-28: Demo Vaults, PKM History, & an editable graph view
+Archive everything you link to, check out a new tab-style interface, & join the discussion about using Obsidian for long term planning.
 
----
-# 🌠 Demo Vaults, PKM History, & an editable graph view
 ## In The Community
 
 -   Here are [all fifteen sessions](https://www.linkingyourthinking.com/lytcon/nick-milo-keynote) from the Linking Your Thinking Conference. I was able to attend a few in addition to giving my own talk about migrating to a vault in safe mode (which was valuable for a number of reasons but yes, I'm back to using some plugins).

@@ -4,11 +4,10 @@ author: Eleanor Konik
 published: 2022-06-04T12:30:00
 publish: true
 ---
-# Highlights
 
+# 2022-06-04: Guides to Synthesis & File Explorer Keyboard Navigation
+Lots of exciting updates and forks of the Tasks plugin, a quickstart guide for Breadcrumbs, & new zettelkasten discussions.
 
----
-# 🌠 Guides to Synthesis & File Explorer Keyboard Navigation
 ## In The Community
 
 -   I'm working on collecting resources for [using Obsidian for spiritual purposes & religious studies](https://github.com/obsidian-community/obsidian-hub/issues/449) if you can think of any I missed, please consider adding them to that issue so we can get them collected on the Hub. There's a similar collection for [medical discussions & guides](https://github.com/obsidian-community/obsidian-hub/issues/369). If you've got some time and want to help out with the Hub, turning those issues into a useful note is a great way to get started.
