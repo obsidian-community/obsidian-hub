@@ -93,3 +93,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 ## Housekeeping
 
 I will be hosting another "5x8 Event" for financial supporters on June 9. The name is an index card reference, but mostly refers to 5 people presenting on an interesting topic for no more than 8 minutes each. The last one was really fun!
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-06-04%20Guides%20to%20Synthesis%20%26%20File%20Explorer%20Keyboard%20Navigation.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-06-04%20Guides%20to%20Synthesis%20%26%20File%20Explorer%20Keyboard%20Navigation.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

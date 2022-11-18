@@ -98,3 +98,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 ## Housekeeping
 
 -   The web version of the Roundup got updated to the new Ghost version, and you can now get an outline of each post on the left-hand side or top depending on how big your screen is. This should make it easier to jump to sections you care more about. If you're getting this as an email, you can always click the "view online" button at the top of the email to get the outline view. Here's a link to [last week's edition](https://www.obsidianroundup.org/2022-07-02/) so you don't have to scroll up if you want to test it out.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-07-09%20Dashboards%20%26%20Tips%20for%20Students%2C%20Studying%20%26%20Sales.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-07-09%20Dashboards%20%26%20Tips%20for%20Students%2C%20Studying%20%26%20Sales.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

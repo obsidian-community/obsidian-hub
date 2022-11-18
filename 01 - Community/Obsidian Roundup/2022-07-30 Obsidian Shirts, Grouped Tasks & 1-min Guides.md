@@ -97,3 +97,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 ## Housekeeping
 
 -   The Roundup now has over 6,000 members 🤯 I hope you all find it useful 💚 We're officially moved over to the new Ghost version and I think everything is stable, but let me know if you run into any issues, especially if you're one of the folks who tends to read the web version and not get the emails.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-07-30%20Obsidian%20Shirts%2C%20Grouped%20Tasks%20%26%201-min%20Guides.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-07-30%20Obsidian%20Shirts%2C%20Grouped%20Tasks%20%26%201-min%20Guides.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

@@ -96,3 +96,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 ## Housekeeping
 
 -   The supporters-only live event went well! Among other things, we had a nice discussion about how individual successes benefit human communities, based on this piece about how [risky food-finding strategies might be the key to human success](https://archaeologynewsnetwork.blogspot.com/2022/01/risky-food-finding-strategy-could-be.html), which nicely complements this article about [how kangaroo hunting relates to the decision to pursue high-risk/high-gain resources](https://royalsocietypublishing.org/doi/10.1098/rspb.2013.1210). Unfortunately, I got so caught up in chatting that I forgot to ask if people minded if I recorded. That said, my son is shifting to full day daycare on Monday, so in the future I should be able to pick times that are a little more forgiving to folks farther west than New York, heh.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-06-11%20API%20changes%20%26%20new%20public%20vaults.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-06-11%20API%20changes%20%26%20new%20public%20vaults.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

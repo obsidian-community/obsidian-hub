@@ -88,3 +88,9 @@ _If you want a more comprehensive list of what plugins updated this week, check 
 ## Housekeeping
 
 I'm going to be out of town with just an iPad for two weeks in August, which will impact the Roundup to various degrees. Although editions will still come out, they may be limited to priority updates. Also, if I'm slower to respond to emails, that's a big reason for why.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-07-23%20Boolean%20Task%20Queries%20%26%20Improved%20Sidebar%20Controls.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-07-23%20Boolean%20Task%20Queries%20%26%20Improved%20Sidebar%20Controls.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

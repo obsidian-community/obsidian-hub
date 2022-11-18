@@ -93,3 +93,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 
 -   Here's a neat tool that lets you [link to arbitrary text fragments](https://github.com/GoogleChromeLabs/link-to-text-fragment) on a website.
 -   Here's a [markdown editor called MarkText](https://github.com/marktext/marktext) that is apparently a FOSS alternative to Typora.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-06-18%20Breaking%20Changes%20%26%20Dataview%20API%20Upgrades.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-06-18%20Breaking%20Changes%20%26%20Dataview%20API%20Upgrades.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

@@ -103,3 +103,9 @@ Welcome to all the 200 or so new folks who signed up for the Obsidian Roundup in
 I'll send another longform piece of insights about my Obsidian usage to financial supporters on the third Thursday of every month, but in the meantime, this is the "regularly scheduled" content. As soon as I get my newsletter host (Ghost) upgraded to the new version 5.0, you'll be able to opt out of the Obsidian updates and just get the longform essays, if that's your preference.
 
 Enjoy the rest of your weekend!
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-06-25%20Popping%20out%20Plugins%20%26%20Calendar%20Imports.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-06-25%20Popping%20out%20Plugins%20%26%20Calendar%20Imports.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

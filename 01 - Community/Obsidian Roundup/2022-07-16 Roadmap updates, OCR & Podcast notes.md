@@ -111,3 +111,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 ## Housekeeping
 
 -   It's official; I'm headed back to work in August. My first day is August 15, and students return on the 29th. I'll be teaching 11th grade World History, which is a pretty good fit for my interests and skills and better than I was afraid I'd get. It will be fun figuring out how to best use Obsidian to learn a new content area while working in a field where I have to collaborate using Office and Google products, for varying measures of fun. The Obsidian Roundup itself will continue as normal, but I will by necessity be somewhat less active on social media going forward.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-07-16%20Roadmap%20updates%2C%20OCR%20%26%20Podcast%20notes.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-07-16%20Roadmap%20updates%2C%20OCR%20%26%20Podcast%20notes.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

@@ -115,3 +115,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 -   Ghost (my newsletter host) updated to 5.0 this week. I'm probably going to hold off updating until they make it to 5.1, but if you see anything weird this month please let me know.
 -   Speaking of Ghost updates, we just hit 5,000 members even after list cleanup and removing inactive folks, which means another pricing increase for Ghost Pro. If you ever wondered why I ask for financial support to run this newsletter, go move [the slider on the Ghost Pro pricing page](https://ghost.org/pricing/) to "8,000" for the "Creator" tier and remember [what happened the last time I tried to self-host the newsletter to save money](https://www.obsidianroundup.org/billing-error-aka-the-saga-of-eleanors-corrupted-ghost-databases/).
 -   In that vein, I'll be hosting another "5x8 Event" for financial supporters on June 9. Save the date, but next week I'll send out a formal invite and more information. Generally folks bring an article we liked enough to take notes on, and discuss it. It's an index card reference, but mostly refers to 5 people sharing their thing for 8 minutes each. The last one was really fun!
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-05-28%20Demo%20Vaults%2C%20PKM%20History%2C%20%26%20an%20editable%20graph%20view.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-05-28%20Demo%20Vaults%2C%20PKM%20History%2C%20%26%20an%20editable%20graph%20view.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

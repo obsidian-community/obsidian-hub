@@ -87,3 +87,9 @@ _If you want a comprehensive list of what plugins updated this week, check out t
 ## Housekeeping
 
 It's a holiday weekend in the States and I'm going to be on vacation until Monday night. I'll have minimal access to internet, and uncharacteristically I have a stack of emails from this week I haven't had a chance to reply to. I'll try to catch up by the end of next week, but if you try to reach out and I don't reply with my usual speed, that's why 😅
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-07-02%20Bionic%20Reading%2C%20Improved%20Popout%20Windows%2C%20%26%20Better%20Databases.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-07-02%20Bionic%20Reading%2C%20Improved%20Popout%20Windows%2C%20%26%20Better%20Databases.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

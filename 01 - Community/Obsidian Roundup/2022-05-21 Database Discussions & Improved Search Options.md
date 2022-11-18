@@ -106,3 +106,9 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 
 -   If anyone had questions I didn't get a chance to answer during my presentation about taking notes without plugins or themes during the LYT Conference, check out [this thread](https://twitter.com/EleanorKonik/status/1526653928485560321) on Twitter.
 -   My article about [notes bound by time and location](https://www.obsidianroundup.org/on-notes-bound-by-time-and-location/) was sent to financial supporters this week. It's about the importance of being specific, aware of your biases, keeping track of your sources, and breaking down information into its component parts for easier remixing.
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-05-21%20Database%20Discussions%20%26%20Improved%20Search%20Options.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-05-21%20Database%20Discussions%20%26%20Improved%20Search%20Options.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
