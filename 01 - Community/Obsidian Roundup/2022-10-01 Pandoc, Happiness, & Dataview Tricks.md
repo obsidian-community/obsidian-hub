@@ -89,9 +89,3 @@ I agreed this week to do some part time work for them as a quality assurance spe
 
 In fact, during the hiring process they made sure to emphasize that this is not a community management / marketing position and they aren't trying to "buy" any influence over the Roundup or pull me away from the work I currently do in the Obsidian community. I'm going to continue mentioning Readwise's competitors here, along with everything else I think is relevant to the community. That said, it does mean I'll be appending a little conflict-of-interest disclaimer thing to all future mentions of Readwise in the Roundup. It also means I'll be learning more about other notetaking apps, which should be interesting 😅
 
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-10-01%20Pandoc%2C%20Happiness%2C%20%26%20Dataview%20Tricks.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-10-01%20Pandoc%2C%20Happiness%2C%20%26%20Dataview%20Tricks.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

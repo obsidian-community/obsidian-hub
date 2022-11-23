@@ -91,9 +91,3 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 
 * There is an unofficial Chrome extension for Obsidian that allows you to [create or add to existing entries in your notes](https://chrome.google.com/webstore/detail/obsidian-web/edoacekkjanmingkbkgjndndibhkegad) with information you've found online in your browser. It uses the "Local REST API" plugin, which is also helpful for automations.
 * [nb](https://xwmx.github.io/nb/) is a command line and local web note‑taking, bookmarking, archiving, and knowledge base application with pretty good compatibility with Obsidian as far as I can tell. If you decide to try it out, let me know how you liked it!
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-10-15%20Obsidian%20Out%20of%20Beta%2C%20Obsidian%20October%20Extended.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-10-15%20Obsidian%20Out%20of%20Beta%2C%20Obsidian%20October%20Extended.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
