@@ -8,7 +8,10 @@ publish: true
 # 2022-11-12: Stable Diffusion, Clean Dashboards and 2022 Workflows
 A new social media instance for personal knowledge management & a theme to bring back old-style Obsidian.
 
-💎Eleanor got Lasik on Thursday so she's trying to take it easy this weekend. This issue was guest edited by [Curtis McHale](https://curtismchale.ca).## In The Community
+
+> Eleanor got Lasik on Thursday so she's trying to take it easy this weekend. This issue was guest edited by [Curtis McHale](https://curtismchale.ca).
+
+## In The Community
 
 _Note: a bunch of great things happen in Discord every week, but the links require you to be logged in to [the community server](https://obsidian.md/community) and generally launch in the browser version of Discord unless you paste them into your app directly. Sorry!_ 
 
@@ -97,9 +100,3 @@ _If you want a comprehensive list of what plugins updated this week, check out t
 
 ## 
 
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-11-12%20Stable%20Diffusion%2C%20Clean%20Dashboards%20and%202022%20Workflows.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-11-12%20Stable%20Diffusion%2C%20Clean%20Dashboards%20and%202022%20Workflows.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

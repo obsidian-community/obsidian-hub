@@ -88,9 +88,3 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 
 I had a day off work so I took some time to write down an article for Obsidian October comprehensively covering how I take notes. I've done a couple of explanatory videos but hadn't had anything up to date and written out to point people to for awhile. Unfortunately, I didn't finish it yet, since it's about 5,000 words and growing 🙈 but here's [the twitter thread in which I shared some sneak peeks while I wrote it](https://twitter.com/EleanorKonik/status/1577644860357713922). 
 
-
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-10-08%20PDF%20Indexing%20%26%20Live%20Preview%20Table%20Edits.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-10-08%20PDF%20Indexing%20%26%20Live%20Preview%20Table%20Edits.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
