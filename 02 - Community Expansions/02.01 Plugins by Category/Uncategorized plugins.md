@@ -351,7 +351,7 @@ Plugins which have not yet been categorized by the community.
 - [[list-style|Ordered List Style]]
 - [[obsidian-trash-explorer|Trash Explorer]]
 - [[vika-sync|Vika Sync]]
-- [[obsidian-new-note-new-window|Sample Plugin]]
+- [[obsidian-new-note-new-window|New Note New Window]]
 - [[obsidian-awesome-flashcard|Awesome Flashcard]]
 - [[obsidian-daily-note-outline|Daily Note Outline]]
 - [[obsidian-colorful-tag|Colorful Tag]]
@@ -366,6 +366,9 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian42-strange-new-worlds|Obsidian42 - Strange New Worlds]]
 - [[obsidian-dynbedded|Dynbedded]]
 - [[copy-document-as-html|Copy document as HTML]]
+- [[obsidian-chorded-hotkeys|Chorded Hotkeys]]
+- [[obsidian-dirtreeist|Dirtreeist]]
+- [[obsidian-handlebars|Obsidian Handlebars Template Plugin]]
 
 
 %% Hub footer: Please don't edit anything below this line %%
