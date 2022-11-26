@@ -8,7 +8,10 @@ publish: true
 # 2022-11-12: Stable Diffusion, Clean Dashboards and 2022 Workflows
 A new social media instance for personal knowledge management & a theme to bring back old-style Obsidian.
 
-💎Eleanor got Lasik on Thursday so she's trying to take it easy this weekend. This issue was guest edited by [Curtis McHale](https://curtismchale.ca).## In The Community
+
+> Eleanor got Lasik on Thursday so she's trying to take it easy this weekend. This issue was guest edited by [Curtis McHale](https://curtismchale.ca).
+
+## In The Community
 
 _Note: a bunch of great things happen in Discord every week, but the links require you to be logged in to [the community server](https://obsidian.md/community) and generally launch in the browser version of Discord unless you paste them into your app directly. Sorry!_ 
 

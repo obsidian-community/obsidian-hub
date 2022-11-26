@@ -89,6 +89,8 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2022-10-29 Supercharged tags & a new Zotero integration|2022-10-29 Supercharged tags & a new Zotero integration]]
 -  [[01 - Community/Obsidian Roundup/2022-11-05 Email Fetching, Fancy Templating & Improved Longform Writing|2022-11-05 Email Fetching, Fancy Templating & Improved Longform Writing]]
 -  [[01 - Community/Obsidian Roundup/2022-11-12 Stable Diffusion, Clean Dashboards and 2022 Workflows|2022-11-12 Stable Diffusion, Clean Dashboards and 2022 Workflows]]
+-  [[01 - Community/Obsidian Roundup/2022-11-19 Doom! & Scrollable Daily Notes|2022-11-19 Doom! & Scrollable Daily Notes]]
+-  [[01 - Community/Obsidian Roundup/2022-11-26 Weekly Reviews, Zen Mode, & Aggregation|2022-11-26 Weekly Reviews, Zen Mode, & Aggregation]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
