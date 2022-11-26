@@ -49,16 +49,16 @@ A more convenient way to create a task is by using the `Tasks: Create or edit` c
 
 *All screenshots assume the global filter `#task` which is not set by default (see also "Getting Started").*
 
-![ACME Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/acme.png)
+![ACME Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/gh-pages/docs/images/acme.png)
 The `ACME` note has some tasks.
 
-![Important Project Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/important_project.png)
+![Important Project Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/gh-pages/docs/images/important_project.png)
 The `Important Project` note also has some tasks.
 
-![Tasks Queries](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/tasks_queries.png)
+![Tasks Queries](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/gh-pages/docs/images/tasks_queries.png)
 The `Tasks` note gathers all tasks from the vault and displays them using queries.
 
-![Create or Edit Modal](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/main/resources/screenshots/modal.png)
+![Create or Edit Modal](https://github.com/obsidian-tasks-group/obsidian-tasks/raw/gh-pages/docs/images/modal.png)
 The `Tasks: Create or edit` command helps you when editing a task.
 
 %% Hub footer: Please don't edit anything below this line %%
