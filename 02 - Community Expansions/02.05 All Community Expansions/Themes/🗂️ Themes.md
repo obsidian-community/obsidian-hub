@@ -15,6 +15,7 @@ publish: true
 %% Hub MOCs: Don’t edit below  %%
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/80s Neon|80s Neon]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/AbsoluteGruv|AbsoluteGruv]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Adwaita|Adwaita]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Agora|Agora]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Al Dente|Al Dente]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Alchemy|Alchemy]]
@@ -93,6 +94,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mado 11|Mado 11]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mado Miniflow|Mado Miniflow]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mammoth|Mammoth]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Material Ocean|Material Ocean]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Micro Mike|Micro Mike]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal|Minimal]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Modern Dark|Modern Dark]]
@@ -160,6 +162,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/WilcoxOne|WilcoxOne]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Willemstad|Willemstad]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/WiseLight|WiseLight]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/WY Console|WY Console]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wyrd|Wyrd]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yin and Yang|Yin and Yang]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Zenburn|Zenburn]]
