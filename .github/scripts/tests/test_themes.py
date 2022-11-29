@@ -1,4 +1,5 @@
 import contextlib
+import io
 import os
 import sys
 import typing
@@ -86,7 +87,7 @@ def verify_theme_data(theme_name: str) -> None:
 @contextlib.contextmanager
 def silence_stdout() -> typing.Iterator[None]:
     original_stdout = sys.stdout
-    sys.stdout = None
+    sys.stdout = io.StringIO()
     yield
     sys.stdout = original_stdout
     None
