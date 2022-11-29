@@ -14,7 +14,7 @@ publish: true
 ## Plugins in this category
 
 {% for item in plugins %}
-- [[{{ item.id }}|{{ item.name }}]]
+- [[{{ item.id }}|{{ item.name }}]]: {{ item.description }}
 {% endfor %}
 
 {% if related %}

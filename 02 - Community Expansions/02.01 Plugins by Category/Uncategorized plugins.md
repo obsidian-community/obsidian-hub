@@ -13,362 +13,362 @@ Plugins which have not yet been categorized by the community.
 
 ## Plugins in this category
 
-- [[recent-files-obsidian|Recent Files]]
-- [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]]
-- [[code-block-copy|Copy button for code blocks]]
-- [[workbench-obsidian|Workbench]]
-- [[obsidian-apply-patterns|Apply Patterns]]
-- [[copy-note|Enhance Copy Note]]
-- [[customizable-menu|Customizable Menu]]
-- [[simple-embeds|Simple Embeds]]
-- [[obsidian-read-it-later|ReadItLater]]
-- [[obsidian-itinerary|Itinerary]]
-- [[update-time-on-edit|Update time on edit]]
-- [[obsidian-local-images|Local images]]
-- [[obsidian-vocabulary-view|Vocabulary View]]
-- [[obsidian42-brat|Obsidian42 - BRAT]]
-- [[snippet-commands-obsidian|Snippet Commands]]
-- [[key-promoter|Key Promoter]]
-- [[obsidian-livesync|Self-hosted LiveSync]]
-- [[lumberjack-obsidian|Lumberjack 🪓 🪵]]
-- [[mysnippets-plugin|MySnippets]]
-- [[meld-calc|Meld Calc]]
-- [[tabout|Tabout]]
-- [[quote-of-the-day|Quote of the Day]]
-- [[obsidian-audio-speed-plugin|Audio Speed Plugin]]
-- [[obsidian-limelight|Limelight]]
-- [[prompt|Prompt]]
-- [[stenography-obsidian|Stenography]]
-- [[obsidian-oura-plugin|Oura Ring]]
-- [[obsidian-metacopy|Metacopy]]
-- [[obsidian-image-caption|Image Caption]]
-- [[obsidian-custom-attachment-location|Custom Attachment Location]]
-- [[cryptsidian|Cryptsidian]]
-- [[obsidian-crypto-lookup|Crypto Lookup]]
-- [[obsidian-auto-split|Auto Split]]
-- [[obsidian-word-sprint|Word Sprint]]
-- [[copy-publish-url|Publish and GitHub URL]]
-- [[obsidian-bible-reference|Bible Reference]]
-- [[obsidian-sentence-navigator|Sentence Navigator]]
-- [[language-translator|Language Translator]]
-- [[auto-class|Auto Class]]
-- [[obsidian-cloudinary-uploader|Obsidian Cloudinary Uploader]]
-- [[rss-reader|RSS Reader]]
-- [[mousewheel-image-zoom|Mousewheel Image zoom]]
-- [[obsidian-lineup-builder|Lineup Builder]]
-- [[obsidian-structured-plugin|Structured Plugin]]
-- [[cooklang-obsidian|CookLang Editor]]
-- [[highlightr-plugin|Highlightr]]
-- [[remotely-save|Remotely Save]]
-- [[obsidian-notes-from-template|From Template]]
-- [[obsidian-dialogue-plugin|Dialogue]]
-- [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]
-- [[obsidian-theme-design-utilities|Theme Design Utilities]]
-- [[image-window|Second Window]]
-- [[obsidian-tts|Text to Speech]]
-- [[link-favicon|Link Favicons]]
-- [[get-info-plugin|Get Info]]
-- [[matter|Matter]]
-- [[obsidian-regex-replace|Regex Find/Replace]]
-- [[obsidian-wordpress|WordPress]]
-- [[obsidian-icon-shortcodes|Icon Shortcodes]]
-- [[obsidian-advanced-slides|Advanced Slides]]
-- [[obsidian-emotion-picker|Emotion Picker]]
-- [[quoth|Quoth]]
-- [[obsidian-metronome-plugin|Metronome]]
-- [[obsidian-plaintext|Plaintext]]
-- [[obsidian-native-scrollbars|Native Scrollbars]]
-- [[obsidian-wrap-with-shortcuts|Wrap with shortcuts]]
-- [[obsidian-tomorrows-daily-note|Tomorrow's Daily Note]]
-- [[obsidian-rant|Rant-Lang]]
-- [[obsidian-timestamper|TimeStamper]]
-- [[obsidian-import-json|JSON/CSV Importer]]
-- [[import-foundry|Import Foundry VTT journal entries]]
-- [[obsidian-attachment-name-formatting|Attachment Name Formatting]]
-- [[obsidian-completr|Completr]]
-- [[obsidian-binary-file-manager-plugin|Binary File Manager]]
-- [[obsidian-local-file-interface-plugin|Local File Interface]]
-- [[obsidian-siteswap|Siteswap]]
-- [[obsidian-tweaks|ObsidianTweaks]]
-- [[obsidian-wordle|Wordle]]
-- [[obsidian-memos|Obsidian Memos]]
-- [[para-shortcuts|PARA Shortcuts]]
-- [[13th-age-statblocks|13th Age Statblocks]]
-- [[obsidian-dynamic-highlights|Dynamic Highlights]]
-- [[obsidian-koreader-plugin|KOReader Highlights]]
-- [[obsidian-snippetor|Snippetor]]
-- [[obsidian-sortable|Sortable]]
-- [[link-info-server|Link Server]]
-- [[weather-fetcher|Weather Fetcher]]
-- [[obsidian-lock-screen-plugin|Lock Screen]]
-- [[pinboard-sync|Pinboard Sync]]
-- [[obsidian-shortcut-launcher|Shortcut Launcher]]
-- [[obsidian-file-info-plugin|File Info Panel]]
-- [[obsidian-topic-linking|Topic Linking]]
-- [[multi-column-markdown|Multi-Column Markdown]]
-- [[copy-as-html|Copy as HTML]]
-- [[simple-note-quiz|Simple Note Quiz]]
-- [[obsidian-local-rest-api|Local REST API]]
-- [[obsidian-codeblock-labels|Code Block Labels]]
-- [[obsidian-better-command-palette|Better Command Palette]]
-- [[obsidian-relativenumber|Relativenumber (relative line numbers)]]
-- [[obsidian-save-as-gist|Save as Gist]]
-- [[obsidian-divide-and-conquer|Divide & Conquer]]
-- [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]
-- [[auto-note-mover|Auto Note Mover]]
-- [[insert-heading-link|Insert Heading Link]]
-- [[settings-search|Settings Search]]
-- [[obsidian-footnote-indicator|Footnote & Citation Indicator]]
-- [[alx-folder-note-folderv|AidenLx's Folder Note - folderv component]]
-- [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]
-- [[sekund|Sekund]]
-- [[obsidian-command-palette-minus-plugin|Command Palette--]]
-- [[obsidian-remember-file-state|Remember File State]]
-- [[markdown-shortcuts|Markdown shortcuts]]
-- [[digitalgarden|Digital Garden]]
-- [[obsidian-daily-notes-opener|Daily notes opener]]
-- [[obsidian-advanced-new-folder|Advanced new folder]]
-- [[obsidian-mark-and-select|Mark and Select]]
-- [[obsidian-bible-linker|Bible Linker]]
-- [[obsidian-circuitjs|Obsidian CircuitJS]]
-- [[creases|Creases]]
-- [[obsidian-kobo-highlights-importer-plugin|Kobo Highlights Importer]]
-- [[obsidian-dynamic-embed|Dynamic Embed]]
-- [[obsidian-steemit|Steemit]]
-- [[obsidian-kindle-export|Kindle]]
-- [[obsidian-textgenerator-plugin|Text Generator]]
-- [[markdown-table-editor|Markdown Table Editor]]
-- [[obsidian-file-cleaner|File Cleaner]]
-- [[obsidian-card-view-switcher-plugin|Card View Switcher]]
-- [[novel-word-count|Novel word count]]
-- [[heycalmdown-navigate-cursor-history|Navigate Cursor History]]
-- [[obsidian-matrix|Obsidian matrix]]
-- [[waypoint|Waypoint]]
-- [[obsidian-hover-editor|Hover Editor]]
-- [[obsidian-screwdriver|Screwdriver]]
-- [[obsidian-version-history-diff|Version History Diff]]
-- [[obsidian-format-code|Format code]]
-- [[obsidian-buttondown-plugin|Buttondown]]
-- [[lapel|Lapel]]
-- [[obsidian-desmos|Desmos]]
-- [[obsidian-custom-frames|Custom Frames]]
-- [[obsidian-etherpad-plugin|Etherpad]]
-- [[obsidian-quiet-outline|Quiet Outline]]
-- [[obsidian-daily-notes-viewer|Daily Notes Viewer]]
-- [[obsidian-zotero-desktop-connector|Zotero Integration]]
-- [[obsidian-telegraph-publish|Telegraph Publish]]
-- [[obsidian-path-title|Path Title]]
-- [[obsidian-jira-issue|Jira Issue]]
-- [[smort-obsidian|Smort]]
-- [[control-characters|Control Characters]]
-- [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]
-- [[fleeting-notes-obsidian|Fleeting Notes Sync]]
-- [[obsidian-chat-view|Chat View]]
-- [[obsidian-doubleshift|Doubleshift]]
-- [[obsidian-list-modified|List Modified]]
-- [[obsidian-latex-suite|Latex Suite]]
-- [[obsidian-better-codeblock|Better CodeBlock]]
-- [[obsidian-wordnik|Wordnik Definitions]]
-- [[typing-speed|Typing speed]]
-- [[obsidian-google-tasks|Google Tasks]]
-- [[obsidian-jtab|Obsidian jTab]]
-- [[obsidian-book-search-plugin|Book Search]]
-- [[obsidian-paste-image-rename|Paste image rename]]
-- [[obsidian-scroll-offset|Scroll Offset]]
-- [[obsius-publish|Obsius Publish]]
-- [[obsidian-snippet-downloader|Snippet Downloader]]
-- [[execute-code|Execute Code]]
-- [[obsidian-badge|Obsidian Badge]]
-- [[kr-book-info-plugin|KoreanBook Info Plugin]]
-- [[obsidian-drag-n-drop-plugin|Drag-n-Drop for blocks]]
-- [[obsidian-link-embed|Link Embed]]
-- [[obsidian-columns|Obsidian Columns]]
-- [[obsidian-mkdocs-publisher|Github Publisher]]
-- [[obsidian-notion-video|Notion Video]]
-- [[obsidian-math-plus|Obsidian Math+]]
-- [[obsidian-todoist-link|Todoist Link]]
-- [[obsidian-rewarder|Rewarder]]
-- [[obsidian-calibre-plugin|Calibre]]
-- [[omnisearch|Omnisearch]]
-- [[plugins-galore|Plugins Galore]]
-- [[auto-card-link|Auto Card Link]]
-- [[notion-like-tables|Notion-Like Tables]]
-- [[auto-moc|AutoMOC]]
-- [[obsidian-paste-png-to-jpeg|Paste image Png to Jpeg]]
-- [[obsidian-folder-index|Folder Index]]
-- [[obsidian-filename-emoji-remover|Filename Emoji Remover]]
-- [[obsidian-epub-plugin|ePub Reader]]
-- [[obsidian-pandoc-reference-list|Pandoc Reference List]]
-- [[obsidian-enhancing-export|Obsidian Enhancing Export]]
-- [[enlightenment-obsidian|Enlightenment ✨]]
-- [[obsidian-release-timeline|Release Timeline]]
-- [[obsidian-folder-focus-mode|Folder Focus Mode]]
-- [[obsidian-bbcode|BBCode Convertor]]
-- [[obsidian-upcoming|Upcoming]]
-- [[nuke-orphans|Nuke Orphans]]
-- [[obsidian-front-matter-title-plugin|Front Matter Title]]
-- [[obsidian-bellboy|Bellboy]]
-- [[obsidian-functionplot|Obsidian Functionplot]]
-- [[obsidian-note-autocreator|Note Auto Creator]]
-- [[local-quotes|Local Quotes]]
-- [[obsidian-state-switcher|Yaml Manager]]
-- [[obsidian-media-db-plugin|Media DB Plugin]]
-- [[obsidian-sequence-hotkeys|Sequence Hotkeys]]
-- [[tasks-packrat-plugin|Packrat]]
-- [[excalibrain|ExcaliBrain]]
-- [[obsidian-expand-bullet|Expand Bullet]]
-- [[dbfolder|DB Folder]]
-- [[obsidian-advanced-codeblock|Advanced Codeblock]]
-- [[booksidian-plugin|Booksidian]]
-- [[simple-dice-roller|Simple Dice Roller]]
-- [[obsidian-camera|Obsidian Camera]]
-- [[obsidian-markbase|Markbase for Obsidian]]
-- [[obsidian-user-plugins|User Plugins]]
-- [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]
-- [[obsidian-ghost-publish|Obsidian Ghost Publish]]
-- [[obsidian-timestamp-notes|Timestamp Notes]]
-- [[linkify|Linkify]]
-- [[braincache|braincache]]
-- [[obsidian-share-as-gist|Share as Gist]]
-- [[code-block-plugin|Code Block]]
-- [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]
-- [[obsidian-stack-overflow|Stack Overflow Answers]]
-- [[obsidian-redirect|Redirect]]
-- [[zotero-bridge|Zotero Bridge]]
-- [[wielder|Wielder]]
-- [[obsidian-to-notion|Obsidian shared to Notion]]
-- [[obsidian-image-gallery|Image Gallery]]
-- [[obsidian-thumbnails|Thumbnails]]
-- [[obsidian-table-to-csv-exporter|Table to CSV Exporter]]
-- [[obsidian-task-progress-bar|Task Progress Bar]]
-- [[scroll-speed|Scroll Speed]]
-- [[obsidian-translator|Translator]]
-- [[obsidian-echarts|obsidian echarts]]
-- [[obsidian-diagrams-net|Diagrams.net]]
-- [[obsidian-weread-plugin|Weread Plugin]]
-- [[postgresql-obsidian|PostgreSQL Obsidian]]
-- [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]
-- [[zotero-link|Zotero Link]]
-- [[obsidian-golinks|Obsidian GoLinks]]
-- [[habit-tracker|Habit Tracker]]
-- [[typing-transformer-obsidian|Typing Transformer]]
-- [[obsidian-list-callouts|List Callouts]]
-- [[obsidian-text-expander-js|Inline Scripts]]
-- [[metadata-menu|Metadata Menu]]
-- [[obsidian-plugin-time-diff|TimeDiff plugin]]
-- [[obsidian-trim-whitespace|Trim Whitespace]]
-- [[ninja-cursor|Ninja Cursor]]
-- [[cmdr|Commander]]
-- [[obsidian-attendance|Obsidian Attendance]]
-- [[OA-file-hider|File Hider]]
-- [[obsidian-sidebar-toggler|Sidebar Toggler]]
-- [[obsidian-path-finder|Path Finder]]
-- [[obsidian-focus-plugin|Focus and Highlight]]
-- [[obsidian-file-cooker|File Cooker]]
-- [[hard-breaks|Hard Breaks]]
-- [[open-related-url|Open Related Url]]
-- [[podnotes|PodNotes]]
-- [[obsidian-meeting-notes|Meeting notes]]
-- [[obsidian-plugin-tagged-documents-viewer|Tagged Documents Viewer]]
-- [[better-inline-fields|Better Inline Fields]]
-- [[no-dupe-leaves|No dupe leaves]]
-- [[obsidian-open-file-by-magic-date|Open File by Magic Date]]
-- [[obsidian-heading-shifter|Heading Shifter]]
-- [[obsidian-group-snippets|Group Snippets]]
-- [[obsidian-raindrop-highlights|Raindrop Highlights]]
-- [[obisidian-note-linker|Note Linker]]
-- [[obsidian-dashing-cursor|Dashing cursor]]
-- [[obsidian-embedded-note-paths|Embedded Note Paths]]
-- [[obsidian-quickshare|QuickShare]]
-- [[rpg-manager|RPG Manager]]
-- [[literate-haskell|Literate Haskell]]
-- [[embed-code-file|Embed Code File]]
-- [[obsidian-bulk-rename-plugin|Bulk Rename]]
-- [[obsidian-agile-task-notes|Agile Task Notes]]
-- [[new-tab-default-page|Default New Tab Page]]
-- [[obsidian-open-in-other-editor|Open in other editor]]
-- [[obsidian-simple-mention|Simple Mention]]
-- [[obsidian-auto-hide|Auto Hide]]
-- [[janitor|Janitor]]
-- [[script-launcher|Script Launcher]]
-- [[obsidian-party|Party🎉]]
-- [[obsidian-day-and-night|Day and Night]]
-- [[obsidian-tikzjax|TikZJax]]
-- [[todoist-completed-tasks-plugin|Todoist completed tasks]]
-- [[quick-snippets-and-navigation|Quick snippets and navigation]]
-- [[google-calendar|Google Calendar]]
-- [[obsidian-copy-search-url|Copy Search URL]]
-- [[simple-time-tracker|Super Simple Time Tracker]]
-- [[blockquote-levels|Blockquote Levels]]
-- [[obsidian-system-theme|System Theme]]
-- [[custom-sort|Custom File Explorer sorting]]
-- [[obsidian-table-generator|Table Generator]]
-- [[aosr|Aosr]]
-- [[obsidian-meta-bind-plugin|Meta Bind Plugin]]
-- [[microblog-publish-plugin|Micro.publish]]
-- [[obsidian-sakana-widget|Sakana Widget]]
-- [[obsidian-min-width|Min Width]]
-- [[onyx-boox-extractor|Onyx Boox Annotation & Highlight Extractor]]
-- [[chronology|Chronology]]
-- [[duplicate-line|Duplicate Line]]
-- [[obsidian-toggle-list|ToggleList]]
-- [[squiggle|Squiggle]]
-- [[obsidian-theme-toggler|Theme Toggler]]
-- [[influx|Influx]]
-- [[obsidian-week-planner|Week Planner]]
-- [[obsidian-html-plugin|HTML Reader]]
-- [[dynamic-rtl|Dynamic RTL]]
-- [[mathlinks|MathLinks]]
-- [[note-synchronizer|Note Synchronizer]]
-- [[url-namer|URL Namer]]
-- [[obsidian-douban-plugin|Douban]]
-- [[insert-unsplash-image|Image Inserter]]
-- [[keyboard-analyzer|Keyboard Analyzer]]
-- [[obsidian-plugin-update-tracker|Plugin Update Tracker]]
-- [[update-relative-links|Update Relative Links]]
-- [[readavocado-sync|Readavocado Sync]]
-- [[repeat-plugin|Repeat]]
-- [[actions-uri|Actions URI]]
-- [[obsidian-projects|Projects]]
-- [[obsidian-dynamic-background|Dynamic Background]]
-- [[obsidian-note-content-pusher|Note Content Pusher]]
-- [[tag-summary-plugin|Tag Summary]]
-- [[obsidian-alias-from-heading|Alias from heading]]
-- [[obsidian-ocr|Obsidian OCR]]
-- [[obsidian-gitlab-issues|Gitlab Issues]]
-- [[obsidian-account-linker|Account Linker]]
-- [[symbols-prettifier|Symbols Prettifier]]
-- [[obsidian-mtg|Obsidian MtG]]
-- [[obsidian-markdown-file-suffix|Addional Markdown suffix (.mdx/.svx).]]
-- [[editing-toolbar|Editing Toolbar]]
-- [[floating-toc|floating toc]]
-- [[obsidian-checkbox3states-plugin|Checkbox 3 states]]
-- [[status-bar-quote|Status Bar Quote]]
-- [[qmd-as-md-obsidian|qmd as md]]
-- [[obsidian-to-flomo|Obsidian to Flomo]]
-- [[obsidian-things3-sync|Obsidian Things3 Sync]]
-- [[mathpad|Mathpad]]
-- [[list-style|Ordered List Style]]
-- [[obsidian-trash-explorer|Trash Explorer]]
-- [[vika-sync|Vika Sync]]
-- [[obsidian-new-note-new-window|New Note New Window]]
-- [[obsidian-awesome-flashcard|Awesome Flashcard]]
-- [[obsidian-daily-note-outline|Daily Note Outline]]
-- [[obsidian-colorful-tag|Colorful Tag]]
-- [[edit-gemini|Edit Gemini]]
-- [[obsidian-pretty-bibtex|Pretty BibTeX]]
-- [[frontmatter-links|Frontmatter Links]]
-- [[ava|Obsidian ava]]
-- [[obsidian-scroll-to-top-plugin|Scroll to Top Plugin]]
-- [[obsidian-old-note-admonitor|Old Note Admonitor]]
-- [[obsidian-export-image|Export Image plugin]]
-- [[page-gallery|Page Gallery]]
-- [[obsidian42-strange-new-worlds|Obsidian42 - Strange New Worlds]]
-- [[obsidian-dynbedded|Dynbedded]]
-- [[copy-document-as-html|Copy document as HTML]]
-- [[obsidian-chorded-hotkeys|Chorded Hotkeys]]
-- [[obsidian-dirtreeist|Dirtreeist]]
-- [[obsidian-handlebars|Obsidian Handlebars Template Plugin]]
+- [[recent-files-obsidian|Recent Files]]: List files by most recently opened
+- [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]]: Show syntax highlighing in code blocks the editor
+- [[code-block-copy|Copy button for code blocks]]: Copy button for code blocks
+- [[workbench-obsidian|Workbench]]: Keep a workbench of knowledge materials.
+- [[obsidian-apply-patterns|Apply Patterns]]: Apply custom patterns of find-and-replace in succession to text.
+- [[copy-note|Enhance Copy Note]]: Augments native Obsidian note copying.
+- [[customizable-menu|Customizable Menu]]: Allows you to add any command to Obsidian's right-click menu.
+- [[simple-embeds|Simple Embeds]]: Replaces links, like Twitter and YouTube, with embeds when previewing a file.
+- [[obsidian-read-it-later|ReadItLater]]: Saves the clipboard to a new notice.
+- [[obsidian-itinerary|Itinerary]]: Make planning your trip or event easier by rendering a calendar from event information found in your notes.
+- [[update-time-on-edit|Update time on edit]]: Keep front matter in sync with the last edit time
+- [[obsidian-local-images|Local images]]: Local Images plugin finds all links to external images in your notes, then downloads and saves images locally, and finally adjusts the image links in your notes to point to the saved image files.
+- [[obsidian-vocabulary-view|Vocabulary View]]: Write down some words with their explanations and preview them in a vocabulary test style
+- [[obsidian42-brat|Obsidian42 - BRAT]]: Easily install a beta version of a plugin for testing.
+- [[snippet-commands-obsidian|Snippet Commands]]: Registers custom css snippets as commands (which you can bind hotkeys to)
+- [[key-promoter|Key Promoter]]: Learn keyboard shortcuts by showing them when using the mouse
+- [[obsidian-livesync|Self-hosted LiveSync]]: Community implementation of self-hosted livesync. Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.
+- [[lumberjack-obsidian|Lumberjack 🪓 🪵]]: Log your thoughts! Lumberjack adds URL commands to help you axe inefficiency and get right to writing.
+- [[mysnippets-plugin|MySnippets]]: MySnippets is a plugin that adds a status bar menu allowing the user to quickly toggle their snippets on and off 🖌.
+- [[meld-calc|Meld Calc]]: Do math
+- [[tabout|Tabout]]: Easily "tab out" of Links or other Markdown Formatting Characters.
+- [[quote-of-the-day|Quote of the Day]]: Inserts random quotes in the editor
+- [[obsidian-audio-speed-plugin|Audio Speed Plugin]]: A simple plugin to change the playback rate of audio files during markdown preview.
+- [[obsidian-limelight|Limelight]]: Put a spotlight on your active pane
+- [[prompt|Prompt]]: Shows a random text prompt when triggered
+- [[stenography-obsidian|Stenography]]: Auto Describe your code with machine learning using the Stenography API
+- [[obsidian-oura-plugin|Oura Ring]]: Oura Ring
+- [[obsidian-metacopy|Metacopy]]: This is a plugin that copy the value of a frontmatter key and allowing to create link using various settings.
+- [[obsidian-image-caption|Image Caption]]: Add captions to images.
+- [[obsidian-custom-attachment-location|Custom Attachment Location]]: Customize attachment location with variables($filename, $data, etc) like typora.
+- [[cryptsidian|Cryptsidian]]: Encrypt all files in your Obsidian.md Vault with a password.
+- [[obsidian-crypto-lookup|Crypto Lookup]]: A plugin for Obsidian which uses the Cryptonator API to pull back prices for crypto in a target currency
+- [[obsidian-auto-split|Auto Split]]: Open notes with side-by-side editor & preview
+- [[obsidian-word-sprint|Word Sprint]]: Word Sprint for Obsidian plugin for your writing projects like Nanowrimo
+- [[copy-publish-url|Publish and GitHub URL]]: Copy or open the URL of the corresponding note on your Publish site. You can also open its Git commit history on GitHub.
+- [[obsidian-bible-reference|Bible Reference]]: Taking Bible Study note in Obsidian.md application easily. Automatically suggesting Bible Verses as references. 
+- [[obsidian-sentence-navigator|Sentence Navigator]]: Manipulate sentences as a unit of movement. Select, move and delete by whole sentences.
+- [[language-translator|Language Translator]]: Translates given text to desired language
+- [[auto-class|Auto Class]]: Automatically apply CSS classes to the markdown view based on a note's path and tags.
+- [[obsidian-cloudinary-uploader|Obsidian Cloudinary Uploader]]: This plugin uploads the images in your clipboard to Cloudinary as unsigned uploads
+- [[rss-reader|RSS Reader]]: Read RSS Feeds from within obsidian
+- [[mousewheel-image-zoom|Mousewheel Image zoom]]: This plugin enables you to increase/decrease the size of an image by scrolling
+- [[obsidian-lineup-builder|Lineup Builder]]: Build football lineups in Obsidian.
+- [[obsidian-structured-plugin|Structured Plugin]]: Structured plugin. Create hierarchy in notes using . 
+- [[cooklang-obsidian|CookLang Editor]]: Edit and display CookLang recipes in Obsidian
+- [[highlightr-plugin|Highlightr]]: A minimal and aesthetically pleasing highlighting menu that makes color-coded highlighting much easier with a configurable assortment of highlight colors 🎨.
+- [[remotely-save|Remotely Save]]: Yet another unofficial plugin allowing users to synchronize notes between local device and the cloud service.
+- [[obsidian-notes-from-template|From Template]]: Create new notes from Templates - for each Template, provides a Command to trigger it, and a form to fill in any variables in the template
+- [[obsidian-dialogue-plugin|Dialogue]]: Create dialogues in Markdown.
+- [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]: This plugin adds serial numbers to your markdown title.
+- [[obsidian-theme-design-utilities|Theme Design Utilities]]: Some Utilities and Quality-of-Life Features for Designers of Obsidian Themes.
+- [[image-window|Second Window]]: Allow images & notes to be viewed in new Obsidian windows.
+- [[obsidian-tts|Text to Speech]]: Text to speech for Obsidian. Hear your notes.
+- [[link-favicon|Link Favicons]]: See the favicon for a linked website. 
+- [[get-info-plugin|Get Info]]: Get Info is a plugin that tucks a menu inside your status bar and shows helpful information for your chosen file 📄.
+- [[matter|Matter]]: The official Matter <> Obsidian plugin
+- [[obsidian-regex-replace|Regex Find/Replace]]: Find and replace text using regular expressions.
+- [[obsidian-wordpress|WordPress]]: A plugin for publishing Obsidian documents to WordPress.
+- [[obsidian-icon-shortcodes|Icon Shortcodes]]: Insert emoji and custom icons with shortcodes
+- [[obsidian-advanced-slides|Advanced Slides]]: Create markdown-based presentations in Obsidian
+- [[obsidian-emotion-picker|Emotion Picker]]: A plugin for Obsidian.md that lets you choose an emotion from a list to insert into a note.
+- [[quoth|Quoth]]: More flexible embedding. Embed precise selections, inline embeds, optionally include author and title.
+- [[obsidian-metronome-plugin|Metronome]]: Add interactive metronomes to your notes.
+- [[obsidian-plaintext|Plaintext]]: Allow opening specified files as plaintext (RAW mode).
+- [[obsidian-native-scrollbars|Native Scrollbars]]: Enables native OS scrollbars throughout obsidian
+- [[obsidian-wrap-with-shortcuts|Wrap with shortcuts]]: Wrap selected text in custom tags with shortcuts. E.g.: underline, sub, ruby(フリガナ)
+- [[obsidian-tomorrows-daily-note|Tomorrow's Daily Note]]: An obsidian plugin that creates tomorrow's daily note for preemtive planning.
+- [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate
+- [[obsidian-timestamper|TimeStamper]]: Insert customized time/date stamp.
+- [[obsidian-import-json|JSON/CSV Importer]]: This plugin imports a JSON/CSV file (or text block) and creates notes from a Handlebars template file
+- [[import-foundry|Import Foundry VTT journal entries]]: Imports your journal entries from your selected Foundry VTT world into Obsidian.md
+- [[obsidian-attachment-name-formatting|Attachment Name Formatting]]: Obsidian plugin for formatting attachments name (filename attachmentType indexNumber.xxx)
+- [[obsidian-completr|Completr]]: This plugin provides advanced auto-completion functionality for LaTeX, Frontmatter and standard writing.
+- [[obsidian-binary-file-manager-plugin|Binary File Manager]]: Detects new binary files in the vault and create markdown files with metadata.
+- [[obsidian-local-file-interface-plugin|Local File Interface]]: Provides commands for moving files in and out of the vault
+- [[obsidian-siteswap|Siteswap]]: Visualize Juggling Pattern Siteswap via the JugglingLab gif server.
+- [[obsidian-tweaks|ObsidianTweaks]]: Adds some convenient tweaks including improved toggling and ergonomic commands
+- [[obsidian-wordle|Wordle]]: Creates a view where you can play Wordle. No longer actively maintained.
+- [[obsidian-memos|Obsidian Memos]]: A plugin for capturing ideas in Obsidian
+- [[para-shortcuts|PARA Shortcuts]]: This plugin serves usefull commands to setup and manage your knowledge using the PARA method.
+- [[13th-age-statblocks|13th Age Statblocks]]: Render 13th Age statblocks in Obsidian.
+- [[obsidian-dynamic-highlights|Dynamic Highlights]]: Dynamically highlight text based on cursor selection or search query with full regex, mobile, and live preview support
+- [[obsidian-koreader-plugin|KOReader Highlights]]: This is a plugin for Obsidian. This plugin syncs highlights and notes taken in KOReader.
+- [[obsidian-snippetor|Snippetor]]: Create and tweak common snippets (starting with custom tasks)
+- [[obsidian-sortable|Sortable]]: Wiki-like table sorting.
+- [[link-info-server|Link Server]]: This plugin will open a reverse proxy server at port 3333 to get wikiLink information Obsidian API.
+- [[weather-fetcher|Weather Fetcher]]: Fetch and insert current weather into the editor of Obsidian.
+- [[obsidian-lock-screen-plugin|Lock Screen]]: Protect your vault with a lock screen.
+- [[pinboard-sync|Pinboard Sync]]: Syncs Pinboard.in links with Daily Notes
+- [[obsidian-shortcut-launcher|Shortcut Launcher]]: Trigger shortcuts in Apple's Shortcuts app from Obsidian with custom commands.
+- [[obsidian-file-info-plugin|File Info Panel]]: Plugin for Obsidian that creates a File Information view that displays the active file's date created, date modified, file size, and links to open the file in its native application and to open the file's folder.  It also has writing statistics (character, word, sentence, and paragraph counts) and a word frequency analysis.
+- [[obsidian-topic-linking|Topic Linking]]: Convert PDF files and web links to Markdown, and create topics from Markdown
+- [[multi-column-markdown|Multi-Column Markdown]]: This plugin adds functionality to create markdown documents with multiple columns of content viewable within Obsidian's preview mode
+- [[copy-as-html|Copy as HTML]]: This is a simple plugin that converts the selected markdown to HTML and copies it to the clipboard.
+- [[simple-note-quiz|Simple Note Quiz]]: Start a simple quiz on your current note
+- [[obsidian-local-rest-api|Local REST API]]: Get, change or otherwise interact with your notes in Obsidian via a REST API.
+- [[obsidian-codeblock-labels|Code Block Labels]]: Adds labels to fenced code blocks
+- [[obsidian-better-command-palette|Better Command Palette]]: A command palette that does all of the things you want it to do.
+- [[obsidian-relativenumber|Relativenumber (relative line numbers)]]: Displays relative line numbers in the editor's gutter.
+- [[obsidian-save-as-gist|Save as Gist]]: Saving your current note as Gist on github
+- [[obsidian-divide-and-conquer|Divide & Conquer]]: Provides commands for bulk enabling/disabling of plugins. Useful for debugging when you have many plugins.
+- [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]: An Obsidian plugin to paste data from Microsoft Excel, Google Sheets, Apple Numbers and LibreOffice Calc as Markdown tables in Obsidian editor.
+- [[auto-note-mover|Auto Note Mover]]: Auto Note Mover will automatically move the active notes to their respective folders according to the rules.
+- [[insert-heading-link|Insert Heading Link]]: Add a Link to a Heading
+- [[settings-search|Settings Search]]: Globally search settings in Obsidian.md
+- [[obsidian-footnote-indicator|Footnote & Citation Indicator]]: Counts footnotes & Pandoc citations, indicates their presence in the gutter.
+- [[alx-folder-note-folderv|AidenLx's Folder Note - folderv component]]: Optional `folderv` Component for alx-folder-note
+- [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]: This plugin uploads the image in your clipboard to chevereto automatically when pasting.
+- [[sekund|Sekund]]: Share your notes. Gather feedback.
+- [[obsidian-command-palette-minus-plugin|Command Palette--]]: Command palette without unwanted commands
+- [[obsidian-remember-file-state|Remember File State]]: Remembers cursor position, selection, scrolling, and more for each file
+- [[markdown-shortcuts|Markdown shortcuts]]: Allows to write markdown from shortcuts (example: >h1 -> #).
+- [[digitalgarden|Digital Garden]]: Publish your notes to a digital garden for others to enjoy.
+- [[obsidian-daily-notes-opener|Daily notes opener]]: Easily open daily/periodic notes in new pane, and much more!
+- [[obsidian-advanced-new-folder|Advanced new folder]]: This is a plugin that creates a new folder anywhere you want in the vault
+- [[obsidian-mark-and-select|Mark and Select]]: More flexible ways to select texts in Obsidian Editor
+- [[obsidian-bible-linker|Bible Linker]]: Link multiple bible verses easily
+- [[obsidian-circuitjs|Obsidian CircuitJS]]: Integrating CircuitJS and Obsidian
+- [[creases|Creases]]: Tools for efficiently folding markdown sections in Obsidian
+- [[obsidian-kobo-highlights-importer-plugin|Kobo Highlights Importer]]: Import highlights from your Kobo device
+- [[obsidian-dynamic-embed|Dynamic Embed]]: Dynamicly interpreted inline embeds.
+- [[obsidian-steemit|Steemit]]: A plugin for publishing Obsidian documents to Steemit.
+- [[obsidian-kindle-export|Kindle]]: Send .md as .mobi to Kindle
+- [[obsidian-textgenerator-plugin|Text Generator]]: Text generation using OpenAI
+- [[markdown-table-editor|Markdown Table Editor]]: An Obsidian plugin to provide an editor for Markdown tables. It can open CSV, Microsoft Excel/Google Sheets data as Markdown tables from Obsidian Markdown editor.
+- [[obsidian-file-cleaner|File Cleaner]]: Help you to clean empty files and unused attachments in the vault.
+- [[obsidian-card-view-switcher-plugin|Card View Switcher]]: Quick switcher with card view
+- [[novel-word-count|Novel word count]]: Displays a word count (and more!) for each file, folder and vault in the File Explorer pane.
+- [[heycalmdown-navigate-cursor-history|Navigate Cursor History]]: This plugin remembers the recent 50 cursor positions history and allows you to jump to them back and forth like VSCode
+- [[obsidian-matrix|Obsidian matrix]]: Utility to easily create LaTeX matrices
+- [[waypoint|Waypoint]]: Easily generate dynamic content maps in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags!
+- [[obsidian-hover-editor|Hover Editor]]: Transform the Page Preview hover popover into a fully working editor instance
+- [[obsidian-screwdriver|Screwdriver]]: Utility to put any files in and out under your vault.
+- [[obsidian-version-history-diff|Version History Diff]]: Diff the version history of the core Sync and File Recovery plugins and Git. Adds a command to open the core Sync version history as well.
+- [[obsidian-format-code|Format code]]: This plugin introduces commands to format code (internally uses prettier)
+- [[obsidian-buttondown-plugin|Buttondown]]: Send your notes to your buttondown.email account as email drafts.
+- [[lapel|Lapel]]: Dress up your editor with decorations that mark each of your headings 🤵
+- [[obsidian-desmos|Desmos]]: Embed Desmos graphs into your notes
+- [[obsidian-custom-frames|Custom Frames]]: A plugin that turns web apps into panes using iframes with custom styling. Also comes with presets for Google Keep, Todoist and more.
+- [[obsidian-etherpad-plugin|Etherpad]]: Etherpad Integration
+- [[obsidian-quiet-outline|Quiet Outline]]: Make outline quiet and more powerful, including no-auto-expand, rendering heading as markdown, and search support.
+- [[obsidian-daily-notes-viewer|Daily Notes Viewer]]: Help you to view some recent daily notes on one page.
+- [[obsidian-zotero-desktop-connector|Zotero Integration]]: Insert and import citations, bibliographies, notes, and PDF annotations from Zotero.
+- [[obsidian-telegraph-publish|Telegraph Publish]]: 
+- [[obsidian-path-title|Path Title]]: Adds path (or optional replacement) to the filename title of each pane
+- [[obsidian-jira-issue|Jira Issue]]: This plugin allows you to track the progress of Atlassian Jira issues from your Obsidian notes.
+- [[smort-obsidian|Smort]]: Add Smort.io articles to Obsidian. Smort.io lets you easily edit, annotate and share articles.
+- [[control-characters|Control Characters]]: Show control/non-printing characters in edit mode
+- [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]: A plugin to render asciidoc blocks in Obsidian, initially asciidoc tables.
+- [[fleeting-notes-obsidian|Fleeting Notes Sync]]: This is a plugin to sync Fleeting Notes with Obsidian
+- [[obsidian-chat-view|Chat View]]: Chat View enables you to create elegant Chat UIs in your Obsidian markdown files. It also supports the WebVTT format.
+- [[obsidian-doubleshift|Doubleshift]]: Open the command palette by pressing Shift (or any other key) twice like in IntelliJ and create your own shortcuts
+- [[obsidian-list-modified|List Modified]]: A simple obsidian plugin that links all modified files meeting certain criteria to a daily note
+- [[obsidian-latex-suite|Latex Suite]]: Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements
+- [[obsidian-better-codeblock|Better CodeBlock]]: Add title, line number to Obsidian code block
+- [[obsidian-wordnik|Wordnik Definitions]]: Grabs information from Wordnik for a topic and brings it into Obsidian notes
+- [[typing-speed|Typing speed]]: This is a plugin for showing the current typing speed in the status bar
+- [[obsidian-google-tasks|Google Tasks]]: Interact with your Google Tasks from Inside Obsidian
+- [[obsidian-jtab|Obsidian jTab]]: Adds the ability to show guitar chords and tabs directly in your notes using jTab.
+- [[obsidian-book-search-plugin|Book Search]]: Helps you find books and create notes.
+- [[obsidian-paste-image-rename|Paste image rename]]: Rename pasted images and all the other attchments added to the vault
+- [[obsidian-scroll-offset|Scroll Offset]]: Preserve minmium distances before and after cursor.
+- [[obsius-publish|Obsius Publish]]: Make single notes instantly available on the web.
+- [[obsidian-snippet-downloader|Snippet Downloader]]: A obsidian's plugin to help to manage css snippets (download / update) from repository 
+- [[execute-code|Execute Code]]: Allows to execute code snippets within a note.
+- [[obsidian-badge|Obsidian Badge]]: This is a plugin to show badge for Obsidian.
+- [[kr-book-info-plugin|KoreanBook Info Plugin]]: A plugin that crawls Yes24 to get book information.
+- [[obsidian-drag-n-drop-plugin|Drag-n-Drop for blocks]]: Allow moving/copying/and creation embeds for blocks with drag-n-drop just like Logseq or Roam
+- [[obsidian-link-embed|Link Embed]]: This plugin allows you to convert URLs in your notes into embedded previews.
+- [[obsidian-columns|Obsidian Columns]]: Allows you to create columns in Obsidian Markdown
+- [[obsidian-mkdocs-publisher|Github Publisher]]: Github Publisher is a plugin that help you to send file in a configured Github Repository, based on a frontmatter entry state.
+- [[obsidian-notion-video|Notion Video]]: embed your notion video in obsidian
+- [[obsidian-math-plus|Obsidian Math+]]: This is an Obsidian plugin for taking math notes using Excalidraw.
+- [[obsidian-todoist-link|Todoist Link]]: Create Todoist tasks and projects from Obsidian with bidirectional links.
+- [[obsidian-rewarder|Rewarder]]: Gives you rewards for completing tasks/todos, highly configurable.
+- [[obsidian-calibre-plugin|Calibre]]: This plugin allows you to access your calibre libraries and read books directly in Obsidian.
+- [[omnisearch|Omnisearch]]: A search engine that just works
+- [[plugins-galore|Plugins Galore]]: This is an Obsidian plugin to allow easily sideloading other plugins.
+- [[auto-card-link|Auto Card Link]]: Automatically fetches metadata from a url and makes it as a card-styled link
+- [[notion-like-tables|Notion-Like Tables]]: Your premiere tool for creating and managing tabular data in Obsidian.md
+- [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag and imports them into the current note.
+- [[obsidian-paste-png-to-jpeg|Paste image Png to Jpeg]]: Screenshot png to jpeg and compress and rename
+- [[obsidian-folder-index|Folder Index]]: This Plugin will automatically generate a TOC for the current Folder.
+- [[obsidian-filename-emoji-remover|Filename Emoji Remover]]: This is a simple plugin to automatically remove emojis from filenames. Main purpose is to get rid of Dropbox sync issues for Readwise imported content.
+- [[obsidian-epub-plugin|ePub Reader]]: This is an ePub reader plugin for Obsidian. Can open document with ".epub" file extension.
+- [[obsidian-pandoc-reference-list|Pandoc Reference List]]: Displays a formatted reference in the sidebar for each pandoc citekey present in the current document.
+- [[obsidian-enhancing-export|Obsidian Enhancing Export]]: This is a enhancing export plugin for Obsidian. It allows to export to formats like Html, DOCX, ePub and PDF or Markdown(Hugo) etc.
+- [[enlightenment-obsidian|Enlightenment ✨]]: Pay attention to what you're paying attention to. Enlightenment adds a 'zen mode' for Preview, hiding the contents of your notes except for what's underneath your pointer.
+- [[obsidian-release-timeline|Release Timeline]]: Release timeline rendered based on notes metadata with a dataview-like syntax.
+- [[obsidian-folder-focus-mode|Folder Focus Mode]]: Focus file explorer on chosen folder and its files and subdirectories, while hiding all the other elements.
+- [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
+- [[obsidian-upcoming|Upcoming]]: Open upcoming and/or past daily notes in their own panes, tabs, or windows.
+- [[nuke-orphans|Nuke Orphans]]: Plugin that trashes orphaned files and attachments
+- [[obsidian-front-matter-title-plugin|Front Matter Title]]: Lets you define a title in frontmatter to be displayed as the filename
+- [[obsidian-bellboy|Bellboy]]: Opinionated file structure manager.
+- [[obsidian-functionplot|Obsidian Functionplot]]: A plugin for displaying mathematical graphs in obsidian.md.
+- [[obsidian-note-autocreator|Note Auto Creator]]: Automatically create notes when links are created to them.
+- [[local-quotes|Local Quotes]]: Collect your quotes from all over the repository and embed them in different locations with refresh delays.
+- [[obsidian-state-switcher|Yaml Manager]]: Keep you away from directly operating of yaml front matter
+- [[obsidian-media-db-plugin|Media DB Plugin]]: A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.
+- [[obsidian-sequence-hotkeys|Sequence Hotkeys]]: This plugin allows you to set hotkeys with key sequences instead of a single chord.
+- [[tasks-packrat-plugin|Packrat]]: Process completed recurring Tasks
+- [[excalibrain|ExcaliBrain]]: A clean, intuitive and editable graph view for Obsidian
+- [[obsidian-expand-bullet|Expand Bullet]]: A plugin for transforming bullet content into note.
+- [[dbfolder|DB Folder]]: Folder with the capability to store and retrieve data from a folder like database
+- [[obsidian-advanced-codeblock|Advanced Codeblock]]: Give additioinal features to  code blocks.
+- [[booksidian-plugin|Booksidian]]: Connect Obsidian to your Goodreads.
+- [[simple-dice-roller|Simple Dice Roller]]: A plug and play solution that allows you to average and simulate dice formulas.
+- [[obsidian-camera|Obsidian Camera]]: Camera plugin for Obsidian
+- [[obsidian-markbase|Markbase for Obsidian]]: Official Markbase plugin to share your Obsidian notes online in your own digital garden
+- [[obsidian-user-plugins|User Plugins]]: Use js files or snippets to code your own quick and dirty plugins
+- [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]: Allow to use the selected word as an alias in link suggestion.
+- [[obsidian-ghost-publish|Obsidian Ghost Publish]]: Single click to publish to Ghost
+- [[obsidian-timestamp-notes|Timestamp Notes]]: This plugin allows side-by-side notetaking with videos. Annotate your notes with timestamps to directly control the video and remember where each note comes from.
+- [[linkify|Linkify]]: Converts matching text into links.
+- [[braincache|braincache]]: Create flashcards from obsidian notes
+- [[obsidian-share-as-gist|Share as Gist]]: Shares an Obsidian note as a GitHub.com gist
+- [[code-block-plugin|Code Block]]: This plugin converts text into code blocks with automatic language detection.
+- [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]: Import contact and calendar event information from your Google account
+- [[obsidian-stack-overflow|Stack Overflow Answers]]: Copy and Paste Stack Overflow answers directly into Obsidian.
+- [[obsidian-redirect|Redirect]]: An Obsidian (https://obsidian.md) plugin for redirecting links based on YAML frontmatter.
+- [[zotero-bridge|Zotero Bridge]]: Zotero integration
+- [[wielder|Wielder]]: Clojure inside Obsidian
+- [[obsidian-to-notion|Obsidian shared to Notion]]: This is a  plugin for Obsidian. This plugin share obsidian md  file to notion with notion api
+- [[obsidian-image-gallery|Image Gallery]]: A zero setup masonry image gallery for Obsidian
+- [[obsidian-thumbnails|Thumbnails]]: Insert video thumbnails into your notes
+- [[obsidian-table-to-csv-exporter|Table to CSV Exporter]]: This plugin allows for exporting tables from a pane in reading mode into CSV files.
+- [[obsidian-task-progress-bar|Task Progress Bar]]: A task progress bar plugin for tasks in Obsidian.
+- [[scroll-speed|Scroll Speed]]: This plugin allows you to change the scroll speed inside Obsidian notes.
+- [[obsidian-translator|Translator]]: This is a plugin for Obsidian to translate selected text.
+- [[obsidian-echarts|obsidian echarts]]: obsidian echarts
+- [[obsidian-diagrams-net|Diagrams.net]]: Enable diagrams.net (previously draw.io) type diagrams, with the diagrams.net embedded editor.
+- [[obsidian-weread-plugin|Weread Plugin]]: This is obsidian plugin for Tencent weread.
+- [[postgresql-obsidian|PostgreSQL Obsidian]]: An Obsidian plugin to upload your notes' metadata to your database.
+- [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]: Allow to use the selected word as an alias in link suggestion.
+- [[zotero-link|Zotero Link]]: Insert link to Zotero items from Obsidian interface using Zotero Bridge
+- [[obsidian-golinks|Obsidian GoLinks]]: This is a plugin for Obsidian that renders go/links as clickable links.
+- [[habit-tracker|Habit Tracker]]: Track your Habits.
+- [[typing-transformer-obsidian|Typing Transformer]]: Improved, configurable auto formatting as typing
+- [[obsidian-list-callouts|List Callouts]]: Create simple callouts in lists.
+- [[obsidian-text-expander-js|Inline Scripts]]: Type text shortcuts which are then replaced with JavaScript generated text.
+- [[metadata-menu|Metadata Menu]]: For data quality enthousiasts (and dataview lovers): manage the metadata of your notes.
+- [[obsidian-plugin-time-diff|TimeDiff plugin]]: Plugin which calculates and displays diff in hours and minutes between two dates in `timediff` markdown block
+- [[obsidian-trim-whitespace|Trim Whitespace]]: Trims unnecessary whitespace from your Obsidian documents
+- [[ninja-cursor|Ninja Cursor]]: The plugin which enhance cursor visibility.
+- [[cmdr|Commander]]: Customize your workspace by adding commands everywhere, create Macros and supercharge your mobile toolbar.
+- [[obsidian-attendance|Obsidian Attendance]]: This plugin helps you track attendance.
+- [[OA-file-hider|File Hider]]: An Obsidian plugin that allows hiding files and folders in the built-in file explorer
+- [[obsidian-sidebar-toggler|Sidebar Toggler]]: Finer control of the Obsidian sidebars. To be used with an external window manager.
+- [[obsidian-path-finder|Path Finder]]: A plugin that can find the shortest path between two notes. Not sure who will want to use it...
+- [[obsidian-focus-plugin|Focus and Highlight]]: A plugin for Obsidian (https://obsidian.md) that will highlight and focus on the currently selected heading
+- [[obsidian-file-cooker|File Cooker]]: Deal multi notes from Search results、current file、Dataview query string...
+- [[hard-breaks|Hard Breaks]]: Turn soft line breaks in Markdown into hard line breaks
+- [[open-related-url|Open Related Url]]: Opens URLs found in a note's YAML frontmatter
+- [[podnotes|PodNotes]]: Helps you write notes on podcasts.
+- [[obsidian-meeting-notes|Meeting notes]]: (https://obsidian.md) Plugin to automatically create a meeting note if a new file is created in a meeting folder.
+- [[obsidian-plugin-tagged-documents-viewer|Tagged Documents Viewer]]: Opens a modal with scrollable content of all documents that contain a specific tag or tags.
+- [[better-inline-fields|Better Inline Fields]]: Obsidian plugin to enhance Dataview style inline fields
+- [[no-dupe-leaves|No dupe leaves]]: Don't reopen notes that are already open
+- [[obsidian-open-file-by-magic-date|Open File by Magic Date]]: Define a Moment.js date pattern that specifies the file that is most important to you (eg: your daily/weekly/monthly note). Will create the file if it doesn't exist.
+- [[obsidian-heading-shifter|Heading Shifter]]: Easily Shift and Change markdown headings.
+- [[obsidian-group-snippets|Group Snippets]]: Create folder of snippets to activate them in one click !
+- [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
+- [[obisidian-note-linker|Note Linker]]: Automatically find and link notes in Obsidian
+- [[obsidian-dashing-cursor|Dashing cursor]]: Enables dashing cursor that follows the page scroll
+- [[obsidian-embedded-note-paths|Embedded Note Paths]]: Inserts the note file path above each note.
+- [[obsidian-quickshare|QuickShare]]: Securely share your Obsidian notes with one click. Notes are end-to-end encrypted. No API keys or configuration required.
+- [[rpg-manager|RPG Manager]]: A plugin to manage your Tabletop Role Playing Game campaigns for Obsidian.
+- [[literate-haskell|Literate Haskell]]: An obsidian plugin for integrating `.lhs` files into your PKM.
+- [[embed-code-file|Embed Code File]]: This is a plugin for Obsidian that allows for embedding code files.
+- [[obsidian-bulk-rename-plugin|Bulk Rename]]: Purpose of this plugin rename files based on pattern
+- [[obsidian-agile-task-notes|Agile Task Notes]]: Import your tasks from your TFS (Azure or Jira) to take notes on them and make todo-lists!
+- [[new-tab-default-page|Default New Tab Page]]: Open a note of your choice when creating a new tab, like in the browser.
+- [[obsidian-open-in-other-editor|Open in other editor]]: Open current active file in gVim or VScode.
+- [[obsidian-simple-mention|Simple Mention]]: Get highlighted mentions and mention suggestions. Find all occurrences of a mention
+- [[obsidian-auto-hide|Auto Hide]]: Collapse sidebars when clicking on the editor/viewer panel
+- [[janitor|Janitor]]: Performs cleanup tasks on the Obsidian vault
+- [[script-launcher|Script Launcher]]: This pulgin allows you to launch scripts from the Obsidian app. You can add scripts shortcuts on your bottom bar and launch them with just one click!
+- [[obsidian-party|Party🎉]]: An implementation of party.js for Obsidian. Create confetti, sparkles and even custom effects in your notes!
+- [[obsidian-day-and-night|Day and Night]]: An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.
+- [[obsidian-tikzjax|TikZJax]]: Render LaTeX and TikZ diagrams in your notes
+- [[todoist-completed-tasks-plugin|Todoist completed tasks]]: Fetches completed tasks from todoist API and adds them to the Obsidian note.
+- [[quick-snippets-and-navigation|Quick snippets and navigation]]: Keyboard navigation up/down for headings - Quick switcher extensions - Copy code block via keyboard shortcut - Configurable code block and callout snippets
+- [[google-calendar|Google Calendar]]: Interact with your Google Calendar from Inside Obsidian
+- [[obsidian-copy-search-url|Copy Search URL]]: Adds a button to the search view for copying the Obsidian search URL.
+- [[simple-time-tracker|Super Simple Time Tracker]]: Multi-purpose time trackers for your notes!
+- [[blockquote-levels|Blockquote Levels]]: Adds commands for increasing/decreasing the blockquote level of the current line or selection.
+- [[obsidian-system-theme|System Theme]]: Plugin to automatically update to system theme.
+- [[custom-sort|Custom File Explorer sorting]]: Allows for manual and automatic, config-driven reordering and sorting of files and folders in File Explorer
+- [[obsidian-table-generator|Table Generator]]: A plugin for generate markdown table quickly like Typora.
+- [[aosr|Aosr]]: Another obsidian spaced repetition
+- [[obsidian-meta-bind-plugin|Meta Bind Plugin]]: This plugin can create input fields inside your notes and bind them to metadata fields.
+- [[microblog-publish-plugin|Micro.publish]]: Publish notes to Micro.blog
+- [[obsidian-sakana-widget|Sakana Widget]]: Add the Sakana! Widget to your own Obsidian!
+- [[obsidian-min-width|Min Width]]: Set the Minimum Width of the Active Pane in Obsidian
+- [[onyx-boox-extractor|Onyx Boox Annotation & Highlight Extractor]]: This plugin extracts annotations and highlights files exported from Onyx Boox tablets, and converts them to reference, literature and permanent notes fitting to the Zettelkasten method.
+- [[chronology|Chronology]]: Provides a calendar and a timeline of the notes creation and modification
+- [[duplicate-line|Duplicate Line]]: To duplicate a line or several following selected lines. multicursor can be used too
+- [[obsidian-toggle-list|ToggleList]]: Toggle the list/checklist with custom states/prefixes and suffixes
+- [[squiggle|Squiggle]]: Enables running squiggle code snippets within a note.
+- [[obsidian-theme-toggler|Theme Toggler]]: Toggle the theme in Obsidian's panels.
+- [[influx|Influx]]: An alternative backlinks plugin, which displays relevant and formatted excerpts from notes with linked mentions, based on the position of mentions in the notes' hierarchical structure (bullet level indentation).
+- [[obsidian-week-planner|Week Planner]]: Week Planner plugin for Obsidian. This plugin defines commands for creating planning documents and moving tasks between them.
+- [[obsidian-html-plugin|HTML Reader]]: This is a HTML file reader plugin for Obsidian. Can open document with ".html" and ".htm" file extensions.
+- [[dynamic-rtl|Dynamic RTL]]: Dynamic RTL/LTR direction per line/paragraph, dependant on language!
+- [[mathlinks|MathLinks]]: Render MathJax in your links
+- [[note-synchronizer|Note Synchronizer]]: This is a plugin for synchornizing Obsidian notes to other note-based softwares like Anki, following more strictly the principles of Zettelkasten and treating each Obsidian file as a note.
+- [[url-namer|URL Namer]]: This plugin retrieves the HTML titles to name the raw URL links.
+- [[obsidian-douban-plugin|Douban]]: This is a plugin that can import movies/books/musics/notes/games info data from Douban for Obsidian .
+- [[insert-unsplash-image|Image Inserter]]: This plugin helps users easily search and insert images to editors from Unsplash.
+- [[keyboard-analyzer|Keyboard Analyzer]]: See and analyse your keyboard hotkeys and shortcuts
+- [[obsidian-plugin-update-tracker|Plugin Update Tracker]]: Know when installed plugins have updates and evaluate the risk of upgrading
+- [[update-relative-links|Update Relative Links]]: Update relative links.
+- [[readavocado-sync|Readavocado Sync]]: Sync your Readavocado highlights with Obsidian
+- [[repeat-plugin|Repeat]]: Review notes using periodic or spaced repetition.
+- [[actions-uri|Actions URI]]: Adds additional `x-callback-url` endpoints to the app for common actions — it's a clean, super-charged addition to Obsidian URI.
+- [[obsidian-projects|Projects]]: Project management for Obsidian.
+- [[obsidian-dynamic-background|Dynamic Background]]: Adding dynamic effects and/or static wallpapers for Obsidian background
+- [[obsidian-note-content-pusher|Note Content Pusher]]: An Obsidian plugin to automatically create notes with some specified content when you link to a note that doesn't yet exist.
+- [[tag-summary-plugin|Tag Summary]]: This plugin creates summaries with paragraphs or blocks of text that share the same tag(s).
+- [[obsidian-alias-from-heading|Alias from heading]]: Implicitly add an alias matching the first heading in a document.
+- [[obsidian-ocr|Obsidian OCR]]: Add ocr capabilities to obsidian
+- [[obsidian-gitlab-issues|Gitlab Issues]]: Import issues from Gitlab into Obsidian.
+- [[obsidian-account-linker|Account Linker]]: Plugin for describing external service accounts in the front matter
+- [[symbols-prettifier|Symbols Prettifier]]: This plugin allows you to prettify the symbols with actual symbols you commonly type, like arrows.
+- [[obsidian-mtg|Obsidian MtG]]: A plugin for managing Magic: The Gathering decks and card lists as Obsidian notes
+- [[obsidian-markdown-file-suffix|Addional Markdown suffix (.mdx/.svx).]]: Use additional files like .mdx / .svx as if they were markdown.
+- [[editing-toolbar|Editing Toolbar]]: The Obsidian Editing Toolbar is modified from cmenu, which provides more powerful customization settings and has many built-in editing commands to be a MS Word-like toolbar editing experience.
+- [[floating-toc|floating toc]]: This is a floating Toc plugin that  hovers a table of content  containing a header level on the notes sidebar.
+- [[obsidian-checkbox3states-plugin|Checkbox 3 states]]: This is a simple plugin for add a third state to checkbox list.
+- [[status-bar-quote|Status Bar Quote]]: Show your favorite quote in obsidian status bar
+- [[qmd-as-md-obsidian|qmd as md]]: This plugin provides an initial support for viewing files with .qmd extension. QMD files contain a combination of markdown and executable code cells and are a format supported by Quarto open source publishing system.
+- [[obsidian-to-flomo|Obsidian to Flomo]]: Quickly share content to Flomo.
+- [[obsidian-things3-sync|Obsidian Things3 Sync]]: A plugin for sync between Obsidian and Things3, create Todo and sync Todo status
+- [[mathpad|Mathpad]]: Computer Algebra System and Calculator for Onsidian
+- [[list-style|Ordered List Style]]: Set ordered list style inline in Obsidian.md. Alphabetic lists, roman numeral lists, etc.
+- [[obsidian-trash-explorer|Trash Explorer]]: Restore and delete files from the Obsidian .trash folder
+- [[vika-sync|Vika Sync]]: Sync your note to vika
+- [[obsidian-new-note-new-window|New Note New Window]]: Plugin for easily opening new notes in a floating window.
+- [[obsidian-awesome-flashcard|Awesome Flashcard]]: Handy Anki integration for Obsidian.
+- [[obsidian-daily-note-outline|Daily Note Outline]]: Add a custom view which shows outline of multiple daily notes with headings, links, tags and list items
+- [[obsidian-colorful-tag|Colorful Tag]]: Make your tag more beautiful and powerful!
+- [[edit-gemini|Edit Gemini]]: Allows the user to edit and create .gmi files.
+- [[obsidian-pretty-bibtex|Pretty BibTeX]]: Shows raw BibTeX bibliography entries in a prettier way
+- [[frontmatter-links|Frontmatter Links]]: Renders links in a note's frontmatter as links.
+- [[ava|Obsidian ava]]: AI-enhanced reflection in Obsidian
+- [[obsidian-scroll-to-top-plugin|Scroll to Top Plugin]]: This is a plugin for Obsidian that adds a button to scroll to the top of the current note.
+- [[obsidian-old-note-admonitor|Old Note Admonitor]]: This Obsidian plugin shows warnings if the note has not been updated for over specific days
+- [[obsidian-export-image|Export Image plugin]]: Easily convert your article to image.
+- [[page-gallery|Page Gallery]]: Creates an embeddable gallery based on selected page contents.
+- [[obsidian42-strange-new-worlds|Obsidian42 - Strange New Worlds]]: Revealing networked thought and the strange new worlds created by your vault
+- [[obsidian-dynbedded|Dynbedded]]: Dynamic Embeds for Obsidian.md
+- [[copy-document-as-html|Copy document as HTML]]: Copy the current document to clipboard as HTML, including images
+- [[obsidian-chorded-hotkeys|Chorded Hotkeys]]: Type multiple letters at the same time to trigger text insertion, template insertion, or command execution.
+- [[obsidian-dirtreeist|Dirtreeist]]: Render a directory Structure Diagram from a markdown lists in codeblock.
+- [[obsidian-handlebars|Obsidian Handlebars Template Plugin]]: This is a plugin for Obsidian that adds support for handlebars template blocks in notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
