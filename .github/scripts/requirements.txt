@@ -3,6 +3,7 @@ pyyaml
 requests
 approvaltests==3.5.0
 pytest
+pytest-runner
 mypy
 types-PyYAML
 types-requests
