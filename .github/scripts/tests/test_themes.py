@@ -1,6 +1,7 @@
 import contextlib
 import os
 import sys
+import typing
 
 import approvaltests
 from approvaltests import verify
@@ -83,8 +84,9 @@ def verify_theme_data(theme_name: str) -> None:
 
 
 @contextlib.contextmanager
-def silence_stdout():
+def silence_stdout() -> typing.Iterator[None]:
     original_stdout = sys.stdout
     sys.stdout = None
     yield
     sys.stdout = original_stdout
+    None
