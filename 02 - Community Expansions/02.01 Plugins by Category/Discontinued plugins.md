@@ -15,13 +15,13 @@ These plugins were once published, but have have since been withdrawn, or are no
 
 %% Add a bullet here and link to the plugins you'd like to categorize - and sort them alphabetically! %%
 
-- [[obsidian-advanced-appearance|Advanced Appearance]]
+- [[obsidian-advanced-appearance|Advanced Appearance]]: Change colors, fonts and other cosmetic settings.
 - [[obsidian-extra-md-commands|Extra Markdown Commands]] (use [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]] instead.)
-- [[linked-data-helper|Linked Data Helper]]
-- [[linked-data-vocabularies|Linked Data Vocabularies]]
-- [[pdf-to-markdown-plugin|PDF to Markdown]]
-- [[obsidian-stenography-plugin|Stenography]]
-- [[todo-txt|Todo.txt support]]
+- [[linked-data-helper|Linked Data Helper]]: Parse Linked data for Linked Data Vocabularies.
+- [[linked-data-vocabularies|Linked Data Vocabularies]]: Add linked data to the YAML of your notes.
+- [[pdf-to-markdown-plugin|PDF to Markdown]]: Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.
+- [[obsidian-stenography-plugin|Stenography]]: Auto Describe your code with machine learning using the Stenography API
+- [[todo-txt|Todo.txt support]]: Native support for todo.txt files
 
 ## Related categories
 

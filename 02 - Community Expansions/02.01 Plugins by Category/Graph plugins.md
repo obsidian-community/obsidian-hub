@@ -15,14 +15,14 @@ publish: true
 ## Plugins in this category
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
-- [[neo4j-graph-view|Neo4j Graph View]]
-- [[adjacency-matrix-maker|Adjacency Matrix Maker]]
-- [[juggl|Juggl]]
-- [[breadcrumbs|Breadcrumbs]]
-- [[graph-analysis|Graph Analysis]]
-- [[obsidian-graphviz|Obsidian Graphviz]]
-- [[persistent-graph|Persistent Graph]]
-- [[obsidian-living-graph|Living Graph]]
+- [[neo4j-graph-view|Neo4j Graph View]]: An Obsidian plugin for advanced graph visualization and querying using Neo4j.
+- [[adjacency-matrix-maker|Adjacency Matrix Maker]]: Create an interactive image of an adjacency matrix of your vault
+- [[juggl|Juggl]]: Adds a completely interactive, stylable and expandable graph view to Obsidian.
+- [[breadcrumbs|Breadcrumbs]]: Visualise & navigate your vault's structure
+- [[graph-analysis|Graph Analysis]]: Analyse your Obsidian graph.
+- [[obsidian-graphviz|Obsidian Graphviz]]: Render Graphviz Diagrams
+- [[persistent-graph|Persistent Graph]]: Adds commands to save and restore the positions of nodes on the global graph view
+- [[obsidian-living-graph|Living Graph]]: A for-fun graph plugin
 
 ## Related categories
 

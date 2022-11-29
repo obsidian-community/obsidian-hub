@@ -13,7 +13,7 @@ publish: true
 
 ## Plugins in this category
 
-- [[ledger-obsidian|Ledger]]
+- [[ledger-obsidian|Ledger]]: Plain text accounting
 
 ## Related categories
 

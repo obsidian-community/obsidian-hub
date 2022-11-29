@@ -13,8 +13,8 @@ Plugins to backup your notes.
 
 ## Plugins in this category
 
-- [[obsidian-git|Obsidian Git]]
-- [[obsidian-dropbox-backups|Aut-O-Backups]]
+- [[obsidian-git|Obsidian Git]]: Backup your vault with git.
+- [[obsidian-dropbox-backups|Aut-O-Backups]]: Automated backups to Dropbox for your enjoyment.
 
 ## Related categories
 

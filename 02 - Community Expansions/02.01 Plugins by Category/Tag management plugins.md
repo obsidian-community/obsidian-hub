@@ -15,11 +15,11 @@ Plugins to manage tags.
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[tag-wrangler|Tag Wrangler]]
-- [[tag-page-preview|Tag Page Preview]]
-- [[obsidian-tagfolder|TagFolder]]
-- [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Suggest]]
-- [[tag-word-cloud|Tag & Word Cloud]]
+- [[tag-wrangler|Tag Wrangler]]: Rename, merge, toggle, and search tags from the tag pane
+- [[tag-page-preview|Tag Page Preview]]: Clicking a tag opens a dialog listing pages that use that tag
+- [[obsidian-tagfolder|TagFolder]]: Show tags as folder
+- [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Suggest]]: Autocompletes tags in the frontmatter tags field
+- [[tag-word-cloud|Tag & Word Cloud]]: Show a cloud of your tags/words in a note
 
 ## Related categories
 

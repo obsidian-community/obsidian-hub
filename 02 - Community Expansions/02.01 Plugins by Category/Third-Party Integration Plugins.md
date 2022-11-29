@@ -13,56 +13,56 @@ Plugins to integrate with other services or applications.
 
 ## Plugins in this category
 
-- [[todoist-sync-plugin|Todoist Sync Plugin]]
-- [[obsidian-discordrpc|Discord Rich Presence]]
-- [[obsidian-youglish-plugin|Youglish Plugin]]
-- [[flashcards-obsidian|Flashcards]]
-- [[obsidian-to-anki-plugin|Obsidian_to_Anki]]
-- [[obsidian-apple-reminders-plugin|Apple Reminders]]
-- [[obsidian-imgur-plugin|Imgur Plugin]]
-- [[things-logbook|Things Logbook]]
-- [[notetweet|NoteTweet]]
-- [[obsidian-leaflet-plugin|Obsidian Leaflet]]
-- [[DEVONlink-obsidian|DEVONlink - Open or reveal notes in DEVONthink]]
-- [[imdone-obsidian-plugin|Open cards in imdone from obsidian.]]
-- [[obsidian-languagetool-plugin|LanguageTool Integration]]
-- [[obsidian-readwise|Readwise Community]]
-- [[obsidian-kindle-plugin|Kindle Highlights]]
-- [[beeminder-word-count-plugin|Beeminder Word Count Plugin]]
-- [[obsidian-image-auto-upload-plugin|Image auto upload Plugin]]
-- [[readwise-mirror|Readwise Mirror]]
-- [[obsidian-gist|Gist]]
-- [[obsidian-pandoc|Obsidian Pandoc]]
-- [[obsidian-amazingmarvin-plugin|Amazing Marvin]]
-- [[obsidian-map-view|Map View]]
-- [[open-vscode|Open vault in VSCode]]
-- [[phone-to-roam-to-obsidian|Phone to Roam to Obsidian]]
-- [[obsidian-wordnet-plugin|Obsidian42 - WordNet Dictionary]]
-- [[readwise-official|Readwise Official]]
-- [[obsidian-toggl-integration|Toggl Track Integration]]
-- [[ObsidianAnkiSync|Obsidian Anki Sync]]
-- [[mochi-cards-exporter|Mochi Cards Exporter]]
-- [[obsidian-trello|Obsidian Trello]]
-- [[obsidian-annotator|Annotator]]
-- [[obsidian-hackernews|HackerNews]]
-- [[obsidian-pocket|Pocket integration]]
-- [[obsimian-exporter|Obsimian Exporter]]
-- [[metadata-extractor|Metadata Extractor]]
-- [[uri-commands|URI Commands]]
-- [[obsidian-wikipedia|Wikipedia]]
-- [[obsidian-vale|Vale]]
-- [[obsidian-hypothesis-plugin|Hypothes.is]]
-- [[marginnote-companion|MarginNote Companion]]
-- [[obsidian-habitica-integration|Habitica Sync]]
-- [[obsidian-webhooks|Obsidian Webhooks]]
-- [[obsidian-tweet-to-markdown|Tweet to Markdown]]
-- [[netwik|Netwik]]
-- [[obsidian-jupyter|Jupyter plugin]]
-- [[obsidian-plotly|Plotly]]
-- [[obsidian-ankibridge|AnkiBridge]]
-- [[obsidian-tressel|Tressel Sync for Obsidian]]
-- [[obsidian-graphviz|Obsidian Graphviz]]
-- [[obsidian-power-search|Power Search]]
+- [[todoist-sync-plugin|Todoist Sync Plugin]]: Materialize Todoist tasks within Obsidian notes.
+- [[obsidian-discordrpc|Discord Rich Presence]]: Update your Discord Status to show your friends what you are working on in Obsidian. With Discord Rich Presence.
+- [[obsidian-youglish-plugin|Youglish Plugin]]: Use YouTube to improve your pronunciation. YouGlish gives you fast, unbiased answers about how words is spoken by real people and in context.
+- [[flashcards-obsidian|Flashcards]]: Anki integration
+- [[obsidian-to-anki-plugin|Obsidian_to_Anki]]: This is an Anki integration plugin! Designed for efficient bulk exporting.
+- [[obsidian-apple-reminders-plugin|Apple Reminders]]: 
+- [[obsidian-imgur-plugin|Imgur Plugin]]: This plugin uploads images from your clipboard to imgur.com and embeds uploaded image to your note
+- [[things-logbook|Things Logbook]]: Sync your Things.app Logbook with Daily Notes
+- [[notetweet|NoteTweet]]: This plugin allows you to post tweets directly from Obsidian.
+- [[obsidian-leaflet-plugin|Obsidian Leaflet]]: Interactive maps inside your notes
+- [[DEVONlink-obsidian|DEVONlink - Open or reveal notes in DEVONthink]]: Open or reveal the current note in DEVONthink.
+- [[imdone-obsidian-plugin|Open cards in imdone from obsidian.]]: This plugin allows imdone users to open their imdone board from a document in their obsidian vault that contains imdone cards.
+- [[obsidian-languagetool-plugin|LanguageTool Integration]]: Spelling and grammar checks with the LanguageTool API
+- [[obsidian-readwise|Readwise Community]]: Sync Readwise highlights into your notes
+- [[obsidian-kindle-plugin|Kindle Highlights]]: Sync your Kindle book highlights using your Amazon login or uploading your My Clippings file
+- [[beeminder-word-count-plugin|Beeminder Word Count Plugin]]: This lets you post word counts directly from obsidian file to Beeminder.
+- [[obsidian-image-auto-upload-plugin|Image auto upload Plugin]]: This plugin uploads images from your clipboard by PicGo
+- [[readwise-mirror|Readwise Mirror]]: Mirror your Readwise library directly to an Obsidian vault
+- [[obsidian-gist|Gist]]: This is a plugin to display the GitHub Gist.
+- [[obsidian-pandoc|Obsidian Pandoc]]: This is a Pandoc export plugin for Obsidian. It provides commands to export to formats like DOCX, ePub and PDF.
+- [[obsidian-amazingmarvin-plugin|Amazing Marvin]]: This is a plugin for Obsidian (https://obsidian.md) for Amazing Marvin (https://app.amazingmarvin.com/)
+- [[obsidian-map-view|Map View]]: An interactive map view.
+- [[open-vscode|Open vault in VSCode]]: Ribbon button and command to open vault as a Visual Studio Code workspace
+- [[phone-to-roam-to-obsidian|Phone to Roam to Obsidian]]: An Obsidian client for phonetoroam.com
+- [[obsidian-wordnet-plugin|Obsidian42 - WordNet Dictionary]]: WordNet is a large lexical database of English developed by Princeton University.
+- [[readwise-official|Readwise Official]]: Official Readwise <-> Obsidian integration
+- [[obsidian-toggl-integration|Toggl Track Integration]]: Manage timers and generate time reports using Toggl Track without leaving Obsidian.
+- [[ObsidianAnkiSync|Obsidian Anki Sync]]: Obsidian plugin to make flashcards and sync them to Anki.
+- [[mochi-cards-exporter|Mochi Cards Exporter]]: Export Markdown notes to Mochi cards from within obsidian
+- [[obsidian-trello|Obsidian Trello]]: Connect an existing or new Trello card to an Obsidian note. Once connected, see basic info, add and view comments, and check off checklist items.
+- [[obsidian-annotator|Annotator]]: This is a sample plugin for Obsidian. It allows you to open and annotate PDF and EPUB files.
+- [[obsidian-hackernews|HackerNews]]: Periodically fetches and displays top stories from HackerNews.
+- [[obsidian-pocket|Pocket integration]]: Access your Pocket reading list entries and create notes for them easily
+- [[obsimian-exporter|Obsimian Exporter]]: Exports data from Obsidian APIs, feeding the Obsimian simulation framework for testing plugins.
+- [[metadata-extractor|Metadata Extractor]]: Metadata export on a schedule for integration with third-party apps like launchers.
+- [[uri-commands|URI Commands]]: Execute URIs from the Obsidian command palette.
+- [[obsidian-wikipedia|Wikipedia]]: Grabs information from Wikipedia for a topic and brings it into Obsidian notes
+- [[obsidian-vale|Vale]]: A Vale client for Obsidian.
+- [[obsidian-hypothesis-plugin|Hypothes.is]]: Sync your Hypothesis highlights
+- [[marginnote-companion|MarginNote Companion]]: An Obsidian plugin to bridge MarginNote 3 and Obsidian
+- [[obsidian-habitica-integration|Habitica Sync]]: This plugin helps integrate Habitica user tasks and stats into Obsidian
+- [[obsidian-webhooks|Obsidian Webhooks]]: Plugin that connects your notes to the internet of things through webhooks!
+- [[obsidian-tweet-to-markdown|Tweet to Markdown]]: Save tweets as Markdown files, along with their images, polls, etc.
+- [[netwik|Netwik]]: This plugin provides access to global network of notes. Anyone can create, view or edit notes. All changes will be synchronized between all participants
+- [[obsidian-jupyter|Jupyter plugin]]: This plugin allows code blocks to be executed as Jupyter notebooks.
+- [[obsidian-plotly|Plotly]]: Obsidian plugin, which allow user to embed Plotly charts into markdown notes.
+- [[obsidian-ankibridge|AnkiBridge]]: Yet Another Anki Bridge
+- [[obsidian-tressel|Tressel Sync for Obsidian]]: Official Tressel plugin to sync/export your tweets and threads into Obsidian
+- [[obsidian-graphviz|Obsidian Graphviz]]: Render Graphviz Diagrams
+- [[obsidian-power-search|Power Search]]: Searches Anki Notes based on current line
 
 ## Related categories
 

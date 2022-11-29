@@ -13,9 +13,9 @@ publish: true
 
 ## Plugins in this category
 
-- [[meld-encrypt|Meld Encrypt]]
-- [[privacy-glasses|Privacy Glasses]]
-- [[garble-text|Garble Text]]
+- [[meld-encrypt|Meld Encrypt]]: Hide secrets in your notes
+- [[privacy-glasses|Privacy Glasses]]: Provides a button and command to obfuscate onscreen text for better privacy in public settings.
+- [[garble-text|Garble Text]]: Garbling text in Obsidian turns all content in the entire app (notes, sidebar, etc) into lines so you can take screenshots without exposing sensitive data.
 
 ## Related categories
 
