@@ -1,4 +1,8 @@
+import contextlib
+import io
 import os
+import sys
+import typing
 
 import approvaltests
 from approvaltests import verify
@@ -24,9 +28,10 @@ def test_collect_data_for_theme_without_settings() -> None:
 def test_reading_theme__with_error_logs_error() -> None:
     theme_name = "InvalidSettingsData"
     theme, css_file, theme_downloads = get_raw_saved_sample_data_for_theme(theme_name)
-
     file_groups: utils.FileGroups = dict()
-    name, valid = theme.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
+
+    with silence_stdout():
+        name, valid = theme.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
 
     assert name == theme_name
     assert valid == False
@@ -77,3 +82,12 @@ def verify_theme_data(theme_name: str) -> None:
     s.add_frame(approvaltests.utils.to_json(theme.data()))
 
     verify(s)
+
+
+@contextlib.contextmanager
+def silence_stdout() -> typing.Iterator[None]:
+    original_stdout = sys.stdout
+    sys.stdout = io.StringIO()
+    yield
+    sys.stdout = original_stdout
+    None
