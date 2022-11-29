@@ -51,8 +51,6 @@ def add_footer(top_directory: str, debug: bool = True) -> None:
                 relative_path = relpath(absolute_path, top_directory)
                 # Read the Markdown
                 with open(absolute_path, "r") as f:
-                    if debug:
-                        print(f"Processing '{relative_path}'...")
 
                     # Read the file contents
                     contents = f.read()
@@ -87,8 +85,6 @@ def add_footer_to_markdown(relative_path: str, contents: str, comment: str, temp
         file_path=quote(relative_path))
     render = ensure_last_line_has_eol(render)
 
-    debug_message = ""
-
     # If the original file didn't have an end-of-line on the last line,
     # add one here, to ensure that there is a gap between the body of the note
     # and the footer.
@@ -97,18 +93,14 @@ def add_footer_to_markdown(relative_path: str, contents: str, comment: str, temp
     # Check if our particular comment is present
     if search(comment, contents):
         replacement = sub(comment, render, contents)
-        if debug:
-            if replacement != contents:
-                debug_message = "Replacing everything below the line with the template"
-            else:
-                debug_message = "File is unchanged"
+        log_action = 'UNCHANGED' if replacement == contents else 'REPLACE'
     # If it's not there: Add it
     else:
         replacement = contents + "\n" + render
-        debug_message = "Adding the template"
+        log_action = 'ADDING'
 
-    if debug:
-        print(f"\t=> {debug_message} for '{relative_path}'.")
+    if debug and log_action != 'UNCHANGED':
+        print("[%-10s] - \"%s\"" % (log_action, relative_path))
 
     return str(replacement) # cast needed to silence warnings about possibly returning Any
 
