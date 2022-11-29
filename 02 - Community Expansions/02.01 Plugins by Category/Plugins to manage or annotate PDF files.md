@@ -13,13 +13,13 @@ Plugins that handle PDF files.
 
 ## Plugins in this category
 
-- [[pdf-to-markdown-plugin|PDF to Markdown]]
-- [[obsidian-extract-pdf-highlights|PDF Highlights]]
-- [[better-pdf-plugin|Better PDF Plugin]]
-- [[obsidian-annotator|Annotator]]
-- [[oz-image-plugin|Ozan's Image in Editor Plugin]]
-- [[obsidian-markmind|Obsidian markmind]]
-- [[obsidian-extract-pdf-annotations|Extract PDF Annotations]]
+- [[pdf-to-markdown-plugin|PDF to Markdown]]: Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.
+- [[obsidian-extract-pdf-highlights|PDF Highlights]]: Extract highlights, underlines and annotations from your PDFs into Obsidian
+- [[better-pdf-plugin|Better PDF Plugin]]: Goal of this Plugin in to implement a native PDF handling workflow
+- [[obsidian-annotator|Annotator]]: This is a sample plugin for Obsidian. It allows you to open and annotate PDF and EPUB files.
+- [[oz-image-plugin|Ozan's Image in Editor Plugin]]: View Images, Transclusions, iFrames and PDF Files within the Editor without a necessity to switch to Preview.
+- [[obsidian-markmind|Obsidian markmind]]: This is a mindmap，outline and pdf annotate tool for obsidian.
+- [[obsidian-extract-pdf-annotations|Extract PDF Annotations]]: Extract PDF Annotations (Notes and Highlights) and sort them by topics
 
 ## Related categories
 

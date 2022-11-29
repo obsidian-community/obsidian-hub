@@ -13,14 +13,14 @@ Show and display statistic information about your vault.
 
 ## Plugins in this category
 
-- [[youhavebeenstaring-plugin|YouHaveBeenStaring]]
-- [[obsidian-vault-statistics-plugin|Vault Statistics]]
-- [[obsidian-commits|Commits]]
-- [[obsidian-journey-plugin|Journey]]
-- [[obsidian-vault-changelog|Vault Changelog]]
-- [[obsidian-activity-history|Activity History]]
-- [[obsidian-activity-logger|Activity Logger]]
-- [[daily-activity|Daily Activity]]
+- [[youhavebeenstaring-plugin|YouHaveBeenStaring]]: This plugin tells you in the status bar for how long you've been staring at your obsidian vault. Well - at least how long your vault is open.
+- [[obsidian-vault-statistics-plugin|Vault Statistics]]: Status bar item with vault statistics such as number of notes, files, attachments, and links.
+- [[obsidian-commits|Commits]]: Track & show commits in obsidian vault or specified project.
+- [[obsidian-journey-plugin|Journey]]: Discover the stories between your notes.
+- [[obsidian-vault-changelog|Vault Changelog]]: Obsidian plugin to maintain a notes changelog in a vault
+- [[obsidian-activity-history|Activity History]]: Track activity of specified projects, Github like activity board
+- [[obsidian-activity-logger|Activity Logger]]: Log your activities like creating notes, modifying notes, deleting notes and so on.
+- [[daily-activity|Daily Activity]]: A collection of commands to track your writing activity.
 
 ## Related categories
 

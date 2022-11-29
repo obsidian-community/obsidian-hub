@@ -13,11 +13,11 @@ Plugins to convert from [[Markdown]].
 
 ## Plugins in this category
 
-- [[obsidian-export-to-tex|Export To TeX]]
-- [[obsidian-jsonifier|JSONifier]]
-- [[obsidian-static-file-server|Static File Server]]
-- [[obsidian-pandoc|Obsidian Pandoc]]
-- [[mochi-cards-exporter|Mochi Cards Exporter]]
+- [[obsidian-export-to-tex|Export To TeX]]: Export vault files in a format amenable to pasting into a tex document
+- [[obsidian-jsonifier|JSONifier]]: Select text that you want to JSON.stringify(), or JSON.parse(). Select text and use the keystroke and the transformation will be copied to your clipboard. Paste it wherever you want.
+- [[obsidian-static-file-server|Static File Server]]: Host obsidian subfolders as static file servers.
+- [[obsidian-pandoc|Obsidian Pandoc]]: This is a Pandoc export plugin for Obsidian. It provides commands to export to formats like DOCX, ePub and PDF.
+- [[mochi-cards-exporter|Mochi Cards Exporter]]: Export Markdown notes to Mochi cards from within obsidian
 
 ## Related categories
 

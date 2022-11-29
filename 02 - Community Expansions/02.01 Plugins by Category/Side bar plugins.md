@@ -15,13 +15,13 @@ Plugins that add panes to your sidebar.
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[juggl|Juggl]]
-- [[calendar|Calendar]]
-- [[customizable-sidebar|Customizable Sidebar]]
-- [[obsidian-hide-sidebars-when-narrow|Hide Sidebars When Narrow]]
-- [[window-collapse|Window Collapse]]
-- [[obsidian-sidebar-expand-on-hover|Sidebar Expand on Hover]]
-- [[obsidian-daily-stats|Daily Stats]]
+- [[juggl|Juggl]]: Adds a completely interactive, stylable and expandable graph view to Obsidian.
+- [[calendar|Calendar]]: Calendar view of your daily notes
+- [[customizable-sidebar|Customizable Sidebar]]: This Plugin allows to add any Command to Obsidian's Sidebar Ribbon.
+- [[obsidian-hide-sidebars-when-narrow|Hide Sidebars When Narrow]]: Automatically hides the sidebars when your window is narrow.
+- [[window-collapse|Window Collapse]]: This plugins provides an easy way to collapse the sidebars without going fullscreen.
+- [[obsidian-sidebar-expand-on-hover|Sidebar Expand on Hover]]: This Obsidian plugin expands or collapses the sidebars based on mouse hovering on the ribbons.
+- [[obsidian-daily-stats|Daily Stats]]: Track your daily word count across all notes in your vault.
 
 ## Related categories
 

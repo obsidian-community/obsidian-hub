@@ -16,11 +16,11 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[todoist-sync-plugin|Todoist Plugin]]
-- [[readwise-mirror|Readwise Mirror]]
-- [[readwise-official|Readwise Official]]
-- [[obsidian-readwise|Readwise Community]]
-- [[ozanshare-publish|OzanShare Publish]]
+- [[todoist-sync-plugin|Todoist Plugin]]: Materialize Todoist tasks within Obsidian notes.
+- [[readwise-mirror|Readwise Mirror]]: Mirror your Readwise library directly to an Obsidian vault
+- [[readwise-official|Readwise Official]]: Official Readwise <-> Obsidian integration
+- [[obsidian-readwise|Readwise Community]]: Sync Readwise highlights into your notes
+- [[ozanshare-publish|OzanShare Publish]]: Publish your markdown notes with a single click from your vault.
 
 ## Related categories
 

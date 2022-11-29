@@ -13,20 +13,20 @@ Automatically create, update, or delete notes.
 
 ## Plugins in this category
 
-- [[templater-obsidian|Templater]]
-- [[snippets|Snippets plugin]]
-- [[obsidian-text-expander|Text Expander]]
-- [[text-snippets-obsidian|Text Snippets]]
-- [[buttons|Buttons]]
-- [[python-lab-plugin|Python lab plugin]]
-- [[obsidian-qrcode-plugin|QR Code Generator Plugin]]
-- [[oz-clear-unused-images|Clear Unused Images]]
-- [[obsidian-image-uploader|Image Uploader]]
-- [[macro-plugin|Macros]]
-- [[obsidian-shellcommands|Shell commands]]
-- [[obsidian-autocomplete-plugin|Autocomplete]]
-- [[customjs|CustomJS]]
-- [[obsidian-javascript-init|JavaScript Init]]
+- [[templater-obsidian|Templater]]: Create and use templates
+- [[snippets|Snippets plugin]]: Execute simple scripts/snippets from obsidian. This plugin is experimental
+- [[obsidian-text-expander|Text Expander]]: Expand text shortcuts, run shell commands and python scripts right in your editor
+- [[text-snippets-obsidian|Text Snippets]]: Allows you to replace text templates for faster typing, create your own.
+- [[buttons|Buttons]]: Create Buttons in your Obsidian notes to run commands, open links, and insert templates
+- [[python-lab-plugin|Python lab plugin]]: An interface to experiment with python scripts and more.
+- [[obsidian-qrcode-plugin|QR Code Generator Plugin]]: This is a QR Code Generator plugin for Obsidian.
+- [[oz-clear-unused-images|Clear Unused Images]]: Clear the images that you are not using anymore in your markdown notes to save space.
+- [[obsidian-image-uploader|Image Uploader]]: This plugin uploads the image in your clipboard to any image hosting automatically when pasting.
+- [[macro-plugin|Macros]]: Group multiple Commands into one Macro.
+- [[obsidian-shellcommands|Shell commands]]: You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications.
+- [[obsidian-autocomplete-plugin|Autocomplete]]: This plugin provides a text autocomplete feature to enhance typing speed.
+- [[customjs|CustomJS]]: This plugin allows for the loading and reuse of custom JS inside your vault.
+- [[obsidian-javascript-init|JavaScript Init]]: Run JavaScript when Obsidian loads, or any other time.
 
 ## Related categories
 

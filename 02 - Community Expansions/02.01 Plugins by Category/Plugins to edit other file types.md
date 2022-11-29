@@ -13,13 +13,13 @@ Plugins enabling Obsidian to edit files other than markdown `.md`.
 
 ## Plugins in this category
 
-- [[ini-obsidian|ini Editor]]
-- [[txt-as-md-obsidian|txt as md]]
-- [[csv-obsidian|CSV Editor]]
-- [[mdx-as-md-obsidian|mdx as md]]
-- [[obsidian-org-mode|Org Mode]]
-- [[obsidian-fountain|Fountain]]
-- [[obsidian-excalidraw-plugin|Excalidraw]]
+- [[ini-obsidian|ini Editor]]: Edit ini files in Obsidian
+- [[txt-as-md-obsidian|txt as md]]: Edit txt files as if they were markdown
+- [[csv-obsidian|CSV Editor]]: Edit CSV files in Obsidian
+- [[mdx-as-md-obsidian|mdx as md]]: Edit mdx files as if they were markdown
+- [[obsidian-org-mode|Org Mode]]: Add Org Mode support to Obsidian.
+- [[obsidian-fountain|Fountain]]: Fountain Support for Obsidian
+- [[obsidian-excalidraw-plugin|Excalidraw]]: An Obsidian plugin to edit and view Excalidraw drawings
 
 ## Related categories
 

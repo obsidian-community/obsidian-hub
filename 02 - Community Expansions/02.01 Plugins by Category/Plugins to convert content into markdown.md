@@ -13,16 +13,16 @@ Plugins to convert to [[Markdown]].
 
 ## Plugins in this category
 
-- [[convert-url-to-iframe|Convert url to preview (iframe)]]
-- [[wikilinks-to-mdlinks-obsidian|Wikilinks to MDLinks (Markdown Links)]]
-- [[pdf-to-markdown-plugin|PDF to Markdown]]
-- [[obsidian-extract-pdf-highlights|PDF Highlights]]
-- [[obsidian-file-path-to-uri|File path to URI]]
-- [[better-pdf-plugin|Better PDF Plugin]]
-- [[extract-url|Extract url content]]
-- [[obsidian-csv-table|CSV Table]]
-- [[obsidian-pluck|Pluck]]
-- [[obsidian-extract-pdf-annotations|Extract PDF Annotations]]
+- [[convert-url-to-iframe|Convert url to preview (iframe)]]: Convert an url (ex, youtube) into an iframe (preview)
+- [[wikilinks-to-mdlinks-obsidian|Wikilinks to MDLinks (Markdown Links)]]: A plugin that converts wikilinks to markdown links and vice versa
+- [[pdf-to-markdown-plugin|PDF to Markdown]]: Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.
+- [[obsidian-extract-pdf-highlights|PDF Highlights]]: Extract highlights, underlines and annotations from your PDFs into Obsidian
+- [[obsidian-file-path-to-uri|File path to URI]]: Convert file path to uri for easier use of links to local files outside of Obsidian
+- [[better-pdf-plugin|Better PDF Plugin]]: Goal of this Plugin in to implement a native PDF handling workflow
+- [[extract-url|Extract url content]]: Extract url converting content into markdown
+- [[obsidian-csv-table|CSV Table]]: Render CSV data as a table within your notes.
+- [[obsidian-pluck|Pluck]]: Quickly create notes in Obsidian from web pages.
+- [[obsidian-extract-pdf-annotations|Extract PDF Annotations]]: Extract PDF Annotations (Notes and Highlights) and sort them by topics
 
 ## Related categories
 

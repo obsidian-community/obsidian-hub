@@ -13,44 +13,44 @@ Plugins help in editing like toolbars, auto-completions, sorting, ...
 
 ## Plugins in this category
 
-- [[table-editor-obsidian|Advanced Tables]]
-- [[cm-typewriter-scroll-obsidian|Typewriter Scroll Obsidian Plugin]]
-- [[obsidian-emoji-toolbar|Emoji Toolbar]]
-- [[completed-area|Completed Area]]
-- [[obsidian-citation-plugin|Citations]]
-- [[obsidian-autocomplete-plugin|Autocomplete]]
-- [[obsidian-sort-and-permute-lines|Sort & Permute lines]]
-- [[obsidian-markdown-formatting-assistant-plugin|Markdown Formatting Assistant]]
-- [[various-complements|Various Complements]]
-- [[obsidian-plugin-toc|Table of Contents]]
-- [[obsidian-footnotes|Footnote Shortcut]]
-- [[remember-cursor-position|Remember cursor position]]
-- [[obsidian-outliner|Outliner]]
-- [[find-and-replace-in-selection|Find and replace in selection]]
-- [[obsidian-embedded-note-titles|Embedded Note Titles]]
-- [[table-extended|Table Extended]]
-- [[obsidian-dictionary-plugin|Dictionary]]
-- [[metaedit|MetaEdit]]
-- [[obsidian-smart-typography|Smart Typography]]
-- [[obsidian-text-format|Text Format]]
-- [[obsidian-find-and-replace-in-selection|Find & Replace in Selection]]
-- [[advanced-toolbar|Advanced Mobile Toolbar]]
-- [[cmenu-plugin|cMenu]]
-- [[multi-line-formatting|Multi-line Formatting]]
-- [[emoji-shortcodes|Emoji Shortcodes]]
-- [[obsidian-copy-block-link|Copy Block Link]]
-- [[obsidian-code-block-enhancer|Code Block Enhancer]]
-- [[ghost-fade-focus|Ghost Fade Focus]]
-- [[obsidian-banners|Banners]]
-- [[obsidian-paste-to-current-indentation|Paste to Current Indentation]]
-- [[obsidian-dynamic-toc|Dynamic Table of Contents]]
-- [[obsidian-carry-forward|Carry-Forward]]
-- [[obsidian42-text-transporter|Obsidian42 - Text Transporter]]
-- [[longform|Longform]]
-- [[obsidian-incremental-writing|Incremental Writing]]
-- [[obsidian-html-tags-autocomplete|HTML Tags Autocomplete]]
-- [[advanced-cursors|Advanced Cursors]]
-- [[obsidian-pipe-tricks|Pipe tricks]]
+- [[table-editor-obsidian|Advanced Tables]]: Improved table navigation, formatting, manipulation, and formulas
+- [[cm-typewriter-scroll-obsidian|Typewriter Scroll Obsidian Plugin]]: Typewriter-style scrolling which keeps the view centered in the editor.
+- [[obsidian-emoji-toolbar|Emoji Toolbar]]: Quickly search for and insert emojis into your notes.
+- [[completed-area|Completed Area]]: Move completed to-do items to a seperate completed area.
+- [[obsidian-citation-plugin|Citations]]: Automatically search and insert citations from a Zotero library
+- [[obsidian-autocomplete-plugin|Autocomplete]]: This plugin provides a text autocomplete feature to enhance typing speed.
+- [[obsidian-sort-and-permute-lines|Sort & Permute lines]]: 
+- [[obsidian-markdown-formatting-assistant-plugin|Markdown Formatting Assistant]]: This Plugin provides a simple Editor for Markdown, HTML and Colors and in addition a command line interface. The command line interface facilitate a faster workflow.
+- [[various-complements|Various Complements]]: This plugin enables you to complete words like the auto-completion of IDE
+- [[obsidian-plugin-toc|Table of Contents]]: Create a table of contents for a note.
+- [[obsidian-footnotes|Footnote Shortcut]]: Insert and write footnotes faster
+- [[remember-cursor-position|Remember cursor position]]: Remember cursor and scroll position for each note
+- [[obsidian-outliner|Outliner]]: Work with your lists like in Workflowy or RoamResearch.
+- [[find-and-replace-in-selection|Find and replace in selection]]: Finds what you are looking for in the selected text and replaces it with the specified text
+- [[obsidian-embedded-note-titles|Embedded Note Titles]]: Inserts the note file name as an H1 heading above each note.
+- [[table-extended|Table Extended]]: Enable extended table support with MultiMarkdown 6 syntax
+- [[obsidian-dictionary-plugin|Dictionary]]: This is a simple dictionary for the Obsidian Note-Taking Tool.
+- [[metaedit|MetaEdit]]: MetaEdit helps you manage your metadata.
+- [[obsidian-smart-typography|Smart Typography]]: Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses
+- [[obsidian-text-format|Text Format]]: Format selected text lowercase/uppercase/capitalize/titlecase or remove redundant spaces/newline characters.
+- [[obsidian-find-and-replace-in-selection|Find & Replace in Selection]]: Replace text within your current selection.
+- [[advanced-toolbar|Advanced Mobile Toolbar]]: Enhances the Toolbar for Obsidian Mobile.
+- [[cmenu-plugin|cMenu]]: cMenu is a plugin that adds a minimal text editor modal for a smoother writing/editing experience ✍🏽.
+- [[multi-line-formatting|Multi-line Formatting]]: Apply formatting to selected text, dealing with the paragraph breaks.
+- [[emoji-shortcodes|Emoji Shortcodes]]: This Plugin enables the use of Markdown Emoji Shortcodes :smile:
+- [[obsidian-copy-block-link|Copy Block Link]]: Get links to blocks and headings from Obsidian's right click menu
+- [[obsidian-code-block-enhancer|Code Block Enhancer]]: Enhance obsidian markdown code block,provides copy button,linenumber,language name tip and so on.
+- [[ghost-fade-focus|Ghost Fade Focus]]: Focused on the current line, others faded like a ghost!
+- [[obsidian-banners|Banners]]: Add banner images to your notes!
+- [[obsidian-paste-to-current-indentation|Paste to Current Indentation]]: This plugin allows pasting and marking text as block-quotes at any level of indentation.
+- [[obsidian-dynamic-toc|Dynamic Table of Contents]]: An Obsidian plugin to generate Tables of Contents that stay up to date with your document outline.
+- [[obsidian-carry-forward|Carry-Forward]]: An Obsidian Notes plugin for generating and copying block IDs and for copying lines with links to the copied line.
+- [[obsidian42-text-transporter|Obsidian42 - Text Transporter]]: Advanced text tools for working with text in your vault
+- [[longform|Longform]]: Write novels, screenplays, and other long projects in Obsidian.
+- [[obsidian-incremental-writing|Incremental Writing]]: Incrementally review notes and blocks over time.
+- [[obsidian-html-tags-autocomplete|HTML Tags Autocomplete]]: Autocomplete HTML tags.
+- [[advanced-cursors|Advanced Cursors]]: Use multiple cursors even more powerfully.
+- [[obsidian-pipe-tricks|Pipe tricks]]: Adds support for pipe tricks in Obsidian.
 
 ## Related categories
 

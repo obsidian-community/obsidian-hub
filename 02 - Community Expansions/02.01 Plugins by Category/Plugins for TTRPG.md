@@ -16,12 +16,12 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[obsidian-dice-roller|Dice Roller]]
-- [[initiative-tracker|Initiative Tracker]]
-- [[obsidian-5e-statblocks|5e Statblocks]]
-- [[fantasy-calendar|Fantasy Calendar]]
-- [[obsidian-leaflet-plugin|Obsidian Leaflet]]
-- [[generic-initiative-tracker|Generic Initiative Tracker]]
+- [[obsidian-dice-roller|Dice Roller]]: Inline dice rolling for Obsidian.md
+- [[initiative-tracker|Initiative Tracker]]: TTRPG Initiative Tracker for Obsidian.md
+- [[obsidian-5e-statblocks|5e Statblocks]]: Create 5e styled statblocks in Obsidian.md
+- [[fantasy-calendar|Fantasy Calendar]]: Fantasy calendars in Obsidian!
+- [[obsidian-leaflet-plugin|Obsidian Leaflet]]: Interactive maps inside your notes
+- [[generic-initiative-tracker|Generic Initiative Tracker]]: TTRPG Generic Initiative Tracker for Obsidian.md
 
 ## Unlisted plugins
 

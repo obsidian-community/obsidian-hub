@@ -13,14 +13,14 @@ Handling dates
 
 ## Plugins in this category
 
-- [[nldates-obsidian|Natural Language Dates]]
-- [[obsidian-juliandate|Julian Date Quick Insert]]
-- [[obsidian-jump-to-date-plugin|Obsidian42 - Jump-to-Date]]
-- [[calendar|Calendar]]
-- [[fantasy-calendar|Fantasy Calendar]]
-- [[big-calendar|Obsidian Big Calendar]]
-- [[obsidian-full-calendar|Full Calendar]]
-- [[heatmap-calendar|Heatmap Calendar]]
+- [[nldates-obsidian|Natural Language Dates]]: Create date-links based on natural language
+- [[obsidian-juliandate|Julian Date Quick Insert]]: Simple hotkey to insert the current Julian Date
+- [[obsidian-jump-to-date-plugin|Obsidian42 - Jump-to-Date]]: Popup calendar for quickly navigating dates
+- [[calendar|Calendar]]: Calendar view of your daily notes
+- [[fantasy-calendar|Fantasy Calendar]]: Fantasy calendars in Obsidian!
+- [[big-calendar|Obsidian Big Calendar]]: A Big Calendar for Obsidian
+- [[obsidian-full-calendar|Full Calendar]]: Obsidian integration with Full Calendar (fullcalendar.io)
+- [[heatmap-calendar|Heatmap Calendar]]: Activity Year Overview for DataviewJS, Github style – Track Goals, Progress, Habits, Tasks, Exercise, Finances, "Dont Break the Chain" etc.
 
 ## Related categories
 

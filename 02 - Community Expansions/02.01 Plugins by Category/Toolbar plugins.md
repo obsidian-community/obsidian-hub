@@ -15,8 +15,8 @@ Plugins that add toolbars.
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[cmenu-plugin|cMenu]]
-- [[table-editor-obsidian|Advanced Tables]]
+- [[cmenu-plugin|cMenu]]: cMenu is a plugin that adds a minimal text editor modal for a smoother writing/editing experience ✍🏽.
+- [[table-editor-obsidian|Advanced Tables]]: Improved table navigation, formatting, manipulation, and formulas
 
 ## Related categories
 

@@ -15,7 +15,7 @@ Plugins that add OCR for images and/or PDF.
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[taskbone-ocr-plugin|Taskbone OCR]]
+- [[taskbone-ocr-plugin|Taskbone OCR]]: Extract text from images and make it available for search.
 
 ## Related categories
 

@@ -16,7 +16,7 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[obsidian-rtl|RTL Support]]
+- [[obsidian-rtl|RTL Support]]: Right to Left (RTL) text direction support for languages like Arabic, Hebrew and Farsi.
 
 ## Related categories
 

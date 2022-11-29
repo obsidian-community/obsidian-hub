@@ -13,9 +13,9 @@ Handle video/audio files
 
 ## Plugins in this category
 
-- [[media-extended|Media Extended]]
-- [[mx-bili-plugin|Media Extended BiliBili Plugin]]
-- [[podcast-note|Podcast Note]]
+- [[media-extended|Media Extended]]: Media(Video/Audio) Playback Enhancement for Obsidian.md
+- [[mx-bili-plugin|Media Extended BiliBili Plugin]]: Add advanced bilibili videos support for Media Extended plugin
+- [[podcast-note|Podcast Note]]: Podcast Note lets you automatically add podcast information to your notes.
 
 ## Related categories
 

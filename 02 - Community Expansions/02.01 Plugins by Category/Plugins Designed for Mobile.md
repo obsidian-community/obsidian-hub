@@ -13,8 +13,8 @@ Special plugins for the Obsidian mobile app.
 
 ## Plugins in this category
 
-- [[advanced-toolbar|Advanced Mobile Toolbar]]
-- [[customjs|CustomJS]]
+- [[advanced-toolbar|Advanced Mobile Toolbar]]: Enhances the Toolbar for Obsidian Mobile.
+- [[customjs|CustomJS]]: This plugin allows for the loading and reuse of custom JS inside your vault.
 
 ## Related categories
 

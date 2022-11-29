@@ -16,10 +16,10 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[obsidian-dictionary-plugin|Dictionary]]
-- [[obsidian-languagetool-plugin|LanguageTool Integration]]
-- [[obsidian-orthography|Obsidian Orthography]]
-- [[obsidian-vale|Vale]]
+- [[obsidian-dictionary-plugin|Dictionary]]: This is a simple dictionary for the Obsidian Note-Taking Tool.
+- [[obsidian-languagetool-plugin|LanguageTool Integration]]: Spelling and grammar checks with the LanguageTool API
+- [[obsidian-orthography|Obsidian Orthography]]: Obsidian plugin to check & fix orthography errors in text
+- [[obsidian-vale|Vale]]: A Vale client for Obsidian.
 
 ## Related categories
 
