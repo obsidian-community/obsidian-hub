@@ -1,9 +1,17 @@
 from datetime import datetime
 from feedparser import FeedParserDict, parse
 from markdownify import markdownify as md
+from urllib.parse import quote
 
 FEED_URL = "https://www.obsidianroundup.org/blog/rss/"
 ROUNDUP_FOLDER_PATH = "../../01 - Community/Obsidian Roundup"
+FOOTER = """
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/{formatted_article_title_url} "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/{formatted_article_title_url} "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
+"""
 
 def date_conversion(parsed_feed_datetime: FeedParserDict) -> datetime:
     """Converts published_parsed attribute of a feed item into a pythonic datetime object"""
@@ -35,18 +43,20 @@ def generate_file_with_hub_yaml(entry: FeedParserDict) -> str:
     frontmatter: str = f"---\nlink: {entry.link}\nauthor: {entry.author}\npublished: {datetime_from_parsed_feed_datetime(entry)}\npublish: true\n---\n\n"
     return frontmatter+f"# {date_from_parsed_feed_datetime(entry)}: {entry.title[2:]}\n{entry.summary}\n\n"+convert_feed_html(entry.content[0].value)
 
-def save_file(entry: FeedParserDict) -> None:
+def save_file(entry: FeedParserDict) -> str:
     file_contents: str = generate_file_with_hub_yaml(entry)
     file_name = f"{ROUNDUP_FOLDER_PATH}/{get_normalized_file_name(entry)}"
     with open(file_name, 'w', encoding='utf8') as roundup_file:
         roundup_file.write(file_contents)
+    return file_name
 
 def main() -> None:
     parsed_feed = parse(FEED_URL)
     for entry in parsed_feed.entries:
         if is_roundup_post(entry):
-            # print(get_normalized_file_name(entry))
-            save_file(entry)
+            file_path = save_file(entry)
+            with open(file_path, "a") as f:
+                f.write(FOOTER.format(formatted_article_title_url=quote(get_normalized_file_name(entry))))
 
 if __name__ == "__main__":
     main()

@@ -45,7 +45,8 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 * QuickAdd got a big rewrite with a ton of bug fixes, as well as some [new documentation](https://quickadd.obsidian.guide).
 * [Strange New Worlds](https://github.com/TfTHacker/obsidian42-strange-new-worlds) popups will now by default get cut off at 100 files, although the number can be controlled in settings. This should improve speed.
-* Metadata Menu 0.3.7 got a bunch of improvements related to Fileclass views, with a [demo](https://youtu.be/3jukvV7OODg) video.[Frontmatter Links: v1.2.5](https://obsidian.md/plugins?id=frontmatter-links) lets users add front matter links to the graph, works on mobile, and got some styling improvements.
+* Metadata Menu 0.3.7 got a bunch of improvements related to Fileclass views, with a [demo](https://youtu.be/3jukvV7OODg) video.
+* [Frontmatter Links: v1.2.5](https://obsidian.md/plugins?id=frontmatter-links) lets users add front matter links to the graph, works on mobile, and got some styling improvements.
 * [Obsidian Front Matter Title 2.6.0](https://github.com/Snezhig/obsidian-front-matter-title/releases/tag/2.6.0) added alias and suggest features.
 * the [Obsidian Chat View Plugin](https://github.com/adifyr/obsidian-chat-view) now supports markdown and HTML rendering.
 * [Another Quick Switcher](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher) 7.5.0 lets users search links.
