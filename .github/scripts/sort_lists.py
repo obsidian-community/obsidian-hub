@@ -89,7 +89,7 @@ def main() -> None:
 
         list_pos = extract_list_pos(page_contents, heading)
         if list_pos is None:
-            log.warning("Could not find heading in page. Skipping")
+            log.warning(f"Could not find heading in page. Skipping {page_path}")
             continue
 
         [list_start, list_end] = list_pos
