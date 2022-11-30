@@ -82,3 +82,9 @@ _Note: Not all new plugins are available in the community list yet, as they need
 
 Thursday was Thanksgiving here in the USA, but my family is celebrating today. I wanted to take a moment and let you all know how deeply grateful I am for the opportunities that have come my way because of you. I'm planning to quit teaching soon, for health reasons I'll get into more detail about once the dust has settled, but it wouldn't be possible without all of your support, financial and otherwise.
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-11-26%20Weekly%20Reviews%2C%20Zen%20Mode%2C%20%26%20Aggregation.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-11-26%20Weekly%20Reviews%2C%20Zen%20Mode%2C%20%26%20Aggregation.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

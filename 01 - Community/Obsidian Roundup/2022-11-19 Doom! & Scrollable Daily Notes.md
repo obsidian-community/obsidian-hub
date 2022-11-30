@@ -100,3 +100,9 @@ Things are still pretty blurry on the vision front and extremely stressful on th
 
 But also, Twitter has been intermittent for me and some replies people are making aren't actually showing up in my notifications feed, so if you've reached out about something over a week ago and I haven't responded, try pinging me again. I have not ignored anyone on purpose, although I do have some emails I need to get to this weekend. 
 
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/2022-11-19%20Doom%21%20%26%20Scrollable%20Daily%20Notes.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/2022-11-19%20Doom%21%20%26%20Scrollable%20Daily%20Notes.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
