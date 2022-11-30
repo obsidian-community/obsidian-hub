@@ -13,8 +13,8 @@ publish: true
 
 ## Plugins in this category
 
-- [[chesser-obsidian|Chesser]]: A chess game viewer/editor
 - [[obsidian-chessboard|Chessboard Viewer]]: Render chess positions diagrams in note preview.
+- [[chesser-obsidian|Chesser]]: A chess game viewer/editor
 - [[obsidian-chess|Obsidian Chess]]: All you need to create your Chess related notes
 
 ## Related categories

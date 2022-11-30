@@ -13,14 +13,14 @@ Plugins to apply templates beyond what [[Obsidian Core Plugins#Templates]] offer
 
 ## Plugins in this category
 
+- [[obsidian-filename-heading-sync|Filename Heading Sync]]: Obsidian plugin for keeping the filename with the first heading of a file in sync
+- [[liquid-templates|Liquid Templates]]: Empower your template with LiquidJS tags
+- [[page-heading-from-links|Page Heading From Links]]: Inserts a heading into blank pages from the filename
+- [[podcast-note|Podcast Note]]: Podcast Note lets you automatically add podcast information to your notes.
+- [[quickadd|QuickAdd]]: Quickly add new pages or content to your vault.
 - [[templater-obsidian|Templater]]: Create and use templates
 - [[obsidian-temple|Temple]]: A plugin for templating in Obsidian, powered by Nunjucks.
 - [[obsidian-metatemplates|metatemplates]]: Generate notes from templates using YAML front-matter
-- [[page-heading-from-links|Page Heading From Links]]: Inserts a heading into blank pages from the filename
-- [[obsidian-filename-heading-sync|Filename Heading Sync]]: Obsidian plugin for keeping the filename with the first heading of a file in sync
-- [[liquid-templates|Liquid Templates]]: Empower your template with LiquidJS tags
-- [[podcast-note|Podcast Note]]: Podcast Note lets you automatically add podcast information to your notes.
-- [[quickadd|QuickAdd]]: Quickly add new pages or content to your vault.
 
 ## Related categories
 

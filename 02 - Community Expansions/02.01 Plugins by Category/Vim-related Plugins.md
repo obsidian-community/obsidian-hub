@@ -13,13 +13,13 @@ Plugins related to [[Vim]] mode
 
 ## Plugins in this category
 
-- [[obsidian-vimrc-support|Vimrc Support]]: Auto-load a startup file with Obsidian Vim commands.
 - [[mrj-add-codemirror-matchbrackets|Add Codemirror's matchbrackets.js]]: This plugins adds matchbrackets.js which allows to use `di[` or `ya(` commands in Vim mode
-- [[obsidian-vim-im-switch-plugin|Vim Input Method Switch]]: Switch input method with fcitx-remote when Vim keymap is enabled.
-- [[obsidian-relative-line-numbers|Relative Line Numbers]]: Enables relative line numbers in editor mode
 - [[improved-vimcursor|Improved VimCursor]]: An improved experience with the cursor in obsidian
+- [[obsidian-relative-line-numbers|Relative Line Numbers]]: Enables relative line numbers in editor mode
 - [[vim-im-select|Vim IM Select]]: Support auto select the apposite input method in different vim mode
+- [[obsidian-vim-im-switch-plugin|Vim Input Method Switch]]: Switch input method with fcitx-remote when Vim keymap is enabled.
 - [[obsidian-vim-multibyte-char-search|Vim Multibyte Char Search]]: Search multibyte characters by the first character of corresponding ASCII encoding of input method. For example, for Chinese, search by the first character of Pinyin.
+- [[obsidian-vimrc-support|Vimrc Support]]: Auto-load a startup file with Obsidian Vim commands.
 
 ## Related categories
 

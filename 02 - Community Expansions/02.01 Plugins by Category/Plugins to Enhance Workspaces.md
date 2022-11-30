@@ -13,8 +13,8 @@ Enhance Obsidian workspaces
 
 ## Plugins in this category
 
-- [[koncham-workspace|koncham workspace]]: obsidian workspace enhancements: vertical tabs, and more...
 - [[workspaces-plus|Workspaces Plus]]: Quickly switch and manage workspaces
+- [[koncham-workspace|koncham workspace]]: obsidian workspace enhancements: vertical tabs, and more...
 
 ## Related categories
 

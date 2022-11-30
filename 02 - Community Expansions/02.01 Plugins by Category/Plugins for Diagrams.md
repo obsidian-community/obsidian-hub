@@ -15,12 +15,12 @@ Plugins to create diagrams other than [[Mermaid]] (which is [already natively su
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[obsidian-excalidraw-plugin|Excalidraw]]: An Obsidian plugin to edit and view Excalidraw drawings
 - [[drawio-obsidian|Diagrams]]: Draw.io diagrams for Obsidian. This plugin introduces diagrams that can be included within notes or as stand-alone files. Diagrams are created as SVG files (although .drawio extensions are also supported).
-- [[obsidian-plantuml|PlantUML]]: Render PlantUML Diagrams
+- [[obsidian-excalidraw-plugin|Excalidraw]]: An Obsidian plugin to edit and view Excalidraw drawings
 - [[obsidian-kroki|Kroki]]: Render Kroki Diagrams
 - [[obsidian-nomnoml-diagram|Nomnoml Diagram]]: Draw nomnoml diagrams in Obsidian notes
 - [[obsidian-graphviz|Obsidian Graphviz]]: Render Graphviz Diagrams
+- [[obsidian-plantuml|PlantUML]]: Render PlantUML Diagrams
 
 ## Related categories
 

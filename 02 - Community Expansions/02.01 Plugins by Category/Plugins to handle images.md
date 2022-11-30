@@ -13,10 +13,10 @@ Plugins to handle image files.
 
 ## Plugins in this category
 
-- [[obsidian-gallery|Gallery]]: Main Gallery to tag / filter / add notes to images. Display blocks to embed images inside notes. Display block to an image information
-- [[obsidian-image-toolkit|Obsidian Image Toolkit]]: This plugin provides some image viewing toolkit.
 - [[obsidian-banners|Banners]]: Add banner images to your notes!
 - [[copy-url-in-preview|Copy Image and URL in Preview]]: Copy Image and Copy URL context menu in preview mode
+- [[obsidian-gallery|Gallery]]: Main Gallery to tag / filter / add notes to images. Display blocks to embed images inside notes. Display block to an image information
+- [[obsidian-image-toolkit|Obsidian Image Toolkit]]: This plugin provides some image viewing toolkit.
 - [[oz-image-plugin|Ozan's Image in Editor Plugin]]: View Images, Transclusions, iFrames and PDF Files within the Editor without a necessity to switch to Preview.
 
 ## Related categories

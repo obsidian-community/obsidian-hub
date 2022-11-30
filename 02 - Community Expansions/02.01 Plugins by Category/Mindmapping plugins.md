@@ -13,9 +13,9 @@ Display notes as mindmap
 
 ## Plugins in this category
 
-- [[obsidian-mind-map|Mind Map]]: A plugin to preview notes as Markmap mind maps
 - [[obsidian-argdown-plugin|Argument Map with Argdown]]: Allows you to write argdown codeblocks and view the maps in Preview
 - [[obsidian-enhancing-mindmap|Enhancing mindmap]]: This is a enhancing mindmap plugin for Obsidian. You can edit mindmap on markdown.
+- [[obsidian-mind-map|Mind Map]]: A plugin to preview notes as Markmap mind maps
 - [[obsidian-markmind|Obsidian markmind]]: This is a mindmap，outline and pdf annotate tool for obsidian.
 
 ## Related categories

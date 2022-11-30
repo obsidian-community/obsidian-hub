@@ -13,19 +13,19 @@ Plugins that help you refactor and reformat your notes. These plugins offer addi
 
 ## Plugins in this category
 
-- [[note-refactor-obsidian|Note Refactor]]: Extract note content into new notes and split notes
-- [[markdown-prettifier|Markdown prettifier]]: Tries to fix and reformat ugly Markdown and adds things like 'modified date' etc.
-- [[footlinks|Footlinks]]: Extracts links from the main text to footer.
-- [[obsidian-plugin-prettier|Prettier Format]]: Opinionated formatting for your notes.
-- [[obsidian-tidy-footnotes|Tidy Footnotes]]: Tidy your footnotes seamlessly.
-- [[easy-typing-obsidian|Easy Typing]]: Autoformat your note as typing.(Auto captalize, autospace)
-- [[obsidian-title-index|Obsidian title index]]: obsidian-title-index
-- [[obsidian-linter|Linter]]: Enforces consistent markdown styling.
-- [[obsidian-regex-pipeline|Regex Pipeline]]: Allows users setup custom regex rules to automatically format notes
-- [[number-headings-obsidian|Number Headings]]: Automatically number or re-number headings in an Obsidian document
-- [[tag-wrangler|Tag Wrangler]]: Rename, merge, toggle, and search tags from the tag pane
-- [[obsidian-task-archiver|Obsidian Task Archiver]]: Move completed tasks to an archive with a date tree
 - [[completed-area|Completed Area]]: Move completed to-do items to a seperate completed area.
+- [[easy-typing-obsidian|Easy Typing]]: Autoformat your note as typing.(Auto captalize, autospace)
+- [[footlinks|Footlinks]]: Extracts links from the main text to footer.
+- [[obsidian-linter|Linter]]: Enforces consistent markdown styling.
+- [[markdown-prettifier|Markdown prettifier]]: Tries to fix and reformat ugly Markdown and adds things like 'modified date' etc.
+- [[note-refactor-obsidian|Note Refactor]]: Extract note content into new notes and split notes
+- [[number-headings-obsidian|Number Headings]]: Automatically number or re-number headings in an Obsidian document
+- [[obsidian-task-archiver|Obsidian Task Archiver]]: Move completed tasks to an archive with a date tree
+- [[obsidian-title-index|Obsidian title index]]: obsidian-title-index
+- [[obsidian-plugin-prettier|Prettier Format]]: Opinionated formatting for your notes.
+- [[obsidian-regex-pipeline|Regex Pipeline]]: Allows users setup custom regex rules to automatically format notes
+- [[tag-wrangler|Tag Wrangler]]: Rename, merge, toggle, and search tags from the tag pane
+- [[obsidian-tidy-footnotes|Tidy Footnotes]]: Tidy your footnotes seamlessly.
 
 ## Related categories
 

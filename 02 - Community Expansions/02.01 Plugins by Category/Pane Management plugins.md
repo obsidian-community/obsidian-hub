@@ -15,13 +15,13 @@ Plugins to manage or cycle through panes.
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[sliding-panes-obsidian|Sliding Panes (Andy's Mode)]]: Sliding Panes! Based on the style of [Andy Matuschak's Notes](https://notes.andymatuschak.org/)
-- [[pane-relief|Pane Relief]]: Per-pane history, hotkeys for pane movement + navigation, and more
 - [[cycle-through-panes|Cycle through Panes]]: Cycle through your open Panes with `ctrl + Tab`, just like with Tabs in your Browser!, ctrl+shift+Tab for Reverse
-- [[maximise-active-pane-obsidian|Maximise Active Pane]]: Simply fills the workspace with the active pane
-- [[obsidian-tabs|Obsidian Tabs]]: Opens new leaves in tabs.
 - [[obsidian-focus-mode|Focus Mode]]: Add Focus Mode to Obsidian.
 - [[obsidian-fullscreen-plugin|Fullscreen Focus Mode]]: This plugin allows viewing a single document in fullscreen focus mode
+- [[maximise-active-pane-obsidian|Maximise Active Pane]]: Simply fills the workspace with the active pane
+- [[obsidian-tabs|Obsidian Tabs]]: Opens new leaves in tabs.
+- [[pane-relief|Pane Relief]]: Per-pane history, hotkeys for pane movement + navigation, and more
+- [[sliding-panes-obsidian|Sliding Panes (Andy's Mode)]]: Sliding Panes! Based on the style of [Andy Matuschak's Notes](https://notes.andymatuschak.org/)
 
 ## Related categories
 
