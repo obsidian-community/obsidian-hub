@@ -16,11 +16,11 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
+- [[obsidian-flexible-pomo|Flexible Pomodoro For Obsidian]]: Adds a pomodoro timer to your status bar. This pomodoro has additional options such as early log and extend.
 - [[obsidian-pomodoro-plugin|Pomodoro Plugin]]: This is a simple pomodoro plugin for Obsidian.
 - [[obsidian-statusbar-pomo|Status Bar Pomodoro Timer]]: Adds a pomodoro timer to your status bar.
-- [[obsidian-toggl-integration|Toggl Track]]: Manage timers and generate time reports using Toggl Track without leaving Obsidian.
-- [[obsidian-flexible-pomo|Flexible Pomodoro For Obsidian]]: Adds a pomodoro timer to your status bar. This pomodoro has additional options such as early log and extend.
 - [[obsidian-stopwatch-plugin|Stopwatch Plugin]]: Display stopwatch on Obsidian!
+- [[obsidian-toggl-integration|Toggl Track]]: Manage timers and generate time reports using Toggl Track without leaving Obsidian.
 
 ## Related categories
 

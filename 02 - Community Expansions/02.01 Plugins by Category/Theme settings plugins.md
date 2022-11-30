@@ -15,11 +15,11 @@ Plugins developed to adjust the settings of [[🗂️ Themes|Obsidian Themes]]. 
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[obsidian-style-settings|Style Settings]]: Offers controls for adjusting theme, plugin, and snippet CSS variables.
-- [[obsidian-minimal-settings|Minimal Theme Settings]]: Change the colors, fonts and features of Minimal Theme.
 - [[obsidian-advanced-appearance|Advanced Appearance]]: Change colors, fonts and other cosmetic settings.
-- [[obsidian-hider|Hider]]: Hide UI elements such as tooltips, status, titlebar and more
 - [[discordian-plugin|Discordian Theme]]: Discordian plugin for tweaking Discordian theme
+- [[obsidian-hider|Hider]]: Hide UI elements such as tooltips, status, titlebar and more
+- [[obsidian-minimal-settings|Minimal Theme Settings]]: Change the colors, fonts and features of Minimal Theme.
+- [[obsidian-style-settings|Style Settings]]: Offers controls for adjusting theme, plugin, and snippet CSS variables.
 
 ## Related categories
 

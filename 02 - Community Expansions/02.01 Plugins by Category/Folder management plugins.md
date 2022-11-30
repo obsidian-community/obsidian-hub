@@ -16,14 +16,14 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[note-folder-autorename|Note Folder Autorename]]: Turn notes into folders and automaticaly move/rename their folders when they move or are renamed.
-- [[folder-note-core|Folder Note Core]]: Provide core features and API for folder notes
 - [[alx-folder-note|AidenLx's Folder Note]]: Add description, summary and more info to folders with folder notes.
-- [[zoottelkeeper-obsidian-plugin|Zoottelkeeper Plugin]]: This plugin automatically creates, maintains and tags MOCs for all your folders.
-- [[folder-note-plugin|Folder Note]]: Click a folder node to show a note describing the folder.
-- [[obsidian-icon-folder|Obsidian Icon Folder]]: This plugin allows to add an emoji in front of a folder or icon.
-- [[file-tree-alternative|File Tree Alternative Plugin]]: This plugin allows you to have an alternative file tree view.
 - [[file-explorer-note-count|File Explorer Note Count]]: The plugin helps you to see the number of notes under each folder within the file explorer.
+- [[file-tree-alternative|File Tree Alternative Plugin]]: This plugin allows you to have an alternative file tree view.
+- [[folder-note-plugin|Folder Note]]: Click a folder node to show a note describing the folder.
+- [[folder-note-core|Folder Note Core]]: Provide core features and API for folder notes
+- [[note-folder-autorename|Note Folder Autorename]]: Turn notes into folders and automaticaly move/rename their folders when they move or are renamed.
+- [[obsidian-icon-folder|Obsidian Icon Folder]]: This plugin allows to add an emoji in front of a folder or icon.
+- [[zoottelkeeper-obsidian-plugin|Zoottelkeeper Plugin]]: This plugin automatically creates, maintains and tags MOCs for all your folders.
 
 ## Related categories
 

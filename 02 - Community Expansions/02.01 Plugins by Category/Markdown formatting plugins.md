@@ -15,11 +15,11 @@ Plugins that make it easier to format or write markdown.
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[cmenu-plugin|cMenu]]: cMenu is a plugin that adds a minimal text editor modal for a smoother writing/editing experience ✍🏽.
-- [[obsidian-markdown-formatting-assistant-plugin|Markdown Formatting Assistant]]: This Plugin provides a simple Editor for Markdown, HTML and Colors and in addition a command line interface. The command line interface facilitate a faster workflow.
 - [[table-editor-obsidian|Advanced Tables]]: Improved table navigation, formatting, manipulation, and formulas
 - [[markdown-attributes|Markdown Attributes]]: Add markdown attributes to elements in Obsidian.md
+- [[obsidian-markdown-formatting-assistant-plugin|Markdown Formatting Assistant]]: This Plugin provides a simple Editor for Markdown, HTML and Colors and in addition a command line interface. The command line interface facilitate a faster workflow.
 - [[obsidian-underline|Underline]]: Add underline(`<u>xxx</u>`) with shortcut, and `<center>xxx</center>`, `[[#xxx]]`, `[[#^xxx]]`
+- [[cmenu-plugin|cMenu]]: cMenu is a plugin that adds a minimal text editor modal for a smoother writing/editing experience ✍🏽.
 
 ## Related categories
 

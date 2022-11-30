@@ -13,19 +13,19 @@ publish: true
 
 ## Plugins in this category
 
-- [[mrj-jump-to-link|Jump to link]]: This plugin allows open a link in current document or regex based navigation in editor mode using hotkey
-- [[darlal-switcher-plus|Quick Switcher++]]: Enhanced Quick Switcher, search open panels, and symbols.
+- [[obsidian-another-quick-switcher|Another Quick Switcher]]: This is an Obsidian plugin which is another choice of Quick switcher.
 - [[obsidian-reveal-active-file|Automatically Reveal Active File]]: This plugin will reveal the active file in the navigation when a file is opened.
-- [[pane-relief|Pane Relief]]: Per-pane history, hotkeys for pane movement + navigation, and more
+- [[breadcrumbs|Breadcrumbs]]: Visualise & navigate your vault's structure
+- [[calendar|Calendar]]: Calendar view of your daily notes
 - [[obsidian-collapse-all-plugin|Collapse All]]: This plugin adds a button to collapse or expand all folders in the file explorer.
-- [[homepage|Homepage]]: Open a specified note on startup.
 - [[file-explorer-markdown-titles|File Explorer Markdown Titles]]: Shows the first markdown header of a note in the file explorer
 - [[obsidian-go-to-line|Go to Line]]: This Plugin provides a go to Line Command
-- [[calendar|Calendar]]: Calendar view of your daily notes
-- [[breadcrumbs|Breadcrumbs]]: Visualise & navigate your vault's structure
-- [[obsidian-zoom|Zoom]]: Zoom into heading and lists.
-- [[obsidian-another-quick-switcher|Another Quick Switcher]]: This is an Obsidian plugin which is another choice of Quick switcher.
+- [[homepage|Homepage]]: Open a specified note on startup.
+- [[mrj-jump-to-link|Jump to link]]: This plugin allows open a link in current document or regex based navigation in editor mode using hotkey
+- [[pane-relief|Pane Relief]]: Per-pane history, hotkeys for pane movement + navigation, and more
+- [[darlal-switcher-plus|Quick Switcher++]]: Enhanced Quick Switcher, search open panels, and symbols.
 - [[reveal-active-file-button|Reveal Active File Button]]: Add a button to the top of the File Explorer, to reveal the active file.
+- [[obsidian-zoom|Zoom]]: Zoom into heading and lists.
 
 ## Related categories
 

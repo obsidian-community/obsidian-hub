@@ -15,11 +15,11 @@ publish: true
 
 ## Plugins in this category
 
-- [[obsidian-charts|Obsidian Charts]]: This Plugin lets you create Charts within Obsidian
-- [[obsidian-tracker|Tracker]]: A plugin tracks occurrences and numbers in your notes
 - [[obsidian-chartsview-plugin|Charts View]]: Data visualization solution in Obsidian based on Ant Design Charts.
 - [[obsidian-jupyter|Jupyter plugin]]: This plugin allows code blocks to be executed as Jupyter notebooks.
+- [[obsidian-charts|Obsidian Charts]]: This Plugin lets you create Charts within Obsidian
 - [[obsidian-plotly|Plotly]]: Obsidian plugin, which allow user to embed Plotly charts into markdown notes.
+- [[obsidian-tracker|Tracker]]: A plugin tracks occurrences and numbers in your notes
 
 ## Related categories
 

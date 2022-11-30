@@ -13,21 +13,21 @@ Querying
 
 ## Plugins in this category
 
-- [[mrj-text-expand|Text {{expand}}]]: Search and paste/transclude links to located files.
-- [[searchpp|Search++]]: Allow inserting text context search results on the active note, the plugin is based on the plugin mrj-text-expand-witb-text of MrJackphil.
-- [[smart-random-note|Smart Random Note]]: A smart random note plugin
-- [[neo4j-graph-view|Neo4j Graph View]]: An Obsidian plugin for advanced graph visualization and querying using Neo4j.
-- [[obsidian-query2table|query2table]]: Represent files returned by a query as a table of their YAML frontmatter
-- [[search-on-internet|Search on Internet]]: Add context menu items to search the internet within Obsidian.
-- [[vantage-obsidian|Vantage - Advanced search builder]]: Build advanced search queries in Obsidian.
-- [[obsidian-query-language|Obsidian Query Language]]: This plugin allows you to query notes and represent data within Obsidian
+- [[obsidian-core-search-assistant-plugin|Core Search Assistant]]: Enhance built-in search: keyboard interface, card preview, bigger preview
 - [[dataview|Dataview]]: Complex data views for the data-obsessed.
-- [[obsidian-spotlight|Spotlight]]: Block that features random notes or block of a note from vault / in a specified project or with a certain combination of tags.
+- [[neo4j-graph-view|Neo4j Graph View]]: An Obsidian plugin for advanced graph visualization and querying using Neo4j.
+- [[obsidian-query-language|Obsidian Query Language]]: This plugin allows you to query notes and represent data within Obsidian
+- [[obsidian-power-search|Power Search]]: Searches Anki Notes based on current line
 - [[obsidian-related-notes-finder|Related Notes Finder]]: An Obsidian plugin that adds extra features for finding related notes.
 - [[obsidian-relative-find|Relative Find]]: This Plugin lets you search relative to your Cursor Position.
-- [[obsidian-core-search-assistant-plugin|Core Search Assistant]]: Enhance built-in search: keyboard interface, card preview, bigger preview
 - [[obsidian-search-everywhere-plugin|Search Everywhere]]: Search Everywhere with pressing Double Shift like in IntelliJ
-- [[obsidian-power-search|Power Search]]: Searches Anki Notes based on current line
+- [[search-on-internet|Search on Internet]]: Add context menu items to search the internet within Obsidian.
+- [[searchpp|Search++]]: Allow inserting text context search results on the active note, the plugin is based on the plugin mrj-text-expand-witb-text of MrJackphil.
+- [[smart-random-note|Smart Random Note]]: A smart random note plugin
+- [[obsidian-spotlight|Spotlight]]: Block that features random notes or block of a note from vault / in a specified project or with a certain combination of tags.
+- [[mrj-text-expand|Text {{expand}}]]: Search and paste/transclude links to located files.
+- [[vantage-obsidian|Vantage - Advanced search builder]]: Build advanced search queries in Obsidian.
+- [[obsidian-query2table|query2table]]: Represent files returned by a query as a table of their YAML frontmatter
 
 ## Related categories
 

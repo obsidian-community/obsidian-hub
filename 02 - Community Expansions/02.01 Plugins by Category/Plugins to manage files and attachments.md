@@ -13,14 +13,14 @@ Handle attachments, files, and folders
 
 ## Plugins in this category
 
+- [[obsidian-file-link|Better File Link]]: A plugin to add better external file links to notes.
+- [[consistent-attachments-and-links|Consistent attachments and links]]: This plugin ensures the consistency of attachments and links
+- [[copy-url-in-preview|Copy Image and URL in Preview]]: Copy Image and Copy URL context menu in preview mode
+- [[obsidian-daily-named-folder|Daily Named Folder]]: Like daily notes, but nested in a named daily folder. Better for attachment management. Includes more flexible naming.
+- [[luhman|Luhman]]: Commands for handling a zettelkasten with Luhmann-style IDs as filenames
 - [[obsidian-advanced-new-file|Obsidian Advanced New File]]: This is a plugin for choosing folder on note creation.
 - [[open-with|Open with]]: This Plugin allows you to add multiple other programs to open notes with.
-- [[obsidian-daily-named-folder|Daily Named Folder]]: Like daily notes, but nested in a named daily folder. Better for attachment management. Includes more flexible naming.
-- [[obsidian-file-link|Better File Link]]: A plugin to add better external file links to notes.
 - [[quick-explorer|Quick Explorer]]: Perform file explorer operations (and see your current file path) from the title bar, using the mouse or keyboard
-- [[luhman|Luhman]]: Commands for handling a zettelkasten with Luhmann-style IDs as filenames
-- [[copy-url-in-preview|Copy Image and URL in Preview]]: Copy Image and Copy URL context menu in preview mode
-- [[consistent-attachments-and-links|Consistent attachments and links]]: This plugin ensures the consistency of attachments and links
 - [[unique-attachments|Unique attachments]]: Rename attachments, making their names unique (based on hashing of file content)
 
 ## Related categories

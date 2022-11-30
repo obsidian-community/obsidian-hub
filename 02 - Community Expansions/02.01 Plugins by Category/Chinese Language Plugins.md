@@ -13,9 +13,9 @@ Plugins related to Chinese language
 
 ## Plugins in this category
 
-- [[cm-chs-patch|Word Splitting for Simplified Chinese in Edit Mode]]: A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese word splitting
-- [[obsidian-pangu|Obsidian Pangu]]: 自动为中英文之间插入空格，排版强迫者的福音。
 - [[obsidian-auto-pair-chinese-symbol|Auto pair chinese symbol]]: Auto pair chinese symbol
+- [[obsidian-pangu|Obsidian Pangu]]: 自动为中英文之间插入空格，排版强迫者的福音。
+- [[cm-chs-patch|Word Splitting for Simplified Chinese in Edit Mode]]: A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese word splitting
 
 ## Related categories
 

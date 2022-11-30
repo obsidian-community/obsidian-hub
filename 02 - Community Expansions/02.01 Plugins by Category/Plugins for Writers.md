@@ -16,9 +16,9 @@ publish: true
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
+- [[dangerzone-writing-plugin|Dangerzone Writing]]: “Elegant”, “Dangerous”, “Relaxing”, “Perverted”, “Your best friend”, “Your worst nightmare”. When you start a Dangerzone session, you have to write without stopping for X seconds. If you stop, think and look around, after Y seconds the plugin will DELETE what you've written in this note.
 - [[obsidian-fountain|Fountain]]: Fountain Support for Obsidian
 - [[longform|Longform]]: Write novels, screenplays, and other long projects in Obsidian.
-- [[dangerzone-writing-plugin|Dangerzone Writing]]: “Elegant”, “Dangerous”, “Relaxing”, “Perverted”, “Your best friend”, “Your worst nightmare”. When you start a Dangerzone session, you have to write without stopping for X seconds. If you stop, think and look around, after Y seconds the plugin will DELETE what you've written in this note.
 - [[obsidian-paper-cut|PaperCut]]: Express an idea in the simplest possible way ... or else
 - [[cm-typewriter-scroll-obsidian|Typewriter Scroll]]: Typewriter-style scrolling which keeps the view centered in the editor.
 - [[obsidian-vale|Vale]]: A Vale client for Obsidian.

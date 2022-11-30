@@ -15,12 +15,12 @@ Plugins to help you navigate or manage daily, weekly or monthly notes.
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[periodic-notes|Periodic Notes]]: Create/manage your daily, weekly, and monthly notes
-- [[obsidian-day-planner|Day Planner]]: A plugin to help you plan your day and setup pomodoro timers
-- [[obsidian-daily-named-folder|Daily Named Folder]]: Like daily notes, but nested in a named daily folder. Better for attachment management. Includes more flexible naming.
-- [[obsidian-daf-yomi|Daf Yomi]]: Fill in Daf Yomi pages
-- [[random-structural-diary-plugin|Random Structural Diary]]: This is a plugin for picking random questions from prepared question list. It allows you answer on different questions each time.
 - [[calendar|Calendar]]: Calendar view of your daily notes
+- [[obsidian-daf-yomi|Daf Yomi]]: Fill in Daf Yomi pages
+- [[obsidian-daily-named-folder|Daily Named Folder]]: Like daily notes, but nested in a named daily folder. Better for attachment management. Includes more flexible naming.
+- [[obsidian-day-planner|Day Planner]]: A plugin to help you plan your day and setup pomodoro timers
+- [[periodic-notes|Periodic Notes]]: Create/manage your daily, weekly, and monthly notes
+- [[random-structural-diary-plugin|Random Structural Diary]]: This is a plugin for picking random questions from prepared question list. It allows you answer on different questions each time.
 
 ## Related categories
 
