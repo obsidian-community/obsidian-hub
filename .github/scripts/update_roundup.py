@@ -1,7 +1,8 @@
 from datetime import datetime
 from feedparser import FeedParserDict, parse
 from markdownify import markdownify as md
-from urllib.parse import quote
+
+from utils import get_template, write_file
 
 FEED_URL = "https://www.obsidianroundup.org/blog/rss/"
 ROUNDUP_FOLDER_PATH = "../../01 - Community/Obsidian Roundup"
@@ -37,7 +38,7 @@ def convert_feed_html(html_content: str) -> str:
     return str(md(html_content, heading_style='ATX', strong_em_symbol='_'))
 
 def get_normalized_file_name(entry: FeedParserDict) -> str:
-    return f"{date_from_parsed_feed_datetime(entry)} {entry.title[2:]}.md"
+    return f"{date_from_parsed_feed_datetime(entry)} {entry.title[2:]}"
 
 def generate_file_with_hub_yaml(entry: FeedParserDict) -> str:
     frontmatter: str = f"---\nlink: {entry.link}\nauthor: {entry.author}\npublished: {datetime_from_parsed_feed_datetime(entry)}\npublish: true\n---\n\n"
@@ -45,18 +46,24 @@ def generate_file_with_hub_yaml(entry: FeedParserDict) -> str:
 
 def save_file(entry: FeedParserDict) -> str:
     file_contents: str = generate_file_with_hub_yaml(entry)
-    file_name = f"{ROUNDUP_FOLDER_PATH}/{get_normalized_file_name(entry)}"
-    with open(file_name, 'w', encoding='utf8') as roundup_file:
-        roundup_file.write(file_contents)
+    file_name = get_normalized_file_name(entry)
+    template = get_template("roundup")
+    content = {
+        'content': file_contents,
+    }
+    write_file(
+        template, file_name, overwrite=True, verbose=False, **content,
+    )
     return file_name
 
 def main() -> None:
+    # Suppresses this error on development machines: 'SSL: CERTIFICATE_VERIFY_FAILED'
+    # import ssl
+    # ssl._create_default_https_context = ssl._create_unverified_context
     parsed_feed = parse(FEED_URL)
     for entry in parsed_feed.entries:
         if is_roundup_post(entry):
-            file_path = save_file(entry)
-            with open(file_path, "a") as f:
-                f.write(FOOTER.format(formatted_article_title_url=quote(get_normalized_file_name(entry))))
+            save_file(entry)
 
 if __name__ == "__main__":
     main()
