@@ -5,14 +5,6 @@ from markdownify import markdownify as md
 from utils import get_template, write_file
 
 FEED_URL = "https://www.obsidianroundup.org/blog/rss/"
-ROUNDUP_FOLDER_PATH = "../../01 - Community/Obsidian Roundup"
-FOOTER = """
-%% Hub footer: Please don't edit anything below this line %%
-
-# This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/Obsidian%20Roundup/{formatted_article_title_url} "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/Obsidian%20Roundup/{formatted_article_title_url} "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
-"""
 
 def date_conversion(parsed_feed_datetime: FeedParserDict) -> datetime:
     """Converts published_parsed attribute of a feed item into a pythonic datetime object"""
