@@ -11,7 +11,7 @@ from jinja2.environment import Template
 
 # These are directories and files to exclude
 # By adding a dir/file, this script will ignore them and never change them!
-DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', '01 Templates', 'DO NOT COMMIT']
+DIRECTORIES_TO_EXCLUDE = ['.git', '.github', '.idea', 'venv', '01 Templates', 'DO NOT COMMIT', 'Obsidian Roundup',]
 FILES_TO_EXCLUDE = ['.DS_Store', '.gitignore', 'Hub Tree Structure.md']
 
 
