@@ -5,6 +5,8 @@ from glob import glob
 from typing import List, Tuple, Optional, Any
 import logging
 
+PLUGIN_LIST_HEADING = '## Plugins in this category'
+
 
 def extract_alias(markdown_link_list_item: str) -> str:
     # Return the alias if we have it, otherwise the page name.
@@ -82,12 +84,11 @@ def getLogger():
 def main() -> None:
     logging.basicConfig(level=logging.INFO)
 
-    heading = '## Plugins in this category'
     for page_path in plugin_page_paths():
-        sort_links_under_heading(page_path, heading)
+        sort_links_under_heading(page_path)
 
 
-def sort_links_under_heading(page_path, heading):
+def sort_links_under_heading(page_path, heading=PLUGIN_LIST_HEADING):
     page_contents = read_file(page_path)
     log = getLogger()
     log.debug(f"Sorting page: {page_path}")

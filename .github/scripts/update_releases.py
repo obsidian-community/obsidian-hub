@@ -125,7 +125,7 @@ def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = Tr
     # Alphabetize the plugin list
     file_path = get_output_dir(template, UNCATEGORIZED)
     absolute_file_path = os.path.abspath(file_path)
-    sort_links_under_heading(absolute_file_path, '## Plugins in this category')
+    sort_links_under_heading(absolute_file_path)
 
 
 def process_authors(themes: ThemeList,
