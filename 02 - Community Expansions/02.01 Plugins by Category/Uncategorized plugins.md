@@ -14,7 +14,10 @@ Plugins which have not yet been categorized by the community.
 ## Plugins in this category
 
 - [[13th-age-statblocks|13th Age Statblocks]]: Render 13th Age statblocks in Obsidian.
+- [[3d-graph|3D Graph]]: A 3D Graph for Obsidian
+- [[ava|AVA - Personal Learning Assistant]]: AI-Assited Learning in Obsidian
 - [[obsidian-account-linker|Account Linker]]: Plugin for describing external service accounts in the front matter
+- [[obsidian-achievements|Achievements]]: Add achievements to Obsidian.
 - [[actions-uri|Actions URI]]: Adds additional `x-callback-url` endpoints to the app for common actions — it's a clean, super-charged addition to Obsidian URI.
 - [[obsidian-markdown-file-suffix|Addional Markdown suffix (.mdx/.svx).]]: Use additional files like .mdx / .svx as if they were markdown.
 - [[obsidian-advanced-codeblock|Advanced Codeblock]]: Give additioinal features to  code blocks.
@@ -30,16 +33,19 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-audio-speed-plugin|Audio Speed Plugin]]: A simple plugin to change the playback rate of audio files during markdown preview.
 - [[auto-card-link|Auto Card Link]]: Automatically fetches metadata from a url and makes it as a card-styled link
 - [[auto-class|Auto Class]]: Automatically apply CSS classes to the markdown view based on a note's path and tags.
+- [[auto-glossary|Auto Glossary]]: Obsidian plugin to automatically create a file with an index (MOC), a glossary or both.
 - [[obsidian-auto-hide|Auto Hide]]: Collapse sidebars when clicking on the editor/viewer panel
 - [[auto-note-mover|Auto Note Mover]]: Auto Note Mover will automatically move the active notes to their respective folders according to the rules.
 - [[obsidian-auto-split|Auto Split]]: Open notes with side-by-side editor & preview
 - [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag and imports them into the current note.
 - [[obsidian-awesome-flashcard|Awesome Flashcard]]: Handy Anki integration for Obsidian.
 - [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
+- [[bpmn-plugin|BPMN Plugin]]: This plugin enables viewing BPMN diagrams using bpmn-js.
 - [[obsidian-bellboy|Bellboy]]: Opinionated file structure manager.
 - [[obsidian-better-codeblock|Better CodeBlock]]: Add title, line number to Obsidian code block
 - [[obsidian-better-command-palette|Better Command Palette]]: A command palette that does all of the things you want it to do.
 - [[better-inline-fields|Better Inline Fields]]: Obsidian plugin to enhance Dataview style inline fields
+- [[better-reading-mode|Better Reading Mode]]: A plugin to enable better reading mode in Live preview mode of Obsidian, which works similar to bionic reading mode.
 - [[obsidian-bible-linker|Bible Linker]]: Link multiple bible verses easily
 - [[obsidian-bible-reference|Bible Reference]]: Taking Bible Study note in Obsidian.md application easily. Automatically suggesting Bible Verses as references. 
 - [[obsidian-binary-file-manager-plugin|Binary File Manager]]: Detects new binary files in the vault and create markdown files with metadata.
@@ -56,6 +62,7 @@ Plugins which have not yet been categorized by the community.
 - [[chronology|Chronology]]: Provides a calendar and a timeline of the notes creation and modification
 - [[code-block-plugin|Code Block]]: This plugin converts text into code blocks with automatic language detection.
 - [[obsidian-codeblock-labels|Code Block Labels]]: Adds labels to fenced code blocks
+- [[obsidian-code-preview|Code Preview]]: Code Preview
 - [[obsidian-colorful-tag|Colorful Tag]]: Make your tag more beautiful and powerful!
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]: Command palette without unwanted commands
 - [[cmdr|Commander]]: Customize your workspace by adding commands everywhere, create Macros and supercharge your mobile toolbar.
@@ -75,10 +82,12 @@ Plugins which have not yet been categorized by the community.
 - [[customizable-menu|Customizable Menu]]: Allows you to add any command to Obsidian's right-click menu.
 - [[dbfolder|DB Folder]]: Folder with the capability to store and retrieve data from a folder like database
 - [[obsidian-daily-note-outline|Daily Note Outline]]: Add a custom view which shows outline of multiple daily notes with headings, links, tags and list items
+- [[daily-notes-editor|Daily Notes Editor]]: A plugin for you to edit a bunch of daily notes in one page(inline), which works similar to Roam Research's default daily note view.
 - [[obsidian-daily-notes-viewer|Daily Notes Viewer]]: Help you to view some recent daily notes on one page.
 - [[obsidian-daily-notes-opener|Daily notes opener]]: Easily open daily/periodic notes in new pane, and much more!
 - [[obsidian-dashing-cursor|Dashing cursor]]: Enables dashing cursor that follows the page scroll
 - [[obsidian-day-and-night|Day and Night]]: An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.
+- [[deepl|DeepL]]: Allows translation of selected texts into more than 25 languages with DeepL.
 - [[new-tab-default-page|Default New Tab Page]]: Open a note of your choice when creating a new tab, like in the browser.
 - [[obsidian-desmos|Desmos]]: Embed Desmos graphs into your notes
 - [[obsidian-diagrams-net|Diagrams.net]]: Enable diagrams.net (previously draw.io) type diagrams, with the diagrams.net embedded editor.
@@ -87,6 +96,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-dirtreeist|Dirtreeist]]: Render a directory Structure Diagram from a markdown lists in codeblock.
 - [[obsidian-divide-and-conquer|Divide & Conquer]]: Provides commands for bulk enabling/disabling of plugins. Useful for debugging when you have many plugins.
 - [[obsidian-douban-plugin|Douban]]: This is a plugin that can import movies/books/musics/notes/games info data from Douban for Obsidian .
+- [[double-click-tab|Double Click Tab]]: A plugin to modify the default behavior when you double click on the tab title, like close tab.
 - [[obsidian-doubleshift|Doubleshift]]: Open the command palette by pressing Shift (or any other key) twice like in IntelliJ and create your own shortcuts
 - [[obsidian-drag-n-drop-plugin|Drag-n-Drop for blocks]]: Allow moving/copying/and creation embeds for blocks with drag-n-drop just like Logseq or Roam
 - [[duplicate-line|Duplicate Line]]: To duplicate a line or several following selected lines. multicursor can be used too
@@ -100,6 +110,7 @@ Plugins which have not yet been categorized by the community.
 - [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]]: Show syntax highlighing in code blocks the editor
 - [[embed-code-file|Embed Code File]]: This is a plugin for Obsidian that allows for embedding code files.
 - [[obsidian-embedded-note-paths|Embedded Note Paths]]: Inserts the note file path above each note.
+- [[emo-uploader|Emo]]: Embed markdown online file/image links. This plugin is for uploading images to hosting or files to github in Obsidian.
 - [[obsidian-emotion-picker|Emotion Picker]]: A plugin for Obsidian.md that lets you choose an emotion from a list to insert into a note.
 - [[copy-note|Enhance Copy Note]]: Augments native Obsidian note copying.
 - [[enlightenment-obsidian|Enlightenment ✨]]: Pay attention to what you're paying attention to. Enlightenment adds a 'zen mode' for Preview, hiding the contents of your notes except for what's underneath your pointer.
@@ -140,6 +151,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-image-caption|Image Caption]]: Add captions to images.
 - [[obsidian-image-gallery|Image Gallery]]: A zero setup masonry image gallery for Obsidian
 - [[insert-unsplash-image|Image Inserter]]: This plugin helps users easily search and insert images to editors from Unsplash.
+- [[obsidian-image-layouts|Image Layouts]]: Add beautiful image layouts to your notes
 - [[import-foundry|Import Foundry VTT journal entries]]: Imports your journal entries from your selected Foundry VTT world into Obsidian.md
 - [[influx|Influx]]: An alternative backlinks plugin, which displays relevant and formatted excerpts from notes with linked mentions, based on the position of mentions in the notes' hierarchical structure (bullet level indentation).
 - [[obsidian-text-expander-js|Inline Scripts]]: Type text shortcuts which are then replaced with JavaScript generated text.
@@ -176,6 +188,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-markbase|Markbase for Obsidian]]: Official Markbase plugin to share your Obsidian notes online in your own digital garden
 - [[markdown-table-editor|Markdown Table Editor]]: An Obsidian plugin to provide an editor for Markdown tables. It can open CSV, Microsoft Excel/Google Sheets data as Markdown tables from Obsidian Markdown editor.
 - [[markdown-shortcuts|Markdown shortcuts]]: Allows to write markdown from shortcuts (example: >h1 -> #).
+- [[obsidian-md-to-jira|Markdown to Jira Converter]]: This is a markdown to jira markup and backwards converter plugin for Obsidian (https://obsidian.md)
 - [[mathlinks|MathLinks]]: Render MathJax in your links
 - [[mathpad|Mathpad]]: Computer Algebra System and Calculator for Onsidian
 - [[matter|Matter]]: The official Matter <> Obsidian plugin
@@ -193,6 +206,7 @@ Plugins which have not yet been categorized by the community.
 - [[mysnippets-plugin|MySnippets]]: MySnippets is a plugin that adds a status bar menu allowing the user to quickly toggle their snippets on and off 🖌.
 - [[obsidian-native-scrollbars|Native Scrollbars]]: Enables native OS scrollbars throughout obsidian
 - [[heycalmdown-navigate-cursor-history|Navigate Cursor History]]: This plugin remembers the recent 50 cursor positions history and allows you to jump to them back and forth like VSCode
+- [[obsidian-new-bullet-with-time|New Bullet With Time]]: A plugin allows you to auto add current time to new bullet line.
 - [[obsidian-new-note-new-window|New Note New Window]]: Plugin for easily opening new notes in a floating window.
 - [[ninja-cursor|Ninja Cursor]]: The plugin which enhance cursor visibility.
 - [[no-dupe-leaves|No dupe leaves]]: Don't reopen notes that are already open
@@ -221,7 +235,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-mtg|Obsidian MtG]]: A plugin for managing Magic: The Gathering decks and card lists as Obsidian notes
 - [[obsidian-ocr|Obsidian OCR]]: Add ocr capabilities to obsidian
 - [[obsidian-things3-sync|Obsidian Things3 Sync]]: A plugin for sync between Obsidian and Things3, create Todo and sync Todo status
-- [[ava|Obsidian ava]]: AI-enhanced reflection in Obsidian
+- [[obsidian-asciimath|Obsidian asciimath]]: Add asciimath support for Obsidian.
 - [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]: Allow to use the selected word as an alias in link suggestion.
 - [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]: Allow to use the selected word as an alias in link suggestion.
 - [[obsidian-jtab|Obsidian jTab]]: Adds the ability to show guitar chords and tabs directly in your notes using jTab.
@@ -264,15 +278,18 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-quiet-outline|Quiet Outline]]: Make outline quiet and more powerful, including no-auto-expand, rendering heading as markdown, and search support.
 - [[quote-of-the-day|Quote of the Day]]: Inserts random quotes in the editor
 - [[quoth|Quoth]]: More flexible embedding. Embed precise selections, inline embeds, optionally include author and title.
+- [[obsidian-quran-lookup|QuranLookup]]: This is a Quran Lookup plugin for Obsidian. This replaces chapter:verse shorthand with verse text in arabic and translation.
 - [[rpg-manager|RPG Manager]]: A plugin to manage your Tabletop Role Playing Game campaigns for Obsidian.
 - [[rss-reader|RSS Reader]]: Read RSS Feeds from within obsidian
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
 - [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate
+- [[obsidian-rapid-notes|Rapid Notes]]: Create and place notes quickly in specific folders based on predefined prefixes.
 - [[obsidian-read-it-later|ReadItLater]]: Saves the clipboard to a new notice.
 - [[readavocado-sync|Readavocado Sync]]: Sync your Readavocado highlights with Obsidian
 - [[recent-files-obsidian|Recent Files]]: List files by most recently opened
 - [[obsidian-redirect|Redirect]]: An Obsidian (https://obsidian.md) plugin for redirecting links based on YAML frontmatter.
 - [[obsidian-regex-replace|Regex Find/Replace]]: Find and replace text using regular expressions.
+- [[obsidian-relation-pane|Relation Pane]]: This plugin displays a panel that summarize relations between notes.
 - [[obsidian-relativenumber|Relativenumber (relative line numbers)]]: Displays relative line numbers in the editor's gutter.
 - [[obsidian-release-timeline|Release Timeline]]: Release timeline rendered based on notes metadata with a dataview-like syntax.
 - [[obsidian-remember-file-state|Remember File State]]: Remembers cursor position, selection, scrolling, and more for each file
@@ -280,12 +297,14 @@ Plugins which have not yet been categorized by the community.
 - [[repeat-plugin|Repeat]]: Review notes using periodic or spaced repetition.
 - [[obsidian-rewarder|Rewarder]]: Gives you rewards for completing tasks/todos, highly configurable.
 - [[obsidian-sakana-widget|Sakana Widget]]: Add the Sakana! Widget to your own Obsidian!
+- [[samepage|SamePage]]: Official Obsidian client into the inter-TFT-protocol
 - [[obsidian-save-as-gist|Save as Gist]]: Saving your current note as Gist on github
 - [[obsidian-screwdriver|Screwdriver]]: Utility to put any files in and out under your vault.
 - [[script-launcher|Script Launcher]]: This pulgin allows you to launch scripts from the Obsidian app. You can add scripts shortcuts on your bottom bar and launch them with just one click!
 - [[obsidian-scroll-offset|Scroll Offset]]: Preserve minmium distances before and after cursor.
 - [[scroll-speed|Scroll Speed]]: This plugin allows you to change the scroll speed inside Obsidian notes.
 - [[obsidian-scroll-to-top-plugin|Scroll to Top Plugin]]: This is a plugin for Obsidian that adds a button to scroll to the top of the current note.
+- [[scrybble.ink|Scrybble]]: Synchronize highlights from your ReMarkable to Obsidian!
 - [[image-window|Second Window]]: Allow images & notes to be viewed in new Obsidian windows.
 - [[sekund|Sekund]]: Share your notes. Gather feedback.
 - [[obsidian-livesync|Self-hosted LiveSync]]: Community implementation of self-hosted livesync. Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.
@@ -295,11 +314,13 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-share-as-gist|Share as Gist]]: Shares an Obsidian note as a GitHub.com gist
 - [[obsidian-shortcut-launcher|Shortcut Launcher]]: Trigger shortcuts in Apple's Shortcuts app from Obsidian with custom commands.
 - [[obsidian-sidebar-toggler|Sidebar Toggler]]: Finer control of the Obsidian sidebars. To be used with an external window manager.
+- [[sigma|Sigma]]: A plugin to enable using obsidian notes as calculation sheets.
 - [[simple-dice-roller|Simple Dice Roller]]: A plug and play solution that allows you to average and simulate dice formulas.
 - [[simple-embeds|Simple Embeds]]: Replaces links, like Twitter and YouTube, with embeds when previewing a file.
 - [[obsidian-simple-mention|Simple Mention]]: Get highlighted mentions and mention suggestions. Find all occurrences of a mention
 - [[simple-note-quiz|Simple Note Quiz]]: Start a simple quiz on your current note
 - [[obsidian-siteswap|Siteswap]]: Visualize Juggling Pattern Siteswap via the JugglingLab gif server.
+- [[obsidian-smart-links|Smart Links]]: This is a plugin for Obsidian that allows users to define custom link formats
 - [[smort-obsidian|Smort]]: Add Smort.io articles to Obsidian. Smort.io lets you easily edit, annotate and share articles.
 - [[snippet-commands-obsidian|Snippet Commands]]: Registers custom css snippets as commands (which you can bind hotkeys to)
 - [[obsidian-snippet-downloader|Snippet Downloader]]: A obsidian's plugin to help to manage css snippets (download / update) from repository 
@@ -333,6 +354,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]: This plugin adds serial numbers to your markdown title.
 - [[obsidian-todoist-link|Todoist Link]]: Create Todoist tasks and projects from Obsidian with bidirectional links.
 - [[todoist-completed-tasks-plugin|Todoist completed tasks]]: Fetches completed tasks from todoist API and adds them to the Obsidian note.
+- [[obsidian-toggle-meta-yaml-plugin|Toggle Meta Yaml]]: this is a simple plugin to toggle meta yaml.
 - [[obsidian-toggle-list|ToggleList]]: Toggle the list/checklist with custom states/prefixes and suffixes
 - [[obsidian-tomorrows-daily-note|Tomorrow's Daily Note]]: An obsidian plugin that creates tomorrow's daily note for preemtive planning.
 - [[obsidian-topic-linking|Topic Linking]]: Convert PDF files and web links to Markdown, and create topics from Markdown
