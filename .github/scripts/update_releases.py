@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import os
 import sys
 import argparse
 from typing import Sequence
@@ -7,6 +7,7 @@ from typing import Sequence
 from authors import AllAuthors
 from obsidian_releases import get_community_plugins
 from plugins import PluginList
+from sort_lists import sort_links_under_heading
 
 from utils import (
     format_link,
@@ -17,6 +18,7 @@ from utils import (
     print_progress_bar,
     write_file,
     add_file_group,
+    get_output_dir,
 )
 from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 
@@ -119,6 +121,11 @@ def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = Tr
         overwrite=overwrite,
         verbose=True,
     )
+
+    # Alphabetize the plugin list
+    file_path = get_output_dir(template, UNCATEGORIZED)
+    absolute_file_path = os.path.abspath(file_path)
+    sort_links_under_heading(absolute_file_path, '## Plugins in this category')
 
 
 def process_authors(themes: ThemeList,
