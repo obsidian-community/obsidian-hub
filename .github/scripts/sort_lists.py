@@ -76,18 +76,20 @@ def extract_list_pos(markdown_text: str, header: str) -> Optional[Tuple[int, int
 def plugin_page_paths() -> List[str]:
     return glob("../../02 - Community Expansions/02.01 Plugins by Category/*.md")
 
+def getLogger():
+    return logging.getLogger('sort_lists')
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO)
-    log = logging.getLogger('sort_lists')
 
     heading = '## Plugins in this category'
     for page_path in plugin_page_paths():
-        sort_links_under_heading(page_path, heading, log)
+        sort_links_under_heading(page_path, heading)
 
 
-def sort_links_under_heading(page_path, heading, log):
+def sort_links_under_heading(page_path, heading):
     page_contents = read_file(page_path)
+    log = getLogger()
     log.debug(f"Sorting page: {page_path}")
     log.debug(f"Within heading: {heading}")
     list_pos = extract_list_pos(page_contents, heading)
