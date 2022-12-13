@@ -25,12 +25,7 @@ jobs:
 
       - uses: ./.github/actions/setup-python
       - uses: ./.github/actions/install-dependencies
-
-      - name: Set up git config
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "github-actions[bot]"
-        shell: bash
+      - uses: ./.github/actions/setup-git-config
 
       # ----------------------------------------------------------------------------------
       # Run scripted updates to Hub Vault Content
