@@ -10,7 +10,7 @@ from obsidian_releases import get_community_plugins
 from utils import (
     get_template,
     print_progress_bar,
-    write_file,
+    write_template_file,
 )
 
 from plugins import Plugin
@@ -62,7 +62,7 @@ def process_issues(api_key: str, overwrite: bool = True, verbose: bool = False) 
         "documentation": sorted_documentation,
         "good_first_issue": sorted_good_first_issue
     }
-    write_file(template, "Plugins seeking help", overwrite=overwrite, verbose=verbose, **args)
+    write_template_file(template, "Plugins seeking help", overwrite=overwrite, verbose=verbose, **args)
 
 
 def main(argv: Sequence[str] = sys.argv[1:]) -> None:

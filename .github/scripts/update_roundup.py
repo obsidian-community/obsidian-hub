@@ -2,7 +2,7 @@ from datetime import datetime
 from feedparser import FeedParserDict, parse
 from markdownify import markdownify as md
 
-from utils import get_template, write_file
+from utils import get_template, write_template_file
 
 FEED_URL = "https://www.obsidianroundup.org/blog/rss/"
 
@@ -43,7 +43,7 @@ def save_file(entry: FeedParserDict) -> str:
     content = {
         'content': file_contents,
     }
-    write_file(
+    write_template_file(
         template, file_name, overwrite=True, verbose=False, **content,
     )
     return file_name
