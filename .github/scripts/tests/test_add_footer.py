@@ -1,4 +1,7 @@
 import re
+from os.path import basename, dirname
+from tempfile import TemporaryFile, TemporaryDirectory
+from pathlib import Path
 
 import add_footer
 import utils
@@ -78,12 +81,15 @@ def add_footer_to_markdown_test(input: str, relative_path:str) -> str:
     :return: The result of adding or updating the footer in input
     """
     comment = add_footer.get_footer_comment_regex()
-    template = utils.get_template_from_directory(JINJA_TEMPLATES_DIR, "footer.md.jinja")
-    debug = False
 
-    # Cast is to force type for 'mypy --strict'
-    return str(add_footer.add_footer_to_markdown(relative_path, input, comment, template, debug))
+    with TemporaryDirectory() as tmproot:
+        path = f"{tmproot}/{relative_path}"
+        Path(dirname(path)).mkdir(parents=True, exist_ok=True)
+        utils.write_file(path, input)
 
+        add_footer.ensure_footer_in_file(tmproot, path)
+
+        return str(utils.read_file(path))
 
 def verify_footer_addition(input: str, output: str) -> None:
 
