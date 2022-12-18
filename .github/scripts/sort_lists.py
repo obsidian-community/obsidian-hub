@@ -3,6 +3,7 @@ import os
 import re
 from glob import glob
 from typing import List, Tuple, Optional, Any
+from utils import read_file, write_file
 import logging
 
 
@@ -28,20 +29,12 @@ def sort_list(markdown_list: str) -> str:
     return "\n".join(sorted_lines) + "\n"
 
 
-def read_file(file_path: str) -> str:
-    with open(file_path) as f:
-        return f.read()
-
-def write_file(file_path: str , contents: str) -> None:
-    with open(file_path, 'w') as f:
-        f.write(contents)
-
-
-def extract_list_pos(markdown_text: str, header: str) -> Optional[Tuple[int, int]]:
+def extract_block_pos(markdown_text: str, header: str) -> Optional[Tuple[int, int]]:
     """
     Returns the text positions for the first Markdown list
     within the block defined by the header.
     """
+
 
     # Find the header, which will be the beginning of our search range.
     try:
@@ -53,24 +46,47 @@ def extract_list_pos(markdown_text: str, header: str) -> Optional[Tuple[int, int
     header_end_pos = header_start_pos + len(header)
 
     # Find the following heading, which will be the end of our search range.
-    next_header_match =  re.compile('^#+', re.M) \
+    next_header_match = re.compile('^#+', re.M) \
         .search(markdown_text[header_end_pos:])
     if next_header_match is None:
         return None
 
     next_header_start_pos = header_end_pos + next_header_match.span(0)[0]
+    return (header_start_pos, next_header_start_pos)
+
+def extract_block_pos_without_header(markdown_text: str, header: str) -> Optional[Tuple[int, int]]:
+    block_pos = extract_block_pos(markdown_text, header)
+    if block_pos is None:
+        return None
+
+    block_start_pos, block_end_pos = block_pos
+    return (block_start_pos + len(header), block_end_pos)
+
+
+
+def extract_list_pos(markdown_text: str, header: str) -> Optional[Tuple[int, int]]:
+    """
+    Returns the text positions for the first Markdown list
+    within the block defined by the header.
+    """
+
+    block_pos = extract_block_pos_without_header(markdown_text, header)
+    if block_pos is None:
+        return None
+
+    block_start_pos, block_end_pos = block_pos
 
     # Find a Markdown list within this block of text.
     list_match = re.compile(r'\n*((?:- \[\[.*?\]\].*?\n)+)', re.M) \
-        .search(markdown_text[header_end_pos:next_header_start_pos])
+        .search(markdown_text[block_start_pos:block_end_pos])
     if list_match is None:
         # No list found.
         return None
 
     # Find the precise text range for this list block in the overall markdown_text.
-    start_pos = header_end_pos + list_match.span(1)[0]
-    end_pos = start_pos + len(list_match.group(1))
-    return (start_pos, end_pos)
+    list_start_pos = block_start_pos + list_match.span(1)[0]
+    list_end_pos = list_start_pos + len(list_match.group(1))
+    return (list_start_pos, list_end_pos)
 
 
 def plugin_page_paths() -> List[str]:
