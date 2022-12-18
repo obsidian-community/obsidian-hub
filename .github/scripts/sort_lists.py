@@ -5,6 +5,8 @@ from glob import glob
 from typing import List, Tuple, Optional, Any
 import logging
 
+PLUGIN_LIST_HEADING = '## Plugins in this category'
+
 
 def extract_alias(markdown_link_list_item: str) -> str:
     # Return the alias if we have it, otherwise the page name.
@@ -76,34 +78,36 @@ def extract_list_pos(markdown_text: str, header: str) -> Optional[Tuple[int, int
 def plugin_page_paths() -> List[str]:
     return glob("../../02 - Community Expansions/02.01 Plugins by Category/*.md")
 
+def getLogger() -> logging.Logger:
+    return logging.getLogger('sort_lists')
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO)
-    log = logging.getLogger('sort_lists')
 
-    heading = '## Plugins in this category'
     for page_path in plugin_page_paths():
-        page_contents = read_file(page_path)
-        log.debug(f"Sorting page: {page_path}")
-        log.debug(f"Within heading: {heading}")
+        sort_links_under_heading(page_path)
 
-        list_pos = extract_list_pos(page_contents, heading)
-        if list_pos is None:
-            log.warning(f"Could not find heading in page. Skipping {page_path}")
-            continue
 
-        [list_start, list_end] = list_pos
-        original_list = page_contents[list_start:list_end]
+def sort_links_under_heading(page_path: str, heading: str = PLUGIN_LIST_HEADING) -> None:
+    page_contents = read_file(page_path)
+    log = getLogger()
+    log.debug(f"Sorting page: {page_path}")
+    log.debug(f"Within heading: {heading}")
+    list_pos = extract_list_pos(page_contents, heading)
 
-        log.debug(f"Original List:\n{original_list}")
-        sorted_list = sort_list(original_list)
+    if list_pos is None:
+        log.warning(f"Could not find heading in page. Skipping {page_path}")
+        return
 
-        log.debug(f"Sorted List:\n{sorted_list}")
-        new_page_contents = page_contents[:list_start] + sorted_list + page_contents[list_end:]
-
-        if page_contents != new_page_contents:
-            log.info(f"Sort changed {page_path}")
-        write_file(page_path, new_page_contents)
+    [list_start, list_end] = list_pos
+    original_list = page_contents[list_start:list_end]
+    log.debug(f"Original List:\n{original_list}")
+    sorted_list = sort_list(original_list)
+    log.debug(f"Sorted List:\n{sorted_list}")
+    new_page_contents = page_contents[:list_start] + sorted_list + page_contents[list_end:]
+    if page_contents != new_page_contents:
+        log.info(f"Sort changed {page_path}")
+    write_file(page_path, new_page_contents)
 
 
 if __name__ == '__main__':

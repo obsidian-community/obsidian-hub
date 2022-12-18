@@ -25,12 +25,7 @@ jobs:
 
       - uses: ./.github/actions/setup-python
       - uses: ./.github/actions/install-dependencies
-
-      - name: Set up git config
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "github-actions[bot]"
-        shell: bash
+      - uses: ./.github/actions/setup-git-config
 
       # ----------------------------------------------------------------------------------
       # Run scripted updates to Hub Vault Content
@@ -73,6 +68,14 @@ jobs:
           cd ../..
           git add .
           git commit -m "Update directory tree" || echo "nothing to commit"
+
+      - name: Alphabetize plugin lists.
+        run: |
+          cd .github/scripts
+          python3 ./sort_lists.py
+          cd ../..
+          git add .
+          git commit -m "Alphabetize plugin lists" || echo "nothing to commit"
 
       # This must be the last edit, to ensure that no later steps accidentally
       # overwrite the footer. 
