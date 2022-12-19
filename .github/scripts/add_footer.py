@@ -50,10 +50,16 @@ def add_footer(top_directory: str, debug: bool = True) -> None:
 
 
 def ensure_footer_in_file(root_path: str, markdown_file_path: str) -> None:
+    """
+    Will replace corrupted footers, and add missing footers.
+    """
     relative_path = relpath(markdown_file_path, root_path)
     footer_contents = render_footer(relative_path)
     footer_comment_regex = get_footer_comment_regex()
 
+    # None if no match.
+    # True if replacement changed the file
+    # False if replacement left the file unchanged.
     result = regex_replace_in_file(markdown_file_path, footer_comment_regex, footer_contents)
 
     log_fmt = "[%-10s] - \"%s\""
