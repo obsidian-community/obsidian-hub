@@ -153,6 +153,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Traffic Lights|Traffic Lights]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Typewriter|Typewriter]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Typomagical|Typomagical]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Typora-Vue|Typora-Vue]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ukiyo|Ukiyo]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ultra Lobster|Ultra Lobster]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ursa|Ursa]]
