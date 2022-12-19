@@ -16,7 +16,7 @@ from utils import (
     FileGroups,
     print_file_summary,
     print_progress_bar,
-    write_file,
+    write_template_file,
     add_file_group,
     get_output_dir,
 )
@@ -40,7 +40,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
         if not plugin_is_valid:
             continue
 
-        group = write_file(
+        group = write_template_file(
             template, plugin.id(), overwrite=overwrite, verbose=verbose, **plugin.data()
         )
         valid_plugins.append(plugin)
@@ -72,7 +72,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
         if not valid:
             continue
 
-        group = write_file(
+        group = write_template_file(
             Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data()
         )
         valid_themes.append(theme)
@@ -112,7 +112,7 @@ def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = Tr
             uncategorized.append(p.data())
 
     template = get_template("category")
-    write_file(
+    write_template_file(
         template,
         UNCATEGORIZED,
         name=UNCATEGORIZED,
@@ -139,7 +139,7 @@ def process_authors(themes: ThemeList,
     print("\nCreating author notes....\n")
     file_groups: FileGroups = dict()
     for user, author_info in all_authors.items():
-        group = write_file(
+        group = write_template_file(
             template, user, overwrite=overwrite, verbose=verbose, **author_info
         )
         add_file_group(file_groups, group, user)

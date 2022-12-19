@@ -70,11 +70,11 @@ def get_output_dir(template: Template, file_name: str) -> str:
     )
 
 
-def write_file(template: Template,
-               file_name: str,
-               overwrite: bool = False,
-               verbose: bool = False,
-               **kwargs: Any) -> str:
+def write_template_file(template: Template,
+                        file_name: str,
+                        overwrite: bool = False,
+                        verbose: bool = False,
+                        **kwargs: Any) -> str:
     file_path = get_output_dir(template, file_name)
     absolute_file_path = os.path.abspath(file_path)
 
