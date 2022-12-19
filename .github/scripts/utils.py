@@ -1,6 +1,8 @@
 import os
 import json
 import glob
+import typing
+from re import sub, search
 from typing import Dict, List, Union, Any
 
 import requests
@@ -237,7 +239,6 @@ def get_root_of_vault() -> str:
     up2 = os.path.dirname(up1)
     return up2
 
-
 def ensure_last_line_has_eol(contents: str) -> str:
     """
     Ensure that the given string ends with an end-of-line character.
@@ -248,3 +249,47 @@ def ensure_last_line_has_eol(contents: str) -> str:
     if len(contents) == 0 or contents[-1] != eol:
         contents += eol
     return contents
+
+def regex_replace_in_file(absolute_path: str, regex: str, new_contents: str) -> typing.Optional[bool]:
+    """
+    Replace a regular expression in a file with new contents.
+    Returns
+    - None if regex not found.
+    - True if the contents changed
+    - False if the replacement did not change the contents.
+    """
+    contents = read_file(absolute_path)
+    contents = ensure_last_line_has_eol(contents)
+
+    if not search(regex, contents):
+        # regex not found
+        return None
+
+    replacement = sub(regex, new_contents, contents)
+
+    if replacement == contents:
+        # unchanged
+        return False
+
+    write_file(absolute_path, replacement)
+    return True
+
+def append_to_file(absolute_path: str, additional_content: str) -> None:
+    rewrite_file(absolute_path, lambda contents : \
+        ensure_last_line_has_eol(contents) + "\n" + additional_content)
+
+def rewrite_file(absolute_path: str, content_transforming_lambda: typing.Callable[[str], str]) -> None:
+    contents = read_file(absolute_path)
+    replacement = content_transforming_lambda(contents)
+    write_file(absolute_path, replacement)
+
+def read_file(absolute_path: str) -> str:
+    with open(absolute_path, "r") as f:
+        contents = f.read()
+    return contents
+
+def write_file(absolute_path: str, replacement: str) -> None:
+    with open(absolute_path, "w") as f:
+        f.write(replacement)
+
+

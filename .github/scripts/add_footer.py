@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 from os import walk
-from os.path import join, relpath
-from utils import get_template
+from os.path import join, relpath, dirname
+from utils import get_template, regex_replace_in_file, append_to_file
 from re import sub, search
 from urllib.parse import quote
 
@@ -44,26 +44,27 @@ def add_footer(top_directory: str, debug: bool = True) -> None:
             # Note: Alternative implementation is to use os.splitext;
             # both work for this usecase
             if file.endswith(".md"):
-
-                # Get the ABSOLUTE filepath
                 absolute_path = join(root, file)
-
                 relative_path = relpath(absolute_path, top_directory)
-                # Read the Markdown
-                with open(absolute_path, "r") as f:
+                ensure_footer_in_file(absolute_path, relative_path)
 
-                    # Read the file contents
-                    contents = f.read()
 
-                replacement = add_footer_to_markdown(relative_path, contents, comment, template, debug)
+def ensure_footer_in_file(root_path: str, markdown_file_path: str) -> None:
+    relative_path = relpath(markdown_file_path, root_path)
+    footer_contents = render_footer(relative_path)
+    footer_comment_regex = get_footer_comment_regex()
 
-                if replacement == contents:
-                    # Nothing to do!
-                    continue
+    result = regex_replace_in_file(markdown_file_path, footer_comment_regex, footer_contents)
 
-                # Write the updated Markdown content:
-                with open(absolute_path, "w") as f:
-                    f.write(replacement)
+    log_fmt = "[%-10s] - \"%s\""
+    if result is None:
+        append_to_file(markdown_file_path, footer_contents)
+        print(log_fmt % ('ADDED', markdown_file_path))
+    elif result:
+        print(log_fmt % ('REPLACED', markdown_file_path))
+    # else:
+    #     # Unchanged.
+    #     print(log_fmt % ('UNCHANGED', relative_path))
 
 
 def get_footer_comment_regex() -> str:
@@ -78,32 +79,12 @@ def encode_absolute_path_for_footer(absolute_path: str) -> str:
     encoded_path = quote(relative_path)
     return encoded_path
 
-
-def add_footer_to_markdown(relative_path: str, contents: str, comment: str, template: Template, debug: bool) -> str:
+def render_footer(relative_path: str) -> str:
     # Get the rendered template (file => relative path => html encoded)
-    render = template.render(
+    render = get_template("footer").render(
         file_path=quote(relative_path))
     render = ensure_last_line_has_eol(render)
-
-    # If the original file didn't have an end-of-line on the last line,
-    # add one here, to ensure that there is a gap between the body of the note
-    # and the footer.
-    contents = ensure_last_line_has_eol(contents)
-
-    # Check if our particular comment is present
-    if search(comment, contents):
-        replacement = sub(comment, render, contents)
-        log_action = 'UNCHANGED' if replacement == contents else 'REPLACE'
-    # If it's not there: Add it
-    else:
-        replacement = contents + "\n" + render
-        log_action = 'ADDING'
-
-    if debug and log_action != 'UNCHANGED':
-        print("[%-10s] - \"%s\"" % (log_action, relative_path))
-
-    return str(replacement) # cast needed to silence warnings about possibly returning Any
-
+    return str(render)
 
 def main() -> None:
     # Grab the root folder to run in.
