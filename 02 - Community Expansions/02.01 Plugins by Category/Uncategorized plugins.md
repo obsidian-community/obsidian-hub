@@ -15,7 +15,7 @@ Plugins which have not yet been categorized by the community.
 
 - [[13th-age-statblocks|13th Age Statblocks]]: Render 13th Age statblocks in Obsidian.
 - [[3d-graph|3D Graph]]: A 3D Graph for Obsidian
-- [[ava|AVA - Personal Learning Assistant]]: AI-Assited Learning in Obsidian
+- [[obsidian-plugin-dynamodb|AWS DynamoDb For Obsidian]]: Query AWS DynamoDb and render tables inside documents.
 - [[obsidian-account-linker|Account Linker]]: Plugin for describing external service accounts in the front matter
 - [[obsidian-achievements|Achievements]]: Add achievements to Obsidian.
 - [[actions-uri|Actions URI]]: Adds additional `x-callback-url` endpoints to the app for common actions — it's a clean, super-charged addition to Obsidian URI.
@@ -40,7 +40,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag and imports them into the current note.
 - [[obsidian-awesome-flashcard|Awesome Flashcard]]: Handy Anki integration for Obsidian.
 - [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
-- [[bpmn-plugin|BPMN Plugin]]: This plugin enables viewing BPMN diagrams using bpmn-js.
+- [[bpmn-plugin|BPMN Plugin]]: This plugin enables viewing/editing BPMN diagrams using bpmn-js.
 - [[obsidian-bellboy|Bellboy]]: Opinionated file structure manager.
 - [[obsidian-better-codeblock|Better CodeBlock]]: Add title, line number to Obsidian code block
 - [[obsidian-better-command-palette|Better Command Palette]]: A command palette that does all of the things you want it to do.
@@ -92,7 +92,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-desmos|Desmos]]: Embed Desmos graphs into your notes
 - [[obsidian-diagrams-net|Diagrams.net]]: Enable diagrams.net (previously draw.io) type diagrams, with the diagrams.net embedded editor.
 - [[obsidian-dialogue-plugin|Dialogue]]: Create dialogues in Markdown.
-- [[digitalgarden|Digital Garden]]: Publish your notes to a digital garden for others to enjoy.
+- [[digitalgarden|Digital Garden]]: Publish your notes to the web for others to enjoy. For free.
 - [[obsidian-dirtreeist|Dirtreeist]]: Render a directory Structure Diagram from a markdown lists in codeblock.
 - [[obsidian-divide-and-conquer|Divide & Conquer]]: Provides commands for bulk enabling/disabling of plugins. Useful for debugging when you have many plugins.
 - [[obsidian-douban-plugin|Douban]]: This is a plugin that can import movies/books/musics/notes/games info data from Douban for Obsidian .
@@ -145,6 +145,7 @@ Plugins which have not yet been categorized by the community.
 - [[habit-tracker|Habit Tracker]]: Track your Habits.
 - [[hard-breaks|Hard Breaks]]: Turn soft line breaks in Markdown into hard line breaks
 - [[obsidian-heading-shifter|Heading Shifter]]: Easily Shift and Change markdown headings.
+- [[hidden-folder-obsidian|Hidden Folder]]: Hidden Folder
 - [[highlightr-plugin|Highlightr]]: A minimal and aesthetically pleasing highlighting menu that makes color-coded highlighting much easier with a configurable assortment of highlight colors 🎨.
 - [[obsidian-hover-editor|Hover Editor]]: Transform the Page Preview hover popover into a fully working editor instance
 - [[obsidian-icon-shortcodes|Icon Shortcodes]]: Insert emoji and custom icons with shortcodes
@@ -184,13 +185,14 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-local-images|Local images]]: Local Images plugin finds all links to external images in your notes, then downloads and saves images locally, and finally adjusts the image links in your notes to point to the saved image files.
 - [[obsidian-lock-screen-plugin|Lock Screen]]: Protect your vault with a lock screen.
 - [[lumberjack-obsidian|Lumberjack 🪓 🪵]]: Log your thoughts! Lumberjack adds URL commands to help you axe inefficiency and get right to writing.
+- [[make-md|MAKE.md]]: Make.md brings you features that supercharges Obsidian. Sort your files in custom order and add file icons using Spaces. Edit inline embeds with Flow Editor. And style your text and add new markdown blocks without writing markdown using Maker Mode.
 - [[obsidian-mark-and-select|Mark and Select]]: More flexible ways to select texts in Obsidian Editor
 - [[obsidian-markbase|Markbase for Obsidian]]: Official Markbase plugin to share your Obsidian notes online in your own digital garden
 - [[markdown-table-editor|Markdown Table Editor]]: An Obsidian plugin to provide an editor for Markdown tables. It can open CSV, Microsoft Excel/Google Sheets data as Markdown tables from Obsidian Markdown editor.
 - [[markdown-shortcuts|Markdown shortcuts]]: Allows to write markdown from shortcuts (example: >h1 -> #).
 - [[obsidian-md-to-jira|Markdown to Jira Converter]]: This is a markdown to jira markup and backwards converter plugin for Obsidian (https://obsidian.md)
 - [[mathlinks|MathLinks]]: Render MathJax in your links
-- [[mathpad|Mathpad]]: Computer Algebra System and Calculator for Onsidian
+- [[mathpad|Mathpad]]: Computer Algebra System and Calculator for Obsidian
 - [[matter|Matter]]: The official Matter <> Obsidian plugin
 - [[obsidian-media-db-plugin|Media DB Plugin]]: A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.
 - [[obsidian-meeting-notes|Meeting notes]]: (https://obsidian.md) Plugin to automatically create a meeting note if a new file is created in a meeting folder.
@@ -218,6 +220,7 @@ Plugins which have not yet been categorized by the community.
 - [[notion-like-tables|Notion-Like Tables]]: Your premiere tool for creating and managing tabular data in Obsidian.md
 - [[novel-word-count|Novel word count]]: Displays a word count (and more!) for each file, folder and vault in the File Explorer pane.
 - [[nuke-orphans|Nuke Orphans]]: Plugin that trashes orphaned files and attachments
+- [[numerals|Numerals]]: Numerals turns any code block into an advanced calculator. Evaluates math expressions on each line of a code block, including units, currency, and optional TeX rendering.
 - [[obsidian-attendance|Obsidian Attendance]]: This plugin helps you track attendance.
 - [[obsidian-badge|Obsidian Badge]]: This is a plugin to show badge for Obsidian.
 - [[obsidian-camera|Obsidian Camera]]: Camera plugin for Obsidian
@@ -239,6 +242,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]: Allow to use the selected word as an alias in link suggestion.
 - [[obsidian-better-internal-link-inserter|Obsidian better Internal Link Inserter]]: Allow to use the selected word as an alias in link suggestion.
 - [[obsidian-jtab|Obsidian jTab]]: Adds the ability to show guitar chords and tabs directly in your notes using jTab.
+- [[obsidian-markdown-export-plugin|Obsidian markdown export]]: This is a markdown export plugin for Obsidian.
 - [[obsidian-matrix|Obsidian matrix]]: Utility to easily create LaTeX matrices
 - [[obsidian-to-notion|Obsidian shared to Notion]]: This is a  plugin for Obsidian. This plugin share obsidian md  file to notion with notion api
 - [[obsidian-to-flomo|Obsidian to Flomo]]: Quickly share content to Flomo.
@@ -284,7 +288,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
 - [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate
 - [[obsidian-rapid-notes|Rapid Notes]]: Create and place notes quickly in specific folders based on predefined prefixes.
-- [[obsidian-read-it-later|ReadItLater]]: Saves the clipboard to a new notice.
+- [[obsidian-read-it-later|ReadItLater]]: Saves the clipboard to a new note.
 - [[readavocado-sync|Readavocado Sync]]: Sync your Readavocado highlights with Obsidian
 - [[recent-files-obsidian|Recent Files]]: List files by most recently opened
 - [[obsidian-redirect|Redirect]]: An Obsidian (https://obsidian.md) plugin for redirecting links based on YAML frontmatter.
@@ -391,6 +395,7 @@ Plugins which have not yet been categorized by the community.
 - [[floating-toc|floating toc]]: This is a floating Toc plugin that  hovers a table of content  containing a header level on the notes sidebar.
 - [[obsidian-echarts|obsidian echarts]]: obsidian echarts
 - [[qmd-as-md-obsidian|qmd as md]]: This plugin provides an initial support for viewing files with .qmd extension. QMD files contain a combination of markdown and executable code cells and are a format supported by Quarto open source publishing system.
+- [[ava|🧙 Obsidian AI]]: AI assistant for Obsidian
 
 
 %% Hub footer: Please don't edit anything below this line %%

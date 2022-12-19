@@ -92,6 +92,8 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2022-11-19 Doom! & Scrollable Daily Notes|2022-11-19 Doom! & Scrollable Daily Notes]]
 -  [[01 - Community/Obsidian Roundup/2022-11-26 Weekly Reviews, Zen Mode, & Aggregation|2022-11-26 Weekly Reviews, Zen Mode, & Aggregation]]
 -  [[01 - Community/Obsidian Roundup/2022-12-03 An academic vault tour & weekly review templates|2022-12-03 An academic vault tour & weekly review templates]]
+-  [[01 - Community/Obsidian Roundup/2022-12-10 Whiteboard Canvas for Mindmaps, & a personal note|2022-12-10 Whiteboard Canvas for Mindmaps, & a personal note]]
+-  [[01 - Community/Obsidian Roundup/2022-12-17 Obsidian October Winners & AI Integrations|2022-12-17 Obsidian October Winners & AI Integrations]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
