@@ -83,13 +83,13 @@ def add_footer_to_markdown_test(input: str, relative_path:str) -> str:
     comment = add_footer.get_footer_comment_regex()
 
     with TemporaryDirectory() as tmproot:
-        path = f"{tmproot}/{relative_path}"
-        Path(dirname(path)).mkdir(parents=True, exist_ok=True)
-        utils.write_file(path, input)
+        absolute_path = f"{tmproot}/{relative_path}"
+        Path(dirname(absolute_path)).mkdir(parents=True, exist_ok=True)
+        utils.write_file(absolute_path, input)
 
-        add_footer.ensure_footer_in_file(tmproot, path)
+        add_footer.ensure_footer_in_file(absolute_path, relative_path)
 
-        return str(utils.read_file(path))
+        return str(utils.read_file(absolute_path))
 
 def verify_footer_addition(input: str, output: str) -> None:
 
