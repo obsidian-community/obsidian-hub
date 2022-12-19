@@ -49,19 +49,18 @@ def add_footer(top_directory: str, debug: bool = True) -> None:
                 ensure_footer_in_file(absolute_path, relative_path)
 
 
-def ensure_footer_in_file(root_path: str, markdown_file_path: str) -> None:
-    relative_path = relpath(markdown_file_path, root_path)
+def ensure_footer_in_file(absolute_path: str, relative_path: str) -> None:
     footer_contents = render_footer(relative_path)
     footer_comment_regex = get_footer_comment_regex()
 
-    result = regex_replace_in_file(markdown_file_path, footer_comment_regex, footer_contents)
+    result = regex_replace_in_file(absolute_path, footer_comment_regex, footer_contents)
 
     log_fmt = "[%-10s] - \"%s\""
     if result is None:
-        append_to_file(markdown_file_path, footer_contents)
-        print(log_fmt % ('ADDED', markdown_file_path))
+        append_to_file(absolute_path, footer_contents)
+        print(log_fmt % ('ADDED', relative_path))
     elif result:
-        print(log_fmt % ('REPLACED', markdown_file_path))
+        print(log_fmt % ('REPLACED', relative_path))
     # else:
     #     # Unchanged.
     #     print(log_fmt % ('UNCHANGED', relative_path))
