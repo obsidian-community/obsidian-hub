@@ -275,6 +275,9 @@ def regex_replace_in_file(absolute_path: str, regex: str, new_contents: str) -> 
     return True
 
 def append_to_file(absolute_path: str, additional_content: str) -> None:
+    """
+    Adds the additional content at the bottom of the file.
+    """
     rewrite_file(absolute_path, lambda contents : \
         ensure_last_line_has_eol(contents) + "\n" + additional_content)
 

@@ -10,7 +10,9 @@ PLUGIN_LIST_HEADING = '## Plugins in this category'
 
 
 def extract_alias(markdown_link_list_item: str) -> str:
-    # Return the alias if we have it, otherwise the page name.
+    """
+    Return the alias if we have it, otherwise the page name.
+    """
     match = re.compile(r'^- \[\[(.*?)(?:\|(.*?))?]].*') \
         .search(markdown_link_list_item)
 
@@ -26,6 +28,9 @@ def extract_alias(markdown_link_list_item: str) -> str:
 
 
 def sort_list(markdown_list: str) -> str:
+    """
+    Sorts a Markdown list of links by the alias name
+    """
     lines = markdown_list.splitlines()
     sorted_lines = sorted(lines, key=lambda line: extract_alias(line))
     return "\n".join(sorted_lines) + "\n"
@@ -33,10 +38,12 @@ def sort_list(markdown_list: str) -> str:
 
 def extract_block_pos(markdown_text: str, header: str) -> Optional[Tuple[int, int]]:
     """
-    Returns the text positions for the first Markdown list
-    within the block defined by the header.
-    """
+    Returns the text positions for the first Markdown block
+    within the block defined by the header including the header
+    itself.
 
+    Or None if no match
+    """
 
     # Find the header, which will be the beginning of our search range.
     try:
@@ -57,6 +64,14 @@ def extract_block_pos(markdown_text: str, header: str) -> Optional[Tuple[int, in
     return (header_start_pos, next_header_start_pos)
 
 def extract_block_pos_without_header(markdown_text: str, header: str) -> Optional[Tuple[int, int]]:
+    """
+    Returns the text positions for the first Markdown block
+    within the block defined by the header NOT including the
+    header itself.
+
+    Or None if no match
+    """
+
     block_pos = extract_block_pos(markdown_text, header)
     if block_pos is None:
         return None
@@ -70,6 +85,8 @@ def extract_list_pos(markdown_text: str, header: str) -> Optional[Tuple[int, int
     """
     Returns the text positions for the first Markdown list
     within the block defined by the header.
+
+    Or None if no match
     """
 
     block_pos = extract_block_pos_without_header(markdown_text, header)
