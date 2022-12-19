@@ -42,3 +42,8 @@ jobs:
         run: |
           cd .github/scripts
           ./run_markdownlint.sh
+
+      - name: Check that there are no files whose filename differs only by capitalization.
+        run: |
+          cd .github/scripts
+          python3 ./case_conflicts.py

@@ -40,6 +40,7 @@ jobs:
         run: |
           cd .github/scripts
           python3 ./update_releases.py --all
+          python3 ./case_conflicts.py
           cd ../..
           git add .
           git commit -m "Add new plugins, themes and authors" || echo "nothing to commit"
