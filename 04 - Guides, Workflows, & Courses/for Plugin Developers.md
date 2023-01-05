@@ -55,6 +55,7 @@ See also [[for Plugin Developers to Automate Tests|Resources and Guides for Plug
   - [Repositories Downloader](https://github.com/konhi/obsidian-repositories-downloader)
   - [Plugin Downloader](https://github.com/luckman212/obsidian-plugin-downloader)
   - [obsidian-repos-downloader](https://github.com/claremacrae/obsidian-repos-downloader) - Download every approved Obsidian.md community Plugin and Theme
+- [[Obsidian Design System Community File]] A community built, component and styles library for reference and use while designing for Obsidian
 
   
 %% Hub footer: Please don't edit anything below this line %%
