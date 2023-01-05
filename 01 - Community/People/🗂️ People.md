@@ -290,6 +290,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/joethei|joethei]]
 -  [[01 - Community/People/joeyuping|joeyuping]]
 -  [[01 - Community/People/johackim|johackim]]
+-  [[01 - Community/People/Johnny|Johnny]]
 -  [[01 - Community/People/Johnson0907|Johnson0907]]
 -  [[01 - Community/People/joleaf|joleaf]]
 -  [[01 - Community/People/jon-heard|jon-heard]]
