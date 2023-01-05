@@ -25,6 +25,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dragon speech recognition|Dragon speech recognition]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dropbox|Dropbox]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Emacs|Emacs]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Figma|Figma]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Gingko app|Gingko app]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/GitHub Pages|GitHub Pages]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Hazel|Hazel]]
