@@ -22,6 +22,7 @@ See also [[for Plugin Developers to Automate Tests|Resources and Guides for Plug
 - [[How to update your plugins and CSS for live preview]]
 - [[How to release a new version of your plugin]]
 - [[Using GitHub actions to create releases for plugins]]
+- [[Obsidian Design System Community File]] A community built, component and styles library in [[Figma]] for reference and use while designing user interfaces for Obsidian
 
 ## Community Talks
 

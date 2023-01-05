@@ -30,6 +30,7 @@ This note collects resources and guides for beginner and expert theme designers 
   - [Common Selectors for Custom CSS](https://forum.obsidian.md/t/common-selectors-for-custom-css/1984)
 - [[Using Visual Studio Code for Theme Development]] by [[damiankorcz|Damian Korcz]]
 - [[Graph view customization|Styling the graph view]] 
+- [[Obsidian Design System Community File]] A community built, component and styles library in [[Figma]] for reference and use while designing user interfaces for Obsidian
 
 ## Community Talks
 
