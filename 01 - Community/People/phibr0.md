@@ -32,6 +32,7 @@ publish: true
 - [[open-with|Open with]]
 - [[obsidian-relative-find|Relative Find]]
 - [[tabout|Tabout]]
+- [[Commander]]
 
 %% End Hub: Released contributions %%
 
