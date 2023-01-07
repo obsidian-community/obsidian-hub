@@ -31,6 +31,7 @@ This note collects resources and guides for beginner and expert theme designers 
 - [[Using Visual Studio Code for Theme Development]] by [[damiankorcz|Damian Korcz]]
 - [[Graph view customization|Styling the graph view]] 
 - [[Obsidian Design System Community File]] A community built, component and styles library in [[Figma]] for reference and use while designing user interfaces for Obsidian
+- [How To Work with Obsidian 1.0's new CSS Variables](https://www.youtube.com/watch?v=yl0pvIRTWWo)  by [[chrisgrieser|pseudometa]]
 
 ## Community Talks
 
