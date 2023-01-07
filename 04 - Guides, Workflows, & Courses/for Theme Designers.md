@@ -31,7 +31,7 @@ This note collects resources and guides for beginner and expert theme designers 
 - [[Using Visual Studio Code for Theme Development]] by [[damiankorcz|Damian Korcz]]
 - [🎬 How To Work with Obsidian 1.0's new CSS Variables](https://www.youtube.com/watch?v=yl0pvIRTWWo)  by [[chrisgrieser|pseudometa]]
 
-## Tools & Ressources
+## Tools & Resources
 
 - [Obsidian Theme Template](https://github.com/obsidian-community/obsidian-theme-template) A GitHub repository template with everything you need to get started. Click `Use this template` to get a ready-to-go theme repository.
 - [Theme Dev Vault](https://github.com/obsidian-community/theme-dev-vault) An obsidian vault to aid in theme development
