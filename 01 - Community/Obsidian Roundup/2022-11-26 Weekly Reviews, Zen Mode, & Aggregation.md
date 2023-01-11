@@ -68,7 +68,7 @@ _Note: Not all new plugins are available in the community list yet, as they need
 * Bryan Jenks put together a new guide for using [Obsidian and Zotero 6](https://youtu.be/mMpVMuGBGe8) to write research papers.
 * Here's how to use Dataview to [aggregate weekly notes](https://brianmeeker.me/2022/11/25/aggregating-weekly-notes-with-obsidian-and-dataview/).
 * Nicole van der Hoeven has a new video about how [notes are only useful if you use them](https://www.youtube.com/watch?v=v7BbraqevMg) with some tips on how to do that.
-* Here's how to [use system commands](https://medium.com/@gareth.stretton/obsidian-do-almost-anything-really-with-system-commands-b496ffd0679c) (best in Linux and Mac) to manipulate text, configure Obsidian, and do other templatey things.
+* Here's how to [use system commands](https://medium.com/@gareth.stretton/obsidian-do-almost-anything-really-with-system-commands-b496ffd0679c) (best in Linux and Mac) to manipulate text, configure Obsidian, and do other templatey things, via Gareth Stretton.
 
 ## Discussions
 
