@@ -1,5 +1,5 @@
 ---
-link: https://www.obsidianroundup.org/2022-12-03/
+link: https://www.eleanorkonik.com/2022-12-03/
 author: Eleanor Konik
 published: 2022-12-03T13:30:25
 publish: true
@@ -83,7 +83,7 @@ _If you want a comprehensive list of what plugins updated this week, check out t
 
 My birthday is this weekend. Look at the pretty new desktop tower holder my husband installed for me to celebrate:
 
-![desktop tower under a standing desk beside a bookshelf with a lot of wires on all sides](https://www.obsidianroundup.org/content/images/2022/12/image.png)If you have any hot tips for cable management, consider joining the [discussion in Discord](https://discord.com/channels/686053708261228577/700466324840775831/1046450802048381039), pinging me on social media, leaving a comment, or sending me an email. 
+![desktop tower under a standing desk beside a bookshelf with a lot of wires on all sides](https://www.eleanorkonik.com/content/images/2022/12/image.png)If you have any hot tips for cable management, consider joining the [discussion in Discord](https://discord.com/channels/686053708261228577/700466324840775831/1046450802048381039), pinging me on social media, leaving a comment, or sending me an email. 
 
 
 %% Hub footer: Please don't edit anything below this line %%

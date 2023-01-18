@@ -1,5 +1,5 @@
 ---
-link: https://www.obsidianroundup.org/2022-12-17/
+link: https://www.eleanorkonik.com/2022-12-17/
 author: Eleanor Konik
 published: 2022-12-17T13:30:35
 publish: true
@@ -17,7 +17,7 @@ Here's a list of [all 84 entrants](https://airtable.com/shrFnFY00zy1ORZgI/tblP9b
 * New Theme: [Origami](https://github.com/7368697661/Origami) by kneecaps
 * Plugin Update: [Obsidian-OCR](https://github.com/MohrJonas/obsidian-ocr) by Jonas Mohr
 * Theme Update: [Shimmering Focus Rewrite for Obsidian 1.0](https://github.com/chrisgrieser/shimmering-focus) by pseudometa
-* Written Content: [The Konik Method for Making Useful Notes](https://www.obsidianroundup.org/the-konik-method-for-making-notes/) by me 😊
+* Written Content: [The Konik Method for Making Useful Notes](https://www.eleanorkonik.com/the-konik-method-for-making-notes/) by me 😊
 * Written Content Student Pick: [How to Boost Your Productivity for Scientific Research Using Obsidian](https://betterhumans.pub/how-to-boost-your-productivity-for-scientific-research-using-obsidian-fe85c98c63c8) by Leonardo Castorina
 * Video: [Obsidian Onboarding](https://youtu.be/5Vz59TU115M) by Danny Hatcher
 * Video Student Pick: [How I Write Conceptual Lecture Notes in Obsidian](https://youtu.be/PuqGjNJMiZQ) by Aidan Helfant
