@@ -16,6 +16,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/80s Neon|80s Neon]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Abecedarium|Abecedarium]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/AbsoluteGruv|AbsoluteGruv]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Abyssal|Abyssal]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Adwaita|Adwaita]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Agora|Agora]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Al Dente|Al Dente]]
@@ -92,6 +93,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Illusion|Illusion]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/ion|ion]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/ITS Theme|ITS Theme]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Jotter|Jotter]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Kanagawa|Kanagawa]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Light & Bright|Light & Bright]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Listive|Listive]]
@@ -128,6 +130,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Pine Forest Berry|Pine Forest Berry]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Pink Topaz|Pink Topaz]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Pisum|Pisum]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/PLN|PLN]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Primary|Primary]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Prism|Prism]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Purple Aurora|Purple Aurora]]
@@ -141,6 +144,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ruby|Ruby]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sanctum|Sanctum]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sandstorm|Sandstorm]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shiba Inu|Shiba Inu]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shiba Uni|Shiba Uni]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shimmering Focus|Shimmering Focus]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Silence|Silence]]
@@ -179,6 +183,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wyrd|Wyrd]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yin and Yang|Yin and Yang]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Zenburn|Zenburn]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/🔔 Chime|🔔 Chime]]
 %% Hub MOCs: Don’t edit above  %%
 
 ## Contributing

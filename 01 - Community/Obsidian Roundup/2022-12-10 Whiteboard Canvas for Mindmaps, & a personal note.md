@@ -1,5 +1,5 @@
 ---
-link: https://www.obsidianroundup.org/2022-12-10/
+link: https://www.eleanorkonik.com/2022-12-10/
 author: Eleanor Konik
 published: 2022-12-10T13:46:33
 publish: true
@@ -14,7 +14,7 @@ The big news this week is [Obsidian 1.1](https://forum.obsidian.md/t/obsidian-re
 
 ## The Personal Note
 
-The other big news is [a follow-up to last month's note about my health](https://www.obsidianroundup.org/2022-11-26/). I'm pregnant! 🥳 but also, the first trimester + this year's vicious cold-and-covid season are absolutely kicking my butt, and some messy complications from the pregnancy aren't helping. I've lost track of how many doctors I've seen since Thanksgiving, and how many steroids my son is taking for his recurrent cough, but although I got the paperwork for leaving teaching taken care of, it's been a really rough month so far. 
+The other big news is [a follow-up to last month's note about my health](https://www.eleanorkonik.com/2022-11-26/). I'm pregnant! 🥳 but also, the first trimester + this year's vicious cold-and-covid season are absolutely kicking my butt, and some messy complications from the pregnancy aren't helping. I've lost track of how many doctors I've seen since Thanksgiving, and how many steroids my son is taking for his recurrent cough, but although I got the paperwork for leaving teaching taken care of, it's been a really rough month so far. 
 
 So this week's edition of the Obsidian Roundup is going to be really abbreviated, and I am taking Christmas and New Years' off. Next week I'll sweep back around for everything I missed this week when I was basically bedridden, and everything should be back to normal in January. 
 
