@@ -96,6 +96,7 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2022-12-17 Obsidian October Winners & AI Integrations|2022-12-17 Obsidian October Winners & AI Integrations]]
 -  [[01 - Community/Obsidian Roundup/2023-01-07 AI, Canvas, Terminal & Tasks plugins|2023-01-07 AI, Canvas, Terminal & Tasks plugins]]
 -  [[01 - Community/Obsidian Roundup/2023-01-14 Use Cases for Canvas & New Courses and Sample Vaults|2023-01-14 Use Cases for Canvas & New Courses and Sample Vaults]]
+-  [[01 - Community/Obsidian Roundup/2023-01-21 More LLM Integrations & Sample Notes for Cooking, Workouts, etc.|2023-01-21 More LLM Integrations & Sample Notes for Cooking, Workouts, etc.]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%

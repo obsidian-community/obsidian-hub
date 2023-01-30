@@ -178,6 +178,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-hover-editor|Hover Editor]]: Transform the Page Preview hover popover into a fully working editor instance
 - [[hugo-preview-obsidian|Hugo preview obsidian]]: Hugo preview in obsidian
 - [[obsidian-hyphenation|Hyphenation]]: Enables justified text and hyphenation
+- [[obsidian-ivre-plugin|IVRE]]: IVRE integration for Obsidian: grab data from IVRE and brings it into Obsidian notes.
 - [[obsidian-icon-shortcodes|Icon Shortcodes]]: Insert emoji and custom icons with shortcodes
 - [[obsidian-image-caption|Image Caption]]: Add captions to images.
 - [[obsidian-image-gallery|Image Gallery]]: A zero setup masonry image gallery for Obsidian
@@ -238,7 +239,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-metronome-plugin|Metronome]]: Add interactive metronomes to your notes.
 - [[microblog-publish-plugin|Micro.publish]]: Publish notes to Micro.blog
 - [[obsidian-min-width|Min Width]]: Set the Minimum Width of the Active Pane in Obsidian
-- [[obsidian-mindmap-nextgen|Mind Map NextGen]]: A plugin to preview notes as Markmap mind maps
+- [[obsidian-mindmap-nextgen|Mind Map NextGen]]: View your Markdown as a mindmap
 - [[mousewheel-image-zoom|Mousewheel Image zoom]]: This plugin enables you to increase/decrease the size of an image by scrolling
 - [[multi-column-markdown|Multi-Column Markdown]]: This plugin adds functionality to create markdown documents with multiple columns of content viewable within Obsidian's preview mode
 - [[mysnippets-plugin|MySnippets]]: MySnippets is a plugin that adds a status bar menu allowing the user to quickly toggle their snippets on and off 🖌.
@@ -311,6 +312,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
 - [[pinboard-sync|Pinboard Sync]]: Syncs Pinboard.in links with Daily Notes
 - [[obsidian-plaintext|Plaintext]]: Allow opening specified files as plaintext (RAW mode).
+- [[obsidian-plugin-groups|Plugin Groups]]: Manage your Plugins through groups: Enable and disable multiple plugins through a single command, or delay the startup of plugins to speed up your Obsidian start up time.
 - [[obsidian-plugin-update-tracker|Plugin Update Tracker]]: Know when installed plugins have updates and evaluate the risk of upgrading
 - [[plugins-galore|Plugins Galore]]: This is an Obsidian plugin to allow easily sideloading other plugins.
 - [[podnotes|PodNotes]]: Helps you write notes on podcasts.
@@ -373,6 +375,7 @@ Plugins which have not yet been categorized by the community.
 - [[simple-embeds|Simple Embeds]]: Replaces links, like Twitter and YouTube, with embeds when previewing a file.
 - [[obsidian-simple-mention|Simple Mention]]: Get highlighted mentions and mention suggestions. Find all occurrences of a mention
 - [[simple-note-quiz|Simple Note Quiz]]: Start a simple quiz on your current note
+- [[simple-note-review|Simple Note Review]]: Simple, customizable plugin for easy note review, resurfacing  & repetition.
 - [[obsidian-siteswap|Siteswap]]: Visualize Juggling Pattern Siteswap via the JugglingLab gif server.
 - [[smart-connections|Smart Connections]]: Find links to similar notes using artificial intelligence from OpenAI.
 - [[obsidian-smart-links|Smart Links]]: This is a plugin for Obsidian that allows users to define custom link formats
@@ -401,7 +404,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-task-marker|Task Marker]]: Change task statuses with hotkeys and context menu. Complete, cancel and mark tasks, as well as cycle among selected task statuses.
 - [[obsidian-task-progress-bar|Task Progress Bar]]: A task progress bar plugin for tasks in Obsidian.
 - [[obsidian-telegraph-publish|Telegraph Publish]]: 
-- [[terminal|Terminal]]: Open terminals in Obsidian directly.
+- [[terminal|Terminal]]: Integrate consoles/shells/terminals inside Obsidian.
 - [[obsidian-dataset-aid|Text Dataset Aid Plugin]]: This plugin for obsidian aids in the creation of fine-tuning datasets for language models.
 - [[text-extractor|Text Extractor]]: A (companion) plugin to facilitate the extraction of text from images (OCR) and PDFs.
 - [[obsidian-textgenerator-plugin|Text Generator]]: Text generation using OpenAI
