@@ -13,7 +13,7 @@ This note collects resources and guides for beginner and expert theme designers 
 
 - [[How to Style Obsidian]] by [[ryanjamurphy|Ryan J. A. Murphy]]
 - [[Default Obsidian Theme Colors]]
-- [[🎬 CSS 101 - Community Talk]]
+- 🎬 [[CSS 101 - Community Talk]]
 - [[css-obsidian-layout.png|Visual guide to primary Obsidian CSS Classes]]
 - [🎬 Create a Custom Theme in Obsidian](https://www.youtube.com/watch?v=lyaEnxgow4E)
 - [Getting comfortable with Obsidian CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
