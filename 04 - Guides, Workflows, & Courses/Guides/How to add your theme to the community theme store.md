@@ -17,8 +17,9 @@ Your theme must be hosted on GitHub on a public repository. Before submitting yo
 1. A `README.md` file in the root of your repo
 2. A screenshot of your theme to be displayed in the community theme store. We recommend using an image of 1920×1080px.
 3. Your `.css` file must be named `theme.css` and be at the root of your repository.
-4. It is highly recommended that you add a license to your theme. You can use [Choose a License](https://choosealicense.com/) if you don't know which one to pick.
-5. To submit your theme, you can go ahead and make a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) if you are familiar with git. Otherwise keep reading for instructions on how to submit your theme through GitHub's web interface.
+4. A `manifest.json` file [like this](https://github.com/obsidian-community/obsidian-theme-template/blob/main/manifest.json).
+5. It is highly recommended that you add a license to your theme. You can use [Choose a License](https://choosealicense.com/) if you don't know which one to pick.
+6. To submit your theme, you can go ahead and make a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) if you are familiar with git. Otherwise keep reading for instructions on how to submit your theme through GitHub's web interface.
 
 ## Submitting your theme
 
