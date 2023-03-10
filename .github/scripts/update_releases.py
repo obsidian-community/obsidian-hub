@@ -2,6 +2,7 @@
 import os
 import sys
 import argparse
+from pathlib import Path
 from typing import Sequence
 
 from authors import AllAuthors
@@ -67,10 +68,24 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
+    themes_dir = os.path.dirname(get_output_dir(Theme.template, 'nonsense'))
+    file_case_lookup = dict()
+    for filename in os.listdir(themes_dir):
+        base_name = Path(filename).stem
+        file_case_lookup[base_name.lower()] = base_name
+
     for index, theme in enumerate(theme_list):
         current_name, valid = theme.collect_data_for_theme(theme_downloads, file_groups)
         if not valid:
             continue
+
+        # Prefer the existing capitalisation of any existing filename,
+        # to prevent case-conflicts.
+        if current_name.lower() in file_case_lookup:
+            existing_case = file_case_lookup[current_name.lower()]
+            if existing_case != current_name:
+                print(f'Overriding filename {current_name} to {existing_case}')
+                current_name = existing_case
 
         group = write_template_file(
             Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data()
