@@ -97,6 +97,12 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2023-01-07 AI, Canvas, Terminal & Tasks plugins|2023-01-07 AI, Canvas, Terminal & Tasks plugins]]
 -  [[01 - Community/Obsidian Roundup/2023-01-14 Use Cases for Canvas & New Courses and Sample Vaults|2023-01-14 Use Cases for Canvas & New Courses and Sample Vaults]]
 -  [[01 - Community/Obsidian Roundup/2023-01-21 More LLM Integrations & Sample Notes for Cooking, Workouts, etc.|2023-01-21 More LLM Integrations & Sample Notes for Cooking, Workouts, etc.]]
+-  [[01 - Community/Obsidian Roundup/2023-01-28 Plugin graphs & academic tools|2023-01-28 Plugin graphs & academic tools]]
+-  [[01 - Community/Obsidian Roundup/2023-02-04 Git plugins & OCR improvements|2023-02-04 Git plugins & OCR improvements]]
+-  [[01 - Community/Obsidian Roundup/2023-02-11  Natural Language Search & a New CEO|2023-02-11  Natural Language Search & a New CEO]]
+-  [[01 - Community/Obsidian Roundup/2023-02-18 Publish updates & highlights syncing|2023-02-18 Publish updates & highlights syncing]]
+-  [[01 - Community/Obsidian Roundup/2023-02-25 ems of the Year & RSS still isn't dead|2023-02-25 ems of the Year & RSS still isn't dead]]
+-  [[01 - Community/Obsidian Roundup/2023-03-04 New APIs, + Curated Lists for Vim Users & Interoperability Fans|2023-03-04 New APIs, + Curated Lists for Vim Users & Interoperability Fans]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
