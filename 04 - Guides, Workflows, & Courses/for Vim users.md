@@ -19,7 +19,7 @@ This site is for all information valuable to users familiar with vim, that want 
 
 ## Example vimrcs
 - [obsidian.vimrc and usage infos](https://bauer.codes/notes/Obsidian#Obsidian+vim+window+controls) by pmbauer
-- [obsidian.vimrc](https://github.com/chrisgrieser/dotfiles/blob/main/Obsidian%20vim/obsidian.vimrc) by [[chrisgrieser|pseudometa]]
+- [obsidian.vimrc](https://github.com/chrisgrieser/.config/blob/main/obsidian/obsidian.vimrc) by [[chrisgrieser|pseudometa]]
 
 %% Hub footer: Please don't edit anything below this line %%
 
