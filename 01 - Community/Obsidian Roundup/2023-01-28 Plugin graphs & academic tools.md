@@ -12,7 +12,7 @@ Tasks now supports custom statuses, table experiences are enhanced, & there are 
 
 * Here's a really neat [graph of plugins](https://observablehq.com/@mauforonda/state-of-obsidian-plugins?ref=obsidian-iceberg) according to their popularity vs last update. "Copy button for code blocks" seems to have hit the sweet spot of being useful and easy to maintain. Here's an [accompanying writeup](https://mauforonda.github.io/garden/notes/state-of-obsidian-plugins/?ref=obsidian-iceberg).
 * Here's a totally different [graph of plugins](https://nevernotmove.github.io/obsidian-stats/?ref=obsidian-iceberg) focused on a variety of stats, but the most popular use-case is that it lets users sort by different criteria, for example downloads over time.
-* Here's a recording of a talk given to a Meetup group about how Erik Aybar uses [Obsidian & ChatGPT as a software engineer](https://www.youtube.com/watch?v=wULSqH1M-xw&t=665s&ref=obsidian-iceberg). It touches on Excalidraw, PARA, Canvas, project logs, and more.
+* Here's a recording of a talk given to a Meetup group about how Erik Aybar uses [Obsidian & ChatGPT as a software engineer](https://www.youtube.com/watch?v=wULSqH1M-xw&3Bt=665s&ref=obsidian-iceberg). It touches on Excalidraw, PARA, Canvas, project logs, and more.
 
 ## Plugin News
 

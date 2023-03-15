@@ -84,7 +84,7 @@ _If you want a comprehensive list of what plugins updated this week, check out t
 ## Ancillary Tools
 
 * The [Raycast Obsidian extension](https://www.raycast.com/marcjulian/obsidian?ref=obsidian-iceberg) now supports starred notes, creating notes from the search interface, appending to a daily note, and more.
-* [Drafting](https://play.google.com/store/apps/details?id=sen.drafting&pli=1&ref=obsidian-iceberg) is a $4 plain text editor for Android that [works well alongside Obsidian as a quick capture app](https://www.noteapps.ca/drafting/?ref=obsidian-iceberg).
+* [Drafting](https://play.google.com/store/apps/details?id=sen.drafting&3Bpli=1&ref=obsidian-iceberg) is a $4 plain text editor for Android that [works well alongside Obsidian as a quick capture app](https://www.noteapps.ca/drafting/?ref=obsidian-iceberg).
 
 %% Hub footer: Please don't edit anything below this line %%
 

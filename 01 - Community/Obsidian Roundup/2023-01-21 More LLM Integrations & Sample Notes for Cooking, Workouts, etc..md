@@ -100,7 +100,7 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 * Here's a lovely screenshot in Discord of how one can [harmonize their Obsidian theme with different apps like Discord, Spotify, & neovim](https://discord.com/channels/686053708261228577/744933215063638183/1062480922932428890?ref=obsidian-iceberg) so all the apps are visually consistent.
 * This is a really neat [note from an ecologist](https://discord.com/channels/686053708261228577/744933215063638183/1062909677710618734?ref=obsidian-iceberg) working in forest restoration and climate resilience, followed by a fascinating discussion by folks in similar fields and how they use Obsidian.
 * Here's a nifty demonstration of embracing the concept of [atomic folders](https://discord.com/channels/686053708261228577/710585052769157141/1065995831171371028?ref=obsidian-iceberg).
-* Here's how Canvas can help [analyze and engage with something like the Tao Te Ching](https://twitter.com/ungatedcreative/status/1614653925239705600?s=20&t=w4QOO4E929cxrZmeR_xq-A&ref=obsidian-iceberg).
+* Here's how Canvas can help [analyze and engage with something like the Tao Te Ching](https://twitter.com/ungatedcreative/status/1614653925239705600?s=20&3Bt=w4QOO4E929cxrZmeR_xq-A&ref=obsidian-iceberg).
 * Here's a nice discussion surrounding a [Cultural Studies vault](https://www.reddit.com/r/ObsidianMD/comments/10fjyo6/my_masters_degree_started_in_october_and_i_just/?ref=obsidian-iceberg) focused on how to revisit and rediscover useful notes once you reach the >10,000 links point of working on a Master's degree.
 
 ## Ancillary Tools
