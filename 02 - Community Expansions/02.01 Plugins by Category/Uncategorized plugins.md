@@ -49,6 +49,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag and imports them into the current note.
 - [[obsidian-autoscroll|Autoscroll]]: This plugin allows you to automatically scroll down the content with the provided speed
 - [[obsidian-awesome-flashcard|Awesome Flashcard]]: Handy Anki integration for Obsidian.
+- [[awesome-image|Awesome Image]]: One-stop solution for image management.
 - [[awesome-reader|Awesome Reader]]: Make Obsidian a proper Reader.
 - [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
 - [[bpmn-plugin|BPMN Plugin]]: This plugin enables viewing/editing BPMN diagrams using bpmn-js.
@@ -69,6 +70,8 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-bulk-rename-plugin|Bulk Rename]]: Purpose of this plugin rename files based on pattern
 - [[obsidian-buttondown-plugin|Buttondown]]: Send your notes to your buttondown.email account as email drafts.
 - [[obsidian-calibre-plugin|Calibre]]: This plugin allows you to access your calibre libraries and read books directly in Obsidian.
+- [[callout-integrator|Callout Integrator]]: Integrate long blocks of text into callouts
+- [[callout-manager|Callout Manager]]: Easily create and customize callouts.
 - [[canvas-css-class|Canvas CSS class]]: Add a CSS class to the canvas, but also other attributes.
 - [[obsidian-canvas-conversation|Canvas Conversation]]: Canvas Conversation is a plugin that allows you to create a ChatGPT conversation using Canvas Cards.
 - [[canvas-filter|Canvas Filter]]: This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.
@@ -77,12 +80,13 @@ Plugins which have not yet been categorized by the community.
 - [[canvas-randomnote|Canvas Random Note]]: Add random notes from your vault to the Obsidian canvas
 - [[obsidian-card-view-switcher-plugin|Card View Switcher]]: Quick switcher with card view
 - [[obsidian-chat-view|Chat View]]: Chat View enables you to create elegant Chat UIs in your Obsidian markdown files. It also supports the WebVTT format.
+- [[chatgpt-md|ChatGPT MD]]: A (nearly) seamless integration of ChatGPT into Obsidian.
 - [[obsidian-checkbox3states-plugin|Checkbox 3 states]]: This is a simple plugin for add a third state to checkbox list.
 - [[obsidian-checklist-reset|Checklist Reset]]: Adds a command to reset the state of any checklists in a document in Obsidian.
 - [[chord-lyrics|Chord Lyrics]]: Display chord names over lyrics. Supports line wrapping, section headers, auto-detection of lines and custom colors.
 - [[obsidian-chorded-hotkeys|Chorded Hotkeys]]: Type multiple letters at the same time to trigger text insertion, template insertion, or command execution.
 - [[chronology|Chronology]]: Provides a calendar and a timeline of the notes creation and modification
-- [[close-similar-tabs|Close Similar Tabs]]: Close similar tabs.
+- [[close-similar-tabs|Close Similar Tabs]]: Avoid to have a file opened several times in your tabs. (+setting: by window or everywhere)
 - [[code-block-plugin|Code Block]]: This plugin converts text into code blocks with automatic language detection.
 - [[obsidian-codeblock-labels|Code Block Labels]]: Adds labels to fenced code blocks
 - [[code-emitter|Code Emitter]]: An obsidian plugin that allows code blocks executed interactively in sandbox like jupyter notebooks. Supported language rust、kotlin、python、Javascript、TypeScript etc.
@@ -148,6 +152,8 @@ Plugins which have not yet been categorized by the community.
 - [[embed-code-file|Embed Code File]]: This is a plugin for Obsidian that allows for embedding code files.
 - [[obsidian-embedded-note-paths|Embedded Note Paths]]: Inserts the note file path above each note.
 - [[emo-uploader|Emo]]: Embed markdown online file/image links. This plugin is for uploading images to hosting or files to github in Obsidian.
+- [[emoji-magic|Emoji Magic]]: Easily add emoji, with a powerful keyword search. 🔮 ✨ 🐇
+- [[emoji-titler|Emoji Titler]]: This plugin is emoji titler to easily insert an emoji in the title using a keyboard shortcut.
 - [[obsidian-emotion-picker|Emotion Picker]]: A plugin for Obsidian.md that lets you choose an emotion from a list to insert into a note.
 - [[copy-note|Enhance Copy Note]]: Augments native Obsidian note copying.
 - [[enlightenment-obsidian|Enlightenment ✨]]: Pay attention to what you're paying attention to. Enlightenment adds a 'zen mode' for Preview, hiding the contents of your notes except for what's underneath your pointer.
@@ -195,6 +201,7 @@ Plugins which have not yet been categorized by the community.
 - [[hidden-folder-obsidian|Hidden Folder]]: Hidden Folder
 - [[highlightr-plugin|Highlightr]]: A minimal and aesthetically pleasing highlighting menu that makes color-coded highlighting much easier with a configurable assortment of highlight colors 🎨.
 - [[hints-plugin|Hints Flow]]: Save data directly to Obsidian with a specified template. Capture from Telegram, WhatsApp, Slack, Email, SMS, Raycast and more.
+- [[home-tab|Home tab]]: A browser-like search tab for your local files.
 - [[obsidian-hover-editor|Hover Editor]]: Transform the Page Preview hover popover into a fully working editor instance
 - [[hugo-preview-obsidian|Hugo preview obsidian]]: Hugo preview in obsidian
 - [[obsidian-hyphenation|Hyphenation]]: Enables justified text and hyphenation
@@ -334,6 +341,8 @@ Plugins which have not yet been categorized by the community.
 - [[open-related-url|Open Related Url]]: Opens URLs found in a note's YAML frontmatter
 - [[open-files-with-commands|Open files with commands]]: Create commands that only open one file at the time and that can be used with the commander plugin.
 - [[obsidian-open-in-other-editor|Open in other editor]]: Open current active file in gVim or VScode.
+- [[open-weather|OpenWeather]]: This plugin returns the current weather from OpenWeather in a configurable string format.
+- [[optimize-canvas-connections|Optimize Canvas Connections]]: An Obsidian plugin that declutters a canvas by reconnecting notes using their nearest edges.
 - [[order-list|Order List]]: Orders list by number at end of line
 - [[list-style|Ordered List Style]]: Set ordered list style inline in Obsidian.md. Alphabetic lists, roman numeral lists, etc.
 - [[obsidian-oura-plugin|Oura Ring]]: Oura Ring
@@ -348,6 +357,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-path-finder|Path Finder]]: A plugin that can find the shortest path between two notes. Not sure who will want to use it...
 - [[obsidian-path-title|Path Title]]: Adds path (or optional replacement) to the filename title of each pane
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
+- [[perilous-writing|Perilous Writing]]: Write continuously—or lose all progress.
 - [[pinboard-sync|Pinboard Sync]]: Syncs Pinboard.in links with Daily Notes
 - [[obsidian-plaintext|Plaintext]]: Allow opening specified files as plaintext (RAW mode).
 - [[obsidian-plugin-groups|Plugin Groups]]: Manage your Plugins through groups: Enable and disable multiple plugins through a single command, or delay the startup of plugins to speed up your Obsidian start up time.
@@ -515,6 +525,7 @@ Plugins which have not yet been categorized by the community.
 - [[braincache|braincache]]: Create flashcards from obsidian notes
 - [[obsidian-epub-plugin|ePub Reader]]: This is an ePub reader plugin for Obsidian. Can open document with ".epub" file extension.
 - [[floating-toc|floating toc]]: This is a floating Toc plugin that  hovers a table of content  containing a header level on the notes sidebar.
+- [[ibook|ibook]]: plugin for apple ibook.
 - [[obsidian-echarts|obsidian echarts]]: obsidian echarts
 - [[qmd-as-md-obsidian|qmd as md]]: This plugin provides an initial support for viewing files with .qmd extension. QMD files contain a combination of markdown and executable code cells and are a format supported by Quarto open source publishing system.
 - [[ava|🧙 AVA]]: AI assistant for Obsidian
