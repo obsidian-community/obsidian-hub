@@ -103,6 +103,7 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2023-02-18 Publish updates & highlights syncing|2023-02-18 Publish updates & highlights syncing]]
 -  [[01 - Community/Obsidian Roundup/2023-02-25 ems of the Year & RSS still isn't dead|2023-02-25 ems of the Year & RSS still isn't dead]]
 -  [[01 - Community/Obsidian Roundup/2023-03-04 New APIs, + Curated Lists for Vim Users & Interoperability Fans|2023-03-04 New APIs, + Curated Lists for Vim Users & Interoperability Fans]]
+-  [[01 - Community/Obsidian Roundup/2023-03-11 Bookkeeping, Eisenhower Matrixes, & Pretty Canvas Cards|2023-03-11 Bookkeeping, Eisenhower Matrixes, & Pretty Canvas Cards]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
