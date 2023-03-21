@@ -165,13 +165,15 @@ def process_authors(themes: ThemeList,
                     verbose: bool = False) -> None:
     print("-----\nProcessing authors....\n")
     template = get_template("author")
+    authors_dir = os.path.dirname(get_output_dir(template, 'nonsense'))
+    collision_preventer = FileNameCaseCollisionsPreventer(authors_dir)
     all_authors = collate_authors(themes, plugins)
 
     print("\nCreating author notes....\n")
     file_groups: FileGroups = dict()
     for user, author_info in all_authors.items():
         group = write_template_file(
-            template, user, overwrite=overwrite, verbose=verbose, **author_info
+            template, collision_preventer.get_name(user), overwrite=overwrite, verbose=verbose, **author_info
         )
         add_file_group(file_groups, group, user)
 
