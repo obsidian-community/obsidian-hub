@@ -2,7 +2,6 @@
 import os
 import sys
 import argparse
-from pathlib import Path
 from typing import Sequence
 
 from authors import AllAuthors
@@ -21,6 +20,7 @@ from utils import (
     add_file_group,
     get_output_path,
     get_output_dir,
+    FileNameCaseCollisionsPreventer,
 )
 from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 
@@ -57,29 +57,6 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
     print_file_summary(file_groups)
 
     return valid_plugins
-
-
-class FileNameCaseCollisionsPreventer:
-    def __init__(self, directory: str) -> None:
-        self.file_case_lookup = dict()
-        for filename in os.listdir(directory):
-            base_name = Path(filename).stem
-            self.file_case_lookup[base_name.lower()] = base_name
-
-    def get_name(self, current_name: str) -> str:
-        """
-        Prefer the existing capitalisation of any existing filename,
-        to prevent case-conflicts.
-
-        :param current_name: 
-        :return: 
-        """
-        if current_name.lower() in self.file_case_lookup:
-            existing_case = self.file_case_lookup[current_name.lower()]
-            if existing_case != current_name:
-                print(f'Overriding filename {current_name} to {existing_case}')
-                current_name = existing_case
-        return current_name
 
 
 def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:

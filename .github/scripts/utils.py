@@ -2,6 +2,7 @@ import os
 import json
 import glob
 import typing
+from pathlib import Path
 from re import sub, search
 from typing import Dict, List, Union, Any
 
@@ -302,3 +303,24 @@ def write_file(absolute_path: str, replacement: str) -> None:
         f.write(replacement)
 
 
+class FileNameCaseCollisionsPreventer:
+    def __init__(self, directory: str) -> None:
+        self.file_case_lookup = dict()
+        for filename in os.listdir(directory):
+            base_name = Path(filename).stem
+            self.file_case_lookup[base_name.lower()] = base_name
+
+    def get_name(self, current_name: str) -> str:
+        """
+        Prefer the existing capitalisation of any existing filename,
+        to prevent case-conflicts.
+
+        :param current_name: 
+        :return: 
+        """
+        if current_name.lower() in self.file_case_lookup:
+            existing_case = self.file_case_lookup[current_name.lower()]
+            if existing_case != current_name:
+                print(f'Overriding filename {current_name} to {existing_case}')
+                current_name = existing_case
+        return current_name
