@@ -19,7 +19,7 @@ from utils import (
     print_progress_bar,
     write_template_file,
     add_file_group,
-    get_output_dir,
+    get_output_path,
 )
 from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 
@@ -91,7 +91,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
-    themes_dir = os.path.dirname(get_output_dir(Theme.template, 'nonsense'))
+    themes_dir = os.path.dirname(get_output_path(Theme.template, 'nonsense'))
     collision_preventer = FileNameCaseCollisionsPreventer(themes_dir)
 
     for index, theme in enumerate(theme_list):
@@ -154,7 +154,7 @@ def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = Tr
     )
 
     # Alphabetize the plugin list
-    file_path = get_output_dir(template, UNCATEGORIZED)
+    file_path = get_output_path(template, UNCATEGORIZED)
     absolute_file_path = os.path.abspath(file_path)
     sort_links_under_heading(absolute_file_path)
 
@@ -165,7 +165,7 @@ def process_authors(themes: ThemeList,
                     verbose: bool = False) -> None:
     print("-----\nProcessing authors....\n")
     template = get_template("author")
-    authors_dir = os.path.dirname(get_output_dir(template, 'nonsense'))
+    authors_dir = os.path.dirname(get_output_path(template, 'nonsense'))
     collision_preventer = FileNameCaseCollisionsPreventer(authors_dir)
     all_authors = collate_authors(themes, plugins)
 

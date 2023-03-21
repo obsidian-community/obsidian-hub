@@ -11,7 +11,7 @@ from obsidian_releases import get_community_plugins, THEMES_JSON_FILE
 from core_plugins import CORE_PLUGINS
 from utils import (
     THEME_CSS_FILE,
-    get_output_dir,
+    get_output_path,
     get_theme_css,
     FileGroups,
     add_file_group, get_template, get_json_from_github
@@ -245,7 +245,7 @@ class ThemeDownloadCount:
         Read the theme file from disk, and return the previously-saved download count
         :return: The saved theme download count, or None if this could not be obtained
         """
-        file_name = get_output_dir(template, current_name)
+        file_name = get_output_path(template, current_name)
         if not os.path.exists(file_name):
             # This is a new theme, so we don't yet have a previous download count:
             return None
@@ -261,7 +261,7 @@ class ThemeDownloadCount:
 
     @staticmethod
     def set_theme_download_count(template: Template, current_name: str, new_download_count: int, verbose: bool) -> None:
-        file_name = get_output_dir(template, current_name)
+        file_name = get_output_path(template, current_name)
 
         if not os.path.exists(file_name):
             if verbose:

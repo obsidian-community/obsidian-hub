@@ -63,7 +63,7 @@ def get_template_from_directory(directory: str, template_name_with_extensions: s
     return env.get_template(template_name_with_extensions)
 
 
-def get_output_dir(template: Template, file_name: str) -> str:
+def get_output_path(template: Template, file_name: str) -> str:
     template_name, _, _ = template.name.split(".")
     return os.path.join(
         "../..",
@@ -77,7 +77,7 @@ def write_template_file(template: Template,
                         overwrite: bool = False,
                         verbose: bool = False,
                         **kwargs: Any) -> str:
-    file_path = get_output_dir(template, file_name)
+    file_path = get_output_path(template, file_name)
     absolute_file_path = os.path.abspath(file_path)
 
     file_content = render_template_for_file(template, absolute_file_path, **kwargs)
