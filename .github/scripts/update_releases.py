@@ -56,6 +56,29 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
     return valid_plugins
 
 
+class FileNameCaseCollisionsPreventer:
+    def __init__(self, directory: str) -> None:
+        self.file_case_lookup = dict()
+        for filename in os.listdir(directory):
+            base_name = Path(filename).stem
+            self.file_case_lookup[base_name.lower()] = base_name
+
+    def get_name(self, current_name: str) -> str:
+        """
+        Prefer the existing capitalisation of any existing filename,
+        to prevent case-conflicts.
+
+        :param current_name: 
+        :return: 
+        """
+        if current_name.lower() in self.file_case_lookup:
+            existing_case = self.file_case_lookup[current_name.lower()]
+            if existing_case != current_name:
+                print(f'Overriding filename {current_name} to {existing_case}')
+                current_name = existing_case
+        return current_name
+
+
 def process_released_themes(overwrite: bool = False, verbose: bool = False) -> ThemeList:
     print("-----\nProcessing themes....\n")
     theme_list = get_community_themes()
@@ -69,10 +92,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
     themes_dir = os.path.dirname(get_output_dir(Theme.template, 'nonsense'))
-    file_case_lookup = dict()
-    for filename in os.listdir(themes_dir):
-        base_name = Path(filename).stem
-        file_case_lookup[base_name.lower()] = base_name
+    collision_preventer = FileNameCaseCollisionsPreventer(themes_dir)
 
     for index, theme in enumerate(theme_list):
         current_name, valid = theme.collect_data_for_theme(theme_downloads, file_groups)
@@ -81,11 +101,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
         # Prefer the existing capitalisation of any existing filename,
         # to prevent case-conflicts.
-        if current_name.lower() in file_case_lookup:
-            existing_case = file_case_lookup[current_name.lower()]
-            if existing_case != current_name:
-                print(f'Overriding filename {current_name} to {existing_case}')
-                current_name = existing_case
+        current_name = collision_preventer.get_name(current_name)
 
         group = write_template_file(
             Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data()
