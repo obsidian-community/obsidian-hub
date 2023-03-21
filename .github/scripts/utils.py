@@ -64,16 +64,18 @@ def get_template_from_directory(directory: str, template_name_with_extensions: s
 
 
 def get_output_path(template: Template, file_name: str) -> str:
-    template_name, _, _ = template.name.split(".")
     return os.path.join(
-        "../..",
-        OUTPUT_DIR.get(template_name, "08 - Seedbox"),
+        get_output_dir(template),
         "{}.md".format(file_name),
     )
 
 
 def get_output_dir(template: Template) -> str:
-    return os.path.dirname(get_output_path(template, 'nonsense'))
+    template_name, _, _ = template.name.split(".")
+    return os.path.join(
+        "../..",
+        OUTPUT_DIR.get(template_name, "08 - Seedbox"),
+    )
 
 
 def write_template_file(template: Template,
