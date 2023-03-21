@@ -20,6 +20,7 @@ from utils import (
     write_template_file,
     add_file_group,
     get_output_path,
+    get_output_dir,
 )
 from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 
@@ -91,7 +92,7 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
-    themes_dir = os.path.dirname(get_output_path(Theme.template, 'nonsense'))
+    themes_dir = get_output_dir(Theme.template)
     collision_preventer = FileNameCaseCollisionsPreventer(themes_dir)
 
     for index, theme in enumerate(theme_list):
@@ -165,7 +166,7 @@ def process_authors(themes: ThemeList,
                     verbose: bool = False) -> None:
     print("-----\nProcessing authors....\n")
     template = get_template("author")
-    authors_dir = os.path.dirname(get_output_path(template, 'nonsense'))
+    authors_dir = get_output_dir(template)
     collision_preventer = FileNameCaseCollisionsPreventer(authors_dir)
     all_authors = collate_authors(themes, plugins)
 

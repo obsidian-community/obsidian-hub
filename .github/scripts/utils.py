@@ -72,6 +72,10 @@ def get_output_path(template: Template, file_name: str) -> str:
     )
 
 
+def get_output_dir(template: Template) -> str:
+    return os.path.dirname(get_output_path(template, 'nonsense'))
+
+
 def write_template_file(template: Template,
                         file_name: str,
                         overwrite: bool = False,
