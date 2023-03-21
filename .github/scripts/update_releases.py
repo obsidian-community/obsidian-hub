@@ -28,6 +28,8 @@ from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
+    plugins_dir = get_output_dir(template)
+    collision_preventer = FileNameCaseCollisionsPreventer(plugins_dir)
     plugin_list: PluginList = get_community_plugins()
 
     valid_plugins: PluginList = list()
@@ -43,7 +45,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
             continue
 
         group = write_template_file(
-            template, plugin.id(), overwrite=overwrite, verbose=verbose, **plugin.data()
+            template, collision_preventer.get_name(plugin.id()), overwrite=overwrite, verbose=verbose, **plugin.data()
         )
         valid_plugins.append(plugin)
 
