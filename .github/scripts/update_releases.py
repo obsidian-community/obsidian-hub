@@ -18,7 +18,9 @@ from utils import (
     print_progress_bar,
     write_template_file,
     add_file_group,
+    get_output_path,
     get_output_dir,
+    FileNameCaseCollisionsPreventer,
 )
 from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 
@@ -26,6 +28,8 @@ from themes import ThemeList, Theme, ThemeDownloadCount, get_community_themes
 def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> PluginList:
     print("-----\nProcessing plugins....\n")
     template = get_template("plugin")
+    plugins_dir = get_output_dir(template)
+    collision_preventer = FileNameCaseCollisionsPreventer(plugins_dir)
     plugin_list: PluginList = get_community_plugins()
 
     valid_plugins: PluginList = list()
@@ -41,7 +45,7 @@ def process_released_plugins(overwrite: bool = False, verbose: bool = False) -> 
             continue
 
         group = write_template_file(
-            template, plugin.id(), overwrite=overwrite, verbose=verbose, **plugin.data()
+            template, collision_preventer.get_name(plugin.id()), overwrite=overwrite, verbose=verbose, **plugin.data()
         )
         valid_plugins.append(plugin)
 
@@ -67,10 +71,17 @@ def process_released_themes(overwrite: bool = False, verbose: bool = False) -> T
 
     theme_downloads = ThemeDownloadCount.get_theme_downloads()
 
+    themes_dir = get_output_dir(Theme.template)
+    collision_preventer = FileNameCaseCollisionsPreventer(themes_dir)
+
     for index, theme in enumerate(theme_list):
         current_name, valid = theme.collect_data_for_theme(theme_downloads, file_groups)
         if not valid:
             continue
+
+        # Prefer the existing capitalisation of any existing filename,
+        # to prevent case-conflicts.
+        current_name = collision_preventer.get_name(current_name)
 
         group = write_template_file(
             Theme.template, current_name, overwrite=overwrite, verbose=verbose, **theme.data()
@@ -123,7 +134,7 @@ def update_uncategorized_plugins(valid_plugins: PluginList, overwrite: bool = Tr
     )
 
     # Alphabetize the plugin list
-    file_path = get_output_dir(template, UNCATEGORIZED)
+    file_path = get_output_path(template, UNCATEGORIZED)
     absolute_file_path = os.path.abspath(file_path)
     sort_links_under_heading(absolute_file_path)
 
@@ -134,13 +145,15 @@ def process_authors(themes: ThemeList,
                     verbose: bool = False) -> None:
     print("-----\nProcessing authors....\n")
     template = get_template("author")
+    authors_dir = get_output_dir(template)
+    collision_preventer = FileNameCaseCollisionsPreventer(authors_dir)
     all_authors = collate_authors(themes, plugins)
 
     print("\nCreating author notes....\n")
     file_groups: FileGroups = dict()
     for user, author_info in all_authors.items():
         group = write_template_file(
-            template, user, overwrite=overwrite, verbose=verbose, **author_info
+            template, collision_preventer.get_name(user), overwrite=overwrite, verbose=verbose, **author_info
         )
         add_file_group(file_groups, group, user)
 

@@ -2,6 +2,7 @@ import os
 import json
 import glob
 import typing
+from pathlib import Path
 from re import sub, search
 from typing import Dict, List, Union, Any
 
@@ -63,12 +64,18 @@ def get_template_from_directory(directory: str, template_name_with_extensions: s
     return env.get_template(template_name_with_extensions)
 
 
-def get_output_dir(template: Template, file_name: str) -> str:
+def get_output_path(template: Template, file_name: str) -> str:
+    return os.path.join(
+        get_output_dir(template),
+        "{}.md".format(file_name),
+    )
+
+
+def get_output_dir(template: Template) -> str:
     template_name, _, _ = template.name.split(".")
     return os.path.join(
         "../..",
         OUTPUT_DIR.get(template_name, "08 - Seedbox"),
-        "{}.md".format(file_name),
     )
 
 
@@ -77,7 +84,7 @@ def write_template_file(template: Template,
                         overwrite: bool = False,
                         verbose: bool = False,
                         **kwargs: Any) -> str:
-    file_path = get_output_dir(template, file_name)
+    file_path = get_output_path(template, file_name)
     absolute_file_path = os.path.abspath(file_path)
 
     file_content = render_template_for_file(template, absolute_file_path, **kwargs)
@@ -296,3 +303,24 @@ def write_file(absolute_path: str, replacement: str) -> None:
         f.write(replacement)
 
 
+class FileNameCaseCollisionsPreventer:
+    def __init__(self, directory: str) -> None:
+        self.file_case_lookup = dict()
+        for filename in os.listdir(directory):
+            base_name = Path(filename).stem
+            self.file_case_lookup[base_name.lower()] = base_name
+
+    def get_name(self, current_name: str) -> str:
+        """
+        Prefer the existing capitalisation of any existing filename,
+        to prevent case-conflicts.
+
+        :param current_name: 
+        :return: 
+        """
+        if current_name.lower() in self.file_case_lookup:
+            existing_case = self.file_case_lookup[current_name.lower()]
+            if existing_case != current_name:
+                print(f'Overriding filename {current_name} to {existing_case}')
+                current_name = existing_case
+        return current_name
