@@ -120,7 +120,7 @@ npm install -g stylelint-declaration-block-no-ignored-properties
 Plugins and their rules *both* need to be activated in your `.stylelintrc.json`. The details on how to do that can be found in the READMEs of the respective plugin.
 
 ### Example Configuration
-You can take a look at the [stylelint configuration of the theme *Shimmering Focus*](https://github.com/chrisgrieser/shimmering-focus/blob/main/.stylelintrc.json) as an example of a very extensive configuration.
+You can take a look at the [stylelint configuration of the theme *Shimmering Focus*](https://github.com/chrisgrieser/shimmering-focus/blob/main/.stylelintrc.yml) as an example of a very extensive configuration.
 
 [^1]: There is also a [[obsidian-linter|Linter specifically for Obsidian]].
 [^2]: You can find out which rules can be auto-fixed by checking the [documentation of the specific rules](https://stylelint.io/user-guide/rules/list/#possible-errors).
