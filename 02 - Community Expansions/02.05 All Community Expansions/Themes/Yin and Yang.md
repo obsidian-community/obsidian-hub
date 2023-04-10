@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme/raw/main/assets/screenshot.png)
+![screenshot](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme/raw/HEAD/assets/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

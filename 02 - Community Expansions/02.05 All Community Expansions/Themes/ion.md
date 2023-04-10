@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/zamsyt/obsidian-ion/raw/master/thumbnail.png)
+![screenshot](https://github.com/zamsyt/obsidian-ion/raw/HEAD/thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

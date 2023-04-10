@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/dogwaddle/lizardmen-zettelkasten/raw/main/screenshot.png)
+![screenshot](https://github.com/dogwaddle/lizardmen-zettelkasten/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

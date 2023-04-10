@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Braweria/Spectrum/raw/main/SpectrumPreview.png)
+![screenshot](https://github.com/Braweria/Spectrum/raw/HEAD/SpectrumPreview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

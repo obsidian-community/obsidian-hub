@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Nilahn/pine_forest_berry/raw/main/Screenshot PFB 1.png)
+![screenshot](https://github.com/Nilahn/pine_forest_berry/raw/HEAD/Screenshot PFB 1.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

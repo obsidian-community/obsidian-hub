@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/operator-axel/obsdian_theme--Carpe_Noctem/raw/main/screenshot.png)
+![screenshot](https://github.com/operator-axel/obsdian_theme--Carpe_Noctem/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

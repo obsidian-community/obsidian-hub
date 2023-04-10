@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/lnbgc/obsidian-jotter/raw/master/jotter.png)
+![screenshot](https://github.com/lnbgc/obsidian-jotter/raw/HEAD/jotter.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

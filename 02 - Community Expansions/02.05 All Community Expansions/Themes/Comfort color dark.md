@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/obsidian-ezs/obsidian-comfort-color-dark/raw/master/screencap.png)
+![screenshot](https://github.com/obsidian-ezs/obsidian-comfort-color-dark/raw/HEAD/screencap.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

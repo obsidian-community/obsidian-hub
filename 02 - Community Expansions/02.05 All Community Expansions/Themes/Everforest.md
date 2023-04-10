@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/mrglitchbyte/obsidian_everforest/raw/main/dark_v2.png)
+![screenshot](https://github.com/mrglitchbyte/obsidian_everforest/raw/HEAD/dark_v2.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/clbn/dracula-gemini/raw/master/images/cover-thumbnail.png)
+![screenshot](https://github.com/clbn/dracula-gemini/raw/HEAD/images/cover-thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

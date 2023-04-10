@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/gbraad/obsidian-tomorrow-night-bright-theme/raw/master/images/example.png)
+![screenshot](https://github.com/gbraad/obsidian-tomorrow-night-bright-theme/raw/HEAD/images/example.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

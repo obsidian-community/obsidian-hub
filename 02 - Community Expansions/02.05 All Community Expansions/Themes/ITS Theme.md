@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/main/ITS.png)
+![screenshot](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/HEAD/ITS.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

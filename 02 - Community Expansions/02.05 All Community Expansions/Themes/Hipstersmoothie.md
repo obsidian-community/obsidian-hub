@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/hipstersmoothie/hipstersmoothie-obsidian-theme/raw/main/hipstersmoothie-obsidian-theme.png)
+![screenshot](https://github.com/hipstersmoothie/hipstersmoothie-obsidian-theme/raw/HEAD/hipstersmoothie-obsidian-theme.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

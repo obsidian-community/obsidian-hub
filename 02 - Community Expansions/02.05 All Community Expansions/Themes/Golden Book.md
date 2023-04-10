@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/kinmury/Golden-Book/raw/main/Gallery/Gallery1.png)
+![screenshot](https://github.com/kinmury/Golden-Book/raw/HEAD/Gallery/Gallery1.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

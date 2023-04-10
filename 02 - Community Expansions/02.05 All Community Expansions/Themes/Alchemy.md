@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/kinmury/Alchemy/raw/main/Showcase/ShowcaseF.png)
+![screenshot](https://github.com/kinmury/Alchemy/raw/HEAD/Showcase/ShowcaseF.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

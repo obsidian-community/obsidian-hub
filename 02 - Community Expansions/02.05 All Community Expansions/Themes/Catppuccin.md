@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/mbeckrich/obsidian/raw/main/assets/screenshot.png)
+![screenshot](https://github.com/mbeckrich/obsidian/raw/HEAD/assets/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

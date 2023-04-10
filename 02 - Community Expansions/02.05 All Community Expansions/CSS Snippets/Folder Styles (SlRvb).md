@@ -18,7 +18,7 @@ publish: true
 %% Paste your template below %%
 
 ---
-[**Grab CSS Snippet Here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Folder%20Styles.css)
+[**Grab CSS Snippet Here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/HEAD/S%20-%20Folder%20Styles.css)
 
 %% Add a screenshot of the effect this snippet produces with edit and preview mode visible %%
 

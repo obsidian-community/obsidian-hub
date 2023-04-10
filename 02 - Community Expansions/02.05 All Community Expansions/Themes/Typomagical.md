@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/hungsu/typomagical-obsidian/raw/main/Typomagical-split.jpg)
+![screenshot](https://github.com/hungsu/typomagical-obsidian/raw/HEAD/Typomagical-split.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

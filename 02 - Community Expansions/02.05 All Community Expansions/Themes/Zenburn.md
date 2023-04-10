@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/danyim/obsidian-zenburn/raw/main/screen.png)
+![screenshot](https://github.com/danyim/obsidian-zenburn/raw/HEAD/screen.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

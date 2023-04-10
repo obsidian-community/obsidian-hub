@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/bcdavasconcelos/Obsidian-Panic_Mode/raw/master/panic.png)
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-Panic_Mode/raw/HEAD/panic.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

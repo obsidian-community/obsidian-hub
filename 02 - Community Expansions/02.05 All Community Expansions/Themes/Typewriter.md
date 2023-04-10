@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/crashmoney/obsidian-typewriter/raw/main/cover.jpg)
+![screenshot](https://github.com/crashmoney/obsidian-typewriter/raw/HEAD/cover.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

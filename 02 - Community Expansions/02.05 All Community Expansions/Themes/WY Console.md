@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Satchelmouth/Obsidian-Theme-WYConsole/raw/main/WYConsole_Store_Screenshot.png)
+![screenshot](https://github.com/Satchelmouth/Obsidian-Theme-WYConsole/raw/HEAD/WYConsole_Store_Screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

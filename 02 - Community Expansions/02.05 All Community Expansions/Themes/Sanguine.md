@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/Satchelmouth/Obsidian-Theme-Sanguine/raw/master/Sanguine_Store_Screenshot.png)
+![screenshot](https://github.com/Satchelmouth/Obsidian-Theme-Sanguine/raw/HEAD/Sanguine_Store_Screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

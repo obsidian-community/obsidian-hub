@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/callumhackett/obsidian_polka_theme/raw/main/polka.png)
+![screenshot](https://github.com/callumhackett/obsidian_polka_theme/raw/HEAD/polka.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

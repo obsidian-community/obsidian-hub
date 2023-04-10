@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/7368697661/Ultra-Lobster/raw/main/preview_thumb.png)
+![screenshot](https://github.com/7368697661/Ultra-Lobster/raw/HEAD/preview_thumb.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

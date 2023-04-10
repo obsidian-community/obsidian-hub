@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/AnubisNekhet/AnuPpuccin/raw/master/preview.png)
+![screenshot](https://github.com/AnubisNekhet/AnuPpuccin/raw/HEAD/preview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
@@ -46,7 +46,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Dark theme flavor: Select your preferred dark mode flavor
 - Force catppuccin accents: Forces catppuccin accents to be utilised instead of default obsidian accent
 - Theme accent: Select your preferred accent
-- **Extended colorschemes**: Download and use the extended colorschemes snippet if you haven't already! (https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/extended-colorschemes.css)
+- **Extended colorschemes**: Download and use the extended colorschemes snippet if you haven't already! (https://github.com/AnubisNekhet/AnuPpuccin/blob/HEAD/snippets/extended-colorschemes.css)
 
 **Components**: 
 - **Colorful Frame**: 
@@ -152,7 +152,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Color transition toggle (WIP): Adds a transition when switching palettes, looks really neat :)
 - **Plugin/Snippet integrations**: 
     - **Style settings**: 
-    - **Minimal Cards**: The snippet is available at: https://github.com/kepano/obsidian-minimal/blob/master/src/scss/features/cards.scss
+    - **Minimal Cards**: The snippet is available at: https://github.com/kepano/obsidian-minimal/blob/HEAD/src/scss/features/cards.scss
         - Card minimum width
         - Card maximum width: Default fills the available width, accepts valid CSS units
         - Card minimum width on mobile

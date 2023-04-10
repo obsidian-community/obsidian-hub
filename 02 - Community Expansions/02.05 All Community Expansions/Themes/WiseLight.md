@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/learnerfvs/WiseLight/raw/main/WiseLight Cover.png)
+![screenshot](https://github.com/learnerfvs/WiseLight/raw/HEAD/WiseLight Cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

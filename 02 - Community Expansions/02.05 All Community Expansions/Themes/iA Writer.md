@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/mrowa44/obsidian-ia-writer/raw/main/promo_screenshot.png)
+![screenshot](https://github.com/mrowa44/obsidian-ia-writer/raw/HEAD/promo_screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

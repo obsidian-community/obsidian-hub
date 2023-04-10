@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/doctorfree/Obsidian-Doctorfree/raw/main/screenshots/headings.png)
+![screenshot](https://github.com/doctorfree/Obsidian-Doctorfree/raw/HEAD/screenshots/headings.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

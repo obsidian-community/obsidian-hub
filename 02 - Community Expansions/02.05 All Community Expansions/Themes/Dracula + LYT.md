@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/xRyul/ObsidianMD_Dracula_x_LYT/raw/main/Overview.jpg)
+![screenshot](https://github.com/xRyul/ObsidianMD_Dracula_x_LYT/raw/HEAD/Overview.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

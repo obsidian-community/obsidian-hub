@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Bluemoondragon07/Wikipedia-Theme/raw/main/example.png)
+![screenshot](https://github.com/Bluemoondragon07/Wikipedia-Theme/raw/HEAD/example.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

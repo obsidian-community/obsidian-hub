@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/SMUsamaShah/Obsidian-Win98-Edition/raw/main/screenshots/main.png)
+![screenshot](https://github.com/SMUsamaShah/Obsidian-Win98-Edition/raw/HEAD/screenshots/main.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

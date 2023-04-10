@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/sparklau/comfort-smooth/raw/master/comfort-smooth.png)
+![screenshot](https://github.com/sparklau/comfort-smooth/raw/HEAD/comfort-smooth.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

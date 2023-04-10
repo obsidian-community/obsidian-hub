@@ -21,7 +21,7 @@ Folder relation allows to :
 You can adjust color and line with [[obsidian-style-settings|Style Settings]]. 
 
 - [Folder Relations [Relation line & background color]](https://raw.githubusercontent.com/Mara-Li/Obsidian-Snippet-collection/main/folder-color_bg.css)
-- [Folder Color [Font color]](https://github.com/Mara-Li/Obsidian-Snippet-collection/blob/main/folder-color_font.css)
+- [Folder Color [Font color]](https://github.com/Mara-Li/Obsidian-Snippet-collection/blob/HEAD/folder-color_font.css)
 
 ![[Mara_FolderColor.png]]![[Mara_FolderColor2.png]]
 
@@ -29,7 +29,7 @@ You can adjust color and line with [[obsidian-style-settings|Style Settings]].
 
 <u>Credit</u>: 
 - [Lithou](https://forum.obsidian.md/t/adding-color-to-obsidian-a-rainbow-of-possibility/12805/11)
-- [Javalent](https://github.com/valentine195/Obsidian-Vault/blob/master/.obsidian/snippets/colors.folders.css)
+- [Javalent](https://github.com/valentine195/Obsidian-Vault/blob/HEAD/.obsidian/snippets/colors.folders.css)
 
 ```css
 /* 

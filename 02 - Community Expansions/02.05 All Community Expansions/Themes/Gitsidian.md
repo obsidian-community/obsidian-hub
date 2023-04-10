@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/ishgunacar/gitsidian/raw/master/showcase.png)
+![screenshot](https://github.com/ishgunacar/gitsidian/raw/HEAD/showcase.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/bcdavasconcelos/Obsidian-GDCT/raw/master/gdct.png)
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-GDCT/raw/HEAD/gdct.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

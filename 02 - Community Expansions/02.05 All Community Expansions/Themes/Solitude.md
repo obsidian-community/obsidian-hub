@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/MajorEnkidu/solitude-obsidian-theme/raw/master/promo_screenshot.png)
+![screenshot](https://github.com/MajorEnkidu/solitude-obsidian-theme/raw/HEAD/promo_screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

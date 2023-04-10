@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/minheeyoon/Dawn/raw/master/assets/00-screenshot-small.png)
+![screenshot](https://github.com/minheeyoon/Dawn/raw/HEAD/assets/00-screenshot-small.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

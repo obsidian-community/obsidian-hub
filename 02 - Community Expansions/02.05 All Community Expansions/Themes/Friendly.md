@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/firinael/obsidian-friendly-theme/raw/main/screenshot.png)
+![screenshot](https://github.com/firinael/obsidian-friendly-theme/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

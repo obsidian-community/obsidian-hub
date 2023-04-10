@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/learnerfvs/Sparkling-Wisdom-obsidian-theme-/raw/master/sparkling wisdom.png)
+![screenshot](https://github.com/learnerfvs/Sparkling-Wisdom-obsidian-theme-/raw/HEAD/sparkling wisdom.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

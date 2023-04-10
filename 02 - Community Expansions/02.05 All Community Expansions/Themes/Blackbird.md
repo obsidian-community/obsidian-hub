@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/vanadium23/obsidian-blackbird-theme/raw/master/images/example.png)
+![screenshot](https://github.com/vanadium23/obsidian-blackbird-theme/raw/HEAD/images/example.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

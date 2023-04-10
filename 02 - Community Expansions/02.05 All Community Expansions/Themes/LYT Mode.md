@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/nickmilo/LYT-Mode/raw/main/lyt-mode-graphic-1.jpg)
+![screenshot](https://github.com/nickmilo/LYT-Mode/raw/HEAD/lyt-mode-graphic-1.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

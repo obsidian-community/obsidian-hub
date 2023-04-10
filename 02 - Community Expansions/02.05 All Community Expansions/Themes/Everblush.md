@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/Everblush/Obsidian/raw/main/preview.png)
+![screenshot](https://github.com/Everblush/Obsidian/raw/HEAD/preview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

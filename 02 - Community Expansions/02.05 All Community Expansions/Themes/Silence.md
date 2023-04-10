@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/luke-rmaki/silence-obsidian/raw/master/Screenshot.png)
+![screenshot](https://github.com/luke-rmaki/silence-obsidian/raw/HEAD/Screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

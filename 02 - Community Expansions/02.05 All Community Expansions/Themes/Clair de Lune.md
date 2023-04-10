@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/jamiebrynes7/clair-de-lune-obsidian-theme/raw/master/assets/screenshot.png)
+![screenshot](https://github.com/jamiebrynes7/clair-de-lune-obsidian-theme/raw/HEAD/assets/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

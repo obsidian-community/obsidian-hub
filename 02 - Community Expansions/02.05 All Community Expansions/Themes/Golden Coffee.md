@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/kinmury/GoldenCoffeeTheme/raw/main/Screenshots/Showcase.png)
+![screenshot](https://github.com/kinmury/GoldenCoffeeTheme/raw/HEAD/Screenshots/Showcase.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

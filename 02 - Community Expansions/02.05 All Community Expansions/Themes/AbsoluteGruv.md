@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/kkYrusobad/AbsoluteGruv/raw/main/obsidian.png)
+![screenshot](https://github.com/kkYrusobad/AbsoluteGruv/raw/HEAD/obsidian.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

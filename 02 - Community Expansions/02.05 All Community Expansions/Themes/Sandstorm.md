@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/jaysan0/obsidian-sandstorm/raw/main/screenshot.png)
+![screenshot](https://github.com/jaysan0/obsidian-sandstorm/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

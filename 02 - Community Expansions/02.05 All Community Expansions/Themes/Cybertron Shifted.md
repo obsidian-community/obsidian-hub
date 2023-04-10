@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/JorgEdmundo/cybertron-shifted/raw/master/CybertronShifted.png)
+![screenshot](https://github.com/JorgEdmundo/cybertron-shifted/raw/HEAD/CybertronShifted.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

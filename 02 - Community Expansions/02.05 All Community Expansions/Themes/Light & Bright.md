@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Bluemoondragon07/obsidian-light-and-bright-theme/raw/main/light-and-bright-cover.png)
+![screenshot](https://github.com/Bluemoondragon07/obsidian-light-and-bright-theme/raw/HEAD/light-and-bright-cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

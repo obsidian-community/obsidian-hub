@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/santiyounger/Wasp-Obsidian-Theme/raw/main/img/wasp-dark.png)
+![screenshot](https://github.com/santiyounger/Wasp-Obsidian-Theme/raw/HEAD/img/wasp-dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

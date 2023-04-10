@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/ThisTheThe/MicroMike/raw/master/screenshotThumb.png)
+![screenshot](https://github.com/ThisTheThe/MicroMike/raw/HEAD/screenshotThumb.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

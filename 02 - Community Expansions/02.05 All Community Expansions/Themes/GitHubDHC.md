@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/ScottKirvan/GitHubDHC/raw/master/imgs/thumbnail.png)
+![screenshot](https://github.com/ScottKirvan/GitHubDHC/raw/HEAD/imgs/thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

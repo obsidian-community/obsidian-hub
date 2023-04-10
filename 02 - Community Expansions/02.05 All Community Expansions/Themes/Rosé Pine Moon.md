@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/mimishahzad/rose-pine-moon-obsidian/raw/main/assets/template.png)
+![screenshot](https://github.com/mimishahzad/rose-pine-moon-obsidian/raw/HEAD/assets/template.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

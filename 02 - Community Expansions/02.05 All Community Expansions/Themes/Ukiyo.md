@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/kinmury/obsidian-ukiyo/raw/main/Showcase.png)
+![screenshot](https://github.com/kinmury/obsidian-ukiyo/raw/HEAD/Showcase.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

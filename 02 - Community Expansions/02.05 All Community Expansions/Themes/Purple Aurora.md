@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/AndreasStandar/Obsidian-Theme---Purple-Aurora/raw/main/1 Purple Aurora screenshot.png)
+![screenshot](https://github.com/AndreasStandar/Obsidian-Theme---Purple-Aurora/raw/HEAD/1 Purple Aurora screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

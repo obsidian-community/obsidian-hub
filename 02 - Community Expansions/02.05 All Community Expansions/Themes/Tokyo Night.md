@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/RuslanGagushin/Tokyo-Night-Obsidian-Theme/raw/main/screenshot.png)
+![screenshot](https://github.com/RuslanGagushin/Tokyo-Night-Obsidian-Theme/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

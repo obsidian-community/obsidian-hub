@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/maldonacho/obsidian-encore-theme/raw/main/images/promo-image.png)
+![screenshot](https://github.com/maldonacho/obsidian-encore-theme/raw/HEAD/images/promo-image.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

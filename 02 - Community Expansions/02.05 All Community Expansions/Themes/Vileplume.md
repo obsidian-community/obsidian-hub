@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/hungsu/vileplume-obsidian/raw/main/Vileplume.png)
+![screenshot](https://github.com/hungsu/vileplume-obsidian/raw/HEAD/Vileplume.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

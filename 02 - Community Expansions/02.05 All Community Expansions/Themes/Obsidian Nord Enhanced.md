@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/aidanglickman/obsidian-nord-enhanced/raw/master/_media/scrot.png)
+![screenshot](https://github.com/aidanglickman/obsidian-nord-enhanced/raw/HEAD/_media/scrot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

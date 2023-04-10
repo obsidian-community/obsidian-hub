@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/faroukx/Obsidian-shiba-inu-theme/raw/master/shibainubackgroundshowcase.png)
+![screenshot](https://github.com/faroukx/Obsidian-shiba-inu-theme/raw/HEAD/shibainubackgroundshowcase.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

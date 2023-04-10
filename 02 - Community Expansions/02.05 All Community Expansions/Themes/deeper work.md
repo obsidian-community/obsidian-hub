@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/lucas-fern/obsidian-deeper-work-theme/raw/master/thumbnail.png)
+![screenshot](https://github.com/lucas-fern/obsidian-deeper-work-theme/raw/HEAD/thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

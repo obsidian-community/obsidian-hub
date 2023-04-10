@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/hush-hush/obsidian_wombat/raw/main/main_thumbnail.png)
+![screenshot](https://github.com/hush-hush/obsidian_wombat/raw/HEAD/main_thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
