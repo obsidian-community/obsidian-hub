@@ -105,6 +105,8 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2023-03-04 New APIs, + Curated Lists for Vim Users & Interoperability Fans|2023-03-04 New APIs, + Curated Lists for Vim Users & Interoperability Fans]]
 -  [[01 - Community/Obsidian Roundup/2023-03-11 Bookkeeping, Eisenhower Matrixes, & Pretty Canvas Cards|2023-03-11 Bookkeeping, Eisenhower Matrixes, & Pretty Canvas Cards]]
 -  [[01 - Community/Obsidian Roundup/2023-03-18 Plugins for writers & 7 new LLM-based additions.|2023-03-18 Plugins for writers & 7 new LLM-based additions.]]
+-  [[01 - Community/Obsidian Roundup/2023-03-25 Improved Community Updates & Task Searching|2023-03-25 Improved Community Updates & Task Searching]]
+-  [[01 - Community/Obsidian Roundup/2023-04-01 Better Bookmarks, Word Counts, & Borders|2023-04-01 Better Bookmarks, Word Counts, & Borders]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
