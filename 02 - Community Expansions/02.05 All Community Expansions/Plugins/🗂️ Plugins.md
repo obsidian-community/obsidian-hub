@@ -154,6 +154,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/flashcards-obsidian|flashcards-obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/fleeting-notes-obsidian|fleeting-notes-obsidian]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/float-search|float-search]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/floating-highlights|floating-highlights]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/floating-toc|floating-toc]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/focus-active-sentence|focus-active-sentence]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/folder-note-core|folder-note-core]]

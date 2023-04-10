@@ -361,6 +361,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/kaiiiz|kaiiiz]]
 -  [[01 - Community/People/kaizau|kaizau]]
 -  [[01 - Community/People/kalbetredev|kalbetredev]]
+-  [[01 - Community/People/KarthikRaju391|KarthikRaju391]]
 -  [[01 - Community/People/kartik-karz|kartik-karz]]
 -  [[01 - Community/People/kbravh|kbravh]]
 -  [[01 - Community/People/KeithLerner|KeithLerner]]
