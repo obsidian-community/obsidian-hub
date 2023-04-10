@@ -13,7 +13,7 @@ Initial:
 Frame #1:
 {
     "author": "kepano",
-    "branch": "master",
+    "branch": "HEAD",
     "download_count": 48049,
     "modes": "[[Dark-mode themes|dark]], [[Light-mode themes|light]]",
     "name": "Minimal",

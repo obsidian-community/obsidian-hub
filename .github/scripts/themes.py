@@ -52,7 +52,7 @@ class Theme:
         return str(self.__data.get("repo"))
 
     def branch(self) -> str:
-        return str(self.__data.get("branch", "master"))
+        return str(self.__data.get("branch", "HEAD"))
 
     def modes(self) -> List[str]:
         return typing.cast(typing.List[str], self.__data.get("modes"))
