@@ -182,6 +182,7 @@ Plugins which have not yet been categorized by the community.
 - [[file-publisher|File Publisher]]: Publishes a file to a given api.
 - [[obsidian-filename-emoji-remover|Filename Emoji Remover]]: This is a simple plugin to automatically remove emojis from filenames. Main purpose is to get rid of Dropbox sync issues for Readwise imported content.
 - [[fleeting-notes-obsidian|Fleeting Notes Sync]]: This is a plugin to sync Fleeting Notes with Obsidian
+- [[floating-highlights|Floating Highlights]]: Enhanced highlights for Obsidian
 - [[float-search|Floating Search]]: You can use search view in modal now.
 - [[focus-active-sentence|Focus Active Sentence]]: Highlight the sentence the cursor is currently resting on.
 - [[obsidian-focus-plugin|Focus and Highlight]]: A plugin for Obsidian (https://obsidian.md) that will highlight and focus on the currently selected heading
@@ -357,7 +358,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-omnivore|Omnivore]]: This is an Omnivore plugin for Obsidian.
 - [[onyx-boox-extractor|Onyx Boox Annotation & Highlight Extractor]]: This plugin extracts annotations and highlights files exported from Onyx Boox tablets, and converts them to reference, literature and permanent notes fitting to the Zettelkasten method.
 - [[obsidian-open-file-by-magic-date|Open File by Magic Date]]: Define a Moment.js date pattern that specifies the file that is most important to you (eg: your daily/weekly/monthly note). Will create the file if it doesn't exist.
-- [[open-gate|Open Gate]]: Embed any website to Obsidian, from now all, you have anything you need in one place.
+- [[open-gate|Open Gate]]: Embed any website to Obsidian, you have anything you need in one place. You can browse website and take notes at the same time. e.g. Ask ChatGPT and copy the answer directly to your note.
 - [[open-in-new-tab|Open In New Tab]]: Opens files in new tabs
 - [[open-related-url|Open Related Url]]: Opens URLs found in a note's YAML frontmatter
 - [[open-files-with-commands|Open files with commands]]: Create commands that only open one file at the time and that can be used with the commander plugin.
@@ -445,7 +446,7 @@ Plugins which have not yet been categorized by the community.
 - [[set-in-obsidian|Set In Obsidian]]: Plugin for time planning
 - [[settings-search|Settings Search]]: Globally search settings in Obsidian.md
 - [[obsidian-share-as-gist|Share as Gist]]: Shares an Obsidian note as a GitHub.com gist
-- [[short-internal-links-to-headings|Short Internal Links to Headings]]: Display internal links to headings as just the heading name.
+- [[short-internal-links-to-headings|Short links]]: An Obsidian plugin to display short internal links.
 - [[obsidian-shortcut-launcher|Shortcut Launcher]]: Trigger shortcuts in Apple's Shortcuts app from Obsidian with custom commands.
 - [[sigma|Sigma]]: A plugin to enable using obsidian notes as calculation sheets.
 - [[simple-dice-roller|Simple Dice Roller]]: A plug and play solution that allows you to average and simulate dice formulas.
