@@ -16,7 +16,7 @@ Primary purpose of this snippet is getting [[obsidian-admonition|Admonitions]] t
 
 %% Paste your template below %%
 
-[**Get CSS Snippet Here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Admonitions.css)
+[**Get CSS Snippet Here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/HEAD/S%20-%20Admonitions.css)
 
 ---
 

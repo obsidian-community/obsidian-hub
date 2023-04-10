@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/krios2146/obsidian-github/raw/master/thumbnail.png)
+![screenshot](https://github.com/krios2146/obsidian-github/raw/HEAD/thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

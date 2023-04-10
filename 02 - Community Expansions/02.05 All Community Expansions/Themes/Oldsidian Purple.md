@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/ltctceplrm/oldsidian-purple/raw/main/cover.png)
+![screenshot](https://github.com/ltctceplrm/oldsidian-purple/raw/HEAD/cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

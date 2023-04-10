@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/NicolasGHS/Rezin-theme/raw/master/assets/image.png)
+![screenshot](https://github.com/NicolasGHS/Rezin-theme/raw/HEAD/assets/image.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/insanum/obsidian_gruvbox/raw/master/dark.png)
+![screenshot](https://github.com/insanum/obsidian_gruvbox/raw/HEAD/dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

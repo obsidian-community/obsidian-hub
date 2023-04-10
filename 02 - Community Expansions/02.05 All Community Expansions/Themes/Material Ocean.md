@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/dragonwocky/obsidian-material-ocean/raw/master/thumbnail.png)
+![screenshot](https://github.com/dragonwocky/obsidian-material-ocean/raw/HEAD/thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

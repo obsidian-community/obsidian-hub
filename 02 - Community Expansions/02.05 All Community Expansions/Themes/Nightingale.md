@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/frank0713/nightingale-obsidian/raw/master/image/cover.png)
+![screenshot](https://github.com/frank0713/nightingale-obsidian/raw/HEAD/image/cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/birneee/obsidian-adwaita-theme/raw/master/generated/theme-store-preview.png)
+![screenshot](https://github.com/birneee/obsidian-adwaita-theme/raw/HEAD/generated/theme-store-preview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/mProjectsCode/obsidian-lemons-theme/raw/master/lemons-theme-picture-low-res.PNG)
+![screenshot](https://github.com/mProjectsCode/obsidian-lemons-theme/raw/HEAD/lemons-theme-picture-low-res.PNG)
 
 %% ----- Do not edit anything above this line ----- %% 
 

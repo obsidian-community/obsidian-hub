@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/curio-heart/obsidian-wyrd/raw/master/img/Wyrd.png)
+![screenshot](https://github.com/curio-heart/obsidian-wyrd/raw/HEAD/img/Wyrd.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

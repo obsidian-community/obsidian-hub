@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/dogwaddle/obsidian-gastown-theme.md/raw/master/ObsidianOne.png)
+![screenshot](https://github.com/dogwaddle/obsidian-gastown-theme.md/raw/HEAD/ObsidianOne.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

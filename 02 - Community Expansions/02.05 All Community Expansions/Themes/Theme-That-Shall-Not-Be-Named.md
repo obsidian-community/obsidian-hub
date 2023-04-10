@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/ChopTV/Obsidian-Theme-That-Shall-Not-Be-Named/raw/main/Theme-That-Shall-Not-Be-Named.png)
+![screenshot](https://github.com/ChopTV/Obsidian-Theme-That-Shall-Not-Be-Named/raw/HEAD/Theme-That-Shall-Not-Be-Named.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

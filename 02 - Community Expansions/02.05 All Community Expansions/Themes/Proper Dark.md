@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/lukasbach/obsidian-proper-dark/raw/master/thumb.png)
+![screenshot](https://github.com/lukasbach/obsidian-proper-dark/raw/HEAD/thumb.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

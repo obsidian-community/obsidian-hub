@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/FireIsGood/obsidian-everforest-enchanted/raw/master/promo_screenshot.png)
+![screenshot](https://github.com/FireIsGood/obsidian-everforest-enchanted/raw/HEAD/promo_screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

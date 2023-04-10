@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/zalenza/Abecedarium-theme/raw/main/abecedarium_dark.png)
+![screenshot](https://github.com/zalenza/Abecedarium-theme/raw/HEAD/abecedarium_dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

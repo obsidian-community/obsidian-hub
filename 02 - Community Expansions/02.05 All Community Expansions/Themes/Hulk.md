@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/pgalliford/Obsidian-theme-Incredible-Hulk/raw/master/Screen Shot.png)
+![screenshot](https://github.com/pgalliford/Obsidian-theme-Incredible-Hulk/raw/HEAD/Screen Shot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

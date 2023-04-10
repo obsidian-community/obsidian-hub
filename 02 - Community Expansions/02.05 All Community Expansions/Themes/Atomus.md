@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/PedroHenrique17/Atomus/raw/master/Screenshot_1.png)
+![screenshot](https://github.com/PedroHenrique17/Atomus/raw/HEAD/Screenshot_1.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

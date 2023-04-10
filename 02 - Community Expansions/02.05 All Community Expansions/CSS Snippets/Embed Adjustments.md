@@ -17,7 +17,7 @@ Embed Adjustments uses a lot of the same resizing and positioning as the [[Image
 %% Paste your template below %%
 
 ---
-[**Get CSS Snippet Here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Embed%20Adjustments.css)
+[**Get CSS Snippet Here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/HEAD/S%20-%20Embed%20Adjustments.css)
 Included in the [[ITS Theme]].
 
 %% Add a screenshot of the effect this snippet produces with edit and preview mode visible %%

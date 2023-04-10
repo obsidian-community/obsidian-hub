@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/marcoluzi/obsidian-synthwave/raw/master/screenshot.jpeg)
+![screenshot](https://github.com/marcoluzi/obsidian-synthwave/raw/HEAD/screenshot.jpeg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

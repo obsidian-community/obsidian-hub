@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Victologo/elegance-theme/raw/master/assets/Miniatura - Elegance (tema para Obisidian).jpg)
+![screenshot](https://github.com/Victologo/elegance-theme/raw/HEAD/assets/Miniatura - Elegance (tema para Obisidian).jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

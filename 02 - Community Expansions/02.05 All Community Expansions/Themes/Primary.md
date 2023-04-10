@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/ceciliamay/obsidianmd-theme-primary/raw/main/assets/primary-heroimg.png)
+![screenshot](https://github.com/ceciliamay/obsidianmd-theme-primary/raw/HEAD/assets/primary-heroimg.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

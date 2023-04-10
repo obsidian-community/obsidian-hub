@@ -12,12 +12,12 @@ publish: true
 
 > Move/position and re-size the images in your notes within your Obsidian vault.
 
-**⚠ Note:** Might not be 100% compatible with [Lithou's Image Flags snippet.](https://github.com/Lithou/Sandbox/blob/main/.obsidian/snippets/pub-Image%20Flags.css). Image grid doesn't quite work with externally images `[]()`as nicely as internally linked ones.
+**⚠ Note:** Might not be 100% compatible with [Lithou's Image Flags snippet.](https://github.com/Lithou/Sandbox/blob/HEAD/.obsidian/snippets/pub-Image%20Flags.css). Image grid doesn't quite work with externally images `[]()`as nicely as internally linked ones.
 
 %% Paste your template below %%
 
 ---
-[**Grab the snippet here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Images%20Adjustments.css)
+[**Grab the snippet here**](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/HEAD/S%20-%20Images%20Adjustments.css)
 Included in the [[ITS Theme]].
 
 ---
@@ -36,7 +36,7 @@ Included in the [[ITS Theme]].
 [![](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Simple-Positions.png)](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Simple-Positions.png)
 
 **Positions** within the image itself as well as **Resizing**:
-[![](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/main/Images/Image_Adjustments-Custom-Inner_Position_Precise.png)](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/main/Images/Image_Adjustments-Custom-Inner_Position_Precise.png)
+[![](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/HEAD/Images/Image_Adjustments-Custom-Inner_Position_Precise.png)](https://github.com/SlRvb/Obsidian--ITS-Theme/raw/HEAD/Images/Image_Adjustments-Custom-Inner_Position_Precise.png)
 
 **Image Grids & Captions:**
 [![](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Image-Grids.png)](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Image-Grids.png)

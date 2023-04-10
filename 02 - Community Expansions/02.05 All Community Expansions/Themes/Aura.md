@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/ashwinjadhav818/obsidian-aura/raw/master/assets/screenshot-preview.png)
+![screenshot](https://github.com/ashwinjadhav818/obsidian-aura/raw/HEAD/assets/screenshot-preview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

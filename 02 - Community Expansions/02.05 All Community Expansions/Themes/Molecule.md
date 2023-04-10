@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/manassadasivuni/obsidian-molecule/raw/master/images/Screenshot1.png)
+![screenshot](https://github.com/manassadasivuni/obsidian-molecule/raw/HEAD/images/Screenshot1.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

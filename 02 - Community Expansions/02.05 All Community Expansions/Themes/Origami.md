@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/7368697661/Origami/raw/main/screen.png)
+![screenshot](https://github.com/7368697661/Origami/raw/HEAD/screen.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

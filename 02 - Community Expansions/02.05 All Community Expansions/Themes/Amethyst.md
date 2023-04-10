@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/cotemaxime/obsidian-amethyst/raw/master/screenshot.png)
+![screenshot](https://github.com/cotemaxime/obsidian-amethyst/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

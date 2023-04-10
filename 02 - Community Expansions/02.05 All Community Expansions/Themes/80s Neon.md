@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/deathau/80s-Neon-for-Obsidian.md/raw/master/screenshot.jpg)
+![screenshot](https://github.com/deathau/80s-Neon-for-Obsidian.md/raw/HEAD/screenshot.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

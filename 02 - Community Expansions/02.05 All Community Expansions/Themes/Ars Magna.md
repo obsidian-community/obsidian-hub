@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/mediapathic/obsidian-arsmagna-theme/raw/master/arsmagna.png)
+![screenshot](https://github.com/mediapathic/obsidian-arsmagna-theme/raw/HEAD/arsmagna.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

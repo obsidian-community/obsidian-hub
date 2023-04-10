@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/mgmeyers/obsidian-california-coast-theme/raw/main/screenshots/04.png)
+![screenshot](https://github.com/mgmeyers/obsidian-california-coast-theme/raw/HEAD/screenshots/04.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

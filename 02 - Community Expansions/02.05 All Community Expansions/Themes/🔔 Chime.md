@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Bluemoondragon07/chime-theme/raw/master/Chime.png)
+![screenshot](https://github.com/Bluemoondragon07/chime-theme/raw/HEAD/Chime.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

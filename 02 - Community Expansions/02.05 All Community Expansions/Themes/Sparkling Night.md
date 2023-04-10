@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/isax785/obsidian-sparkling-night/raw/master/img/sparkling_night.png)
+![screenshot](https://github.com/isax785/obsidian-sparkling-night/raw/HEAD/img/sparkling_night.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

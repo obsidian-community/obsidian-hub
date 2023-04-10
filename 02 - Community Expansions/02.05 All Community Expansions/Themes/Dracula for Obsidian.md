@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/jarodise/Dracula-for-Obsidian.md/raw/master/screencap.jpg)
+![screenshot](https://github.com/jarodise/Dracula-for-Obsidian.md/raw/HEAD/screencap.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/sainadh-d/obsidian-boom/raw/master/roam-1.png)
+![screenshot](https://github.com/sainadh-d/obsidian-boom/raw/HEAD/roam-1.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

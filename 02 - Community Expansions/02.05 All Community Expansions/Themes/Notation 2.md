@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Bluemoondragon07/obsidian-notation-2/raw/master/cover-small.png)
+![screenshot](https://github.com/Bluemoondragon07/obsidian-notation-2/raw/HEAD/cover-small.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

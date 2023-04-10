@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/Wittionary/mammoth-obsidian-theme/raw/master/screenshots/fullscreen-formatting-examples.png)
+![screenshot](https://github.com/Wittionary/mammoth-obsidian-theme/raw/HEAD/screenshots/fullscreen-formatting-examples.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

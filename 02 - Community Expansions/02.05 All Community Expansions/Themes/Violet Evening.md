@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/aitaDev/Violet-Evening-for-Obsidian/raw/main/screenshot.png)
+![screenshot](https://github.com/aitaDev/Violet-Evening-for-Obsidian/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

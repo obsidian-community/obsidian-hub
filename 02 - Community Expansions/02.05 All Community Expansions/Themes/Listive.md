@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/efemkay/obsidian-listive-theme/raw/master/thumbnail.jpg)
+![screenshot](https://github.com/efemkay/obsidian-listive-theme/raw/HEAD/thumbnail.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 

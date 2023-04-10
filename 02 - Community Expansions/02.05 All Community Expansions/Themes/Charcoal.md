@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/bcdavasconcelos/Obsidian-Charcoal/raw/master/charcoal.png)
+![screenshot](https://github.com/bcdavasconcelos/Obsidian-Charcoal/raw/HEAD/charcoal.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

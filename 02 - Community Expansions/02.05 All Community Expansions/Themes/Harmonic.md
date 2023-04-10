@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Thiews/Obsidian-Harmonic/raw/main/cover.png)
+![screenshot](https://github.com/Thiews/Obsidian-Harmonic/raw/HEAD/cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

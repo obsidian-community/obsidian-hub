@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/lukauskas/obsidian-highlighter-theme/raw/main/screenshots/screenshot-themes-panel.png)
+![screenshot](https://github.com/lukauskas/obsidian-highlighter-theme/raw/HEAD/screenshots/screenshot-themes-panel.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

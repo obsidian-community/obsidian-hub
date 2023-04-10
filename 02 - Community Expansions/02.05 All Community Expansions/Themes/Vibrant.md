@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/JamesLemony/obsidian_vibrant/raw/master/images/demo1.png)
+![screenshot](https://github.com/JamesLemony/obsidian_vibrant/raw/HEAD/images/demo1.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

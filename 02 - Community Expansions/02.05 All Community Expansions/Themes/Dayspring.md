@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/erykwalder/dayspring-theme/raw/master/screenshots/thumbnail.png)
+![screenshot](https://github.com/erykwalder/dayspring-theme/raw/HEAD/screenshots/thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

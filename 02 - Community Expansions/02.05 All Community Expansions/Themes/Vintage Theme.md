@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/natelandau/obsidian-vintage-theme/raw/main/_media/light.png)
+![screenshot](https://github.com/natelandau/obsidian-vintage-theme/raw/HEAD/_media/light.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

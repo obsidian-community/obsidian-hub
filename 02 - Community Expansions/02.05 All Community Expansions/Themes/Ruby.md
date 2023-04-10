@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/gracejoseph1236/obsidian-ruby/raw/master/example.png)
+![screenshot](https://github.com/gracejoseph1236/obsidian-ruby/raw/HEAD/example.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

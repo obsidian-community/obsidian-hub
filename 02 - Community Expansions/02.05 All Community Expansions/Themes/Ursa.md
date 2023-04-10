@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/obsidian-ezs/obsidian-ursa/raw/master/light-theme_full.png)
+![screenshot](https://github.com/obsidian-ezs/obsidian-ursa/raw/HEAD/light-theme_full.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

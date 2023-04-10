@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/AllJavi/material_gruvbox_obsidian/raw/master/promo_screenshot.png)
+![screenshot](https://github.com/AllJavi/material_gruvbox_obsidian/raw/HEAD/promo_screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/damiankorcz/Prism-Theme/raw/main/assets/screenshots/Community Themes Screenshot.png)
+![screenshot](https://github.com/damiankorcz/Prism-Theme/raw/HEAD/assets/screenshots/Community Themes Screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

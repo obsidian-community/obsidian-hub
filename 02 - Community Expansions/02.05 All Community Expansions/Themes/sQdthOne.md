@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/KeithLerner/ObsidianMDsQdthOne/raw/master/GitCapture.png)
+![screenshot](https://github.com/KeithLerner/ObsidianMDsQdthOne/raw/HEAD/GitCapture.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

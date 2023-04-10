@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/davidgolding/obsidian-big-sur-aesthetic/raw/main/screenshot-hybrid.png)
+![screenshot](https://github.com/davidgolding/obsidian-big-sur-aesthetic/raw/HEAD/screenshot-hybrid.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

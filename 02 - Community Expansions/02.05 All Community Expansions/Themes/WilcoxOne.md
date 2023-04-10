@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/MattWilcox/obsidian-wilcox-one/raw/main/wilcoxonedark.png)
+![screenshot](https://github.com/MattWilcox/obsidian-wilcox-one/raw/HEAD/wilcoxonedark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

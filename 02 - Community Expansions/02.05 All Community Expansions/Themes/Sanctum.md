@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/jdanielmourao/obsidian-sanctum/raw/main/cover.png)
+![screenshot](https://github.com/jdanielmourao/obsidian-sanctum/raw/HEAD/cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

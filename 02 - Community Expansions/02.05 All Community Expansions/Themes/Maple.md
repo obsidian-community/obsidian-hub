@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/subframe7536/obsidian-theme-maple/raw/main/img/screenshot.png)
+![screenshot](https://github.com/subframe7536/obsidian-theme-maple/raw/HEAD/img/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

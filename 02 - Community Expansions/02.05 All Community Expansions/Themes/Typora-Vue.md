@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/ZekunC/Obsidian-Typora-Vue-Theme/raw/master/obsidian-typora-vue.png)
+![screenshot](https://github.com/ZekunC/Obsidian-Typora-Vue-Theme/raw/HEAD/obsidian-typora-vue.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

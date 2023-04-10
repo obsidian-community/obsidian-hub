@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/sahilpatel09/Aqua-obsidian/raw/main/dark.png)
+![screenshot](https://github.com/sahilpatel09/Aqua-obsidian/raw/HEAD/dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

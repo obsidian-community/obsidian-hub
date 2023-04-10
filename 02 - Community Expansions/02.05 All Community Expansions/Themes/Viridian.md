@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/mulfok/obsidian-viridian/raw/main/cover.png)
+![screenshot](https://github.com/mulfok/obsidian-viridian/raw/HEAD/cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

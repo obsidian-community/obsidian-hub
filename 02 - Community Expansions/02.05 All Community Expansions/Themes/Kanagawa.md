@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/sspaeti/obsidian_kanagawa/raw/main/dark.png)
+![screenshot](https://github.com/sspaeti/obsidian_kanagawa/raw/HEAD/dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

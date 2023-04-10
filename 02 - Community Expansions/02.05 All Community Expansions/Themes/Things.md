@@ -25,7 +25,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/colineckert/obsidian-things/raw/main/assets/main-demo.png)
+![screenshot](https://github.com/colineckert/obsidian-things/raw/HEAD/assets/main-demo.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

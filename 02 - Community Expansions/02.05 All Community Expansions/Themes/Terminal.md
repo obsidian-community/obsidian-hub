@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/zcysxy/Obsidian-Terminal-Theme/raw/main/screenshots/terminal.png)
+![screenshot](https://github.com/zcysxy/Obsidian-Terminal-Theme/raw/HEAD/screenshots/terminal.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

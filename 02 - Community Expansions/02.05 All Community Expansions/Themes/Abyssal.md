@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/tazpellegrini/abyssalobsidian/raw/master/abyssal-thumbnail.png)
+![screenshot](https://github.com/tazpellegrini/abyssalobsidian/raw/HEAD/abyssal-thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

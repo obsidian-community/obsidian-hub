@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/caro401/royal-velvet/raw/main/royal-velvet.png)
+![screenshot](https://github.com/caro401/royal-velvet/raw/HEAD/royal-velvet.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
