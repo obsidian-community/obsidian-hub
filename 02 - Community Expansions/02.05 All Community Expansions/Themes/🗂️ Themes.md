@@ -164,6 +164,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sanctum|Sanctum]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sandstorm|Sandstorm]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sanguine|Sanguine]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Serenity|Serenity]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shiba Inu|Shiba Inu]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shiba Uni|Shiba Uni]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shimmering Focus|Shimmering Focus]]
