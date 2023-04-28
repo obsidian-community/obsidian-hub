@@ -108,6 +108,8 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2023-03-25 Improved Community Updates & Task Searching|2023-03-25 Improved Community Updates & Task Searching]]
 -  [[01 - Community/Obsidian Roundup/2023-04-01 Better Bookmarks, Word Counts, & Borders|2023-04-01 Better Bookmarks, Word Counts, & Borders]]
 -  [[01 - Community/Obsidian Roundup/2023-04-08 Joke plugins, hands-free notes, & table improvements|2023-04-08 Joke plugins, hands-free notes, & table improvements]]
+-  [[01 - Community/Obsidian Roundup/2023-04-15 ew Integrations with Confluence, Github, GPT, &etc|2023-04-15 ew Integrations with Confluence, Github, GPT, &etc]]
+-  [[01 - Community/Obsidian Roundup/2023-04-22 Huge Publish Improvements, a Telegram integration, & more LLM options|2023-04-22 Huge Publish Improvements, a Telegram integration, & more LLM options]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
