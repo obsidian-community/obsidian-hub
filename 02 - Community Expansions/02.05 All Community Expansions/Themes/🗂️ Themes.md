@@ -99,6 +99,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Horizon|Horizon]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Hulk|Hulk]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/iA Writer|iA Writer]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/iB Writer|iB Writer]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Iceberg|Iceberg]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Illusion|Illusion]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/ion|ion]]
