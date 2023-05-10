@@ -40,6 +40,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Blue Topaz|Blue Topaz]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Border|Border]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Bubble Space|Bubble Space]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Buena Vista|Buena Vista]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/California Coast|California Coast]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Cardstock|Cardstock]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Carnelian|Carnelian]]
