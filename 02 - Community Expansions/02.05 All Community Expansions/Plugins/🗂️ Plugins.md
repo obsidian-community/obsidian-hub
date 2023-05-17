@@ -40,6 +40,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/auto-glossary|auto-glossary]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/auto-moc|auto-moc]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/auto-note-mover|auto-note-mover]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/auto-template-trigger|auto-template-trigger]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/ava|ava]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/avatar|avatar]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/aw-watcher-obsidian|aw-watcher-obsidian]]

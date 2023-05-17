@@ -111,6 +111,7 @@ This archive lags slightly behind the one on the [Roundup's website](https://obs
 -  [[01 - Community/Obsidian Roundup/2023-04-15 ew Integrations with Confluence, Github, GPT, &etc|2023-04-15 ew Integrations with Confluence, Github, GPT, &etc]]
 -  [[01 - Community/Obsidian Roundup/2023-04-22 Huge Publish Improvements, a Telegram integration, & more LLM options|2023-04-22 Huge Publish Improvements, a Telegram integration, & more LLM options]]
 -  [[01 - Community/Obsidian Roundup/2023-05-06 GPT Tips & Tools, Atomic Notes Advice, & Graph Filter Saving|2023-05-06 GPT Tips & Tools, Atomic Notes Advice, & Graph Filter Saving]]
+-  [[01 - Community/Obsidian Roundup/2023-05-13 PDF improvements & More AI Options|2023-05-13 PDF improvements & More AI Options]]
 %% Hub MOCs: Don’t edit above  %%
 
 %% Hub footer: Please don't edit anything below this line %%
