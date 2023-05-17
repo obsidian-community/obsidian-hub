@@ -53,6 +53,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-auto-hide|Auto Hide]]: Collapse sidebars when clicking on the editor/viewer panel
 - [[auto-note-mover|Auto Note Mover]]: Auto Note Mover will automatically move the active notes to their respective folders according to the rules.
 - [[obsidian-auto-split|Auto Split]]: Open notes with side-by-side editor & preview
+- [[auto-template-trigger|Auto Template Trigger]]: Automatically prompt for a template, when creating a note.
 - [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag and imports them into the current note.
 - [[obsidian-autoscroll|Autoscroll]]: This plugin allows you to automatically scroll down the content with the provided speed
 - [[avatar|Avatar]]: Display an avatar image in your notes.
@@ -196,6 +197,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-file-cleaner|File Cleaner]]: Help you to clean empty files and unused attachments in the vault.
 - [[obsidian-file-color|File Color]]: An Obsidian plugin for setting colors on folders and files in the file tree.
 - [[obsidian-file-cooker|File Cooker]]: Deal multi notes from Search results、current file、Dataview query string...
+- [[last-modified-timestamp-in-status-bar|File Creation and Last Modified Timestamps in Status Bar]]: Dynamic display of file modification and creation timestamps in the status bar.
 - [[file-diff|File Diff]]: Shows the differences between two files..
 - [[file-forgetting-curve-obsidian|File Forgetting Curve]]: File Forgetting Curve
 - [[OA-file-hider|File Hider]]: An Obsidian plugin that allows hiding files and folders in the built-in file explorer
@@ -289,7 +291,6 @@ Plugins which have not yet been categorized by the community.
 - [[latex-to-unicode|LaTeX to Unicode converter]]: Convert LaTeX commands into unicode sqeuences
 - [[language-translator|Language Translator]]: Translates given text to desired language
 - [[lapel|Lapel]]: Dress up your editor with decorations that mark each of your headings 🤵
-- [[last-modified-timestamp-in-status-bar|Last Modified Timestamp in Status Bar]]: Dynamic display of file modification timestamp in the status bar.
 - [[latex-matrices|Latex Matrices]]: Speedup latex matrices writing.
 - [[obsidian-latex-suite|Latex Suite]]: Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements
 - [[obsidian-limelight|Limelight]]: Put a spotlight on your active pane
@@ -390,7 +391,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-to-notion|Obsidian shared to Notion]]: This is a  plugin for Obsidian. This plugin share obsidian md  file to notion with notion api
 - [[obsidian-to-flomo|Obsidian to Flomo]]: Quickly share content to Flomo.
 - [[obsidian42-brat|Obsidian42 - BRAT]]: Easily install a beta version of a plugin for testing.
-- [[obsidian42-strange-new-worlds|Obsidian42 - Strange New Worlds]]: Revealing networked thought and the strange new worlds created by your vault
+- [[obsidian42-strange-new-worlds|Obsidian42 - Strange New Worlds (SNW)]]: Revealing networked thought and the strange new worlds created by your vault
 - [[obsidian-tweaks|ObsidianTweaks]]: Adds some convenient tweaks including improved toggling and ergonomic commands
 - [[obsius-publish|Obsius Publish]]: Make single notes instantly available on the web.
 - [[obsidian-old-note-admonitor|Old Note Admonitor]]: This Obsidian plugin shows warnings if the note has not been updated for over specific days
