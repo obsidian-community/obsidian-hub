@@ -342,7 +342,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/JamesLemony|JamesLemony]]
 -  [[01 - Community/People/jamiebrynes7|jamiebrynes7]]
 -  [[01 - Community/People/jarodise|jarodise]]
--  [[01 - Community/People/javalent|javalent]]
+-  [[Javalent|Javalent]]
 -  [[01 - Community/People/jaynguyens|jaynguyens]]
 -  [[01 - Community/People/jaysan0|jaysan0]]
 -  [[01 - Community/People/jdanielmourao|jdanielmourao]]

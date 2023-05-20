@@ -10,18 +10,19 @@ publish: true
 # Plugins for Tabletop Role-Playing Games
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
-#placeholder/description 
+The plugins in this category were designed to be essential tools for character management, dice rolling, campaign organization, and to enhance the overall gaming experience. That said, many of these plugins have broad uses outside of Table Top Roleplaying Games. 
 
 ## Plugins in this category
 
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
-- [[obsidian-5e-statblocks|5e Statblocks]]: Create 5e styled statblocks in Obsidian.md
-- [[obsidian-dice-roller|Dice Roller]]: Inline dice rolling for Obsidian.md
-- [[fantasy-calendar|Fantasy Calendar]]: Fantasy calendars in Obsidian!
-- [[generic-initiative-tracker|Generic Initiative Tracker]]: TTRPG Generic Initiative Tracker for Obsidian.md
-- [[initiative-tracker|Initiative Tracker]]: TTRPG Initiative Tracker for Obsidian.md
-- [[obsidian-leaflet-plugin|Obsidian Leaflet]]: Interactive maps inside your notes
+- [[fantasy-calendar|Fantasy Calendar]]: Customized Calendars in Obsidian.
+- ![[valentine195#^cdf768|clean+bullet]]
+- [[initiative-tracker|Initiative Tracker]]: TTRPG Initiative Tracker for Obsidian. 
+- [[obsidian-5e-statblocks|Fantasy Statblocks]]: Create RPG Statblocks in Obsidian.  
+- [[obsidian-dice-roller|Dice Roller]]: Comprehensive Dice rolling for Obsidian.  
+- [[obsidian-leaflet-plugin|Obsidian Leaflet]]: Interactive maps inside your notes.
+- [[rpg-manager|RPG Manager]]: A plugin to manage your Tabletop Role Playing Game campaigns for Obsidian.
 
 ## Unlisted plugins
 

@@ -39,7 +39,7 @@ publish: true
 
 ### Others
 
-- [[YouTube|YouTube Playlist]] of [Obsidian for DMing](https://www.youtube.com/playlist?list=PLvLJHmYS4OnXZIvguaL6rnvkIbimzVqaI) ^052eef
+- [[YouTube|YouTube Playlist]]: Andy Polaine's [Obsidian for DMing](https://www.youtube.com/playlist?list=PLvLJHmYS4OnXZIvguaL6rnvkIbimzVqaI) ^052eef
 
 
 <!--
