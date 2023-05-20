@@ -18,7 +18,7 @@ This note collects resources for those using Obsidian for Tabletop Roleplaying G
 
 ### Game Mediators
 
-`aliases: Dungeon Master, Game Manager, Game Master, Referee, Storyteller`
+`aliases: Dungeon Master, Game Manager, Game Master, Referee, Story Guide, Storyteller`
 
 - [[Obsidian and TTRPG|Obsidian for TTRPG]]
 - [[Blog]]: [Running Tabletop Games with Obsidian | Michael Barrett](https://blog.mjb.im/running-tabletop-games-with-obsidian)
@@ -46,9 +46,7 @@ This note collects resources for those using Obsidian for Tabletop Roleplaying G
 - ![[nvanderhoevan#^308e07|clean]]
 
 ### Tables
-- [[Obsidian Dice Roller Tables Collection| Obsidian Dice Roller Tables Collection]]: Formatted tables for use with the [[obsidian-dice-roller|Dice Roller]] plugin.
-
-- [WychWitch/Obsidian-Dice-Roller-Tables: This is a collection of Dice Roller Tables that I use to run my DND campaigns](https://github.com/WychWitch/Obsidian-Dice-Roller-Tables). Formatted for use with the [[obsidian-dice-roller|Dice Roller]] plugin.
+- [[Obsidian Dice Roller Tables Collection| Obsidian Dice Roller Tables Collection]]: Formatted tables created by WychWitch for use with the [[obsidian-dice-roller|Dice Roller]] plugin.
 
 
 ## Vaults
@@ -107,7 +105,6 @@ The following Themes and CSS Snippets are popular and widely used among the Obsi
 
 
 
-- [WychWitch/Obsidian-Dice-Roller-Tables: This is a collection of Dice Roller Tables that I use to run my DND campaigns](https://github.com/WychWitch/Obsidian-Dice-Roller-Tables). Formatted for use with the [[obsidian-dice-roller|Dice Roller]] plugin.
 - [SRD Obsidian Importer](https://github.com/mProjectsCode/d20pfsrd_obsidian_importer) - A script to scrape and import the excellent [d20pfsrd](https://www.d20pfsrd.com/) and [5esrd](https://www.5esrd.com/) into Obsidian.
 
 - [Obsidian Table Top Templates](https://github.com/mProjectsCode/Obsidian-Table-Top-Templates) Templates and a Vault structure for TTRPG campaigns and worldbuilding
