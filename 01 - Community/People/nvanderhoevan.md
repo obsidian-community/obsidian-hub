@@ -38,12 +38,12 @@ publish: true
 
 ### Others
 
-- [[Blog]]: [TTRPG Games Index | Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/ttrpgs/TTRPGs+Games+Index) - An Index of current and past campaigns and the world-building with them. ^918682
-- [[Blog]]: [Non-Lazy DMs use Obsidian for D&D | Nicole van der Hoeven](https://nicolevanderhoeven.com/blog/20210930-non-lazy-dms-use-obsidian-for-dnd/) ^9db4cf
-- [[Blog]]: [How I use Obsidian for D&D - Player's Edition | Nicole van der Hoeven](https://nicolevanderhoeven.com/blog/20210809-dnd-obsidian-player/) ^8cddc7
+- [[Blog]]: [TTRPG Games Index | Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/ttrpgs/TTRPGs+Games+Index) - An Index of current and past campaigns and the world-building with them. 
+- [[Blog]]: [Non-Lazy DMs use Obsidian for D&D | Nicole van der Hoeven](https://nicolevanderhoeven.com/blog/20210930-non-lazy-dms-use-obsidian-for-dnd/) 
+- [[Blog]]: [How I use Obsidian for D&D - Player's Edition | Nicole van der Hoeven](https://nicolevanderhoeven.com/blog/20210809-dnd-obsidian-player/)
 - [[Blog]]: [Posts tagged with TTRPG | Nicole van der Hoeven](https://nicolevanderhoeven.com/tags/ttrpgs/) - All the posts tagged with TTRPG on Nicole's blog.
-- [[Campaign]]: [Days of Obligation | Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/ttrpgs/Days+of+Obligation/World) - A collection of notes detailing Nicole's campaign with [[Leah Ferguson|Leah]] in the world of [Numenera](http://numenera.com). ^308e07
-- [[YouTube|YouTube Playlist]]: [Obsidian for TTRPGs | Nicole van der Hoeven](https://www.youtube.com/playlist?list=PL-1Nqb2waX4XNDgF4y7Gcc2qaPmjWZHaR) - A collection of videos from a player and game master's point of view in using Obsidian for TTRPGs. ^ff63f7
+- [[Campaign]]: [Days of Obligation | Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/ttrpgs/Days+of+Obligation/World) - A collection of notes detailing Nicole's campaign with [[Leah Ferguson|Leah]] in the world of [Numenera](http://numenera.com). 
+- [[YouTube|YouTube Playlist]]: [Obsidian for TTRPGs | Nicole van der Hoeven](https://www.youtube.com/playlist?list=PL-1Nqb2waX4XNDgF4y7Gcc2qaPmjWZHaR) - A collection of videos from a player and game master's point of view in using Obsidian for TTRPGs.
 
 
 

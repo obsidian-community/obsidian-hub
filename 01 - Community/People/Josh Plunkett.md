@@ -39,10 +39,10 @@ publish: true
 -->
 
 ### Others
-- [[YouTube|YouTube Playlist]]: [Obsidian TTRPG | Josh Plunkett](https://www.youtube.com/playlist?list=PLV5XWfKkFpk7MJTKv5YdSSpT9b-vLslWu) - A collection of videos explaining everything about TTRPG and Obsidian, including vault organization and configuring plugins. ^4e2b7b
+- [[YouTube|YouTube Playlist]]: [Obsidian TTRPG | Josh Plunkett](https://www.youtube.com/playlist?list=PLV5XWfKkFpk7MJTKv5YdSSpT9b-vLslWu) - A collection of videos explaining everything about TTRPG and Obsidian, including vault organisation and configuring plugins.
 - [[YouTube|YouTube Video]]: [Let's Learn Obsidian](https://youtu.be/FVmdd942Y2c)  - A long form and beginner's introduction to Obsidian for TTRPG use.
 - [[YouTube|YouTube Video]]: [Setting up a Pathfinder 2e Vault | Josh Plunkett](https://youtu.be/-gJZe9BN9pU) - How to set up a system-specific vault within Obsidian.
-- [Obsidian TTRPG Facebook Users Group](https://www.facebook.com/groups/obsidianttrpgusers) - A Facebook Community for Obsidian TTRPG Enthusiasts ^dcfcdd
+- [Obsidian TTRPG Facebook Users Group](https://www.facebook.com/groups/obsidianttrpgusers) - A Facebook Community for Obsidian TTRPG Enthusiasts
 
 ## Sponsor this author
 
