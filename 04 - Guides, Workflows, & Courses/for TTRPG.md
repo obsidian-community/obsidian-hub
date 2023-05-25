@@ -57,17 +57,12 @@ The following Themes and CSS Snippets are popular and widely used among the Obsi
 
 >[!hint] CSS Snippets are mostly compatible across themes. However, interactions can and do happen. If you experience any unexpected visual results, try disabling the snippet first.
 
-#### Colors
-
-- [[All Alternate Themes (ITS Theme)#D D|D&D Alternate Theme]]: Apply a D&D style color schemes to any theme.
-- [[All Alternate Themes (ITS Theme)#D D WOTC|D&D WOTC Alternate Theme]]: Apply a WOTC D&D style color scheme to any theme.
-
 #### Utility
 
-- [[Center Tables]]: Use this snippet to apply a `cssclass` to your notes to center tables within that note.
-- [ITS Callouts](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/eeb2870444c595293d2dae958a0e6603a0db5456/Snippets/S%20-%20Callouts.css): Adds many new callout styles, including wiki-style infoboxes.
-- [ITS Image Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/eeb2870444c595293d2dae958a0e6603a0db5456/Snippets/S%20-%20Images%20Adjustments.css): Expands the amount of image adjustments available to use.
-- [ITS Embed Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/eeb2870444c595293d2dae958a0e6603a0db5456/Snippets/S%20-%20Embed%20Adjustments.css): Quality of life embed adjustments.
+- [[Center Tables]]: Use this snippet to apply a `cssclass` to your notes to center tables within that note. *This is also Built into many themes as a Style Settings option.*
+- [ITS Callouts](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/eeb2870444c595293d2dae958a0e6603a0db5456/Snippets/S%20-%20Callouts.css): Adds many new callout styles, including wiki-style infoboxes. *You do not need to use this if you are using ITS Theme.*
+- [ITS Image Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/eeb2870444c595293d2dae958a0e6603a0db5456/Snippets/S%20-%20Images%20Adjustments.css): Expands the amount of image adjustments available to use. *You do not need to use this if you are using ITS Theme.*
+- [ITS Embed Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/eeb2870444c595293d2dae958a0e6603a0db5456/Snippets/S%20-%20Embed%20Adjustments.css): Quality of life embed adjustments. *You do not need to use this if you are using ITS Theme.*
 
 ## Notes
 
