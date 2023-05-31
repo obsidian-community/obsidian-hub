@@ -17,7 +17,6 @@ The plugins in this category were designed to be essential tools for character m
 %% Add a bullet here and link to the plugins you'd like to categorize! %%
 
 - [[fantasy-calendar|Fantasy Calendar]]: Customized Calendars in Obsidian.
-- ![[valentine195#^cdf768|clean+bullet]]
 - [[initiative-tracker|Initiative Tracker]]: TTRPG Initiative Tracker for Obsidian. 
 - [[obsidian-5e-statblocks|Fantasy Statblocks]]: Create RPG Statblocks in Obsidian.  
 - [[obsidian-dice-roller|Dice Roller]]: Comprehensive Dice rolling for Obsidian.  

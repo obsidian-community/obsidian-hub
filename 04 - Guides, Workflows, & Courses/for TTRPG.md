@@ -12,7 +12,7 @@ This note collects resources for those using Obsidian for Tabletop Roleplaying G
 
 ## Getting Started
 
-- [Javalent's Plugins](https://github.com/javalent) - The Github Community for all of Javalent's plugins, which include most of the utilised plugins for Obsidian TTRPG.
+- [Javalent's Plugins](https://github.com/javalent) - The Github Community for all of [[javalent]]'s plugins, which include most of the utilised plugins for Obsidian TTRPG.
 - [Obsidian TTRPG Community](https://github.com/Obsidian-TTRPG-Community) - A Github Community for TTRPG Members to convert and create more content for Obsidian. They are constantly adding new repositories and resources to their mix.
 	- [Obsidian TTRPG Share Wiki](https://github.com/Obsidian-TTRPG-Community/ObsidianTTRPGShare/wiki) - A further collected list of resources that complement the items found on this page. 
 - [Obsidian TTRPG Facebook Users Group](https://www.facebook.com/groups/obsidianttrpgusers) - A Facebook Community for Obsidian TTRPG Enthusiasts
@@ -27,21 +27,21 @@ This note collects resources for those using Obsidian for Tabletop Roleplaying G
 
 
 - [[Obsidian and TTRPG|Obsidian for TTRPG]]
-- [[Blog]]: [Running Tabletop Games with Obsidian | Michael Barrett](https://blog.mjb.im/running-tabletop-games-with-obsidian)
-- [[Blog]]: [Non-Lazy DMs use Obsidian for D&D | Nicole van der Hoeven](https://nicolevanderhoeven.com/blog/20210930-non-lazy-dms-use-obsidian-for-dnd/) 
-- [[YouTube|YouTube Playlist]]: Andy Polaine's [Obsidian for DMing](https://www.youtube.com/playlist?list=PLvLJHmYS4OnXZIvguaL6rnvkIbimzVqaI)
-- [[YouTube|YouTube Video]]: [Lazy D&D Talk Show: Obsidian for DM Prep - Slyflourish](https://www.youtube.com/watch?v=Dh1nybxv_vQ&t=235s)  
+- [[Blog]]: [Running Tabletop Games with Obsidian](https://blog.mjb.im/running-tabletop-games-with-obsidian) by Michael Barrett
+- [[Blog]]: [Non-Lazy DMs use Obsidian for D&D](https://nicolevanderhoeven.com/blog/20210930-non-lazy-dms-use-obsidian-for-dnd/) by [[nvanderhoevan|Nicole van der Hoevan]]
+- [[YouTube|YouTube Playlist]]: [Obsidian for DMing](https://www.youtube.com/playlist?list=PLvLJHmYS4OnXZIvguaL6rnvkIbimzVqaI) by [[apolaine|Andy Polaine]] 
+- [[YouTube|YouTube Video]]: [Lazy D&D Talk Show: Obsidian for DM Prep](https://www.youtube.com/watch?v=Dh1nybxv_vQ&t=235s)  by Slyflourish
 
 ### Players
 
-- [[Blog]]: [How I use Obsidian for D&D - Player's Edition | Nicole van der Hoeven](https://nicolevanderhoeven.com/blog/20210809-dnd-obsidian-player/) ^8cddc7
+- [[Blog]]: [How I use Obsidian for D&D - Player's Edition](https://nicolevanderhoeven.com/blog/20210809-dnd-obsidian-player/) by [[nvanderhoevan|Nicole van der Hoevan]].
 
 ### Both
 
-- [[YouTube|YouTube Video]]: [Let's Learn Obsidian | Josh Plunkett](https://youtu.be/FVmdd942Y2c)  - A long form and beginner's introduction to Obsidian for TTRPG use.
-- [[YouTube|YouTube Video]]: [Setting up a Pathfinder 2e Vault | Josh Plunkett](https://youtu.be/-gJZe9BN9pU) - How to set up a system-specific vault within Obsidian.
-- [[YouTube|YouTube Playlist]]: [Obsidian TTRPG | Josh Plunkett](https://www.youtube.com/playlist?list=PLV5XWfKkFpk7MJTKv5YdSSpT9b-vLslWu) - A collection of videos explaining everything about TTRPG and Obsidian, including vault organisation and configuring plugins.
-- [[YouTube|YouTube Playlist]]: [Obsidian for TTRPGs | Nicole van der Hoeven](https://www.youtube.com/playlist?list=PL-1Nqb2waX4XNDgF4y7Gcc2qaPmjWZHaR) - A collection of videos from a player and game master's point of view in using Obsidian for TTRPGs.
+- [[YouTube|YouTube Video]]: [Let's Learn Obsidian](https://youtu.be/FVmdd942Y2c)  by [[Josh Plunkett]]. A long form and beginner's introduction to Obsidian for TTRPG use
+- [[YouTube|YouTube Video]]: [Setting up a Pathfinder 2e Vault](https://youtu.be/-gJZe9BN9pU) by [[Josh Plunkett]]. How to set up a system-specific vault within Obsidian.
+- [[YouTube|YouTube Playlist]]: [Obsidian TTRPG](https://www.youtube.com/playlist?list=PLV5XWfKkFpk7MJTKv5YdSSpT9b-vLslWu) by [[Josh Plunkett]]. A collection of videos explaining everything about TTRPG and Obsidian, including vault organisation and configuring plugins.
+- [[YouTube|YouTube Playlist]]: [Obsidian for TTRPGs](https://www.youtube.com/playlist?list=PL-1Nqb2waX4XNDgF4y7Gcc2qaPmjWZHaR) by [[nvanderhoevan|Nicole van der Hoevan]]. A collection of videos from a player and game master's point of view in using Obsidian for TTRPGs.
 
 ## Appearance
 
@@ -70,12 +70,14 @@ The following Themes and CSS Snippets are popular and widely used among the Obsi
 
 ### [[Campaign]] And [[One-Shot|One Shots]]
 
-- [[Campaign]]: [Two and a Half Strahds | Leah Ferguson](https://notes.leahferguson.com/games/campaigns/two-and-a-half-strahds) - A collection of notes detailing a run through the DnD 5e Curse of Strahd campaign.
-- [[Campaign]]: [Hoard of the Dragon Queen | Leah Ferguson](https://notes.leahferguson.com/games/campaigns/hoard-of-the-dragon-queen) - A collection of notes detailing a run through the DnD 5e Hoard of the Dragon Queen campaign.
-- [[Campaign]]: [Days of Obligation | Leah Ferguson](http://notes.leahferguson.com/games/campaigns/numenera-days-of-obligation) - A collection of notes detailing [[Leah Ferguson|Leah]] and [[nvanderhoevan|Nicole van der Hoevan]]'s run through a [Numenera](http://numenera.com) campaign.
-- [[One-Shot|One-Shots]]: [One Shots of all Kinds | Leah Ferguson](https://notes.leahferguson.com/60+Games/62+Campaigns/62.01+One+Shots/62.01+One+Shots) - A collection of notes detailing One Shots with multiple TTRPG systems.
-- [[Blog]]: [TTRPG Games Index | Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/ttrpgs/TTRPGs+Games+Index) - An Index of current and past campaigns and the world-building with them. 
-- [[Campaign]]: [Days of Obligation | Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/ttrpgs/Days+of+Obligation/World) - A collection of notes detailing Nicole's campaign with [[Leah Ferguson|Leah]] in the world of [Numenera](http://numenera.com). 
+>[!danger] Spoil Alerts May Be Found in These Notes
+
+- [[Campaign]]: [Two and a Half Strahds](https://notes.leahferguson.com/games/campaigns/two-and-a-half-strahds) - By [[Leah Ferguson]]. A collection of notes detailing a run through the DnD 5e Curse of Strahd campaign. 
+- [[Campaign]]: [Hoard of the Dragon Queen](https://notes.leahferguson.com/games/campaigns/hoard-of-the-dragon-queen) - [[Leah Ferguson]]. A collection of notes detailing a run through the DnD 5e Hoard of the Dragon Queen campaign.
+- [[Campaign]]: [Days of Obligation](http://notes.leahferguson.com/games/campaigns/numenera-days-of-obligation) - A collection of notes detailing [[Leah Ferguson]]'s' and [[nvanderhoevan|Nicole van der Hoevan]]'s run through a [Numenera](http://numenera.com) campaign.
+- [[One-Shot|One-Shots]]: [One Shots of all Kinds](https://notes.leahferguson.com/60+Games/62+Campaigns/62.01+One+Shots/62.01+One+Shots) - [[Leah Ferguson]]. A collection of notes detailing One Shots with multiple TTRPG systems.
+- [[Blog]]: [TTRPG Games Index | Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/ttrpgs/TTRPGs+Games+Index) by [[nvanderhoevan|Nicole van der Hoevan]]. An Index of current and past campaigns and the world-building with them. 
+- [[Campaign]]: [Days of Obligation | Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/ttrpgs/Days+of+Obligation/World) by [[nvanderhoevan|Nicole van der Hoevan]]. A collection of notes detailing Nicole's campaign with [[Leah Ferguson|Leah]] in the world of [Numenera](http://numenera.com). 
 
 ### Tables
 
@@ -92,6 +94,10 @@ The following Themes and CSS Snippets are popular and widely used among the Obsi
 ### Download and Play Vaults
 
 >[!tip] `SRD` refers to `System Reference Documents` which are usually a collection of paired down rules provided by publishers for third parties to play and design custom content. We are also using this term to define "Starter" vaults created by and for the Obsidian TTRPG Community.
+
+#### 13th Age
+
+- [13th Age SRD](https://github.com/Obsidian-TTRPG-Community/13th-Age-SRD-Markdown): A starter vault for 13th Age 1 and soon to be 13th Age 2, with [[obsidian-5e-statblocks|Fantasy Statblocks]] and [[obsidian-dice-roller|Dice Roller]] support. 
 
 #### Dungeons and Dragons
 

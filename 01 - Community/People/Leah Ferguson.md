@@ -36,11 +36,9 @@ publish: true
 ### Unlisted plugins
 -->
 
+<!--
 ### Others
-- [[Campaign]]: [Two and a Half Strahds | Leah Ferguson](https://notes.leahferguson.com/games/campaigns/two-and-a-half-strahds) - A collection of notes detailing a run through the DnD 5e Curse of Strahd campaign.
-- [[Campaign]]: [Hoard of the Dragon Queen | Leah Ferguson](https://notes.leahferguson.com/games/campaigns/hoard-of-the-dragon-queen) - A collection of notes detailing a run through the DnD 5e Hoard of the Dragon Queen campaign.
-- [[Campaign]]: [Days of Obligation | Leah Ferguson](http://notes.leahferguson.com/games/campaigns/numenera-days-of-obligation) - A collection of notes detailing Leah and [[nvanderhoevan|Nicole van der Hoevan]]'s run through a [Numenera](http://numenera.com) campaign.
-- [[One-Shot|One-Shots]]: [One Shots of all Kinds | Leah Ferguson](https://notes.leahferguson.com/60+Games/62+Campaigns/62.01+One+Shots/62.01+One+Shots) - A collection of notes detailing One Shots with multiple TTRPG systems.
+-->
 
 <!--
 ## Sponsor this author
