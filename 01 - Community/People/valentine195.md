@@ -15,7 +15,7 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
->[!info] This is a duplicate person entry of [[Javalent|Jeremy Valentine]].
+>[!info] This is a duplicate person entry of [[javalent]].
 
 ## Author of
 
