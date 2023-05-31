@@ -10,10 +10,10 @@ publish: true
 
 # Josh Plunkett
 
-<!-- - GitHub: [Josh Plunkett](https://github.com/Josh Plunkett/) ^github-->
+- GitHub: [Josh Plunkett](https://github.com/ObsidianTTRPGProject) ^github
 - Discord: `@sklore#8618` ^discord
 <!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+<!-- - [[Publish sites|Publish site]]: <https://> ^publish -->
 
 %% Feel free to add a bio below this comment %%
 
