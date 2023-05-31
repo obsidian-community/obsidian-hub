@@ -30,7 +30,7 @@ This note collects resources for those using Obsidian for Tabletop Roleplaying G
 - [[Blog]]: [Running Tabletop Games with Obsidian](https://blog.mjb.im/running-tabletop-games-with-obsidian) by Michael Barrett
 - [[Blog]]: [Non-Lazy DMs use Obsidian for D&D](https://nicolevanderhoeven.com/blog/20210930-non-lazy-dms-use-obsidian-for-dnd/) by [[nvanderhoevan|Nicole van der Hoevan]]
 - [[YouTube|YouTube Playlist]]: [Obsidian for DMing](https://www.youtube.com/playlist?list=PLvLJHmYS4OnXZIvguaL6rnvkIbimzVqaI) by [[apolaine|Andy Polaine]] 
-- [[YouTube|YouTube Video]]: [Lazy D&D Talk Show: Obsidian for DM Prep](https://www.youtube.com/watch?v=Dh1nybxv_vQ&t=235s)  by Slyflourish
+- [[YouTube|YouTube Video]]: [Lazy D&D Talk Show: Obsidian for DM Prep](https://www.youtube.com/watch?v=Dh1nybxv_vQ&t=235s) by Slyflourish
 
 ### Players
 
@@ -55,7 +55,7 @@ The following Themes and CSS Snippets are popular and widely used among the Obsi
 
 ### CSS Snippets
 
->[!hint] CSS Snippets are mostly compatible across themes. However, interactions can and do happen. If you experience any unexpected visual results, try disabling the snippet first.
+> [!hint] CSS Snippets are mostly compatible across themes. However, interactions can and do happen. If you experience any unexpected visual results, try disabling the snippet first.
 
 #### Utility
 
@@ -70,7 +70,7 @@ The following Themes and CSS Snippets are popular and widely used among the Obsi
 
 ### [[Campaign]] And [[One-Shot|One Shots]]
 
->[!danger] Spoil Alerts May Be Found in These Notes
+> [!danger] Spoil Alerts May Be Found in These Notes
 
 - [[Campaign]]: [Two and a Half Strahds](https://notes.leahferguson.com/games/campaigns/two-and-a-half-strahds) - By [[Leah Ferguson]]. A collection of notes detailing a run through the DnD 5e Curse of Strahd campaign. 
 - [[Campaign]]: [Hoard of the Dragon Queen](https://notes.leahferguson.com/games/campaigns/hoard-of-the-dragon-queen) - [[Leah Ferguson]]. A collection of notes detailing a run through the DnD 5e Hoard of the Dragon Queen campaign.
