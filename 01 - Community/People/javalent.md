@@ -9,14 +9,14 @@ publish: true
 
 # Javalent
 
-- GitHub: [Javalent](https://github.com/javalent/) ^github
+- GitHub: [javalent](https://github.com/javalent/) ^github
 - Discord: `@javalent#3452` ^discord
 - Website: <https://github.com/javalent> ^website
 - [[Publish sites|Publish site]]: <https://plugins.javalent.com/home> ^publish
 
 %% Feel free to add a bio below this comment %%
 
->[!info] This is an duplicate person entry of [[valentine195|Jeremy Valentine]].
+>[!info] This is a duplicate person entry of [[valentine195|Jeremy Valentine]].
 
 ## Author of
 
