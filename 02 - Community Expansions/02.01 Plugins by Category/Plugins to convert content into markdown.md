@@ -23,6 +23,7 @@ Plugins to convert to [[Markdown]].
 - [[pdf-to-markdown-plugin|PDF to Markdown]]: Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.
 - [[obsidian-pluck|Pluck]]: Quickly create notes in Obsidian from web pages.
 - [[wikilinks-to-mdlinks-obsidian|Wikilinks to MDLinks (Markdown Links)]]: A plugin that converts wikilinks to markdown links and vice versa
+- [[obsidian-md-to-jira|Markdown to Jira Converter]]: This is a markdown to jira markup and backwards converter plugin for Obsidian (https://obsidian.md)
 
 ## Related categories
 
