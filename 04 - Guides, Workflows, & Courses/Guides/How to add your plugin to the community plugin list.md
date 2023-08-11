@@ -23,7 +23,7 @@ This note is based on the instructions of the [obsidian sample plugin readme](ht
 2.  Add the information of your plugin at the end of the list (Don't forget to add a comma after the last plugin!). For your convenience you can copy this template and paste it at the end of the list:
 ```json
   {
-	  "id": "",
+    "id": "",
     "name": "",
     "author": "",
     "description": "",
