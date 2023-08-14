@@ -12,6 +12,11 @@ publish: true
 
 #placeholder/description
 
+A few links found around the place:
+
+- https://github.com/teesloane/esker
+- https://github.com/A/obsidian-blog
+
 %% Hub footer: Please don't edit anything below this line %%
 
 # This note in GitHub
