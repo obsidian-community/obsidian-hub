@@ -13,10 +13,10 @@ publish: true
 - GitHub: [Josh Plunkett](https://github.com/ObsidianTTRPGProject) ^github
 - Discord: `@sklore#8618` ^discord
 <!-- - Website: <https://> ^website-->
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish -->
+- [[Publish sites|Publish site]]: <https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Obsidian+TTRPG+Tutorials> ^publish
 
 %% Feel free to add a bio below this comment %%
-
+Josh Plunkett is a creator of Obsidian TTRPG Campaign Management Tutorials.
 
 ## Author of
 
