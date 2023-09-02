@@ -36,9 +36,10 @@ publish: true
 ### Unlisted plugins
 -->
 
-<!--
+
 ### Others
--->
+
+- [[YouTube|YouTube Playlist]] of [Obsidian for DMing](https://www.youtube.com/playlist?list=PLvLJHmYS4OnXZIvguaL6rnvkIbimzVqaI) ^052eef
 
 
 <!--
