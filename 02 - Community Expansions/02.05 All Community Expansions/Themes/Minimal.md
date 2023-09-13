@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-451856-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-584383-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kepano/obsidian-minimal?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/kepano/obsidian-minimal/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/kepano/obsidian-minimal?color=573E7A&logo=github&style=for-the-badge)
