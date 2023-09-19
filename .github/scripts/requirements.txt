@@ -1,7 +1,7 @@
 Jinja2==3.0.3
 PyYAML==6.0
 requests==2.27.1
-approvaltests==4.1.0
+approvaltests==5.13.0
 pytest==6.2.5
 pytest-runner==6.0.0
 mypy==0.931
