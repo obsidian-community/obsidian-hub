@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 - Submit plugin
 tags:
 - seedling
@@ -15,18 +15,18 @@ This note is based on the instructions of the [obsidian sample plugin readme](ht
 1.   [[How to release a new version of your plugin|Publish an initial version]] of your plugin.
 2.   Make sure you have a `README.md` file in the root of your repo, clearly describing the plugins purpose and providing clear usage instructions.
 3.  Add a license to your repository. You can use [Choose a License](https://choosealicense.com/) if you don't know which one to pick.
-4.  Check that your `manifest.json` is at the root of your repo. 
+4.  Check that your `manifest.json` is at the root of your repo.
 
 ## Submitting your plugin
 
-1.  Fork the [obsidian-releases](https://github.com/obsidianmd/obsidian-releases#community-plugins) repo and edit the `community-plugins.json` file. If you prefer to do it from GitHub's web interface, you can follow this instructions, but submit your changes as described in [[How to add content through GitHub]] or [[How to add your plugin to the community plugin list#Submitting your plugin]]. 
+1.  Fork the [obsidian-releases](https://github.com/obsidianmd/obsidian-releases#community-plugins) repo and edit the `community-plugins.json` file. If you prefer to do it from GitHub's web interface, you can follow this instructions, but submit your changes as described in [[How to add content through GitHub]] or [[How to add your plugin to the community plugin list#Submitting your plugin]].
 2.  Add the information of your plugin at the end of the list (Don't forget to add a comma after the last plugin!). For your convenience you can copy this template and paste it at the end of the list:
 	```json
     {
-		"id": ""
+		"id": "",
         "name": "",
         "author": "",
-		"description": ""
+		"description": "",
         "repo": "<github username>/<repository>",
 		"branch": "master"
     }
