@@ -450,7 +450,7 @@ Plugins which have not yet been categorized by the community.
 - [[quote-of-the-day|Quote of the Day]]: Inserts random quotes in the editor
 - [[quoth|Quoth]]: More flexible embedding. Embed precise selections, inline embeds, optionally include author and title.
 - [[obsidian-quran-lookup|QuranLookup]]: This is a Quran Lookup plugin for Obsidian. This replaces chapter:verse shorthand with verse text in arabic and translation.
-- [[rpg-manager|RPG Manager]]: A plugin to manage your Tabletop Role Playing Game campaigns for Obsidian.
+- [[rpg-manager|RPG Manager]]: A plugin to manage your Tabletop Role Playing Game [[Campaign|campaigns]] for Obsidian.
 - [[rss-reader|RSS Reader]]: Read RSS Feeds from within obsidian
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
 - [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate

@@ -1,9 +1,20 @@
-# Obsidian-Dice-Roller-Tables-Collection
-I made a collection of [Dice Roller](https://github.com/valentine195/obsidian-dice-roller) Tables that I use to run my DND campaigns! You can find a link to it [here](https://github.com/WychWitch/Obsidian-Dice-Roller-Tables), download/clone it and add it to your vault!
+---
+aliases: 
+- 
+tags:
+- seedling
+---
+
+# Obsidian Dice Roller Tables Collection
+
+I made a collection of [Dice Roller](https://github.com/valentine195/obsidian-dice-roller) Tables that I use to run my DND campaigns! You can find them at my [Github Repository](https://github.com/WychWitch/Obsidian-Dice-Roller-Tables). Download or clone it, and add it to your vault!
 
 Before using, **Please make update/install to the latest version of the [Dice Roller](https://github.com/valentine195/obsidian-dice-roller) and [Buttons](https://github.com/shabegom/buttons) plugins to be able to use these pages!**
 
-It's also recommended that you turn off *Display formula with results*, *Display Lookup Table Roll*, and *Show Dice Button* for maximum compatibility!
+It's also recommended that you turn off the following settings within Dice Roller for maximum compatibility: 
+- *Display formula with results*
+- *Display Lookup Table Roll*
+- *Show Dice Button*
 
 ## Example of NPC Generator
 ![2hDw43Oiub](https://user-images.githubusercontent.com/1291820/142545127-0690300d-1f55-4563-a523-0a2e715d483f.gif)
@@ -89,4 +100,4 @@ print(f"Converted and saved to {args.output}!")
 
 # This note in GitHub
 
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/03%20-%20Showcases%20%26%20Templates/Plugin%20Showcases/Obsidian-Dice-Roller-Tables-Collection.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/03%20-%20Showcases%20%26%20Templates/Plugin%20Showcases/Obsidian-Dice-Roller-Tables-Collection.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/03%20-%20Showcases%20%26%20Templates/Plugin%20Showcases/Obsidian-Dice%20Roller%20Tables%20Collection.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/03%20-%20Showcases%20%26%20Templates/Plugin%20Showcases/Obsidian%20Dice%20Roller%20Tables%20Collection.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

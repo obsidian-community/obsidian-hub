@@ -1,25 +1,29 @@
 ---
 aliases:
 - Jeremy Valentine
+- Javalantasy
 tags:
-- 
+- incubator
 publish: true
 ---
 
-# Jeremy Valentine
+# Javalent
 
 - GitHub: [javalent](https://github.com/javalent/) ^github
-<!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/valentine195> ^website
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+- Discord: `@javalent#3452` ^discord
+- Website: <https://github.com/javalent> ^website
+- [[Publish sites|Publish site]]: <https://plugins.javalent.com/home> ^publish
 
 %% Feel free to add a bio below this comment %%
 
+>[!info] This is a duplicate person entry of [[valentine195|Jeremy Valentine]].
 
 ## Author of
 
 %% Begin Hub: Released contributions %%
+
 ### Plugins
+
 - [[obsidian-leaflet-plugin|Obsidian Leaflet]]
 - [[obsidian-dice-roller|Dice Roller]]
 - [[obsidian-admonition|Admonition]]
@@ -34,9 +38,10 @@ publish: true
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
 
-<!--
 ### Unlisted plugins
--->
+
+- [Calendarium | Javalent](https://github.com/javalent/the-calendarium) - The ultimate Obsidian plugin for crafting mind-bending fantasy and sci-fi calendars; a successor to [[fantasy-calendar|Fantasy Calendar]].
+- [Obsidian Notifier | Valentine195](https://github.com/valentine195/obsidian-notifier) - Add OS-Level Notifications to Obsidian. This is a work in progress plugin.
 
 <!--
 ### Others
@@ -46,8 +51,8 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @javalent on GitHub Sponsors](https://github.com/sponsors/javalent) ^github-sponsor-->
-<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+- [[GitHub sponsors]]: [Sponsor @valentine195 on GitHub Sponsors](https://github.com/valentine195) ^github-sponsor
+- [[Buy me a coffee]]: <https://www.buymeacoffee.com/valentine195> ^buy-me-a-coffee
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->
 
