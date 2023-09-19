@@ -2,7 +2,7 @@ jinja2
 pyyaml
 requests
 approvaltests==3.5.0
-pytest
+pytest=7.3.2
 pytest-runner
 mypy
 types-PyYAML
