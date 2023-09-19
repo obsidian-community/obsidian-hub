@@ -18,6 +18,7 @@ Plugins to convert from [[Markdown]].
 - [[mochi-cards-exporter|Mochi Cards Exporter]]: Export Markdown notes to Mochi cards from within obsidian
 - [[obsidian-pandoc|Obsidian Pandoc]]: This is a Pandoc export plugin for Obsidian. It provides commands to export to formats like DOCX, ePub and PDF.
 - [[obsidian-static-file-server|Static File Server]]: Host obsidian subfolders as static file servers.
+- [[obsidian-md-to-jira|Markdown to Jira Converter]]: This is a markdown to jira markup and backwards converter plugin for Obsidian (https://obsidian.md)
 
 ## Related categories
 

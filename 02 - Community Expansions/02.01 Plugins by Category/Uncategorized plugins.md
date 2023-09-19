@@ -319,7 +319,6 @@ Plugins which have not yet been categorized by the community.
 - [[markdoc|Markdoc]]: Basic support for Markdoc files
 - [[markdown-table-editor|Markdown Table Editor]]: An Obsidian plugin to provide an editor for Markdown tables. It can open CSV, Microsoft Excel/Google Sheets data as Markdown tables from Obsidian Markdown editor.
 - [[markdown-shortcuts|Markdown shortcuts]]: Allows to write markdown from shortcuts (example: >h1 -> #).
-- [[obsidian-md-to-jira|Markdown to Jira Converter]]: This is a markdown to jira markup and backwards converter plugin for Obsidian (https://obsidian.md)
 - [[marp|Marp]]: Plugin for using Marp on Obsidian.
 - [[marp-slides|Marp Slides]]: Create markdown-based Marp presentations in Obsidian
 - [[material-symbols|Material Symbols]]: This plugin adds the material symbols (outlined) to obsidian
