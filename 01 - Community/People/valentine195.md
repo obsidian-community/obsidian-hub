@@ -2,7 +2,7 @@
 aliases:
 - Jeremy Valentine
 tags:
-- 
+- incubator
 publish: true
 ---
 
@@ -15,6 +15,7 @@ publish: true
 
 %% Feel free to add a bio below this comment %%
 
+>[!info] This is a duplicate person entry of [[javalent]].
 
 ## Author of
 

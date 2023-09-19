@@ -10,9 +10,9 @@ Link: [YouTube](https://youtube.com/playlist?list=PLV5XWfKkFpk7MJTKv5YdSSpT9b-vL
 
 Hosted by [[Josh Plunkett|Joshua Plunkett]].
 
-Looking for the perfect TTRPG Campaign Manager? Look no further.
+Looking for the perfect TTRPG [[Campaign]] Manager? Look no further.
 
-Obsidian.md is free and has a whole heap of plugins that are designed to turn this simple note taking tool into a Campaign Manager that offers the same functionality as other common tools such as Realm Works, World Anvil, etc. 
+Obsidian is free and has a whole heap of plugins that are designed to turn this simple note taking tool into a Campaign Manager that offers the same functionality as other common tools such as Realm Works, World Anvil, etc. 
 
 ## Patreon - Tutorial and Resource List
 Patreon is where I share my content. If you are looking for video tutorials or the resources I talk about in my videos (such as the [Plugin List](https://www.patreon.com/posts/59873493) or [Templates](https://www.patreon.com/posts/59509023)); then this is where I post them. 

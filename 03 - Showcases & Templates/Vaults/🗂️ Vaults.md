@@ -50,7 +50,7 @@ After that, the interesting bit comes from the *why* you organized things the wa
 
 ### Starter vaults or kits
 
-Unfortunately, we can't host starter vaults or kits in the community vault itself, or it would be caos! We recommend hosting your vault externally (GitHub is recommended) and providing a link as described in [[#Contribution steps]].
+Unfortunately, we can't host starter vaults or kits in the community vault itself, or it would be chaos! We recommend hosting your vault externally (GitHub is recommended) and providing a link as described in [[#Contribution steps]].
 
 ### Contribution steps
 

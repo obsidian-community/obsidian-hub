@@ -319,7 +319,6 @@ Plugins which have not yet been categorized by the community.
 - [[markdoc|Markdoc]]: Basic support for Markdoc files
 - [[markdown-table-editor|Markdown Table Editor]]: An Obsidian plugin to provide an editor for Markdown tables. It can open CSV, Microsoft Excel/Google Sheets data as Markdown tables from Obsidian Markdown editor.
 - [[markdown-shortcuts|Markdown shortcuts]]: Allows to write markdown from shortcuts (example: >h1 -> #).
-- [[obsidian-md-to-jira|Markdown to Jira Converter]]: This is a markdown to jira markup and backwards converter plugin for Obsidian (https://obsidian.md)
 - [[marp|Marp]]: Plugin for using Marp on Obsidian.
 - [[marp-slides|Marp Slides]]: Create markdown-based Marp presentations in Obsidian
 - [[material-symbols|Material Symbols]]: This plugin adds the material symbols (outlined) to obsidian
@@ -450,7 +449,7 @@ Plugins which have not yet been categorized by the community.
 - [[quote-of-the-day|Quote of the Day]]: Inserts random quotes in the editor
 - [[quoth|Quoth]]: More flexible embedding. Embed precise selections, inline embeds, optionally include author and title.
 - [[obsidian-quran-lookup|QuranLookup]]: This is a Quran Lookup plugin for Obsidian. This replaces chapter:verse shorthand with verse text in arabic and translation.
-- [[rpg-manager|RPG Manager]]: A plugin to manage your Tabletop Role Playing Game campaigns for Obsidian.
+- [[rpg-manager|RPG Manager]]: A plugin to manage your Tabletop Role Playing Game [[Campaign|campaigns]] for Obsidian.
 - [[rss-reader|RSS Reader]]: Read RSS Feeds from within obsidian
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
 - [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate

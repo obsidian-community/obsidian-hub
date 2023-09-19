@@ -1,6 +1,6 @@
 ---
 aliases: 
-- 
+- Buy me a Kofi
 tags:
 - seedling
 publish: true

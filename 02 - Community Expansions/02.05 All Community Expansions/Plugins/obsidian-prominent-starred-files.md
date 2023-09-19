@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-prominent-starred-files
 aliases:
-- Prominent Starred Files
+- Prominent Bookmarked Files
 tags: 
 - 
 publish: true

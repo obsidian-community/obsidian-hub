@@ -1,6 +1,6 @@
 ---
 aliases:
-- 
+- Nicole van der Hoevan
 tags:
 - seedling
 publish: true
@@ -8,7 +8,7 @@ publish: true
 
 # nvanderhoevan
 
-<!-- - GitHub: [nvanderhoevan](https://github.com/nvanderhoevan/) ^github-->
+- GitHub: [nvanderhoevan](https://github.com/nvanderhoevan/) ^github
 <!-- - Discord: `@` ^discord-->
 <!-- - Website: <https://> ^website-->
 [[Publish sites|Publish site]]: <https://notes.nicolevanderhoeven.com/>  ^publish
@@ -36,27 +36,22 @@ publish: true
 ### Unlisted plugins
 -->
 
-### Others
-
-- [Non-Lazy DMs use Obsidian for D&D | Nicole van der Hoeven](https://nicolevanderhoeven.com/blog/20210930-non-lazy-dms-use-obsidian-for-dnd/) ^f5500b
-- [How I use Obsidian for D&D - Player's Edition | Nicole van der Hoeven](https://nicolevanderhoeven.com/blog/20210809-dnd-obsidian-player/) ^b2167e
-- [[YouTube|YouTube Video]]: [How I use Obsidian to run and play D&D online - YouTube](https://www.youtube.com/watch?v=3pt6_srUZ7U) ^b28090
-
-
 <!--
-## Sponsor this author
+### Others
 -->
+
+## Sponsor this author
 
 <!-- - [[GitHub sponsors]]: [Sponsor @nvanderhoevan on GitHub Sponsors](https://github.com/sponsors/nvanderhoevan) ^github-sponsor-->
-<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
+- [[Buy me a coffee]]: <https://ko-fi.com/nicolevdh> ^buy-me-a-coffee
 <!-- - [[PayPal]]: <https://> ^paypal-->
-<!-- - [[Patreon]]: <https://> ^patreon-->
+- [[Patreon]]: <https://www.patreon.com/nicolevdh> ^patreon
 
-<!--
+
 ## Follow this author
--->
 
-<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
+
+- [[YouTube Channels|On YouTube]]: <https://www.youtube.com/c/NicolevanderHoeven> ^youtube
 <!-- - Twitter: <https://> ^twitter-->
 <!-- - ... -->
 
