@@ -16,7 +16,9 @@ Then this is the right folder for you. Here, the various technical and knowledge
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[05 - Concepts/A Brief History and Ethos of the Digital Garden|A Brief History and Ethos of the Digital Garden]]
+-  [[05 - Concepts/Blog|Blog]]
 -  [[05 - Concepts/Buy me a coffee|Buy me a coffee]]
+-  [[05 - Concepts/Campaign|Campaign]]
 -  [[05 - Concepts/Digital garden|Digital garden]]
 -  [[05 - Concepts/GitHub sponsors|GitHub sponsors]]
 -  [[05 - Concepts/HTML|HTML]]
@@ -33,6 +35,7 @@ Then this is the right folder for you. Here, the various technical and knowledge
 -  [[05 - Concepts/Obsidian queries|Obsidian queries]]
 -  [[05 - Concepts/Obsidian Sync|Obsidian Sync]]
 -  [[05 - Concepts/Obsidian|Obsidian]]
+-  [[05 - Concepts/One-Shot|One-Shot]]
 -  [[05 - Concepts/PARA|PARA]]
 -  [[05 - Concepts/Patreon|Patreon]]
 -  [[05 - Concepts/PayPal|PayPal]]
