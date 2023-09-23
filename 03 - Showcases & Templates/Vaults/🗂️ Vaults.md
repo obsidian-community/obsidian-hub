@@ -19,6 +19,7 @@ tags:
 -  [[03 - Showcases & Templates/Vaults/Obsidian JG Method|Obsidian JG Method]]
 -  [[03 - Showcases & Templates/Vaults/Obsidian Starter Templates|Obsidian Starter Templates]]
 -  [[03 - Showcases & Templates/Vaults/PARA Starter Kit|PARA Starter Kit]]
+-  [[03 - Showcases & Templates/Vaults/Periodic PARA|Periodic PARA]]
 -  [[03 - Showcases & Templates/Vaults/Qualitative Analysis Environment by Ryan Murphy|Qualitative Analysis Environment by Ryan Murphy]]
 -  [[03 - Showcases & Templates/Vaults/SlRvb's Journaling Setup|SlRvb's Journaling Setup]]
 -  [[03 - Showcases & Templates/Vaults/SlRvb's MediaDB Setup|SlRvb's MediaDB Setup]]
