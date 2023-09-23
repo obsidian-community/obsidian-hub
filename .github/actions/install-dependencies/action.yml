@@ -7,5 +7,7 @@ runs:
         run: |
           cd .github/scripts
           pip3 install --upgrade --no-cache-dir -r requirements.txt
+          # Display the package versions used
+          python -m pip freeze -r requirements.txt
           sudo apt install -y tree
         shell: bash
