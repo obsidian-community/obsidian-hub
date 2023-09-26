@@ -19,11 +19,11 @@ Plugins to convert to [[Markdown]].
 - [[obsidian-extract-pdf-annotations|Extract PDF Annotations]]: Extract PDF Annotations (Notes and Highlights) and sort them by topics
 - [[extract-url|Extract url content]]: Extract url converting content into markdown
 - [[obsidian-file-path-to-uri|File path to URI]]: Convert file path to uri for easier use of links to local files outside of Obsidian
+- [[obsidian-md-to-jira|Markdown to Jira Converter]]: This is a markdown to jira markup and backwards converter plugin for Obsidian (https://obsidian.md)
 - [[obsidian-extract-pdf-highlights|PDF Highlights]]: Extract highlights, underlines and annotations from your PDFs into Obsidian
 - [[pdf-to-markdown-plugin|PDF to Markdown]]: Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.
 - [[obsidian-pluck|Pluck]]: Quickly create notes in Obsidian from web pages.
 - [[wikilinks-to-mdlinks-obsidian|Wikilinks to MDLinks (Markdown Links)]]: A plugin that converts wikilinks to markdown links and vice versa
-- [[obsidian-md-to-jira|Markdown to Jira Converter]]: This is a markdown to jira markup and backwards converter plugin for Obsidian (https://obsidian.md)
 
 ## Related categories
 
