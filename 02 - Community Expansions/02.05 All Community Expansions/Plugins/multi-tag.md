@@ -1,0 +1,39 @@
+---
+plugin-id: multi-tag
+aliases:
+- Multi Tag
+tags: 
+- 
+publish: true
+---
+
+%% ----- Badges ----- %%
+
+![GitHub all releases](https://img.shields.io/github/downloads/fez-github/obsidian-multi-tag/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/fez-github/obsidian-multi-tag?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/fez-github/obsidian-multi-tag/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/fez-github/obsidian-multi-tag?color=573E7A&logo=github&style=for-the-badge)
+
+%% ----- Badges ----- %%
+
+%% ----- Do not edit this section ----- %%
+
+# Multi Tag
+
+Plugin ID: `multi-tag`
+Links: [GitHub repository](https://github.com/fez-github/obsidian-multi-tag) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=multi-tag)
+Developed by: [[fez-github]]
+Mobile compatible: [[Desktop-only plugins|No]]
+
+Adds a tag to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.
+
+%% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[fez-github#Sponsor this author]] %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/multi-tag.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/multi-tag.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
