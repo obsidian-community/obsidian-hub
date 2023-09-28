@@ -841,6 +841,9 @@ Plugins which have not yet been categorized by the community.
 - [[js-engine|JS Engine]]: Run JavaScript from within your notes.
 - [[mononote|Mononote]]: Ensures each note occupies only one tab. If a note is already open, its existing tab will be focussed instead of opening the same file in the current tab.
 - [[cannoli|Cannoli]]: Create and run LLM scripts on the Obsidian Canvas.
+- [[multiple-notes-outline|Multiple Notes Outline]]: Add custom views which show outlines of multiple notes with headings, links, tags and list items.
+- [[url-display|URL Display]]: Extract and display external URLs of the note in Obsidian.
+- [[change-case|Change Case]]: Plugin to let you change the case (UPPER CASE, camelCase, snake_case, etc) of the current selection.
 
 
 %% Hub footer: Please don't edit anything below this line %%
