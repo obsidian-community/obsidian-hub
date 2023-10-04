@@ -35,7 +35,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-advanced-codeblock|Advanced Codeblock]]: Give additioinal features to  code blocks.
 - [[advanced-merger|Advanced Merger]]: Merge a folder of notes for easier export.
 - [[advanced-paste|Advanced Paste]]: This plugin provides advanced paste commands and enables you to create custom transforms for pasting.
-- [[advanced-random-note|Advanced Random Note]]: Create commands from custom queries to open random notes
+- [[advanced-random-note|Advanced Random Note]]: Open random notes with custom queries in languages like Dataview and Regex.
 - [[obsidian-advanced-slides|Advanced Slides]]: Create markdown-based presentations in Obsidian
 - [[obsidian-aggregator|Aggregator]]: This plugin helps you gather information from files, and make a summary in the file.
 - [[obsidian-agile-task-notes|Agile Task Notes]]: Import your tasks from your TFS (Azure or Jira) to take notes on them and make todo-lists!
@@ -52,7 +52,6 @@ Plugins which have not yet been categorized by the community.
 - [[arcana|Arcana]]: A collection of AI powered tools
 - [[archwiki-reader|ArchWiki Reader]]: Read any ArchWiki page directly in Obsidian
 - [[obsidian-archivebox-plugin|ArchiveBox Plugin]]: Archives links to ArchiveBox, a self-hosted archiver, upon file modification. Requires ArchiveBox 0.6.3+
-- [[arrows|Arrows]]: Write actual arrow chracters without having to copy-paste them.
 - [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]: A plugin to render asciidoc blocks in Obsidian, initially asciidoc tables.
 - [[askify-obsidian-sync|Askify Sync]]: This plugin help to sync notes from Askify (https://askify.video/) to Obsidian
 - [[at-people|At People]]: Use the @ to create links to people files.
@@ -212,7 +211,6 @@ Plugins which have not yet been categorized by the community.
 - [[double-click-tab|Double Click Tab]]: A plugin to modify the default behavior when you double click on the tab title, like close tab.
 - [[double-colon-conceal|Double Colon Conceal]]: Display double colon (i.e. Dataview inline fields) as a single colon for more natural reading experience.
 - [[obsidian-doubleshift|Doubleshift]]: Open the command palette by pressing Shift (or any other key) twice like in IntelliJ and create your own shortcuts
-- [[obsidian-drag-n-drop-plugin|Drag-n-Drop for blocks]]: Allow moving/copying/and creation embeds for blocks with drag-n-drop just like Logseq or Roam
 - [[draw-harada-method|Draw Harada Method]]: This plugin is used to draw the harada method. Create your own 1 goal, 8 plans, and 64 actions
 - [[due-when|Due When]]: This adds shortcuts to insert due dates for end of this week or end of next week.
 - [[duplicate-line|Duplicate Line]]: Duplicate Line(s) Up Down, duplicate selection Up Down, right, left. Support Multicursor
@@ -626,7 +624,6 @@ Plugins which have not yet been categorized by the community.
 - [[tasks-to-omnifocus|Send Tasks to OmniFocus]]: An Obsidian plugin will extract tasks from the current note and create them in OmniFocus.
 - [[obsidian-sentence-navigator|Sentence Navigator]]: Manipulate sentences as a unit of movement. Select, move and delete by whole sentences.
 - [[obsidian-sequence-hotkeys|Sequence Hotkeys]]: This plugin allows you to set hotkeys with key sequences instead of a single chord.
-- [[set-in-obsidian|Set In Obsidian]]: Plugin for time planning
 - [[settings-search|Settings Search]]: Globally search settings in Obsidian.md
 - [[obsidian-share-as-gist|Share as Gist]]: Shares an Obsidian note as a GitHub.com gist
 - [[share-to-cubox|Share to Cubox]]: Share Obsidian notes to Cubox.
@@ -638,7 +635,6 @@ Plugins which have not yet been categorized by the community.
 - [[silicon|Silicon AI]]: Add some intelligence to your notes with Silicon AI
 - [[simple-canvasearch|Simple CanvaSearch]]: Quickly fuzzy-search and shift focus to notes or cards within the currently opened canvas.
 - [[simple-dice-roller|Simple Dice Roller]]: A plug and play solution that allows you to average and simulate dice formulas.
-- [[simple-embeds|Simple Embeds]]: Replaces links, like Twitter and YouTube, with embeds when previewing a file.
 - [[obsidian-simple-mention|Simple Mention]]: Get highlighted mentions and mention suggestions. Find all occurrences of a mention
 - [[simple-note-quiz|Simple Note Quiz]]: Start a simple quiz on your current note
 - [[simple-note-review|Simple Note Review]]: Simple, customizable plugin for easy note review, resurfacing  & repetition.
@@ -844,6 +840,27 @@ Plugins which have not yet been categorized by the community.
 - [[multiple-notes-outline|Multiple Notes Outline]]: Add custom views which show outlines of multiple notes with headings, links, tags and list items.
 - [[url-display|URL Display]]: Extract and display external URLs of the note in Obsidian.
 - [[change-case|Change Case]]: Plugin to let you change the case (UPPER CASE, camelCase, snake_case, etc) of the current selection.
+- [[send-to-ghost|Send to Ghost]]: Send and publish notes to your Ghost blog with a single click
+- [[content-linker|Content Linker]]: A plugin for searching and adding bi-directional links to existing content in Obsidian Vault.
+- [[swiss-army-knife|Swiss army knife]]: Collection of various utilities (e.g. duplicate empty line remover)
+- [[share-to-notionnext|Share to NotionNext]]: Shares obsidian md file to notion with notion api for NotionNext web deploy, originally created by EasyChris/obsidian-to-notion.
+- [[inline-math|No more flickering inline math]]: No longer disturbed by flickering inline math in Obsidian.
+- [[expiration-date-tracker|Expiration-Date-Tracker]]: Keep track of all expiration dates, for example, for your groceries.
+- [[eml-reader|Email Reader]]: Provide a preview mode for embeded `*.eml` files.
+- [[size-history|Size History]]: Admire the growth of your Obsidian vault with a "hand-drawn" chart.
+- [[zettelflow|ZettelFlow]]: Helps you to create and manage your notes in a Zettelkasten way via Canvas.
+- [[excel|Excel]]: Create spreadsheets and easily embed them in Markdown
+- [[canvas-send-to-back|Canvas Send to Back]]: Send a card in Obsidian Canvas to be behind all other cards.
+- [[sync-contacts-macos|Sync Contacts on macOS]]: Sync your contacts from macOS to your Obsidian Vault.
+- [[tag-page-md|Tag Page]]: Dynamically generate and update tag-specific pages, offering a consolidated view of each tag's references across your vault.
+- [[contentful-publisher|Contentful Publisher]]: Manage your Contentful content from Obsidian.
+- [[zotlit|ZotLit]]: Plugin to integrate with Zotero, create literature notes and insert citations from a Zotero library.
+- [[text-transform|Text Transform]]: Transform text to different casings using the command palette or keyboard shortcuts.
+- [[copy-metadata|Copy Metadata]]: Copy file metadata to clipboard. Insert copied metadata to file name.
+- [[text-conversions|Text Conversions]]: Perform various text conversions on the selected text
+- [[palta-note|Palta Note]]: Render Bhatkhande notation for Tabla.
+- [[qb-reader-parser|QB Reader Parser]]: Parse tossups from QB Reader into individual clues to send to Anki.
+- [[tags-overview|Tags Overview]]: Adds an extended tags panel where tagged files can be overviewed, filtered and accessed in an easy way.
 
 
 %% Hub footer: Please don't edit anything below this line %%
