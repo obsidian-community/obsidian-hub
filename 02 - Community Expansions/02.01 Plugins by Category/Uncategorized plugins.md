@@ -471,7 +471,7 @@ Plugins which have not yet been categorized by the community.
 - [[numerals|Numerals]]: Numerals turns any code block into an advanced calculator. Evaluates math expressions on each line of a code block, including units, currency, and optional TeX rendering.
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
 - [[oz-calendar|OZ Calendar]]: View your notes in Calendar using any YAML key with date
-- [[obligator|Obligator]]: Obligator is a replacement for daily-todos which copies over unchecked todo items under a specified header
+- [[obligator|Obligator]]: A replacement for daily-todos which functions like a virtual bullet journal by copying over unchecked todo items under a specified header.
 - [[obsidoom|ObsiDOOM]]: Play DOOM and many other retro games in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.
 - [[obsidian-attendance|Obsidian Attendance]]: This plugin helps you track attendance.
 - [[obsidian-badge|Obsidian Badge]]: This is a plugin to show badge for Obsidian.
@@ -502,7 +502,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-tweaks|ObsidianTweaks]]: Adds some convenient tweaks including improved toggling and ergonomic commands
 - [[obsidiosaurus|Obsidiosaurus]]: Connect your vault to Docusaurus
 - [[obsius-publish|Obsius Publish]]: Make single notes instantly available on the web.
-- [[obsidian-old-note-admonitor|Old Note Admonitor]]: This Obsidian plugin shows warnings if the note has not been updated for over specific days
+- [[obsidian-old-note-admonitor|Old Note Admonitor]]: This Obsidian plugin shows warnings if the note has not been updated in the last specific days
 - [[omnisearch|Omnisearch]]: A search engine that just works
 - [[obsidian-omnivore|Omnivore]]: This is an Omnivore plugin for Obsidian.
 - [[onyx-boox-extractor|Onyx Boox Annotation & Highlight Extractor]]: This plugin extracts annotations and highlights files exported from Onyx Boox tablets, and converts them to reference, literature and permanent notes fitting to the Zettelkasten method.
@@ -730,7 +730,7 @@ Plugins which have not yet been categorized by the community.
 - [[unitade|Unitade]]: Effortlessly treat any file extension as note, organize diverse file formats in your vault.
 - [[obsidian-upcoming|Upcoming]]: Open upcoming and/or past daily notes in their own panes, tabs, or windows.
 - [[update-relative-links|Update Relative Links]]: Update relative links.
-- [[frontmatter-modified-date|Update modified field on edit]]: Automatically update a frontmatter modified date field when you modify your note. This will not use the filesystem time, but only when you modify the file through Obsidian.
+- [[frontmatter-modified-date|Update modified date]]: Automatically update a frontmatter modified date field when you modify your note. This will not use the filesystem time, but only when you modify the file through Obsidian. Optionally store a history of edit times.
 - [[update-time-on-edit|Update time on edit]]: Keep front matter in sync with the last edit time
 - [[obsidian-user-plugins|User Plugins]]: Use js files or snippets to code your own quick and dirty plugins
 - [[vault-2-book|Vault 2 Book]]: Converts your notes to a book creating a single file containing all the notes linked
@@ -742,7 +742,7 @@ Plugins which have not yet been categorized by the community.
 - [[vika-sync|Vika Sync]]: Sync your note to vika
 - [[vim-toggle|Vim Toggle]]: A plugin for Obsidian that enables the toggling vim mode to on and off inside of the editor.
 - [[obsidian-vocabulary-view|Vocabulary View]]: Write down some words with their explanations and preview them in a vocabulary test style
-- [[voice|Voice]]: Listen to your notes aloud to you.
+- [[voice|Voice]]: Let your notes talk and speak to you and enhance your Obsidian experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.
 - [[waka_time_box|Waka time box]]: Show daily coding activity from WakaTime
 - [[obsidian-wakatime|WakaTime]]: Automatic time tracking and metrics generated from your Obsidian usage activity.
 - [[wallabag|Wallabag]]: Sync your Wallabag articles.
@@ -793,7 +793,7 @@ Plugins which have not yet been categorized by the community.
 - [[youversion-linker|YouVersion Linker]]: Automatically link bible verses in your notes to YouVersion bible.
 - [[checkbox-reorder|Checkbox Reorder]]: Reorder completed checkboxes to the end of the according list.
 - [[gnome-terminal-loader|Gnome Terminal Loader]]: Adds sidebar action icons to quickly open the Gnome Terminal or to have the Gnome Terminal run a Python module
-- [[media-sync|Media Sync]]: Downloads images from the image URLs in documents and displays the content.
+- [[media-sync|Media Sync]]: Downloads media files(eg. images, PDFs) from the URLs in documents and displays the content.
 - [[auto-literature|autoLiterature]]: Assist you in taking notes for your literature.
 - [[local-backup|Local Backup]]: Automatically creates a local backup of the vault.
 - [[chatgpt-definitions|ChatGPT Definition]]: Let your AI assistant ChatGPT define words and concepts for you.
@@ -861,6 +861,29 @@ Plugins which have not yet been categorized by the community.
 - [[palta-note|Palta Note]]: Render Bhatkhande notation for Tabla.
 - [[qb-reader-parser|QB Reader Parser]]: Parse tossups from QB Reader into individual clues to send to Anki.
 - [[tags-overview|Tags Overview]]: Adds an extended tags panel where tagged files can be overviewed, filtered and accessed in an easy way.
+- [[next-link|Next Link]]: Jump quickly between note links.
+- [[writing-goals|Writing Goals]]: Set dynamic writing goals for notes and folders in Obsidian.
+- [[auto-archive|Auto Archive]]: Automatically archive notes once they reach a certain age
+- [[cardify|Cardify]]: This is a plugin to cardify markdown contents into subsequent markdown files.
+- [[vocabulary-cards|Vocabulary Cards]]: An easy way to display vocabulary words as flashcards and as a list.
+- [[calctex|Calctex]]: Calculate LaTeX formulas inside Obsidian.
+- [[timetracker|Timetracker]]: Adds a stopwatch whose value can be inserted in the editor per hotkey
+- [[eleven-labs|Eleven Labs]]: Turn your Obsidian notes into text-to-speech audio files with Eleven Labs.
+- [[digital-paper|digital paper]]: turn off backspace and undo, just like writing with a pen on real paper.
+- [[merge-notes|Merge Notes]]: Merge the selected notes.
+- [[qiniu-image-uploader|Qiniu Image Uploader]]: Uploads images from your clipboard to qiniu.com and embeds uploaded image to your note.
+- [[html-tabs|HTML Tabs]]: Create and render Tabs and tab panels in your notes.
+- [[vscode-editor|VSCode Editor]]: Edit Code Files like VSCode.
+- [[anki-sync-plus|AnkiSync+]]: Integration between Obsidian and Anki.
+- [[moviegrabber|Moviegrabber]]: Grab movie data from public APIs and transform it into notes that can be used with dataview and properties
+- [[geocoding-properties|Geocoding Properties]]: Insert address / location data from geocoding APIs as Obsidian properties.
+- [[auto-tag|Auto Tag]]: Easily generate relevant tags for your Obsidian notes or selected text.
+- [[timer|Timer]]: Allows you to measure time.
+- [[oin-gotoheading|Go To Heading]]: Quickly navigate between headings
+- [[gpg-crypt|gpgCrypt]]: Seamlessly encrypts your notes using GPG. Supports smartcards for enhanced security! Keep your information safe and accessible only to you.
+- [[share-note|Share Note]]: Instantly share a note, with the full theme and content exactly like you see in Reading View. Data is shared encrypted by default, and only you and the person you send it to have the key.
+- [[todotxt-codeblocks|Todo.txt Codeblocks]]: Manage your tasks inside codeblocks according to the Todo.txt specification.
+- [[screengarden-obsidian|screen.garden]]: Collaborate, publish, and work across PKM systems with screen.garden.
 
 
 %% Hub footer: Please don't edit anything below this line %%
