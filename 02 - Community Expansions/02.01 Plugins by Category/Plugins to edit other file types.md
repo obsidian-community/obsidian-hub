@@ -13,7 +13,9 @@ Plugins enabling Obsidian to edit files other than markdown `.md`.
 
 ## Plugins in this category
 
+- [[bpmn-plugin|BPMN Plugin]]: Edit *.bpmn* files in Obsidian
 - [[csv-obsidian|CSV Editor]]: Edit CSV files in Obsidian
+- [[dmn-plugin|DMN Plugin]]: Edit *.dmn* files in Obsidian
 - [[obsidian-excalidraw-plugin|Excalidraw]]: An Obsidian plugin to edit and view Excalidraw drawings
 - [[obsidian-fountain|Fountain]]: Fountain Support for Obsidian
 - [[obsidian-org-mode|Org Mode]]: Add Org Mode support to Obsidian.

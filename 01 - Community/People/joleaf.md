@@ -21,6 +21,9 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[bpmn-plugin|BPMN Plugin]]
+- [[email-block-plugin|Email code block]]
+- [[dmn-plugin|DMN Plugin]]
+- [[dmn-eval|DMN Eval]]
 
 %% End Hub: Released contributions %%
 
