@@ -82,7 +82,6 @@ Plugins which have not yet been categorized by the community.
 - [[awesome-reader|Awesome Reader]]: Make Obsidian a proper Reader.
 - [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
 - [[bmo-chatbot|BMO Chatbot]]: Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) such as OpenAI's "gpt-3.5-turbo" and "gpt-4."
-- [[bpmn-plugin|BPMN Plugin]]: This plugin enables viewing/editing BPMN diagrams using bpmn-js.
 - [[babashka|Babashka]]: Evaluate Clojure(Script) codeblocks in Babashka.
 - [[background-image|Background Image]]: This allows you to specify a remote URL as the background image, and a few settings to tweak the experience.
 - [[badges|Badges]]: Add inline badges/callouts to notes.
@@ -187,8 +186,6 @@ Plugins which have not yet been categorized by the community.
 - [[cycle-in-sidebar|Cycle In Sidebar]]: This a plugin provides hotkeys to cycle through tabs in the left or right sidebars.
 - [[d2-obsidian|D2]]: The official D2 plugin for Obsidian. D2 is a modern diagram scripting language that turns text to diagrams.
 - [[dbfolder|DB Folder]]: Folder with the capability to store and retrieve data from a folder like database
-- [[dmn-eval|DMN Eval]]: This plugin enables evaluating/executing DMN
-- [[dmn-plugin|DMN Plugin]]: This plugin enables viewing DMNs using dmn-js.
 - [[obsidian-daily-note-outline|Daily Note Outline]]: Add a custom view which shows outline of multiple daily notes with headings, links, tags and list items
 - [[daily-notes-editor|Daily Notes Editor]]: A plugin for you to edit a bunch of daily notes in one page(inline), which works similar to Roam Research's default daily note view.
 - [[obsidian-daily-notes-viewer|Daily Notes Viewer]]: Help you to view some recent daily notes on one page.
@@ -228,7 +225,6 @@ Plugins which have not yet been categorized by the community.
 - [[cm-editor-syntax-highlight-obsidian|Editor Syntax Highlight]]: Show syntax highlighing in code blocks the editor
 - [[editor-width-slider|Editor Width Slider]]: Customize Obsidian's editor width with a slider for a tailored editing experience.
 - [[emacs-text-editor|Emacs text editor]]: Partial emulation of Emacs text editor for Obisidian
-- [[email-block-plugin|Email code block]]: This plugin renders an email code block.
 - [[embed-code-file|Embed Code File]]: This is a plugin for Obsidian that allows for embedding code files.
 - [[emo-uploader|Emo]]: Embed markdown online file/image links. This plugin is for uploading images to hosting or files to github in Obsidian.
 - [[emoji-tags-titler|EmoTagsTitler]]: Add the emojis contained in the tags to the beginning of the note title.
