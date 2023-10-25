@@ -21,23 +21,21 @@ This note is based on the instructions of the [obsidian sample plugin readme](ht
 
 1.  Fork the [obsidian-releases](https://github.com/obsidianmd/obsidian-releases#community-plugins) repo and edit the `community-plugins.json` file. If you prefer to do it from GitHub's web interface, you can follow this instructions, but submit your changes as described in [[How to add content through GitHub]] or [[How to add your plugin to the community plugin list#Submitting your plugin]].
 2.  Add the information of your plugin at the end of the list (Don't forget to add a comma after the last plugin!). For your convenience you can copy this template and paste it at the end of the list:
-	```json
-    {
-		"id": "",
-        "name": "",
-        "author": "",
-		"description": "",
-        "repo": "<github username>/<repository>",
-		"branch": "master"
-    }
-	```
+```json
+  {
+    "id": "",
+    "name": "",
+    "author": "",
+    "description": "",
+    "repo": "<github username>/<repository>"
+  }
+```
 3. Fill out the information of your plugin. Below you can find the description of each field (taken from the [obsidian-releases](https://github.com/obsidianmd/obsidian-releases#community-plugins) repo):
 	-   `id`: A unique ID for your plugin. Make sure this is the same one you have in your `manifest.json`.
 	-   `name`: The name of your plugin. This will be used to search for your plugin.
 	-   `author`: The author's name.
 	-   `description`: A short description of what your plugin does.
 	-   `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-	-   `branch`: (optional) A branch if you prefer to use a specific branch of your repo. Defaults to `master`.
 4.  Make a pull request at [https://github.com/obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) to add your plugin.
 5. Once you've opened the PR, you'll be prompted to use the pull request template. Complete everything in it and submit.
 	![[plugin-submission-PR-template.png]]
