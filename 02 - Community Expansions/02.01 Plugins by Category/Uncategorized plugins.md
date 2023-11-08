@@ -295,7 +295,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-mkdocs-publisher|Github Publisher]]: Github Publisher helps you to publish your notes on a preconfigured GitHub repository, for free, and more!
 - [[obsidian-gitlab-issues|Gitlab Issues]]: Import issues from Gitlab into Obsidian.
 - [[global-search-and-replace|Global Search and Replace]]: Search and replace in all vault files
-- [[google-bard-assistant|Google Bard Assistant]]: Explore new possibilities of learning with Integration of Google Bard! It's totally free! It also can show images from your question! 
 - [[google-calendar|Google Calendar]]: Interact with your Google Calendar from Inside Obsidian
 - [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]: Import contact and calendar event information from your Google account
 - [[google-keep-import|Google Keep Import]]: Allows import of Google Keep backup json files and their attachments. Can also be used to import other files.
@@ -467,7 +466,7 @@ Plugins which have not yet been categorized by the community.
 - [[numerals|Numerals]]: Numerals turns any code block into an advanced calculator. Evaluates math expressions on each line of a code block, including units, currency, and optional TeX rendering.
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
 - [[oz-calendar|OZ Calendar]]: View your notes in Calendar using any YAML key with date
-- [[obligator|Obligator]]: Obligator is a replacement for daily-todos which copies over unchecked todo items under a specified header
+- [[obligator|Obligator]]: A replacement for daily-todos which functions like a virtual bullet journal by copying over unchecked todo items
 - [[obsidoom|ObsiDOOM]]: Play DOOM and many other retro games in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.
 - [[obsidian-attendance|Obsidian Attendance]]: This plugin helps you track attendance.
 - [[obsidian-badge|Obsidian Badge]]: This is a plugin to show badge for Obsidian.
@@ -498,7 +497,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-tweaks|ObsidianTweaks]]: Adds some convenient tweaks including improved toggling and ergonomic commands
 - [[obsidiosaurus|Obsidiosaurus]]: Connect your vault to Docusaurus
 - [[obsius-publish|Obsius Publish]]: Make single notes instantly available on the web.
-- [[obsidian-old-note-admonitor|Old Note Admonitor]]: This Obsidian plugin shows warnings if the note has not been updated for over specific days
+- [[obsidian-old-note-admonitor|Old Note Admonitor]]: This Obsidian plugin shows warnings if the note has not been updated in the last specific days
 - [[omnisearch|Omnisearch]]: A search engine that just works
 - [[obsidian-omnivore|Omnivore]]: This is an Omnivore plugin for Obsidian.
 - [[onyx-boox-extractor|Onyx Boox Annotation & Highlight Extractor]]: This plugin extracts annotations and highlights files exported from Onyx Boox tablets, and converts them to reference, literature and permanent notes fitting to the Zettelkasten method.
@@ -535,7 +534,7 @@ Plugins which have not yet been categorized by the community.
 - [[pieces-for-developers|Pieces for Developers]]: Streamline your coding workflow in Obsidian with the Pieces For Developers plugin, offering powerful features for capturing, managing, translating, and enhancing code snippets. (Closed Source) 
 - [[pinboard-sync|Pinboard Sync]]: Syncs Pinboard.in links with Daily Notes
 - [[pivotal-tracker-integration|Pivotal Tracker Integration]]: This is an unofficial pivotal tracker integration plugin for Obsidian. This plugin allows the user to pull stories, chores, bugs from their pivotal counterpart.
-- [[obsidian-plaintext|Plaintext]]: Open any file as if it was plaintext directly in Obsidian.
+- [[obsidian-plaintext|Plaintext]]: [Deprecated] Open any file as if it was plaintext directly in Obsidian.
 - [[obsidian-plugin-groups|Plugin Groups]]: Manage your Plugins through groups: Enable and disable multiple plugins through a single command, or delay the startup of plugins to speed up your Obsidian start up time.
 - [[plugin-manager|Plugin Manager]]: Extends plugin management of Obsidian.MD
 - [[obsidian-plugin-update-tracker|Plugin Update Tracker]]: Know when installed plugins have updates and evaluate the risk of upgrading
@@ -612,7 +611,6 @@ Plugins which have not yet been categorized by the community.
 - [[scroll-speed|Scroll Speed]]: This plugin allows you to change the scroll speed inside Obsidian notes.
 - [[obsidian-scroll-to-top-plugin|Scroll to Top Plugin]]: This is a plugin for Obsidian that adds a button to scroll to the top of the current note.
 - [[scrybble.ink|Scrybble]]: Synchronize highlights from your ReMarkable to Obsidian!
-- [[search-obsidian-in-google|Search Obsidian in Google]]: A simple plugin to search the current note in Google (or other search engines).
 - [[image-window|Second Window]]: Allow images & notes to be viewed in new Obsidian windows.
 - [[select-current-line|Select current line]]: Selects the current line where the cursor is placed. Press 'ESC' button to select.
 - [[obsidian-livesync|Self-hosted LiveSync]]: Community implementation of self-hosted livesync. Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.
@@ -726,7 +724,7 @@ Plugins which have not yet been categorized by the community.
 - [[unitade|Unitade]]: Effortlessly treat any file extension as note, organize diverse file formats in your vault.
 - [[obsidian-upcoming|Upcoming]]: Open upcoming and/or past daily notes in their own panes, tabs, or windows.
 - [[update-relative-links|Update Relative Links]]: Update relative links.
-- [[frontmatter-modified-date|Update modified field on edit]]: Automatically update a frontmatter modified date field when you modify your note. This will not use the filesystem time, but only when you modify the file through Obsidian.
+- [[frontmatter-modified-date|Update modified date]]: Automatically update a frontmatter modified date field when you modify your note. This will not use the filesystem time, but only when you modify the file through Obsidian. Optionally store a history of edit times.
 - [[update-time-on-edit|Update time on edit]]: Keep front matter in sync with the last edit time
 - [[obsidian-user-plugins|User Plugins]]: Use js files or snippets to code your own quick and dirty plugins
 - [[vault-2-book|Vault 2 Book]]: Converts your notes to a book creating a single file containing all the notes linked
@@ -738,7 +736,7 @@ Plugins which have not yet been categorized by the community.
 - [[vika-sync|Vika Sync]]: Sync your note to vika
 - [[vim-toggle|Vim Toggle]]: A plugin for Obsidian that enables the toggling vim mode to on and off inside of the editor.
 - [[obsidian-vocabulary-view|Vocabulary View]]: Write down some words with their explanations and preview them in a vocabulary test style
-- [[voice|Voice]]: Listen to your notes aloud to you.
+- [[voice|Voice]]: Let your notes talk and speak to you and enhance your Obsidian experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.
 - [[waka_time_box|Waka time box]]: Show daily coding activity from WakaTime
 - [[obsidian-wakatime|WakaTime]]: Automatic time tracking and metrics generated from your Obsidian usage activity.
 - [[wallabag|Wallabag]]: Sync your Wallabag articles.
@@ -789,7 +787,7 @@ Plugins which have not yet been categorized by the community.
 - [[youversion-linker|YouVersion Linker]]: Automatically link bible verses in your notes to YouVersion bible.
 - [[checkbox-reorder|Checkbox Reorder]]: Reorder completed checkboxes to the end of the according list.
 - [[gnome-terminal-loader|Gnome Terminal Loader]]: Adds sidebar action icons to quickly open the Gnome Terminal or to have the Gnome Terminal run a Python module
-- [[media-sync|Media Sync]]: Downloads images from the image URLs in documents and displays the content.
+- [[media-sync|Media Sync]]: Downloads media files(eg. images, PDFs) from the URLs in documents and displays the content.
 - [[auto-literature|autoLiterature]]: Assist you in taking notes for your literature.
 - [[local-backup|Local Backup]]: Automatically creates a local backup of the vault.
 - [[chatgpt-definitions|ChatGPT Definition]]: Let your AI assistant ChatGPT define words and concepts for you.
@@ -838,7 +836,7 @@ Plugins which have not yet been categorized by the community.
 - [[change-case|Change Case]]: Plugin to let you change the case (UPPER CASE, camelCase, snake_case, etc) of the current selection.
 - [[send-to-ghost|Send to Ghost]]: Send and publish notes to your Ghost blog with a single click
 - [[content-linker|Content Linker]]: A plugin for searching and adding bi-directional links to existing content in Obsidian Vault.
-- [[swiss-army-knife|Swiss army knife]]: Collection of various utilities (e.g. duplicate empty line remover)
+- [[swiss-army-knife|Swiss army knife]]: Collection of various utilities e.g. duplicate empty line remover, Obsidian plugin release/tag version downloader (eg. for mobile tests)
 - [[share-to-notionnext|Share to NotionNext]]: Shares obsidian md file to notion with notion api for NotionNext web deploy, originally created by EasyChris/obsidian-to-notion.
 - [[inline-math|No more flickering inline math]]: No longer disturbed by flickering inline math in Obsidian.
 - [[expiration-date-tracker|Expiration-Date-Tracker]]: Keep track of all expiration dates, for example, for your groceries.
@@ -857,6 +855,92 @@ Plugins which have not yet been categorized by the community.
 - [[palta-note|Palta Note]]: Render Bhatkhande notation for Tabla.
 - [[qb-reader-parser|QB Reader Parser]]: Parse tossups from QB Reader into individual clues to send to Anki.
 - [[tags-overview|Tags Overview]]: Adds an extended tags panel where tagged files can be overviewed, filtered and accessed in an easy way.
+- [[next-link|Next Link]]: Jump quickly between note links.
+- [[writing-goals|Writing Goals]]: Set dynamic writing goals for notes and folders in Obsidian.
+- [[auto-archive|Auto Archive]]: Automatically archive notes once they reach a certain age
+- [[cardify|Cardify]]: This is a plugin to cardify markdown contents into subsequent markdown files.
+- [[vocabulary-cards|Vocabulary Cards]]: An easy way to display vocabulary words as flashcards and as a list.
+- [[calctex|Calctex]]: Calculate LaTeX formulas inside Obsidian.
+- [[timetracker|Timetracker]]: Adds a stopwatch whose value can be inserted in the editor per hotkey
+- [[eleven-labs|Eleven Labs]]: Turn your Obsidian notes into text-to-speech audio files with Eleven Labs.
+- [[digital-paper|digital paper]]: turn off backspace and undo, just like writing with a pen on real paper.
+- [[merge-notes|Merge Notes]]: Merge the selected notes.
+- [[qiniu-image-uploader|Qiniu Image Uploader]]: Uploads images from your clipboard to qiniu.com and embeds uploaded image to your note.
+- [[html-tabs|HTML Tabs]]: Create and render Tabs and tab panels in your notes.
+- [[vscode-editor|VSCode Editor]]: Edit Code Files like VSCode.
+- [[anki-sync-plus|AnkiSync+]]: Integration between Obsidian and Anki.
+- [[moviegrabber|Moviegrabber]]: Grab movie data from public APIs and transform it into notes that can be used with dataview and properties
+- [[geocoding-properties|Geocoding Properties]]: Insert address / location data from geocoding APIs as Obsidian properties.
+- [[auto-tag|Auto Tag]]: Easily generate relevant tags for your Obsidian notes or selected text.
+- [[timer|Timer]]: Allows you to measure time.
+- [[oin-gotoheading|Go To Heading]]: Quickly navigate between headings
+- [[gpg-crypt|gpgCrypt]]: Seamlessly encrypts your notes using GPG. Supports smartcards for enhanced security! Keep your information safe and accessible only to you.
+- [[share-note|Share Note]]: Instantly share a note, with the full theme and content exactly like you see in Reading View. Data is shared encrypted by default, and only you and the person you send it to have the key.
+- [[todotxt-codeblocks|Todo.txt Codeblocks]]: Manage your tasks inside codeblocks according to the Todo.txt specification.
+- [[screengarden-obsidian|screen.garden]]: Collaborate, publish, and work across PKM systems with screen.garden.
+- [[wrangle-todos|TODO Wrangler]]: Wrangles your TODOs and puts them at the bottom of the file.
+- [[fold-anywhere|Fold Anywhere]]: Set start and end marker, and then fold any text anywhere.
+- [[file-property-enhancer|File Property Enhancer]]: Improve user experience when using file properties like adding icons or custom display view.
+- [[collapse-node|Collapse Node]]: Collapse node in canvas.
+- [[permalink-opener|Permalink Opener]]: Opens URLs based on a permalink or slug in the file properties
+- [[idorecall|iDoRecall]]: iDoRecall plugin allows you to create recalls from Obsidian notes
+- [[recipe-view|Recipe view]]: View your notes as interactive recipe cards while you cook.
+- [[modalforms|Modal forms]]: Define forms for filling data that you will be able to open from anywhere you can run JS
+- [[table-checkboxes|Markdown table checkboxes]]: Converts markdown checkboxes in tables to HTML, and reflects the state upon (un)checking them.
+- [[image2latex|Image2LaTEX]]: Convert your images with math to LaTEX code.
+- [[tag-breakdown-generator|Tag Breakdown Generator]]: Breakdown nested tags into multiple parent tags
+- [[reclipped-official|ReClipped Official]]: Official ReClipped <-> Obsidian integration
+- [[ollama|Ollama]]: This is a plugin for Obsidian that enables the usage of Ollama within your notes.
+- [[lunar-calendar|Lunar Calendar]]: 一个支持农历的日历
+- [[mini-vimrc|Mini Vimrc]]: Set Vim keybiddings via .vimrc file.
+- [[file-tree-generator|File Tree Generator]]: Generate a file tree using Obsidian callouts.
+- [[treefocus|TreeFocus]]: Dim, highlight & style your files & folders in the vault file explorer (foldable item navigator) based on predefined / custom rules.
+- [[halo|Halo]]: Halo's Obsidian integration supports publishing content to Halo sites
+- [[sets|Sets]]: Create, edit and search sets of notes like Notion or AnyType DBs
+- [[homework-manager|Homework Manager]]: Keeps track of homework through a to-do list.
+- [[typing|Typing]]: Programmatic customizations for groups of notes
+- [[magic-calendar|MagicCalendar]]: AI-Powered Obsidian Plugin that leverage Natural Language Processing techniques to find calendar events in Markdown notes, seamlessly synchronizing them with a calendar of choice.
+- [[rescuetime|RescueTime]]: View your RescueTime data in Obsidian.
+- [[chat-with-bard|Chat with Bard]]: Chat with the Google Bard Assistant directly from Obsidian
+- [[tracker-plus|Tracker+]]: Track and visualize data from your notes. Compatible with original Tracker plugin.
+- [[timeline-view|Timeline View]]: Display your obsidian notes in a timeline, based on a given property.
+- [[auto-filename|Auto Filename]]: Automatically rename files on the go based on the first x characters of files.
+- [[csv-codeblock|CSV Codeblock]]: This is a plugin for Obsidian. This plugin renders codeblocks with csv format.
+- [[discord-message-formatter|Discord Message Formatter]]: Simply CTRL+C CTRL+V Discord messages from the Desktop client and have them automatically formatted
+- [[frontmatter-generator|Frontmatter generator]]: Generate frontmatter for your notes from json and javascript
+- [[tistory-publisher|Tistory Publisher]]: Easily publish a note in obsidian to tistory
+- [[linkding-importer|Linkding Importer]]: Imports your bookmarks from Linkding and saves them into a specified file within the Obsidian Vault.
+- [[auto-reading-mode|Auto Reading Mode]]: Automatically switches previously opened Markdown pages into reading mode.
+- [[studier|Studier]]: Create quizzes for your Obsidian.md notes and learn better.
+- [[mochi-cards-pro|Mochi Cards Pro]]: Create flashcards on Mochi.cards using the API provided by Mochi's Pro subscription.
+- [[daily-note-pinner|Daily Note Pinner]]: Pins the Daily Note of the present day. Unpinns all Daily Notes of past and future days.
+- [[moon-server-publisher|Moon server publisher]]: Publish your notes directly to Moon server instance.
+- [[improved-random-note|Improved Random Note]]: Improved interaction with the knowledge base in so-called wandering mode by opening specific Random Notes.
+- [[json-table|JSON table]]: Simply switch between JSON and tables. Generate a table from a JSON string or a URL (which returns JSON) in your notes. Generate JSON from a table in your notes.
+- [[abbreviations|Abbreviations expander]]: Easily create abbreviations that will be expanded after hitting `Space`.
+- [[jira-linker|Jira Linker]]: Quickly format a Jira issue tag as a link to you Jira instance.
+- [[remove-empty-folders|Remove Empty Folders]]: Easily remove empty folders.
+- [[archive-to-single-note|Archive/trash to single note]]: Allows to create single file archive/trash and merge(archive) old notes with it.
+- [[metal-archives|Metal Archives (Unofficial)]]: Create notes about metal bands and album from Metal Archives
+- [[gladdis|Gladdis]]: Gladdis (Generative Language Artificial Dedicated & Diligent Intelligence System) - it's an AI chatbot.
+- [[md-image-caption|Markdown Image Caption]]: Generate image caption
+- [[fountain-editor|Fountain Editor]]: Fountain (screenplay) syntax highlighting in the editor
+- [[title-generator|Title Generator]]: Quickly and easily title your notes using OpenAI's GPT-3.5
+- [[remotely-secure|Remotely Secure]]: Security fixes for the remotely-save unofficial plugin allowing users to synchronize notes between local device and the cloud service. Not backwards compatible.
+- [[inline-encrypter|Inline Encrypter]]: Encrypt secrets in your notes.
+- [[scholar|Scholar]]: Streamline Research Workflow in Obsidian
+- [[hexo-auto-updater|Hexo Auto updater]]: This is a hexo plugin for Obsidian that enable the auto update. 
+- [[favorite-note|Favorite Note]]: Mark your note as favorite.
+- [[canvas-llm-extender|Canvas LLM Extender]]: Let the OpenAI LLVM add nodes to your canvas.
+- [[teleprompter|Teleprompter]]: Teleprompter window for live presentations and video production.
+- [[backlink-cache|Backlink Cache]]: Stores backlink cache to speed up `app.metadataCache.getBacklinksForFile`
+- [[tistory|Tistory]]: Publish your notes to the Tistory blog.
+- [[enhance-youtube-links|Enhance YouTube Links]]: Get metadata from a YouTube video
+- [[sync-to-xlog|sync-to-xlog]]: Publish your obsidian file to xlog.app
+- [[global-markdown-encrypt|Global Markdown Encryption]]: In-memory AES256-GCM Markdown Encryption
+- [[tag-project-odaimoko|Tag Project]]: A Project Management Tool: Tag tasks everywhere, Manage in One page.
+- [[multi-properties|Multi Properties]]: Adds Properties to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.
+- [[nothing|Nothing]]: Adds a no-op command to disable hotkeys.
 
 
 %% Hub footer: Please don't edit anything below this line %%
