@@ -16,10 +16,10 @@ Plugins that add specific renderers to Obsidian.
 - [[obsidian-5e-statblocks|5e Statblocks]]: Create 5e styled statblocks in Obsidian.md
 - [[obsidian-admonition|Admonition]]: Admonition block-styled content for Obsidian.md
 - [[bpmn-plugin|BPMN Plugin]]: Render BPMN diagrams
-- [[dataview|Dataview]]: Complex data views for the data-obsessed.
-- [[drawio-obsidian|Diagrams]]: Draw.io diagrams for Obsidian. This plugin introduces diagrams that can be included within notes or as stand-alone files. Diagrams are created as SVG files (although .drawio extensions are also supported).
 - [[dmn-eval|DMN Eval]]: Evaluate/Execute DMNs
 - [[dmn-plugin|DMN Plugin]]:  Render DMN diagrams
+- [[dataview|Dataview]]: Complex data views for the data-obsessed.
+- [[drawio-obsidian|Diagrams]]: Draw.io diagrams for Obsidian. This plugin introduces diagrams that can be included within notes or as stand-alone files. Diagrams are created as SVG files (although .drawio extensions are also supported).
 - [[email-block-plugin|Email code block]]: Render an email block
 - [[initiative-tracker|Initiative Tracker]]: TTRPG Initiative Tracker for Obsidian.md
 - [[obsidian-kroki|Kroki]]: Render Kroki Diagrams
