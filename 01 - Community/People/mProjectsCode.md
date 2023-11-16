@@ -11,7 +11,7 @@ publish: true
 - GitHub: [mProjectsCode](https://github.com/mProjectsCode/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://mprojectscode.github.io/> ^website
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
+- [[Publish sites|Publish site]]: <https://obsidian.moritzjung.dev/Index> ^publish
 
 %% Feel free to add a bio below this comment %%
 
@@ -21,7 +21,11 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-media-db-plugin|Media DB Plugin]]
+- [[obsidian-meta-bind-plugin|Meta Bind Plugin]]
+- [[js-engine|JS Engine Plugin]]
 
+### Themes
+- [[Lemons Theme]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
@@ -30,9 +34,9 @@ publish: true
 ### Unlisted plugins
 -->
 
-<!--
+
 ### Others
--->
+- [Obsidian Collection - A simple collection of cool obsidian resources](https://mprojectscode.github.io/obsidian-collection/)
 
 <!--
 ## Sponsor this author
