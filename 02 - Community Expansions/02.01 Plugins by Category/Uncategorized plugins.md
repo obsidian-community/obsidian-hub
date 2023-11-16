@@ -72,7 +72,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-note-mover|Auto Note Mover]]: Auto Note Mover will automatically move the active notes to their respective folders according to the rules.
 - [[obsidian-auto-split|Auto Split]]: Open notes with side-by-side editor & preview
 - [[auto-template-trigger|Auto Template Trigger]]: Automatically prompt for a template, when creating a note.
-- [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag and imports them into the current note.
+- [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag or alias and imports them into the current note.
 - [[automatic-list-styles|Automatic List Styles]]: Automatically formats the styles of ordered lists, incrementing the list style for each layer
 - [[obsidian-autoscroll|Autoscroll]]: This plugin allows you to automatically scroll down the content with the provided speed
 - [[avatar|Avatar]]: Display an avatar image in your notes.
@@ -356,7 +356,7 @@ Plugins which have not yet been categorized by the community.
 - [[key-promoter|Key Promoter]]: Learn keyboard shortcuts by showing them when using the mouse
 - [[keyboard-analyzer|Keyboard Analyzer]]: See and analyse your keyboard hotkeys and shortcuts
 - [[keyshots|Keyshots]]: Adds classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.
-- [[khoj|Khoj]]: An Open-Source AI Personal Assistant for your Digital Brain
+- [[khoj|Khoj]]: An AI copilot for your Second Brain
 - [[kill-and-yank|Kill and Yank]]: Enable kill and yank (like Emacs) in the editor
 - [[obsidian-kindle-export|Kindle]]: Send .md as .epub to Ereader/Kindle/Pocketbook
 - [[kindle-csv-converter|Kindle CSV Converter]]: Import your Kindle notes in .csv format to Obsidian.
@@ -466,7 +466,7 @@ Plugins which have not yet been categorized by the community.
 - [[numerals|Numerals]]: Numerals turns any code block into an advanced calculator. Evaluates math expressions on each line of a code block, including units, currency, and optional TeX rendering.
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
 - [[oz-calendar|OZ Calendar]]: View your notes in Calendar using any YAML key with date
-- [[obligator|Obligator]]: A replacement for daily-todos which functions like a virtual bullet journal by copying over unchecked todo items
+- [[obligator|Obligator]]: A fully featured replacement for the built-in daily notes plugin. Obligator functions like a virtual bullet journal by copying over unchecked to-do items to your new daily note, along with adding any scheduled items you've set up
 - [[obsidoom|ObsiDOOM]]: Play DOOM and many other retro games in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.
 - [[obsidian-attendance|Obsidian Attendance]]: This plugin helps you track attendance.
 - [[obsidian-badge|Obsidian Badge]]: This is a plugin to show badge for Obsidian.
@@ -941,6 +941,11 @@ Plugins which have not yet been categorized by the community.
 - [[tag-project-odaimoko|Tag Project]]: A Project Management Tool: Tag tasks everywhere, Manage in One page.
 - [[multi-properties|Multi Properties]]: Adds Properties to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.
 - [[nothing|Nothing]]: Adds a no-op command to disable hotkeys.
+- [[slackify-note|Slackify Note]]: Converts a note to a Slack-compliant markdown using [slackify-markdown](https://www.npmjs.com/package/slackify-markdown)
+- [[timestamp-link|Timestamp Link]]: Copy timestamped links to blocks, headings and notes.
+- [[keyword-highlighter|Keyword Highlighter]]: Automatically highlight specified keywords within your Obsidian notes for enhanced visibility and quick reference.
+- [[zhongwen-block|Zhongwen Block]]: Provides code blocks with features for Chinese learners
+- [[vocabulary-highlighter|Vocabulary Highlighter]]: Hightlight vocabulary based on the word frequency
 
 
 %% Hub footer: Please don't edit anything below this line %%

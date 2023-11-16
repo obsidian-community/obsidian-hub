@@ -179,6 +179,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Prism|Prism]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Proper Dark|Proper Dark]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/ProtocolBlue|ProtocolBlue]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Prussian Blue|Prussian Blue]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Purple Aurora|Purple Aurora]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Purple Owl|Purple Owl]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Qlean|Qlean]]
