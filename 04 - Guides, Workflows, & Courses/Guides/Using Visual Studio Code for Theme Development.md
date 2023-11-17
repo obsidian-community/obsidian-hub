@@ -231,7 +231,7 @@ Here is a list of useful Extensions:
 
 ### Themes/Icons
 Here are my personal favourites I'm currently using:
-- [**Lucy Theme**](https://marketplace.visualstudio.com/items?itemName=juliettepretot.lucy-vscode) - Easy on the eyes and nice looking theme. I use the `lucy-evening` variant.
+- [**Lucy Theme**](https://github.com/jul-sh/lucy-vscode-theme) (discontinued) - Easy on the eyes and nice looking theme. I use the `lucy-evening` variant.
 - [**File Icons**](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) - Icon set for files in the File Explorer.
 - [**Fluent Icons**](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) - Changes the icons in the Left Sidebar to more rounded ones.
 

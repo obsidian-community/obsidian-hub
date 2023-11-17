@@ -10,7 +10,7 @@ publish: true
 # Luke
 
 - GitHub: [lguenth](https://github.com/lguenth/) ^github
-- Discord: `@apfelstrudelig#1337` ^discord
+- Discord: `@apfelstrudelig` ^discord
 <!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 

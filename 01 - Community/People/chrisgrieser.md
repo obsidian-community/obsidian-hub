@@ -34,7 +34,7 @@ In my day job, I am a sociologist studying the social mechanisms underlying the 
 - [PDF Annotation Extractor](https://github.com/chrisgrieser/pdf-annotation-extractor-alfred)
 
 ### Other
-- [[Wordcount Dashboard]] for [[dataview]]
+- [[Word Count Dashboard]] for [[dataview]]
 - [Obsidian Markdown Syntax Highlighting](https://actions.getdrafts.com/s/1r1) for [[Drafts App|Drafts]]
 
 ### Guides

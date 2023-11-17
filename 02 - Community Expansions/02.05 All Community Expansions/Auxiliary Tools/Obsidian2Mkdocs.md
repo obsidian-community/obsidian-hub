@@ -1,37 +1,32 @@
 ---
 aliases: 
-- Mkdocs Publish
-- Material Publish
+- Mkdocs Publisher
 tags:
 - seedling
-- mkdocs
-- publish
 publish: true
 ---
 
 # Obsidian to Mkdocs
 
-Official website: 
-- [Template Website](https://mara-li.github.io/mkdocs_obsidian_template/)
-- [My french website](https://www.mara-li.fr/)
-
-[Documentation](https://github.com/Mara-Li/mkdocs_obsidian_publish)
-[FAQ](https://github.com/Mara-Li/mkdocs_obsidian_template/wiki/Q&A/)
-
+Author: [[obsidianMkdocs|Mara-Li]]
 Cost: 0 (Free)
 
-Available for: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|Linux]], [[Android Apps|Android]], [[iOS Apps|iOS]], [[iPadOS Apps]] (It only needs Git and python)
+Available for: [[Windows Tools|Windows]], [[MacOS Tools|MacOS]], [[Linux Tools|Linux]], [[Android Apps|Android]], [[iOS Apps|iOS]], [[iPadOS Apps]]
 
-Obsidian2Mkdocs is a [python](https://www.python.org/) is a workflow that rely on a python script to publish a notes using mkdocs. It exists other alternative, but it's is thinked around a partial publishing and vault : you choose which note will be shared and publish by metadata. 
+Obsidian2Mkdocs was a workflow that relied on a Python script to publish your notes using Mkdocs. It existed as an alternative to the official [[Obsidian Publish]] service. It has since been replaced by a variety of tools maintained by the [[ObsidianPublisher]] community.
 
-It supports a lot of Obsidian things, as :
-- [[obsidian-admonition|Admonition]]
-- Custom Attribute : [[markdown-attributes|Markdown Attributes]], [[obsidian-contextual-typography|Contextual Typography]]
+It supported:
+- Obsidian's Markdown flavour
+- [[obsidian-admonition|Admonitions]]
+- Custom Attributes: 
+	- [[markdown-attributes|Markdown Attributes]],
+	- [[obsidian-contextual-typography|Contextual Typography]]
 - Wikilinks and relative links
-- Obsidian markdown : Highlight, tilde
 - Transclusion and embeding files
 - Image Flags CSS
-- Latex, Mermaid… 
+- Latex, Mermaid
+
+The script has since been archived but is still [available on GitHub](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-python).
 
 ## Quick tutorial
 
@@ -60,10 +55,6 @@ options:
   --ignore, --ignore-share, --no-share, --i, --vault
                         Convert the entire vault without relying on share state.
 ```
-
-# Showcase
-![](https://github.com/Mara-Li/mkdocs_embed_file_plugins/raw/main/docs/demo.gif)
-![](https://github.com/Mara-Li/mkdocs_embed_file_plugins/raw/main/docs/note3.png)
 
 %% Hub footer: Please don't edit anything below this line %%
 

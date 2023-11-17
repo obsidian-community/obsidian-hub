@@ -8,9 +8,8 @@ publish: true
 
 # Mara-Li
 
-- GitHub: [obsidianMkdocs](https://github.com/obsidianMkdocs/) ^github
+- GitHub: [Lisandra-dev](https://github.com/Lisandra-dev) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/Mara-Li> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

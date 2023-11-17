@@ -8,7 +8,7 @@ publish: true
 ---
 
 # OB_Template
-Author: [Hugo Santos (Zektor)](Zektor)
+Author: [[Zektor|Hugo Santos (Zektor)]]
 
 %% Add a description below this comment. It doesn't need to be long: one or two sentences should be a good start. 
 

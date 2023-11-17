@@ -25,7 +25,6 @@ This note collects resources for those using Obsidian for Tabletop Roleplaying G
 > The GM takes on many roles for the purposes of the game. That of manager, referee, director, writer, etc. GM's portray the game world and all Non-Player Characters (NPCs) including adversaries, allies, and patrons. GM's also often handle management tasks such as session scheduling, note-taking, and general crowd control.
 > \- `@DragonBard#5391`
 
-
 - [[Obsidian and TTRPG|Obsidian for TTRPG]]
 - [[Blog]]: [Running Tabletop Games with Obsidian](https://blog.mjb.im/running-tabletop-games-with-obsidian) by Michael Barrett
 - [[Blog]]: [Non-Lazy DMs use Obsidian for D&D](https://nicolevanderhoeven.com/blog/20210930-non-lazy-dms-use-obsidian-for-dnd/) by [[nvanderhoevan|Nicole van der Hoevan]]
@@ -85,7 +84,7 @@ The following Themes and CSS Snippets are popular and widely used among the Obsi
 
 ### Templates
 
-- [BagOfTips Github Repo](https://github.com/BagOfTips/Community-TTRPG-Obsidian-Vault/tree/main): The home of some very popular templates used within the TTRPG community.
+- [ObsidianTTRPGShare](https://github.com/Obsidian-TTRPG-Community/ObsidianTTRPGShare): A collection of resources for Obsidian TTRPG users, combining multiple different systems.
 - [Obsidian Table Top Templates](https://github.com/mProjectsCode/Obsidian-Table-Top-Templates): [[mProjectsCode]]'s' Templates and a Vault structure for TTRPG campaigns and worldbuilding.
 - [[YouTube Channels|YouTube Channel]]: [@BagOfTips](https://www.youtube.com/@BagOfTips/) presents a small channel on using their specialised templates with Obsidian.
 
@@ -105,7 +104,7 @@ The following Themes and CSS Snippets are popular and widely used among the Obsi
 
 #### FATE
 
-- [Fate Condensed SRD](https://github.com/Rarstyak/Fate-Condensed-SRD): A basic vault for use in playing [Fate Condensed](https://www.faterpg.com/wp-content/uploads/2020/02/Fate-Condensed-SRD-CC-BY.html).
+- [Fate Condensed SRD](https://github.com/Rarstyak/Fate-Condensed-SRD): A basic vault for use in playing [Fate Condensed](https://fate-srd.com/fate-condensed).
 
 #### [Ironsworn RPG](https://www.ironswornrpg.com)
 
