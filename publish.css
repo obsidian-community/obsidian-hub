@@ -7,11 +7,20 @@
 }
 
 .site-body-left-column-site-logo {
-	max-width: 120px;
+    /* make the logo be in the center */
+	align-self: center;
+    /* 18 px padding so that it aligns with the center of the text below it as  well as with the search bar */
+    padding-right: 18px;
+    /* make it big */
+    width: 100%;
+    /* The original 120px plus 18px padding */
+    max-width: 138px;
 }
 
 .site-body-left-column-site-name {
 	text-align: center;
+    /* 18px padding so it alignes with the search bar */
+    padding-right: 18px;
 }
 
 /* Widen/Dynamically Size File Explorer & Right Panel */
