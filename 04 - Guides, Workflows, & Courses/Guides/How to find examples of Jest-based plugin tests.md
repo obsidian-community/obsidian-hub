@@ -14,7 +14,7 @@ For the popular [Jest](https://jestjs.io) framework, there are already many comm
 
 ## Obsidian Plugins Depending on Jest
 
-As of 2023-11-17.
+As of 2023-11-21.
 
 *Note: No guarantee that there are any tests written or run!*
 
@@ -50,22 +50,22 @@ As of 2023-11-17.
 - ebullient/[obsidian-snippetor](https://github.com/ebullient/obsidian-snippetor)
 - ebullient/[obsidian-task-collector](https://github.com/ebullient/obsidian-task-collector)
 - edonyzpc/[personal-assistant](https://github.com/edonyzpc/personal-assistant)
-- elias/[sundqvist-obsidian-annotator](https://github.com/elias/sundqvist-obsidian-annotator)
-- Erl/[koenig-obsidian-checkboxReorder](https://github.com/Erl/koenig-obsidian-checkboxReorder)
+- elias-sundqvist/[obsidian-annotator](https://github.com/elias-sundqvist/obsidian-annotator)
+- Erl-koenig/[obsidian-checkboxReorder](https://github.com/Erl-koenig/obsidian-checkboxReorder)
 - erykwalder/[quoth](https://github.com/erykwalder/quoth)
 - fantasycalendar/[obsidian-fantasy-calendar](https://github.com/fantasycalendar/obsidian-fantasy-calendar)
 - Fevol/[obsidian-translate](https://github.com/Fevol/obsidian-translate)
-- fez/[github-obsidian-multi-tag](https://github.com/fez/github-obsidian-multi-tag)
+- fez-github/[obsidian-multi-tag](https://github.com/fez-github/obsidian-multi-tag)
 - FHachez/[obsidian-convert-url-to-iframe](https://github.com/FHachez/obsidian-convert-url-to-iframe)
 - fleetingnotes/[fleeting-notes-obsidian](https://github.com/fleetingnotes/fleeting-notes-obsidian)
 - ganesshkumar/[obsidian-table-editor](https://github.com/ganesshkumar/obsidian-table-editor)
 - Gorkycreator/[obsidian-quick-tagger](https://github.com/Gorkycreator/obsidian-quick-tagger)
-- greater/[than-Obsidian-Tracker-Plus](https://github.com/greater/than-Obsidian-Tracker-Plus)
-- greater/[than-Obsidian-Tracker-Plus](https://github.com/greater/than-Obsidian-Tracker-Plus)
+- greater-than/[Obsidian-Tracker-Plus](https://github.com/greater-than/Obsidian-Tracker-Plus)
+- greater-than/[Obsidian-Tracker-Plus](https://github.com/greater-than/Obsidian-Tracker-Plus)
 - gtg922r/[obsidian-numerals](https://github.com/gtg922r/obsidian-numerals)
 - hadynz/[obsidian-kindle-plugin](https://github.com/hadynz/obsidian-kindle-plugin)
-- ivan/[lednev-obsidian-day-planner](https://github.com/ivan/lednev-obsidian-day-planner)
-- ivan/[lednev-obsidian-task-archiver](https://github.com/ivan/lednev-obsidian-task-archiver)
+- ivan-lednev/[obsidian-day-planner](https://github.com/ivan-lednev/obsidian-day-planner)
+- ivan-lednev/[obsidian-task-archiver](https://github.com/ivan-lednev/obsidian-task-archiver)
 - j0rd1smit/[obsidian-copilot-auto-completion](https://github.com/j0rd1smit/obsidian-copilot-auto-completion)
 - javalent/[initiative-tracker](https://github.com/javalent/initiative-tracker)
 - JeppeKlitgaard/[ObsidianAnkiBridge](https://github.com/JeppeKlitgaard/ObsidianAnkiBridge)
@@ -73,7 +73,7 @@ As of 2023-11-17.
 - joethei/[obsidian-link-favicon](https://github.com/joethei/obsidian-link-favicon)
 - joethei/[obsidian-rss](https://github.com/joethei/obsidian-rss)
 - johansatge/[obsidian-automatic-table-of-contents](https://github.com/johansatge/obsidian-automatic-table-of-contents)
-- k4a/[l-obsidian-heading-shifter](https://github.com/k4a/l-obsidian-heading-shifter)
+- k4a-l/[obsidian-heading-shifter](https://github.com/k4a-l/obsidian-heading-shifter)
 - kbravh/[obsidian-tweet-to-markdown](https://github.com/kbravh/obsidian-tweet-to-markdown)
 - kemayo/[obsidian-smart-links](https://github.com/kemayo/obsidian-smart-links)
 - kenlim/[file-chucker-plugin](https://github.com/kenlim/file-chucker-plugin)
@@ -97,10 +97,10 @@ As of 2023-11-17.
 - micahke/[obsidian-gpt3-notes](https://github.com/micahke/obsidian-gpt3-notes)
 - MichaBrugger/[booksidian_plugin](https://github.com/MichaBrugger/booksidian_plugin)
 - michaeladams/[obsidian-text-progress-bar](https://github.com/michaeladams/obsidian-text-progress-bar)
-- mii/[key-obsidian-links](https://github.com/mii/key-obsidian-links)
+- mii-key/[obsidian-links](https://github.com/mii-key/obsidian-links)
 - mokeyish/[obsidian-enhancing-export](https://github.com/mokeyish/obsidian-enhancing-export)
 - moolmanruan/[obsidian-sequence-hotkeys](https://github.com/moolmanruan/obsidian-sequence-hotkeys)
-- motif/[software-obsimian](https://github.com/motif/software-obsimian)
+- motif-software/[obsimian](https://github.com/motif-software/obsimian)
 - mProjectsCode/[obsidian-media-db-plugin](https://github.com/mProjectsCode/obsidian-media-db-plugin)
 - mrjackphil/[obsidian-text-expand](https://github.com/mrjackphil/obsidian-text-expand)
 - MSzturc/[obsidian-advanced-slides](https://github.com/MSzturc/obsidian-advanced-slides)
@@ -108,12 +108,12 @@ As of 2023-11-17.
 - nakalsio/[obsidian-danpung](https://github.com/nakalsio/obsidian-danpung)
 - Narsail/[habit-tracker-obsidian](https://github.com/Narsail/habit-tracker-obsidian)
 - nevernotmove/[obsidian-chordlyrics](https://github.com/nevernotmove/obsidian-chordlyrics)
-- obsidian/[tasks-group-obsidian-tasks](https://github.com/obsidian/tasks-group-obsidian-tasks)
+- obsidian-tasks-group/[obsidian-tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
 - Odaimoko/[tag-project](https://github.com/Odaimoko/tag-project)
 - oleeskild/[obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden)
 - OlegLustenko/[obsidian-bulk-rename](https://github.com/OlegLustenko/obsidian-bulk-rename)
 - omardelarosa/[obsidian-mtg](https://github.com/omardelarosa/obsidian-mtg)
-- omnivore/[app-obsidian-omnivore](https://github.com/omnivore/app-obsidian-omnivore)
+- omnivore-app/[obsidian-omnivore](https://github.com/omnivore-app/obsidian-omnivore)
 - onlyafly/[number-headings-obsidian](https://github.com/onlyafly/number-headings-obsidian)
 - platers/[obsidian-linter](https://github.com/platers/obsidian-linter)
 - pmorim/[obsidian-chess](https://github.com/pmorim/obsidian-chess)
@@ -127,7 +127,7 @@ As of 2023-11-17.
 - reuseman/[flashcards-obsidian](https://github.com/reuseman/flashcards-obsidian)
 - rwirdemann/[obsidian-week-planner](https://github.com/rwirdemann/obsidian-week-planner)
 - ryangomba/[obsidian-todo-sort](https://github.com/ryangomba/obsidian-todo-sort)
-- samuele/[cozzi-obsidian-marp-slides](https://github.com/samuele/cozzi-obsidian-marp-slides)
+- samuele-cozzi/[obsidian-marp-slides](https://github.com/samuele-cozzi/obsidian-marp-slides)
 - scambier/[obsidian-omnisearch](https://github.com/scambier/obsidian-omnisearch)
 - SebastianMC/[obsidian-custom-sort](https://github.com/SebastianMC/obsidian-custom-sort)
 - shoedler/[crossbow](https://github.com/shoedler/crossbow)
@@ -139,9 +139,9 @@ As of 2023-11-17.
 - swar8080/[obsidian-plugin-update-tracker](https://github.com/swar8080/obsidian-plugin-update-tracker)
 - symunona/[obsidian-bulk-exporter](https://github.com/symunona/obsidian-bulk-exporter)
 - sytone/[obsidian-queryallthethings](https://github.com/sytone/obsidian-queryallthethings)
-- tadashi/[aikawa-obsidian-another-quick-switcher](https://github.com/tadashi/aikawa-obsidian-another-quick-switcher)
-- tadashi/[aikawa-obsidian-various-complements-plugin](https://github.com/tadashi/aikawa-obsidian-various-complements-plugin)
-- tadashi/[aikawa-shukuchi](https://github.com/tadashi/aikawa-shukuchi)
+- tadashi-aikawa/[obsidian-another-quick-switcher](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher)
+- tadashi-aikawa/[obsidian-various-complements-plugin](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin)
+- tadashi-aikawa/[shukuchi](https://github.com/tadashi-aikawa/shukuchi)
 - TakamiChie/[Obsidian_CharacterInsertionPlugin](https://github.com/TakamiChie/Obsidian_CharacterInsertionPlugin)
 - tansongchen/[obsidian-note-synchronizer](https://github.com/tansongchen/obsidian-note-synchronizer)
 - TechTheAwesome/[obsidian-s3](https://github.com/TechTheAwesome/obsidian-s3)
@@ -152,7 +152,7 @@ As of 2023-11-17.
 - timhor/[obsidian-editor-shortcuts](https://github.com/timhor/obsidian-editor-shortcuts)
 - timhor/[obsidian-sentence-navigator](https://github.com/timhor/obsidian-sentence-navigator)
 - tmfelwu/[obsidian-inbox](https://github.com/tmfelwu/obsidian-inbox)
-- trey/[wallis-obsidian-dataloom](https://github.com/trey/wallis-obsidian-dataloom)
+- trey-wallis/[obsidian-dataloom](https://github.com/trey-wallis/obsidian-dataloom)
 - ulisesantana/[obsidian-pending-notes](https://github.com/ulisesantana/obsidian-pending-notes)
 - val3344/[obsidian-update-relative-links](https://github.com/val3344/obsidian-update-relative-links)
 - veritas1/[eleven-labs-obsidian-plugin](https://github.com/veritas1/eleven-labs-obsidian-plugin)
@@ -168,39 +168,24 @@ As of 2023-11-17.
 ## Updating the list of plugins
 
 ```bash
-git clone https://github.com/claremacrae/obsidian-repos-downloader.git
-
+git clone https://github.com/claremacrae/obsidian-repos-downloader.git 
 cd obsidian-repos-downloader
-python3 obsidian-repos-downloader.py
-
-cd plugins
-find . -name jest.config.\* | grep -v node_modules | sort
+python3 obsidian-repos-downloader.py -t plugins --group-by-user
 ```
 
-<!--
+Then, make a file called `format.py` with the following contents:
+```py
+from pathlib import Path
 
-Converting the console output to the links above
+for path in Path('plugins').rglob('jest.config.*'):
+    parts = path.parts
+    author = parts[1]
+    name = parts[2]
+    print(f"- {author}/[{name}](https://github.com/{author}/{name})")
+```
 
-https:\/\/github\.com\/([^\/]+)\/([^ ]+) 
+Then, ```python3 format.py```
 
-| [$1](https://github.com/$1) | [$2](https://github.com/$1/$2) |
-
-| $1 | [$2](https://github.com/$1/$2) |
-
-[$1/**$2**](https://github.com/$1/$2)
-
-
-
-or with a py script:
-
-with open('out.txt') as f:
-    for line in f:
-        ln=line[2:]        
-        author=ln[:ln.find("-")]
-        name=ln[ln.find("-") + 1:ln.find("/")]
-        print(f"- {author}/[{name}](https://github.com/{author}/{name})")
-
--->
 
 %% Hub footer: Please don't edit anything below this line %%
 
