@@ -36,9 +36,62 @@ Modes: [[Dark-mode themes|dark]]
 ## Features
 
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+- Custom Colorschemes
+  Change the look of you workspace with colorschemes
+<img src="https://raw.githubusercontent.com/ashwinjadhav818/obsidian-aura/master/assets/custom-colorschemes.png" style="border-radius: 10px"/>
+
+- Workspace Background
+  Customize your workspace with custom background images
+<img src="https://raw.githubusercontent.com/ashwinjadhav818/obsidian-aura/master/assets/workspace-background.png" style="border-radius: 10px"/>
+
+- Alternate Layout
+  Make your workspace more rounded
+<img src="https://raw.githubusercontent.com/ashwinjadhav818/obsidian-aura/master/assets/alternate-layout.png" style="border-radius: 10px"/>
+
+- Rainbow Folders
+  Make your folders look awesome
+<img src="https://raw.githubusercontent.com/ashwinjadhav818/obsidian-aura/master/assets/rainbow-folders.png" style="border-radius: 10px; width: 400px"/>
+
+- Custom checkboxes
+  Unveal the true power of checkboxes
+<img src="https://raw.githubusercontent.com/ashwinjadhav818/obsidian-aura/master/assets/checkboxes.png" style="border-radius: 10px; width: 400px"/>
 
 ## Customization Options (Style Settings Plugin) 
-- Status bar position: change the status bar style
+- Colors
+  - Theme accent
+  - Custom colorscheme
+  - Interface colors
+    - Primary background
+    - Secondary background
+  - Extended colors
+    - Red
+    - Orange
+    - Yellow
+    - Green
+    - Blue
+    - Purple
+- Text
+  - UI font
+  - Text font
+- Workspace
+  - Status bar
+  - Workspace background
+  - Custom Layout
+  - Sidebar
+    - Rainbow folders
+    - Folder icons
+- Editor
+  - Custom checkboxes
+  - Rainbow tags
+  - Headings
+    - Colored headings
+    - H1 color
+    - H2 color
+    - H3 color
+    - H4 color
+    - H5 color
+    - H6 color
+  - Custom Callouts
 
 
 %% Hub footer: Please don't edit anything below this line %%
