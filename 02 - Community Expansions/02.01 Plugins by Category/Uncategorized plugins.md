@@ -192,7 +192,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-daily-notes-opener|Daily notes opener]]: Easily open daily/periodic notes in new pane, and much more!
 - [[obsidian-dashing-cursor|Dashing cursor]]: Enables dashing cursor that follows the page scroll
 - [[data-entry|Data Entry]]: Create forms that save data simply; the data view of data entry
-- [[notion-like-tables|DataLoom]]: Weave together data from diverse sources into a cohesive table view. Inspired by Excel Spreadsheets and Notion.so.
+- [[notion-like-tables|DataLoom]]: Weave together data from diverse sources into different views. Inspired by Excel Spreadsheets and Notion.so.
 - [[obsidian-day-and-night|Day and Night]]: An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.
 - [[deepl|DeepL]]: Allows translation of selected texts into more than 25 languages with DeepL.
 - [[new-tab-default-page|Default New Tab Page]]: Open a note of your choice when creating a new tab, like in the browser.
@@ -534,7 +534,6 @@ Plugins which have not yet been categorized by the community.
 - [[pieces-for-developers|Pieces for Developers]]: Streamline your coding workflow in Obsidian with the Pieces For Developers plugin, offering powerful features for capturing, managing, translating, and enhancing code snippets. (Closed Source) 
 - [[pinboard-sync|Pinboard Sync]]: Syncs Pinboard.in links with Daily Notes
 - [[pivotal-tracker-integration|Pivotal Tracker Integration]]: This is an unofficial pivotal tracker integration plugin for Obsidian. This plugin allows the user to pull stories, chores, bugs from their pivotal counterpart.
-- [[obsidian-plaintext|Plaintext]]: [Deprecated] Open any file as if it was plaintext directly in Obsidian.
 - [[obsidian-plugin-groups|Plugin Groups]]: Manage your Plugins through groups: Enable and disable multiple plugins through a single command, or delay the startup of plugins to speed up your Obsidian start up time.
 - [[plugin-manager|Plugin Manager]]: Extends plugin management of Obsidian.MD
 - [[obsidian-plugin-update-tracker|Plugin Update Tracker]]: Know when installed plugins have updates and evaluate the risk of upgrading
@@ -809,7 +808,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-journal|Auto Journal]]: Opinionated journaling automation like daily notes but with backfills for the days when Obsidian wasn't opened
 - [[nifty-links|Nifty Links]]: Generate elegant, Notion-style rich link cards to enhance your note-taking experience
 - [[exercises|Exercises]]: Create Interactive Exercises along side your Obsidian Notes
-- [[math-booster|Math Booster]]: Turn your Obsidian into LaTeX on steroids. Dynamically numbered theorem environments & equations, theorems/equations live suggestion, showing backlinks to theorems/equations and live-rendering equations inside callouts & quotes.
+- [[math-booster|Math Booster]]: Turn your Obsidian into LaTeX on steroids. Dynamically numbered theorem environments & equations, enhanced theorems/equations search & link auto-completion, and live-rendering of equations inside callouts & quotes.
 - [[file-explorer-plus|File Explorer++]]: Hide and pin files and folders in the file explorer using custom filters, such as wildcards and regex, based on their names, paths, and tags. Additionally, achieve the same with a single click in the file menu.
 - [[vox|Vox]]: Intelligently trancribe and categorize your voice notes
 - [[github-embeds|GitHub Embeds]]: Embed GitHub issues, PRs, and code snippets directly in Obsidian.
@@ -946,6 +945,23 @@ Plugins which have not yet been categorized by the community.
 - [[keyword-highlighter|Keyword Highlighter]]: Automatically highlight specified keywords within your Obsidian notes for enhanced visibility and quick reference.
 - [[zhongwen-block|Zhongwen Block]]: Provides code blocks with features for Chinese learners
 - [[vocabulary-highlighter|Vocabulary Highlighter]]: Hightlight vocabulary based on the word frequency
+- [[zettelkasten-outliner|Zettelkasten Outliner]]: Provides a list representation for your Zettelkasten.
+- [[quick-tagger|Quick Tagger]]: Add and remove tags quickly. Tag search results, bulk tag, and add dedicated buttons/commands for your favorites!
+- [[editor-autofocus|Editor Autofocus]]: Autofocus the editor when opening a new file.
+- [[note-batcher|Note Batcher]]: Create all unresolvered links with a single click on your Obsidian vault
+- [[automatic-tags|Automatic Tags]]: Add tags to new notes automatically based on their path.
+- [[epub-importer|Epub Importer]]: Import EPUB files as Markdown.
+- [[spotify-link|Spotify Link]]: Include the song you're currently listening to in your note.
+- [[barcode-generator|Barcode Generator]]: Generates customizable barcodes into your notes.
+- [[file-index|File Index]]: Create a metadata file about the files present in the Vault
+- [[notes-merger|Notes Merger]]: Merge notes into a single markdown document based on index Markdown file.
+- [[file-cleaner-redux|File Cleaner Redux]]: Help you to clean empty files and unused attachments in the vault.
+- [[edit-mdx|Edit MDX]]: Allows the user to edit and create .mdx files.
+- [[short-tab-name|short tab name]]: set tab name to short for uid user
+- [[run|Run]]: Generate markdown from dataview query and javascript
+- [[blockier|Blockier]]: Extra block editing utilities.
+- [[colored-tags-wrangler|Colored Tags Wrangler]]: Assign colors to tags. Has integrations with other plugins, like Kanban.
+- [[paste-link|Paste Link]]: Intelligently paste Markdown links.
 
 
 %% Hub footer: Please don't edit anything below this line %%

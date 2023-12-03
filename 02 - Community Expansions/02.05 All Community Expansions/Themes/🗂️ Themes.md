@@ -170,6 +170,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Origin|Origin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Palatinate|Palatinate]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Panic Mode|Panic Mode]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Perso|Perso]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Pine Forest Berry|Pine Forest Berry]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Pink Topaz|Pink Topaz]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Pisum|Pisum]]
@@ -248,6 +249,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wyrd|Wyrd]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yin and Yang|Yin and Yang]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yue|Yue]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Zario|Zario]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Zenburn|Zenburn]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/🔔 Chime|🔔 Chime]]
 %% Hub MOCs: Don’t edit above  %%
