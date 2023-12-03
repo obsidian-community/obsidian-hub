@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-scroll-offset|Scroll Offset]]
+- [[obsidian-state-switcher|Yaml Manager]]
+- [[obsidian-advanced-codeblock|Advanced Codeblock]]
 
 %% End Hub: Released contributions %%
 

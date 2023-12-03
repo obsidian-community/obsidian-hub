@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[geocoding-properties|Geocoding Properties]]
+- [[paste-link|Paste Link]]
 
 %% End Hub: Released contributions %%
 

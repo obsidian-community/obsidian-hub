@@ -1,16 +1,16 @@
 ---
 aliases:
-- Obsidian
+- Jacob Levernier
 tags:
 - 
 publish: true
 ---
 
-# Obsidian
+# Jacob Levernier
 
 - GitHub: [jglev](https://github.com/jglev/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://obsidian.md/about> ^website
+- Website: <https://github.com/jglev> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,9 +20,11 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-paste-to-current-indentation|Paste to Current Indentation]]
+- [[obsidian-paste-to-current-indentation|Paste Mode]]
 - [[obsidian-apply-patterns|Apply Patterns]]
 - [[obsidian-carry-forward|Carry-Forward]]
+- [[obsidian-redirect|Redirect]]
+- [[boost-link-suggestions|Boost Link Suggestions]]
 
 %% End Hub: Released contributions %%
 

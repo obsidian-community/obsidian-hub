@@ -23,6 +23,7 @@ publish: true
 - [[note-refactor-obsidian|Note Refactor]]
 - [[obsidian-day-planner|Day Planner]]
 - [[obsidian-mind-map|Mind Map]]
+- [[writing-goals|Writing Goals]]
 
 %% End Hub: Released contributions %%
 

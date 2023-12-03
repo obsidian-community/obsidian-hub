@@ -8,7 +8,7 @@ publish: true
 
 # Yeboster
 
-- GitHub: [yeboster](https://github.com/yeboster/) ^github
+- GitHub: [Yeboster](https://github.com/Yeboster/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/Yeboster/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @yeboster on GitHub Sponsors](https://github.com/sponsors/yeboster) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @Yeboster on GitHub Sponsors](https://github.com/sponsors/Yeboster) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

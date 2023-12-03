@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [Automatt](https://github.com/Automatt/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <@automatt> ^website
+- Website: <https://twitter.com/Automatt> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

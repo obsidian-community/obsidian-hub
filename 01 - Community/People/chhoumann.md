@@ -23,6 +23,7 @@ publish: true
 - [[notetweet|NoteTweet🐦]]
 - [[metaedit|MetaEdit]]
 - [[quickadd|QuickAdd]]
+- [[podnotes|PodNotes]]
 
 %% End Hub: Released contributions %%
 
@@ -38,13 +39,10 @@ publish: true
 
 ## Sponsor this author
 
-- [[Buy me a coffee]]: <https://www.buymeacoffee.com/chhoumann> ^buy-me-a-coffee
 - [[GitHub sponsors]]: [Sponsor @chhoumann on GitHub Sponsors](https://github.com/sponsors/chhoumann) ^github-sponsor
-
-<!--
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
--->
+- [[Buy me a coffee]]: <https://www.buymeacoffee.com/chhoumann> ^buy-me-a-coffee
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author

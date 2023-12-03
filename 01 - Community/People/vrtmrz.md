@@ -22,6 +22,9 @@ publish: true
 ### Plugins
 - [[obsidian-livesync|Self-hosted LiveSync]]
 - [[obsidian-tagfolder|TagFolder]]
+- [[obsidian-screwdriver|Screwdriver]]
+- [[ninja-cursor|Ninja Cursor]]
+- [[ring-a-secretary|Ring a secretary]]
 
 %% End Hub: Released contributions %%
 

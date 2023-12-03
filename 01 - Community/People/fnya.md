@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[media-sync|Media Sync]]
+- [[merge-notes|Merge Notes]]
+- [[remove-empty-folders|Remove Empty Folders]]
 
 %% End Hub: Released contributions %%
 

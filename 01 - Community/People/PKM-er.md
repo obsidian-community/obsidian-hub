@@ -1,16 +1,16 @@
 ---
 aliases:
-- Boninall & Windily-cloud
+- PKM-er
 tags:
 - 
 publish: true
 ---
 
-# Boninall & Windily-cloud
+# PKM-er
 
 - GitHub: [PKM-er](https://github.com/PKM-er/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/Quorafind> ^website
+- Website: <https://github.com/PKM-er/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,7 +20,8 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[surfing|Surfing]]
+- [[surfing|Surfing]] by [[Boninall]] and [[Windily-cloud]]
+- [[zotlit|ZotLit]] by [[AidenLx]]
 
 %% End Hub: Released contributions %%
 

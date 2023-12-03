@@ -20,7 +20,8 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-google-tasks|Obsidian Google Tasks]]
+- [[obsidian-google-tasks|Google Tasks]]
+- [[google-calendar|Google Calendar]]
 
 %% End Hub: Released contributions %%
 

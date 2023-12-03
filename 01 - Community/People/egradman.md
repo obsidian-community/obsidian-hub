@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[scales-chords|Scales and Chords]]
+- [[obsidian-etherpad-plugin|Etherpad]]
 
 %% End Hub: Released contributions %%
 

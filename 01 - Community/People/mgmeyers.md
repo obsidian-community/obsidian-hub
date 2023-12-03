@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [mgmeyers](https://github.com/mgmeyers/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/mgmeyers/obsidian-copy-block-link> ^website
+- Website: <https://github.com/mgmeyers> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -30,6 +30,10 @@ publish: true
 - [[obsidian-copy-block-link|Copy Block Link]]
 - [[obsidian-native-scrollbars|Native Scrollbars]]
 - [[obsidian-indentation-guides|Indentation Guides]]
+- [[obsidian-zotero-desktop-connector|Zotero Integration]]
+- [[obsidian-pandoc-reference-list|Pandoc Reference List]]
+- [[obsidian-list-callouts|List Callouts]]
+- [[easy-bake|Easy Bake]]
 
 ### Themes
 - [[California Coast]]

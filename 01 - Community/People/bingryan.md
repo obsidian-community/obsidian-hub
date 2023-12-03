@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [bingryan](https://github.com/bingryan/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/bingryan/obsidian-markdown-export-plugin> ^website
+- Website: <https://github.com/bingryan> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-markdown-export-plugin|Obsidian markdown export]]
+- [[ibook|ibook]]
 
 %% End Hub: Released contributions %%
 

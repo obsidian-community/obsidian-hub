@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [OfficerHalf](https://github.com/OfficerHalf/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://nathan-smith.org/> ^website
+- Website: <https://nathan-smith.org> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -38,14 +38,10 @@ publish: true
 
 ## Sponsor this author
 
+<!-- - [[GitHub sponsors]]: [Sponsor @OfficerHalf on GitHub Sponsors](https://github.com/sponsors/OfficerHalf) ^github-sponsor-->
 - [[Buy me a coffee]]: [https://ko-fi.com/officerhalf](https://ko-fi.com/officerhalf) ^buy-me-a-coffee
-
-<!--
-- [[GitHub sponsors]]: [Sponsor @OfficerHalf on GitHub Sponsors](https://github.com/sponsors/OfficerHalf) ^github
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
--->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author

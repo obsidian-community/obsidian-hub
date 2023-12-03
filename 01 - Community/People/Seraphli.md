@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-link-embed|Link Embed]]
+- [[obsidian-aggregator|Aggregator]]
 
 %% End Hub: Released contributions %%
 

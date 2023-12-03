@@ -1,16 +1,16 @@
 ---
 aliases:
-- aciq
+- ieviev
 tags:
 - 
 publish: true
 ---
 
-# aciq
+# ieviev
 
 - GitHub: [ieviev](https://github.com/ieviev/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/aciq/obsidian-keyboard-shortcuts> ^website
+- Website: <https://github.com/ieviev/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

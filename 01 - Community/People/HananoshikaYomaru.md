@@ -23,6 +23,10 @@ publish: true
 - [[tag-breakdown-generator|Tag Breakdown Generator]]
 - [[frontmatter-generator|Frontmatter generator]]
 - [[md-image-caption|Markdown Image Caption]]
+- [[run|Run]]
+- [[publish-url|Publish url]]
+- [[3d-graph-new|3D Graph New]]
+- [[incomplete-files|Incomplete files]]
 
 %% End Hub: Released contributions %%
 

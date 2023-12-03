@@ -8,7 +8,7 @@ publish: true
 
 # Razum
 
-- GitHub: [razumihin](https://github.com/razumihin/) ^github
+- GitHub: [Razumihin](https://github.com/Razumihin/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/Razumihin> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @razumihin on GitHub Sponsors](https://github.com/sponsors/razumihin) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @Razumihin on GitHub Sponsors](https://github.com/sponsors/Razumihin) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

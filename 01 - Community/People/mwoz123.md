@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [mwoz123](https://github.com/mwoz123/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/mwoz123> ^website
+- Website: <https://github.com/mwoz123/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[speech2text-helper|Speech To Text Keyboard Helper]]
+- [[swiss-army-knife|Swiss army knife]]
+- [[archive-to-single-note|Archive/trash to single note]]
 
 %% End Hub: Released contributions %%
 

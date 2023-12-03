@@ -3,11 +3,11 @@ aliases:
 - Jeremy Valentine
 - Javalantasy
 tags:
-- incubator
+- 
 publish: true
 ---
 
-# Javalent
+# Jeremy Valentine
 
 - GitHub: [javalent](https://github.com/javalent/) ^github
 - Discord: `@javalent#3452` ^discord
@@ -21,9 +21,7 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
-
 ### Plugins
-
 - [[obsidian-leaflet-plugin|Obsidian Leaflet]]
 - [[obsidian-dice-roller|Dice Roller]]
 - [[obsidian-admonition|Admonition]]

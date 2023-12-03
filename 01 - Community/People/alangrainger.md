@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [alangrainger](https://github.com/alangrainger/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/alangrainger/> ^website
+- Website: <https://github.com/alangrainger> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,10 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[google-photos|Google Photos]]
+- [[image-captions|Image Captions]]
+- [[air-quotes|Air Quotes]]
+- [[frontmatter-modified-date|Update modified date]]
+- [[share-note|Share Note]]
 
 %% End Hub: Released contributions %%
 

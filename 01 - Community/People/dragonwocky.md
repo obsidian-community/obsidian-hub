@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [dragonwocky](https://github.com/dragonwocky/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://dragonwocky.me/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -19,6 +19,8 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
+### Plugins
+- [[tray|Tray]]
 
 ### Themes
 - [[Material Ocean]]

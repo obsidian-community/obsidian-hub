@@ -25,6 +25,8 @@ publish: true
 - [[rss-reader|RSS Reader]]
 - [[obsidian-tts|Text to Speech]]
 - [[link-favicon|Link Favicons]]
+- [[tag-word-cloud|Tag & Word Cloud]]
+- [[control-characters|Control Characters]]
 
 %% End Hub: Released contributions %%
 

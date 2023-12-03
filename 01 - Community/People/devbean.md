@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-wordpress|Wordpress]]
+- [[obsidian-wordpress|WordPress]]
 
 %% End Hub: Released contributions %%
 

@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[short-internal-links-to-headings|Short Internal Links to Headings]]
+- [[short-internal-links-to-headings|Short links]]
 
 %% End Hub: Released contributions %%
 

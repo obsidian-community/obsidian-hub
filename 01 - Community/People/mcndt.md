@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [mcndt](https://github.com/mcndt/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://mcndt.github.io/> ^website
+- Website: <https://mcndt.dev> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-toggl-integration|Toggl Track]]
+- [[obsidian-quickshare|QuickShare]]
 
 %% End Hub: Released contributions %%
 

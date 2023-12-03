@@ -23,8 +23,9 @@ publish: true
 - [[metadata-extractor|Metadata Extractor]]
 - [[copy-publish-url|Publish and GitHub URL]]
 - [[customizable-page-header-buttons|Customizable Page Header]]
-- [[linked-data-helper|Linked Data Helper]]
+- [[obsidian-version-history-diff|Version History Diff]]
 - [[linked-data-vocabularies|Linked Data Vocabularies]]
+- [[linked-data-helper|Linked Data Helper]]
 
 %% End Hub: Released contributions %%
 

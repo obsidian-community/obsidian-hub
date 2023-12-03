@@ -21,6 +21,9 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-wordnik|Wordnik Definitions]]
+- [[obsidian-note-content-pusher|Note Content Pusher]]
+- [[order-list|Order List]]
+- [[tasks-to-omnifocus|Send Tasks to OmniFocus]]
 
 %% End Hub: Released contributions %%
 

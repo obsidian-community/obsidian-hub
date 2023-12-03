@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [pulsovi](https://github.com/pulsovi/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://marchev.fr> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[note-aliases|Note aliases]]
+- [[eml-reader|Email Reader]]
 
 %% End Hub: Released contributions %%
 

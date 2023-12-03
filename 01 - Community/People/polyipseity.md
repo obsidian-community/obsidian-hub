@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [polyipseity](https://github.com/polyipseity/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://github.com/polyipseity> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[terminal|Terminal]]
+- [[modules|Modules]]
 
 %% End Hub: Released contributions %%
 

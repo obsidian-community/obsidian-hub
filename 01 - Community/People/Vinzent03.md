@@ -20,9 +20,10 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[find-unlinked-files|Find unlinked files and unresolved links]]
+- [[find-unlinked-files|Find orphaned files and broken links]]
+- [[cycle-through-panes|Tab Switcher]]
 - [[obsidian-sort-and-permute-lines|Sort & Permute lines]]
-- [[obsidian-shortcuts-for-starred-files|Hotkeys for starred files and searches]]
+- [[obsidian-shortcuts-for-starred-files|Hotkeys for Bookmarks]]
 - [[obsidian-hotkeys-for-specific-files|Hotkeys for specific files]]
 - [[obsidian-hotkeys-for-templates|Hotkeys for templates]]
 - [[obsidian-advanced-uri|Advanced URI]]

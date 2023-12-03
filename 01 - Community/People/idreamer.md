@@ -1,12 +1,12 @@
 ---
 aliases:
-- Obsidian
+- Woongshik Choi
 tags:
 - 
 publish: true
 ---
 
-# Obsidian
+# Woongshik Choi
 
 - GitHub: [idreamer](https://github.com/idreamer/) ^github
 <!-- - Discord: `@` ^discord-->
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[tistory-poster|Tistory Poster]]
+- [[markdown-to-slack-message|Markdown to Slack Message]]
 
 %% End Hub: Released contributions %%
 

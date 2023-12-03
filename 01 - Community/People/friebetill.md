@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[deepl|DeepL]]
+- [[file-diff|File Diff]]
 
 %% End Hub: Released contributions %%
 

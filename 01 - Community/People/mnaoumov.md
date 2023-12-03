@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[smart-rename|Smart Rename]]
+- [[backlink-cache|Backlink Cache]]
 
 %% End Hub: Released contributions %%
 

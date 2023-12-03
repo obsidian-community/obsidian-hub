@@ -20,7 +20,11 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
+- [[obsidian-day-planner|Day Planner]]
 - [[obsidian-task-archiver|Archiver]]
+- [[persistent-links|Persistent Links]]
+- [[show-diff|Show Diff]]
+- [[better-search-views|Better Search Views]]
 
 %% End Hub: Released contributions %%
 

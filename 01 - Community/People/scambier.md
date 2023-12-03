@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [scambier](https://github.com/scambier/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/scambier/obsidian-omnisearch> ^website
+- Website: <https://github.com/scambier/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[omnisearch|Omnisearch]]
+- [[no-dupe-leaves|No dupe leaves]]
+- [[text-extractor|Text Extractor]]
 
 %% End Hub: Released contributions %%
 

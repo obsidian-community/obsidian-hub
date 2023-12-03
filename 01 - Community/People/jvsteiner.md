@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[s3-image-uploader|S3 Image Uploader]]
+- [[mermaid-themes|Mermaid Themes]]
 
 %% End Hub: Released contributions %%
 

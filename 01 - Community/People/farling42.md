@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-import-json|JSON Importer]]
+- [[obsidian-import-json|JSON/CSV Importer]]
 - [[import-foundry|Import Foundry VTT journal entries]]
 
 %% End Hub: Released contributions %%

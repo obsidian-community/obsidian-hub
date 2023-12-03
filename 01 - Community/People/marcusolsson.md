@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[obsidian-vale|Vale]]
 - [[obsidian-pipe-tricks|Pipe tricks]]
+- [[obsidian-projects|Projects]]
 
 ### Themes
 - [[Creature]]

@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-text-expander|Text Expander]]
+- [[typing|Typing]]
 
 %% End Hub: Released contributions %%
 

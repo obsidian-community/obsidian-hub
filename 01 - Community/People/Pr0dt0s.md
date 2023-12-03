@@ -20,7 +20,8 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-new-note-new-window|Sample Plugin]]
+- [[obsidian-new-note-new-window|New Note New Window]]
+- [[html-server|Html Server]]
 
 %% End Hub: Released contributions %%
 

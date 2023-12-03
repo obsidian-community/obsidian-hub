@@ -8,7 +8,7 @@ publish: true
 
 # Nemo Andrea
 
-- GitHub: [nemoandrea](https://github.com/nemoandrea/) ^github
+- GitHub: [NemoAndrea](https://github.com/NemoAndrea/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <http://nemoandrea.github.io/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @nemoandrea on GitHub Sponsors](https://github.com/sponsors/nemoandrea) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @NemoAndrea on GitHub Sponsors](https://github.com/sponsors/NemoAndrea) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

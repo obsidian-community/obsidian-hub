@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [RafaelGB](https://github.com/RafaelGB/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/RafaelGB/obsidian-bd-folder> ^website
+<!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[dbfolder|DB Folder]]
+- [[zettelflow|ZettelFlow]]
 
 %% End Hub: Released contributions %%
 

@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[taskbone-ocr-plugin|Taskbone OCR]]
+- [[taskbone-ocr-plugin|Taskbone]]
 
 %% End Hub: Released contributions %%
 

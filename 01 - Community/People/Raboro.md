@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[birthday-tracker|Birthday-Tracker]]
+- [[expiration-date-tracker|Expiration-Date-Tracker]]
+- [[timer|Timer]]
 
 %% End Hub: Released contributions %%
 

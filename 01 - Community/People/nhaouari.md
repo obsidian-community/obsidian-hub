@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [nhaouari](https://github.com/nhaouari/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://text-gen.com> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[searchpp|Search++]]
 - [[obsidian-youglish-plugin|Youglish Plugin]]
+- [[obsidian-textgenerator-plugin|Text Generator]]
 
 %% End Hub: Released contributions %%
 

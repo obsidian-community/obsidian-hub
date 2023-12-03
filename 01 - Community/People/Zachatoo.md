@@ -21,6 +21,9 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-achievements|Achievements]]
+- [[inbox|Inbox]]
+- [[css-editor|CSS Editor]]
+- [[canvas-send-to-back|Canvas Send to Back]]
 
 %% End Hub: Released contributions %%
 

@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[zotero-bridge|Zotero Bridge]]
+- [[zotero-link|Zotero Link]]
 
 %% End Hub: Released contributions %%
 

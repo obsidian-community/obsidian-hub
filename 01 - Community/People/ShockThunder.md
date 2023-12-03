@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[random-structural-diary-plugin|Random Structural Diary]]
+- [[improved-random-note|Improved Random Note]]
 
 %% End Hub: Released contributions %%
 

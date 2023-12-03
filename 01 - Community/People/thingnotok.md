@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [thingnotok](https://github.com/thingnotok/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/thingnotok/obsidian-simple-todo> ^website
+- Website: <https://github.com/thingnotok/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [iiz00](https://github.com/iiz00/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://github.com/iiz00> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-daily-note-outline|Daily Note Outline]]
+- [[multiple-notes-outline|Multiple Notes Outline]]
 
 %% End Hub: Released contributions %%
 

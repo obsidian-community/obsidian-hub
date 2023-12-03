@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-excalidraw-plugin|Excalidraw]]
+- [[excalibrain|ExcaliBrain]]
 
 %% End Hub: Released contributions %%
 

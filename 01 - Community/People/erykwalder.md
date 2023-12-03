@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [erykwalder](https://github.com/erykwalder/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/erykwalder/quoth> ^website
+- Website: <https://github.com/erykwalder/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,7 +21,10 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[quoth|Quoth]]
+- [[list-style|Ordered List Style]]
 
+### Themes
+- [[Dayspring]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%

@@ -20,8 +20,9 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[copy-url-in-preview|Copy Image and URL in Preview]]
+- [[copy-url-in-preview|Copy Image and URL context menu]]
 - [[open-vscode|Open vault in VSCode]]
+- [[obsidian-hide-sidebars-when-narrow|Hide Sidebars on Window Resize]] originally by [[Michael Hanson]] now maintained by [[NomarCub]]
 
 %% End Hub: Released contributions %%
 

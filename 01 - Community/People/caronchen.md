@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [caronchen](https://github.com/caronchen/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/caronchen/obsidian-chartsview-plugin> ^website
+- Website: <https://github.com/caronchen/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-chartsview-plugin|Charts View]]
+- [[obsidian-calibre-plugin|Calibre]]
+- [[obsidian-epub-plugin|ePub Reader]]
 
 %% End Hub: Released contributions %%
 

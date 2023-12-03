@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [linjunpop](https://github.com/linjunpop/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/linjunpop/obsidian-gist> ^website
+- Website: <https://github.com/linjunpop/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-gist|Gist]]
+- [[obsidian-badge|Obsidian Badge]]
 
 %% End Hub: Released contributions %%
 

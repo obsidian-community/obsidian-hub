@@ -8,7 +8,7 @@ publish: true
 
 # Heziode
 
-- GitHub: [heziode](https://github.com/heziode/) ^github
+- GitHub: [Heziode](https://github.com/Heziode/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/Heziode> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @heziode on GitHub Sponsors](https://github.com/sponsors/heziode) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @Heziode on GitHub Sponsors](https://github.com/sponsors/Heziode) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

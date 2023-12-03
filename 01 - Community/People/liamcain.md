@@ -23,6 +23,8 @@ publish: true
 - [[calendar|Calendar]]
 - [[things-logbook|Things Logbook]]
 - [[periodic-notes|Periodic Notes]]
+- [[creases|Creases]]
+- [[lapel|Lapel]]
 
 %% End Hub: Released contributions %%
 

@@ -1,8 +1,8 @@
 ---
 aliases:
-- 
+- Fevol
 tags:
-- seedling
+- 
 publish: true
 ---
 
@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [Fevol](https://github.com/Fevol/) ^github
 - Discord: `@Fevol#9470` ^discord
-<!-- - Website: <https://> ^website-->
+- Website: <https://github.com/Fevol/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -19,7 +19,8 @@ CompSci student trying to make plugins for Obsidian, has too many interests for 
 ## Author of
 
 %% Begin Hub: Released contributions %%
-
+### Plugins
+- [[translate|Translate]]
 
 %% End Hub: Released contributions %%
 

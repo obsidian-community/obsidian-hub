@@ -23,6 +23,7 @@ publish: true
 - [[obsidian-codemirror-options|CodeMirror Options]]
 - [[workspaces-plus|Workspaces Plus]]
 - [[obsidian-dynamic-highlights|Dynamic Highlights]]
+- [[obsidian-hover-editor|Hover Editor]]
 
 %% End Hub: Released contributions %%
 

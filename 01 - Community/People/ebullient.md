@@ -24,6 +24,7 @@ publish: true
 ### Plugins
 - [[obsidian-task-collector|Task Collector (TC)]]
 - [[obsidian-snippetor|Snippetor]]
+- [[day-planner-og|Day Planner (OG)]]
 
 ### Themes
 - [[Ebullientworks]]
@@ -41,21 +42,16 @@ publish: true
 
 ## Sponsor this author
 
+<!-- - [[GitHub sponsors]]: [Sponsor @ebullient on GitHub Sponsors](https://github.com/sponsors/ebullient) ^github-sponsor-->
 - [[Buy me a coffee]]: [Buy @ebullient a coffee](https://www.buymeacoffee.com/ebullient) ^buy-me-a-coffee
-
-<!--- [[GitHub sponsors]]: [Sponsor @ebullient on GitHub Sponsors](https://github.com/sponsors/ebullient) ^github-sponsor
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
--->
+<!-- - [[PayPal]]: <https://> ^paypal-->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 ## Follow this author
 
+<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
 - Twitter: [@ebullientworks](https://twitter.com/ebullientworks) ^twitter
-
-<!--
-- [[YouTube Channels|On YouTube]]: ^youtube
-- ...
--->
+<!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
 

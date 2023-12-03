@@ -1,12 +1,12 @@
 ---
 aliases:
-- GitSum
+- Git-Sum
 tags:
 - 
 publish: true
 ---
 
-# GitSum
+# Git-Sum
 
 - GitHub: [Git-Sum](https://github.com/Git-Sum/) ^github
 <!-- - Discord: `@` ^discord-->
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[enhance-youtube-links|Enhance YouTube Links]]
+- [[tckr|tckr]]
 
 %% End Hub: Released contributions %%
 
