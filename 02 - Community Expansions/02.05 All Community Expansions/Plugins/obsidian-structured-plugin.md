@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/dobrovolsky/obsidain-structure/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/dobrovolsky/obsidain-structure?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/dobrovolsky/obsidain-structure/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/dobrovolsky/obsidain-structure?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/dobrovolsky/obsidian-structure/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/dobrovolsky/obsidian-structure?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/dobrovolsky/obsidian-structure/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/dobrovolsky/obsidian-structure?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,7 +21,7 @@ publish: true
 # Structured Plugin
 
 Plugin ID: `obsidian-structured-plugin`
-Links: [GitHub repository](https://github.com/dobrovolsky/obsidain-structure) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-structured-plugin)
+Links: [GitHub repository](https://github.com/dobrovolsky/obsidian-structure) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-structured-plugin)
 Developed by: [[dobrovolsky]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

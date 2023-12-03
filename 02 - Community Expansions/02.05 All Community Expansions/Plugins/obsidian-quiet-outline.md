@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-quiet-outline`
 Links: [GitHub repository](https://github.com/guopenghui/obsidian-quiet-outline) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-quiet-outline)
 Developed by: [[guopenghui]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Make outline quiet and more powerful, including no-auto-expand, rendering heading as markdown, and search support.
 

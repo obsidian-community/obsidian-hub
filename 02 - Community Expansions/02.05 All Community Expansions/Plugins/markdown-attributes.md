@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/valentine195/obsidian-markdown-attributes/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/valentine195/obsidian-markdown-attributes?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/valentine195/obsidian-markdown-attributes/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/valentine195/obsidian-markdown-attributes?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/javalent/markdown-attributes/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/javalent/markdown-attributes?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/javalent/markdown-attributes/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/javalent/markdown-attributes?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Markdown Attributes
 
 Plugin ID: `markdown-attributes`
-Links: [GitHub repository](https://github.com/valentine195/obsidian-markdown-attributes) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=markdown-attributes)
-Developed by: [[valentine195]]
+Links: [GitHub repository](https://github.com/javalent/markdown-attributes) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=markdown-attributes)
+Developed by: [[javalent]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Add markdown attributes to elements in Obsidian.md
@@ -30,7 +30,7 @@ Add markdown attributes to elements in Obsidian.md
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[valentine195#Sponsor this author]] %%
+%% ![[javalent#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

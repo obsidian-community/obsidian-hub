@@ -1,7 +1,7 @@
 ---
 plugin-id: frontmatter-modified-date
 aliases:
-- Update modified field on edit
+- Update modified date
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Update modified field on edit
+# Update modified date
 
 Plugin ID: `frontmatter-modified-date`
 Links: [GitHub repository](https://github.com/alangrainger/obsidian-frontmatter-modified-date) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=frontmatter-modified-date)
 Developed by: [[alangrainger]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Automatically update a frontmatter modified date field when you modify your note. This will not use the filesystem time, but only when you modify the file through Obsidian.
+Automatically update a frontmatter modified date field when you modify your note. This will not use the filesystem time, but only when you modify the file through Obsidian. Optionally store a history of edit times.
 
 %% ----- Do not edit anything above this line ----- %% 
 

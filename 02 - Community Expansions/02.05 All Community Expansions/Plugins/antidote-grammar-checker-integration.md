@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/heziode/obsidian-antidote/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/heziode/obsidian-antidote?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/heziode/obsidian-antidote/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/heziode/obsidian-antidote?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Heziode/obsidian-antidote/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Heziode/obsidian-antidote?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Heziode/obsidian-antidote/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Heziode/obsidian-antidote?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Antidote Grammar Checker Integration
 
 Plugin ID: `antidote-grammar-checker-integration`
-Links: [GitHub repository](https://github.com/heziode/obsidian-antidote) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=antidote-grammar-checker-integration)
-Developed by: [[heziode]]
+Links: [GitHub repository](https://github.com/Heziode/obsidian-antidote) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=antidote-grammar-checker-integration)
+Developed by: [[Heziode]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Unofficial integration of Antidote, a powerful English and French grammar checker
@@ -30,7 +30,7 @@ Unofficial integration of Antidote, a powerful English and French grammar checke
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[heziode#Sponsor this author]] %%
+%% ![[Heziode#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

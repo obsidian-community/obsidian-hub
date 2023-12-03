@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/nikdanilov/whisper-obsidian-plugin
 Developed by: [[nikdanilov]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Hands-Free Note-Taking for Obsidian with Whisper
+Speech-to-text in Obsidian using OpenAI Whisper
 
 %% ----- Do not edit anything above this line ----- %% 
 

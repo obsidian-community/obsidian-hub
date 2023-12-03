@@ -9,28 +9,28 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/valentine195/obsidian-prominent-starred-files/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/valentine195/obsidian-prominent-starred-files?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/valentine195/obsidian-prominent-starred-files/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/valentine195/obsidian-prominent-starred-files?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/javalent/prominent-files/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/javalent/prominent-files?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/javalent/prominent-files/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/javalent/prominent-files?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# Prominent Starred Files
+# Prominent Bookmarked Files
 
 Plugin ID: `obsidian-prominent-starred-files`
-Links: [GitHub repository](https://github.com/valentine195/obsidian-prominent-starred-files) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-prominent-starred-files)
-Developed by: [[valentine195]]
+Links: [GitHub repository](https://github.com/javalent/prominent-files) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-prominent-starred-files)
+Developed by: [[javalent]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Prominently display starred notes in the file explorer
+Prominently display bookmarked notes in the file explorer
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[valentine195#Sponsor this author]] %%
+%% ![[javalent#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

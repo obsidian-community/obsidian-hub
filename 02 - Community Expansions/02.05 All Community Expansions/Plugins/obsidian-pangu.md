@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-pangu
 aliases:
-- 盘古
+- 盘古 PanGu
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# 盘古
+# 盘古 PanGu
 
 Plugin ID: `obsidian-pangu`
 Links: [GitHub repository](https://github.com/Natumsol/obsidian-pangu) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-pangu)

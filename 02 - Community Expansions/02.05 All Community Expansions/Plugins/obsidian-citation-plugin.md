@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-citation-plugin`
 Links: [GitHub repository](https://github.com/hans/obsidian-citation-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-citation-plugin)
 Developed by: [[hans]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Automatically search and insert citations from a Zotero library
 

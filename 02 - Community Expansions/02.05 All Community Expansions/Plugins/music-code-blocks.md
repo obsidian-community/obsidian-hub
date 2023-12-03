@@ -1,7 +1,7 @@
 ---
 plugin-id: music-code-blocks
 aliases:
-- Music notation
+- ABC Music Notation
 tags: 
 - 
 publish: true
@@ -9,28 +9,28 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/TilBlechschmidt/obsidian-plugin-abcjs/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/TilBlechschmidt/obsidian-plugin-abcjs?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/TilBlechschmidt/obsidian-plugin-abcjs/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/TilBlechschmidt/obsidian-plugin-abcjs?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/abcjs-music/obsidian-plugin-abcjs/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/abcjs-music/obsidian-plugin-abcjs?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/abcjs-music/obsidian-plugin-abcjs/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/abcjs-music/obsidian-plugin-abcjs?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# Music notation
+# ABC Music Notation
 
 Plugin ID: `music-code-blocks`
-Links: [GitHub repository](https://github.com/TilBlechschmidt/obsidian-plugin-abcjs) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=music-code-blocks)
-Developed by: [[TilBlechschmidt]]
+Links: [GitHub repository](https://github.com/abcjs-music/obsidian-plugin-abcjs) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=music-code-blocks)
+Developed by: [[abcjs-music]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Plugin which renders music notation from code blocks. Uses the `music-abc` language.
+Obsidian plugin which renders ABC music notation from code blocks using the `abc` language specifier.
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[TilBlechschmidt#Sponsor this author]] %%
+%% ![[abcjs-music#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

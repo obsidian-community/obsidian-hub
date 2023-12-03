@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/MamoruDS/obsidian-open-link-with) 
 Developed by: [[MamoruDS]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Open external link with specific browser in Obsidian
+Open external link with specific browser / in-app view in Obsidian
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -1,7 +1,7 @@
 ---
 plugin-id: consistent-attachments-and-links
 aliases:
-- Consistent attachments and links
+- Consistent Attachments and Links
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Consistent attachments and links
+# Consistent Attachments and Links
 
 Plugin ID: `consistent-attachments-and-links`
 Links: [GitHub repository](https://github.com/dy-sh/obsidian-consistent-attachments-and-links) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=consistent-attachments-and-links)

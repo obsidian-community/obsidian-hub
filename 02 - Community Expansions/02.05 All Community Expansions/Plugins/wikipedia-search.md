@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/StrangeGirlMurph/obsidian-wikipedi
 Developed by: [[StrangeGirlMurph]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Search for Wikipedia articles and link them.
+Search, link and open Wikipedia articles, all within the app!
 
 %% ----- Do not edit anything above this line ----- %% 
 

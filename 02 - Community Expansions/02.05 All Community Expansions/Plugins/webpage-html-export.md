@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/KosmosisDire/obsidian-webpage-expo
 Developed by: [[KosmosisDire]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Exports an obsidian document as an HTML document / webpage / website (correctly!). Also has interactive embedded dark / light theme toggle, and document outline.
+Webpage HTML Export is a plugin for Obsidian which lets you export single files or whole vaults as HTML websites / webpages. It is similar to publish, but you get the .html files to do whatever you want with. Its goal is to support as many features of obsidian possible including themes, dataview, graph view, and more.
 
 %% ----- Do not edit anything above this line ----- %% 
 

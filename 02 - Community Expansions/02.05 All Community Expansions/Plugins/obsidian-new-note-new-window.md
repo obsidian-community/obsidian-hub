@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-new-note-new-window
 aliases:
-- Sample Plugin
+- New Note New Window
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Sample Plugin
+# New Note New Window
 
 Plugin ID: `obsidian-new-note-new-window`
 Links: [GitHub repository](https://github.com/Pr0dt0s/new-note-new-window) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-new-note-new-window)

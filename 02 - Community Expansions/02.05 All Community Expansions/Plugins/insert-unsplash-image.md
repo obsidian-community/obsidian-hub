@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/cloudy9101/obsidian-image-inserter
 Developed by: [[cloudy9101]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This plugin helps users easily search and insert images to editors from Unsplash.
+This plugin helps users easily search and insert images to editors from Unsplash / Pixabay / Pexels.
 
 %% ----- Do not edit anything above this line ----- %% 
 

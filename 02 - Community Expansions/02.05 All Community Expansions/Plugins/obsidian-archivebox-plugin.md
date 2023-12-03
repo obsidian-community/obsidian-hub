@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/invariant/obsidian-archivebox-plug
 Developed by: [[invariant]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Archives links to ArchiveBox, a self-hosted archiver, upon file modification.
+Archives links to ArchiveBox, a self-hosted archiver, upon file modification. Requires ArchiveBox 0.6.3+
 
 %% ----- Do not edit anything above this line ----- %% 
 

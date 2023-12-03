@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/mirnovov/obsidian-homepage) or [<b
 Developed by: [[mirnovov]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Open a specified note on startup.
+Open a specified note, canvas, or workspace on startup, or set it for quick access later.
 
 %% ----- Do not edit anything above this line ----- %% 
 

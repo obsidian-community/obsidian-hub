@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/carlonicora/obsidian-rpg-manager) 
 Developed by: [[carlonicora]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-A plugin to manage your Tabletop Role Playing Game campaigns for Obsidian.
+Manage your Tabletop Role Playing Game Campaigns in Obsidian
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `convert-url-to-iframe`
 Links: [GitHub repository](https://github.com/FHachez/obsidian-convert-url-to-iframe) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=convert-url-to-iframe)
 Developed by: [[FHachez]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Convert an url (ex, youtube) into an iframe (preview)
 

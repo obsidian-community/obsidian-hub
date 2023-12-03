@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-version-history-diff
 aliases:
-- Version History Diff (Sync, File Recovery & Git)
+- Version History Diff
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Version History Diff (Sync, File Recovery & Git)
+# Version History Diff
 
 Plugin ID: `obsidian-version-history-diff`
 Links: [GitHub repository](https://github.com/kometenstaub/obsidian-version-history-diff) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-version-history-diff)

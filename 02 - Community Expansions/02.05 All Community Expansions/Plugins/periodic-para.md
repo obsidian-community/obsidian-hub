@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/quanru/obsidian-periodic-para) or 
 Developed by: [[quanru]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Assist in practicing the PARA system with periodic notes.
+Assist in practicing the PARA system with periodic notes and usememos.
 
 %% ----- Do not edit anything above this line ----- %% 
 

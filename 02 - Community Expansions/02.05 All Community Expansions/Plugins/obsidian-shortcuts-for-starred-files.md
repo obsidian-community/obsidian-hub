@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-shortcuts-for-starred-files
 aliases:
-- Hotkeys for starred files and searches
+- Hotkeys for Bookmarks
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Hotkeys for starred files and searches
+# Hotkeys for Bookmarks
 
 Plugin ID: `obsidian-shortcuts-for-starred-files`
 Links: [GitHub repository](https://github.com/Vinzent03/obsidian-shortcuts-for-starred-files) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-shortcuts-for-starred-files)
 Developed by: [[Vinzent03]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Set an individual hotkey for the first 9 starred files and searches and open them just with your keyboard.
+Set an individual hotkey for the first 9 bookmarks and open them just with your keyboard.
 
 %% ----- Do not edit anything above this line ----- %% 
 

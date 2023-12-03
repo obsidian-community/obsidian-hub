@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/kaffarell/obsidian-tesseract-ocr) 
 Developed by: [[kaffarell]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Runs ocr on images and pastes result in description.
+Runs OCR on images and copies content in image caption.
 
 %% ----- Do not edit anything above this line ----- %% 
 

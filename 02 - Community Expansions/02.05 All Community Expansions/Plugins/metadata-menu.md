@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/mdelobelle/metadatamenu) or [<butt
 Developed by: [[mdelobelle]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Adds options to file and link context menu to change metadatas of the target note.
+For data quality enthousiasts (and dataview lovers): manage the metadata of your notes.
 
 %% ----- Do not edit anything above this line ----- %% 
 

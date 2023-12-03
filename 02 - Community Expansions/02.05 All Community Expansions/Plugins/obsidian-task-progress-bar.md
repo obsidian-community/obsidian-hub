@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/quorafind/obsidian-task-progress-bar/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/quorafind/obsidian-task-progress-bar?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/quorafind/obsidian-task-progress-bar/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/quorafind/obsidian-task-progress-bar?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Quorafind/Obsidian-Task-Progress-Bar/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Quorafind/Obsidian-Task-Progress-Bar?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Quorafind/Obsidian-Task-Progress-Bar/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Quorafind/Obsidian-Task-Progress-Bar?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Task Progress Bar
 
 Plugin ID: `obsidian-task-progress-bar`
-Links: [GitHub repository](https://github.com/quorafind/obsidian-task-progress-bar) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-task-progress-bar)
-Developed by: [[quorafind]]
+Links: [GitHub repository](https://github.com/Quorafind/Obsidian-Task-Progress-Bar) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-task-progress-bar)
+Developed by: [[Quorafind]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A task progress bar plugin for tasks in Obsidian.
@@ -30,7 +30,7 @@ A task progress bar plugin for tasks in Obsidian.
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[quorafind#Sponsor this author]] %%
+%% ![[Quorafind#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

@@ -528,7 +528,7 @@ Plugins which have not yet been categorized by the community.
 - [[pf2-action-icons|Pathfinder 2E Action Icons]]: Displays Pathfinder 2E action icons easily
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
 - [[perilous-writing|Perilous Writing]]: Write continuously—or lose all progress.
-- [[periodic-para|Periodic PARA]]: Assist in practicing the PARA system with periodic notes.
+- [[periodic-para|Periodic PARA]]: Assist in practicing the PARA system with periodic notes and usememos.
 - [[persistent-links|Persistent Links]]: Automatically repair internal links to blocks and headings
 - [[personal-assistant|Personal Assistant]]: Streamline workflows within Obsidian, managing memos and plugins with just one command.
 - [[pieces-for-developers|Pieces for Developers]]: Streamline your coding workflow in Obsidian with the Pieces For Developers plugin, offering powerful features for capturing, managing, translating, and enhancing code snippets. (Closed Source) 
@@ -888,7 +888,7 @@ Plugins which have not yet been categorized by the community.
 - [[table-checkboxes|Markdown table checkboxes]]: Converts markdown checkboxes in tables to HTML, and reflects the state upon (un)checking them.
 - [[image2latex|Image2LaTEX]]: Convert your images with math to LaTEX code.
 - [[tag-breakdown-generator|Tag Breakdown Generator]]: Breakdown nested tags into multiple parent tags
-- [[reclipped-official|ReClipped Official]]: Official ReClipped <-> Obsidian integration
+- [[reclipped-official|ReClipped Official]]: Official ReClipped and Obsidian integration
 - [[ollama|Ollama]]: This is a plugin for Obsidian that enables the usage of Ollama within your notes.
 - [[lunar-calendar|Lunar Calendar]]: 一个支持农历的日历
 - [[mini-vimrc|Mini Vimrc]]: Set Vim keybiddings via .vimrc file.
@@ -925,7 +925,6 @@ Plugins which have not yet been categorized by the community.
 - [[md-image-caption|Markdown Image Caption]]: Generate image caption
 - [[fountain-editor|Fountain Editor]]: Fountain (screenplay) syntax highlighting in the editor
 - [[title-generator|Title Generator]]: Quickly and easily title your notes using OpenAI's GPT-3.5
-- [[remotely-secure|Remotely Secure]]: Security fixes for the remotely-save unofficial plugin allowing users to synchronize notes between local device and the cloud service. Not backwards compatible.
 - [[inline-encrypter|Inline Encrypter]]: Encrypt secrets in your notes.
 - [[scholar|Scholar]]: Streamline Research Workflow in Obsidian
 - [[hexo-auto-updater|Hexo Auto updater]]: This is a hexo plugin for Obsidian that enable the auto update. 
@@ -957,11 +956,33 @@ Plugins which have not yet been categorized by the community.
 - [[notes-merger|Notes Merger]]: Merge notes into a single markdown document based on index Markdown file.
 - [[file-cleaner-redux|File Cleaner Redux]]: Help you to clean empty files and unused attachments in the vault.
 - [[edit-mdx|Edit MDX]]: Allows the user to edit and create .mdx files.
+- [[random-numbers-generator|Random Number Generator]]: Insert a random number.
 - [[short-tab-name|short tab name]]: set tab name to short for uid user
 - [[run|Run]]: Generate markdown from dataview query and javascript
 - [[blockier|Blockier]]: Extra block editing utilities.
 - [[colored-tags-wrangler|Colored Tags Wrangler]]: Assign colors to tags. Has integrations with other plugins, like Kanban.
+- [[ghcat-reminder|GChat Reminder]]: Sends notifications to Google Chat Webhook based on due dates in Obsidian tasks.
+- [[ical|iCal]]: Scans your vault for tasks. Creates an iCal file and stores it on Gist. You can then show this calendar in any iCal compatible client such as Outlook, Google Calendar, Apple Calendar, etc.
+- [[desci|Desci]]: A collection of tools that integrate obsidian with web3.
+- [[arena|Are.na unofficial]]: Allows you to save Are.na blocks as notes.
+- [[datetime-language-changer|Datetime Language Changer]]: Customize the language used for datetime formatting by changing moment.js's locale.
+- [[minio-uploader|Minio Uploader]]: Upload images, videos, audio, pdf, and other files to Minio OSS.
+- [[better-canvas-lock|Better Canvas Lock]]: Enhance the read-only mode in canvas with fully lock the scroll, zoom, drag-and-drop in read-only!
+- [[file-indicators|File indicators]]: Add custom indicators to the file explorer.
+- [[sort-frontmatter|Sort Frontmatter]]: Sort frontmatter recursively
+- [[image-classify-paste|Image Classify Paste]]: paste your image like typora, the image link name not `![[Paste xxx]]` but `![some name](relative-directory/xxx.png)`with a relative directory. 类比于typora的方式粘贴图片到本地，存放在以当前md文档命名的文件夹里。
+- [[publish-url|Publish url]]: Obsidian Publish url to the clipboard
+- [[3d-graph-new|3D Graph New]]: A 3D Graph for Obsidian
+- [[omglol-statuslog-publish|Omg.publish]]: Publish selected text to omg.lol service.
+- [[local-graphql|Local GraphQL]]: Export Obsidian data as a local GraphQL server.
+- [[feeds|Feeds]]: Create feeds of topic-specific bullet points in Obsidian.
+- [[spotify-links|Spotify Links]]: Insert a link to the song currently playing on your Spotify
+- [[hunchly|Hunchly]]: Import notes and images from Hunchly.
+- [[tckr|tckr]]: Get your TickTicks!
+- [[periodic-table|Periodic Table]]: View a periodic table in the sidebar
+- [[helpmate|HelpMate]]: Integrating help systems into the Obsidian UI.
 - [[paste-link|Paste Link]]: Intelligently paste Markdown links.
+- [[incomplete-files|Incomplete files]]: Rule based keep track of your incomplete files
 
 
 %% Hub footer: Please don't edit anything below this line %%

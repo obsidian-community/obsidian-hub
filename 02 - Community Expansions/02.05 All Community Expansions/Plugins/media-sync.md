@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/fnya/media-sync) or [<button id=HH
 Developed by: [[fnya]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Downloads images from the image URLs in documents and displays the content.
+Downloads media files(eg. images, PDFs) from the URLs in documents and displays the content.
 
 %% ----- Do not edit anything above this line ----- %% 
 

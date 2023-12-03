@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `tags-overview`
 Links: [GitHub repository](https://github.com/christianwannerstedt/obsidian-tags-overview) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=tags-overview)
 Developed by: [[christianwannerstedt]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Adds an extended tags panel where tagged files can be overviewed, filtered and accessed in an easy way.
 

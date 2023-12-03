@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/nemoandrea/obsidian-daily-named-folder/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/nemoandrea/obsidian-daily-named-folder?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/nemoandrea/obsidian-daily-named-folder/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/nemoandrea/obsidian-daily-named-folder?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/NemoAndrea/obsidian-daily-named-folder/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/NemoAndrea/obsidian-daily-named-folder?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/NemoAndrea/obsidian-daily-named-folder/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/NemoAndrea/obsidian-daily-named-folder?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Daily Named Folder
 
 Plugin ID: `obsidian-daily-named-folder`
-Links: [GitHub repository](https://github.com/nemoandrea/obsidian-daily-named-folder) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-daily-named-folder)
-Developed by: [[nemoandrea]]
+Links: [GitHub repository](https://github.com/NemoAndrea/obsidian-daily-named-folder) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-daily-named-folder)
+Developed by: [[NemoAndrea]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Like daily notes, but nested in a named daily folder. Better for attachment management. Includes more flexible naming.
@@ -30,7 +30,7 @@ Like daily notes, but nested in a named daily folder. Better for attachment mana
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[nemoandrea#Sponsor this author]] %%
+%% ![[NemoAndrea#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

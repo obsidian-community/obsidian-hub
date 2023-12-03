@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/signynt/insert-heading-link/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/signynt/insert-heading-link?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/signynt/insert-heading-link/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/signynt/insert-heading-link?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Signynt/insert-heading-link/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Signynt/insert-heading-link?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Signynt/insert-heading-link/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Signynt/insert-heading-link?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Insert Heading Link
 
 Plugin ID: `insert-heading-link`
-Links: [GitHub repository](https://github.com/signynt/insert-heading-link) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=insert-heading-link)
-Developed by: [[signynt]]
+Links: [GitHub repository](https://github.com/Signynt/insert-heading-link) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=insert-heading-link)
+Developed by: [[Signynt]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Add a Link to a Heading
@@ -30,7 +30,7 @@ Add a Link to a Heading
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[signynt#Sponsor this author]] %%
+%% ![[Signynt#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

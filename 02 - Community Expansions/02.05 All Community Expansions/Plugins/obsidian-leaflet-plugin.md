@@ -22,7 +22,7 @@ publish: true
 
 Plugin ID: `obsidian-leaflet-plugin`
 Links: [GitHub repository](https://github.com/valentine195/obsidian-leaflet-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-leaflet-plugin)
-Developed by: [[valentine195]]
+Developed by: [[javalent]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Interactive maps inside your notes
@@ -30,7 +30,7 @@ Interactive maps inside your notes
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[valentine195#Sponsor this author]] %%
+%% ![[javalent#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

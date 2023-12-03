@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/quorafind/obsidian-daily-notes-editor/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/quorafind/obsidian-daily-notes-editor?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/quorafind/obsidian-daily-notes-editor/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/quorafind/obsidian-daily-notes-editor?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Quorafind/Obsidian-Daily-Notes-Editor/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Quorafind/Obsidian-Daily-Notes-Editor?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Quorafind/Obsidian-Daily-Notes-Editor/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Quorafind/Obsidian-Daily-Notes-Editor?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Daily Notes Editor
 
 Plugin ID: `daily-notes-editor`
-Links: [GitHub repository](https://github.com/quorafind/obsidian-daily-notes-editor) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=daily-notes-editor)
-Developed by: [[quorafind]]
+Links: [GitHub repository](https://github.com/Quorafind/Obsidian-Daily-Notes-Editor) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=daily-notes-editor)
+Developed by: [[Quorafind]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A plugin for you to edit a bunch of daily notes in one page(inline), which works similar to Roam Research's default daily note view.
@@ -30,7 +30,7 @@ A plugin for you to edit a bunch of daily notes in one page(inline), which works
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[quorafind#Sponsor this author]] %%
+%% ![[Quorafind#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

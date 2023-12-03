@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-metacopy
 aliases:
-- Metacopy
+- Metacopy & URL
 tags: 
 - 
 publish: true
@@ -9,28 +9,28 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/Mara-Li/obsidian-metacopy/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Mara-Li/obsidian-metacopy?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/Mara-Li/obsidian-metacopy/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/Mara-Li/obsidian-metacopy?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Lisandra-dev/obsidian-metacopy/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Lisandra-dev/obsidian-metacopy?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Lisandra-dev/obsidian-metacopy/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Lisandra-dev/obsidian-metacopy?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# Metacopy
+# Metacopy & URL
 
 Plugin ID: `obsidian-metacopy`
-Links: [GitHub repository](https://github.com/Mara-Li/obsidian-metacopy) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-metacopy)
-Developed by: [[Mara-Li]]
+Links: [GitHub repository](https://github.com/Lisandra-dev/obsidian-metacopy) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-metacopy)
+Developed by: [[Lisandra-dev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This is a plugin that copy the value of a frontmatter key.
+Copy the value of a frontmatter key and allows to create link from it using various settings.
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[Mara-Li#Sponsor this author]] %%
+%% ![[Lisandra-dev#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

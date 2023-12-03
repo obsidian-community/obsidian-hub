@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `tag-breakdown-generator`
 Links: [GitHub repository](https://github.com/HananoshikaYomaru/obsidian-tag-generator) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=tag-breakdown-generator)
 Developed by: [[HananoshikaYomaru]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Breakdown nested tags into multiple parent tags
 

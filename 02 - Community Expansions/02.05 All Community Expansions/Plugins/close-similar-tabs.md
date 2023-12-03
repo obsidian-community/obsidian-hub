@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/1C0D/Obsidian-Close-Similar-Tabs) 
 Developed by: [[1C0D]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Close similar tabs.
+Avoid to have a file opened several times in your tabs. (+setting: by window or everywhere)
 
 %% ----- Do not edit anything above this line ----- %% 
 

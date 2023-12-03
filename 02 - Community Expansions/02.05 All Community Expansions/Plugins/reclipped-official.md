@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/tech-reclipped/ReClipped-Obsidian-
 Developed by: [[tech-reclipped]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Official ReClipped <-> Obsidian integration
+Official ReClipped and Obsidian integration
 
 %% ----- Do not edit anything above this line ----- %% 
 

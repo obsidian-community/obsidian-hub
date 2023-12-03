@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-hover-editor`
 Links: [GitHub repository](https://github.com/nothingislost/obsidian-hover-editor) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-hover-editor)
 Developed by: [[nothingislost]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Transform the Page Preview hover popover into a fully working editor instance
 

@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-google-tasks
 aliases:
-- Obsidian Google Tasks
+- Google Tasks
 tags: 
 - 
 publish: true
@@ -18,12 +18,12 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Obsidian Google Tasks
+# Google Tasks
 
 Plugin ID: `obsidian-google-tasks`
 Links: [GitHub repository](https://github.com/YukiGasai/obsidian-google-tasks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-google-tasks)
 Developed by: [[YukiGasai]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Interact with your Google Tasks from Inside Obsidian
 

@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `dbfolder`
 Links: [GitHub repository](https://github.com/RafaelGB/obsidian-db-folder) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=dbfolder)
 Developed by: [[RafaelGB]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Folder with the capability to store and retrieve data from a folder like database
 

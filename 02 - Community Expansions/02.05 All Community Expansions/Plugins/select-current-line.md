@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `select-current-line`
 Links: [GitHub repository](https://github.com/gokulk16/select-current-line-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=select-current-line)
 Developed by: [[gokulk16]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Selects the current line where the cursor is placed. Press 'ESC' button to select.
 

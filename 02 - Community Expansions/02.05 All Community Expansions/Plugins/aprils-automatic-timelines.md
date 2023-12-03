@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `aprils-automatic-timelines`
 Links: [GitHub repository](https://github.com/April-Gras/obsidian-auto-timelines) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=aprils-automatic-timelines)
 Developed by: [[April-Gras]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Simple timeline generator for story tellers
 

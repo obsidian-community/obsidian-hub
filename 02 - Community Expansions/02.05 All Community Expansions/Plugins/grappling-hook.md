@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/chrisgrieser/grappling-hook) or [<
 Developed by: [[chrisgrieser]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Obsidian Plugin for blazingly fast file switching. For people for whom using the Quick Switcher still takes too much time.
+Obsidian Plugin for blazingly fast file switching. For those who find the Quick Switcher still too slow.
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/darrenkuro/obsidian-basetag) or [<
 Developed by: [[darrenkuro]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This plugin renders the basename of tags in preview mode.
+This plugin renders the basename of tags.
 
 %% ----- Do not edit anything above this line ----- %% 
 

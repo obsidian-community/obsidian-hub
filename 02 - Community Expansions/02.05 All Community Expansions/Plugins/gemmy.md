@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/ericaxu/Gemmy/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ericaxu/Gemmy?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/ericaxu/Gemmy/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/ericaxu/Gemmy?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/ericaxu/gemmy/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ericaxu/gemmy?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/ericaxu/gemmy/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/ericaxu/gemmy?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,7 +21,7 @@ publish: true
 # Gemmy
 
 Plugin ID: `gemmy`
-Links: [GitHub repository](https://github.com/ericaxu/Gemmy) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=gemmy)
+Links: [GitHub repository](https://github.com/ericaxu/gemmy) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=gemmy)
 Developed by: [[ericaxu]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

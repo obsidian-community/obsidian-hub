@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `obsidian-git`
 Links: [GitHub repository](https://github.com/denolehov/obsidian-git) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-git)
 Developed by: [[denolehov]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Backup your vault with git.
+Backup your vault with Git.
 
 %% ----- Do not edit anything above this line ----- %% 
 

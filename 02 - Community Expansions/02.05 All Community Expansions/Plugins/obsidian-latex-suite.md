@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `obsidian-latex-suite`
 Links: [GitHub repository](https://github.com/artisticat1/obsidian-latex-suite) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-latex-suite)
 Developed by: [[artisticat1]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Make typesetting LaTeX math as fast as handwriting
+Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements
 
 %% ----- Do not edit anything above this line ----- %% 
 

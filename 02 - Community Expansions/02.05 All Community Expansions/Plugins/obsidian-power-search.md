@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/aviral-batra/obsidian-power-search
 Developed by: [[aviral-batra]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Searches Anki Notes based on current line
+Searches Obsidian and Anki Notes based on current line
 
 %% ----- Do not edit anything above this line ----- %% 
 

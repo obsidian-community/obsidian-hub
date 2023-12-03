@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `obsidian-rtl`
 Links: [GitHub repository](https://github.com/esm7/obsidian-rtl) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-rtl)
 Developed by: [[esm7]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Right to Left (RTL) text direction support for languages like Arabic, Hebrew and Farsi.
+Right to Left (RTL) text direction support for languages like Arabic, Hebrew and Persian (Farsi).
 
 %% ----- Do not edit anything above this line ----- %% 
 

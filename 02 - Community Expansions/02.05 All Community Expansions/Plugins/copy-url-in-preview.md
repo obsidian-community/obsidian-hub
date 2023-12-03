@@ -1,7 +1,7 @@
 ---
 plugin-id: copy-url-in-preview
 aliases:
-- Copy Image and URL in Preview
+- Copy Image and URL context menu
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Copy Image and URL in Preview
+# Copy Image and URL context menu
 
 Plugin ID: `copy-url-in-preview`
 Links: [GitHub repository](https://github.com/NomarCub/obsidian-copy-url-in-preview) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=copy-url-in-preview)
 Developed by: [[NomarCub]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Copy Image and Copy URL context menu in preview mode
+Copy Image, Copy URL and Open PDF externally context menu in reading view (formerly preview mode)
 
 %% ----- Do not edit anything above this line ----- %% 
 

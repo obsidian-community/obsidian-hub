@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/Easychris/obsidian-to-notion/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Easychris/obsidian-to-notion?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/Easychris/obsidian-to-notion/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/Easychris/obsidian-to-notion?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/EasyChris/obsidian-to-notion/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/EasyChris/obsidian-to-notion?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/EasyChris/obsidian-to-notion/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/EasyChris/obsidian-to-notion?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Obsidian shared to Notion
 
 Plugin ID: `obsidian-to-notion`
-Links: [GitHub repository](https://github.com/Easychris/obsidian-to-notion) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-to-notion)
-Developed by: [[Easychris]]
+Links: [GitHub repository](https://github.com/EasyChris/obsidian-to-notion) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-to-notion)
+Developed by: [[EasyChris]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a  plugin for Obsidian. This plugin share obsidian md  file to notion with notion api
@@ -30,7 +30,7 @@ This is a  plugin for Obsidian. This plugin share obsidian md  file to notion wi
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[Easychris#Sponsor this author]] %%
+%% ![[EasyChris#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

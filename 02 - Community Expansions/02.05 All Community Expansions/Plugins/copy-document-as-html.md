@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/mvdkwast/obsidian-copy-as-html) or
 Developed by: [[mvdkwast]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Copy the current document to clipboard as HTML, including images
+Copy the current document to clipboard as HTML, including images, diagrams etc...
 
 %% ----- Do not edit anything above this line ----- %% 
 

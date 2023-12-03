@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `auto-moc`
 Links: [GitHub repository](https://github.com/dalcantara7/obsidian-auto-moc) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=auto-moc)
 Developed by: [[dalcantara7]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Looks for missing linked mentions to the current note and imports them into the current note.
+Looks for missing linked mentions or notes with a specific tag or alias and imports them into the current note.
 
 %% ----- Do not edit anything above this line ----- %% 
 

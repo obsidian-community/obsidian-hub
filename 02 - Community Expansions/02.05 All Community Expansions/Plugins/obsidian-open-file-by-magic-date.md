@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/simplgy/obsidian-open-file-by-magic-date/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/simplgy/obsidian-open-file-by-magic-date?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/simplgy/obsidian-open-file-by-magic-date/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/simplgy/obsidian-open-file-by-magic-date?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/SimplGy/obsidian-open-file-by-magic-date/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/SimplGy/obsidian-open-file-by-magic-date?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/SimplGy/obsidian-open-file-by-magic-date/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/SimplGy/obsidian-open-file-by-magic-date?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Open File by Magic Date
 
 Plugin ID: `obsidian-open-file-by-magic-date`
-Links: [GitHub repository](https://github.com/simplgy/obsidian-open-file-by-magic-date) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-open-file-by-magic-date)
-Developed by: [[simplgy]]
+Links: [GitHub repository](https://github.com/SimplGy/obsidian-open-file-by-magic-date) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-open-file-by-magic-date)
+Developed by: [[SimplGy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Define a Moment.js date pattern that specifies the file that is most important to you (eg: your daily/weekly/monthly note). Will create the file if it doesn't exist.
@@ -30,7 +30,7 @@ Define a Moment.js date pattern that specifies the file that is most important t
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[simplgy#Sponsor this author]] %%
+%% ![[SimplGy#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

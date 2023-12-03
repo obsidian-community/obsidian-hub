@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/joleaf/obsidian-bpmn-plugin) or [<
 Developed by: [[joleaf]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This plugin enables viewing BPMN diagrams using bpmn-js.
+This plugin enables viewing/editing BPMN diagrams using bpmn-js.
 
 %% ----- Do not edit anything above this line ----- %% 
 

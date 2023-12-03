@@ -1,7 +1,7 @@
 ---
 plugin-id: last-modified-timestamp-in-status-bar
 aliases:
-- Last Modified Timestamp in Status Bar
+- File Creation and Last Modified Timestamps in Status Bar
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Last Modified Timestamp in Status Bar
+# File Creation and Last Modified Timestamps in Status Bar
 
 Plugin ID: `last-modified-timestamp-in-status-bar`
 Links: [GitHub repository](https://github.com/Yustynn/obsidian-last-modified-timestamp-in-status-bar) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=last-modified-timestamp-in-status-bar)
 Developed by: [[Yustynn]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Dynamic display of file modification timestamp in the status bar.
+Dynamic display of file modification and creation timestamps in the status bar.
 
 %% ----- Do not edit anything above this line ----- %% 
 

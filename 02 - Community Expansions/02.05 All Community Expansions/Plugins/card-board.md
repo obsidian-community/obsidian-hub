@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/roovo/obsidian-card-board) or [<bu
 Developed by: [[roovo]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Display markdown tasks on kanban-style boards.
+Display markdown tasks on kanban style boards.
 
 %% ----- Do not edit anything above this line ----- %% 
 

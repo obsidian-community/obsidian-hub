@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/valentine195/obsidian-admonition/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/valentine195/obsidian-admonition?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/valentine195/obsidian-admonition/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/valentine195/obsidian-admonition?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/javalent/admonitions/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/javalent/admonitions?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/javalent/admonitions/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/javalent/admonitions?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,16 +21,16 @@ publish: true
 # Admonition
 
 Plugin ID: `obsidian-admonition`
-Links: [GitHub repository](https://github.com/valentine195/obsidian-admonition) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-admonition)
-Developed by: [[valentine195]]
+Links: [GitHub repository](https://github.com/javalent/admonitions) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-admonition)
+Developed by: [[javalent]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Admonition block-styled content for Obsidian.md
+Enhanced callouts for Obsidian.md
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[valentine195#Sponsor this author]] %%
+%% ![[javalent#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/platers/obsidian-linter) or [<butt
 Developed by: [[platers]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Enforces consistent markdown styling.
+Formats and styles your notes. It can be used to format YAML tags, aliases, arrays, and metadata; footnotes; headings; spacing; math blocks; regular markdown contents like list, italics, and bold styles; and more with the use of custom rule options as well.
 
 %% ----- Do not edit anything above this line ----- %% 
 

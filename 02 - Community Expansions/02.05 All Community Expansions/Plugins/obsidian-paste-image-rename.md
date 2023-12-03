@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/reorx/obsidian-paste-image-rename)
 Developed by: [[reorx]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Rename image after pasting
+Rename pasted images and all the other attchments added to the vault
 
 %% ----- Do not edit anything above this line ----- %% 
 

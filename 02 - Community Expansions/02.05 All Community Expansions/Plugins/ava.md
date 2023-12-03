@@ -1,7 +1,7 @@
 ---
 plugin-id: ava
 aliases:
-- Obsidian ava
+- 🧙 AVA
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Obsidian ava
+# 🧙 AVA
 
 Plugin ID: `ava`
 Links: [GitHub repository](https://github.com/louis030195/obsidian-ava) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=ava)
 Developed by: [[louis030195]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-AI-enhanced reflection in Obsidian
+AI assistant for Obsidian
 
 %% ----- Do not edit anything above this line ----- %% 
 

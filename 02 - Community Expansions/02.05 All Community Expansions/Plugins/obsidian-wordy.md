@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/nqthqn/obsidian-wordy) or [<button
 Developed by: [[nqthqn]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Thesaurus, dictionary and more using the Datamuse API
+Thesaurus, rhymes, alliterations, dictionary and more using the Datamuse API
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/vrtmrz/ninja-cursor) or [<button i
 Developed by: [[vrtmrz]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-The plugin which enhance cursor visiblity.
+The plugin which enhance cursor visibility.
 
 %% ----- Do not edit anything above this line ----- %% 
 

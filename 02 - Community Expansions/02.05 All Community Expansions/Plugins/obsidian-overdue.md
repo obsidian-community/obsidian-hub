@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/parente/obsidian-overdue) or [<but
 Developed by: [[parente]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Marks items as \[\[Overdue]] if they are not checked off by their due date
+Marks items as [[Overdue]] if they are not checked off by their due date
 
 %% ----- Do not edit anything above this line ----- %% 
 

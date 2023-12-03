@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/debanjum/khoj/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/debanjum/khoj?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/debanjum/khoj/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/debanjum/khoj?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/khoj-ai/khoj/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/khoj-ai/khoj?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/khoj-ai/khoj/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/khoj-ai/khoj?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,16 +21,16 @@ publish: true
 # Khoj
 
 Plugin ID: `khoj`
-Links: [GitHub repository](https://github.com/debanjum/khoj) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=khoj)
-Developed by: [[debanjum]]
+Links: [GitHub repository](https://github.com/khoj-ai/khoj) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=khoj)
+Developed by: [[khoj-ai]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Natural, Incremental Search for your Second Brain 🦅
+An AI copilot for your Second Brain
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[debanjum#Sponsor this author]] %%
+%% ![[khoj-ai#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

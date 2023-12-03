@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/nevernotmove/obsidian-chordlyrics)
 Developed by: [[nevernotmove]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Display chord names over lyrics. Supports line wrapping, section headers and auto-detection.
+Display chord names over lyrics. Supports line wrapping, section headers, auto-detection of lines and custom colors.
 
 %% ----- Do not edit anything above this line ----- %% 
 

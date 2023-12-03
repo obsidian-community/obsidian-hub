@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/RyotaUshio/obsidian-math-booster) 
 Developed by: [[RyotaUshio]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Turn your Obsidian into LaTeX on steroids. Dynamically numbered theorem environments & equations, theorems/equations live suggestion, showing backlinks to theorems/equations and live-rendering equations inside callouts & quotes.
+Turn your Obsidian into LaTeX on steroids. Dynamically numbered theorem environments & equations, enhanced theorems/equations search & link auto-completion, and live-rendering of equations inside callouts & quotes.
 
 %% ----- Do not edit anything above this line ----- %% 
 

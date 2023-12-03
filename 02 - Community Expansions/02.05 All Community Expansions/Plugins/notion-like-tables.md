@@ -1,7 +1,7 @@
 ---
 plugin-id: notion-like-tables
 aliases:
-- Notion-Like Tables
+- DataLoom
 tags: 
 - 
 publish: true
@@ -9,23 +9,23 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/trey-wallis/obsidian-notion-like-tables/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/trey-wallis/obsidian-notion-like-tables?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/trey-wallis/obsidian-notion-like-tables/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/trey-wallis/obsidian-notion-like-tables?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/trey-wallis/obsidian-dataloom/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/trey-wallis/obsidian-dataloom?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/trey-wallis/obsidian-dataloom/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/trey-wallis/obsidian-dataloom?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# Notion-Like Tables
+# DataLoom
 
 Plugin ID: `notion-like-tables`
-Links: [GitHub repository](https://github.com/trey-wallis/obsidian-notion-like-tables) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=notion-like-tables)
+Links: [GitHub repository](https://github.com/trey-wallis/obsidian-dataloom) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=notion-like-tables)
 Developed by: [[trey-wallis]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Create markdown tables using an interface similar to that found in Notion.so.
+Weave together data from diverse sources into different views. Inspired by Excel Spreadsheets and Notion.so.
 
 %% ----- Do not edit anything above this line ----- %% 
 

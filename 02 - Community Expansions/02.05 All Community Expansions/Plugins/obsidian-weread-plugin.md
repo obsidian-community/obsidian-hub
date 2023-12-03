@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-weread-plugin`
 Links: [GitHub repository](https://github.com/zhaohongxuan/obsidian-weread-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-weread-plugin)
 Developed by: [[zhaohongxuan]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is obsidian plugin for Tencent weread.
 

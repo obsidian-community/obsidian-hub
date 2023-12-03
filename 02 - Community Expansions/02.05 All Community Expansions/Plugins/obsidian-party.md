@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/shap-po/obsidian-party) or [<butto
 Developed by: [[shap-po]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-An implementation of party.js for Obsidian. Create confetti & sparkles in your notes!
+An implementation of party.js for Obsidian. Create confetti, sparkles and even custom effects in your notes!
 
 %% ----- Do not edit anything above this line ----- %% 
 

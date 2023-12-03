@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Cleoche/obsidian-callout-integrato
 Developed by: [[Cleoche]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Integrate long blocks of text into callouts
+Integrate long blocks of text into callouts and easier nested callouts
 
 %% ----- Do not edit anything above this line ----- %% 
 

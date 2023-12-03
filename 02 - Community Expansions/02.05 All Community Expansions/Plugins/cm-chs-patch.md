@@ -1,7 +1,7 @@
 ---
 plugin-id: cm-chs-patch
 aliases:
-- Word Splitting for Simplified Chinese in Edit Mode
+- Word Splitting for Simplified Chinese in Edit Mode and Vim Mode
 tags: 
 - 
 publish: true
@@ -18,12 +18,12 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Word Splitting for Simplified Chinese in Edit Mode
+# Word Splitting for Simplified Chinese in Edit Mode and Vim Mode
 
 Plugin ID: `cm-chs-patch`
 Links: [GitHub repository](https://github.com/aidenlx/cm-chs-patch) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=cm-chs-patch)
 Developed by: [[aidenlx]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese word splitting
 

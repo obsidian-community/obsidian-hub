@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `open-gate`
 Links: [GitHub repository](https://github.com/nguyenvanduocit/obsidian-open-gate) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=open-gate)
 Developed by: [[nguyenvanduocit]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Embed any website to Obsidian, from now all, you have anything you need in one place.
+Embed any website to Obsidian, you have anything you need in one place. You can browse website and take notes at the same time. e.g. Ask ChatGPT and copy the answer directly to your note.
 
 %% ----- Do not edit anything above this line ----- %% 
 

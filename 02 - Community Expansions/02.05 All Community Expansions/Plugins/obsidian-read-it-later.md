@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/DominikPieper/obsidian-ReadItLater
 Developed by: [[DominikPieper]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Saves the clipboard to a new notice.
+Saves the clipboard to a new note.
 
 %% ----- Do not edit anything above this line ----- %% 
 

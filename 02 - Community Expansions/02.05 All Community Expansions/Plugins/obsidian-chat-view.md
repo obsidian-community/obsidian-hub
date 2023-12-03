@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/adifyr/obsidian-chat-view) or [<bu
 Developed by: [[adifyr]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Chat View allows you to create an elegant Chat UI in Obsidian markdown files.
+Chat View enables you to create elegant Chat UIs in your Obsidian markdown files. It also supports the WebVTT format.
 
 %% ----- Do not edit anything above this line ----- %% 
 

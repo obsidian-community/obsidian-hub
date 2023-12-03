@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `quick-latex`
 Links: [GitHub repository](https://github.com/joeyuping/quick_latex_obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=quick-latex)
 Developed by: [[joeyuping]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Speedup latex math typing with auto fraction, align block shortcut, matrix shortcut...etc
 

@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `oz-image-plugin`
 Links: [GitHub repository](https://github.com/ozntel/oz-image-in-editor-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=oz-image-plugin)
 Developed by: [[ozntel]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 View Images, Transclusions, iFrames and PDF Files within the Editor without a necessity to switch to Preview.
 

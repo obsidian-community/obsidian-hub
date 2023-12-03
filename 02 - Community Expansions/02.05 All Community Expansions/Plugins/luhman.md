@@ -1,7 +1,7 @@
 ---
 plugin-id: luhman
 aliases:
-- Luhmann
+- Luhman
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Luhmann
+# Luhman
 
 Plugin ID: `luhman`
 Links: [GitHub repository](https://github.com/Dyldog/luhman-obsidian-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=luhman)

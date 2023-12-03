@@ -22,7 +22,7 @@ publish: true
 
 Plugin ID: `obsidian-tasks-plugin`
 Links: [GitHub repository](https://github.com/obsidian-tasks-group/obsidian-tasks) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-tasks-plugin)
-Developed by: [[claremacrae]] (and formerly [[schemar]])
+Developed by: [[obsidian-tasks-group]] - [[claremacrae]] (and formerly [[schemar]])
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Task management for Obsidian

@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/ebullient/obsidian-task-collector)
 Developed by: [[ebullient]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Manage completed tasks within a document
+Change task status and collect tasks within a document using hotkeys and context menus.
 
 %% ----- Do not edit anything above this line ----- %% 
 

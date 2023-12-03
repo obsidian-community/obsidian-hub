@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/phibr0/obsidian-commander) or [<bu
 Developed by: [[phibr0]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Customize your workspace by adding commands /everywhere/.
+Customize your workspace by adding commands everywhere, create Macros and supercharge your mobile toolbar.
 
 %% ----- Do not edit anything above this line ----- %% 
 
