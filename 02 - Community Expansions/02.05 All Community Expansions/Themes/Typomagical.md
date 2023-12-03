@@ -38,17 +38,14 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-- Ligatures: Decorative conjoined characters, such as the "ffi" in "office" and "ft" in "often".
-- Text scale: The rate of growth between text and heading sizes. No scaling means headings and body text are the same size. Blank means Typomagical will attempt to choose the right scale based on your screen size.
-- Heading bold
-- Title (H1) font: Titles, or H1s, are special. Thus, they should look special. Choose a Title font that suits you!
-- MathJax font: Font for MathJax e.g. $inline equation$ and $$centered equation$$
-- List numbers: Whether numerical lists should have circled, or ordinary numbers
-- Link font: The font for links
-- Blockquotes: How all blockquotes should look
-- Alignment: How all text is aligned
-- Line Height on Headings: Height of each line in headings. I recommend around 1.2
-- Line Height in Body: Height of each line in a multi-line passage. Obsidian default is 1.5.
+- Title font: Titles, or H1s, are special. Thus, they should look special. Choose a Title font that suits you!
+- Title weight: The boldness of H1 text
+- Title alignment: The horizontal alignment
+- Title gradient: Apply a vertical gradient to titles
+- Heading weight: The boldness of headings. I recommend choosing something different from your Title weight, and Body weight
+- Heading scale: The rate of growth between text and heading sizes. No scaling means headings and body text are the same size. Blank means Typomagical will attempt to choose the right scale based on your screen size.
+- Heading line height: Height of each line in headings. I recommend around 1.2. If you have Embedded Note Titles plugin, that setting overrides this.
+- Heading ligatures: Decorative conjoined characters, such as the "ffi" in "office" and "ft" in "often".
 
 
 %% Hub footer: Please don't edit anything below this line %%

@@ -38,7 +38,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-- Alternative Theme: Choose which alternative theme to use
+- Alternative Color Scheme: Choose which alternative color scheme to use
 
 
 %% Hub footer: Please don't edit anything below this line %%

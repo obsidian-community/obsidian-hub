@@ -43,6 +43,8 @@ Modes: [[Dark-mode themes|dark]]
 - Permanently show the Sidebar Tabs: When false, the Sidebar Tabs become visible upon hovering.
 - Re-enable Title Bar: Enable this to have a title bar, for example to move the Obsidian window
 - Re-enable Scrollbars: When false, only the scroll bars in the Editor are shown.
+- Re-enable collapsed panes' borders: When false, collapsed panes' borders won't show.
+- Re-enable status bar border: When false, status bar's border won't show.
 
 
 %% Hub footer: Please don't edit anything below this line %%

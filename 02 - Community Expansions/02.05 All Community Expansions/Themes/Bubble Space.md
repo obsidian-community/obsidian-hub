@@ -38,13 +38,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-
-**Workspace**: 
-- **Theme Presets**: Some color presets
-    - Bubble Mode Presets: Color Theme Presets for Bubble (Light) Mode
-    - Space Mode: Color Theme Presets for Space (Dark) Mode
-    - Header Image: toggle off to hide the header image in the file explorer
-    - Hide Titlebar: toggle on to hide titlebar
+- Bubble Mode Presets: Color Theme Presets for Bubble (Light) Mode
+- Space Mode: Color Theme Presets for Space (Dark) Mode
+- Header Image: toggle off to hide the header image in the file explorer
+- Hide Titlebar: toggle on to hide titlebar
+- Hover Frontmatter
+- Themed Loading Page: adds animated gif in loading page (⚠️ may cause lag with weak connection)
 
 ## Plugin Compatibility[^1]
 
@@ -62,16 +61,20 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Community plugins**:
 - [[obsidian-admonition|Admonition]]
-- [[obsidian-word-sprint|Word Sprint for Obsidian]]
-- [[obsidian-icon-folder|Obsidian Icon Folder]]
+- [[obsidian-word-sprint|Word Sprint]]
+- [[obsidian-icon-folder|Iconize]]
 - [[fantasy-calendar|Fantasy Calendar]]
 - [[calendar|Calendar]]
-- [[obsidian-rich-links|Obsidian Rich Links]]
-- [[obsidian-daily-stats|Daily Stats]]
+- [[obsidian-rich-links|Rich Links]]
 - [[obsidian-day-planner|Day Planner]]
-- [[obsidian-style-settings|Style Settings]]
-- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
+- [[sliding-panes-obsidian|Sliding Panes (Andy's Mode)]]
 - [[obsidian-checklist-plugin|Checklist]]
+- [[block-reference-count|block-reference-count]]
+- [[recent-files-obsidian|Recent Files]]
+- [[mysnippets-plugin|MySnippets]]
+- [[obsidian-timelines|Timelines]]
+- [[quick-explorer|Quick Explorer]]
+- [[obsidian-file-info-plugin|File Info Panel]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

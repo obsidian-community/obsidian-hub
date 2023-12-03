@@ -39,17 +39,100 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Welcome 👋**: Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization.
+**Welcome 👋**: Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization. Visit minimal.guide for documentation.
 
-**Interface**: 
-- Base color: Defines all background and border colors unless overridden below
-- Accent color: Defines link and checkbox colors unless overridden below
-- Main window background
-- Sidebar background
-- Active background: For hovered buttons and current file
-- Border color: For divider lines and outlined elements
-- Border color (highlighted)
-- Border color (focused)
+**Interface colors**: 
+- Base color: Defines all background and border colors unless overridden in more granular settings
+- Accent color: Defines link and checkbox colors unless overridden in more granular settings
+- Primary background: Background color for the main window
+- Secondary background: Background color for left sidebar and menus
+- Active background: Background color for hovered buttons and currently selected file
+- Border color: For buttons, divider lines, and outlined elements
+- Highlighted border color: Used when hovering over buttons, dividers, and outlined elements
+- Active border color: Used when clicking buttons and outlined elements
+
+**Interface extended palette**: 
+- Red: Extended palette colors are defaults used for progress bar status, syntax highlighting, colorful headings, and graph nodes
+- Orange
+- Yellow
+- Green
+- Cyan
+- Blue
+- Purple
+- Pink
+
+**Active line**: 
+- Highlight active line: Adds a background to current line in editor
+- Active line background: Using a low opacity color is recommended to avoid conflicting with highlights
+
+**Blockquotes**: 
+- Blockquotes text color
+- Blockquotes font size: Accepts any CSS font-size value
+- Blockquotes font style
+
+**Code blocks**: 
+- Code text color: Color of code when syntax highlighting is not present
+- Code font size: Accepts any CSS font-size value
+
+**Embeds and transclusions**: 
+- Use strict embed style globally: Transclusions appear seamlessly in the flow of text. Can be enabled per file using the embed-strict helper class
+
+**Graphs**: 
+- Node color: Changing node colors requires closing and reopening graph panes or restarting Obsidian
+- Active node color
+- Tag node color
+- Attachment node color
+- Unresolved node color
+
+**Headings**: 
+- **Level 1 Headings**: 
+    - H1 font: Name of the font as it appears on your system
+    - H1 font size: Accepts any CSS font-size value
+    - H1 font weight
+    - H1 text color
+    - H1 font variant
+    - H1 font style
+    - H1 divider line: Adds a border below the heading
+- **Level 2 Headings**: 
+    - H2 font: Name of the font as it appears on your system
+    - H2 font size: Accepts any CSS font-size value
+    - H2 font weight
+    - H2 text color
+    - H2 font variant
+    - H2 font style
+    - H2 divider line: Adds a border below the heading
+- **Level 3 Headings**: 
+    - H3 font: Name of the font as it appears on your system
+    - H3 font size: Accepts any CSS font-size value
+    - H3 font weight
+    - H3 text color
+    - H3 font variant
+    - H3 font style
+    - H3 divider line: Adds a border below the heading
+- **Level 4 Headings**: 
+    - H4 font: Name of the font as it appears on your system
+    - H4 font size: Accepts any CSS font-size value
+    - H4 font weight
+    - H4 text color
+    - H4 font variant
+    - H4 font style
+    - H4 divider line: Adds a border below the heading
+- **Level 5 Headings**: 
+    - H5 font: Name of the font as it appears on your system
+    - H5 font size: Accepts any CSS font-size value
+    - H5 font weight
+    - H5 text color
+    - H5 font variant
+    - H5 font style
+    - H5 divider line: Adds a border below the heading
+- **Level 6 Headings**: 
+    - H6 font: Name of the font as it appears on your system
+    - H6 font size: Accepts any CSS font-size value
+    - H6 font weight
+    - H6 text color
+    - H6 font variant
+    - H6 font style
+    - H6 divider line: Adds a border below the heading
 
 **Icons**: 
 - Icon opacity (inactive)
@@ -57,76 +140,76 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Icon color (hover)
 - Icon color (active)
 
-**Title bar**: 
-- Title font size: Accepts any CSS font-size value
-- Title font weight: Accepts numbers representing the CSS font-weight
-- Title font color (inactive)
-- Title font color (active)
+**Images**: 
+- Image opacity in dark mode: Level of fading for images in dark mode. Hover over images to display at full brightness.
+- Disable image zoom: Turns off click + hold to zoom images
+
+**Indentation guides**: 
+- Horizontal adjustment in reading mode
+- Horizontal adjustment in edit mode
 
 **Links**: 
 - Link color
 - Link color (hovering)
-- Link font weight: Accepts numbers representing the CSS font-weight
+- Link font weight
+
+**Lists and tasks**: 
+- Checkbox color: Background color for completed tasks
+- Checkbox shape
+- Strike completed tasks: Adds strikethrough line and greyed text for completed tasks
+- List item spacing: Vertical space between list items in em units
+- Nested list indentation: Horizontal space from left in em units
+
+**Sidebars**: 
+- Tab style: See documentation for screenshots
+- Disable sidebar relationship lines: Turns off lines in file navigation
+- Mobile left sidebar width: Maximum width for pinned left sidebar on mobile
+- Mobile right sidebar width: Maximum width for pinned right sidebar on mobile
+
+**Tables**: 
+- Table font size: All of the following settings apply to all tables globally. To turn on these features on a per-note basis use helper classes. See documentation.
+- Row lines: Display borders between table rows globally
+- Column lines: Display borders between table columns globally
+- Cell lines: Display borders around all table cells globally
+- Striped rows: Display striped background in alternating table rows globally
+- Striped columns: Display striped background in alternating table columns globally
+- Tabular figures: Use fixed width numbers in tables globally
+- Row numbers: Display row numbers in tables globally
+- Disable line wrap: Turn off line wrapping in table cells globally
+- Highlight active row: Highlight rows on hover
+- Active row background: Background color for hovered tables rows
+
+**Tags**: 
+- Plain tags: Tags will render as normal text, overrides settings below
+- Tag shape
+- Tag border width
+- Tag text color
+- Tag background color
+- Tag background color (hover)
 
 **Text**: 
-- Normal text color
+- Normal text color: Primary text color used by default across all elements
 - Selected text background
-- Muted text color
-- Faint text color
-- Bold text color
+- Highlighted text background
+- Muted text color: Secondary text such as sidebar note titles and table headings
+- Faint text color: tertiary text such as input placeholders, empty checkboxes, and disabled statuses
 - Italic text color
+- Bold text color
+- Bold text weight
+- Paragraph spacing: Space between paragraphs in reading mode
 
-**Headings**: 
-- **Level 1 Headings**: 
-    - H1 font size: Accepts any CSS font-size value
-    - H1 font weight: Accepts numbers representing the CSS font-weight
-    - H1 font color
-    - H1 font variant
-    - H1 font style
-- **Level 2 Headings**: 
-    - H2 font size: Accepts any CSS font-size value
-    - H2 font weight: Accepts numbers representing the CSS font-weight
-    - H2 font color
-    - H2 font variant
-    - H2 font style
-- **Level 3 Headings**: 
-    - H3 font size: Accepts any CSS font-size value
-    - H3 font weight: Accepts numbers representing the CSS font-weight
-    - H3 font color
-    - H3 font variant
-    - H3 font style
-- **Level 4 Headings**: 
-    - H4 font size: Accepts any CSS font-size value
-    - H4 font weight: Accepts numbers representing the CSS font-weight
-    - H4 font color
-    - H4 font variant
-    - H4 font style
-- **Level 5 Headings**: 
-    - H5 font size: Accepts any CSS font-size value
-    - H5 font weight: Accepts numbers representing the CSS font-weight
-    - H5 font color
-    - H5 font variant
-    - H5 font style
-- **Level 6 Headings**: 
-    - H6 font size: Accepts any CSS font-size value
-    - H6 font weight: Accepts numbers representing the CSS font-weight
-    - H6 font color
-    - H6 font variant
-    - H6 font style
+**Title bar**: 
+- Title alignment: Position of the text within the title bar
+- Always show grabber icon: Make the dragging handle always visible in the top left corner of a pane
+- Title bar height
+- Title font size: Accepts any CSS font-size value
+- Title font weight
+- Title text color (active)
+- Title text color (inactive)
 
-**Blockquotes**: 
-- Blockquotes text color
-- Blockquotes font size: Accepts any CSS font-size value
-- Blockquotes font style
-
-**Lists and checkboxes**: 
-- Checkbox color
-- Strike completed tasks: Use line through greyed text for completed tasks
-- List item spacing: Space between list items in em units
-
-**Code blocks**: 
-- Code text color: Where syntax highlighting is not present
-- Code font size: Accepts any CSS font-size value
+**Translucency**: 
+- Translucency (light mode): Sidebar translucency in light mode. Requires turning on "Translucent window" in Appearance settings, and "Translucent sidebar" in Minimal settings.
+- Translucency (dark mode): Sidebar translucency in dark mode
 
 ## Plugin Compatibility[^1]
 
@@ -153,20 +236,24 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[buttons|Buttons]]
 - [[dataview|Dataview]]
 - [[calendar|Calendar]]
+- [[obsidian-charts|Obsidian Charts]]
 - [[obsidian-checklist-plugin|Checklist]]
-- [[obsidian-codemirror-options|CodeMirror Options]]
+- [[obsidian-codemirror-options|obsidian-codemirror-options]]
 - [[obsidian-dictionary-plugin|Dictionary]]
-- [[obsidian-embedded-note-titles|Embedded Note Titles]]
+- [[obsidian-embedded-note-titles|obsidian-embedded-note-titles]]
 - [[obsidian-excalidraw-plugin|Excalidraw]]
 - [[obsidian-git|Obsidian Git]]
 - [[obsidian-hider|Hider]]
+- [[obsidian-hover-editor|Hover Editor]]
 - [[obsidian-kanban|Kanban]]
+- [[obsidian-metatable|obsidian-metatable]]
 - [[obsidian-minimal-settings|Minimal Theme Settings]]
 - [[obsidian-outliner|Outliner]]
-- [[obsidian-system-dark-mode|System Dark Mode]]
+- [[obsidian-system-dark-mode|obsidian-system-dark-mode]]
 - [[obsidian-style-settings|Style Settings]]
 - [[quickadd|QuickAdd]]
-- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
+- [[sliding-panes-obsidian|Sliding Panes (Andy's Mode)]]
+- [[todoist-sync-plugin|Todoist Sync Plugin]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

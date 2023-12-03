@@ -63,14 +63,16 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Community plugins**:
 - [[calendar|Calendar]]
 - [[obsidian-kanban|Kanban]]
-- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
+- [[sliding-panes-obsidian|Sliding Panes (Andy's Mode)]]
 - [[tag-wrangler|Tag Wrangler]]
-- [[cm-typewriter-scroll-obsidian|Typewriter Scroll Obsidian Plugin]]
+- [[cm-typewriter-scroll-obsidian|Typewriter Scroll]]
 - [[better-word-count|Better Word Count]]
 - [[obsidian-day-planner|Day Planner]]
 - [[workbench-obsidian|Workbench]]
 - [[obsidian-citation-plugin|Citations]]
 - [[obsidian-journey-plugin|Journey]]
+- [[obsidian-banners|Banners]]
+- [[obsidian-dataview|obsidian-dataview]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

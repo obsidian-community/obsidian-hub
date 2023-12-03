@@ -9,9 +9,9 @@ publish: true
 %% ----- Badges ----- %%
 
 ![Downloads](https://img.shields.io/badge/downloads-58500-573E7A?style=for-the-badge&logo=)
-![GitHub last commit](https://img.shields.io/github/last-commit/Slowbad/obsidian-solarized?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/Slowbad/obsidian-solarized/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub Repo stars](https://img.shields.io/github/stars/Slowbad/obsidian-solarized?color=573E7A&logo=github&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/harmtemolder/obsidian-solarized?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
+![GitHub issues by-label](https://img.shields.io/github/issues/harmtemolder/obsidian-solarized/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub Repo stars](https://img.shields.io/github/stars/harmtemolder/obsidian-solarized?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -19,18 +19,18 @@ publish: true
 
 # Solarized
 
-Repository: [GitHub](https://github.com/Slowbad/obsidian-solarized)
-Designed by: [[Slowbad]]
+Repository: [GitHub](https://github.com/harmtemolder/obsidian-solarized)
+Designed by: [[harmtemolder]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Slowbad/obsidian-solarized/raw/HEAD/screenshot.png)
+![screenshot](https://github.com/harmtemolder/obsidian-solarized/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[Slowbad#Sponsor this author]] %%
+%% ![[harmtemolder#Sponsor this author]] %%
 
 
 ## Features

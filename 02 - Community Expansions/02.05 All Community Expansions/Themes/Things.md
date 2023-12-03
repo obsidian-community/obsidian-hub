@@ -44,6 +44,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - Show full file names: Turn off trimming on files in sidebar
 - Underline internal links: Show underlines on internal links
 - Underline external links: Show underlines on external links
+- Display hamburger menu on mobile: Display the top-left hamburger menu on mobile
 
 **Fonts**: 
 - Text font: Used in preview mode
@@ -52,14 +53,20 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - UI font: Used for buttons, menus and sidebar
 
 **Typography**: 
+- Default font colors: Use the default font color styling for bold, italics, and quotes
+- Link hue color: Hue of both internal and external links
 - Bold font color
 - Italics font color
 - Blockquotes font color
+- Inline code blocks font color (Light mode)
+- Inline code blocks font color (Dark mode)
 - Tag background color (Light mode)
 - Tag font color (Light mode)
 - Tag background color (Dark mode)
 - Tag font color (Dark mode)
+- Editor font size: Font size in em for editor and preview overall font size
 - Sidebar and tag font size: Font size in px of sidebar, tags, and small text
+- Smaller font size: Font size in px of smaller text
 - Body line height: Line height of the main text
 - Normal line width: Number of characters per line
 - Maximum line width: Percentage of space inside a pane that a line can fill. Recommended values between 80 to 100
@@ -81,6 +88,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
     - H4 font size: Accepts any CSS font-size value
     - H4 font weight: Accepts numbers representing the CSS font-weight
     - H4 color
+    - H4 transform: Transform the H4 heading text
 - **Level 5 Headings**: 
     - H5 font size: Accepts any CSS font-size value
     - H5 font weight: Accepts numbers representing the CSS font-weight
@@ -91,10 +99,11 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
     - H6 color
 
 **Advanced**: 
-- MacOS-Like Translucent Window: Give workspace a MacOS-like translucency
+- Disable mobile floating-action button: Revert placement of edit/preview button to default in header (mobile)
+- MacOS-like translucent window: Give workspace a MacOS-like translucency
 - Cursor style: The cursor style for UI elements
 
-**Credits**: Created with ❤︎ @colineckert. This theme uses code from Minimal by @kepano. Support @kepano at buymeacoffee.com/kepano and me at buymeacoffee.com/colineckert
+**Credits**: Created with ❤︎ by @colineckert. This theme uses code from Minimal by @kepano. Support @kepano at buymeacoffee.com/kepano and @colineckert at buymeacoffee.com/colineckert
 
 ## Plugin Compatibility[^1]
 
@@ -118,8 +127,8 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - [[Obsidian Core Plugins#Word count|Word count]]
 
 **Community plugins**:
-- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
-- [[obsidian-codemirror-options|CodeMirror Options]]
+- [[sliding-panes-obsidian|Sliding Panes (Andy's Mode)]]
+- [[obsidian-codemirror-options|obsidian-codemirror-options]]
 - [[obsidian-kanban|Kanban]]
 - [[dataview|Dataview]]
 - [[obsidian-hider|Hider]]
@@ -131,7 +140,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - [[tag-wrangler|Tag Wrangler]]
 - [[todoist-sync-plugin|Todoist Sync Plugin]]
 - [[templater-obsidian|Templater]]
-- [[obsidian-system-dark-mode|System Dark Mode]]
+- [[obsidian-system-dark-mode|obsidian-system-dark-mode]]
 - [[obsidian-style-settings|Style Settings]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.

@@ -21,7 +21,7 @@ publish: true
 
 Repository: [GitHub](https://github.com/ZekunC/Obsidian-Typora-Vue-Theme)
 Designed by: [[ZekunC]]
-Modes: [[Light-mode themes|light]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 

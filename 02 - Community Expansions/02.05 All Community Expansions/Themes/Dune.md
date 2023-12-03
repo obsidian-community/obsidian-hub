@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Jopp-gh/Obsidian-Dune84/raw/master/Dune-Obsidian.jpg)
+![screenshot](https://github.com/Jopp-gh/Obsidian-Dune84/raw/HEAD/Dune-Obsidian.jpg)
 
 %% ----- Do not edit anything above this line ----- %% 
 
@@ -61,6 +61,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Typesetting alignment (global): left, right, axis, block
     - Centered headers: all headers centered
     - Focus on stacked notes: restore default stacked-view
+    - Slide compact: smaller text
 
 **✦ Pictures**: manage pictures
 - **Picture frames**: 
@@ -75,6 +76,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - frame thickness
     - Picture frame 'frame d': add urls from local png or online png Images.
     - frame tiling
+    - frame thickness
+- **Frame (simple)**: 
     - frame thickness
 - **Zoom Pictures**: 
     - Zoom on hover: Zoom images on hover
@@ -120,6 +123,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **❨ ❩ Show ui elements**: visibility buttons, text
 - Show tooltips: restore help bubbles
 - Show ribbon: restore left ribbon
+- Left sidepanel: restore placement
 - Show note title: restore note title
 - Show note path: restore path in title bar
 - Show Vault name: restore vault name

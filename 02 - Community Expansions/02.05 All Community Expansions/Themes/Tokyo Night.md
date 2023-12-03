@@ -9,9 +9,9 @@ publish: true
 %% ----- Badges ----- %%
 
 ![Downloads](https://img.shields.io/badge/downloads-33284-573E7A?style=for-the-badge&logo=)
-![GitHub last commit](https://img.shields.io/github/last-commit/RuslanGagushin/Tokyo-Night-Obsidian-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/RuslanGagushin/Tokyo-Night-Obsidian-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub Repo stars](https://img.shields.io/github/stars/RuslanGagushin/Tokyo-Night-Obsidian-Theme?color=573E7A&logo=github&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/tcmmichaelb139/obsidian-tokyonight?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
+![GitHub issues by-label](https://img.shields.io/github/issues/tcmmichaelb139/obsidian-tokyonight/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub Repo stars](https://img.shields.io/github/stars/tcmmichaelb139/obsidian-tokyonight?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -19,18 +19,18 @@ publish: true
 
 # Tokyo Night
 
-Repository: [GitHub](https://github.com/RuslanGagushin/Tokyo-Night-Obsidian-Theme)
-Designed by: [[RuslanGagushin]]
-Modes: [[Dark-mode themes|dark]]
+Repository: [GitHub](https://github.com/tcmmichaelb139/obsidian-tokyonight)
+Designed by: [[tcmmichaelb139]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/RuslanGagushin/Tokyo-Night-Obsidian-Theme/raw/HEAD/screenshot.png)
+![screenshot](https://github.com/tcmmichaelb139/obsidian-tokyonight/raw/HEAD/dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[RuslanGagushin#Sponsor this author]] %%
+%% ![[tcmmichaelb139#Sponsor this author]] %%
 
 
 ## Features

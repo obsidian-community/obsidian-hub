@@ -21,11 +21,11 @@ publish: true
 
 Repository: [GitHub](https://github.com/cassidoo/cardstock)
 Designed by: [[cassidoo]]
-Modes: [[Light-mode themes|light]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/cassidoo/cardstock/raw/HEAD/screenshot.png)
+![screenshot](https://github.com/cassidoo/cardstock/raw/HEAD/miniscreenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
