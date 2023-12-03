@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-mindmap-nextgen
 aliases:
-- Mind Map NextGen
+- Mindmap NextGen
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Mind Map NextGen
+# Mindmap NextGen
 
 Plugin ID: `obsidian-mindmap-nextgen`
 Links: [GitHub repository](https://github.com/verocloud/obsidian-mindmap-nextgen) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-mindmap-nextgen)
 Developed by: [[verocloud]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-A plugin to preview notes as Markmap mind maps
+View your Markdown as a mindmap
 
 %% ----- Do not edit anything above this line ----- %% 
 

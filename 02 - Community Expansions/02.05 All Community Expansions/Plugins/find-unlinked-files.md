@@ -1,7 +1,7 @@
 ---
 plugin-id: find-unlinked-files
 aliases:
-- Find unlinked files and unresolved links
+- Find orphaned files and broken links
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Find unlinked files and unresolved links
+# Find orphaned files and broken links
 
 Plugin ID: `find-unlinked-files`
 Links: [GitHub repository](https://github.com/Vinzent03/find-unlinked-files) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=find-unlinked-files)

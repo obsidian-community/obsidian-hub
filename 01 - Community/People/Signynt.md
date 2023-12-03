@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[link-headers-directly|Link Headers Directly]]
+- [[insert-heading-link|Insert Heading Link]]
 
 %% End Hub: Released contributions %%
 

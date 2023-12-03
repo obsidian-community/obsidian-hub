@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `obsidian-custom-frames`
 Links: [GitHub repository](https://github.com/Ellpeck/ObsidianCustomFrames) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-custom-frames)
 Developed by: [[Ellpeck]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-A plugin that turns web apps into panes using iframes with custom styling. Also comes with presets for Google Keep and more.
+A plugin that turns web apps into panes using iframes with custom styling. Also comes with presets for Google Keep, Todoist and more.
 
 %% ----- Do not edit anything above this line ----- %% 
 

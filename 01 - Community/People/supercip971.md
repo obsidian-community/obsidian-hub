@@ -8,7 +8,7 @@ publish: true
 
 # supercyp
 
-- GitHub: [supercip971](https://github.com/supercip971/) ^github
+- GitHub: [Supercip971](https://github.com/Supercip971/) ^github
 <!-- - Discord: `@` ^discord-->
 <!-- - Website: <https://> ^website-->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @supercip971 on GitHub Sponsors](https://github.com/sponsors/supercip971) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @Supercip971 on GitHub Sponsors](https://github.com/sponsors/Supercip971) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

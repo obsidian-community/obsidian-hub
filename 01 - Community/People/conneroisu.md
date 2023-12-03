@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [conneroisu](https://github.com/conneroisu/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://obsidian.md> ^website
+- Website: <https://connerohnesorge.mixa.site/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-dataset-aid|Text Dataset Aid Plugin]]
+- [[vim-toggle|Vim Toggle]]
 
 %% End Hub: Released contributions %%
 

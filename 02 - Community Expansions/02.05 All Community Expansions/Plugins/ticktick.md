@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `ticktick`
 Links: [GitHub repository](https://github.com/viduycheung/ticktick-obsidian) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=ticktick)
 Developed by: [[viduycheung]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Check and create tasks in TickTick via Obsidian
 

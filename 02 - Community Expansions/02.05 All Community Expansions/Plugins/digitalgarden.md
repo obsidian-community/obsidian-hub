@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/oleeskild/obsidian-digital-garden)
 Developed by: [[oleeskild]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Publish your notes to a digital garden for others to enjoy.
+Publish your notes to the web for others to enjoy. For free.
 
 %% ----- Do not edit anything above this line ----- %% 
 

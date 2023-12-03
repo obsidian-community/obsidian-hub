@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-text-expander-js
 aliases:
-- Text Expander JS
+- Inline Scripts
 tags: 
 - 
 publish: true
@@ -9,23 +9,23 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/jon-heard/obsidian-text-expander-js/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/jon-heard/obsidian-text-expander-js?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/jon-heard/obsidian-text-expander-js/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/jon-heard/obsidian-text-expander-js?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/jon-heard/obsidian-inline-scripts/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/jon-heard/obsidian-inline-scripts?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/jon-heard/obsidian-inline-scripts/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/jon-heard/obsidian-inline-scripts?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# Text Expander JS
+# Inline Scripts
 
 Plugin ID: `obsidian-text-expander-js`
-Links: [GitHub repository](https://github.com/jon-heard/obsidian-text-expander-js) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-text-expander-js)
+Links: [GitHub repository](https://github.com/jon-heard/obsidian-inline-scripts) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-text-expander-js)
 Developed by: [[jon-heard]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Type text shortcuts that expand into javascript generated text.
+Type text shortcuts which are then replaced with JavaScript generated text.
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-icon-folder
 aliases:
-- Icon Folder
+- Iconize
 tags: 
 - 
 publish: true
@@ -9,23 +9,23 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/FlorianWoelki/obsidian-icon-folder/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/FlorianWoelki/obsidian-icon-folder?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/FlorianWoelki/obsidian-icon-folder/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/FlorianWoelki/obsidian-icon-folder?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/FlorianWoelki/obsidian-iconize/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/FlorianWoelki/obsidian-iconize?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/FlorianWoelki/obsidian-iconize/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/FlorianWoelki/obsidian-iconize?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# Icon Folder
+# Iconize
 
 Plugin ID: `obsidian-icon-folder`
-Links: [GitHub repository](https://github.com/FlorianWoelki/obsidian-icon-folder) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-icon-folder)
+Links: [GitHub repository](https://github.com/FlorianWoelki/obsidian-iconize) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-icon-folder)
 Developed by: [[FlorianWoelki]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This plugin allows to add an emoji in front of a folder or icon.
+Add icons to anything you desire in Obsidian, including files, folders, and text.
 
 %% ----- Do not edit anything above this line ----- %% 
 

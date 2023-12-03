@@ -8,7 +8,7 @@ publish: true
 
 # Qwyntex
 
-- GitHub: [qwyntex](https://github.com/qwyntex/) ^github
+- GitHub: [Qwyntex](https://github.com/Qwyntex/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/Qwyntex> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @qwyntex on GitHub Sponsors](https://github.com/sponsors/qwyntex) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @Qwyntex on GitHub Sponsors](https://github.com/sponsors/Qwyntex) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

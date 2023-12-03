@@ -8,7 +8,7 @@ publish: true
 
 # Snezhig
 
-- GitHub: [Snezhig](https://github.com/Snezhig/) ^github
+- GitHub: [snezhig](https://github.com/snezhig/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/snezhig> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @Snezhig on GitHub Sponsors](https://github.com/sponsors/Snezhig) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @snezhig on GitHub Sponsors](https://github.com/sponsors/snezhig) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

@@ -21,11 +21,11 @@ publish: true
 
 Repository: [GitHub](https://github.com/insanum/obsidian_nord)
 Designed by: [[insanum]]
-Modes: [[Dark-mode themes|dark]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/insanum/obsidian_nord/raw/HEAD/screen.png)
+![screenshot](https://github.com/insanum/obsidian_nord/raw/HEAD/dark.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -21,6 +21,11 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[janitor|Janitor]]
+- [[chronology|Chronology]]
+- [[mathpad|Mathpad]]
+- [[obsidian-readlater|Read Later]]
+- [[workbooks|Workbooks]]
+- [[sets|Sets]]
 
 %% End Hub: Released contributions %%
 

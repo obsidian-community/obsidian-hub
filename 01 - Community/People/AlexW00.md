@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obisidian-note-linker|Note Linker]]
+- [[3d-graph|3D Graph]]
 
 %% End Hub: Released contributions %%
 

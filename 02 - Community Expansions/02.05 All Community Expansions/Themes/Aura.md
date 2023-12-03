@@ -21,11 +21,11 @@ publish: true
 
 Repository: [GitHub](https://github.com/ashwinjadhav818/obsidian-aura)
 Designed by: [[ashwinjadhav818]]
-Modes: [[Dark-mode themes|dark]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/ashwinjadhav818/obsidian-aura/raw/HEAD/assets/screenshot-preview.png)
+![screenshot](https://github.com/ashwinjadhav818/obsidian-aura/raw/HEAD/assets/showcase-preview.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

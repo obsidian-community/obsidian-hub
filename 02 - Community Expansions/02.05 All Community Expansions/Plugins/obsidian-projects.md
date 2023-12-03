@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `obsidian-projects`
 Links: [GitHub repository](https://github.com/marcusolsson/obsidian-projects) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-projects)
 Developed by: [[marcusolsson]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Project management for Obsidian.
+Plain text project planning.
 
 %% ----- Do not edit anything above this line ----- %% 
 

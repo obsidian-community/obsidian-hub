@@ -21,6 +21,9 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-latex-suite|Latex Suite]]
+- [[obsidian-tikzjax|TikZJax]]
+- [[nl-syntax-highlighting|Natural Language Syntax Highlighting]]
+- [[focus-active-sentence|Focus Active Sentence]]
 
 %% End Hub: Released contributions %%
 

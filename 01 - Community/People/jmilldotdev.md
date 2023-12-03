@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[obsidian-wikipedia|Wikipedia]]
 - [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Suggest]]
+- [[canvas-randomnote|Canvas Random Note]]
 
 %% End Hub: Released contributions %%
 

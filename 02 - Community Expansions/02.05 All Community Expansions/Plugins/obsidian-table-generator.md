@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/quorafind/obsidian-table-generator/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/quorafind/obsidian-table-generator?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/quorafind/obsidian-table-generator/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/quorafind/obsidian-table-generator?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Quorafind/Obsidian-Table-Generator/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Quorafind/Obsidian-Table-Generator?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Quorafind/Obsidian-Table-Generator/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Quorafind/Obsidian-Table-Generator?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,16 +21,16 @@ publish: true
 # Table Generator
 
 Plugin ID: `obsidian-table-generator`
-Links: [GitHub repository](https://github.com/quorafind/obsidian-table-generator) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-table-generator)
-Developed by: [[quorafind]]
+Links: [GitHub repository](https://github.com/Quorafind/Obsidian-Table-Generator) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-table-generator)
+Developed by: [[Quorafind]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-A plugin for generate markdown table quickly like Typora.
+A plugin for generate markdown table quickly like Typora /card table in canvas .
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[quorafind#Sponsor this author]] %%
+%% ![[Quorafind#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

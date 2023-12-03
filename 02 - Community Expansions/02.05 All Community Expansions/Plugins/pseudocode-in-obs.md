@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/Yaotian-Liu/obsidian-pseudocode/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Yaotian-Liu/obsidian-pseudocode?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/Yaotian-Liu/obsidian-pseudocode/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/Yaotian-Liu/obsidian-pseudocode?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/ytliu74/obsidian-pseudocode/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ytliu74/obsidian-pseudocode?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/ytliu74/obsidian-pseudocode/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/ytliu74/obsidian-pseudocode?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Pseudocode
 
 Plugin ID: `pseudocode-in-obs`
-Links: [GitHub repository](https://github.com/Yaotian-Liu/obsidian-pseudocode) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=pseudocode-in-obs)
-Developed by: [[Yaotian-Liu]]
+Links: [GitHub repository](https://github.com/ytliu74/obsidian-pseudocode) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=pseudocode-in-obs)
+Developed by: [[ytliu74]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.
@@ -30,7 +30,7 @@ This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[Yaotian-Liu#Sponsor this author]] %%
+%% ![[ytliu74#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

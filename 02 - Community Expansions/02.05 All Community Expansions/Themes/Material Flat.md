@@ -9,9 +9,9 @@ publish: true
 %% ----- Badges ----- %%
 
 ![Downloads](https://img.shields.io/badge/downloads-5913-573E7A?style=for-the-badge&logo=)
-![GitHub last commit](https://img.shields.io/github/last-commit/threethan/obsidian-material-flat-theme/?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/threethan/obsidian-material-flat-theme//help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub Repo stars](https://img.shields.io/github/stars/threethan/obsidian-material-flat-theme/?color=573E7A&logo=github&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/threethan/obsidian-material-flat-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
+![GitHub issues by-label](https://img.shields.io/github/issues/threethan/obsidian-material-flat-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub Repo stars](https://img.shields.io/github/stars/threethan/obsidian-material-flat-theme?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -19,13 +19,13 @@ publish: true
 
 # Material Flat
 
-Repository: [GitHub](https://github.com/threethan/obsidian-material-flat-theme/)
+Repository: [GitHub](https://github.com/threethan/obsidian-material-flat-theme)
 Designed by: [[threethan]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/threethan/obsidian-material-flat-theme//raw/HEAD/screenshot.png)
+![screenshot](https://github.com/threethan/obsidian-material-flat-theme/raw/HEAD/screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

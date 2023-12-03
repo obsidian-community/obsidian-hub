@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-jira-issue
 aliases:
-- JiraIssue
+- Jira Issue
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# JiraIssue
+# Jira Issue
 
 Plugin ID: `obsidian-jira-issue`
 Links: [GitHub repository](https://github.com/marc0l92/obsidian-jira-issue) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-jira-issue)
 Developed by: [[marc0l92]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-
+This plugin allows you to track the progress of Atlassian Jira issues from your Obsidian notes.
 
 %% ----- Do not edit anything above this line ----- %% 
 

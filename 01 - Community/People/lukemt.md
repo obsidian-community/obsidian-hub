@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[daily-note-pinner|Daily Note Pinner]]
+- [[feeds|Feeds]] by [[LukeMT]], [[pashashocky]], [[madx]]
 
 %% End Hub: Released contributions %%
 

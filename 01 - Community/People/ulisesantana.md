@@ -1,12 +1,12 @@
 ---
 aliases:
-- Ulises Santana <ulisesantana@gmail.com>
+- Ulises Santana
 tags:
 - 
 publish: true
 ---
 
-# Ulises Santana <ulisesantana@gmail.com>
+# Ulises Santana
 
 - GitHub: [ulisesantana](https://github.com/ulisesantana/) ^github
 <!-- - Discord: `@` ^discord-->

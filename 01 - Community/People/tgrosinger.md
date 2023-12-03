@@ -26,6 +26,7 @@ publish: true
 - [[recent-files-obsidian|Recent Files]]
 - [[ledger-obsidian|Ledger]]
 - [[tq-obsidian|tq]]
+- [[crumbs-obsidian|Crumbs]]
 
 %% End Hub: Released contributions %%
 

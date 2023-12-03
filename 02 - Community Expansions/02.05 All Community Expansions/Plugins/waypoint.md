@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/IdreesInc/Waypoint) or [<button id
 Developed by: [[IdreesInc]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Easily generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags!
+Easily generate dynamic content maps in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags!
 
 %% ----- Do not edit anything above this line ----- %% 
 

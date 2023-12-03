@@ -55,6 +55,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Dark Mode Accent Color
     - Checkbox Color: The color of the regular "- [x]" checkbox
     - Text Selection Color
+- **Highlight Colors**: 
+    - Highlight 1
+    - Highlight 2 (italic + highlight)
+    - Highlight 3 (bold + highlight)
 - **Graph Colors**: 
     - Active Note Node Color
     - Tag Node Color
@@ -63,17 +67,12 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Typography**: 
 - Preview Mode line width: The maximum number of characters per line.
-- **Fonts**: 
-    - Preview Mode Font
-    - Edit Mode Font
-    - UI font
-    - Monospace Font
-    - Frontmatter/YAML Font
 - **Headings**: 
     - Heading Font Preview Mode
     - Heading Font Editor Mode
     - Heading Indicators: Disable the typora-like heading indicators in Live Preview.
     - Heading Indicators in active line only: Enables typora-like heading indicators in Live Preview, only in the active line.
+    - Disable Uppercase in lvl 5 & 6 Headings: Disables uppercase in headings lvl 5 & 6
     - **Weights**: 
         - Heading 1 Weight: Default value - semi-bold (600)
         - Heading 2 Weight: Default value - semi-bold (600)
@@ -129,15 +128,21 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
             - **Heading 6**: 
                 - Heading 6 Light Mode: The higher the number, the lower the brightness
                 - Heading 6 Dark Mode: The higher the number, the lower the brightness
+- **Bold & Italic**: Coming soon
 
 **Features**: 
+- Minimal's Image Grid by @kepano: Must have the Contextual Typography plugin v2.2.1+ installed. For more information, visit minimal.guide/Block+types/Image+grids
 - Fade inactive panes: Fades every pane other than the active one, for better focus
-- Disable custom tasks and pseudo-admonitions
 - <hr> ("---") Options: For Edit Mode
-- Edit Mode Tasks: Makes filled tasks green and empty ones red, in Edit Mode.
 - Wrap Kanban Lanes: Makes Kanban Lanes wrap in multiple rows if needed.
+- **Callouts**: 
+    - Full color headers in Callouts: Fills callout headers with their respective callout color.
+- **Checkboxes**: 
+    - Edit Mode Tasks: Makes filled tasks green and empty ones red, in Edit Mode.
+    - Disable custom tasks and pseudo-admonitions
+    - Enable Square Checkboxes
 - **Active Line Highlighting**: 
-    - Enable active line highlighting: Disables active line highlighting
+    - Enable active line highlighting: Enables active line highlighting
     - Use Accent color as Active Line Highlight: Replaces the grey with the accent color for active line highlighting.
 - **Footnotes**: 
     - Footnote Title: Places a lvl.2 heading before the Footnotes.
@@ -172,10 +177,14 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Community Themes modal width
     - Community Plugins modal width
 - **Scrollbars**: 
-    - No Scrollbar in Global Search: Disables Scrollbars when displaying Global Search Results.
-    - No Scrollbar in Notes: Disables Scrollbars in Notes.
-    - No Scrollbar in File Explorer: Disables Scrollbars in File Explorer.
-    - No Scrollbar in Modal: Disables Scrollbars in settings menus.
+    - Toggle Scrollbar buttons: Enables Arrow buttons in vertical scrollbars
+    - Scrollbar Size: Changes scrollbar width/height
+    - **Disable Scrollbars**: 
+        - Global Search scrollbar: Disables Scrollbars when displaying Global Search Results.
+        - Notes scrollbars: Disables Scrollbars in Notes.
+        - File Explorer scrollbar: Disables Scrollbars in File Explorer.
+        - Modal scrollbar: Disables Scrollbars in settings menus.
+        - Outline Pane scrollbar: Disables Scrollbars in the Outline Pane.
 
 **Mobile**: 
 - Disable floating button: This setting disables the floating Editing/Reading view button, making it go back to the top.
@@ -184,6 +193,15 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - No background blur: This setting disables background blur on modals.
 - Disable animations: This setting disables animations and transitions.
 - Default icons: Use default icons instead of the Sanctum set.
+- **❤️ Support Sanctum's Development**: If you enjoy using Sanctum, he's how you can help with its development.
+
+**Star the Project on GitHub**: https://github.com/jdanielmourao/obsidian-sanctum
+
+**Follow the latest changes**: https://github.com/users/jdanielmourao/projects/1
+
+**Submit an issue GitHub**: https://github.com/jdanielmourao/obsidian-sanctum/issues
+
+**If you're able and willing, you can buy me a coffee**: https://ko-fi.com/jdanielmourao
 
 ## Plugin Compatibility[^1]
 
@@ -202,11 +220,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#Tag pane|Tag pane]]
 
 **Community plugins**:
-- [[block-reference-count|Block Reference Counts]]
+- [[block-reference-count|block-reference-count]]
 - [[breadcrumbs|Breadcrumbs]]
 - [[calendar|Calendar]]
 - [[fantasy-calendar|Fantasy Calendar]]
-- [[plugin-changelogs|Plugin Changelogs]]
+- [[plugin-changelogs|plugin-changelogs]]
 - [[obsidian-charts|Obsidian Charts]]
 - [[obsidian-checklist-plugin|Checklist]]
 - [[dataview|Dataview]]
@@ -214,9 +232,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[obsidian-gallery|Gallery]]
 - [[obsidian-kanban|Kanban]]
 - [[quick-explorer|Quick Explorer]]
-- [[sliding-panes-obsidian|Sliding Panes (Andy Matuschak Mode)]]
+- [[sliding-panes-obsidian|Sliding Panes (Andy's Mode)]]
 - [[obsidian-style-settings|Style Settings]]
 - [[templater-obsidian|Templater]]
+- [[sortables|sortables]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

@@ -27,6 +27,7 @@ A mod for both Discord and forum and a plugin author.
 - [[vantage-obsidian|Vantage - Advanced search builder]]
 - [[DEVONlink-obsidian|DEVONlink]]
 - [[lumberjack-obsidian|Lumberjack 🪓 🪵]]
+- [[enlightenment-obsidian|Enlightenment ✨]]
 
 %% End Hub: Released contributions %%
 

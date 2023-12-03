@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/meld-cp/obsidian-encrypt) or [<but
 Developed by: [[meld-cp]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Hide secrets in your notes
+Hide secrets in your vault
 
 %% ----- Do not edit anything above this line ----- %% 
 

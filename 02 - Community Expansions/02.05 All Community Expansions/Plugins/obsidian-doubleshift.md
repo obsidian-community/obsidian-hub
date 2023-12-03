@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/qwyntex/doubleshift/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/qwyntex/doubleshift?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/qwyntex/doubleshift/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/qwyntex/doubleshift?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Qwyntex/doubleshift/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Qwyntex/doubleshift?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Qwyntex/doubleshift/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Qwyntex/doubleshift?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,16 +21,16 @@ publish: true
 # Doubleshift
 
 Plugin ID: `obsidian-doubleshift`
-Links: [GitHub repository](https://github.com/qwyntex/doubleshift) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-doubleshift)
-Developed by: [[qwyntex]]
+Links: [GitHub repository](https://github.com/Qwyntex/doubleshift) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-doubleshift)
+Developed by: [[Qwyntex]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Open the command palette by pressing Double Shift like in IntelliJ and create your own shortcuts
+Open the command palette by pressing Shift (or any other key) twice like in IntelliJ and create your own shortcuts
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[qwyntex#Sponsor this author]] %%
+%% ![[Qwyntex#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

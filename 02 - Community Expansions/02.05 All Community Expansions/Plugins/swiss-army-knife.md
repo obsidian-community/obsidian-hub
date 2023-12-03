@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/mwoz123/swiss-army-knife-obsidian)
 Developed by: [[mwoz123]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Collection of various utilities (e.g. duplicate empty line remover)
+Collection of various utilities e.g. duplicate empty line remover, Obsidian plugin release/tag version downloader (eg. for mobile tests)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [ozntel](https://github.com/ozntel/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://ozan.pl> ^website
+- Website: <https://www.ozan.pl> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -26,6 +26,8 @@ publish: true
 - [[file-explorer-note-count|File Explorer Note Count]]
 - [[ozanshare-publish|OzanShare Publish]]
 - [[obsidian-link-converter|Obsidian Link Converter]]
+- [[msg-handler|MSG Handler]]
+- [[oz-calendar|OZ Calendar]]
 
 %% End Hub: Released contributions %%
 

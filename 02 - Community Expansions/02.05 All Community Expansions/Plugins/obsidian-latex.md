@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/xldenis/obsidian-latex/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/xldenis/obsidian-latex?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/xldenis/obsidian-latex/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/xldenis/obsidian-latex?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/wei2912/obsidian-latex/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/wei2912/obsidian-latex?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/wei2912/obsidian-latex/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/wei2912/obsidian-latex?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Extended MathJax
 
 Plugin ID: `obsidian-latex`
-Links: [GitHub repository](https://github.com/xldenis/obsidian-latex) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-latex)
-Developed by: [[xldenis]]
+Links: [GitHub repository](https://github.com/wei2912/obsidian-latex) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-latex)
+Developed by: [[wei2912]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Adds support for a MathJax preamble and enables additional MathJax extensions for specific domains (chemistry, proofs).
@@ -30,7 +30,7 @@ Adds support for a MathJax preamble and enables additional MathJax extensions fo
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[xldenis#Sponsor this author]] %%
+%% ![[wei2912#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

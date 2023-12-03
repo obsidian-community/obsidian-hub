@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/isaaclyman/novel-word-count-obsidi
 Developed by: [[isaaclyman]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Displays a word or page count for each file, folder and vault in the File Explorer pane.
+Displays a word count (and more!) for each file, folder and vault in the File Explorer pane.
 
 %% ----- Do not edit anything above this line ----- %% 
 

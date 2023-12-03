@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/chhoumann/podnotes/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/chhoumann/podnotes?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/chhoumann/podnotes/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/chhoumann/podnotes?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/chhoumann/PodNotes/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/chhoumann/PodNotes?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/chhoumann/PodNotes/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/chhoumann/PodNotes?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,7 +21,7 @@ publish: true
 # PodNotes
 
 Plugin ID: `podnotes`
-Links: [GitHub repository](https://github.com/chhoumann/podnotes) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=podnotes)
+Links: [GitHub repository](https://github.com/chhoumann/PodNotes) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=podnotes)
 Developed by: [[chhoumann]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

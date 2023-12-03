@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [pjeby](https://github.com/pjeby/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://github.com/pjeby> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

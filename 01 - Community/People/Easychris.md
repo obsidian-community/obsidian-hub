@@ -8,7 +8,7 @@ publish: true
 
 # Easychris
 
-- GitHub: [Easychris](https://github.com/Easychris/) ^github
+- GitHub: [EasyChris](https://github.com/EasyChris/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/EasyChris/obsidian-to-notion> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @Easychris on GitHub Sponsors](https://github.com/sponsors/Easychris) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @EasyChris on GitHub Sponsors](https://github.com/sponsors/EasyChris) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-tidy-footnotes|Tidy Footnotes]]
+- [[obsidian-upcoming|Upcoming]]
 
 %% End Hub: Released contributions %%
 

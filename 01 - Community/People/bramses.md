@@ -1,16 +1,16 @@
 ---
 aliases:
-- bramses
+- Bram Adams
 tags:
 - 
 publish: true
 ---
 
-# bramses
+# Bram Adams
 
 - GitHub: [bramses](https://github.com/bramses/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://stenography.dev/> ^website
+- Website: <https://www.bramadams.dev> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[stenography-obsidian|Stenography]]
+- [[obsidian-stack-overflow|Stack Overflow Answers]]
+- [[chatgpt-md|ChatGPT MD]]
 
 %% End Hub: Released contributions %%
 

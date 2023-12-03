@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-heading-shifter|Heading Shifter]]
+- [[obsidian-dirtreeist|Dirtreeist]]
 
 %% End Hub: Released contributions %%
 

@@ -8,9 +8,9 @@ publish: true
 
 # xRyul
 
-- GitHub: [xRyul](https://github.com/xRyul/) ^github
+- GitHub: [xryul](https://github.com/xryul/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://github.com/xryul> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -19,6 +19,8 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
+### Plugins
+- [[image-converter|Image Converter]]
 
 ### Themes
 - [[Dracula + LYT]]
@@ -38,7 +40,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @xRyul on GitHub Sponsors](https://github.com/sponsors/xRyul) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @xryul on GitHub Sponsors](https://github.com/sponsors/xryul) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

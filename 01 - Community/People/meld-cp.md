@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [meld-cp](https://github.com/meld-cp/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/meld-cp/obsidian-calc> ^website
+- Website: <https://github.com/meld-cp/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -22,6 +22,7 @@ publish: true
 ### Plugins
 - [[meld-encrypt|Meld Encrypt]]
 - [[meld-calc|Meld Calc]]
+- [[meld-build|Meld Build]]
 
 %% End Hub: Released contributions %%
 

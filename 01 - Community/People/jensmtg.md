@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-diagrams-net|Diagrams.net]]
+- [[influx|Influx]]
 
 %% End Hub: Released contributions %%
 

@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]
+- [[markdown-table-editor|Markdown Table Editor]]
 
 %% End Hub: Released contributions %%
 

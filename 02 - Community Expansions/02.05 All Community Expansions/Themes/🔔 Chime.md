@@ -35,68 +35,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
-- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
-
-## Customization Options (Style Settings Plugin) 
-- Theme
-
-**Layout**: 
-- Border Width
-- Hide Workspace Dividers
-- Cards Sidebar Layout: Toggle a cards layout for sidebars. NOTE - will not have any effect if Classic Layout is turned on.
-- Classic Layout: Get rid of rounded note corners for a more blocky, classic look. NOTE - will override Cards Layout.
-- Line Style: Line style displayed on borders.
-- Folder Colors: Enable or disable rainbow folders (original rainbow folders created by Lithou)
-
-**Blockquotes**: 
-- Blockquote style
-
-**Callouts**: 
-- Callout Style
-
-**Checkboxes**: 
-- Checkbox Style
-
-**Headings**: 
-- Colorful Headings
-- Smaller Headings: Make headings smaller and less distracting.
-- **Header 1**: 
-    - Header 1 Weight
-    - Header 1 Font Variant
-    - Center Header 1
-    - Header 1 Bottom Border
-- **Header 2**: 
-    - Header 2 Weight
-    - Header 2 Font Variant
-    - Center Header 2
-    - Header 2 Bottom Border
-- **Header 3**: 
-    - Header 3 Weight
-    - Header 3 Font Variant
-    - Center Header 3
-    - Header 3 Bottom Border
-- **Header 4**: 
-    - Header 4 Weight
-    - Header 4 Font Variant
-    - Center Header 4
-    - Header 4 Bottom Border
-- **Header 5**: 
-    - Header 5 Weight
-    - Header 5 Font Variant
-    - Center Header 5
-    - Header 5 Bottom Border
-- **Header 6**: 
-    - Header 6 Weight
-    - Header 6 Font Variant
-    - Center Header 6
-    - Header 6 Bottom Border
-
-**Text**: 
-- Colorful bold and italic text
-
-**Plugins**: 
-- **Page Gallery**: 
-    - Hide Search Bar
 
 
 %% Hub footer: Please don't edit anything below this line %%

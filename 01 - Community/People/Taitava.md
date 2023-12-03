@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [Taitava](https://github.com/Taitava/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://github.com/Taitava> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

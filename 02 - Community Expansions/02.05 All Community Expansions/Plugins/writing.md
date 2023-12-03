@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `writing`
 Links: [GitHub repository](https://github.com/johackim/obsidian-writing) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=writing)
 Developed by: [[johackim]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Write and format your next book directly from Obsidian
 

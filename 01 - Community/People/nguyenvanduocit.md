@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[open-gate|Open Gate]]
+- [[quote-share|Quote Share]]
 
 %% End Hub: Released contributions %%
 

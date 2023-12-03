@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[multi-tag|Multi Tag]]
+- [[multi-properties|Multi Properties]]
 
 %% End Hub: Released contributions %%
 

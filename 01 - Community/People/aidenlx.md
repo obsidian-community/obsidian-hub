@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[cm-chs-patch|Word Splitting for Simplified Chinese in Edit Mode]]
+- [[cm-chs-patch|Word Splitting for Simplified Chinese in Edit Mode and Vim Mode]]
 - [[table-extended|Table Extended]]
 - [[media-extended|Media Extended]]
 - [[better-fn|Better footnote]]
@@ -29,6 +29,7 @@ publish: true
 - [[folder-note-core|Folder Note Core]]
 - [[marginnote-companion|MarginNote Companion]]
 - [[obsidian-icon-shortcodes|Icon Shortcodes]]
+- [[alx-folder-note-folderv|AidenLx's Folder Note - folderv component]]
 
 %% End Hub: Released contributions %%
 

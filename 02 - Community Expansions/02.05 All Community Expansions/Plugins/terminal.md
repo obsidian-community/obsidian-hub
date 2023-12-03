@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/polyipseity/obsidian-terminal) or 
 Developed by: [[polyipseity]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Open terminals in Obsidian directly.
+Integrate consoles, shells, and terminals inside Obsidian.
 
 %% ----- Do not edit anything above this line ----- %% 
 

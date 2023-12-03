@@ -17,6 +17,7 @@ publish: true
 
 
 ## Author of
+
 %% Begin Hub: Released contributions %%
 
 ### Themes
@@ -24,8 +25,6 @@ publish: true
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
-### Guides
-- [[Want some Sass with your obsidian theme‽ here's How and Why]]
 
 <!--
 ### Unlisted plugins
@@ -35,17 +34,15 @@ publish: true
 ### Others
 -->
 
+### Guides
+- [[Want some Sass with your obsidian theme‽ here's How and Why]]
+
 ## Sponsor this author
 
+<!-- - [[GitHub sponsors]]: [Sponsor @jdanielmourao on GitHub Sponsors](https://github.com/sponsors/jdanielmourao) ^github-sponsor-->
 - [[Buy me a coffee]]: <https://ko-fi.com/jdanielmourao> ^buy-me-a-coffee
 - [[PayPal]]: <https://paypal.me/jdanielmourao> ^paypal
-
-<!--
-- [[GitHub sponsors]]: [Sponsor @jdanielmourao on GitHub Sponsors](https://github.com/sponsors/jdanielmourao) ^github-sponsor
-- [[PayPal]]: ^paypal
-- [[Patreon]]: ^patreon
-
--->
+<!-- - [[Patreon]]: <https://> ^patreon-->
 
 <!--
 ## Follow this author

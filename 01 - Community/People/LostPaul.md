@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[open-files-with-commands|Open files with commands]]
+- [[folder-notes|Folder notes]]
 
 %% End Hub: Released contributions %%
 

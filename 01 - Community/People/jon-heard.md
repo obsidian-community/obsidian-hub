@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-text-expander-js|Text Expander JS]]
+- [[obsidian-text-expander-js|Inline Scripts]]
 
 %% End Hub: Released contributions %%
 

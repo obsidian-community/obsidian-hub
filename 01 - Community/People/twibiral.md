@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [twibiral](https://github.com/twibiral/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://www.github.com/twibiral> ^website
+- Website: <https://github.com/twibiral> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[execute-code|Execute Code]]
+- [[obsidoom|ObsiDOOM]]
 
 %% End Hub: Released contributions %%
 

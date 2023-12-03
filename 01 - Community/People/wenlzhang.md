@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-task-marker|Task Marker]]
+- [[copy-metadata|Copy Metadata]]
+- [[timestamp-link|Timestamp Link]]
 
 %% End Hub: Released contributions %%
 

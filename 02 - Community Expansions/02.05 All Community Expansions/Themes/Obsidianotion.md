@@ -41,6 +41,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Structure of components and areas**: 
 - Width of body content. Where you write and read.
+- Small Pinned Tabs: Pinned tabs get smaller
+- Hide Ribbon: Hiden ribbon left bar icons
+- Small font: When enabled, the fonts are more smaller to be more minimalistic.
+- Show scrollbars: When activated scrollbars will be visible
+- Show icons in sidebar: When activated files and folders icons will be visible
+- Show background in empty window: When activated will show a background in empty windows (new files)
+- Enable default position of new note button: When enable, we put the new note button at the bottom of sidebar
 
 **Fonts and Typograph**: 
 - H1: Font size of H1
@@ -49,7 +56,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - H4: Font size of H4
 - H5: Font size of H5
 - H6: Font size of H6
-- Body paragraphy: Font size of body size
+- Body paragraph: Font size of body size
+- Table cell size: Font size of table cell
+- Table Head size: Font size of table head cell
 
 **Colors**: 
 - Headings colors: Titles text colors

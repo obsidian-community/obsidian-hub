@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-file-cleaner|File Cleaner]]
+- [[obsidian-daily-notes-viewer|Daily Notes Viewer]]
 
 %% End Hub: Released contributions %%
 

@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Seraphli/obsidian-link-embed) or [
 Developed by: [[Seraphli]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This plugin allow you to convert URLs in your notes into embeded previews.
+This plugin allows you to convert URLs in your notes into embedded previews.
 
 %% ----- Do not edit anything above this line ----- %% 
 

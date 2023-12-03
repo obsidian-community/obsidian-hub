@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [TfTHacker](https://github.com/TfTHacker/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/TfTHacker/obsidian42-brat> ^website
+- Website: <https://github.com/TfTHacker/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -24,6 +24,8 @@ publish: true
 - [[obsidian-jump-to-date-plugin|Obsidian42 - Jump-to-Date]]
 - [[obsidian42-text-transporter|Obsidian42 - Text Transporter]]
 - [[obsidian42-brat|Obsidian42 - BRAT]]
+- [[obsidian42-strange-new-worlds|Obsidian42 - Strange New Worlds (SNW)]]
+- [[helpmate|HelpMate]]
 
 %% End Hub: Released contributions %%
 

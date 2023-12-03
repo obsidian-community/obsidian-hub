@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [FlorianWoelki](https://github.com/FlorianWoelki/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://florianwoelki.com/> ^website
+- Website: <https://florianwoelki.com> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,7 +20,8 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-icon-folder|Icon Folder]]
+- [[obsidian-icon-folder|Iconize]]
+- [[symbols-prettifier|Symbols Prettifier]]
 
 %% End Hub: Released contributions %%
 

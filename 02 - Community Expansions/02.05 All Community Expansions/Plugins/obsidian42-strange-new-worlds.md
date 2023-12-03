@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian42-strange-new-worlds
 aliases:
-- Obsidian42 - Strange New Worlds
+- Obsidian42 - Strange New Worlds (SNW)
 tags: 
 - 
 publish: true
@@ -18,7 +18,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Obsidian42 - Strange New Worlds
+# Obsidian42 - Strange New Worlds (SNW)
 
 Plugin ID: `obsidian42-strange-new-worlds`
 Links: [GitHub repository](https://github.com/TfTHacker/obsidian42-strange-new-worlds) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian42-strange-new-worlds)

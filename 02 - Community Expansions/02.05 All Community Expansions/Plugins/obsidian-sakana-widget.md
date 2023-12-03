@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/quorafind/obsidian-sakana-widget/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/quorafind/obsidian-sakana-widget?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/quorafind/obsidian-sakana-widget/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/quorafind/obsidian-sakana-widget?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Quorafind/obsidian-sakana-widget/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Quorafind/obsidian-sakana-widget?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Quorafind/obsidian-sakana-widget/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Quorafind/obsidian-sakana-widget?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Sakana Widget
 
 Plugin ID: `obsidian-sakana-widget`
-Links: [GitHub repository](https://github.com/quorafind/obsidian-sakana-widget) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-sakana-widget)
-Developed by: [[quorafind]]
+Links: [GitHub repository](https://github.com/Quorafind/obsidian-sakana-widget) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-sakana-widget)
+Developed by: [[Quorafind]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Add the Sakana! Widget to your own Obsidian!
@@ -30,7 +30,7 @@ Add the Sakana! Widget to your own Obsidian!
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[quorafind#Sponsor this author]] %%
+%% ![[Quorafind#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

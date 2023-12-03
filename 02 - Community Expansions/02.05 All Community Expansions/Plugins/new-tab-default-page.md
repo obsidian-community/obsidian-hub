@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `new-tab-default-page`
 Links: [GitHub repository](https://github.com/chrisgrieser/new-tab-default-page) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=new-tab-default-page)
 Developed by: [[chrisgrieser]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Open a note of your choice when creating a new tab, like in the browser.
 

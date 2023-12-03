@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/bitwiseops/obsidian-kobo-highlights-import/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bitwiseops/obsidian-kobo-highlights-import?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/bitwiseops/obsidian-kobo-highlights-import/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/bitwiseops/obsidian-kobo-highlights-import?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/OGKevin/obsidian-kobo-highlights-import/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/OGKevin/obsidian-kobo-highlights-import?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/OGKevin/obsidian-kobo-highlights-import/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/OGKevin/obsidian-kobo-highlights-import?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Kobo Highlights Importer
 
 Plugin ID: `obsidian-kobo-highlights-importer-plugin`
-Links: [GitHub repository](https://github.com/bitwiseops/obsidian-kobo-highlights-import) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-kobo-highlights-importer-plugin)
-Developed by: [[bitwiseops]]
+Links: [GitHub repository](https://github.com/OGKevin/obsidian-kobo-highlights-import) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-kobo-highlights-importer-plugin)
+Developed by: [[OGKevin]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Import highlights from your Kobo device
@@ -30,7 +30,7 @@ Import highlights from your Kobo device
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[bitwiseops#Sponsor this author]] %%
+%% ![[OGKevin#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

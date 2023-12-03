@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/twibiral/obsidian-execute-code) or
 Developed by: [[twibiral]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Allows to execute code snippets within a note.
+Allows to execute code snippets within a note. Supported programming languages:  C, CPP, Dart, Golang, Groovy, Kotlin, Java, JavaScript, TypeScript, Lean, Lua, CSharp, Prolog, Rust, Python, R, Ruby, Wolfram Mathematica, Haskell, Scala, Racket, F#, Batch, Shell & Powershell.
 
 %% ----- Do not edit anything above this line ----- %% 
 

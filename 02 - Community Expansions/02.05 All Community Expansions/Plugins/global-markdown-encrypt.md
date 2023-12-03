@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `global-markdown-encrypt`
 Links: [GitHub repository](https://github.com/shlemiel/globaloe) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=global-markdown-encrypt)
 Developed by: [[shlemiel]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 In-memory AES256-GCM Markdown Encryption
 

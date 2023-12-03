@@ -1,12 +1,12 @@
 ---
 aliases:
-- L7Cy
+- Tokuhiro Matsuno
 tags:
 - 
 publish: true
 ---
 
-# L7Cy
+# Tokuhiro Matsuno, L7Cy
 
 - GitHub: [L7Cy](https://github.com/L7Cy/) ^github
 <!-- - Discord: `@` ^discord-->
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[dynamic-timetable|Dynamic Timetable]]
+- [[2hop-links-plus|2Hop Links Plus]]
 
 %% End Hub: Released contributions %%
 

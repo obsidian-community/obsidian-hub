@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Reocin/obsidian-markdown-formattin
 Developed by: [[Reocin]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This Plugin provides a simple Editor for Markdown, HTML and Colors and in addition a command line interface. The command line interface facilitate a faster workflow.
+This Plugin provides a simple Editor for Markdown, HTML and Colors and in addition a command interface. The command interface facilitate a faster workflow.
 
 %% ----- Do not edit anything above this line ----- %% 
 

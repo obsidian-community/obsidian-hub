@@ -21,7 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[file-explorer-markdown-titles|File Explorer Markdown Titles]]
-- [[luhman|Luhmann]]
+- [[luhman|Luhman]]
 
 %% End Hub: Released contributions %%
 

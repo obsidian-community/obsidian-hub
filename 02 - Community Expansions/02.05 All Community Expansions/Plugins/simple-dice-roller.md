@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/yeeshue99/ObsidianDiceRoller/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/yeeshue99/ObsidianDiceRoller?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/yeeshue99/ObsidianDiceRoller/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/yeeshue99/ObsidianDiceRoller?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/yeeshue99/SimpleDiceRoller/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/yeeshue99/SimpleDiceRoller?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/yeeshue99/SimpleDiceRoller/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/yeeshue99/SimpleDiceRoller?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,7 +21,7 @@ publish: true
 # Simple Dice Roller
 
 Plugin ID: `simple-dice-roller`
-Links: [GitHub repository](https://github.com/yeeshue99/ObsidianDiceRoller) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=simple-dice-roller)
+Links: [GitHub repository](https://github.com/yeeshue99/SimpleDiceRoller) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=simple-dice-roller)
 Developed by: [[yeeshue99]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 

@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-wordpress
 aliases:
-- Wordpress
+- WordPress
 tags: 
 - 
 publish: true
@@ -18,12 +18,12 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Wordpress
+# WordPress
 
 Plugin ID: `obsidian-wordpress`
 Links: [GitHub repository](https://github.com/devbean/obsidian-wordpress) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-wordpress)
 Developed by: [[devbean]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A plugin for publishing Obsidian documents to WordPress.
 

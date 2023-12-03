@@ -39,7 +39,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 - Use the default indent for lists: This theme compresses list indent whitespace by default. Enable this to use the indent spacing from the default theme.
-- Suppress/Remove this checkbox styles: Set this to true if you are going to use your own task snippet
+- Suppress/Remove this theme's checkbox styles: Set this to true if you are going to use your own task snippet
 
 **Showing and Hiding content**: 
 - Show external links in edit mode: If true, external links (or the content of markdown links) will be shown in edit mode. External links are hidden by default.
@@ -48,10 +48,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Show collapsed sidebars on hover: If true, collapsed side-bars will be shown when you hover over the ribbon.
 
 **Fonts**: 
-- Headings: Font for text headings (h1 to h6)
-- Tags: Font for displaying inline
-- Text: Default text font for preview and edit mode.
-- Monospace
+- Headings: Font for text headings (h1 to h6); empty will use default text font
+- Heading Font Variant: Font variant for text headings (h1 to h6)
+- Tags: Font for displaying inline tags; empty will use default text font
+- Font for callout/admonition titles: Use the specified font for callout and admonition titles
+- Use Appearance to customize text/monospace fonts: (This has no effect. ;) )
 
 **Colors**: 
 - Primary accent color: Choose the primary accent color. You should define a snippet if you select primary-accent-custom. See the Theme's README.

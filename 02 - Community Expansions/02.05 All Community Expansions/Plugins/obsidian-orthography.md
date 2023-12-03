@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/denisoed/obsidian-orthography) or 
 Developed by: [[denisoed]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Obsidian plugin to check & fix orthography errors in text
+Obsidian plugin for checking and correcting spelling errors in text.
 
 %% ----- Do not edit anything above this line ----- %% 
 

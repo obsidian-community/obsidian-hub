@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/pjeby/pane-relief) or [<button id=
 Developed by: [[pjeby]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Per-pane history, hotkeys for pane movement + navigation, and more
+Per-tab history, hotkeys for pane/tab movement, navigation, sliding workspace, and more
 
 %% ----- Do not edit anything above this line ----- %% 
 

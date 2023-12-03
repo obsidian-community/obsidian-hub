@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[advanced-merger|Advanced Merger]]
+- [[finnish-spellcheck|Finnish Spellcheck]]
 
 %% End Hub: Released contributions %%
 

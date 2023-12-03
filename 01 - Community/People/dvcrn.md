@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [dvcrn](https://github.com/dvcrn/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/dvcrn/filename-header-sync> ^website
+- Website: <https://github.com/dvcrn/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

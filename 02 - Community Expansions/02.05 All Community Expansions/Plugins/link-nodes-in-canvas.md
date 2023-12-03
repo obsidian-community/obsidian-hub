@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/quorafind/obsidian-link-nodes-in-canvas/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/quorafind/obsidian-link-nodes-in-canvas?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/quorafind/obsidian-link-nodes-in-canvas/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/quorafind/obsidian-link-nodes-in-canvas?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Quorafind/Obsidian-Link-Nodes-In-Canvas/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Quorafind/Obsidian-Link-Nodes-In-Canvas?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Quorafind/Obsidian-Link-Nodes-In-Canvas/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Quorafind/Obsidian-Link-Nodes-In-Canvas?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Link Nodes In Canvas
 
 Plugin ID: `link-nodes-in-canvas`
-Links: [GitHub repository](https://github.com/quorafind/obsidian-link-nodes-in-canvas) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=link-nodes-in-canvas)
-Developed by: [[quorafind]]
+Links: [GitHub repository](https://github.com/Quorafind/Obsidian-Link-Nodes-In-Canvas) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=link-nodes-in-canvas)
+Developed by: [[Quorafind]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A plugin for you to add edges between notes in Canvas based on their links.
@@ -30,7 +30,7 @@ A plugin for you to add edges between notes in Canvas based on their links.
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[quorafind#Sponsor this author]] %%
+%% ![[Quorafind#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

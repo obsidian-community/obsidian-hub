@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-mkdocs-publisher
 aliases:
-- Mkdocs Publisher
+- Github Publisher
 tags: 
 - 
 publish: true
@@ -9,28 +9,28 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/Mara-Li/obsidian-mkdocs-publisher-plugin/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Mara-Li/obsidian-mkdocs-publisher-plugin?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/Mara-Li/obsidian-mkdocs-publisher-plugin/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/Mara-Li/obsidian-mkdocs-publisher-plugin?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/ObsidianPublisher/obsidian-github-publisher/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ObsidianPublisher/obsidian-github-publisher?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/ObsidianPublisher/obsidian-github-publisher/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/ObsidianPublisher/obsidian-github-publisher?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# Mkdocs Publisher
+# Github Publisher
 
 Plugin ID: `obsidian-mkdocs-publisher`
-Links: [GitHub repository](https://github.com/Mara-Li/obsidian-mkdocs-publisher-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-mkdocs-publisher)
-Developed by: [[Mara-Li]]
+Links: [GitHub repository](https://github.com/ObsidianPublisher/obsidian-github-publisher) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-mkdocs-publisher)
+Developed by: [[ObsidianPublisher]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Obsidian's Mkdocs Publisher is an association between a github actions and a Material mkdocs template to get a personal wiki site based on your Obsidian Vault.
+Github Publisher helps you to publish your notes on a preconfigured GitHub repository, for free, and more!
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[Mara-Li#Sponsor this author]] %%
+%% ![[ObsidianPublisher#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

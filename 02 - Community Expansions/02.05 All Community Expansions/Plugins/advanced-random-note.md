@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/karstenpedersen/obsidian-advanced-
 Developed by: [[karstenpedersen]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Create commands from custom queries to open random notes
+Open random notes with custom queries in languages like Dataview and Regex.
 
 %% ----- Do not edit anything above this line ----- %% 
 

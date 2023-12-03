@@ -21,7 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 
 ### Themes
-- [[Shiba Uni]]
+- [[Shiba Inu]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%

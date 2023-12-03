@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `booksidian-plugin`
 Links: [GitHub repository](https://github.com/MichaBrugger/booksidian_plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=booksidian-plugin)
 Developed by: [[MichaBrugger]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Connect Obsidian to your Goodreads.
 

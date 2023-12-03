@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Johnson0907/obsidian-file-cleaner)
 Developed by: [[Johnson0907]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Help you to clean empty files in the vault.
+Help you to clean empty files and unused attachments in the vault.
 
 %% ----- Do not edit anything above this line ----- %% 
 

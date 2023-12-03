@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-steemit`
 Links: [GitHub repository](https://github.com/anpigon/obsidian-steemit-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-steemit)
 Developed by: [[anpigon]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 A plugin for publishing Obsidian documents to Steemit.
 

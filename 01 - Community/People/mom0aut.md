@@ -8,9 +8,9 @@ publish: true
 
 # Mom0
 
-- GitHub: [mom0aut](https://github.com/mom0aut/) ^github
+- GitHub: [Mom0aut](https://github.com/Mom0aut/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://obsidian.md> ^website
+<!-- - Website: <https://> ^website -->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @mom0aut on GitHub Sponsors](https://github.com/sponsors/mom0aut) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @Mom0aut on GitHub Sponsors](https://github.com/sponsors/Mom0aut) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

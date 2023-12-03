@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [akosbalasko](https://github.com/akosbalasko/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/akosbalasko, https://github.com/michabrugger> ^website
+- Website: <https://github.com/akosbalasko>, <https://github.com/michabrugger> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[zoottelkeeper-obsidian-plugin|Zoottelkeeper Plugin]]
+- [[onyx-boox-extractor|Onyx Boox Annotation & Highlight Extractor]]
 
 %% End Hub: Released contributions %%
 

@@ -21,6 +21,10 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-copy-search-url|Copy Search URL]]
+- [[blockquote-levels|Blockquote Levels]]
+- [[actions-uri|Actions URI]]
+- [[logstravaganza|Logstravaganza]]
+- [[mononote|Mononote]]
 
 %% End Hub: Released contributions %%
 

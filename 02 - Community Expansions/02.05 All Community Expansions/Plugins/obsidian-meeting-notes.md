@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/TimHi/obsidian-meeting-notes) or [
 Developed by: [[TimHi]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-(https://obsidian.md) Plugin to automatically create a meeting note if a new file is created in a meeting folder.
+Plugin to automatically create a note if a new file is created in a meeting folder.
 
 %% ----- Do not edit anything above this line ----- %% 
 

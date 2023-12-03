@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-math-plus`
 Links: [GitHub repository](https://github.com/ocapraro/obsidian-math-plus) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-math-plus)
 Developed by: [[ocapraro]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is an Obsidian plugin for taking math notes using Excalidraw.
 

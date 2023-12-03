@@ -8,24 +8,24 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-6467-573E7A?style=for-the-badge&logo=)
-![GitHub last commit](https://img.shields.io/github/last-commit/krios2146/obsidian-github?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/krios2146/obsidian-github/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub Repo stars](https://img.shields.io/github/stars/krios2146/obsidian-github?color=573E7A&logo=github&style=for-the-badge)
+![Downloads](https://img.shields.io/badge/downloads-18562-573E7A?style=for-the-badge&logo=)
+![GitHub last commit](https://img.shields.io/github/last-commit/krios2146/obsidian-theme-github?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
+![GitHub issues by-label](https://img.shields.io/github/issues/krios2146/obsidian-theme-github/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub Repo stars](https://img.shields.io/github/stars/krios2146/obsidian-theme-github?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# GitHub theme
+# GitHub Theme
 
-Repository: [GitHub](https://github.com/krios2146/obsidian-github)
+Repository: [GitHub](https://github.com/krios2146/obsidian-theme-github)
 Designed by: [[krios2146]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/krios2146/obsidian-github/raw/HEAD/thumbnail.png)
+![screenshot](https://github.com/krios2146/obsidian-theme-github/raw/HEAD/imgs/thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

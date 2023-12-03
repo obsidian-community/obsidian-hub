@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/1C0D/duplicate-line-obsidian) or [
 Developed by: [[1C0D]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-To duplicate a line or several following selected lines. multicursor can be used too
+Duplicate Line(s) Up Down, duplicate selection Up Down, right, left. Support Multicursor
 
 %% ----- Do not edit anything above this line ----- %% 
 

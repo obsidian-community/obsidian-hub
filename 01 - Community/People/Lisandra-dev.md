@@ -8,9 +8,9 @@ publish: true
 
 # Mara-Li
 
-- GitHub: [Lisandra-dev](https://github.com/Lisandra-dev/) ^github
+- GitHub: [lisandra-dev](https://github.com/lisandra-dev/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://www.github.com/lisandra-dev> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -23,6 +23,8 @@ publish: true
 - [[obsidian-metacopy|Metacopy]]
 - [[obsidian-snippet-downloader|Snippet Downloader]]
 - [[obsidian-group-snippets|Group Snippets]]
+- [[open-plugin-settings|Open Plugin Settings]]
+- [[better-canvas-lock|Better Canvas Lock]]
 
 %% End Hub: Released contributions %%
 
@@ -40,7 +42,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @Lisandra-dev on GitHub Sponsors](https://github.com/sponsors/Lisandra-dev) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @lisandra-dev on GitHub Sponsors](https://github.com/sponsors/lisandra-dev) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

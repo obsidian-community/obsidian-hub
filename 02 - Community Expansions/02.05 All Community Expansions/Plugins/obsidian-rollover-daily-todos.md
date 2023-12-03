@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/shichongrui/obsidian-rollover-daily-todos/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/shichongrui/obsidian-rollover-daily-todos?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/shichongrui/obsidian-rollover-daily-todos/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/shichongrui/obsidian-rollover-daily-todos?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/lumoe/obsidian-rollover-daily-todos/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/lumoe/obsidian-rollover-daily-todos?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/lumoe/obsidian-rollover-daily-todos/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/lumoe/obsidian-rollover-daily-todos?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,16 +21,16 @@ publish: true
 # Rollover Daily Todos
 
 Plugin ID: `obsidian-rollover-daily-todos`
-Links: [GitHub repository](https://github.com/shichongrui/obsidian-rollover-daily-todos) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-rollover-daily-todos)
-Developed by: [[shichongrui]]
+Links: [GitHub repository](https://github.com/lumoe/obsidian-rollover-daily-todos) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-rollover-daily-todos)
+Developed by: [[lumoe]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This Obsidian.md plugin rolls over incomplete TODOs from the previous daily note to today's daily note. (https://obsidian.md)
+This Obsidian.md plugin rolls over incomplete TODOs from the previous daily note to today's daily note. (https://obsidian.md). (Originally created by Matthew Sessions)
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[shichongrui#Sponsor this author]] %%
+%% ![[lumoe#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

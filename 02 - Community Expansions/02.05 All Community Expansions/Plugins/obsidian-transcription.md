@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/djmango/obsidian-transcription) or
 Developed by: [[djmango]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Obsidian plugin to create high-quality transcriptions from markdown linked audio files
+Transcription 3.0, now with Swiftink.io domain-aware speech-to-text! Create high-quality text transcriptions from any media file, on any device. Best-in-class ASR
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/kometenstaub/obsidian-linked-data-vocabularies/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/kometenstaub/obsidian-linked-data-vocabularies?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/kometenstaub/obsidian-linked-data-vocabularies/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/kometenstaub/obsidian-linked-data-vocabularies?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/kometenstaub/linked-data-vocabularies/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/kometenstaub/linked-data-vocabularies?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/kometenstaub/linked-data-vocabularies/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/kometenstaub/linked-data-vocabularies?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,11 +21,11 @@ publish: true
 # Linked Data Vocabularies
 
 Plugin ID: `linked-data-vocabularies`
-Links: [GitHub repository](https://github.com/kometenstaub/obsidian-linked-data-vocabularies) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=linked-data-vocabularies)
+Links: [GitHub repository](https://github.com/kometenstaub/linked-data-vocabularies) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=linked-data-vocabularies)
 Developed by: [[kometenstaub]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Add linked data to the YAML of your notes.
+Add linked data (LCSH) as metadata to your notes.
 
 %% ----- Do not edit anything above this line ----- %% 
 

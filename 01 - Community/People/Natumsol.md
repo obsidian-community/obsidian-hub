@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-pangu|盘古]]
+- [[obsidian-pangu|盘古 PanGu]]
 
 %% End Hub: Released contributions %%
 

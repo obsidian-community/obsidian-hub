@@ -22,7 +22,7 @@ publish: true
 ### Plugins
 - [[code-block-from-selection|Code block from selection]]
 - [[remember-cursor-position|Remember cursor position]]
-- [[consistent-attachments-and-links|Consistent attachments and links]]
+- [[consistent-attachments-and-links|Consistent Attachments and Links]]
 - [[unique-attachments|Unique attachments]]
 - [[find-and-replace-in-selection|Find and replace in selection]]
 
@@ -52,10 +52,8 @@ publish: true
 ## Follow this author
 
 - [[YouTube Channels|On YouTube]]: [dy-sh's YouTube channel](https://www.youtube.com/c/dysh1) ^youtube
-<!--
-- Twitter: ^twitter
-- ...
--->
+<!-- - Twitter: <https://> ^twitter-->
+<!-- - ... -->
 
 %% Hub footer: Please don't edit anything below this line %%
 

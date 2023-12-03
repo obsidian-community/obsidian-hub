@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `companion`
 Links: [GitHub repository](https://github.com/rizerphe/obsidian-companion) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=companion)
 Developed by: [[rizerphe]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-A github copilot-like interface for obsidian that can use ChatGPT under the hood.
+Autocomplete with AI, including ChatGPT, through a copilot-like interface.
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -21,6 +21,10 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-memos|Obsidian Memos]]
+- [[mini-toolbar|Mini Toolbar]]
+- [[fold-anywhere|Fold Anywhere]]
+- [[file-property-enhancer|File Property Enhancer]]
+- [[collapse-node|Collapse Node]]
 
 %% End Hub: Released contributions %%
 

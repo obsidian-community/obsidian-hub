@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [anpigon](https://github.com/anpigon/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://steemit.com/@anpigon> ^website
+- Website: <https://anpigon.tistory.com> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-steemit|Steemit]]
+- [[obsidian-book-search-plugin|Book Search]]
+- [[tistory|Tistory]]
 
 %% End Hub: Released contributions %%
 

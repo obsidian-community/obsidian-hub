@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-vimrc-support`
 Links: [GitHub repository](https://github.com/esm7/obsidian-vimrc-support) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-vimrc-support)
 Developed by: [[esm7]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Auto-load a startup file with Obsidian Vim commands.
 

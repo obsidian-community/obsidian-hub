@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-jira-issue|JiraIssue]]
+- [[obsidian-jira-issue|Jira Issue]]
 
 %% End Hub: Released contributions %%
 

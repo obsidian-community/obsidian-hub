@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/chrisurf/obsidian-voice) or [<butt
 Developed by: [[chrisurf]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Listen to your notes aloud to you.
+Let your notes talk and speak to you and enhance your Obsidian experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.
 
 %% ----- Do not edit anything above this line ----- %% 
 

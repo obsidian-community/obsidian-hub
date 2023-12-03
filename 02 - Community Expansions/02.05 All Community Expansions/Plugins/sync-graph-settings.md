@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `sync-graph-settings`
 Links: [GitHub repository](https://github.com/Xallt/sync-graph-settings) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=sync-graph-settings)
 Developed by: [[Xallt]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This is a plugin for syncing graph settings (like Color Groups) to Local Graphs
+This is a plugin for syncing graph settings (Color Groups and Search Filters) to Local Graphs
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-smart-typography`
 Links: [GitHub repository](https://github.com/mgmeyers/obsidian-smart-typography) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-smart-typography)
 Developed by: [[mgmeyers]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses
 

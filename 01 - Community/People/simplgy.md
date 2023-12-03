@@ -8,7 +8,7 @@ publish: true
 
 # simplgy
 
-- GitHub: [simplgy](https://github.com/simplgy/) ^github
+- GitHub: [SimplGy](https://github.com/SimplGy/) ^github
 <!-- - Discord: `@` ^discord-->
 - Website: <https://github.com/simplgy> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-open-file-by-magic-date|Open File by Magic Date]]
+- [[emoji-magic|Emoji Magic]]
 
 %% End Hub: Released contributions %%
 
@@ -38,7 +39,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @simplgy on GitHub Sponsors](https://github.com/sponsors/simplgy) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @SimplGy on GitHub Sponsors](https://github.com/sponsors/SimplGy) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->

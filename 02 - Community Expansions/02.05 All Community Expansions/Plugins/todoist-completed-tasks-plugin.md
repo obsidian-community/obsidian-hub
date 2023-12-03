@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Ledaryy/obsidian-todoist-completed
 Developed by: [[Ledaryy]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Fetches completed tasks from todoist API and adds them to the Obsidian note.
+Add completed Todoist tasks to your Obsidian notes
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/tth05/obsidian-completr) or [<butt
 Developed by: [[tth05]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-This plugin provides advanced auto-completion functionality for Obsidian
+This plugin provides advanced auto-completion functionality for LaTeX, Frontmatter and standard writing.
 
 %% ----- Do not edit anything above this line ----- %% 
 

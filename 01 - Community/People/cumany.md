@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-echarts|obsidian echarts]]
+- [[editing-toolbar|Editing Toolbar]]
+- [[floating-toc|floating toc]]
 
 %% End Hub: Released contributions %%
 

@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `editing-toolbar`
 Links: [GitHub repository](https://github.com/cumany/obsidian-editing-toolbar) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=editing-toolbar)
 Developed by: [[cumany]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 The Obsidian Editing Toolbar is modified from cmenu, which provides more powerful customization settings and has many built-in editing commands to be a MS Word-like toolbar editing experience.
 

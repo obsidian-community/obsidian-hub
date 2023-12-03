@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/urishiraval/obsidian-apple-reminde
 Developed by: [[urishiraval]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-
+Plugin to integrate Apple Reminders into Obsidian
 
 %% ----- Do not edit anything above this line ----- %% 
 

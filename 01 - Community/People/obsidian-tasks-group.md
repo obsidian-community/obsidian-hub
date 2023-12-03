@@ -1,12 +1,12 @@
 ---
 aliases:
-- Martin Schenck
+- Martin Schenck and Clare Macrae
 tags:
 - 
 publish: true
 ---
 
-# Martin Schenck
+# Martin Schenck and Clare Macrae
 
 - GitHub: [obsidian-tasks-group](https://github.com/obsidian-tasks-group/) ^github
 <!-- - Discord: `@` ^discord-->

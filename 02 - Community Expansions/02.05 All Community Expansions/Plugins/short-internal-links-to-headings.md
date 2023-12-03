@@ -1,7 +1,7 @@
 ---
 plugin-id: short-internal-links-to-headings
 aliases:
-- Short Internal Links to Headings
+- Short links
 tags: 
 - 
 publish: true
@@ -9,23 +9,23 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/scottwillmoore/obsidian-short-internal-links-to-headings/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/scottwillmoore/obsidian-short-internal-links-to-headings?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/scottwillmoore/obsidian-short-internal-links-to-headings/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/scottwillmoore/obsidian-short-internal-links-to-headings?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/scottwillmoore/obsidian-short-links/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/scottwillmoore/obsidian-short-links?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/scottwillmoore/obsidian-short-links/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/scottwillmoore/obsidian-short-links?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
 %% ----- Do not edit this section ----- %%
 
-# Short Internal Links to Headings
+# Short links
 
 Plugin ID: `short-internal-links-to-headings`
-Links: [GitHub repository](https://github.com/scottwillmoore/obsidian-short-internal-links-to-headings) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=short-internal-links-to-headings)
+Links: [GitHub repository](https://github.com/scottwillmoore/obsidian-short-links) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=short-internal-links-to-headings)
 Developed by: [[scottwillmoore]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Display internal links to headings as just the heading name.
+An Obsidian plugin to display short internal links.
 
 %% ----- Do not edit anything above this line ----- %% 
 

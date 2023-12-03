@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-state-switcher
 aliases:
-- State Switcher
+- Yaml Manager
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# State Switcher
+# Yaml Manager
 
 Plugin ID: `obsidian-state-switcher`
 Links: [GitHub repository](https://github.com/lijyze/obsidian-state-switcher) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-state-switcher)
 Developed by: [[lijyze]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Switch value of specific field within custom value set
+Keep you away from directly operating of yaml front matter
 
 %% ----- Do not edit anything above this line ----- %% 
 

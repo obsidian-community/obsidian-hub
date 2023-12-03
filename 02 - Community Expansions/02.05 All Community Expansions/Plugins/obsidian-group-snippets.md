@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/Mara-Li/obsidian-group-snippets/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Mara-Li/obsidian-group-snippets?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/Mara-Li/obsidian-group-snippets/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/Mara-Li/obsidian-group-snippets?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Lisandra-dev/obsidian-group-snippets/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Lisandra-dev/obsidian-group-snippets?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Lisandra-dev/obsidian-group-snippets/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Lisandra-dev/obsidian-group-snippets?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Group Snippets
 
 Plugin ID: `obsidian-group-snippets`
-Links: [GitHub repository](https://github.com/Mara-Li/obsidian-group-snippets) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-group-snippets)
-Developed by: [[Mara-Li]]
+Links: [GitHub repository](https://github.com/Lisandra-dev/obsidian-group-snippets) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-group-snippets)
+Developed by: [[Lisandra-dev]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Create folder of snippets to activate them in one click !
@@ -30,7 +30,7 @@ Create folder of snippets to activate them in one click !
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[Mara-Li#Sponsor this author]] %%
+%% ![[Lisandra-dev#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

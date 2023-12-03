@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-mindmap-nextgen|Mind Map NextGen]]
+- [[obsidian-mindmap-nextgen|Mindmap NextGen]]
 
 %% End Hub: Released contributions %%
 

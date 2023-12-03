@@ -21,7 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-editor-shortcuts|Code Editor Shortcuts]]
-- [[obsidian-sentence-navigator|Sentence Navigator]]
+- [[obsidian-sentence-navigator|Sentence Navigator]] by [[Tim Hor]] and [[Andrew Brown]]
 
 %% End Hub: Released contributions %%
 

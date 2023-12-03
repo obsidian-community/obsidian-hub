@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/tadashi-aikawa/obsidian-old-note-a
 Developed by: [[tadashi-aikawa]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This Obsidian plugin shows warnings if the note has not been updated for over specific days
+This Obsidian plugin shows warnings if the note has not been updated in the last specific days
 
 %% ----- Do not edit anything above this line ----- %% 
 

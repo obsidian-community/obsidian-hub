@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [AwesomeDog](https://github.com/AwesomeDog/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/AwesomeDog/obsidian-awesome-flashcard> ^website
+- Website: <https://github.com/AwesomeDog> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-awesome-flashcard|Awesome Flashcard]]
+- [[awesome-reader|Awesome Reader]]
+- [[awesome-image|Awesome Image]]
 
 %% End Hub: Released contributions %%
 

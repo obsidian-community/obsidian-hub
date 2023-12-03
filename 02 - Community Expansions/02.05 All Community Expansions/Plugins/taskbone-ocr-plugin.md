@@ -1,7 +1,7 @@
 ---
 plugin-id: taskbone-ocr-plugin
 aliases:
-- Taskbone OCR
+- Taskbone
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# Taskbone OCR
+# Taskbone
 
 Plugin ID: `taskbone-ocr-plugin`
 Links: [GitHub repository](https://github.com/schlundd/obsidian-ocr-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=taskbone-ocr-plugin)
 Developed by: [[schlundd]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Extract text from images and make it available for search.
+Sync Obsidian with Todoist, extract text from images (OCR).
 
 %% ----- Do not edit anything above this line ----- %% 
 

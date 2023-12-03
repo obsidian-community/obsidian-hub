@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/quorafind/obsidian-bionic-reading/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/quorafind/obsidian-bionic-reading?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/quorafind/obsidian-bionic-reading/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/quorafind/obsidian-bionic-reading?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Quorafind/Obsidian-Better-Reading-Mode/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Quorafind/Obsidian-Better-Reading-Mode?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/Quorafind/Obsidian-Better-Reading-Mode/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/Quorafind/Obsidian-Better-Reading-Mode?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Better Reading Mode
 
 Plugin ID: `better-reading-mode`
-Links: [GitHub repository](https://github.com/quorafind/obsidian-bionic-reading) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=better-reading-mode)
-Developed by: [[quorafind]]
+Links: [GitHub repository](https://github.com/Quorafind/Obsidian-Better-Reading-Mode) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=better-reading-mode)
+Developed by: [[Quorafind]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 A plugin to enable better reading mode in Live preview mode of Obsidian, which works similar to bionic reading mode.
@@ -30,7 +30,7 @@ A plugin to enable better reading mode in Live preview mode of Obsidian, which w
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[quorafind#Sponsor this author]] %%
+%% ![[Quorafind#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

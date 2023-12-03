@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[last-modified-timestamp-in-status-bar|Last Modified Timestamp in Status Bar]]
+- [[last-modified-timestamp-in-status-bar|File Creation and Last Modified Timestamps in Status Bar]]
 
 %% End Hub: Released contributions %%
 

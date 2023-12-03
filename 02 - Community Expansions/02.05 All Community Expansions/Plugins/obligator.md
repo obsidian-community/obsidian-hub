@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Newbrict/obsidian-obligator) or [<
 Developed by: [[Newbrict]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Obligator is a replacement for daily-todos which copies over unchecked todo items under a specified header
+A fully featured replacement for the built-in daily notes plugin. Obligator functions like a virtual bullet journal by copying over unchecked to-do items to your new daily note, along with adding any scheduled items you've set up
 
 %% ----- Do not edit anything above this line ----- %% 
 

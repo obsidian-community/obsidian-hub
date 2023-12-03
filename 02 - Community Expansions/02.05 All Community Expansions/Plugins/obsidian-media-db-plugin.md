@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/mProjectsCode/obsidian-media-db-pl
 Developed by: [[mProjectsCode]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.  
+A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.
 
 %% ----- Do not edit anything above this line ----- %% 
 

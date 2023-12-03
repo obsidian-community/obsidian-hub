@@ -22,7 +22,7 @@ publish: true
 ### Plugins
 - [[obsidian-media-db-plugin|Media DB Plugin]]
 - [[obsidian-meta-bind-plugin|Meta Bind Plugin]]
-- [[js-engine|JS Engine Plugin]]
+- [[js-engine|JS Engine]]
 
 ### Themes
 - [[Lemons Theme]]
@@ -33,7 +33,6 @@ publish: true
 <!--
 ### Unlisted plugins
 -->
-
 
 ### Others
 - [Obsidian Collection - A simple collection of cool obsidian resources](https://mprojectscode.github.io/obsidian-collection/)

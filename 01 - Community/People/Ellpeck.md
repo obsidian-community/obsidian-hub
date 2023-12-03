@@ -21,6 +21,8 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-custom-frames|Custom Frames]]
+- [[simple-time-tracker|Super Simple Time Tracker]]
+- [[just-share-please|Just Share Please]]
 
 %% End Hub: Released contributions %%
 

@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Canna71/obsidian-mathpad) or [<but
 Developed by: [[Canna71]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-Computer Algebra System and Calculator for Onsidian
+Computer Algebra System and Calculator for Obsidian
 
 %% ----- Do not edit anything above this line ----- %% 
 

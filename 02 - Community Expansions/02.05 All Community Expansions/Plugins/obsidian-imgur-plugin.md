@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-imgur-plugin`
 Links: [GitHub repository](https://github.com/gavvvr/obsidian-imgur-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-imgur-plugin)
 Developed by: [[gavvvr]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This plugin uploads images from your clipboard to imgur.com and embeds uploaded image to your note
 

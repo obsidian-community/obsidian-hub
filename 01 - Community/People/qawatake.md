@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [qawatake](https://github.com/qawatake/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/qawatake/obsidian-local-file-interface-plugin> ^website
+- Website: <https://github.com/qawatake/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -22,6 +22,9 @@ publish: true
 ### Plugins
 - [[obsidian-binary-file-manager-plugin|Binary File Manager]]
 - [[obsidian-local-file-interface-plugin|Local File Interface]]
+- [[obsidian-core-search-assistant-plugin|Core Search Assistant]]
+- [[obsidian-command-palette-minus-plugin|Command Palette--]]
+- [[obsidian-card-view-switcher-plugin|Card View Switcher]]
 
 %% End Hub: Released contributions %%
 

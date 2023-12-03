@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-stille|Stille]]
+- [[obsidian-soomda|Soomda]]
 
 %% End Hub: Released contributions %%
 

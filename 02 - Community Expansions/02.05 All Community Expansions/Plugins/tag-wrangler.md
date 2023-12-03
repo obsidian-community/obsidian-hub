@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `tag-wrangler`
 Links: [GitHub repository](https://github.com/pjeby/tag-wrangler) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=tag-wrangler)
 Developed by: [[pjeby]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Rename, merge, toggle, and search tags from the tag pane
 

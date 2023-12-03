@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [brandonkboswell](https://github.com/brandonkboswell/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://brandonkboswell.com> ^website
+- Website: <https://brandonkboswell.com/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[weekly-review|Weekly Review]]
+- [[reflection|Reflection]]
 
 %% End Hub: Released contributions %%
 

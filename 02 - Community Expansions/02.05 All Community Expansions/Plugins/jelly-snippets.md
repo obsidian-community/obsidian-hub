@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/rabirabirara/obsidian-jelly-snippe
 Developed by: [[rabirabirara]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-This plugin implements text snippets: replace text after typing a snippet on some trigger or command.
+A simple plugin for text snippets, with auto replacement
 
 %% ----- Do not edit anything above this line ----- %% 
 

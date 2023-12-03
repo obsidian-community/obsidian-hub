@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[math-booster|Math Booster]]
+- [[inline-math|No more flickering inline math]]
 
 %% End Hub: Released contributions %%
 

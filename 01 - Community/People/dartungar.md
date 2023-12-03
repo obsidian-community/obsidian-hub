@@ -21,6 +21,9 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-emotion-picker|Emotion Picker]]
+- [[simple-note-review|Simple Note Review]]
+- [[mermaid-tools|Mermaid Tools]]
+- [[mood-tracker|Mood Tracker]]
 
 %% End Hub: Released contributions %%
 

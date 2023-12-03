@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/charliecm/obsidian-upcoming) or [<
 Developed by: [[charliecm]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Open upcoming daily notes in their own panes.
+Open upcoming and/or past daily notes in their own panes, tabs, or windows.
 
 %% ----- Do not edit anything above this line ----- %% 
 

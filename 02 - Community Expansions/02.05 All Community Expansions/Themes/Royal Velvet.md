@@ -21,7 +21,7 @@ publish: true
 
 Repository: [GitHub](https://github.com/caro401/royal-velvet)
 Designed by: [[caro401]]
-Modes: [[Dark-mode themes|dark]]
+Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 

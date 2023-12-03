@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-enhancing-export|Obsidian Enhancing Export]]
+- [[code-emitter|Code Emitter]]
 
 %% End Hub: Released contributions %%
 

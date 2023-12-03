@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [tillahoffmann](https://github.com/tillahoffmann/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/tillahoffmann/obsidian-jupyter> ^website
+- Website: <https://tillahoffmann.github.io> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-jupyter|Jupyter plugin]]
+- [[file-include|File Include]]
 
 %% End Hub: Released contributions %%
 

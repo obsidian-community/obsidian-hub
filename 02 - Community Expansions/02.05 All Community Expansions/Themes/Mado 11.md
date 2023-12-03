@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/hydescarf/Obsidian-Theme-Mado-11/raw/HEAD/cover.png)
+![screenshot](https://github.com/hydescarf/Obsidian-Theme-Mado-11/raw/HEAD/img/store-cover.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `obsidian-languagetool-plugin`
 Links: [GitHub repository](https://github.com/Clemens-E/obsidian-languagetool-plugin) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-languagetool-plugin)
 Developed by: [[Clemens-E]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Spelling and grammar checks with the LanguageTool API
+Inofficial LanguageTool plugin
 
 %% ----- Do not edit anything above this line ----- %% 
 

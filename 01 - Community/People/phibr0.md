@@ -32,7 +32,7 @@ publish: true
 - [[open-with|Open with]]
 - [[obsidian-relative-find|Relative Find]]
 - [[tabout|Tabout]]
-- [[cmdr|Commander]]
+- [[cmdr|Commander]] by [[jsmorabito]] and [[phibr0]]
 
 %% End Hub: Released contributions %%
 

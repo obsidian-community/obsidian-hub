@@ -20,7 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[notion-like-tables|Notion-Like Tables]]
+- [[notion-like-tables|DataLoom]]
 
 %% End Hub: Released contributions %%
 

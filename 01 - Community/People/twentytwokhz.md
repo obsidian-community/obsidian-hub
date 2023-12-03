@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [twentytwokhz](https://github.com/twentytwokhz/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://blog.florinbobis.com> ^website
+- Website: <https://blog.florinbobis.me> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%

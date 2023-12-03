@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/No3371/obsidian-regex-pipeline) or
 Developed by: [[No3371]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Allows users setup custom regex rules to automatically format notes
+Allows users setup custom regex rules to automatically format notes.
 
 %% ----- Do not edit anything above this line ----- %% 
 

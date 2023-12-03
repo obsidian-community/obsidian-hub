@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [alvaro-cas](https://github.com/alvaro-cas/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://medium.com/@alvaro-cas> ^website
+- Website: <https://medium.com/@cuatroy2> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[kindle-csv-converter|Kindle CSV Converter]]
+- [[studier|Studier]]
 
 %% End Hub: Released contributions %%
 

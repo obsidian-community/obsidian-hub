@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [HyeonseoNam](https://github.com/HyeonseoNam/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/HyeonseoNam/obsidian-emoji-titler> ^website
+- Website: <https://github.com/HyeonseoNam/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[emoji-titler|Emoji Titler]]
+- [[auto-classifier|Auto Classifier]]
 
 %% End Hub: Released contributions %%
 

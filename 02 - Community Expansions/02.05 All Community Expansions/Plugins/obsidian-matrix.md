@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/NastyGamer/obsidian-matrix/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/NastyGamer/obsidian-matrix?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/NastyGamer/obsidian-matrix/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/NastyGamer/obsidian-matrix?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/MohrJonas/obsidian-matrix/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/MohrJonas/obsidian-matrix?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/MohrJonas/obsidian-matrix/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/MohrJonas/obsidian-matrix?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Obsidian matrix
 
 Plugin ID: `obsidian-matrix`
-Links: [GitHub repository](https://github.com/NastyGamer/obsidian-matrix) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-matrix)
-Developed by: [[NastyGamer]]
+Links: [GitHub repository](https://github.com/MohrJonas/obsidian-matrix) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-matrix)
+Developed by: [[MohrJonas]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Utility to easily create LaTeX matrices
@@ -30,7 +30,7 @@ Utility to easily create LaTeX matrices
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[NastyGamer#Sponsor this author]] %%
+%% ![[MohrJonas#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

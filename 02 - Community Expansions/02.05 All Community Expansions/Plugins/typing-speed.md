@@ -22,7 +22,7 @@ publish: true
 
 Plugin ID: `typing-speed`
 Links: [GitHub repository](https://github.com/supercip971/obsidian-typing-speed) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=typing-speed)
-Developed by: [[supercip971]]
+Developed by: [[Supercip971]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a plugin for showing the current typing speed in the status bar
@@ -30,7 +30,7 @@ This is a plugin for showing the current typing speed in the status bar
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[supercip971#Sponsor this author]] %%
+%% ![[Supercip971#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 

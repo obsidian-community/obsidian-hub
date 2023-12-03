@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[obsidian-highlightpublicnotes-plugin|Highlight Public Notes]]
+- [[obsidian-todoist-link|Todoist Link]]
 
 %% End Hub: Released contributions %%
 

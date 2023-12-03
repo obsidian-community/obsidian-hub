@@ -20,6 +20,7 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
+- [[obsidian-matrix|Obsidian matrix]]
 - [[obsidian-ocr|Obsidian OCR]]
 
 %% End Hub: Released contributions %%

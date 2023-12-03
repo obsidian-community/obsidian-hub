@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-outliner`
 Links: [GitHub repository](https://github.com/vslinko/obsidian-outliner) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-outliner)
 Developed by: [[vslinko]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Work with your lists like in Workflowy or RoamResearch.
 

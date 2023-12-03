@@ -1,12 +1,12 @@
 ---
 aliases:
-- Carlo Nicora <carlo@carlonicora.com>
+- Carlo Nicora
 tags:
 - 
 publish: true
 ---
 
-# Carlo Nicora <carlo@carlonicora.com>
+# Carlo Nicora
 
 - GitHub: [carlonicora](https://github.com/carlonicora/) ^github
 <!-- - Discord: `@` ^discord-->

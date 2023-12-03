@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-open-in-other-editor`
 Links: [GitHub repository](https://github.com/yekingyan/obsidian-open-in-other-editor) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-open-in-other-editor)
 Developed by: [[yekingyan]]
-Mobile compatible: [[Mobile-compatible plugins|Yes]]
+Mobile compatible: [[Desktop-only plugins|No]]
 
 Open current active file in gVim or VScode.
 

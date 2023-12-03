@@ -1,7 +1,7 @@
 ---
 plugin-id: obsidian-import-json
 aliases:
-- JSON Importer
+- JSON/CSV Importer
 tags: 
 - 
 publish: true
@@ -18,14 +18,14 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# JSON Importer
+# JSON/CSV Importer
 
 Plugin ID: `obsidian-import-json`
 Links: [GitHub repository](https://github.com/farling42/obsidian-import-json) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-import-json)
 Developed by: [[farling42]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-This plugin imports a JSON file (or text block) and creates notes from a Handlebars template file
+This plugin imports a JSON/CSV file (or text block) and creates notes from a Handlebars template file
 
 %% ----- Do not edit anything above this line ----- %% 
 

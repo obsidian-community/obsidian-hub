@@ -20,7 +20,9 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-daily-notes-new-tab|Daily notes new tab]]
+- [[obsidian-daily-notes-opener|Daily notes opener]] originally named [[obsidian-daily-notes-new-tab|Daily notes new tab]]
+- [[obsidian-telegraph-publish|Telegraph Publish]]
+- [[obsidian-paste-image-rename|Paste image rename]]
 
 %% End Hub: Released contributions %%
 

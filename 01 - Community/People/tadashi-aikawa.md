@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [tadashi-aikawa](https://github.com/tadashi-aikawa/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/tadashi-aikawa> ^website
+- Website: <https://minerva.mamansoft.net/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -23,6 +23,8 @@ publish: true
 - [[various-complements|Various Complements]]
 - [[obsidian-embedded-code-title|Embedded Code Title]]
 - [[obsidian-another-quick-switcher|Another Quick Switcher]]
+- [[obsidian-old-note-admonitor|Old Note Admonitor]]
+- [[shukuchi|Shukuchi]]
 
 %% End Hub: Released contributions %%
 

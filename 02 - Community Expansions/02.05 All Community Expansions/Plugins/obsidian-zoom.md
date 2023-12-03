@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `obsidian-zoom`
 Links: [GitHub repository](https://github.com/vslinko/obsidian-zoom) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=obsidian-zoom)
 Developed by: [[vslinko]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Zoom into heading and lists.
 

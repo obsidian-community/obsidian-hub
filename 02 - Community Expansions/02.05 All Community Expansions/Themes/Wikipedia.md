@@ -38,17 +38,35 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
+- Use Custom Accent Color
 
-**Colors**: 
-- Accent Color
+**Layout**: 
+- Readable Line Length: This is how wide a note will appear when Readable Line Length is turned on. For most themes, this value is somewhere around 700px.
+- **Ribbon**: 
+    - Ribbon Style
+- **Vault Title**: 
+    - Remove Wikipedia Logo
+- **Frontmatter**: 
+    - Hide Frontmatter
+    - Frontmatter Style
 
-**Infoboxes**: 
-- Blockquote Style: choose whether to show blockquotes as infoboxes or Wikipedia-style quotes.
-- Infobox Placement: choose whether to float infoboxes to the right or set them in the default center position.
+**Typography**: 
+- **Headings**: 
+    - **H6**: 
+        - Infobox Header 6: Style Header 6 to be smaller and have a pale background, like the headings inside a Wikipedia infobox.
+- **Callouts, Blockquotes, & Infoboxes**: 
+    - Infobox Width: This will affect the width of all components styled like Wikipedia infoboxes. Depending on your settings, these may include Info callouts, frontmatter, and images.
+    - **Callouts**: 
+        - Hide Callout Icons
+        - Hide Info Callout Title
+        - Don't Render Info Callout as an Infobox: By default, the theme renders any Info callout as a Wikipedia infobox. Toggle this setting to render Info callouts like a regular callout instead.
 
-**Images**: 
-- Image Placement
-- Image Size: Only effects images when image placement is set to center.
+**Misc**: 
+- **Images**: 
+    - Image Placement: Control where images are placed on the page
+    - Image Width
+    - Custom Image Width: Examples - 300px, 9em
+    - Image Max Width: Set a max width for images (percentage)
 
 
 %% Hub footer: Please don't edit anything below this line %%

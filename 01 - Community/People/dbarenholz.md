@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [dbarenholz](https://github.com/dbarenholz/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/dbarenholz/dbarenholz> ^website
+- Website: <https://www.dbarenholz.com/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -23,6 +23,8 @@ publish: true
 - [[obsidian-plaintext|Plaintext]]
 - [[obsidian-wordle|Wordle]]
 
+### Themes
+- [[halcyon]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%

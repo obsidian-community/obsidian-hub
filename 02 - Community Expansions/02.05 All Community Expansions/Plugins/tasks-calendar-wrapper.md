@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `tasks-calendar-wrapper`
 Links: [GitHub repository](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=tasks-calendar-wrapper)
 Developed by: [[Leonezz]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 This is a simple wrapper for Obsidian-Tasks-Calendar (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).
 

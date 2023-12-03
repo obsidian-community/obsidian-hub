@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/SimeonLukas/obsidian-kindle-export
 Developed by: [[SimeonLukas]]
 Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
-Send .md as .mobi to Kindle
+Send .md as .epub to Ereader/Kindle/Pocketbook
 
 %% ----- Do not edit anything above this line ----- %% 
 

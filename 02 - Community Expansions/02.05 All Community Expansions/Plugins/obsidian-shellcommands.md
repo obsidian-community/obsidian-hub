@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/Taitava/obsidian-shellcommands) or
 Developed by: [[Taitava]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
-You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications.
+You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications. Automatic execution is also supported, and execution via URI links.
 
 %% ----- Do not edit anything above this line ----- %% 
 

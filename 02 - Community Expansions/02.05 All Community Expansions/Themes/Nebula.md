@@ -25,7 +25,7 @@ Modes: [[Dark-mode themes|dark]]
 
 
 
-![screenshot](https://github.com/dlccyes/obsidian-nebula/raw/HEAD/showcase1.png)
+![screenshot](https://github.com/dlccyes/obsidian-nebula/raw/HEAD/thumbnail.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 

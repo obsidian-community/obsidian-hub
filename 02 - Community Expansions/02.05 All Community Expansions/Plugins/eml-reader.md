@@ -23,7 +23,7 @@ publish: true
 Plugin ID: `eml-reader`
 Links: [GitHub repository](https://github.com/pulsovi/obsidian_eml_reader) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=eml-reader)
 Developed by: [[pulsovi]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 Provide a preview mode for embeded `*.eml` files.
 

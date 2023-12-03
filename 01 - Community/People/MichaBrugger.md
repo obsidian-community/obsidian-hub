@@ -1,16 +1,16 @@
 ---
 aliases:
-- Alexis Rondeau, Micha Brugger
+- Micha Brugger
 tags:
 - 
 publish: true
 ---
 
-# Alexis Rondeau, Micha Brugger
+# Micha Brugger
 
 - GitHub: [MichaBrugger](https://github.com/MichaBrugger/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://publish.obsidian.md/alexisrondeau> ^website
+- Website: <https://github.com/MichaBrugger> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -20,7 +20,8 @@ publish: true
 
 %% Begin Hub: Released contributions %%
 ### Plugins
-- [[obsidian-footnotes|Footnote Shortcut]]
+- [[obsidian-footnotes|Footnote Shortcut]] by [[Alexis Rondeau]], [[Micha Brugger]] and [[Jason Qin]]
+- [[booksidian-plugin|Booksidian]] by [[Micha Brugger]] and [[Zachary Wright]]
 
 %% End Hub: Released contributions %%
 

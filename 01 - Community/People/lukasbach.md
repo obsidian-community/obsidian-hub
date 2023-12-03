@@ -10,7 +10,7 @@ publish: true
 
 - GitHub: [lukasbach](https://github.com/lukasbach/) ^github
 <!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Website: <https://lukasbach.com> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -19,6 +19,9 @@ publish: true
 ## Author of
 
 %% Begin Hub: Released contributions %%
+### Plugins
+- [[code-files|Code Files]]
+- [[file-order|File Order]]
 
 ### Themes
 - [[Proper Dark]]

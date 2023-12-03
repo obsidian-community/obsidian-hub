@@ -21,6 +21,7 @@ publish: true
 %% Begin Hub: Released contributions %%
 ### Plugins
 - [[hidden-folder-obsidian|Hidden Folder]]
+- [[file-forgetting-curve-obsidian|File Forgetting Curve]]
 
 %% End Hub: Released contributions %%
 
