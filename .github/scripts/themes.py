@@ -11,6 +11,7 @@ from obsidian_releases import get_community_plugins, THEMES_JSON_FILE
 from core_plugins import CORE_PLUGINS
 from utils import (
     THEME_CSS_FILE,
+    THEME_LEGACY_CSS_FILE,
     get_output_path,
     get_theme_css,
     FileGroups,
@@ -22,8 +23,8 @@ ThemeList = List["Theme"]
 
 CommunityPluginsIDAndName = Dict[str, str]
 
-settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
-plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
+settings_regex = r"\/\*!?\s*@settings[\r\n]+?([\s\S]+?)\*\/"
+plugins_regex = r"\/\*!?\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
 
 DOWNLOAD_COUNT_SHIELDS_URL_PREFIX = 'https://img.shields.io/badge/downloads-'
 DOWNLOAD_COUNT_SEARCH = re.compile(DOWNLOAD_COUNT_SHIELDS_URL_PREFIX + r"(\d+)-")
@@ -181,7 +182,10 @@ class Theme:
         """
         repo = self.repo()
         branch = self.branch()
+        # we check for the new `theme.css` first, and if that doesn't exist, we check for the legacy `obsidian.css`
         css_file = get_theme_css(THEME_CSS_FILE.format(repo, branch))
+        if css_file == "404: Not Found":
+            css_file = get_theme_css(THEME_LEGACY_CSS_FILE.format(repo, branch))
 
         return self.collect_data_for_theme_and_css(css_file, theme_downloads, file_groups)
 

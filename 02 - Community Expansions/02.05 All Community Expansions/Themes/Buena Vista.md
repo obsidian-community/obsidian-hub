@@ -35,6 +35,14 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Colour scheme mode
+
+**Effects**: 
+- Blur
+- Blur size
 
 
 %% Hub footer: Please don't edit anything below this line %%

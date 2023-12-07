@@ -35,6 +35,30 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Use Notation Colors: By default, this theme tries to stick to Notion's color palette as strictly as possible. Toggle this setting to use the softer color scheme used in deathau's original Notation.
+
+**Workspace**: 
+- Hide 'New Folder' Button
+- Hide other Nav Buttons in File Explorer: Hide the 'Sort' and 'Collapse All' buttons in the file explorer.
+- Notation Titlebar: Show the nifty floating titlebar in deathau's original Notation theme.
+
+**Heading Colors**: 
+- Background Colors: Add some flair to your files by giving headings colorful backgrounds.
+- Text Colors: Choose the text color for headings.
+
+**Default Font**: 
+- Font Family
+
+**Paragraph Spacing**: 
+- Line Height
+- WYSIWYG Effect: Treats any newline like a paragraph in reading mode; a few tweaks to heading margins.
+
+**Note Cover Images**: 
+- Banner Style
+- Banner Height
 
 
 %% Hub footer: Please don't edit anything below this line %%

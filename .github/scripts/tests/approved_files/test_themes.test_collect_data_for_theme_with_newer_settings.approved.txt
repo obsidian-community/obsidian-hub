@@ -1,0 +1,61 @@
+Initial:
+{
+    "author": "Moritz Jung",
+    "modes": [
+        "dark"
+    ],
+    "name": "Lemons Theme",
+    "repo": "mProjectsCode/obsidian-lemons-theme",
+    "screenshot": "lemons-theme-picture-low-res.PNG"
+}
+
+Frame #1:
+{
+    "author": "Moritz Jung",
+    "branch": "HEAD",
+    "download_count": 2610,
+    "modes": "[[Dark-mode themes|dark]]",
+    "name": "Lemons Theme",
+    "plugins": null,
+    "repo": "mProjectsCode/obsidian-lemons-theme",
+    "screenshot": "lemons-theme-picture-low-res.PNG",
+    "settings": [
+        {
+            "header": "**Lemons Theme Settings**: ",
+            "type": "heading"
+        },
+        {
+            "title": "- File Icons: Adds file and folder icons for different file types",
+            "type": "class-toggle"
+        },
+        {
+            "title": "- Pride Month Colors: Adds some colorful pride month flags to some UI elements.",
+            "type": "class-toggle"
+        },
+        {
+            "title": "- Hide Tab Title Bar File Name: Hide the file name in the tab title bar. Who needs to see the tab title three times anyways.",
+            "type": "class-toggle"
+        },
+        {
+            "title": "- More Visible Headings: Colors the heading in the accent color to make them more visible.",
+            "type": "class-toggle"
+        },
+        {
+            "title": "- Hashtag Headings: Prefix headings with a hashtag even in reading mode.",
+            "type": "class-toggle"
+        },
+        {
+            "title": "- **Mode Toggles**: "
+        },
+        {
+            "title": "    - Focus Mode: Disables part of the UI to help you focus.",
+            "type": "class-toggle"
+        },
+        {
+            "title": "    - Full Width Editor: Removes the width limit on the editor.",
+            "type": "class-toggle"
+        }
+    ],
+    "user": "mProjectsCode"
+}
+

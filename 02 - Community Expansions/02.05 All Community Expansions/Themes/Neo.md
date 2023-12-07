@@ -35,6 +35,23 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Appearance**: 
+- Dark Theme variant: Variations of dark theme
+- White Headings: Use white for headings instead of accent color
+- Accent affect Background: Background colors follow Accent color (set in appearance settings)
+- Neutral Background colors: Remove colors from background
+- Disable kanban styles: Switch to kanban plugin default styles
+- Hide dataview table borders
+- Table headers capitalization: Title capitalize table headers
+
+**Features**: 
+- Obsidian default tabs: Restore obsidian default tabs
+- Disable Heading Indicator: Do not show heading level indicator on hover
+- Highlight active line: Change background color of current active line
 
 
 %% Hub footer: Please don't edit anything below this line %%

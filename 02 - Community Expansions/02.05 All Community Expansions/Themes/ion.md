@@ -35,6 +35,17 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Colors**: 
+- Base color: Requires Style Settings v1.0.3+
+- Code base brightness: Brightness adjustment for syntax highlighting
+
+**Bloom**: 
+- Strength
+- Threshold
 
 
 %% Hub footer: Please don't edit anything below this line %%

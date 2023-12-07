@@ -39,11 +39,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Welcome 👋**: Use the Minimal Theme Settings plugin to access hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization. Visit minimal.guide for documentation.
+**Documentation**: Use the Minimal Theme Settings plugin to set hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization. Go to https://minimal.guide for documentation.
 
 **Interface colors**: 
 - Base color: Defines all background and border colors unless overridden in more granular settings
-- Accent color: Defines link and checkbox colors unless overridden in more granular settings
 - Primary background: Background color for the main window
 - Secondary background: Background color for left sidebar and menus
 - Active background: Background color for hovered buttons and currently selected file
@@ -51,7 +50,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Highlighted border color: Used when hovering over buttons, dividers, and outlined elements
 - Active border color: Used when clicking buttons and outlined elements
 
-**Interface extended palette**: 
+**Accent color**: 
+- Accent color: Used primarily for links
+- Accent color (hover): Used primarily for hovered links
+- Accent color interactive: Used for buttons, checklists, toggles
+- Text on accent: Used primarily for text on accented buttons
+
+**Extended colors**: 
 - Red: Extended palette colors are defaults used for progress bar status, syntax highlighting, colorful headings, and graph nodes
 - Orange
 - Yellow
@@ -61,24 +66,55 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Purple
 - Pink
 
-**Active line**: 
-- Highlight active line: Adds a background to current line in editor
-- Active line background: Using a low opacity color is recommended to avoid conflicting with highlights
-
 **Blockquotes**: 
-- Blockquotes text color
-- Blockquotes font size: Accepts any CSS font-size value
-- Blockquotes font style
+- Blockquote text color
+- Blockquote background color
+- Blockquote border color
+- Blockquote border thickness
+- Blockquote font size: Accepts any CSS font-size value
+- Blockquote font style
+
+**Callouts**: 
+- Callout style
+- Color blending: Blend the color of nested callouts
+
+**Canvas**: 
+- Canvas dot pattern: Color for background dot pattern
 
 **Code blocks**: 
-- Code text color: Color of code when syntax highlighting is not present
 - Code font size: Accepts any CSS font-size value
+- Scroll long lines: Turns off line wrap for code
+- Code background color: Background for code blocks
+- Code text color: Color of code when syntax highlighting is not present
+- **Syntax highlighting**: 
+    - Syntax: comments: Syntax highlighting for comments
+    - Syntax: functions: Syntax highlighting for functions
+    - Syntax: keywords: Syntax highlighting for keywords
+    - Syntax: important: Syntax highlighting for important text
+    - Syntax: operators: Syntax highlighting for operators
+    - Syntax: properties: Syntax highlighting for properties
+    - Syntax: punctuation: Syntax highlighting for punctuation
+    - Syntax: strings: Syntax highlighting for strings
+    - Syntax: tags: Syntax highlighting for tags
+    - Syntax: values: Syntax highlighting for values
+
+**Dataview**: 
+- Trim Dataview columns: Disables word wrapping in table cells, and trims long text
+- Force tables lists inline: Makes lists inside of table cells inline and comma separated
+- Dataview maximum column width: Maximum width for Dataview columns, accepts any CSS width value
 
 **Embeds and transclusions**: 
 - Use strict embed style globally: Transclusions appear seamlessly in the flow of text. Can be enabled per file using the embed-strict helper class
+- Hide embed titles: Hide title of the transcluded file (if strict embed is off)
+- Underline embedded text: Transcluded text is underlined. Can be enabled per file using the embed-underline helper class
+- Maximum height of embeds: For transcluded text, accepts valid CSS units
+- Embedded text underline style: Requires underlines to be enabled
+- Embedded text underline color: Requires underlines to be enabled
+- Embed background
 
 **Graphs**: 
-- Node color: Changing node colors requires closing and reopening graph panes or restarting Obsidian
+- Line color: Changing graph colors requires closing and reopening graph panes or restarting Obsidian
+- Node color
 - Active node color
 - Tag node color
 - Attachment node color
@@ -139,19 +175,40 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Icon color
 - Icon color (hover)
 - Icon color (active)
+- Icon color (focused)
 
 **Images**: 
 - Image opacity in dark mode: Level of fading for images in dark mode. Hover over images to display at full brightness.
+- Image radius: Rounded corners for images
+- Blend images in light mode: Allow images to blend into the color scheme background color
 - Disable image zoom: Turns off click + hold to zoom images
+- Image grid crop: Sets how images get cropped in a grid
+- Image grid background: Background of images in cells, useful when images are not cropped to fit
 
 **Indentation guides**: 
 - Horizontal adjustment in reading mode
 - Horizontal adjustment in edit mode
+- Indentation guide color
+- Indentation guide color (active)
 
 **Links**: 
-- Link color
-- Link color (hovering)
-- Link font weight
+- **Internal links**: 
+    - Internal link color
+    - Internal link color (hover)
+    - Unresolved link opacity
+    - Unresolved link color
+    - Unresolved link underline color
+- **External links**: 
+    - External link color
+    - External link color (hover)
+
+**Line  numbers**: 
+- Highlight active line: Adds a background to current line in editor
+- Gutter offset: Width of the file margin used for gutter
+- Gutter background
+- Line number color
+- Active line number color
+- Active line background: Using a low opacity color is recommended to avoid conflicting with highlights
 
 **Lists and tasks**: 
 - Checkbox color: Background color for completed tasks
@@ -160,14 +217,34 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - List item spacing: Vertical space between list items in em units
 - Nested list indentation: Horizontal space from left in em units
 
+**PDFs**: 
+- PDF page style: Borders and shadows around pages
+- Invert PDFs in dark mode: Best for working with black text on white pages
+- Blend PDFs in light mode: Allow PDFs to blend into the color scheme background color
+- PDF opacity in dark mode: Fade PDF pages in dark mode
+
+**Progress bars**: 
+- Completed progress bar color: Defaults to your accent color
+
+**Properties**: 
+- Hide properties heading: Hide "Properties" heading above properties
+- Hide "Add property" button: Hide "Add property" button below properties
+- Hide property icons: Hide icons next to property names
+- Property row lines: Display borders between properties
+- Property name width: Width for the name of the property
+
 **Sidebars**: 
-- Tab style: See documentation for screenshots
-- Disable sidebar relationship lines: Turns off lines in file navigation
+- Hide sidebar relationship lines: Turns off lines in file navigation
+- Sidebar tab style
 - Mobile left sidebar width: Maximum width for pinned left sidebar on mobile
 - Mobile right sidebar width: Maximum width for pinned right sidebar on mobile
 
+**Ribbon**: 
+- Ribbon style: Ribbon menu can be hidden using the Hider plugin
+
 **Tables**: 
 - Table font size: All of the following settings apply to all tables globally. To turn on these features on a per-note basis use helper classes. See documentation.
+- Maximize table width: Determines how wide tables should behave when they become wider than the line width
 - Row lines: Display borders between table rows globally
 - Column lines: Display borders between table columns globally
 - Cell lines: Display borders around all table cells globally
@@ -178,6 +255,17 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Disable line wrap: Turn off line wrapping in table cells globally
 - Highlight active row: Highlight rows on hover
 - Active row background: Background color for hovered tables rows
+
+**Tabs**: 
+- Tab bar height
+- Tab style
+- Tab text color
+- Tab text color (active)
+
+**Tab stacks**: 
+- Stacked width: Width of a stacked tab in pixels
+- Spine width: Width of the spine in pixels
+- Spine text orientation
 
 **Tags**: 
 - Plain tags: Tags will render as normal text, overrides settings below
@@ -196,20 +284,33 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - Italic text color
 - Bold text color
 - Bold text weight
-- Paragraph spacing: Space between paragraphs in reading mode
+- Paragraph spacing: Space between paragraphs in reading mode (Obsidian 1.3.7+)
+- Heading spacing: Space between paragraphs and headings in reading mode (Obsidian 1.3.7+)
 
-**Title bar**: 
-- Title alignment: Position of the text within the title bar
-- Always show grabber icon: Make the dragging handle always visible in the top left corner of a pane
-- Title bar height
-- Title font size: Accepts any CSS font-size value
-- Title font weight
-- Title text color (active)
-- Title text color (inactive)
+**Titles**: 
+- **Tab title bar**: Tab title bar must be turned on in Appearance settings
+    - Tab title visibility: Visibility of the tab title text
+    - Tab title font size: Accepts any CSS font-size value
+    - Tab title font weight
+    - Tab title alignment
+    - Tab title text color (active)
+    - Tab title text color (inactive)
+- **Inline title**: Inline titles must be turned on in Appearance settings
+    - Inline title font: Name of the font as it appears on your system
+    - Inline title font size: Accepts any CSS font-size value
+    - Inline title font weight
+    - Inline title text color (active)
 
 **Translucency**: 
-- Translucency (light mode): Sidebar translucency in light mode. Requires turning on "Translucent window" in Appearance settings, and "Translucent sidebar" in Minimal settings.
-- Translucency (dark mode): Sidebar translucency in dark mode
+- Translucent background color
+
+**Window frame**: 
+- Hide window frame title: Hide title in the custom title bar
+- Frame background: Requires colorful window frame
+- Frame icon color: Requires colorful frame
+- Frame title color (focused): Requires custom title bar
+- Frame title color (inactive): Requires custom title bar
+- Frame title font weight: Requires custom title bar
 
 ## Plugin Compatibility[^1]
 

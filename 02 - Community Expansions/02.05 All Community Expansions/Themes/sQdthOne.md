@@ -35,6 +35,14 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Theme Modifiers: Select your preferred theme adjustment
+- Header Contrast: Modify the contrast between the different headers
+- Left Close Tab Button: Moves the close tab button to the left side of the tab
+- Hide File Path & Title From Page Header: Hides the file path and file name from the header bar at the top of notes
+- Hide Folder Icons in File Navigator: Hides folder icons in the file navigator.
 
 
 %% Hub footer: Please don't edit anything below this line %%

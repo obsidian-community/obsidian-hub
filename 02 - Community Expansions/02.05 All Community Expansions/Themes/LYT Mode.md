@@ -35,13 +35,6 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
-- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
-
-## Customization Options (Style Settings Plugin) 
-- Header Style: Preferred Style makes the theme pop with gorgeous gradient headers. Safe Style opts for flat-colored headers which fixes visual bugs.
-- Highlight Style: Preferred Style gives highlight a subtle but beautiful look. Safe Style gives highlights a gradient background but flat colored text which fixes visual bugs.
-- Unwrap File Explorer Titles
-- Unwrap Search Explorer Titles
 
 
 %% Hub footer: Please don't edit anything below this line %%

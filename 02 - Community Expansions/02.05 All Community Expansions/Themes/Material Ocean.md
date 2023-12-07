@@ -36,6 +36,41 @@ Modes: [[Dark-mode themes|dark]]
 ## Features
 
 
+## Plugin Compatibility[^1]
+
+**Core plugins**:
+- [[Obsidian Core Plugins#Audio recorder|Audio recorder]]
+- [[Obsidian Core Plugins#Backlinks|Backlinks]]
+- [[Obsidian Core Plugins#Command palette|Command palette]]
+- [[Obsidian Core Plugins#Daily notes|Daily notes]]
+- [[Obsidian Core Plugins#Editor status|Editor status]]
+- [[Obsidian Core Plugins#File explorer|File explorer]]
+- [[Obsidian Core Plugins#File recovery|File recovery]]
+- [[Obsidian Core Plugins#Search|Search]]
+- [[Obsidian Core Plugins#None|None]]
+- [[Obsidian Core Plugins#Markdown format converter|Markdown format converter]]
+- [[Obsidian Core Plugins#Note composer|Note composer]]
+- [[Obsidian Core Plugins#Open in default app|Open in default app]]
+- [[Obsidian Core Plugins#None|None]]
+- [[Obsidian Core Plugins#Outline|Outline]]
+- [[Obsidian Core Plugins#Page preview|Page preview]]
+- [[Obsidian Core Plugins#Random note|Random note]]
+- [[Obsidian Core Plugins#Slash commands|Slash commands]]
+- [[Obsidian Core Plugins#Starred notes|Starred notes]]
+- [[Obsidian Core Plugins#Quick switcher|Quick switcher]]
+- [[Obsidian Core Plugins#Tag pane|Tag pane]]
+- [[Obsidian Core Plugins#Templates|Templates]]
+- [[Obsidian Core Plugins#Word count|Word count]]
+- [[Obsidian Core Plugins#Workspaces|Workspaces]]
+- [[Obsidian Core Plugins#Zettelkasten prefixer|Zettelkasten prefixer]]
+
+**Community plugins**:
+- [[calendar|Calendar]]
+- [[obsidian-full-calendar|Full Calendar]]
+- [[obsidian-dictionary-plugin|Dictionary]]
+- [[obsidian-livesync|Self-hosted LiveSync]]
+
+[^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 
 %% Hub footer: Please don't edit anything below this line %%
 

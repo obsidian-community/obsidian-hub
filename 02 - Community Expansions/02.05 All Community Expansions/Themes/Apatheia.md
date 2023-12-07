@@ -35,6 +35,29 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Border radius S: variable-number-slider
+- Border radius M: variable-number-slider
+- Border radius L: variable-number-slider
+
+**Theme settings**: Change theme appearance here
+- Theme variant: Select theme variant
+- **Test theme settings**: Settings for the test theme
+    - Toggle test: toggle to test
+
+**Effects**: Add effects
+- Glassmorphism: Add glassmorphism to your theme
+- Smooth indent: Smooth Indent headers. Vim users may experience weird glitches
+- Fade: Fade
+- Hover effect: On hover transition on components
+
+**Fonts**: Select fonts
+- Title font: Change title font
+- Interface font: Change interface font
+- Text font: Change text font
+- Monospace font: Change the monospace font
 
 
 %% Hub footer: Please don't edit anything below this line %%

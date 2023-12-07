@@ -35,6 +35,30 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Micro Mike Configuration**: 
+- Color Intensity Multiplier: Determine Micro Mike Palette color brightness.
+- Bevel Color Intensity Multiplier: Determine Micro Mike Palette color brightness for bevel.
+- Primary Text Color
+- Title Bar Height: Size of draggable region on top of window.
+- Side Handle Thickness: Resize handle thickness.
+- Sidebar Tab Height: Tab Height
+- Hierarchical Display Level Size: The size of each level's separation. This affects the size of the collapse buttons. (Hierarchical Display - Editor, Outline, Tag View, Outgoing/Backlinks)
+- Hierarchical Display Section Height: The height of the outline tabs. This affects the size of the collapse buttons.
+- Outline Dash Position: The height of the outline tabs. This affects the size of the collapse buttons.
+- Text Window Length: Size of text window in text editor.
+- Resize Bars Size: The height of the outline tabs. This affects the size of the collapse buttons.
+- Scroll Bar Size: The width of the scrollbar on the side.
+- Stack the tabs: The tabs will be stacked.
+- Editor Stack Width: The height of the outline tabs. This affects the size of the collapse buttons.
+- Editor Stack Tab Height: Tab Height
+- Folder Note Emphasis: Give a special background and region to folder notes.
+- Disable Bevels: Disable bevels, resulting in a more minimalist appearance.
+- Enable XP-style Icons: Enable colorful XP-style icons to replace flat SVG icons. This is only done where the icons are supported.
+- Old Palette: Use older palette. This doesn't support accent-based coloring.
 
 
 %% Hub footer: Please don't edit anything below this line %%

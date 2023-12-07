@@ -1,0 +1,74 @@
+/*!
+Lemons Theme for Obsidian.md
+
+Source: https://github.com/mProjectsCode/obsidian-lemons-theme
+
+Copyright (C) 2022  Moritz Jung
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+/*! @settings
+name: Lemons Theme
+id: lemons-theme-settings
+collapsed: false
+settings:
+  -
+	id: lt-set-settings
+	title: Lemons Theme Settings
+	type: heading
+	level: 1
+  -
+	id: lt-set-file-icons
+	title: File Icons
+	description: Adds file and folder icons for different file types
+	type: class-toggle
+  -
+	id: lt-pride-month-colors
+	title: Pride Month Colors
+	description: Adds some colorful pride month flags to some UI elements.
+	type: class-toggle
+  -
+	id: lt-hide-tab-title-bar-file-name
+	title: Hide Tab Title Bar File Name
+	description: Hide the file name in the tab title bar. Who needs to see the tab title three times anyways.
+	type: class-toggle
+  -
+	id: lt-accent-headings
+	title: More Visible Headings
+	description: Colors the heading in the accent color to make them more visible.
+	type: class-toggle
+  -
+	id: lt-hashtag-headings
+	title: Hashtag Headings
+	description: Prefix headings with a hashtag even in reading mode.
+	type: class-toggle
+	default: true
+  -
+	id: lt-set-mode-toggles
+	title: Mode Toggles
+	type: heading
+	level: 2
+  -
+	id: lt-set-focus-mode
+	title: Focus Mode
+	description: Disables part of the UI to help you focus.
+	type: class-toggle
+	addCommand: true
+  -
+	id: lt-set-full-width-editor
+	title: Full Width Editor
+	description: Removes the width limit on the editor.
+	type: class-toggle
+	addCommand: true
+ */

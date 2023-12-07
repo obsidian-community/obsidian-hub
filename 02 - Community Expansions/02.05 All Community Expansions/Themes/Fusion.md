@@ -35,6 +35,17 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Colors**: 
+- Color scheme
+- Increase text contrast: Use a brighter text color.
+
+**Hidden elements**: 
+- Disable note padding: Removes the bottom padding from notes. (Hides scrollbar in short notes)
+- Show view header title: Show view header title (while hovering).
 
 
 %% Hub footer: Please don't edit anything below this line %%

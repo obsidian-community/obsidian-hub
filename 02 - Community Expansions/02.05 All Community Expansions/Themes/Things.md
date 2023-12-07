@@ -40,21 +40,19 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 ## Customization Options (Style Settings Plugin) 
 
 **Features**: 
-- Default icons: Use default icons instead of minimal set
-- Show full file names: Turn off trimming on files in sidebar
+- Black mobile background: Change mobile editor background to default theme black
+- Disable mobile floating-action button: Revert placement of edit/preview button to default in header (mobile)
+- Highlight active line: Change background color of current working line
+- Fancy code blocks: Enable fancy numbered code blocks
+- Fancy highlighting: Enable fancy highlight styles with highlight underlines
+- Disable Kanban board styles: Remove minimalist styling to the Kanban plugin
 - Underline internal links: Show underlines on internal links
 - Underline external links: Show underlines on external links
-- Display hamburger menu on mobile: Display the top-left hamburger menu on mobile
-
-**Fonts**: 
-- Text font: Used in preview mode
-- Editor font: Used in edit mode
-- Monospace font: Used for code blocks and front matter
-- UI font: Used for buttons, menus and sidebar
 
 **Typography**: 
 - Default font colors: Use the default font color styling for bold, italics, and quotes
-- Link hue color: Hue of both internal and external links
+- Highlight color (light)
+- Highlight color (dark)
 - Bold font color
 - Italics font color
 - Blockquotes font color
@@ -64,12 +62,6 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
 - Tag font color (Light mode)
 - Tag background color (Dark mode)
 - Tag font color (Dark mode)
-- Editor font size: Font size in em for editor and preview overall font size
-- Sidebar and tag font size: Font size in px of sidebar, tags, and small text
-- Smaller font size: Font size in px of smaller text
-- Body line height: Line height of the main text
-- Normal line width: Number of characters per line
-- Maximum line width: Percentage of space inside a pane that a line can fill. Recommended values between 80 to 100
 
 **Headings**: 
 - **Level 1 Headings**: 
@@ -80,6 +72,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
     - H2 font size: Accepts any CSS font-size value
     - H2 font weight: Accepts numbers representing the CSS font-weight
     - H2 color
+    - H2 underline: Toggle H2 underline (border-bottom)
 - **Level 3 Headings**: 
     - H3 font size: Accepts any CSS font-size value
     - H3 font weight: Accepts numbers representing the CSS font-weight
@@ -98,12 +91,7 @@ Modes: [[Light-mode themes|light]], [[Dark-mode themes|dark]]
     - H6 font weight: Accepts numbers representing the CSS font-weight
     - H6 color
 
-**Advanced**: 
-- Disable mobile floating-action button: Revert placement of edit/preview button to default in header (mobile)
-- MacOS-like translucent window: Give workspace a MacOS-like translucency
-- Cursor style: The cursor style for UI elements
-
-**Credits**: Created with ❤︎ by @colineckert. This theme uses code from Minimal by @kepano. Support @kepano at buymeacoffee.com/kepano and @colineckert at buymeacoffee.com/colineckert
+**Credits**: Created with ❤︎ by @colineckert. Support @colineckert at buymeacoffee.com/colineckert
 
 ## Plugin Compatibility[^1]
 

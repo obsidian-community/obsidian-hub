@@ -35,6 +35,25 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**General appearance**: Where you config the interface appearance and other general options
+- Dark sidebar: If enable, the sidebar will be dark, even in light mode.
+
+**Font size of headings and paragraphs**: 
+- Custom Body family: Font family of body text
+- Choose what type of font you want to use: These are beautyful fonts to write and read.
+
+**Font size of headings and paragraphs**: 
+- H1: Font size of H1
+- H2: Font size of H2
+- H3: Font size of H3
+- H4: Font size of H4
+- H5: Font size of H5
+- H6: Font size of H6
+- Body paragraph: Font size of body size
 
 
 %% Hub footer: Please don't edit anything below this line %%

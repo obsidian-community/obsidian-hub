@@ -38,27 +38,25 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-- Use the default indent for lists: This theme compresses list indent whitespace by default. Enable this to use the indent spacing from the default theme.
 - Suppress/Remove this theme's checkbox styles: Set this to true if you are going to use your own task snippet
-
-**Showing and Hiding content**: 
+- Suppress/Remove this theme's tag styles: Set this to true if you are going to use your own tag snippet
+- View header actions to the left: Set this to true if the view header is visible, and you want the controls on the left side
 - Show external links in edit mode: If true, external links (or the content of markdown links) will be shown in edit mode. External links are hidden by default.
-- Hide collapse indicators unless hovered or active: If true, hide collapse indicators in all three modes unless they are hovered over or the line is active.
 - Float front-matter in a box to the right: If true, front-matter in preview mode will be collapsed in a top-right container.
-- Show collapsed sidebars on hover: If true, collapsed side-bars will be shown when you hover over the ribbon.
+- Hide the heading used to embed a document: If true, the heading used to embed a document will be hidden.
 
 **Fonts**: 
 - Headings: Font for text headings (h1 to h6); empty will use default text font
-- Heading Font Variant: Font variant for text headings (h1 to h6)
-- Tags: Font for displaying inline tags; empty will use default text font
-- Font for callout/admonition titles: Use the specified font for callout and admonition titles
+- Heading Font Caps Variant: Capitalization variant for h1 text headings
+- Tags: Font for tags; empty will use default text font
+- Callout/admonition titles: Font for callout/admonition titles; empty will use default text font
+- Paragraph spacing modifier: Gap between paragraphs (line height * this modifier)
+- Header spacing modifier: Gap before headings (paragraph spacing * this modifier)
 - Use Appearance to customize text/monospace fonts: (This has no effect. ;) )
 
 **Colors**: 
-- Primary accent color: Choose the primary accent color. You should define a snippet if you select primary-accent-custom. See the Theme's README.
-- Secondary accent color: Choose the secondary accent color. You should define a snippet if you select secondary-accent-custom. See the Theme's README.
-- Tag brightness - dark mode: Select tag brightness/contrast level for dark mode
-- Tag brightness - light mode: Select tag brightness/contrast level for light mode
+- Primary accent color: Choose the primary accent color. You must define a snippet if you select primary-accent-custom. See the Theme's README.
+- Secondary accent color: Choose the secondary accent color. You must define a snippet if you select secondary-accent-custom. See the Theme's README.
 
 
 %% Hub footer: Please don't edit anything below this line %%

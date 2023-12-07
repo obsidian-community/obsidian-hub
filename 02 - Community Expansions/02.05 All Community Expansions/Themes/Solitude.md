@@ -35,6 +35,22 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Colors**: 
+- Adjust base color: Adjusts the color of all backgrounds
+- Adjust normal text color
+- Adjust muted text color
+- Adjust faint text color
+
+**Features**: 
+- Deactivate Custom Font: Deactivate the default font provided by the theme
+- Deactivate window border: Deactivate the border around non-maximized windows
+- Show first letter in side panel tab icon of a file
+- Activate custom background: If you want to replace the default image with your own image, then go to the github repository of this theme and get the "Custom Background" snippet, which can be found in the snippets directory.
+- Adjust panel spacing: Adjusts the spacing in between the panels, when a custom background is used
 
 
 %% Hub footer: Please don't edit anything below this line %%

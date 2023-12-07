@@ -35,6 +35,51 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Dark Theme**: 
+- Dark 0 Hard
+- Dark 0
+- Dark 0 Soft
+- Dark 1
+- Dark 2
+- Dark 3
+- Dark 4
+
+**Light Theme**: 
+- Light 0 Hard
+- Light 0
+- Light 0 Soft
+- Light 1
+- Light 2
+- Light 3
+- Light 4
+
+**General Colors**: 
+- Gray
+- **Text Colors**: 
+    - Dark Text
+    - Dark Text Faint
+    - Dark Text Muted
+    - Light Text
+    - Light Text Faint
+    - Light Text Muted
+- **Neutral Colors**: 
+    - Red
+    - Green
+    - Yellow
+    - Blue
+    - Purple
+    - Aqua
+- **Faded Colors**: 
+    - Red
+    - Green
+    - Yellow
+    - Blue
+    - Purple
+    - Aqua
 
 
 %% Hub footer: Please don't edit anything below this line %%

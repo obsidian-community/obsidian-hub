@@ -35,6 +35,30 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Window Buttons**: Style of minimize, maximize and close window buttons
+- Enable: Whether to use the Adwaita style window buttons
+- Scale
+- Right Margin
+- Hide minimize button
+- Hide maximize button
+- Hide close button
+
+**Tabs**: 
+- Enable: Whether to use the Adwaita style tabs
+- Short
+
+**Colors**: 
+- Enable: Whether to use the Adwaita colors
+
+**Font**: 
+- Enable: Whether to use the Cantarell font (must be installed on system)
+
+**Icons**: 
+- Enable: Whether to use the Adwaita icons
 
 
 %% Hub footer: Please don't edit anything below this line %%

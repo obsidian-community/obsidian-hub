@@ -35,6 +35,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Colorful headings: Makes headings (H1 to H6) colorful
+- Increase line height (leading): Increases the line height (leading) of the body text
 
 
 %% Hub footer: Please don't edit anything below this line %%

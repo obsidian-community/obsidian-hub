@@ -38,7 +38,135 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-- Status bar position: change the status bar style
+
+**Colors**: Theme Accent, Colorschemes
+- Theme Accent: Change the theme accent as you like
+- Light Theme Colorscheme
+- Dark Theme Colorscheme
+
+**Editor**: Active Line, Headings, Callouts, Checkbox and Rainbow Tags, etc...
+- Active line highlight
+- **Text**: 
+    - Fonts Source
+    - Font Bundle: Choose a combination of fonts. NOTE - some fonts may not work offline.
+    - Default Font
+    - Secondary Font
+    - Monospace Font
+    - Custom Font Default
+    - Custom Font Secondary
+    - Custom Font Monospace
+    - Bold Color
+    - Italic Color
+- **Headings**: 
+    - Colored Heading
+    - Neon Heading
+    - **H1 settings**: 
+        - H1 font
+        - H1 Custom font
+        - H1 size
+        - H1 weight
+        - H1 line height
+        - H1 color
+        - Custom H1 Color
+    - **H2 settings**: 
+        - H2 font
+        - H2 Custom font
+        - H2 size
+        - H2 weight
+        - H2 line height
+        - H2 color
+        - Custom H2 Color
+    - **H3 settings**: 
+        - H3 font
+        - H3 Custom font
+        - H3 size
+        - H3 weight
+        - H3 line height
+        - H3 color
+        - Custom H3 Color
+    - **H4 settings**: 
+        - H4 font
+        - H4 Custom font
+        - H4 size
+        - H4 weight
+        - H4 line height
+        - H4 color
+        - Custom H4 Color
+    - **H5 settings**: 
+        - H5 font
+        - H5 Custom font
+        - H5 size
+        - H5 weight
+        - H5 line height
+        - H5 color
+        - Custom H5 Color
+    - **H6 settings**: 
+        - H6 font
+        - H6 Custom font
+        - H6 size
+        - H6 weight
+        - H6 line height
+        - H6 color
+        - Custom H6 Color
+- **Callouts**: 
+    - Enable Callout Styling
+    - Callout Styling
+    - Callout Radius
+- **Checkbox**: 
+    - Enable Custom Checkbox: Enable custom checkboxes for checkbox customization
+- **CSS Classes**: 
+    - Toggle CSS Classes: Customize your notes with custom css classes
+- **Rainbow Tags**: 
+    - Enable Rainbow Tags: Customize your tag with rainbow colors
+
+**Workspace**: Layout, Background, Colorful frame, etc.
+- **Layout**: 
+    - Layout Style
+    - Disable borders
+    - Custom borders Color
+    - **Card Layout**: 
+        - Card radius: Size unit is px
+        - Card padding: Size unit is px
+        - Tab left padding: Size unit is px
+        - Enable shadows for cards
+        - Enable card format for left ribbon
+        - Enable card format for file explorer
+    - **Origin Layout**: 
+        - Tab Display
+- **Background**: 
+    - Enable Backgound: Customize your workspace background by adding images to it (not compatible with colorful frames)
+    - **Light Theme**: 
+        - Select Background Image: Customize your workspace background by adding images to it
+        - Custom Workspace Background Image: Customize the background image. Use the default format below for an online image. Use the following format to point to a local file - url("app://local/D:/Pictures/Mountain.jpg").
+        - Container opacity
+        - Background blur
+        - Background brightness
+    - **Dark Theme**: 
+        - Select Background Image: Customize your workspace background by adding images to it
+        - Custom Workspace Background Image: Customize the background image. Use the default format below for an online image. Use the following format to point to a local file - url("app://local/D:/Pictures/Mountain.jpg").
+        - Container opacity
+        - Background blur
+        - Background brightness
+- **File Explorer**: 
+    - Enable File Icons: Customize your file icons
+    - Enable folder Icons: Customize your folder icons
+- **Colorful Frame**: 
+    - Enable Colorful Frame: This does not work with Transluent Window or Custom Background
+    - Colorful Frame Opacity
+- **Rainbow Folders**: 
+    - Enable Rainbow Folders: Customize your folder colors
+- **Translucent Window**: 
+    - Translucent Window: Make the window 100% translucent.
+    - Background opacity
+
+**Show/Hide UI Elements**: Toggle Visibility of UI Elements
+- Floating Titlebar
+- Floating Status Bar
+- Hide Status Bar
+- Hide Scrollbar
+- Hide Metadata
+- Hide Tooltips
+- Hide Vault Name
 
 
 %% Hub footer: Please don't edit anything below this line %%

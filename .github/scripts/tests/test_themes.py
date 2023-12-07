@@ -20,6 +20,11 @@ def test_collect_data_for_theme_with_settings() -> None:
     verify_theme_data(theme_name)
 
 
+def test_collect_data_for_theme_with_newer_settings() -> None:
+    theme_name = "Lemons Theme"
+    verify_theme_data(theme_name)
+
+
 def test_collect_data_for_theme_without_settings() -> None:
     theme_name = "Christmas"
     verify_theme_data(theme_name)

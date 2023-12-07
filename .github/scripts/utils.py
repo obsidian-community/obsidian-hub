@@ -13,7 +13,8 @@ from jinja2 import FileSystemLoader, Environment
 from jinja2.environment import Template
 
 PLUGIN_MANIFEST = "https://raw.githubusercontent.com/{}/{}/manifest.json"
-THEME_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/obsidian.css"
+THEME_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/theme.css"
+THEME_LEGACY_CSS_FILE = "https://raw.githubusercontent.com/{}/{}/obsidian.css"
 
 OUTPUT_DIR = {
     "plugin": "02 - Community Expansions/02.05 All Community Expansions/Plugins",

@@ -35,6 +35,19 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Lemons Theme Settings**: 
+- File Icons: Adds file and folder icons for different file types
+- Pride Month Colors: Adds some colorful pride month flags to some UI elements.
+- Hide Tab Title Bar File Name: Hide the file name in the tab title bar. Who needs to see the tab title three times anyways.
+- More Visible Headings: Colors the heading in the accent color to make them more visible.
+- Hashtag Headings: Prefix headings with a hashtag even in reading mode.
+- **Mode Toggles**: 
+    - Focus Mode: Disables part of the UI to help you focus.
+    - Full Width Editor: Removes the width limit on the editor.
 
 
 %% Hub footer: Please don't edit anything below this line %%

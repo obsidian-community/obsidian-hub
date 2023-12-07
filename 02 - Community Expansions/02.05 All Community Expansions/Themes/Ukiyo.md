@@ -38,7 +38,52 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-- Alternative Color Scheme: Choose which alternative color scheme to use
+
+**Modes**: 
+- **Smooth mode**: 
+    - Toggle mode
+- **Minimal Mode**: 
+    - Toggle mode
+    - Sidebar
+    - **Lateral Workspaces**: 
+        - Tabs
+        - Nav header
+    - **Workspace Root**: 
+        - Tabs
+
+**Color Scheme**: 
+- Select a color scheme
+- Customize each mode: Select a color scheme for each mode
+- Dark mode
+- Light mode
+- **Custom Color Scheme**: 
+    - Background primary
+    - Background secondary
+    - Background primary alt
+    - Background secondary
+    - Background modifier form field
+    - Background modifier border
+    - Background modifier border hover
+    - Background modifier border focus
+    - Text faint
+    - Text muted
+    - Text normal
+    - Tooltip + Notice Background color
+    - Color accent
+    - Color accent - Hover
+    - Active line
+    - Text selection
+    - Bold
+    - Italic
+    - Highlight background
+    - Heading formatting color
+    - In between background (Smooth mode)
+
+**Pop Callout**: 
+- Slide out duration: Set to 0 to remove slide-out animation
+
+**Floating Sides**: 
+- Toggle floating sides
 
 
 %% Hub footer: Please don't edit anything below this line %%

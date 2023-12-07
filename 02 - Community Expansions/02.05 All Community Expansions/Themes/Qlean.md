@@ -35,6 +35,22 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Accent Color for Light Theme
+- Accent Color for Dark Theme
+- Custom Accent Color: Selections above will be ignored if this toggle is on.
+
+**Custom Accent Color for Light Theme**: 
+- Hue: Hover to preview.
+- Saturation(%)
+- Lightness(%)
+
+**Custom Accent Color for Dark Theme**: 
+- Hue: Hover to preview.
+- Saturation(%)
+- Lightness(%)
 
 
 %% Hub footer: Please don't edit anything below this line %%
