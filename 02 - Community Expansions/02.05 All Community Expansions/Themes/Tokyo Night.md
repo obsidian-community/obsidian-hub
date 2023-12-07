@@ -35,6 +35,90 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Fonts**: 
+- Base Font
+- Monospace Font: Used for codeblocks, tables, etc.
+
+**Translucency**: 
+- Light Theme Translucency
+- Dark Theme Translucency
+
+**Background Colors**: 
+- Background Primary
+- Background Primary (alt)
+- Background Secondary
+- Background Secondary (alt)
+- Background Modifier: Border
+- Background Modifier: Form Field
+- Background Modifier: Form Field (highlighted)
+- Background Modifier: Box Shadow
+- Background Modifier: Success
+- Background Modifier: Error
+- Background Modifier: Error (hover)
+- Background Modifier: Cover
+- Background Modifier: Hover
+
+**Text Colors**: 
+- Text: Accent
+- Text: Accent (hover)
+- Text: Normal
+- Text: Muted
+- Text: Faint
+- Text: Error
+- Text: Error Hover
+- Text: Highlight Background
+- Text: Selection Background
+- Bold Color
+- Italic Color
+
+**Header Colors**: 
+- H1 Color
+- H2 Color
+- H3 Color
+- H4 Color
+- H5 Color
+- H6 Color
+
+**Interactive Colors**: 
+- Interactive: Normal
+- Interactive: Hover
+- Interactive: Accent
+- Interactive: Accent (hover)
+- Interactive: Success
+
+**Tag Color**: 
+- Tag Color
+- Tag Background
+- Tag Color (hover)
+- Tag Background (hover)
+
+**Link Color**: 
+- Link Color
+- Link Color (hover)
+- Link External Color
+- Link External Color (hover)
+
+**Checkbox and Checklist**: 
+- Checkbox: Radius
+- Checkbox: Color
+- Checkbox: Color (hover)
+- Checkbox: Marker Color
+- Checkbox: Border Color
+- Checkbox: Border Color (hover)
+- Checklist: Done Color
+
+**Scrollbar**: 
+- Scrollbar: Background
+- Scrollbar: Thumb Background
+- Scrollbar: Active Thumb Background
+- Scrollbar: Width
+
+**Miscellaneous**: 
+- Border Width
 
 
 %% Hub footer: Please don't edit anything below this line %%

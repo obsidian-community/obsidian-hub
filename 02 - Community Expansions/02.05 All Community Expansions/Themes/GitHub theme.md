@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-18562-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-18898-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/krios2146/obsidian-theme-github?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/krios2146/obsidian-theme-github/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/krios2146/obsidian-theme-github?color=573E7A&logo=github&style=for-the-badge)
@@ -35,6 +35,33 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Colorblind variants**: 
+- Protanopia & Deuteranopia
+- Tritanopia
+
+**Callouts**: 
+- GitHub callout style
+
+**Headers colors**: 
+    - **All headers**: 
+        - All headers are the same color
+        - Header color
+    - **Particular headers**: This settings won't work if `All headers are the same color` is ON
+        - h1 color
+        - h2 color
+        - h3 color
+        - h4 color
+        - h5 color
+        - h6 color
+
+**Kanban**: 
+- Kanban variant: Variations of Kanban styles
+- Minimal height for cards: All cards will have the same initial height
+- Full height lists
 
 
 %% Hub footer: Please don't edit anything below this line %%

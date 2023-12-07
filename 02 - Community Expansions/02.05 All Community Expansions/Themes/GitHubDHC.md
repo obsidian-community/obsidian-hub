@@ -35,6 +35,33 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Colorblind variants**: 
+- Protanopia & Deuteranopia
+- Tritanopia
+
+**Callouts**: 
+- GitHub callout style
+
+**Headers colors**: 
+    - **All headers**: 
+        - All headers are the same color
+        - Header color
+    - **Particular headers**: This settings won't work if `All headers are the same color` is ON
+        - h1 color
+        - h2 color
+        - h3 color
+        - h4 color
+        - h5 color
+        - h6 color
+
+**Kanban**: 
+- Kanban variant: Variations of Kanban styles
+- Minimal height for cards: All cards will have the same initial height
+- Full height lists
 
 
 %% Hub footer: Please don't edit anything below this line %%

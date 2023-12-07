@@ -35,6 +35,27 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- animation duration (ms)
+- use custom accent color: use style setting accent color instead of Obsidian's accent color
+
+**light mode**: 
+- base color
+- highlight color
+- custom highlight color
+- **more configuration**: 
+    - accent color saturation: s of hsl
+    - accent color lightness: l of hsl
+
+**dark mode**: 
+- base color
+- highlight color
+- custom highlight color
+- **more configuration**: 
+    - accent color saturation: s of hsl
+    - accent color lightness: l of hsl
 
 
 %% Hub footer: Please don't edit anything below this line %%

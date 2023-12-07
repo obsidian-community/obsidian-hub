@@ -35,6 +35,20 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Colors**: 
+- Base Color: This sets the base color that many other colors are derived from.
+Note that the light theme defaults to a contrast of darker side panels. Those darker panels are what you are changing here. However, with the dark theme, you will be adjusting the entire theme. Try some changes to see how it looks.
+
+- Accent Color: In the light theme, this is the red highlight. In the dark theme, this is the yellow highlight. This can also be adjusted in the Appearance settings section, but changing it there will override this setting. You will have to reset that color for this one to work.
+
+**Fonts**: 
+- Interface font: Font used for the user interface
+- Text font: Font used for text
+- Monospace font: Font used for monospace text
 
 
 %% Hub footer: Please don't edit anything below this line %%

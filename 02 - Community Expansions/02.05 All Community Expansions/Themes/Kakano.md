@@ -35,6 +35,11 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Base color: Base color, from which the Kakano theme will generate background gradients.
+- Properties position: Place properties before or after your main note content. Note that this only applies to Live Preview mode
 
 
 %% Hub footer: Please don't edit anything below this line %%

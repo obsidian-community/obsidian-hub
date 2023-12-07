@@ -42,48 +42,27 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 **Appearance**: Options which change how Prism styles Obsidian.
 - **Accent, Color Schemes and Style**: Main visual options for Prism.
     - **Light Theme**: 
-        - Color Scheme
+        - Color Scheme: The `Custom` option allows you to use a CSS snippet with your own colors. Refer to the Prism Wiki guide `Custom Color Schemes` for more info.
+        - Color Scheme Style: Adjusts the style used by the main elements in the UI.
         - Accent Style: Adjusts the style used by the Accented elements in the UI.
         - Accent Color Preset: Changes the Light Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and tune the color in the Custom Accent Color Tuning section below.
         - Accent Text Color Preset: Adjusts the color used by the text in the Light Theme Accented elements of the UI.
         - Custom Accent Text Color: Make sure you selected 'Custom' in Light Theme Accent Text Color for this to work.
-        - **Custom Accent Color Tuning**: Make sure you selected 'Custom' in Accent Color Preset for this to work. The default Lightness values should net good results for most Hues. Tweak them to your preference.
-            - Custom Accent Base Color Hue: Changes the the Hue of the Base color.
-            - Custom Accent Base Color Saturation: Changes the Saturation of the Base Color.
-            - Custom Accent Base Color Lightness: Base Color Lightness should ideally be the lighteest of the 3.
-            - Custom Accent Tint Color Lightness: Tint Color Lightness should ideally be between Base and Text.
-            - Custom Accent Text Color Lightness: Text Color Lightness should ideally be the darkest of the 3.
+        - **Custom Accent Color Tuning**: Make sure you selected 'Custom' in Accent Color Preset for this to work.
+            - Custom Accent Base Color: Accent Base Color should ideally be the lightest of the 3.
+            - Custom Accent Tint Color: Accent Tint Color should ideally be between Base and Text in terms of lightness.
+            - Custom Accent Text Color: Accent Text Color should ideally be the darkest of the 3.
     - **Dark Theme**: 
-        - Color Scheme
+        - Color Scheme: The `Custom` option allows you to use a CSS snippet with your own colors. Refer to the Prism Wiki guide `Custom Color Schemes` for more info.
+        - Color Scheme Style: Adjusts the style used by the main elements in the UI.
         - Accent Style: Adjusts the style used by the Accented elements in the UI.
         - Accent Color Preset: Changes the Dark Theme Accent Color around the entire UI. Select from present colors or choose 'Custom' and tune the color in the Custom Accent Color Tuning section below.
         - Accent Text Color Preset: Adjusts the color used by the text in the Dark Theme Accented elements of the UI.
         - Custom Accent Text Color: Make sure you selected 'Custom' in Dark Theme Accent Text Color for this to work.
-        - **Custom Accent Color Tuning**: Make sure you selected 'Custom' in Accent Color Preset for this to work. The default Lightness values should net good results for most Hues. Tweak them to your preference.
-            - Custom Accent Base Color Hue: Changes the the Hue of the Base color.
-            - Custom Accent Base Color Saturation: Changes the Saturation of the Base Color.
-            - Custom Accent Base Color Lightness: Base Color Lightness should ideally be the darkest of the 3.
-            - Custom Accent Tint Color Lightness: Tint Color Lightness should ideally be between Base and Text.
-            - Custom Accent Text Color Lightness: Text Color Lightness should ideally be the lightest of the 3.
-- **Background Options**: Adjust the UI Background to a solid color or an image. All options are based on CSS Background properties of the same name.
-    - **Light Theme**: 
-        - Background Type: Select what type of background you would like in the Light Theme.
-        - Background Custom Color: Make sure you selected 'Custom Color' in Light Theme Background Type for this to work.
-        - Background Image: Customise the Background Image for the Light Theme. Insert the link to an image between the brackets in the url(). Make sure you selected 'Image' in Light Theme Background Type for this to work.
-        - Background Blur (px): Select the amount of blur applied to the Light Theme Background Image.
-        - Background Repeat: Define if the Light Theme Background Image should repeat (tile).
-        - Background Attachment: Define whether the Light Theme Background Image's position is fixed within the viewport, or scrolls with its containing block.
-        - Background Position: Define the initial position for the Light Theme Background Image.
-        - Background Size: Define the size of the Light Theme Background Image. The image can be left to its natural size, stretched, or constrained to fit the available space.
-    - **Dark Theme**: 
-        - Background Type: Select what type of background you would like in the Dark Theme.
-        - Background Custom Color: Make sure you selected 'Custom Color' in Dark Theme Background Type for this to work.
-        - Background Image: Customise the Background Image for the Dark Theme. Insert the link to an image between the brackets in the url().Make sure you selected 'Image' in Dark Theme Background Type for this to work.
-        - Background Blur (px): Select the amount of blur applied to the Dark Theme Background Image.
-        - Background Repeat: Define if the Dark Theme Background Image should repeat (tile).
-        - Background Attachment: Define whether the Dark Theme Background Image's position is fixed within the viewport, or scrolls with its containing block.
-        - Background Position: Define the initial position for the Dark Theme Background Image.
-        - Background Size: Define the size of the Dark Theme Background Image. The image can be left to its natural size, stretched, or constrained to fit the available space.
+        - **Custom Accent Color Tuning**: Make sure you selected 'Custom' in Accent Color Preset for this to work.
+            - Custom Accent Base Color: Accent Base Color should ideally be the darkest of the 3.
+            - Custom Accent Tint Color: Accent Tint Color should ideally be between Base and Text in terms of lightness.
+            - Custom Accent Text Color: Accent Text Color should ideally be the lightest of the 3.
 - **Graph Color Customisation**: Define the colors used in the Graph View. In order to see changes you need to refresh the Graph View (restart Obsidian or toggle the Light/Dark theme).
     - **Light Theme**: 
         - **Graph Lines Color**: The color of a Graph lines connecting Graph Nodes.
@@ -93,84 +72,81 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - **Graph Note Color**: The color of a Graph Node representing a note file.
             - Graph Note Color Presets
             - Graph Note Custom Color: Make sure you selected 'Custom' in Light Theme Graph Note Color Presets for this to work.
-            - Graph Note Opacity
         - **Graph Note Focused Color**: The color of a Graph Node representing currently focused note file.
             - Graph Note Focused Color Presets
             - Graph Note Focused Custom Color: Make sure you selected 'Custom' in Light Theme Graph Note Focused Color Presets for this to work.
-            - Graph Note Focused Opacity
         - **Graph Tag Color**: The color of a Graph Node representing a tag.
             - Graph Tag Color Presets
             - Graph Tag Custom Color: Make sure you selected 'Custom' in Light Theme Graph Tag Color Presets for this to work.
-            - Graph Tag Opacity
         - **Graph Attachment Color**: The color of a Graph Node representing an attachment.
             - Graph Attachment Color Presets
             - Graph Attachment Custom Color: Make sure you selected 'Custom' in Light Theme Graph Attachment Color Presets for this to work.
-            - Graph Attachment Opacity
         - **Graph Unresolved Color**: The color of a Graph Node representing an unresolved note.
             - Graph Unresolved Color Presets
             - Graph Unresolved Custom Color: Make sure you selected 'Custom' in Light Theme Graph Unresolved Color Presets for this to work.
-            - Graph Unresolved Opacity
         - **Graph Highlight Color**: The color of a Graph Node when highlighted.
             - Graph Highlight Color Presets
             - Graph Highlight Custom Color: Make sure you selected 'Custom' in Light Theme Graph Highlight Color Presets for this to work.
-            - Graph Highlight Opacity
         - **Graph Highlight Line Color**: The color of the lines connected to a highlighted Graph Node.
             - Graph Highlight Line Color Presets
             - Graph Highlight Line Custom Color: Make sure you selected 'Custom' in Light Theme Graph Highlight Color Presets for this to work.
-            - Graph Highlight Line Opacity
     - **Dark Theme**: 
         - **Graph Lines Color**: The color of a Graph lines connecting Graph Nodes.
             - Graph Lines Presets
             - Graph Lines Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Lines Color Presets for this to work.
-            - Graph Lines Opacity
         - **Graph Note Color**: The color of a Graph Node representing a note file.
             - Graph Note Color Presets
             - Graph Note Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Note Color Presets for this to work.
-            - Graph Note Opacity
         - **Graph Note Focused Color**: The color of a Graph Node representing currently focused note file.
             - Graph Note Focused Color Presets
             - Graph Note Focused Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Note Focused Color Presets for this to work.
-            - Graph Note Focused Opacity
         - **Graph Tag Color**: The color of a Graph Node representing a tag.
             - Graph Tag Color Presets
             - Graph Tag Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Tag Color Presets for this to work.
-            - Graph Tag Opacity
         - **Graph Attachment Color**: The color of a Graph Node representing an attachment.
             - Graph Attachment Color Presets
             - Graph Attachment Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Attachment Color Presets for this to work.
-            - Graph Attachment Opacity
         - **Graph Unresolved Color**: The color of a Graph Node representing an unresolved note.
             - Graph Unresolved Color Presets
             - Graph Unresolved Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Unresolved Color Presets for this to work.
-            - Graph Unresolved Opacity
         - **Graph Highlight Color**: The color of a Graph Node when highlighted.
             - Graph Highlight Color Presets
             - Graph Highlight Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Highlight Color Presets for this to work.
-            - Graph Highlight Opacity
         - **Graph Highlight Line Color**: The color of the lines connected to a highlighted Graph Node.
             - Graph Highlight Line Color Presets
             - Graph Highlight Line Custom Color: Make sure you selected 'Custom' in Dark Theme Graph Highlight Color Presets for this to work.
-            - Graph Highlight Line Opacity
+- **Custom Vault Banner**: Custom Vault Banner in the File Explorer with a custom icon option.
+    - Enable Custom Vault Banner: Enables the Custom Vault Banner in the File Explorer.
+    - Custom Vault Banner Alignment: Horizontally aligns the Custom Vault Banner content.
+    - Custom Vault Banner Order: Select the order in which the content appears in the Custom Vault Banner.
+    - Custom Vault Banner Sticky: Make the Custom Vault Banner stick to the top of the File Explorer.
+    - Vault Banner Icon (URL): Customise the Vault Banner Icon. Insert a URL to an image in between the brackets of 'url()'.
+- **Focused Mode**: Focused Mode fades away UI distractions so you can better focus on your notes. Look in the Prism Wiki for a guide.
+    - Enable Focused Mode: This toggle can be bound to a hotkey! Look for `Style Settings Toggle Enable Focused Mode` in `Settings -> Hotkeys Tab` to bind it.
+    - Focused Mode Style: Select the type of Focused Mode you want to use.
+    - Fade Away Opacity: Set the opacity value you'd like the UI to fade to.
+    - Fade Away Delay: Set the delay value (ms) you'd like the UI to stay active after being hovered over.
 
 **Editor**: Settings for elements inside the Editor / Preview area of Obsidian.
 - Custom Readable Line Length (px): Changes the maximum width of the Readable Line Length (px). Enable 'Readable line length' in the Editor tab in Settings for this to apply.
+- **Font Specific Options**: Options for the default Sans Serif 3 font.
+    - Alternative lower case 'a' appearance
+    - Alternative lower case 'g' appearance
+    - Alternative '0' appearance (Slashed Zero)
+    - Disable Ligatures
 - **Headers**: Customisation options for the Headers (H1 - H6).
     - **Header Font Size**: The sizes are scalled based on the Font Size selected in the Appearance tab of the Settings.
+        - Inline Title Font Size (em)
         - Header 1 (H1) Font Size (em)
         - Header 2 (H2) Font Size (em)
         - Header 3 (H3) Font Size (em)
         - Header 4 (H4) Font Size (em)
         - Header 5 (H5) Font Size (em)
         - Header 6 (H6) Font Size (em)
-    - **Header Padding Size**: The additional space above and below the headers.
-        - Header 1 (H1) Padding Size (px)
-        - Header 2 (H2) Padding Size (px)
-        - Header 3 (H3) Padding Size (px)
-        - Header 4 (H4) Padding Size (px)
-        - Header 5 (H5) Padding Size (px)
-        - Header 6 (H6) Padding Size (px)
     - **Header Text Color**: Options for changing the color of each header type.
         - **Light Theme**: 
+            - Inline Title Text Color Preset
+            - Inline Title Custom Text Color: Make sure you selected 'Custom' in Light Theme Inline Title Text Color Preset for this to work.
             - Header 1 (H1) Text Color Preset
             - Header 1 (H1) Custom Text Color: Make sure you selected 'Custom' in Light Theme Header 1 (H1) Text Color Preset for this to work.
             - Header 2 (H2) Text Color Preset
@@ -184,6 +160,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
             - Header 6 (H6) Text Color Preset
             - Header 6 (H6) Custom Text Color: Make sure you selected 'Custom' in Light Theme Header 6 (H6) Text Color Preset for this to work.
         - **Dark Theme**: 
+            - Inline Title Text Color Preset
+            - Inline Title Custom Text Color: Make sure you selected 'Custom' in Dark Theme Inline Title Text Color Preset for this to work.
             - Header 1 (H1) Text Color Preset
             - Header 1 (H1) Custom Text Color: Make sure you selected 'Custom' in Dark Theme Header 1 (H1) Text Color Preset for this to work.
             - Header 2 (H2) Text Color Preset
@@ -202,6 +180,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Bold Text Custom Color: Make sure you selected 'Custom' in Light Theme Bold Text Color Preset for this to work.
         - Italic Text Color Preset
         - Italic Text Custom Color: Make sure you selected 'Custom' in Light Theme Italic Text Color Preset for this to work.
+        - Italic and Bold Text Color Preset
+        - Italic Text Custom Color: Make sure you selected 'Custom' in Light Theme Italic Text Color Preset for this to work.
         - Internal Link Color Preset
         - Internal Link Custom Color: Make sure you selected 'Custom' in Light Theme Internal Link Color Preset for this to work.
         - External Link Color Preset
@@ -211,11 +191,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Bold Text Custom Color: Make sure you selected 'Custom' in Dark Theme Bold Text Color Preset for this to work.
         - Italic Text Color Preset
         - Italic Text Custom Color: Make sure you selected 'Custom' in Dark Theme Italic Text Color Preset for this to work.
+        - Italic and Bold Text Color Preset
+        - Italic Text Custom Color: Make sure you selected 'Custom' in Light Theme Italic Text Color Preset for this to work.
         - Internal Link Color Preset
         - Internal Link Custom Color: Make sure you selected 'Custom' in Dark Theme Internal Link Color Preset for this to work.
         - External Link Color Preset
         - External Link Custom Color: Make sure you selected 'Custom' in Dark Theme External Link Color Preset for this to work.
-- **Mark Highlight**: Adjusts the style used by the <mark> tag highlight system. Colors available = red, orange, yellow, green, mint, aqua, blue, purple, pink and grey. e.g. <mark class="red">Your text</mark>
+- **Mark Highlight**: Adjusts the style used by the <mark> tag highlight system. Colors available = red, orange, yellow, green, mint, cyan, blue, purple, pink and grey. e.g. <mark class="red">Your Red text</mark>
     - **Light Theme**: 
         - Mark Highlight Style
         - Mark Highlight Text Color Preset
@@ -225,11 +207,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **User Interface**: Settings for spacing, position, alignment and other adjustments of different UI elements.
 - **Window Adjustments**: Settings for changing the gaps between windows and border radius around all UI elements.
-    - Window Gap (px): The size of the space between the Workspace Containers.
-    - Border Radius (px): The size of the border radius around larger elements of the UI.
+    - Border Radius Medium (px): The size of the border radius around larger elements of the UI.
     - Border Radius Small (px): The size of the border radius around smaller elements of the UI.
-- **Sidebar Elements**: Settings for positioning, alignment, etc. of different UI elements within the Sidebars.
-    - Minimal Right Sidebar: Makes the Right Sidebar Ribbon collapse button merge next to the top tabs. Helps reduce the wasted space caused by the empty column which accomodates the collapse button.
+- **Sidebar and Main Workspace Elements**: Settings for positioning, alignment, etc. of different UI elements within the Sidebars and the Main Workspace.
     - **Tab Label**: Settings for positioning, alignment, etc. of the Tab Labels.
         - Left Sidebar Tab Label Alignment: Horizontal Alignment of the Tab Labels in the Left Sidebar.
         - Right Sidebar Tab Label Alignment: Horizontal Alignment of the Tab Labels in the Right Sidebar.
@@ -238,82 +218,60 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Left Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Left Sidebar Workspace Leaf.
         - Right Sidebar Nav Header Position: Vertical Position of the Nav Header in the Right Sidebar Workspace Leaf.
         - Right Sidebar Nav Header Alignment: Horizontal Alignment of the Nav Header in the Right Sidebar Workspace Leaf.
+    - **Tab Header**: Settings for alignment of the Tab Header.
+        - Tab Header Alignment: Horizontal Alignment of the Tab Headers in the Main Workspace.
     - **File Explorer**: Customisation options for the File Explorer module.
-        - File Explorer Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the File Explorer to help visualise the folder and file depth.
-        - File Explorer Vertical Lines Width (px)
         - File Explorer File/Folder Left Margin (px): Increases the Left Margin for Files/Folders in order indent them within another folder.
-        - **Custom Vault Banner**: Custom Vault Banner in the File Explorer with a custom icon option.
-            - Enable Custom Vault Banner: Enables the Custom Vault Banner in the File Explorer.
-            - Custom Vault Banner Alignment: Horizontally aligns the Custom Vault Banner content.
-            - Custom Vault Banner Order: Select the order in which the content appears in the Custom Vault Banner.
-            - Custom Vault Banner Sticky: Make the Custom Vault Banner stick to the top of the File Explorer.
-            - Vault Banner Icon (URL): Customise the Vault Banner Icon. Insert a URL to an image in between the brackets of 'url()'.
-    - **Outline**: Customisation options for the Outline module.
-        - Outline Vertical Lines (Relationship Lines): Toggles Vertical Lines (Relationship Lines) in the Outline to help visualise the Header depth.
-        - Outline Vertical Lines Width (px)
+        - Enable Folder Dropdown Icon: Replaces the Arrow dropdown icon with a Folder icon (different icons for closed and open folders).
+        - Folder Dropdown Icon Color: Different presets for the Folder Dropdown Icon Color. Make sure to enable the option above `Enable Folder Dropdown Icon` for this to apply.
 - **Titlebar**: Settings for changing the style of the Titlebar.
-    - Titlebar Style: Titlebar Style to fit the design of your Operating System Titlebar.
-    - Hide Titlebar Navigation Buttons: Hides the Titlebar Navigation Buttons.
     - Hide Titlebar Title Text: Hides the Titlebar Title Text (Useful when the Statusbar is at the top).
-    - **Light Theme Customisation**: None
-        - Solid Titlebar Background: Changes the Light Theme Titlebar Background to a solid app wide bar container instead of separated containers.
-        - Titlebar Preset: Choose between Default and Custom colors for the Light Theme Titlebar.
-        - Titlebar Background Color: Make sure you selected 'Custom' in Light Theme Titlebar Preset for this to work.
-        - Titlebar Text/Icons Color: Choose the color used for the Light Theme Titlebar Text/Icons.
-    - **Dark Theme Customisation**: 
-        - Solid Titlebar Background: Changes the Dark Theme Titlebar Background to a solid app wide bar container instead of separated containers.
-        - Titlebar Preset: Choose between Default and Custom colors for the Dark Theme Titlebar.
-        - Titlebar Background Color: Make sure you selected 'Custom' in Dark Theme Titlebar Preset for this to work.
-        - Titlebar Text/Icons Color: Choose the color used for the Dark Theme Titlebar Text/Icons.
-- **Status Bar**: Settings for the Status Bar; Adjust position, Change the order of items, etc.
-    - Status Bar Position: Change the Position of the Status Bar. When in the Top position, the Status Bar inherits theme specific customisation options from the Titlebar.
-    - Status Bar Horizontal Alignment: Change the Horizontal Alignment of the Status Bar.
-    - Status Bar Items Order: Change the Items Order in the Status Bar.
+- **Status Bar**: Settings for the Status Bar. Adjust position, Change the order of items, etc.
+    - Status Bar Style: Change the Position of the Status Bar.
+    - Fixed Status Bar Horizontal Alignment: Change the Horizontal Alignment of the Fixed Status Bar.
     - **Light Theme Customisation**: 
-        - Solid Status Bar Background: Changes the Light Theme Status Bar Background to a solid app wide bar container instead of separated containers.
         - Status Bar Preset: Choose between Default and Custom colors for the Light Theme Status Bar.
         - Status Bar Background Color: Make sure you selected 'Custom' in Light Theme Status Bar Preset for this to work.
         - Status Bar Text/Icons Color: Choose the color used for the Light Theme Status Bar Text/Icons.
     - **Dark Theme Customisation**: 
-        - Solid Status Bar Background: Changes the Dark Theme Status Bar Background to a solid app wide bar container instead of separated containers.
         - Status Bar Preset: Choose between Default and Custom colors for the Dark Theme Status Bar.
         - Status Bar Background Color: Make sure you selected 'Custom' in Dark Theme Status Bar Preset for this to work.
         - Status Bar Text/Icons Color: Choose the color used for the Dark Theme Status Bar Text/Icons.
-- **Scrollbar**: Settings for the Scrollbar; Adjust the width, Add Scroll Buttons, etc.
+- **Scrollbar**: Settings for the Scrollbar. Adjust the width, Add Scroll Buttons, etc.
     - Scrollbar Width: Change the width of the Scrollbar (px).
-    - Scroll Buttons: Adds Scroll Buttons to the ends of the Scrollbar for more accurate scroll adjustment.
-    - Scrollbar Enlarge Width on Hover: Enlarges the Scrollbar when you Hover over scrollable content.
-    - Scrollbar Width on Hover: Change the width of the Enlarged scrollbar (px).
 
 **Plugins**: Plugin Specific Settings.
-- **Kanban**: Mgmeyers' Obsidian Kanban Plugin (https://github.com/mgmeyers/obsidian-kanban).
+- **Kanban**: Mgmeyers Obsidian Kanban Plugin (https://github.com/mgmeyers/obsidian-kanban).
     - Disable Kanban Title Card Count: Removes the Card Count in the Kanban Lane Title.
     - Center Kanban Title Text: Aligns the Kanban Lane Title to the center.
     - Light Theme Kanban Background: Change the Light Theme background of the Kanban board.
     - Dark Theme Kanban Background: Change the Dark Theme background of the Kanban board.
-- **Advanced Tables**: Tgrosinger's Advanced Tables Plugin (https://github.com/tgrosinger/advanced-tables-obsidian).
-    - Advanced Tables Buttons Container Alignment: Change the horizontal alignment of the Advanced Tables buttons container.
-- **Icon Folder**: Florian Woelki's Icon Folder (https://github.com/FlorianWoelki/obsidian-icon-folder).
+- **Icon Folder**: Florian Woelki Icon Folder (https://github.com/FlorianWoelki/obsidian-icon-folder).
     - Use UI Accent Color for Icon Folder: Makes the Folder Icons inherit the UI Accent Color.
-- **Icons**: visini's Icons (https://github.com/visini/obsidian-icons-plugin).
+- **Icons**: visini Icons (https://github.com/visini/obsidian-icons-plugin).
     - Use UI Accent Color for Icons: Makes the Icons inherit the UI Accent Color.
 
 **Feature Toggles**: Disable / hide certain aspects of the theme.
+- Fade Inactive Tabs: Fades out inactive UI tabs to help distinguish the currently active tab.
 - Disable Blurred Background Effect: Disables the blur background in all elements that use it by making them opaque.
-- Disable Animations: Disables all animations added by Prism (default Obsidian animations remain).
-- Disable Custom Icons: Disables the custom icons added by Prism and reverts back to default Obsidian ones.
-- Hide Note Titlebar: Hides the Note Titlebar until you hover over the top part of a note.
+- Disable Prism Callout Styling: This option removes the custom Callout Styling introduced with Prism and reverts to a completely default look. This should be used if you prefer the default callout styling or have CSS Snippets that use it's customisation options.
+- Disable Mark Highlight Styling: This option removes the Prism Mark Highlight Styling (reverts to default look). This will be handy for those that already use a different <mark> tag based highlighting system.
+- Collapsed Pinned Tabs: This option removes the title from pinned tabs and adds back the default file icon for the markdown files. Helps reduce the horizontal space wasted by pinned tabs. You can still see the title when you hover over the icon. NOTE - This option requires Installer Version 1.1.9+ due to use of CSS `has()`. Also, might not work on certain Mobile clients.
+- Enable PDF Dark Theme: This option adds styling to the PDF pages by blending in with the colour scheme in Dark mode; making it more eye friendly. This isn't a perfect solution. Note that some images might look inverted and colours be a different shade compared to the original file.
 
-**Support the Development of Prism**: If you are enjoying the theme here are some ways to support its development.
-- **Star the project on GitHub**: https://github.com/damiankorcz/Prism-Theme
-- **Submit an issue with the theme**: https://github.com/damiankorcz/Prism-Theme/issues
-- **Buy Me a Coffee!**: https://www.buymeacoffee.com/DamianKorcz
+**Theme Info**: Additional help and information regarding Prism.
+- None: <div class="styleSettingsButton prism-wiki"><a href="https://github.com/damiankorcz/Prism-Theme/wiki"><span class="styleSettingsButtonEmoji">🏛️</span>Prism Wiki</a></div><div class="styleSettingsButton prism-roadmap"><a href="https://github.com/users/damiankorcz/projects/5"><span class="styleSettingsButtonEmoji">🗺️</span>Prism Roadmap</a></div><div class="styleSettingsButton prism-releases"><a href="https://github.com/damiankorcz/Prism-Theme/releases"><span class="styleSettingsButtonEmoji">📦</span>Prism Releases & Changelog</a></div>
+
+**Support the Development of Prism**: If you are enjoying the theme, here are some ways to support its development.
+- None: <div class="styleSettingsButton prism-star"><a href="https://github.com/damiankorcz/Prism-Theme"><span class="styleSettingsButtonEmoji">🌠</span>Star the project on GitHub</a></div><div class="styleSettingsButton prism-issue"><a href="https://github.com/damiankorcz/Prism-Theme/issues"><span class="styleSettingsButtonEmoji">⚠️</span>Submit an Issue</a></div><div class="styleSettingsButton prism-coffee"><a href="https://www.buymeacoffee.com/DamianKorcz"><span class="styleSettingsButtonEmoji">☕</span> Buy me a coffee!</a></div>
+- Prism Theme Class
 
 ## Plugin Compatibility[^1]
 
 **Core plugins**:
 - [[Obsidian Core Plugins#Audio recorder|Audio recorder]]
 - [[Obsidian Core Plugins#Backlinks|Backlinks]]
+- [[Obsidian Core Plugins#None|None]]
 - [[Obsidian Core Plugins#Command palette|Command palette]]
 - [[Obsidian Core Plugins#Daily notes|Daily notes]]
 - [[Obsidian Core Plugins#File explorer|File explorer]]
@@ -340,7 +298,6 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Obsidian Core Plugins#Zettelkasten prefixer|Zettelkasten prefixer]]
 
 **Community plugins**:
-- [[obsidian-collapse-all-plugin|Collapse All]]
 - [[table-editor-obsidian|Advanced Tables]]
 - [[obsidian-kanban|Kanban]]
 - [[quick-explorer|Quick Explorer]]
@@ -348,11 +305,9 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[cmenu-plugin|cMenu]]
 - [[obsidian-dangling-links|Dangling links]]
 - [[pane-relief|Pane Relief]]
-- [[sliding-panes-obsidian|Sliding Panes (Andy's Mode)]]
 - [[obsidian-icon-folder|Iconize]]
 - [[obsidian-map-view|Map View]]
 - [[obsidian-emoji-toolbar|Emoji Toolbar]]
-- [[obsidian-reminder-plugin|Reminder]]
 - [[obsidian-tagfolder|TagFolder]]
 - [[obsidian-dictionary-plugin|Dictionary]]
 - [[obsidian-icons-plugin|Icons]]
@@ -361,6 +316,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[obsidian-quiet-outline|Quiet Outline]]
 - [[recent-files-obsidian|Recent Files]]
 - [[file-tree-alternative|File Tree Alternative Plugin]]
+- [[settings-search|Settings Search]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

@@ -35,6 +35,31 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Background Colors**: 
+- Background Primary: Primary Color
+- Code Block: Code Block
+- Background Secondary: Collaps Panel
+- Background Secondary (alt): Top Border
+- Background Modifier: Border: Border Modifer
+- Background Modifier: Form Field
+- File Tree: file naviagtion file title
+- File Tree: Indentation: Indentation
+
+**Scrollbar Colors**: 
+- Scrollbar: Thumb Background
+- Scrollbar: Active Thumb Background
+
+**Heading Colors**: 
+- Custom H1 Color
+- Custom H2 Color
+- Custom H3 Color
+- Custom H4 Color
+- Custom H5 Color
+- Custom H6 Color
 
 
 %% Hub footer: Please don't edit anything below this line %%

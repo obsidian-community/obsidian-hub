@@ -39,7 +39,8 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Customization Options (Style Settings Plugin) 
 - Gradient Bullet Point Lines: Adds a gradient to bullet point lines
-- Check List Strikeout: Adds a strikeout to checked Items
+- Check List Strikeout (In Development): Adds a strikeout to checked Items
+- Header Icons: Adds Icons To Headers
 
 
 %% Hub footer: Please don't edit anything below this line %%

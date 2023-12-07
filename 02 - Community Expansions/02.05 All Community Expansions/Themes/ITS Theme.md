@@ -51,50 +51,54 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-
-**Text**: 
-- **Fonts**: Change ITS Theme fonts
-    - Headings: Heading and Vault Title fonts.
-    - Vault Font: Vault Title Specific Font, otherwise Headings above replaces both.
-    - Text: Changes text font for preview and edit mode.
-    - Monospace
-    - Font Ligatures: (Depends On Font) Text combines into symbols ie. - - > becomes -->.
-- **Size**: Change text size and/or margin spacing
-    - Mobile Note Text Size: Toggle on to use the resize on mobile.
-    - Note Text Size: Adjust size for preview/editor mode. If you use the one below, this only affects editor mode.
-    - Note Text Weights
-    - Header Weights
-    - Header Height
-    - Line Height
-    - Vault Title Weight
-- **Specific View Changes**: Change text in both preview/edit mode or change it for either mode separately
-    - Different Preview/Editor Text: If toggled on, Text only affects UI text.
-    - Preview Text: Changes text font for preview mode.
-    - Editor Text: Changes text font for edit mode.
-    - Preview Text Size: Adjust size for preview mode.
-- **Specific Decoration Changes**: Change bold, italic, strikethrough elements
-    - Different Preview/Editor Decorations: Toggle on to use different styles for italics, bold, and strikethrough
-    - **Specific Decoration Fonts**: 
-        - Preview Italic Font
-        - Editor Italic Font
-        - Preview Bold Font
-        - Editor Bold Font
-        - Preview Strikethrough Font
-        - Editor Strikethrough Font
-    - **Specific Decoration Colors**: 
-        - Preview Italic Color
-        - Editor Italic Color
-        - Preview Bold Color
-        - Editor Bold Color
-        - Preview Strikethrough Color
-        - Editor Strikethrough Color
+- ITS Theme by SlRvb: ℹ [Guide / Docs](https://publish.obsidian.md/slrvb-docs/ITS+Theme/ITS+Theme) | ⚙ [Github](https://github.com/SlRvb/Obsidian--ITS-Theme) | ☕ [Support](https://ko-fi.com/slrvb)
 
 **Workspace**: 
-- Remove ITS Theme Icons
-- Disable Settings Animation
-- Hide Outline Pane H
-- Raise Right Sidebar & Doc Search: Raise the right sidebar and the document search modal above the status bar.
-- Wide Status Bar: Undo the floating status bar
+- Sizes
+- Roundness
+- Resize Scrollbars
+- **Sizing**: 
+    - Note Width
+    - Tab Outline Height
+    - **Sidebar**: 
+        - Sidebar Text Sizing
+        - Sidebar Tab Icon Sizing
+        - Sidebar Ribbon Width Sizing
+    - **Notes**: 
+        - Note Title Size
+        - Note Breadcrumb Title Size
+        - Inline Title Size
+    - **Popover**: 
+        - Popover Width
+        - Popover Height
+    - **Settings**: 
+        - Settings Menu Width
+        - Settings Menu Height
+- **Titlebar**: 
+    - Titlebar Colors
+    - Titlebar Bubbles
+- **Tabs**: 
+    - Tab Widths
+- **Sidebar**: 
+    - Sidebar Tabs Styling
+    - Bottom Navbar Buttons
+    - **Sidebar Ribbon**: 
+        - Floating Sidebar Ribbon
+        - Floating Sidebar Ribbon
+- **File Explorer**: 
+    - File Explorer Styling
+    - Folder Icon
+    - Folder Font Family
+    - File Icon
+    - File Font Family
+- **Vault Title**: Desktop only
+    - Vault Font: Vault Title fonts.
+    - Vault Title Size
+    - Vault Title Font Weight
+    - Vault Title Color
+    - Hide Vault Title
+    - Add Vault Title Icon
+    - Vault Image
 - **Background Image**: 
     - Background Image: Toggle to apply background image to vault
     - Background Image
@@ -103,147 +107,99 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Image Blur
     - Note Opacity
     - Side Panel Opacity
-- **Sidebar**: 
-    - Bottom Navbar Buttons
-    - Mobile Style Sidebars
-    - **Tab Styling**: 
-        - Wide Sidebar Tabs
-        - Sidebar Tabs Original Style
-        - Sidebar Tabs Underline Style
-        - Sidebar Tabular Style
-    - **Sidebar Ribbon**: 
-        - Thin Sidebar Ribbons
-        - Floating Sidebar Ribbon
-        - Floating Sidebar Positions
-        - Hide Left Sidebar Actions
-        - Sidebar Opacity
-- **File Explorer**: 
-    - Display Folder Arrow
-    - Display Folder Arrow On Hover
-    - Add Vault Title Icon
-    - Vault Image
-    - Folder Icon
-    - Folder Font Family
-    - File Icon
-    - File Font Family
-- **Minimalist Workspace**: Hide UI unless hovered over the edges of the app.
-    - Writing: Minimalistic/distraction free layout design for notes.
-    - Hide All UI: Hide everything listed below with just 1 toggle
+- **Minimalist Workspace**: Hide UI elements unless hovered over.
+    - Minimalist Workspace: Hide everything listed below with just 1 toggle
     - Hide Resize Handles
-    - Dim Scrollbars: Recommend increasing the scrollbar width with this
+    - Hide Scrollbars
+    - Hide Sidebar Ribbon
+    - Hide Sidebar Ribbon Icons
     - Hide Vault Name
-    - Hide File Explorer/Search Buttons
-    - Hide Sidebar Tab Icons
-    - Hide Ribbon
-    - Hide Note Title
-    - Hide Note Title Icons
-    - Hide Title Bar
+    - Hide Search/File Explorer Nav Icons
+    - Hide File Explorer Icons
+    - Hide App Title Bar
     - Hide Status Bar
-- **Workspace Resize**: Resize UI Elements (Scrollbar, Menu, Sidebars, Note Titlebars)
-    - Resize Settings Menu Width
-    - Resize Settings Menu Height
-    - Resize Scrollbars
-    - Note Width: Resize note width when readable line length toggled on.
-    - **Workspace UI Resize**: Resize UI Elements
-        - Toggle Resize: Toggle to resize UI Elements. (Not necessary for Resize Scrollbars)
-        - Menu Text Size: Adjust the size for the menus, ie. Settings, Quick Switcher, etc.
-        - Sidebar Text Size: Resize side panel text
-        - Sidebar Ribbon Width: Resize sidebar ribbon width
-        - Sidebar Ribbon Icon Size: Resize sidebar Ribbon icons
-        - Sidebar Tab Icon Size: Resize sidebar tab icons
-        - Note Title Size: Adjust the size for the note titles.
+    - Hide Outline Plugin Heading Icons
+    - Hide Tabs
+    - Hide Tab Outline
+    - Hide Note Title Bar
+    - Hide Note Title Bar Icons
 
-**Note Elements**: 
+**Note**: 
 - Document: Emulation of microsoft document look.
-- Justify Text: Justify preview and editor text
-- Center Images: Center images by default
-- Disable Codeblock Wrapping
-- Disable Triple Blockquote Syntax
-- Crop Image Height In Popover: ⚠ Warning, might have some unintended consequences
+- Paper Shadow: Vignette / paper burn option
+- Writing: Minimalistic/distraction free layout design for notes.
+- **Text**: 
+    - Justify Text: Justify preview and editor text
+    - Font Ligatures: (Depends On Font) Text combines into symbols ie. - - > becomes -->.
+    - Paragraph Spacing: Adjust spacing size for "paragraphs". Search "spacing" for more fine tuned adjustments.
+    - **Fonts**: 
+        - Text Font: Changes text font for preview and edit mode.
+        - Monospace Font
+        - Comments Font
+    - **Advanced Text Decoration**: 
+        - Bold Weight
+        - Bold Color
+        - Italic Color
+        - Strikethrough Text Color
+        - Strikethrough Line
+        - Strikethrough Line Color
+- **Images**: 
+    - Live Preview Image Float
+    - Center Images: Center ALL images, excluding those with |left or |right in them.
+    - **Clear Images**: Push image under/over headings or horizontal lines
+        - Horizontal Lines: Push image under/over any horizontal lines
+        - Headings: Push image under/over all headings 1-6
+        - **Heading Specific**: Push image under/over some headings and not others
+            - Header 1
+            - Header 2
+            - Header 3
+            - Header 4
+            - Header 5
+            - Header 6
 - **Note Title**: 
-    - Wrap Note Title
-    - Flat Note Title Color
-    - No Note Title Background Color
-    - Underline Style Note Title
-    - Overline Style Note Title
+    - Note Title Styling
+    - Inline Title Styling
+    - **Inline Title Specifics**: 
+        - Inline Title Sizes
+        - Inline Title Fonts
+        - Inline Title Font Weights
+        - Inline Title Positions
 - **Headers**: 
-    - Center Headings: Center ALL headings
-    - Header Tags Above Header: Move the editor header hastags
-    - Hide Header Indicator
-    - Undo Mini Header Hash Styling: Header hash matches header font size and matches color.
-    - Header Color Override: Header color always applied over other markdown in the header
-    - **Heading Underlines**: Remove heading underlines.
-        - Hide Header Underline: Hide ALL header underlines.
-        - Hide H1 Underline
-        - Hide H2 Underline
-        - Hide H3 Underline
-        - Hide H4 Underline
-        - Hide H5 Underline
-        - Hide H6 Underline
-    - **Header Background Color**: 
-        - Header Borders
-        - Header Border Width
-        - **Header Border Colors**: 
-            - Heading 1 Border Color
-            - Heading 2 Border Color
-            - Heading 3 Border Color
-            - Heading 4 Border Color
-            - Heading 5 Border Color
-            - Heading 6 Border Color
-    - **Illusion Style Headers**: 
+    - Headings: Heading and Vault Title fonts.
+    - Header Font Weights
+    - Header Underline Height
+    - Heading Spacing: Adjust header spacing
+    - Header Positions
+    - Hide Header Underline: Hide ALL header underlines.
+    - Heading Indicators
+    - **Heading Styles**: Heading styling.
+        - Center Header With Lines: Center ALL headings with lines on either side
+        - Header Color Override: Header color always applied over other markdown in the header
         - Illusion Theme Inspired Headings
-        - Illusion Hide Box Shadow
-        - 1 Header Illusion Color: Set all illusion styled headings to 1 color
-        - Illusion Heading Background Color
-        - **Illusion Background Colors**: 
-            - Illusion Heading 1 Background Color
-            - Illusion Heading 2 Background Color
-            - Illusion Heading 3 Background Color
-            - Illusion Heading 4 Background Color
-            - Illusion Heading 5 Background Color
-            - Illusion Heading 6 Background Color
-    - **Specific View Heading Changes**: Change Headings in preview/edit mode
-        - Specific Heading Adjustments: Toggle on to edit headings individually.
-        - Specific Heading Notes Only: Toggle on to only affect notes. (Disable Adjustments toggle)
-        - **Heading Fonts**: 
-            - Heading 1 Font Preview
-            - Heading 1 Font Editor
-            - Heading 2 Font Preview
-            - Heading 2 Font Editor
-            - Heading 3 Font Preview
-            - Heading 3 Font Editor
-            - Heading 4 Font Preview
-            - Heading 4 Font Editor
-            - Heading 5 Font Preview
-            - Heading 5 Font Editor
-            - Heading 6 Font Preview
-            - Heading 6 Font Editor
-        - **Heading Size**: 
-            - Heading 1 Size Preview
-            - Heading 1 Size Editor
-            - Heading 2 Size Preview
-            - Heading 2 Size Editor
-            - Heading 3 Size Preview
-            - Heading 3 Size Editor
-            - Heading 4 Size Preview
-            - Heading 4 Size Editor
-            - Heading 5 Size Preview
-            - Heading 5 Size Editor
-            - Heading 6 Size Preview
-            - Heading 6 Size Editor
-        - **Heading Colors**: 
-            - Heading 1 Color Preview
-            - Heading 1 Color Editor
-            - Heading 2 Color Preview
-            - Heading 2 Color Editor
-            - Heading 3 Color Preview
-            - Heading 3 Color Editor
-            - Heading 4 Color Preview
-            - Heading 4 Color Editor
-            - Heading 5 Color Preview
-            - Heading 5 Color Editor
-            - Heading 6 Color Preview
-            - Heading 6 Color Editor
+    - **Advanced Heading Options**: 
+        - Heading Top Spacing: Adjust header spacing above the header
+        - Heading Bottom Spacing: Adjust header spacing below the header
+        - **Header Font**: 
+            - Heading 1
+            - Heading 2
+            - Heading 3
+            - Heading 4
+            - Heading 5
+            - Heading 6
+        - **Header Font Size**: 
+            - Heading 1
+            - Heading 2
+            - Heading 3
+            - Heading 4
+            - Heading 5
+            - Heading 6
+        - **Header Colors**: 
+            - Heading 1 Color
+            - Heading 2 Color
+            - Heading 3 Color
+            - Heading 4 Color
+            - Heading 5 Color
+            - Heading 6 Color
         - **Header Alignment**: 
             - Heading 1
             - Heading 2
@@ -251,21 +207,103 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
             - Heading 4
             - Heading 5
             - Heading 6
-- **Frontmatter**: 
-    - Minimized Frontmater
-    - Hide Frontmatter
-    - Frontmatter Text Sizing: Adjust size for frontmatter in Source/Live Preview Mode.
+        - **Illusion Headings Specifics**: 
+            - Illusion Heading 1
+            - Illusion Heading 2
+            - Illusion Heading 3
+            - Illusion Heading 4
+            - Illusion Heading 5
+            - Illusion Heading 6
+    - **Advanced Heading Underlines**: Specific adjustments to heading underlines.
+            - **Underline Height**: Resize specific heading underlines heights.
+                - H1 Underline Height
+                - H2 Underline Height
+                - H3 Underline Height
+                - H4 Underline Height
+                - H5 Underline Height
+                - H6 Underline Height
+            - **Underline Width**: Resize specific heading underlines widths.
+                - H1 Underline Width
+                - H2 Underline Width
+                - H3 Underline Width
+                - H4 Underline Width
+                - H5 Underline Width
+                - H6 Underline Width
+            - **Hide Underlines**: Remove specific heading underlines.
+                - Hide H1 Underline
+                - Hide H2 Underline
+                - Hide H3 Underline
+                - Hide H4 Underline
+                - Hide H5 Underline
+                - Hide H6 Underline
+            - **Underline Colors**: Change colors for specific heading underlines.
+                - Heading 1 Line Color
+                - Heading 2 Line Color
+                - Heading 3 Line Color
+                - Heading 4 Line Color
+                - Heading 5 Line Color
+                - Heading 6 Line Color
 - **Links**: 
     - Link Style
-    - Link Fonts
-    - Undo Link Style Coloring
+    - Link Font
+    - Exernal Links Font
+    - Link Font Weights
+- **Lists**: 
+    - Default Bullet Disc Shape
+    - Colorful Bullet Color: Toggle on to use colorful bullets
+    - Colorful Bullet Lines: Toggle on to use colorful bullet lines
+    - Neon Lines: Toggle on for lines to have a neon glow effect
+    - **Lists / Bullet Adjustments**: 
+        - Bullet Shape: Add quotes around your new bullet. For example "~"
+        - Bullet Shape Font
+        - List Line Width
+        - List Root Spacing: Adjust list margins (ul, ol)
+        - List Spacing: Adjust list item spacing (li)
+        - Original Bullet Lines: Lines appear beside bullet
+        - Alternate Indentation Style
+- **Checkboxes**: 
+    - Disable Alternate Checkboxes
+    - Colorful Task Text: Add color to the text of the task.
+    - Colorful Task Backgrounds: Add color to the background of the task.
+    - Normal Task Text: Reapply regular text color and font weight to the text of the task.
+    - Restore Checkbox Strike
+            - **Advanced Checkbox Strike**: Strike for specific checkbox types.
+                - [x] Regular
+                - [X] Checked
+                - [-] Dropped
+                - [>] Forward
+                - [D] Defer / Date
+                - [?] Question
+                - [/] Half
+                - [+] Add
+                - [R] Research
+                - [!] Important
+                - [i] Idea
+                - [B] Brainstorm
+                - [P] Pro
+                - [C] Con
+                - [Q] Quote
+                - [N] Note
+                - [b] Bookmark
+                - [I] Info
+                - [p] Paraphrase
+- **Callouts**: 
+    - Original Callout Styling: Pre Obsidian v1 Callout Styling
+    - Block Callout Styling
+    - Outline Callout Styling
+    - Disable ITS Quote Callout Styling
+- **Tags**: 
+    - Colored Text Tags: Tags appear as just colored text, no background color.
+    - Tag Radius Style
+    - Outline Tags
+    - Tag Outline Border Size
+    - Tag Font
 - **Tables**: 
     - Alternating Background Colors
-    - Table Header Alternate Opacity: Adjust opacity for alternate header opacity
-    - Add Table Borders
-    - Center Tables: Move all tables to the center of the page.
-    - Wide Tables: Set width of table to extend to the edges of the page.
-    - Unwrap Tables: Unwrap tables in Source Mode
+    - Table Styling
+    - Center Tables: Center tables to middle of page
+    - Wide Table: Tables widened to touch ends of the page
+    - Disable Row Hover Highlight
     - **Table Header Adjustments**: 
         - Table Header Height Padding
         - Table Header Width Padding
@@ -275,137 +313,118 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Table Cell Height Padding
         - Table Cell Width Padding
         - Table Cell Font Size
-        - Table Cell Font Weight
-    - **Dataview Table Adjustments**: 
-        - Disable Dataview Header Larger Font Size
-        - Dataview Regular Table Header Styling: Match dataview table headers with default ITS table styling
-        - Hide List Lines for Dataview
 - **Horizontal Line**: 
-    - Horizontal Line Symbol: Add quotations around symbol for it to work. For Example "⚡". Use the codepoint for symbols from supported font icons. For Example "\e800".
-    - Horizontal Line Symbol Fonts: Font Icons. Default font aligns emojis.
+    - Horizontal Line Centered Vertically
+    - Horizontal Line Height
+    - Horizontal Line Width
     - No Horizontal Line Symbol: Hide the horizontal Line Symbol entirely
+    - **Horizontal Line Symbol**: 
+        - Horizontal Line Symbol: Add quotations around symbol ("⚡"). Use the codepoint for symbols from supported font icons ("\e800").
+        - Horizontal Line Symbol Fonts: Font Icons. Default font aligns emojis.
+        - Horizontal Line Symbol Padding
 - **Embeds**: 
-    - Naked Embeds: Embeds that look like they're part of the note.
-    - Original Embeds: Previous style of embeds
-    - Embed Heading Undo: Revert embed headings to the default sizes and colors
-- **Lists**: 
-    - Default Bullet Disc Shape
-    - Bullet Shape: Add quotes around your new bullet. For example "~"
-    - Remove List Border Lines: Hide Preview border lines on lists.
-    - Original Bullet Lines: Lines appear under bullet, not beside it. Won't connect to bullet if it's longer than 1 line.
-    - Accent Colored Indentation Lines
-    - Snug Live Preview Arrow: Move Live Preview list arrow closer to bullet
-    - Line Size
-    - **List Styles**: 
-        - Live Preview Alternate Indent Style: Alternate style to differentiate lists sublevels in edit mode on cm6.
-        - 1 Color Bullets & Lines: Bullet and Line colors no longer alternates. Bullet color is set to Accent 2.
-        - Accent Colored Lines
-        - Colorful Bullet Line Color: Toggle on to use colorful bullet lines
-        - Colorful Bullet Color: Toggle on to use colorful bullets
-        - Neon Lines: Toggle on for lines to have a neon glow effect
-    - **Colorful Lists**: 
-        - Bullet Line 1 Color
-        - Bullet Line 2 Color
-        - Bullet Line 3 Color
-        - Bullet Line 4 Color
-        - Bullet Line 5 Color
-        - Bullet Line 6 Color
-- **Checkboxes**: 
-    - Disable Alternate Checkboxes
-    - Pre v0.14 Checkbox Alignment Fix
-    - Colorful Task Text: Add color to the text of the task.
-    - Colorful Task Backgrounds: Add color to the background of the task.
-    - Normal Task Text: Reapply regular text color to the text of the task.
-    - Restore Checkbox Strike
-        - **Checkbox Strike Specific**: 
-            - [x] Regular
-            - [X] Checked
-            - [-] Dropped
-            - [>] Forward
-            - [D] Defer
-            - [?] Question
-            - [/] Half
-            - [+] Add
-            - [R] Research
-            - [!] Important
-            - [i] Idea
-            - [B] Brainstorm
-            - [P] Pro
-            - [C] Con
-            - [Q] Quote
-            - [N] Note
-            - [b] Bookmark
-            - [I] info
-- **Tags**: 
-    - Colored Text Tags: Tags appear as just colored text, no background color.
-    - Bubble Tags
-    - Notion Tags
-    - Outline Tags
-    - Tag Outline Border Size
-    - Tag Font Size Toggle
-    - Tag Font Size
-    - Tag Text Alignment
-- **Callouts**: 
-    - Alternate Callout Styling: Simplistic callout styling applying the callout color as the background color
-    - Center Callout Titles
+    - Clean Embeds: Embeds that look like they're part of the note.
+    - Dark Background Embeds
+    - Embed Heading Minified: Shrink embed headers
+- **Canvas**: 
+    - Canvas Cards Styling
+    - Canvas Arrow Coloful Text: Make text on canvas arrows match the color of the arrows
+    - Canvas Card Background Color Brightness
+- **Properties / Metadata**: 
+    - Metadata Key Font Size
+    - Metadata Value Font Size
+    - Metadata Key Width
+    - Metadata Colorful Label Styling
+    - Metadata Value Background
+    - Metadata Title Positions
+    - Metadata Title No Icon
 
 **Colors**: 
-- **Text**: Change text colors
+- **Text**: 
     - Text
     - Soft Text
     - Faint Text
-    - Headings: Heading, Vault title, HR Symbol, blockquote quotation mark, and open folder icon colors.
-    - File Title: File text color.
-    - Code Text
+    - File Explorer Titles: File/Folder text color.
     - `<i></i>` Text: Html `<i></i>` text color.
-    - Footnotes
 - **Workspace**: Recolor some UI colors
     - Note: Note and sidebar colors.
     - Outer Sidebar
     - Sidebar: Change only sidebar, right settings pane colors.
     - Dark Sidebar: Left settings bar, <i></i> background, graph background, and pane separator colors.
-    - Sidebar Tab Colors
-    - File: File icon color.
-    - Open Folder: Open folder icon color.
-    - Folder Title Hover: Open folder icon color.
-    - Scrollbar FG Color: Scrollbar thumb/foreground color
-    - Scrollbar BG Color: Scrollbar background color
-    - Sliding Panes Dropshadow
+    - **UI Elements**: 
+        - Button
+        - Sidebar Active Icon Color
+        - File Icon: File icon color.
+        - Folder Icon: Folder icon color.
+        - Folder Icon Open: Open folder icon color.
+        - Scrollbar FG Color: Scrollbar thumb/foreground color
+        - Tab Stack Shadow
+        - Popover Background Color
 - **Note Elements**: 
-    - Tag Color
-    - Embed/Blockquote: Embed/Blockquote color.
-    - Code Background
-    - Horizontal Line
-    - Aside Background Color: Aside background color and dark theme setting alternating setting item color.
-    - Progress Bar Value Color: HTML <progress> value color
-    - Progress Bar Background Color: HTML <progress> value color
-    - Table Header BG Color
-    - Table Header Text Color
-    - **Header Lines**: 
-        - Heading 1 Line Color
-        - Heading 2 Line Color
-        - Heading 3 Line Color
-        - Heading 4 Line Color
-        - Heading 5 Line Color
-        - Heading 6 Line Color
+    - **Headers / Headings**: 
+        - Headings: Heading (Vault, etc) Color
+    - **Tags**: 
+        - Tag Background
+        - Tag Text Color
+    - **Lists**: 
+        - Bullet Color
+        - Number Color
+        - List Line Color
+    - **Blockquote**: 
+        - Embed/Blockquote: Embed/Blockquote color.
+        - Blockquote Border: Blockquote Border color.
+    - **Code**: 
+        - Code Background
+        - Code Text
+    - **Horizontal Line**: 
+        - HR Border Line
+        - HR Icon
+    - **Progress Bar**: 
+        - Progress Bar Value Color: HTML <progress> value color
+        - Progress Bar Background Color: HTML <progress> value color
+    - **Tables**: 
+        - Table Header BG Color
+        - Table Header Text Color
+        - Table Header Text Edit Color
+        - Table Alt Row Colors: Alternating row/column color for table.
+        - Table Border Line Colors
+    - **Other Elements**: 
+        - Comments
+        - Footnotes
+        - Aside Background Color: Aside background color and dark theme setting alternating setting item color.
 - **Other**: 
     - Accent
-    - Lite Accent: Link hover, scrollbar active, tags, embed titles and links colors.
-    - Accent 2: Arrows, lines, even bullet list line colors.
+    - Lite Accent
+    - Accent 2
     - Lite Accent 2: Link color.
-    - Text Accent: Link color.
-    - Dark Accent: File selected and Note Gradient, frontmatter tag, scrollbar color.
-    - Deep Dark Accent: Darkmode Mobile Toolbar and Lightmode Obsidian titlebar background color.
+    - Dark Accent
+    - Deep Dark Accent
     - Inactive: Inactive note; file text; unresolved and external link, editor and external link hover; and mermaid text color.
     - Background: Scrollbar background color
     - Lines: Explorer, heading, input box, settings, frontmatter, and mermaidjs lines
+    - Outline
     - Foreground: Active file selected title color, Graph Node Color, Kanban Plugin Button color.
+- **Rainbows**: 
+    - **Theme Rainbows**: Illusion Header BG, Style Settings Colors, List Lines
+        - Theme Rainbow 1
+        - Theme Rainbow 2
+        - Theme Rainbow 3
+        - Theme Rainbow 4
+        - Theme Rainbow 5
+        - Theme Rainbow 6
+    - **Rainbow**: 
+        - Rainbow 1
+        - Rainbow 2
+        - Rainbow 3
+        - Rainbow 4
+        - Rainbow 5
+        - Rainbow 6
 - **Highlights**: 
-    - Text Highlight: Markdown highlight color.
-    - Search Highlight: Search result highlight color.
-    - Search 2: Search match highlight and background transparent color for settings.
-    - Text Selection: Cursor dragged highlights
-    - Table: Alternating row/column color for table.
+    - Text Highlight: Markdown mark highlight color.
+    - Text Selection: Cursor selection highlight color.
+    - Search Highlight
+    - Hover Color
+    - Hover Active color
 - **Graph Colors**: 
     - Graph Background
     - Graph Lines
@@ -415,17 +434,15 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
     - Graph Tags
 
 **Plugins**: 
-- Hide Text Expander: Hide text expander code block from preview
-- Dataview Adjustments: Personal adjustments to some elements of dataview
-- SuperCharged Links Adjustments: Personal adjustments to some elements of SuperCharged Links
-- Kanban Plugin Adjustments: Personal adjustments for less noisy Kanban layout
-- Kanban Plugin Notion Style: Style the kanban plugin like a Notion Kanban Board
-- Image Zoom: Hold and click an image to zoom into it.
-- Swap Sliding Pane Icons
-- Icon Folder Icon Swaps: Swap the order of icons back to default. (Will also revert file types).
-- Cross Reference Plugin Adjustments
-- Sidebar Notes Adjustments: Adjustments to padding for better displays of notes moved into sidebars.
-- Mobile Toolbar Adjustment: Multi-row bar sorts properly, but scrolls vertically now.
+- Disable ITS Styled Statblocks
+- Breadcrumbs Box Style
+- **Dataview**: 
+    - Dataview Regular Styled Tables
+    - Auto Sized Dataview Tables
+- **Kanban Adjustments**: 
+    - Boxed Style
+    - Minimal Style
+    - Kanban Center Titles
 
 **Alternate Color Schemes**: 
 - SlRvb Blue

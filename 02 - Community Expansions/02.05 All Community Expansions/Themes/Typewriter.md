@@ -35,6 +35,13 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Editor**: 
+- Shrink & fade Markdown formatting symbols
+- Highlight the active line
 
 ## Plugin Compatibility[^1]
 
@@ -73,6 +80,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[obsidian-journey-plugin|Journey]]
 - [[obsidian-banners|Banners]]
 - [[obsidian-dataview|obsidian-dataview]]
+- [[obsidian-style-settings|Style Settings]]
+- [[obsidian-plugin-todo|Obsidian TODO | Text-based GTD]]
 
 [^1]: Generally, Obsidian themes work with any plugins. That a plugin is not listed here does not mean that it won't work together with the theme. Plugins listed here only received special attention and/or styling by the theme designer.
 

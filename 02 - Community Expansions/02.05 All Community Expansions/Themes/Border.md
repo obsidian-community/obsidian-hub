@@ -35,6 +35,10 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- None: 🎨 Appearance presets: [get presets here](https://github.com/Akifyss/obsidian-border/blob/main/presets.md), click on “Import” in the top right corner and restart obsidian. <br> <br> 📭 If you have problems, please submit [issues](https://github.com/Akifyss/obsidian-border/issues) or [discuss](https://github.com/Akifyss/obsidian-border/discussions) on Github<br> <br> 🔼 View recent updates: [Github Commit History](https://github.com/Akifyss/obsidian-border/commits/main)
 
 
 %% Hub footer: Please don't edit anything below this line %%

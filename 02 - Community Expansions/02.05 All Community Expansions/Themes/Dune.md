@@ -39,61 +39,92 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**𝞪 Fonts**: manage Fonts
-- **Header Font**: 
-    - Header 1: Century Gothic, DiehlDeco, Whattimeisit
-    - Header 2: Century Gothic, DiehlDeco, Whattimeisit
-    - Header 3: Century Gothic, DiehlDeco, Whattimeisit
-    - Header 4, 5, 6: Century Gothic, DiehlDeco, Whattimeisit
-- **Font types**: 
-    - Character font: for character fonts
+**𝞪 Fonts**: manage fonts
+- **Typesets**: Standard (1), Modern (2), Poetry (3), Dashboard (4)
+    - 
+    - **1 - Standard**: 
+        - Header Font
+        - Character Font
+        - Custom Font size
+    - **2 - Modern**: 
+        - Header Font
+        - Character Font
+        - Custom Font size
+    - **3 - Poetry**: 
+        - Initial: (default = DieterCaps)
+        - Header Font: (default = Mumsies)
+        - Character Font
+        - Font size
+    - **4 - Dashboard**: 
+        - Header Font
+        - Character Font
+        - Custom Font size
+- **Spacing**: change spacing between headers, characters, lines
+    - Typesetting alignment (global): left, right, axis, block
+    - **Line**: 
+        - Textbody - Line width: first, activate "readable line width" in Preferences-Editor
+        - Indent tabs: indent paragraphs
+        - Indent paragraphs: all paragraphs (inherits from - Indent tabs)
+        - Linebreak - empty: ignore empty lines
+        - Hide Hr Lines - pdf: applies to all horizontal lines
+        - Page counter: -  default no counter,  •  break-after, without counter,  ↓  counter on bottom,  ↑  counter on top
+        - Unified Boxes: Callouts, Memo, Framed, Fnote, Quotes, Mini admonitions
+        - Unified Boxes-width: toggle 'Unified Boxes' on and define a desired width
+        - Tabs - width
+    - **Headers**: 
+        - Custom Margin Above Header: (20)
+        - Custom Margin Below Header: (14)
+        - Custom h1 size: except phone
+        - Custom h2 - h6 size: except phone
+        - Initial size: resize first letter
+        - Centered headers: center all headers
+- **Extra fonts**: configure additional fonts
     - Monospace Font: for yaml headers, tables, codeblocks
     - Mermaid Font: for diagrams
-- **Poetry Fonts**: 
-    - Initial: for paragraph Initials (default=DieterCaps)
-    - Poetry heading: for poetry titles (default=Mumsies)
-    - Poetry text: for poetry character fonts
-    - Resize decorations
-- **Spacing**: 
-    - Custom Margin Above Header
-    - Custom Margin Below Header
-    - Custom line width: activate first "readable line width" - in Preferences-Editor
-    - Typesetting alignment (global): left, right, axis, block
-    - Centered headers: all headers centered
-    - Focus on stacked notes: restore default stacked-view
-    - Slide compact: smaller text
+    - **Special Header Fonts**: 
+        - Header - Contacts: Helvetica, "Century Gothic", Roboto, Arial, sans-serif
+        - Header - Recipes: WCManoNegraBta, Helvetica, "Century Gothic", Roboto, Arial, sans-serif
+        - Header - Movies: AbadiMT-CondensedLight, Helvetica, "Century Gothic", Roboto, Arial, sans-serif
 
 **✦ Pictures**: manage pictures
-- **Picture frames**: 
-    - Picture frame 'frame a': add urls from local png or online png Images.
-    - frame tiling
-    - frame thickness
-    - Picture frame 'frame b': add urls from local png or online png Images.
-    - frame tiling
-    - frame thickness
-    - Picture frame 'frame c': add urls from local png or online png Images.
-    - frame tiling
-    - frame thickness
-    - Picture frame 'frame d': add urls from local png or online png Images.
-    - frame tiling
-    - frame thickness
-- **Frame (simple)**: 
-    - frame thickness
-- **Zoom Pictures**: 
-    - Zoom on hover: Zoom images on hover
-    - Banner - vertical placement
-- **Image wall**: 
-    - Image wall height
-    - Image wall width
-- **Profile picture**: 
-    - Vault Profile: Add a vault profile
-    - Vault Profile Banner: Add a banner profile
-    - Monochrome Vault Profile: automatic B/W switch
-    - Vault profile icon size
-    - Vault profile image: Image must be an equilateral png (local or remote url)
+- **Picture frames**: 5 Picture frames
+    - Frame (simple) thickness
+    - **1-Picture frame**: 
+        - Picture frame 'frame a': add online urls - png Images
+        - Frame tiling
+        - Frame thickness
+    - **2-Picture frame**: 
+        - Picture frame 'frame b': add online urls - png Images
+        - Frame tiling
+        - Frame thickness
+    - **3-Picture frame**: 
+        - Picture frame 'frame c': add online urls - png Images
+        - Frame tiling
+        - Frame thickness
+    - **4-Picture frame**: 
+        - Picture frame 'frame d': add online urls - png Images
+        - Frame tiling
+        - Frame thickness
+- **Zoom Pictures**: zoom pictures, diagrams, gif and decorations
+    - Zoom pictures / diagrams: zoom on hover
+    - Mermaid Proportions (Mobile): restore default proportions
+    - Gif Pictures: zoom and animate gifs (Performance option)
+    - Decoration sizes: (wave-a - wave-f)
+- **Arrange Pictures**: arrange your pictures - vertically and horizontally
+    - **Banners**: 
+        - Resize banner-a (Top)
+        - Resize banner-b (Bottom)
+    - **Picturewall**: 
+        - Image wall height
+        - Image wall width
+- **Profile picture**: for your Profile picture / text
+    - Vault Profile: Square (■), Banner (🀰), Standard (𝑵 Normal), small (𝑵 Minimal)
+    - Monochrome Profile: automatic B/W switch
+    - Profile icon size - (PC)
+    - Profile image: Image must be an equilateral png (requires online url)
 
-**⫸ Colors**: manage Colors
-- **Custom color**: your own color scheme
+**⫸ Colors**: manage colors
+- **Custom Theme**: Custom color scheme
     - **Header Colors**: 
         - H1 Color
         - H2 Color
@@ -106,33 +137,75 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
         - Text: Links
         - Text: Bold
         - Text: Italic
-        - Text: background highlight: for selected text
-    - **Base Colors**: 
+        - Text: Background highlight: for selected text
+    - **Interface colors**: 
         - Background Primary
         - Background Secondary
         - Background Modifier: Border: for border lines in Obsidians user interface
+        - Default red: for tables, text highlight types
+        - Default green: for tables, text highlight types
+        - Default blue: for tables, text highlight types
+        - Default yellow: for tables, text highlight types
+        - Default orange: for text tags
+        - Default violet: for text tags
+        - Font Highlight - custom: for fonts
+        - Table color - custom: for tables
+        - Stickies color - custom: for stickies
+        - Callout color - custom: for callouts
+    - **Folder Colors**: 
+        - Folder 1
+        - Folder 2
+        - Folder 3
+        - Folder 4
+        - Folder 5
+        - Folder 6
+        - Folder 7
+        - Folder 8
+        - Folder 9
+        - Folder 0
 - **Theme**: preset color schemes for Day-Night
     - ○ Light Theme colors
     - ● Dark Theme colors
-    - Current Line: highlight current line / paragraph (only edit mode)
-    - **Extra colors**: for simple image frames, simple delimiter
-        - Color for frames: for simple picture frames
-        - Color for Hr: for some horizontal dividers
-        - Text: Initial: for paragraph Initials
+    - Dim Pictures: Reduce strong white (dark themes)
+- **Extra colors**: for simple image frames, simple delimiter
+    - Frame color: for simple picture frames
+    - Horizontal lines color: for some horizontal dividers
+    - Text: Initial: for paragraph Initials
 
-**❨ ❩ Show ui elements**: visibility buttons, text
-- Show tooltips: restore help bubbles
-- Show ribbon: restore left ribbon
-- Left sidepanel: restore placement
-- Show note title: restore note title
-- Show note path: restore path in title bar
-- Show Vault name: restore vault name
-- Show Inactive tabs: restore inactive tabs (tab view)
-- Show status bar: restore statusbar
-- Show buttons: restore buttons
-- Show canvas ui: restore canvas buttons
-- Show canvas node labels: restore node labels
-- Hide App UI: garble ui text, buttons, etc.
+**❨ ❩ Show ui elements**: visibility buttons, text, etc.
+- **Main window**: 
+    - Buttons: restore buttons
+    - Sidebar, left: restore left sidebar
+    - Status bar: restore statusbar
+    - Tabs: restore inactive tabs
+    - Slim bars: restore default tab-view
+    - Stacked notes: restore default stacked-view
+    - Dim secondary Notes: restore default Note brightness
+    - Note title: restore note title
+    - Note path: restore path in title bar
+    - Grid toolbar (phone): restore default toolbar
+- **Text body**: 
+    - Yaml header: needs 'Editor - Properties in document - Visible / Source'
+    - Tasks strikeout line: restore strikeout line (tasks)
+    - List counter marker: restore list counter marker
+    - Tables, edgy: restore edgy tables (colored, monochrome)
+    - Footnotes: Right gutter
+    - Obsidians 'Query' Context: Unfold Obsidians 'query'-context on hover
+    - Current Line (edit mode): highlight active Line
+    - Writer mode (edit mode): fade inactive Lines and shortens inactive Lines
+    - Monochrome text tag labels: -ppl, -tel, -mail, -read, -edit, -promo, -loc, -key, -pin, -cal, -idea, profit, check
+    - Mini Admonitions: Remove text and background colors
+    - Hide Footnotes
+- **Graph, Canvas, Slide**: 
+    - Graph buttons: restore buttons
+    - Canvas buttons: restore canvas buttons
+    - Canvas node labels: restore node labels
+    - Slide - compact: smaller Character size (Desktop)
+    - Slide - touch-area: touch-area (for mobile)
+- **Extra toggles**: 
+    - Tooltips: restore help bubbles
+    - Hide App UI: garble ui text, buttons, etc.
+    - Snippets: A) [Folder icons](https://github.com/Jopp-gh/Obsidian-Dune84/blob/main/snippets/folder-icons-v2.css) <br> B) [Mermaid-theme](https://github.com/Jopp-gh/Obsidian-Dune84/blob/main/snippets/Dune-mermaid.css)
 
 
 %% Hub footer: Please don't edit anything below this line %%

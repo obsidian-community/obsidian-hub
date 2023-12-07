@@ -35,6 +35,51 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+
+**Headings**: 
+- **H1**: 
+    - Color: color used
+    - H1 font size: Accepts font-size value
+- **H2**: 
+    - Color: color used
+    - H2 font size: Accepts font-size value
+- **H3**: 
+    - Color: color used
+    - H3 font size: Accepts font-size value
+- **H4**: 
+    - Color: color used
+    - H4 font size: Accepts font-size value
+- **H5**: 
+    - Color: color used
+    - H5 font size: Accepts font-size value
+- **H6**: 
+    - Color: color used
+    - H6 font size: Accepts font-size value
+
+**Window**: 
+- Editor Window: Select Color
+- Nav: Select Color
+- Title Bar: Select Color
+
+**Icons**: 
+- Icon Color: Select Color
+- Icon Color Hover: Select Color
+- Icon Color Active: Select Color
+- Icon Color Focused: Select Color
+
+**Typography**: 
+- Default font colors: Use the default font color styling for bold, italics, and quotes
+- Highlight color (light)
+- Highlight color (dark)
+- Bold font color
+- Italics font color
+- Blockquotes font color
+- Inline code blocks font color (Light mode)
+- Inline code blocks font color (Dark mode)
+- Theme variant: Variations on a theme
 
 
 %% Hub footer: Please don't edit anything below this line %%

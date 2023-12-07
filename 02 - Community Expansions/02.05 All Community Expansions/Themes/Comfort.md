@@ -35,6 +35,15 @@ Modes: [[Light-mode themes|light]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Background-primary Color
+- Background-secondary Color
+- background-secondary-alt Color
+- tab-container-background Color
+- ribbon-background Color
+- font-family: Font used for the user interface
 
 
 %% Hub footer: Please don't edit anything below this line %%

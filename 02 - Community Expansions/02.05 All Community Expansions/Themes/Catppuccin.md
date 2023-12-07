@@ -38,56 +38,8 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 - [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
 
 ## Customization Options (Style Settings Plugin) 
-
-**Fonts**: 
-- Base Font
-- Sans Font: Everything not in the editor/preview window (sidebars, settings, etc.)
-- Mermaid Font
-- Monospace Font: Used for codeblocks, tables, etc.
-
-**Translucency**: 
-- Light Theme Translucency
-- Dark Theme Translucency
-
-**Background Colors**: 
-- Background Primary
-- Background Primary (alt)
-- Background Secondary
-- Background Secondary (alt)
-- Background Modifier: Border
-- Background Modifier: Form Field
-- Background Modifier: Form Field (highlighted)
-- Background Modifier: Box Shadow
-- Background Modifier: Success
-- Background Modifier: Error
-- Background Modifier: Error (hover)
-- Background Modifier: Cover
-
-**Text Colors**: 
-- Text: Accent
-- Text: Accent (hover)
-- Text: Normal
-- Text: Muted
-- Text: Faint
-- Text: Error
-- Text: Error (hover)
-- Text: Highlight Background
-- Text: Highlight Background (active)
-- Text: Selection Background
-- Text: On Accent
-
-**Interactive Colors**: 
-- Interactive: Normal
-- Interactive: Hover
-- Interactive: Accent
-- Interactive: Accent (hover)
-- Interactive: Success
-- Button Hover: The color of buttons when hovered over.
-
-**Scrollbar Colors**: 
-- Scrollbar: Background
-- Scrollbar: Thumb Background
-- Scrollbar: Active Thumb Background
+- Dark theme flavor: Select your preferred dark mode flavor
+- Theme accent: Select your preferred accent
 
 
 %% Hub footer: Please don't edit anything below this line %%

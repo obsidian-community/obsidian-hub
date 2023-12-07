@@ -35,6 +35,10 @@ Modes: [[Dark-mode themes|dark]]
 
 ## Features
 
+- [[Themes with Friendly Settings|Friendly settings]]: Supports the [[obsidian-style-settings|Style Settings]] plugin
+
+## Customization Options (Style Settings Plugin) 
+- Title size: Font size of your level 1 headings (#), in ems
 
 
 %% Hub footer: Please don't edit anything below this line %%
