@@ -1,0 +1,25 @@
+Initial:
+{
+    "author": "Moritz Jung",
+    "modes": [
+        "dark"
+    ],
+    "name": "Lemons Theme",
+    "repo": "mProjectsCode/obsidian-lemons-theme",
+    "screenshot": "lemons-theme-picture-low-res.PNG"
+}
+
+Frame #1:
+{
+    "author": "Moritz Jung",
+    "branch": "HEAD",
+    "download_count": 2610,
+    "modes": "[[Dark-mode themes|dark]]",
+    "name": "Lemons Theme",
+    "plugins": null,
+    "repo": "mProjectsCode/obsidian-lemons-theme",
+    "screenshot": "lemons-theme-picture-low-res.PNG",
+    "settings": null,
+    "user": "mProjectsCode"
+}
+

@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Lemons Theme",
+        "author": "Moritz Jung",
+        "repo": "mProjectsCode/obsidian-lemons-theme",
+        "screenshot": "lemons-theme-picture-low-res.PNG",
+        "modes": ["dark"]
+    }
+]
