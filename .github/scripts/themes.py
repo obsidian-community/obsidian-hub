@@ -22,7 +22,7 @@ ThemeList = List["Theme"]
 
 CommunityPluginsIDAndName = Dict[str, str]
 
-settings_regex = r"\/\*\s*@settings[\r\n]+?([\s\S]+?)\*\/"
+settings_regex = r"\/\*!?\s*@settings[\r\n]+?([\s\S]+?)\*\/"
 plugins_regex = r"\/\*\s*@plugins[\r\n]+?([\s\S]+?)\*\/"
 
 DOWNLOAD_COUNT_SHIELDS_URL_PREFIX = 'https://img.shields.io/badge/downloads-'
