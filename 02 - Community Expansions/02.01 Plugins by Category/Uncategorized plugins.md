@@ -51,7 +51,6 @@ Plugins which have not yet been categorized by the community.
 - [[aprils-automatic-timelines|April's Automatic Timelines]]: Simple timeline generator for story tellers
 - [[arcana|Arcana]]: A collection of AI powered tools
 - [[archwiki-reader|ArchWiki Reader]]: Read any ArchWiki page directly in Obsidian
-- [[obsidian-archivebox-plugin|ArchiveBox Plugin]]: Archives links to ArchiveBox, a self-hosted archiver, upon file modification. Requires ArchiveBox 0.6.3+
 - [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]: A plugin to render asciidoc blocks in Obsidian, initially asciidoc tables.
 - [[askify-obsidian-sync|Askify Sync]]: This plugin help to sync notes from Askify (https://askify.video/) to Obsidian
 - [[at-people|At People]]: Use the @ to create links to people files.
@@ -82,6 +81,7 @@ Plugins which have not yet been categorized by the community.
 - [[awesome-reader|Awesome Reader]]: Make Obsidian a proper Reader.
 - [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
 - [[bmo-chatbot|BMO Chatbot]]: Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) such as OpenAI's "gpt-3.5-turbo" and "gpt-4."
+- [[obsidian42-brat|BRAT]]: Easily install a beta version of a plugin for testing.
 - [[babashka|Babashka]]: Evaluate Clojure(Script) codeblocks in Babashka.
 - [[background-image|Background Image]]: This allows you to specify a remote URL as the background image, and a few settings to tweak the experience.
 - [[badges|Badges]]: Add inline badges/callouts to notes.
@@ -147,7 +147,7 @@ Plugins which have not yet been categorized by the community.
 - [[codeblock-customizer|Codeblock Customizer]]: This Obsidian plugin lets you customize your codeblocks in editing, and reading mode as well.
 - [[codename|Codename]]: A plugin to solve the hardest problem - naming things.
 - [[color-palette|Color Palette]]: Create and insert color palettes into your notes.
-- [[colored-tags|Colored Tags]]: Colorizes tags in different colors. Colors of nested tags are mixed with parent tags. Text color contrast is automatically matched to comply with AA level of WCAG 2.1.
+- [[colored-tags|Colored Tags]]: Colorizes tags in different colors. Colors of nested tags are mixed with the root tag to improve readability. Text color contrast is automatically matched to comply with AA level of WCAG 2.1.
 - [[colored-text|Colored Text]]: Color the selected texts.
 - [[colorful-note-borders|Colorful Note Borders]]: Add customizable colorful borders to notes based on folder location or frontmatter metadata, enhancing visual organization in Obsidian.
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]: Command palette without unwanted commands
@@ -400,7 +400,6 @@ Plugins which have not yet been categorized by the community.
 - [[mdx|MDX]]: Preview MDX in Obsidian, with support for Code Hike
 - [[msg-handler|MSG Handler]]: Easily display and search MSG files from Outlook in your Obsidian Vault
 - [[obsidian-mark-and-select|Mark and Select]]: More flexible ways to select texts in Obsidian Editor
-- [[obsidian-markbase|Markbase for Obsidian]]: Official Markbase plugin to share your Obsidian notes online in your own digital garden
 - [[markdoc|Markdoc]]: Basic support for Markdoc files
 - [[markdown-blogger|Markdown Blogger]]: Allows developers to push markdown notes to their local blog, portfolio, or static site. Works with Astro.js, Next.js, and any other framework configured to render markdown pages.
 - [[markdown-chords|Markdown Chords]]: Add musical chord notation and chord diagrams for stringed instruments (e.g. guitar) in Markdown. Supports chords in any Western scale/mode, including extended jazz chords.
@@ -492,7 +491,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-matrix|Obsidian matrix]]: Utility to easily create LaTeX matrices
 - [[obsidian-to-notion|Obsidian shared to Notion]]: This is a  plugin for Obsidian. This plugin share obsidian md  file to notion with notion api
 - [[obsidian-to-flomo|Obsidian to Flomo]]: Quickly share content to Flomo.
-- [[obsidian42-brat|Obsidian42 - BRAT]]: Easily install a beta version of a plugin for testing.
 - [[obsidian42-strange-new-worlds|Obsidian42 - Strange New Worlds (SNW)]]: Revealing networked thought and the strange new worlds created by your vault
 - [[obsidian-tweaks|ObsidianTweaks]]: Adds some convenient tweaks including improved toggling and ergonomic commands
 - [[obsidiosaurus|Obsidiosaurus]]: Connect your vault to Docusaurus
@@ -925,6 +923,7 @@ Plugins which have not yet been categorized by the community.
 - [[md-image-caption|Markdown Image Caption]]: Generate image caption
 - [[fountain-editor|Fountain Editor]]: Fountain (screenplay) syntax highlighting in the editor
 - [[title-generator|Title Generator]]: Quickly and easily title your notes using OpenAI's GPT-3.5
+- [[remotely-secure|Remotely Sync]]: Security fixes for the remotely-save unofficial plugin allowing users to synchronize notes between local device and the cloud service. Not backwards compatible.
 - [[inline-encrypter|Inline Encrypter]]: Encrypt secrets in your notes.
 - [[scholar|Scholar]]: Streamline Research Workflow in Obsidian
 - [[hexo-auto-updater|Hexo Auto updater]]: This is a hexo plugin for Obsidian that enable the auto update. 
@@ -983,6 +982,19 @@ Plugins which have not yet been categorized by the community.
 - [[helpmate|HelpMate]]: Integrating help systems into the Obsidian UI.
 - [[paste-link|Paste Link]]: Intelligently paste Markdown links.
 - [[incomplete-files|Incomplete files]]: Rule based keep track of your incomplete files
+- [[timethings|Time Things]]: Show clock in the corner. Track total editing time of a note and the last time it was modified.
+- [[custom-note-width|Custom Note Width]]: Let's you adjust the line width on a note-by-note basis.
+- [[manictime|ManicTime]]: Sends path of active file to locally installed ManicTime client.
+- [[calc-craft|CalcCraft]]: have formulas like in excel a1+a2, or sum()
+- [[tag-buddy|Tag Buddy]]: Add, edit and remove tags in reading mode. Copy, move or edit tagged blocks in reading and edit mode.
+- [[adjacency-matrix-exporter|Adjacency Matrix Exporter]]: Create a numerical adjacency matrix of your vault in two ways: Absolute and Normalized.
+- [[key-value-list|Key-Value List]]: Makes it easy to turn lists into formatted key-value lists.
+- [[word-bank|Word Bank]]: Create a word library from your word files.
+- [[disk-usage|Disk Usage]]: Measures disk usage for tracking size of folders and file types.
+- [[attachment-uploader|Attachment Uploader]]: Attachment uploader plugin, which allows you customize the upload command, customize upload file type.
+- [[formatto-format|Formatto]]: Format markdown document.
+- [[chat-cbt|ChatCBT]]: Guides you in reframing negative thoughts and keeping record of your discoveries
+- [[daily-icalendar|Daily ICalendar]]: View calendar events in daily notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
