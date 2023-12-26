@@ -87,7 +87,6 @@ Plugins which have not yet been categorized by the community.
 - [[badges|Badges]]: Add inline badges/callouts to notes.
 - [[obsidian-basetag|Base Tag Renderer]]: This plugin renders the basename of tags.
 - [[obsidian-bellboy|Bellboy]]: Opinionated file structure manager.
-- [[obsidian-better-codeblock|Better CodeBlock]]: Add title, line number to Obsidian code block
 - [[obsidian-better-command-palette|Better Command Palette]]: A command palette that does all of the things you want it to do.
 - [[better-comment-toggle|Better Comment Toggle]]: Improved comment toggling.
 - [[better-inline-fields|Better Inline Fields]]: Obsidian plugin to enhance Dataview style inline fields
@@ -396,7 +395,7 @@ Plugins which have not yet been categorized by the community.
 - [[loom|Loom]]: Loom in Obsidian
 - [[lovely-mindmap|Lovely-Mindmap]]: Build your own knowledge graph with smiles :-)
 - [[lumberjack-obsidian|Lumberjack 🪓 🪵]]: Log your thoughts! Lumberjack adds URL commands to help you axe inefficiency and get right to writing.
-- [[make-md|MAKE.md]]: Make.md brings you features that supercharges Obsidian. Sort your files in custom order and add file icons using Spaces. Edit inline embeds with Flow Editor. And style your text and add new markdown blocks without writing markdown using Maker Mode.
+- [[make-md|MAKE.md]]: Make.md brings powerful and modern note-taking features to Obsidian. Capture, organize and connect information with more flexibility without any code.
 - [[mdx|MDX]]: Preview MDX in Obsidian, with support for Code Hike
 - [[msg-handler|MSG Handler]]: Easily display and search MSG files from Outlook in your Obsidian Vault
 - [[obsidian-mark-and-select|Mark and Select]]: More flexible ways to select texts in Obsidian Editor
@@ -526,7 +525,7 @@ Plugins which have not yet been categorized by the community.
 - [[pf2-action-icons|Pathfinder 2E Action Icons]]: Displays Pathfinder 2E action icons easily
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
 - [[perilous-writing|Perilous Writing]]: Write continuously—or lose all progress.
-- [[periodic-para|Periodic PARA]]: Assist in practicing the PARA system with periodic notes and usememos.
+- [[periodic-para|Periodic PARA]]: Assist in practicing the PARA method with periodic notes and usememos.
 - [[persistent-links|Persistent Links]]: Automatically repair internal links to blocks and headings
 - [[personal-assistant|Personal Assistant]]: Streamline workflows within Obsidian, managing memos and plugins with just one command.
 - [[pieces-for-developers|Pieces for Developers]]: Streamline your coding workflow in Obsidian with the Pieces For Developers plugin, offering powerful features for capturing, managing, translating, and enhancing code snippets. (Closed Source) 
@@ -664,7 +663,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-table-generator|Table Generator]]: A plugin for generate markdown table quickly like Typora /card table in canvas .
 - [[obsidian-table-to-csv-exporter|Table to CSV Exporter]]: This plugin allows for exporting tables from a pane in reading mode into CSV files.
 - [[tabout|Tabout]]: Easily "tab out" of Links or other Markdown Formatting Characters.
-- [[tag-search|Tag Search]]: Fuzzy-find your tags!
 - [[tag-summary-plugin|Tag Summary]]: This plugin creates summaries with paragraphs or blocks of text that share the same tag(s).
 - [[tag-many|TagMany]]: Add the same tag(s) to multiple notes in a folder (optionally including subfolders) at once.
 - [[obsidian-plugin-tagged-documents-viewer|Tagged Documents Viewer]]: Opens a modal with scrollable content of all documents that contain a specific tag or tags.
@@ -779,7 +777,7 @@ Plugins which have not yet been categorized by the community.
 - [[ava|🧙 AVA]]: AI assistant for Obsidian
 - [[grappling-hook|🪝 Grappling Hook]]: Obsidian Plugin for blazingly fast file switching. For those who find the Quick Switcher still too slow.
 附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。
-- [[solve|Solve]]: Level Up Your Notes: Introducing Solve – Your Math Maestro! Real-time calculations without AI fuss. From date magic ('Now + 20 days') to arithmetic flair ('10 + 5'), your trusted sidekick in every note. More brilliance on the way!
+- [[solve|Solve]]: Supercharge your notes in Obsdian with real-time calculations without AI fuss. From date magic ('Now + 20 days') to arithmetic flair ('10 + 5').
 - [[graph-nested-tags|Nested tags graph]]: Links nested tags in graph view
 - [[youversion-linker|YouVersion Linker]]: Automatically link bible verses in your notes to YouVersion bible.
 - [[checkbox-reorder|Checkbox Reorder]]: Reorder completed checkboxes to the end of the according list.
@@ -806,7 +804,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-journal|Auto Journal]]: Opinionated journaling automation like daily notes but with backfills for the days when Obsidian wasn't opened
 - [[nifty-links|Nifty Links]]: Generate elegant, Notion-style rich link cards to enhance your note-taking experience
 - [[exercises|Exercises]]: Create Interactive Exercises along side your Obsidian Notes
-- [[math-booster|Math Booster]]: Turn your Obsidian into LaTeX on steroids. Dynamically numbered theorem environments & equations, enhanced theorems/equations search & link auto-completion, and live-rendering of equations inside callouts & quotes.
+- [[math-booster|LaTeX-like Theorem & Equation Referencer]]: A powerful indexing & referencing system for theorems & equations in your vault. Bring LaTeX-like workflow into Obsidian with theorem environments, automatic equation numbering, and more.
 - [[file-explorer-plus|File Explorer++]]: Hide and pin files and folders in the file explorer using custom filters, such as wildcards and regex, based on their names, paths, and tags. Additionally, achieve the same with a single click in the file menu.
 - [[vox|Vox]]: Intelligently trancribe and categorize your voice notes
 - [[github-embeds|GitHub Embeds]]: Embed GitHub issues, PRs, and code snippets directly in Obsidian.
@@ -976,7 +974,7 @@ Plugins which have not yet been categorized by the community.
 - [[local-graphql|Local GraphQL]]: Export Obsidian data as a local GraphQL server.
 - [[feeds|Feeds]]: Create feeds of topic-specific bullet points in Obsidian.
 - [[spotify-links|Spotify Links]]: Insert a link to the song currently playing on your Spotify
-- [[hunchly|Hunchly]]: Import notes and images from Hunchly.
+- [[hunchly|Hunchly]]: This plugin converts Hunchly's notes and captioned images into obsidian notes. Also adds selectors from hunchly as obsidian tags.
 - [[tckr|tckr]]: Get your TickTicks!
 - [[periodic-table|Periodic Table]]: View a periodic table in the sidebar
 - [[helpmate|HelpMate]]: Integrating help systems into the Obsidian UI.
@@ -995,6 +993,37 @@ Plugins which have not yet been categorized by the community.
 - [[formatto-format|Formatto]]: Format markdown document.
 - [[chat-cbt|ChatCBT]]: Guides you in reframing negative thoughts and keeping record of your discoveries
 - [[daily-icalendar|Daily ICalendar]]: View calendar events in daily notes.
+- [[auto-displaystyle-inline-math|Auto-\displaystyle Inline Math]]: Automatically make all inline maths \displaystyle.
+- [[textanalysis|Text Analysis]]: Real-time text analysis on readability, structure, and complexity, incorporating over 30 tests like Average Syllables per Word, percent of difficult words, Lexical Diversity, Flesch Reading Ease Score, Gunning Fog Index, SMOG indes, Rix, Lix, Reading level and Reading/Speaking time. Built on top of textstat library. 
+- [[minitabs|Minitabs]]: Customize a set of nested tabs through code blocks.
+- [[lyrics|Lyrics]]: Enhance the audio player with interacive lyrics
+- [[show-whitespace-cm6|Show Whitespace]]: Show leading and trailing whitespace in source mode (CodeMirror6)
+- [[rendered-block-link-suggestions|Rendered Block Link Suggestions]]: Upgrade Obsidian's built-in link suggestions with block markdown rendering.
+- [[quick-preview|Quick Preview]]: Quickly preview a suggestion before selecting it in link suggestions & quick swicher.
+- [[desk|Desk]]: A desk to see notes at a glance in Obsidian. Requires Dataview as a dependency.
+- [[tldraw|Tldraw]]: Integrates Tldraw into Obsidian, allowing users to draw and edit content on a virtual whiteboard.
+- [[autocorrect-formatter|Autocorrect Formatter]]: Format MarkDown content using Autocorrect.
+- [[vim-yank-highlight|Vim Yank Highlight]]: Highlight yanked text in Vim mode. Enjoy that subtle animation you've missed so much.
+- [[tickticksync|TickTickSync]]: Sync TickTick tasks to Obsidian, and Obsidian tasks to TickTick
+- [[slash-commander|Slash Commander]]: Customize the slash command list, assign each command an icon.
+- [[custom-save|Custom save]]: Run any commands when you save a file in the editor
+- [[peerdraft|Peerdraft]]: Secure real-time collaboration via secret link
+- [[note-gallery|Note Gallery]]: A masonry gallery view for your notes. Allows to have a birds eye view over the notes in your vault.
+- [[smart-title|Smart Title]]: Automatically extract tag and alias from the title.
+- [[gamified-pkm|Gamificate your PKM]]: Enhance your Personal Knowledge Management with gamification elements. Boost motivation and achieve growth as you engage with your PKM.
+- [[relax|R.E.L.A.X.]]: Multi-regex management for data linking and batch processing across selection, files and folders. Ideal for academics, data scientists, forensics, reverse-engineerer and knowledge workers. Enables dynamic data organization and can be used to standardize links or as text-search. Streamline note-taking, data analysis, and report generation with intuitive regex pattern application and modification.
+- [[coder|Encoder/Decoder]]: Converts a text into base64 format.
+- [[habit-tracker-21|Habit Tracker 21]]: Your 21-day journey to habit formation simplified
+- [[math-in-callout|Better Math in Callouts & Blockquotes]]: Add better Live Preview support for math rendering inside callouts & blockquotes.
+- [[dynamic-line-height-cjk|Dynamic Line Height for CJK]]: Dynamically adjust line height for lines & paragraphs containing CJK characters.
+- [[pomodoro-timer|Pomodoro Timer]]: A pomodoro timer that helps manage your daily focus
+- [[vim-im-control|Vim IM Control]]: Control Input Method (IM) when `InsertLeave` and `InsertEnter` in Vim mode. Supports macOS, Windows, and Linux.
+- [[global-proxy|Global Proxy]]: Use network proxy throughout Obsidian according to the rules configured in this plugin.
+- [[subdivider|Subdivider]]: Converts your notes into nested folders, automatically creating separate files for each subheading.
+- [[image-helper|Image Helper]]: Context menu to convert a image to another format in reading view 
+- [[highlight-helper|Highlight Helper]]: Helper to copy and paste highlights
+- [[syncread|syncread-assistant]]: sync articles from syncread app
+- [[intelligence|Intelligence]]: Integrate OpenAI GPT Assistants functionality
 
 
 %% Hub footer: Please don't edit anything below this line %%
