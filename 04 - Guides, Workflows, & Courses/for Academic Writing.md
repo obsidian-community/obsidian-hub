@@ -8,6 +8,8 @@ tags:
 
 # for Academics
 
+[The ultimate collaborative guide](https://github.com/MarcosNicolau/obsidian-for-academia)
+
 ## Articles
 - [Comprehensive Academic Workflow from Reading to Writing in Markdown](https://chris-grieser.de/Comprehensive-Academic-Workflow-from-Reading-to-Writing-in-Markdown) by [[chrisgrieser|@pseudometa]]
 - [Zotero -> zotfile -> mdnotes -> obsidian -> dataview Workflow](https://forum.obsidian.md/t/zotero-zotfile-mdnotes-obsidian-dataview-workflow/15536) by @Cat
