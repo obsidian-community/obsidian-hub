@@ -8,8 +8,6 @@ publish: true
 
 # HIPAA Requirements and Obsidian Primer
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
-
 This article aims to give an overview of using [[Obsidian]] for protected health information in a medical context, giving advice on the [[Plugins for Security and Privacy|security and privacy]] of patient data with regard to the Health Insurance Policy and Accountability Act of 1996 (HIPAA).
 
 Author: [Valmeek Kudesia](https://www.linkedin.com/in/valmeekkudesia), MD (Board Certified Internal Medicine, Board Certified Clinical Informatics)

@@ -1,8 +1,7 @@
 ---
-aliases: 
-- Obsidian Docs
+aliases: []
 tags:
-- seedling
+  - seedling
 publish: true
 ---
 
@@ -12,7 +11,7 @@ Link: https://help.obsidian.md
 Author: [Obsidian Help Contributors](https://github.com/obsidianmd/obsidian-docs/graphs/contributors)
 Tool: [[Obsidian Publish]]
 
-An open-source documentation for [[Obsidian]] available in several languages, often updated, created with help of the community.
+The official, open-source documentation for [[Obsidian]] available in several languages, often updated, created with help from the community.
 
 %% Hub footer: Please don't edit anything below this line %%
 

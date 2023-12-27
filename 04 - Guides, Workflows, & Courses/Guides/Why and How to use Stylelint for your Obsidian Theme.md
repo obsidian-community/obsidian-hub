@@ -97,7 +97,7 @@ stylelint --fix "/path/to/my/css/file/theme.css"
 ### In the Code Editor
 More convenient than using `stylelint` in the Terminal is to install an integration for your code editor. With those editor integrations, you can get live feedback on rule violations as soon as you type them.
 
-There is a plugin for [Sublime Text](https://packagecontrol.io/packages/SublimeLinter-stylelint), a plugin for [VS Code](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), and various plugins for [other common code editors](https://stylelint.io/user-guide/integrations/editor/).
+There is a plugin for [Sublime Text](https://packagecontrol.io/packages/SublimeLinter-stylelint), a plugin for [VS Code](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), and various plugins for [other common code editors](https://github.com/dev-zuo/stylelint/blob/44145f117809f9f3dfd94d33e9438706c456a49d/docs/user-guide/integrations/editor.md).
 
 ## Further Configuration
 

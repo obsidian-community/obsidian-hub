@@ -6,11 +6,11 @@ tags:
 publish: true
 ---
 
-# Wordcount Dashboard
+# Word Count Dashboard
 
-A Dashboard that uses [[dataview]] to display the wordcount of multiple notes.
+A Dashboard that uses [[dataview|Dataview]] to display the word count of multiple notes.
 
-[GitHub Gist of the Wordcount Dashboard](https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99#file-word-count-dashboard-md)
+[GitHub Gist of the Word Count Dashboard](http://web.archive.org/web/20230608201433/https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99) (as archived in June 2023)
 
 ---
 

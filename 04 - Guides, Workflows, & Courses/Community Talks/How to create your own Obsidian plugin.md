@@ -12,8 +12,9 @@ In this talk, [[phibr0]] shows us how to create an Obsidian Plugin from start to
 
 You can get a sneak peak of this talk on their blog post: [How to create your own obsidian plugin](https://phibr0.medium.com/how-to-create-your-own-obsidian-plugin-53f2d5d44046)
 
-%% In the tag below, plase fill out the #placeholder/link and then remove this comment%%
-<iframe width="100%" height="400px" src="#placeholder/link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Note that this talk was held in 2021, so some aspects of Obsidian's API might have changed since then. Please check the official plugin documentation for more information on how to get started with your first plugin.
+
+<iframe width="100%" height="400px" src="https://www.youtube.com/watch?v=XaES2G3PVpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 %% Hub footer: Please don't edit anything below this line %%
 

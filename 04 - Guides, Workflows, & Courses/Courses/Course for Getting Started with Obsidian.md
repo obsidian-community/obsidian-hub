@@ -8,7 +8,9 @@ publish: true
 
 # Getting Started with Obsidian
 
-This is a course on [[SkillShare]] that walks you through the basics of getting started with Obsidian. [View the course](https://skl.sh/2Y6DUDM)
+*Getting Started with Obsidian* is a course on [[SkillShare]] by [[Curtis McHale]] that walks you through the basics of Obsidian: installation, settings, learning about [[Markdown]], recommendations on plugins and how you should setup your folders. 
+
+[View the course](https://www.skillshare.com/en/classes/Getting-Started-with-Obsidian/704822481)
 
 %% Hub footer: Please don't edit anything below this line %%
 
