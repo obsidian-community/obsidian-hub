@@ -8,8 +8,6 @@ tags:
 
 # for Academics
 
-[The ultimate collaborative guide](https://github.com/MarcosNicolau/obsidian-for-academia)
-
 ## Articles
 - [Comprehensive Academic Workflow from Reading to Writing in Markdown](https://chris-grieser.de/Comprehensive-Academic-Workflow-from-Reading-to-Writing-in-Markdown) by [[chrisgrieser|@pseudometa]]
 - [Zotero -> zotfile -> mdnotes -> obsidian -> dataview Workflow](https://forum.obsidian.md/t/zotero-zotfile-mdnotes-obsidian-dataview-workflow/15536) by @Cat
@@ -21,6 +19,7 @@ tags:
 - [Research workflow as a PhD student in the Humanities](https://martinezponciano.es/2021/04/05/research-workflow-as-a-phd-student-in-the-humanities/) by Regina Martínez Ponciano
 - [Obsidian Tutorial for Academic Writing](https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522) by [[universvm|Leonardo Castorina]]
 - [How to Boost your Productivity for Scientific Research](https://betterhumans.pub/how-to-boost-your-productivity-for-scientific-research-using-obsidian-fe85c98c63c8) by [[universvm|Leonardo Castorina]]
+- [The ultimate collaborative guide](https://github.com/MarcosNicolau/obsidian-for-academia) by Marcos Nicolau
 
 ## Videos
 - [[YT - Pandoc and Obsidian - Create slideshows, PDFs and Word documents|Community Talk: Using Pandoc and Obsidian]] by [[SkepticMystic]]
