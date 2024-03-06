@@ -510,6 +510,7 @@ Plugins which have not yet been categorized by the community.
 - [[page-properties|Page Properties]]: Render page properties similar to Logseq
 - [[obsidian-pandoc-reference-list|Pandoc Reference List]]: Displays a formatted reference in the sidebar for each pandoc citekey present in the current document.
 - [[obsidian-party|Party🎉]]: An implementation of party.js for Obsidian. Create confetti, sparkles and even custom effects in your notes!
+- [[password-protection|Password Protection]]: Lock and protect your private notes and diary with a password, no encrypt, no decrypt.
 - [[obsidian-paste-as-html|Paste As Html]]: Paste As Html, Keep the original css style. Paste from web browser
 - [[obsidian-paste-png-to-jpeg|Paste image Png to Jpeg]]: Screenshot png to jpeg and compress and rename
 - [[obsidian-paste-image-rename|Paste image rename]]: Rename pasted images and all the other attchments added to the vault
@@ -1110,7 +1111,7 @@ Plugins which have not yet been categorized by the community.
 - [[snsvrno-tags|Tag Formatter]]: Gives more options on how to display tags in preview mode.
 - [[journalyst|Journalyst]]: Journalyst enables easy creation of topic-specific journals. Organize your life into categories like sleep, routines, or work, with daily or recurring entries for effortless tracking and reflection.
 - [[wypst|Wypst]]: Typst math typesetting for Obsidian.
-- [[tv-tracker|TV tracker]]: A Movie and TV show tracker.
+- [[tv-tracker|Movie and TV show tracker]]: A Movie and TV show tracker.
 - [[autogen|Autogen]]: In place autogeneration of content based on prompts.
 - [[broken-links|Broken Links]]: Find broken links in your vault that don't connect to notes.
 - [[image_collector|Image Collector]]: Collects all of the images in an Obsidian (markdown) note and exports them to a folder called 'file_name images'.
@@ -1120,6 +1121,44 @@ Plugins which have not yet been categorized by the community.
 - [[github-link|GitHub Link]]: Enrich your notes with issue and pull request content from GitHub
 - [[simple-file-push|Simple File Push]]: Push Markdown file to API endpoint.
 - [[paste-transform|Paste transform]]: Handle pasted text and and transform it by regexp rules.
+- [[vn-memory-lane|MemoryLane]]: Relive and celebrate your life's milestones on a personal, interactive timeline. A nostalgic journey through your history with anniversary reminders and cherished memories.
+- [[copy-as-source|Copy as source]]: Select and copy source HTML in reading view.
+- [[alfonso-money-manager|Alfonso Money Manager]]: Alfonso Money Manager data viewer and finantial analitics tool
+- [[pdf-plus|PDF++]]: The most Obsidian-native PDF annotation tool ever.
+- [[go-up|Go Up]]: Go to the pages that says 'up' property
+- [[format-with-prettier|Format with Prettier]]: Format files in your vault using Prettier.
+- [[image-magician|Image Magician]]: Supports viewing and exporting various image formats powerd by ImageMagick.
+- [[graphs|Graphs]]: Create interactive graphs by writing YAML
+- [[card-note|CardNote]]: Help you quickly extract your thoughts in the Canvas and Excalidraw
+- [[simple-image-inserter|Simple Image Inserter]]: Add images from the file system into Obsidian notes through a built-in file explorer.
+- [[graph-link-types|Graph Link Types]]: Link types for graph view.
+- [[fix-require-modules|Fix Require Modules]]: Fixes `require()` calls for the built-in modules
+- [[auto-definition-link|Auto Definition Link]]: Automatically converts text to definition links within the current folder when you type them.
+- [[chord-sheets|Chord Sheets]]: Work with chord sheets (chords over lyrics) in your Vault: Chord diagrams, transpose, autoscroll and more. Works in live preview and reading mode.
+- [[enhanced-tables|Enhanced tables]]: Add programmable controls to selected tables
+- [[folders2graph|Folders to Graph]]: Display your vault folder structure into your graphs.
+- [[lean-syntax-highlight|Lean Syntax Highlight]]: Provides live syntax highlight for the Lean programming language
+- [[ai-tagger|AI Tagger]]: Analyze and tag your document with one click for efficient note organization using AI. OpenAI API key required
+- [[quiz-generator|Quiz Generator]]: Generate interactive quizzes from your notes using OpenAI's GPT-3.5 and GPT-4 models.
+- [[markdownspace-publish|MarkdownSpace Publish]]: Publish your notes to MarkdownSpace
+- [[goban-sgf|Goban SGF]]: Obsidian plugin for recording Go games (SGF format goban).
+- [[display-relative-path-img|Display Relative Path Img]]: Display the image of the <img> tag
+- [[metadata-icon|Metadata Icon]]: Change metadata entry icon
+- [[fileorganizer2000|AI File Organizer 2000]]: Automatically organize notes, annotate photos and audio using AI.
+- [[spotify-api|Spotify API]]: Exposes Spotify API
+- [[pf2e-statblocks|PF2e Statblocks]]: Renders Pathfinder 2e statblocks cleanly, using only Markdown-based syntax.
+- [[canvas-link-optimizer|Canvas Link Optimizer]]: Optimize canvas links by displaying a page thumbnail.
+- [[inline-admonitions|Inline Admonitions]]: Inline callouts to make text pop.
+- [[filtered-opener|Filtered Opener]]: Open notes and folders. Chose from sets defined by filters.
+- [[todoist-review|Todoist Review]]: A pane for reviewing overdue tasks from todoist
+- [[image-to-text-ocr|Image to text OCR]]: Convert a image in your note to text.
+- [[break-page|PDF break page]]: Add shortkey and command to insert a break page formating for pdf exports.
+- [[tiff-viewer|Tiff Viewer]]: View .tif(f) files by generating duplicates in form of .tif(f).png
+- [[seafile|Seafile]]: Sync notes across devices using Seafile.
+- [[select-and-complete|Select & Complete]]: Select something and let the AI complete it for you.
+- [[plugin-reloader|Plugin Reloader]]: Manually reload plugins.
+- [[track-a-lot|Track-a-Lot]]: Scrapes different webpages, builds lists with the items as Markdown tables, and allows you to track their status.
+- [[ego-rock|Ego Rock]]: A basic taskwarrior UI for listing and modifying tasks.
 
 
 %% Hub footer: Please don't edit anything below this line %%
