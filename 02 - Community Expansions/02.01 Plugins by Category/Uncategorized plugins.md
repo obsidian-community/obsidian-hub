@@ -427,7 +427,6 @@ Plugins which have not yet been categorized by the community.
 - [[meld-build|Meld Build]]: Write and execute (sandboxed) JavaScript to render templates, query DataView and create dynamic notes.
 - [[meld-calc|Meld Calc]]: Do math
 - [[memorization|Memorization]]: Generates study index notes using a spaced repetition algorithm (SM-2).
-- [[memos-sync|Memos Sync]]: Keep in sync with your memos
 - [[mermaid-themes|Mermaid Themes]]: Makes it easy to apply custom mermaid.js themes and apply other tweaks. This plugin is supported by advertisements.
 - [[mermaid-tools|Mermaid Tools]]: Improved Mermaid.js experience for Obsidian: visual toolbar with common elements & more
 - [[mermaid-helper|Mermaid.js Helper (OMH)]]: plug in that helps in mermaid.js workflow and more
@@ -732,7 +731,7 @@ Plugins which have not yet been categorized by the community.
 - [[waka_time_box|Waka time box]]: Show daily coding activity from WakaTime
 - [[obsidian-wakatime|WakaTime]]: Automatic time tracking and metrics generated from your Obsidian usage activity.
 - [[wallabag|Wallabag]]: Sync your Wallabag articles.
-- [[waypoint|Waypoint]]: Easily generate dynamic content maps in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags!
+- [[waypoint|Waypoint]]: Easily generate dynamic content maps in your folder notes using waypoints. Enables folders to show up in the graph view and removes the need for messy tags!
 - [[weather-fetcher|Weather Fetcher]]: Fetch and insert current weather into the editor of Obsidian.
 - [[webpage-html-export|Webpage HTML Export]]: Export html from single files, canvas pages, or whole vaults. Direct access to the exported HTML files allows you to publish your digital garden anywhere. Focuses on flexibility, features, and style parity.
 - [[obsidian-week-planner|Week Planner]]: Week Planner plugin for Obsidian. This plugin defines commands for creating planning documents and moving tasks between them.
@@ -863,7 +862,7 @@ Plugins which have not yet been categorized by the community.
 - [[html-tabs|HTML Tabs]]: Create and render Tabs and tab panels in your notes.
 - [[vscode-editor|VSCode Editor]]: Edit Code Files like VSCode.
 - [[anki-sync-plus|AnkiSync+]]: Integration between Obsidian and Anki.
-- [[moviegrabber|Moviegrabber]]: Grab movie data from public APIs and transform it into notes that can be used with dataview and properties
+- [[moviegrabber|Moviegrabber]]: Grab movie data from public APIs and transform it into notes with a powerful templating engine.
 - [[geocoding-properties|Geocoding Properties]]: Insert address / location data from geocoding APIs as Obsidian properties.
 - [[auto-tag|Auto Tag]]: Easily generate relevant tags for your Obsidian notes or selected text.
 - [[timer|Timer]]: Allows you to measure time.
@@ -971,7 +970,7 @@ Plugins which have not yet been categorized by the community.
 - [[omglol-statuslog-publish|Omg.publish]]: Publish selected text to omg.lol service.
 - [[local-graphql|Local GraphQL]]: Export Obsidian data as a local GraphQL server.
 - [[feeds|Feeds]]: Create feeds of topic-specific bullet points in Obsidian.
-- [[spotify-links|Spotify Links]]: Insert a link to the song currently playing on your Spotify
+- [[spotify-links|Song Links]]: Insert a link to the song currently playing on your Spotify
 - [[hunchly|Hunchly]]: This plugin converts Hunchly's notes and captioned images into obsidian notes. Also adds selectors from hunchly as obsidian tags.
 - [[tckr|tckr]]: Get your TickTicks!
 - [[periodic-table|Periodic Table]]: View a periodic table in the sidebar
@@ -1050,7 +1049,6 @@ Plugins which have not yet been categorized by the community.
 - [[githobs|GitHobs]]: Use Obsidian as Github issue editor!
 - [[soundscapes|Soundscapes]]: Adds a music/ambiance (E.g. lofi, white noise) player to the status bar to help with concentration. Also allows you to play your own local music files.
 - [[paste-from-history|Paste From History]]: Paste from the editor's recent clipboard history.
-- [[hanayama-huzzles-tracker|Hanayama Huzzles Tracker]]: This scrapes the Hanayama Huzzle webpage builds a Markdown table with the information, and allows you to manually track them using a status column.
 - [[instapaper|Instapaper]]: Instapaper integration for Obsidian.
 - [[full-screen-cross-platform|Full Screen Toggle]]: Toggle fullscreen across all platforms.
 - [[pkvs|Persistent Key-Value Store]]: Provides a persistent key-value store for use in scripts.
@@ -1099,7 +1097,7 @@ Plugins which have not yet been categorized by the community.
 - [[days-since|Days Since]]: Demonstrates some of the capabilities of the Obsidian API.
 - [[gslogimaker-my-bible|My Bible]]: Your own customizable markdown bible for your personal vault!
 - [[bible-linker-pro|Bible linker Pro]]: Convert Bible texts to JW Library links.
-- [[protected-note|Protected Note]]: set Password and Protect your notes from other people.
+- [[protected-note|Protected Note]]: Set Password and Protect your notes from other people. Encrypt and Decrypt all notes!
 - [[statusbar-organizer|Status Bar Organizer]]: Lets you rearrange and hide specific status bar elements.
 - [[image-inline|Image Inline]]: Paste your image without attachment files
 - [[task-list|Task list]]: Enable better task management via lists.
@@ -1159,6 +1157,52 @@ Plugins which have not yet been categorized by the community.
 - [[plugin-reloader|Plugin Reloader]]: Manually reload plugins.
 - [[track-a-lot|Track-a-Lot]]: Scrapes different webpages, builds lists with the items as Markdown tables, and allows you to track their status.
 - [[ego-rock|Ego Rock]]: A basic taskwarrior UI for listing and modifying tasks.
+- [[augmented-canvas|Augmented Canvas]]: Obsidian Canvas with AI features.
+- [[chatgpt-prompt|Prompt ChatGPT]]: Send templated prompts to chatgpt when you open a file
+- [[canvas-mindmap-helper|Canvas Mindmap Helper]]: Make the Canvas work like a mindmap
+- [[advanced-canvas|Advanced Canvas]]: Supercharge your canvas experience! Create presentations, flowcharts and more!
+- [[quadro|Quadro]]: Qualitative Data Analysis (QDA) for social scientists. An open alternative to `MAXQDA` and `atlas.ti`, using Markdown to store data and research codes.
+- [[enhanced-annotations|Enhanced Annotations]]: Add a sidebar view for comments and highlights.
+- [[pomodoro-widget|Pomodoro Widget]]: Provides a widget based on a pomodoro kitchen timer. It's designed to be haptic, and has a constant ticking sound, and an alarm sound that can be toggled.
+- [[yesterday|Yesterday]]: Transform your notes into a visually stunning diary, integrating dialogs, chat logs, and media content blocks for a seamless journaling experience.
+- [[gitlab-wiki-export|Gitlab Wiki Exporter]]: Makes your entire vault Gitlab Wiki compatible and exports it to a specified location.
+- [[mblog-publish|MBlog Publish]]: 发布文章到MBlog平台,目前支持单篇文章发布
+- [[text-focus|Text Focus]]: Focus the text area when creating new notes.
+- [[tab-shifter|Tab Shifter]]: Enables shifting tabs between different tab splits
+- [[alias-management|Alias Management]]: Identify duplicate notes based on similar aliases and filenames.
+- [[historica|historica]]: Intelligently generates timeline from your content
+- [[date-inserter|Date Inserter]]: Insert a date at the cursor position using a calendar.
+- [[tekken-notation|Tekken Notation]]: Renders Tekken Notation.
+- [[mantou-ai|MantouAI]]: Work as a personal assistant for translation, writing polish, general Q&A, summarizing, using the power of large language models.
+- [[pomodoro-planner|Pomodoro Planner]]: Generates a pomodoro schedule plan
+- [[bookfusion|BookFusion]]: Import your BookFusion highlights & annotations into your vault.
+- [[mxmind|Mxmind Mindmap]]: Convert Markdown files to a mind map,mind map editor
+- [[contextual-sidecar|Contextual Sidecar]]: Add a context-dependent sidecar panel.
+- [[diffzip|Differential ZIP Backup]]: Back our vault up with lesser storage.
+- [[media-notes|Media Notes]]: Take notes on YouTube videos and podcasts with media controls and timestamps.
+- [[cooklang-viewer-and-editor|Cooklang]]: Display and edit recipes written in the Cooklang format.
+- [[contextual-note-templating|Contextual note templating]]: Prompts for values and templates to create notes.
+- [[vault-transfer|Vault Transfer]]: Copies a note, and pastes it into another vault.
+- [[movie-search|Movie Search]]: Helps you find movies and create notes.
+- [[view-count|View Count]]: Tracks view count for each vault file.
+- [[notice-controller|Notification Controller]]: Manages notifications at startup.
+- [[calendarium|Calendarium]]: Craft mind-bending fantasy and sci-fi calendars.
+- [[confluence-sync|Confluence Sync]]: Sync Obsidian notes with Confluence
+- [[persian-calendar|Persian Calendar]]: Persian Calendar for managing periodic notes based on persian solar (shamsi) calendar.
+- [[daily-note-navbar|Daily Note Navbar]]: Navigate between sequential daily notes with ease.
+- [[orion-publish|Orion Publish]]: Quickly and easily publish your notes to the web with Orion Publish.
+- [[gistr|Gistr]]: Integrate OpenGist and Github gist snippets in your notes.
+- [[things3-today|Things3 Today]]: Manage today's tasks with Things3
+- [[command-block-list|Command Block List]]: Hide unwanted commands from the command palette.
+- [[crafty|Crafty]]: Add tooltip to any canvas node and Quickly navigate between canvas nodes
+- [[color-cycler|Color cycler]]: Dynamically change the accent color of the theme.
+- [[markmap-to-csv|Markmap to CSV]]: Converts Markmap data to CSV format.
+- [[ear-training|Ear Training]]: Get ear training exercises inside your vault.
+- [[hugo-codeblock-highlight|Hugo codeblock highlight]]: Highlights lines in codeblocks using Hugo's hl_lines syntax.
+- [[canvas-node-screenshot|Node Screenshot]]: Capture node effortlessly with precision screenshot.
+- [[line-commands|Line Commands]]: Adds commands to quickly select, copy, cut, and paste lines under the selection or cursor.
+- [[title-renamer|Title renamer]]: Synchronise title in markdown when file is renamed.
+- [[markdown-media-card|Markdown Media Card]]: Insert media information cards in Markdown, such as books, music, movies, etc.
 
 
 %% Hub footer: Please don't edit anything below this line %%
