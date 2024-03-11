@@ -243,6 +243,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Things|Things]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Tokyo Night Storm|Tokyo Night Storm]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Tokyo Night|Tokyo Night]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Tom's Theme|Tom's Theme]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Tomorrow Night Bright|Tomorrow Night Bright]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Tomorrow|Tomorrow]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Traffic Lights|Traffic Lights]]
