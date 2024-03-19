@@ -216,7 +216,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-dynamic-background|Dynamic Background]]: Adding dynamic effects and/or static wallpapers for Obsidian background
 - [[obsidian-dynamic-embed|Dynamic Embed]]: Dynamicly interpreted inline embeds.
 - [[obsidian-dynamic-highlights|Dynamic Highlights]]: Dynamically highlight text based on cursor selection or search query with full regex, mobile, and live preview support
-- [[dynamic-rtl|Dynamic RTL]]: Dynamic RTL/LTR direction per line/paragraph, dependant on language!
 - [[dynamic-timetable|Dynamic Timetable]]: Calculate the estimated time of completion from the estimated time of the task and dynamically create a timetable.
 - [[obsidian-dynbedded|Dynbedded]]: Dynamic Embeds for Obsidian.md
 - [[easy-bake|Easy Bake]]: Easily compile many Obsidian notes down to a single file.
@@ -375,6 +374,7 @@ Plugins which have not yet been categorized by the community.
 - [[latex-matrices|Latex Matrices]]: Speedup latex matrices writing.
 - [[obsidian-latex-suite|Latex Suite]]: Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements
 - [[laws-of-form|Laws of Form]]: Allows you to create, manage and display Laws of Form expressions like ((a)) (b) = a (b).
+- [[periodic-para|LifeOS]]: Life management system(Assist in practicing the PARA method with periodic notes and usememos).
 - [[lilypond|Lilypond]]: Lilypond support in Obsidian
 - [[obsidian-limelight|Limelight]]: Put a spotlight on your active pane
 - [[obsidian-lineup-builder|Lineup Builder]]: Build football lineups in Obsidian.
@@ -478,7 +478,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-circuitjs|Obsidian CircuitJS]]: Integrating CircuitJS and Obsidian
 - [[obsidian-columns|Obsidian Columns]]: Allows you to create columns in Obsidian Markdown
 - [[obsidian-functionplot|Obsidian Functionplot]]: A plugin for displaying mathematical graphs in obsidian.md.
-- [[obsidian-memos|Obsidian Memos]]: A plugin for capturing ideas in Obsidian
 - [[obsidian-mtg|Obsidian MtG]]: A plugin for managing Magic: The Gathering decks and card lists as Obsidian notes
 - [[obsidian-ocr|Obsidian OCR]]: Add ocr capabilities to obsidian
 - [[obsidian-stylist|Obsidian Stylist]]: Obsidian plugin that allows to add classes and styles on markdown blocks
@@ -518,7 +517,6 @@ Plugins which have not yet been categorized by the community.
 - [[pf2-action-icons|Pathfinder 2E Action Icons]]: Displays Pathfinder 2E action icons easily
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
 - [[perilous-writing|Perilous Writing]]: Write continuously—or lose all progress.
-- [[periodic-para|Periodic PARA]]: Assist in practicing the PARA method with periodic notes and usememos.
 - [[persistent-links|Persistent Links]]: Automatically repair internal links to blocks and headings
 - [[personal-assistant|Personal Assistant]]: Streamline workflows within Obsidian, managing memos and plugins with just one command.
 - [[pieces-for-developers|Pieces for Developers]]: Streamline your coding workflow in Obsidian with the Pieces For Developers plugin, offering powerful features for capturing, managing, translating, and enhancing code snippets. (Closed Source) 
@@ -546,7 +544,7 @@ Plugins which have not yet been categorized by the community.
 - [[quail|Quail]]: Save, publish, delivery notes via Quail.ink as newsletters and blogs.
 - [[qatt|Query all the things]]: Execute SQL base queries against your data in Obsidian and render it how you want using templates.
 - [[quick-links|Quick Links]]: Create quick link shortcuts to Wikipedia and other sites
-- [[quick-plugin-switcher|Quick Plugin Switcher]]: Adds a ribbon icon to quickly switch plugins with filters (all, enabled, disabled, most switched)
+- [[quick-plugin-switcher|Quick Plugin Switcher]]: Quickly manage installed and community plugins. The only way to evolve in the jungle of plugins
 - [[quicknote|Quick note]]: Create a quick note in a floating window (on command or by right-clicking the Obsidian app icon)
 - [[quick-snippets-and-navigation|Quick snippets and navigation]]: Keyboard navigation up/down for headings - Quick switcher extensions - Copy code block via keyboard shortcut - Configurable code block and callout snippets
 - [[obsidian-quickshare|QuickShare]]: Securely share your Obsidian notes with one click. Notes are end-to-end encrypted. No API keys or configuration required.
@@ -678,6 +676,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-theme-design-utilities|Theme Design Utilities]]: Some Utilities and Quality-of-Life Features for Designers of Obsidian Themes.
 - [[obsidian-theme-toggler|Theme Toggler]]: Toggle the theme in Obsidian's panels.
 - [[obsidian-things3-sync|Things3 Sync]]: An Obsidian plugin for sync between Obsidian and Things3, create Todo and sync Todo status
+- [[obsidian-memos|Thino]]: Capturing ideas and save them into daily notes.
 - [[obsidian-thumbnails|Thumbnails]]: Insert video thumbnails into your notes
 - [[obsidian-tikzjax|TikZJax]]: Render LaTeX and TikZ diagrams in your notes
 - [[time-ruler|Time Ruler]]: A drag-and-drop time ruler combining the best of a task list and a calendar view (integrates with Tasks, Full Calendar, and Dataview).
@@ -766,7 +765,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-epub-plugin|ePub Reader]]: This is an ePub reader plugin for Obsidian. Can open document with ".epub" file extension.
 - [[floating-toc|floating toc]]: This is a floating Toc plugin that  hovers a table of content  containing a header level on the notes sidebar.
 - [[ibook|ibook]]: plugin for apple ibook.
-- [[obsidian-jtab|jTab]]: Adds the ability to show guitar chords and tabs directly in your notes using jTab.
+- [[obsidian-jtab|jTab Guitar Codeblocks]]: Adds the ability to show guitar chords and tabs directly in your notes using jTab.
 - [[obsidian-markdown-export-plugin|markdown export]]: This is a markdown export plugin for Obsidian.
 - [[oblogger|oblogger]]: tagger explorer and frontmatter logger
 - [[obsidian-echarts|obsidian echarts]]: obsidian echarts
@@ -1112,7 +1111,7 @@ Plugins which have not yet been categorized by the community.
 - [[tv-tracker|Movie and TV show tracker]]: A Movie and TV show tracker.
 - [[autogen|Autogen]]: In place autogeneration of content based on prompts.
 - [[broken-links|Broken Links]]: Find broken links in your vault that don't connect to notes.
-- [[image_collector|Image Collector]]: Collects all of the images in an Obsidian (markdown) note and exports them to a folder called 'file_name images'.
+- [[image_collector|Image Collector]]: Collects all images from your note and saves them to a new folder called "file_name images".
 - [[frontmatter-viewmode|Set View Mode per Note]]: Use YAML frontmatter to specify a view mode per note.
 - [[wordwise|WordWise]]: Writing companion for AI content generation.
 - [[git-integration|Git Integration]]: Easily backup vault on a remote repository.
@@ -1158,7 +1157,7 @@ Plugins which have not yet been categorized by the community.
 - [[track-a-lot|Track-a-Lot]]: Scrapes different webpages, builds lists with the items as Markdown tables, and allows you to track their status.
 - [[ego-rock|Ego Rock]]: A basic taskwarrior UI for listing and modifying tasks.
 - [[augmented-canvas|Augmented Canvas]]: Obsidian Canvas with AI features.
-- [[chatgpt-prompt|Prompt ChatGPT]]: Send templated prompts to chatgpt when you open a file
+- [[chatgpt-prompt|Prompt ChatGPT]]: Send templates to chatgpt when you open a file
 - [[canvas-mindmap-helper|Canvas Mindmap Helper]]: Make the Canvas work like a mindmap
 - [[advanced-canvas|Advanced Canvas]]: Supercharge your canvas experience! Create presentations, flowcharts and more!
 - [[quadro|Quadro]]: Qualitative Data Analysis (QDA) for social scientists. An open alternative to `MAXQDA` and `atlas.ti`, using Markdown to store data and research codes.
@@ -1191,7 +1190,7 @@ Plugins which have not yet been categorized by the community.
 - [[persian-calendar|Persian Calendar]]: Persian Calendar for managing periodic notes based on persian solar (shamsi) calendar.
 - [[daily-note-navbar|Daily Note Navbar]]: Navigate between sequential daily notes with ease.
 - [[orion-publish|Orion Publish]]: Quickly and easily publish your notes to the web with Orion Publish.
-- [[gistr|Gistr]]: Integrate OpenGist and Github gist snippets in your notes.
+- [[gistr|Gistr]]: Use your notes to embed, create, and update gists for Github and Opengist.
 - [[things3-today|Things3 Today]]: Manage today's tasks with Things3
 - [[command-block-list|Command Block List]]: Hide unwanted commands from the command palette.
 - [[crafty|Crafty]]: Add tooltip to any canvas node and Quickly navigate between canvas nodes
@@ -1203,6 +1202,19 @@ Plugins which have not yet been categorized by the community.
 - [[line-commands|Line Commands]]: Adds commands to quickly select, copy, cut, and paste lines under the selection or cursor.
 - [[title-renamer|Title renamer]]: Synchronise title in markdown when file is renamed.
 - [[markdown-media-card|Markdown Media Card]]: Insert media information cards in Markdown, such as books, music, movies, etc.
+- [[canvas-minimap|Canvas minimap]]: For easy navigation in large canvas
+- [[fit|Fit]]: Minimalist File gIT (FIT) to sync your files across mobile and desktop devices using GitHub.
+- [[vlc-bridge|VLC Bridge]]: Take video/movie notes with timestamp links and snapshots from VLC Player.
+- [[progress-clocks|Progress Clocks]]: Progress clocks and other useful widgets for real-time status tracking.
+- [[note-companion-folder|Note Companion Folder]]: Manage a separate folder of attachments for each note.
+- [[tab-selector|Tab Selector]]: Switch to the desired tab in about two actions without leaving the home position on the keyboard.
+- [[default-query-in-backlink|Default query in backlinks]]: Automatically input default query in search input of backlinks in document.
+- [[metafolders|Metafolders]]: Multidimensional note navigation
+- [[spellcheck-toggler|Spellcheck Toggler]]: Toggle spellchecking for types of text blocks in the editing view.
+- [[simsapa|Simsapa]]: Pāli dictionary and sutta search using Simsapa Dhamma Reader. Open a sidebar or double-click to lookup Pāli words in the dictionary, or search in the suttas.
+- [[project-browser|Project Browser]]: Replaces your new tab window with a browseable list of the files and folders in your vault.
+- [[cicada-sync|Cicada Synchronizer]]: uses Git to synchronize vaults for team collaboration.
+- [[verse-of-the-day|Verse of the Day]]: Lets you add the verse of the day from YouVersion to your daily notes
 
 
 %% Hub footer: Please don't edit anything below this line %%
