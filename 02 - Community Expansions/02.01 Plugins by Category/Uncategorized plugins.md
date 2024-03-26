@@ -80,7 +80,7 @@ Plugins which have not yet been categorized by the community.
 - [[awesome-image|Awesome Image]]: One-stop solution for image management.
 - [[awesome-reader|Awesome Reader]]: Make Obsidian a proper Reader.
 - [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
-- [[bmo-chatbot|BMO Chatbot]]: Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) such as OpenAI's "gpt-3.5-turbo" and "gpt-4."
+- [[bmo-chatbot|BMO Chatbot]]: Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) from Ollama, LM Studio, Anthropic, OpenAI, Mistral AI, and more for Obsidian.
 - [[obsidian42-brat|BRAT]]: Easily install a beta version of a plugin for testing.
 - [[babashka|Babashka]]: Evaluate Clojure(Script) codeblocks in Babashka.
 - [[background-image|Background Image]]: This allows you to specify a remote URL as the background image, and a few settings to tweak the experience.
@@ -342,7 +342,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-importer|Importer]]: Import data from Notion, Evernote, Apple Notes, Microsoft OneNote, Google Keep, Bear, Roam, and HTML files.
 - [[inbox|Inbox]]: Show in app notification if there is data to process in the "inbox" note.
 - [[incremental-id|Incremental ID]]: Allow to generate Jira like ids.
-- [[index-checker|Index Checker]]: Make sure your index (MOC) files contain all links they should contain.
+- [[index-checker|Index Checker]]: Make sure your index "MOC" files (notes or Canvas) contain all links they should contain.
 - [[influx|Influx]]: An alternative backlinks plugin, which displays relevant and formatted excerpts from notes with linked mentions, based on the position of mentions in the notes' hierarchical structure (bullet level indentation).
 - [[obsidian-text-expander-js|Inline Scripts]]: Type text shortcuts which are then replaced with JavaScript generated text.
 - [[inline-code-highlight|InlineCodeHighlight]]: Highlight inline `'md **code**` blocks as well as you do the ```md **big**``` ones
@@ -668,7 +668,7 @@ Plugins which have not yet been categorized by the community.
 - [[testing-vault|Testing Vault]]: This allows a developer to make a random vault of arbitrary size for testing their plugins.
 - [[obsidian-dataset-aid|Text Dataset Aid]]: This plugin for obsidian aids in the creation of fine-tuning datasets for language models.
 - [[text-extractor|Text Extractor]]: A (companion) plugin to facilitate the extraction of text from images (OCR) and PDFs.
-- [[obsidian-textgenerator-plugin|Text Generator]]: Text generation using OpenAI
+- [[obsidian-textgenerator-plugin|Text Generator]]: Text generation using AI
 - [[text-progress-bar|Text Progress Bar]]: Display low-fi text progress bars in your notes.
 - [[obs-text-wrapper|Text Wrapper]]: Quickly wrap selected text with HTML tags by using a shortcut or from the command palette
 - [[obsidian-tts|Text to Speech]]: Hear your notes.
@@ -745,7 +745,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-wordnik|Wordnik Definitions]]: Grabs information from Wordnik for a topic and brings it into Obsidian notes
 - [[obsidian-wordy|Wordy]]: Thesaurus, rhymes, alliterations, dictionary and more using the Datamuse API
 - [[workbench-obsidian|Workbench]]: Keep a workbench of knowledge materials.
-- [[workona-to-obsidian|Workona To Obsidian]]: Import Workona resources through generated JSON file.
+- [[workona-to-obsidian|Workona Import]]: Import Workona resources through generated JSON file.
 - [[obsidian-wrap-with-shortcuts|Wrap with shortcuts]]: Wrap selected text in custom tags with shortcuts. E.g.: underline, sub, ruby(フリガナ)
 - [[writing|Writing]]: Write and format your next book directly from Obsidian
 - [[wucai-highlights-official|WuCai highlights Official]]: Official WuCai highlights <-> Obsidian integration
@@ -1056,7 +1056,7 @@ Plugins which have not yet been categorized by the community.
 - [[create-task|Create Task]]: Create tasks faster from anywhere.
 - [[timeline-schedule|Timeline Schedule]]: Inline timelines generated from human-readable time strings, e.g. 'Walk dog (30min)' in a ```schedule codeblock.
 - [[cursor-goaway|cursor-goaway]]: make cursor goaway after open a text file
-- [[continuous-mode|Continuous Mode]]: Displays all open notes (or "leaves") in a tab group as a continuous scrollable document (sometimes called "Scrivenings mode"). Features include arrow navigation between notes and the ability to reorder notes via tab header drag-and-drop.
+- [[continuous-mode|Continuous Mode]]: Displays all open notes in a tab group as if they were a continuous scrollable document (sometimes called "Scrivenings mode"). Features include arrow navigation between notes and the ability to reorder notes via tab header drag-and-drop.
 - [[multi-state-checkbox-switcher|Multi State CheckBox Switcher]]: Handle with multistate checkboxes.
 - [[relay-md|Relay.md]]: Markdown workflows for teams.
 - [[insighta|InsightA]]: InsightA can transform extensive articles into concise, atomic notes and generate MOC based on note title using LLM. 🚀📝
@@ -1167,7 +1167,7 @@ Plugins which have not yet been categorized by the community.
 - [[gitlab-wiki-export|Gitlab Wiki Exporter]]: Makes your entire vault Gitlab Wiki compatible and exports it to a specified location.
 - [[mblog-publish|MBlog Publish]]: 发布文章到MBlog平台,目前支持单篇文章发布
 - [[text-focus|Text Focus]]: Focus the text area when creating new notes.
-- [[tab-shifter|Tab Shifter]]: Enables shifting tabs between different tab splits
+- [[tab-shifter|Tab Shifter]]: Enables shifting tabs between different tab splits and some other basic IDE tab functionalities
 - [[alias-management|Alias Management]]: Identify duplicate notes based on similar aliases and filenames.
 - [[historica|historica]]: Intelligently generates timeline from your content
 - [[date-inserter|Date Inserter]]: Insert a date at the cursor position using a calendar.
@@ -1187,7 +1187,7 @@ Plugins which have not yet been categorized by the community.
 - [[notice-controller|Notification Controller]]: Manages notifications at startup.
 - [[calendarium|Calendarium]]: Craft mind-bending fantasy and sci-fi calendars.
 - [[confluence-sync|Confluence Sync]]: Sync Obsidian notes with Confluence
-- [[persian-calendar|Persian Calendar]]: Persian Calendar for managing periodic notes based on persian solar (shamsi) calendar.
+- [[persian-calendar|Persian Calendar]]: Persian Calendar gives you a simple and useful view for working with periodic (yearly, quarterly, monthly, weekly and daily) notes based on solar (shamsi) calendar.
 - [[daily-note-navbar|Daily Note Navbar]]: Navigate between sequential daily notes with ease.
 - [[orion-publish|Orion Publish]]: Quickly and easily publish your notes to the web with Orion Publish.
 - [[gistr|Gistr]]: Use your notes to embed, create, and update gists for Github and Opengist.
@@ -1215,6 +1215,20 @@ Plugins which have not yet been categorized by the community.
 - [[project-browser|Project Browser]]: Replaces your new tab window with a browseable list of the files and folders in your vault.
 - [[cicada-sync|Cicada Synchronizer]]: uses Git to synchronize vaults for team collaboration.
 - [[verse-of-the-day|Verse of the Day]]: Lets you add the verse of the day from YouVersion to your daily notes
+- [[etymology-lookup|Etymology Lookup]]: Get the etymology of words in your notes
+- [[fight-note|Fight Note]]: Render Tekken notation into an easy-to-read format (partially useful for other fighting games: Guilty Gear, Street Fighter and etc).
+- [[cards-view|Cards View]]: Displays a card view of your notes.
+- [[swiftlatex-render|SwiftLaTeX Render]]: Render LaTeX in codeblocks into a pdf, without needing to install LaTeX separately.
+- [[password-protect|Password Protect]]: Password protect your notes.
+- [[editor-full-screen|Editor full screen]]: Full screen mode (for presentations) or Zen mode (focused writing). You can use resized OS windows, it will fit to the window.
+- [[moulinette|Moulinette Search for TTRPG]]: Search, browse and download TTRPG (tabletop role-playing game) content from Moulinette Cloud.
+- [[semantic-canvas|Semantic Canvas]]: Create semantic knowledge graphs using Canvases to modify note properties graphically.
+- [[crypt-it|Crypt It]]: Generate encrypted version of file(s) using rclone encryption format.
+- [[para-workflower|PARA Workflower]]: Helpful commands for starting and working in your vault with the PARA method.
+- [[lavadocs|Lavadocs]]: Public docs, from the fires of your vault.
+- [[unofficial-kinopoisk|Kinopoisk search]]: Helps you find movies and tv shows via Kinopoisk and create notes.
+- [[multilingual|Multilingual]]: Simplify linking notes across multiple languages by automatically adding translations of note names into aliases. Designed for multilingual users.
+- [[quick-file-name|Quick File Name]]: Generates a note with a random string as its name.
 
 
 %% Hub footer: Please don't edit anything below this line %%
