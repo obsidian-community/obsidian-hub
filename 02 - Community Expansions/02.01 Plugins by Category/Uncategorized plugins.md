@@ -397,7 +397,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-local-rest-api|Local REST API]]: Get, change or otherwise interact with your notes in Obsidian via a REST API.
 - [[obsidian-local-images|Local images]]: Local Images plugin finds all links to external images in your notes, then downloads and saves images locally, and finally adjusts the image links in your notes to point to the saved image files.
 - [[obsidian-lock-screen-plugin|Lock Screen]]: Protect your vault with a lock screen.
-- [[logstravaganza|Logstravaganza]]: A simple proxy for `console.*()` calls which copies log messages and uncaught exceptions to a note.
+- [[logstravaganza|Logstravaganza]]: A simple proxy for `console.*()` calls which copies log messages and uncaught exceptions to a file.
 - [[loom|Loom]]: Loom in Obsidian
 - [[lovely-mindmap|Lovely-Mindmap]]: Build your own knowledge graph with smiles :-)
 - [[lumberjack-obsidian|Lumberjack 🪓 🪵]]: Log your thoughts! Lumberjack adds URL commands to help you axe inefficiency and get right to writing.
@@ -432,7 +432,7 @@ Plugins which have not yet been categorized by the community.
 - [[mermaid-helper|Mermaid.js Helper (OMH)]]: plug in that helps in mermaid.js workflow and more
 - [[obsidian-meta-bind-plugin|Meta Bind]]: Make your notes interactive with inline input fields, metadata displays, and buttons.
 - [[obsidian-metacopy|Metacopy & URL]]: Copy the value of a frontmatter key and allows to create link from it using various settings.
-- [[metadata-menu|Metadata Menu]]: For data quality enthusiasts (and dataview lovers): manage the metadata of your notes.
+- [[metadata-menu|Metadata Menu]]: For data quality enthusiasts (and dataview users): manage the metadata of your notes.
 - [[obsidian-metronome-plugin|Metronome]]: Add interactive metronomes to your notes.
 - [[micro-templates|Micro templates]]: Flexible embedded micro templates powered by javascript functions
 - [[microblog-publish-plugin|Micro.publish]]: Publish notes to Micro.blog
@@ -529,7 +529,6 @@ Plugins which have not yet been categorized by the community.
 - [[pocketbook-cloud-highlight-importer|Pocketbook Cloud Highlight Importer]]: Imports notes and highlights from your Pocketbook Cloud account.
 - [[podnotes|PodNotes]]: Helps you write notes on podcasts.
 - [[poker|Poker]]: Easily document and view your poker hands.
-- [[postgresql-obsidian|PostgreSQL Obsidian]]: An Obsidian plugin to upload your notes' metadata to your database.
 - [[obsidian-pretty-bibtex|Pretty BibTeX]]: Shows raw BibTeX bibliography entries in a prettier way
 - [[prioritize|Prioritize]]: Prioritize your tasks and notes in Obsidian.
 - [[obsidian-prozen|ProZen]]: Enter Zen mode to focus on writing. The plugin expands current tab to full screen removing everything but content.
@@ -630,7 +629,6 @@ Plugins which have not yet been categorized by the community.
 - [[snippet-commands-obsidian|Snippet Commands]]: Registers custom css snippets as commands (which you can bind hotkeys to)
 - [[obsidian-snippetor|Snippetor]]: Create and tweak common snippets (starting with custom tasks)
 - [[obsidian-soomda|Soomda]]: Quickly hide your sidebars
-- [[obsidian-sortable|Sortable]]: Wiki-like table sorting.
 - [[source-code-note|Source Code Note]]: This plugin can help you organize source code note easily.
 - [[source-scanner|Source Scanner]]: Scanner that extracts comments from source and places it in md files
 - [[speech2text-helper|Speech To Text Keyboard Helper]]: Makes available helper commands for Speech to Text (Google Andoroid) keyboard in Obsidian command pallete (and from there could be added to e.g. mobile buttons toolbar).
@@ -1056,7 +1054,7 @@ Plugins which have not yet been categorized by the community.
 - [[create-task|Create Task]]: Create tasks faster from anywhere.
 - [[timeline-schedule|Timeline Schedule]]: Inline timelines generated from human-readable time strings, e.g. 'Walk dog (30min)' in a ```schedule codeblock.
 - [[cursor-goaway|cursor-goaway]]: make cursor goaway after open a text file
-- [[continuous-mode|Continuous Mode]]: Displays all open notes in a tab group as if they were a continuous scrollable document (sometimes called "Scrivenings mode"). Features include arrow navigation between notes and the ability to reorder notes via tab header drag-and-drop.
+- [[continuous-mode|Continuous Mode]]: Displays all open notes in a tab group as if they were a continuous scrollable document (sometimes called "Scrivenings mode"). Features include arrow navigation between notes and the ability to reorder notes via tab header drag-and-drop. 
 - [[multi-state-checkbox-switcher|Multi State CheckBox Switcher]]: Handle with multistate checkboxes.
 - [[relay-md|Relay.md]]: Markdown workflows for teams.
 - [[insighta|InsightA]]: InsightA can transform extensive articles into concise, atomic notes and generate MOC based on note title using LLM. 🚀📝
@@ -1190,7 +1188,7 @@ Plugins which have not yet been categorized by the community.
 - [[persian-calendar|Persian Calendar]]: Persian Calendar gives you a simple and useful view for working with periodic (yearly, quarterly, monthly, weekly and daily) notes based on solar (shamsi) calendar.
 - [[daily-note-navbar|Daily Note Navbar]]: Navigate between sequential daily notes with ease.
 - [[orion-publish|Orion Publish]]: Quickly and easily publish your notes to the web with Orion Publish.
-- [[gistr|Gistr]]: Use your notes to embed, create, and update gists for Github and Opengist.
+- [[gistr|Gistr]]: Integrate Opengist and Github gists into your notes, allowing you to create, update, and share between your notes and gist services
 - [[things3-today|Things3 Today]]: Manage today's tasks with Things3
 - [[command-block-list|Command Block List]]: Hide unwanted commands from the command palette.
 - [[crafty|Crafty]]: Add tooltip to any canvas node and Quickly navigate between canvas nodes
@@ -1229,6 +1227,19 @@ Plugins which have not yet been categorized by the community.
 - [[unofficial-kinopoisk|Kinopoisk search]]: Helps you find movies and tv shows via Kinopoisk and create notes.
 - [[multilingual|Multilingual]]: Simplify linking notes across multiple languages by automatically adding translations of note names into aliases. Designed for multilingual users.
 - [[quick-file-name|Quick File Name]]: Generates a note with a random string as its name.
+- [[sticky-heading|Sticky Headings]]: Sticky Headings and Shows the heading level
+- [[ai-zhipu|AI Zhipu]]: Generate text using the ZhipuAI API.
+- [[new-tab-plus|New Tab +]]: Allow to open markdown files, graph and canvas in new tab as the default behavior.
+- [[back-it-up|BackItUp]]: Quickly make a copy or snapshot of a note.
+- [[callout-suggestions|Callout Suggestions]]: Adds a fuzzy searched suggestion modal for callouts.
+- [[ai_llm|AI LLM]]: Integrate local machine learning (OLLAMA) functionality into your notes, enhancing their capabilities
+- [[tag-links|Tag Links]]: Allows tags to be opened as links using a hotkey.
+- [[notice-logger|Notice logger]]: Logs all notices to the developer console, with optional prefix.
+- [[buckwalter-transliteration|Buckwalter Transliteration]]: Renders Arabic using Buckwalter's encoding scheme.
+- [[hemingway-mode|Hemingway Mode]]: Prevents any editing, only letting you write ahead.
+- [[univer|Univer Doc and Sheet]]: Create doc and sheet base on Univer.
+- [[telegram-inbox|Telegram Inbox]]: Receive messages from Telegram bot and add them to daily note.
+- [[misskey-connector|Misskey Connector]]: Enables posting and embedding Misskey notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
