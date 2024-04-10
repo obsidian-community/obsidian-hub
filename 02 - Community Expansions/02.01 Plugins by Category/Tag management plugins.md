@@ -20,6 +20,7 @@ Plugins to manage tags.
 - [[tag-page-preview|Tag Page Preview]]: Clicking a tag opens a dialog listing pages that use that tag
 - [[tag-wrangler|Tag Wrangler]]: Rename, merge, toggle, and search tags from the tag pane
 - [[obsidian-tagfolder|TagFolder]]: Show tags as folder
+- [[tag-page-md|Tag Page]]: Dynamically generate and update tag-specific pages, offering a consolidated view of each tag's references across your vault.
 
 ## Related categories
 
