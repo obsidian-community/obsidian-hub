@@ -24,6 +24,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Amethyst|Amethyst]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/AnuPpuccin|AnuPpuccin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Apatheia|Apatheia]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Apex|Apex]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Aqua|Aqua]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Arcane|Arcane]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ars Magna|Ars Magna]]
