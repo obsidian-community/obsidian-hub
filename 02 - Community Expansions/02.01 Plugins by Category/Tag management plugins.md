@@ -17,10 +17,10 @@ Plugins to manage tags.
 
 - [[obsidian-frontmatter-tag-suggest|Frontmatter Tag Suggest]]: Autocompletes tags in the frontmatter tags field
 - [[tag-word-cloud|Tag & Word Cloud]]: Show a cloud of your tags/words in a note
+- [[tag-page-md|Tag Page]]: Dynamically generate and update tag-specific pages, offering a consolidated view of each tag's references across your vault.
 - [[tag-page-preview|Tag Page Preview]]: Clicking a tag opens a dialog listing pages that use that tag
 - [[tag-wrangler|Tag Wrangler]]: Rename, merge, toggle, and search tags from the tag pane
 - [[obsidian-tagfolder|TagFolder]]: Show tags as folder
-- [[tag-page-md|Tag Page]]: Dynamically generate and update tag-specific pages, offering a consolidated view of each tag's references across your vault.
 
 ## Related categories
 
