@@ -698,7 +698,7 @@ Plugins which have not yet been categorized by the community.
 - [[typing-transformer-obsidian|Typing Transformer]]: Improved, configurable auto formatting as typing
 - [[typing-speed|Typing speed]]: This is a plugin for showing the current typing speed in the status bar
 - [[typst|Typst Renderer]]: Renders `typst` code blocks and math blocks with Typst.
-- [[unitade|UNITADE]]: Effortlessly treat any file extension as note, organize diverse file formats in your vault.
+- [[unitade|UNITADE.md]]: Effortlessly treat any file extension as note, organize diverse file formats in your vault and take advancements in control of extension system even with custom modals.
 - [[url-namer|URL Namer]]: This plugin retrieves the HTML titles to name the raw URL links.
 - [[ultimate-todoist-sync|Ultimate Todoist Sync]]: This is the best Todoist task synchronization plugin for Obsidian so far.
 - [[uncheck-all|Uncheck All]]: This plugin adds a command to uncheck all checkboxes in the current note.
@@ -1125,7 +1125,6 @@ Plugins which have not yet been categorized by the community.
 - [[lean-syntax-highlight|Lean Syntax Highlight]]: Provides live syntax highlight for the Lean programming language
 - [[ai-tagger|AI Tagger]]: Analyze and tag your document with one click for efficient note organization using AI. OpenAI API key required
 - [[quiz-generator|Quiz Generator]]: Generate interactive quizzes from your notes using OpenAI's GPT-3.5 and GPT-4 models.
-- [[markdownspace-publish|MarkdownSpace Publish]]: Publish your notes to MarkdownSpace
 - [[goban-sgf|Goban SGF]]: Obsidian plugin for recording Go games (SGF format goban).
 - [[display-relative-path-img|Display Relative Path Img]]: Display the image of the <img> tag
 - [[metadata-icon|Metadata Icon]]: Change metadata entry icon
@@ -1226,7 +1225,7 @@ Plugins which have not yet been categorized by the community.
 - [[notice-logger|Notice logger]]: Logs all notices to the developer console, with optional prefix.
 - [[buckwalter-transliteration|Buckwalter Transliteration]]: Renders Arabic using Buckwalter's encoding scheme.
 - [[hemingway-mode|Hemingway Mode]]: Prevents any editing, only letting you write ahead.
-- [[univer|Univer Doc and Sheet]]: Create doc and sheet base on Univer.
+- [[univer|Univer]]: Create, edit, and view spreadsheets and documents in various formats like Excel and Word directly within your knowledge base.
 - [[telegram-inbox|Telegram Inbox]]: Receive messages from Telegram bot and add them to daily note.
 - [[misskey-connector|Misskey Connector]]: Enables posting and embedding Misskey notes.
 - [[shiki-highlighter|Shiki Highlighter]]: Highlight code blocks with Shiki.
@@ -1252,6 +1251,32 @@ Plugins which have not yet been categorized by the community.
 - [[vconsole|vConsole]]: Integrate vConsole for developers to facilitate the debugging of mobile plugins.
 - [[external-links|External Links]]: List external links and discover which notes reference them.
 - [[target-word-count|Target Word Count]]: Disable editing until you've added a target number of words.
+- [[cloudatlas-o-am|Amazing Marvin Integration]]: Integration with Amazing Marvin
+- [[cluster|Cluster]]: Make the notes clustering simpler on mobile devices and work well on PCs ether, Notes Clustering is the process of creating hierarchical notes structures.
+- [[imdb-sync|IMDb]]: Sync your IMDb list
+- [[daily-prompt|Daily Prompt]]: Set up custom prompts and automatically fill them into your daily notes
+- [[custom-sidebar-icons|Custom Sidebar Icons]]: Customize sidebar workspace document icons.
+- [[update-time-updater|Update Time Updater]]: Update the 'update time' element when saving or manually.
+- [[markpilot|Markpilot]]: Inline completions and chat view powered by OpenAI
+- [[hierarchical-outgoing-links|Hierarchical Outgoing Links]]: Displays outgoing links in a hierarchy
+- [[create-note-list|Create List of Notes]]: Create a bulleted list (with links) of all notes in the current folder.
+- [[alias-picker|Alias Picker]]: Pick aliases or blocks of links.
+- [[fontsource|Fontsource]]: Load custom fonts from Fontsource into your notes.
+- [[ob2static-site|Static Site MD Exporter]]: Export specific notes to general md for static site generator like Hugo, Hexo, Astro and more.
+- [[enhanced-copy|Enhanced Copy]]: Copy your selection and add it some edit to paste in other markdown software. Allows to keep markdown in reading view, removing wikilinks in editing, copy from locked canvas, and more!
+- [[ink|Ink]]: Hand write or draw directly between paragraphs in your notes using a digital pen, stylus, or Apple pencil. Useful for handwriting, sketches, scribbles, or even math equations and scientific notation.
+- [[sync-config-folder-to-common-folder|Sync config folder to common folder]]: Sync contents from config folder to common folder for backup or other purposes
+- [[ai-templater|AI for Templater]]: AI Extension for the Templater plugin with the OpenAI Client Library.
+- [[dust-calendar|Dust Calendar]]: 更符合中国习惯的日历，可以显示农历、节气、节假日、调休信息，支持月视图和年视图切换，支持关联创建周期性笔记。
+- [[google-blogger|Google Blogger]]: Publish notes to Google Blogger.
+- [[notes-to-strapi-export-article-ai|Strapi Exporter AI]]: Effortlessly export your notes to Strapi CMS with AI-powered handling and SEO optimization.
+- [[mindmap|Mindmap]]: Create notes with Mindmaps.
+- [[outline-converter|Outline Converter]]: Convert outline to continuous text.
+- [[universal-renderer|Universal renderer]]: Render many different diagrams natively
+- [[canvas2document|Canvas2Document]]: Convert a complete Canvas to a long form document, integrating all cards, notes, images and other media content into a single markdown file.
+- [[letterboxd-rss-sync|Letterboxd Diary RSS Sync]]: Syncs your public Letterboxd diary.
+- [[bitcoin-block-stamp|Bitcoin Block Stamp]]: Stamp your notes with the current Bitcoin block.
+- [[slides-extended|Slides Extended]]: Create markdown-based presentations using reveal.js
 
 
 %% Hub footer: Please don't edit anything below this line %%
