@@ -154,7 +154,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]: Command palette without unwanted commands
 - [[cmdr|Commander]]: Customize your workspace by adding commands everywhere, create Macros and supercharge your mobile toolbar.
 - [[commando-command-repeater|Commando]]: Enables the user to provide the number of times to repeat a command.
-- [[companion|Companion]]: Autocomplete with AI, including ChatGPT, through a copilot-like interface.
+- [[companion|Companion]]: Autocomplete with AI, including ChatGPT and ollama, through a copilot-like interface.
 - [[obsidian-completr|Completr]]: This plugin provides advanced auto-completion functionality for LaTeX, Frontmatter and standard writing.
 - [[confluence-to-obsidian|Confluence Import]]: Import Confluence space into Obsidian vault
 - [[confluence-integration|Confluence Integration]]: This plugin allows you to publish your notes to Confluence
@@ -241,7 +241,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-link-opener|External Link Opener]]: Open external links within Obsidian using a modal or a tab.
 - [[fantasy-content-generator|Fantasy Content Generator]]: A Fantasy Content Generator for Obsidian for All Your TTRPG / World Building Needs
 - [[fantasy-name|Fantasy name generator]]: Insert a random fantasy name.
-- [[nl-fast-image-cleaner|Fast Image Cleaner]]: This plugin allows you to quickly remove image attachment and referenced link from your documents in both LIVE , READ mode by right-click menu
 - [[file-chucker|File Chucker]]: Quickly move a file to a new or existing folder, then open the next file.
 - [[obsidian-file-cleaner|File Cleaner]]: Help you to clean empty files and unused attachments in the vault.
 - [[obsidian-file-color|File Color]]: An Obsidian plugin for setting colors on folders and files in the file tree.
@@ -295,7 +294,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-golinks|GoLinks]]: This is a plugin for Obsidian that renders go/links as clickable links.
 - [[google-calendar|Google Calendar]]: Interact with your Google Calendar from Inside Obsidian
 - [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]: Import contact and calendar event information from your Google account
-- [[google-keep-import|Google Keep Import]]: Allows import of Google Keep backup json files and their attachments. Can also be used to import other files.
+- [[google-keep-import|Google Keep Import]]: Imports Google Keep backup files and attachments. Can also be used to import other files. Use the official Obsidian Importer plugin instead unless you need additional customisation of character mapping or importing of extraneous files.
 - [[google-photos|Google Photos]]: Google Photos integration for Obsidian
 - [[obsidian-google-tasks|Google Tasks]]: Interact with your Google Tasks from Inside Obsidian
 - [[grappling-hook|Grappling Hook]]: Obsidian Plugin for blazingly fast file switching. For those who find the Quick Switcher still too slow.
@@ -378,7 +377,7 @@ Plugins which have not yet been categorized by the community.
 - [[link-exploder|Link Exploder]]: Link Exploder is a Obsidian plugin that creates a canvas from a note, embedding it's incoming (i.e. backlinks) and outgoing links onto the canvas (as well as the their linked notes).
 - [[link-favicon|Link Favicons]]: See the favicon for a linked website. 
 - [[link-nodes-in-canvas|Link Nodes In Canvas]]: A plugin for you to add edges between notes in Canvas based on their links.
-- [[link-range|Link Range]]: This Obsidian plugin brings ranged wiki-link support to Obsidian.
+- [[link-range|Link Range]]: This Obsidian plugin brings ranged link support to Obsidian.
 - [[link-tree|Link Tree]]: View file links and backlinks as a recursively expandable, filterable list with editable text, combining the structure of outliners like Dynalist & WorkFlowy with the flexibility of Obsidian.
 - [[link-with-alias|Link with alias]]: Creates links and aliases in front matter of target document
 - [[linkshelf|LinkStowr]]: Save links from your browser directly into Obsidian.
@@ -624,7 +623,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-snippetor|Snippetor]]: Create and tweak common snippets (starting with custom tasks)
 - [[obsidian-soomda|Soomda]]: Quickly hide your sidebars
 - [[source-code-note|Source Code Note]]: This plugin can help you organize source code note easily.
-- [[source-scanner|Source Scanner]]: Scanner that extracts comments from source and places it in md files
+- [[source-scanner|Source Scanner]]: Scan java source and test code for comments then place it in md files.
 - [[speech2text-helper|Speech To Text Keyboard Helper]]: Makes available helper commands for Speech to Text (Google Andoroid) keyboard in Obsidian command pallete (and from there could be added to e.g. mobile buttons toolbar).
 - [[spoiler-block-obsidian|Spoiler Block]]: Create Spoiler Blocks to hide information until you want to see it
 - [[squiggle|Squiggle]]: Enables running squiggle code snippets within a note.
@@ -676,7 +675,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-timestamper|TimeStamper]]: Insert customized time/date stamp.
 - [[obsidian-timestamp-notes|Timestamp Notes]]: This plugin allows side-by-side notetaking with videos. Annotate your notes with timestamps to directly control the video and remember where each note comes from.
 - [[tinypng-image|TinyPNG Image]]: Compress images using TinyPNG to save your storage.
-- [[tistory-poster|Tistory Poster]]: This plugin posts a note in Obsidian to Tistory blogging platform
 - [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]: This plugin adds serial numbers to your markdown title.
 - [[todo-sort|Todo sort]]: A plugin for Obsidian (https://obsidian.md) that sorts todos by completion status.
 - [[todotxt|TodoTxt]]: Manage Todo.txt files.
@@ -1044,7 +1042,7 @@ Plugins which have not yet been categorized by the community.
 - [[create-task|Create Task]]: Create tasks faster from anywhere.
 - [[timeline-schedule|Timeline Schedule]]: Inline timelines generated from human-readable time strings, e.g. 'Walk dog (30min)' in a ```schedule codeblock.
 - [[cursor-goaway|cursor-goaway]]: make cursor goaway after open a text file
-- [[continuous-mode|Continuous Mode]]: Displays all open notes in a tab group as if they were a continuous scrollable document (sometimes called "Scrivenings mode"). Features include arrow navigation between notes and the ability to reorder notes via tab header drag-and-drop.
+- [[continuous-mode|Continuous Mode]]: Displays all open notes in a tab group as if they were a continuous scrollable document (sometimes called "Scrivenings mode"). Features include open all notes in a folder, arrow navigation between notes, reorder notes via tab header drag-and-drop, sorting, more.
 - [[multi-state-checkbox-switcher|Multi State CheckBox Switcher]]: Handle with multistate checkboxes.
 - [[relay-md|Relay.md]]: Markdown workflows for teams.
 - [[insighta|InsightA]]: InsightA can transform extensive articles into concise, atomic notes and generate MOC based on note title using LLM. 🚀📝
@@ -1065,7 +1063,7 @@ Plugins which have not yet been categorized by the community.
 - [[consecutive-lists|Consecutive Lists]]: Create consecutive lists that are displayed separately in reading mode.
 - [[alt-click-to-copy|Alt-Click to Copy]]: Alt-click to copy code!
 - [[hatena|Hatena Blog Publisher]]: Post directly to your Hatena Blog.
-- [[reason|Reason]]: REASON: Retrieve, Extract, And Synthesize Obsidian Notes
+- [[reason|Enzyme]]: a REPL to digest your thoughts
 - [[icloud-contacts|iCloud Contacts]]: Imports contacts from iCloud and manages a note for each contact.
 - [[dynamic-text-concealer|Dynamic Text Concealer]]: Conceal or replace user configured text patterns in Live Preview and Read Mode.
 - [[timelines-revamped|Timelines (Revamped)]]: Generate a chronological timeline in which all 'events' are notes that include a specific tag or set of tags.
@@ -1123,7 +1121,7 @@ Plugins which have not yet been categorized by the community.
 - [[enhanced-tables|Enhanced tables]]: Add programmable controls to selected tables
 - [[folders2graph|Folders to Graph]]: Display your vault folder structure into your graphs.
 - [[lean-syntax-highlight|Lean Syntax Highlight]]: Provides live syntax highlight for the Lean programming language
-- [[ai-tagger|AI Tagger]]: Analyze and tag your document with one click for efficient note organization using AI. OpenAI API key required
+- [[ai-tagger|AI Tagger]]: Analyze and tag your document with one click for efficient note organization using AI. OpenAI or MistralAI API key required
 - [[quiz-generator|Quiz Generator]]: Generate interactive quizzes from your notes using OpenAI's GPT-3.5 and GPT-4 models.
 - [[goban-sgf|Goban SGF]]: Obsidian plugin for recording Go games (SGF format goban).
 - [[display-relative-path-img|Display Relative Path Img]]: Display the image of the <img> tag
@@ -1174,7 +1172,7 @@ Plugins which have not yet been categorized by the community.
 - [[notice-controller|Notification Controller]]: Manages notifications at startup.
 - [[calendarium|Calendarium]]: Craft mind-bending fantasy and sci-fi calendars.
 - [[confluence-sync|Confluence Sync]]: Sync Obsidian notes with Confluence
-- [[persian-calendar|Persian Calendar]]: Persian Calendar gives you a simple and useful view for working with periodic (yearly, quarterly, monthly, weekly and daily) notes based on solar (shamsi) calendar.
+- [[persian-calendar|Persian Calendar]]: This tool lets you add and organize notes from daily to yearly on the Persian calendar, use templates with placeholders, and works with all Obsidian daily plugins.
 - [[daily-note-navbar|Daily Note Navbar]]: Navigate between sequential daily notes with ease.
 - [[orion-publish|Orion Publish]]: Quickly and easily publish your notes to the web with Orion Publish.
 - [[gistr|Gistr]]: Integrate Opengist and Github gists into your notes, allowing you to create, update, and share between your notes and gist services
@@ -1264,7 +1262,7 @@ Plugins which have not yet been categorized by the community.
 - [[fontsource|Fontsource]]: Load custom fonts from Fontsource into your notes.
 - [[ob2static-site|Static Site MD Exporter]]: Export specific notes to general md for static site generator like Hugo, Hexo, Astro and more.
 - [[enhanced-copy|Enhanced Copy]]: Copy your selection and add it some edit to paste in other markdown software. Allows to keep markdown in reading view, removing wikilinks in editing, copy from locked canvas, and more!
-- [[ink|Ink]]: Hand write or draw directly between paragraphs in your notes using a digital pen, stylus, or Apple pencil. Useful for handwriting, sketches, scribbles, or even math equations and scientific notation.
+- [[ink|Ink]]: Hand write or draw directly between paragraphs in your notes using a digital pen, stylus, or Apple pencil. Useful for handwriting, sketches, scribbles, or even math equations and scientific notation. Runs on the tldraw framework and drawing provides an infinite canvas.
 - [[sync-config-folder-to-common-folder|Sync config folder to common folder]]: Sync contents from config folder to common folder for backup or other purposes
 - [[ai-templater|AI for Templater]]: AI Extension for the Templater plugin with the OpenAI Client Library.
 - [[dust-calendar|Dust Calendar]]: 更符合中国习惯的日历，可以显示农历、节气、节假日、调休信息，支持月视图和年视图切换，支持关联创建周期性笔记。
@@ -1277,6 +1275,30 @@ Plugins which have not yet been categorized by the community.
 - [[letterboxd-rss-sync|Letterboxd Diary RSS Sync]]: Syncs your public Letterboxd diary.
 - [[bitcoin-block-stamp|Bitcoin Block Stamp]]: Stamp your notes with the current Bitcoin block.
 - [[slides-extended|Slides Extended]]: Create markdown-based presentations using reveal.js
+- [[my_anime_list_text_exporter|my anime list text exporter]]: add anime data for your notes
+- [[coco-askai|CoCo AskAI]]: Let your questions flow swiftly with CoCo AskAI. (Closed source)
+- [[kv-store|KV Store]]: Adds a key-value store. Use it to store and retrieve key-value pairs in your vault.
+- [[personal-os|Personal OS]]: Streamlining task management and productivity with a touch of gamification
+- [[time-saver|TimeSaver]]: Save your time. 1. Quickly insert todo directive. 2. Quickly count the time spent on tasks in the current note and the total time spent.
+- [[calendar-event-sync|Calendar Event Sync]]: Sync your current note with a relevant calendar event.
+- [[painter|Painter]]: Paint text different colors
+- [[random-names|Random names]]: Generates random names
+- [[note-splitter|Note Splitter]]: Split a note into individual notes based on a delimiter.
+- [[bearings|Bearings]]: Dynamically-scoped expanding tree views of your vault's semantic and logical architectures.
+- [[image-search|Image Search]]: Search and insert images using Google API
+- [[lava-vtt-uploader|Lava VTT Uploader]]: Display images from your vault in Lava VTT.
+- [[outline-task-list|Outline to task list]]: Convert a note's outline to a task list.
+- [[systemsculpt-ai|SystemSculpt AI]]: Enhance your data flow with AI-powered tools for note-taking, task management, templates, and so much more.
+- [[generate-hash|Generate Hash]]: Generates a cryptographically strong pseudorandom hash.
+- [[simple-citations|Simple Citations]]: Add & update simple literature notes from Zotero.
+- [[custom-new-file-name|Custom new file name]]: Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.
+- [[bookmarks-caller|Bookmarks Caller]]: Easily open bookmarks without leaving the keyboard home position.
+- [[ai-writer|ai-writer]]: Use AI to generate high-quality articles with knowledge fragments.
+- [[link-magic|LinkMagic]]: Automatically adds links to defined regex.
+- [[mapbox-location|Mapbox Location Image]]: Show a map inside your notes with a specific format.
+- [[tab-navigator|Tab Navigator]]: Simple Tab Switcher, search open tabs.
+- [[day-one-importer|Day One Importer]]: Import Day One journals
+- [[draft-indicator|Draft Indicator]]: Show draft status with ✎ icons in the file explorer.
 
 
 %% Hub footer: Please don't edit anything below this line %%
