@@ -330,7 +330,7 @@ return html;
 
 ---
 
-For more templates and examples, check out the original demo on [GitHub](https://github.com/kaelri/obsidian-dataview-test-vault).
+For more templates and examples, check out the original demo on [GitHub](https://github.com/kaelri/obsidian-dataview-test-vault). However, note that the Project Card view files hosted on GitHub are not fully compatible with this guide.
 
 %% Hub footer: Please don't edit anything below this line %%
 
