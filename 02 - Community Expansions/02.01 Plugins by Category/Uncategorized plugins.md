@@ -667,7 +667,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-theme-design-utilities|Theme Design Utilities]]: Some Utilities and Quality-of-Life Features for Designers of Obsidian Themes.
 - [[obsidian-theme-toggler|Theme Toggler]]: Toggle the theme in Obsidian's panels.
 - [[obsidian-things3-sync|Things3 Sync]]: An Obsidian plugin for sync between Obsidian and Things3, create Todo and sync Todo status
-- [[obsidian-memos|Thino]]: Capturing ideas and save them into daily notes.
+- [[obsidian-memos|Thino]]: Capturing ideas and save them into daily notes. (Closed source)
 - [[obsidian-thumbnails|Thumbnails]]: Insert video thumbnails into your notes
 - [[obsidian-tikzjax|TikZJax]]: Render LaTeX and TikZ diagrams in your notes
 - [[time-ruler|Time Ruler]]: A drag-and-drop time ruler combining the best of a task list and a calendar view (integrates with Tasks, Full Calendar, and Dataview).
@@ -1253,7 +1253,7 @@ Plugins which have not yet been categorized by the community.
 - [[cluster|Cluster]]: Make the notes clustering simpler on mobile devices and work well on PCs ether, Notes Clustering is the process of creating hierarchical notes structures.
 - [[imdb-sync|IMDb]]: Sync your IMDb list
 - [[daily-prompt|Daily Prompt]]: Set up custom prompts and automatically fill them into your daily notes
-- [[custom-sidebar-icons|Custom Sidebar Icons]]: Customize sidebar workspace document icons.
+- [[custom-sidebar-icons|Custom Icons]]: Enhance your workspace with customizable icons for documents and folders.
 - [[update-time-updater|Update Time Updater]]: Update the 'update time' element when saving or manually.
 - [[markpilot|Markpilot]]: Inline completions and chat view powered by OpenAI
 - [[hierarchical-outgoing-links|Hierarchical Outgoing Links]]: Displays outgoing links in a hierarchy
@@ -1299,6 +1299,14 @@ Plugins which have not yet been categorized by the community.
 - [[tab-navigator|Tab Navigator]]: Simple Tab Switcher, search open tabs.
 - [[day-one-importer|Day One Importer]]: Import Day One journals
 - [[draft-indicator|Draft Indicator]]: Show draft status with ✎ icons in the file explorer.
+- [[azure-linker|Azure DevOps Linker]]: Quickly format a Azure issue tag as a link to you Azure instance.
+- [[arenasys-ai-chat|AI Chat]]: Chat with AI about your notes.
+- [[local-llm-helper|Local LLM Helper]]: Use your own secure local LLM server to work with your text!
+- [[text2audio|Text2Audio]]: Convert text to speech
+- [[ruby-wasm|ruby.wasm]]: Run ruby code in your notes using WebAssembly
+- [[tinychart|TinyChart]]: Dead simple ASCII charts
+- [[checkbox-sounds|Checkbox Sounds]]: Adds a nice completion sound when a checkbox is ticked-off
+- [[zettelkasten-navigation|zettelkasten navigation]]: Visualize a Luhmann-style zettelkasten.
 
 
 %% Hub footer: Please don't edit anything below this line %%
