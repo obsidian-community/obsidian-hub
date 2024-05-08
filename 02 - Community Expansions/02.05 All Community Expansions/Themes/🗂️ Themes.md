@@ -244,6 +244,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sparkling Day|Sparkling Day]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sparkling Night|Sparkling Night]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sparkling Wisdom|Sparkling Wisdom]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Spectrum Blue|Spectrum Blue]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Spectrum|Spectrum]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Spring|Spring]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/sQdthOne|sQdthOne]]
