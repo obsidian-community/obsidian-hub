@@ -21,6 +21,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Calibre|Calibre]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/DDC_Folder_Maker|DDC_Folder_Maker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Docker|Docker]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Drafting (Android)|Drafting (Android)]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Drafts App|Drafts App]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dragon speech recognition|Dragon speech recognition]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Auxiliary Tools/Dropbox|Dropbox]]
