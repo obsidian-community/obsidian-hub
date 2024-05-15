@@ -640,7 +640,7 @@ Plugins which have not yet been categorized by the community.
 - [[surfing|Surfing]]: Surf the Net in Obsidian.
 - [[symbols-prettifier|Symbols Prettifier]]: This plugin allows you to prettify the symbols with actual symbols you commonly type, like arrows.
 - [[sync-google-calendar|Sync Google Calendar]]: Synchronize events from Google Calendar and manage them like tasks.
-- [[sync-graph-settings|Sync Graph Settings]]: This is a plugin for syncing graph settings (Color Groups and Search Filters) to Local Graphs
+- [[sync-graph-settings|Sync Graph Settings]]: This is a plugin for syncing various graph settings to Local Graphs
 - [[syncftp|SyncFTP]]: This plugin syncs files to an SFTP, with credentials in settings.
 - [[syncthing-integration|Syncthing Integration]]: Integrates most of Syncthing features into Obsidian.
 - [[tab-rotator|Tab Rotator]]: This plugin rotates opened files to the left or right with a specified interval
@@ -1307,6 +1307,20 @@ Plugins which have not yet been categorized by the community.
 - [[tinychart|TinyChart]]: Dead simple ASCII charts
 - [[checkbox-sounds|Checkbox Sounds]]: Adds a nice completion sound when a checkbox is ticked-off
 - [[zettelkasten-navigation|zettelkasten navigation]]: Visualize a Luhmann-style zettelkasten.
+- [[canvasblocks|Canvas Blocks]]: Execute scripts from canvas
+- [[timekeep|Timekeep]]: Time tracking
+- [[select-word|Select word]]: Selects the word that is closest to the caret.
+- [[note-chain|Note Chain]]: Thoughts as river, notes as chain. Add prev and next notes to a notes, and order files by the chain in File Explorer.
+- [[folder-periodic-notes|Folder Periodic Notes]]: Periodic notes in a year, month, and day folder hierarchy.
+- [[s3agle|S3agle]]: Use S3 providers and/or Eagle to manage vault attachments locally and remotely.
+- [[markwhen|Markwhen]]: View and edit markwhen documents.
+- [[canvas-keyboard-pan|Canvas Keyboard Pan]]: Pan around your canvas using the keyboard
+- [[weekly-review-linker|Weekly Review notes linker]]: This links all of the files you have created in the last week into a Weekly Review note.
+- [[advanced-canvas-filter|Advanced Сanvas Filter]]: Filter Canvas to show only items with specified tags.
+- [[future-dates|Future Dates]]: Show list of future dates in vault
+- [[gdscript-syntax-highlighting|GDScript Syntax Highlighting]]: Add live GDScript syntax highlighting to code blocks.
+- [[fuzzy-note-creator|Fuzzy Note Creator]]: Create notes in folders with the help of a fuzzy finder.
+- [[bibtex-manager|BibTeX Manager]]: Create a literature notes from a BibTeX entries.
 
 
 %% Hub footer: Please don't edit anything below this line %%
