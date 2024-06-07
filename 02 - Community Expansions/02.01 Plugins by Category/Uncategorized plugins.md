@@ -70,7 +70,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-hyperlink|Auto Hyperlink]]: Insert hyperlink according to user-defined rule
 - [[auto-note-mover|Auto Note Mover]]: Auto Note Mover will automatically move the active notes to their respective folders according to the rules.
 - [[obsidian-auto-split|Auto Split]]: Open notes with side-by-side editor & preview
-- [[auto-template-trigger|Auto Template Trigger]]: Automatically prompt for a template, when creating a note.
+- [[auto-template-trigger|Auto Template Trigger]]: Automatically apply or prompt for a template when creating a note. Supports assigning templates to folders.
 - [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag or alias and imports them into the current note.
 - [[automatic-list-styles|Automatic List Styles]]: Automatically formats the styles of ordered lists, incrementing the list style for each layer
 - [[obsidian-autoscroll|Autoscroll]]: This plugin allows you to automatically scroll down the content with the provided speed
@@ -1240,7 +1240,7 @@ Plugins which have not yet been categorized by the community.
 - [[reverse-prompter|Reverse Prompter]]: Generate prompts to keep you writing with AI.
 - [[automation|Automation]]: Execute commands on specific events.
 - [[click-clack|Click Clack]]: Simulates typewriter / mechanical keyboard sounds.
-- [[grind-manager|Grind Manager]]: Task management with rewards system.
+- [[grind-manager|Gamified Tasks]]: Gamify your task management with rewards system, craft your tasks by tags.
 - [[dictionary-translator|Dictionary translator]]: It can help you translate words or sentences, listen to recordings of new words or sentences, and even record your own pronunciation to save in the form of internal links to your notes.
 - [[vconsole|vConsole]]: Integrate vConsole for developers to facilitate the debugging of mobile plugins.
 - [[external-links|External Links]]: List external links and discover which notes reference them.
@@ -1347,6 +1347,13 @@ Plugins which have not yet been categorized by the community.
 - [[focus-tracker|Focus Tracker]]: Track and align your focus.
 - [[header-counter|Header Counter]]: Count the number of headers in the current note
 - [[ii-quicker|ii]]: Quickly insert common Markdown code and HTML code, and customize your own insertion commands.
+- [[statblock-sidekick|Statblock Sidekick]]: Create and expand D&D 5e statblocks.
+- [[checkbox-time-tracker|Checkbox Time Tracker]]: Insert timestamp when you check off the checkbox
+- [[noor|Noor]]: Aims to help Muslims stay enlightened with Islam, Quran, Hadith, and Sunnah
+- [[graph-banner|Graph Banner]]: Display a local graph view to the note header
+- [[memos-sync|Memos Sync]]: Syncing memos from a [Memos](https://github.com/usememos/memos) server to your daily note. Fully compatible with official Daily Notes plugin, Calendar plugin and Periodic Notes plugin.
+- [[pin-enhancer|Pin Enhancer]]: Enhances the pin function to prevent closing the pinned tab.
+- [[link-to-verse|Link to Verse]]: From a Bible reference selected, creates a markdown link to a configured Bible site.
 
 
 %% Hub footer: Please don't edit anything below this line %%
