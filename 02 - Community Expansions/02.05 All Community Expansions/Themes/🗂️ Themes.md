@@ -196,6 +196,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Origami|Origami]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Origin|Origin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Palatinate|Palatinate]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Pale - 淡|Pale - 淡]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Panic Mode|Panic Mode]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Penumbra|Penumbra]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Perso|Perso]]
