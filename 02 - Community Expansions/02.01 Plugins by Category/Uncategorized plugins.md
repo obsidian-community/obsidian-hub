@@ -1354,6 +1354,24 @@ Plugins which have not yet been categorized by the community.
 - [[memos-sync|Memos Sync]]: Syncing memos from a [Memos](https://github.com/usememos/memos) server to your daily note. Fully compatible with official Daily Notes plugin, Calendar plugin and Periodic Notes plugin.
 - [[pin-enhancer|Pin Enhancer]]: Enhances the pin function to prevent closing the pinned tab.
 - [[link-to-verse|Link to Verse]]: From a Bible reference selected, creates a markdown link to a configured Bible site.
+- [[templify|Templify]]: (Closed Source) Multi layout for one note.
+- [[ayanite|Ayanite]]: Advanced AI chat interface and knowledge copilot for professionals. Turn Obsidian into an Integrated Knowledge Environment. Supports Ollama and cloud GPT providers. (Closed source)
+- [[docxer|Docxer]]: Import Word files easily. Adds a preview mode for .docx files and the ability to convert them to markdown (.md) files.
+- [[the-queue|The Queue]]: Randomly exposes you to notes from your vault. Supports habits, to-dos, spaced repetition flashcards, iterative reading and more.
+- [[folder-by-tags-distributor|Folder by tags distributor]]: Automatically move notes into existing folders by tags specified in note.
+- [[power-mode|POWER MODE]]: Active POWER MODE!!!!
+- [[rapid-ai|Rapid AI]]: AI Assistant for selected text and generating content with Markdown. Shortcuts and quick action buttons provide instant AI assistance. It provides a high availability API for unlimited Chat GPT request rates, so you can ensure smooth work for any workload.
+- [[click-up-sync|ClickUp sync]]: Manage ClickUp space from notes
+- [[tabs|Tabs]]: Create tabs in your notes.
+- [[vault-name|Vault Name]]: Display and customize the vault name (title) in the side navigation file explorer.
+- [[substitutions|Substitutions]]: Automatically replace text fragments with symbols or different text
+- [[infostacker|Infostacker Note Publish]]: Share your notes with attachments easy!
+- [[audiopen-sync|AudioPen Sync]]: Sync notes from AudioPen.
+- [[pt-url-helper|Pivotal Tracker URL Helper]]: Automatically creates a Markdown link for Pivotal Tracker stories.
+- [[relative-timestamps|Relative Timestamps]]: Track the time between log entries
+- [[simple-prompt|Simple Prompt]]: Simple interface to generate or rewrite content using LLMs based on user input.
+- [[explorer-hider|Explorer Hider]]: Hide a file or a folder from the explorer (and bookmarks) using a little bit of auto-managed CSS!
+- [[headings-in-explorer|Headings in Explorer]]: Show headings in the file explorer.
 
 
 %% Hub footer: Please don't edit anything below this line %%
