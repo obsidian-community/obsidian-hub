@@ -1188,7 +1188,7 @@ Plugins which have not yet been categorized by the community.
 - [[vlc-bridge|VLC Bridge]]: Take video/movie notes with timestamp links and snapshots from VLC Player.
 - [[progress-clocks|Progress Clocks]]: Progress clocks and other useful widgets for real-time status tracking.
 - [[note-companion-folder|Note Companion Folder]]: Manage a separate folder of attachments for each note.
-- [[tab-selector|Tab Selector]]: Switch to the desired tab in about two actions without leaving the home position on the keyboard.
+- [[tab-selector|Tab Selector]]: Quickly switch tab by 2 ways, one is general way in like other apps, the other is with keeping the keyboard home position.
 - [[default-query-in-backlink|Default query in backlinks]]: Automatically input default query in search input of backlinks in document.
 - [[metafolders|Metafolders]]: Multidimensional note navigation
 - [[spellcheck-toggler|Spellcheck Toggler]]: Toggle spellchecking for types of text blocks in the editing view.
@@ -1337,7 +1337,7 @@ Plugins which have not yet been categorized by the community.
 - [[notes2tweets|Notes 2 Tweets]]: Generate and schedule tweets automatically from your notes
 - [[note-definitions|Note Definitions]]: Personal dictionary for your notes
 - [[mathlive-in-editor-mode|MathLive in Editor Mode]]: MathLive input in editor mode
-- [[lineage|Lineage]]: A writing interface that combines structure and content. Inspired by Gingko Writer.
+- [[lineage|Lineage]]: A keyboard-centric hierarchical writing interface. Inspired by Gingko Writer.
 - [[settings-management|Settings Management]]: Manage settings options, including show enabled/disabled plugins and css, grid layout, save current plugins/css enable config for quick enable/disable, etc.
 - [[laser-beam|Laser beam]]: Improve your reading experience with customizable laser lines.
 - [[freeform|Freeform]]: Make visualizations and run arbitrary code with JavaScript + iframe blocks.
@@ -1372,6 +1372,22 @@ Plugins which have not yet been categorized by the community.
 - [[simple-prompt|Simple Prompt]]: Simple interface to generate or rewrite content using LLMs based on user input.
 - [[explorer-hider|Explorer Hider]]: Hide a file or a folder from the explorer (and bookmarks) using a little bit of auto-managed CSS!
 - [[headings-in-explorer|Headings in Explorer]]: Show headings in the file explorer.
+- [[medium-importer|Medium Importer]]: Import Medium posts into your vault
+- [[smart-connections-visualizer|Smart Connections Visualizer]]: View your Smart Connections in a visualized format.
+- [[prettier|Prettier]]: Format your notes with Prettier and custom formatting options.
+- [[pinned-notes|Pinned Notes]]: Pin frequently-used notes on Ribbon actions
+- [[svelte-syntax-highlighter|Svelte Syntax Highlighter]]: Syntax highlighting for Svelte code blocks.
+- [[midi-logger|MIDI Logger]]: Insert parsed musical notes from MIDI input devices.
+- [[checklist-progress|Checklist Progress]]: Automatically fill progress (as fraction or percentage) of check-lists.
+- [[explain-selection-with-ai|Explain Selection With AI]]: Use an OpenAI Chat Completion API-compatible LLM endpoint to explain the selected text in greater detail.
+- [[toggle-dark-mode|Toggle Dark Mode]]: Adds a command to toggle dark mode on and off
+- [[plugins-annotations|Plugins Annotations]]: Allows adding personal comments to each installed plugin.
+- [[close-window-when-empty|Close Window When Empty]]: Close the window when the last note is closed, kind of how browsers work.
+- [[tars|Tars]]: Use Kimi and other Chinese LLMs for text generation based on tag suggestions.
+- [[toggle-readable-line-length|Toggle Readable line length]]: Add command to toggle Readable line length editor setting.
+- [[definition-list|Definition List]]: Adds definition lists to the markdown parser.
+- [[line-arrange|Line Arrange]]: Sort selected lines by their width or shuffle them randomly.
+- [[search-in-canvas|Search In Canvas]]: Search text in canvas
 
 
 %% Hub footer: Please don't edit anything below this line %%
