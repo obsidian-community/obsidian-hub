@@ -18,6 +18,7 @@ Plugins to help you navigate or manage daily, weekly or monthly notes.
 - [[calendar|Calendar]]: Calendar view of your daily notes
 - [[obsidian-daf-yomi|Daf Yomi]]: Fill in Daf Yomi pages
 - [[obsidian-daily-named-folder|Daily Named Folder]]: Like daily notes, but nested in a named daily folder. Better for attachment management. Includes more flexible naming.
+- [[daily-note-structure|Daily Note Structure]]:One-Click create a structure of multiple daily folders and files with individual names and templates.
 - [[obsidian-day-planner|Day Planner]]: A plugin to help you plan your day and setup pomodoro timers
 - [[periodic-notes|Periodic Notes]]: Create/manage your daily, weekly, and monthly notes
 - [[random-structural-diary-plugin|Random Structural Diary]]: This is a plugin for picking random questions from prepared question list. It allows you answer on different questions each time.
