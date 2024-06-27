@@ -27,7 +27,7 @@ Mobile compatible: [[Mobile-compatible plugins|Yes]]
 
 One-Click create a structure of multiple daily folders and files with individual names and templates.
 
-Use the settings for creating a structure in JSON format. A click on the plugins ribbon button will create the sturcture with file data (from templates) and folder notes (filled by templates).
+Use the plugins settings for creating a structure in JSON format. A click on the plugins ribbon button will create the sturcture with file data (from templates) and folder notes (filled by templates).
 For best results install templater and your preferred folder note plugin.
 
 Note:
@@ -64,9 +64,16 @@ Example settings file:
             "template": "Other/Templater/Templates/Weekly Named Folder.md",
             "children": [{
               "type": "folder",
-              "namepattern": "KW {{WW}} ({{MMMMOW}} {{YYYY}})",
+              "namepattern": "{{YYYY}}-{{MM}}-{{DD}}",
               "template": "Other/Templater/Templates/Daily Named Folder.md",
-              "children": []
+              "children": [{
+                "type": "file",
+                "namepattern": "example-file-not-md-suffix.md",
+                "template": "Other/Templater/Templates/Example File Template.md"
+              }, {
+                "type": "file",
+                "namepattern": "other-example-file.md"
+              }]
             }, {
               "type": "folder",
               "namepattern": "Operational Planning",
