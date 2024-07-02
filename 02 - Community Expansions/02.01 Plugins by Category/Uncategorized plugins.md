@@ -494,7 +494,7 @@ Plugins which have not yet been categorized by the community.
 - [[optimize-canvas-connections|Optimize Canvas Connections]]: An Obsidian plugin that declutters a canvas by reconnecting notes using their nearest edges.
 - [[order-list|Order List]]: Orders list by number at end of line
 - [[list-style|Ordered List Style]]: Set ordered list style inline in Obsidian.md. Alphabetic lists, roman numeral lists, etc.
-- [[obsidian-oura-plugin|Oura Ring]]: Oura Ring
+- [[obsidian-oura-plugin|Oura Ring]]: A plugin for importing Oura Ring data from the Cloud-based API
 - [[para-shortcuts|PARA Shortcuts]]: This plugin serves usefull commands to setup and manage your knowledge using the PARA method.
 - [[tasks-packrat-plugin|Packrat]]: Process completed recurring Tasks
 - [[page-gallery|Page Gallery]]: Creates an embeddable gallery based on selected page contents.
@@ -1062,7 +1062,7 @@ Plugins which have not yet been categorized by the community.
 - [[reason|Enzyme]]: a REPL to digest your thoughts
 - [[icloud-contacts|iCloud Contacts]]: Imports contacts from iCloud and manages a note for each contact.
 - [[dynamic-text-concealer|Dynamic Text Concealer]]: Conceal or replace user configured text patterns in Live Preview and Read Mode.
-- [[timelines-revamped|Timelines (Revamped)]]: Generate a chronological timeline in which all 'events' are notes that include a specific tag or set of tags.
+- [[timelines-revamped|Timelines (Revamped)]]: Successor to darakah's Timelines plugin: Generate a chronological timeline in which all 'events' are notes that include a specific tag or set of tags.
 - [[gemini-assistant|Gemini Assistant]]: Your Gemini AI assistant
 - [[canvas-dailynote|Canvas Daily Note]]: Allows you to add a daily note node to the canvas that will always show todays note.
 - [[contribution-graph|Contribution Graph]]: Generate a interactive heatmap graph to visualize and track your productivity
@@ -1388,6 +1388,28 @@ Plugins which have not yet been categorized by the community.
 - [[definition-list|Definition List]]: Adds definition lists to the markdown parser.
 - [[line-arrange|Line Arrange]]: Sort selected lines by their width or shuffle them randomly.
 - [[search-in-canvas|Search In Canvas]]: Search text in canvas
+- [[sheet-plus|Sheet Plus]]: Create Excel-like spreadsheets and easily embed them in Markdown.
+- [[watched-metadata|Watched-Metadata]]: Watches for changes in metadata and performs user-specified actions based on these changes.
+- [[task-list-kanban|Task List Kanban]]: Organizes all of the tasks within your files into a kanban view. Reduce duplication of effort when managing and prioritising tasks by simply using the task format in your files to automatically appear in your Task List Kanban.
+- [[interactive-code-blocks|Interactive Code Blocks]]: Preview interactive code blocks!
+- [[you-and-your-research|You and Your Research]]: Research with the help of A.I.
+- [[dialogue-mode|Dialogue Mode]]: Dialogue mode for editing speech in writing.
+- [[smart-text-mover|Smart Text Mover]]: Intelligent way to move text in file.
+- [[note-promixity|Lookalike]]: Find similar notes based on the frequency of terms within the vault.
+- [[header-adjuster|Header Adjuster]]: Easily adjust header levels in Markdown documents by increasing or decreasing their levels. Supports full document adjustments or specified line ranges, with default settings and commands for convenience
+- [[gemini-generator|Gemini Generator]]: Let Google Gemini generator your notes!
+- [[node-auto-resize|Node Auto Resize]]: Automatically resize the node when the content changes.
+- [[sqlseal|SQLSeal]]: Use SQL in your notes to query your vault files and CSV content.
+- [[spoilers|Spoilers]]: Hide and reveal blocks of information
+- [[asciidoc-reader|Asciidoc Reader]]: Enables the rendering of AsciiDoc.
+- [[another-sticky-headings|Another Sticky Headings]]: Display headings tree during editing and preview to indicate the current position.
+- [[doing|doing]]: It helps you remember what you were doing.
+- [[daily-note-structure|Daily Note Structure]]: One-Click create a structure for and including your daily notes.
+- [[rpg-stat-tracker|RPG Stat Tracker]]: RPG-like stat tracker.
+- [[smart-memos|Smart Memos]]: Create personalized and intelligent analysis, summaries, and more for audio recordings that can be imported or spoken directly into a note
+- [[syrinscape-player-control|Syrinscape Online Player]]: Control Syrinscape Online Player from inside of notes.
+- [[quran-helper|Quran Helper]]: Find and insert any Quran Ayah (verse) in your notes.
+- [[page-scroll|Page Scroll]]: Page Up|Down|Top|Bottom
 
 
 %% Hub footer: Please don't edit anything below this line %%
