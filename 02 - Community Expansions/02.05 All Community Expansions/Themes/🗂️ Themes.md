@@ -246,6 +246,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sandstorm|Sandstorm]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sanguine|Sanguine]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sea Glass|Sea Glass]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Seamless View|Seamless View]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Serenity|Serenity]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Serika|Serika]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shiba Inu|Shiba Inu]]

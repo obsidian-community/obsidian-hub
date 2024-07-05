@@ -200,7 +200,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-desmos|Desmos]]: Embed Desmos graphs into your notes
 - [[obsidian-diagrams-net|Diagrams.net]]: Enable diagrams.net (previously draw.io) type diagrams, with the diagrams.net embedded editor.
 - [[obsidian-dialogue-plugin|Dialogue]]: Create dialogues in Markdown.
-- [[dida-sync|Dida Todo Sync]]: Sync 滴答清单(ticktick) to obsidian
 - [[digitalgarden|Digital Garden]]: Publish your notes to the web for others to enjoy. For free.
 - [[obsidian-dirtreeist|Dirtreeist]]: Render a directory Structure Diagram from a markdown lists in codeblock.
 - [[obsidian-divide-and-conquer|Divide & Conquer]]: Provides commands for bulk enabling/disabling of plugins. Useful for debugging when you have many plugins.
@@ -1164,7 +1163,7 @@ Plugins which have not yet been categorized by the community.
 - [[contextual-note-templating|Contextual note templating]]: Prompts for values and templates to create notes.
 - [[vault-transfer|Vault Transfer]]: Copies a note, and pastes it into another vault.
 - [[movie-search|Movie Search]]: Helps you find movies and create notes.
-- [[view-count|View Count]]: Tracks view count for each vault file.
+- [[view-count|View Count]]: Track view count for each vault file.
 - [[notice-controller|Notification Controller]]: Manages notifications at startup.
 - [[calendarium|Calendarium]]: Craft mind-bending fantasy and sci-fi calendars.
 - [[confluence-sync|Confluence Sync]]: Sync Obsidian notes with Confluence
@@ -1410,6 +1409,24 @@ Plugins which have not yet been categorized by the community.
 - [[syrinscape-player-control|Syrinscape Online Player]]: Control Syrinscape Online Player from inside of notes.
 - [[quran-helper|Quran Helper]]: Find and insert any Quran Ayah (verse) in your notes.
 - [[page-scroll|Page Scroll]]: Page Up|Down|Top|Bottom
+- [[wechat-public-platform|Wechat Public Platform]]: Release the article from your vault to WeChat, Baidu Baijiahao, or another article release platform.
+- [[note-to-mp|Note to MP]]: Send notes to WeChat MP drafts, or copy notes to WeChat MP editor, perfect preservation of note styles, support code highlighting, line numbers in code, and support local image uploads.
+- [[xournalpp|Xournal++]]: Integration with Xournal++ for handwritten notes and annotations.
+- [[dataview-serializer|Dataview Serializer]]: Serialize Dataview queries to Markdown, and keep the Markdown representation up to date.
+- [[fast-text-color|Fast Text Color]]: Quickly apply fully integrated text coloring and formatting with a custom syntax and a keyboard-centric interface.
+- [[guid-renamer|Guid Renamer]]: Rename selected file with a random GUID.
+- [[multiplatform-highlights-import|Multiplatform Highlights Importer]]: Import and consolidate highlights from different reading sources. Supports reconciling books across reading sources.
+- [[front-matter-timestamps|Front Matter Timestamps]]: Automatically manages and updates 'created' and 'modified' timestamps in the frontmatter of your notes
+- [[publish-to-dev|Publish to DEV]]: Publish and update notes as articles on DEV (https://dev.to)
+- [[e-daiary|e-Daiary]]: Creates directories and notes based on the day of the year.
+- [[dataview-publisher|Dataview Publisher]]: Output markdown from your Dataview queries and keep them up to date. You can also publish them.
+- [[nsfw-filter|NSFW filter]]: Adds customizable and easly togglable NSFW filter
+- [[file-flex|File Flex]]: Undo file and folder operations
+- [[edit-in-neovim|Edit in Neovim]]: Open a Neovim buffer for the currently open file
+- [[todoist-indicator|Todoist Indicator]]: Adds a badge to "project" files when they miss a link to a Todoist project. (based on the GTD indicator from saibotsivad, thanks!)
+- [[vimium|Vimium]]: Interact with elements using keyboard shortcuts in the spirit of Vim
+- [[checkbox-styling-helper|Checkbox styling helper]]: Helps you styling checkboxes in preview mode.
+- [[import-attachments-plus|Import Attachments+]]: Move and link the attachments into the vault.
 
 
 %% Hub footer: Please don't edit anything below this line %%
