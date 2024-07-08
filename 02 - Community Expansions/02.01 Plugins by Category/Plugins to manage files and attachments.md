@@ -22,6 +22,7 @@ Handle attachments, files, and folders
 - [[open-with|Open with]]: This Plugin allows you to add multiple other programs to open notes with.
 - [[quick-explorer|Quick Explorer]]: Perform file explorer operations (and see your current file path) from the title bar, using the mouse or keyboard
 - [[unique-attachments|Unique attachments]]: Rename attachments, making their names unique (based on hashing of file content)
+- [[attachment-management|Attachment Management]]: Auto rename attachemnts, and customize the path/name with variable.
 
 ## Related categories
 
