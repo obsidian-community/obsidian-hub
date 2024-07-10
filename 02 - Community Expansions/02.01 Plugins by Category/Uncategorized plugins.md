@@ -80,7 +80,7 @@ Plugins which have not yet been categorized by the community.
 - [[awesome-image|Awesome Image]]: One-stop solution for image management.
 - [[awesome-reader|Awesome Reader]]: Make Obsidian a proper Reader.
 - [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
-- [[bmo-chatbot|BMO Chatbot]]: Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) from Ollama, LM Studio, Anthropic, OpenAI, Mistral AI, and more for Obsidian.
+- [[bmo-chatbot|BMO Chatbot]]: Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) from Ollama, LM Studio, Anthropic, Google Gemini, OpenAI, Mistral AI, and more for Obsidian.
 - [[obsidian42-brat|BRAT]]: Easily install a beta version of a plugin for testing.
 - [[babashka|Babashka]]: Evaluate Clojure(Script) codeblocks in Babashka.
 - [[background-image|Background Image]]: This allows you to specify a remote URL as the background image, and a few settings to tweak the experience.
@@ -439,7 +439,6 @@ Plugins which have not yet been categorized by the community.
 - [[multi-tag|Multi Tag]]: Adds a tag to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.
 - [[multi-column-markdown|Multi-Column Markdown]]: This plugin adds functionality to create markdown documents with multiple columns of content viewable within Obsidian's preview mode
 - [[mysnippets-plugin|MySnippets]]: MySnippets is a plugin that adds a status bar menu allowing the user to quickly toggle their snippets on and off 🖌.
-- [[nai4obsidian|NAI 4 Obsidian]]: Generate text with NovelAI's models.
 - [[nl-syntax-highlighting|Natural Language Syntax Highlighting]]: Highlight adjectives, nouns, adverbs, verbs, and conjunctions in the editor
 - [[heycalmdown-navigate-cursor-history|Navigate Cursor History]]: This plugin remembers the recent 50 cursor positions history and allows you to jump to them back and forth like VSCode
 - [[obsidian-new-bullet-with-time|New Bullet With Time]]: A plugin allows you to auto add current time to new bullet line.
@@ -458,6 +457,7 @@ Plugins which have not yet been categorized by the community.
 - [[notes-dater|Notes dater]]: Adds created on and last updated on dates of the active note to the status bar.
 - [[obsidian-notion-video|Notion Video]]: embed your notion video in obsidian
 - [[novel-word-count|Novel word count]]: Displays a word count (and more!) for each file, folder and vault in the File Explorer pane.
+- [[nai4obsidian|NovelAI]]: Generate text with NovelAI's models.
 - [[nuke-orphans|Nuke Orphans]]: Plugin that trashes orphaned files and attachments
 - [[numerals|Numerals]]: Numerals turns any code block into an advanced calculator. Evaluates math expressions on each line of a code block, including units, currency, and optional TeX rendering.
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
@@ -1110,7 +1110,7 @@ Plugins which have not yet been categorized by the community.
 - [[card-note|CardNote]]: Help you quickly extract your thoughts in the Canvas and Excalidraw
 - [[simple-image-inserter|Simple Image Inserter]]: Add images from the file system into Obsidian notes through a built-in file explorer.
 - [[graph-link-types|Graph Link Types]]: Link types for graph view.
-- [[fix-require-modules|Fix Require Modules]]: Fixes `require()` calls for the built-in modules
+- [[fix-require-modules|Fix Require Modules]]: Fixes require() calls, supporting JavaScript and TypeScript modules, enabling easy invocation, and adding code buttons for enhanced scripting capabilities
 - [[auto-definition-link|Auto Definition Link]]: Automatically converts text to definition links within the current folder when you type them.
 - [[chord-sheets|Chord Sheets]]: Work with chord sheets (chords over lyrics) in your Vault: Chord diagrams, transpose, autoscroll and more. Works in live preview and reading mode.
 - [[enhanced-tables|Enhanced tables]]: Add programmable controls to selected tables
@@ -1427,6 +1427,25 @@ Plugins which have not yet been categorized by the community.
 - [[vimium|Vimium]]: Interact with elements using keyboard shortcuts in the spirit of Vim
 - [[checkbox-styling-helper|Checkbox styling helper]]: Helps you styling checkboxes in preview mode.
 - [[import-attachments-plus|Import Attachments+]]: Move and link the attachments into the vault.
+- [[virtual-linker|Virtual Linker / Glossary]]: Automatically creates virtual links for text within your notes that match the titles or aliases of other notes in your vault. Create a glossary-like functionality, show unlinked mentions and transform them to real links.
+- [[arena-manager|Are.na Manager]]: Publish content from your vault to Are.na and the other way around.
+- [[shrink-pinned-tabs|Shrink pinned tabs]]: Shrinks pinned tabs to save screen space.
+- [[remove-newlines|Remove Newlines]]: Remove newlines from text selections and also paste content from the clipboard without newlines.
+- [[entity-linker|Entity Linker]]: Link research terms to standard entities
+- [[datepicker|Datepicker]]: Use a date picker to modify and insert date/time anywhere in your markdown notes.
+- [[ai-chat-as-md|AI Chat as Markdown]]: Multiple branching AI conversations as Markdown hierarchy
+- [[sidebar-resizer|Sidebar Resizer]]: Adjust the sidebar sizes easily.
+- [[refresh-preview|Refresh Preview]]: Allows to refresh preview mode without reopening the note
+- [[hash-pasted-image|Hash Pasted Image]]: Auto rename pasted images added to the vault via hash algorithm SHA-512
+- [[yanki|Yanki]]: Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.
+- [[iconic|Iconic]]: Customize your app icons directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.
+- [[notes-refresher|Notes Refresher]]: Provides summaries of notes from your Vault.
+- [[docbase-unofficial|DocBase (Unofficial)]]: Pull and push notes to DocBase
+- [[latex-render|Latex Render]]: Render snippets of latex code as SVG files.
+- [[code-link|Code Link]]: Link to code files in your notes
+- [[index-notes|Index Notes]]: Keep your notes indexed based on their (hierarchical) tags
+- [[plot-vectors-graphs|Plot Vectors and Graphs]]: Generates graphs and vectors.
+- [[nyanbar|NyanBar]]: Nyan Cat Progress Bar generator!
 
 
 %% Hub footer: Please don't edit anything below this line %%
