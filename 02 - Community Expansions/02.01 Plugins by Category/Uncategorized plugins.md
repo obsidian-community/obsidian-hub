@@ -80,7 +80,7 @@ Plugins which have not yet been categorized by the community.
 - [[awesome-image|Awesome Image]]: One-stop solution for image management.
 - [[awesome-reader|Awesome Reader]]: Make Obsidian a proper Reader.
 - [[obsidian-bbcode|BBCode Convertor]]: Convert Markdown files to BBCode
-- [[bmo-chatbot|BMO Chatbot]]: Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) from Ollama, LM Studio, Anthropic, Google Gemini, OpenAI, Mistral AI, and more for Obsidian.
+- [[bmo-chatbot|BMO Chatbot]]: Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) from Ollama, LM Studio, Anthropic, Google Gemini, Mistral AI, OpenAI, and more for Obsidian.
 - [[obsidian42-brat|BRAT]]: Easily install a beta version of a plugin for testing.
 - [[babashka|Babashka]]: Evaluate Clojure(Script) codeblocks in Babashka.
 - [[background-image|Background Image]]: This allows you to specify a remote URL as the background image, and a few settings to tweak the experience.
@@ -362,7 +362,7 @@ Plugins which have not yet been categorized by the community.
 - [[latex-algorithms|LaTeX Algorithms]]: Plugin to facilitate writing algorithm blocks in LaTeX
 - [[latex-to-unicode|LaTeX to Unicode converter]]: Convert LaTeX commands into unicode sqeuences
 - [[language-translator|Language Translator]]: Translates given text to desired language
-- [[lapel|Lapel]]: Dress up your editor with decorations that mark each of your headings 🤵
+- [[lapel|Lapel]]: Dress up your editor with decorations that mark each of your headings.
 - [[latex-matrices|Latex Matrices]]: Speedup latex matrices writing.
 - [[obsidian-latex-suite|Latex Suite]]: Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements
 - [[laws-of-form|Laws of Form]]: Allows you to create, manage and display Laws of Form expressions like ((a)) (b) = a (b).
@@ -1187,7 +1187,7 @@ Plugins which have not yet been categorized by the community.
 - [[vlc-bridge|VLC Bridge]]: Take video/movie notes with timestamp links and snapshots from VLC Player.
 - [[progress-clocks|Progress Clocks]]: Progress clocks and other useful widgets for real-time status tracking.
 - [[note-companion-folder|Note Companion Folder]]: Manage a separate folder of attachments for each note.
-- [[tab-selector|Tab Selector]]: Quickly switch tab by 2 ways, one is general way in like other apps, the other is with keeping the keyboard home position.
+- [[tab-selector|Tab Selector]]: Quickly switch tabs in various ways.
 - [[default-query-in-backlink|Default query in backlinks]]: Automatically input default query in search input of backlinks in document.
 - [[metafolders|Metafolders]]: Multidimensional note navigation
 - [[spellcheck-toggler|Spellcheck Toggler]]: Toggle spellchecking for types of text blocks in the editing view.
@@ -1287,7 +1287,7 @@ Plugins which have not yet been categorized by the community.
 - [[generate-hash|Generate Hash]]: Generates a cryptographically strong pseudorandom hash.
 - [[simple-citations|Simple Citations]]: Add & update simple literature notes from Zotero.
 - [[custom-new-file-name|Custom new file name]]: Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.
-- [[bookmarks-caller|Bookmarks Caller]]: Easily open bookmarks without leaving the keyboard home position.
+- [[bookmarks-caller|Bookmarks Caller]]: Easily open bookmarks.
 - [[ai-writer|ai-writer]]: Use AI to generate high-quality articles with knowledge fragments.
 - [[link-magic|LinkMagic]]: Automatically adds links to defined regex.
 - [[mapbox-location|Mapbox Location Image]]: Show a map inside your notes with a specific format.
@@ -1439,13 +1439,36 @@ Plugins which have not yet been categorized by the community.
 - [[hash-pasted-image|Hash Pasted Image]]: Auto rename pasted images added to the vault via hash algorithm SHA-512
 - [[yanki|Yanki]]: Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.
 - [[iconic|Iconic]]: Customize your app icons directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.
-- [[notes-refresher|Notes Refresher]]: Provides summaries of notes from your Vault.
+- [[notes-refresher|Notes Refresher]]: Provides AI-generated summaries (GPT) of three notes from your Vault every day.
 - [[docbase-unofficial|DocBase (Unofficial)]]: Pull and push notes to DocBase
 - [[latex-render|Latex Render]]: Render snippets of latex code as SVG files.
 - [[code-link|Code Link]]: Link to code files in your notes
 - [[index-notes|Index Notes]]: Keep your notes indexed based on their (hierarchical) tags
 - [[plot-vectors-graphs|Plot Vectors and Graphs]]: Generates graphs and vectors.
 - [[nyanbar|NyanBar]]: Nyan Cat Progress Bar generator!
+- [[mpv-links|mpv links]]: Add mpv links with timestamps
+- [[iron-vault|Iron Vault]]: Gameplay plugin/VTT for the Ironsworn/Starforged family of tabletop RPGs.
+- [[popkit|PopKit]]: Select text to instantly access quick tools
+- [[account-viewer|Account Viewer]]: Automatically generate accounting tables from Markdown code blocks tagged with accounting.
+- [[better-markdown-links|Better Markdown Links]]: Adds support for angle bracket links and manages relative links properly
+- [[languagetool|LanguageTool]]: Inofficial integration of the LanguageTool spell and grammar checker.
+- [[browser-interface|Browser Interface]]: Save and reopen browser tabs using your vault and a browser extension.
+- [[nextcloud-link-fixer|Nextcloud Link Fixer]]: Nextcloud breaks Wiki-links (e.g. [[Some document]]). This fixes them.
+- [[everyday-classical-music|Everyday Classical Music]]: Display a different piece of classical music each day with a YouTube link in your daily note.
+- [[vikunja-sync|Vikunja Sync]]: Integrates Vikunja.
+- [[chinese-calendar|Chinese Calendar]]: 符合中国习惯的日历，可以显示农历、节日、调休、节气等信息，支持月视图和年视图切换，支持点击日期创建笔记，支持使用QuickAdd插件创建笔记。
+- [[unofficial-fabric-integration|Unofficial Fabric Integration]]: Integrates Fabric into your vault
+- [[caret|Caret]]: Accelerate your work with LLMs in canvas and your notes
+- [[messager|Messager]]: Save messages to vault from WeChat, HTTP API, and Email
+- [[giphy|Giphy]]: Search and insert gifs in a note.
+- [[image-metadata|Image Metadata]]: Annotate photos with Exif and other metadata right from the image viewer screen.
+- [[journal-folder|Journal Folder]]: Utilities for folder-based journaling
+- [[litegallery|Lite Gallery]]: Easily create carousel galleries to better organize/view images in your notes.
+- [[pia-viewer|Pia viewer]]: Make it look like a mobile
+- [[ca-sync|Cognitive Architect Sync]]: Synchronise Cognitive Architect (aka IBM IT Architect Assistant) architectures.
+- [[ai-image-analyzer|AI image analyzer]]: Analyze images with AI to get keywords of the image.
+- [[virt-folder|VirtFolder]]: Creating a hierarchical structure like Luhmann's Zettelkasten
+- [[magic-move|Magic Move]]: Animating code blocks with markdown and code syntax highlighting with beautiful themes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
