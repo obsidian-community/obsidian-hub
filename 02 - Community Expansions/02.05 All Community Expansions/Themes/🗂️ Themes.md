@@ -14,6 +14,7 @@ publish: true
 
 %% Hub MOCs: Don’t edit below  %%
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/80s Neon|80s Neon]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Abate|Abate]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Abecedarium|Abecedarium]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/AbsoluteGruv|AbsoluteGruv]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Abyssal|Abyssal]]
@@ -37,6 +38,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Aurora-Twilight|Aurora-Twilight]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Aurora|Aurora]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Autotape|Autotape]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ayu Light & Mirage|Ayu Light & Mirage]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ayu Mirage|Ayu Mirage]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ayu|Ayu]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Base2Tone|Base2Tone]]
@@ -190,6 +192,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Night Owl|Night Owl]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Nightfox|Nightfox]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Nightingale|Nightingale]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/nobb|nobb]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Nordic|Nordic]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Northern-Sky|Northern-Sky]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Notation 2|Notation 2]]
@@ -302,6 +305,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ukiyo|Ukiyo]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ultra Lobster|Ultra Lobster]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ursa|Ursa]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vanilla AMOLED Color|Vanilla AMOLED Color]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vanilla AMOLED|Vanilla AMOLED]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vanilla Palettes|Vanilla Palettes]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vauxhall|Vauxhall]]
