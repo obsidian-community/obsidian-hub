@@ -13,6 +13,7 @@ Handle attachments, files, and folders
 
 ## Plugins in this category
 
+- [[attachment-management|Attachment Management]]: Auto rename attachemnts, and customize the path/name with variables.
 - [[obsidian-file-link|Better File Link]]: A plugin to add better external file links to notes.
 - [[consistent-attachments-and-links|Consistent attachments and links]]: This plugin ensures the consistency of attachments and links
 - [[copy-url-in-preview|Copy Image and URL in Preview]]: Copy Image and Copy URL context menu in preview mode
@@ -22,7 +23,6 @@ Handle attachments, files, and folders
 - [[open-with|Open with]]: This Plugin allows you to add multiple other programs to open notes with.
 - [[quick-explorer|Quick Explorer]]: Perform file explorer operations (and see your current file path) from the title bar, using the mouse or keyboard
 - [[unique-attachments|Unique attachments]]: Rename attachments, making their names unique (based on hashing of file content)
-- [[attachment-management|Attachment Management]]: Auto rename attachemnts, and customize the path/name with variables.
 
 ## Related categories
 
