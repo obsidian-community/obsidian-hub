@@ -380,7 +380,7 @@ Plugins which have not yet been categorized by the community.
 - [[linkify|Linkify]]: Converts matching text into links.
 - [[links|Links]]: Manipulate links
 - [[obsidian-list-callouts|List Callouts]]: Create simple callouts in lists.
-- [[obsidian-list-modified|List Modified]]: A simple obsidian plugin that links all modified files meeting certain criteria to a daily note
+- [[obsidian-list-modified|List Modified]]: The advanced and adaptive changelog. Links all modified files meeting certain criteria to a timed (daily, weekly, monthly) note.
 - [[literate-haskell|Literate Haskell]]: An obsidian plugin for integrating `.lhs` files into your PKM.
 - [[obsidian-local-file-interface-plugin|Local File Interface]]: Provides commands for moving files in and out of the vault
 - [[obsidian-local-images-plus|Local Images Plus]]: Local Images Plus plugin searches for all external media links in your notes, downloads and saves them locally and adjusts the links in your notes to point to the saved files.
@@ -1081,7 +1081,7 @@ Plugins which have not yet been categorized by the community.
 - [[image-inline|Image Inline]]: Paste your image without attachment files
 - [[task-list|Task list]]: Enable better task management via lists.
 - [[share-my-plugin-list|Share my plugin list]]: Share the enabled plugins in list/table format.
-- [[gpg-encrypt|GPG Encrypt]]: GPG encrypt inline text using hotkeys
+- [[gpg-encrypt|GPG Encrypt]]: Plugin to encrypt partial text or complete notes using GPG technology, it is compatible with security keys such as YubiKey or traditional GPG encryption methods
 - [[smart-second-brain|Smart Second Brain]]: Interact with your privacy focused assistant, leveraging Ollama or OpenAI, making your second brain even smarter.
 - [[github-sync|GitHub Sync]]: Sync vault to personal GitHub.
 - [[kindle-html-importer|Kindle Highlights Importer]]: A simple way to import your Kindle highlights html file.
