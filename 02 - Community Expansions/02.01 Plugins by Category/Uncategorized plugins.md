@@ -876,7 +876,7 @@ Plugins which have not yet been categorized by the community.
 - [[typing|Typing]]: Programmatic customizations for groups of notes
 - [[magic-calendar|MagicCalendar]]: AI-Powered Obsidian Plugin that leverage Natural Language Processing techniques to find calendar events in Markdown notes, seamlessly synchronizing them with a calendar of choice.
 - [[rescuetime|RescueTime]]: View your RescueTime data in Obsidian.
-- [[chat-with-bard|Chat with Bard]]: Chat with the Google Bard Assistant directly from Obsidian
+- [[chat-with-bard|Gemini AI Assistant]]: Use Google Gemini directly in obsidian for free.
 - [[tracker-plus|Tracker+]]: Track and visualize data from your notes. Compatible with original Tracker plugin.
 - [[timeline-view|Timeline View]]: Display your obsidian notes in a timeline, based on a given property.
 - [[auto-filename|Auto Filename]]: Automatically rename files on the go based on the first x characters of files.
@@ -984,7 +984,7 @@ Plugins which have not yet been categorized by the community.
 - [[tickticksync|TickTickSync]]: Sync TickTick tasks to Obsidian, and Obsidian tasks to TickTick
 - [[slash-commander|Slash Commander]]: Customize the slash command list, assign each command an icon.
 - [[custom-save|Custom save]]: Run any commands when you save a file in the editor
-- [[peerdraft|Peerdraft]]: Secure real-time collaboration via secret link
+- [[peerdraft|Peerdraft]]: Real-time, instant collaboration on Obsidian documents or folders. Whether for quick note-taking or building a team knowledge base, Peerdaft syncs with your collaborators' Obsidian vaults and also offers a Web Editor.
 - [[note-gallery|Note Gallery]]: A masonry gallery view for your notes. Allows to have a birds eye view over the notes in your vault.
 - [[smart-title|Smart Title]]: Automatically extract tag and alias from the title.
 - [[gamified-pkm|Gamificate your PKM]]: Enhance your Personal Knowledge Management with gamification elements. Boost motivation and achieve growth as you engage with your PKM.
@@ -1120,7 +1120,7 @@ Plugins which have not yet been categorized by the community.
 - [[goban-sgf|Goban SGF]]: Obsidian plugin for recording Go games (SGF format goban).
 - [[display-relative-path-img|Display Relative Path Img]]: Display the image of the <img> tag
 - [[metadata-icon|Metadata Icon]]: Change metadata entry icon
-- [[fileorganizer2000|AI File Organizer 2000]]: Automatically organize notes, annotate photos and audio using AI.
+- [[fileorganizer2000|AI File Organizer 2000]]: An AI assistant to organize and chat with your vault
 - [[spotify-api|Spotify API]]: Exposes Spotify API
 - [[pf2e-statblocks|PF2e Statblocks]]: Renders Pathfinder 2e statblocks cleanly, using only Markdown-based syntax.
 - [[canvas-link-optimizer|Canvas Link Optimizer]]: Optimize canvas links by displaying a page thumbnail.
@@ -1334,7 +1334,7 @@ Plugins which have not yet been categorized by the community.
 - [[notes2tweets|Notes 2 Tweets]]: Generate and schedule tweets automatically from your notes
 - [[note-definitions|Note Definitions]]: Personal dictionary for your notes
 - [[mathlive-in-editor-mode|MathLive in Editor Mode]]: MathLive input in editor mode
-- [[lineage|Lineage]]: A keyboard-centric hierarchical writing interface. Inspired by Gingko Writer.
+- [[lineage|Lineage]]: Edit Markdown in a keyboard-centric Miller columns interface. Inspired by Gingko Writer.
 - [[settings-management|Settings Management]]: Manage settings options, including show enabled/disabled plugins and css, grid layout, save current plugins/css enable config for quick enable/disable, etc.
 - [[laser-beam|Laser beam]]: Improve your reading experience with customizable laser lines.
 - [[freeform|Freeform]]: Make visualizations and run arbitrary code with JavaScript + iframe blocks.
@@ -1362,7 +1362,7 @@ Plugins which have not yet been categorized by the community.
 - [[tabs|Tabs]]: Create tabs in your notes.
 - [[vault-name|Vault Name]]: Display and customize the vault name (title) in the side navigation file explorer.
 - [[substitutions|Substitutions]]: Automatically replace text fragments with symbols or different text
-- [[infostacker|Infostacker Note Publish]]: Share your notes with attachments easy!
+- [[infostacker|Infostacker Note Publish]]: Easily share your notes, images and attachments publicly using private links
 - [[audiopen-sync|AudioPen Sync]]: Sync notes from AudioPen.
 - [[pt-url-helper|Pivotal Tracker URL Helper]]: Automatically creates a Markdown link for Pivotal Tracker stories.
 - [[relative-timestamps|Relative Timestamps]]: Track the time between log entries
@@ -1507,12 +1507,21 @@ Plugins which have not yet been categorized by the community.
 - [[auto-correct-capitals|Auto Correct Capitals Misspellings]]: Automatically correct words with the first two letters in uppercase.
 - [[daily-statistics|Daily Statistics]]: Count the number of words written each day and display it on a calendar.
 - [[block-link-plus|Block Link Plus]]: Enhances right-click menu and global command with direct links to blocks and titles, adds support for multi-line blockquotes, and offers extensive customization options for block IDs.
-- [[lds-library-reference|LDS Library Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latterday Saints
+- [[lds-library-reference|LDS Library Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latter-day Saints
 - [[css-inlay-colors|CSS Inlay Colors]]: Show inline color hints for CSS colors
 - [[gtp-preview|GTP Preview]]: Supports rendering of GuitarPro files such as `gtp/gp/gp5/gpx`.
 - [[structured-tree|Structured Tree]]: A file explorer for navigating hierarchical notes separated by '.'
 - [[current-file|Current File]]: Allows external applications to know what file the desktop app is currently viewing.
 - [[arcane-obfuscate|Arcane Obfuscate]]: Obfuscate text with an arcane runic effect.
+- [[todoistprojectsync|Todoist Project sync]]: synchronizes projects from Todoist, creating a note for each.
+- [[recursive-copy|Recursive Copy]]: Recursively copies all markdown files in a folder, concatenates them, and copies them into the clipboard. Useful for quickly loading context into AI. Can be triggered by right clicking a folder and selecting the context menu item, or by binding a key (will copy everything in the active file's folder).
+- [[blockreffer|Blockreffer]]: Search and embed blocks with ^block-references (aka ^block-ids)
+- [[emera|Emera]]: Enables you to use custom React components and inline JavaScript, kinda like MDX.
+- [[ai-latex-generator|AI LaTeX Generator]]: Convert natural language to LaTeX equations using a local LLM.
+- [[listen-up|Listen Up!]]: A FREE and Open source plugin to covert text to natural speech LOCALLY - Listen Up!
+- [[serendipity|Serendipity]]: Forces serendipitous discoveries by displaying random notes from your vault each time you open the app
+- [[note-reviewer|Note Reviewer]]: Help knowledge retention by reviewing and filtering notes.
+- [[abbreviations-mark|Abbreviations and Acronyms]]: Implements automatic marking of abbreviations and acronyms (terminology).
 
 
 %% Hub footer: Please don't edit anything below this line %%
