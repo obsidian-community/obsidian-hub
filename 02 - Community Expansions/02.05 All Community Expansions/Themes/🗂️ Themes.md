@@ -151,6 +151,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Jotter|Jotter]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Kakano|Kakano]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Kanagawa|Kanagawa]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Kiwi Mono|Kiwi Mono]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Kurokula|Kurokula]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/LaTeX|LaTeX]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Lavender-Mist|Lavender-Mist]]
