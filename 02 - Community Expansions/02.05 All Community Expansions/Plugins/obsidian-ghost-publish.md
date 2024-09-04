@@ -2,6 +2,7 @@
 plugin-id: obsidian-ghost-publish
 aliases:
 - Obsidian Ghost Publish
+- Ghost Publish
 tags: 
 - 
 publish: true
