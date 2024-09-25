@@ -1528,44 +1528,7 @@ Plugins which have not yet been categorized by the community.
 - [[lazy-plugins|Lazy Plugin Loader]]: Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.
 - [[battery-indicator|Battery Indicator]]: Displays current battery level in the status bar.
 - [[virustotal-enrich|Virus Total Enrichment]]: Enrich your notes with information from VirusTotal.
-- [[snippets-manager|Snippets Manager]]: Snippets manager with full mobile support. You can manage code snippets, infos like passport number, email signature or anything.
-- [[css-inserter|CSS Inserter]]: Inserts user-defined css snippets into the selected text.
-- [[anysocket-sync|AnySocket Sync]]: Self-Hosted synchronization for you Vault using AnySocket
-- [[live-variables|Live Variables]]: Define variables in your note's properties and reuse them throughout your content.
-- [[imgbb-uploader|ImgBB Uploader]]: Upload images from your clipboard to ImgBB.
-- [[import-github-readme|Import GitHub Readme]]: Fetches and integrates GitHub README files into personal notesmai
-- [[backtick-text-selector|Backtick text selector]]: Select text between backticks with keyboard shortcuts.
-- [[daily-note-collector|Daily Note Collector]]: Adds links to new notes to your daily note.
-- [[quick-cards|Quick Cards]]: cardify your files
-- [[vault-to-blog|Vault to blog]]: Publish the vault to a GitHub Pages blog.
-- [[tailwind-snippet|Tailwind Snippet]]: Use TailwindCSS utility classes in your markup.
-- [[simple-sketch|simple-sketch]]: Create minimalist sketches in a dedicated view, draw with a pencil, generate shapes, add text, save it to the vault or download it as an image.
-- [[pug-templates|Pug Templates]]: Use the Pug templating engine in your vault.
-- [[draw-steel-elements|Draw Steel Elements]]: Components to support the Draw Steel TTRPG by MCDM.
-- [[highlight-active-folder-section|Highlight active folder section]]: Highlight the active folder section and the title in the file explorer.
-- [[canvas-task-importer|Canvas LMS Task Importer]]: Import tasks from Canvas LMS into vault.
-- [[tokenz|Tokenz]]: Insert shortcodes into your document, e.g smileys :) or emojis :wink: . User-defined short code maps are also supported.
-- [[diarian|Diarian]]: All-in-one journaling toolkit.
-- [[nexus-ai-chat-importer|Nexus AI Chat Importer]]: Import conversations from ChatGPT export files.
-- [[auto-periodic-notes|Auto Periodic Notes]]: Creates new periodic notes automatically in the background and allows these to be pinned in your open tabs, requires the Periodic Notes plugin.
-- [[mesh-ai|Mesh AI]]: Mesh AI prompt manager and gererator
-- [[onto-tracker|Onto Tracker]]: Manage projects according to an ontology.
-- [[ai-latex-generator|AI LaTeX Generator]]: Convert natural language to LaTeX equations using a local LLM.
-- [[listen-up|Listen Up!]]: Covert text to natural voice audio, locally - Listen Up!
-- [[serendipity|Serendipity]]: Forces serendipitous discoveries by displaying random notes from your vault each time you open the app
-- [[note-reviewer|Note Reviewer]]: Help knowledge retention by reviewing and filtering notes.
-- [[abbreviations-mark|Abbreviations and Acronyms]]: Implements automatic marking of abbreviations and acronyms (terminology).
-- [[mahjong-renderer|Mahjong Renderer]]: Render mahjong tiles (riichi mahjong) using MPSZ algebraic notation
-- [[external-file-card|External File Card]]: Display file cards for external files.
-- [[vitepress-publisher|Vitepress Publisher]]: This is an plugin for more convenient preview and publishing of .md files using vitepress
-- [[keepsidian|KeepSidian]]: Import Google Keep notes.
-- [[suggest-notes|Suggest Notes]]: Quick suggests for linkable notes
-- [[file-share|File Share]]: Enables end-to-end encrypted file sharing directly between vaults via a socket server.
-- [[canvas-explorer|Canvas Explorer]]: Canvas Explorer is a plugin that enables users to explore their vault by iteratively adding or ignoring linked notes, ultimately generating a customizable canvas.
-- [[lazy-plugins|Lazy Plugin Loader]]: Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.
-- [[battery-indicator|Battery Indicator]]: Displays current battery level in the status bar.
-- [[virustotal-enrich|Virus Total Enrichment]]: Enrich your notes with information from VirusTotal.
-- [[snippets-manager|Snippets Manager]]: Snippets manager with full mobile support. You can manage code snippets, infos like passport number, email signature or anything.
+- [[snippets-manager|Snippets Manager]]: A versatile text expansion plugin with full mobile support. Easily manage code snippets, personal info like passport numbers, email signatures, and more. Includes seamless Alfred integration and the ability to sync Awesome ChatGPT prompts as snippets.
 - [[css-inserter|CSS Inserter]]: Inserts user-defined css snippets into the selected text.
 - [[anysocket-sync|AnySocket Sync]]: Self-Hosted synchronization for you Vault using AnySocket
 - [[live-variables|Live Variables]]: Define variables in your note's properties and reuse them throughout your content.
@@ -1592,6 +1555,35 @@ Plugins which have not yet been categorized by the community.
 - [[print|Print]]: Print notes and documents directly from your workspace.
 - [[morgen-tasks|Morgen Tasks]]: Plan, time block, and track tasks from your vault in any calendar using Morgen.
 - [[immich|Immich]]: Link your Immich images within your vault.
+- [[verovio-music-renderer|Verovio Music Renderer]]: Rendering of music notation files.
+- [[card-navigator|Card Navigator]]: Navigate your notes visually with card-based interface
+- [[callout-menu|Callout menu]]: Adds some extra options to callouts context menu and allows you to add your own custom callouts.
+- [[enhanced-image|Enhanced Image]]: Enhance the experience of image seamlessly. For example, operations for image in context menu, command palette.
+- [[poker-range|Poker Range]]: Create a poker range grid
+- [[spaced-everything|Spaced everything]]: Apply spaced repetition algorithms to everything in your vault.
+- [[epiphany|Epiphany]]: Synchronize voice notes from the Epiphany app directly into your vault
+- [[pexels-banner|Pexels Banner]]: Apply an image from Pexels as a banner to your notes.
+- [[rich-foot|Rich Foot]]: Adds backlink tags and created/modified dates to the footer of your notes.
+- [[pintora|Pintora]]: Generates diagrams using Pintora
+- [[alignment-tracker|Alignment Tracker]]: Track character alignment using a 3x3 grid.
+- [[auto-pause|AutoPause]]: Allows one audio track to be played at a time, pausing or stopping any others.
+- [[code-language-completer|Code Language Completer]]: Autosuggests and completes codeblock language options based on history.
+- [[guitar-chord|Guitar Chord]]: Quickly enter and display guitar chords, with optional chords based on music theory. No need to write in code blocks, they can be inserted and edited directly in the document.
+- [[symlink-creator|Symlink Creator]]: Create symlinks to files and folders inside and outside of your vault.
+- [[remove-unused-block-ids|Remove Unused Block IDs]]: Remove unused block ids in your vault.
+- [[collapse-linked-mentions|Collapse Linked Mentions]]: Automatically collapse embedded backlink mentions
+- [[remove-html-tag|Remove HTML Tag]]: Remove HTML tag in Markdown file
+- [[diagram-zoom-drag|Diagram Zoom Drag]]: Add zoom and drag functionality to diagrams from Mermaid, Plantuml, Graphviz, Gravizo and so on
+- [[figma-embed|Figma Embed]]: Embed Figma files as inline previews.
+- [[xmind-viewer|XMind Viewer]]: Integrate viewing of your XMind files
+- [[auto-strikethrough-task|Auto Strikethrough Tasks]]: Automatically adds strikethrough to completed tasks.
+- [[colorizelt|Colorizelt]]: Easy color and clear selected text
+- [[magic-mic|Magic Mic]]: Record, transcribe, and summarize audio directly into your vault with custom assistants.
+- [[editing-mode-hotkey|Editing Mode Hotkey]]: Adds a command and hotkey to toggle the default editing mode (between Live Preview and Source)
+- [[hierarchy|Hierarchy]]: Display the hierarchy instead of just the file name.
+- [[minimize-on-close|Minimize on Close]]: Minimizes the app window to an icon after closing the last open pane
+- [[custom-node-size|Custom Node Size]]: Customize nodes size for improved graph understanding.
+- [[mermaid-popup|Mermaid Popup]]: Show mermaid diagrams in a draggable and zoomable popup
 
 
 %% Hub footer: Please don't edit anything below this line %%
