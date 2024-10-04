@@ -70,7 +70,6 @@ Plugins which have not yet been categorized by the community.
 - [[auto-template-trigger|Auto Template Trigger]]: Automatically apply or prompt for a template when creating a note. Supports assigning templates to folders.
 - [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag or alias and imports them into the current note.
 - [[automatic-list-styles|Automatic List Styles]]: Automatically formats the styles of ordered lists, incrementing the list style for each layer
-- [[obsidian-autoscroll|Autoscroll]]: This plugin allows you to automatically scroll down the content with the provided speed
 - [[avatar|Avatar]]: Display an avatar image in your notes.
 - [[awesome-brain-manager|Awesome Brain Manager]]: A toolkit tries to solve all the trivial problems most people usually encountered in obsidian.
 - [[obsidian-awesome-flashcard|Awesome Flashcard]]: Handy Anki integration for Obsidian.
@@ -1025,7 +1024,7 @@ Plugins which have not yet been categorized by the community.
 - [[githobs|GitHobs]]: Use Obsidian as Github issue editor!
 - [[soundscapes|Soundscapes]]: Adds a music/ambiance (E.g. lofi, white noise) player to the status bar to help with concentration. Also allows you to play your own local music files.
 - [[paste-from-history|Paste From History]]: Paste from the editor's recent clipboard history.
-- [[instapaper|Instapaper]]: Instapaper integration for Obsidian.
+- [[instapaper|Instapaper]]: Instapaper integration.
 - [[full-screen-cross-platform|Full Screen Toggle]]: Toggle fullscreen across all platforms.
 - [[pkvs|Persistent Key-Value Store]]: Provides a persistent key-value store for use in scripts, along with a portable web inspector.
 - [[settings-profiles|Settings profiles]]: Allows you to create various global settings profiles. You can sync them between different vaults. To keep all your settings in sync, you'll never have to manually adjust them again for every vault you have or create in the future.
@@ -1235,7 +1234,7 @@ Plugins which have not yet been categorized by the community.
 - [[automation|Automation]]: Execute commands on specific events.
 - [[click-clack|Click Clack]]: Simulates typewriter / mechanical keyboard sounds.
 - [[grind-manager|Gamified Tasks]]: Gamify your task management with rewards system, craft your tasks by tags.
-- [[dictionary-translator|Dictionary translator]]: It can help you translate words or sentences, listen to recordings of new words or sentences, and even record your own pronunciation to save in the form of internal links to your notes.
+- [[dictionary-translator|Dictionary translator]]: 它可以帮助你翻译单词或句子，听新单词或句子的录音，甚至录下自己的发音，以内部链接的形式保存到你的笔记中。
 - [[vconsole|vConsole]]: Integrate vConsole for developers to facilitate the debugging of mobile plugins.
 - [[external-links|External Links]]: List external links and discover which notes reference them.
 - [[target-word-count|Target Word Count]]: Disable editing until you've added a target number of words.
@@ -1583,7 +1582,6 @@ Plugins which have not yet been categorized by the community.
 - [[hierarchy|Hierarchy]]: Display the hierarchy instead of just the file name.
 - [[minimize-on-close|Minimize on Close]]: Minimizes the app window to an icon after closing the last open pane
 - [[custom-node-size|Custom Node Size]]: Customize nodes size for improved graph understanding.
-- [[mermaid-popup|Mermaid Popup]]: Show mermaid diagrams in a draggable and zoomable popup
 
 
 %% Hub footer: Please don't edit anything below this line %%
