@@ -774,7 +774,6 @@ Plugins which have not yet been categorized by the community.
 - [[header-enhancer|Header Enhancer]]: Level up your headers, customize your notes. Header Enhancer makes your notes header better and more useful.
 - [[mlir-syntax-highlight|MLIR Syntax Highlight]]: Show syntax highlighing for MLIR in code blocks the editor
 - [[handwritten-notes|Handwritten Notes]]: Annotate PDFs and create handwritten notes inside your vault using a stylus.
-- [[flashcard-gen|Flashcard Generator]]: Craft insightful quizzes: Generate key questions/answers pairs from your notes effortlessly using Open ai's GPT-3/4. Elevate and optimize your learning journey.
 - [[spreadsheets|Spreadsheets]]: Plugin to create spreadsheets in Obsidian.
 - [[ticktick|TickTick]]: Check and create tasks in TickTick via Obsidian
 - [[webdav-file-explorer|Webdav File Explorer]]: A webdav file explorer for Obsidian.
@@ -1431,7 +1430,7 @@ Plugins which have not yet been categorized by the community.
 - [[refresh-preview|Refresh Preview]]: Allows to refresh preview mode without reopening the note
 - [[hash-pasted-image|Hash Pasted Image]]: Auto rename pasted images added to the vault via hash algorithm SHA-512
 - [[yanki|Yanki]]: Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.
-- [[iconic|Iconic]]: Customize your app icons directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.
+- [[iconic|Iconic]]: Customize your icons and their colors directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.
 - [[notes-refresher|Notes Refresher]]: Provides AI-generated summaries (GPT) of three notes from your Vault every day.
 - [[docbase-unofficial|DocBase (Unofficial)]]: Pull and push notes to DocBase
 - [[latex-render|Latex Render]]: Render snippets of latex code as SVG files.
@@ -1582,6 +1581,11 @@ Plugins which have not yet been categorized by the community.
 - [[hierarchy|Hierarchy]]: Display the hierarchy instead of just the file name.
 - [[minimize-on-close|Minimize on Close]]: Minimizes the app window to an icon after closing the last open pane
 - [[custom-node-size|Custom Node Size]]: Customize nodes size for improved graph understanding.
+- [[newledge|新枝Newledge]]: Import Newledge data.
+- [[immersive-translate|Immersive Translate]]: A free-to-use translatation service for foreign language markdown file.
+- [[scripture-indexer|Scripture Indexer]]: Indexes references to scriptures in notes.
+- [[open-sidebar-on-hover|Open Sidebar on Hover]]: Opens the sidebar by hovering over it.
+- [[onlyworlds-builder|OnlyWorlds Builder]]: World building structure with OnlyWorlds integration
 
 
 %% Hub footer: Please don't edit anything below this line %%
