@@ -799,7 +799,7 @@ Plugins which have not yet been categorized by the community.
 - [[vertical-tabs-view|Vertical Tabs View]]: Provides a vertical tabs view.
 - [[just-share-please|Just Share Please]]: Quickly and easily share individual notes online using an anonymized link. Also easy to self-host!
 - [[potato-indexer|Potato Indexer]]: Allow generation of a content index based on your selection or of the whole file.
-- [[typewriter-mode|Typewriter Mode]]: Typewriter scrolling, highlighting of the current line, dimming of unfocused paragraphs and more
+- [[typewriter-mode|Typewriter Mode]]: Typewriter scrolling, highlighting of the current line, dimming of unfocused paragraphs, writing focus and more.
 - [[js-engine|JS Engine]]: Run JavaScript from within your notes.
 - [[mononote|Mononote]]: Ensures each note occupies only one tab. If a note is already open, its existing tab will be focussed instead of opening the same file in the current tab.
 - [[cannoli|Cannoli]]: Create and run LLM scripts on the Obsidian Canvas.
