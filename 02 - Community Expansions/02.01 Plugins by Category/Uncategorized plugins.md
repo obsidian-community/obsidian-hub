@@ -1143,7 +1143,7 @@ Plugins which have not yet been categorized by the community.
 - [[text-focus|Text Focus]]: Focus the text area when creating new notes.
 - [[tab-shifter|Tab Shifter]]: Enables shifting tabs between different tab splits and some other basic IDE tab functionalities
 - [[alias-management|Alias Management]]: Identify duplicate notes based on similar aliases and filenames.
-- [[historica|historica]]: Intelligently generates timeline from your content
+- [[historica|historica]]: Intelligently generates timeline from your content ... like a bro!
 - [[date-inserter|Date Inserter]]: Insert a date at the cursor position using a calendar.
 - [[tekken-notation|Tekken Notation]]: Renders Tekken Notation.
 - [[mantou-ai|MantouAI]]: Work as a personal assistant for translation, writing polish, general Q&A, summarizing, using the power of large language models.
@@ -1484,7 +1484,7 @@ Plugins which have not yet been categorized by the community.
 - [[recent-tab-switcher|Recent Tab Switcher]]: Switch to the most recently used tab.
 - [[marker-api|Marker PDF to MD]]: Convert PDFs to rich Markdown, including images and ocr using the Marker API
 - [[hexo-publisher|Hexo Publisher]]: Publish your notes to Hexo
-- [[inline-spoilers|Inline spoilers]]: Adds Discord-like syntax for inline spoilers in reader mode.
+- [[inline-spoilers|Inline spoilers]]: Adds Discord-like syntax for inline spoilers.
 - [[enhanced-symbols-prettifier|Enhanced Symbols Prettifier]]: Replace/substitute the symbols with actual symbols you commonly type. It also works for emojis shortcuts, abbreviations, greek letters, math symbols or other snippets/aliases you define
 - [[smart-templates|Smart Templates]]: AI powered templates for generating structured content. Works with Local Models, Anthropic Claude, Gemini, OpenAI and more.
 - [[canvas-picture-in-picture|Canvas Picture in Picture]]: Enables ability to pin Canvas nodes and float them above the board (Picture-in-Picture mode)
@@ -1522,7 +1522,7 @@ Plugins which have not yet been categorized by the community.
 - [[keepsidian|KeepSidian]]: Import Google Keep notes.
 - [[suggest-notes|Suggest Notes]]: Quick suggests for linkable notes
 - [[file-share|File Share]]: Enables end-to-end encrypted file sharing directly between vaults via a socket server.
-- [[canvas-explorer|Canvas Explorer]]: Canvas Explorer is a plugin that enables users to explore their vault by iteratively adding or ignoring linked notes, ultimately generating a customizable canvas.
+- [[canvas-explorer|Canvas Explorer]]: Explore your Obsidian vault by adding or ignoring linked notes, generating a customizable canvas with note sorting and section exclusion.
 - [[lazy-plugins|Lazy Plugin Loader]]: Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.
 - [[battery-indicator|Battery Indicator]]: Displays current battery level in the status bar.
 - [[virustotal-enrich|Virus Total Enrichment]]: Enrich your notes with information from VirusTotal.
@@ -1560,7 +1560,7 @@ Plugins which have not yet been categorized by the community.
 - [[poker-range|Poker Range]]: Create a poker range grid
 - [[spaced-everything|Spaced everything]]: Apply spaced repetition algorithms to everything in your vault.
 - [[epiphany|Epiphany]]: Synchronize voice notes from the Epiphany app directly into your vault
-- [[pexels-banner|Pexels Banner]]: Apply an image from Pexels as a banner to your notes.
+- [[pexels-banner|Pixel Banner]]: Apply an image from various sources as a banner to your notes.
 - [[rich-foot|Rich Foot]]: Adds backlink tags and created/modified dates to the footer of your notes.
 - [[pintora|Pintora]]: Generates diagrams using Pintora
 - [[alignment-tracker|Alignment Tracker]]: Track character alignment using a 3x3 grid.
@@ -1586,6 +1586,21 @@ Plugins which have not yet been categorized by the community.
 - [[scripture-indexer|Scripture Indexer]]: Indexes references to scriptures in notes.
 - [[open-sidebar-on-hover|Open Sidebar on Hover]]: Opens the sidebar by hovering over it.
 - [[onlyworlds-builder|OnlyWorlds Builder]]: World building structure with OnlyWorlds integration
+- [[command-tracker|Command Tracker]]: Track the number of times the command is used.
+- [[llm-summary|LLM Summary]]: Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.
+- [[bookxnote-sync|BookXNote Sync]]: 从bookxnote中同步笔记
+- [[find-orphaned-images|Find Orphaned Images]]: Finds images in the vault that are not linked to any notes. Either lists, or deletes them.
+- [[link-navigation|Link Navigation]]: Navigate between incoming links (inlinks), outgoing links (outlinks) N levels deep. Links from Canvas are also supported.
+- [[modal-opener|Modal Opener]]: Open files and links in modal windows, or create and edit compatible files in modal windows.
+- [[mouse-navigation|Mouse Navigation]]: Enables smooth navigation using mouse gestures for scrolling and switching pages.
+- [[ffmpeg-converter|FFmpeg Converter]]: Convert most used file formats into another format using FFmpeg and FFprobe to optimize your vault space
+- [[crackboard|Crackboard]]: tpot leaderboard productivity tracker
+- [[quick-notes|Quick Notes]]: Speeds up some note taking abilities and allows for creating notes/links in the background
+- [[typefully|Typefully]]: Typefully integration. Publish social media posts with ease
+- [[infranodus-graph-view|InfraNodus AI Graph View]]: Interactive 3D graph view: text analysis, topic modeling, gap detection, and AI.
+- [[open-interpreter|Open Interpreter]]: Use Open Interpreter to run automaticoperations on your vault
+- [[scrambling-title-animations|Scrambling Title Animations]]: Animates the title of any note you open by scrambling and revealing it in several visually appealing ways.
+- [[lemons-search|Lemons Search]]: A blazingly fast fuzzy finder with file preview.
 
 
 %% Hub footer: Please don't edit anything below this line %%
