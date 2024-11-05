@@ -810,7 +810,7 @@ Plugins which have not yet been categorized by the community.
 - [[content-linker|Content Linker]]: A plugin for searching and adding bi-directional links to existing content in Obsidian Vault.
 - [[swiss-army-knife|Swiss army knife]]: Collection of various utilities e.g. duplicate empty line remover, Obsidian plugin release/tag version downloader (eg. for mobile tests)
 - [[share-to-notionnext|Share to NotionNext]]: Shares obsidian md file to notion with notion api for NotionNext web deploy, originally created by EasyChris/obsidian-to-notion.
-- [[inline-math|No more flickering inline math]]: No longer disturbed by flickering inline math in Obsidian.
+- [[inline-math|No more flickering inline math]]: Remove flickering inline math.
 - [[expiration-date-tracker|Expiration-Date-Tracker]]: Keep track of all expiration dates, for example, for your groceries.
 - [[eml-reader|Email Reader]]: Provide a preview mode for embeded `*.eml` files.
 - [[size-history|Size History]]: Admire the growth of your Obsidian vault with a "hand-drawn" chart.
@@ -1024,7 +1024,7 @@ Plugins which have not yet been categorized by the community.
 - [[soundscapes|Soundscapes]]: Adds a music/ambiance (E.g. lofi, white noise) player to the status bar to help with concentration. Also allows you to play your own local music files.
 - [[paste-from-history|Paste From History]]: Paste from the editor's recent clipboard history.
 - [[instapaper|Instapaper]]: Instapaper integration.
-- [[full-screen-cross-platform|Full Screen Toggle]]: Toggle fullscreen across all platforms.
+- [[full-screen-cross-platform|Full Screen Toggle]]: Fullscreen focus across all platforms. It helps you get more display space when you focus on reading notes, especially on mobile devices.
 - [[pkvs|Persistent Key-Value Store]]: Provides a persistent key-value store for use in scripts, along with a portable web inspector.
 - [[settings-profiles|Settings profiles]]: Allows you to create various global settings profiles. You can sync them between different vaults. To keep all your settings in sync, you'll never have to manually adjust them again for every vault you have or create in the future.
 - [[font-size|Font Size Adjuster]]: Adjust font size via commands.
@@ -1443,7 +1443,7 @@ Plugins which have not yet been categorized by the community.
 - [[popkit|PopKit]]: Select text to instantly access quick tools
 - [[account-viewer|Account Viewer]]: Automatically generate accounting tables from Markdown code blocks tagged with accounting.
 - [[better-markdown-links|Better Markdown Links]]: Adds support for angle bracket links and manages relative links properly
-- [[languagetool|LanguageTool]]: Inofficial integration of the LanguageTool spell and grammar checker.
+- [[languagetool|LanguageTool]]: Unofficial integration of the LanguageTool spell and grammar checker.
 - [[browser-interface|Browser Interface]]: Save and reopen browser tabs using your vault and a browser extension.
 - [[nextcloud-link-fixer|Nextcloud Link Fixer]]: Nextcloud breaks Wiki-links (e.g. [[Some document]]). This fixes them.
 - [[everyday-classical-music|Everyday Classical Music]]: Display a different piece of classical music each day with a YouTube link in your daily note.
@@ -1598,9 +1598,29 @@ Plugins which have not yet been categorized by the community.
 - [[quick-notes|Quick Notes]]: Speeds up some note taking abilities and allows for creating notes/links in the background
 - [[typefully|Typefully]]: Typefully integration. Publish social media posts with ease
 - [[infranodus-graph-view|InfraNodus AI Graph View]]: Interactive 3D graph view: text analysis, topic modeling, gap detection, and AI.
-- [[open-interpreter|Open Interpreter]]: Use Open Interpreter to run automaticoperations on your vault
+- [[open-interpreter|Open Interpreter]]: Use Open Interpreter to run automatic operations on your vault
 - [[scrambling-title-animations|Scrambling Title Animations]]: Animates the title of any note you open by scrambling and revealing it in several visually appealing ways.
 - [[lemons-search|Lemons Search]]: A blazingly fast fuzzy finder with file preview.
+- [[flow|Flow]]: Implements key processes in David Allen's Getting Things Done (GTD) methodology (Closed source)
+- [[quarto-exporter|Quarto Exporter]]: Export notes to Quarto-compatible QMD files.
+- [[copy-section|Copy Section]]: adds a Copy button to the top of Headed sections
+- [[cloud-storage|Cloud Storage]]: Allows users to upload local files to the cloud, reducing the burden on local vaults and enabling seamless synchronization across multiple devices.
+- [[local-media-embedder|Local Media Embedder]]: Embed videos and images and audios from your local device  in your notes.
+- [[tab-panels|Tab Panels]]: Create tab panels to organize content into sections
+- [[jura-links|Jura Links]]: Verlinke deine notierten Gesetzesnormen, Aktenzeichen und Zeitschriften-Fundstellen mit Gesetzesanbietern.
+- [[advanced-copy|Advanced Copy]]: Copy Markdown and transform it according to your needs.
+- [[nav-link-header|Nav Link Header]]: Display navigation links at the top of the notes.
+- [[japanese-novel-ruby|Japanese Novel Ruby]]: Treat ruby(Furigana) ​​marks commonly used in Japanese novels.
+- [[asciidoctor-editor|Asciidoctor editor]]: View and modify asciidoc pages
+- [[replace-all|Replace All]]: Replace all in vault.
+- [[metadata-auto-classifier|Metadata Auto Classifier]]: Automatically classifies and applies metadata to your notes.
+- [[strava-sync|Strava Sync]]: Sync activities from Strava.
+- [[another-simple-todoist-sync|Another Simple Todoist Sync]]: Sync tasks with Todoist.
+- [[translate-inline|Translate Inline]]: Translations at your fingertips. Get inline Translations when writing Notes.
+- [[youtube-iframe-timestamps|Youtube Iframe Timestamps]]: Allows you to embed YouTube videos with timestamps directly in your notes, enabling seamless referencing and note-taking without needing to open a separate browser window.
+- [[random-retrieval|random-retrieval]]: Random Note Retrieval based on LLMs.
+- [[occura-word-highlighter|Occura]]: Find and highlight all occurrences of selected text in notes, similar to Notepad++ or IDEs.
+- [[callout-toggles|Callout Toggles]]: Quickly add, change, or remove callout wrappers in your notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
