@@ -319,7 +319,7 @@ Plugins which have not yet been categorized by the community.
 - [[iconoir-icons|Iconoir Icons]]: Create & display customized SVG Iconoir icons.
 - [[obsidian-image-caption|Image Caption]]: Add captions to images.
 - [[image-captions|Image Captions]]: Adds captions to images when there is alt-text specified
-- [[image-converter|Image Converter]]: Convert, compress and resize images from one format to another by dragging and dropping or pasting into the note.
+- [[image-converter|Image Converter]]: Convert, compress and resize images from one format to another by dragging and dropping or pasting into the note. HEIC, TIF, JPG, WEBP, PNG.
 - [[obsidian-image-gallery|Image Gallery]]: A zero setup masonry image gallery for Obsidian
 - [[insert-unsplash-image|Image Inserter]]: This plugin helps users easily search and insert images to editors from Unsplash / Pixabay / Pexels.
 - [[obsidian-image-layouts|Image Layouts]]: Add beautiful image layouts to your notes
@@ -1422,7 +1422,7 @@ Plugins which have not yet been categorized by the community.
 - [[virtual-linker|Virtual Linker / Glossary]]: Automatically creates virtual links for text within your notes that match the titles or aliases of other notes in your vault. Create a glossary-like functionality, show unlinked mentions and transform them to real links.
 - [[arena-manager|Are.na Manager]]: Publish content from your vault to Arena and the other way around.
 - [[shrink-pinned-tabs|Shrink pinned tabs]]: Shrinks pinned tabs to save screen space.
-- [[remove-newlines|Remove Newlines]]: Remove newlines from text selections and also paste content from the clipboard without newlines.
+- [[remove-newlines|Remove Newlines]]: Remove newlines or blank lines from selected or pasted text.
 - [[entity-linker|Entity Linker]]: Link research terms to standard entities
 - [[datepicker|Datepicker]]: Use a date picker to modify and insert date/time anywhere in your markdown notes.
 - [[ai-chat-as-md|AI Chat as Markdown]]: Multiple branching AI conversations as Markdown hierarchy
@@ -1494,7 +1494,7 @@ Plugins which have not yet been categorized by the community.
 - [[learnie|Learnie]]: Enhance your learning with active recall and spaced repetition. Track changes, create review questions, and streamline your study process for more effective, long-lasting learning.
 - [[confluence-link|Confluence Link]]: Upload files to confluence pages
 - [[system3-relay|Relay]]: Collaborate in real time with live cursors. Create relays, add folders, and manage user access.
-- [[vault-size-history|Vault Size History]]: Graph of the Number of Files in the Vault.
+- [[vault-size-history|Vault Size History]]: Graph of the number of files in the Vault.
 - [[harper|Harper]]: The Grammar Checker for Developers
 - [[geulo-youtube-liked-video|Geulo]]: Effortlessly fetch and manage all the YouTube videos you've liked, search and sort them, and add them to your daily note.
 - [[sync-db-os|sync-db-os]]: For synchronization between multiple platforms
@@ -1581,6 +1581,7 @@ Plugins which have not yet been categorized by the community.
 - [[hierarchy|Hierarchy]]: Display the hierarchy instead of just the file name.
 - [[minimize-on-close|Minimize on Close]]: Minimizes the app window to an icon after closing the last open pane
 - [[custom-node-size|Custom Node Size]]: Customize nodes size for improved graph understanding.
+- [[mermaid-popup|Diagram Popup]]: Show diagrams, from Mermaid, PlantUML, Graphviz and so on, in a draggable and zoomable popup
 - [[newledge|新枝Newledge]]: Import Newledge data.
 - [[immersive-translate|Immersive Translate]]: A free-to-use translatation service for foreign language markdown file.
 - [[scripture-indexer|Scripture Indexer]]: Indexes references to scriptures in notes.
@@ -1620,7 +1621,7 @@ Plugins which have not yet been categorized by the community.
 - [[youtube-iframe-timestamps|Youtube Iframe Timestamps]]: Allows you to embed YouTube videos with timestamps directly in your notes, enabling seamless referencing and note-taking without needing to open a separate browser window.
 - [[random-retrieval|random-retrieval]]: Random Note Retrieval based on LLMs.
 - [[occura-word-highlighter|Occura]]: Find and highlight all occurrences of selected text in notes, similar to Notepad++ or IDEs.
-- [[callout-toggles|Callout Toggles]]: Quickly add, change, or remove callout wrappers in your notes.
+- [[callout-toggles|Callout Toggles]]: Quickly add, change, or remove callouts in your notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
