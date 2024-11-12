@@ -1,6 +1,6 @@
 # for Creative Writing
 
-- [Writing a novel in Markdown](https://pdworkman.com/writing-a-novel-in-markdown/) by @pdworkman
+- [Organize and Write Your Next Novel in Obsidian](https://pdworkman.com/write-book-with-obsidian/) by @pdworkman
 - [Using Obsidian For Writing Fiction & Notes](https://eleanorkonik.com/obsidian-for-writing/) by [[eleanorkonik|Eleanor Konik]]
 - [9 Must Have Obsidian Plugins for Writers](https://curtismchale.ca/2022/01/10/9-obsidian-writing-plugins/) by Curtis McHale
 
