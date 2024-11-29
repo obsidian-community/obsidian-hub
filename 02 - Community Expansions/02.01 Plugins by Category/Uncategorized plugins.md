@@ -546,7 +546,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate
 - [[obsidian-rapid-notes|Rapid Notes]]: Create and place notes quickly in specific folders based on predefined prefixes.
 - [[obsidian-readlater|Read Later]]: Synch web pages to markdown and integrate with read-it-later apps (Pocket, Instapaper)
-- [[obsidian-read-it-later|ReadItLater]]: Saves the clipboard to a new note.
+- [[obsidian-read-it-later|ReadItLater]]: Archive web pages for reading later, referencing in your second brain or for other flexible use case Obsidian provides.
 - [[readability-score|Readability Score]]: Score the readabilty of your writing using the Flesch Reading Ease (FRE) formula.
 - [[readavocado-sync|Readavocado Sync]]: Sync your Readavocado highlights with Obsidian
 - [[reading-view-enhancer|Reading View Enhancer]]: Enhances reading view. Use arrow keys to navigate between blocks or toggle collapse.
@@ -1645,7 +1645,7 @@ Plugins which have not yet been categorized by the community.
 - [[moc-link-helper|MOC Link Helper]]: Helps with some MOC janitor-linking tasks.
 - [[peekaboo|Peekaboo]]: Protect your privacy by setting a password to hide files.
 - [[blue-star|Blue Star]]: Generate Anki flashcards in multiple ways.
-- [[tree-search|Tree Search]]: Quickly search hierarchical line trees
+- [[tree-search|Tree Search]]: The all-in-one quick switcher and bookmark manager. Zero-effort hierachical knowledge graph
 - [[hexo-toolkit|Hexo Toolkit]]: Maintain Hexo posts.
 - [[unearthed-app|Unearthed (Kindle Sync)]]: Auto Sync Kindle Highlights and Daily Reflection via Unearthed
 - [[text-finder|Text Finder]]: Provides a find/replace window in edit mode similar to VSCode (supports regular expressions and case sensitivity).
@@ -1667,13 +1667,13 @@ Plugins which have not yet been categorized by the community.
 - [[daily-random-note|Daily Random Note]]: Automatically open daily random notes based on your preferences.
 - [[type-zen-mode|Typezen]]: Type and get in zen mode instantly, no more distraction between you and your thoughts
 - [[ioc-lens|IOC Lens]]: Extracts and displays security-relevant indicators such as IP addresses, domains, and file hashes to enhance your cyber security note-taking process.
-- [[automatic-renumbering|Automatic Renumbering]]: Updates numbered lists automatically to keep them in sequential order. Offers both live updating and manual control options, and supports nested lists.
+- [[automatic-renumbering|Automatic List Renumbering]]: Automatically renumber numbered lists as you edit them.
 - [[three-noun-prompts|Three Noun Prompts]]: Use TOPT algorithm to get daily writing prompts!
 - [[hackmd-sync|HackMD Sync]]: An interface to upload notes to and from HackMD
 - [[bottom-to-top|Bottom to Top]]: Reverses direction of text.
 - [[recently-added-files|Recently Added Files]]: List files by last added, including pictures, MP4s, PDFs etc.
 - [[image-tools|Image Tools]]: Formatter for image on page
-- [[gemini-scribe|Gemini Scribe]]: Allows you to interact with Gemini and use your notes as context.
+- [[gemini-scribe|Gemini Scribe]]: Interact with Gemini and use your notes as context.
 - [[daily-summary|Daily Summary]]: Auto generate daily summary
 - [[auto-tasks|Auto Tasks]]: Combine periodic notes with tags and tasks to automatically manage your daily, weekly and project TODO lists. Requires the Periodic Notes and Tasks plugins.
 - [[task-director|Task Director]]: Manage and change tasks targeting a specific page
@@ -1690,6 +1690,18 @@ Plugins which have not yet been categorized by the community.
 - [[double-switch|Auto switch themes between dark/light mode]]: Toggling dark/light mode switches themes automatically
 - [[bluesky|Bluesky]]: Post to Bluesky.
 - [[ai-bot|AI bot]]: Polish, summarize, translate, analyze, and interpret code using AI.
+- [[folder-tabulation|Folder Tabulation]]: Enables navigation between files in a folder via hotkeys and commands.
+- [[markdown-tags|Markdown Tags]]: Enhance your documents with custom tags. Use predefined or custom labels, customizable colors, and arrow indicators to visually track tasks and statuses.
+- [[instant-above-divider|Instant Above Divider]]: Quickly insert a divider line at the beginning of your note.
+- [[foldercanvas|Folder Canvas]]: Generate a Canvas view of your folder structure.
+- [[paper_importer|Paper Importer]]: Import papers from arXiv with one click.
+- [[ridian|Ridian]]: Execute R code blocks and display outputs and plots & render documents with Quarto within Obsidian.
+- [[aqu-blur-mode|Blur Mode]]: Blur anything you want to keep your privacy.
+- [[link-preview|Link Preview]]: Show a preview of external links on hover
+- [[insta-toc|Insta TOC]]: Simultaneously generate, update, and maintain a table of contents for your notes.
+- [[password-audit|Password Audit]]: Audit password strength, check breaches, and generate secure passwords. Not a password manager.
+- [[obsnippets|Snippetsaurus]]: Create and managing text and code snippets.
+- [[simple-todo|Simple Todo]]: A minimalist text-based todo manager (Text-Based GTD) for efficient task management.
 
 
 %% Hub footer: Please don't edit anything below this line %%
