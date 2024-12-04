@@ -349,6 +349,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Violet Evening|Violet Evening]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Virgo|Virgo]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Viridian|Viridian]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Vortex|Vortex]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/W95|W95]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Warmth|Warmth]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Wasp|Wasp]]
