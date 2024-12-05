@@ -147,6 +147,7 @@ Plugins which have not yet been categorized by the community.
 - [[colored-tags|Colored Tags]]: Colorizes tags in different colors. Colors of nested tags are mixed with the root tag to improve readability. Text color contrast is automatically matched to comply with AA level of WCAG 2.1.
 - [[colored-text|Colored Text]]: Color the selected texts.
 - [[colorful-note-borders|Colorful Note Borders]]: Add customizable colorful borders to notes based on folder location or frontmatter metadata, enhancing visual organization in Obsidian.
+- [[obsidian-columns|Columns]]: Allows you to create columns in Obsidian Markdown
 - [[obsidian-command-palette-minus-plugin|Command Palette--]]: Command palette without unwanted commands
 - [[cmdr|Commander]]: Customize your workspace by adding commands everywhere, create Macros and supercharge your mobile toolbar.
 - [[commando-command-repeater|Commando]]: Enables the user to provide the number of times to repeat a command.
@@ -464,7 +465,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-badge|Obsidian Badge]]: This is a plugin to show badge for Obsidian.
 - [[obsidian-chevereto-image-uploader|Obsidian Chevereto Image Uploader]]: This plugin uploads the image in your clipboard to chevereto automatically when pasting.
 - [[obsidian-circuitjs|Obsidian CircuitJS]]: Integrating CircuitJS and Obsidian
-- [[obsidian-columns|Obsidian Columns]]: Allows you to create columns in Obsidian Markdown
 - [[obsidian-functionplot|Obsidian Functionplot]]: A plugin for displaying mathematical graphs in obsidian.md.
 - [[obsidian-mtg|Obsidian MtG]]: A plugin for managing Magic: The Gathering decks and card lists as Obsidian notes
 - [[obsidian-ocr|Obsidian OCR]]: Add ocr capabilities to obsidian
@@ -1656,7 +1656,7 @@ Plugins which have not yet been categorized by the community.
 - [[todos-sort|Todos sort]]: Sorting your TODOs (checkboxes) in current note by completion status.
 - [[masking-type|Masking Type]]: Mask bold, italic, and highlight
 - [[featured-image|Featured Image]]: Automatically sets a featured image property in your notes based on the first image, YouTube link, or Auto Card Link image found in your document. This allows you to create rich note galleries using Folder Notes and Dataview.
-- [[daily-note-calendar|Daily notes calendar]]: Navigate to your Obsidian Vault using a calendar view.
+- [[daily-note-calendar|Daily notes calendar]]: Navigate your Obsidian Vault using a calendar view.
 - [[edge-tts|Edge TTS]]: Read notes aloud using Microsoft Edge Read Aloud API (free, high quality text-to-speech).
 - [[textgrams|Textgrams]]: Store and visualise ASCII graphics and charts
 - [[activity-heatmap|Activity Heatmap]]: Tracks and visualizes app activity, similar to GitHub's contribution chart.
@@ -1702,6 +1702,24 @@ Plugins which have not yet been categorized by the community.
 - [[password-audit|Password Audit]]: Audit password strength, check breaches, and generate secure passwords. Not a password manager.
 - [[obsnippets|Snippetsaurus]]: Create and managing text and code snippets.
 - [[simple-todo|Simple Todo]]: A minimalist text-based todo manager (Text-Based GTD) for efficient task management.
+- [[weekly-goal-tracker|Weekly Goal Tracker]]: Keep track of weekly goals in the status bar
+- [[mdfriday|Friday]]: Notes to Website. Friday helps you turn Markdown documents into websites in minutes.
+- [[chronos|Chronos Timeline]]: Render interactive timelines in your notes from Markdown
+- [[clear-todos|Clear Todos]]: Quickly remove all completed todos from your notes or selected text.
+- [[post-webhook|Post Webhook]]: Send notes to Webhook endpoints, for seamless integration with n8n, Make.com, and Zapier.
+- [[simple-quiz|Simple Quiz]]: Creating simple quizzes.
+- [[folder-links|Folder Links]]: Clicking a link to a folder makes it revealed in the navigation.
+- [[auto-file-organizer|Auto File Organizer]]: Automatically organizes files into folders based on their extensions.
+- [[setlist-fm-sync|Setlist.fm Sync]]: Syncs your setlist.fm attended concerts.
+- [[mass-create|Mass Create]]: Create large quantities of notes easily at one time.
+- [[obsifetch|Obsifetch]]: A neofetch-style vault information display
+- [[abbrlink|Abbrlink]]: Automatically generate permanent short links for your markdown files.
+- [[llm-workspace|LLM workspace]]: Use Large Language Models grounded in your notes.
+- [[todoist-context-bridge|Todoist Context Bridge]]: Bridge your note-taking and task management workflows by maintaining strong contextual connections with Todoist.
+- [[discord-timestamps|Discord Timestamps]]: Displays discord timestamps in read mode as they would appear in Discord.
+- [[heatmap-tracker|Heatmap Tracker]]: Visualize your activity and track goals, progress, habits, tasks, exercise, finances, and more—all in a single, interactive heatmap!
+- [[visual-crossing-weather|Visual Crossing Weather]]: Visual Crossing Weather API for Your Notes
+- [[image-uploader-for-note|Image Uploader For Note]]: Upload images in a note, and remove the images from the vault if they're exclusively used within that note.
 
 
 %% Hub footer: Please don't edit anything below this line %%
