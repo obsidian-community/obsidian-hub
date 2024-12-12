@@ -40,7 +40,9 @@ If you want to help narrow down exactly what code from the plugin is causing the
 
 ## Obsidian is still slow without any plugins
 
-In the event that you're experiencing slowness _even with plugins disabled,_ then you might have found a bug. I recommend filing a bug report on the Obsidian forum with a list of steps for someone to follow to reproduce the issue. For performance-related bugs, you might be asked to [[#Taking a performance snapshot|take a performance snapshot]].
+In the event that you're experiencing slowness _even with plugins disabled,_ then you might have found a bug or your device has a hardware issue. I recommend filing a bug report on the Obsidian forum with a list of steps for someone to follow to reproduce the issue. For performance-related bugs, you might be asked to [[#Taking a performance snapshot|take a performance snapshot]].
+
+Tip: If your device has a low-end or no GPU, try disabling hardware acceleration and restarting Obsidian before submitting your bug report. The 'Hardware Acceleration' toggle can be found in the 'Appearance' section of the Obsidian settings.
 
 ## Taking a performance snapshot
 
