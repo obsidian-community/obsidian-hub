@@ -70,6 +70,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-template-trigger|Auto Template Trigger]]: Automatically apply or prompt for a template when creating a note. Supports assigning templates to folders.
 - [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag or alias and imports them into the current note.
 - [[automatic-list-styles|Automatic List Styles]]: Automatically formats the styles of ordered lists, incrementing the list style for each layer
+- [[obsidian-autoscroll|Autoscroll]]: Automatically scroll content with the provided speed
 - [[avatar|Avatar]]: Display an avatar image in your notes.
 - [[awesome-brain-manager|Awesome Brain Manager]]: A toolkit tries to solve all the trivial problems most people usually encountered in obsidian.
 - [[obsidian-awesome-flashcard|Awesome Flashcard]]: Handy Anki integration for Obsidian.
@@ -506,7 +507,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
 - [[perilous-writing|Perilous Writing]]: Write continuously—or lose all progress.
 - [[persistent-links|Persistent Links]]: Automatically repair internal links to blocks and headings
-- [[personal-assistant|Personal Assistant]]: Streamline workflows within Obsidian, managing memos and plugins with just one command.
+- [[personal-assistant|Personal Assistant]]: AI-powered workflows to streamline the automated management of records, callouts, frontmatter, graph views, themes, and plugins in Obsidian.
 - [[pieces-for-developers|Pieces for Developers]]: Streamline your coding workflow in Obsidian with the Pieces For Developers plugin, offering powerful features for capturing, managing, translating, and enhancing code snippets. (Closed Source) 
 - [[pinboard-sync|Pinboard Sync]]: Syncs Pinboard.in links with Daily Notes
 - [[pivotal-tracker-integration|Pivotal Tracker Integration]]: This is an unofficial pivotal tracker integration plugin for Obsidian. This plugin allows the user to pull stories, chores, bugs from their pivotal counterpart.
@@ -1013,7 +1014,7 @@ Plugins which have not yet been categorized by the community.
 - [[git-file-explorer|Git File Explorer]]: Add relevant git information to detected git repostitories in the file explorer.
 - [[youtube-template|YouTube Template]]: A plugin that would help you to fetch YouTube videos data into your vault.
 - [[copy-image|Copy Image]]: Easily copy image from Obsidian to clipboard by right clicking image.
-- [[widgets|Widgets]]: Adds widgets to your notes like clock, countdown and quotes.
+- [[widgets|Widgets]]: Add widgets to your notes like clock, countdown, and quotes.
 - [[metadata-hider|Metadata Hider]]: Hide specific metadata property or if its value is empty.
 - [[latexocr|LaTeX-OCR]]: Run LaTeX-OCR if it is installed locally.
 - [[reference-generator|Reference Generator]]: Turn links into bibliographies in styles like Harvard, MLA, APA, and more.
@@ -1349,7 +1350,6 @@ Plugins which have not yet been categorized by the community.
 - [[templify|Templify]]: (Closed Source) Multi layout for one note.
 - [[ayanite|Ayanite]]: Advanced AI chat interface and knowledge copilot for professionals. Turn Obsidian into an Integrated Knowledge Environment. Supports Ollama and cloud GPT providers. (Closed source)
 - [[docxer|Docxer]]: Import Word files easily. Adds a preview mode for .docx files and the ability to convert them to markdown (.md) files.
-- [[the-queue|The Queue]]: Randomly exposes you to notes from your vault. Supports habits, to-dos, spaced repetition flashcards, iterative reading and more.
 - [[folder-by-tags-distributor|Folder by tags distributor]]: Automatically move notes into existing folders by tags specified in note.
 - [[power-mode|POWER MODE]]: Active POWER MODE!!!!
 - [[rapid-ai|Rapid AI]]: AI Assistant for selected text and generating content with Markdown. Shortcuts and quick action buttons provide instant AI assistance. It provides a high availability API for unlimited Chat GPT request rates, so you can ensure smooth work for any workload.
@@ -1375,7 +1375,7 @@ Plugins which have not yet been categorized by the community.
 - [[toggle-dark-mode|Toggle Dark Mode]]: Adds a command to toggle dark mode on and off
 - [[plugins-annotations|Plugins Annotations]]: Allows adding personal comments to each installed plugin.
 - [[close-window-when-empty|Close Window When Empty]]: Close the window when the last note is closed, kind of how browsers work.
-- [[tars|Tars]]: Text generation based on tag suggestions, using Claude, OpenAI, Ollama, Kimi, Doubao, Qwen, Zhipu, DeepSeek, QianFan & more.
+- [[tars|Tars]]: Text generation based on tag suggestions, using Claude, OpenAI, Gemini, Ollama, Kimi, Doubao, Qwen, Zhipu, DeepSeek, QianFan & more.
 - [[toggle-readable-line-length|Toggle Readable line length]]: Add command to toggle Readable line length editor setting.
 - [[definition-list|Definition List]]: Adds definition lists to the markdown parser.
 - [[line-arrange|Line Arrange]]: Shuffle, reverse, or sort lines, using either visual width or lexical order.
@@ -1655,7 +1655,7 @@ Plugins which have not yet been categorized by the community.
 - [[neurovox|NeuroVox]]: Enhances your note-taking with voice transcription and AI capabilities
 - [[todos-sort|Todos sort]]: Sorting your TODOs (checkboxes) in current note by completion status.
 - [[masking-type|Masking Type]]: Mask bold, italic, and highlight
-- [[featured-image|Featured Image]]: Automatically sets a featured image property in your notes based on the first image, YouTube link, or Auto Card Link image found in your document. This allows you to create rich note galleries using Folder Notes and Dataview.
+- [[featured-image|Featured Image]]: Automatically sets a featured image property in your notes based on the first image, YouTube link, or Auto Card Link image found in your document.
 - [[daily-note-calendar|Daily notes calendar]]: Navigate your Obsidian Vault using a calendar view.
 - [[edge-tts|Edge TTS]]: Read notes aloud using Microsoft Edge Read Aloud API (free, high quality text-to-speech).
 - [[textgrams|Textgrams]]: Store and visualise ASCII graphics and charts
@@ -1720,6 +1720,22 @@ Plugins which have not yet been categorized by the community.
 - [[heatmap-tracker|Heatmap Tracker]]: Visualize your activity and track goals, progress, habits, tasks, exercise, finances, and more—all in a single, interactive heatmap!
 - [[visual-crossing-weather|Visual Crossing Weather]]: Visual Crossing Weather API for Your Notes
 - [[image-uploader-for-note|Image Uploader For Note]]: Upload images in a note, and remove the images from the vault if they're exclusively used within that note.
+- [[hugo-sync|Sync to Hugo]]: Sync the selected notes to Hugo blog
+- [[zenmode|Zen Mode]]: Hide UI most UI elements
+- [[magiedit|Magiedit]]: Official integration for Magiedit's API
+- [[tab-limit|Tab Limiter]]: Limits the number of tabs that can be opened.
+- [[share-as-zip|Share as ZIP]]: Share notes and their links as a ZIP folder.
+- [[3d_embeds|Embed 3D]]: Embed 3DModels in markdown notes.
+- [[wardley-maps|Wardley Maps]]: View and edit Wardley Maps using the Online Wardley Maps format.
+- [[class-relation-visualization|Class Relation Visualization]]: You can visualize your classes and their inheritance, composition, aggregation relation.
+- [[usher|Usher]]: The overridden config directory manager
+- [[create-folder-notes-with-dropdown|create folder notes with dropdown]]: create-folder-notes-with-dropdown is a plugin designed to help users quickly create Markdown files in existing or nonexisting folders with dropdown.
+- [[gay-toolbar|Gay Toolbar]]: Colorful, customizable toolbar, designed for mobile.
+- [[convert-katex-to-mathjax|KaTeX to MathJax]]: Converts KaTeX format to MathJax format.
+- [[insert-new-line|Insert New Line]]: Insert a new line above or below the current line.
+- [[cypher|Cypher]]: Hides text in a simple diagramatic cypher to make reading unrecognizable for viewers.
+- [[calloutx|CalloutX]]: An easy way to explore, visualise, and modify callout icons.
+- [[sync-cnblog|Sync Cnblog]]: 将笔记同步到博客园
 
 
 %% Hub footer: Please don't edit anything below this line %%
