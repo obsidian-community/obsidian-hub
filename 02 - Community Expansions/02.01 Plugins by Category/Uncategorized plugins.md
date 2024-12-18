@@ -136,7 +136,7 @@ Plugins which have not yet been categorized by the community.
 - [[cloze|Cloze]]: Convert highlights, underlines, bolded texts or any selected texts into clozes.
 - [[code-block-plugin|Code Block]]: This plugin converts text into code blocks with automatic language detection.
 - [[obsidian-codeblock-labels|Code Block Labels]]: Adds labels to fenced code blocks
-- [[code-emitter|Code Emitter]]: An obsidian plugin that allows code blocks executed interactively in sandbox like jupyter notebooks. Supported language rust、kotlin、python、Javascript、TypeScript etc.
+- [[code-emitter|Code Emitter]]: An Obsidian plugin that allows code blocks to be executed interactively like in Jupyter Notebooks. Supports languages like Rust, Kotlin, Python, JavaScript, TypeScript etc.
 - [[code-files|Code Files]]: Edit Code Files in Obsidian with VSCode's powerful Monaco Editor
 - [[obsidian-code-preview|Code Preview]]: Code Preview
 - [[code-styler|Code Styler]]: Style and customize codeblocks and inline code in both editing mode and reading mode.
@@ -321,7 +321,7 @@ Plugins which have not yet been categorized by the community.
 - [[iconoir-icons|Iconoir Icons]]: Create & display customized SVG Iconoir icons.
 - [[obsidian-image-caption|Image Caption]]: Add captions to images.
 - [[image-captions|Image Captions]]: Adds captions to images when there is alt-text specified
-- [[image-converter|Image Converter]]: Convert, compress and resize images from one format to another by dragging and dropping or pasting into the note. HEIC, TIF, JPG, WEBP, PNG.
+- [[image-converter|Image Converter]]: Convert, compress, resize, annotate, markup, draw, crop, rotate, flip, align images directly in Obsidian. Drag-resize, rename with variables, batch process. WEBP, JPG, PNG, HEIC, TIF.
 - [[obsidian-image-gallery|Image Gallery]]: A zero setup masonry image gallery for Obsidian
 - [[insert-unsplash-image|Image Inserter]]: This plugin helps users easily search and insert images to editors from Unsplash / Pixabay / Pexels.
 - [[obsidian-image-layouts|Image Layouts]]: Add beautiful image layouts to your notes
@@ -541,7 +541,7 @@ Plugins which have not yet been categorized by the community.
 - [[quote-share|Quote Share]]: With this plugin, you can easily generate beautiful gradient images from text and share them on social media.
 - [[quote-of-the-day|Quote of the Day]]: Inserts random quotes in the editor
 - [[quoth|Quoth]]: More flexible embedding. Embed precise selections, inline embeds, optionally include author and title.
-- [[obsidian-quran-lookup|QuranLookup]]: This is a Quran Lookup plugin for Obsidian. This replaces chapter:verse shorthand with verse text in arabic and translation.
+- [[obsidian-quran-lookup|Quran Lookup]]: This is a Quran Lookup plugin for Obsidian. This replaces chapter:verse shorthand with verse text in arabic and translation.
 - [[rss-reader|RSS Reader]]: Read RSS Feeds from within obsidian
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
 - [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate
@@ -1221,7 +1221,7 @@ Plugins which have not yet been categorized by the community.
 - [[noteson-publish|NotesOn Publish]]: Make single notes instantly available on the web.
 - [[ai-summarize|AI Summarize]]: Summarize your notes using AI
 - [[livecodes-playground|Livecodes Playground]]: Client-side code editor playground - Powered by LiveCodes
-- [[auto-embed|Auto Embed]]: Helps to embed links using markdown instead of iframe
+- [[auto-embed|Auto Embed]]: Helps to embed links using markdown instead of iframe.
 - [[vare|VARE]]: Now you can easily manage your plugins and themes. Simply select the version you want or install unlisted versions from GitHub. You can also install beta version and switch back if necessary.
 - [[hugo-publish|Hugo Publish]]: Publish your blog to hugo site.
 - [[autoplay-and-loop|Autoplay & Loop]]: Auto reproduces videos/audio inside notes.
@@ -1691,7 +1691,7 @@ Plugins which have not yet been categorized by the community.
 - [[bluesky|Bluesky]]: Post to Bluesky.
 - [[ai-bot|AI bot]]: Polish, summarize, translate, analyze, and interpret code using AI.
 - [[folder-tabulation|Folder Tabulation]]: Enables navigation between files in a folder via hotkeys and commands.
-- [[markdown-tags|Markdown Tags]]: Enhance your documents with custom tags. Use predefined or custom labels, customizable colors, and arrow indicators to visually track tasks and statuses.
+- [[markdown-tags|Tags for Markdown]]: Enhance your documents with custom tags. Use predefined or custom labels, customizable colors, and arrow indicators to visually track tasks and statuses.
 - [[instant-above-divider|Instant Above Divider]]: Quickly insert a divider line at the beginning of your note.
 - [[foldercanvas|Folder Canvas]]: Generate a Canvas view of your folder structure.
 - [[paper_importer|Paper Importer]]: Import papers from arXiv with one click.
@@ -1736,6 +1736,28 @@ Plugins which have not yet been categorized by the community.
 - [[cypher|Cypher]]: Hides text in a simple diagramatic cypher to make reading unrecognizable for viewers.
 - [[calloutx|CalloutX]]: An easy way to explore, visualise, and modify callout icons.
 - [[sync-cnblog|Sync Cnblog]]: 将笔记同步到博客园
+- [[exmemo-tools|ExMemo Tools]]: Use LLMs for smart document management and optimization, including relocating files, enhancing text, and generating metadata.
+- [[fetch-prayer-times|Fetch Prayer Times]]: Fetches local prayer times and saves them to a file.
+- [[header-navigation|Header navigation]]: Various functions to navigate between headers.
+- [[wikidocs|WikiDocs]]: Fetch, edit, and upload WikiDocs books.
+- [[link-formatter|Link Formatter]]: Formats a block of links into a clean markdown list
+- [[focus-time|Focus Time]]: Track the time spent on each note and visualize the data.
+- [[exmemo-assistant|ExMemo Assistant]]: Using LLMs to manage files and generating metadata such as tags and summaries.
+- [[color-folders-files|Color Folders and Files]]: Customize the appearance of folders and files in the file explorer.
+- [[template-by-note-name|Template by Note Name]]: Automatically template notes based on their title.
+- [[fast-forward-link|FastForwardLink]]: Fast-forward multiple links to a single target note. Create custom link shorthands (like `ps` > `photoshop`) to create synonyms, streamline navigation, and keep your vault organized.
+- [[unit-converter|Unit Converter]]: Converts units right in your Markdown files.
+- [[force-read-mode|Force Read Mode]]: Forces Markdown files in specified folders to open in read-only mode.
+- [[note-from-form|Note From Form]]: Define dynamic input form and use it to create notes
+- [[latex-exporter|Latex Exporter]]: Write a LaTeX paper.
+- [[ampliflow-page|AmpliFlow Page Publisher]]: Publish notes easily to AmpliFlow (https://www.ampliflow.se)
+- [[kale-graph|Kale Graph]]: Render mathematical graphs.
+- [[scribe|Scribe]]: Record voice notes, Fill in lost thoughts, Transcribe the audio, Summarize & Visualize the text - All in one clip
+- [[custom-image-auto-uploader|Custom Image Auto Uploader]]: You can upload and save images from your notes to your remote server, home NAS, or sync them to your cloud storage (Alibaba Cloud OSS, Amazon S3, Cloudflare R2).
+- [[wonderbox|WonderBox]]: Create more relevant text sections your tips, top notes, warnings and more.
+- [[kkh|kkh]]: Replace words in a string using kkh dictionary.
+- [[import-todoist|Import Todoist tasks]]: Import Todoist tasks as Markdown tasks.
+- [[link-maintainer|Link Maintainer]]: Maintain note links when splitting or reorganizing notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
