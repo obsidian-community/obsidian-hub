@@ -15,6 +15,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 %% Hub MOCs: Don’t edit below  %%
 -  [[01 - Community/People/0918nobita|0918nobita]]
 -  [[01 - Community/People/0skater0|0skater0]]
+-  [[01 - Community/People/0x-DLN|0x-DLN]]
 -  [[01 - Community/People/0xpapercut|0xpapercut]]
 -  [[01 - Community/People/0xroko|0xroko]]
 -  [[01 - Community/People/19msb|19msb]]
@@ -1681,6 +1682,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/Syr0|Syr0]]
 -  [[01 - Community/People/systemsculpt|systemsculpt]]
 -  [[01 - Community/People/sytone|sytone]]
+-  [[01 - Community/People/szamsolo|szamsolo]]
 -  [[01 - Community/People/tabibyte|tabibyte]]
 -  [[01 - Community/People/tadashi-aikawa|tadashi-aikawa]]
 -  [[01 - Community/People/taichimaeda|taichimaeda]]
