@@ -391,7 +391,7 @@ Plugins which have not yet been categorized by the community.
 - [[loom|Loom]]: Loom in Obsidian
 - [[lovely-mindmap|Lovely-Mindmap]]: Build your own knowledge graph with smiles :-)
 - [[lumberjack-obsidian|Lumberjack 🪓 🪵]]: Log your thoughts! Lumberjack adds URL commands to help you axe inefficiency and get right to writing.
-- [[make-md|MAKE.md]]: Make.md brings powerful and modern note-taking features to Obsidian. Capture, organize and connect information with more flexibility without any code.
+- [[make-md|MAKE.md]]: Make.md gives you everything you need to organize and personalize your notes.
 - [[mdx|MDX]]: Preview MDX in Obsidian, with support for Code Hike
 - [[msg-handler|MSG Handler]]: Easily display and search MSG files from Outlook in your Obsidian Vault
 - [[obsidian-mark-and-select|Mark and Select]]: More flexible ways to select texts in Obsidian Editor
@@ -547,7 +547,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate
 - [[obsidian-rapid-notes|Rapid Notes]]: Create and place notes quickly in specific folders based on predefined prefixes.
 - [[obsidian-readlater|Read Later]]: Synch web pages to markdown and integrate with read-it-later apps (Pocket, Instapaper)
-- [[obsidian-read-it-later|ReadItLater]]: Archive web pages for reading later, referencing in your second brain or for other flexible use case Obsidian provides.
+- [[obsidian-read-it-later|ReadItLater]]: Save online content to your Vault, utilize embedded template engine and organize your reading list to your needs. Preserve the web with ReadItLater.
 - [[readability-score|Readability Score]]: Score the readabilty of your writing using the Flesch Reading Ease (FRE) formula.
 - [[readavocado-sync|Readavocado Sync]]: Sync your Readavocado highlights with Obsidian
 - [[reading-view-enhancer|Reading View Enhancer]]: Enhances reading view. Use arrow keys to navigate between blocks or toggle collapse.
@@ -1358,7 +1358,7 @@ Plugins which have not yet been categorized by the community.
 - [[vault-name|Vault Name]]: Display and customize the vault name (title) in the side navigation file explorer.
 - [[substitutions|Substitutions]]: Automatically replace text fragments with symbols or different text
 - [[infostacker|Infostacker Note Publish]]: Easily share your notes, images and attachments publicly using private links
-- [[audiopen-sync|AudioPen Sync]]: Sync notes from AudioPen.
+- [[audiopen-sync|AudioPen Sync]]: Sync notes from AudioPen or VoiceNotes.
 - [[pt-url-helper|Pivotal Tracker URL Helper]]: Automatically creates a Markdown link for Pivotal Tracker stories.
 - [[relative-timestamps|Relative Timestamps]]: Track the time between log entries
 - [[simple-prompt|Simple Prompt]]: Simple interface to generate or rewrite content using LLMs based on user input.
