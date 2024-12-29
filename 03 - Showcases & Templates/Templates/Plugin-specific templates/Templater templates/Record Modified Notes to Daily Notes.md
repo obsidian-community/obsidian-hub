@@ -29,7 +29,7 @@ Prerequisites:
 
 Steps:
 1. Copy and Paste the [[#Source Template]] below to a new created `.md` file in your template folder
-2. Modify the `Constants`:`RECORD_NOTE_FOLDER`,`QUERY_STRING`,`START_POSITION`,`END_POSITION`to satisfy your own need.
+2. Modify the `Constants`:`RECORD_NOTE_FOLDER`,`QUERY_STRING`,`START_POSITION`,`END_POSITION`, `DAILY_NOTE_FORMAT` to satisfy your own need.
 3. In the setting of Templater plugin, add this template as "startup template"![image](https://github.com/user-attachments/assets/f75144e7-6f82-48dd-a098-b3b43b00538a)
 
 
@@ -73,6 +73,18 @@ Showcase:
 
 If you want to insert to the end of your daily note, just leave `END_POSITION` blank. 
 
+### Daily Note Format
+Ensure the format is corresponding to all cases below:
+1. Your current daily notes
+2. Plugins that may modify daily note (if you have, such as Periodic Note plugin)
+3. Templates that may modify daily note (if you have, such as `folder template`/`startup template` in templater plugin)
+
+By default, the format will be "YYYY-MM-DD", which will target on daily note with file name: `2024-12-23.md` for example. 
+
+Misplacing the daily note format may cause issues such as templater could not fetch the target note. 
+
+Also be of caution if you have a template file that will auto-rename the file name of your daily note. 
+
 ## Source Template
 
 ```markdown
@@ -81,13 +93,15 @@ If you want to insert to the end of your daily note, just leave `END_POSITION` b
 const RECORD_NOTE_FOLDER = "Logs/Daily Notes";
 const QUERY_STRING = `table WITHOUT ID file.link as "Modified Notes", file.mtime as "Edit Time" from !"MyTestFolder" where file.mday = date(today) sort file.mtime asc limit 32`;
 const START_POSITION = "title: Modified Notes on this day\ncollapse: close"; 
-const END_POSITION = "````"; 
-const dv = app.plugins.plugins["dataview"].api;
+const END_POSITION = "````";
+const DAILY_NOTE_FORMAT = "YYYY-MM-DD";
+
 
 // Get today's date in ISO format
 let today = moment().format("YYYY-MM-DD");
-let DailyNote = moment(today).format("YYYY-MM-DD");
+let DailyNote = moment(today).format(DAILY_NOTE_FORMAT);
 let recordNote = DailyNote; 
+const dv = app.plugins.plugins["dataview"].api;
 
 // Delay function
 function delay(ms) {
