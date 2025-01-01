@@ -529,7 +529,7 @@ Plugins which have not yet been categorized by the community.
 - [[pubscale|PubScale]]: Seamlessly sync markdown notes into PlanetScale tables.
 - [[copy-publish-url|Publish and GitHub URL]]: Copy or open the URL of the corresponding note on your Publish site. You can also open its Git commit history on GitHub.
 - [[python-scripter|Python Scripter]]: Run Python scripts directly as Obsidian commands.
-- [[quail|Quail]]: Save, publish, delivery notes via Quail.ink as newsletters and blogs.
+- [[quail|Quail]]: Save, publish, delivery notes via Quaily.com as newsletters and blogs.
 - [[qatt|Query all the things]]: Execute SQL base queries against your data in Obsidian and render it how you want using templates.
 - [[quick-links|Quick Links]]: Create quick link shortcuts to Wikipedia and other sites
 - [[quicknote|Quick note]]: Create a quick note in a floating window (on command or by right-clicking the Obsidian app icon)
@@ -985,7 +985,7 @@ Plugins which have not yet been categorized by the community.
 - [[smart-title|Smart Title]]: Automatically extract tag and alias from the title.
 - [[gamified-pkm|Gamificate your PKM]]: Enhance your Personal Knowledge Management with gamification elements. Boost motivation and achieve growth as you engage with your PKM.
 - [[relax|R.E.L.A.X.]]: Multi-regex management for data linking and batch processing across selection, files and folders. Ideal for academics, data scientists, forensics, reverse-engineerer and knowledge workers. Enables dynamic data organization and can be used to standardize links or as text-search. Streamline note-taking, data analysis, and report generation with intuitive regex pattern application and modification.
-- [[coder|Encoder/Decoder]]: Converts text into other formats (base64, ROT13)
+- [[coder|Encoder/Decoder]]: Converts texts into other formats (base64, ROT13) and vice versa
 - [[habit-tracker-21|Habit Tracker 21]]: Your 21-day journey to habit formation, simplified
 - [[math-in-callout|Better Math in Callouts & Blockquotes]]: Add better Live Preview support for math rendering inside callouts & blockquotes.
 - [[dynamic-line-height-cjk|Dynamic Line Height for CJK]]: Dynamically adjust line height for lines & paragraphs containing CJK characters.
@@ -1350,6 +1350,7 @@ Plugins which have not yet been categorized by the community.
 - [[templify|Templify]]: (Closed Source) Multi layout for one note.
 - [[ayanite|Ayanite]]: Advanced AI chat interface and knowledge copilot for professionals. Turn Obsidian into an Integrated Knowledge Environment. Supports Ollama and cloud GPT providers. (Closed source)
 - [[docxer|Docxer]]: Import Word files easily. Adds a preview mode for .docx files and the ability to convert them to markdown (.md) files.
+- [[the-queue|The Queue]]: Randomly exposes you to notes from your vault. Supports habits, to-dos, spaced repetition flashcards, iterative reading and more.
 - [[folder-by-tags-distributor|Folder by tags distributor]]: Automatically move notes into existing folders by tags specified in note.
 - [[power-mode|POWER MODE]]: Active POWER MODE!!!!
 - [[rapid-ai|Rapid AI]]: AI Assistant for selected text and generating content with Markdown. Shortcuts and quick action buttons provide instant AI assistance. It provides a high availability API for unlimited Chat GPT request rates, so you can ensure smooth work for any workload.
@@ -1606,7 +1607,7 @@ Plugins which have not yet been categorized by the community.
 - [[flow|Flow]]: Implements key processes in David Allen's Getting Things Done (GTD) methodology (Closed source)
 - [[quarto-exporter|Quarto Exporter]]: Export notes to Quarto-compatible QMD files.
 - [[copy-section|Copy Section]]: adds a Copy button to the top of Headed sections
-- [[cloud-storage|Cloud Storage]]: Allows users to upload local files to the cloud, reducing the burden on local vaults and enabling seamless synchronization across multiple devices.
+- [[cloud-storage|Cloud Storage]]: Managing attachments across devices. Automatically uploads your attachments to the cloud and smartly updates all your markdown links, keeping your notes and attachments perfectly organized. Whether you're handling images, PDFs, or any other files, it works seamlessly in the background. You can even use it as a powerful image hosting solution, supporting plugin-provided cloud storage or custom S3 storage!
 - [[local-media-embedder|Local Media Embedder]]: Embed videos and images and audios from your local device  in your notes.
 - [[tab-panels|Tab Panels]]: Create tab panels to organize content into sections
 - [[jura-links|Jura Links]]: Verlinke deine notierten Gesetzesnormen, Aktenzeichen und Zeitschriften-Fundstellen mit Gesetzesanbietern.
@@ -1715,7 +1716,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsifetch|Obsifetch]]: A neofetch-style vault information display
 - [[abbrlink|Abbrlink]]: Automatically generate permanent short links for your markdown files.
 - [[llm-workspace|LLM workspace]]: Use Large Language Models grounded in your notes.
-- [[todoist-context-bridge|Todoist Context Bridge]]: Bridge your note-taking and task management workflows by maintaining strong contextual connections with Todoist.
+- [[todoist-context-bridge|Todoist Context Bridge]]: Bridge your note-taking and Todoist task management workflows with contextual connections. Seamlessly integrate with Dataview and Tasks plugins.
 - [[discord-timestamps|Discord Timestamps]]: Displays discord timestamps in read mode as they would appear in Discord.
 - [[heatmap-tracker|Heatmap Tracker]]: Visualize your activity and track goals, progress, habits, tasks, exercise, finances, and more—all in a single, interactive heatmap!
 - [[visual-crossing-weather|Visual Crossing Weather]]: Visual Crossing Weather API for Your Notes
@@ -1758,6 +1759,15 @@ Plugins which have not yet been categorized by the community.
 - [[kkh|kkh]]: Replace words in a string using kkh dictionary.
 - [[import-todoist|Import Todoist tasks]]: Import Todoist tasks as Markdown tasks.
 - [[link-maintainer|Link Maintainer]]: Maintain note links when splitting or reorganizing notes.
+- [[export-to-html|Export to HTML]]: Export your Markdown notes as HTML, directly in the clipboard or as a file.
+- [[node-flow|NodeFlow]]: Render node streams like `ComfyUi`, `UE`, `Houdini`, `Blender`, etc., to make it easy to write relevant notes. json describes the chart, compared to screenshots, making it easier to modify later. The plugin is also compatible with blogs.
+- [[send-note|Send Note]]: Instantly send a note, to other obsidian users so they can import them into their vault. It uses AWS S3 as a storage backend. Data is shared encrypted by default, and only you and the person you send it to have the key.
+- [[project-tasks|Project Tasks]]: Enhances task management for simple projects
+- [[cursor-position-on-title-enter|Cursor Position on Title Enter]]: Set the cursor position after pressing Enter on the note title.
+- [[smart-context|Smart Context]]: Copy folder contents (Markdown & Canvas files) to the clipboard with a Smart Context approach.
+- [[bin-theme-controller|Theme Controller]]: Set when and how the themes will be displayed.
+- [[insert-multiple-attachments|Insert Multiple Attachments]]: Allows to insert multiple attachments at a time
+- [[smart-link-alias|Smart Link Alias]]: Enhance your internal links management with dynamic alias customization. Display short, full, or combined titles for your notes effortlessly.
 
 
 %% Hub footer: Please don't edit anything below this line %%
