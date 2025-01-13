@@ -152,7 +152,7 @@ export class Setting {}
 
 // mocking these classes is not necessary. They're part of the import but only accessed as types, which should work out of the box.
 // export class App {}
-//export class MarkdownView {}
+// export class MarkdownView {}
 // export class Editor {}
 ```
 
@@ -297,42 +297,42 @@ The previous example does not appear too useful since we extracted business logi
 
 // [...imports, const, interfaces...]
 export default class MyPlugin extends Plugin {
-	settings: MyPluginSettings;
-	data: {
-		numberOfRolls: number;
-		username: string;
-		limit?: number;
-	}
+  settings: MyPluginSettings;
+  data: {
+    numberOfRolls: number;
+    username: string;
+    limit?: number;
+  }
 
-	async onload() {
-		await this.loadSettings();
-		// mocking some data for showcasing purposes
-		this.data = {
-			numberOfRolls: 3,
-			username: 'Alice',
-			limit: 6
-		}
+  async onload() {
+    await this.loadSettings();
+    // mocking some data for showcasing purposes
+    this.data = {
+      numberOfRolls: 3,
+      username: 'Alice',
+      limit: 6
+    }
 
-		// This creates an icon in the left ribbon.
-		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
-			// Called when the user clicks the icon.
-			let message;
-			if (this.data.limit && this.data.limit <= this.data.numberOfRolls) {
-				message = "Oh no, you've surpassed your daily limit!" 
-			} else {
-				const diceRoll =  Math.floor(Math.random() * 7);
-				this.data.numberOfRolls++;
+    // This creates an icon in the left ribbon.
+    const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
+      // Called when the user clicks the icon.
+      let message;
+      if (this.data.limit && this.data.limit <= this.data.numberOfRolls) {
+        message = "Oh no, you've surpassed your daily limit!" 
+      } else {
+        const diceRoll =  Math.floor(Math.random() * 7);
+        this.data.numberOfRolls++;
 
-				message = `Hey, ${this.data.username}! You've rolled a ${diceRoll} - this was your ${this.data.numberOfRolls} roll today.`
+        message = `Hey, ${this.data.username}! You've rolled a ${diceRoll} - this was your ${this.data.numberOfRolls} roll today.`
 
-				if (this.data.limit && this.data.numberOfRolls >= (this.data.limit - 2)) {
-					message += ` Watch out! You only have ${this.data.limit - this.data.numberOfRolls} rolls left today!`
-				} 
-			}
+        if (this.data.limit && this.data.numberOfRolls >= (this.data.limit - 2)) {
+          message += ` Watch out! You only have ${this.data.limit - this.data.numberOfRolls} rolls left today!`
+        } 
+      }
 
-			new Notice(message);
-		});
-		// [... rest of the code]
+      new Notice(message);
+    });
+    // [... rest of the code]
 ```
 
 This will return you a virtual dice roll number as long as you stay under the configured limit. None of this code depends directly on obsidian and makes it a good candidate to extract it to a separate function in a separate file. Replace the content of `myplugin.ts` with following code:
@@ -362,7 +362,8 @@ static generateDiceRollMessage(data: any): string {
 > [!info] Any typing is bad typing
 > Instead of `any`, you'd provide an interface - in a third file - that describes your data structure and use it here as a type, like the already existing `MyPluginSettings`. Due to simplicity, we'll leave that out here.
 
-Use the extracted function in `main.ts`:
+Since `data` is fetched (normally) by a Obsidian API call, we'll fetch it beforehand and pass it to the function. This will require a small refactor, since you'll need to remove `this.` before `data`. Showing the Notice will stay outside of the extracted function too, to not have any dependency on Obsidian API. 
+All that's left is to use the extracted function in `main.ts`:
 ```js
 // main.ts
 const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
@@ -373,7 +374,7 @@ const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEven
 }
 ```
 
-It's possible to test this code by i.e. making sure that the limit is respected without providing any mock for obsidian.
+It's possible to test the extracted code by i.e. making sure that the limit is respected without providing any mock for obsidian.
 
 ```ts
 // example.spec.ts
@@ -394,7 +395,7 @@ describe("MyPlugin Tests", () => {
 });
 ```
 
-This does not test if the notice is really shown, but enables you to test your custom logic. You could opt in to manage showing the notice in your extracted function, as well, like shown in the previous example. How you split your code and which parts you want to put under test can be a difficult question to answer and depends on the individual code you're writing, its complexity and importance of the functionality. As mentioned before, combining these approaches to test all relevant parts of your plugin is a valid way to go.
+This does not test if the notice is really shown, but enables you to test your custom logic that builds the message without the need of potentially complex mocks. You could opt in to manage showing the notice in your extracted function, as well, like shown in the previous example. How you split your code and which parts you want to put under test can be a difficult question to answer and depends on the individual code you're writing, its complexity and importance. As mentioned before, combining the presented approaches to test all relevant parts of your plugin is a valid way to go.
 ## Closing words
 
 While setting up tests might appear tedious at times and is a skill to learn, with a growing code base and growing complexity automated tests can be an enormous help and sometimes the only way to make sure that nothing is seriously broken. It'll give you the confidence to do refactors to your code without the need of extensive manual tests and will also encourage a cleaner structure of productive code for the sake of test-ability.
