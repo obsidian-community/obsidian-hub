@@ -37,7 +37,7 @@ Jest is now integrated into the project and usable for testing.
 1. Create a new file named `example.spec.ts` to your projects root folder
 
 > [!info] Test file names
-> It is not required to call tests with a `.spec.ts` ending, `.ts` is enough. However, it help you to see at one glance which file contain productive code and which are test files, which will help with development and maintainability.
+> It is not required to call tests with a `.spec.ts` ending, `.ts` is enough. However, it help you to see at one glance which file contain productive code and which are test files, which will help with development and maintainability. It is also common to end test file names with `.test.ts` instead of `.spec.ts`.
 
 2. In `example.spec.ts`, add a `describe` block. Read more about describe blocks in [Jests documentation](https://jestjs.io/docs/api#describename-fn). Basically, a `describe` bundles up multiple test cases for better readability. 
 
@@ -64,13 +64,14 @@ export {};
 ```
 
 4. To execute the test, open a terminal and execute `npm run test`. This triggers the script you've added to the package.json and should execute Jest, showing you a successful test run. 
+
 ### Testing plugin code
 
 The previous test case made sure that Jest is correctly integrated to the project. In general, testing a static value does not hold much value. The goal of automated testing is to runs code and ensure that it meets certain expectations. In our case, we want to test plugin related code.
 
 Unfortunately, Obsidian API is not straight forward to test. Obsidian functionality is only available if the code runs in context of an Obsidian app and will not be available when running code in our testing environment. The Obsidian node module contains types only. This means Jest will fail to find and execute i.e. classes and functions. It will work fine for types.
 
-First of all, exchange the static test case from before with one using the plugin code. Replace your test file content with:
+First of all, exchange the static test case from before with one using the plugin class. Replace your test file content with:
 
 ```ts
 // example.spec.ts
@@ -87,6 +88,7 @@ describe("MyPlugin Tests", () => {
 Run `npm run test`. It'll fail with an `Cannot find module 'obsidian' from 'main.ts'` error due to the reasons explained above. 
 
 There are multiple ways working around this error and this guide will detail two of them. They're not exclusive. Depending on the scope of your plugin it might be worthwhile to combine both approaches. 
+
 #### Mocking Obsidian API 
 
 Jest carries functionality to mock a variety of things, including dependencies. In case of the Obsidian API, a [manual ES6 class mock](https://jestjs.io/docs/es6-class-mocks#manual-mock) is required.
@@ -161,6 +163,7 @@ export class Setting {}
 > For every new element you access from the Obsidian API, except for types, you'll need to enhance `__mocks__/obsidian.ts` with appropiate mocks to test your code. 
 
 This will provide mocks for all functions that are called in `onload()`. Run `npm run test` again - your test will unfortunately still fail.
+
 ##### Use jsdom to enable usage of browser specific API 
 
 With the Obsidian mock in place, your test will still fail, because the example plugin accesses `document` and `window` in `onload()`. This fails since Jest is by default running in a `node` test environment that does not provide such objects. The most straight forward way to fix this is to switch to the jsdom test environment that emulates the capabilities of a browser (or electron app).
@@ -199,7 +202,7 @@ export default class MyPluginLogic {
 }
 ```
 
-2.  Extract the RibbonIcon callback to a function (see [[How to test plugin code that uses Obsidian APIs#Move logic out to separate files]] for more infos how to extract code)
+2. Extract the RibbonIcon callback to a function (see [[How to test plugin code that uses Obsidian APIs#Move logic out to separate files]] for more infos how to extract code)
 
 ```ts
 // myplugin.ts
@@ -267,7 +270,7 @@ describe("MyPlugin Tests", () => {
 
 6. Run the test via `npm run test`. It should be green.
 
-Mind that you will not be able to test if you really registered a corresponding ribbonIcon with this approach. Generally, separating business logic from the logic thats necessary to integrate with Obsidian can help with readability and maintainability and might be valuable not only for testing. 
+Mind that you will not be able to test if you really registered a corresponding ribbon icon with this approach. Generally, separating business logic from the logic that's necessary to integrate with Obsidian can help with readability and maintainability and might be valuable not only for testing. 
 
 ##### Using Obsidian API for typing in extracted business logic
 
@@ -341,22 +344,23 @@ This will return you a virtual dice roll number as long as you stay under the co
 ```ts
 // myplugin.ts
 export default class MyPluginLogic {
-static generateDiceRollMessage(data: any): string {
-  let message;
-  if (data.limit && data.limit <= data.numberOfRolls) {
-	message = "Oh no, you've surpassed your daily limit!";
-  } else {
-	const diceRoll =  Math.floor(Math.random() * 7);
-	data.numberOfRolls++;
+  static generateDiceRollMessage(data: any): string {
+    let message;
+    if (data.limit && data.limit <= data.numberOfRolls) {
+	  message = "Oh no, you've surpassed your daily limit!";
+    } else {
+	  const diceRoll =  Math.floor(Math.random() * 7);
+	  data.numberOfRolls++;
 
-	message = `Hey, ${data.username}! You've rolled a ${diceRoll} - this was your ${data.numberOfRolls} roll today.`;
+	  message = `Hey, ${data.username}! You've rolled a ${diceRoll} - this was your ${data.numberOfRolls} roll today.`;
 
-	if (data.limit && data.numberOfRolls >= (data.limit -2)) {
-	  message += ` Watch out! You only have ${data.limit - data.numberOfRolls} rolls left today!`;
-	} 
-  }
+	  if (data.limit && data.numberOfRolls >= (data.limit -2)) {
+	    message += ` Watch out! You only have ${data.limit - data.numberOfRolls} rolls left today!`;
+	  } 
+    }
   
-  return message;
+    return message;
+  }
 }
 ```
 
@@ -396,7 +400,8 @@ describe("MyPlugin Tests", () => {
 });
 ```
 
-This does not test if the notice is really shown, but enables you to test your custom logic that builds the message without the need of potentially complex mocks. You could opt in to manage showing the notice in your extracted function, as well, like shown in the previous example. How you split your code and which parts you want to put under test can be a difficult question to answer and depends on the individual code you're writing, its complexity and importance. As mentioned before, combining the presented approaches to test all relevant parts of your plugin is a valid way to go.
+This does not test if the notice is really shown, but enables you to test your custom logic that builds the message without the need of potentially complex mocks. You could opt in to manage showing the notice in your extracted function, as well, like shown in the previous example. How you split your code and which parts you want to put under test can be a difficult question to answer and depends on the individual code you're writing, its complexity, and its importance. As mentioned before, combining the presented approaches to test all relevant parts of your plugin is a valid way to go.
+
 ## Closing words
 
 While setting up tests might appear tedious at times and is a skill to learn, with a growing code base and growing complexity automated tests can be an enormous help and sometimes the only way to make sure that nothing is seriously broken. It'll give you the confidence to do refactors to your code without the need of extensive manual tests and will also encourage a cleaner structure of productive code for the sake of test-ability.
