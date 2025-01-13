@@ -9,24 +9,25 @@ publish: true
 
 %% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
 
-This page will guide you through integrating [jest](https://jestjs.io/docs/getting-started) as a testing framework to the obsidian example plugin to enable automated testing for your plugin. Furthermore, the guide will cover specialties when running tests using the obsidian API.
+This page will guide you through integrating [Jest](https://jestjs.io/docs/getting-started) as a testing framework to the Obsidian example plugin to enable automated testing for your plugin. Furthermore, the guide will cover specialties when running tests using the Obsidian API.
 
-This guide will use the obsidian example plugin as a showcase. It also assumes knowledge about unit testing to a certain degree. If you wish to go through the guide step-by-step, please download and enable the example plugin like described in [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin). 
+This guide will use the [Obsidian example plugin](https://github.com/obsidianmd/obsidian-sample-plugin) as a showcase. It also assumes knowledge about unit testing to a certain degree. If you wish to go through the guide step-by-step, please download and enable the example plugin like described in [Build a plugin](https://docs.Obsidian.md/Plugins/Getting+started/Build+a+plugin). 
 
-This guide focused on how to integrate jest to your plugin and what steps to take to deal with the Obsidian API when running plugin code in a test environment. It does not provide guidance how to write test cases or what good tests are. Please refer to [[Plugin Testing for Developers]] for a deeper look at these topics as well as [[How to find examples of Jest-based plugin tests]] for examples.
-## Integrate jest into obsidian-example-plugin
+This guide focused on how to integrate Jest to your plugin and what steps to take to deal with the Obsidian API when running plugin code in a test environment. It does not provide guidance how to write test cases or what good tests are. Please refer to [[Plugin Testing for Developers]] for a deeper look at these topics as well as [[How to find examples of Jest-based plugin tests]] for examples.
 
-Integrating jest to a project and make it compatible with typescript code requires some additional dependencies.
+## Integrate Jest into Obsidian-example-plugin
+
+Integrating Jest to a project and make it compatible with typescript code requires some additional dependencies.
 
 1. Open up a terminal and navigate to your plugins root folder
-2. Install jest via `npm install --save-dev jest`
+2. Install Jest via `npm install --save-dev jest`
 3. Install types for correct typing in typescript files: `npm install --save-dev @types/jest`
 4. Install ts-jest to transpile typescript files: `npm install --save-dev ts-jest`
-5. Create a jest configuration file by running `npx ts-jest config:init`
+5. Create a Jest configuration file by running `npx ts-jest config:init`
 6. Open `tsconfig.json` and add `"esModuleInterop": true` as an additional property to `compilerOptions` 
 7. Open `package.json` and add `"test": "jest"` to the `scripts` section 
 
-jest is now integrated into the project and usable for testing.
+Jest is now integrated into the project and usable for testing.
 
 ## Executing a first automated test
 
@@ -38,7 +39,7 @@ jest is now integrated into the project and usable for testing.
 > [!info] Test file names
 > It is not required to call tests with a `.spec.ts` ending, `.ts` is enough. However, it help you to see at one glance which file contain productive code and which are test files, which will help with development and maintainability.
 
-2. In `example.spec.ts`, add a `describe` block. Read more about describe blocks in [jests documentation](https://jestjs.io/docs/api#describename-fn).  Basically, a `describe` bundles up multiple test cases for better readability. 
+2. In `example.spec.ts`, add a `describe` block. Read more about describe blocks in [Jests documentation](https://jestjs.io/docs/api#describename-fn). Basically, a `describe` bundles up multiple test cases for better readability. 
 
 ```ts
 // example.spec.ts
@@ -47,7 +48,7 @@ describe('MyPlugin Tests', () => {
 })
 ```
 
-3. To the describe, add a test case. Please note that `it` and `test` are aliases, so you can also call `test`, depending on your preference. Read more in [jests documentation](https://jestjs.io/docs/api#testname-fn-timeout)
+3. To the describe, add a test case. Please note that `it` and `test` are aliases, so you can also call `test`, depending on your preference. Read more in [Jests documentation](https://jestjs.io/docs/api#testname-fn-timeout)
 
 ```ts
 // example.spec.ts
@@ -55,19 +56,19 @@ describe('MyPlugin Tests', () => {
 
   it('should be able to execute test', () => {
     expect("hello").toBeTruthy();
-  })
-})
+  });
+});
 
 // this is necessary to conform the isolatedModules compiler option and can be removed as soon as an import is added
-export {}
+export {};
 ```
 
-4. To execute the test, open a terminal and execute `npm run test`. This triggers the script you've added to the package.json and should execute jest, showing you a successful test run. 
+4. To execute the test, open a terminal and execute `npm run test`. This triggers the script you've added to the package.json and should execute Jest, showing you a successful test run. 
 ### Testing plugin code
 
-The previous test case made sure that jest is correctly integrated to the project. In general, testing a static value does not hold much value. The goal of automated testing is to runs code and ensure that it meets certain expectations. In our case, we want to test plugin related code.
+The previous test case made sure that Jest is correctly integrated to the project. In general, testing a static value does not hold much value. The goal of automated testing is to runs code and ensure that it meets certain expectations. In our case, we want to test plugin related code.
 
-Unfortunately, Obsidian API is not straight forward to test. Obsidian functionality is only available if the code runs in context of an Obsidian app and will not be available when running code in our testing environment. The obsidian node module contains types only. This means jest will fail to find and execute i.e. classes and functions. It will work fine for types.
+Unfortunately, Obsidian API is not straight forward to test. Obsidian functionality is only available if the code runs in context of an Obsidian app and will not be available when running code in our testing environment. The Obsidian node module contains types only. This means Jest will fail to find and execute i.e. classes and functions. It will work fine for types.
 
 First of all, exchange the static test case from before with one using the plugin code. Replace your test file content with:
 
@@ -88,7 +89,7 @@ Run `npm run test`. It'll fail with an `Cannot find module 'obsidian' from 'main
 There are multiple ways working around this error and this guide will detail two of them. They're not exclusive. Depending on the scope of your plugin it might be worthwhile to combine both approaches. 
 #### Mocking Obsidian API 
 
-jest carries functionality to mock a variety of things, including dependencies. In case of the Obsidian API, a [manual ES6 class mock](https://jestjs.io/docs/es6-class-mocks#manual-mock) is required.
+Jest carries functionality to mock a variety of things, including dependencies. In case of the Obsidian API, a [manual ES6 class mock](https://jestjs.io/docs/es6-class-mocks#manual-mock) is required.
 
 Mocking the Obsidian API is uncritical in sense of testing your code. When testing, you will need to assume that any third party dependency, including the Obsidian API, is working like expected and concentrate testing only code under your own responsibility. Thus, mocking the Obsidian API does not reduce the value of automated tests. 
 
@@ -108,7 +109,7 @@ export class Setting {}
 ```
 3. Run `npm run test` again and your test should succeed. 
 
-This mock is only enough to enable jest to read `main.ts` at all. It is insufficient for other scenarios. 
+This mock is only enough to enable Jest to read `main.ts` at all. It is insufficient for other scenarios. 
 For example, add a second test case below the existing one:
 
 ```ts
@@ -119,8 +120,8 @@ For example, add a second test case below the existing one:
 
     expect(plugin.settings).toEqual({
       mySetting: 'default'
-    })
-  })
+    });
+  });
 ```
 
 Run it with `npm run test`. It'll fail due to a `TypeError: this.loadData is not a function` error.
@@ -135,12 +136,12 @@ export class Plugin {
   addRibbonIcon() {
     return {
       addClass: () => {}
-    }
+    };
   }
   addStatusBarItem() {
     return {
       setText: () => {}
-    }
+    };
   }
   addCommand() {}
   addSettingTab() {}
@@ -162,7 +163,7 @@ export class Setting {}
 This will provide mocks for all functions that are called in `onload()`. Run `npm run test` again - your test will unfortunately still fail.
 ##### Use jsdom to enable usage of browser specific API 
 
-With the obsidian mock in place, your test will still fail, because the example plugin accesses `document` and `window` in `onload()`. This fails since jest is by default running in a `node` test environment that does not provide such objects. The most straight forward way to fix this is to switch to the jsdom test environment that emulates the capabilities of a browser (or electron app).
+With the Obsidian mock in place, your test will still fail, because the example plugin accesses `document` and `window` in `onload()`. This fails since Jest is by default running in a `node` test environment that does not provide such objects. The most straight forward way to fix this is to switch to the jsdom test environment that emulates the capabilities of a browser (or electron app).
 
 1. Open a terminal and run `npm i jest-environment-jsdom`
 2. In `jest.config.js` adjust `testEnvironment` to use `jsdom`: `testEnvironment: "jsdom",`
@@ -170,7 +171,7 @@ With the obsidian mock in place, your test will still fail, because the example 
 
 #### Extract Business Logic while keeping Obsidian API usage
 
-You can avoid or limit mocking obsidian by loosening the dependency of the code to test from obsidian API usages. 
+You can avoid or limit mocking Obsidian by loosening the dependency of the code to test from Obsidian API usages. 
 
 As detailed in the first approach, you'll be only interested in testing your own code and need to assume that third party code, including the Obsidian API, is doing its job. This opens up the opportunity to extract any business logic you're doing in a separate file and put this file under test instead of `main.ts`.
 
@@ -184,7 +185,7 @@ const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEven
 });
 ```
 
-To make this piece of code testable without depending on the obsidian API, we need to cut out custom logic from the rest. In this example, it's the callback function of `addRibbonIcon`. 
+To make this piece of code testable without depending on the Obsidian API, we need to cut out custom logic from the rest. In this example, it's the callback function of `addRibbonIcon`. 
 
 > [!hint] Structuring with folders
 > For reason of simplicity, this guide adds files to the root folder. Generally, it is a good idea to structure your code in folders, i.e. productive code in `src` and tests in `tests` to keep your code base better maintainable. 
@@ -232,7 +233,7 @@ import MyPluginLogic from "./myplugin";
 
 // [other code ...]
 const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
-	MyPluginLogic.ribbonIconCallback(Notice)
+	MyPluginLogic.ribbonIconCallback(Notice);
 });
 ```
 
@@ -245,7 +246,7 @@ Restart Obsidian to check manually that the ribbon icon is still showing you the
 > ```
 > Mind the missing `./` in front of the file name. If your code is not working, try adjusting the import to `import MyPluginLogic from "./myplugin";`  
 
-Having the business logic extracted, it's now possible to put `myplugin.ts` under test instead of `main.ts` and avoid mocking obsidian API. 
+Having the business logic extracted, it's now possible to put `myplugin.ts` under test instead of `main.ts` and avoid mocking Obsidian API. 
 
 5. Remove or comment out `__mocks__/obsidian.ts` to make sure the following works without any mocks. 
 6. Replace the content of `example.spec.ts` with:
@@ -257,10 +258,10 @@ import MyPluginLogic from "./myplugin";
 describe("MyPlugin Tests", () => {
   it('should create a notice with This is a notice! as text', () => {
     const mockNotice = jest.fn();
-    MyPluginLogic.ribbonIconCallback(mockNotice)
+    MyPluginLogic.ribbonIconCallback(mockNotice);
 
-    expect(mockNotice).toHaveBeenCalledWith("This is a notice!")
-  })
+    expect(mockNotice).toHaveBeenCalledWith("This is a notice!");
+  });
 });
 ```
 
@@ -276,7 +277,7 @@ Since we're using a constructor here, you cannot just write `notice: Notice`, wh
 
 ```ts
 // myplugin.ts
-import { Notice } from "obsidian";
+import { Notice } from "Obsidian";
 
 export default class MyPluginLogic {
   static ribbonIconCallback(notice: new (msg: string) => Notice) {
@@ -335,7 +336,7 @@ export default class MyPlugin extends Plugin {
     // [... rest of the code]
 ```
 
-This will return you a virtual dice roll number as long as you stay under the configured limit. None of this code depends directly on obsidian and makes it a good candidate to extract it to a separate function in a separate file. Replace the content of `myplugin.ts` with following code:
+This will return you a virtual dice roll number as long as you stay under the configured limit. None of this code depends directly on Obsidian and makes it a good candidate to extract it to a separate function in a separate file. Replace the content of `myplugin.ts` with following code:
 
 ```ts
 // myplugin.ts
@@ -343,15 +344,15 @@ export default class MyPluginLogic {
 static generateDiceRollMessage(data: any): string {
   let message;
   if (data.limit && data.limit <= data.numberOfRolls) {
-	message = "Oh no, you've surpassed your daily limit!" 
+	message = "Oh no, you've surpassed your daily limit!";
   } else {
 	const diceRoll =  Math.floor(Math.random() * 7);
 	data.numberOfRolls++;
 
-	message = `Hey, ${data.username}! You've rolled a ${diceRoll} - this was your ${data.numberOfRolls} roll today.`
+	message = `Hey, ${data.username}! You've rolled a ${diceRoll} - this was your ${data.numberOfRolls} roll today.`;
 
 	if (data.limit && data.numberOfRolls >= (data.limit -2)) {
-	  message += ` Watch out! You only have ${data.limit - data.numberOfRolls} rolls left today!`
+	  message += ` Watch out! You only have ${data.limit - data.numberOfRolls} rolls left today!`;
 	} 
   }
   
@@ -368,13 +369,13 @@ All that's left is to use the extracted function in `main.ts`:
 // main.ts
 const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
   // Called when the user clicks the icon.
-  const message = MyPluginLogic.generateDiceRollMessage(this.data)
+  const message = MyPluginLogic.generateDiceRollMessage(this.data);
   new Notice(message);
 });
 }
 ```
 
-It's possible to test the extracted code by i.e. making sure that the limit is respected without providing any mock for obsidian.
+It's possible to test the extracted code by i.e. making sure that the limit is respected without providing any mock for Obsidian.
 
 ```ts
 // example.spec.ts
@@ -386,11 +387,11 @@ describe("MyPlugin Tests", () => {
       username: "Bob",
       numberOfRolls: 10,
       limit: 8
-    }
+    };
 
     const message = MyPluginLogic.generateDiceRollMessage(mockData);
 
-    expect(message).toEqual("Oh no, you've surpassed your daily limit!")
+    expect(message).toEqual("Oh no, you've surpassed your daily limit!");
   })
 });
 ```
@@ -405,4 +406,4 @@ While setting up tests might appear tedious at times and is a skill to learn, wi
 
 # This note in GitHub
 
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20add%20automated%20tests%20to%20your%20plugin.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20add%20automated%20tests%20to%20your%20plugin.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
+<span class="git-footer">[Edit In GitHub](https://github.dev/Obsidian-community/Obsidian-hub/blob/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20add%20automated%20tests%20to%20your%20plugin.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/Obsidian-community/Obsidian-hub/main/04%20-%20Guides%2C%20Workflows%2C%20%26%20Courses/Guides/How%20to%20add%20automated%20tests%20to%20your%20plugin.md "git-hub-copy-note") | [Download this vault](https://github.com/Obsidian-community/Obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
