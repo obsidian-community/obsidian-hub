@@ -393,6 +393,8 @@ describe("MyPlugin Tests", () => {
   })
 });
 ```
+
+This does not test if the notice is really shown, but enables you to test your custom logic. You could opt in to manage showing the notice in your extracted function, as well, like shown in the previous example. How you split your code and which parts you want to put under test can be a difficult question to answer and depends on the individual code you're writing, its complexity and importance of the functionality. As mentioned before, combining these approaches to test all relevant parts of your plugin is a valid way to go.
 ## Closing words
 
 While setting up tests might appear tedious at times and is a skill to learn, with a growing code base and growing complexity automated tests can be an enormous help and sometimes the only way to make sure that nothing is seriously broken. It'll give you the confidence to do refactors to your code without the need of extensive manual tests and will also encourage a cleaner structure of productive code for the sake of test-ability.
