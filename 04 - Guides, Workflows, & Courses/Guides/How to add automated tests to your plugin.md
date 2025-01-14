@@ -355,16 +355,16 @@ export default class MyPluginLogic {
   static generateDiceRollMessage(data: any): string {
     let message;
     if (data.limit && data.limit <= data.numberOfRolls) {
-    message = "Oh no, you've surpassed your daily limit!";
+      message = "Oh no, you've surpassed your daily limit!";
     } else {
-    const diceRoll = Math.floor(Math.random() * 7);
-    data.numberOfRolls++;
+      const diceRoll = Math.floor(Math.random() * 7);
+      data.numberOfRolls++;
 
-    message = `Hey, ${data.username}! You've rolled a ${diceRoll} - this was your ${data.numberOfRolls} roll today.`;
+      message = `Hey, ${data.username}! You've rolled a ${diceRoll} - this was your ${data.numberOfRolls} roll today.`;
 
-    if (data.limit && data.numberOfRolls >= (data.limit - 2)) {
-      message += ` Watch out! You only have ${data.limit - data.numberOfRolls} rolls left today!`;
-    } 
+      if (data.limit && data.numberOfRolls >= (data.limit - 2)) {
+        message += ` Watch out! You only have ${data.limit - data.numberOfRolls} rolls left today!`;
+      }
     }
   
     return message;
