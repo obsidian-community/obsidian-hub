@@ -44,8 +44,8 @@ Jest is now integrated into the project and usable for testing.
 ```ts
 // example.spec.ts
 describe('MyPlugin Tests', () => {
-	
-})
+
+});
 ```
 
 3. To the describe, add a test case. Please note that `it` and `test` are aliases, so you can also call `test`, depending on your preference. Read more in [Jests documentation](https://jestjs.io/docs/api#testname-fn-timeout)
@@ -100,6 +100,7 @@ Mocking the Obsidian API does not lessen the usefulness of your tests. When test
 
 1. Create a folder named `__mocks__` at the root of your plugin folder
 2. In `__mocks__`, create a file called `obsidian.ts` and provide an empty (mock) class for every import listed at the top of `main.ts`:
+
 ```ts
 // obsidian.ts
 export class Modal {}
@@ -119,15 +120,16 @@ This mock is only enough to enable Jest to read `main.ts` at all. It is insuffic
 For example, add a second test case below the existing one:
 
 ```ts
-  // example.spec.ts
-  it('onload should load default settings', async () => {
-    const plugin = new MyPlugin({} as any, {} as any);
-    await plugin.onload();
+// example.spec.ts
+// [... describe and first test case ...]
+it('onload should load default settings', async () => {
+  const plugin = new MyPlugin({} as any, {} as any);
+  await plugin.onload();
 
-    expect(plugin.settings).toEqual({
-      mySetting: 'default'
-    });
+  expect(plugin.settings).toEqual({
+    mySetting: 'default'
   });
+});
 ```
 
 Run it with `npm run test`. It'll fail due to a `TypeError: this.loadData is not a function` error.
@@ -189,8 +191,8 @@ Lets assume you want to test following code of `main.ts` (line 19 to 38):
 // main.ts
 // This creates an icon in the left ribbon.
 const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
-	// Called when the user clicks the icon.
-	new Notice('This is a notice!');
+  // Called when the user clicks the icon.
+  new Notice('This is a notice!');
 });
 ```
 
@@ -242,7 +244,7 @@ import MyPluginLogic from "./myplugin";
 
 // [other code ...]
 const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
-	MyPluginLogic.ribbonIconCallback(Notice);
+  MyPluginLogic.ribbonIconCallback(Notice);
 });
 ```
 
@@ -330,7 +332,7 @@ export default class MyPlugin extends Plugin {
       if (this.data.limit && this.data.limit <= this.data.numberOfRolls) {
         message = "Oh no, you've surpassed your daily limit!";
       } else {
-        const diceRoll =  Math.floor(Math.random() * 7);
+        const diceRoll = Math.floor(Math.random() * 7);
         this.data.numberOfRolls++;
 
         message = `Hey, ${this.data.username}! You've rolled a ${diceRoll} - this was your ${this.data.numberOfRolls} roll today.`;
@@ -353,16 +355,16 @@ export default class MyPluginLogic {
   static generateDiceRollMessage(data: any): string {
     let message;
     if (data.limit && data.limit <= data.numberOfRolls) {
-	  message = "Oh no, you've surpassed your daily limit!";
+    message = "Oh no, you've surpassed your daily limit!";
     } else {
-	  const diceRoll =  Math.floor(Math.random() * 7);
-	  data.numberOfRolls++;
+    const diceRoll = Math.floor(Math.random() * 7);
+    data.numberOfRolls++;
 
-	  message = `Hey, ${data.username}! You've rolled a ${diceRoll} - this was your ${data.numberOfRolls} roll today.`;
+    message = `Hey, ${data.username}! You've rolled a ${diceRoll} - this was your ${data.numberOfRolls} roll today.`;
 
-	  if (data.limit && data.numberOfRolls >= (data.limit - 2)) {
-	    message += ` Watch out! You only have ${data.limit - data.numberOfRolls} rolls left today!`;
-	  } 
+    if (data.limit && data.numberOfRolls >= (data.limit - 2)) {
+      message += ` Watch out! You only have ${data.limit - data.numberOfRolls} rolls left today!`;
+    } 
     }
   
     return message;
@@ -383,7 +385,6 @@ const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEven
   const message = MyPluginLogic.generateDiceRollMessage(this.data);
   new Notice(message);
 });
-}
 ```
 
 It's possible to test the extracted code by i.e. making sure that the limit is respected without providing any mock for `obsidian`.
@@ -403,7 +404,7 @@ describe("MyPlugin Tests", () => {
     const message = MyPluginLogic.generateDiceRollMessage(mockData);
 
     expect(message).toEqual("Oh no, you've surpassed your daily limit!");
-  })
+  });
 });
 ```
 
