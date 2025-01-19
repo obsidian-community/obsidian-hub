@@ -14,6 +14,7 @@ The [[🗂️ 01 - Community|Obsidian Community]] has created plenty of resource
 - The [[obsidian-bible-reference|Bible Reference Plugin]] will let you "fetch" a particular passage of the Bible from [ESV.org](https://www.esv.org/).
 - With [[obsidian-bible-linker|Bible Linker]], you can quickly copy bible verses and create links to them.
 - [[obsidian-daf-yomi|Daf Yomi]] helps you prepare for the [daily practice of learning the Oral Torah](https://en.wikipedia.org/wiki/Daf_Yomi) by downloading the day's PDF (one page of the [Talmud](https://en.wikipedia.org/wiki/Talmud)) and links to commentary and other resources.
+- The [[obsidian-quran-lookup|Quran Lookup Plugin]] replaces `chapter:verse` shorthand with verse text in arabic and translation.
 
 ## Media Resources
 - [[Chris Wilson]] has multiple YouTube videos about how he uses Obsidian to take notes on the Bible. Here is an introduction to his "Biblekasten": [How to set up Obsidian to take digital Bible notes](https://www.youtube.com/watch?v=kT4g59YCbd0)
