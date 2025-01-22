@@ -173,7 +173,7 @@ Plugins which have not yet been categorized by the community.
 - [[crumbs-obsidian|Crumbs]]: Breadcrumb navigation in Obsidian
 - [[obsidian-crypto-lookup|Crypto Lookup]]: A plugin for Obsidian which uses the Cryptonator API to pull back prices for crypto in a target currency
 - [[cryptsidian|Cryptsidian]]: Encrypt all files in your Obsidian.md Vault with a password.
-- [[obsidian-custom-attachment-location|Custom Attachment Location]]: Customize attachment location with variables($filename, $data, etc) like typora.
+- [[obsidian-custom-attachment-location|Custom Attachment Location]]: Customize attachment location with variables(${fileName}, ${date:format}, etc) like typora.
 - [[custom-classes|Custom Classes]]: Custom Classes is a minimalist plugin that allows you to add custom HTML classes to markdown blocks
 - [[custom-sort|Custom File Explorer sorting]]: Allows for manual and automatic, config-driven reordering and sorting of files and folders in File Explorer
 - [[obsidian-custom-file-extensions-plugin|Custom File Extensions Plugin]]: Associate views with custom file extensions via settings.
@@ -327,7 +327,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-image-layouts|Image Layouts]]: Add beautiful image layouts to your notes
 - [[image-ocr|Image OCR]]: Runs OCR on images and copies content in image caption.
 - [[lskypro-auto-upload|Image To Lskypro]]: Auto upload images from clipboard to lskypro
-- [[image-upload-toolkit|Image Upload Toolkit]]: An obsidian plugin for uploading local images embedded in markdown to remote store and export markdown for publishing to static site. Currently, it supports Imgur and Aliyun OSS.
+- [[image-upload-toolkit|Image Upload Toolkit]]: Upload local images to remote store (Imgur, AliYun OSS, Imagekit, Amazon S3, TencentCloud COS and Qiniu Kodo).
 - [[tiddlywiki-import-export|Import/Export TiddlyWiki]]: Import and export TiddlyWiki from and to Obsidian.
 - [[obsidian-importer|Importer]]: Import data from Notion, Evernote, Apple Notes, Microsoft OneNote, Google Keep, Bear, Roam, and HTML files.
 - [[inbox|Inbox]]: Show in app notification if there is data to process in the "inbox" note.
@@ -529,7 +529,7 @@ Plugins which have not yet been categorized by the community.
 - [[pubscale|PubScale]]: Seamlessly sync markdown notes into PlanetScale tables.
 - [[copy-publish-url|Publish and GitHub URL]]: Copy or open the URL of the corresponding note on your Publish site. You can also open its Git commit history on GitHub.
 - [[python-scripter|Python Scripter]]: Run Python scripts directly as Obsidian commands.
-- [[quail|Quail]]: Save, publish, delivery notes via Quail.ink as newsletters and blogs.
+- [[quail|Quail]]: Save, publish, delivery notes via Quaily.com as newsletters and blogs.
 - [[qatt|Query all the things]]: Execute SQL base queries against your data in Obsidian and render it how you want using templates.
 - [[quick-links|Quick Links]]: Create quick link shortcuts to Wikipedia and other sites
 - [[quicknote|Quick note]]: Create a quick note in a floating window (on command or by right-clicking the Obsidian app icon)
@@ -658,7 +658,7 @@ Plugins which have not yet been categorized by the community.
 - [[obs-text-wrapper|Text Wrapper]]: Quickly wrap selected text with HTML tags by using a shortcut or from the command palette
 - [[obsidian-tts|Text to Speech]]: Hear your notes.
 - [[tor2e-statblocks|The One Ring 2E Statblocks]]: Render TOR 2e statblocks in Obsidian.
-- [[obsidian-theme-design-utilities|Theme Design Utilities]]: Some Utilities and Quality-of-Life Features for Designers of Obsidian Themes.
+- [[obsidian-theme-design-utilities|Theme Design Utilities]]: Some utilities and Quality-of-Life features for designers of Obsidian themes.
 - [[obsidian-theme-toggler|Theme Toggler]]: Toggle the theme in Obsidian's panels.
 - [[obsidian-things3-sync|Things3 Sync]]: An Obsidian plugin for sync between Obsidian and Things3, create Todo and sync Todo status
 - [[obsidian-memos|Thino]]: Capturing ideas and save them into daily notes. (Closed source)
@@ -737,7 +737,7 @@ Plugins which have not yet been categorized by the community.
 - [[yet-another-obsidian-synchronizer|Yet Another Obsidian Synchronizer]]: This is yet another obsidian synchronizer that uses Git to synchronize your vault contents across devices.
 - [[zen|Zen]]: A focus mode Obsidian plugin.
 - [[zettelgpt|ZettelGPT]]: ZettelGPT: Turbocharge Your Note-taking with AI Assistance
-- [[zettelkasten-llm-tools|Zettelkasten LLM Tools]]: Zettelkasten note taking powered by LLMs
+- [[zettelkasten-llm-tools|Zettelkasten LLM Tools]]: Zettelkasten note taking powered by AI
 - [[zotero-bridge|Zotero Bridge]]: Zotero integration
 - [[obsidian-zotero-desktop-connector|Zotero Integration]]: Insert and import citations, bibliographies, notes, and PDF annotations from Zotero.
 - [[zotero-link|Zotero Link]]: Insert link to Zotero items from Obsidian interface using Zotero Bridge
@@ -801,7 +801,7 @@ Plugins which have not yet been categorized by the community.
 - [[vertical-tabs-view|Vertical Tabs View]]: Provides a vertical tabs view.
 - [[just-share-please|Just Share Please]]: Quickly and easily share individual notes online using an anonymized link. Also easy to self-host!
 - [[potato-indexer|Potato Indexer]]: Allow generation of a content index based on your selection or of the whole file.
-- [[typewriter-mode|Typewriter Mode]]: Typewriter scrolling, highlighting of the current line, dimming of unfocused paragraphs, writing focus and more.
+- [[typewriter-mode|Typewriter Mode]]: Typewriter scroll, highlight current line, dim unfocused paragraphs and sentences, writing focus, restore cursor position and more.
 - [[js-engine|JS Engine]]: Run JavaScript from within your notes.
 - [[mononote|Mononote]]: Ensures each note occupies only one tab. If a note is already open, its existing tab will be focussed instead of opening the same file in the current tab.
 - [[cannoli|Cannoli]]: Create and run LLM scripts on the Obsidian Canvas.
@@ -985,7 +985,7 @@ Plugins which have not yet been categorized by the community.
 - [[smart-title|Smart Title]]: Automatically extract tag and alias from the title.
 - [[gamified-pkm|Gamificate your PKM]]: Enhance your Personal Knowledge Management with gamification elements. Boost motivation and achieve growth as you engage with your PKM.
 - [[relax|R.E.L.A.X.]]: Multi-regex management for data linking and batch processing across selection, files and folders. Ideal for academics, data scientists, forensics, reverse-engineerer and knowledge workers. Enables dynamic data organization and can be used to standardize links or as text-search. Streamline note-taking, data analysis, and report generation with intuitive regex pattern application and modification.
-- [[coder|Encoder/Decoder]]: Converts text into other formats (base64, ROT13)
+- [[coder|Encoder/Decoder]]: Converts texts into other formats (base64, ROT13) and vice versa
 - [[habit-tracker-21|Habit Tracker 21]]: Your 21-day journey to habit formation, simplified
 - [[math-in-callout|Better Math in Callouts & Blockquotes]]: Add better Live Preview support for math rendering inside callouts & blockquotes.
 - [[dynamic-line-height-cjk|Dynamic Line Height for CJK]]: Dynamically adjust line height for lines & paragraphs containing CJK characters.
@@ -1032,7 +1032,7 @@ Plugins which have not yet been categorized by the community.
 - [[create-task|Create Task]]: Create tasks faster from anywhere.
 - [[timeline-schedule|Timeline Schedule]]: Inline timelines generated from human-readable time strings, e.g. 'Walk dog (30min)' in a ```schedule codeblock.
 - [[cursor-goaway|cursor-goaway]]: make cursor goaway after open a text file
-- [[continuous-mode|Continuous Mode]]: Displays all open notes in a tab group as if they were a continuous scrollable document (sometimes called "Scrivenings mode"). Open all notes in Continuous Mode from a folder, search results, or links in a file or Dataview/query block; use arrow keys to navigate between notes; reorder notes via tab header drag-and-drop, sorting, more.
+- [[continuous-mode|Continuous Mode]]: Displays all open notes in a tab group as if they were a continuous scrollable document (sometimes called "Scrivenings mode"). Open all notes in Continuous Mode from a folder, search results, or links in a file or Dataview/query block; use arrow keys to navigate between notes; display notes in “Compact Mode” similar to Evernote or Bear; reorder notes via tab header drag-and-drop, sorting, more.
 - [[multi-state-checkbox-switcher|Multi State CheckBox Switcher]]: Handle with multistate checkboxes.
 - [[relay-md|Relay.md]]: Markdown workflows for teams.
 - [[insighta|InsightA]]: InsightA can transform extensive articles into concise, atomic notes and generate MOC based on note title using LLM. 🚀📝
@@ -1105,7 +1105,7 @@ Plugins which have not yet been categorized by the community.
 - [[card-note|CardNote]]: Help you quickly extract your thoughts in the Canvas and Excalidraw
 - [[simple-image-inserter|Simple Image Inserter]]: Add images from the file system into Obsidian notes through a built-in file explorer.
 - [[graph-link-types|Graph Link Types]]: Link types for graph view.
-- [[fix-require-modules|Fix Require Modules]]: Fixes require() calls, supporting JavaScript and TypeScript modules, enabling easy invocation, and adding code buttons for enhanced scripting capabilities
+- [[fix-require-modules|CodeScript Toolkit]]: Allows to do a lot of things with JavaScript/TypeScript scripts from inside the Obsidian itself
 - [[auto-definition-link|Auto Definition Link]]: Automatically converts text to definition links within the current folder when you type them.
 - [[chord-sheets|Chord Sheets]]: Work with chord sheets (chords over lyrics) in your Vault: Chord diagrams, transpose, autoscroll and more. Works in live preview and reading mode.
 - [[enhanced-tables|Enhanced tables]]: Add programmable controls to selected tables
@@ -1150,7 +1150,7 @@ Plugins which have not yet been categorized by the community.
 - [[mantou-ai|MantouAI]]: Work as a personal assistant for translation, writing polish, general Q&A, summarizing, using the power of large language models.
 - [[pomodoro-planner|Pomodoro Planner]]: Generates a pomodoro schedule plan
 - [[bookfusion|BookFusion]]: Import your BookFusion highlights & annotations into your vault.
-- [[mxmind|Mxmind Mindmap]]: Convert Markdown files to a mind map,mind map editor
+- [[mxmind|Mxmind Mindmap]]: Convert Markdown files to a mind map, mind map editor. export to image or pdf.
 - [[contextual-sidecar|Contextual Sidecar]]: Add a context-dependent sidecar panel.
 - [[diffzip|Differential ZIP Backup]]: Back our vault up with lesser storage.
 - [[media-notes|Media Notes]]: Take notes on YouTube videos and podcasts with media controls and timestamps.
@@ -1350,6 +1350,7 @@ Plugins which have not yet been categorized by the community.
 - [[templify|Templify]]: (Closed Source) Multi layout for one note.
 - [[ayanite|Ayanite]]: Advanced AI chat interface and knowledge copilot for professionals. Turn Obsidian into an Integrated Knowledge Environment. Supports Ollama and cloud GPT providers. (Closed source)
 - [[docxer|Docxer]]: Import Word files easily. Adds a preview mode for .docx files and the ability to convert them to markdown (.md) files.
+- [[the-queue|The Queue]]: Randomly exposes you to notes from your vault. Supports habits, to-dos, spaced repetition flashcards, iterative reading and more.
 - [[folder-by-tags-distributor|Folder by tags distributor]]: Automatically move notes into existing folders by tags specified in note.
 - [[power-mode|POWER MODE]]: Active POWER MODE!!!!
 - [[rapid-ai|Rapid AI]]: AI Assistant for selected text and generating content with Markdown. Shortcuts and quick action buttons provide instant AI assistance. It provides a high availability API for unlimited Chat GPT request rates, so you can ensure smooth work for any workload.
@@ -1430,7 +1431,7 @@ Plugins which have not yet been categorized by the community.
 - [[refresh-preview|Refresh Preview]]: Allows to refresh preview mode without reopening the note
 - [[hash-pasted-image|Hash Pasted Image]]: Auto rename pasted images added to the vault via hash algorithm SHA-512
 - [[yanki|Yanki]]: Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.
-- [[iconic|Iconic]]: Customize your icons and their colors directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.
+- [[iconic|Iconic]]: Customize your icons and their colors directly from the UI, including tabs, files, bookmarks, tags, properties, and ribbon commands.
 - [[notes-refresher|Notes Refresher]]: Provides AI-generated summaries (GPT) of three notes from your Vault every day.
 - [[docbase-unofficial|DocBase (Unofficial)]]: Pull and push notes to DocBase
 - [[latex-render|Latex Render]]: Render snippets of latex code as SVG files.
@@ -1606,7 +1607,7 @@ Plugins which have not yet been categorized by the community.
 - [[flow|Flow]]: Implements key processes in David Allen's Getting Things Done (GTD) methodology (Closed source)
 - [[quarto-exporter|Quarto Exporter]]: Export notes to Quarto-compatible QMD files.
 - [[copy-section|Copy Section]]: adds a Copy button to the top of Headed sections
-- [[cloud-storage|Cloud Storage]]: Allows users to upload local files to the cloud, reducing the burden on local vaults and enabling seamless synchronization across multiple devices.
+- [[cloud-storage|Cloud Storage]]: Managing attachments across devices. Automatically uploads your attachments to the cloud and smartly updates all your markdown links, keeping your notes and attachments perfectly organized. Whether you're handling images, PDFs, or any other files, it works seamlessly in the background. You can even use it as a powerful image hosting solution, supporting plugin-provided cloud storage or custom S3 storage!
 - [[local-media-embedder|Local Media Embedder]]: Embed videos and images and audios from your local device  in your notes.
 - [[tab-panels|Tab Panels]]: Create tab panels to organize content into sections
 - [[jura-links|Jura Links]]: Verlinke deine notierten Gesetzesnormen, Aktenzeichen und Zeitschriften-Fundstellen mit Gesetzesanbietern.
@@ -1637,7 +1638,6 @@ Plugins which have not yet been categorized by the community.
 - [[open-with-nldates|Open with Natural Language Dates]]: Open a daily note using natural language. Requires "Natural Language Dates" plugin to work.
 - [[hierarchical-backlinks|Hierarchical Backlinks]]: Displays backlinks in a hierarchy
 - [[exmemo-client|ExMemo Client]]: A client for the ExMemo service, used to search, sync, and organize data from the server.
-- [[transfer-latex-from-gpt|Transfer LaTeX from GPT]]: Translate the LaTeX formula generated by OpenAI GPT into Obsidian's MathJax format.
 - [[prompt-crafter|PromptCrafter]]: Create reusable, modular prompts.
 - [[cursor-bridge|Cursor Bridge]]: Seamlessly bridge your notes with Cursor, the AI-powered code editor. Open notes directly in Cursor to enhance your workflow.
 - [[nav-weight|Nav Weight]]: Sort your navigation items by Markdown frontmatter.
@@ -1702,7 +1702,7 @@ Plugins which have not yet been categorized by the community.
 - [[password-audit|Password Audit]]: Audit password strength, check breaches, and generate secure passwords. Not a password manager.
 - [[obsnippets|Snippetsaurus]]: Create and managing text and code snippets.
 - [[simple-todo|Simple Todo]]: A minimalist text-based todo manager (Text-Based GTD) for efficient task management.
-- [[weekly-goal-tracker|Weekly Goal Tracker]]: Keep track of weekly goals in the status bar
+- [[weekly-goal-tracker|Weekly Goal Tracker]]: Keep track of weekly/daily goals in the status bar
 - [[mdfriday|Friday]]: Notes to Website. Friday helps you turn Markdown documents into websites in minutes.
 - [[chronos|Chronos Timeline]]: Render interactive timelines in your notes from Markdown
 - [[clear-todos|Clear Todos]]: Quickly remove all completed todos from your notes or selected text.
@@ -1715,7 +1715,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsifetch|Obsifetch]]: A neofetch-style vault information display
 - [[abbrlink|Abbrlink]]: Automatically generate permanent short links for your markdown files.
 - [[llm-workspace|LLM workspace]]: Use Large Language Models grounded in your notes.
-- [[todoist-context-bridge|Todoist Context Bridge]]: Bridge your note-taking and task management workflows by maintaining strong contextual connections with Todoist.
+- [[todoist-context-bridge|Todoist Context Bridge]]: Bridge your note-taking and Todoist task management workflows with contextual connections. Seamlessly integrate with Dataview and Tasks plugins.
 - [[discord-timestamps|Discord Timestamps]]: Displays discord timestamps in read mode as they would appear in Discord.
 - [[heatmap-tracker|Heatmap Tracker]]: Visualize your activity and track goals, progress, habits, tasks, exercise, finances, and more—all in a single, interactive heatmap!
 - [[visual-crossing-weather|Visual Crossing Weather]]: Visual Crossing Weather API for Your Notes
@@ -1758,6 +1758,37 @@ Plugins which have not yet been categorized by the community.
 - [[kkh|kkh]]: Replace words in a string using kkh dictionary.
 - [[import-todoist|Import Todoist tasks]]: Import Todoist tasks as Markdown tasks.
 - [[link-maintainer|Link Maintainer]]: Maintain note links when splitting or reorganizing notes.
+- [[export-to-html|Export to HTML]]: Export your Markdown notes as HTML, directly in the clipboard or as a file.
+- [[node-flow|NodeFlow]]: Render node streams like `ComfyUi`, `UE`, `Houdini`, `Blender`, etc., to make it easy to write relevant notes. json describes the chart, compared to screenshots, making it easier to modify later. The plugin is also compatible with blogs.
+- [[send-note|Send Note]]: Instantly send a note, to other obsidian users so they can import them into their vault. It uses AWS S3 as a storage backend. Data is shared encrypted by default, and only you and the person you send it to have the key.
+- [[project-tasks|Project Tasks]]: Enhances task management for simple projects
+- [[cursor-position-on-title-enter|Cursor Position on Title Enter]]: Set the cursor position after pressing Enter on the note title.
+- [[smart-context|Smart Context]]: Copy folder contents (Markdown & Canvas files) to the clipboard with a Smart Context approach.
+- [[bin-theme-controller|Theme Controller]]: Set when and how the themes will be displayed.
+- [[insert-multiple-attachments|Insert Multiple Attachments]]: Allows to insert multiple attachments at a time
+- [[smart-link-alias|Smart Link Alias]]: Enhance your internal links management with dynamic alias customization. Display short, full, or combined titles for your notes effortlessly.
+- [[replicate|Replicate]]: Replicate.com integration. Use AI models with ease
+- [[click-hint|Click Hint]]: Provide keyboard-driven hints for clickable elements
+- [[ons|BetaX NAS Sync]]: Keep Vault synchronized with the NAS on your home intranet.
+- [[copy-recursive-content|Structured Copy: Files & Folders]]: Easily copy the contents of files and folders in a structured JSON format.
+- [[inbox-organiser|Inbox Organiser]]: Capture any new notes into an inbox and periodically prompt to organise these into other folders within the vault.
+- [[note-atomizer|Atomizer]]: Turn any text into insightful atomic notes.
+- [[jira-issue-managing|Jira Issue managing]]: Update and creating of Jira issues directly
+- [[external-file-embed-and-link|External File Embed and Link]]: Embed and link local files outside your vault with relative paths for cross-device and multi-platform compatibility.
+- [[photopea-editor|Photopea Editor]]: Automatically opens images in Photopea when clicked in your vault.
+- [[easy-timeline|Easy Timeline]]: Simplifies creating and visualizing timelines from text using dates and metadata
+- [[open-editors|Open Editors]]: Adds a view which shows the opened windows, groups, tabs and editors inside them. Makes managing the open editors easier.
+- [[contact-cards|Contact Cards]]: Transforms raw data into a beautifully designed contact card for People and Organizations.
+- [[better-plugins-manager|Better Plugins Manager]]: Plugin Manager: Simplify, Enhance, Personalize | 插件管理器：简化操作、增强功能、个性化设置
+- [[bujo-bullets|BuJo Bullets]]: Alternate checkbox types to support Bullet Journal bullets
+- [[ai-enhanced-anki-sync|AI-AnkiSync]]: Sync AI-enhanced flashcards with Anki via AnkiConnect
+- [[dynamic-outline|Dynamic Outline]]: Adds a customizable GitHub-like floating table of contents.
+- [[syncthing-status-icon|Syncthing status icon]]: Displays a status icon displaying whether the Syncthing server is on or not.
+- [[simple-disguise|Simple Disguise]]: Disguise/obscure/hide the content in a very simple way.
+- [[koreader-highlights-importer|KoReader Highlight Importer]]: Imports KoReader highlights.
+- [[local-any-files|Local Any Files]]: Download all files from links to local attachments.
+- [[publish-to-discourse|Publish to Discourse]]: Publish notes to the Discourse forum.
+- [[moredraw|MoreDraw]]: A infinite canvas whiteboard with ai to draw flowchart, mind map and other diagram.
 
 
 %% Hub footer: Please don't edit anything below this line %%
