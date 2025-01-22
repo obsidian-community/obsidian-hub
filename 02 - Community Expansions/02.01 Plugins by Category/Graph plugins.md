@@ -18,6 +18,7 @@ publish: true
 - [[adjacency-matrix-maker|Adjacency Matrix Maker]]: Create an interactive image of an adjacency matrix of your vault
 - [[breadcrumbs|Breadcrumbs]]: Visualise & navigate your vault's structure
 - [[graph-analysis|Graph Analysis]]: Analyse your Obsidian graph.
+- [[infranodus-graph-view|InfraNodus AI Graph View]]: Visualize the main topics and gaps in your ideas using advanced text network graph algorithm.
 - [[juggl|Juggl]]: Adds a completely interactive, stylable and expandable graph view to Obsidian.
 - [[obsidian-living-graph|Living Graph]]: A for-fun graph plugin
 - [[neo4j-graph-view|Neo4j Graph View]]: An Obsidian plugin for advanced graph visualization and querying using Neo4j.
