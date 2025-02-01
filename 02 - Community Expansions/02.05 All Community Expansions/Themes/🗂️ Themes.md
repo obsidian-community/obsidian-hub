@@ -236,6 +236,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Obuntu|Obuntu]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/OISTNB|OISTNB]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Oldsidian Purple|Oldsidian Purple]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/OLED.Black|OLED.Black]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Olivier’s Theme|Olivier’s Theme]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/OneNice|OneNice]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ono Sendai|Ono Sendai]]
@@ -293,6 +294,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sanguine|Sanguine]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sea Glass|Sea Glass]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Seamless View|Seamless View]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sei|Sei]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Serenity|Serenity]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Serika|Serika]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Shade Sanctuary|Shade Sanctuary]]
@@ -372,6 +374,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yin and Yang|Yin and Yang]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Yue|Yue]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Zario|Zario]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Zen|Zen]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Zenburn|Zenburn]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/🔔 Chime|🔔 Chime]]
 %% Hub MOCs: Don’t edit above  %%

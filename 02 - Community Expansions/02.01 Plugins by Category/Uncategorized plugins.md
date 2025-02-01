@@ -922,7 +922,7 @@ Plugins which have not yet been categorized by the community.
 - [[note-batcher|Note Batcher]]: Create all unresolvered links with a single click on your Obsidian vault
 - [[automatic-tags|Automatic Tags]]: Add tags to new notes automatically based on their path.
 - [[epub-importer|Epub Importer]]: Import EPUB files as Markdown.
-- [[spotify-link|Spotify Link]]: Include the song you're currently listening to in your note.
+- [[spotify-link|Spotify Link]]: Include the song or podcast you're currently listening to in your note.
 - [[barcode-generator|Barcode Generator]]: Generates customizable barcodes into your notes.
 - [[file-index|File Index]]: Create a metadata file about the files present in the Vault
 - [[notes-merger|Notes Merger]]: Merge notes into a single markdown document based on index Markdown file.
@@ -1798,6 +1798,26 @@ Plugins which have not yet been categorized by the community.
 - [[type-chinese-like-english|Type Chinese Like English]]: Convert pinyin to Chinese characters and LaTeX
 - [[external-rename-handler|External Rename Handler]]: Handles renames made outside of the app
 - [[new-file-name|New Filename]]: Change the default filename used for new notes
+- [[note-annotations|Note Annotations]]: Add multi-colored highlights and comments to your notes
+- [[pycalc|pycalc]]: Executing Python code directly within the editor by pressing the Enter key.
+- [[frontmatter-markdown-links|Frontmatter Markdown Links]]: Adds support for markdown links in frontmatter
+- [[clipper-catalog|Clipper Catalog]]: A catalog view of all the clippings gathered with a common source property.
+- [[hanko|Hanko]]: Register and paste any text.
+- [[easy-test|Easy Test]]: Easily create simple tests
+- [[keep-the-rhythm|Keep the Rhythm]]: Visualize daily word count with a heatmap.
+- [[boardgame-search|Boardgame Search]]: Helps board game enthusiasts track their game collection seamlessly within their notes.
+- [[sentinel|Sentinel]]: Trigger actions based on document visibility changes.
+- [[shaahmaat-md|ShaahMaat-md]]: Render chess positions.
+- [[anchor-display-text|Anchor Link Display Text]]: Automatically uses the linked heading as the display text for the anchor links.
+- [[friend-tracker|Friend Tracker]]: Keep track of friends and family birthdays, and set reminders to stay in touch.
+- [[backgroundset|Backgroundset]]: Allow you to set background image set(folder)
+- [[mahgen-renderer|Mahgen Renderer]]: Display mahjong images inline or in block using Mahgen.
+- [[recent-notes|Recent Notes]]: List of recently edited notes with previews by time periods
+- [[cooksync|Cooksync]]: Automatically imports Cooksync data.
+- [[paperless|Paperless]]: Link your paperless-ngx documents within your vault.
+- [[missing-link-file-creator|Missing Link File Creator]]: Creates missing linked files and detects missing wiki links.
+- [[current-file-tags|Current File Tags]]: Display the active Markdown file's tags and associated files.
+- [[goal-tracker|Goal Tracker]]: Track your goals with a calendar view
 
 
 %% Hub footer: Please don't edit anything below this line %%
