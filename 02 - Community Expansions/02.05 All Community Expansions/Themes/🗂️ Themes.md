@@ -324,6 +324,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Strict|Strict]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Subtlegold|Subtlegold]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Suddha|Suddha]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Sunbather|Sunbather]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Synthwave '84|Synthwave '84]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/SynthWave|SynthWave]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Terminal|Terminal]]
