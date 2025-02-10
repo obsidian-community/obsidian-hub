@@ -586,7 +586,7 @@ Plugins which have not yet been categorized by the community.
 - [[image-window|Second Window]]: Allow images & notes to be viewed in new Obsidian windows.
 - [[select-current-line|Select current line]]: Selects the current line where the cursor is placed. Press 'ESC' button to select.
 - [[obsidian-livesync|Self-hosted LiveSync]]: Community implementation of self-hosted livesync. Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.
-- [[bbawj-semantic-search|Semantic Search]]: Semantic search for files using OpenAI's text embeddings
+- [[bbawj-semantic-search|Semantic Search]]: Semantic search for files using text embeddings
 - [[tasks-to-omnifocus|Send Tasks to OmniFocus]]: An Obsidian plugin will extract tasks from the current note and create them in OmniFocus.
 - [[obsidian-sentence-navigator|Sentence Navigator]]: Manipulate sentences as a unit of movement. Select, move and delete by whole sentences.
 - [[obsidian-sequence-hotkeys|Sequence Hotkeys]]: This plugin allows you to set hotkeys with key sequences instead of a single chord.
@@ -1666,7 +1666,7 @@ Plugins which have not yet been categorized by the community.
 - [[daily-random-note|Daily Random Note]]: Automatically open daily random notes based on your preferences.
 - [[type-zen-mode|Typezen]]: Type and get in zen mode instantly, no more distraction between you and your thoughts
 - [[ioc-lens|IOC Lens]]: Extracts and displays security-relevant indicators such as IP addresses, domains, and file hashes to enhance your cyber security note-taking process.
-- [[automatic-renumbering|Automatic List Renumbering]]: Automatically renumber numbered lists as you edit them.
+- [[automatic-renumbering|Automatic List Reordering]]: Automatically reorder checklists and numbered lists as you edit them.
 - [[three-noun-prompts|Three Noun Prompts]]: Use TOPT algorithm to get daily writing prompts!
 - [[hackmd-sync|HackMD Sync]]: An interface to upload notes to and from HackMD
 - [[bottom-to-top|Bottom to Top]]: Reverses direction of text.

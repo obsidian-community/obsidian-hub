@@ -172,6 +172,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/b-yp|b-yp]]
 -  [[01 - Community/People/b0o|b0o]]
 -  [[01 - Community/People/b3h3m0th|b3h3m0th]]
+-  [[01 - Community/People/babidisrc|babidisrc]]
 -  [[01 - Community/People/badrbouslikhin|badrbouslikhin]]
 -  [[01 - Community/People/Balibaloo|Balibaloo]]
 -  [[01 - Community/People/BambusControl|BambusControl]]
