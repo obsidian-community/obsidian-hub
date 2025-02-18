@@ -850,7 +850,7 @@ Plugins which have not yet been categorized by the community.
 - [[gpg-crypt|gpgCrypt]]: Seamlessly encrypts your notes using GPG. Supports smartcards for enhanced security! Keep your information safe and accessible only to you.
 - [[share-note|Share Note]]: Instantly share a note, with the full theme and content exactly like you see in Reading View. Data is shared encrypted by default, and only you and the person you send it to have the key.
 - [[todotxt-codeblocks|TodoTxt Codeblocks]]: Manage your tasks inside codeblocks according to the Todo.txt specification.
-- [[screengarden-obsidian|screen.garden]]: Collaborate, publish, and work across PKM systems with screen.garden.
+- [[screengarden-obsidian|screen.garden]]: Collaborate, share, and edit on the web with screen.garden.
 - [[wrangle-todos|TODO Wrangler]]: Wrangles your TODOs and puts them at the bottom of the file.
 - [[fold-anywhere|Fold Anywhere]]: Set start and end marker, and then fold any text anywhere.
 - [[file-property-enhancer|File Property Enhancer]]: Improve user experience when using file properties like adding icons or custom display view.
@@ -985,7 +985,7 @@ Plugins which have not yet been categorized by the community.
 - [[smart-title|Smart Title]]: Automatically extract tag and alias from the title.
 - [[gamified-pkm|Gamificate your PKM]]: Enhance your Personal Knowledge Management with gamification elements. Boost motivation and achieve growth as you engage with your PKM.
 - [[relax|R.E.L.A.X.]]: Multi-regex management for data linking and batch processing across selection, files and folders. Ideal for academics, data scientists, forensics, reverse-engineerer and knowledge workers. Enables dynamic data organization and can be used to standardize links or as text-search. Streamline note-taking, data analysis, and report generation with intuitive regex pattern application and modification.
-- [[coder|Encoder/Decoder]]: Converts texts into other formats (base64, ROT13, atbash) and vice versa
+- [[coder|Encoder/Decoder]]: Converts texts into other formats (base64, base85, ROT13, atbash) and vice versa
 - [[habit-tracker-21|Habit Tracker 21]]: Your 21-day journey to habit formation, simplified
 - [[math-in-callout|Better Math in Callouts & Blockquotes]]: Add better Live Preview support for math rendering inside callouts & blockquotes.
 - [[dynamic-line-height-cjk|Dynamic Line Height for CJK]]: Dynamically adjust line height for lines & paragraphs containing CJK characters.
@@ -1205,7 +1205,7 @@ Plugins which have not yet been categorized by the community.
 - [[quick-file-name|Quick File Name]]: Generates a note with a random string as its name.
 - [[sticky-heading|Sticky Headings]]: Sticky Headings and Shows the heading level
 - [[ai-zhipu|AI Zhipu]]: Generate text using the ZhipuAI API.
-- [[new-tab-plus|New Tab +]]: Allow to open markdown files, graph and canvas in new tab as the default behavior.
+- [[new-tab-plus|New Tab +]]: Allow to open Markdown files, graphs, canvases, images, audio, video, and PDFs in a new tab by default.
 - [[back-it-up|BackItUp]]: Quickly make a copy or snapshot of a note.
 - [[callout-suggestions|Callout Suggestions]]: Adds a fuzzy searched suggestion modal for callouts.
 - [[ai_llm|AI LLM]]: Integrate local machine learning (OLLAMA) functionality into your notes, enhancing their capabilities
@@ -1431,7 +1431,7 @@ Plugins which have not yet been categorized by the community.
 - [[refresh-preview|Refresh Preview]]: Allows to refresh preview mode without reopening the note
 - [[hash-pasted-image|Hash Pasted Image]]: Auto rename pasted images added to the vault via hash algorithm SHA-512
 - [[yanki|Yanki]]: Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.
-- [[iconic|Iconic]]: Customize your icons and their colors directly from the UI, including tabs, files, bookmarks, tags, properties, and ribbon commands.
+- [[iconic|Iconic]]: Customize your icons and their colors directly from the UI, including tabs, files & folders, bookmarks, tags, properties, and ribbon commands.
 - [[notes-refresher|Notes Refresher]]: Provides AI-generated summaries (GPT) of three notes from your Vault every day.
 - [[docbase-unofficial|DocBase (Unofficial)]]: Pull and push notes to DocBase
 - [[latex-render|Latex Render]]: Render snippets of latex code as SVG files.
@@ -1708,7 +1708,7 @@ Plugins which have not yet been categorized by the community.
 - [[post-webhook|Post Webhook]]: Send notes to Webhook endpoints, for seamless integration with n8n, Make.com, and Zapier.
 - [[simple-quiz|Simple Quiz]]: Creating simple quizzes.
 - [[folder-links|Folder Links]]: Clicking a link to a folder makes it revealed in the navigation.
-- [[auto-file-organizer|Auto File Organizer]]: Automatically organizes files into folders based on their extensions.
+- [[auto-file-organizer|Auto File Organizer]]: Automatically organizes files into folders based on their extensions or tags
 - [[setlist-fm-sync|Setlist.fm Sync]]: Syncs your setlist.fm attended concerts.
 - [[mass-create|Mass Create]]: Create large quantities of notes easily at one time.
 - [[obsifetch|Obsifetch]]: A neofetch-style vault information display
@@ -1818,6 +1818,16 @@ Plugins which have not yet been categorized by the community.
 - [[missing-link-file-creator|Missing Link File Creator]]: Creates missing linked files and detects missing wiki links.
 - [[current-file-tags|Current File Tags]]: Display the active Markdown file's tags and associated files.
 - [[goal-tracker|Goal Tracker]]: Track your goals with a calendar view
+- [[bibdesk-integration|BibDesk Integration]]: Import BibTex citations into your notes and open PDF documents linked in a BibDesk library.
+- [[revisionist|AI Revisionist]]: AI-powered text revision for your notes.
+- [[plugin-update-locker|Plugin Update Locker]]: Prevent specific plugins from being updated.
+- [[kikijiki-habit-tracker|Kikijiki Habit Tracker]]: A simple habit tracker
+- [[dataview-autocompletion|Dataview Autocompletion]]: Adds autocompletion to Dataview metadata fields
+- [[image-preview-on-icon-hover|Image Preview on Icon Hover]]: Adds custom image previews when hovering over various UI icons.
+- [[clone-vault|Clone Vault]]: Clones the current vault by copying settings and folder structure without note contents.
+- [[hephaistos-importer|Hephaistos Importer]]: Imports main stats from the Starfinder RPG character website Hephaistos.
+- [[whatsapp-backup|WhatsApp backup importer]]: Import WhatsApp export inside a note
+- [[context-command-hider|Context Command Hider]]: Hide any command from the right-click menu.
 
 
 %% Hub footer: Please don't edit anything below this line %%
