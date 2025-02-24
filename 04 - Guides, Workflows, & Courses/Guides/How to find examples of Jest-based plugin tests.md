@@ -61,7 +61,6 @@ As of 2023-11-21.
 - ganesshkumar/[obsidian-table-editor](https://github.com/ganesshkumar/obsidian-table-editor)
 - Gorkycreator/[obsidian-quick-tagger](https://github.com/Gorkycreator/obsidian-quick-tagger)
 - greater-than/[Obsidian-Tracker-Plus](https://github.com/greater-than/Obsidian-Tracker-Plus)
-- greater-than/[Obsidian-Tracker-Plus](https://github.com/greater-than/Obsidian-Tracker-Plus)
 - gtg922r/[obsidian-numerals](https://github.com/gtg922r/obsidian-numerals)
 - hadynz/[obsidian-kindle-plugin](https://github.com/hadynz/obsidian-kindle-plugin)
 - ivan-lednev/[obsidian-day-planner](https://github.com/ivan-lednev/obsidian-day-planner)
