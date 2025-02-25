@@ -72,7 +72,6 @@ Plugins which have not yet been categorized by the community.
 - [[automatic-list-styles|Automatic List Styles]]: Automatically formats the styles of ordered lists, incrementing the list style for each layer
 - [[obsidian-autoscroll|Autoscroll]]: Automatically scroll content with the provided speed
 - [[avatar|Avatar]]: Display an avatar image in your notes.
-- [[awesome-brain-manager|Awesome Brain Manager]]: A toolkit tries to solve all the trivial problems most people usually encountered in obsidian.
 - [[obsidian-awesome-flashcard|Awesome Flashcard]]: Handy Anki integration for Obsidian.
 - [[awesome-image|Awesome Image]]: One-stop solution for image management.
 - [[awesome-reader|Awesome Reader]]: Make Obsidian a proper Reader.
@@ -121,7 +120,7 @@ Plugins which have not yet been categorized by the community.
 - [[character-insertion|Character Insertion]]: Plugin to insert a specified symbol under the cursor
 - [[chat-stream|Chat Stream]]: Create branching GPT chats using canvas notes.
 - [[obsidian-chat-view|Chat View]]: Chat View enables you to create elegant Chat UIs in your Obsidian markdown files. It also supports the WebVTT format.
-- [[chatgpt-md|ChatGPT MD]]: A (nearly) seamless integration of ChatGPT into Obsidian.
+- [[chatgpt-md|ChatGPT MD]]: A seamless integration of openAIs GPT LLMs and Ollama into Obsidian.
 - [[obsidian-checkbox3states-plugin|Checkbox 3 states]]: This is a simple plugin for add a third state to checkbox list.
 - [[obsidian-checklist-reset|Checklist Reset]]: Adds a command to reset the state of any checklists in a document in Obsidian.
 - [[chem|Chem]]: Providing chemistry supports. Rendering SMILES strings into chemistry structures.
@@ -528,7 +527,7 @@ Plugins which have not yet been categorized by the community.
 - [[pubscale|PubScale]]: Seamlessly sync markdown notes into PlanetScale tables.
 - [[copy-publish-url|Publish and GitHub URL]]: Copy or open the URL of the corresponding note on your Publish site. You can also open its Git commit history on GitHub.
 - [[python-scripter|Python Scripter]]: Run Python scripts directly as Obsidian commands.
-- [[quail|Quail]]: Save, publish, delivery notes via Quaily.com as newsletters and blogs.
+- [[quail|Quaily]]: Save, publish, delivery notes via Quaily.com as newsletters and blogs.
 - [[qatt|Query all the things]]: Execute SQL base queries against your data in Obsidian and render it how you want using templates.
 - [[quick-links|Quick Links]]: Create quick link shortcuts to Wikipedia and other sites
 - [[quicknote|Quick note]]: Create a quick note in a floating window (on command or by right-clicking the Obsidian app icon)
@@ -950,7 +949,6 @@ Plugins which have not yet been categorized by the community.
 - [[feeds|Feeds]]: Create feeds of topic-specific bullet points in Obsidian.
 - [[spotify-links|Song Links]]: Insert a link to the song currently playing on your Spotify
 - [[hunchly|Hunchly]]: This plugin converts Hunchly's notes and captioned images into obsidian notes. Also adds selectors from hunchly as obsidian tags.
-- [[tckr|tckr]]: Get your TickTicks!
 - [[periodic-table|Periodic Table]]: View a periodic table in the sidebar
 - [[helpmate|HelpMate]]: Integrating help systems into the Obsidian UI.
 - [[paste-link|Paste Link]]: Intelligently paste Markdown links.
@@ -1116,7 +1114,7 @@ Plugins which have not yet been categorized by the community.
 - [[goban-sgf|Goban SGF]]: Obsidian plugin for recording Go games (SGF format goban).
 - [[display-relative-path-img|Display Relative Path Img]]: Display the image of the <img> tag
 - [[metadata-icon|Metadata Icon]]: Change metadata entry icon
-- [[fileorganizer2000|AI File Organizer 2000]]: An AI assistant to organize and chat with your vault
+- [[fileorganizer2000|Note Companion (prev. File Organizer 2000)]]: An AI assistant to organize and chat with your vault
 - [[spotify-api|Spotify API]]: Exposes Spotify API
 - [[pf2e-statblocks|PF2e Statblocks]]: Renders Pathfinder 2e statblocks cleanly, using only Markdown-based syntax.
 - [[canvas-link-optimizer|Canvas Link Optimizer]]: Optimize canvas links by displaying a page thumbnail.
@@ -1299,7 +1297,7 @@ Plugins which have not yet been categorized by the community.
 - [[canvasblocks|Canvas Blocks]]: Execute scripts from canvas
 - [[timekeep|Timekeep]]: Time tracking
 - [[select-word|Select word]]: Selects the word that is closest to the caret.
-- [[note-chain|Note Chain]]: Thoughts as river, notes as chain. Add prev and next notes to a notes, and order files by the chain in File Explorer.
+- [[note-chain|Note Chain]]: File sorting and hierarchical indentation display in the File Explorer. Provides efficient tools such as word count, text area, buttons, and note graph..
 - [[folder-periodic-notes|Folder Periodic Notes]]: Periodic notes in a year, month, and day folder hierarchy.
 - [[s3agle|S3agle]]: Use S3 providers and/or Eagle to manage vault attachments locally and remotely.
 - [[markwhen|Markwhen]]: Create timelines, gantt charts, calendars, and more using markwhen.
@@ -1376,7 +1374,7 @@ Plugins which have not yet been categorized by the community.
 - [[toggle-dark-mode|Toggle Dark Mode]]: Adds a command to toggle dark mode on and off
 - [[plugins-annotations|Plugins Annotations]]: Allows adding personal comments to each installed plugin.
 - [[close-window-when-empty|Close Window When Empty]]: Close the window when the last note is closed, kind of how browsers work.
-- [[tars|Tars]]: Text generation based on tag suggestions, using Claude, OpenAI, Gemini, Ollama, Kimi, Doubao, Qwen, Zhipu, DeepSeek, QianFan & more.
+- [[tars|Tars]]: Text generation based on tag suggestions, using DeepSeek, Claude, OpenAI, Gemini, Ollama, Kimi, Doubao, Qwen, Zhipu, QianFan & more.
 - [[toggle-readable-line-length|Toggle Readable line length]]: Add command to toggle Readable line length editor setting.
 - [[definition-list|Definition List]]: Adds definition lists to the markdown parser.
 - [[line-arrange|Line Arrange]]: Shuffle, reverse, or sort lines, using either visual width or lexical order.
@@ -1828,6 +1826,44 @@ Plugins which have not yet been categorized by the community.
 - [[hephaistos-importer|Hephaistos Importer]]: Imports main stats from the Starfinder RPG character website Hephaistos.
 - [[whatsapp-backup|WhatsApp backup importer]]: Import WhatsApp export inside a note
 - [[context-command-hider|Context Command Hider]]: Hide any command from the right-click menu.
+- [[net-clip|NetClip]]: Clip, save, search, and browse web pages within your vault
+- [[plugin-repl|Plugin REPL]]: Provide an emacs-like read evaluate print loop to prototype plugins and do easy scripting
+- [[yt-video-summarizer|YouTube Video Summarizer]]: Summarize YouTube videos using Gemini AI. Extract transcripts, generate summaries, and create structured notes.
+- [[whatsapp-export-note|WhatsApp export note]]: Convert the current note for WhatsApp format to share.
+- [[inlineai|InlineAI]]: AI-powered suggestions, contextual edits, and advanced text transformations directly into your editor.
+- [[tag-tactician|Tag Tactician]]: Better tag management: Bulk actions
+- [[spacekeys|Spacekeys]]: Define hotkeys based on sequences of keypresses.
+- [[data-files-editor|Data Files Editor]]: Plugin to edit data files like txt, xml, json
+- [[new-note-fixer|New Note Fixer]]: Unifies the way non-existing notes are created when clicking on their links.
+- [[media-companion|Media Companion]]: Creates a searchable gallery and sidecar files for attachments such as images and videos. The sidecar files allow you to add notes and tags to your media files.
+- [[explorer-colors|Explorer Colors]]: Set custom colors for files and folders.
+- [[readeck-importer|Readeck Importer]]: Import bookmarks from Readeck.
+- [[pixel-perfect-image|Pixel Perfect Image]]: Pixel perfect 100% image resizing, copy to clipboard, show image in Finder/Explorer, edit image in external editor, and much more.
+- [[mcp-tools|MCP Tools]]: Securely connect Claude Desktop to your vault with semantic search, templates, and file management capabilities.
+- [[ai-providers|AI Providers]]: A hub for setting AI providers (OpenAI-like, Ollama and more) in one place.
+- [[folder-overview|Folder overview]]: Provides a dynamic overview of your vault or folders in the format of a code block.
+- [[whisperer|WHISPERER.md]]: Play ambience in your vault, assign audio to files through metadata with support of local (from vault) and URLs (Youtube, Soundcloud) versions of audio: works on mobile vaults.
+- [[enhanced-canvas|Enhanced Canvas]]: When creating links on Canvas, automatically add properties and Markdown links to notes. A command automatically creates canvas links based on Markdown links, and it adjusts all links to use the shortest path.
+- [[varinote|Varinote]]: Add variables in templates and set their values on-the-fly during the note creation.
+- [[vector-search|Vector Search]]: Semantic search for your notes using Ollama and nomic-embed-text embeddings. Requires Ollama installation.
+- [[feedly-annotations|Feedly Annotations Sync]]: Syncs Feedly highlights and annotations to a folder in your vault.
+- [[duplicate-detector|Duplicate Detector]]: Highlights duplicate lines in the open note.
+- [[callout-copy-buttons|Callout Copy Buttons]]: Adds copy buttons to callout blocks in your notes.
+- [[lancaster-university-week|Lancaster University Week Format]]: (2024-2025 Academic Year) Extends moment.js to provide a custom 'Lancaster University Week' value or 'VACATION' if not in term. Use 'LUW' in the Daily Note format to use!
+- [[sankey|Sankey]]: Create Sankey diagrams in your notes.
+- [[pathlinker|External File Linker]]: Embed external files into your notes.
+- [[mastodon-threading|Mastodon Threading]]: Compose and post threads to Mastodon.
+- [[memodack|Memodack]]: Memorizing words or phrases
+- [[ai-hub|AI integration Hub]]: Integrate with AI models (currently Google's Gemini only) to quickly generate and refine notes.
+- [[hanzi-writer|Hanzi Writer]]: Interactive Chinese character writing blocks using Hanzi Writer
+- [[glasp|Glasp]]: Import your Glasp highlights and notes into your vault.
+- [[confluence-converter|Confluence Converter]]: Convert markdown to Confluence wiki markup.
+- [[cao|CAO]]: Integrate Claude AI for chatting in notes.
+- [[minote-sync|Minote Sync]]: Sync Minote(小米笔记) into your vault.
+- [[age-encrypt|Age Encrypt]]: Secure content encryption using age encryption library
+- [[fold-properties-by-default|Fold Properties By Default]]: Always have editor/metadata properties folded by default.
+- [[combo-colors|Combo Colors]]: Automatically apply color to fighting game combo notations.
+- [[autofit-tabs|Autofit Tabs]]: Automatically adjusts tab header widths in real-time to perfectly fit each tab's title content while maintaining a clean, seamless interface that prevents awkward text truncation and ensures optimal readability of your document titles.
 
 
 %% Hub footer: Please don't edit anything below this line %%
