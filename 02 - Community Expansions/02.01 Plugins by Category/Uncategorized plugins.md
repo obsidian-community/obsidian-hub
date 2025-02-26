@@ -230,7 +230,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-etherpad-plugin|Etherpad]]: Etherpad Integration
 - [[excalibrain|ExcaliBrain]]: A clean, intuitive and editable graph view for Obsidian
 - [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]: An Obsidian plugin to paste data from Microsoft Excel, Google Sheets, Apple Numbers and LibreOffice Calc as Markdown tables in Obsidian editor.
-- [[execute-code|Execute Code]]: Allows to execute code snippets within a note. Supported programming languages:  C, CPP, Dart, Golang, Groovy, Kotlin, Java, JavaScript, TypeScript, Lean, Lua, CSharp, Prolog, Rust, Python, R, Ruby, Wolfram Mathematica, Haskell, Scala, Racket, F#, Batch, Shell & Powershell.
+- [[execute-code|Execute Code]]: Allows you to execute code snippets within a note. Support C, C++, Python, R, JavaScript, TypeScript, LaTeX, SQL, and many more.
 - [[obsidian-expand-bullet|Expand Bullet]]: A plugin for transforming bullet content into note.
 - [[obsidian-export-image|Export Image plugin]]: Easily convert your article to image.
 - [[obsidian-extlnkhelper-plugin|External Link Helper]]: This is a plugin for making entering external links easier.
@@ -437,7 +437,7 @@ Plugins which have not yet been categorized by the community.
 - [[mysnippets-plugin|MySnippets]]: MySnippets is a plugin that adds a status bar menu allowing the user to quickly toggle their snippets on and off 🖌.
 - [[nl-syntax-highlighting|Natural Language Syntax Highlighting]]: Highlight adjectives, nouns, adverbs, verbs, and conjunctions in the editor
 - [[heycalmdown-navigate-cursor-history|Navigate Cursor History]]: This plugin remembers the recent 50 cursor positions history and allows you to jump to them back and forth like VSCode
-- [[obsidian-new-bullet-with-time|New Bullet With Time]]: A plugin allows you to auto add current time to new bullet line.
+- [[obsidian-new-bullet-with-time|New Bullet With Time]]: Allows you to auto add current time to new bullet line.
 - [[obsidian-new-note-new-window|New Note New Window]]: Plugin for easily opening new notes in a floating window.
 - [[ninja-cursor|Ninja Cursor]]: The plugin which enhance cursor visibility.
 - [[no-empty-windows|No Empty Windows]]: Closes Obsidian window with cmd+W on Mac when the last tab is closed.
@@ -526,7 +526,6 @@ Plugins which have not yet been categorized by the community.
 - [[pseudocode-in-obs|Pseudocode]]: This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.
 - [[pubscale|PubScale]]: Seamlessly sync markdown notes into PlanetScale tables.
 - [[copy-publish-url|Publish and GitHub URL]]: Copy or open the URL of the corresponding note on your Publish site. You can also open its Git commit history on GitHub.
-- [[python-scripter|Python Scripter]]: Run Python scripts directly as Obsidian commands.
 - [[quail|Quaily]]: Save, publish, delivery notes via Quaily.com as newsletters and blogs.
 - [[qatt|Query all the things]]: Execute SQL base queries against your data in Obsidian and render it how you want using templates.
 - [[quick-links|Quick Links]]: Create quick link shortcuts to Wikipedia and other sites
@@ -710,7 +709,6 @@ Plugins which have not yet been categorized by the community.
 - [[voice|Voice]]: Let your notes talk and speak to you and enhance your Obsidian experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.
 - [[waka_time_box|Waka time box]]: Show daily coding activity from WakaTime
 - [[obsidian-wakatime|WakaTime]]: Automatic time tracking and metrics generated from your Obsidian usage activity.
-- [[wallabag|Wallabag]]: Sync your Wallabag articles.
 - [[waypoint|Waypoint]]: Easily generate dynamic content maps in your folder notes using waypoints. Enables folders to show up in the graph view and removes the need for messy tags!
 - [[weather-fetcher|Weather Fetcher]]: Fetch and insert current weather into the editor of Obsidian.
 - [[webpage-html-export|Webpage HTML Export]]: Export html from single files, canvas pages, or whole vaults. Direct access to the exported HTML files allows you to publish your digital garden anywhere. Focuses on flexibility, features, and style parity.
@@ -1467,7 +1465,7 @@ Plugins which have not yet been categorized by the community.
 - [[note-linker-with-previewer|Note Linker with Previewer]]: Link your notes together
 - [[paste-as-embed|Paste as Embed]]: Paste text into a separate note, and embed the note.
 - [[better-recall|Better Recall]]: Add anki-like spaced repetition and recall to your vault.
-- [[images-to-gist|Images to Gist]]: Upload images to your GitHub secret Gists. Also, resize uploaded images on the fly.
+- [[images-to-gist|Images to Gist]]: Upload images to your GitHub secret Gists.
 - [[heading-toggler|Heading Toggler]]: Easily toggle heading levels in Markdown documents with shortcuts.
 - [[rollover-weekly-todo|Rollover Weekly Todo]]: Rollover todo items from the previous weekly note.
 - [[youtube-downloader|YouTube downloader]]: Download video from YouTube
@@ -1811,7 +1809,7 @@ Plugins which have not yet been categorized by the community.
 - [[backgroundset|Backgroundset]]: Allow you to set background image set(folder)
 - [[mahgen-renderer|Mahgen Renderer]]: Display mahjong images inline or in block using Mahgen.
 - [[recent-notes|Recent Notes]]: List of recently edited notes with previews by time periods
-- [[cooksync|Cooksync]]: Automatically imports Cooksync data.
+- [[cooksync|Cooksync]]: Automatically imports recipes collected using Cooksync
 - [[paperless|Paperless]]: Link your paperless-ngx documents within your vault.
 - [[missing-link-file-creator|Missing Link File Creator]]: Creates missing linked files and detects missing wiki links.
 - [[current-file-tags|Current File Tags]]: Display the active Markdown file's tags and associated files.
@@ -1864,6 +1862,44 @@ Plugins which have not yet been categorized by the community.
 - [[fold-properties-by-default|Fold Properties By Default]]: Always have editor/metadata properties folded by default.
 - [[combo-colors|Combo Colors]]: Automatically apply color to fighting game combo notations.
 - [[autofit-tabs|Autofit Tabs]]: Automatically adjusts tab header widths in real-time to perfectly fit each tab's title content while maintaining a clean, seamless interface that prevents awkward text truncation and ensures optimal readability of your document titles.
+- [[organized-daily-notes|Organized daily notes]]: Automatically organizes your daily notes into customizable folder structures (Year/Month/Week) for enhanced organization and easier navigation
+- [[hotstrings|Hotstrings]]: Set custom hotstrings that get expanded to text once typed.
+- [[inline-checkbox-groups|Inline Checkbox Groups]]: Create multiple checkboxes on a single line, separated by a customizable separator character (default '|'), with the option to automatically cross out text when all checkboxes in the line are checked.
+- [[runsh|Runsh]]: Create buttons that run shell commands from your notes.
+- [[papyrus|Papyrus]]: An AI powered documentation assistant
+- [[nerdfont-icon-picker|NerdFont Icon Picker]]: Search and insert nerdfont icons.
+- [[e-upload|EUpload]]: Support uploading files to different platforms.
+- [[every-day-calendar|Every Day Calendar]]: Create calendars inspired by Simone Giertz's Every Day Calendar
+- [[inkporter|Inkporter]]: digitize handwritten notes with intelligent ink isolation, adaptive theming, and automated workflows.
+- [[media-link-to-html|Media Link to HTML]]: Converts media links to HTML elements.
+- [[emoji-picker|Emoji Picker]]: An Emoji Picker that allows you to insert the latest released emojis in your notes.
+- [[task-board|Task Board]]: Manage all your tasks throghout your vault from a single board and much more...
+- [[pseudo-mica|Pseudo Mica]]: Mica-like background effect for Windows.
+- [[attachments-md-indexer|Attachments MD Indexer]]: Creates metadata notes for canvas files, enhancing graph view visibility and plugin compatibility
+- [[sqlseal-charts|SQLSeal Charts]]: Charts extension for SQLSeal plugin. Generate pie charts, bar charts, line charts and more using data stored in your vault!
+- [[hello-nemesis|hello nemesis]]: Uses OpenAI to challenge your ideas.
+- [[forms|Forms]]: Publish beautiful forms and get responses straight to your vault.
+- [[note-id|Note ID]]: Displays notes by their ID, enabling structured sequences for manuscripts or Zettelkasten ("Folgezettel").
+- [[automatic-linker|Automatic Linker]]: Automatically converts plain text file references into wiki links (i.e. `[[...]]`)
+- [[on-this-day|On This Day]]: Show your daily notes from this day in a simple panel view.
+- [[flowcharts|Flowcharts]]: Render flowcharts using flowchart.js syntax.
+- [[idle-monitor|Idle Monitor]]: Get notified when you stop typing to stay motivated.
+- [[timecodes|Timecodes]]: Converts raw text timecodes into clickable URLs if a note contains a link to a video
+- [[thecap-cv-generator|Thecap cv generator]]: Generate PDF curriculum from your notes.
+- [[last-position|Last Position]]: Automatically scroll to the last viewed position when opening the Markdown document.
+- [[html-checkboxes|HTML checkboxes]]: Allows to quickly add HTML checkboxes to your notes and makes them clickable.
+- [[checkbox-sync|Checkbox Sync]]: Automatically checks the parent checkbox if all child checkboxes are completed, and unchecks it otherwise.
+- [[extended-file-support|Extended File Support]]: Adds file support for various file types. Allows viewing and embedding these filetypes. Includes: .kra, .psd, .obj, .glb, .gltf, and more.
+- [[pdf-writer|PDF Writer]]: To write and fill a PDF.
+- [[pdf-paste|PDF Paste]]: Improve copy-paste from PDFs by cleaning newlines.
+- [[vault-file-renamer|Vault File Renamer]]: This plugin standardizes the names of files in your vault by converting them to lowercase, replacing spaces with underscores, and removing accents and unwanted characters.
+- [[hide-commands-in-menu|Hide Commands in Menu]]: Allows you to hide any command to different menu.
+- [[folder-file-splitter|FolderFile Splitter]]: Splits folder and file lists into separate views, simplifying navigation, improving clarity, and making it more intuitive to organize your notes.
+- [[daily-routine|Daily Routine]]: Manage your daily tasks as 'Routine' and organize your everyday life more effectively.
+- [[llm-tagger|LLM Tagger]]: Automatically tag your notes using local LLMs via Ollama
+- [[paste-quote|Paste Quote]]: Helps with formatting and generating citations when pasting quotes from the clipboard.
+- [[yourpulse|YourPulse - Your Writing Activity Visualised]]: It's like your Github profile, but for your vault (featuring daily streak, average daily word count, comprehensive stats and plugins overview).
+- [[image-size|Image Size]]: Set the default size for pasted images.
 
 
 %% Hub footer: Please don't edit anything below this line %%
