@@ -17,6 +17,7 @@ These plugins were once published, but have have since been withdrawn, or are no
 
 - [[obsidian-advanced-appearance|Advanced Appearance]]: Change colors, fonts and other cosmetic settings.
 - [[obsidian-extra-md-commands|Extra Markdown Commands]] (use [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]] instead.)
+- [[improved-vimcursor|Improved VimCursor]]: An improved experience with the cursor in Obsidian
 - [[linked-data-helper|Linked Data Helper]]: Parse Linked data for Linked Data Vocabularies.
 - [[linked-data-vocabularies|Linked Data Vocabularies]]: Add linked data to the YAML of your notes.
 - [[pdf-to-markdown-plugin|PDF to Markdown]]: Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.
