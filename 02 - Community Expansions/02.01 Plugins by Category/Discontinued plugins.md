@@ -15,6 +15,7 @@ These plugins were once published, but have have since been withdrawn, or are no
 
 %% Add a bullet here and link to the plugins you'd like to categorize - and sort them alphabetically! %%
 
+- [[improved-vimcursor|Improved VimCursor]]: An improved experience with the cursor in Obsidian
 - [[obsidian-advanced-appearance|Advanced Appearance]]: Change colors, fonts and other cosmetic settings.
 - [[obsidian-extra-md-commands|Extra Markdown Commands]] (use [[obsidian-smarter-md-hotkeys|Smarter Markdown Hotkeys]] instead.)
 - [[linked-data-helper|Linked Data Helper]]: Parse Linked data for Linked Data Vocabularies.
