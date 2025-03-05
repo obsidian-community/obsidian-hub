@@ -112,7 +112,7 @@ Plugins which have not yet been categorized by the community.
 - [[canvas-css-class|Canvas CSS class]]: Add a CSS class to the canvas, but also other attributes.
 - [[obsidian-canvas-conversation|Canvas Conversation]]: Canvas Conversation is a plugin that allows you to create a ChatGPT conversation using Canvas Cards.
 - [[canvas-filter|Canvas Filter]]: This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.
-- [[canvas-links|Canvas Links]]: Show the links between "Canvas" and "File".
+- [[canvas-links|Canvas Links]]: Show the "links" between Canvas and File.
 - [[canvas-mindmap|Canvas Mindmap]]: A plugin to make your canvas work like a mindmap.
 - [[canvas-presentation|Canvas Presentation]]: A plugin to help you display cards based on sequence.
 - [[canvas-randomnote|Canvas Random Note]]: Add random notes from your vault to the Obsidian canvas
@@ -1273,7 +1273,7 @@ Plugins which have not yet been categorized by the community.
 - [[image-search|Image Search]]: Search and insert images using Google API
 - [[lava-vtt-uploader|Lava VTT Uploader]]: Display images from your vault in Lava VTT.
 - [[outline-task-list|Outline to task list]]: Convert a note's outline to a task list.
-- [[systemsculpt-ai|SystemSculpt AI]]: Enhance your data flow with AI-powered tools for note-taking, task management, templates, and so much more.
+- [[systemsculpt-ai|SystemSculpt AI]]: A powerful AI assistant that helps you sculpt your knowledge base with artificial intelligence through intelligent chat, document analysis, and seamless integrations.
 - [[generate-hash|Generate Hash]]: Generates a cryptographically strong pseudorandom hash.
 - [[simple-citations|Simple Citations]]: Add & update simple literature notes from Zotero.
 - [[custom-new-file-name|Custom new file name]]: Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.
@@ -1747,7 +1747,7 @@ Plugins which have not yet been categorized by the community.
 - [[latex-exporter|Latex Exporter]]: Write a LaTeX paper.
 - [[ampliflow-page|AmpliFlow Page Publisher]]: Publish notes easily to AmpliFlow (https://www.ampliflow.se)
 - [[kale-graph|Kale Graph]]: Render mathematical graphs.
-- [[scribe|Scribe]]: Record voice notes, Fill in lost thoughts, Transcribe the audio, Summarize & Visualize the text - All in one clip
+- [[scribe|Scribe]]: Record, transcribe, and transform voice notes into structured insights. Leverage Whisper or AssemblyAI and ChatGPT to fill in gaps, generate summaries, and visualize ideas — all seamlessly integrated within Obsidian.
 - [[custom-image-auto-uploader|Custom Image Auto Uploader]]: You can upload and save images from your notes to your remote server, home NAS, or sync them to your cloud storage (Alibaba Cloud OSS, Amazon S3, Cloudflare R2).
 - [[wonderbox|WonderBox]]: Create more relevant text sections your tips, top notes, warnings and more.
 - [[kkh|kkh]]: Replace words in a string using kkh dictionary.
@@ -1900,6 +1900,25 @@ Plugins which have not yet been categorized by the community.
 - [[paste-quote|Paste Quote]]: Helps with formatting and generating citations when pasting quotes from the clipboard.
 - [[yourpulse|YourPulse - Your Writing Activity Visualised]]: It's like your Github profile, but for your vault (featuring daily streak, average daily word count, comprehensive stats and plugins overview).
 - [[image-size|Image Size]]: Set the default size for pasted images.
+- [[rsync|Rsync]]: Sync files across devices using rsync tool.
+- [[extended-markdown-syntax|Extended Markdown Syntax]]: Extend your Markdown syntax using delimiters instead of HTML tags, such as underlining, superscript, subscript, highlighting.
+- [[paste-image-into-property|Paste Image Into Property]]: Paste images from the clipboard into frontmatter properties in live preview.
+- [[my-thesaurus|My Thesaurus]]: Automagically adds tags based on a simple csv file or a Markdown table.
+- [[mediaviewer|Media Viewer]]: View and manage media files within your notes.
+- [[gridexplorer|GridExplorer]]: Browse note files in a grid view.
+- [[infio-copilot|Infio Copilot]]: A Cursor-inspired AI assistant for notes that offers smart autocomplete and interactive chat with your selected notes
+- [[task-mover|Task Mover]]: Move unfinished tasks to the daily note automatically
+- [[title-as-link-text|Title As Link Text]]: Automatically updates link text to use note titles instead of filenames.
+- [[cursor-position-history|Cursor Position History]]: Remember the previous positions of the cursor across files: auto-scroll to the correct position in a new file. Navigate backward and forward through your cursor position history without losing context.
+- [[vision-recall|Vision Recall]]: Transform screenshots into searchable notes using AI vision and text analysis.
+- [[asana|Asana]]: Create Asana tasks from highlighted text or the current line in Obsidian.
+- [[vault-sync|VaultSync]]: Sync vault with cloud storage provider.
+- [[content-cards|Content Cards]]: Insert content cards in Markdown, such as timeline, highlightblock, target card, book information card, music information card, movie information card, photoes ablum, business card, content subfield, countdown, etc.
+- [[manual-sorting|Manual Sorting]]: Drag'n'Drop file sorting.
+- [[ascii-tree-generator|ASCII Tree Generator]]: Convert indented code blocks with hierarchy markers into formatted ASCII tree diagrams.
+- [[koi-sync|KOI Sync]]: Synchronizes data from a Slack Telescope instance using the KOI-net protocol.
+- [[ai-tagger-universe|AI Tagger Universe]]: Automatically analyze note content and add relevant tags using AI
+- [[chat-clips|Chat clips]]: Record chat in ordinary markdown list.
 
 
 %% Hub footer: Please don't edit anything below this line %%
