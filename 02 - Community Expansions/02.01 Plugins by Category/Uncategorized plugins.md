@@ -641,8 +641,8 @@ Plugins which have not yet been categorized by the community.
 - [[tag-summary-plugin|Tag Summary]]: This plugin creates summaries with paragraphs or blocks of text that share the same tag(s).
 - [[tag-many|TagMany]]: Add the same tag(s) to multiple notes in a folder (optionally including subfolders) at once.
 - [[obsidian-plugin-tagged-documents-viewer|Tagged Documents Viewer]]: Opens a modal with scrollable content of all documents that contain a specific tag or tags.
+- [[obsidian-task-progress-bar|Task Genius]]: Comprehensive task management that includes progress bars, task status cycling, and advanced task tracking features.
 - [[obsidian-task-marker|Task Marker]]: Change task statuses with hotkeys and context menu. Complete, cancel and mark tasks, as well as cycle among selected task statuses.
-- [[obsidian-task-progress-bar|Task Progress Bar]]: A task progress bar plugin for tasks in Obsidian.
 - [[tasks-calendar-wrapper|Tasks Calendar Wrapper]]: This is a simple wrapper for Obsidian-Tasks-Calendar (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).
 - [[telegram-sync|Telegram Sync]]: Transfer messages and files from Telegram to Obsidian.
 - [[obsidian-telegraph-publish|Telegraph Publish]]: 
@@ -1501,7 +1501,7 @@ Plugins which have not yet been categorized by the community.
 - [[lds-library-reference|LDS Library Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latter-day Saints
 - [[css-inlay-colors|CSS Inlay Colors]]: Show inline color hints for CSS colors
 - [[gtp-preview|GTP Preview]]: Supports rendering of GuitarPro files such as `gtp/gp/gp5/gpx`.
-- [[structured-tree|Structured Tree]]: A file explorer similar to Dendron for navigating hierarchical notes separated by '.'
+- [[structured-tree|Structured Tree]]: Explore, manage and navigate hierarchical notes
 - [[current-file|Current File]]: Allows external applications to know what file the desktop app is currently viewing.
 - [[arcane-obfuscate|Arcane Obfuscate]]: Obfuscate text with an arcane runic effect.
 - [[todoistprojectsync|Todoist Project sync]]: synchronizes projects from Todoist, creating a note for each.
@@ -1829,7 +1829,7 @@ Plugins which have not yet been categorized by the community.
 - [[yt-video-summarizer|YouTube Video Summarizer]]: Summarize YouTube videos using Gemini AI. Extract transcripts, generate summaries, and create structured notes.
 - [[whatsapp-export-note|WhatsApp export note]]: Convert the current note for WhatsApp format to share.
 - [[inlineai|InlineAI]]: AI-powered suggestions, contextual edits, and advanced text transformations directly into your editor.
-- [[tag-tactician|Tag Tactician]]: Better tag management: Bulk actions
+- [[tag-tactician|Tag Tactician]]: Better tag management: Bulk operations, navigation by tags, and find related notes through tag similarity
 - [[spacekeys|Spacekeys]]: Define hotkeys based on sequences of keypresses.
 - [[data-files-editor|Data Files Editor]]: Plugin to edit data files like txt, xml, json
 - [[new-note-fixer|New Note Fixer]]: Unifies the way non-existing notes are created when clicking on their links.
@@ -1875,7 +1875,7 @@ Plugins which have not yet been categorized by the community.
 - [[emoji-picker|Emoji Picker]]: An Emoji Picker that allows you to insert the latest released emojis in your notes.
 - [[task-board|Task Board]]: Manage all your tasks throghout your vault from a single board and much more...
 - [[pseudo-mica|Pseudo Mica]]: Mica-like background effect for Windows.
-- [[attachments-md-indexer|Attachments MD Indexer]]: Creates metadata notes for canvas files, enhancing graph view visibility and plugin compatibility
+- [[attachments-md-indexer|Attachments MD Indexer]]: Creates searchable metadata notes for Canvas files, PDFs, and images, enhancing graph view visibility and plugin compatibility
 - [[sqlseal-charts|SQLSeal Charts]]: Charts extension for SQLSeal plugin. Generate pie charts, bar charts, line charts and more using data stored in your vault!
 - [[hello-nemesis|hello nemesis]]: Uses OpenAI to challenge your ideas.
 - [[forms|Forms]]: Publish beautiful forms and get responses straight to your vault.
@@ -1919,6 +1919,14 @@ Plugins which have not yet been categorized by the community.
 - [[koi-sync|KOI Sync]]: Synchronizes data from a Slack Telescope instance using the KOI-net protocol.
 - [[ai-tagger-universe|AI Tagger Universe]]: Automatically analyze note content and add relevant tags using AI
 - [[chat-clips|Chat clips]]: Record chat in ordinary markdown list.
+- [[memos-ai-sync|Memos AI Sync]]: Sync Memos content with AI enhancement
+- [[ai-blog-generator|Blog AI Generator]]: Generate blog posts from your notes using OpenAI API
+- [[spaced-repetition-ai|Spaced Repetition AI]]: Review, generate, and add flashcards for your notes using AI
+- [[tier-list|Tier List]]: Visual ranking and organizing content into customizable tier lists.
+- [[write-good|Write Good]]: Linter for English prose and improving writing style
+- [[scroll-with-jk|Reading View j/k Scroll]]: Scroll in reading view with j/k keys. Scroll to top with gg and to bottom with G.
+- [[export-graph-view|Export Graph View]]: Export your vault's graph view to mermaid and dot format.
+- [[harn-weather|Hârn Weather Generator]]: Unofficial Hârn weather generator. Generates the campaign weather for different time spans. The weather includes precipitation, temperature, wind direction and speed, moon phases and critical conditions for the whole of Western Venârivè.
 
 
 %% Hub footer: Please don't edit anything below this line %%
