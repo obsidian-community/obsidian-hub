@@ -1397,7 +1397,7 @@ Plugins which have not yet been categorized by the community.
 - [[rpg-stat-tracker|RPG Stat Tracker]]: RPG-like stat tracker.
 - [[smart-memos|Smart Memos]]: Create personalized and intelligent analysis, summaries, and more for audio recordings that can be imported or spoken directly into a note
 - [[syrinscape-player-control|Syrinscape Online Player]]: Control Syrinscape Online Player from inside of notes.
-- [[quran-helper|Quran Helper]]: Find and insert any Quran Ayah (verse) in your notes.
+- [[quran-helper|Quran]]: Find and insert any Quran Ayah (verse) in your notes.
 - [[page-scroll|Page Scroll]]: Page Up|Down|Top|Bottom
 - [[wechat-public-platform|Wechat Public Platform]]: Release the article from your vault to WeChat, Baidu Baijiahao, or another article release platform.
 - [[note-to-mp|NoteToMP]]: Send notes to WeChat MP drafts, or copy notes to WeChat MP editor, perfect preservation of note styles, support code highlighting, line numbers in code, and support local image uploads.
@@ -1748,7 +1748,7 @@ Plugins which have not yet been categorized by the community.
 - [[ampliflow-page|AmpliFlow Page Publisher]]: Publish notes easily to AmpliFlow (https://www.ampliflow.se)
 - [[kale-graph|Kale Graph]]: Render mathematical graphs.
 - [[scribe|Scribe]]: Record, transcribe, and transform voice notes into structured insights. Leverage Whisper or AssemblyAI and ChatGPT to fill in gaps, generate summaries, and visualize ideas — all seamlessly integrated within Obsidian.
-- [[custom-image-auto-uploader|Custom Image Auto Uploader]]: You can upload and save images from your notes to your remote server, home NAS, or sync them to your cloud storage (Alibaba Cloud OSS, Amazon S3, Cloudflare R2).
+- [[custom-image-auto-uploader|Custom Image Auto Uploader]]: You can batch download images from your notes on desktop, iOS, and Android platforms, and batch upload and save them to a remote server, home NAS, or cloud storage (such as Alibaba Cloud OSS, Amazon S3, Cloudflare R2, MinIO). Additionally, you can stretch, crop, and resize the images.
 - [[wonderbox|WonderBox]]: Create more relevant text sections your tips, top notes, warnings and more.
 - [[kkh|kkh]]: Replace words in a string using kkh dictionary.
 - [[import-todoist|Import Todoist tasks]]: Import Todoist tasks as Markdown tasks.
@@ -1805,7 +1805,7 @@ Plugins which have not yet been categorized by the community.
 - [[sentinel|Sentinel]]: Trigger actions based on document visibility changes.
 - [[shaahmaat-md|ShaahMaat-md]]: Render chess positions.
 - [[anchor-display-text|Anchor Link Display Text]]: Automatically uses the linked heading as the display text for the anchor links.
-- [[friend-tracker|Friend Tracker]]: Keep track of friends and family birthdays, and set reminders to stay in touch.
+- [[friend-tracker|Friend Tracker]]: Effortlessly nurture your relationships. Remember birthdays, capture meaningful moments, and stay connected with the people who matter most. Track contacts, set reminders, log interactions, and manage your personal CRM within Obsidian.
 - [[backgroundset|Backgroundset]]: Allow you to set background image set(folder)
 - [[mahgen-renderer|Mahgen Renderer]]: Display mahjong images inline or in block using Mahgen.
 - [[recent-notes|Recent Notes]]: List of recently edited notes with previews by time periods
@@ -1901,7 +1901,7 @@ Plugins which have not yet been categorized by the community.
 - [[yourpulse|YourPulse - Your Writing Activity Visualised]]: It's like your Github profile, but for your vault (featuring daily streak, average daily word count, comprehensive stats and plugins overview).
 - [[image-size|Image Size]]: Set the default size for pasted images.
 - [[rsync|Rsync]]: Sync files across devices using rsync tool.
-- [[extended-markdown-syntax|Extended Markdown Syntax]]: Extend your Markdown syntax using delimiters instead of HTML tags, such as underlining, superscript, subscript, highlighting.
+- [[extended-markdown-syntax|Extended Markdown Syntax]]: Extend your Markdown syntax using delimiters instead of HTML tags, such as underlining, superscript, subscript, highlighting, and spoiler.
 - [[paste-image-into-property|Paste Image Into Property]]: Paste images from the clipboard into frontmatter properties in live preview.
 - [[my-thesaurus|My Thesaurus]]: Automagically adds tags based on a simple csv file or a Markdown table.
 - [[mediaviewer|Media Viewer]]: View and manage media files within your notes.
@@ -1927,6 +1927,41 @@ Plugins which have not yet been categorized by the community.
 - [[scroll-with-jk|Reading View j/k Scroll]]: Scroll in reading view with j/k keys. Scroll to top with gg and to bottom with G.
 - [[export-graph-view|Export Graph View]]: Export your vault's graph view to mermaid and dot format.
 - [[harn-weather|Hârn Weather Generator]]: Unofficial Hârn weather generator. Generates the campaign weather for different time spans. The weather includes precipitation, temperature, wind direction and speed, moon phases and critical conditions for the whole of Western Venârivè.
+- [[previous-daily-note|Previous Daily Note]]: Open the previous daily note. Unlike the "Daily notes" command "Open previous daily note", it opens the previous daily note starting from today, rather than the daily note currently open.
+- [[easy-fonts|Easy Fonts]]: Easily load custom fonts, even on mobile.
+- [[sqlite-db|SQLite DB]]: Interact with local SQLite files in your notes
+- [[tab-group-arrangement|Tab Group Arrangement]]: Arrange the tab group in a more flexible way. For now, it supports arranging evenly and expanded like VSCode. User can make action and switch mode of arrangement by clicking the status bar or executing commands.
+- [[file-ignore|File Ignore]]: Control file indexing by adding or removing dot prefix to files, providing a .gitignore-like experience
+- [[waveform-player|Waveform Player]]: Render audio files as waveforms
+- [[media-slider|Media Slider]]: A media slider for images, gifs, audios, videos, and PDFs.
+- [[jade-publisher|Jade Publisher]]: Publish your notes to your Jade service.
+- [[sync-vault-ce|Sync Vault CE]]: sync with cloud disk fast and safely
+- [[bible-sidecar|Bible sidecar]]: Open the bible in your prefered translation in a splitscreen view
+- [[tidit|tidit]]: tidit adds timestamps to your document as you type — when you want it, how you want it, where you want it.
+- [[copy-local-graph-paths|Copy Local Graph Paths]]: Copies file paths of local graph links to clipboard.
+- [[imswitch-mathblock|IMSwitch in Math Block]]: Automatically switch input method in math block
+- [[note-metrics|Daily Note Metrics]]: Parses the tags in your Daily Notes to create interactive charts in a dashboard view.
+- [[musical-text-highlighter|Musical Text]]: Highlight sentences with color based on their length as you write.
+- [[mode-manager|Mode manager]]: Provide an easier way to manipulate reading/editing and preview/source mode
+- [[note-placeholder|Note Placeholder]]: Replaces text of note link to placeholder in view mode.
+- [[uri-converter|URI Converter]]: Convert URIs to internal links.
+- [[inline-code-copy|Inline Code Copy]]: Copy inline code on click in reading view.
+- [[stu-repo-helper|Student Repo]]: Manage student repositories.
+- [[infoflow|InfoFlow]]: Import your contents from InfoFlow to Obsidian. Similar to ReadWise or Omnivore importers.
+- [[image-picker|Image Picker]]: Adds a UI panel for quickly selecting images that are in your vault.
+- [[note-favicon|Note Favicon]]: Extracts a URL from the frontmatter of notes and displays an associated favicon image next to the note title in the file tree. Supports standard URLs and base64-encoded images.
+- [[csv-allinone|CSV All-in-One]]: all about CSV.
+- [[bookshelf|Bookshelf]]: Organize your book notes, track your reading progress, and gain insights into your reading habits with detailed charts and statistics.
+- [[dropbox-photo-grid|Dropbox Photo Grid]]: Display and embed photos from your Dropbox account in a customizable grid layout
+- [[d3-tagvis|Tagvis]]: Tag visualization for those that are into that kind of thing.
+- [[attachments-cache|Attachments Cache]]: Store images and other attachments on the vault
+- [[idealogs-annotator|Idealogs Annotator]]: For viewing and linking Idealogs articles.
+- [[paper-clipper|Paper Clipper]]: Capture and manage academic papers
+- [[multiple-daily-notes|Multiple Daily Notes]]: Create multiple daily notes in one vault, with additional configuration options including time offsets for creating notes past midnight, choosing the ribbon icon to use for the note, and more.
+- [[time-bullet|Time Bullet]]: Quickly add timestamp bullet points to your notes
+- [[smooth-cursor|Smooth Cursor]]: 平滑光标 Smooth Cursor
+- [[annotate-audio|Annotate Audio]]: Listen to an audio and add comments to it.
+- [[file-title-updater|File Title Updater]]: Synchronize titles between filename, frontmatter, and first heading in notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
