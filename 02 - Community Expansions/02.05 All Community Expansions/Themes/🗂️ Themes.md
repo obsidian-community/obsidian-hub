@@ -200,6 +200,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal Dracula|Minimal Dracula]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal Edge|Minimal Edge]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal Red|Minimal Red]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal-Dark-Coder|Minimal-Dark-Coder]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal-Resources|Minimal-Resources]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Minimal|Minimal]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mint-Breeze|Mint-Breeze]]
