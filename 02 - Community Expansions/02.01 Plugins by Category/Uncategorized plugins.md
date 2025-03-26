@@ -120,7 +120,7 @@ Plugins which have not yet been categorized by the community.
 - [[character-insertion|Character Insertion]]: Plugin to insert a specified symbol under the cursor
 - [[chat-stream|Chat Stream]]: Create branching GPT chats using canvas notes.
 - [[obsidian-chat-view|Chat View]]: Chat View enables you to create elegant Chat UIs in your Obsidian markdown files. It also supports the WebVTT format.
-- [[chatgpt-md|ChatGPT MD]]: A seamless integration of openAIs GPT LLMs and Ollama into Obsidian.
+- [[chatgpt-md|ChatGPT MD]]: A seamless integration of chatGPT, OpenRouter.ai and local LLMs via Ollama into Obsidian.
 - [[obsidian-checkbox3states-plugin|Checkbox 3 states]]: This is a simple plugin for add a third state to checkbox list.
 - [[obsidian-checklist-reset|Checklist Reset]]: Adds a command to reset the state of any checklists in a document in Obsidian.
 - [[chem|Chem]]: Providing chemistry supports. Rendering SMILES strings into chemistry structures.
@@ -1372,10 +1372,10 @@ Plugins which have not yet been categorized by the community.
 - [[toggle-dark-mode|Toggle Dark Mode]]: Adds a command to toggle dark mode on and off
 - [[plugins-annotations|Plugins Annotations]]: Allows adding personal comments to each installed plugin.
 - [[close-window-when-empty|Close Window When Empty]]: Close the window when the last note is closed, kind of how browsers work.
-- [[tars|Tars]]: Text generation based on tag suggestions, using DeepSeek, Claude, OpenAI, Gemini, Ollama, Kimi, Doubao, Qwen, Zhipu, QianFan & more.
+- [[tars|Tars]]: Text generation based on tag suggestions, using DeepSeek, Claude, OpenAI, OpenRouter, SiliconFlow, Gemini, Qwen & more.
 - [[toggle-readable-line-length|Toggle Readable line length]]: Add command to toggle Readable line length editor setting.
 - [[definition-list|Definition List]]: Adds definition lists to the markdown parser.
-- [[line-arrange|Line Arrange]]: Shuffle, reverse, or sort lines, using either visual width or lexical order.
+- [[line-arrange|Line Arrange]]: Shuffle, reverse, or sort text, using either visual width or alphabetical order.
 - [[search-in-canvas|Search In Canvas]]: Search text in canvas
 - [[sheet-plus|Sheet Plus]]: Create Excel-like spreadsheets and easily embed them in Markdown.
 - [[watched-metadata|Watched-Metadata]]: Watches for changes in metadata and performs user-specified actions based on these changes.
@@ -1490,7 +1490,7 @@ Plugins which have not yet been categorized by the community.
 - [[truth-table-gen|Truth Table+]]: Generate truth tables quickly in your .md files
 - [[learnie|Learnie]]: Enhance your learning with active recall and spaced repetition. Track changes, create review questions, and streamline your study process for more effective, long-lasting learning.
 - [[confluence-link|Confluence Link]]: Upload files to confluence pages
-- [[system3-relay|Relay]]: Collaborate in real time with live cursors. Create relays, add folders, and manage user access.
+- [[system3-relay|Relay]]: Collaborate in real time with live cursors. Create multiplayer folders and manage user access.
 - [[vault-size-history|Vault Size History]]: Graph of the number of files in the Vault.
 - [[harper|Harper]]: The Grammar Checker for Developers
 - [[geulo-youtube-liked-video|Geulo]]: Effortlessly fetch and manage all the YouTube videos you've liked, search and sort them, and add them to your daily note.
@@ -1557,7 +1557,7 @@ Plugins which have not yet been categorized by the community.
 - [[poker-range|Poker Range]]: Create a poker range grid
 - [[spaced-everything|Spaced everything]]: Apply spaced repetition algorithms to everything in your vault.
 - [[epiphany|Epiphany]]: Synchronize voice notes from the Epiphany app directly into your vault
-- [[pexels-banner|Pixel Banner]]: Apply an image from various sources as a banner to your notes.
+- [[pexels-banner|Pixel Banner]]: Enhance your notes with customizable banner images, including AI-generated designs and a curated store of downloadable banners. Transform your workspace with visually stunning headers that add context, improve aesthetics, and take your note-taking beyond the ordinary.
 - [[rich-foot|Rich Foot]]: Adds backlink tags and created/modified dates to the footer of your notes.
 - [[pintora|Pintora]]: Generates diagrams using Pintora
 - [[alignment-tracker|Alignment Tracker]]: Track character alignment using a 3x3 grid.
@@ -1662,7 +1662,7 @@ Plugins which have not yet been categorized by the community.
 - [[daily-random-note|Daily Random Note]]: Automatically open daily random notes based on your preferences.
 - [[type-zen-mode|Typezen]]: Type and get in zen mode instantly, no more distraction between you and your thoughts
 - [[ioc-lens|IOC Lens]]: Extracts and displays security-relevant indicators such as IP addresses, domains, and file hashes to enhance your cyber security note-taking process.
-- [[automatic-renumbering|Automatic List Reordering]]: Automatically reorder checklists and numbered lists as you edit them.
+- [[automatic-renumbering|Automatic List Management]]: Automatically reorders checklists and numbered lists as you edit them.
 - [[three-noun-prompts|Three Noun Prompts]]: Use TOPT algorithm to get daily writing prompts!
 - [[hackmd-sync|HackMD Sync]]: An interface to upload notes to and from HackMD
 - [[bottom-to-top|Bottom to Top]]: Reverses direction of text.
@@ -1805,7 +1805,7 @@ Plugins which have not yet been categorized by the community.
 - [[sentinel|Sentinel]]: Trigger actions based on document visibility changes.
 - [[shaahmaat-md|ShaahMaat-md]]: Render chess positions.
 - [[anchor-display-text|Anchor Link Display Text]]: Automatically uses the linked heading as the display text for the anchor links.
-- [[friend-tracker|Friend Tracker]]: Effortlessly nurture your relationships. Remember birthdays, capture meaningful moments, and stay connected with the people who matter most. Track contacts, set reminders, log interactions, and manage your personal CRM within Obsidian.
+- [[friend-tracker|Friend Tracker]]: Keep track of friends, birthdays, reminders, and interactions in Obsidian. Build a personal CRM, log connections, and stay organized inside your vault.
 - [[backgroundset|Backgroundset]]: Allow you to set background image set(folder)
 - [[mahgen-renderer|Mahgen Renderer]]: Display mahjong images inline or in block using Mahgen.
 - [[recent-notes|Recent Notes]]: List of recently edited notes with previews by time periods
@@ -1962,6 +1962,32 @@ Plugins which have not yet been categorized by the community.
 - [[smooth-cursor|Smooth Cursor]]: 平滑光标 Smooth Cursor
 - [[annotate-audio|Annotate Audio]]: Listen to an audio and add comments to it.
 - [[file-title-updater|File Title Updater]]: Synchronize titles between filename, frontmatter, and first heading in notes.
+- [[vault-nickname|Vault Nickname]]: Override the vault's display name and/or title order. Intended to disambiguate vaults with the same folder name when adhering to a common folder structure between projects.
+- [[chronotyper|Chronotyper]]: Track how long you edit notes directly in the note properties
+- [[link-opening-restore|Link Opening Restore]]: Make links require Ctrl + Left Click to open.
+- [[line-notes-sync|LINE Notes Sync]]: Sync messages from LINE to your notes.
+- [[hover-reveal|Hover Reveal]]: Shows hidden text in tooltips when hovering over marked elements using [visibleText]{tooltipText} syntax.
+- [[daily-news-briefing|Daily News Briefing]]: Get AI-powered daily news summaries in your vault. Features customizable topics, smart filtering, and automated scheduling.
+- [[wordflow-tracker|Wordflow Tracker]]: Track the changes and stats of your edited note files automatically. Record the modified notes and statistics to your daily note with various customizations!.
+- [[mathtype|MathType]]: Allows to type math faster with on the fly suggestions
+- [[auto-mover|AutoMover]]: Moves files with specified names into the same folder.
+- [[canvas-format-brush|Canvas Format Brush]]: Copy and paste formatting attributes (size and color) between canvas elements, similar to the format painter in Word.
+- [[img2html|Image to HTML]]: Paste images as HTML format instead of wikilink or markdown format
+- [[one-step-wiki-link|One Step Wiki Link]]: 一步添加 wiki 链接
+- [[compress|File Compressor]]: Make your files smaller with compression!
+- [[simple-archiver|Simple Archiver]]: Move old, stinky notes and folders to an archive, where they belong.
+- [[tg-emoji-search|TG Emoji Search]]: Lets you type out emojis like in Telegram.
+- [[pinned-daily-notes|Pinned Daily Notes]]: Dynamically update a pinned tab with today's daily note
+- [[ink-player|Ink Player]]: Playing interactive fiction powered by Inkle's ink engine
+- [[heading-decorator|Heading Decorator]]: Implement displaying specific content around headings based on their levels.
+- [[backlink-full-path|Backlink Full Path]]: Shows the backlink's full path in the backlinks panel.
+- [[advanced-progress-bars|Advanced Progress Bars]]: Progress bars that can change color depending on completion value - fully customizable.
+- [[research-quest|Research Quest]]: Use AI to generate and track research questions based on your notes.
+- [[yesterdays-note|Yesterday's note]]: Open yesterday's daily note.
+- [[smart-chatgpt|Smart ChatGPT]]: Integrate OpenAI's ChatGPT seamlessly in notes. Automatically saves links, allows marking threads as done and integrates with Dataview.
+- [[github-gitless-sync|GitHub Gitless Sync]]: Sync a GitHub repository with vaults on different platforms without requiring git installation
+- [[llm-test-gen|LLM Test Generator]]: Generate AI-powered test questions from your notes with multiple LLM providers (OpenAI, Claude, Mistral, Gemini, DeepSeek) to enhance your learning and retention.
+- [[wheel-tab-switcher|Wheel Tab Switcher]]: Switch between Tabs using your mouse wheel when hovering over tab headers
 
 
 %% Hub footer: Please don't edit anything below this line %%
