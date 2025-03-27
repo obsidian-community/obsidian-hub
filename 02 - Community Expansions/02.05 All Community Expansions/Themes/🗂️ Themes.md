@@ -342,6 +342,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/SynthWave|SynthWave]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Terminal|Terminal]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Theme-That-Shall-Not-Be-Named|Theme-That-Shall-Not-Be-Named]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Things 3|Things 3]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Things|Things]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Tiniri|Tiniri]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Tokyo Night Storm|Tokyo Night Storm]]
