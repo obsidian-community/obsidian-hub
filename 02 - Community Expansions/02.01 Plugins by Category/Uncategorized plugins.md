@@ -158,7 +158,7 @@ Plugins which have not yet been categorized by the community.
 - [[console|Console Markdown]]: Renders console commands and their output.
 - [[obsidian-contacts|Contacts]]: Allows you to manage and organize your contacts.
 - [[control-characters|Control Characters]]: Show control/non-printing characters in edit mode.
-- [[cooklang-obsidian|CookLang Editor]]: Edit and display CookLang recipes in Obsidian
+- [[cooklang-obsidian|Cooklang Editor]]: Edit and display Cooklang recipes in Obsidian
 - [[copilot|Copilot]]: An AI Copilot in Obsidian.
 - [[copilot-auto-completion|Copilot auto completion]]: Adds a highly configurable copilot-like auto-completion to Obsidian using the ChatGPT API.
 - [[copy-inline-code|Copy Inline Code]]: Easily copy the contents of an inline code element with a single click.
@@ -1030,7 +1030,6 @@ Plugins which have not yet been categorized by the community.
 - [[cursor-goaway|cursor-goaway]]: make cursor goaway after open a text file
 - [[continuous-mode|Continuous Mode]]: Displays all open notes in a tab group as if they were a continuous scrollable document (sometimes called "Scrivenings mode"). Open all notes in Continuous Mode from a folder, search results, or links in a file or Dataview/query block; use arrow keys to navigate between notes; display notes in “Compact Mode” similar to Evernote or Bear; reorder notes via tab header drag-and-drop, sorting, more.
 - [[multi-state-checkbox-switcher|Multi State CheckBox Switcher]]: Handle with multistate checkboxes.
-- [[relay-md|Relay.md]]: Markdown workflows for teams.
 - [[insighta|InsightA]]: InsightA can transform extensive articles into concise, atomic notes and generate MOC based on note title using LLM. 🚀📝
 - [[single-file-daily-notes|Single File Daily Notes]]: Create and manage daily notes in a single file.
 - [[apple-books-import-highlights|Apple Books - Import Highlights]]: Import your Apple Books highlights and notes to Obsidian.
@@ -1479,7 +1478,7 @@ Plugins which have not yet been categorized by the community.
 - [[rich-text-editor-shortcuts|Rich Text Editor Shortcuts]]: Create and toggle checkboxes, paste links wrapping your current selection, and toggle underline without leaving the keyboard.
 - [[share-via-notepad-tab|Share via Notepad Tab]]: Share notes via Notepad Tab (https://notepadtab.com).
 - [[recent-tab-switcher|Recent Tab Switcher]]: Switch to the most recently used tab.
-- [[marker-api|Marker PDF to MD]]: Convert PDFs to rich Markdown, including images and ocr using the Marker API
+- [[marker-api|Marker PDF to MD]]: Convert PDFs to beautiful rich Markdown notes with tables, images, and OCR. Works with self-hosted Marker API and free Mistral OCR API!
 - [[hexo-publisher|Hexo Publisher]]: Publish your notes to Hexo
 - [[inline-spoilers|Inline spoilers]]: Adds Discord-like syntax for inline spoilers.
 - [[enhanced-symbols-prettifier|Enhanced Symbols Prettifier]]: Replace/substitute the symbols with actual symbols you commonly type. It also works for emojis shortcuts, abbreviations, greek letters, math symbols or other snippets/aliases you define
@@ -1551,7 +1550,6 @@ Plugins which have not yet been categorized by the community.
 - [[morgen-tasks|Morgen Tasks]]: Plan, time block, and track tasks from your vault in any calendar using Morgen.
 - [[immich|Immich]]: Link your Immich images within your vault.
 - [[verovio-music-renderer|Verovio Music Renderer]]: Rendering of music notation files.
-- [[card-navigator|Card Navigator]]: Navigate your notes visually with card-based interface
 - [[callout-menu|Callout menu]]: Adds some extra options to callouts context menu and allows you to add your own custom callouts.
 - [[enhanced-image|Enhanced Image]]: Enhance the experience of image seamlessly. For example, operations for image in context menu, command palette.
 - [[poker-range|Poker Range]]: Create a poker range grid
@@ -1606,7 +1604,7 @@ Plugins which have not yet been categorized by the community.
 - [[local-media-embedder|Local Media Embedder]]: Embed videos and images and audios from your local device  in your notes.
 - [[tab-panels|Tab Panels]]: Create tab panels to organize content into sections
 - [[jura-links|Jura Links]]: Verlinke deine notierten Gesetzesnormen, Aktenzeichen und Zeitschriften-Fundstellen mit Gesetzesanbietern.
-- [[advanced-copy|Advanced Copy]]: Copy Markdown and transform it according to your needs.
+- [[advanced-copy|Advanced Copy]]: Copy Markdown and transform it into HTML, Anki, or any custom format. Create custom profiles with versatile templates tailored to your workflow.
 - [[nav-link-header|Nav Link Header]]: Display navigation links at the top of the notes.
 - [[japanese-novel-ruby|Japanese Novel Ruby]]: Treat ruby(Furigana) ​​marks commonly used in Japanese novels.
 - [[asciidoctor-editor|Asciidoctor editor]]: View and modify asciidoc pages
@@ -1851,7 +1849,6 @@ Plugins which have not yet been categorized by the community.
 - [[sankey|Sankey]]: Create Sankey diagrams in your notes.
 - [[pathlinker|External File Linker]]: Embed external files into your notes.
 - [[mastodon-threading|Mastodon Threading]]: Compose and post threads to Mastodon.
-- [[memodack|Memodack]]: Memorizing words or phrases
 - [[ai-hub|AI integration Hub]]: Integrate with AI models (currently Google's Gemini only) to quickly generate and refine notes.
 - [[hanzi-writer|Hanzi Writer]]: Interactive Chinese character writing blocks using Hanzi Writer
 - [[glasp|Glasp]]: Import your Glasp highlights and notes into your vault.
@@ -1986,8 +1983,25 @@ Plugins which have not yet been categorized by the community.
 - [[yesterdays-note|Yesterday's note]]: Open yesterday's daily note.
 - [[smart-chatgpt|Smart ChatGPT]]: Integrate OpenAI's ChatGPT seamlessly in notes. Automatically saves links, allows marking threads as done and integrates with Dataview.
 - [[github-gitless-sync|GitHub Gitless Sync]]: Sync a GitHub repository with vaults on different platforms without requiring git installation
-- [[llm-test-gen|LLM Test Generator]]: Generate AI-powered test questions from your notes with multiple LLM providers (OpenAI, Claude, Mistral, Gemini, DeepSeek) to enhance your learning and retention.
+- [[llm-test-gen|LLM Test Generator]]: Generate AI-powered test questions from your notes with multiple LLM providers (OpenAI, Mistral, Gemini, DeepSeek) to enhance your learning and retention.
 - [[wheel-tab-switcher|Wheel Tab Switcher]]: Switch between Tabs using your mouse wheel when hovering over tab headers
+- [[collapsible-code-blocks|Collapsible Code Blocks]]: Makes code blocks collapsible in reader view and edit view as well as enabling scroll-able code blocks.
+- [[cmd-search|CmdSearch]]: Use the command pallete to search web. Add your own URLs.
+- [[command-line|Command Line]]: Copy command lines from your notes to the clipboard.
+- [[extended-graph|Extended Graph]]: Extends the features of the core Graph view, display images, manage states, remove links, change node shapes, and more.
+- [[auto-folder-note-paste|Auto Folder Note Paste]]: Automagically convert the note to a folder note when pasting or drag'n'dropping an attachment.
+- [[ai-helper|AI Helper]]: An AI helper tool for summarizing text and providing a chatbot to let you ask questions about your notes.
+- [[git-changelog|Git Changelog]]: Uses Git to display dynamic vault and file changelogs in the sidebar, useful for spotting data loss.
+- [[xiaohongshu-importer|Xiaohongshu Importer]]: Import Xiaohongshu (小红书) notes with media and categorization.
+- [[quick-nav|Quick Nav]]: Enhance your editing experience by unleashing the hidden power of shortcuts
+- [[docusaurus-style-admonitions|Docusaurus Style Admonitions]]: Adds Docusaurus style admonitions
+- [[wordcraft|WordCraft]]: Find rhymes, synonyms, and describing words. Designed for songwriting and poetry.
+- [[outlook-meeting-notes|Outlook Meeting Notes]]: Creates meeting notes for Outlook appointments and meetings.
+- [[ai-note-tagger|AI Note Tagger]]: Automatically tag your notes using AI and update frontmatter with generated tags.
+- [[markitdown|Markitdown File Converter]]: Convert PDFs, Office documents, images, and other file formats to Markdown using Microsoft's Markitdown tool
+- [[node-factor|Node Factor]]: Customize factors effecting node size in graph.
+- [[smart-day-night-switcher|Smart DayNight switcher]]: Intelligently determines sunrise and sunset times and automatically switches the color scheme to light or dark mode.
+- [[kanban-status-updater|Kanban Status Updater]]: Automatically updates a 'status' property in a note when its card is moved on a Kanban board
 
 
 %% Hub footer: Please don't edit anything below this line %%
