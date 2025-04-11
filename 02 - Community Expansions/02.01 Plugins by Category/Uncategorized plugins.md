@@ -1313,7 +1313,7 @@ Plugins which have not yet been categorized by the community.
 - [[query-json|Query JSON]]: Read, query and work with JSON.
 - [[voicenotes-sync|Voicenotes Sync]]: Synchronize your notes from Voicenotes.com
 - [[legifrance-integration|Légifrance Intégration]]: Intégration de l'API Légifrance.
-- [[github-copilot|Github Copilot]]: Implement suggestions from Github Copilot directly in your editor.
+- [[github-copilot|Github Copilot]]: Implement Github Copilot services (suggestion and chat) in Obsidian
 - [[toggle-rtl-mode|Toggle RTL mode]]: Toggle RTL mode using command or ribbon action
 - [[update-time|Update Time]]: Automatically update front matter to include creation and last update times.
 - [[solo-rpg-toolkit|Solo RPG Toolkit]]: Random generator tools geared towards solo TTRPG gameplay
@@ -1983,7 +1983,7 @@ Plugins which have not yet been categorized by the community.
 - [[yesterdays-note|Yesterday's note]]: Open yesterday's daily note.
 - [[smart-chatgpt|Smart ChatGPT]]: Integrate OpenAI's ChatGPT seamlessly in notes. Automatically saves links, allows marking threads as done and integrates with Dataview.
 - [[github-gitless-sync|GitHub Gitless Sync]]: Sync a GitHub repository with vaults on different platforms without requiring git installation
-- [[llm-test-gen|LLM Test Generator]]: Generate AI-powered test questions from your notes with multiple LLM providers (OpenAI, Mistral, Gemini, DeepSeek) to enhance your learning and retention.
+- [[llm-test-gen|LLM Test Generator]]: Generate AI-powered test questions from your notes with multiple LLM providers (OpenAI, Mistral, Gemini, DeepSeek, Ollama) to enhance your learning and retention.
 - [[wheel-tab-switcher|Wheel Tab Switcher]]: Switch between Tabs using your mouse wheel when hovering over tab headers
 - [[collapsible-code-blocks|Collapsible Code Blocks]]: Makes code blocks collapsible in reader view and edit view as well as enabling scroll-able code blocks.
 - [[cmd-search|CmdSearch]]: Use the command pallete to search web. Add your own URLs.
@@ -2002,6 +2002,20 @@ Plugins which have not yet been categorized by the community.
 - [[node-factor|Node Factor]]: Customize factors effecting node size in graph.
 - [[smart-day-night-switcher|Smart DayNight switcher]]: Intelligently determines sunrise and sunset times and automatically switches the color scheme to light or dark mode.
 - [[kanban-status-updater|Kanban Status Updater]]: Automatically updates a 'status' property in a note when its card is moved on a Kanban board
+- [[pomobar|PomoBar]]: A simple Pomodoro timer that lives in your status bar. Left click to start/stop, right click to reset when paused, middle click to cycle between 25/15/5 minute durations.
+- [[generate-timeline|Generate Timeline]]: Generate timelines from tag folder or file automatically by any time properties.
+- [[pdf-folder-to-markdowns|PDF Folder to Markdowns]]: Convert a folder of PDFs into a folder of Markdown files with embedded PDFs. Ideal for users migrating PDF notes from apps like Boox or organizing reference materials inside Obsidian, ensuring a seamless workflow for note-taking and knowledge management.
+- [[sticky-notes|Sticky Notes]]: Create sticky notes popups.
+- [[note-to-red|Note to RED]]: Convert Markdown notes to RED (Xiaohongshu) style images
+- [[hi-note|HiNote]]: Add comments to highlighted notes, use AI for thinking, and flashcards for memory.
+- [[private-mode|Private Mode]]: Simple #private mode
+- [[github-stars|GitHub Stars]]: Displays the number of stars for GitHub repositories mentioned in notes.
+- [[project-euler-stats|Project Euler Stats]]: Get statistics from Project Euler.
+- [[simple-file-info|Simple File Info]]: A lightweight file info pane with native look and feel.
+- [[open-in-github|Open in GitHub]]: Open the current project or file in github.com.
+- [[smooth-navigator|Smooth Navigator]]: Smoothly cycle through open files and splits via the keyboard.
+- [[duplicate-line|Duplicate line]]: Duplicate line or selection
+- [[github-tracker|GitHub Tracker]]: Track GitHub issues and pull requests in your vault
 
 
 %% Hub footer: Please don't edit anything below this line %%
