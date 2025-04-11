@@ -22,7 +22,7 @@ In this folder are all new things which haven't been properly sorted into the Ob
 -  [[06 - Inbox/Nomic|Nomic]]
 -  [[06 - Inbox/Obsidian CSS|Obsidian CSS]]
 -  [[06 - Inbox/Obsidian Flight School|Obsidian Flight School]]
--  [[06 - Inbox/Obsidian2Mkdocs|Obsidian2Mkdocs]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/Enveloppe|Enveloppe]]
 -  [[06 - Inbox/pfSense|pfSense]]
 -  [[06 - Inbox/Productivity Guru|Productivity Guru]]
 -  [[06 - Inbox/Seedbox|Seedbox]]
