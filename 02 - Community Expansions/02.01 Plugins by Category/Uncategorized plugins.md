@@ -120,7 +120,7 @@ Plugins which have not yet been categorized by the community.
 - [[character-insertion|Character Insertion]]: Plugin to insert a specified symbol under the cursor
 - [[chat-stream|Chat Stream]]: Create branching GPT chats using canvas notes.
 - [[obsidian-chat-view|Chat View]]: Chat View enables you to create elegant Chat UIs in your Obsidian markdown files. It also supports the WebVTT format.
-- [[chatgpt-md|ChatGPT MD]]: A seamless integration of chatGPT, OpenRouter.ai and local LLMs via Ollama into Obsidian.
+- [[chatgpt-md|ChatGPT MD]]: A seamless integration of ChatGPT, OpenRouter.ai and local LLMs via Ollama into Obsidian.
 - [[obsidian-checkbox3states-plugin|Checkbox 3 states]]: This is a simple plugin for add a third state to checkbox list.
 - [[obsidian-checklist-reset|Checklist Reset]]: Adds a command to reset the state of any checklists in a document in Obsidian.
 - [[chem|Chem]]: Providing chemistry supports. Rendering SMILES strings into chemistry structures.
@@ -807,7 +807,7 @@ Plugins which have not yet been categorized by the community.
 - [[change-case|Change Case]]: Plugin to let you change the case (UPPER CASE, camelCase, snake_case, etc) of the current selection.
 - [[send-to-ghost|Send to Ghost]]: Send and publish notes to your Ghost blog with a single click
 - [[content-linker|Content Linker]]: A plugin for searching and adding bi-directional links to existing content in Obsidian Vault.
-- [[swiss-army-knife|Swiss army knife]]: Collection of various utilities e.g. duplicate empty line remover, Obsidian plugin release/tag version downloader (eg. for mobile tests)
+- [[swiss-army-knife|Swiss army knife]]: Collection of various utilities e.g. duplicate empty line remove, create expandable/colapsable sections, Obsidian plugin release/tag version download (eg. for mobile tests)
 - [[share-to-notionnext|Share to NotionNext]]: Shares obsidian md file to notion with notion api for NotionNext web deploy, originally created by EasyChris/obsidian-to-notion.
 - [[inline-math|No more flickering inline math]]: Remove flickering inline math.
 - [[expiration-date-tracker|Expiration-Date-Tracker]]: Keep track of all expiration dates, for example, for your groceries.
@@ -1910,8 +1910,8 @@ Plugins which have not yet been categorized by the community.
 - [[vision-recall|Vision Recall]]: Transform screenshots into searchable notes using AI vision and text analysis.
 - [[asana|Asana]]: Create Asana tasks from highlighted text or the current line in Obsidian.
 - [[vault-sync|VaultSync]]: Sync vault with cloud storage provider.
-- [[content-cards|Content Cards]]: Insert content cards in Markdown, such as timeline, highlightblock, target card, book information card, music information card, movie information card, photoes ablum, business card, content subfield, countdown, etc.
-- [[manual-sorting|Manual Sorting]]: Drag'n'Drop file sorting.
+- [[content-cards|Content Cards]]: Insert content cards in Markdown, such as timeline, highlightblock, target card, book information card, music information card, movie information card, photoes ablum, business card, content subfield, countdown, SWOT, BCG.
+- [[manual-sorting|Manual Sorting]]: Drag'n'Drop sorting within file explorer.
 - [[ascii-tree-generator|ASCII Tree Generator]]: Convert indented code blocks with hierarchy markers into formatted ASCII tree diagrams.
 - [[koi-sync|KOI Sync]]: Synchronizes data from a Slack Telescope instance using the KOI-net protocol.
 - [[ai-tagger-universe|AI Tagger Universe]]: Automatically analyze note content and add relevant tags using AI
@@ -2016,6 +2016,16 @@ Plugins which have not yet been categorized by the community.
 - [[smooth-navigator|Smooth Navigator]]: Smoothly cycle through open files and splits via the keyboard.
 - [[duplicate-line|Duplicate line]]: Duplicate line or selection
 - [[github-tracker|GitHub Tracker]]: Track GitHub issues and pull requests in your vault
+- [[wewrite|WeWrite]]: Make a workspace for writing and publishing article to WeChat MP.
+- [[smart-vault-visualizer|Smart Vault Visualizer]]: Visualizes and manages smart clusters and cluster groups in your vault.
+- [[browser-history|Browser History]]: Sync your browser history to notes.
+- [[related-notes|Related Notes]]: Discover related notes and uncover missed connections
+- [[rename-file-to-selection|Rename File to Selection]]: Rename your file to the current text selection.
+- [[white-noise|White Noise]]: Play white noise to help you focus on your work
+- [[anki-integration|Anki Integration]]: Create flashcards from your notes with a seamless interface, structuring them with metadata and syncing effortlessly via AnkiConnect.
+- [[jira-sync|Jira Issue Manager]]: Get Jira issues, create and update them. Issue status and worklog management.
+- [[theme-toggle|Theme toggle]]: Dark/light theme toggle via ribbon icon or command
+- [[data-fetcher|Data Fetcher]]: Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes
 
 
 %% Hub footer: Please don't edit anything below this line %%
