@@ -1952,7 +1952,7 @@ Plugins which have not yet been categorized by the community.
 - [[dropbox-photo-grid|Dropbox Photo Grid]]: Display and embed photos from your Dropbox account in a customizable grid layout
 - [[d3-tagvis|Tagvis]]: Tag visualization for those that are into that kind of thing.
 - [[attachments-cache|Attachments Cache]]: Store images and other attachments on the vault
-- [[idealogs-annotator|Idealogs Annotator]]: For viewing and linking Idealogs articles.
+- [[idealogs-annotator|Idealogs Annotator]]: For viewing, linking and annotating Idealogs articles.
 - [[paper-clipper|Paper Clipper]]: Capture and manage academic papers
 - [[multiple-daily-notes|Multiple Daily Notes]]: Create multiple daily notes in one vault, with additional configuration options including time offsets for creating notes past midnight, choosing the ribbon icon to use for the note, and more.
 - [[time-bullet|Time Bullet]]: Quickly add timestamp bullet points to your notes
@@ -2026,6 +2026,16 @@ Plugins which have not yet been categorized by the community.
 - [[jira-sync|Jira Issue Manager]]: Get Jira issues, create and update them. Issue status and worklog management.
 - [[theme-toggle|Theme toggle]]: Dark/light theme toggle via ribbon icon or command
 - [[data-fetcher|Data Fetcher]]: Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes
+- [[codeless-heatmap-calendar|Codeless Heatmap Calendar]]: Fully-featured activity visualizer powered by Toggl data and more.
+- [[on-this-day-i|On This Day I]]: AI tools for Daily Journals
+- [[large-language-models|Large Language Models]]: Enables access to LLMs via remote providers (OpenAI, Claude, Gemini) and local LLMs via GPT4ALL.
+- [[hide-index-files|Hide Index Files]]: Hide index files (folder notes) more reliably.
+- [[crosslink-advanced|Crosslink Advanced]]: Tag files using folders and symlinks system (ftags).
+- [[folder-navigator|Folder Navigator]]: Quickly navigate to folders in your vault using fuzzy search.
+- [[digital-sticky-notes|Digital Sticky Notes]]: Digitize physical sticky notes to effortlessly capture, organize, and access temporary notes.
+- [[querydash|QueryDash]]: Refer to Dataview and add search, sorting, and pagination functions, just like Notion.
+- [[disciples-journal|Disciples Journal]]: Embed Bible references and passages in your notes and read the Bible in Obsidian.
+- [[minimal-quiz|Minimal Quiz]]: Start a quick Markdown-based quiz on your current note. Simple, straightforward, and fully integrated — similar to flashcards in Anki or Quizlet!
 
 
 %% Hub footer: Please don't edit anything below this line %%
