@@ -354,7 +354,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-kindle-export|Kindle]]: Send .md as .epub to Ereader/Kindle/Pocketbook
 - [[kindle-csv-converter|Kindle CSV Converter]]: Import your Kindle notes in .csv format to Obsidian.
 - [[obsidian-kobo-highlights-importer-plugin|Kobo Highlights Importer]]: Import highlights from your Kobo device
-- [[kr-book-info-plugin|KoreanBook Info Plugin]]: A plugin that crawls Yes24 to get book information.
+- [[kr-book-info-plugin|Korean Book Info]]: A plugin that crawls Yes24 to get book information.
 - [[lds-scriptures-reference|LDS Scriptures Reference]]: Easily insert references to LDS scriptures
 - [[latex-algorithms|LaTeX Algorithms]]: Plugin to facilitate writing algorithm blocks in LaTeX
 - [[latex-to-unicode|LaTeX to Unicode converter]]: Convert LaTeX commands into unicode sqeuences
@@ -367,7 +367,7 @@ Plugins which have not yet been categorized by the community.
 - [[lilypond|Lilypond]]: Lilypond support in Obsidian
 - [[obsidian-limelight|Limelight]]: Put a spotlight on your active pane
 - [[obsidian-lineup-builder|Lineup Builder]]: Build football lineups in Obsidian.
-- [[obsidian-link-embed|Link Embed]]: This plugin allows you to convert URLs in your notes into embedded previews.
+- [[obsidian-link-embed|Link Embed]]: Instantly turn plain links in your notes into beautiful, Notion-style rich link previews. The plugin automatically fetches page metadata (title, description, favicon & image) and renders it as an elegant, card-styled embed—so your vault stays informative and visually appealing with zero extra effort.
 - [[link-exploder|Link Exploder]]: Link Exploder is a Obsidian plugin that creates a canvas from a note, embedding it's incoming (i.e. backlinks) and outgoing links onto the canvas (as well as the their linked notes).
 - [[link-favicon|Link Favicons]]: See the favicon for a linked website. 
 - [[link-nodes-in-canvas|Link Nodes In Canvas]]: A plugin for you to add edges between notes in Canvas based on their links.
@@ -1313,7 +1313,7 @@ Plugins which have not yet been categorized by the community.
 - [[query-json|Query JSON]]: Read, query and work with JSON.
 - [[voicenotes-sync|Voicenotes Sync]]: Synchronize your notes from Voicenotes.com
 - [[legifrance-integration|Légifrance Intégration]]: Intégration de l'API Légifrance.
-- [[github-copilot|Github Copilot]]: Implement Github Copilot services (suggestion and chat) in Obsidian
+- [[github-copilot|GitHub Copilot]]: Implement GitHub Copilot services (suggestion and chat) in Obsidian
 - [[toggle-rtl-mode|Toggle RTL mode]]: Toggle RTL mode using command or ribbon action
 - [[update-time|Update Time]]: Automatically update front matter to include creation and last update times.
 - [[solo-rpg-toolkit|Solo RPG Toolkit]]: Random generator tools geared towards solo TTRPG gameplay
@@ -1928,7 +1928,7 @@ Plugins which have not yet been categorized by the community.
 - [[easy-fonts|Easy Fonts]]: Easily load custom fonts, even on mobile.
 - [[sqlite-db|SQLite DB]]: Interact with local SQLite files in your notes
 - [[tab-group-arrangement|Tab Group Arrangement]]: Arrange the tab group in a more flexible way. For now, it supports arranging evenly and expanded like VSCode. User can make action and switch mode of arrangement by clicking the status bar or executing commands.
-- [[file-ignore|File Ignore]]: Control file indexing by adding or removing dot prefix to files, providing a .gitignore-like experience
+- [[file-ignore|File Ignore]]: Control file indexing by adding or removing dot prefix to show or hide files, providing a .gitignore-like experience
 - [[waveform-player|Waveform Player]]: Render audio files as waveforms
 - [[media-slider|Media Slider]]: A media slider for images, gifs, audios, videos, and PDFs.
 - [[jade-publisher|Jade Publisher]]: Publish your notes to your Jade service.
@@ -2036,6 +2036,44 @@ Plugins which have not yet been categorized by the community.
 - [[querydash|QueryDash]]: Refer to Dataview and add search, sorting, and pagination functions, just like Notion.
 - [[disciples-journal|Disciples Journal]]: Embed Bible references and passages in your notes and read the Bible in Obsidian.
 - [[minimal-quiz|Minimal Quiz]]: Start a quick Markdown-based quiz on your current note. Simple, straightforward, and fully integrated — similar to flashcards in Anki or Quizlet!
+- [[auto-bullet|Auto Bullet]]: Automatically inserts bullet points when you type spaces or tabs at the beginning of a line.
+- [[word-frequency|Word Frequency]]: Counts the most frequently used words in a note and displays them in the sidebar.
+- [[come-down|Come Down]]: Maintains a cache of your notes’ embedded external images.
+- [[interactive-ratings|Interactive Ratings]]: Edit symbol ratings in your notes interactively.
+- [[cubox-sync|Cubox]]: Sync your Cubox articles & annotations
+- [[mention-things|Mention Things]]: Define a list of prefixes to trigger an autocomplete suggestion to insert a link.
+- [[progress-tracker|ProgressTracker]]: Track task completion with a visual progress bar in your sidebar, auto update column Kanban
+- [[easy-copy|Easy Copy]]: Easily copy the text within inline code, bold text (and many other formats), or quickly generate an elegant link to a heading.
+- [[open-tab-settings|Open Tab Settings]]: Add settings to open in new tab by default and prevent duplicate tabs.
+- [[image-share|Image Share]]: Share selected text as beautiful images
+- [[clippermaster|ClipperMaster]]: Works with the ClipperMaster Chrome extension to clip structured content from the web and save it to your vault as Markdown files.
+- [[paste-reformatter|Paste Reformatter]]: Reformat pasted text for precise control.
+- [[csv-lite|CSV Lite]]: Just open and edit CSV files directly, no more. Keep it simple.
+- [[double-row-toolbar|Double row toolbar]]: Adds a second row to the toolbar on mobile devices, allowing for more quick access buttons.
+- [[advanced-debug-mode|Advanced Debug Mode]]: Enhances debugging experience.
+- [[note-locker|Note Locker]]: Lock notes to open in preview mode by default.
+- [[inscribe|Inscribe]]: Inline autocompletion powered by AI.
+- [[event-highlight|Event Highlight]]: Render colored bars with relative event dates
+- [[auto-daily-note|Auto Daily Note]]: Automatically creates today's daily note. Daily note plugin must be enabled
+- [[proofreader|Proofreader]]: AI-based proofreading and stylistic improvements for your writing. Changes are inserted as suggestions directly in the editor, similar to suggested changes in word processing apps.
+- [[reader-mode|Reader Mode]]: Ensures notes are always opened in reader mode.
+- [[date-range-expander|Date Range Expander]]: Quickly add a range of day references given a date duration.
+- [[completed-tasks|Completed Tasks]]: Automatically sort completed tasks to the bottom of the list.
+- [[quick-peek-sidebar|Quick Peek Sidebar]]: Opens the left and/or right side panel by hovering over it.
+- [[advanced-note-composer|Advanced Note Composer]]: Enhances Note composer core plugin.
+- [[jw-library-linker|JW Library Linker]]: Converts JW Library references to actual links in JW Library.
+- [[rainbow-folders-fixer|Rainbow Folders Fixer]]: Stop rainbow folders from changing colors when you scroll through the File explorer.
+- [[table-of-contents-automatic-but-compatible-with-publish|TOC compatible with Publish]]: Create table of contents with user defined adjustments. All adjustments will be compatible with Obsidian Publish.
+- [[image-embedder|Image Embedder]]: Automatically downloads and embeds images from URLs when pasting
+- [[about-blank|About Blank]]: Customize the empty file (New tab) itself a little bit by adding "Commands" or "Open files". And edit these: Grouping, Set icon, Ask before execution, Register as a new command.
+- [[daily-note-automater|Daily Notes Automater]]: Automates the creation of a daily note
+- [[jupymd|JupyMD]]: Link and sync Markdown notes with Jupyter notebooks via Jupytext.
+- [[reference-link-render|Reference Link Render]]: Enables reference-style Markdown links in reading mode and hides link definitions, like in Kramdown
+- [[reveal-folded|Reveal Folded]]: Reveal the current file in the file explorer while collapsing all other tree items.
+- [[data-fetcher|Data Fetcher]]: Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes
+- [[tick-tones|Tick Tones]]: Plays a tone when you tick a checkbox
+- [[model-viewer|Model Viewer]]: View and embed interactive 3D models directly in your vault, powered by Google's <model-viewer> component. Supports the glTF and GLB file formats.
+- [[sentence-rhythm|Sentence Rhythm]]: Adds toggleable colored highlights to sentences based on their length so you can easily see the rhythm of your writing.
 
 
 %% Hub footer: Please don't edit anything below this line %%
