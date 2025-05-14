@@ -189,7 +189,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-daily-notes-opener|Daily notes opener]]: Easily open daily/periodic notes in new pane, and much more!
 - [[obsidian-dashing-cursor|Dashing cursor]]: Enables dashing cursor that follows the page scroll
 - [[data-entry|Data Entry]]: Create forms that save data simply; the data view of data entry
-- [[notion-like-tables|DataLoom]]: Weave together data from diverse sources into different views. Inspired by Excel Spreadsheets and Notion.so.
 - [[obsidian-day-and-night|Day and Night]]: An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.
 - [[deepl|DeepL]]: Allows translation of selected texts into more than 25 languages with DeepL.
 - [[new-tab-default-page|Default New Tab Page]]: Open a note of your choice when creating a new tab, like in the browser.
@@ -1549,7 +1548,7 @@ Plugins which have not yet been categorized by the community.
 - [[print|Print]]: Print notes and documents directly from your workspace.
 - [[morgen-tasks|Morgen Tasks]]: Plan, time block, and track tasks from your vault in any calendar using Morgen.
 - [[immich|Immich]]: Link your Immich images within your vault.
-- [[verovio-music-renderer|Verovio Music Renderer]]: Rendering of music notation files.
+- [[verovio-music-renderer|Verovio Music Renderer]]: Rendering, playback and download of musical notation.
 - [[callout-menu|Callout menu]]: Adds some extra options to callouts context menu and allows you to add your own custom callouts.
 - [[enhanced-image|Enhanced Image]]: Enhance the experience of image seamlessly. For example, operations for image in context menu, command palette.
 - [[poker-range|Poker Range]]: Create a poker range grid
@@ -1849,6 +1848,7 @@ Plugins which have not yet been categorized by the community.
 - [[sankey|Sankey]]: Create Sankey diagrams in your notes.
 - [[pathlinker|External File Linker]]: Embed external files into your notes.
 - [[mastodon-threading|Mastodon Threading]]: Compose and post threads to Mastodon.
+- [[memodack|Memodack]]: Your second language memory tool
 - [[ai-hub|AI integration Hub]]: Integrate with AI models (currently Google's Gemini only) to quickly generate and refine notes.
 - [[hanzi-writer|Hanzi Writer]]: Interactive Chinese character writing blocks using Hanzi Writer
 - [[glasp|Glasp]]: Import your Glasp highlights and notes into your vault.
@@ -2070,10 +2070,30 @@ Plugins which have not yet been categorized by the community.
 - [[jupymd|JupyMD]]: Link and sync Markdown notes with Jupyter notebooks via Jupytext.
 - [[reference-link-render|Reference Link Render]]: Enables reference-style Markdown links in reading mode and hides link definitions, like in Kramdown
 - [[reveal-folded|Reveal Folded]]: Reveal the current file in the file explorer while collapsing all other tree items.
-- [[data-fetcher|Data Fetcher]]: Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes
 - [[tick-tones|Tick Tones]]: Plays a tone when you tick a checkbox
 - [[model-viewer|Model Viewer]]: View and embed interactive 3D models directly in your vault, powered by Google's <model-viewer> component. Supports the glTF and GLB file formats.
 - [[sentence-rhythm|Sentence Rhythm]]: Adds toggleable colored highlights to sentences based on their length so you can easily see the rhythm of your writing.
+- [[another-dynamic-highlights|aDHL]]: Create pretty static highlighters from search or regEx. Group by tag and set commands for toggling. Based on Dynamic Highlights. Works well with Highlightr.
+- [[cbcr-text-eater-de|Textfresser]]: Go trough the german texts and build your own dictionary based on your own unique contexts
+- [[yt-summarizer|YTSummarizer]]: Fetches YouTube transcripts and generates summaries using OpenAI GPT models
+- [[limitless-lifelogs|Limitless Lifelogs]]: Sync your Limitless AI lifelog entries
+- [[rainbow-colored-sidebar|Rainbow-Colored Sidebar]]: Automatically color your sidebar like a rainbow. No configuration needed. 9 themes included.
+- [[vcf-contacts|VCF Contacts]]: Effortlessly manage, organize, and interact with your contacts. Import, export, and structure vCard (VCF) files seamlessly while keeping all contact details accessible in your knowledge base. Includes click-to-call, right-click copy, structured metadata, and more!
+- [[draw-steel-retainer|Draw Steel Retainer]]: Provides Director facing sidebar tools for the TTRPG Draw Steel
+- [[reactive-notes|Reactive Notes]]: Transform your vault into a reactive computational environment. Create dynamic React components directly in your notes.
+- [[water-tracker|Water Tracker]]: Keep track of how much water you drunk
+- [[lawlist|LawList: Custom List Styles]]: Adds support for freely configurable, custom list styles (Edit Mode and Read Mode).
+- [[another-name|Another Name]]: Add an another name after your inline title!
+- [[note-status|Note Status]]: Enhance your note organization with a status management system. Assign and track statuses (active, on hold, completed, dropped) for your notes with a customizable interface including status pane, dropdown, and file explorer integration.
+- [[title-only-tab|Title-Only Tab]]: Set tab name to title in frontmatter for Jekyll users
+- [[data-cards|DataCards]]: Transform Dataview query results into visually appealing, customizable card layouts.
+- [[bytefield|Byte Field Diagrams]]: Adds diagrams that show how structures are laid out in memory / network.
+- [[inline-callouts|Inline Callouts]]: Add inline callouts/badges to notes.
+- [[checkbox-sort|Checkbox Sort]]: Automatically moves completed checkboxes to the end of the list
+- [[logos-refs|logos-refs]]: Easily take refs from Logos and connect them within your notes
+- [[easy-keep-view|Easy Keep View]]: Easy Keep View mimics the Google Keep interface, allowing you to view and manage your notes with image thumbnails and excerpts.
+- [[custom-commands|Custom Commands]]: Create custom commands to be executed in the command palette, and by hotkey. Currently supports opening specific notes, creating notes, inserting snippets, and executing sequences of commands.
+- [[backlink-settings|Backlink Settings]]: Allow saving default settings for the backlinks / "Linked mentions" pane at the bottom of notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
