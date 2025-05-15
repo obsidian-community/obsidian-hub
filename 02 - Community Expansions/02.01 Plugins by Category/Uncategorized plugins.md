@@ -2016,7 +2016,7 @@ Plugins which have not yet been categorized by the community.
 - [[smooth-navigator|Smooth Navigator]]: Smoothly cycle through open files and splits via the keyboard.
 - [[duplicate-line|Duplicate line]]: Duplicate line or selection
 - [[github-tracker|GitHub Tracker]]: Track GitHub issues and pull requests in your vault
-- [[wewrite|WeWrite]]: Make a workspace for writing and publishing article to WeChat MP.
+- [[wewrite|WeWrite]]: Make obsidian a powerful workspace for writing and publishing article to WeChat MP. Draft ahead  of release.
 - [[smart-vault-visualizer|Smart Vault Visualizer]]: Visualizes and manages smart clusters and cluster groups in your vault.
 - [[browser-history|Browser History]]: Sync your browser history to notes.
 - [[related-notes|Related Notes]]: Discover related notes and uncover missed connections
@@ -2094,6 +2094,32 @@ Plugins which have not yet been categorized by the community.
 - [[easy-keep-view|Easy Keep View]]: Easy Keep View mimics the Google Keep interface, allowing you to view and manage your notes with image thumbnails and excerpts.
 - [[custom-commands|Custom Commands]]: Create custom commands to be executed in the command palette, and by hotkey. Currently supports opening specific notes, creating notes, inserting snippets, and executing sequences of commands.
 - [[backlink-settings|Backlink Settings]]: Allow saving default settings for the backlinks / "Linked mentions" pane at the bottom of notes.
+- [[notes-explorer|Notes Explorer]]: View all your notes in a form of cards for better visual navigation and revision of your notes.
+- [[markdown-flip|Markdown Flip]]: flip markdown line types with smart shortcuts
+- [[convert-base64-to-png|Convert Base64 to PNG]]: Convert base64-encoded images in notes to local PNG files
+- [[memochron|MemoChron]]: Calendar integration and note creation for with support for public iCalendar URLs
+- [[paste-image-rename-convert|Paste Image Rename and Convert]]: Rename pasted images and convert them to webp or jpg
+- [[enhanced-publisher|Enhanced Publisher]]: 增强发布插件，支持图片自动存储、HTML预览和发布到微信公众号等内容平台
+- [[tasks-cleaner|Tasks Cleaner]]: Find and remove outdated tasks.
+- [[mark-open-files|Mark Open Files]]: Enhances the File Explorer by adding a marker to all the File Explorer items that are currently open in the workspace.
+- [[prettier-format|Format Automatically with Prettier]]: Format files with Prettier using built-in settings for configuration.
+- [[filename-styler|FileName Styler]]: Customize and style file names in the file explorer using patterns, prefixes, suffixes, colors, and icons.
+- [[jira-links-shortener|JIRA links shortener]]: Modifies pasted JIRA links to use JIRA issue number as the link title
+- [[youtrack-fetcher|YouTrack Fetcher]]: Fetches YouTrack issues into notes.
+- [[cut-the-fluff|Cut The Fluff]]: Make your writing clearer by checking for unnecessary complexity and clutter. 
+- [[simple-colored-folder|Simple Colored Folder]]: Automagically add color to roots folders and customize them with Style Settings.
+- [[simple-password|Simple Password]]: Protect your vault behind a password
+- [[image-border-style|Image Border Style]]: Border styling for images in markdown notes.
+- [[wakatime-kvh|Wakatime / Wakapi]]: Connect to Wakatime or Wakapi to track the time spent while browsing or writing notes.
+- [[vertical-timeline-list|Vertical Timeline List]]: Utilizes lists to create a timeline... or something resembling a timeline.
+- [[comments|Comments]]: Add comments to your markdown files to facilitate collaboration.
+- [[virtual-footer|Virtual Footer]]: Display markdown text (including dataview queries) at the bottom of all notes in a folder, without modifying them.
+- [[match-syntax|MatchSyntax]]: A flexible, regex-like lookups for your notes.
+- [[inboxer|Inboxer]]: Adds commands to quickly add entries to INBOX and TIMELINE sections
+- [[openaugi|OpenAugi]]: Parse your voice notes into atomic notes, tasks, and summaries. OpenAugi is the voice to self-organizing second brain. While taking a voice note say 'auggie' to help the agent. Augmented Intelligence is AI for thinkers.
+- [[theme-by-folder|Theme by Folder]]: Automatically switch themes based on the folder of the opened note
+- [[performosu|Performium]]: Integrates the osu! Performance Points system to gamify your note-taking experience!
+- [[github|GitHub Integration]]: Import your starred GitHub repositories into notes with metadata
 
 
 %% Hub footer: Please don't edit anything below this line %%
