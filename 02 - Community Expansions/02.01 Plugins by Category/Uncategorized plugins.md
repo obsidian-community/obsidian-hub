@@ -2097,7 +2097,7 @@ Plugins which have not yet been categorized by the community.
 - [[notes-explorer|Notes Explorer]]: View all your notes in a form of cards for better visual navigation and revision of your notes.
 - [[markdown-flip|Markdown Flip]]: flip markdown line types with smart shortcuts
 - [[convert-base64-to-png|Convert Base64 to PNG]]: Convert base64-encoded images in notes to local PNG files
-- [[memochron|MemoChron]]: Calendar integration and note creation for with support for public iCalendar URLs
+- [[memochron|MemoChron]]: Calendar integration and note creation with support for public iCalendar URLs
 - [[paste-image-rename-convert|Paste Image Rename and Convert]]: Rename pasted images and convert them to webp or jpg
 - [[enhanced-publisher|Enhanced Publisher]]: 增强发布插件，支持图片自动存储、HTML预览和发布到微信公众号等内容平台
 - [[tasks-cleaner|Tasks Cleaner]]: Find and remove outdated tasks.
@@ -2111,7 +2111,7 @@ Plugins which have not yet been categorized by the community.
 - [[simple-password|Simple Password]]: Protect your vault behind a password
 - [[image-border-style|Image Border Style]]: Border styling for images in markdown notes.
 - [[wakatime-kvh|Wakatime / Wakapi]]: Connect to Wakatime or Wakapi to track the time spent while browsing or writing notes.
-- [[vertical-timeline-list|Vertical Timeline List]]: Utilizes lists to create a timeline... or something resembling a timeline.
+- [[vertical-timeline-list|Vertical Timeline List]]: Utilizes task lists to create a timeline... or something resembling a timeline.
 - [[comments|Comments]]: Add comments to your markdown files to facilitate collaboration.
 - [[virtual-footer|Virtual Footer]]: Display markdown text (including dataview queries) at the bottom of all notes in a folder, without modifying them.
 - [[match-syntax|MatchSyntax]]: A flexible, regex-like lookups for your notes.
@@ -2120,6 +2120,21 @@ Plugins which have not yet been categorized by the community.
 - [[theme-by-folder|Theme by Folder]]: Automatically switch themes based on the folder of the opened note
 - [[performosu|Performium]]: Integrates the osu! Performance Points system to gamify your note-taking experience!
 - [[github|GitHub Integration]]: Import your starred GitHub repositories into notes with metadata
+- [[zhongwen-reader|Zhongwen Reader]]: Chinese-English hover dictionary and vocabulary management plugin.
+- [[solidtime-integration|SolidTime Integration]]: Connect SolidTime to track your work time directly within your vault.
+- [[biblib|BibLib]]: Create literature notes and manage bibliographic references.
+- [[regex-line-filter|Regex Line Filter]]: Filters the active note to show only lines matching a regex, allowing edits.
+- [[wayback-archiver|Wayback Archiver]]: Automatically archives web links via Wayback Machine and appends archived versions in notes.
+- [[todo-highlighter|TODO Highlighter]]: Highlights TODO regex as green.
+- [[hadith-lookup|Hadith Lookup]]: Inserts Hadith and Quranic ayat and passages using a reference ID from the Ḥadīth Unlocked API (https://hadithunlocked.com)
+- [[yuque-publish|Yuque Publish]]: Publish your notes to Yuque.
+- [[hledger-notes|Hledger Notes]]: Create and manage hledger entries directly in your vault.
+- [[markfilesync|Markwhen File Sync]]: Synchronize properties from your notes with a Markwhen timeline file
+- [[typecho|Typecho]]: Post the file to Typecho
+- [[zen-space|Zen Space]]: A focused file explorer for Obsidian showing only the files in the current folder.
+- [[pasterly|Pasterly]]: Automatically upload clipboard images to Firebase Storage and insert them as markdown links.
+- [[mp-preview|MP Preview]]: Preview and convert Markdown files to MP format
+- [[viewer-ftags|Viewer ftags]]: Add file's ftags as chips at the top of the markdown view.
 
 
 %% Hub footer: Please don't edit anything below this line %%
