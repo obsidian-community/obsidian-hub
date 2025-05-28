@@ -366,7 +366,7 @@ Plugins which have not yet been categorized by the community.
 - [[lilypond|Lilypond]]: Lilypond support in Obsidian
 - [[obsidian-limelight|Limelight]]: Put a spotlight on your active pane
 - [[obsidian-lineup-builder|Lineup Builder]]: Build football lineups in Obsidian.
-- [[obsidian-link-embed|Link Embed]]: Instantly turn plain links in your notes into beautiful, Notion-style rich link previews. The plugin automatically fetches page metadata (title, description, favicon & image) and renders it as an elegant, card-styled embed—so your vault stays informative and visually appealing with zero extra effort.
+- [[obsidian-link-embed|Link Embed]]: This plugin auto-fetches page metadata to embed Notion-style link preview cards.
 - [[link-exploder|Link Exploder]]: Link Exploder is a Obsidian plugin that creates a canvas from a note, embedding it's incoming (i.e. backlinks) and outgoing links onto the canvas (as well as the their linked notes).
 - [[link-favicon|Link Favicons]]: See the favicon for a linked website. 
 - [[link-nodes-in-canvas|Link Nodes In Canvas]]: A plugin for you to add edges between notes in Canvas based on their links.
@@ -520,7 +520,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-prozen|ProZen]]: Enter Zen mode to focus on writing. The plugin expands current tab to full screen removing everything but content.
 - [[progressbar|ProgressBar]]: Render CodeBlock into a ProgressBar based on Time or Manually.
 - [[obsidian-project-garden|Project Garden]]: See all your projects in one place
-- [[obsidian-projects|Projects]]: Plain text project planning.
 - [[prompt|Prompt]]: Shows a random text prompt when triggered
 - [[pseudocode-in-obs|Pseudocode]]: This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.
 - [[pubscale|PubScale]]: Seamlessly sync markdown notes into PlanetScale tables.
@@ -1579,7 +1578,6 @@ Plugins which have not yet been categorized by the community.
 - [[newledge|新枝Newledge]]: Import Newledge data.
 - [[immersive-translate|Immersive Translate]]: A free-to-use translatation service for foreign language markdown file.
 - [[scripture-indexer|Scripture Indexer]]: Indexes references to scriptures in notes.
-- [[open-sidebar-on-hover|Open Sidebar on Hover]]: Opens the sidebar by hovering over it.
 - [[onlyworlds-builder|OnlyWorlds Builder]]: World building structure with OnlyWorlds integration
 - [[command-tracker|Command Tracker]]: Track the number of times the command is used.
 - [[llm-summary|LLM Summary]]: Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.
@@ -2044,7 +2042,7 @@ Plugins which have not yet been categorized by the community.
 - [[mention-things|Mention Things]]: Define a list of prefixes to trigger an autocomplete suggestion to insert a link.
 - [[progress-tracker|ProgressTracker]]: Track task completion with a visual progress bar in your sidebar, auto update column Kanban
 - [[easy-copy|Easy Copy]]: Easily copy the text within inline code, bold text (and many other formats), or quickly generate an elegant link to a heading.
-- [[open-tab-settings|Open Tab Settings]]: Add settings to open in new tab by default and prevent duplicate tabs.
+- [[open-tab-settings|Open Tab Settings]]: Adds options to customize how tabs are opened, including open in new tab by default, preventing duplicate tabs, and more.
 - [[image-share|Image Share]]: Share selected text as beautiful images
 - [[clippermaster|ClipperMaster]]: Works with the ClipperMaster Chrome extension to clip structured content from the web and save it to your vault as Markdown files.
 - [[paste-reformatter|Paste Reformatter]]: Reformat pasted text for precise control.
@@ -2135,6 +2133,14 @@ Plugins which have not yet been categorized by the community.
 - [[pasterly|Pasterly]]: Automatically upload clipboard images to Firebase Storage and insert them as markdown links.
 - [[mp-preview|MP Preview]]: Preview and convert Markdown files to MP format
 - [[viewer-ftags|Viewer ftags]]: Add file's ftags as chips at the top of the markdown view.
+- [[taskrobin|Sync Emails]]: Sync and save emails and attachment files to your vault with TaskRobin.
+- [[statuslol-post|Status.lol Publisher]]: Post statuses to status.lol, log notes option, and mobile compatibility.
+- [[come-through|Come Through]]: Drill flashcards using spaced repetition.
+- [[pdf-printer|PDF Printer]]: Convert PDF documents to images directly in your notes without external dependencies.
+- [[monokakido-copilot|Monokakido Copilot]]: During editing, simply double-press the option key to search with the Dictionaries by Monokakido.
+- [[live-wallpaper|Live Background]]: Add dynamic live wallpapers (images/videos) to your workspace with customizable effects
+- [[images-to-notes|Images to Notes]]: Turn photos of handwritten or printed notes into Markdown using AI.
+- [[themed-discord-rpc|Themed Discord RPC]]: A Customizable Discord RPC
 
 
 %% Hub footer: Please don't edit anything below this line %%
