@@ -9,9 +9,9 @@ publish: true
 %% ----- Badges ----- %%
 
 ![Downloads](https://img.shields.io/badge/downloads-4647-573E7A?style=for-the-badge&logo=)
-![GitHub last commit](https://img.shields.io/github/last-commit/Avesend/obsidian-lumines?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
-![GitHub issues by-label](https://img.shields.io/github/issues/Avesend/obsidian-lumines/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
-![GitHub Repo stars](https://img.shields.io/github/stars/Avesend/obsidian-lumines?color=573E7A&logo=github&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/danielkhmara/obsidian-lumines?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
+![GitHub issues by-label](https://img.shields.io/github/issues/danielkhmara/obsidian-lumines/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
+![GitHub Repo stars](https://img.shields.io/github/stars/danielkhmara/obsidian-lumines?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -19,18 +19,18 @@ publish: true
 
 # Lumines
 
-Repository: [GitHub](https://github.com/Avesend/obsidian-lumines)
-Designed by: [[Avesend]]
+Repository: [GitHub](https://github.com/danielkhmara/obsidian-lumines)
+Designed by: [[danielkhmara]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/Avesend/obsidian-lumines/raw/HEAD/obsidian-lumines.png)
+![screenshot](https://github.com/danielkhmara/obsidian-lumines/raw/HEAD/obsidian-lumines.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[Avesend#Sponsor this author]] %%
+%% ![[danielkhmara#Sponsor this author]] %%
 
 
 ## Features
