@@ -215,6 +215,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mint-Breeze|Mint-Breeze]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/MistyMauve|MistyMauve]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Modern Dark|Modern Dark]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Modern GenZ Vibedose|Modern GenZ Vibedose]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Molecule|Molecule]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/mono black (monochrome, charcoal)|mono black (monochrome, charcoal)]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Mono High Contrast|Mono High Contrast]]
