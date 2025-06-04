@@ -112,6 +112,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula Official|Dracula Official]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula Plus|Dracula Plus]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dracula Slim|Dracula Slim]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Duality|Duality]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dune|Dune]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dunite|Dunite]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Dust|Dust]]
