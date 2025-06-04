@@ -159,7 +159,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-contacts|Contacts]]: Allows you to manage and organize your contacts.
 - [[control-characters|Control Characters]]: Show control/non-printing characters in edit mode.
 - [[cooklang-obsidian|Cooklang Editor]]: Edit and display Cooklang recipes in Obsidian
-- [[copilot|Copilot]]: An AI Copilot in Obsidian.
+- [[copilot|Copilot]]: Your AI Copilot: Chat with Your Second Brain, Learn Faster, Work Smarter.
 - [[copilot-auto-completion|Copilot auto completion]]: Adds a highly configurable copilot-like auto-completion to Obsidian using the ChatGPT API.
 - [[copy-inline-code|Copy Inline Code]]: Easily copy the contents of an inline code element with a single click.
 - [[obsidian-copy-search-url|Copy Search URL]]: Adds a button to the search view for copying the Obsidian search URL.
@@ -255,7 +255,7 @@ Plugins which have not yet been categorized by the community.
 - [[flashcard-learning|Flashcard Learning]]: This is a pluggin that implements how flashcards can be used inside Obsidian in order to learn and remember things.
 - [[flashcards-llm|Flashcards LLM]]: Use Large Language Models (such as ChatGPT) to automatically generate flashcards from obsidian notes
 - [[fleeting-notes-obsidian|Fleeting Notes Sync]]: This is a plugin to sync Fleeting Notes with Obsidian
-- [[floating-highlights|Floating Highlights]]: Enhanced highlights for Obsidian
+- [[floating-highlights|Floating Highlights]]: Enhanced highlights for Obsidian with customizable animations and notes
 - [[float-search|Floating Search]]: You can use search view in modal/leaf/popout window now.
 - [[flomo-importer|Flomo Importer]]: Make Flomo Memos to Obsidian Notes
 - [[flowershow|Flowershow]]: Publish with Flowershow directly from your Obsidian vault.
@@ -793,7 +793,6 @@ Plugins which have not yet been categorized by the community.
 - [[day-planner-og|Day Planner (OG)]]: A plugin to help you plan your day and setup pomodoro timers; fork of the original plugin by James Lynch (which stopped at 0.5.8) which preserves the look/feel and behavior of the original.
 - [[automatic-table-of-contents|Automatic Table Of Contents]]: Create a table of contents in a note, that updates itself when the note changes
 - [[template-search-library|Search Templates Library]]: Allows you to save search templates for future re-use
-- [[vertical-tabs-view|Vertical Tabs View]]: Provides a vertical tabs view.
 - [[just-share-please|Just Share Please]]: Quickly and easily share individual notes online using an anonymized link. Also easy to self-host!
 - [[potato-indexer|Potato Indexer]]: Allow generation of a content index based on your selection or of the whole file.
 - [[typewriter-mode|Typewriter Mode]]: Typewriter scroll, highlight current line, dim unfocused paragraphs and sentences, writing focus, restore cursor position and more.
@@ -2111,13 +2110,13 @@ Plugins which have not yet been categorized by the community.
 - [[wakatime-kvh|Wakatime / Wakapi]]: Connect to Wakatime or Wakapi to track the time spent while browsing or writing notes.
 - [[vertical-timeline-list|Vertical Timeline List]]: Utilizes task lists to create a timeline... or something resembling a timeline.
 - [[comments|Comments]]: Add comments to your markdown files to facilitate collaboration.
-- [[virtual-footer|Virtual Footer]]: Display markdown text (including dataview queries) at the bottom of all notes in a folder, without modifying them.
+- [[virtual-footer|Virtual Footer]]: Display markdown text (including dataview queries or Obsidian bases) at the bottom or top of all notes which match a specified rule, without modifying them.
 - [[match-syntax|MatchSyntax]]: A flexible, regex-like lookups for your notes.
 - [[inboxer|Inboxer]]: Adds commands to quickly add entries to INBOX and TIMELINE sections
 - [[openaugi|OpenAugi]]: Parse your voice notes into atomic notes, tasks, and summaries. OpenAugi is the voice to self-organizing second brain. While taking a voice note say 'auggie' to help the agent. Augmented Intelligence is AI for thinkers.
 - [[theme-by-folder|Theme by Folder]]: Automatically switch themes based on the folder of the opened note
 - [[performosu|Performium]]: Integrates the osu! Performance Points system to gamify your note-taking experience!
-- [[github|GitHub Integration]]: Import your starred GitHub repositories into notes with metadata
+- [[github|GitHub Integration]]: Import your starred GitHub repositories and pull requests into notes with metadata
 - [[zhongwen-reader|Zhongwen Reader]]: Chinese-English hover dictionary and vocabulary management plugin.
 - [[solidtime-integration|SolidTime Integration]]: Connect SolidTime to track your work time directly within your vault.
 - [[biblib|BibLib]]: Create literature notes and manage bibliographic references.
@@ -2141,6 +2140,19 @@ Plugins which have not yet been categorized by the community.
 - [[live-wallpaper|Live Background]]: Add dynamic live wallpapers (images/videos) to your workspace with customizable effects
 - [[images-to-notes|Images to Notes]]: Turn photos of handwritten or printed notes into Markdown using AI.
 - [[themed-discord-rpc|Themed Discord RPC]]: A Customizable Discord RPC
+- [[ticktick-quickadd-task|TickTick Quick Add Task]]: Create TickTick tasks from text blocks with automatic Obsidian URI links. Requires Advanced URI plugin.
+- [[japanese-helper|Japanese note taking helper]]: Convert romaji to hiragana and katakana to streamline Japanese note‑taking.
+- [[opener|Opener: New Tab by Default]]: Open links in new tabs by default. If the note is already open in another tab, it switches to it. Can also open PDFs and other file formats in System Apps when cmd/ctrl is hold.
+- [[vault-llm-assistant|Vault LLM Assistant]]: Uses AI to answer questions and create notes about your vault with proper citations
+- [[simple-tab-indent|Simple Tab Indent]]: Pressing Tab inserts a zero-width space + real tab, giving true indentation without triggering Markdown code blocks. Includes a settings panel to change the CSS tab width.
+- [[markdown-hijacker|Synaptic Bridge]]: Beyond the Vault. One hub for every Markdown, everywhere
+- [[auto-note-importer|Auto Note Importer]]: Automatically import notes from an external database like Airtable into your Vault.
+- [[create-note-with-date|Create Note with Date in This Directory]]: Create a new note with today's date in the current directory
+- [[daily-task-auto-generator|Daily Task Auto Generator]]: Automatically generate daily tasks with custom templates, statistics and multi-language support
+- [[yaml-table|YAML Table]]: Transform YAML code blocks into HTML tables for better visualization
+- [[notemd|Notemd]]: Enhances notes using LLMs: 1) Processes text to add [[wiki-links]] and create concept notes. 2) Performs web research (Tavily/DuckDuckGo) and summarizes topics. 3) Generates content from note titles. Supports multiple LLM providers and customizable output.
+- [[book-smith|Book Smith]]: Simplify long-form writing and book creation. Organize chapters, track progress, and export your manuscript in various formats for a seamless publishing workflow.
+- [[note-sync|Note Sync]]: Sync notes or plugins between vaults.
 
 
 %% Hub footer: Please don't edit anything below this line %%
