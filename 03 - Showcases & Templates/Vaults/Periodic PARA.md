@@ -9,7 +9,7 @@ tags:
 publish: true
 ---
 
-# Periodic PARA
+# LifeOS
 Author: [[leyang]]
 
 %% Add a description below this comment. It doesn't need to be long: one or two sentences should be a good start. 
@@ -28,15 +28,14 @@ Longer descriptions are also welcome! A few things you could cover are:
 
 - This vault called [LifeOS](https://forum.obsidian.md/t/building-my-second-brain-with-obsidian/62934) which assist in practicing the PARA system with periodic notes.
 
-![](https://github.com/quanru/obsidian-periodic-para/blob/main/assets/periodic-para-plugin-en.png)
-![](https://github.com/quanru/obsidian-periodic-para/blob/main/assets/periodic-para-plugin-add-1-en.png)
-![](https://github.com/quanru/obsidian-periodic-para/blob/main/assets/periodic-para-plugin-add-2-en.png)
+![](https://lifeos.vip/guide/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E7%B3%BB%E7%BB%9F%E5%9B%BE-%E8%BF%9E%E6%8E%A5-EN.webp)
+![](https://lifeos.vip/guide/LifeOS-%E7%A4%BA%E4%BE%8B-%E6%A0%87%E6%B3%A8-EN.webp)
 
 ## Download 
 
 %% Add the link where people can download this vault or kit %%
 
-Link: https://github.com/quanru/obsidian-example-LifeOS/archive/refs/heads/english-version.zip
+Link: https://github.com/quanru/obsidian-example-lifeos
 
 %% If there are any steps one needs to complete to download the starter vault or kit list them here in an ordered list (e.g. uncomment the next comment)
 %%
