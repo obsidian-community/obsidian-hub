@@ -1044,7 +1044,7 @@ Plugins which have not yet been categorized by the community.
 - [[beautitab|Beautitab]]: Creates a customizable new tab view with beautiful backgrounds, quotes, search, and more.
 - [[consecutive-lists|Consecutive Lists]]: Create consecutive lists that are displayed separately in reading mode.
 - [[alt-click-to-copy|Alt-Click to Copy]]: Alt-click to copy code!
-- [[hatena|Hatena Blog Publisher]]: Post directly to your Hatena Blog.
+- [[hatena|Hatena Blog Publisher]]: Publish your Obsidian notes directly to Hatena Blog
 - [[reason|Enzyme]]: a REPL to digest your thoughts
 - [[icloud-contacts|iCloud Contacts]]: Imports contacts from iCloud and manages a note for each contact.
 - [[dynamic-text-concealer|Dynamic Text Concealer]]: Conceal or replace user configured text patterns in Live Preview and Read Mode.
@@ -1794,7 +1794,7 @@ Plugins which have not yet been categorized by the community.
 - [[clipper-catalog|Clipper Catalog]]: A catalog view of all the clippings gathered with a common source property.
 - [[hanko|Hanko]]: Register and paste any text.
 - [[easy-test|Easy Test]]: Easily create simple tests
-- [[keep-the-rhythm|Keep the Rhythm]]: Visualize daily word count with a heatmap.
+- [[keep-the-rhythm|Keep the Rhythm]]: Visualize and track your writing habit!
 - [[boardgame-search|Boardgame Search]]: Helps board game enthusiasts track their game collection seamlessly within their notes.
 - [[sentinel|Sentinel]]: Trigger actions based on document visibility changes.
 - [[shaahmaat-md|ShaahMaat-md]]: Render chess positions.
@@ -2064,7 +2064,7 @@ Plugins which have not yet been categorized by the community.
 - [[image-embedder|Image Embedder]]: Automatically downloads and embeds images from URLs when pasting
 - [[about-blank|About Blank]]: Customize the empty file (New tab) itself a little bit by adding "Commands" or "Open files". And edit these: Grouping, Set icon, Ask before execution, Register as a new command.
 - [[daily-note-automater|Daily Notes Automater]]: Automates the creation of a daily note
-- [[jupymd|JupyMD]]: Link and sync Markdown notes with Jupyter notebooks via Jupytext.
+- [[jupymd|JupyMD]]: Use Jupyter notebooks in Obsidian.
 - [[reference-link-render|Reference Link Render]]: Enables reference-style Markdown links in reading mode and hides link definitions, like in Kramdown
 - [[reveal-folded|Reveal Folded]]: Reveal the current file in the file explorer while collapsing all other tree items.
 - [[tick-tones|Tick Tones]]: Plays a tone when you tick a checkbox
