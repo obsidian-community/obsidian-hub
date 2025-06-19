@@ -644,7 +644,7 @@ Plugins which have not yet been categorized by the community.
 - [[tasks-calendar-wrapper|Tasks Calendar Wrapper]]: This is a simple wrapper for Obsidian-Tasks-Calendar (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).
 - [[telegram-sync|Telegram Sync]]: Transfer messages and files from Telegram to Obsidian.
 - [[obsidian-telegraph-publish|Telegraph Publish]]: 
-- [[terminal|Terminal]]: Integrate consoles, shells, and terminals inside Obsidian.
+- [[terminal|Terminal]]: Integrate consoles, shells, and terminals.
 - [[testing-vault|Testing Vault]]: This allows a developer to make a random vault of arbitrary size for testing their plugins.
 - [[obsidian-dataset-aid|Text Dataset Aid]]: This plugin for obsidian aids in the creation of fine-tuning datasets for language models.
 - [[text-extractor|Text Extractor]]: A (companion) plugin to facilitate the extraction of text from images (OCR) and PDFs.
@@ -716,7 +716,7 @@ Plugins which have not yet been categorized by the community.
 - [[whisper|Whisper]]: Speech-to-text in Obsidian using OpenAI Whisper
 - [[wielder|Wielder]]: Clojure inside Obsidian
 - [[wikidata-importer|Wikidata Importer]]: Import data from Wikidata into your vault.
-- [[wikipedia-search|Wikipedia Search]]: Search, link and open Wikipedia/Wiki articles, all within the app!
+- [[wikipedia-search|Wikipedia Helper]]: Search, link, insert and open Wikipedia/Wikimedia articles.
 - [[obsidian-word-sprint|Word Sprint]]: Word Sprint for Obsidian plugin for your writing projects like Nanowrimo
 - [[obsidian-wordpress|WordPress]]: A plugin for publishing Obsidian documents to WordPress.
 - [[obsidian-wordnik|Wordnik Definitions]]: Grabs information from Wordnik for a topic and brings it into Obsidian notes
@@ -1044,7 +1044,7 @@ Plugins which have not yet been categorized by the community.
 - [[beautitab|Beautitab]]: Creates a customizable new tab view with beautiful backgrounds, quotes, search, and more.
 - [[consecutive-lists|Consecutive Lists]]: Create consecutive lists that are displayed separately in reading mode.
 - [[alt-click-to-copy|Alt-Click to Copy]]: Alt-click to copy code!
-- [[hatena|Hatena Blog Publisher]]: Post directly to your Hatena Blog.
+- [[hatena|Hatena Blog Publisher]]: Publish your Obsidian notes directly to Hatena Blog
 - [[reason|Enzyme]]: a REPL to digest your thoughts
 - [[icloud-contacts|iCloud Contacts]]: Imports contacts from iCloud and manages a note for each contact.
 - [[dynamic-text-concealer|Dynamic Text Concealer]]: Conceal or replace user configured text patterns in Live Preview and Read Mode.
@@ -1420,7 +1420,7 @@ Plugins which have not yet been categorized by the community.
 - [[datepicker|Datepicker]]: Use a date picker to modify and insert date/time anywhere in your markdown notes.
 - [[ai-chat-as-md|AI Chat as Markdown]]: Multiple branching AI conversations as Markdown hierarchy
 - [[sidebar-resizer|Sidebar Resizer]]: Adjust the sidebar sizes easily.
-- [[refresh-preview|Refresh Preview]]: Allows to refresh preview mode without reopening the note
+- [[refresh-preview|Refresh Any View]]: Allows to refresh any view without reopening it.
 - [[hash-pasted-image|Hash Pasted Image]]: Auto rename pasted images added to the vault via hash algorithm SHA-512
 - [[yanki|Yanki]]: Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.
 - [[iconic|Iconic]]: Customize your icons and their colors directly from the UI, including tabs, files & folders, bookmarks, tags, properties, and ribbon commands.
@@ -1475,7 +1475,7 @@ Plugins which have not yet been categorized by the community.
 - [[rich-text-editor-shortcuts|Rich Text Editor Shortcuts]]: Create and toggle checkboxes, paste links wrapping your current selection, and toggle underline without leaving the keyboard.
 - [[share-via-notepad-tab|Share via Notepad Tab]]: Share notes via Notepad Tab (https://notepadtab.com).
 - [[recent-tab-switcher|Recent Tab Switcher]]: Switch to the most recently used tab.
-- [[marker-api|Marker PDF to MD]]: Convert PDFs to beautiful rich Markdown notes with tables, images, and OCR. Works with self-hosted Marker API and free Mistral OCR API!
+- [[marker-api|OCR-AI]]: Convert PDFs to beautiful rich Markdown notes with tables, images, formulas and OCR. Works with self-hosted Marker API and free Mistral OCR API!
 - [[hexo-publisher|Hexo Publisher]]: Publish your notes to Hexo
 - [[inline-spoilers|Inline spoilers]]: Adds Discord-like syntax for inline spoilers.
 - [[enhanced-symbols-prettifier|Enhanced Symbols Prettifier]]: Replace/substitute the symbols with actual symbols you commonly type. It also works for emojis shortcuts, abbreviations, greek letters, math symbols or other snippets/aliases you define
@@ -1636,7 +1636,7 @@ Plugins which have not yet been categorized by the community.
 - [[blue-star|Blue Star]]: Generate Anki flashcards in multiple ways.
 - [[tree-search|Tree Search]]: The all-in-one quick switcher and bookmark manager. Zero-effort hierachical knowledge graph
 - [[hexo-toolkit|Hexo Toolkit]]: Maintain Hexo posts.
-- [[unearthed-app|Unearthed (Kindle Sync)]]: Auto Sync Kindle Highlights and Daily Reflection via Unearthed
+- [[unearthed-app|Unearthed (Kindle & KOReader Sync)]]: Auto Sync Kindle/KOReader Highlights and Daily Reflection via Unearthed
 - [[text-finder|Text Finder]]: Provides a find/replace window in edit mode similar to VSCode (supports regular expressions and case sensitivity).
 - [[svg-styler|SVG Style Editor]]: Change the color and other style properies of an embded SVG file
 - [[workout-tracker|Workout Tracker]]: Log workouts, track progress, and view exercise statistic.
@@ -1794,7 +1794,7 @@ Plugins which have not yet been categorized by the community.
 - [[clipper-catalog|Clipper Catalog]]: A catalog view of all the clippings gathered with a common source property.
 - [[hanko|Hanko]]: Register and paste any text.
 - [[easy-test|Easy Test]]: Easily create simple tests
-- [[keep-the-rhythm|Keep the Rhythm]]: Visualize daily word count with a heatmap.
+- [[keep-the-rhythm|Keep the Rhythm]]: Visualize and track your writing habit!
 - [[boardgame-search|Boardgame Search]]: Helps board game enthusiasts track their game collection seamlessly within their notes.
 - [[sentinel|Sentinel]]: Trigger actions based on document visibility changes.
 - [[shaahmaat-md|ShaahMaat-md]]: Render chess positions.
@@ -2016,7 +2016,7 @@ Plugins which have not yet been categorized by the community.
 - [[wewrite|WeWrite]]: Make obsidian a powerful workspace for writing and publishing article to WeChat MP. Draft ahead  of release.
 - [[smart-vault-visualizer|Smart Vault Visualizer]]: Visualizes and manages smart clusters and cluster groups in your vault.
 - [[browser-history|Browser History]]: Sync your browser history to notes.
-- [[related-notes|Related Notes]]: Discover related notes and uncover missed connections
+- [[related-notes|Related Notes]]: Discover related notes and uncover missed connections.
 - [[rename-file-to-selection|Rename File to Selection]]: Rename your file to the current text selection.
 - [[white-noise|White Noise]]: Play white noise to help you focus on your work
 - [[anki-integration|Anki Integration]]: Create flashcards from your notes with a seamless interface, structuring them with metadata and syncing effortlessly via AnkiConnect.
@@ -2064,7 +2064,7 @@ Plugins which have not yet been categorized by the community.
 - [[image-embedder|Image Embedder]]: Automatically downloads and embeds images from URLs when pasting
 - [[about-blank|About Blank]]: Customize the empty file (New tab) itself a little bit by adding "Commands" or "Open files". And edit these: Grouping, Set icon, Ask before execution, Register as a new command.
 - [[daily-note-automater|Daily Notes Automater]]: Automates the creation of a daily note
-- [[jupymd|JupyMD]]: Link and sync Markdown notes with Jupyter notebooks via Jupytext.
+- [[jupymd|JupyMD]]: Use Jupyter notebooks in Obsidian.
 - [[reference-link-render|Reference Link Render]]: Enables reference-style Markdown links in reading mode and hides link definitions, like in Kramdown
 - [[reveal-folded|Reveal Folded]]: Reveal the current file in the file explorer while collapsing all other tree items.
 - [[tick-tones|Tick Tones]]: Plays a tone when you tick a checkbox
@@ -2153,6 +2153,22 @@ Plugins which have not yet been categorized by the community.
 - [[notemd|Notemd]]: Enhances notes using LLMs: 1) Processes text to add [[wiki-links]] and create concept notes. 2) Performs web research (Tavily/DuckDuckGo) and summarizes topics. 3) Generates content from note titles. Supports multiple LLM providers and customizable output.
 - [[book-smith|Book Smith]]: Simplify long-form writing and book creation. Organize chapters, track progress, and export your manuscript in various formats for a seamless publishing workflow.
 - [[note-sync|Note Sync]]: Sync notes or plugins between vaults.
+- [[countdown-to|Countdown To]]: Create countdown progress bars in your notes
+- [[timelive|Timelive]]: Turn a list of dates into a timeline.
+- [[note-mover-shortcut|NoteMover shortcut]]: Quickly and easily move notes to a predefined folder. Perfect for organizing your notes.
+- [[macros|Macros]]: Track and visualize your daily macros, meals and nutrition inside your notes.
+- [[yearly-glance|Yearly Glance]]: Year at a glance - overview of annual events with customizable management options.
+- [[template-filename|Template Filename]]: Create notes with templatable filenames, using date/time formats, random strings, and custom base numbering systems.
+- [[vim-marker-sharpener|Vim Marker Sharpener]]: Text formatting commands in Vim mode. Supports applying styles (bold, italic, etc.). Works correctly in visual mode with selected text.
+- [[pure-chat-llm|Pure Chat LLM]]: Turn notes into conversations with chatGPT
+- [[openwords|OpenWords]]: 用于英语学习中背单词与单词管理的插件
+- [[course-module-loader|Course Module Loader]]: Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.
+- [[note_uid_generator|Note UID Generator]]: Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).
+- [[ace-code-editor|Ace Code Editor]]: An enhanced code editor using Ace editor, providing syntax highlighting, code folding, and other advanced editing features.
+- [[folder-filelist|Folder Filelist]]: Create and maintain a list of wikilinks to files in specified folders
+- [[custom-selected-word-count|Custom Selected Word Count]]: Advanced word counting for selected text with customizable path exclusion, UI options, and history tracking.
+- [[google-contacts|Google Contacts]]: Synchronize your Google contacts with separate contact-notes
+- [[latex-math|LaTeX Math]]: Evaluate, solve and much more within LaTeX blocks using Sympy.
 
 
 %% Hub footer: Please don't edit anything below this line %%
