@@ -1269,7 +1269,7 @@ Plugins which have not yet been categorized by the community.
 - [[image-search|Image Search]]: Search and insert images using Google API
 - [[lava-vtt-uploader|Lava VTT Uploader]]: Display images from your vault in Lava VTT.
 - [[outline-task-list|Outline to task list]]: Convert a note's outline to a task list.
-- [[systemsculpt-ai|SystemSculpt AI]]: A powerful AI assistant that helps you sculpt your knowledge base with artificial intelligence through intelligent chat, document analysis, and seamless integrations.
+- [[systemsculpt-ai|SystemSculpt AI]]: A powerful AI that helps you sculpt your knowledge base with artificial intelligence through intelligent chat, document analysis, and seamless integrations.
 - [[generate-hash|Generate Hash]]: Generates a cryptographically strong pseudorandom hash.
 - [[simple-citations|Simple Citations]]: Add & update simple literature notes from Zotero.
 - [[custom-new-file-name|Custom new file name]]: Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.
@@ -1929,13 +1929,13 @@ Plugins which have not yet been categorized by the community.
 - [[waveform-player|Waveform Player]]: Render audio files as waveforms
 - [[media-slider|Media Slider]]: A media slider for images, gifs, audios, videos, and PDFs.
 - [[jade-publisher|Jade Publisher]]: Publish your notes to your Jade service.
-- [[sync-vault-ce|Sync Vault CE]]: sync with cloud disk fast and safely
+- [[sync-vault-ce|Sync Vault CE]]: Self-controlled sync across all platforms, Aliyun & & Jianguoyun & InifiCloud supported
 - [[bible-sidecar|Bible sidecar]]: Open the bible in your prefered translation in a splitscreen view
 - [[tidit|tidit]]: tidit adds timestamps to your document as you type — when you want it, how you want it, where you want it.
 - [[copy-local-graph-paths|Copy Local Graph Paths]]: Copies file paths of local graph links to clipboard.
 - [[imswitch-mathblock|IMSwitch in Math Block]]: Automatically switch input method in math block
 - [[note-metrics|Daily Note Metrics]]: Parses the tags in your Daily Notes to create interactive charts in a dashboard view.
-- [[musical-text-highlighter|Musical Text]]: Highlight sentences with color based on their length as you write.
+- [[musical-text-highlighter|Musical Text]]: Color codes sentences by length to visualize prose rhythm
 - [[mode-manager|Mode manager]]: Provide an easier way to manipulate reading/editing and preview/source mode
 - [[note-placeholder|Note Placeholder]]: Replaces text of note link to placeholder in view mode.
 - [[uri-converter|URI Converter]]: Convert URIs to internal links.
@@ -2148,7 +2148,7 @@ Plugins which have not yet been categorized by the community.
 - [[markdown-hijacker|Synaptic Bridge]]: Beyond the Vault. One hub for every Markdown, everywhere
 - [[auto-note-importer|Auto Note Importer]]: Automatically import notes from an external database like Airtable into your Vault.
 - [[create-note-with-date|Create Note with Date in This Directory]]: Create a new note with today's date in the current directory
-- [[daily-task-auto-generator|Daily Task Auto Generator]]: Automatically generate daily tasks with custom templates, statistics and multi-language support
+- [[daily-task-auto-generator|Daily Task Auto Generator]]: Automatically generate daily tasks in specified folders with custom templates
 - [[yaml-table|YAML Table]]: Transform YAML code blocks into HTML tables for better visualization
 - [[notemd|Notemd]]: Enhances notes using LLMs: 1) Processes text to add [[wiki-links]] and create concept notes. 2) Performs web research (Tavily/DuckDuckGo) and summarizes topics. 3) Generates content from note titles. Supports multiple LLM providers and customizable output.
 - [[book-smith|Book Smith]]: Simplify long-form writing and book creation. Organize chapters, track progress, and export your manuscript in various formats for a seamless publishing workflow.
@@ -2169,6 +2169,20 @@ Plugins which have not yet been categorized by the community.
 - [[custom-selected-word-count|Custom Selected Word Count]]: Advanced word counting for selected text with customizable path exclusion, UI options, and history tracking.
 - [[google-contacts|Google Contacts]]: Synchronize your Google contacts with separate contact-notes
 - [[latex-math|LaTeX Math]]: Evaluate, solve and much more within LaTeX blocks using Sympy.
+- [[llm-docs|LLM docs]]: Simple LLM (AI) client using pure markdown documents
+- [[log-keeper|Log Keeper]]: Generate time stamps automatically as changes are made to a note.
+- [[streams|Streams]]: Create and manage multiple Daily Note streams
+- [[layout-manager|Layout Manager]]: Manage layouts with context
+- [[todo-txt-mode|Todo.txt Mode]]: Support for todo.txt file format with syntax highlighting and task management
+- [[move-files|Move Files]]: Moves all the files linked to a open md file to a folder and updates the link in md file.
+- [[tree-diagram|Tree Diagram]]: Convert indented text to a file tree diagram.
+- [[cjk-count|CJK Count]]: A word counter that only counts Chinese, Japanese and Korean (CJK) characters.
+- [[text-autocomplete|Text Autocomplete]]: Autocomplete text to type more efficiently.
+- [[simple-banner|Simple Banner]]: Visually enhance your notes with a customizable banner. Supports icons and time/date display.
+- [[banyan|Banyan]]: A card-based homepage to browse, organize, and navigate notes effortlessly with multi-tag filtering.
+- [[smart-link-formatter|Smart Link Formatter]]: Automatically fetches titles from pasted links, with additional customization for metadata from YouTube.
+- [[quartz-syncer|Quartz Syncer]]: Manage and publish your notes to Quartz, the fast, batteries-included static-site generator.
+- [[gyazo|Gyazo Viewer]]: Display your Gyazo captures and embed them into your notes.
 
 
 %% Hub footer: Please don't edit anything below this line %%
