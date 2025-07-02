@@ -289,7 +289,7 @@ Plugins which have not yet been categorized by the community.
 - [[google-calendar|Google Calendar]]: Interact with your Google Calendar from Inside Obsidian
 - [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]: Import contact and calendar event information from your Google account
 - [[google-keep-import|Google Keep Import]]: Imports Google Keep backup files and attachments. Can also be used to import other files. Use the official Obsidian Importer plugin instead unless you need additional customisation of character mapping or importing of extraneous files.
-- [[google-photos|Google Photos]]: Google Photos integration for Obsidian
+- [[google-photos|Google Photos]]: Embed Google Photos images using the new Picker API (Legacy Library API features removed)
 - [[obsidian-google-tasks|Google Tasks]]: Interact with your Google Tasks from Inside Obsidian
 - [[grappling-hook|Grappling Hook]]: Obsidian Plugin for blazingly fast file switching. For those who find the Quick Switcher still too slow.
 - [[obsidian-group-snippets|Group Snippets]]: Create folder of snippets to activate them in one click !
@@ -604,7 +604,7 @@ Plugins which have not yet been categorized by the community.
 - [[simple-rss|Simple RSS]]: Collect RSS articles into notes.
 - [[obsidian-siteswap|Siteswap]]: Visualize Juggling Pattern Siteswap via the JugglingLab gif server.
 - [[slide-note|Slide Note]]: Conveniently take notes on PDF course slides :P
-- [[smart-connections|Smart Connections]]: Find links to similar notes using artificial intelligence from OpenAI.
+- [[smart-connections|Smart Connections]]: Chat with your notes & see links to related content with Local or Remote models.
 - [[obsidian-smart-links|Smart Links]]: This is a plugin for Obsidian that allows users to define custom link formats
 - [[smart-rename|Smart Rename]]: Renames notes keeping previous title in existing links
 - [[smort-obsidian|Smort]]: Add Smort.io articles to Obsidian. Smort.io lets you easily edit, annotate and share articles.
@@ -1774,7 +1774,7 @@ Plugins which have not yet been categorized by the community.
 - [[dynamic-outline|Dynamic Outline]]: Adds a customizable GitHub-like floating table of contents.
 - [[syncthing-status-icon|Syncthing status icon]]: Displays a status icon displaying whether the Syncthing server is on or not.
 - [[simple-disguise|Simple Disguise]]: Disguise/obscure/hide the content in a very simple way.
-- [[koreader-highlights-importer|KoReader Highlight Importer]]: Imports KoReader highlights.
+- [[koreader-highlights-importer|KOReader Highlight Importer]]: Imports KOReader highlights.
 - [[local-any-files|Local Any Files]]: Download all files from links to local attachments.
 - [[publish-to-discourse|Publish to Discourse]]: Publish notes to the Discourse forum.
 - [[moredraw|MoreDraw]]: A infinite canvas whiteboard with ai to draw flowchart, mind map and other diagram.
@@ -2166,7 +2166,7 @@ Plugins which have not yet been categorized by the community.
 - [[note_uid_generator|Note UID Generator]]: Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).
 - [[ace-code-editor|Ace Code Editor]]: An enhanced code editor using Ace editor, providing syntax highlighting, code folding, and other advanced editing features.
 - [[folder-filelist|Folder Filelist]]: Create and maintain a list of wikilinks to files in specified folders
-- [[custom-selected-word-count|Custom Selected Word Count]]: Advanced word counting for selected text with customizable path exclusion, UI options, and history tracking.
+- [[custom-selected-word-count|Custom Selected Word Count]]: Comprehensive text analysis for selected text including word counting, character counting, and sentence counting with modern UI design.
 - [[google-contacts|Google Contacts]]: Synchronize your Google contacts with separate contact-notes
 - [[latex-math|LaTeX Math]]: Evaluate, solve and much more within LaTeX blocks using Sympy.
 - [[llm-docs|LLM docs]]: Simple LLM (AI) client using pure markdown documents
@@ -2183,6 +2183,23 @@ Plugins which have not yet been categorized by the community.
 - [[smart-link-formatter|Smart Link Formatter]]: Automatically fetches titles from pasted links, with additional customization for metadata from YouTube.
 - [[quartz-syncer|Quartz Syncer]]: Manage and publish your notes to Quartz, the fast, batteries-included static-site generator.
 - [[gyazo|Gyazo Viewer]]: Display your Gyazo captures and embed them into your notes.
+- [[click-unsupported-files|Click Unsupported Files]]: Changes click behavior for unsupported files to work similar to Windows File Explorer: single-click selects, double-click opens in default app.
+- [[tag-index|Tag Index]]: Create a curated list of important tags to serve as meaningful entry points to your knowledge base.
+- [[text-block-timer|Text Block Timer]]: Add a timer to text block to track task time consumption.
+- [[simple-table-math|Simple Table Math]]: Do some math (sum, average, etc.) in your markdown tables.
+- [[korean-book-search|Korean Book Search]]: Automatically fills in YAML frontmatter with Korean book information from Aladin API based on the note title.
+- [[canvas-connect|Canvas Connect]]: Automatically updates Canvas connection anchors based on node position, with smart routing and visual feedback.
+- [[fountain|Fountain]]: Write and view screenplays in Fountain format with index cards and lots of other features.
+- [[yearly-diary-comparator|Yearly Diary Comparator]]: Show a side-by-side yearly comparison of diary in daily notes
+- [[better-heading-hierarchy|Better Heading Hierarchy]]: Add guide lines to make the hierarchy of Markdown headings more visually clear.
+- [[character-sheets|Character Sheets]]: Create character sheets for your very own traumatized little guys.
+- [[discord-message-sender|Discord Message Sender]]: Send messages from a Discord channel to your Vault
+- [[auto-replacer|Auto Replacer]]: Replace text in your notes automatically using regex rules and JavaScript functions. Apply custom formatting, corrections, or dynamic replacements as you type.
+- [[heading-helper|Heading Helper]]: Cycle heading levels and display visual heading indicators in the gutter
+- [[slash-snippets|Slash snippets]]: Use slash command to insert quick text
+- [[scrolling|Scrolling]]: Improve scrolling and keep your cursor exactly where you want it.
+- [[random-broken-link|Random broken link]]: Expand your knowledge by visiting random broken links.
+- [[copy-absolute-path|Copy Absolute Path]]: Copy the system absolute path of files and folders to the clipboard.
 
 
 %% Hub footer: Please don't edit anything below this line %%
