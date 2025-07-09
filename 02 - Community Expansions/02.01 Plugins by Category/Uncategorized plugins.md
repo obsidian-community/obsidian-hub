@@ -172,7 +172,7 @@ Plugins which have not yet been categorized by the community.
 - [[crumbs-obsidian|Crumbs]]: Breadcrumb navigation in Obsidian
 - [[obsidian-crypto-lookup|Crypto Lookup]]: A plugin for Obsidian which uses the Cryptonator API to pull back prices for crypto in a target currency
 - [[cryptsidian|Cryptsidian]]: Encrypt all files in your Obsidian.md Vault with a password.
-- [[obsidian-custom-attachment-location|Custom Attachment Location]]: Customize attachment location with variables(${fileName}, ${date:format}, etc) like typora.
+- [[obsidian-custom-attachment-location|Custom Attachment Location]]: Customize attachment location with variables(${noteFileName}, ${date:format}, etc) like typora.
 - [[custom-classes|Custom Classes]]: Custom Classes is a minimalist plugin that allows you to add custom HTML classes to markdown blocks
 - [[custom-sort|Custom File Explorer sorting]]: Allows for manual and automatic, config-driven reordering and sorting of files and folders in File Explorer
 - [[obsidian-custom-file-extensions-plugin|Custom File Extensions Plugin]]: Associate views with custom file extensions via settings.
@@ -676,7 +676,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-tomorrows-daily-note|Tomorrow's Daily Note]]: An obsidian plugin that creates tomorrow's daily note for preemtive planning.
 - [[obsidian-topic-linking|Topic Linking]]: Convert PDF files and web links to Markdown, and create topics from Markdown
 - [[touchbar-macros|Touch Bar Macros]]: Run custom macros from your Mac's Touch Bar.
-- [[obsidian-transcription|Transcription]]: Transcription 3.0, now with Swiftink.io domain-aware speech-to-text! Create high-quality text transcriptions from any media file, on any device. Best-in-class ASR
+- [[obsidian-transcription|Transcription]]: Create high-quality text transcriptions from any media file, on any device using Whisper ASR. Best-in-class speech-to-text.
 - [[translate|Translate]]: Translate text and notes with Google Translate, DeepL, Azure, and more.
 - [[obsidian-translator|Translator]]: This is a plugin for Obsidian to translate selected text.
 - [[obsidian-trash-explorer|Trash Explorer]]: Restore and delete files from the Obsidian .trash folder
@@ -2185,7 +2185,7 @@ Plugins which have not yet been categorized by the community.
 - [[gyazo|Gyazo Viewer]]: Display your Gyazo captures and embed them into your notes.
 - [[click-unsupported-files|Click Unsupported Files]]: Changes click behavior for unsupported files to work similar to Windows File Explorer: single-click selects, double-click opens in default app.
 - [[tag-index|Tag Index]]: Create a curated list of important tags to serve as meaningful entry points to your knowledge base.
-- [[text-block-timer|Text Block Timer]]: Add a timer to text block to track task time consumption.
+- [[text-block-timer|Text Block Timer]]: Add a timer to text block to enable count-up timing.
 - [[simple-table-math|Simple Table Math]]: Do some math (sum, average, etc.) in your markdown tables.
 - [[korean-book-search|Korean Book Search]]: Automatically fills in YAML frontmatter with Korean book information from Aladin API based on the note title.
 - [[canvas-connect|Canvas Connect]]: Automatically updates Canvas connection anchors based on node position, with smart routing and visual feedback.
@@ -2200,6 +2200,27 @@ Plugins which have not yet been categorized by the community.
 - [[scrolling|Scrolling]]: Improve scrolling and keep your cursor exactly where you want it.
 - [[random-broken-link|Random broken link]]: Expand your knowledge by visiting random broken links.
 - [[copy-absolute-path|Copy Absolute Path]]: Copy the system absolute path of files and folders to the clipboard.
+- [[hyperlink-remover|Hyperlink Remover]]: Remove hyperlinks from selected text or the entire note.
+- [[kindle-highlights-import|Kindle Highlights Import]]: Imports the Kindle highlights HTML file and saves it as a note in your vault.
+- [[smart-excluded|Smart Excluded]]: Change Excluded files setting per workspace, active note and more.
+- [[eccirian|Eccirian Encrypt]]: Encrypt your notes using advanced encryption algorithms.
+- [[rtl-math-text|RTL Math Text]]: Mix right-to-left and left-to-right text in math expressions using configurable commands.
+- [[table-list|Table List]]: Adds a table view to manage your tasks.
+- [[coalesce|Coalesce]]: Coalesce your backlinked notes into a single view
+- [[current-view|Current View]]: Automatically set the view mode (Reading, Live Preview, Source) for notes using folder rules, file patterns, or frontmatter.
+- [[replace-pencil|Replace Pencil]]: Easily replace the custom variable in the code block.
+- [[alpha-bullet|Alpha Bullet]]: Sorts bulleted lists alphabetically.
+- [[calculite|Calculite]]: Standard calculator with a simple button layout.
+- [[yandex-wiki-integration|Yandex Wiki Integration]]: Integration with Yandex Wiki knowledge base
+- [[scratchpad|Scratchpad]]: Take temporary notes and draw freehand in a sidebar scratchpad.
+- [[diary-ics|Diary ICS]]: Sync diary entries to system calendar via ICS feed.
+- [[sidecars|Sidecars]]: Automated, user-friendly management of 'sidecar' companion notes for non-markdown files.
+- [[tasknotes|TaskNotes]]: Note-based task management with calendar, pomodoro and time-tracking integration.
+- [[soc-toolkit|SOC Toolkit]]: A collection of tools for SOC analysts.
+- [[simple-vault-importer|Simple Vault Importer]]: Import starter vaults into your own vault.
+- [[sidebar-highlights|Sidebar Highlights]]: View and manage text highlights, comments on highlights, native comments, and collections for your highlights.
+- [[korean-spellchecker|Korean Spellchecker]]: Checks Korean spelling and grammar using an online service. Features a custom dictionary to exclude specific nouns (e.g., names, technical terms) from being flagged as errors.
+- [[md-cal-gen|Markdown Calendar Generator]]: An intentionally simple markdown table calendar generator
 
 
 %% Hub footer: Please don't edit anything below this line %%
