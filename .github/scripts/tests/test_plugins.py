@@ -1,5 +1,7 @@
 import json
 
+from approvaltests import verify
+
 import plugins
 
 from helpers_for_testing import verify_in_json_format_to_markdown
@@ -101,3 +103,6 @@ def test_description_contains_newline() -> None:
     }
     '''
     verify_plugin(manifest_as_json, plugin_as_json)
+    
+    plugin = process_plugin(manifest_as_json, plugin_as_json)
+    verify(plugin.data()['description'])
