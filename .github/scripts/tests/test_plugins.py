@@ -3,16 +3,22 @@ import json
 import plugins
 
 from helpers_for_testing import verify_in_json_format_to_markdown
+from plugins import Plugin
 from tests.helpers_for_testing import verify_in_json_format_to_markdown
 from utils import FileGroups
 
 
 def verify_plugin(manifest_as_json: str, plugin_as_json: str) -> None:
+    plugin = process_plugin(manifest_as_json, plugin_as_json)
+    verify_in_json_format_to_markdown(plugin.data())
+
+
+def process_plugin(manifest_as_json: str, plugin_as_json: str) -> Plugin:
     plugin = plugins.Plugin(json.loads(plugin_as_json))
     manifest = json.loads(manifest_as_json)
     file_groups: FileGroups = dict()
     result = plugin.collect_data_for_plugin_and_manifest(manifest, file_groups)
-    verify_in_json_format_to_markdown(plugin.data())
+    return plugin
 
 
 def test_author_augmented_for_ryanjamurphy() -> None:
