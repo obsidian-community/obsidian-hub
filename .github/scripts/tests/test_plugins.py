@@ -3,6 +3,7 @@ import json
 import plugins
 
 from helpers_for_testing import verify_in_json_format_to_markdown
+from tests.helpers_for_testing import verify_in_json_format_to_markdown
 from utils import FileGroups
 
 
@@ -62,6 +63,35 @@ def test_author_missing_from_manifest() -> None:
         "isDesktopOnly": true,
         "js": "main.js",
         "version": "1.19.0"
+    }
+    '''
+    verify_plugin(manifest_as_json, plugin_as_json)
+
+
+def test_description_contains_newline() -> None:
+    # See https://github.com/obsidian-community/obsidian-hub/issues/791
+    # This plugin's manifest.json has a newline character in the description.
+    # This test verifies that this situation is handled correctly.
+    plugin_as_json = '''
+    {
+        "id": "attachment-manager",
+        "name": "Attachment Manager",
+        "author": "chenfeicqq",
+        "description": "Attachment Manager: Attachment folder name binding note name, automatically rename, automatically delete, show/hide.\\n附件管理器：附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。",
+        "repo": "chenfeicqq/obsidian-attachment-manager"
+    }
+    '''
+
+    manifest_as_json = '''
+    {
+        "id": "attachment-manager",
+        "name": "Attachment Manager",
+        "version": "1.2.2",
+        "minAppVersion": "0.12.17",
+        "description": "Attachment folder name binding note name, automatically rename, automatically delete, show/hide.\\n附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。",
+        "author": "chenfeicqq",
+        "authorUrl": "https://github.com/chenfeicqq",
+        "isDesktopOnly": true
     }
     '''
     verify_plugin(manifest_as_json, plugin_as_json)
