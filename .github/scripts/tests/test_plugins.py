@@ -90,7 +90,7 @@ def test_description_contains_newline() -> None:
     }
     '''
     plugin_from_obsidian_releases = plugins.Plugin(json.loads(plugin_as_json))
-    assert plugin_from_obsidian_releases.data()['description'] == "Attachment Manager: Attachment folder name binding note name, automatically rename, automatically delete, show/hide.\n附件管理器：附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。"
+    assert plugin_from_obsidian_releases.data()['description'] == "Attachment Manager: Attachment folder name binding note name, automatically rename, automatically delete, show/hide. 附件管理器：附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。"
 
     manifest_as_json = '''
     {

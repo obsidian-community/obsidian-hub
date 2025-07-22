@@ -16,7 +16,12 @@ DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 class Plugin:
 
     def __init__(self, data: PluginStorage):
-        self.__data = data
+        # Make a copy to avoid modifying the original input data
+        self.__data = data.copy()
+
+        # Sanitize the description in place
+        if 'description' in self.__data:
+            self.__data['description'] = self.__data['description'].replace('\n', ' ')
 
     def repo(self) -> str:
         return str(self.__data.get("repo"))
