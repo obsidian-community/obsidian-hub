@@ -80,6 +80,8 @@ class Plugin:
 
         self.__data.update(mobile=mobile, user=user, **manifest)
         update_author_name_for_manual_exceptions(self.__data)
+        
+        self.sanitize_description()
 
         return plugin_is_valid
 
