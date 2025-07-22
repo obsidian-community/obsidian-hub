@@ -750,7 +750,6 @@ Plugins which have not yet been categorized by the community.
 - [[qmd-as-md-obsidian|qmd as md]]: This plugin provides an initial support for viewing files with .qmd extension. QMD files contain a combination of markdown and executable code cells and are a format supported by Quarto open source publishing system.
 - [[text2anki-openai|text2anki-openai]]: This is an obsidian plugin that uses OpenAI to generate flashcards from text and add them to Anki.
 - [[x86-flow-graphing|x86 Assembly Flow Graphing]]: An Obsidian plugin for converting x86 code blocks into flow graphs
-附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。
 - [[solve|Solve]]: Supercharge your notes with real-time calculations without AI fuss. From dates ('Now + 20 days'), percentages ('10% of 120'), units of measurement ('100cm + 2m'), arithmetic ('10 + 5') and more!
 - [[graph-nested-tags|Nested tags graph]]: Links nested tags in graph view
 - [[youversion-linker|YouVersion Linker]]: Automatically link bible verses in your notes to YouVersion bible.
