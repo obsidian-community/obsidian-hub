@@ -105,8 +105,8 @@ def test_description_contains_newline() -> None:
     }
     '''
 
-    plugin = process_plugin(manifest_as_json, plugin_as_json)
-    verify(plugin.data()['description'])
+    plugin_from_obsidian_releases_and_manifest = process_plugin(manifest_as_json, plugin_as_json)
+    verify(plugin_from_obsidian_releases_and_manifest.data()['description'])
 
     verify_plugin(manifest_as_json, plugin_as_json)
    
