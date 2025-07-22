@@ -1,7 +1,5 @@
 import json
 
-from approvaltests import verify
-
 import plugins
 
 from helpers_for_testing import verify_in_json_format_to_markdown
