@@ -16,7 +16,10 @@ DESKTOP_ONLY = "[[Desktop-only plugins|No]]"
 class Plugin:
 
     def __init__(self, data: PluginStorage):
-        self.__data = data
+        # Make a copy to avoid modifying the original input data
+        self.__data = data.copy()
+
+        self.sanitize_description()
 
     def repo(self) -> str:
         return str(self.__data.get("repo"))
@@ -77,6 +80,8 @@ class Plugin:
 
         self.__data.update(mobile=mobile, user=user, **manifest)
         update_author_name_for_manual_exceptions(self.__data)
+        
+        self.sanitize_description()
 
         return plugin_is_valid
 
@@ -93,3 +98,9 @@ class Plugin:
             add_file_group(file_groups, "error", f"{releases_id}/{manifest_id}")
             ids_match = False
         return ids_match
+
+    def sanitize_description(self) -> None:
+        # Sanitize the description in place.
+        # See https://github.com/obsidian-community/obsidian-hub/issues/791
+        if 'description' in self.__data:
+            self.__data['description'] = self.__data['description'].replace('\n', ' ')
