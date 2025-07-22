@@ -106,7 +106,7 @@ def test_description_contains_newline() -> None:
     '''
 
     plugin_from_obsidian_releases_and_manifest = process_plugin(manifest_as_json, plugin_as_json)
-    verify(plugin_from_obsidian_releases_and_manifest.data()['description'])
+    assert plugin_from_obsidian_releases_and_manifest.data()['description'] == "Attachment folder name binding note name, automatically rename, automatically delete, show/hide.\n附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。"
 
     verify_plugin(manifest_as_json, plugin_as_json)
    
