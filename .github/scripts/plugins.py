@@ -19,9 +19,7 @@ class Plugin:
         # Make a copy to avoid modifying the original input data
         self.__data = data.copy()
 
-        # Sanitize the description in place
-        if 'description' in self.__data:
-            self.__data['description'] = self.__data['description'].replace('\n', ' ')
+        self.sanitize_description()
 
     def repo(self) -> str:
         return str(self.__data.get("repo"))
@@ -98,3 +96,9 @@ class Plugin:
             add_file_group(file_groups, "error", f"{releases_id}/{manifest_id}")
             ids_match = False
         return ids_match
+
+    def sanitize_description(self) -> None:
+        # Sanitize the description in place.
+        # See https://github.com/obsidian-community/obsidian-hub/issues/791
+        if 'description' in self.__data:
+            self.__data['description'] = self.__data['description'].replace('\n', ' ')
