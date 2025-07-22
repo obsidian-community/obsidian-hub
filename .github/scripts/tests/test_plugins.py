@@ -104,7 +104,9 @@ def test_description_contains_newline() -> None:
         "isDesktopOnly": true
     }
     '''
-    verify_plugin(manifest_as_json, plugin_as_json)
-    
+
     plugin = process_plugin(manifest_as_json, plugin_as_json)
     verify(plugin.data()['description'])
+
+    verify_plugin(manifest_as_json, plugin_as_json)
+   
