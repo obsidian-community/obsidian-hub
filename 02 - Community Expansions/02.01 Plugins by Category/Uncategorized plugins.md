@@ -13,6 +13,7 @@ Plugins which have not yet been categorized by the community.
 
 ## Plugins in this category
 
+- [[url-webview-opener|.url WebView Opener]]: Opens .url files in the internal webview.
 - [[13th-age-statblocks|13th Age Statblocks]]: Render 13th Age statblocks in Obsidian.
 - [[2hop-links-plus|2Hop Links Plus]]: Related links up to 2 hops away are displayed in a card format, allowing for easy browsing through connections between notes. Each card contains a preview of the corresponding note.
 - [[3d-graph|3D Graph]]: A 3D Graph for Obsidian
@@ -82,7 +83,7 @@ Plugins which have not yet been categorized by the community.
 - [[alias-picker|Alias Picker]]: Pick aliases or blocks of links.
 - [[obsidian-alias-from-heading|Alias from heading]]: Implicitly add an alias matching the first heading in a document.
 - [[alignment-tracker|Alignment Tracker]]: Track character alignment using a 3x3 grid.
-- [[aloud-tts|Aloud]]: Highlight and speak text from your notes. Converts text to speech in real-time using lifelike voices from OpenAI.
+- [[aloud-tts|Aloud]]: Highlight and speak text from your notes. Converts text to speech in real-time with lifelike voices.
 - [[alpha-bullet|Alpha Bullet]]: Sorts bulleted lists alphabetically.
 - [[alt-click-to-copy|Alt-Click to Copy]]: Alt-click to copy code!
 - [[cloudatlas-o-am|Amazing Marvin Integration]]: Integration with Amazing Marvin
@@ -119,7 +120,7 @@ Plugins which have not yet been categorized by the community.
 - [[askify-obsidian-sync|Askify Sync]]: This plugin help to sync notes from Askify (https://askify.video/) to Obsidian
 - [[at-people|At People]]: Use the @ to create links to people files.
 - [[note-atomizer|Atomizer]]: Turn any text into insightful atomic notes.
-- [[attachment-manager|Attachment Manager]]: Attachment folder name binding note name, automatically rename, automatically delete, show/hide.
+- [[attachment-manager|Attachment Manager]]: Attachment folder name binding note name, automatically rename, automatically delete, show/hide. 附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。
 - [[attachment-uploader|Attachment Uploader]]: Attachment uploader plugin, which allows you customize the upload command, customize upload file type.
 - [[attachments-cache|Attachments Cache]]: Store images and other attachments on the vault
 - [[attachments-md-indexer|Attachments MD Indexer]]: Creates searchable metadata notes for Canvas files, PDFs, and images, enhancing graph view visibility and plugin compatibility
@@ -514,6 +515,7 @@ Plugins which have not yet been categorized by the community.
 - [[data-fetcher|Data Fetcher]]: Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes
 - [[data-files-editor|Data Files Editor]]: Plugin to edit data files like txt, xml, json
 - [[data-cards|DataCards]]: Transform Dataview query results into visually appealing, customizable card layouts.
+- [[dataview-properties|Dataview (to) Properties]]: Automagically copy dataview inline field (and their values, even calculated!) into frontmatter properties and keep them sync.
 - [[dataview-autocompletion|Dataview Autocompletion]]: Adds autocompletion to Dataview metadata fields
 - [[dataview-publisher|Dataview Publisher]]: Output markdown from your Dataview queries and keep them up to date. You can also publish them.
 - [[dataview-serializer|Dataview Serializer]]: Serialize Dataview queries to Markdown, and keep the Markdown representation up to date.
@@ -533,6 +535,7 @@ Plugins which have not yet been categorized by the community.
 - [[desci|Desci]]: A collection of tools that integrate obsidian with web3.
 - [[desk|Desk]]: A desk to see notes at a glance in Obsidian. Requires Dataview as a dependency.
 - [[obsidian-desmos|Desmos]]: Embed Desmos graphs into your notes
+- [[devops-companion|DevOps Companion]]: Document infrastructure as clearly as you build it.
 - [[mermaid-popup|Diagram Popup]]: Show diagrams, from Mermaid, PlantUML, Graphviz and so on, in a draggable and zoomable popup
 - [[diagram-zoom-drag|Diagram Zoom Drag]]: Add zoom and drag functionality to diagrams from Mermaid, Plantuml, Graphviz, Gravizo and so on
 - [[obsidian-diagrams-net|Diagrams.net]]: Enable diagrams.net (previously draw.io) type diagrams, with the diagrams.net embedded editor.
@@ -585,6 +588,7 @@ Plugins which have not yet been categorized by the community.
 - [[easy-keep-view|Easy Keep View]]: Easy Keep View mimics the Google Keep interface, allowing you to view and manage your notes with image thumbnails and excerpts.
 - [[easy-test|Easy Test]]: Easily create simple tests
 - [[easy-timeline|Easy Timeline]]: Simplifies creating and visualizing timelines from text using dates and metadata
+- [[easylink|EasyLink]]: Select text in your editor to find the most similar content from other notes and easily create links.
 - [[eccirian|Eccirian Encrypt]]: Encrypt your notes using advanced encryption algorithms.
 - [[edge-tts|Edge TTS]]: Read notes aloud using Microsoft Edge Read Aloud API (free, high quality text-to-speech).
 - [[edit-gemini|Edit Gemini]]: Allows the user to edit and create .gmi files.
@@ -740,6 +744,7 @@ Plugins which have not yet been categorized by the community.
 - [[folders2graph|Folders to Graph]]: Display your vault folder structure into your graphs.
 - [[font-size|Font Size Adjuster]]: Adjust font size via commands.
 - [[fontsource|Fontsource]]: Load custom fonts from Fontsource into your notes.
+- [[food-tracker|Food Tracker]]: Track your food intake (calories, macronutrients) and nutritional information
 - [[foodiary|Foodiary]]: Food tracker, macronutrient and calorie calculator.
 - [[force-read-mode|Force Read Mode]]: Forces Markdown files in specified folders to open in read-only mode.
 - [[prettier-format|Format Automatically with Prettier]]: Format files with Prettier using built-in settings for configuration.
@@ -806,6 +811,7 @@ Plugins which have not yet been categorized by the community.
 - [[github-stars|GitHub Stars]]: Displays the number of stars for GitHub repositories mentioned in notes.
 - [[github-sync|GitHub Sync]]: Sync vault to personal GitHub.
 - [[github-tracker|GitHub Tracker]]: Track GitHub issues and pull requests in your vault
+- [[github-issues|Github Issues]]: Track Github Issues and pull requests directly in your vault
 - [[obsidian-gitlab-issues|Gitlab Issues]]: Import issues from Gitlab into Obsidian.
 - [[gitlab-wiki-export|Gitlab Wiki Exporter]]: Makes your entire vault Gitlab Wiki compatible and exports it to a specified location.
 - [[gladdis|Gladdis]]: Gladdis (Generative Language Artificial Dedicated & Diligent Intelligence System) - it's an AI chatbot.
@@ -1286,6 +1292,7 @@ Plugins which have not yet been categorized by the community.
 - [[graph-nested-tags|Nested tags graph]]: Links nested tags in graph view
 - [[net-clip|NetClip]]: Clip, save, search, and browse web pages within your vault
 - [[neurovox|NeuroVox]]: Enhances your note-taking with voice transcription and AI capabilities
+- [[new-3d-graph|New 3D Graph]]: Visualize your vault in 3D with a powerful, highly customizable, and filterable graph.
 - [[obsidian-new-bullet-with-time|New Bullet With Time]]: Allows you to auto add current time to new bullet line.
 - [[new-file-name|New Filename]]: Change the default filename used for new notes
 - [[new-note-fixer|New Note Fixer]]: Unifies the way non-existing notes are created when clicking on their links.
@@ -1353,6 +1360,7 @@ Plugins which have not yet been categorized by the community.
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
 - [[marker-api|OCR-AI]]: Convert PDFs to beautiful rich Markdown notes with tables, images, formulas and OCR. Works with self-hosted Marker API and free Mistral OCR API!
 - [[oz-calendar|OZ Calendar]]: View your notes in Calendar using any YAML key with date
+- [[object-oriented-thinking|Object Oriented Thinking]]: Add inheritance-like behavior to notes.
 - [[object-writer|Object Writer]]: Quickly create a note with a prompt for object writing.
 - [[obligator|Obligator]]: A fully featured replacement for the built-in daily notes plugin. Obligator functions like a virtual bullet journal by copying over unchecked to-do items to your new daily note, along with adding any scheduled items you've set up
 - [[obsidoom|ObsiDOOM]]: Play DOOM and many other retro games in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.
@@ -1413,6 +1421,7 @@ Plugins which have not yet been categorized by the community.
 - [[outlook-meeting-notes|Outlook Meeting Notes]]: Creates meeting notes for Outlook appointments and meetings.
 - [[para-shortcuts|PARA Shortcuts]]: This plugin serves usefull commands to setup and manage your knowledge using the PARA method.
 - [[para-workflower|PARA Workflower]]: Helpful commands for starting and working in your vault with the PARA method.
+- [[pdf-emojis|PDF Emojis]]: Helps you exporting all your emojis to pdf (even those in headings)!
 - [[pdf-folder-to-markdowns|PDF Folder to Markdowns]]: Convert a folder of PDFs into a folder of Markdown files with embedded PDFs. Ideal for users migrating PDF notes from apps like Boox or organizing reference materials inside Obsidian, ensuring a seamless workflow for note-taking and knowledge management.
 - [[pdf-paste|PDF Paste]]: Improve copy-paste from PDFs by cleaning newlines.
 - [[pdf-printer|PDF Printer]]: Convert PDF documents to images directly in your notes without external dependencies.
@@ -1467,6 +1476,7 @@ Plugins which have not yet been categorized by the community.
 - [[personal-assistant|Personal Assistant]]: AI-powered workflows to streamline the automated management of records, callouts, frontmatter, graph views, themes, and plugins in Obsidian.
 - [[personal-os|Personal OS]]: Streamlining task management and productivity with a touch of gamification
 - [[photopea-editor|Photopea Editor]]: Automatically opens images in Photopea when clicked in your vault.
+- [[phrasesync|PhraseSync]]: Auto-suggests internal links mid-sentence from note titles, headings, and block references.
 - [[pia-viewer|Pia viewer]]: Make it look like a mobile
 - [[pickly-page-blend|Pickly PageBlend]]: Publish your Obsidian notes in one click
 - [[pieces-for-developers|Pieces for Developers]]: Streamline your coding workflow in Obsidian with the Pieces For Developers plugin, offering powerful features for capturing, managing, translating, and enhancing code snippets. (Closed Source) 
@@ -1570,6 +1580,7 @@ Plugins which have not yet been categorized by the community.
 - [[rainbow-colored-sidebar|Rainbow-Colored Sidebar]]: Automatically color your sidebar like a rainbow. No configuration needed. 9 themes included.
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
 - [[random-numbers-generator|Random Number Generator]]: Insert a random number.
+- [[random-wikipedia-article|Random Wikipedia Article]]: Generates a note for a random Wikipedia article.
 - [[random-broken-link|Random broken link]]: Expand your knowledge by visiting random broken links.
 - [[random-names|Random names]]: Generates random names
 - [[obsidian-rant|Rant-Lang]]: Thin wrapper around the Rant language Rust crate
@@ -1680,6 +1691,7 @@ Plugins which have not yet been categorized by the community.
 - [[bbawj-semantic-search|Semantic Search]]: Semantic search for files using text embeddings
 - [[send-note|Send Note]]: Instantly send a note, to other obsidian users so they can import them into their vault. It uses AWS S3 as a storage backend. Data is shared encrypted by default, and only you and the person you send it to have the key.
 - [[tasks-to-omnifocus|Send Tasks to OmniFocus]]: An Obsidian plugin will extract tasks from the current note and create them in OmniFocus.
+- [[send-to-canvas|Send to Canvas]]: Send tasks, blocks, and notes to Canvas files as plain text, links, and embeds.
 - [[send-to-ghost|Send to Ghost]]: Send and publish notes to your Ghost blog with a single click
 - [[obsidian-sentence-navigator|Sentence Navigator]]: Manipulate sentences as a unit of movement. Select, move and delete by whole sentences.
 - [[sentence-rhythm|Sentence Rhythm]]: Adds toggleable colored highlights to sentences based on their length so you can easily see the rhythm of your writing.
@@ -1716,6 +1728,7 @@ Plugins which have not yet been categorized by the community.
 - [[sidecars|Sidecars]]: Automated management of 'sidecar' companion notes for attachments and other files.
 - [[sigma|Sigma]]: A plugin to enable using obsidian notes as calculation sheets.
 - [[silicon|Silicon AI]]: Add some intelligence to your notes with Silicon AI
+- [[similar-notes|Similar Notes]]: Recommends semantically similar notes to the currently viewed note.
 - [[simple-anki-sync|Simple Anki Sync]]: The simplest way of syncing simple Flashchards with Anki.
 - [[simple-archiver|Simple Archiver]]: Move old, stinky notes and folders to an archive, where they belong.
 - [[simple-banner|Simple Banner]]: Visually enhance your notes with a customizable banner. Supports icons and time/date display.
@@ -1723,6 +1736,7 @@ Plugins which have not yet been categorized by the community.
 - [[simple-citations|Simple Citations]]: Add & update simple literature notes from Zotero.
 - [[simple-code-formatter|Simple Code Formatter]]: Format the code block where the cursor is.
 - [[simple-colored-folder|Simple Colored Folder]]: Automagically add color to roots folders and customize them with Style Settings.
+- [[simple-columns|Simple Columns]]: Create and manage columns in your notes effortlessly, featuring customizable columns with easy-to-resize widths.
 - [[simple-dice-roller|Simple Dice Roller]]: A plug and play solution that allows you to average and simulate dice formulas.
 - [[simple-disguise|Simple Disguise]]: Disguise/obscure/hide the content in a very simple way.
 - [[simple-file-info|Simple File Info]]: A lightweight file info pane with native look and feel.
@@ -1809,6 +1823,7 @@ Plugins which have not yet been categorized by the community.
 - [[sticky-heading|Sticky Headings]]: Sticky Headings and Shows the heading level
 - [[sticky-notes|Sticky Notes]]: Create sticky notes popups.
 - [[storyclock|Storyclock Viewer]]: Maps timing onto a storyclock. Inspired by Plot Devices Storyclock.
+- [[storyteller-suite|Storyteller Suite]]: A comprehensive suite for managing characters, locations, events, and galleries for your novels.
 - [[obsidian42-strange-new-worlds|Strange New Worlds]]: Help see how your vault is interconnected with visual indicators.
 - [[notes-to-strapi-export-article-ai|Strapi Exporter AI]]: Effortlessly export your notes to Strapi CMS with AI-powered handling and SEO optimization.
 - [[strava-sync|Strava Sync]]: Sync activities from Strava.
@@ -1846,9 +1861,10 @@ Plugins which have not yet been categorized by the community.
 - [[hugo-sync|Sync to Hugo]]: Sync the selected notes to Hugo blog
 - [[syncftp|SyncFTP]]: This plugin syncs files to an SFTP, with credentials in settings.
 - [[syncthing-integration|Syncthing Integration]]: Integrates most of Syncthing features into Obsidian.
-- [[syncthing-status-icon|Syncthing status icon]]: Displays a status icon displaying whether the Syncthing server is on or not.
+- [[syncthing-status-icon|Syncthing status icon]]: Adds an icon in the status bar displaying Syncthing sync status. It shows a red circle if disconnected, green if connected, and yellow if scanning, not fully synced, or no device is connected. Provides detailed file completion and unsynced file counts, with a hover widget and custom view for more information.
 - [[syrinscape-player-control|Syrinscape Online Player]]: Control Syrinscape Online Player from inside of notes.
 - [[systemsculpt-ai|SystemSculpt AI]]: A powerful AI that helps you sculpt your knowledge base with artificial intelligence through intelligent chat, document analysis, and seamless integrations.
+- [[t4-task-tree-time-totaler|T4: Task Tree Time Totaler]]: Calculates and assigns task estimates given subtask estimates in a task tree in a Markdown document.
 - [[tg-emoji-search|TG Emoji Search]]: Lets you type out emojis like in Telegram.
 - [[table-of-contents-automatic-but-compatible-with-publish|TOC compatible with Publish]]: Create table of contents with user defined adjustments. All adjustments will be compatible with Obsidian Publish.
 - [[todo-highlighter|TODO Highlighter]]: Highlights TODO regex as green.
@@ -1900,6 +1916,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-telegraph-publish|Telegraph Publish]]: 
 - [[teleprompter|Teleprompter]]: Teleprompter window for live presentations and video production.
 - [[template-filename|Template Filename]]: Create notes with templatable filenames, using date/time formats, random strings, and custom base numbering systems.
+- [[template-folder|Template Folder]]: Moves notes to a folder when applying a template.
 - [[template-by-note-name|Template by Note Name]]: Automatically template notes based on their title.
 - [[templated-daily-notes|Templated daily notes]]: Adds the ability to create daily notes with a specified template according to the described settings
 - [[templify|Templify]]: (Closed Source) Multi layout for one note.
@@ -2024,6 +2041,7 @@ Plugins which have not yet been categorized by the community.
 - [[url-display|URL Display]]: Extract and display external URLs of the note in Obsidian.
 - [[url-namer|URL Namer]]: This plugin retrieves the HTML titles to name the raw URL links.
 - [[ultimate-todoist-sync|Ultimate Todoist Sync]]: This is the best Todoist task synchronization plugin for Obsidian so far.
+- [[unlime|UnLime]]: Hide unlinked mentions in Backlinks and Outgoing Links panels
 - [[uncheck-all|Uncheck All]]: This plugin adds a command to uncheck all checkboxes in the current note.
 - [[unearthed-app|Unearthed (Kindle & KOReader Sync)]]: Auto Sync Kindle/KOReader Highlights and Daily Reflection via Unearthed
 - [[unfilled-stats-highlighter|Unfilled Stats Highlighter]]: The Unfilled Stats Highlighter is a practical Obsidian plugin designed to streamline your stat/habit tracking process by automatically identifying and prefixing unfilled stats, making them easier to spot and fill out. This plugin is perfect for users who frequently work with templates and require a quick and easy way to locate and complete missing information.
@@ -2078,7 +2096,7 @@ Plugins which have not yet been categorized by the community.
 - [[vim-yank-highlight|Vim Yank Highlight]]: Highlight yanked text in Vim mode. Enjoy that subtle animation you've missed so much.
 - [[vimium|Vimium]]: Interact with elements using keyboard shortcuts in the spirit of Vim
 - [[virt-folder|VirtFolder]]: Creating a hierarchical structure like Luhmann's Zettelkasten
-- [[virtual-footer|Virtual Footer]]: Display markdown text (including dataview queries or Obsidian bases) at the bottom, top or in the sidebar for all notes which match a specified rule, without modifying them.
+- [[virtual-footer|Virtual Content]]: Display markdown text (including dataview queries or Obsidian bases) at the bottom, top or in the sidebar for all notes which match a specified rule, without modifying them.
 - [[virtual-linker|Virtual Linker / Glossary]]: Automatically creates virtual links for text within your notes that match the titles or aliases of other notes in your vault. Create a glossary-like functionality, show unlinked mentions and transform them to real links.
 - [[virustotal-enrich|Virus Total Enrichment]]: Enrich your notes with information from VirusTotal.
 - [[vision-recall|Vision Recall]]: Transform screenshots into searchable notes using AI vision and text analysis.
@@ -2172,6 +2190,7 @@ Plugins which have not yet been categorized by the community.
 - [[zettelgpt|ZettelGPT]]: ZettelGPT: Turbocharge Your Note-taking with AI Assistance
 - [[zettelkasten-llm-tools|Zettelkasten LLM Tools]]: Zettelkasten note taking powered by AI
 - [[zettelkasten-outliner|Zettelkasten Outliner]]: Provides a list representation for your Zettelkasten.
+- [[zhihu|Zhihu]]: Enable you to publish your articles and answers to Zhihu
 - [[zhongwen-block|Zhongwen Block]]: Provides code blocks with features for Chinese learners
 - [[zhongwen-reader|Zhongwen Reader]]: Chinese-English hover dictionary and vocabulary management plugin.
 - [[zotlit|ZotLit]]: Plugin to integrate with Zotero, create literature notes and insert citations from a Zotero library.
@@ -2187,6 +2206,7 @@ Plugins which have not yet been categorized by the community.
 - [[braincache|braincache]]: Create flashcards from obsidian notes
 - [[create-folder-notes-with-dropdown|create folder notes with dropdown]]: create-folder-notes-with-dropdown is a plugin designed to help users quickly create Markdown files in existing or nonexisting folders with dropdown.
 - [[cursor-goaway|cursor-goaway]]: make cursor goaway after open a text file
+- [[deepseek-ai-assistant|deepseek-ai-assistant]]: Help you to study with ai-prompting~
 - [[digital-paper|digital paper]]: turn off backspace and undo, just like writing with a pen on real paper.
 - [[doing|doing]]: It helps you remember what you were doing.
 - [[downloadpdf|downloadPDF]]: Allows you to download all included PDF files
