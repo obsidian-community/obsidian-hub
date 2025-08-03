@@ -537,7 +537,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-desmos|Desmos]]: Embed Desmos graphs into your notes
 - [[devops-companion|DevOps Companion]]: Document infrastructure as clearly as you build it.
 - [[mermaid-popup|Diagram Popup]]: Show diagrams, from Mermaid, PlantUML, Graphviz and so on, in a draggable and zoomable popup
-- [[diagram-zoom-drag|Diagram Zoom Drag]]: Add zoom and drag functionality to diagrams from Mermaid, Plantuml, Graphviz, Gravizo and so on
 - [[obsidian-diagrams-net|Diagrams.net]]: Enable diagrams.net (previously draw.io) type diagrams, with the diagrams.net embedded editor.
 - [[obsidian-dialogue-plugin|Dialogue]]: Create dialogues in Markdown.
 - [[dialogue-mode|Dialogue Mode]]: Dialogue mode for editing speech in writing.
@@ -943,6 +942,7 @@ Plugins which have not yet been categorized by the community.
 - [[image-tools|Image Tools]]: Formatter for image on page
 - [[image-upload-toolkit|Image Upload Toolkit]]: Upload local images to remote store (Imgur, AliYun OSS, Imagekit, Amazon S3, TencentCloud COS and Qiniu Kodo).
 - [[image-uploader-for-note|Image Uploader For Note]]: Upload images in a note, and remove the images from the vault if they're exclusively used within that note.
+- [[diagram-zoom-drag|Image Zoom & Drag]]: Make any image or diagram interactive with zoom, drag, and control panels
 - [[img2html|Image to HTML]]: Paste images as HTML format instead of wikilink or markdown format
 - [[image-notes-photes-io|Image to notes by Photes.IO]]: Turn your images into text notes with AI
 - [[image-to-text-ocr|Image to text OCR]]: Convert a image in your note to text.
@@ -1317,7 +1317,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-note-autocreator|Note Auto Creator]]: Automatically create notes when links are created to them.
 - [[note-batcher|Note Batcher]]: Create all unresolvered links with a single click on your Obsidian vault
 - [[note-chain|Note Chain]]: File sorting and hierarchical indentation display in the File Explorer. Provides efficient tools such as word count, text area, buttons, and note graph..
-- [[fileorganizer2000|Note Companion (prev. File Organizer 2000)]]: An AI assistant to organize and chat with your vault
 - [[note-companion-folder|Note Companion Folder]]: Manage a separate folder of attachments for each note.
 - [[obsidian-note-content-pusher|Note Content Pusher]]: An Obsidian plugin to automatically create notes with some specified content when you link to a note that doesn't yet exist.
 - [[note-definitions|Note Definitions]]: Personal dictionary for your notes
@@ -1728,7 +1727,7 @@ Plugins which have not yet been categorized by the community.
 - [[sidecars|Sidecars]]: Automated management of 'sidecar' companion notes for attachments and other files.
 - [[sigma|Sigma]]: A plugin to enable using obsidian notes as calculation sheets.
 - [[silicon|Silicon AI]]: Add some intelligence to your notes with Silicon AI
-- [[similar-notes|Similar Notes]]: Recommends semantically similar notes to the currently viewed note.
+- [[similar-notes|Similar Notes]]: Find semantically similar notes using local AI. Works on desktop and mobile without external servers.
 - [[simple-anki-sync|Simple Anki Sync]]: The simplest way of syncing simple Flashchards with Anki.
 - [[simple-archiver|Simple Archiver]]: Move old, stinky notes and folders to an archive, where they belong.
 - [[simple-banner|Simple Banner]]: Visually enhance your notes with a customizable banner. Supports icons and time/date display.
@@ -1794,6 +1793,7 @@ Plugins which have not yet been categorized by the community.
 - [[solo-rpg-toolkit|Solo RPG Toolkit]]: Random generator tools geared towards solo TTRPG gameplay
 - [[solve|Solve]]: Supercharge your notes with real-time calculations without AI fuss. From dates ('Now + 20 days'), percentages ('10% of 120'), units of measurement ('100cm + 2m'), arithmetic ('10 + 5') and more!
 - [[spotify-links|Song Links]]: Insert a link to the song currently playing on your Spotify
+- [[sonkil|Sonkil]]: Provides Emacs-style text operations like Kill/Yank (Kill Ring), multi-cursor editing, and visual mark selection.
 - [[obsidian-soomda|Soomda]]: Quickly hide your sidebars
 - [[sort-frontmatter|Sort Frontmatter]]: Sort frontmatter recursively
 - [[soundscapes|Soundscapes]]: Adds a music/ambiance (E.g. lofi, white noise) player to the status bar to help with concentration. Also allows you to play your own local music files.
@@ -2075,6 +2075,7 @@ Plugins which have not yet been categorized by the community.
 - [[vault-nickname|Vault Nickname]]: Override the vault's display name and/or title order. Intended to disambiguate vaults with the same folder name when adhering to a common folder structure between projects.
 - [[vault-review|Vault Review]]: Randomly review your vault and track progress.
 - [[vault-size-history|Vault Size History]]: Graph of the number of files in the Vault.
+- [[vault-stats|Vault Stats]]: Provides methods to retrieve statistics about the vault, such as the number of notes, total word count, recently modified notes, and more.
 - [[vault-transfer|Vault Transfer]]: Copies a note, and pastes it into another vault.
 - [[vault-to-blog|Vault to blog]]: Publish the vault to a GitHub Pages blog.
 - [[vault-sync|VaultSync]]: Sync vault with cloud storage provider.
