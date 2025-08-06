@@ -13,6 +13,7 @@ Plugins which have not yet been categorized by the community.
 
 ## Plugins in this category
 
+- [[md-merge|.md Merge]]: Merge all markdown files from a folder into a single file.
 - [[url-webview-opener|.url WebView Opener]]: Opens .url files in the internal webview.
 - [[13th-age-statblocks|13th Age Statblocks]]: Render 13th Age statblocks in Obsidian.
 - [[2hop-links-plus|2Hop Links Plus]]: Related links up to 2 hops away are displayed in a card format, allowing for easy browsing through connections between notes. Each card contains a preview of the corresponding note.
@@ -134,6 +135,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-card-link|Auto Card Link]]: Automatically fetches metadata from a url and makes it as a card-styled link
 - [[auto-class|Auto Class]]: Automatically apply CSS classes to the markdown view based on a note's path and tags.
 - [[auto-classifier|Auto Classifier]]: This plugin automatically classify tag from your notes using ChatGPT API or Jina Classifier. It analyze your note (It can be title, frontmatter, content or selected area) and automatically insert tag where you set.
+- [[auto-close-tags|Auto Close Tags]]: Auto close HTML tags.
 - [[auto-correct-capitals|Auto Correct Capitals Misspellings]]: Automatically correct words with the first two letters in uppercase.
 - [[auto-daily-note|Auto Daily Note]]: Automatically creates today's daily note. Daily note plugin must be enabled
 - [[auto-definition-link|Auto Definition Link]]: Automatically converts text to definition links within the current folder when you type them.
@@ -323,6 +325,7 @@ Plugins which have not yet been categorized by the community.
 - [[chatgpt-md|ChatGPT MD]]: A seamless integration of ChatGPT, OpenRouter.ai and local LLMs via Ollama into Obsidian.
 - [[check-and-delete|Check and Delete]]: Quickly clean up temporary list-items with the press of a button
 - [[obsidian-checkbox3states-plugin|Checkbox 3 states]]: This is a simple plugin for add a third state to checkbox list.
+- [[checkbox-autochecker|Checkbox Autochecker]]: Automatically sync parent and child checkboxes with flexible propagation modes in Markdown Files.
 - [[checkbox-reorder|Checkbox Reorder]]: Reorder completed checkboxes to the end of the according list.
 - [[checkbox-sort|Checkbox Sort]]: Automatically moves completed checkboxes to the end of the list
 - [[checkbox-sounds|Checkbox Sounds]]: Adds a nice completion sound when a checkbox is ticked-off
@@ -344,6 +347,7 @@ Plugins which have not yet been categorized by the community.
 - [[chronotyper|Chronotyper]]: Track how long you edit notes directly in the note properties
 - [[cicada-sync|Cicada Synchronizer]]: uses Git to synchronize vaults for team collaboration.
 - [[circuit-sketcher|Circuit Sketcher]]: Draw circuits on a canvas using circuit-sketcher-core.
+- [[citation-callouts|Citation Callouts]]: Elegantly formats quotes with citations from various sources into custom callouts.
 - [[class-relation-visualization|Class Relation Visualization]]: You can visualize your classes and their inheritance, composition, aggregation relation.
 - [[clear-todos|Clear Todos]]: Quickly remove all completed todos from your notes or selected text.
 - [[click-clack|Click Clack]]: Simulates typewriter / mechanical keyboard sounds.
@@ -358,13 +362,14 @@ Plugins which have not yet been categorized by the community.
 - [[close-window-when-empty|Close Window When Empty]]: Close the window when the last note is closed, kind of how browsers work.
 - [[cloud-atlas|Cloud Atlas]]: Cloud Atlas provides a unique way to use content from your vault with ChatGPT. Reference a note and it (optionally) gets resolved and sent along. We also provide a Canvas interface for ChatGPT. Advanced features include chaining results and batching.
 - [[cloud-storage|Cloud Storage]]: Managing attachments across devices. Automatically uploads your attachments to the cloud and smartly updates all your markdown links, keeping your notes and attachments perfectly organized. Whether you're handling images, PDFs, or any other files, it works seamlessly in the background. You can even use it as a powerful image hosting solution, supporting plugin-provided cloud storage or custom S3 storage!
+- [[cloud-sync|Cloud sync]]: 将笔记同步到多种云盘服务，提供端到端加密保护。
 - [[cloudinary|Cloudinary]]: Make you notes lighter by uploading all content(images, videos, audio) to Cloudinary and insert(copy or drag both) them into your notes.
 - [[obsidian-cloudinary-uploader|Cloudinary Uploader]]: This plugin uploads the media files in your clipboard (or drag and drop) to Cloudinary as unsigned uploads
 - [[cloze|Cloze]]: Convert highlights, underlines, bolded texts or any selected texts into clozes.
 - [[cluster|Cluster]]: Make the notes clustering simpler on mobile devices and work well on PCs ether, Notes Clustering is the process of creating hierarchical notes structures.
 - [[cmd-search|CmdSearch]]: Use the command pallete to search web. Add your own URLs.
 - [[coco-askai|CoCo AskAI]]: Let your questions flow swiftly with CoCo AskAI. (Closed source)
-- [[coalesce|Coalesce]]: Coalesce your backlinked notes into a single view
+- [[coalesce|Coalesce]]: Coalesce your notes into a single view
 - [[code-block-plugin|Code Block]]: This plugin converts text into code blocks with automatic language detection.
 - [[obsidian-codeblock-labels|Code Block Labels]]: Adds labels to fenced code blocks
 - [[code-emitter|Code Emitter]]: An Obsidian plugin that allows code blocks to be executed interactively like in Jupyter Notebooks. Supports languages like Rust, Kotlin, Python, JavaScript, TypeScript etc.
@@ -473,6 +478,7 @@ Plugins which have not yet been categorized by the community.
 - [[custom-commands|Custom Commands]]: Create custom commands to be executed in the command palette, and by hotkey. Currently supports opening specific notes, creating notes, inserting snippets, and executing sequences of commands.
 - [[custom-sort|Custom File Explorer sorting]]: Allows for manual and automatic, config-driven reordering and sorting of files and folders in File Explorer
 - [[obsidian-custom-file-extensions-plugin|Custom File Extensions Plugin]]: Associate views with custom file extensions via settings.
+- [[custom-file-viewer|Custom File Viewer]]: Open files with custom external applications based on file extension
 - [[custom-font-loader|Custom Font Loader]]: Customize your Obsidian vault with any font you want (+ Support for Android and IOS)
 - [[obsidian-custom-frames|Custom Frames]]: A plugin that turns web apps into panes using iframes with custom styling. Also comes with presets for Google Keep, Todoist and more.
 - [[custom-sidebar-icons|Custom Icons]]: Enhance your workspace with customizable icons for documents and folders.
@@ -551,6 +557,7 @@ Plugins which have not yet been categorized by the community.
 - [[discord-message-formatter|Discord Message Formatter]]: Simply CTRL+C CTRL+V Discord messages from the Desktop client and have them automatically formatted
 - [[discord-message-sender|Discord Message Sender]]: Send messages from a Discord channel to your Vault
 - [[discord-timestamps|Discord Timestamps]]: Displays discord timestamps in read mode as they would appear in Discord.
+- [[discrete|Discrete]]: Filter files in the file explorer based on their frontmatter metadata
 - [[disk-usage|Disk Usage]]: Measures disk usage for tracking size of folders and file types.
 - [[display-relative-path-img|Display Relative Path Img]]: Display the image of the <img> tag
 - [[obsidian-divide-and-conquer|Divide & Conquer]]: Provides commands for bulk enabling/disabling of plugins. Useful for debugging when you have many plugins.
@@ -599,6 +606,7 @@ Plugins which have not yet been categorized by the community.
 - [[editing-toolbar|Editing Toolbar]]: The Obsidian Editing Toolbar is modified from cmenu, which provides more powerful customization settings and has many built-in editing commands to be a MS Word-like toolbar editing experience.
 - [[editor-autofocus|Editor Autofocus]]: Autofocus the editor when opening a new file.
 - [[editor-width-slider|Editor Width Slider]]: Customize Obsidian's editor width with a slider for a tailored editing experience.
+- [[efficient-word-count|Efficient Word Count]]: Efficiently calculates and caches word counts for notes, with folder exclusion. Uses cache to avoid recalculating word counts for unchanged notes.
 - [[ego-rock|Ego Rock]]: A basic taskwarrior UI for listing and modifying tasks.
 - [[eleven-labs|Eleven Labs]]: Turn your Obsidian notes into text-to-speech audio files with Eleven Labs.
 - [[emacs-text-editor|Emacs text editor]]: Partial emulation of Emacs text editor for Obisidian
@@ -905,7 +913,6 @@ Plugins which have not yet been categorized by the community.
 - [[hugo-codeblock-highlight|Hugo codeblock highlight]]: Highlights lines in codeblocks using Hugo's hl_lines syntax.
 - [[hugo-preview-obsidian|Hugo preview]]: Hugo preview in obsidian
 - [[hunchly|Hunchly]]: This plugin converts Hunchly's notes and captioned images into obsidian notes. Also adds selectors from hunchly as obsidian tags.
-- [[hyperlink-remover|Hyperlink Remover]]: Remove hyperlinks from selected text or the entire note.
 - [[obsidian-hyphenation|Hyphenation]]: Enables justified text and hyphenation
 - [[harn-weather|Hârn Weather Generator]]: Unofficial Hârn weather generator. Generates the campaign weather for different time spans. The weather includes precipitation, temperature, wind direction and speed, moon phases and critical conditions for the whole of Western Venârivè.
 - [[ics|ICS]]: Parse multiple ICS files to include in your notes. Designed for Daily Notes and the Day Planner format. Through templates you can customize it for other use cases.
@@ -1101,6 +1108,7 @@ Plugins which have not yet been categorized by the community.
 - [[link-opening-restore|Link Opening Restore]]: Make links require Ctrl + Left Click to open.
 - [[link-preview|Link Preview]]: Show a preview of external links on hover
 - [[link-range|Link Range]]: This Obsidian plugin brings ranged link support to Obsidian.
+- [[hyperlink-remover|Link Remover]]: Easily remove hyperlinks and wikilinks from selected text or the entire note.
 - [[link-tree|Link Tree]]: View file links and backlinks as a recursively expandable, filterable list with editable text, combining the structure of outliners like Dynalist & WorkFlowy with the flexibility of Obsidian.
 - [[link-to-verse|Link to Verse]]: From a Bible reference selected, creates a markdown link to a configured Bible site.
 - [[link-with-alias|Link with alias]]: Creates links and aliases in front matter of target document
@@ -1489,6 +1497,7 @@ Plugins which have not yet been categorized by the community.
 - [[pt-url-helper|Pivotal Tracker URL Helper]]: Automatically creates a Markdown link for Pivotal Tracker stories.
 - [[pexels-banner|Pixel Banner]]: Enhance your notes with customizable banner images, including AI-generated designs and a curated store of downloadable banners. Transform your workspace with visually stunning headers that add context, improve aesthetics, and take your note-taking beyond the ordinary.
 - [[pixel-perfect-image|Pixel Perfect Image]]: Pixel perfect 100% image resizing, copy to clipboard, show image in Finder/Explorer, edit image in external editor, and much more.
+- [[pixel-pets|Pixel Pets]]: Adds cute pixel pets.
 - [[plot-vectors-graphs|Plot Vectors and Graphs]]: Generates graphs and vectors.
 - [[obsidian-plugin-groups|Plugin Groups]]: Manage your Plugins through groups: Enable and disable multiple plugins through a single command, or delay the startup of plugins to speed up your Obsidian start up time.
 - [[plugin-manager|Plugin Manager]]: Extends plugin management of Obsidian.MD
@@ -1534,6 +1543,7 @@ Plugins which have not yet been categorized by the community.
 - [[pseudo-mica|Pseudo Mica]]: Mica-like background effect for Windows.
 - [[pseudocode-in-obs|Pseudocode]]: This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.
 - [[pubscale|PubScale]]: Seamlessly sync markdown notes into PlanetScale tables.
+- [[publish-note-to-mowen|Publish Note to Mowen Note]]: Publish note to Mowen note mini program.
 - [[copy-publish-url|Publish and GitHub URL]]: Copy or open the URL of the corresponding note on your Publish site. You can also open its Git commit history on GitHub.
 - [[publish-to-dev|Publish to DEV]]: Publish and update notes as articles on DEV (https://dev.to)
 - [[publish-to-discourse|Publish to Discourse]]: Publish notes to the Discourse forum.
@@ -1550,6 +1560,7 @@ Plugins which have not yet been categorized by the community.
 - [[qatt|Query all the things]]: Execute SQL base queries against your data in Obsidian and render it how you want using templates.
 - [[querydash|QueryDash]]: Refer to Dataview and add search, sorting, and pagination functions, just like Notion.
 - [[quick-cards|Quick Cards]]: cardify your files
+- [[quick-emoji|Quick Emoji]]: Quick, in-editor, emoji inserting. Type ":" to start selecting an emoji to insert.
 - [[quick-file-name|Quick File Name]]: Generates a note with a random string as its name.
 - [[quick-links|Quick Links]]: Create quick link shortcuts to Wikipedia and other sites
 - [[quick-nav|Quick Nav]]: Enhance your editing experience by unleashing the hidden power of shortcuts
@@ -1614,6 +1625,7 @@ Plugins which have not yet been categorized by the community.
 - [[regex-line-filter|Regex Line Filter]]: Filters the active note to show only lines matching a regex, allowing edits.
 - [[regex-mark|Regex Mark]]: Add custom CSS classes to text based on regular expressions.
 - [[related-notes|Related Notes]]: Discover related notes and uncover missed connections.
+- [[related-notes-by-tag|Related Notes by Tag]]: Displays list of notes in the sidebar that share tags with the currently active note.
 - [[obsidian-relation-pane|Relation Pane]]: This plugin displays a panel that summarize relations between notes.
 - [[relative-timestamps|Relative Timestamps]]: Track the time between log entries
 - [[obsidian-relativenumber|Relativenumber (relative line numbers)]]: Displays relative line numbers in the editor's gutter.
@@ -2064,6 +2076,7 @@ Plugins which have not yet been categorized by the community.
 - [[vcf-contacts|VCF Contacts]]: Effortlessly manage, organize, and interact with your contacts. Import, export, and structure vCard (VCF) files seamlessly while keeping all contact details accessible in your knowledge base. Includes click-to-call, right-click copy, structured metadata, and more!
 - [[vlc-bridge|VLC Bridge]]: Take video/movie notes with timestamp links and snapshots from VLC Player.
 - [[vscode-editor|VSCode Editor]]: Edit Code Files like VSCode.
+- [[variant-editor|Variant Editor]]: Create variations of words and sentences and compare them, in context, with a single click
 - [[varinote|Varinote]]: Add variables in templates and set their values on-the-fly during the note creation.
 - [[vault-2-book|Vault 2 Book]]: Converts your notes to a book creating a single file containing all the notes linked
 - [[vault-chat|Vault Chat]]: A ChatGPT bot trained on your vault notes. Ask your AI questions about your own thoughts and ideas!
@@ -2122,6 +2135,7 @@ Plugins which have not yet been categorized by the community.
 - [[waypoint|Waypoint]]: Easily generate dynamic content maps in your folder notes using waypoints. Enables folders to show up in the graph view and removes the need for messy tags!
 - [[wewrite|WeWrite]]: Make obsidian a powerful workspace for writing and publishing article to WeChat MP. Draft ahead  of release.
 - [[weather-fetcher|Weather Fetcher]]: Fetch and insert current weather into the editor of Obsidian.
+- [[webdav-image-uploader|WebDAV Image Uploader]]: Uploads, downloads and deletes images on WebDAV server within notes.
 - [[webdav-file-explorer|Webdav File Explorer]]: A webdav file explorer for Obsidian.
 - [[webpage-html-export|Webpage HTML Export]]: Export html from single files, canvas pages, or whole vaults. Direct access to the exported HTML files allows you to publish your digital garden anywhere. Focuses on flexibility, features, and style parity.
 - [[wechat-public-platform|Wechat Public Platform]]: Release the article from your vault to WeChat, Baidu Baijiahao, or another article release platform.
