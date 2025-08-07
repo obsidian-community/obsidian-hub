@@ -46,6 +46,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ayu Mirage|Ayu Mirage]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Ayu|Ayu]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Base2Tone|Base2Tone]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Baseline|Baseline]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Behave dark|Behave dark]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Big & Bold|Big & Bold]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Big Sur Aesthetic|Big Sur Aesthetic]]
