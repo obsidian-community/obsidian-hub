@@ -226,6 +226,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-bible-reference|Bible Reference]]: Taking Bible Study note in Obsidian.md application easily. Automatically suggesting Bible Verses as references. 
 - [[bible-linker-pro|Bible linker Pro]]: Convert Bible texts to JW Library links.
 - [[bible-sidecar|Bible sidecar]]: Open the bible in your prefered translation in a splitscreen view
+- [[bibtex-entry-view|Bibtex Entry View]]: Load the bibtex entry of a given bibkey from a given bib file and show the entry in the code block of bibkey.
 - [[obsidian-binary-file-manager-plugin|Binary File Manager]]: Detects new binary files in the vault and create markdown files with metadata.
 - [[birthday-tracker|Birthday-Tracker]]: Keep track of all birthdays of your family and friends.
 - [[bitcoin-block-stamp|Bitcoin Block Stamp]]: Stamp your notes with the current Bitcoin block.
@@ -354,6 +355,7 @@ Plugins which have not yet been categorized by the community.
 - [[click-hint|Click Hint]]: Provide keyboard-driven hints for clickable elements
 - [[click-unsupported-files|Click Unsupported Files]]: Changes click behavior for unsupported files to work similar to Windows File Explorer: single-click selects, double-click opens in default app.
 - [[click-up-sync|ClickUp sync]]: Manage ClickUp space from notes
+- [[clipboard-manager|Clipboard Manager]]: A clipboard manager that stores clipboard history and provides search functionality with real-time updates
 - [[obsidian-clipper|Clipper]]: This plugin helps you capture highlights from the web.
 - [[clipper-catalog|Clipper Catalog]]: A catalog view of all the clippings gathered with a common source property.
 - [[clippermaster|ClipperMaster]]: Works with the ClipperMaster Chrome extension to clip structured content from the web and save it to your vault as Markdown files.
@@ -486,6 +488,7 @@ Plugins which have not yet been categorized by the community.
 - [[custom-node-size|Custom Node Size]]: Customize nodes size for improved graph understanding.
 - [[custom-note-width|Custom Note Width]]: Let's you adjust the line width on a note-by-note basis.
 - [[custom-selected-word-count|Custom Selected Word Count]]: Comprehensive text analysis for selected text including word counting, character counting, and sentence counting with modern UI design.
+- [[custom-slides|Custom Slides]]: Customizes the Slides core plugin navigation, styles, and behavior.
 - [[custom-state-for-task-list|Custom State for Task List]]: Add custom states to task list items.
 - [[custom-list-character|Custom list character]]: Adds the ability to choose the character to use when creating a bullet list between '-', '*' and '+'
 - [[custom-new-file-name|Custom new file name]]: Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.
@@ -595,7 +598,7 @@ Plugins which have not yet been categorized by the community.
 - [[easy-test|Easy Test]]: Easily create simple tests
 - [[easy-timeline|Easy Timeline]]: Simplifies creating and visualizing timelines from text using dates and metadata
 - [[easylink|EasyLink]]: Select text in your editor to find the most similar content from other notes and easily create links.
-- [[eccirian|Eccirian Encrypt]]: Encrypt your notes using advanced encryption algorithms.
+- [[eccirian|Eccirian Encrypt]]: Encrypt your files using advanced encryption algorithms.
 - [[edge-tts|Edge TTS]]: Read notes aloud using Microsoft Edge Read Aloud API (free, high quality text-to-speech).
 - [[edit-gemini|Edit Gemini]]: Allows the user to edit and create .gmi files.
 - [[edit-history|Edit History]]: Automatically saves the history of edits of a file when Obsidian saves the file, and allows viewing the differences between edits, copying text from a previous edit, or fully rolling back to a previous edit.
@@ -862,6 +865,7 @@ Plugins which have not yet been categorized by the community.
 - [[halo|Halo]]: Halo's Obsidian integration supports publishing content to Halo sites
 - [[hamsterbase|HamsterBase Official]]: Official HamsterBase -> Obsidian integration
 - [[obsidian-handlebars|Handlebars Template Plugin]]: This is a plugin for Obsidian that adds support for handlebars template blocks in notes.
+- [[handwriting-ocr|Handwriting OCR]]: Transform handwritten documents and scanned images into editable text with Handwriting OCR's AI-powered handwriting to text conversion.
 - [[handwritten-notes|Handwritten Notes]]: Annotate PDFs and create handwritten notes inside your vault using a stylus.
 - [[hanko|Hanko]]: Register and paste any text.
 - [[hanzi-writer|Hanzi Writer]]: Interactive Chinese character writing blocks using Hanzi Writer
@@ -1058,6 +1062,7 @@ Plugins which have not yet been categorized by the community.
 - [[lds-library-reference|LDS Library Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latter-day Saints
 - [[lds-scriptures-reference|LDS Scriptures Reference]]: Easily insert references to LDS scriptures
 - [[line-notes-sync|LINE Notes Sync]]: Sync messages from LINE to your notes.
+- [[llm-shortcut|LLM Shortcut]]: Provides a way to create shortcuts for commands powered by LLM capabilities.
 - [[llm-summary|LLM Summary]]: Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.
 - [[llm-tagger|LLM Tagger]]: Automatically tag your notes using local LLMs via Ollama
 - [[llm-test-gen|LLM Test Generator]]: Generate AI-powered test questions from your notes with multiple LLM providers (OpenAI, Mistral, Gemini, DeepSeek, Ollama) to enhance your learning and retention.
@@ -1114,6 +1119,7 @@ Plugins which have not yet been categorized by the community.
 - [[link-with-alias|Link with alias]]: Creates links and aliases in front matter of target document
 - [[link-magic|LinkMagic]]: Automatically adds links to defined regex.
 - [[linkshelf|LinkStowr]]: Save links from your browser directly into Obsidian.
+- [[linked-note-exporter|Linked Note Exporter]]: Export note with all its attachments and linked notes.
 - [[linkify|Linkify]]: Converts matching text into links.
 - [[links|Links]]: Manipulate links
 - [[obsidian-list-callouts|List Callouts]]: Create simple callouts in lists.
@@ -1247,6 +1253,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-mindmap-nextgen|Mindmap NextGen]]: View your Markdown as a mindmap
 - [[mini-toolbar|Mini Toolbar]]: mini context toolbar in editor
 - [[mini-vimrc|Mini Vimrc]]: Set Vim keybiddings via .vimrc file.
+- [[mini-rag|Mini-RAG]]: Leverage Retrieval Augmented Generation (RAG) for your notes, using a locally running LLM or AI.
 - [[minimal-quiz|Minimal Quiz]]: Start a quick Markdown-based quiz on your current note. Simple, straightforward, and fully integrated — similar to flashcards in Anki or Quizlet!
 - [[minimize-on-close|Minimize on Close]]: Minimizes the app window to an icon after closing the last open pane
 - [[minio-uploader|Minio Uploader]]: Upload images, videos, audio, pdf, and other files to Minio OSS.
@@ -1511,7 +1518,7 @@ Plugins which have not yet been categorized by the community.
 - [[podnotes|PodNotes]]: Helps you write notes on podcasts.
 - [[poker|Poker]]: Easily document and view your poker hands.
 - [[poker-range|Poker Range]]: Create a poker range grid
-- [[pomobar|PomoBar]]: A simple Pomodoro timer that lives in your status bar. Left click to start/stop, right click to reset when paused, middle click to cycle between 25/15/5 minute durations.
+- [[pomobar|PomoBar]]: A simple Pomodoro timer that lives in your status bar. Left click to start/stop, right click to reset when paused, middle click to cycle between work/break durations.
 - [[pomodoro-planner|Pomodoro Planner]]: Generates a pomodoro schedule plan
 - [[pomodoro-timer|Pomodoro Timer]]: A pomodoro timer that helps manage your daily focus
 - [[pomodoro-widget|Pomodoro Widget]]: Provides a widget based on a pomodoro kitchen timer. It's designed to be haptic, and has a constant ticking sound, and an alarm sound that can be toggled.
@@ -1525,6 +1532,7 @@ Plugins which have not yet been categorized by the community.
 - [[previous-daily-note|Previous Daily Note]]: Open the previous daily note. Unlike the "Daily notes" command "Open previous daily note", it opens the previous daily note starting from today, rather than the daily note currently open.
 - [[print|Print]]: Print notes and documents directly from your workspace.
 - [[prioritize|Prioritize]]: Prioritize your tasks and notes in Obsidian.
+- [[private-ai|Private AI]]: Effortlessly chat with your notes using locally hosted AI.  Private by design, your notes never leave the device and use locally processing only.
 - [[private-mode|Private Mode]]: Simple #private mode
 - [[obsidian-prozen|ProZen]]: Enter Zen mode to focus on writing. The plugin expands current tab to full screen removing everything but content.
 - [[progress-clocks|Progress Clocks]]: Progress clocks and other useful widgets for real-time status tracking.
@@ -1689,6 +1697,7 @@ Plugins which have not yet been categorized by the community.
 - [[scroll-speed|Scroll Speed]]: This plugin allows you to change the scroll speed inside Obsidian notes.
 - [[obsidian-scroll-to-top-plugin|Scroll to Top]]: This is a plugin for Obsidian that adds a button to scroll to the top of the current note.
 - [[scrolling|Scrolling]]: Improve scrolling and keep your cursor exactly where you want it.
+- [[scroll-to-nav-top|Scrolls To Nav Top]]: Scrolls File Explorer To Top Position.
 - [[scrybble.ink|Scrybble]]: Synchronize highlights from your ReMarkable to Obsidian!
 - [[seafile|Seafile]]: Sync notes across devices using Seafile.
 - [[search-in-canvas|Search In Canvas]]: Search text in canvas
@@ -1808,6 +1817,7 @@ Plugins which have not yet been categorized by the community.
 - [[sonkil|Sonkil]]: Provides Emacs-style text operations like Kill/Yank (Kill Ring), multi-cursor editing, and visual mark selection.
 - [[obsidian-soomda|Soomda]]: Quickly hide your sidebars
 - [[sort-frontmatter|Sort Frontmatter]]: Sort frontmatter recursively
+- [[sortable-tables|Sortable Tables]]: Adds sortable columns to markdown tables in preview mode.
 - [[soundscapes|Soundscapes]]: Adds a music/ambiance (E.g. lofi, white noise) player to the status bar to help with concentration. Also allows you to play your own local music files.
 - [[source-code-note|Source Code Note]]: This plugin can help you organize source code note easily.
 - [[source-scanner|Source Scanner]]: Scan java source and test code for comments then place it in md files.
@@ -1835,7 +1845,7 @@ Plugins which have not yet been categorized by the community.
 - [[sticky-heading|Sticky Headings]]: Sticky Headings and Shows the heading level
 - [[sticky-notes|Sticky Notes]]: Create sticky notes popups.
 - [[storyclock|Storyclock Viewer]]: Maps timing onto a storyclock. Inspired by Plot Devices Storyclock.
-- [[storyteller-suite|Storyteller Suite]]: A comprehensive suite for managing characters, locations, events, and galleries for your novels.
+- [[storyteller-suite|Storyteller suite]]: A comprehensive suite for managing characters, locations, events, and galleries for your novels.
 - [[obsidian42-strange-new-worlds|Strange New Worlds]]: Help see how your vault is interconnected with visual indicators.
 - [[notes-to-strapi-export-article-ai|Strapi Exporter AI]]: Effortlessly export your notes to Strapi CMS with AI-powered handling and SEO optimization.
 - [[strava-sync|Strava Sync]]: Sync activities from Strava.
@@ -2115,7 +2125,7 @@ Plugins which have not yet been categorized by the community.
 - [[virustotal-enrich|Virus Total Enrichment]]: Enrich your notes with information from VirusTotal.
 - [[vision-recall|Vision Recall]]: Transform screenshots into searchable notes using AI vision and text analysis.
 - [[visual-crossing-weather|Visual Crossing Weather]]: Visual Crossing Weather API for Your Notes
-- [[vitepress-publisher|Vitepress Publisher]]: This is an plugin for more convenient preview and publishing of .md files using vitepress
+- [[vitepress-publisher|Vitepress Publisher]]: This is a plugin for more convenient preview and publishing of .md files using VitePress and other static site generators like Hugo
 - [[vk-group-notifier|Vk group notifier]]: Track news posts from the vk.com groups.
 - [[vocabulary-cards|Vocabulary Cards]]: An easy way to display vocabulary words as flashcards and as a list.
 - [[vocabulary-highlighter|Vocabulary Highlighter]]: Hightlight vocabulary based on the word frequency
@@ -2259,6 +2269,7 @@ Plugins which have not yet been categorized by the community.
 - [[syncread|syncread-assistant]]: sync articles from syncread app
 - [[text2anki-openai|text2anki-openai]]: This is an obsidian plugin that uses OpenAI to generate flashcards from text and add them to Anki.
 - [[tidit|tidit]]: tidit adds timestamps to your document as you type — when you want it, how you want it, where you want it.
+- [[umbpublisher|umbPublisher]]: Push notes to Umbraco CMS as content.
 - [[vconsole|vConsole]]: Integrate vConsole for developers to facilitate the debugging of mobile plugins.
 - [[x86-flow-graphing|x86 Assembly Flow Graphing]]: An Obsidian plugin for converting x86 code blocks into flow graphs
 - [[zettelkasten-navigation|zettelkasten navigation]]: Visualize a Luhmann-style zettelkasten.
