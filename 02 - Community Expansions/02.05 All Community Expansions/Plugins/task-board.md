@@ -25,7 +25,7 @@ Links: [GitHub repository](https://github.com/tu2-atmanand/Task-Board) or [<butt
 Developed by: [[tu2-atmanand]]
 Mobile compatible: [[Desktop-only plugins|Yes]]
 
-Manage all your tasks throghout your vault from a single board and much more...
+Manage all your tasks throughout your vault from a single board and much more...
 
 %% ----- Do not edit anything above this line ----- %% 
 
