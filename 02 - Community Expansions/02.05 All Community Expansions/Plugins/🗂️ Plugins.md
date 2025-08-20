@@ -1959,6 +1959,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/oz-clear-unused-images|oz-clear-unused-images]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/oz-image-plugin|oz-image-plugin]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/ozanshare-publish|ozanshare-publish]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/packup4ai|packup4ai]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/page-gallery|page-gallery]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/page-heading-from-links|page-heading-from-links]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/page-properties|page-properties]]

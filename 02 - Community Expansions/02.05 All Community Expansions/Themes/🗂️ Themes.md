@@ -281,6 +281,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Oreo|Oreo]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Origami|Origami]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Origin|Origin]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Osaka Jade|Osaka Jade]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/OverCast|OverCast]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Palatinate|Palatinate]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Pale - 淡|Pale - 淡]]
