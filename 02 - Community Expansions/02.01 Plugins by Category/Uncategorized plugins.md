@@ -1044,7 +1044,7 @@ Plugins which have not yet been categorized by the community.
 - [[ketcher|Ketcher]]: View or draw chemical structures and reactions using Ketcher.
 - [[key-promoter|Key Promoter]]: Learn keyboard shortcuts by showing them when using the mouse
 - [[key-value-list|Key-Value List]]: Makes it easy to turn lists into formatted key-value lists.
-- [[keyboard-analyzer|Keyboard Analyzer]]: See and analyse your keyboard hotkeys and shortcuts
+- [[keyboard-analyzer|Keyboard Analyzer]]: See and analyze your keyboard hotkeys and shortcuts
 - [[keyshots|Keyshots]]: Adds classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.
 - [[keyword-highlighter|Keyword Highlighter]]: Automatically highlight specified keywords within your Obsidian notes for enhanced visibility and quick reference.
 - [[khoj|Khoj]]: Your Second Brain
@@ -1920,7 +1920,7 @@ Plugins which have not yet been categorized by the community.
 - [[tailwind-snippet|Tailwind Snippet]]: Use TailwindCSS utility classes in your markup.
 - [[target-word-count|Target Word Count]]: Disable editing until you've added a target number of words.
 - [[tars|Tars]]: Text generation based on tag suggestions, using DeepSeek, Claude, OpenAI, OpenRouter, SiliconFlow, Gemini, Qwen & more.
-- [[task-board|Task Board]]: Manage all your tasks throghout your vault from a single board and much more...
+- [[task-board|Task Board]]: Manage all your tasks throughout your vault from a single board and much more...
 - [[task-director|Task Director]]: Manage and change tasks targeting a specific page
 - [[obsidian-task-progress-bar|Task Genius]]: Comprehensive task management that includes progress bars, task status cycling, and advanced task tracking features.
 - [[task-list-kanban|Task List Kanban]]: Organizes all of the tasks within your files into a kanban view. Reduce duplication of effort when managing and prioritising tasks by simply using the task format in your files to automatically appear in your Task List Kanban.
@@ -2223,7 +2223,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-zotero-desktop-connector|Zotero Integration]]: Insert and import citations, bibliographies, notes, and PDF annotations from Zotero.
 - [[zotero-link|Zotero Link]]: Insert link to Zotero items from Obsidian interface using Zotero Bridge
 - [[zotero-sync-client|Zotero Sync]]: Zotero API client to sync your Zotero library into your vault
-- [[another-dynamic-highlights|aDHL]]: Create pretty static highlighters from search or regEx. Group by tag and set commands for toggling. Based on Dynamic Highlights. Works well with Highlightr.
+- [[another-dynamic-highlights|aDHL]]: Create pretty static highlighters from search or regEx. Group by tag and set commands for toggling. Based on Dynamic Highlights.
 - [[ai-writer|ai-writer]]: Use AI to generate high-quality articles with knowledge fragments.
 - [[obsidian-asciimath|asciimath]]: Add asciimath support for Obsidian.
 - [[auto-literature|autoLiterature]]: Assist you in taking notes for your literature.
@@ -2257,6 +2257,7 @@ Plugins which have not yet been categorized by the community.
 - [[oblogger|oblogger]]: tagger explorer and frontmatter logger
 - [[obsidian-echarts|obsidian echarts]]: obsidian echarts
 - [[open-as-md|open-as-md]]: Edit non-md file types as markdown files
+- [[packup4ai|packUp4AI]]: Collect related notes based on links/backlinks to provide focused context for external AI chatbots. Explore note relationships visually and export the bundle.
 - [[pycalc|pycalc]]: Executing Python code directly within the editor by pressing the Enter key.
 - [[qmd-as-md-obsidian|qmd as md]]: This plugin provides an initial support for viewing files with .qmd extension. QMD files contain a combination of markdown and executable code cells and are a format supported by Quarto open source publishing system.
 - [[random-retrieval|random-retrieval]]: Random Note Retrieval based on LLMs.
