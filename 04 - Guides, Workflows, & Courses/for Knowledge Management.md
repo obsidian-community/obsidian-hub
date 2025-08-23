@@ -8,6 +8,9 @@ tags:
 
 # for Knowledge Management
 
+## Fundamental information
+- [Universal knowledge management rules](https://davidewiest.medium.com/universal-pkm-rules-ddbea35bea3b)
+
 ## Methodologies
 
 ### Zettelkasten
