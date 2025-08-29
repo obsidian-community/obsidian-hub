@@ -133,6 +133,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/evangelion|evangelion]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Everblush|Everblush]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Everforest Enchanted|Everforest Enchanted]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Everforest Spruce|Everforest Spruce]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Everforest|Everforest]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Evergreen-Shadow|Evergreen-Shadow]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/EvilRed|EvilRed]]

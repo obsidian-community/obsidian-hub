@@ -26,6 +26,7 @@ Plugins which have not yet been categorized by the community.
 - [[ai-commander|AI Commander]]: Generate audio transcripts, images, and text in context of PDF attachments or web search results using OpenAI (ChatGPT) and Bing API.
 - [[ai-editor|AI Editor]]: Empower your note editor with LLM capabilities. Customizable to work for your use cases.
 - [[ai-helper|AI Helper]]: An AI helper tool for summarizing text and providing a chatbot to let you ask questions about your notes.
+- [[ai-image-ocr|AI Image OCR]]: Extract text from handwritten notes and images using powerful AI Vision models
 - [[ai_llm|AI LLM]]: Integrate local machine learning (OLLAMA) functionality into your notes, enhancing their capabilities
 - [[ai-latex-generator|AI LaTeX Generator]]: Convert natural language to LaTeX equations using a local LLM.
 - [[ai-mentor|AI Mentor]]: Meet your open source AI mentor in Obsidian. Ask questions, get answers, and learn new things.
@@ -501,7 +502,7 @@ Plugins which have not yet been categorized by the community.
 - [[dbfolder|DB Folder]]: Folder with the capability to store and retrieve data from a folder like database
 - [[daily-news-briefing|Daily News Briefing]]: Get AI-powered daily news summaries in your vault. Features customizable topics, smart filtering, and automated scheduling.
 - [[daily-note-collector|Daily Note Collector]]: Adds links to new notes to your daily note.
-- [[note-metrics|Daily Note Metrics]]: Parses the tags in your Daily Notes to create interactive charts in a dashboard view.
+- [[note-metrics|Daily Note Metrics]]: Parses tags, emoji tags, and checkboxes in your Daily Notes to create interactive charts.
 - [[daily-note-navbar|Daily Note Navbar]]: Navigate between sequential daily notes with ease.
 - [[obsidian-daily-note-outline|Daily Note Outline]]: Add a custom view which shows outline of multiple daily notes with headings, links, tags and list items
 - [[daily-note-pinner|Daily Note Pinner]]: Pins the Daily Note of the present day. Unpinns all Daily Notes of past and future days.
@@ -1000,7 +1001,7 @@ Plugins which have not yet been categorized by the community.
 - [[insighta|InsightA]]: InsightA can transform extensive articles into concise, atomic notes and generate MOC based on note title using LLM. 🚀📝
 - [[insta-toc|Insta TOC]]: Simultaneously generate, update, and maintain a table of contents for your notes.
 - [[instant-above-divider|Instant Above Divider]]: Quickly insert a divider line at the beginning of your note.
-- [[instapaper|Instapaper]]: Instapaper integration.
+- [[instapaper|Instapaper]]: Connect Obsidian to your Instapaper account.
 - [[intelligence|Intelligence]]: Turn your notes into personalized AI-powered assistants to retrieve ideas, think, and write. Powered by the OpenAI GPT Assistant API.
 - [[interactive-code-blocks|Interactive Code Blocks]]: Preview interactive code blocks!
 - [[interactive-ratings|Interactive Ratings]]: Edit symbol ratings in your notes interactively.
@@ -1014,7 +1015,7 @@ Plugins which have not yet been categorized by the community.
 - [[json-table|JSON table]]: Simply switch between JSON and tables. Generate a table from a JSON string or a URL (which returns JSON) in your notes. Generate JSON from a table in your notes.
 - [[obsidian-import-json|JSON/CSV Importer]]: This plugin imports a JSON/CSV file (or text block) and creates notes from a Handlebars template file
 - [[jw-library-linker|JW Library Linker]]: Converts JW Library references to actual links in JW Library.
-- [[jade-publisher|Jade Publisher]]: Publish your notes to your Jade service.
+- [[jade-publisher|Jade Publisher]]: Sync and Publish your vaults
 - [[janitor|Janitor]]: Performs cleanup tasks on the Obsidian vault
 - [[japanese-novel-ruby|Japanese Novel Ruby]]: Treat ruby(Furigana) ​​marks commonly used in Japanese novels.
 - [[japanese-helper|Japanese note taking helper]]: Convert romaji to hiragana and katakana to streamline Japanese note‑taking.
@@ -1054,6 +1055,7 @@ Plugins which have not yet been categorized by the community.
 - [[kindle-csv-converter|Kindle CSV Converter]]: Import your Kindle notes in .csv format to Obsidian.
 - [[kindle-highlights-import|Kindle Highlights Import]]: Imports the Kindle highlights HTML file and saves it as a note in your vault.
 - [[kindle-html-importer|Kindle Highlights Importer]]: A simple way to import your Kindle highlights html file.
+- [[kindle-vocab|Kindle Vocab]]: Create the Markdown file from your Kindle Vocab Builder in your vault
 - [[unofficial-kinopoisk|Kinopoisk search]]: Helps you find movies and tv shows via Kinopoisk and create notes.
 - [[obsidian-kobo-highlights-importer-plugin|Kobo Highlights Importer]]: Import highlights from your Kobo device
 - [[kr-book-info-plugin|Korean Book Info]]: A plugin that crawls Yes24 to get book information.
@@ -1102,6 +1104,7 @@ Plugins which have not yet been categorized by the community.
 - [[line-arrange|Line Arrange]]: Shuffle, reverse, or sort text, using either visual width or alphabetical order.
 - [[line-commands|Line Commands]]: Adds commands to quickly select, copy, cut, and paste lines under the selection or cursor.
 - [[lineage|Lineage]]: Edit Markdown in a keyboard-centric Miller columns interface. Inspired by Gingko Writer.
+- [[linear|Linear]]: Integrate Linear issues with advanced filtering, sorting, and visual enhancements. Features include due date indicators, status colors, and comprehensive debug logging.
 - [[obsidian-lineup-builder|Lineup Builder]]: Build football lineups in Obsidian.
 - [[obsidian-link-embed|Link Embed]]: This plugin auto-fetches page metadata to embed Notion-style link preview cards.
 - [[link-exploder|Link Exploder]]: Link Exploder is a Obsidian plugin that creates a canvas from a note, embedding it's incoming (i.e. backlinks) and outgoing links onto the canvas (as well as the their linked notes).
@@ -1878,7 +1881,7 @@ Plugins which have not yet been categorized by the community.
 - [[taskrobin|Sync Emails]]: Sync and save emails and attachment files to your vault with TaskRobin.
 - [[sync-google-calendar|Sync Google Calendar]]: Synchronize events from Google Calendar and manage them like tasks.
 - [[sync-graph-settings|Sync Graph Settings]]: This is a plugin for syncing various graph settings to Local Graphs
-- [[sync-vault-ce|Sync Vault CE]]: Self-controlled sync across all platforms, Aliyun & & Jianguoyun & InifiCloud supported
+- [[sync-vault-ce|Sync Vault CE]]: Self-controlled sync across all platforms, Aliyun & & Jianguoyun & InifiCloud & Tencent COS supported
 - [[sync-config-folder-to-common-folder|Sync config folder to common folder]]: Sync contents from config folder to common folder for backup or other purposes
 - [[hugo-sync|Sync to Hugo]]: Sync the selected notes to Hugo blog
 - [[syncftp|SyncFTP]]: This plugin syncs files to an SFTP, with credentials in settings.
@@ -2091,7 +2094,7 @@ Plugins which have not yet been categorized by the community.
 - [[vault-2-book|Vault 2 Book]]: Converts your notes to a book creating a single file containing all the notes linked
 - [[vault-chat|Vault Chat]]: A ChatGPT bot trained on your vault notes. Ask your AI questions about your own thoughts and ideas!
 - [[vault-explorer|Vault Explorer]]: Explore your vault in visual format
-- [[vault-file-renamer|Vault File Renamer]]: This plugin standardizes the names of files in your vault by converting them to lowercase, replacing spaces with underscores, and removing accents and unwanted characters.
+- [[vault-file-renamer|Vault File Renamer]]: Standardizes names in your vault: lowercase, accents removed, spaces become hyphens, and invalid characters are converted. Settings include enable/disable, target extensions (allow-list), excluded extensions (when allow-list is empty), and folder blacklist.
 - [[vault-full-statistics|Vault Full Statistics]]: Status bar item with vault full statistics such as number of notes, files, attachments, links, tags and quality of vault.
 - [[vault-llm-assistant|Vault LLM Assistant]]: Uses AI to answer questions and create notes about your vault with proper citations
 - [[vault-name|Vault Name]]: Display and customize the vault name (title) in the side navigation file explorer.
