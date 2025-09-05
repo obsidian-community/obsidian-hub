@@ -47,7 +47,7 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 **Additional settings**: 
 - **Disable theme features**: 
-    - None: Velocity comes with various features __enabled by default__. If you do not need them, they can be disabled here.
+    - None: Velocity comes with various features **enabled by default**. If you do not need them, they can be disabled here.
     - Disable Compact Panels in the sidebar
     - Disable Custom Icons
     - Disable Naked Embed styling
