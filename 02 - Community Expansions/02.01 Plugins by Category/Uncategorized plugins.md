@@ -574,6 +574,7 @@ Plugins which have not yet been categorized by the community.
 - [[double-row-toolbar|Double row toolbar]]: Adds a second row to the toolbar on mobile devices, allowing for more quick access buttons.
 - [[obsidian-doubleshift|Doubleshift]]: Open the command palette by pressing Shift (or any other key) twice like in IntelliJ and create your own shortcuts
 - [[draft-indicator|Draft Indicator]]: Show draft status with ✎ icons in the file explorer.
+- [[drag-to-scroll|Drag To Scroll]]: Drag to scroll - just like on a touch device.
 - [[draw-harada-method|Draw Harada Method]]: This plugin is used to draw the harada method. Create your own 1 goal, 8 plans, and 64 actions
 - [[draw-steel-elements|Draw Steel Elements]]: Components to support the Draw Steel TTRPG by MCDM.
 - [[draw-steel-retainer|Draw Steel Retainer]]: Provides Director facing sidebar tools for the TTRPG Draw Steel
@@ -1052,7 +1053,6 @@ Plugins which have not yet been categorized by the community.
 - [[kikijiki-habit-tracker|Kikijiki Habit Tracker]]: A simple habit tracker
 - [[kill-and-yank|Kill and Yank]]: Enable kill and yank (like Emacs) in the editor
 - [[obsidian-kindle-export|Kindle]]: Send .md as .epub to Ereader/Kindle/Pocketbook
-- [[kindle-csv-converter|Kindle CSV Converter]]: Import your Kindle notes in .csv format to Obsidian.
 - [[kindle-highlights-import|Kindle Highlights Import]]: Imports the Kindle highlights HTML file and saves it as a note in your vault.
 - [[kindle-html-importer|Kindle Highlights Importer]]: A simple way to import your Kindle highlights html file.
 - [[kindle-vocab|Kindle Vocab]]: Create the Markdown file from your Kindle Vocab Builder in your vault
@@ -1181,7 +1181,6 @@ Plugins which have not yet been categorized by the community.
 - [[markdown-blogger|Markdown Blogger]]: Allows developers to push markdown notes to their local blog, portfolio, or static site. Works with Astro.js, Next.js, and any other framework configured to render markdown pages.
 - [[md-cal-gen|Markdown Calendar Generator]]: An intentionally simple markdown table calendar generator
 - [[markdown-chords|Markdown Chords]]: Add musical chord notation and chord diagrams for stringed instruments (e.g. guitar) in Markdown. Supports chords in any Western scale/mode, including extended jazz chords.
-- [[markdown-flip|Markdown Flip]]: flip markdown line types with smart shortcuts
 - [[md-image-caption|Markdown Image Caption]]: Generate image caption
 - [[markdown-link-space-encoder|Markdown Link Space Encoder]]: Simple plugin to automatically encode spaces to %20 in Markdown-style links
 - [[markdown-media-card|Markdown Media Card]]: Insert media information cards in Markdown, such as books, music, movies, etc.
@@ -1335,6 +1334,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-note-autocreator|Note Auto Creator]]: Automatically create notes when links are created to them.
 - [[note-batcher|Note Batcher]]: Create all unresolvered links with a single click on your Obsidian vault
 - [[note-chain|Note Chain]]: File sorting and hierarchical indentation display in the File Explorer. Provides efficient tools such as word count, text area, buttons, and note graph..
+- [[fileorganizer2000|Note Companion (prev. File Organizer 2000)]]: AI-powered note organization and chat. Requires subscription or self-hosting with your own API keys.
 - [[note-companion-folder|Note Companion Folder]]: Manage a separate folder of attachments for each note.
 - [[obsidian-note-content-pusher|Note Content Pusher]]: An Obsidian plugin to automatically create notes with some specified content when you link to a note that doesn't yet exist.
 - [[note-definitions|Note Definitions]]: Personal dictionary for your notes
@@ -1858,7 +1858,6 @@ Plugins which have not yet been categorized by the community.
 - [[copy-recursive-content|Structured Copy: Files & Folders]]: Easily copy the contents of files and folders in a structured JSON format.
 - [[structured-tree|Structured Tree]]: Explore, manage and navigate hierarchical notes
 - [[stu-repo-helper|Student Repo]]: Manage student repositories.
-- [[studier|Studier]]: Create quizzes for your Obsidian.md notes and learn better.
 - [[style-importer|Style Importer]]: Import a stylesheet from a URL into your snippets folder.
 - [[style-text|Style Text]]: Apply custom CSS styles to selected text in your Obsidian Notes.
 - [[subdivider|Subdivider]]: Converts your notes into nested folders, automatically creating separate files for each subheading.
@@ -1960,7 +1959,7 @@ Plugins which have not yet been categorized by the community.
 - [[text-focus|Text Focus]]: Focus the text area when creating new notes.
 - [[obsidian-textgenerator-plugin|Text Generator]]: Text generation using AI
 - [[text-progress-bar|Text Progress Bar]]: Display low-fi text progress bars in your notes.
-- [[text-transform|Text Transform]]: Transform text to different casings using the command palette or keyboard shortcuts.
+- [[text-transform|Text Transform]]: Transform text to different cases using the command palette or keyboard shortcuts.
 - [[obs-text-wrapper|Text Wrapper]]: Quickly wrap selected text with HTML tags by using a shortcut or from the command palette
 - [[obsidian-tts|Text to Speech]]: Hear your notes.
 - [[text2audio|Text2Audio]]: Convert text to speech
@@ -2109,7 +2108,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-vega|Vega Visualizations]]: Create highly-customizable data visualizations like line charts and scatter plots using Vega or Vega-Lite.
 - [[verovio-music-renderer|Verovio Music Renderer]]: Rendering, playback and download of musical notation.
 - [[verse-of-the-day|Verse of the Day]]: Lets you add the verse of the day from YouVersion to your daily notes
-- [[obsidian-version-history-diff|Version History Diff]]: Diff the version history of the core Sync and File Recovery plugins and Git. Adds a command to open the core Sync version history as well.
+- [[obsidian-version-history-diff|Version History Diff]]: Diff the version history of the core Sync and File Recovery plugins and Git.
 - [[vertical-tabs|Vertical Tabs]]: Offer an alternative view that displays open tabs vertically, allowing users to group and organize tabs for a better navigation experience.
 - [[vertical-timeline-list|Vertical Timeline List]]: Utilizes task lists to create a timeline... or something resembling a timeline.
 - [[vextab|Vextab]]: An Obsidian plugin for rendering guitar tablature and music notation using Vextab.
@@ -2234,7 +2233,7 @@ Plugins which have not yet been categorized by the community.
 - [[braincache|braincache]]: Create flashcards from obsidian notes
 - [[create-folder-notes-with-dropdown|create folder notes with dropdown]]: create-folder-notes-with-dropdown is a plugin designed to help users quickly create Markdown files in existing or nonexisting folders with dropdown.
 - [[cursor-goaway|cursor-goaway]]: make cursor goaway after open a text file
-- [[deepseek-ai-assistant|deepseek-ai-assistant]]: Help you to study with ai-prompting~
+- [[deepseek-ai-assistant|deepseek-ai-assistant]]: Help you to study with ai-prompting.
 - [[digital-paper|digital paper]]: turn off backspace and undo, just like writing with a pen on real paper.
 - [[doing|doing]]: It helps you remember what you were doing.
 - [[downloadpdf|downloadPDF]]: Allows you to download all included PDF files

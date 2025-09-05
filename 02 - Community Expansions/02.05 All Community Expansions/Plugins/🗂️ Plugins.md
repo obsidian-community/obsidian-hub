@@ -584,6 +584,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/double-switch|double-switch]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/downloadpdf|downloadpdf]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/draft-indicator|draft-indicator]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/drag-to-scroll|drag-to-scroll]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/draw-harada-method|draw-harada-method]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/draw-steel-elements|draw-steel-elements]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/draw-steel-retainer|draw-steel-retainer]]
