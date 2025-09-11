@@ -17,7 +17,7 @@ publish: true
 
 %% ----- Do not edit this section ----- %%
 
-# RedShift: OLED Blue Light Filter
+# RedShift - OLED Blue Light Filter
 
 Repository: [GitHub](https://github.com/norderan/RedShift-obsidian-theme)
 Designed by: [[norderan]]
