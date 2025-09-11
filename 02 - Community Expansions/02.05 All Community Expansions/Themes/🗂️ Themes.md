@@ -323,7 +323,7 @@ publish: true
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Red Graphite|Red Graphite]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Red Solitude|Red Solitude]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Red-Shadow|Red-Shadow]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Themes/RedShift: OLED Blue Light Filter|RedShift: OLED Blue Light Filter]]
+-  [[RedShift - OLED Blue Light Filter|RedShift - OLED Blue Light Filter]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Refined Default|Refined Default]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Reshi|Reshi]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Themes/Retro Windows|Retro Windows]]
