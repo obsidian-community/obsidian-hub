@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-38016-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-38306-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jaysan0/obsidian-sandstorm?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/jaysan0/obsidian-sandstorm/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jaysan0/obsidian-sandstorm?color=573E7A&logo=github&style=for-the-badge)

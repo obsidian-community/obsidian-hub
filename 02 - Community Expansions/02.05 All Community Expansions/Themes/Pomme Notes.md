@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2468-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2542-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MrParalloid/pomme-notes?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/MrParalloid/pomme-notes/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/MrParalloid/pomme-notes?color=573E7A&logo=github&style=for-the-badge)

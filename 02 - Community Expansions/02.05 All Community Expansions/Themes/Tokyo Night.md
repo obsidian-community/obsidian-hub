@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-197626-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-199444-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/tcmmichaelb139/obsidian-tokyonight?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/tcmmichaelb139/obsidian-tokyonight/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/tcmmichaelb139/obsidian-tokyonight?color=573E7A&logo=github&style=for-the-badge)

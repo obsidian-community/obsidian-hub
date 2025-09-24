@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2561-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2581-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Quinta0/chiaroscuroflow?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/Quinta0/chiaroscuroflow/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Quinta0/chiaroscuroflow?color=573E7A&logo=github&style=for-the-badge)

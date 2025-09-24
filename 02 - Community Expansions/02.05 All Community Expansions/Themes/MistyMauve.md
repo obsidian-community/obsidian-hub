@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1826-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-1835-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/RaveSplash/obsidian-misty-mauve?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/RaveSplash/obsidian-misty-mauve/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/RaveSplash/obsidian-misty-mauve?color=573E7A&logo=github&style=for-the-badge)
