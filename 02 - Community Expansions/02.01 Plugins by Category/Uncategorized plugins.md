@@ -88,7 +88,6 @@ Plugins which have not yet been categorized by the community.
 - [[alignment-tracker|Alignment Tracker]]: Track character alignment using a 3x3 grid.
 - [[aloud-tts|Aloud]]: Highlight and speak text from your notes. Converts text to speech in real-time with lifelike voices.
 - [[alpha-bullet|Alpha Bullet]]: Sorts bulleted lists alphabetically.
-- [[alpha-bullet|Alpha Bullet]]: Sorts bulleted lists alphabetically.
 - [[alt-click-to-copy|Alt-Click to Copy]]: Alt-click to copy code!
 - [[always-color-text|Always Color Text]]: Colors specific words throughout the Vault in both editor and preview modes.
 - [[cloudatlas-o-am|Amazing Marvin Integration]]: Integration with Amazing Marvin
@@ -280,7 +279,6 @@ Plugins which have not yet been categorized by the community.
 - [[calc-craft|CalcCraft]]: have formulas like in excel a1+a2, or sum()
 - [[calctex|Calctex]]: Calculate LaTeX formulas inside Obsidian.
 - [[calculite|Calculite]]: Standard calculator with a simple button layout.
-- [[calculite|Calculite]]: Standard calculator with a simple button layout.
 - [[calendar-event-sync|Calendar Event Sync]]: Sync a relevant calendar event to your current note.
 - [[calendarium|Calendarium]]: Craft mind-bending fantasy and sci-fi calendars.
 - [[obsidian-calibre-plugin|Calibre]]: This plugin allows you to access your calibre libraries and read books directly in Obsidian.
@@ -377,7 +375,6 @@ Plugins which have not yet been categorized by the community.
 - [[cluster|Cluster]]: Make the notes clustering simpler on mobile devices and work well on PCs ether, Notes Clustering is the process of creating hierarchical notes structures.
 - [[cmd-search|CmdSearch]]: Use the command pallete to search web. Add your own URLs.
 - [[coco-askai|CoCo AskAI]]: Let your questions flow swiftly with CoCo AskAI. (Closed source)
-- [[coalesce|Coalesce]]: Coalesce your notes into a single view
 - [[coalesce|Coalesce]]: Coalesce your notes into a single view
 - [[code-block-plugin|Code Block]]: This plugin converts text into code blocks with automatic language detection.
 - [[obsidian-codeblock-labels|Code Block Labels]]: Adds labels to fenced code blocks
@@ -479,7 +476,6 @@ Plugins which have not yet been categorized by the community.
 - [[current-file|Current File]]: Allows external applications to know what file the desktop app is currently viewing.
 - [[current-file-tags|Current File Tags]]: Display the active Markdown file's tags and associated files.
 - [[current-folder-notes-pamphlet|Current Folder Notes]]: Shows a list of notes in the current folder, and allows you to filter the titles to include or exclude notes.
-- [[current-view|Current View]]: Automatically set the view mode (Reading, Live Preview, Source) for notes using folder rules, file patterns, or frontmatter.
 - [[current-view|Current View]]: Automatically set the view mode (Reading, Live Preview, Source) for notes using folder rules, file patterns, or frontmatter.
 - [[cursor-bridge|Cursor Bridge]]: Seamlessly bridge your notes with Cursor, the AI-powered code editor. Open notes directly in Cursor to enhance your workflow.
 - [[cursor-jump|Cursor Jump]]: Quickly jump between list items and headings throughout same or upper/lower level
@@ -610,7 +606,6 @@ Plugins which have not yet been categorized by the community.
 - [[easy-test|Easy Test]]: Easily create simple tests
 - [[easy-timeline|Easy Timeline]]: Simplifies creating and visualizing timelines from text using dates and metadata
 - [[easylink|EasyLink]]: Select text in your editor to find the most similar content from other notes and easily create links.
-- [[eccirian|Eccirian Encrypt]]: Encrypt your files using advanced encryption algorithms.
 - [[eccirian|Eccirian Encrypt]]: Encrypt your files using advanced encryption algorithms.
 - [[edge-tts|Edge TTS]]: Read notes aloud using Microsoft Edge Read Aloud API (free, high quality text-to-speech).
 - [[edit-gemini|Edit Gemini]]: Allows the user to edit and create .gmi files.
@@ -1621,7 +1616,6 @@ Plugins which have not yet been categorized by the community.
 - [[relax|R.E.L.A.X.]]: Multi-regex management for data linking and batch processing across selection, files and folders. Ideal for academics, data scientists, forensics, reverse-engineerer and knowledge workers. Enables dynamic data organization and can be used to standardize links or as text-search. Streamline note-taking, data analysis, and report generation with intuitive regex pattern application and modification.
 - [[rpg-stat-tracker|RPG Stat Tracker]]: RPG-like stat tracker.
 - [[rtl-math-text|RTL Math Text]]: Mix right-to-left and left-to-right text in math expressions using configurable commands.
-- [[rtl-math-text|RTL Math Text]]: Mix right-to-left and left-to-right text in math expressions using configurable commands.
 - [[rainbow-folders-fixer|Rainbow Folders Fixer]]: Stop rainbow folders from changing colors when you scroll through the File explorer.
 - [[rainbow-colored-sidebar|Rainbow-Colored Sidebar]]: Automatically color your sidebar like a rainbow. No configuration needed. 9 themes included.
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
@@ -1679,7 +1673,6 @@ Plugins which have not yet been categorized by the community.
 - [[repeat-plugin|Repeat]]: Review notes using periodic or spaced repetition.
 - [[replace-all|Replace All]]: Replace all in vault.
 - [[replace-pencil|Replace Pencil]]: Easily replace the custom variable in the code block.
-- [[replace-pencil|Replace Pencil]]: Easily replace the custom variable in the code block.
 - [[replicate|Replicate]]: Replicate.com integration. Use AI models with ease
 - [[rescuetime|RescueTime]]: View your RescueTime data in Obsidian.
 - [[research-quest|Research Quest]]: Use AI to generate and track research questions based on your notes.
@@ -1726,7 +1719,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-scroll-offset|Scroll Offset]]: Preserve minmium distances before and after cursor.
 - [[scroll-speed|Scroll Speed]]: This plugin allows you to change the scroll speed inside Obsidian notes.
 - [[obsidian-scroll-to-top-plugin|Scroll to Top]]: This is a plugin for Obsidian that adds a button to scroll to the top of the current note.
-- [[scrolling|Scrolling]]: Improve scrolling and keep your cursor exactly where you want it.
+- [[scrolling|Scrolling]]: Keep the cursor centered, disable code wrapping, remember scroll position, enable image zooming and more.
 - [[scroll-to-nav-top|Scrolls To Nav Top]]: Scrolls File Explorer To Top Position.
 - [[scrybble.ink|Scrybble]]: Synchronize highlights from your ReMarkable to Obsidian!
 - [[seafile|Seafile]]: Sync notes across devices using Seafile.
@@ -1929,7 +1922,6 @@ Plugins which have not yet been categorized by the community.
 - [[tab-selector|Tab Selector]]: Quickly switch tabs in various ways.
 - [[tab-shifter|Tab Shifter]]: Enables shifting tabs between different tab splits and some other basic IDE tab functionalities
 - [[obsidian-table-generator|Table Generator]]: A plugin for generate markdown table quickly like Typora /card table in canvas .
-- [[table-list|Table List]]: Adds a table view to manage your tasks.
 - [[table-list|Table List]]: Adds a table view to manage your tasks.
 - [[obsidian-table-to-csv-exporter|Table to CSV Exporter]]: This plugin allows for exporting tables from a pane in reading mode into CSV files.
 - [[tabout|Tabout]]: Easily "tab out" of Links or other Markdown Formatting Characters.
@@ -2229,7 +2221,6 @@ Plugins which have not yet been categorized by the community.
 - [[ytranscript|YTranscript]]: This is simple plugin to fetch transcription for Youtube.
 - [[obsidian-state-switcher|Yaml Manager]]: Keep you away from directly operating of yaml front matter
 - [[yandex-tracker-issue|Yandex Tracker Issue]]: Display Yandex Tracker issues in your notes
-- [[yandex-wiki-integration|Yandex Wiki Integration]]: Integration with Yandex Wiki knowledge base
 - [[yandex-wiki-integration|Yandex Wiki Integration]]: Integration with Yandex Wiki knowledge base
 - [[yanki|Yanki]]: Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.
 - [[yearly-diary-comparator|Yearly Diary Comparator]]: Show a side-by-side yearly comparison of diary in daily notes
