@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2018-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2031-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/EddieTheEd/Prussian-Blue?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/EddieTheEd/Prussian-Blue/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/EddieTheEd/Prussian-Blue?color=573E7A&logo=github&style=for-the-badge)

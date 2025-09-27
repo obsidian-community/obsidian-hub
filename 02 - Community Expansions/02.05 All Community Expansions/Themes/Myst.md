@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1154-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-1193-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mulder3062/Myst?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/mulder3062/Myst/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/mulder3062/Myst?color=573E7A&logo=github&style=for-the-badge)

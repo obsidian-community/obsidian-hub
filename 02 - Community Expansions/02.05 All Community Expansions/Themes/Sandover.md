@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2890-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2917-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/eliz-abeth/sandover?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/eliz-abeth/sandover/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/eliz-abeth/sandover?color=573E7A&logo=github&style=for-the-badge)

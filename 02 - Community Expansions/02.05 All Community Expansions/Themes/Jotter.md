@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-9205-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-9246-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lnbgc/obsidian-jotter?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/lnbgc/obsidian-jotter/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/lnbgc/obsidian-jotter?color=573E7A&logo=github&style=for-the-badge)

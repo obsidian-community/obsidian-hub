@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-1281-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-1320-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/incantatem2/Obsidian-parfait?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/incantatem2/Obsidian-parfait/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/incantatem2/Obsidian-parfait?color=573E7A&logo=github&style=for-the-badge)

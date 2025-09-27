@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-3341-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-3492-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/isax785/Terminal2K?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/isax785/Terminal2K/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/isax785/Terminal2K?color=573E7A&logo=github&style=for-the-badge)
