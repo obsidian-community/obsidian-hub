@@ -1057,7 +1057,7 @@ Plugins which have not yet been categorized by the community.
 - [[key-value-list|Key-Value List]]: Makes it easy to turn lists into formatted key-value lists.
 - [[keyboard-analyzer|Keyboard Analyzer]]: See and analyze your keyboard hotkeys and shortcuts
 - [[keyboard-formatter|Keyboard Formatter]]: Format selected text into HTML <kbd> tags for representing keyboard keys and mouse inputs.
-- [[keyshots|Keyshots]]: Adds classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.
+- [[keyshots|Keyshots]]: Add classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.
 - [[keyword-highlighter|Keyword Highlighter]]: Automatically highlight specified keywords within your Obsidian notes for enhanced visibility and quick reference.
 - [[khoj|Khoj]]: Your Second Brain
 - [[kikijiki-habit-tracker|Kikijiki Habit Tracker]]: A simple habit tracker
@@ -1187,6 +1187,7 @@ Plugins which have not yet been categorized by the community.
 - [[mantou-ai|MantouAI]]: Work as a personal assistant for translation, writing polish, general Q&A, summarizing, using the power of large language models.
 - [[manual-sorting|Manual Sorting]]: Drag'n'Drop sorting within file explorer.
 - [[mapbox-location|Mapbox Location Image]]: Show a map inside your notes with a specific format.
+- [[maps|Maps]]: Adds a map layout to bases so you can display notes as an interactive map view.
 - [[mark-open-files|Mark Open Files]]: Enhances the File Explorer by adding a marker to all the File Explorer items that are currently open in the workspace.
 - [[obsidian-mark-and-select|Mark and Select]]: More flexible ways to select texts in Obsidian Editor
 - [[markdoc|Markdoc]]: Basic support for Markdoc files
@@ -1872,7 +1873,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian42-strange-new-worlds|Strange New Worlds]]: Help see how your vault is interconnected with visual indicators.
 - [[notes-to-strapi-export-article-ai|Strapi Exporter AI]]: Effortlessly export your notes to Strapi CMS with AI-powered handling and SEO optimization.
 - [[strava-sync|Strava Sync]]: Sync activities from Strava.
-- [[streams|Streams]]: Create and manage multiple Daily Note streams
+- [[streams|Streams]]: Create and manage multiple Daily Note streams. Stream, Daily Note, folder.
 - [[copy-without-links|Strip Internal Links]]: Strips the selection or current file of internal links and either copies to the clipboard, or in-place
 - [[obsidian-structured-plugin|Structured]]: Structured plugin. Create hierarchy in notes using . 
 - [[copy-recursive-content|Structured Copy: Files & Folders]]: Easily copy the contents of files and folders in a structured JSON format.
@@ -2133,7 +2134,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-vega|Vega Visualizations]]: Create highly-customizable data visualizations like line charts and scatter plots using Vega or Vega-Lite.
 - [[verovio-music-renderer|Verovio Music Renderer]]: Rendering, playback and export of MEI, MusicXML, ABC and PAE music notation files and embeds.
 - [[verse-of-the-day|Verse of the Day]]: Lets you add the verse of the day from YouVersion to your daily notes
-- [[version-control|Version Control]]: Allows you to create a finite number of versions for any note, exactly when you need to.
+- [[version-control|Version Control]]: Fearlessly edit. Capture intentional, local snapshots of your notes at any point. Stop relying on background autosaves—take charge of your document's history and versions.
 - [[obsidian-version-history-diff|Version History Diff]]: Diff the version history of the core Sync and File Recovery plugins and Git.
 - [[vertical-tabs|Vertical Tabs]]: Offer an alternative view that displays open tabs vertically, allowing users to group and organize tabs for a better navigation experience.
 - [[vertical-timeline-list|Vertical Timeline List]]: Utilizes task lists to create a timeline... or something resembling a timeline.
@@ -2213,6 +2214,7 @@ Plugins which have not yet been categorized by the community.
 - [[wucai-highlights-official|WuCai highlights Official]]: Official WuCai highlights <-> Obsidian integration
 - [[wypst|Wypst]]: Typst math typesetting for Obsidian.
 - [[x-post-saver|X Post Saver]]: Saves X (formerly Twitter) posts' text data to new notes or inside a specific directory in your vault.
+- [[xmind-linker|XMind Linker]]: View XMind files in your vault and connect to XMind software for editing.
 - [[xmind-viewer|XMind Viewer]]: Integrate viewing of your XMind files
 - [[xiaohongshu-importer|Xiaohongshu Importer]]: Import Xiaohongshu (小红书) notes with media and categorization.
 - [[xournalpp|Xournal++]]: Integration with Xournal++ for handwritten notes and annotations.
