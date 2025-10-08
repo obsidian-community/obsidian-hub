@@ -342,7 +342,7 @@ Plugins which have not yet been categorized by the community.
 - [[chemical-structure-renderer|Chemical Structure Renderer]]: Render chemical structures from SMILES strings into PNG or SVG format using Ketcher and Indigo Service.
 - [[chess-study|Chess Study]]: A chess study helper and PGN viewer/editor.
 - [[chinese-calendar|Chinese Calendar]]: 符合中国习惯的日历，可以显示农历、节日、调休、节气等信息，支持月视图和年视图切换，支持点击日期创建笔记，支持使用QuickAdd插件创建笔记。
-- [[xiangqi|Chinese chess]]: Render xiangqi(Chinese chess) positions diagrams in a note.
+- [[xiangqi|Chinese chess]]: A Chinese Chess (象棋/xiangqi) plugin designed for Obsidian
 - [[chord-lyrics|Chord Lyrics]]: Display chord names over lyrics. Supports line wrapping, section headers, auto-detection of lines and custom colors.
 - [[chord-sheets|Chord Sheets]]: Work with chord sheets (chords over lyrics) in your Vault: Chord diagrams, transpose, autoscroll and more. Works in live preview and reading mode.
 - [[obsidian-chorded-hotkeys|Chorded Hotkeys]]: Type multiple letters at the same time to trigger text insertion, template insertion, or command execution.
@@ -1072,7 +1072,6 @@ Plugins which have not yet been categorized by the community.
 - [[korean-book-search|Korean Book Search]]: Automatically fills in YAML frontmatter with Korean book information from Aladin API based on the note title.
 - [[korean-spellchecker|Korean Spellchecker]]: Checks Korean spelling and grammar using an online service. Features a custom dictionary to exclude specific nouns (e.g., names, technical terms) from being flagged as errors.
 - [[lds-library-reference|LDS Library Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latter-day Saints
-- [[lds-scriptures-reference|LDS Scriptures Reference]]: Easily insert references to LDS scriptures
 - [[line-notes-sync|LINE Notes Sync]]: Sync messages from LINE to your notes.
 - [[llm-shortcut|LLM Shortcut]]: Provides a way to create shortcuts for commands powered by LLM capabilities.
 - [[llm-summary|LLM Summary]]: Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.
@@ -1085,7 +1084,7 @@ Plugins which have not yet been categorized by the community.
 - [[latex-to-unicode|LaTeX to Unicode converter]]: Convert LaTeX commands into unicode sqeuences
 - [[latexocr|LaTeX-OCR]]: Run LaTeX-OCR if it is installed locally.
 - [[math-booster|LaTeX-like Theorem & Equation Referencer]]: A powerful indexing & referencing system for theorems & equations in your vault. Bring LaTeX-like workflow into Obsidian with theorem environments, automatic equation numbering, and more.
-- [[lancaster-university-week|Lancaster University Week Format]]: (2024-2025 Academic Year) Extends moment.js to provide a custom 'Lancaster University Week' value or 'VACATION' if not in term. Use 'LUW' in the Daily Note format to use!
+- [[lancaster-university-week|Lancaster University Week Format]]: (2025-2026 Academic Year) Extends moment.js to provide a custom 'Lancaster University Week' value or 'VACATION' if not in term. Use 'LUW' in the Daily Note format to use!
 - [[language-translator|Language Translator]]: Translates given text to desired language
 - [[languagetool|LanguageTool]]: Unofficial integration of the LanguageTool spell and grammar checker.
 - [[lapel|Lapel]]: Dress up your editor with decorations that mark each of your headings.
@@ -1393,7 +1392,7 @@ Plugins which have not yet been categorized by the community.
 - [[nyanbar|NyanBar]]: Nyan Cat Progress Bar generator!
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
 - [[marker-api|OCR-AI]]: Convert PDFs to beautiful rich Markdown notes with tables, images, formulas and OCR. Works with self-hosted Marker API and free Mistral OCR API!
-- [[statuslol-post|OMG.lol Publisher]]: Plugin allows you to post to weblogs.lol as well as statuses to status.lol.
+- [[statuslol-post|OMG.lol Publisher]]: Plugin allows you to post to weblogs.lol, status.lol, and some.pics.
 - [[oz-calendar|OZ Calendar]]: View your notes in Calendar using any YAML key with date
 - [[object-oriented-thinking|Object Oriented Thinking]]: Add inheritance-like behavior to notes.
 - [[object-writer|Object Writer]]: Quickly create a note with a prompt for object writing.
