@@ -2323,7 +2323,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/Ummler|Ummler]]
 -  [[01 - Community/People/Unarray|Unarray]]
 -  [[01 - Community/People/Unearthed-App|Unearthed-App]]
--  [[01 - Community/People/universvm|universvm]]
+-  [[01 - Community/People/DrLeucine|DrLeucine]]
 -  [[01 - Community/People/UnterrainerInformatik|UnterrainerInformatik]]
 -  [[01 - Community/People/uonr|uonr]]
 -  [[01 - Community/People/uphy|uphy]]
