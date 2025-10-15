@@ -622,7 +622,7 @@ Plugins which have not yet been categorized by the community.
 - [[eleven-labs|Eleven Labs]]: Turn your Obsidian notes into text-to-speech audio files with Eleven Labs.
 - [[emacs-text-editor|Emacs text editor]]: Partial emulation of Emacs text editor for Obisidian
 - [[eml-reader|Email Reader]]: Provide a preview mode for embeded `*.eml` files.
-- [[3d_embeds|Embed 3D]]: Embed 3DModels in markdown notes.
+- [[3d_embeds|Embed 3D]]: Embed and view 3DModels in markdown notes.
 - [[embed-code-file|Embed Code File]]: This is a plugin for Obsidian that allows for embedding code files.
 - [[emo-uploader|Emo]]: Embed markdown online file/image links. This plugin is for uploading images to hosting or files to github in Obsidian.
 - [[emoji-tags-titler|EmoTagsTitler]]: Add the emojis contained in the tags to the beginning of the note title.
@@ -845,6 +845,7 @@ Plugins which have not yet been categorized by the community.
 - [[goban-sgf|Goban SGF]]: Obsidian plugin for recording Go games (SGF format goban).
 - [[google-blogger|Google Blogger]]: Publish notes to Google Blogger.
 - [[google-calendar|Google Calendar]]: Interact with your Google Calendar from Inside Obsidian
+- [[google-calendar-importer|Google Calendar Importer]]: A simple and light-weighted google calendar importer, allow injecting the events / tasks of a day automatically to your daily notes, or import it to anywhere with a command.
 - [[obsidian-google-lookup|Google Calendar and Contacts Lookup]]: Import contact and calendar event information from your Google account
 - [[google-contacts|Google Contacts]]: Synchronize your Google contacts with separate contact-notes
 - [[google-drive-sync|Google Drive Sync]]: Syncs a vault into Google Drive for cross-platform use (works for iOS).
@@ -1227,7 +1228,6 @@ Plugins which have not yet been categorized by the community.
 - [[tmayoff-meals|Meal Plan]]: Store and manage recipes, create weekly meal plans and generate shopping lists.
 - [[media-companion|Media Companion]]: Creates a searchable gallery and sidecar files for attachments such as images and videos. The sidecar files allow you to add notes and tags to your media files.
 - [[obsidian-media-db-plugin|Media DB]]: A plugin that can query multiple APIs for movies, series, anime, games, music and wiki articles, and import them into your vault.
-- [[media-link-to-html|Media Link to HTML]]: Converts media links to HTML elements.
 - [[media-notes|Media Notes]]: Take notes on YouTube videos and podcasts with media controls and timestamps.
 - [[media-slider|Media Slider]]: A media slider for images, gifs, audios, videos, and PDFs.
 - [[media-sync|Media Sync]]: Downloads media files(eg. images, PDFs) from the URLs in documents and displays the content.
@@ -1588,7 +1588,7 @@ Plugins which have not yet been categorized by the community.
 - [[quartz-syncer|Quartz Syncer]]: Manage and publish your notes to Quartz, the fast, batteries-included static-site generator.
 - [[query-json|Query JSON]]: Read, query and work with JSON.
 - [[qatt|Query all the things]]: Execute SQL base queries against your data in Obsidian and render it how you want using templates.
-- [[querydash|QueryDash]]: Refer to Dataview and add search, sorting, and pagination functions, just like Notion.
+- [[querydash|QueryDash]]: The new view for bases refers to an updated or additional interface that allows users to interact with base data in a different way, such as through enhanced search, sorting, and pagination features, similar to Notion. This improves usability and data management within your application. It was originally a new view for dataview, but now its functionality has been extended to bases.
 - [[quick-cards|Quick Cards]]: cardify your files
 - [[quick-emoji|Quick Emoji]]: Quick, in-editor, emoji inserting. Type ":" to start selecting an emoji to insert.
 - [[quick-file-name|Quick File Name]]: Generates a note with a random string as its name.
@@ -1616,6 +1616,7 @@ Plugins which have not yet been categorized by the community.
 - [[relax|R.E.L.A.X.]]: Multi-regex management for data linking and batch processing across selection, files and folders. Ideal for academics, data scientists, forensics, reverse-engineerer and knowledge workers. Enables dynamic data organization and can be used to standardize links or as text-search. Streamline note-taking, data analysis, and report generation with intuitive regex pattern application and modification.
 - [[rpg-stat-tracker|RPG Stat Tracker]]: RPG-like stat tracker.
 - [[rtl-math-text|RTL Math Text]]: Mix right-to-left and left-to-right text in math expressions using configurable commands.
+- [[radial-timeline|Radial timeline]]: A radial timeline for long-form creative fiction writing that displays scenes organized by act, subplot, and numeric order for a complete view of the project.
 - [[rainbow-folders-fixer|Rainbow Folders Fixer]]: Stop rainbow folders from changing colors when you scroll through the File explorer.
 - [[rainbow-colored-sidebar|Rainbow-Colored Sidebar]]: Automatically color your sidebar like a rainbow. No configuration needed. 9 themes included.
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
@@ -1955,6 +1956,7 @@ Plugins which have not yet been categorized by the community.
 - [[tw-task-wiki|TaskWarrior Task Wiki]]: Wrapper and integration around TaskWarrior. Allows you to view and edit tasks in your TaskWarrior database as tables.
 - [[tasks-calendar-wrapper|Tasks Calendar Wrapper]]: This is a simple wrapper for Obsidian-Tasks-Calendar (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).
 - [[tasks-cleaner|Tasks Cleaner]]: Find and remove outdated tasks.
+- [[tasks-map|Tasks Map]]: A graph view of your tasks.
 - [[tekken-notation|Tekken Notation]]: Renders Tekken Notation.
 - [[telegram-inbox|Telegram Inbox]]: Receive messages from Telegram bot and add them to daily note.
 - [[telegram-sync|Telegram Sync]]: Transfer messages and files from Telegram to Obsidian.
