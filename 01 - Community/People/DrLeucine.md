@@ -1,6 +1,7 @@
 ---
 aliases:
 - Leonardo Castorina
+- 01 - Community/People/universvm
 tags:
 - 
 publish: true
