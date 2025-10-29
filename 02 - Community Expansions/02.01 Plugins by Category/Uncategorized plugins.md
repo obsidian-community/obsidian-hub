@@ -20,7 +20,7 @@ Plugins which have not yet been categorized by the community.
 - [[3d-graph|3D Graph]]: A 3D Graph for Obsidian
 - [[3d-graph-new|3D Graph New]]: A 3D Graph for Obsidian
 - [[at-symbol-linking|@ Symbol Linking]]: Adds ability to link with @ (the At Symbol) in Obsidian. Can limit @ linking to specific folders e.g. People/
-- [[ai-agent|AI Agent]]: Empower your Obsidian vault with Google Gemini. This intelligent AI agent integrates Google's artificial intelligence language models to help you perform tasks and conduct web searches directly from Obsidian.
+- [[ai-agent|AI Agent]]: Empower your vault with Google Gemini. This AI agent integrates Google's artificial intelligence language models to help you perform tasks and conduct web searches.
 - [[ai-assistant|AI Assistant]]: AI Assistant plugin for Obsidian
 - [[arenasys-ai-chat|AI Chat]]: Chat with AI about your notes.
 - [[ai-chat-as-md|AI Chat as Markdown]]: Multiple branching AI conversations as Markdown hierarchy
@@ -38,7 +38,7 @@ Plugins which have not yet been categorized by the community.
 - [[revisionist|AI Revisionist]]: AI-powered text revision for your notes.
 - [[ai-summarize|AI Summarize]]: Summarize your notes using AI
 - [[ai-tagger|AI Tagger]]: Analyze and tag your document with one click for efficient note organization using AI.
-- [[ai-tagger-universe|AI Tagger Universe]]: Automatically analyze note content and add relevant tags using AI
+- [[ai-tagger-universe|AI Tagger Universe]]: Automatically analyze note content and add relevant tags using AI (with Chinese interface support)
 - [[ai-tools|AI Tools]]: Adding powerful semantic search, generative answers, and other AI tools to Obsidian, using Supabase + OpenAI.
 - [[ai-zhipu|AI Zhipu]]: Generate text using the ZhipuAI API.
 - [[ai-bot|AI bot]]: Polish, summarize, translate, analyze, and interpret code using AI.
@@ -46,7 +46,7 @@ Plugins which have not yet been categorized by the community.
 - [[ai-image-analyzer|AI image analyzer]]: Analyze images with AI to get keywords of the image.
 - [[ai-hub|AI integration Hub]]: Integrate with AI models (currently Google's Gemini only) to quickly generate and refine notes.
 - [[ai-enhanced-anki-sync|AI-AnkiSync]]: Sync AI-enhanced flashcards with Anki via AnkiConnect
-- [[api-request|APIRequest]]: Fetch data from APIs or other sources. Responses in JSON, MD or HTML directly in your notes.
+- [[api-request|APIRequest]]: Integrate API data into your notes with request caching, variable support, and precise JSON extraction.
 - [[apl-render|APL Render]]: render APL syntax
 - [[ascii-tree-generator|ASCII Tree Generator]]: Convert indented code blocks with hierarchy markers into formatted ASCII tree diagrams.
 - [[obsidian-plugin-dynamodb|AWS DynamoDb For Obsidian]]: Query AWS DynamoDb and render tables inside documents.
@@ -308,6 +308,7 @@ Plugins which have not yet been categorized by the community.
 - [[canvas-llm-extender|Canvas LLM Extender]]: Let the OpenAI LLVM add nodes to your canvas.
 - [[canvas-task-importer|Canvas LMS Task Importer]]: Import tasks from Canvas LMS into vault.
 - [[canvas-link-optimizer|Canvas Link Optimizer]]: Optimize canvas links by displaying a page thumbnail.
+- [[canvas-link-to-group|Canvas Link to Group]]: Create links to specific groups in Canvas and jump directly to them.
 - [[canvas-links|Canvas Links]]: Show the "links" between Canvas and File.
 - [[canvas-mindmap|Canvas Mindmap]]: A plugin to make your canvas work like a mindmap.
 - [[canvas-mindmap-helper|Canvas Mindmap Helper]]: Make the Canvas work like a mindmap
@@ -365,6 +366,7 @@ Plugins which have not yet been categorized by the community.
 - [[click-unsupported-files|Click Unsupported Files]]: Changes click behavior for unsupported files to work similar to Windows File Explorer: single-click selects, double-click opens in default app.
 - [[click-up-sync|ClickUp sync]]: Manage ClickUp space from notes
 - [[clipboard-manager|Clipboard Manager]]: A clipboard manager that stores clipboard history and provides search functionality with real-time updates
+- [[cliplet|Cliplet]]: A clipboard and snippet manager — your own, separate from the OS clipboard.
 - [[obsidian-clipper|Clipper]]: This plugin helps you capture highlights from the web.
 - [[clipper-catalog|Clipper Catalog]]: A catalog view of all the clippings gathered with a common source property.
 - [[clippermaster|ClipperMaster]]: Works with the ClipperMaster Chrome extension to clip structured content from the web and save it to your vault as Markdown files.
@@ -450,7 +452,7 @@ Plugins which have not yet been categorized by the community.
 - [[copilot|Copilot]]: Your AI Copilot: Chat with Your Second Brain, Learn Faster, Work Smarter.
 - [[copilot-auto-completion|Copilot auto completion]]: Adds a highly configurable copilot-like auto-completion to Obsidian using the ChatGPT API.
 - [[copy-absolute-path|Copy Absolute Path]]: Copy the system absolute path of files and folders to the clipboard.
-- [[copy-plaintext|Copy As PlainText]]: Adds a copy as plaintext command to the command palette and context menu.
+- [[copy-plaintext|Copy As PlainText]]: Copy selections or entire notes as plain text. Both commands are available in the command palette; selection copy is also in the context menu.
 - [[copy-image|Copy Image]]: Easily copy image from Obsidian to clipboard by right clicking image.
 - [[copy-inline-code|Copy Inline Code]]: Easily copy the contents of an inline code element with a single click.
 - [[copy-local-graph-paths|Copy Local Graph Paths]]: Copies file paths of local graph links to clipboard.
@@ -614,7 +616,7 @@ Plugins which have not yet been categorized by the community.
 - [[easy-test|Easy Test]]: Easily create simple tests
 - [[easy-timeline|Easy Timeline]]: Simplifies creating and visualizing timelines from text using dates and metadata
 - [[easylink|EasyLink]]: Select text in your editor to find the most similar content from other notes and easily create links.
-- [[eccirian|Eccirian Encrypt]]: Encrypt your files using advanced encryption algorithms.
+- [[eccirian|Eccirian Encrypt]]: Next-generation file encryption solution based on modern cryptography.
 - [[edge-tts|Edge TTS]]: Read notes aloud using Microsoft Edge Read Aloud API (free, high quality text-to-speech).
 - [[edit-gemini|Edit Gemini]]: Allows the user to edit and create .gmi files.
 - [[edit-history|Edit History]]: Automatically saves the history of edits of a file when Obsidian saves the file, and allows viewing the differences between edits, copying text from a previous edit, or fully rolling back to a previous edit.
@@ -985,7 +987,6 @@ Plugins which have not yet been categorized by the community.
 - [[image-notes-photes-io|Image to notes by Photes.IO]]: Turn your images into text notes with AI
 - [[image-to-text-ocr|Image to text OCR]]: Convert a image in your note to text.
 - [[image2latex|Image2LaTEX]]: Convert your images to Markdown and MathJax
-- [[images-to-gist|Images to Gist]]: Upload images to your GitHub secret Gists.
 - [[images-to-notes|Images to Notes]]: Turn photos of handwritten or printed notes into Markdown using AI.
 - [[imgbb-uploader|ImgBB Uploader]]: Upload images from your clipboard to ImgBB.
 - [[immersive-translate|Immersive Translate]]: A free-to-use translatation service for foreign language markdown file.
@@ -1686,6 +1687,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-relativenumber|Relativenumber (relative line numbers)]]: Displays relative line numbers in the editor's gutter.
 - [[system3-relay|Relay]]: Collaborate in real time with live cursors. Create multiplayer folders and manage user access.
 - [[obsidian-release-timeline|Release Timeline]]: Release timeline rendered based on notes metadata with a dataview-like syntax.
+- [[remaining-reading-time|Remaining reading time]]: Shows the remaining reading time for the current note depending on the cursor position.
 - [[obsidian-remember-file-state|Remember File State]]: Remembers cursor position, selection, scrolling, and more for each file
 - [[remote-fetch|Remote Fetch]]: Download files from URLs directly into your vault with CORS proxy support.
 - [[remotely-save|Remotely Save]]: Yet another unofficial plugin allowing users to synchronize notes between local device and the cloud service.
@@ -1891,6 +1893,7 @@ Plugins which have not yet been categorized by the community.
 - [[status-bar-quote|Status Bar Quote]]: Show your favorite quote in obsidian status bar
 - [[obsidian-steemit|Steemit]]: A plugin for publishing Obsidian documents to Steemit.
 - [[stenography-obsidian|Stenography]]: Auto Describe your code with machine learning using the Stenography API
+- [[steward|Steward]]: An AI-powered assistant that helps you with your notes: Fast search, flexible commands, and chat with LLMs.
 - [[sticky-heading|Sticky Headings]]: Sticky Headings and Shows the heading level
 - [[sticky-notes|Sticky Notes]]: Create sticky notes popups.
 - [[storyclock|Storyclock Viewer]]: Maps timing onto a storyclock. Inspired by Plot Devices Storyclock.
@@ -1929,6 +1932,7 @@ Plugins which have not yet been categorized by the community.
 - [[sync-vault-ce|Sync Vault CE]]: Self-controlled sync across all platforms, Aliyun & & Jianguoyun & InifiCloud & Tencent COS supported
 - [[sync-config-folder-to-common-folder|Sync config folder to common folder]]: Sync contents from config folder to common folder for backup or other purposes
 - [[hugo-sync|Sync to Hugo]]: Sync the selected notes to Hugo blog
+- [[sync-safe-file-names|Sync-safe file names]]: Ensures all file names can be synced accross all platforms.
 - [[syncftp|SyncFTP]]: This plugin syncs files to an SFTP, with credentials in settings.
 - [[syncthing-integration|Syncthing Integration]]: Integrates most of Syncthing features into Obsidian.
 - [[syncthing-status-icon|Syncthing status icon]]: Adds an icon in the status bar displaying Syncthing sync status. It shows a red circle if disconnected, green if connected, and yellow if scanning, not fully synced, or no device is connected. Provides detailed file completion and unsynced file counts, with a hover widget and custom view for more information.
@@ -2000,7 +2004,7 @@ Plugins which have not yet been categorized by the community.
 - [[testing-vault|Testing Vault]]: This allows a developer to make a random vault of arbitrary size for testing their plugins.
 - [[textanalysis|Text Analysis]]: Real-time text analysis on readability, structure, and complexity, incorporating over 30 tests like Average Syllables per Word, percent of difficult words, Lexical Diversity, Flesch Reading Ease Score, Gunning Fog Index, SMOG indes, Rix, Lix, Reading level and Reading/Speaking time. Built on top of textstat library. 
 - [[text-autocomplete|Text Autocomplete]]: Autocomplete text to type more efficiently.
-- [[text-block-timer|Text Block Timer]]: Add a timer to text block to enable count-up timing (Performance Improved Now!).
+- [[text-block-timer|Text Block Timer]]: Add a timer to text block to enable count-up timing (Performance Improved!).
 - [[text-conversions|Text Conversions]]: Perform various text conversions on the selected text
 - [[obsidian-dataset-aid|Text Dataset Aid]]: This plugin for obsidian aids in the creation of fine-tuning datasets for language models.
 - [[text-extractor|Text Extractor]]: A (companion) plugin to facilitate the extraction of text from images (OCR) and PDFs.
