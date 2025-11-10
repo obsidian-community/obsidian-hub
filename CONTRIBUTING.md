@@ -9,11 +9,11 @@ Hi! First, thanks for your interest in contributing to our Obsidian community va
 This is a big experiment in creating an Obsidian vault maintained by the community.
 
 You might notice some weird things if you're reading this on GitHub.  
-For the best experience, we recommend [downloading the latest version](https://github.com/obsidian-community/obsidian-hub/releases/latest) of this vault or browsing it on our Obsidian Publish hosted [website](https://publish.obsidian.md/hub).
+For the best experience, we recommend [downloading the current version](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip) of this vault or browsing it on our Obsidian Publish hosted [website](https://publish.obsidian.md/hub).
 
 ## Setup & Vault Consistency
 
-To contribute, please [download the latest version](https://github.com/obsidian-community/obsidian-hub/releases/latest) of this vault and open it in Obsidian. This is important to avoid duplicating content and allows you to use autocomplete when linking to other notes, searching, and following our content guidelines.
+To contribute, please [download the current version](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip) of this vault and open it in Obsidian. This is important to avoid duplicating content and allows you to use autocomplete when linking to other notes, searching, and following our content guidelines.
 
 Because Personal Knowledge Management is usually (as its name states) _highly_ personal, we have added a few rules about using Obsidian features to keep this Community vault consistent (and to preserve our sanity 🙂).
 
