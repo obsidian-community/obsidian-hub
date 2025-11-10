@@ -91,7 +91,7 @@ Plugins which have not yet been categorized by the community.
 - [[aloud-tts|Aloud]]: Highlight and speak text from your notes. Converts text to speech in real-time with lifelike voices.
 - [[alpha-bullet|Alpha Bullet]]: Sorts bulleted lists alphabetically.
 - [[alt-click-to-copy|Alt-Click to Copy]]: Alt-click to copy code!
-- [[always-color-text|Always Color Text]]: Colors specific words throughout the Vault in both editor and preview modes.
+- [[always-color-text|Always Color Text]]: Colors specific words throughout the Vault in both editor and reading views.
 - [[cloudatlas-o-am|Amazing Marvin Integration]]: Integration with Amazing Marvin
 - [[ampliflow-page|AmpliFlow Page Publisher]]: Publish notes easily to AmpliFlow (https://www.ampliflow.se)
 - [[anchor-display-text|Anchor Link Display Text]]: Automatically uses the linked heading as the display text for the anchor links.
@@ -319,6 +319,7 @@ Plugins which have not yet been categorized by the community.
 - [[canvas-minimap|Canvas minimap]]: For easy navigation in large canvas
 - [[canvas2document|Canvas2Document]]: Convert a complete Canvas to a long form document, integrating all cards, notes, images and other media content into a single markdown file.
 - [[obsidian-card-view-switcher-plugin|Card View Switcher]]: Quick switcher with card view
+- [[card-viewer|Card Viewer]]: Display cards for movies, TV shows, books, and music.
 - [[card-note|CardNote]]: Help you quickly extract your thoughts in the Canvas and Excalidraw
 - [[cardify|Cardify]]: This is a plugin to cardify markdown contents into subsequent markdown files.
 - [[cards-view|Cards View]]: Displays a card view of your notes.
@@ -632,7 +633,7 @@ Plugins which have not yet been categorized by the community.
 - [[eleven-labs|Eleven Labs]]: Turn your Obsidian notes into text-to-speech audio files with Eleven Labs.
 - [[emacs-text-editor|Emacs text editor]]: Partial emulation of Emacs text editor for Obisidian
 - [[eml-reader|Email Reader]]: Provide a preview mode for embeded `*.eml` files.
-- [[3d_embeds|Embed 3D]]: Embed and view 3DModels in markdown notes.
+- [[3d_embeds|Embed 3D]]: Embed and view 3DModels in markdown notes. Supports .stl, .obj, 3mf, fbx and .gltf/.glb files.
 - [[embed-code-file|Embed Code File]]: This is a plugin for Obsidian that allows for embedding code files.
 - [[emo-uploader|Emo]]: Embed markdown online file/image links. This plugin is for uploading images to hosting or files to github in Obsidian.
 - [[emoji-tags-titler|EmoTagsTitler]]: Add the emojis contained in the tags to the beginning of the note title.
@@ -801,6 +802,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-fuzzytag|FuzzyTag]]: Fuzzy match autocomplete tags in Frontmatter
 - [[ghcat-reminder|GChat Reminder]]: Sends notifications to Google Chat Webhook based on due dates in Obsidian tasks.
 - [[gdscript-syntax-highlighting|GDScript Syntax Highlighting]]: Add live GDScript syntax highlighting to code blocks.
+- [[gh-links-shortener|GH Links Shortener]]: Modifies pasted GitHub links to use short GitHub ref text as the link title.
 - [[gpg-encrypt|GPG Encrypt]]: Plugin to encrypt partial text or complete notes using GPG technology, it is compatible with security keys such as YubiKey or traditional GPG encryption methods
 - [[gpt-assistant|GPT Assistant]]: Use a GPT-3 based model on your notes and get personalized answers from your knowledge base.
 - [[gpt3-notes|GPT-3 Notes]]: Create a note using OpenAI's GPT-3 language model.
@@ -995,7 +997,7 @@ Plugins which have not yet been categorized by the community.
 - [[import-github-readme|Import GitHub Readme]]: Fetches and integrates GitHub README files into personal notesmai
 - [[import-todoist|Import Todoist tasks]]: Import Todoist tasks as Markdown tasks.
 - [[tiddlywiki-import-export|Import/Export TiddlyWiki]]: Import and export TiddlyWiki from and to Obsidian.
-- [[obsidian-importer|Importer]]: Import data from Notion, Evernote, Apple Notes, Microsoft OneNote, Google Keep, Bear, Roam, and HTML files.
+- [[obsidian-importer|Importer]]: Import data from Notion, Evernote, Apple Notes, Microsoft OneNote, Google Keep, Bear, Roam, HTML files, and Tomboy notes.
 - [[improved-random-note|Improved Random Note]]: Improved interaction with the knowledge base in so-called wandering mode by opening specific Random Notes.
 - [[inbox|Inbox]]: Show in app notification if there is data to process in the "inbox" note.
 - [[inbox-organiser|Inbox Organiser]]: Capture any new notes into an inbox and periodically prompt to organise these into other folders within the vault.
@@ -1295,6 +1297,7 @@ Plugins which have not yet been categorized by the community.
 - [[missing-link-file-creator|Missing Link File Creator]]: Creates missing linked files and detects missing wiki links.
 - [[misskey-connector|Misskey Connector]]: Enables posting and embedding Misskey notes.
 - [[mixa|Mixa]]: Publish your notes and blog posts with Mixa directly from Obsidian
+- [[mobile-sidebar-notes|Mobile Sidebar Notes]]: Open notes & new tabs in the sidebar in the mobile app.
 - [[mochi-cards-pro|Mochi Cards Pro]]: Create flashcards on Mochi.cards using the API provided by Mochi's Pro subscription.
 - [[modal-opener|Modal Opener]]: Open files and links in modal windows, or create and edit compatible files in modal windows.
 - [[modalforms|Modal forms]]: Define forms for filling data that you will be able to open from anywhere you can run JS
@@ -1317,6 +1320,7 @@ Plugins which have not yet been categorized by the community.
 - [[movie-search|Movie Search]]: Helps you find movies and create notes.
 - [[tv-tracker|Movie and TV show tracker]]: A Movie and TV show tracker.
 - [[moviegrabber|Moviegrabber]]: Grab movie data from public APIs and transform it into notes with a powerful templating engine.
+- [[mrdoc|MrDoc]]: Synchronize documents between your vault and MrDoc.
 - [[multi-properties|Multi Properties]]: Adds Properties to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.
 - [[multi-state-checkbox-switcher|Multi State CheckBox Switcher]]: Handle with multistate checkboxes.
 - [[multi-tag|Multi Tag]]: Adds a tag to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.
@@ -1365,7 +1369,7 @@ Plugins which have not yet been categorized by the community.
 - [[note-annotations|Note Annotations]]: Add multi-colored highlights and comments to your notes
 - [[obsidian-note-autocreator|Note Auto Creator]]: Automatically create notes when links are created to them.
 - [[note-batcher|Note Batcher]]: Create all unresolvered links with a single click on your Obsidian vault
-- [[note-chain|Note Chain]]: File sorting and hierarchical indentation display in the File Explorer. Provides efficient tools such as word count, text area, buttons, and note graph..
+- [[note-chain|Note Chain]]: File sorting and hierarchical indentation display in the File Explorer. MCP Server, easyapi, and more.
 - [[note-codes|Note Codes]]: Reference your notes from anywhere with simple 4-character codes.
 - [[fileorganizer2000|Note Companion (prev. File Organizer 2000)]]: AI-powered note organization and chat. Requires subscription or self-hosting with your own API keys.
 - [[note-companion-folder|Note Companion Folder]]: Manage a separate folder of attachments for each note.
@@ -1673,7 +1677,6 @@ Plugins which have not yet been categorized by the community.
 - [[recursive-copy|Recursive Copy]]: Recursively copies all markdown files in a folder, concatenates them, and copies them into the clipboard. Useful for quickly loading context into AI. Can be triggered by right clicking a folder and selecting the context menu item, or by binding a key (will copy everything in the active file's folder).
 - [[red-pen|Red Pen]]: Red Pen acts as a proofreader for your writing.
 - [[obsidian-redirect|Redirect]]: An Obsidian (https://obsidian.md) plugin for redirecting links based on YAML frontmatter.
-- [[reference-generator|Reference Generator]]: Turn links into bibliographies in styles like Harvard, MLA, APA, and more.
 - [[reference-map|Reference Map]]: Reference and citation map for literature review and discovery
 - [[reflection|Reflection]]: Shows daily and weekly notes from this day in years past.
 - [[refresh-preview|Refresh Any View]]: Allows to refresh any view without reopening it.
