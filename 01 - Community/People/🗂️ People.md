@@ -1496,6 +1496,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/MatthewLeoLaporte|MatthewLeoLaporte]]
 -  [[01 - Community/People/matthewturk|matthewturk]]
 -  [[01 - Community/People/MattWilcox|MattWilcox]]
+-  [[01 - Community/People/Maws7140|Maws7140]]
 -  [[01 - Community/People/Max-Schulten|Max-Schulten]]
 -  [[01 - Community/People/Maxymillion|Maxymillion]]
 -  [[01 - Community/People/maybe-hello-world|maybe-hello-world]]
