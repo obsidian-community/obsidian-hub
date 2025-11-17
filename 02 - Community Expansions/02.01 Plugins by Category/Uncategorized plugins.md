@@ -515,7 +515,7 @@ Plugins which have not yet been categorized by the community.
 - [[cycle-in-sidebar|Cycle In Sidebar]]: This a plugin provides hotkeys to cycle through tabs in the left or right sidebars.
 - [[cypher|Cypher]]: Hides text in a simple diagramatic cypher to make reading unrecognizable for viewers.
 - [[d2-obsidian|D2]]: The official D2 plugin for Obsidian. D2 is a modern diagram scripting language that turns text to diagrams.
-- [[daggerforge|DaggerForge]]: Easy access to DaggerHeart's Adversaries + creating your own.
+- [[daggerforge|DaggerForge]]: Easy access to DaggerHeart's Adversaries, Environments + creating your own.
 - [[daily-news-briefing|Daily News Briefing]]: Get AI-powered daily news summaries in your vault. Features customizable topics, smart filtering, and automated scheduling.
 - [[daily-note-collector|Daily Note Collector]]: Adds links to new notes to your daily note.
 - [[note-metrics|Daily Note Metrics]]: Parses tags, emoji tags, and checkboxes in your Daily Notes to create interactive charts.
@@ -997,7 +997,7 @@ Plugins which have not yet been categorized by the community.
 - [[import-github-readme|Import GitHub Readme]]: Fetches and integrates GitHub README files into personal notesmai
 - [[import-todoist|Import Todoist tasks]]: Import Todoist tasks as Markdown tasks.
 - [[tiddlywiki-import-export|Import/Export TiddlyWiki]]: Import and export TiddlyWiki from and to Obsidian.
-- [[obsidian-importer|Importer]]: Import data from Notion, Evernote, Apple Notes, Microsoft OneNote, Google Keep, Bear, Roam, HTML files, and Tomboy notes.
+- [[obsidian-importer|Importer]]: Import data from Notion, Evernote, Apple Notes, Microsoft OneNote, Google Keep, Bear, Roam, Textbundle, CSV, and HTML files.
 - [[improved-random-note|Improved Random Note]]: Improved interaction with the knowledge base in so-called wandering mode by opening specific Random Notes.
 - [[inbox|Inbox]]: Show in app notification if there is data to process in the "inbox" note.
 - [[inbox-organiser|Inbox Organiser]]: Capture any new notes into an inbox and periodically prompt to organise these into other folders within the vault.
@@ -1418,7 +1418,7 @@ Plugins which have not yet been categorized by the community.
 - [[nyanbar|NyanBar]]: Nyan Cat Progress Bar generator!
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
 - [[marker-api|OCR-AI]]: Convert PDFs to beautiful rich Markdown notes with tables, images, formulas and OCR. Works with self-hosted Marker API and free Mistral OCR API!
-- [[statuslol-post|OMG.lol Publisher]]: Plugin allows you to post to weblogs.lol, status.lol, and some.pics.
+- [[statuslol-post|OMG.lol Publisher]]: Allows you to post to weblogs.lol, status.lol, some.pics and paste.lol.
 - [[oz-calendar|OZ Calendar]]: View your notes in Calendar using any YAML key with date
 - [[object-oriented-thinking|Object Oriented Thinking]]: Add inheritance-like behavior to notes.
 - [[object-writer|Object Writer]]: Quickly create a note with a prompt for object writing.
@@ -1600,7 +1600,7 @@ Plugins which have not yet been categorized by the community.
 - [[prompt-crafter|PromptCrafter]]: Create reusable, modular prompts.
 - [[proofreader|Proofreader]]: AI-based proofreading and stylistic improvements for your writing. Changes are inserted as suggestions directly in the editor, similar to suggested changes in word processing apps.
 - [[protected-note|Protected Note]]: Set Password and Protect your notes from other people. Encrypt and Decrypt all notes!
-- [[pseudo-mica|Pseudo Mica]]: Mica-like background effect for Windows.
+- [[pseudo-mica|Pseudo Mica]]: Enable Mica or Acrylic on Windows 11.
 - [[pseudocode-in-obs|Pseudocode]]: This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.
 - [[pubscale|PubScale]]: Seamlessly sync markdown notes into PlanetScale tables.
 - [[publish-note-to-mowen|Publish Note to Mowen Note]]: Publish note to Mowen note mini program.
