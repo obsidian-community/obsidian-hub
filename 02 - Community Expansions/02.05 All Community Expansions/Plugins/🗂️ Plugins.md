@@ -1349,7 +1349,6 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/mp-preview|mp-preview]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/mpv-links|mpv-links]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/mrdoc|mrdoc]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/mrj-add-codemirror-matchbrackets|mrj-add-codemirror-matchbrackets]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/mrj-crosslink-between-notes|mrj-crosslink-between-notes]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/mrj-jump-to-link|mrj-jump-to-link]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/mrj-text-expand|mrj-text-expand]]
