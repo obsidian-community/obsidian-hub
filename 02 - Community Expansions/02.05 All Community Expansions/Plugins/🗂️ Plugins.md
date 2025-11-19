@@ -1285,7 +1285,6 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/meld-calc|meld-calc]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/meld-encrypt|meld-encrypt]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/memochron|memochron]]
--  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/memodack|memodack]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/memorization|memorization]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/memos-ai-sync|memos-ai-sync]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/memos-sync|memos-sync]]
