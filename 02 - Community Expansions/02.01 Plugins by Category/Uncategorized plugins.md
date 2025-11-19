@@ -33,6 +33,7 @@ Plugins which have not yet been categorized by the community.
 - [[ai-mentor|AI Mentor]]: Meet your open source AI mentor in Obsidian. Ask questions, get answers, and learn new things.
 - [[ai-note-tagger|AI Note Tagger]]: Automatically tag your notes using AI and update frontmatter with generated tags.
 - [[ai-summary|AI Notes Summary]]: Summarize referenced notes using OpenAI.
+- [[ai-nutrition-tracker|AI Nutrition Tracker]]: AI-powered nutrition tracking with food image analysis and daily logging.
 - [[ai-providers|AI Providers]]: A hub for setting AI providers (OpenAI-like, Ollama and more) in one place.
 - [[ai-research-assistant|AI Research Assistant]]: A Prompt Engineering research utility for generative AI models like OpenAI's ChatGPT that facilitates archiving and searching conversations and live editing a conversation's context/memory.
 - [[revisionist|AI Revisionist]]: AI-powered text revision for your notes.
@@ -525,6 +526,7 @@ Plugins which have not yet been categorized by the community.
 - [[daily-note-structure|Daily Note Structure]]: One-Click create a structure for and including your daily notes.
 - [[daily-note-automater|Daily Notes Automater]]: Automates the creation of a daily note
 - [[daily-notes-editor|Daily Notes Editor]]: Edit a bunch of daily notes in one page(inline), which works similar to Roam Research's default daily note view.
+- [[daily-notes-tweaks|Daily Notes Tweaks]]: Open a random daily note and automatically switch past daily notes to reading mode.
 - [[obsidian-daily-notes-viewer|Daily Notes Viewer]]: Help you to view some recent daily notes on one page.
 - [[daily-prompt|Daily Prompt]]: Set up custom prompts and automatically fill them into your daily notes
 - [[daily-random-note|Daily Random Note]]: Automatically open daily random notes based on your preferences.
@@ -1127,6 +1129,7 @@ Plugins which have not yet been categorized by the community.
 - [[learnie|Learnie]]: Enhance your learning with active recall and spaced repetition. Track changes, create review questions, and streamline your study process for more effective, long-lasting learning.
 - [[lemons-search|Lemons Search]]: A blazingly fast fuzzy finder with file preview.
 - [[letterboxd-rss-sync|Letterboxd Diary RSS Sync]]: Syncs your public Letterboxd diary.
+- [[life-in-weeks-calendar|Life in Weeks Calendar]]: Display your entire life in weeks, with weekly notes integration.
 - [[periodic-para|LifeOS]]: Life management system(Assist in practicing the PARA method with periodic notes and usememos).
 - [[lilypond|Lilypond]]: Lilypond support in Obsidian
 - [[obsidian-limelight|Limelight]]: Put a spotlight on your active pane
@@ -1159,6 +1162,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-list-callouts|List Callouts]]: Create simple callouts in lists.
 - [[obsidian-list-modified|List Modified]]: The advanced and adaptive changelog. Links all modified files meeting certain criteria to a timed (daily, weekly, monthly) note.
 - [[list-outline-helper|List Outline Helper]]: Utilities to work with list outlines. Currently supports selecting the outline (current line and children)
+- [[list-table-converter|List to table converter]]: Convert a list (or multi-line text) to a table.
 - [[listen-up|Listen Up!]]: Covert text to natural voice audio, locally - Listen Up!
 - [[litegallery|Lite Gallery]]: Easily create carousel galleries to better organize/view images in your notes.
 - [[litecite|LiteCite]]: Creates citation notes from a BibTeX / BibLaTeX file
@@ -1333,6 +1337,7 @@ Plugins which have not yet been categorized by the community.
 - [[mxmind|Mxmind Mindmap]]: Convert Markdown files to a mind map, mind map editor. export to image or pdf.
 - [[gslogimaker-my-bible|My Bible]]: Your own customizable markdown bible for your personal vault!
 - [[my-thesaurus|My Thesaurus]]: Automagically adds tags based on a simple csv file or a Markdown table.
+- [[my-typewriter-line|My Typewriter Line]]: Keep the active line in focus with customizable top and bottom scroll padding for typewriter-like editing.
 - [[mysnippets-plugin|MySnippets]]: MySnippets is a plugin that adds a status bar menu allowing the user to quickly toggle their snippets on and off 🖌.
 - [[nsfw-filter|NSFW filter]]: Adds customizable and easly togglable NSFW filter
 - [[nl-syntax-highlighting|Natural Language Syntax Highlighting]]: Highlight adjectives, nouns, adverbs, verbs, and conjunctions in the editor
@@ -1750,6 +1755,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-scroll-offset|Scroll Offset]]: Preserve minmium distances before and after cursor.
 - [[scroll-speed|Scroll Speed]]: This plugin allows you to change the scroll speed inside Obsidian notes.
 - [[obsidian-scroll-to-top-plugin|Scroll to Top]]: This is a plugin for Obsidian that adds a button to scroll to the top of the current note.
+- [[scroller|Scroller]]: Adds typewriter mode, focus mode and commands to quickly scroll to the top or bottom of note.
 - [[scrolling|Scrolling]]: Keep the cursor centered, disable code wrapping, remember scroll position, enable image zooming and more.
 - [[scroll-to-nav-top|Scrolls To Nav Top]]: Scrolls File Explorer To Top Position.
 - [[scrybble.ink|Scrybble]]: Synchronize highlights from your ReMarkable to Obsidian!
@@ -2062,6 +2068,7 @@ Plugins which have not yet been categorized by the community.
 - [[timesheet|Timesheet]]: Timesheet generator for tasks in daily notes.
 - [[timestamp-link|Timestamp Link]]: Copy timestamped links to blocks, headings and notes.
 - [[obsidian-timestamp-notes|Timestamp Notes]]: This plugin allows side-by-side notetaking with videos. Annotate your notes with timestamps to directly control the video and remember where each note comes from.
+- [[timestamper|Timestamper]]: Insert the current timestamp into your notes.
 - [[timetracker|Timetracker]]: Adds a stopwatch whose value can be inserted in the editor per hotkey.
 - [[tiny-habits|Tiny Habits]]: Habit tracking table for your markdown notes
 - [[tinychart|TinyChart]]: Dead simple ASCII charts
@@ -2084,7 +2091,6 @@ Plugins which have not yet been categorized by the community.
 - [[todoist-completed-tasks-plugin|Todoist completed tasks]]: Add completed Todoist tasks to your Obsidian notes
 - [[todos-sort|Todos sort]]: Sorting your TODOs (checkboxes) in current note by completion status.
 - [[obsidian-toggle-case|Toggle Case]]: This is an Obsidian plugin to toggle between `lowercase` `UPPERCASE` and `Title Case`
-- [[toggle-dark-mode|Toggle Dark Mode]]: Adds a command to toggle dark mode on and off
 - [[obsidian-toggle-meta-yaml-plugin|Toggle Meta Yaml]]: this is a simple plugin to toggle meta yaml.
 - [[toggle-rtl-mode|Toggle RTL mode]]: Toggle RTL mode using command or ribbon action
 - [[toggle-readable-line-length|Toggle Readable line length]]: Add command to toggle Readable line length editor setting.
@@ -2119,6 +2125,7 @@ Plugins which have not yet been categorized by the community.
 - [[typing-assistant|Typing Assistant]]: Support multiple shortcut menus to improve input efficiency
 - [[typing-transformer-obsidian|Typing Transformer]]: Improved, configurable auto formatting as typing
 - [[typing-speed|Typing speed]]: This is a plugin for showing the current typing speed in the status bar
+- [[typographer|Typographer]]: Enhances typography with smart quotes, custom text replacements and auto-pairing characters.
 - [[typst|Typst Renderer]]: Renders `typst` code blocks and math blocks with Typst.
 - [[unitade|UNITADE.md]]: Effortlessly treat any file extension as note, organize diverse file formats in your vault and take advancements in control of extension system even with custom modals.
 - [[uri-converter|URI Converter]]: Convert URIs to internal links.
@@ -2196,7 +2203,7 @@ Plugins which have not yet been categorized by the community.
 - [[vocabulary-cards|Vocabulary Cards]]: An easy way to display vocabulary words as flashcards and as a list.
 - [[vocabulary-highlighter|Vocabulary Highlighter]]: Hightlight vocabulary based on the word frequency
 - [[obsidian-vocabulary-view|Vocabulary View]]: Write down some words with their explanations and preview them in a vocabulary test style
-- [[voice|Voice]]: Let your notes talk and speak to you and enhance your Obsidian experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.
+- [[voice|Voice]]: Text-to-speech adds sound, audio, and speech to your notes, letting them talk in your workspace, mobile-friendly, perfect for learning or reinforcing ideas as you listen hands-free in an audiobook-like experience.
 - [[voicenotes-sync|Voicenotes Sync]]: Synchronize your notes from Voicenotes.com
 - [[vox|Vox]]: Intelligently trancribe and categorize your voice notes
 - [[whisperer|WHISPERER.md]]: Play ambience in your vault, assign audio to files through metadata with support of local (from vault) and URLs (Youtube, Soundcloud) versions of audio: works on mobile vaults.
@@ -2279,7 +2286,7 @@ Plugins which have not yet been categorized by the community.
 - [[youtube-summarizer|Youtube Summarizer]]: A plugin to summarize the transcripts of Youtube videos.
 - [[yuque-publish|Yuque Publish]]: Publish your notes to Yuque.
 - [[zen|Zen]]: A focus mode Obsidian plugin.
-- [[zenmode|Zen Mode]]: Hide UI most UI elements
+- [[zenmode|Zen Mode]]: Hide most UI elements
 - [[zen-space|Zen Space]]: A focused file explorer for Obsidian showing only the files in the current folder.
 - [[zettelflow|ZettelFlow]]: Helps you to create and manage your notes in a Zettelkasten way via Canvas.
 - [[zettelgpt|ZettelGPT]]: ZettelGPT: Turbocharge Your Note-taking with AI Assistance
