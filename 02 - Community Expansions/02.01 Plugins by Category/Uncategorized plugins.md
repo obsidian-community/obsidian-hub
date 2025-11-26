@@ -92,7 +92,7 @@ Plugins which have not yet been categorized by the community.
 - [[aloud-tts|Aloud]]: Highlight and speak text from your notes. Converts text to speech in real-time with lifelike voices.
 - [[alpha-bullet|Alpha Bullet]]: Sorts bulleted lists alphabetically.
 - [[alt-click-to-copy|Alt-Click to Copy]]: Alt-click to copy code!
-- [[always-color-text|Always Color Text]]: Colors specific words throughout the Vault in both editor and reading views.
+- [[always-color-text|Always Color Text]]: Automatically Colors specific words throughout the Vault in both editor and reading views.
 - [[cloudatlas-o-am|Amazing Marvin Integration]]: Integration with Amazing Marvin
 - [[ampliflow-page|AmpliFlow Page Publisher]]: Publish notes easily to AmpliFlow (https://www.ampliflow.se)
 - [[anchor-display-text|Anchor Link Display Text]]: Automatically uses the linked heading as the display text for the anchor links.
@@ -507,6 +507,7 @@ Plugins which have not yet been categorized by the community.
 - [[custom-selected-word-count|Custom Selected Word Count]]: Comprehensive text analysis for selected text including word counting, character counting, and sentence counting with modern UI design.
 - [[custom-slides|Custom Slides]]: Customizes the Slides core plugin navigation, styles, and behavior.
 - [[custom-state-for-task-list|Custom State for Task List]]: Add custom states to task list items.
+- [[custom-syntax-highlights|Custom Syntax Highlights]]: Display files with custom extensions as syntax-highlighted code blocks in reading view with configurable extension-to-language mappings.
 - [[custom-theme-studio|Custom Theme Studio]]: Create and customize themes with a built-in CSS editor. Modify colors, styles, and export your custom theme.
 - [[custom-list-character|Custom list character]]: Adds the ability to choose the character to use when creating a bullet list between '-', '*' and '+'
 - [[custom-new-file-name|Custom new file name]]: Enables the creation of new notes with custom formatted names, including dynamic datetime stamps.
@@ -516,7 +517,7 @@ Plugins which have not yet been categorized by the community.
 - [[cycle-in-sidebar|Cycle In Sidebar]]: This a plugin provides hotkeys to cycle through tabs in the left or right sidebars.
 - [[cypher|Cypher]]: Hides text in a simple diagramatic cypher to make reading unrecognizable for viewers.
 - [[d2-obsidian|D2]]: The official D2 plugin for Obsidian. D2 is a modern diagram scripting language that turns text to diagrams.
-- [[daggerforge|DaggerForge]]: Easy access to DaggerHeart's Adversaries, Environments + creating your own.
+- [[daggerforge|DaggerForge]]: Easy access to Daggerheart's content and creating your own.
 - [[daily-news-briefing|Daily News Briefing]]: Get AI-powered daily news summaries in your vault. Features customizable topics, smart filtering, and automated scheduling.
 - [[daily-note-collector|Daily Note Collector]]: Adds links to new notes to your daily note.
 - [[note-metrics|Daily Note Metrics]]: Parses tags, emoji tags, and checkboxes in your Daily Notes to create interactive charts.
@@ -822,7 +823,7 @@ Plugins which have not yet been categorized by the community.
 - [[gemmy|Gemmy]]: 2023 April Fool's plugin brought to you by Obsidian
 - [[gene-ai|Gene 🧬]]: Gene is an ai assistant for your second brain. It makes it easier than ever to creaate, manage and modify your notes. Gene is a plugin for Obsidian.md
 - [[generate-hash|Generate Hash]]: Generates a cryptographically strong pseudorandom hash.
-- [[generate-timeline|Generate Timeline]]: Generate timelines from tag folder or file automatically by any time properties.
+- [[generate-timeline|Generate Timeline]]: Generate timelines from tag folder file or metadata automatically by any time properties.
 - [[generic-initiative-tracker|Generic Initiative Tracker]]: TTRPG Generic Initiative Tracker for Obsidian.md
 - [[geocoding-properties|Geocoding Properties]]: Insert address / location data from geocoding APIs as Obsidian properties.
 - [[get-info-plugin|Get Info]]: Get Info is a plugin that tucks a menu inside your status bar and shows helpful information for your chosen file 📄.
@@ -1104,6 +1105,7 @@ Plugins which have not yet been categorized by the community.
 - [[llm-workspace|LLM workspace]]: Use Large Language Models grounded in your notes.
 - [[latex-algorithms|LaTeX Algorithms]]: Plugin to facilitate writing algorithm blocks in LaTeX
 - [[latex-math|LaTeX Math]]: Evaluate, solve and much more within LaTeX blocks using Sympy.
+- [[latex-autocomplete|LaTeX autocomplete]]: Simple auto-completion for LaTeX. As simple as typing '\'.
 - [[latex-to-unicode|LaTeX to Unicode converter]]: Convert LaTeX commands into unicode sqeuences
 - [[latexocr|LaTeX-OCR]]: Run LaTeX-OCR if it is installed locally.
 - [[math-booster|LaTeX-like Theorem & Equation Referencer]]: A powerful indexing & referencing system for theorems & equations in your vault. Bring LaTeX-like workflow into Obsidian with theorem environments, automatic equation numbering, and more.
@@ -1392,7 +1394,7 @@ Plugins which have not yet been categorized by the community.
 - [[note-placeholder|Note Placeholder]]: Replaces text of note link to placeholder in view mode.
 - [[note-reviewer|Note Reviewer]]: Help knowledge retention by reviewing and filtering notes.
 - [[note-splitter|Note Splitter]]: Split a note into individual notes based on a delimiter.
-- [[note-status|Note Status]]: Enhance your note organization with a status management system. Assign and track statuses (active, on hold, completed, dropped) for your notes with a customizable interface including status pane, dropdown, and file explorer integration.
+- [[note-status|Note Status]]: Track and change note statuses across your vault with templates, bulk folder actions, dashboards, and non-Markdown support.
 - [[note-sync|Note Sync]]: Sync notes or plugins between vaults.
 - [[note-synchronizer|Note Synchronizer]]: This is a plugin for synchornizing Obsidian notes to other note-based softwares like Anki, following more strictly the principles of Zettelkasten and treating each Obsidian file as a note.
 - [[note_uid_generator|Note UID Generator]]: Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).
