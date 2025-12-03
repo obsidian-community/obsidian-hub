@@ -23,7 +23,6 @@ publish: true
 - [[mrj-text-expand|Text expand]]
 - [[mrj-jump-to-link|Jump to link]]
 - [[mrj-crosslink-between-notes|Add links to current note]]
-- [[mrj-add-codemirror-matchbrackets|Add Codemirror matchbrackets.js]]
 
 %% End Hub: Released contributions %%
 
