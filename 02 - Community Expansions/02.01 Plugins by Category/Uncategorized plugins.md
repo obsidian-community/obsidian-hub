@@ -77,6 +77,7 @@ Plugins which have not yet been categorized by the community.
 - [[advanced-note-composer|Advanced Note Composer]]: Enhances Note composer core plugin.
 - [[advanced-progress-bars|Advanced Progress Bars]]: Progress bars that can change color depending on completion value - fully customizable.
 - [[advanced-random-note|Advanced Random Note]]: Open random notes with custom queries in languages like Dataview and Regex.
+- [[advanced-ruby|Advanced Ruby]]: Enable complex, language-independent ruby annotation rendering.
 - [[obsidian-advanced-slides|Advanced Slides]]: Create markdown-based presentations in Obsidian
 - [[advanced-canvas-filter|Advanced Сanvas Filter]]: Filter Canvas to show only items with specified tags.
 - [[age-encrypt|Age Encrypt]]: Secure content encryption using age encryption library
@@ -92,7 +93,7 @@ Plugins which have not yet been categorized by the community.
 - [[aloud-tts|Aloud]]: Highlight and speak text from your notes. Converts text to speech in real-time with lifelike voices.
 - [[alpha-bullet|Alpha Bullet]]: Sorts bulleted lists alphabetically.
 - [[alt-click-to-copy|Alt-Click to Copy]]: Alt-click to copy code!
-- [[always-color-text|Always Color Text]]: Automatically Colors specific words throughout the Vault in both editor and reading views.
+- [[always-color-text|Always Color Text]]: Automatically Colors & Highlights Text across the Vault.
 - [[cloudatlas-o-am|Amazing Marvin Integration]]: Integration with Amazing Marvin
 - [[ampliflow-page|AmpliFlow Page Publisher]]: Publish notes easily to AmpliFlow (https://www.ampliflow.se)
 - [[anchor-display-text|Anchor Link Display Text]]: Automatically uses the linked heading as the display text for the anchor links.
@@ -341,6 +342,7 @@ Plugins which have not yet been categorized by the community.
 - [[checkbox-reorder|Checkbox Reorder]]: Reorder completed checkboxes to the end of the according list.
 - [[checkbox-sort|Checkbox Sort]]: Automatically moves completed checkboxes to the end of the list
 - [[checkbox-sounds|Checkbox Sounds]]: Adds a nice completion sound when a checkbox is ticked-off
+- [[checkbox-style-menu|Checkbox Style Menu]]: Provides an intuitive menu for quickly changing checkbox styles.
 - [[checkbox-sync|Checkbox Sync]]: Automatically checks the parent checkbox if all child checkboxes are completed, and unchecks it otherwise.
 - [[checkbox-time-tracker|Checkbox Time Tracker]]: Insert timestamp when you check off the checkbox
 - [[checkbox-styling-helper|Checkbox styling helper]]: Helps you styling checkboxes in preview mode.
@@ -538,6 +540,7 @@ Plugins which have not yet been categorized by the community.
 - [[daily-note-creator|Daily note creator]]: Automatically creates missing daily notes
 - [[daily-note-calendar|Daily notes calendar]]: Navigate your Obsidian Vault using a calendar view.
 - [[obsidian-daily-notes-opener|Daily notes opener]]: Easily open daily/periodic notes in new pane, and much more!
+- [[dangerous-mode|Dangerous Mode]]: Dangerous writing mode: keep typing or after 5 seconds of inactivity the current note is erased.
 - [[dashboard-navigator|Dashboard navigator]]: Vault dashboard and navigator. Show recent files by type, files per day, week, month, search files by name, date, tags and more.
 - [[obsidian-dashing-cursor|Dashing cursor]]: Enables dashing cursor that follows the page scroll
 - [[data-entry|Data Entry]]: Create forms that save data simply; the data view of data entry
@@ -681,7 +684,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-expand-bullet|Expand Bullet]]: A plugin for transforming bullet content into note.
 - [[expiration-date-tracker|Expiration-Date-Tracker]]: Keep track of all expiration dates, for example, for your groceries.
 - [[explain-selection-with-ai|Explain Selection With AI]]: Use an OpenAI Chat Completion API-compatible LLM endpoint to explain the selected text in greater detail.
-- [[explorer-colors|Explorer Colors]]: Set custom colors for files and folders.
+- [[explorer-colors|Explorer Colors]]: Allows for files and folders to be configured with custom colors and other settings.
 - [[explorer-hider|Explorer Hider]]: Hide a file or a folder from the explorer (and bookmarks) using a little bit of auto-managed CSS!
 - [[export-graph-view|Export Graph View]]: Export your vault's graph view to mermaid and dot format.
 - [[obsidian-export-image|Export Image plugin]]: Easily convert your article to image.
@@ -745,6 +748,7 @@ Plugins which have not yet been categorized by the community.
 - [[finnish-spellcheck|Finnish Spellcheck]]: Spellchecker for the Finnish language using Voikko. / Oikolukija suomenkielellä, joka hyödyntää Voikkoa.
 - [[fit|Fit]]: Minimalist File gIT (FIT) to sync your files across mobile and desktop devices using GitHub.
 - [[line-ending-copyfix|Fix Line Endings on Copy]]: Change line endings to CRLF when copying text on Windows (add carriage return).
+- [[fix-math|Fix Math]]: Convert LaTeX equations from ChatGPT and AI assistants to the correct Markdown format: block equations to display math, inline to inline math.
 - [[flashcard-gen|Flashcard Generator]]: Craft insightful quizzes: Generate key questions/answers pairs from your notes effortlessly using Open ai's GPT-3/4 or local models. Elevate and optimize your learning journey.
 - [[flashcard-learning|Flashcard Learning]]: This is a pluggin that implements how flashcards can be used inside Obsidian in order to learn and remember things.
 - [[flashcards-llm|Flashcards LLM]]: Use Large Language Models (such as ChatGPT) to automatically generate flashcards from obsidian notes
@@ -949,6 +953,7 @@ Plugins which have not yet been categorized by the community.
 - [[hugo-codeblock-highlight|Hugo codeblock highlight]]: Highlights lines in codeblocks using Hugo's hl_lines syntax.
 - [[hugo-preview-obsidian|Hugo preview]]: Hugo preview in obsidian
 - [[hunchly|Hunchly]]: This plugin converts an Hunchly case into Obsidian notes enriching the data along the way.
+- [[hydrate|Hydrate]]: Cursor-like note agent with MCP support.
 - [[obsidian-hyphenation|Hyphenation]]: Enables justified text and hyphenation
 - [[harn-weather|Hârn Weather Generator]]: Unofficial Hârn weather generator. Generates the campaign weather for different time spans. The weather includes precipitation, temperature, wind direction and speed, moon phases and critical conditions for the whole of Western Venârivè.
 - [[ics|ICS]]: Parse multiple ICS files to include in your notes. Designed for Daily Notes and the Day Planner format. Through templates you can customize it for other use cases.
@@ -1105,6 +1110,7 @@ Plugins which have not yet been categorized by the community.
 - [[llm-workspace|LLM workspace]]: Use Large Language Models grounded in your notes.
 - [[latex-algorithms|LaTeX Algorithms]]: Plugin to facilitate writing algorithm blocks in LaTeX
 - [[latex-math|LaTeX Math]]: Evaluate, solve and much more within LaTeX blocks using Sympy.
+- [[latex-panel-helper|LaTeX Panel Helper]]: Provides a convenient panel with categorized LaTeX symbols, real-time search, and a pop-out window to enhance your mathematical note-taking efficiency!
 - [[latex-autocomplete|LaTeX autocomplete]]: Simple auto-completion for LaTeX. As simple as typing '\'.
 - [[latex-to-unicode|LaTeX to Unicode converter]]: Convert LaTeX commands into unicode sqeuences
 - [[latexocr|LaTeX-OCR]]: Run LaTeX-OCR if it is installed locally.
@@ -1114,6 +1120,7 @@ Plugins which have not yet been categorized by the community.
 - [[languagetool|LanguageTool]]: Unofficial integration of the LanguageTool spell and grammar checker.
 - [[lapel|Lapel]]: Dress up your editor with decorations that mark each of your headings.
 - [[large-language-models|Large Language Models]]: Enables access to LLMs via remote providers (OpenAI, Claude, Gemini) and local LLMs via GPT4ALL.
+- [[lark-style-countdown-timer|Lark Style CountDown Timer]]: Create Feishu/Lark-style countdown blocks.
 - [[laser-beam|Laser beam]]: Improve your reading experience with customizable laser lines.
 - [[last-position|Last Position]]: Automatically scroll to the last viewed position when opening the Markdown document.
 - [[latex-exporter|Latex Exporter]]: Write a LaTeX paper.
@@ -1422,6 +1429,7 @@ Plugins which have not yet been categorized by the community.
 - [[nai4obsidian|NovelAI]]: Generate text with NovelAI's models.
 - [[nuke-orphans|Nuke Orphans]]: Plugin that trashes orphaned files and attachments
 - [[numerals|Numerals]]: Numerals turns any code block into an advanced calculator. Evaluates math expressions on each line of a code block, including units, currency, and optional TeX rendering.
+- [[nutstore-sync|Nutstore Sync]]: Sync your vault with Nutstore/坚果云 using WebDAV protocol.
 - [[nyanbar|NyanBar]]: Nyan Cat Progress Bar generator!
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
 - [[marker-api|OCR-AI]]: Convert PDFs to beautiful rich Markdown notes with tables, images, formulas and OCR. Works with self-hosted Marker API and free Mistral OCR API!
@@ -1536,7 +1544,6 @@ Plugins which have not yet been categorized by the community.
 - [[peekaboo|Peekaboo]]: Protect your privacy by setting a password to hide files.
 - [[peerdraft|Peerdraft]]: Real-time, instant collaboration on Obsidian documents or folders. Whether for quick note-taking or building a team knowledge base, Peerdaft syncs with your collaborators' Obsidian vaults and also offers a Web Editor.
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
-- [[performosu|Performium]]: Integrates the osu! Performance Points system to gamify your note-taking experience!
 - [[perilous-writing|Perilous Writing]]: Write continuously—or lose all progress.
 - [[periodic-table|Periodic Table]]: View a periodic table in the sidebar
 - [[permalink-opener|Permalink Opener]]: Opens URLs based on a permalink or slug in the file properties
@@ -1630,6 +1637,7 @@ Plugins which have not yet been categorized by the community.
 - [[quick-emoji|Quick Emoji]]: Quick, in-editor, emoji inserting. Type ":" to start selecting an emoji to insert.
 - [[quick-file-name|Quick File Name]]: Generates a note with a random string as its name.
 - [[quick-links|Quick Links]]: Create quick link shortcuts to Wikipedia and other sites
+- [[quick-matrix|Quick Matrix]]: Adds command to make LaTeX matrices quickly.
 - [[quick-nav|Quick Nav]]: Enhance your editing experience by unleashing the hidden power of shortcuts
 - [[quick-notes|Quick Notes]]: Speeds up some note taking abilities and allows for creating notes/links in the background
 - [[quick-peek-sidebar|Quick Peek Sidebar]]: Opens the left and/or right side panel by hovering over it.
@@ -1800,12 +1808,14 @@ Plugins which have not yet been categorized by the community.
 - [[sheets|Sheets Extended]]: Vertical headers, merged cells, and custom css tables with advanced table compatibility
 - [[shell-path-copy|Shell Path Copy]]: Quickly copy vault file and folder paths for AI coding tools (Claude Code, Gemini CLI) - works on desktop and mobile with Windows/Unix formats
 - [[shiki-highlighter|Shiki Highlighter]]: Highlight code blocks with Shiki.
+- [[shogi-kif-viewer|Shogi KIF Viewer]]: Render interactive shogi boards from KIF code blocks in notes.
 - [[short-internal-links-to-headings|Short links]]: An Obsidian plugin to display short internal links.
 - [[obsidian-shortcut-launcher|Shortcut Launcher]]: Trigger shortcuts in Apple's Shortcuts app from Obsidian with custom commands.
 - [[show-diff|Show Diff]]: Render Git diffs in Obsidian files
 - [[show-whitespace-cm6|Show Whitespace]]: CSS styles and CM6 extensions to highlight whitespace in Source and Live Preview modes.
 - [[shrink-pinned-tabs|Shrink pinned tabs]]: Shrinks pinned tabs to save screen space.
 - [[shukuchi|Shukuchi]]: Teleport to links (URL or internal link) and jump to their destinations.
+- [[side-note|SideNote]]: Add comment on the part of sentence and refer in comment view.
 - [[sidebar-highlights|Sidebar Highlights]]: View and manage text highlights, comments on highlights, native comments, and collections for your highlights.
 - [[sidebar-resizer|Sidebar Resizer]]: Adjust the sidebar sizes easily.
 - [[sidecars|Sidecars]]: Automated management of 'sidecar' companion notes for attachments and other files.
@@ -1844,6 +1854,7 @@ Plugins which have not yet been categorized by the community.
 - [[slackify-note|Slackify Note]]: Converts a note to a Slack-compliant markdown using [slackify-markdown](https://www.npmjs.com/package/slackify-markdown)
 - [[slash-commander|Slash Commander]]: Customize the slash command list, assign each command an icon.
 - [[slash-snippets|Slash snippets]]: Use slash command to insert quick text
+- [[slash-complete|SlashComplete]]: Adds Notion-style slash command autocompletion, enabling fast and intuitive insertion of Markdown blocks, formatting, and commands directly from the editor. This is a direct replacement for the default slash command plugin.
 - [[slide-note|Slide Note]]: Conveniently take notes on PDF course slides :P
 - [[slides-extended|Slides Extended]]: Create markdown-based presentations using reveal.js
 - [[slurp|Slurp]]: Slurps webpages and saves them as clean, uncluttered Markdown.
@@ -1912,7 +1923,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian42-strange-new-worlds|Strange New Worlds]]: Help see how your vault is interconnected with visual indicators.
 - [[notes-to-strapi-export-article-ai|Strapi Exporter AI]]: Effortlessly export your notes to Strapi CMS with AI-powered handling and SEO optimization.
 - [[strava-sync|Strava Sync]]: Sync activities from Strava.
-- [[streams|Streams]]: Create and manage multiple Daily Note streams. Stream, Daily Note, folder.
+- [[streams|Streams]]: Create and manage multiple Daily Note streams. Stream <-> Daily Notes <-> Backlink.
 - [[copy-without-links|Strip Internal Links]]: Strips the selection or current file of internal links and either copies to the clipboard, or in-place
 - [[obsidian-structured-plugin|Structured]]: Structured plugin. Create hierarchy in notes using . 
 - [[copy-recursive-content|Structured Copy: Files & Folders]]: Easily copy the contents of files and folders in a structured JSON format.
@@ -1963,6 +1974,7 @@ Plugins which have not yet been categorized by the community.
 - [[tab-rotator|Tab Rotator]]: This plugin rotates opened files to the left or right with a specified interval
 - [[tab-selector|Tab Selector]]: Quickly switch tabs in various ways.
 - [[tab-shifter|Tab Shifter]]: Enables shifting tabs between different tab splits and some other basic IDE tab functionalities
+- [[table-checkbox-renderer|Table Checkbox Renderer]]: Interactive checkboxes for Markdown tables. Toggle checkboxes in Reading Mode to instantly update the Markdown file. Supports multiple checkboxes per cell and any table layout.
 - [[obsidian-table-generator|Table Generator]]: A plugin for generate markdown table quickly like Typora /card table in canvas .
 - [[table-list|Table List]]: Adds a table view to manage your tasks.
 - [[obsidian-table-to-csv-exporter|Table to CSV Exporter]]: This plugin allows for exporting tables from a pane in reading mode into CSV files.
@@ -1971,6 +1983,7 @@ Plugins which have not yet been categorized by the community.
 - [[tag-breakdown-generator|Tag Breakdown Generator]]: Breakdown nested tags into multiple parent tags
 - [[tag-buddy|Tag Buddy]]: Unlock powerful tag editing features in Reading Mode. Add, remove, and edit tags across your vault, in the active note or a single instance. Use tag summaries to roundup and process tagged content like an inbox.
 - [[snsvrno-tags|Tag Formatter]]: Gives more options on how to display tags in preview mode.
+- [[tag-group-manager|Tag Group Manager]]: Manage tag groups and quickly insert tags.
 - [[tag-index|Tag Index]]: Create a curated list of important tags to serve as meaningful entry points to your knowledge base.
 - [[tag-links|Tag Links]]: Allows tags to be opened as links using a hotkey.
 - [[tag-project-odaimoko|Tag Project]]: A Project Management Tool: Tag tasks everywhere, Manage in One page.
@@ -2162,6 +2175,7 @@ Plugins which have not yet been categorized by the community.
 - [[varinote|Varinote]]: Add variables in templates and set their values on-the-fly during the note creation.
 - [[vault-2-book|Vault 2 Book]]: Converts your notes to a book creating a single file containing all the notes linked
 - [[vault-chat|Vault Chat]]: A ChatGPT bot trained on your vault notes. Ask your AI questions about your own thoughts and ideas!
+- [[vault-encrypt|Vault Encrypt]]: Encrypts and decrypts the contents of the vault using a password.
 - [[vault-explorer|Vault Explorer]]: Explore your vault in visual format
 - [[vault-file-renamer|Vault File Renamer]]: Standardizes names in your vault: lowercase, accents removed, spaces become hyphens, and invalid characters are converted. Settings include enable/disable, target extensions (allow-list), excluded extensions (when allow-list is empty), and folder blacklist.
 - [[vault-full-statistics|Vault Full Statistics]]: Status bar item with vault full statistics such as number of notes, files, attachments, links, tags and quality of vault.
@@ -2334,6 +2348,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-markdown-export-plugin|markdown export]]: This is a markdown export plugin for Obsidian.
 - [[mpv-links|mpv links]]: Add mpv links with timestamps
 - [[my_anime_list_text_exporter|my anime list text exporter]]: add anime data for your notes
+- [[newslog|newslog]]: Sync newsletters and kindle highlights from your newslog.me daily bundles.
 - [[oblogger|oblogger]]: tagger explorer and frontmatter logger
 - [[obsidian-echarts|obsidian echarts]]: obsidian echarts
 - [[open-as-md|open-as-md]]: Edit non-md file types as markdown files
