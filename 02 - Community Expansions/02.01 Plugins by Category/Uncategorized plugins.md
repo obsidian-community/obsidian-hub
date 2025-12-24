@@ -25,6 +25,7 @@ Plugins which have not yet been categorized by the community.
 - [[arenasys-ai-chat|AI Chat]]: Chat with AI about your notes.
 - [[ai-chat-as-md|AI Chat as Markdown]]: Multiple branching AI conversations as Markdown hierarchy
 - [[ai-commander|AI Commander]]: Generate audio transcripts, images, and text in context of PDF attachments or web search results using OpenAI (ChatGPT) and Bing API.
+- [[ai-companion|AI Companion]]: AI companion accessible with /ai command in notes. Supports OpenAI integration.
 - [[ai-editor|AI Editor]]: Empower your note editor with LLM capabilities. Customizable to work for your use cases.
 - [[ai-helper|AI Helper]]: An AI helper tool for summarizing text and providing a chatbot to let you ask questions about your notes.
 - [[ai-image-ocr|AI Image OCR]]: Extract text from handwritten notes and images using powerful AI Vision models
@@ -47,6 +48,7 @@ Plugins which have not yet been categorized by the community.
 - [[ai-image-analyzer|AI image analyzer]]: Analyze images with AI to get keywords of the image.
 - [[ai-hub|AI integration Hub]]: Integrate with AI models (currently Google's Gemini only) to quickly generate and refine notes.
 - [[ai-enhanced-anki-sync|AI-AnkiSync]]: Sync AI-enhanced flashcards with Anki via AnkiConnect
+- [[api-designer|API Designer]]: Design and document API endpoints visually without leaving your notes.
 - [[api-request|APIRequest]]: Integrate API data into your notes with request caching, variable support, and precise JSON extraction.
 - [[apl-render|APL Render]]: render APL syntax
 - [[ascii-tree-generator|ASCII Tree Generator]]: Convert indented code blocks with hierarchy markers into formatted ASCII tree diagrams.
@@ -126,7 +128,7 @@ Plugins which have not yet been categorized by the community.
 - [[asciidoc-reader|Asciidoc Reader]]: Enables the rendering of AsciiDoc.
 - [[asciidoctor-editor|Asciidoctor editor]]: View and modify asciidoc pages
 - [[askify-obsidian-sync|Askify Sync]]: This plugin help to sync notes from Askify (https://askify.video/) to Obsidian
-- [[at-people|At People]]: Use the @ to create links to people files.
+- [[at-people|At People]]: Use the @ to create links to people files with smart fuzzy search, accent-insensitive matching, and backlink-based ranking.
 - [[note-atomizer|Atomizer]]: Turn any text into insightful atomic notes.
 - [[attachment-manager|Attachment Manager]]: Attachment folder name binding note name, automatically rename, automatically delete, show/hide. 附件文件夹名称绑定笔记名、自动重命名、自动删除、显示/隐藏。
 - [[attachment-uploader|Attachment Uploader]]: Attachment uploader plugin, which allows you customize the upload command, customize upload file type.
@@ -251,6 +253,7 @@ Plugins which have not yet been categorized by the community.
 - [[blur|Blur]]: Create obfuscated blocks of text.
 - [[aqu-blur-mode|Blur Mode]]: Blur anything you want to keep your privacy.
 - [[boardgame-search|Boardgame Search]]: Helps board game enthusiasts track their game collection seamlessly within their notes.
+- [[book-clipper|Book Clipper]]: Save book details from websites into your notes.
 - [[obsidian-book-search-plugin|Book Search]]: Helps you find books and create notes.
 - [[book-smith|Book Smith]]: Simplify long-form writing and book creation. Organize chapters, track progress, and export your manuscript in various formats for a seamless publishing workflow.
 - [[bookfusion|BookFusion]]: Import your BookFusion highlights & annotations into your vault.
@@ -367,7 +370,6 @@ Plugins which have not yet been categorized by the community.
 - [[clear-todos|Clear Todos]]: Quickly remove all completed todos from your notes or selected text.
 - [[click-clack|Click Clack]]: Simulates typewriter / mechanical keyboard sounds.
 - [[click-hint|Click Hint]]: Provide keyboard-driven hints for clickable elements
-- [[click-unsupported-files|Click Unsupported Files]]: Changes click behavior for unsupported files to work similar to Windows File Explorer: single-click selects, double-click opens in default app.
 - [[click-up-sync|ClickUp sync]]: Manage ClickUp space from notes
 - [[clipboard-manager|Clipboard Manager]]: A clipboard manager that stores clipboard history and provides search functionality with real-time updates
 - [[cliplet|Cliplet]]: A clipboard and snippet manager — your own, separate from the OS clipboard.
@@ -455,7 +457,6 @@ Plugins which have not yet been categorized by the community.
 - [[cooksync|Cooksync]]: Automatically imports recipes collected using Cooksync
 - [[copilot|Copilot]]: Your AI Copilot: Chat with Your Second Brain, Learn Faster, Work Smarter.
 - [[copilot-auto-completion|Copilot auto completion]]: Adds a highly configurable copilot-like auto-completion to Obsidian using the ChatGPT API.
-- [[copy-absolute-path|Copy Absolute Path]]: Copy the system absolute path of files and folders to the clipboard.
 - [[copy-plaintext|Copy As PlainText]]: Copy selections or entire notes as plain text. Both commands are available in the command palette; selection copy is also in the context menu.
 - [[copy-image|Copy Image]]: Easily copy image from Obsidian to clipboard by right clicking image.
 - [[copy-inline-code|Copy Inline Code]]: Easily copy the contents of an inline code element with a single click.
@@ -519,6 +520,7 @@ Plugins which have not yet been categorized by the community.
 - [[cycle-in-sidebar|Cycle In Sidebar]]: This a plugin provides hotkeys to cycle through tabs in the left or right sidebars.
 - [[cypher|Cypher]]: Hides text in a simple diagramatic cypher to make reading unrecognizable for viewers.
 - [[d2-obsidian|D2]]: The official D2 plugin for Obsidian. D2 is a modern diagram scripting language that turns text to diagrams.
+- [[docx-exporter|DOCX Exporter]]: Export notes to Microsoft Word docx files with mobile devices support.
 - [[daggerforge|DaggerForge]]: Easy access to Daggerheart's content and creating your own.
 - [[daily-news-briefing|Daily News Briefing]]: Get AI-powered daily news summaries in your vault. Features customizable topics, smart filtering, and automated scheduling.
 - [[daily-note-collector|Daily Note Collector]]: Adds links to new notes to your daily note.
@@ -578,7 +580,6 @@ Plugins which have not yet been categorized by the community.
 - [[dictionary-translator|Dictionary translator]]: 它可以帮助你翻译单词或句子，听新单词或句子的录音，甚至录下自己的发音，以内部链接的形式保存到你的笔记中。
 - [[diffzip|Differential ZIP Backup]]: Back our vault up with lesser storage.
 - [[digitalgarden|Digital Garden]]: Publish your notes to the web for others to enjoy. For free.
-- [[digital-sticky-notes|Digital Sticky Notes]]: Digitize physical sticky notes to effortlessly capture, organize, and access temporary notes.
 - [[obsidian-dirtreeist|Dirtreeist]]: Render a directory Structure Diagram from a markdown lists in codeblock.
 - [[disciples-journal|Disciples Journal]]: Embed Bible references and passages in your notes and read the Bible in Obsidian.
 - [[discord-message-formatter|Discord Message Formatter]]: Simply CTRL+C CTRL+V Discord messages from the Desktop client and have them automatically formatted
@@ -748,7 +749,7 @@ Plugins which have not yet been categorized by the community.
 - [[finnish-spellcheck|Finnish Spellcheck]]: Spellchecker for the Finnish language using Voikko. / Oikolukija suomenkielellä, joka hyödyntää Voikkoa.
 - [[fit|Fit]]: Minimalist File gIT (FIT) to sync your files across mobile and desktop devices using GitHub.
 - [[line-ending-copyfix|Fix Line Endings on Copy]]: Change line endings to CRLF when copying text on Windows (add carriage return).
-- [[fix-math|Fix Math]]: Convert LaTeX equations from ChatGPT and AI assistants to the correct Markdown format: block equations to display math, inline to inline math.
+- [[fix-math|Fix Math]]: Convert LaTeX equations from ChatGPT and AI assistants to Obsidian format: block equations to display math, inline to inline math.
 - [[flashcard-gen|Flashcard Generator]]: Craft insightful quizzes: Generate key questions/answers pairs from your notes effortlessly using Open ai's GPT-3/4 or local models. Elevate and optimize your learning journey.
 - [[flashcard-learning|Flashcard Learning]]: This is a pluggin that implements how flashcards can be used inside Obsidian in order to learn and remember things.
 - [[flashcards-llm|Flashcards LLM]]: Use Large Language Models (such as ChatGPT) to automatically generate flashcards from obsidian notes
@@ -757,7 +758,7 @@ Plugins which have not yet been categorized by the community.
 - [[float-search|Floating Search]]: You can use search view in modal/leaf/popout window now.
 - [[floccus-bookmarks-to-markdown|Floccus Bookmarks to Markdown]]: Bring your Bookmarks from Floccus to your Obsidian
 - [[flomo-importer|Flomo Importer]]: Make Flomo Memos to Obsidian Notes
-- [[flow|Flow]]: Implements key processes in David Allen's Getting Things Done (GTD) methodology (Closed source)
+- [[flow|Flow]]: Implements key processes in David Allen's Getting Things Done (GTD) methodology
 - [[flowcharts|Flowcharts]]: Render flowcharts using flowchart.js syntax.
 - [[flowershow|Flowershow]]: Publish with Flowershow directly from your Obsidian vault.
 - [[focus-active-sentence|Focus Active Sentence]]: Highlight the sentence the cursor is currently resting on.
@@ -1079,7 +1080,7 @@ Plugins which have not yet been categorized by the community.
 - [[kale-graph|Kale Graph]]: Render mathematical graphs.
 - [[kanban-status-updater|Kanban Status Updater]]: Automatically updates a 'status' property in a note when its card is moved on a Kanban board
 - [[keep-the-rhythm|Keep the Rhythm]]: Visualize and track your writing habit!
-- [[keepsidian|KeepSidian]]: Import Google Keep notes.
+- [[keepsidian|KeepSidian]]: Two-way sync between Obsidian and Google Keep.
 - [[ketcher|Ketcher]]: View or draw chemical structures and reactions using Ketcher.
 - [[key-promoter|Key Promoter]]: Learn keyboard shortcuts by showing them when using the mouse
 - [[key-value-list|Key-Value List]]: Makes it easy to turn lists into formatted key-value lists.
@@ -1421,7 +1422,6 @@ Plugins which have not yet been categorized by the community.
 - [[notes-sync-share|Notes Sync Share]]: Sync and share (publish) your notes in your own private service.
 - [[notes-dater|Notes dater]]: Adds created on and last updated on dates of the active note to the status bar.
 - [[noteson-publish|NotesOn Publish]]: Make single notes instantly available on the web.
-- [[nothing|Nothing]]: Adds a no-op command to disable hotkeys.
 - [[notice-logger|Notice logger]]: Logs all notices to the developer console, with optional prefix and timestamp.
 - [[notice-controller|Notification Controller]]: Manages notifications at startup.
 - [[obsidian-notion-video|Notion Video]]: embed your notion video in obsidian
@@ -1432,6 +1432,7 @@ Plugins which have not yet been categorized by the community.
 - [[nutstore-sync|Nutstore Sync]]: Sync your vault with Nutstore/坚果云 using WebDAV protocol.
 - [[nyanbar|NyanBar]]: Nyan Cat Progress Bar generator!
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
+- [[ocr-extractor|OCR Extractor]]: Extract text from documents, images, etc. and store it as Markdown in your notes.
 - [[marker-api|OCR-AI]]: Convert PDFs to beautiful rich Markdown notes with tables, images, formulas and OCR. Works with self-hosted Marker API and free Mistral OCR API!
 - [[statuslol-post|OMG.lol Publisher]]: Allows you to post to weblogs.lol, status.lol, some.pics and paste.lol.
 - [[oz-calendar|OZ Calendar]]: View your notes in Calendar using any YAML key with date
@@ -1683,6 +1684,7 @@ Plugins which have not yet been categorized by the community.
 - [[reading-view-enhancer|Reading View Enhancer]]: Enhances reading view. Use arrow keys to navigate between blocks or toggle collapse.
 - [[scroll-with-jk|Reading View j/k Scroll]]: Scroll in reading view with j/k keys. Scroll to top with gg and to bottom with G.
 - [[reading-comments|Reading comments]]: Plugin allows you to create comments while you read books or articles in Obsidian. Comments could be grouped hierarchically by tags.
+- [[reading-progress-desktop|Reading progress desktop]]: A progress bar for some views in the status bar(desktopAPP).
 - [[recent-files-obsidian|Recent Files]]: List files by most recently opened
 - [[recent-notes|Recent Notes]]: List of recently edited notes with previews by time periods
 - [[recent-tab-switcher|Recent Tab Switcher]]: Switch to the most recently used tab.
@@ -1818,7 +1820,6 @@ Plugins which have not yet been categorized by the community.
 - [[side-note|SideNote]]: Add comment on the part of sentence and refer in comment view.
 - [[sidebar-highlights|Sidebar Highlights]]: View and manage text highlights, comments on highlights, native comments, and collections for your highlights.
 - [[sidebar-resizer|Sidebar Resizer]]: Adjust the sidebar sizes easily.
-- [[sidecars|Sidecars]]: Automated management of 'sidecar' companion notes for attachments and other files.
 - [[sigma|Sigma]]: A plugin to enable using obsidian notes as calculation sheets.
 - [[silicon|Silicon AI]]: Add some intelligence to your notes with Silicon AI
 - [[similar-notes|Similar Notes]]: Find semantically similar notes using local AI. Works on desktop and mobile without external servers.
