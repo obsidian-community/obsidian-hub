@@ -98,7 +98,7 @@ Plugins which have not yet been categorized by the community.
 - [[always-color-text|Always Color Text]]: Automatically Colors & Highlights Text across the Vault.
 - [[cloudatlas-o-am|Amazing Marvin Integration]]: Integration with Amazing Marvin
 - [[ampliflow-page|AmpliFlow Page Publisher]]: Publish notes easily to AmpliFlow (https://www.ampliflow.se)
-- [[anchor-display-text|Anchor Link Display Text]]: Automatically uses the linked heading as the display text for the anchor links.
+- [[anchor-display-text|Anchor Link Display Text]]: Automatically uses the linked heading as the display text for anchor links.
 - [[android-nomedia|Android nomedia]]: Hides media from your Vault on Android devices by adding the 'nomedia' file to each folder.
 - [[animated-cursor|Animated Cursor]]: Simple yet smooth animated cursor.
 - [[anki-integration|Anki Integration]]: Create flashcards from your notes with a seamless interface, structuring them with metadata and syncing effortlessly via AnkiConnect.
@@ -127,6 +127,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-asciidoc-blocks|AsciiDoc Blocks Plugin]]: A plugin to render asciidoc blocks in Obsidian, initially asciidoc tables.
 - [[asciidoc-reader|Asciidoc Reader]]: Enables the rendering of AsciiDoc.
 - [[asciidoctor-editor|Asciidoctor editor]]: View and modify asciidoc pages
+- [[asciinema-player|Asciinema Player]]: Embed local and remote Asciinema asciicast files in Markdown notes.
 - [[askify-obsidian-sync|Askify Sync]]: This plugin help to sync notes from Askify (https://askify.video/) to Obsidian
 - [[at-people|At People]]: Use the @ to create links to people files with smart fuzzy search, accent-insensitive matching, and backlink-based ranking.
 - [[note-atomizer|Atomizer]]: Turn any text into insightful atomic notes.
@@ -159,6 +160,7 @@ Plugins which have not yet been categorized by the community.
 - [[auto-hide-cursor|Auto Hide Cursor]]: Hides the cursor when scrolling and shows it again when moving the mouse.
 - [[auto-hyperlink|Auto Hyperlink]]: Insert hyperlink according to user-defined rule
 - [[auto-journal|Auto Journal]]: Opinionated journaling automation like daily notes but with backfills for the days when Obsidian wasn't opened
+- [[auto-keyword-linker|Auto Keyword Linker]]: Automatically creates backlinks for specified keywords with variations and preview mode.
 - [[auto-note-importer|Auto Note Importer]]: Automatically import notes from an external database like Airtable into your Vault.
 - [[auto-note-mover|Auto Note Mover]]: Auto Note Mover will automatically move the active notes to their respective folders according to the rules.
 - [[auto-periodic-notes|Auto Periodic Notes]]: Creates new periodic notes automatically in the background and allows these to be pinned in your open tabs, requires the Periodic Notes plugin.
@@ -431,6 +433,7 @@ Plugins which have not yet been categorized by the community.
 - [[companion|Companion]]: Autocomplete with AI, including ChatGPT and ollama, through a copilot-like interface.
 - [[completed-tasks|Completed Tasks]]: Automatically sort completed tasks to the bottom of the list.
 - [[obsidian-completr|Completr]]: This plugin provides advanced auto-completion functionality for LaTeX, Frontmatter and standard writing.
+- [[conditional-properties|Conditional Properties]]: Automate your frontmatter with smart IF/THEN rules. Set properties, modify titles, and keep your vault organized—automatically.
 - [[confluence-converter|Confluence Converter]]: Convert markdown to Confluence wiki markup.
 - [[confluence-to-obsidian|Confluence Import]]: Import Confluence space into Obsidian vault
 - [[confluence-integration|Confluence Integration]]: This plugin allows you to publish your notes to Confluence
@@ -562,8 +565,10 @@ Plugins which have not yet been categorized by the community.
 - [[day-planner-og|Day Planner (OG)]]: A plugin to help you plan your day and setup pomodoro timers; fork of the original plugin by James Lynch (which stopped at 0.5.8) which preserves the look/feel and behavior of the original.
 - [[obsidian-day-and-night|Day and Night]]: An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.
 - [[days-since|Days Since]]: A plugin to show the number of days since a given date.
+- [[deep-sit|Deep Sit]]: Focused study and research tool that allows citing and reviewing primary sources through a Zotero integration.
 - [[deepl|DeepL]]: Allows translation of selected texts into more than 25 languages with DeepL.
 - [[new-tab-default-page|Default New Tab Page]]: Open a note of your choice when creating a new tab, like in the browser.
+- [[default-template|Default Template]]: Automatically apply templates to new notes with user-configurable template selection.
 - [[default-query-in-backlink|Default query in backlinks]]: Automatically input default query in search input of backlinks in document.
 - [[definition-list|Definition List]]: Adds definition lists to the markdown parser.
 - [[dendron-tree|Dendron Tree]]: Add tree for exploring Dendron note.
@@ -581,6 +586,7 @@ Plugins which have not yet been categorized by the community.
 - [[diffzip|Differential ZIP Backup]]: Back our vault up with lesser storage.
 - [[digitalgarden|Digital Garden]]: Publish your notes to the web for others to enjoy. For free.
 - [[obsidian-dirtreeist|Dirtreeist]]: Render a directory Structure Diagram from a markdown lists in codeblock.
+- [[disable-tabs|Disable Tabs]]: Disables having more than one tab open at a time.
 - [[disciples-journal|Disciples Journal]]: Embed Bible references and passages in your notes and read the Bible in Obsidian.
 - [[discord-message-formatter|Discord Message Formatter]]: Simply CTRL+C CTRL+V Discord messages from the Desktop client and have them automatically formatted
 - [[discord-message-sender|Discord Message Sender]]: Send messages from a Discord channel to your Vault
@@ -1101,7 +1107,6 @@ Plugins which have not yet been categorized by the community.
 - [[korean-book-search|Korean Book Search]]: Automatically fills in YAML frontmatter with Korean book information from Aladin API based on the note title.
 - [[korean-spellchecker|Korean Spellchecker]]: Checks Korean spelling and grammar using an online service. Features a custom dictionary to exclude specific nouns (e.g., names, technical terms) from being flagged as errors.
 - [[lds-scriptures-reference|LDS Library Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latter-day Saints
-- [[lds-library-reference|LDS Library Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latter-day Saints
 - [[line-notes-sync|LINE Notes Sync]]: Sync messages from LINE to your notes.
 - [[llm-shortcut|LLM Shortcut]]: Provides a way to create shortcuts for commands powered by LLM capabilities.
 - [[llm-summary|LLM Summary]]: Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.
@@ -1123,6 +1128,7 @@ Plugins which have not yet been categorized by the community.
 - [[large-language-models|Large Language Models]]: Enables access to LLMs via remote providers (OpenAI, Claude, Gemini) and local LLMs via GPT4ALL.
 - [[lark-style-countdown-timer|Lark Style CountDown Timer]]: Create Feishu/Lark-style countdown blocks.
 - [[laser-beam|Laser beam]]: Improve your reading experience with customizable laser lines.
+- [[last-edit-location|Last Edit Location]]: Put the cursor at the last edit location when opening a note. Work well with multiple notes.
 - [[last-position|Last Position]]: Automatically scroll to the last viewed position when opening the Markdown document.
 - [[latex-exporter|Latex Exporter]]: Write a LaTeX paper.
 - [[latex-matrices|Latex Matrices]]: Speedup latex matrices writing.
@@ -1303,6 +1309,7 @@ Plugins which have not yet been categorized by the community.
 - [[mini-toolbar|Mini Toolbar]]: mini context toolbar in editor
 - [[mini-vimrc|Mini Vimrc]]: Set Vim keybiddings via .vimrc file.
 - [[mini-rag|Mini-RAG]]: Leverage Retrieval Augmented Generation (RAG) for your notes, using a locally running LLM or AI.
+- [[minidoro|Minidoro]]: A minimal Pomodoro timer to help you focus.
 - [[minimal-quiz|Minimal Quiz]]: Start a quick Markdown-based quiz on your current note. Simple, straightforward, and fully integrated — similar to flashcards in Anki or Quizlet!
 - [[minimize-on-close|Minimize on Close]]: Minimizes the app window to an icon after closing the last open pane
 - [[minio-uploader|Minio Uploader]]: Upload images, videos, audio, pdf, and other files to Minio OSS.
@@ -1478,6 +1485,7 @@ Plugins which have not yet been categorized by the community.
 - [[open-files-with-commands|Open files with commands]]: Create commands that only open one file at the time and that can be used with the commander plugin.
 - [[open-in-cursor|Open in Cursor]]: Add a hotkey to open the current file in Cursor IDE and jump to the cursor position
 - [[open-in-github|Open in GitHub]]: Open the current project or file in github.com.
+- [[open-in-terminal|Open in Terminal]]: Open your vault in a new terminal window or launch Claude Code, Codex CLI, or Gemini CLI directly from a terminal.
 - [[obsidian-open-in-other-editor|Open in other editor]]: Open current active file in gVim or VScode.
 - [[open-or-create-file-command|Open or Create File]]: Create custom commands that open or create files using configurable patterns and templates.
 - [[open-with-nldates|Open with Natural Language Dates]]: Open a daily note using natural language. Requires "Natural Language Dates" plugin to work.
@@ -1709,6 +1717,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-release-timeline|Release Timeline]]: Release timeline rendered based on notes metadata with a dataview-like syntax.
 - [[remaining-reading-time|Remaining reading time]]: Shows the remaining reading time for the current note depending on the cursor position.
 - [[obsidian-remember-file-state|Remember File State]]: Remembers cursor position, selection, scrolling, and more for each file
+- [[remember-scrollposition|Remember Scrollposition]]: Remembers the scroll position in your notes and returns you to your last position upon opening a note.
 - [[remote-fetch|Remote Fetch]]: Download files from URLs directly into your vault with CORS proxy support.
 - [[remotely-save|Remotely Save]]: Yet another unofficial plugin allowing users to synchronize notes between local device and the cloud service.
 - [[remotely-secure|Remotely Sync]]: Security and feature updates for the remotely-save unofficial plugin allowing users to synchronize notes between local device and the cloud service. Not backwards compatible.
@@ -1952,7 +1961,7 @@ Plugins which have not yet been categorized by the community.
 - [[taskrobin|Sync Emails]]: Sync and save emails and attachment files to your vault with TaskRobin.
 - [[sync-google-calendar|Sync Google Calendar]]: Synchronize events from Google Calendar and manage them like tasks.
 - [[sync-graph-settings|Sync Graph Settings]]: This is a plugin for syncing various graph settings to Local Graphs
-- [[sync-vault-ce|Sync Vault CE]]: Self-controlled sync across all platforms, Aliyun & & Jianguoyun & InifiCloud & Tencent COS supported
+- [[sync-vault-ce|Sync Vault CE]]: Backup, Sync and Link your knowledge, restricted mode/auto mode/live mode, BaiduCloudDisk/AliCloudDisk/TencentCOS .etc
 - [[sync-config-folder-to-common-folder|Sync config folder to common folder]]: Sync contents from config folder to common folder for backup or other purposes
 - [[hugo-sync|Sync to Hugo]]: Sync the selected notes to Hugo blog
 - [[sync-safe-file-names|Sync-safe file names]]: Ensures all file names can be synced accross all platforms.
@@ -1963,6 +1972,7 @@ Plugins which have not yet been categorized by the community.
 - [[systemsculpt-ai|SystemSculpt AI]]: A powerful AI that helps you sculpt your knowledge base with artificial intelligence through intelligent chat, document analysis, and seamless integrations.
 - [[t4-task-tree-time-totaler|T4: Task Tree Time Totaler]]: Calculates and assigns task estimates given subtask estimates in a task tree in a Markdown document.
 - [[tg-emoji-search|TG Emoji Search]]: Lets you type out emojis like in Telegram.
+- [[tipa-support|TIPA Support]]: Adds support for TIPA phonetic notation.
 - [[table-of-contents-automatic-but-compatible-with-publish|TOC compatible with Publish]]: Create table of contents with user defined adjustments. All adjustments will be compatible with Obsidian Publish.
 - [[todo-highlighter|TODO Highlighter]]: Highlights TODO regex as green.
 - [[wrangle-todos|TODO Wrangler]]: Wrangles your TODOs and puts them at the bottom of the file.
@@ -1990,6 +2000,7 @@ Plugins which have not yet been categorized by the community.
 - [[tag-project-odaimoko|Tag Project]]: A Project Management Tool: Tag tasks everywhere, Manage in One page.
 - [[tag-summary-plugin|Tag Summary]]: This plugin creates summaries with paragraphs or blocks of text that share the same tag(s).
 - [[tag-tactician|Tag Tactician]]: Better tag management: Bulk operations, navigation by tags, and find related notes through tag similarity
+- [[tag-timer|Tag Timer]]: Add a timer to Tags and get analytics on how long you spend on each task.
 - [[tag-many|TagMany]]: Add the same tag(s) to multiple notes in a folder (optionally including subfolders) at once.
 - [[obsidian-plugin-tagged-documents-viewer|Tagged Documents Viewer]]: Opens a modal with scrollable content of all documents that contain a specific tag or tags.
 - [[tags-overview|Tags Overview]]: Adds an extended tags panel where tagged files can be overviewed, filtered and accessed in an easy way.
@@ -2080,6 +2091,7 @@ Plugins which have not yet been categorized by the community.
 - [[timeline-view|Timeline View]]: Display your obsidian notes in a timeline, based on a given property.
 - [[timelines-revamped|Timelines (Revamped)]]: Successor to darakah's Timelines plugin: Generate a chronological timeline in which all 'events' are notes that include a specific tag or set of tags.
 - [[timelive|Timelive]]: Turn a list of dates into a timeline.
+- [[time-log|Timelog]]: Add timestamps to entries under dated headers for lab notebook style logging.
 - [[timer|Timer]]: Allows you to measure time.
 - [[timesheet|Timesheet]]: Timesheet generator for tasks in daily notes.
 - [[timestamp-link|Timestamp Link]]: Copy timestamped links to blocks, headings and notes.
@@ -2121,6 +2133,7 @@ Plugins which have not yet been categorized by the community.
 - [[tracker-plus|Tracker+]]: Track and visualize data from your notes. Compatible with original Tracker plugin.
 - [[trakt-tv|Trakt.tv Sync]]: Syncs your Trakt.tv shows.
 - [[obsidian-transcription|Transcription]]: Create high-quality text transcriptions from any media file, on any device using Whisper ASR. Best-in-class speech-to-text.
+- [[transcription-audio|Transcription Audio]]: Transcribe audio files into Markdown notes.
 - [[transfer-latex-from-gpt|Transfer LaTeX from GPT]]: Translate the LaTeX formula generated by OpenAI GPT into Obsidian's MathJax format.
 - [[translate|Translate]]: Translate text and notes with Google Translate, DeepL, Azure, and more.
 - [[translate-inline|Translate Inline]]: Translations at your fingertips. Get inline Translations when writing Notes.
@@ -2132,6 +2145,7 @@ Plugins which have not yet been categorized by the community.
 - [[treefocus|TreeFocus]]: Dim, highlight & style your files & folders in the vault file explorer (foldable item navigator) based on predefined / custom rules.
 - [[obsidian-trim-whitespace|Trim Whitespace]]: Trims unnecessary whitespace from your Obsidian documents
 - [[truth-table-gen|Truth Table+]]: Generate truth tables quickly in your .md files
+- [[tsumugi-mark|TsumugiMark]]: vertical editor for Japanese writer.
 - [[type-chinese-like-english|Type Chinese Like English]]: Convert pinyin to Chinese characters and LaTeX
 - [[typecho|Typecho]]: Post the file to Typecho
 - [[typefully|Typefully]]: Typefully integration. Publish social media posts with ease
@@ -2194,7 +2208,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-vega|Vega Visualizations]]: Create highly-customizable data visualizations like line charts and scatter plots using Vega or Vega-Lite.
 - [[verovio-music-renderer|Verovio Music Renderer]]: Rendering, playback and export of MEI, MusicXML, ABC and PAE music notation files and embeds.
 - [[verse-of-the-day|Verse of the Day]]: Lets you add the verse of the day from YouVersion to your daily notes
-- [[version-control|Version Control]]: Fearlessly edit. Capture intentional, local snapshots of your notes at any point. Stop relying on background autosaves—take charge of your document's history and versions.
+- [[version-control|Version Control]]: Create intentional snapshots with meaningful names, in-file branching, side-by-side diffs, timeline search, writing stats, and optional auto-saves.
 - [[obsidian-version-history-diff|Version History Diff]]: Diff the version history of the core Sync and File Recovery plugins and Git.
 - [[vertical-tabs|Vertical Tabs]]: Offer an alternative view that displays open tabs vertically, allowing users to group and organize tabs for a better navigation experience.
 - [[vertical-timeline-list|Vertical Timeline List]]: Utilizes task lists to create a timeline... or something resembling a timeline.
@@ -2261,7 +2275,7 @@ Plugins which have not yet been categorized by the community.
 - [[wordcraft|WordCraft]]: Find rhymes, synonyms, and describing words. Designed for songwriting and poetry.
 - [[obsidian-wordpress|WordPress]]: A plugin for publishing Obsidian documents to WordPress.
 - [[wordwise|WordWise]]: Writing companion for AI content generation.
-- [[wordflow-tracker|Wordflow Tracker]]: Track the changes and stats of your edited note files automatically. Record the modified notes and statistics to your daily note with various customizations!.
+- [[wordflow-tracker|Wordflow Tracker]]: Track the changes and stats of your edited note files automatically. Record the modified notes and statistics to your daily note with various customizations!
 - [[obsidian-wordnik|Wordnik Definitions]]: Grabs information from Wordnik for a topic and brings it into Obsidian notes
 - [[obsidian-wordy|Wordy]]: Thesaurus, rhymes, alliterations, dictionary and more using the Datamuse API
 - [[workbench-obsidian|Workbench]]: Keep a workbench of knowledge materials.
