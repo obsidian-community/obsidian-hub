@@ -9,8 +9,8 @@ publish: true
 # Atmanand Gauns
 
 - GitHub: [tu2-atmanand](https://github.com/tu2-atmanand/) ^github
-<!-- - Discord: `@` ^discord-->
-<!-- - Website: <https://> ^website-->
+- Discord: `@tu2_9451` ^discord
+<!-- - Website: <https://> ^website -->
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -22,6 +22,11 @@ publish: true
 
 ### Themes
 - [[EvilRed]]
+- [[Rose Red]]
+
+### Plugins
+- [[notes-explorer]]
+- [[task-board]]
 %% End Hub: Released contributions %%
 
 %% Add links to any plugins, themes or other notes that the author has created but are not (yet) included in the `obsidian-releases` repo %%
