@@ -15,6 +15,7 @@ Plugins to backup your notes.
 
 - [[obsidian-dropbox-backups|Aut-O-Backups]]: Automated backups to Dropbox for your enjoyment.
 - [[obsidian-git|Obsidian Git]]: Backup your vault with git.
+- [[sync-from-git|SyncFromGit (吉他库库)]]: A powerful Obsidian plugin for syncing your vault via Git, enabling seamless synchronization across multiple devices.
 
 ## Related categories
 
