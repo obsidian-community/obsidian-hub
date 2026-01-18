@@ -649,6 +649,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/edit-gemini|edit-gemini]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/edit-history|edit-history]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/edit-in-neovim|edit-in-neovim]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/edit-link-alias|edit-link-alias]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/edit-mdx|edit-mdx]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/editing-mode-hotkey|editing-mode-hotkey]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/editing-toolbar|editing-toolbar]]

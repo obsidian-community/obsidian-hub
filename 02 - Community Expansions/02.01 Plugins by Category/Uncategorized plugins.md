@@ -456,7 +456,7 @@ Plugins which have not yet been categorized by the community.
 - [[control-characters|Control Characters]]: Show control/non-printing characters in edit mode.
 - [[convert-base64-to-png|Convert Base64 to PNG]]: Convert base64-encoded images in notes to local PNG files
 - [[cooklang-viewer-and-editor|Cooklang]]: Display and edit recipes written in the Cooklang format.
-- [[cooklang-obsidian|Cooklang Editor]]: Edit and display Cooklang recipes in Obsidian
+- [[cooklang-obsidian|Cooklang Editor]]: Edit and display Cooklang recipes in Obsidian (fork of deathau's plugin)
 - [[cooksync|Cooksync]]: Automatically imports recipes collected using Cooksync
 - [[copilot|Copilot]]: Your AI Copilot: Chat with Your Second Brain, Learn Faster, Work Smarter.
 - [[copilot-auto-completion|Copilot auto completion]]: Adds a highly configurable copilot-like auto-completion to Obsidian using the ChatGPT API.
@@ -634,6 +634,7 @@ Plugins which have not yet been categorized by the community.
 - [[edge-tts|Edge TTS]]: Read notes aloud using Microsoft Edge Read Aloud API (free, high quality text-to-speech).
 - [[edit-gemini|Edit Gemini]]: Allows the user to edit and create .gmi files.
 - [[edit-history|Edit History]]: Automatically saves the history of edits of a file when Obsidian saves the file, and allows viewing the differences between edits, copying text from a previous edit, or fully rolling back to a previous edit.
+- [[edit-link-alias|Edit Link Alias]]: Adds edit link alias command.
 - [[edit-mdx|Edit MDX]]: Allows the user to edit and create .mdx files.
 - [[edit-in-neovim|Edit in Neovim]]: Open a Neovim buffer for the currently open file
 - [[shortcut-edit-mode|Edit mode switch]]: Add a button in file header in edit mode, to switch between source & live-preview
@@ -1111,7 +1112,7 @@ Plugins which have not yet been categorized by the community.
 - [[llm-shortcut|LLM Shortcut]]: Provides a way to create shortcuts for commands powered by LLM capabilities.
 - [[llm-summary|LLM Summary]]: Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.
 - [[llm-tagger|LLM Tagger]]: Automatically tag your notes using local LLMs via Ollama
-- [[llm-test-gen|LLM Test Generator]]: Generate AI-powered test questions from your notes with multiple LLM providers (OpenAI, Mistral, Gemini, DeepSeek, Ollama) to enhance your learning and retention.
+- [[llm-test-gen|LLM Test Generator]]: Generate AI-powered test questions from your notes with latest LLM models (OpenAI, Claude, Mistral, Gemini, DeepSeek, Ollama). Automatically fetches newly released models. Any language support.
 - [[llm-docs|LLM docs]]: Simple LLM (AI) client using pure markdown documents
 - [[llm-workspace|LLM workspace]]: Use Large Language Models grounded in your notes.
 - [[latex-algorithms|LaTeX Algorithms]]: Plugin to facilitate writing algorithm blocks in LaTeX
@@ -1490,7 +1491,7 @@ Plugins which have not yet been categorized by the community.
 - [[open-or-create-file-command|Open or Create File]]: Create custom commands that open or create files using configurable patterns and templates.
 - [[open-with-nldates|Open with Natural Language Dates]]: Open a daily note using natural language. Requires "Natural Language Dates" plugin to work.
 - [[openapi-renderer|OpenAPI Renderer]]: Integrate OpenAPI specification management with features for version control, visualization, editing, and easy navigation of API specs.
-- [[openaugi|OpenAugi]]: Parse your voice notes into atomic notes, tasks, and summaries. OpenAugi is the voice to self-organizing second brain. While taking a voice note say 'auggie' to help the agent. Augmented Intelligence is AI for thinkers.
+- [[openaugi|OpenAugi]]: Process information faster with augmented intelligence (AI for thinkers). Parse your voice notes into atomic notes, tasks, and summaries. Grab context from dataview queries and linked notes. De-duplicate and merge atomic ideas into a clean, organized vault.
 - [[open-weather|OpenWeather]]: This plugin returns the current weather from OpenWeather in a configurable string format.
 - [[openwords|OpenWords]]: 用于英语学习中背单词与单词管理的插件
 - [[opener|Opener: New Tab by Default]]: Open links in new tabs by default. If the note is already open in another tab, it switches to it. Can also open PDFs and other file formats in System Apps when cmd/ctrl is hold.
@@ -1874,7 +1875,6 @@ Plugins which have not yet been categorized by the community.
 - [[smart-connections-visualizer|Smart Connections Visualizer]]: View your Smart Connections in a visualized format.
 - [[smart-context|Smart Context]]: Copy folder contents (Markdown & Canvas files) to the clipboard with a Smart Context approach.
 - [[smart-day-night-switcher|Smart DayNight switcher]]: Intelligently determines sunrise and sunset times and automatically switches the color scheme to light or dark mode.
-- [[smart-gantt|Smart Gantt]]: Intelligently generate Gantt chart from your tasks
 - [[smart-html-select|Smart HTML Select]]: This plugin is useful to add an HTML select to your note with the possibility to configure the number of options. Integrates a logic behind the scene to change the markdown when in view mode the select value change.
 - [[smart-link-alias|Smart Link Alias]]: Enhance your internal links management with dynamic alias customization. Display short, full, or combined titles for your notes effortlessly.
 - [[smart-link-formatter|Smart Link Formatter]]: Automatically fetches titles from pasted links, with additional customization for metadata from YouTube.
@@ -2305,7 +2305,6 @@ Plugins which have not yet been categorized by the community.
 - [[yearly-glance|Yearly Glance]]: Year at a glance - overview of annual events with customizable management options.
 - [[yesterday|Yesterday]]: Transform your notes into a visually stunning diary, integrating dialogs, chat logs, and media content blocks for a seamless journaling experience.
 - [[yesterdays-note|Yesterday's note]]: Open yesterday's daily note.
-- [[yet-another-obsidian-synchronizer|Yet Another Obsidian Synchronizer]]: This is yet another obsidian synchronizer that uses Git to synchronize your vault contents across devices.
 - [[you-and-your-research|You and Your Research]]: Research with the help of A.I.
 - [[youtrack-fetcher|YouTrack Fetcher]]: Fetches YouTrack issues into notes.
 - [[youtube-template|YouTube Template]]: A plugin that would help you to fetch YouTube videos data into your vault.
