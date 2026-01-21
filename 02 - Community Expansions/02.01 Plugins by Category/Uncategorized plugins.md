@@ -221,6 +221,7 @@ Plugins which have not yet been categorized by the community.
 - [[better-export-pdf|Better Export PDF]]: Export your notes to PDF, support export preview, add bookmarks outline and header/footer.
 - [[better-heading-hierarchy|Better Heading Hierarchy]]: Add guide lines to make the hierarchy of Markdown headings more visually clear.
 - [[better-inline-fields|Better Inline Fields]]: Obsidian plugin to enhance Dataview style inline fields
+- [[better-link-clicker|Better Link Clicker]]: Changes link click behavior to edit on click and navigate on Ctrl+Click.
 - [[better-markdown-links|Better Markdown Links]]: Adds support for angle bracket links and manages relative links properly
 - [[math-in-callout|Better Math in Callouts & Blockquotes]]: Add better Live Preview support for math rendering inside callouts & blockquotes.
 - [[better-mathjax|Better MathJax]]: Provide math autocompletion and customizable snippets.
@@ -312,7 +313,7 @@ Plugins which have not yet been categorized by the community.
 - [[canvas-format-brush|Canvas Format Brush]]: Copy and paste formatting attributes (size and color) between canvas elements, similar to the format painter in Word.
 - [[canvas-keyboard-pan|Canvas Keyboard Pan]]: Pan around your canvas using the keyboard
 - [[canvas-llm|Canvas LLM]]: A canvas-like UI to talk with LLMs.
-- [[canvas-llm-extender|Canvas LLM Extender]]: Let the OpenAI LLVM add nodes to your canvas.
+- [[canvas-llm-extender|Canvas LLM Extender]]: Let an LLM add nodes to your canvas.
 - [[canvas-task-importer|Canvas LMS Task Importer]]: Import tasks from Canvas LMS into vault.
 - [[canvas-link-optimizer|Canvas Link Optimizer]]: Optimize canvas links by displaying a page thumbnail.
 - [[canvas-link-to-group|Canvas Link to Group]]: Create links to specific groups in Canvas and jump directly to them.
@@ -440,6 +441,7 @@ Plugins which have not yet been categorized by the community.
 - [[confluence-link|Confluence Link]]: Upload files to confluence pages
 - [[confluence-space-sync|Confluence Space Sync]]: Sync entire Confluence spaces in your Vault
 - [[confluence-sync|Confluence Sync]]: Sync Obsidian notes with Confluence
+- [[connections|Connections]]: Define and view named connections between your notes.
 - [[consecutive-lists|Consecutive Lists]]: Create consecutive lists that are displayed separately in reading mode.
 - [[console|Console Markdown]]: Renders console commands and their output.
 - [[contact-cards|Contact Cards]]: Transforms raw data into a beautifully designed contact card for People and Organizations.
@@ -657,7 +659,7 @@ Plugins which have not yet been categorized by the community.
 - [[emoji-titler|Emoji Titler]]: This plugin is emoji titler to easily insert an emoji in the title using a keyboard shortcut.
 - [[emoji-selector|Emoji selector]]: Insert custom emojis with quick search, auto-suggestions, and customizable templates.
 - [[obsidian-emotion-picker|Emotion Picker]]: A plugin for Obsidian.md that lets you choose an emotion from a list to insert into a note.
-- [[coder|Encoder/Decoder]]: Converts texts into other formats (base64, base85, ROT13, atbash) and vice versa
+- [[coder|Encoder/Decoder]]: Converts texts into other formats (base16, base64, base85, ROT13, atbash) and vice versa
 - [[copy-note|Enhance Copy Note]]: Augments native Obsidian note copying.
 - [[enhance-youtube-links|Enhance YouTube Links]]: Get metadata from a YouTube video
 - [[enhanced-annotations|Enhanced Annotations]]: Add a sidebar view for comments and highlights.
@@ -870,6 +872,7 @@ Plugins which have not yet been categorized by the community.
 - [[gnome-terminal-loader|Gnome Terminal Loader]]: Adds sidebar action icons to quickly open the Gnome Terminal or to have the Gnome Terminal run a Python module
 - [[oin-gotoheading|Go To Heading]]: Quickly navigate between headings
 - [[go-up|Go Up]]: Go to the pages that says 'up' property
+- [[goboard|GoBoard]]: Render Go game diagrams from Markdown code blocks.
 - [[obsidian-golinks|GoLinks]]: This is a plugin for Obsidian that renders go/links as clickable links.
 - [[goal-tracker|Goal Tracker]]: Track your goals with a calendar view
 - [[goban-sgf|Goban SGF]]: Obsidian plugin for recording Go games (SGF format goban).
@@ -1062,6 +1065,7 @@ Plugins which have not yet been categorized by the community.
 - [[jw-library-linker|JW Library Linker]]: Converts JW Library references to actual links in JW Library.
 - [[jade-publisher|Jade Publisher]]: Sync and Publish your vaults
 - [[janitor|Janitor]]: Performs cleanup tasks on the Obsidian vault
+- [[japanese-manuscript-counter|Japanese Manuscript Counter]]: Displays the number of Japanese characters and their equivalent in 400-character manuscript paper in real time. Provides an accurate count taking into account line breaks, paragraphs, and character breaks.
 - [[japanese-novel-ruby|Japanese Novel Ruby]]: Treat ruby(Furigana) ​​marks commonly used in Japanese novels.
 - [[japanese-helper|Japanese note taking helper]]: Convert romaji to hiragana and katakana to streamline Japanese note‑taking.
 - [[jelly-snippets|Jelly Snippets]]: A simple plugin for text snippets, with auto replacement
@@ -1375,6 +1379,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-new-note-new-window|New Note New Window]]: Plugin for easily opening new notes in a floating window.
 - [[new-tab-plus|New Tab +]]: Allow to open Markdown files, graphs, canvases, images, audio, video, and PDFs in a new tab by default.
 - [[next-link|Next Link]]: Jump quickly between note links.
+- [[next-toc|Next TOC]]: Floating panel displaying the current document's reading progress, table of contents, and navigation aids.
 - [[nextcloud-link-fixer|Nextcloud Link Fixer]]: Nextcloud breaks Wiki-links (e.g. [[Some document]]). This fixes them.
 - [[nexus-ai-chat-importer|Nexus AI Chat Importer]]: Import conversations from ChatGPT export files.
 - [[nifty-links|Nifty Links]]: Generate elegant, Notion-style rich link cards to enhance your note-taking experience
@@ -1554,6 +1559,7 @@ Plugins which have not yet been categorized by the community.
 - [[peekaboo|Peekaboo]]: Protect your privacy by setting a password to hide files.
 - [[peerdraft|Peerdraft]]: Real-time, instant collaboration on Obsidian documents or folders. Whether for quick note-taking or building a team knowledge base, Peerdaft syncs with your collaborators' Obsidian vaults and also offers a Web Editor.
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
+- [[performosu|Performium]]: Integrates the osu! Performance Points system to gamify your note-taking experience!
 - [[perilous-writing|Perilous Writing]]: Write continuously—or lose all progress.
 - [[periodic-table|Periodic Table]]: View a periodic table in the sidebar
 - [[permalink-opener|Permalink Opener]]: Opens URLs based on a permalink or slug in the file properties
@@ -1670,6 +1676,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-quran-lookup|Quran Lookup]]: This is a Quran Lookup plugin for Obsidian. This replaces chapter:verse shorthand with verse text in arabic and translation.
 - [[relax|R.E.L.A.X.]]: Multi-regex management for data linking and batch processing across selection, files and folders. Ideal for academics, data scientists, forensics, reverse-engineerer and knowledge workers. Enables dynamic data organization and can be used to standardize links or as text-search. Streamline note-taking, data analysis, and report generation with intuitive regex pattern application and modification.
 - [[rpg-stat-tracker|RPG Stat Tracker]]: RPG-like stat tracker.
+- [[rss-dashboard|RSS Dashboard]]: A dashboard for organizing and consuming RSS feeds, YouTube channels, and podcasts with smart tagging, media playback, and seamless content flow.
 - [[rtl-math-text|RTL Math Text]]: Mix right-to-left and left-to-right text in math expressions using configurable commands.
 - [[radial-timeline|Radial timeline]]: A radial timeline for long-form creative fiction writing that displays scenes organized by act, subplot, and numeric order for a complete view of the project.
 - [[rainbow-folders-fixer|Rainbow Folders Fixer]]: Stop rainbow folders from changing colors when you scroll through the File explorer.
@@ -1963,7 +1970,6 @@ Plugins which have not yet been categorized by the community.
 - [[sync-graph-settings|Sync Graph Settings]]: This is a plugin for syncing various graph settings to Local Graphs
 - [[sync-vault-ce|Sync Vault CE]]: Backup, Sync and Link your knowledge, restricted mode/auto mode/live mode, BaiduCloudDisk/AliCloudDisk/TencentCOS .etc
 - [[sync-config-folder-to-common-folder|Sync config folder to common folder]]: Sync contents from config folder to common folder for backup or other purposes
-- [[hugo-sync|Sync to Hugo]]: Sync the selected notes to Hugo blog
 - [[sync-safe-file-names|Sync-safe file names]]: Ensures all file names can be synced accross all platforms.
 - [[syncftp|SyncFTP]]: This plugin syncs files to an SFTP, with credentials in settings.
 - [[syncthing-integration|Syncthing Integration]]: Integrates most of Syncthing features into Obsidian.
@@ -2106,7 +2112,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-title-serial-number-plugin|Title Serial Number Plugin]]: This plugin adds serial numbers to your markdown title.
 - [[title-renamer|Title renamer]]: Synchronise title in markdown when file is renamed.
 - [[title-only-tab|Title-Only Tab]]: Set tab name to title in frontmatter for Jekyll users
-- [[tldraw|Tldraw]]: Integrates Tldraw into Obsidian, allowing users to draw and edit content on a virtual whiteboard.
 - [[todo-sort|Todo sort]]: A plugin for Obsidian (https://obsidian.md) that sorts todos by completion status.
 - [[todo-txt-mode|Todo.txt Mode]]: Support for todo.txt file format with syntax highlighting and task management
 - [[todotxt|TodoTxt]]: Manage Todo.txt files.
@@ -2295,6 +2300,7 @@ Plugins which have not yet been categorized by the community.
 - [[xiaohongshu-importer|Xiaohongshu Importer]]: Import Xiaohongshu (小红书) notes with media and categorization.
 - [[xournalpp|Xournal++]]: Integration with Xournal++ for handwritten notes and annotations.
 - [[yaml-table|YAML Table]]: Transform YAML code blocks into HTML tables for better visualization
+- [[yolo|YOLO]]: Smart, snappy, and multilingual AI assistant for your vault.
 - [[yt-summarizer|YTSummarizer]]: Fetches YouTube transcripts and generates summaries using OpenAI GPT models
 - [[ytranscript|YTranscript]]: This is simple plugin to fetch transcription for Youtube.
 - [[obsidian-state-switcher|Yaml Manager]]: Keep you away from directly operating of yaml front matter
@@ -2379,6 +2385,7 @@ Plugins which have not yet been categorized by the community.
 - [[syncread|syncread-assistant]]: sync articles from syncread app
 - [[text2anki-openai|text2anki-openai]]: This is an obsidian plugin that uses OpenAI to generate flashcards from text and add them to Anki.
 - [[tidit|tidit]]: tidit adds timestamps to your document as you type — when you want it, how you want it, where you want it.
+- [[tldraw|tldraw]]: Create whiteboards, diagrams, and drawings with the official tldraw plugin.
 - [[umbpublisher|umbPublisher]]: Push notes to Umbraco CMS as content.
 - [[vconsole|vConsole]]: Integrate vConsole for developers to facilitate the debugging of mobile plugins.
 - [[x86-flow-graphing|x86 Assembly Flow Graphing]]: An Obsidian plugin for converting x86 code blocks into flow graphs
