@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-7508-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-7564-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/benf2004/Obsidian-LaTeX-Theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/benf2004/Obsidian-LaTeX-Theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/benf2004/Obsidian-LaTeX-Theme?color=573E7A&logo=github&style=for-the-badge)
