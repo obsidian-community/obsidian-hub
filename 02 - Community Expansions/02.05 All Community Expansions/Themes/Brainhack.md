@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-7417-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-7523-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Spekulucius/obsidian-brainhack?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/Spekulucius/obsidian-brainhack/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Spekulucius/obsidian-brainhack?color=573E7A&logo=github&style=for-the-badge)

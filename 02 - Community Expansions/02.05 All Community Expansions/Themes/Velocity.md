@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-18133-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-18996-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Gonzalo-D-Sales/obsidian-velocity?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/Gonzalo-D-Sales/obsidian-velocity/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Gonzalo-D-Sales/obsidian-velocity?color=573E7A&logo=github&style=for-the-badge)

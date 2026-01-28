@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-5027-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-5092-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/b3h3m0th/black-obsidian-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/b3h3m0th/black-obsidian-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/b3h3m0th/black-obsidian-theme?color=573E7A&logo=github&style=for-the-badge)

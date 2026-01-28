@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-5869-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-5889-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/callumhackett/obsidian_polka_theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/callumhackett/obsidian_polka_theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/callumhackett/obsidian_polka_theme?color=573E7A&logo=github&style=for-the-badge)

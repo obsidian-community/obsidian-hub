@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-5699-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-5895-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Inc44/OLED.Black?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/Inc44/OLED.Black/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Inc44/OLED.Black?color=573E7A&logo=github&style=for-the-badge)

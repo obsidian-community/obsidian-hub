@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-2560-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-2577-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Quinta0/Aurora-Twilight?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/Quinta0/Aurora-Twilight/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Quinta0/Aurora-Twilight?color=573E7A&logo=github&style=for-the-badge)

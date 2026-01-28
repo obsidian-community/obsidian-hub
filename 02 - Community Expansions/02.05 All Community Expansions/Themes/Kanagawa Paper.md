@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-3875-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-3943-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sspaeti/obsidian_kanagawa_paper?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/sspaeti/obsidian_kanagawa_paper/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/sspaeti/obsidian_kanagawa_paper?color=573E7A&logo=github&style=for-the-badge)

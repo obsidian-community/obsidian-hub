@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-53753-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-54139-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/7368697661/Ultra-Lobster?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/7368697661/Ultra-Lobster/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/7368697661/Ultra-Lobster?color=573E7A&logo=github&style=for-the-badge)

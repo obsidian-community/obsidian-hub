@@ -8,7 +8,7 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![Downloads](https://img.shields.io/badge/downloads-94949-573E7A?style=for-the-badge&logo=)
+![Downloads](https://img.shields.io/badge/downloads-95885-573E7A?style=for-the-badge&logo=)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ArtexJay/Obsidian-CyberGlow?color=573E7A&label=last%20update&logo=github&style=for-the-badge)
 ![GitHub issues by-label](https://img.shields.io/github/issues/ArtexJay/Obsidian-CyberGlow/help%20wanted?color=573E7A&logo=github&style=for-the-badge) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ArtexJay/Obsidian-CyberGlow?color=573E7A&logo=github&style=for-the-badge)
