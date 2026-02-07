@@ -19,7 +19,7 @@ Sprout supports:
 ## Features
 
 - **FSRS scheduler** for spaced repetition
-- **Card types**: basic, cloze, multiple choice,and image occlusion
+- **Card types**: basic, cloze, multiple choice and image occlusion
 - **Inline editor** for creating and editing cards
 - **Card browser** with search and filtering
 - **Bulk-edit tools** for managing multiple cards
