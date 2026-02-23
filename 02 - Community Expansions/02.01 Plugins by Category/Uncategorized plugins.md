@@ -1522,7 +1522,6 @@ Plugins which have not yet been categorized by the community.
 - [[outlook-meeting-notes|Outlook Meeting Notes]]: Creates meeting notes for Outlook appointments and meetings.
 - [[para-shortcuts|PARA Shortcuts]]: This plugin serves usefull commands to setup and manage your knowledge using the PARA method.
 - [[para-workflower|PARA Workflower]]: Helpful commands for starting and working in your vault with the PARA method.
-- [[pdf-emojis|PDF Emojis]]: Helps you exporting all your emojis to pdf (even those in headings)!
 - [[pdf-folder-to-markdowns|PDF Folder to Markdowns]]: Convert a folder of PDFs into a folder of Markdown files with embedded PDFs. Ideal for users migrating PDF notes from apps like Boox or organizing reference materials inside Obsidian, ensuring a seamless workflow for note-taking and knowledge management.
 - [[pdf-paste|PDF Paste]]: Improve copy-paste from PDFs by cleaning newlines.
 - [[pdf-printer|PDF Printer]]: Convert PDF documents to images directly in your notes without external dependencies.

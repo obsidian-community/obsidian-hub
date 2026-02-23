@@ -19,6 +19,7 @@ Plugins to convert from [[Markdown]].
 - [[mochi-cards-exporter|Mochi Cards Exporter]]: Export Markdown notes to Mochi cards from within obsidian
 - [[obsidian-pandoc|Obsidian Pandoc]]: This is a Pandoc export plugin for Obsidian. It provides commands to export to formats like DOCX, ePub and PDF.
 - [[obsidian-static-file-server|Static File Server]]: Host obsidian subfolders as static file servers.
+- [[pdf-emojis|PDF Emojis]]: Helps you exporting all your emojis to pdf (even those in headings)!
 
 ## Related categories
 
