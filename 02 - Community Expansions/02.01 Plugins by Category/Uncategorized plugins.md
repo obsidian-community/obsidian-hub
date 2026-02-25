@@ -176,7 +176,7 @@ Plugins which have not yet been categorized by the community.
 - [[double-switch|Auto switch themes between dark/light mode]]: Toggling dark/light mode switches themes automatically
 - [[auto-displaystyle-inline-math|Auto-\displaystyle Inline Math]]: Automatically make all inline maths \displaystyle.
 - [[auto-moc|AutoMOC]]: Looks for missing linked mentions or notes with a specific tag or alias and imports them into the current note.
-- [[auto-mover|AutoMover]]: Moves files with specified names into the same folder.
+- [[auto-mover|AutoMover]]: Move files and notes with specified names into their designated folders according to rules you define.
 - [[auto-pause|AutoPause]]: Allows one audio track to be played at a time, pausing or stopping any others.
 - [[autocorrect-formatter|Autocorrect Formatter]]: Format MarkDown content using Autocorrect.
 - [[autofit-tabs|Autofit Tabs]]: Automatically adjusts tab header widths in real-time to perfectly fit each tab's title content while maintaining a clean, seamless interface that prevents awkward text truncation and ensures optimal readability of your document titles.
@@ -209,6 +209,7 @@ Plugins which have not yet been categorized by the community.
 - [[badges|Badges]]: Add inline badges/callouts to notes.
 - [[banyan|Banyan]]: A card-based homepage to browse, organize, and navigate notes effortlessly with multi-tag filtering.
 - [[barcode-generator|Barcode Generator]]: Generates customizable barcodes into your notes.
+- [[obsidian-basetag|Base Tag Renderer]]: This plugin renders the basename of tags.
 - [[battery-indicator|Battery Indicator]]: Displays current battery level in the status bar.
 - [[battlesnake-viewer|BattleSnake Board Viewer]]: Render BattleSnake positions diagrams in note preview.
 - [[bearings|Bearings]]: Dynamically-scoped expanding tree views of your vault's semantic and logical architectures.
@@ -442,7 +443,6 @@ Plugins which have not yet been categorized by the community.
 - [[confluence-to-obsidian|Confluence Import]]: Import Confluence space into Obsidian vault
 - [[confluence-integration|Confluence Integration]]: This plugin allows you to publish your notes to Confluence
 - [[confluence-link|Confluence Link]]: Upload files to confluence pages
-- [[confluence-space-sync|Confluence Space Sync]]: Sync entire Confluence spaces in your Vault
 - [[confluence-sync|Confluence Sync]]: Sync Obsidian notes with Confluence
 - [[connections|Connections]]: Define and view named connections between your notes.
 - [[consecutive-lists|Consecutive Lists]]: Create consecutive lists that are displayed separately in reading mode.
@@ -773,7 +773,6 @@ Plugins which have not yet been categorized by the community.
 - [[flomo-importer|Flomo Importer]]: Make Flomo Memos to Obsidian Notes
 - [[flow|Flow]]: Implements key processes in David Allen's Getting Things Done (GTD) methodology
 - [[flowcharts|Flowcharts]]: Render flowcharts using flowchart.js syntax.
-- [[flowershow|Flowershow]]: Publish with Flowershow directly from your Obsidian vault.
 - [[focus-active-sentence|Focus Active Sentence]]: Highlight the sentence the cursor is currently resting on.
 - [[focus-time|Focus Time]]: Track the time spent on each note and visualize the data.
 - [[focus-tracker|Focus Tracker]]: Track and align your focus.
@@ -1390,7 +1389,7 @@ Plugins which have not yet been categorized by the community.
 - [[next-link|Next Link]]: Jump quickly between note links.
 - [[next-toc|Next TOC]]: Floating panel displaying the current document's reading progress, table of contents, and navigation aids.
 - [[nextcloud-link-fixer|Nextcloud Link Fixer]]: Nextcloud breaks Wiki-links (e.g. [[Some document]]). This fixes them.
-- [[nexus-ai-chat-importer|Nexus AI Chat Importer]]: Import conversations from ChatGPT export files.
+- [[nexus-ai-chat-importer|Nexus AI Chat Importer]]: Import AI conversations from ChatGPT, Claude, and Le Chat exports into Obsidian.
 - [[nifty-links|Nifty Links]]: Generate elegant, Notion-style rich link cards to enhance your note-taking experience
 - [[ninja-cursor|Ninja Cursor]]: The plugin which enhance cursor visibility.
 - [[no-empty-windows|No Empty Windows]]: Closes Obsidian window with cmd+W on Mac when the last tab is closed.
@@ -1540,7 +1539,6 @@ Plugins which have not yet been categorized by the community.
 - [[palta-note|Palta Note]]: Render Bhatkhande notation for Tabla.
 - [[pandoc-extended-markdown|Pandoc Extended Markdown]]: Render Pandoc extended markdown syntax: fancy lists, definition lists, example lists with cross-references, superscripts, and subscripts.
 - [[obsidian-pandoc-reference-list|Pandoc Reference List]]: Displays a formatted reference in the sidebar for each pandoc citekey present in the current document.
-- [[paper-clipper|Paper Clipper]]: Capture and manage academic papers
 - [[paper_importer|Paper Importer]]: Import papers from arXiv with one click.
 - [[paperless|Paperless]]: Link your paperless-ngx documents within your vault.
 - [[papers|Papers]]: Retrieve and import research papers.
@@ -1639,7 +1637,7 @@ Plugins which have not yet been categorized by the community.
 - [[prompt-crafter|PromptCrafter]]: Create reusable, modular prompts.
 - [[proofreader|Proofreader]]: AI-based proofreading and stylistic improvements for your writing. Changes are inserted as suggestions directly in the editor, similar to suggested changes in word processing apps.
 - [[protected-note|Protected Note]]: Set Password and Protect your notes from other people. Encrypt and Decrypt all notes!
-- [[pseudo-mica|Pseudo Mica]]: Swap background material and vibrancy effects on Windows 11 and macOS.
+- [[pseudo-mica|Pseudo Mica]]: Customize translucent window effects on Windows and macOS.
 - [[pseudocode-in-obs|Pseudocode]]: This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.
 - [[pubscale|PubScale]]: Seamlessly sync markdown notes into PlanetScale tables.
 - [[publish-note-to-mowen|Publish Note to Mowen Note]]: Publish note to Mowen note mini program.
@@ -1647,6 +1645,7 @@ Plugins which have not yet been categorized by the community.
 - [[publish-to-dev|Publish to DEV]]: Publish and update notes as articles on DEV (https://dev.to)
 - [[publish-to-discourse|Publish to Discourse]]: Publish notes to the Discourse forum.
 - [[publish-url|Publish url]]: Obsidian Publish url to the clipboard
+- [[flowershow|Publish with Flowershow]]: Publish your vault as a website with Flowershow.
 - [[pug-templates|Pug Templates]]: Use the Pug templating engine in your vault.
 - [[pure-chat-llm|Pure Chat LLM]]: Turn notes into conversations with chatGPT
 - [[qb-reader-parser|QB Reader Parser]]: Parse tossups from QB Reader into individual clues to send to Anki.
