@@ -1611,6 +1611,7 @@ Plugins which have not yet been categorized by the community.
 - [[pomodoro-timer|Pomodoro Timer]]: A pomodoro timer that helps manage your daily focus
 - [[pomodoro-widget|Pomodoro Widget]]: Provides a widget based on a pomodoro kitchen timer. It's designed to be haptic, and has a constant ticking sound, and an alarm sound that can be toggled.
 - [[popkit|PopKit]]: Select text to instantly access quick tools
+- [[post-to-bluesky|Post To Bluesky]]: Post selected text or entire note to Bluesky.
 - [[post-webhook|Post Webhook]]: Send notes to Webhook endpoints, for seamless integration with n8n, Make.com, and Zapier.
 - [[postfix|Postfix]]: This plugin provides postfix completions for Obsidian. The built-in completions are provided for markdown.
 - [[potato-indexer|Potato Indexer]]: Allow generation of a content index based on your selection or of the whole file.
@@ -1760,6 +1761,7 @@ Plugins which have not yet been categorized by the community.
 - [[ridian|Ridian]]: Execute R code blocks and display outputs and plots & render documents with Quarto within Obsidian.
 - [[ring-a-secretary|Ring a secretary]]: Yet another ChatGPT-powered digital secretary
 - [[rofi-helper|Rofi Helper]]: This plugin adds a leaf id parameter to the URI protocol for switching between open obsidian tabs with Rofi. A sample Rofi script is included.
+- [[role-switch|Role Switch]]: Switch between different work roles (developer, writer, researcher, etc.) with intentional transitions and session tracking.
 - [[rollover-weekly-todo|Rollover Weekly Todo]]: Rollover todo items from the previous weekly note.
 - [[root-folder-context-menu|Root Folder Context Menu]]: Enables context menu for vault root folder
 - [[rss-copyist|Rss Copyist]]: Get the rss articles as mdfiles.
@@ -2315,7 +2317,7 @@ Plugins which have not yet been categorized by the community.
 - [[xiaohongshu-importer|Xiaohongshu Importer]]: Import Xiaohongshu (小红书) notes with media and categorization.
 - [[xournalpp|Xournal++]]: Integration with Xournal++ for handwritten notes and annotations.
 - [[yaml-table|YAML Table]]: Transform YAML code blocks into HTML tables for better visualization
-- [[yolo|YOLO]]: Smart, snappy, and multilingual AI assistant for your vault.
+- [[yolo|YOLO]]: Agent-native AI assistant — chat, write, search, orchestrate, all in one.
 - [[yt-summarizer|YTSummarizer]]: Fetches YouTube transcripts and generates summaries using OpenAI GPT models
 - [[ytranscript|YTranscript]]: This is simple plugin to fetch transcription for Youtube.
 - [[obsidian-state-switcher|Yaml Manager]]: Keep you away from directly operating of yaml front matter
