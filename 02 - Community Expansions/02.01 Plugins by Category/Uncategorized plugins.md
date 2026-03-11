@@ -328,6 +328,7 @@ Plugins which have not yet been categorized by the community.
 - [[canvas-send-to-back|Canvas Send to Back]]: Send a card in Obsidian Canvas to be behind all other cards.
 - [[canvas-minimap|Canvas minimap]]: For easy navigation in large canvas
 - [[canvas2document|Canvas2Document]]: Convert a complete Canvas to a long form document, integrating all cards, notes, images and other media content into a single markdown file.
+- [[capitaliser|Capitaliser]]: Cycle text capitalisation (lowercase, Capitalise Each Word, UPPERCASE).
 - [[obsidian-card-view-switcher-plugin|Card View Switcher]]: Quick switcher with card view
 - [[card-viewer|Card Viewer]]: Display cards for movies, TV shows, books, and music.
 - [[card-note|CardNote]]: Help you quickly extract your thoughts in the Canvas and Excalidraw
@@ -406,7 +407,7 @@ Plugins which have not yet been categorized by the community.
 - [[code-styler|Code Styler]]: Style and customize codeblocks and inline code in both editing mode and reading mode.
 - [[codestats|Code::Stats]]: The Code::Stats plugin allows you to track your coding progress and earn XP for writing markdown in the Obsidian editor.
 - [[codeblock-tabs|CodeBlock Tabs]]: Create tab group for contiguous CodeBlocks.
-- [[fix-require-modules|CodeScript Toolkit]]: Allows to do a lot of things with JavaScript/TypeScript scripts from inside the Obsidian itself
+- [[fix-require-modules|CodeScript Toolkit]]: Allows to do a lot of things with JavaScript/TypeScript scripts from inside the app.
 - [[codeblock-customizer|Codeblock Customizer]]: This Obsidian plugin lets you customize your codeblocks in editing, and reading mode as well.
 - [[codeblock-template|Codeblock Template]]: Re-use content within codeblocks using variables.
 - [[codeless-heatmap-calendar|Codeless Heatmap Calendar]]: Fully-featured activity visualizer powered by Toggl data and more.
@@ -608,6 +609,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-douban-plugin|Douban]]: This is a plugin that can import movies/books/musics/notes/games info data from Douban for Obsidian .
 - [[double-colon-conceal|Double Colon Conceal]]: Display double colon (i.e. Dataview inline fields) as a single colon for more natural reading experience.
 - [[double-row-toolbar|Double row toolbar]]: Adds a second row to the toolbar on mobile devices, allowing for more quick access buttons.
+- [[double-click-image-opener|Double-Click Image Opener]]: Open images with your system's default application by double-clicking.
 - [[obsidian-doubleshift|Doubleshift]]: Open the command palette by pressing Shift (or any other key) twice like in IntelliJ and create your own shortcuts
 - [[draft-indicator|Draft Indicator]]: Show draft status with ✎ icons in the file explorer.
 - [[drag-to-scroll|Drag To Scroll]]: Drag to scroll - just like on a touch device.
@@ -672,7 +674,6 @@ Plugins which have not yet been categorized by the community.
 - [[enhanced-copy|Enhanced Copy]]: Copy your selection and add it some edit to paste in other markdown software. Allows to keep markdown in reading view, removing wikilinks in editing, copy from locked canvas, and more!
 - [[enhanced-image|Enhanced Image]]: Enhance the experience of image seamlessly. For example, operations for image in context menu, command palette.
 - [[enhanced-publisher|Enhanced Publisher]]: 增强发布插件，支持图片自动存储、HTML预览和发布到微信公众号等内容平台
-- [[enhanced-symbols-prettifier|Enhanced Symbols Prettifier]]: Replace/substitute the symbols with actual symbols you commonly type. It also works for emojis shortcuts, abbreviations, greek letters, math symbols or other snippets/aliases you define
 - [[enhanced-tables|Enhanced tables]]: Add programmable controls to selected tables
 - [[obsidian-enhancing-export|Enhancing Export]]: This is a enhancing export plugin for Obsidian. It allows to export to formats like Html, DOCX, ePub and PDF or Markdown(Hugo) etc.
 - [[enlightenment-obsidian|Enlightenment ✨]]: Pay attention to what you're paying attention to. Enlightenment adds a 'zen mode' for Preview, hiding the contents of your notes except for what's underneath your pointer.
@@ -1239,7 +1240,7 @@ Plugins which have not yet been categorized by the community.
 - [[mahjong-renderer|Mahjong Renderer]]: Render mahjong tiles (riichi mahjong) using MPSZ algebraic notation
 - [[manictime|ManicTime]]: Sends path of active file to locally installed ManicTime client.
 - [[mantou-ai|MantouAI]]: Work as a personal assistant for translation, writing polish, general Q&A, summarizing, using the power of large language models.
-- [[manual-sorting|Manual Sorting]]: Drag'n'Drop sorting within file explorer.
+- [[manual-sorting|Manual Sorting]]: Drag & drop sorting for the file explorer
 - [[mapbox-location|Mapbox Location Image]]: Show a map inside your notes with a specific format.
 - [[maps|Maps]]: Adds a map layout to bases so you can display notes as an interactive map view.
 - [[mark-open-files|Mark Open Files]]: Enhances the File Explorer by adding a marker to all the File Explorer items that are currently open in the workspace.
@@ -1499,7 +1500,7 @@ Plugins which have not yet been categorized by the community.
 - [[open-files-with-commands|Open files with commands]]: Create commands that only open one file at the time and that can be used with the commander plugin.
 - [[open-in-cursor|Open in Cursor]]: Add a hotkey to open the current file in Cursor IDE and jump to the cursor position
 - [[open-in-github|Open in GitHub]]: Open the current project or file in github.com.
-- [[open-in-terminal|Open in Terminal]]: Open your vault in a new terminal window or launch Claude Code, Codex cli, Cursor cli, or Gemini cli directly from a terminal.
+- [[open-in-terminal|Open in Terminal]]: Open your vault in a new terminal window, launch CLI tools, or run quick Git commands from Obsidian.
 - [[obsidian-open-in-other-editor|Open in other editor]]: Open current active file in gVim or VScode.
 - [[open-or-create-file-command|Open or Create File]]: Create custom commands that open or create files using configurable patterns and templates.
 - [[open-with-nldates|Open with Natural Language Dates]]: Open a daily note using natural language. Requires "Natural Language Dates" plugin to work.
@@ -1611,6 +1612,7 @@ Plugins which have not yet been categorized by the community.
 - [[pomodoro-timer|Pomodoro Timer]]: A pomodoro timer that helps manage your daily focus
 - [[pomodoro-widget|Pomodoro Widget]]: Provides a widget based on a pomodoro kitchen timer. It's designed to be haptic, and has a constant ticking sound, and an alarm sound that can be toggled.
 - [[popkit|PopKit]]: Select text to instantly access quick tools
+- [[post-to-bluesky|Post To Bluesky]]: Post selected text or entire note to Bluesky.
 - [[post-webhook|Post Webhook]]: Send notes to Webhook endpoints, for seamless integration with n8n, Make.com, and Zapier.
 - [[postfix|Postfix]]: This plugin provides postfix completions for Obsidian. The built-in completions are provided for markdown.
 - [[potato-indexer|Potato Indexer]]: Allow generation of a content index based on your selection or of the whole file.
@@ -1760,6 +1762,7 @@ Plugins which have not yet been categorized by the community.
 - [[ridian|Ridian]]: Execute R code blocks and display outputs and plots & render documents with Quarto within Obsidian.
 - [[ring-a-secretary|Ring a secretary]]: Yet another ChatGPT-powered digital secretary
 - [[rofi-helper|Rofi Helper]]: This plugin adds a leaf id parameter to the URI protocol for switching between open obsidian tabs with Rofi. A sample Rofi script is included.
+- [[role-switch|Role Switch]]: Switch between different work roles (developer, writer, researcher, etc.) with intentional transitions and session tracking.
 - [[rollover-weekly-todo|Rollover Weekly Todo]]: Rollover todo items from the previous weekly note.
 - [[root-folder-context-menu|Root Folder Context Menu]]: Enables context menu for vault root folder
 - [[rss-copyist|Rss Copyist]]: Get the rss articles as mdfiles.
@@ -1898,7 +1901,7 @@ Plugins which have not yet been categorized by the community.
 - [[smart-memos|Smart Memos]]: Create personalized and intelligent analysis, summaries, and more for audio recordings that can be imported or spoken directly into a note
 - [[smart-rename|Smart Rename]]: Renames notes keeping previous title in existing links
 - [[smart-second-brain|Smart Second Brain]]: Interact with your privacy focused assistant, leveraging Ollama or OpenAI, making your second brain even smarter.
-- [[smart-templates|Smart Templates]]: AI powered templates for generating structured content. Works with Local Models, Anthropic Claude, Gemini, OpenAI and more.
+- [[smart-templates|Smart Templates]]: Build context-aware prompts from reusable vault templates.
 - [[smart-text-mover|Smart Text Mover]]: Intelligent way to move text in file.
 - [[smart-title|Smart Title]]: Automatically extract tag and alias from the title.
 - [[smart-vault-visualizer|Smart Vault Visualizer]]: Visualizes and manages smart clusters and cluster groups in your vault.
@@ -1947,7 +1950,7 @@ Plugins which have not yet been categorized by the community.
 - [[sticky-heading|Sticky Headings]]: Sticky Headings and Shows the heading level
 - [[sticky-notes|Sticky Notes]]: Create sticky notes popups.
 - [[storyclock|Storyclock Viewer]]: Maps timing onto a storyclock. Inspired by Plot Devices Storyclock.
-- [[storyteller-suite|Storyteller suite]]: A comprehensive suite for managing characters, locations, events, and galleries for your novels.
+- [[storyteller-suite|Storyteller suite]]: World-building and story management — characters, locations, events, maps, compendium, timeline, manuscript compilation, and more.
 - [[obsidian42-strange-new-worlds|Strange New Worlds]]: Help see how your vault is interconnected with visual indicators.
 - [[notes-to-strapi-export-article-ai|Strapi Exporter AI]]: Effortlessly export your notes to Strapi CMS with AI-powered handling and SEO optimization.
 - [[strava-sync|Strava Sync]]: Sync activities from Strava.
@@ -2018,7 +2021,7 @@ Plugins which have not yet been categorized by the community.
 - [[tag-project-odaimoko|Tag Project]]: A Project Management Tool: Tag tasks everywhere, Manage in One page.
 - [[tag-summary-plugin|Tag Summary]]: This plugin creates summaries with paragraphs or blocks of text that share the same tag(s).
 - [[tag-tactician|Tag Tactician]]: Better tag management: Bulk operations, navigation by tags, and find related notes through tag similarity
-- [[tag-timer|Tag Timer]]: Add a timer to Tags and get analytics on how long you spend on each task.
+- [[tag-timer|Tag Timer]]: Add inline timers to any line in your notes.
 - [[tag-many|TagMany]]: Add the same tag(s) to multiple notes in a folder (optionally including subfolders) at once.
 - [[obsidian-plugin-tagged-documents-viewer|Tagged Documents Viewer]]: Opens a modal with scrollable content of all documents that contain a specific tag or tags.
 - [[tags-overview|Tags Overview]]: Adds an extended tags panel where tagged files can be overviewed, filtered and accessed in an easy way.
@@ -2315,7 +2318,7 @@ Plugins which have not yet been categorized by the community.
 - [[xiaohongshu-importer|Xiaohongshu Importer]]: Import Xiaohongshu (小红书) notes with media and categorization.
 - [[xournalpp|Xournal++]]: Integration with Xournal++ for handwritten notes and annotations.
 - [[yaml-table|YAML Table]]: Transform YAML code blocks into HTML tables for better visualization
-- [[yolo|YOLO]]: Smart, snappy, and multilingual AI assistant for your vault.
+- [[yolo|YOLO]]: Agent-native AI assistant — chat, write, search, orchestrate, all in one.
 - [[yt-summarizer|YTSummarizer]]: Fetches YouTube transcripts and generates summaries using OpenAI GPT models
 - [[ytranscript|YTranscript]]: This is simple plugin to fetch transcription for Youtube.
 - [[obsidian-state-switcher|Yaml Manager]]: Keep you away from directly operating of yaml front matter
