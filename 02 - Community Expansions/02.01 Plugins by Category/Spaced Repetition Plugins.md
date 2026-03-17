@@ -20,6 +20,8 @@ Here you will find plugins which are explicitly developed with the [[Spaced repe
 - [[obsidian-recall|Obsidian Recall]] implements a spaced repetition system for reviewing information, with any spaced repetition algorithm. It tracks notes in a `.json` file and while very customizable, only allows for the review of entire notes.
 - [[obsidian-spaced-repetition|Spaced Repetition]] has a built-in review system for inline flashcards and entire notes. Information on the spaced repetition system (SRS) is stored in plaintext. 
 - [[obsidian-incremental-writing|Incremental Writing]] is basically spaced repetition but for writing instead of reviewing.
+- [[Sprout]] provides FSRS-based spaced-repetition flashcards, supporting basic, cloze, multiple-choice, and image-occlusion card types, with native Obsidian reviewing and Anki import/export.
+
 
 ### Exporters
 #### Integrations with [[Anki]]
