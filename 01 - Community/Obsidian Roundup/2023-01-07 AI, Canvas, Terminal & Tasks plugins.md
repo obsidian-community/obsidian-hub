@@ -156,7 +156,6 @@ _Note: these plugins have not yet been submitted for code review, and are being 
 
 ## Guides
 
-* The folks at Keep Productive have updated their [Obsidian Made Simple](https://francescod-alessio441.lpages.co/obsidian-made-simple-roundup/) Course for 2023.
 * Here's how to [create your own Obsidian web clipper](https://medium.com/@gareth.stretton/obsidian-create-your-own-web-clipper-add83c7662d0) using a combination of the [Obsidian URI protocol](https://help.obsidian.md/Advanced+topics/Using+obsidian+URI) and [UserScripts](https://openuserjs.org/about/Userscript-Beginners-HOWTO), via Gareth Stretton.
 
 ## Showcases
