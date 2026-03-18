@@ -552,7 +552,6 @@ Plugins which have not yet been categorized by the community.
 - [[daily-note-calendar|Daily notes calendar]]: Navigate your Obsidian Vault using a calendar view.
 - [[obsidian-daily-notes-opener|Daily notes opener]]: Easily open daily/periodic notes in new pane, and much more!
 - [[dangerous-mode|Dangerous Mode]]: Dangerous writing mode: keep typing or after 5 seconds of inactivity the current note is erased.
-- [[dashboard-navigator|Dashboard navigator]]: Vault dashboard and navigator. Show recent files by type, files per day, week, month, search files by name, date, tags and more.
 - [[obsidian-dashing-cursor|Dashing cursor]]: Enables dashing cursor that follows the page scroll
 - [[data-entry|Data Entry]]: Create forms that save data simply; the data view of data entry
 - [[data-fetcher|Data Fetcher]]: Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes
@@ -1032,7 +1031,6 @@ Plugins which have not yet been categorized by the community.
 - [[incremental-id|Incremental ID]]: Allow to generate Jira like ids.
 - [[index-checker|Index Checker]]: Make sure your index "MOC" files (notes or Canvas) contain all links they should contain.
 - [[index-notes|Index Notes]]: Keep your notes indexed based on their (hierarchical) tags
-- [[infio-copilot|Infio Copilot]]: A Cursor-inspired AI assistant for notes that offers smart autocomplete and interactive chat with your selected notes
 - [[influx|Influx]]: Transform your Obsidian backlinks from simple links into rich, contextual excerpts. See the actual content surrounding each link, turning your note connections into genuine insights.
 - [[infoflow|InfoFlow]]: Import your contents from InfoFlow to Obsidian. Similar to ReadWise or Omnivore importers.
 - [[infostacker|Infostacker Note Publish]]: Easily share your notes, images and attachments publicly using private links
@@ -1140,7 +1138,6 @@ Plugins which have not yet been categorized by the community.
 - [[lapel|Lapel]]: Dress up your editor with decorations that mark each of your headings.
 - [[large-language-models|Large Language Models]]: Enables access to LLMs via remote providers (OpenAI, Claude, Gemini) and local LLMs via GPT4ALL.
 - [[lark-style-countdown-timer|Lark Style CountDown Timer]]: Create Feishu/Lark-style countdown blocks.
-- [[laser-beam|Laser beam]]: Improve your reading experience with customizable laser lines.
 - [[last-edit-location|Last Edit Location]]: Put the cursor at the last edit location when opening a note. Work well with multiple notes.
 - [[last-position|Last Position]]: Automatically scroll to the last viewed position when opening the Markdown document.
 - [[latex-exporter|Latex Exporter]]: Write a LaTeX paper.
@@ -1232,7 +1229,6 @@ Plugins which have not yet been categorized by the community.
 - [[msg-handler|MSG Handler]]: Easily display and search MSG files from Outlook in your Obsidian Vault
 - [[mtg-card-links|MTG Card Links]]: Link to Magic: the Gathering cards by enclosing the card name in square brackets.
 - [[macros|Macros]]: Track daily nutrition, calories, protein, fat, and carbs with interactive tables and charts. Create meal templates, search foods via FatSecret API, and visualize macro data with customizable pie charts and multi-day analytics.
-- [[magic-mic|Magic Mic]]: Record, transcribe, and summarize audio directly into your vault with custom assistants.
 - [[magic-move|Magic Move]]: Animating code blocks with markdown and code syntax highlighting with beautiful themes.
 - [[magic-calendar|MagicCalendar]]: AI-Powered Obsidian Plugin that leverage Natural Language Processing techniques to find calendar events in Markdown notes, seamlessly synchronizing them with a calendar of choice.
 - [[magiedit|Magiedit]]: Official integration for Magiedit's API
@@ -1900,7 +1896,7 @@ Plugins which have not yet been categorized by the community.
 - [[smart-memos|Smart Memos]]: Create personalized and intelligent analysis, summaries, and more for audio recordings that can be imported or spoken directly into a note
 - [[smart-rename|Smart Rename]]: Renames notes keeping previous title in existing links
 - [[smart-second-brain|Smart Second Brain]]: Interact with your privacy focused assistant, leveraging Ollama or OpenAI, making your second brain even smarter.
-- [[smart-templates|Smart Templates]]: Build context-aware prompts from reusable vault templates.
+- [[smart-templates|Smart Templates]]: Build context-aware prompts from your existing Markdown templates and copy them into any AI chat.
 - [[smart-text-mover|Smart Text Mover]]: Intelligent way to move text in file.
 - [[smart-title|Smart Title]]: Automatically extract tag and alias from the title.
 - [[smart-vault-visualizer|Smart Vault Visualizer]]: Visualizes and manages smart clusters and cluster groups in your vault.
@@ -1981,7 +1977,7 @@ Plugins which have not yet been categorized by the community.
 - [[taskrobin|Sync Emails]]: Sync and save emails and attachment files to your vault with TaskRobin.
 - [[sync-google-calendar|Sync Google Calendar]]: Synchronize events from Google Calendar and manage them like tasks.
 - [[sync-graph-settings|Sync Graph Settings]]: This is a plugin for syncing various graph settings to Local Graphs
-- [[sync-vault-ce|Sync Vault CE]]: Backup, Sync and Link your knowledge, restricted mode/auto mode/live mode, BaiduCloudDisk/AliCloudDisk/TencentCOS .etc
+- [[sync-vault-ce|Sync Vault]]: Backup, Sync and Link your knowledge, restricted mode/auto mode/live mode, BaiduCloudDisk/AliCloudDisk/TencentCOS .etc
 - [[sync-config-folder-to-common-folder|Sync config folder to common folder]]: Sync contents from config folder to common folder for backup or other purposes
 - [[sync-safe-file-names|Sync-safe file names]]: Ensures all file names can be synced accross all platforms.
 - [[syncftp|SyncFTP]]: This plugin syncs files to an SFTP, with credentials in settings.
@@ -2147,7 +2143,6 @@ Plugins which have not yet been categorized by the community.
 - [[tolino-notes-import|Tolino notes Importer]]: This is a plugin for Obsidian to import notes from a Tolino E-Reader.
 - [[obsidian-tomorrows-daily-note|Tomorrow's Daily Note]]: An obsidian plugin that creates tomorrow's daily note for preemtive planning.
 - [[obsidian-topic-linking|Topic Linking]]: Convert PDF files and web links to Markdown, and create topics from Markdown
-- [[touchbar-macros|Touch Bar Macros]]: Run custom macros from your Mac's Touch Bar.
 - [[track-a-lot|Track-a-Lot]]: Scrape different webpages, builds lists with the items as Markdown tables, and allows you to track their status.
 - [[tracker-plus|Tracker+]]: Track and visualize data from your notes. Compatible with original Tracker plugin.
 - [[trakt-tv|Trakt.tv Sync]]: Syncs your Trakt.tv shows.
@@ -2263,7 +2258,7 @@ Plugins which have not yet been categorized by the community.
 - [[wakatime-kvh|Wakatime / Wakapi]]: Connect to Wakatime or Wakapi to track the time spent while browsing or writing notes.
 - [[wardley-maps|Wardley Maps]]: View and edit Wardley Maps using the Online Wardley Maps format.
 - [[watched-metadata|Watched-Metadata]]: Watches for changes in metadata and performs user-specified actions based on these changes.
-- [[water-tracker|Water Tracker]]: Keep track of how much water you drunk
+- [[water-tracker|Water Tracker]]: Keep track of how much water you drank
 - [[waveform-player|Waveform Player]]: Render audio files as waveforms
 - [[wayback-archiver|Wayback Archiver]]: Automatically archives web links via Wayback Machine and appends archived versions in notes.
 - [[waypoint|Waypoint]]: Easily generate dynamic content maps in your folder notes using waypoints. Enables folders to show up in the graph view and removes the need for messy tags!

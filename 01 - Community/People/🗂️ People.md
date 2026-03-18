@@ -713,6 +713,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/Enthalpiex|Enthalpiex]]
 -  [[01 - Community/People/Enveloppe|Enveloppe]]
 -  [[01 - Community/People/eoinhurrell|eoinhurrell]]
+-  [[01 - Community/People/eoliversec|eoliversec]]
 -  [[01 - Community/People/eondrcode|eondrcode]]
 -  [[01 - Community/People/eoureo|eoureo]]
 -  [[01 - Community/People/Epiphany-Notes|Epiphany-Notes]]
