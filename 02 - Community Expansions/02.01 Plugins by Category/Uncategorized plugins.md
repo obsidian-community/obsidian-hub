@@ -1931,7 +1931,7 @@ Plugins which have not yet been categorized by the community.
 - [[soundscapes|Soundscapes]]: Adds a music/ambiance (E.g. lofi, white noise) player to the status bar to help with concentration. Also allows you to play your own local music files.
 - [[source-code-note|Source Code Note]]: This plugin can help you organize source code note easily.
 - [[sourcemode-styling|Source Mode Styling]]: Provides a customisable raw look in source mode using a monospace font to clearly differentiate from Live Preview.
-- [[source-scanner|Source Scanner]]: Scan java source and test code for comments then place it in md files.
+- [[source-scanner|Source Scanner]]: Scan text source for comments then place it in vault as text files.
 - [[spaced-repetition-ai|Spaced Repetition AI]]: Review, generate, and add flashcards for your notes using AI
 - [[spaced-everything|Spaced everything]]: Apply spaced repetition algorithms to everything in your vault.
 - [[spacekeys|Spacekeys]]: Define hotkeys based on sequences of keypresses.
