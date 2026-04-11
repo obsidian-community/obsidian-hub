@@ -685,7 +685,7 @@ Plugins which have not yet been categorized by the community.
 - [[entity-linker|Entity Linker]]: Link research terms to standard entities
 - [[obsidian-mkdocs-publisher|Enveloppe]]: Enveloppe helps you to publish your notes on a preconfigured GitHub repository, for free, and more!
 - [[reason|Enzyme]]: a REPL to digest your thoughts
-- [[epiphany|Epiphany]]: Synchronize voice notes from the Epiphany app directly into your vault
+- [[epiphany|Epiphany]]: Capture voice notes from your iPhone and Apple Watch into Obsidian in seconds. Attach photos, links, and screenshots for context
 - [[epub-importer|Epub Importer]]: Import EPUB files as Markdown.
 - [[obsidian-etherpad-plugin|Etherpad]]: Etherpad Integration
 - [[etymology-lookup|Etymology Lookup]]: Get the etymology of words in your notes
@@ -702,6 +702,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-excel-to-markdown-table|Excel to Markdown Table]]: An Obsidian plugin to paste data from Microsoft Excel, Google Sheets, Apple Numbers and LibreOffice Calc as Markdown tables in Obsidian editor.
 - [[execute-code|Execute Code]]: Allows you to execute code snippets within a note. Support C, C++, Python, R, JavaScript, TypeScript, LaTeX, SQL, and many more.
 - [[exercises|Exercises]]: Create Interactive Exercises along side your Obsidian Notes
+- [[expand-selection|Expand Selection]]: Expands the editor selection to lines, sections, or the entire note for convenience on mobile.
 - [[expiration-date-tracker|Expiration-Date-Tracker]]: Keep track of all expiration dates, for example, for your groceries.
 - [[explain-selection-with-ai|Explain Selection With AI]]: Use an OpenAI Chat Completion API-compatible LLM endpoint to explain the selected text in greater detail.
 - [[explorer-colors|Explorer Colors]]: Allows for files and folders to be configured with custom colors and other settings.
@@ -955,6 +956,7 @@ Plugins which have not yet been categorized by the community.
 - [[hide-commands-in-menu|Hide Commands in Menu]]: Allows you to hide any command to different menu.
 - [[hide-folders|Hide Folders]]: Hides & Toggles configured folders (e.g. attachments folders).
 - [[hide-index-files|Hide Index Files]]: Hide index files (folder notes) more reliably.
+- [[hide-traffic-lights|Hide Traffic Lights]]: Hides macOS traffic light buttons for a distraction-free experience. Hover over the top-left corner to reveal them.
 - [[hierarchical-backlinks|Hierarchical Backlinks]]: Displays backlinks in a hierarchy
 - [[hierarchical-outgoing-links|Hierarchical Outgoing Links]]: Displays outgoing links in a hierarchy
 - [[hierarchy|Hierarchy]]: Display the hierarchy instead of just the file name.
@@ -1125,7 +1127,7 @@ Plugins which have not yet been categorized by the community.
 - [[kr-book-info-plugin|Korean Book Info]]: A plugin that crawls Yes24 to get book information.
 - [[korean-book-search|Korean Book Search]]: Automatically fills in YAML frontmatter with Korean book information from Aladin API based on the note title.
 - [[korean-spellchecker|Korean Spellchecker]]: Checks Korean spelling and grammar using an online service. Features a custom dictionary to exclude specific nouns (e.g., names, technical terms) from being flagged as errors.
-- [[lds-scriptures-reference|LDS Library Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latter-day Saints
+- [[lds-scriptures-reference|LDS Scriptures Reference]]: Easily insert references to scripture and conference talks from the Church of Jesus Christ of Latter-day Saints
 - [[line-notes-sync|LINE Notes Sync]]: Sync messages from LINE to your notes.
 - [[llm-shortcut|LLM Shortcut]]: Provides a way to create shortcuts for commands powered by LLM capabilities.
 - [[llm-summary|LLM Summary]]: Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.
@@ -1247,7 +1249,7 @@ Plugins which have not yet been categorized by the community.
 - [[mahjong-renderer|Mahjong Renderer]]: Render mahjong tiles (riichi mahjong) using MPSZ algebraic notation
 - [[manictime|ManicTime]]: Sends path of active file to locally installed ManicTime client.
 - [[mantou-ai|MantouAI]]: Work as a personal assistant for translation, writing polish, general Q&A, summarizing, using the power of large language models.
-- [[manual-sorting|Manual Sorting]]: Drag & drop sorting for the file explorer
+- [[manual-sorting|Manual Sorting]]: DnD sorting for file explorer
 - [[mapbox-location|Mapbox Location Image]]: Show a map inside your notes with a specific format.
 - [[maps|Maps]]: Adds a map layout to bases so you can display notes as an interactive map view.
 - [[mark-open-files|Mark Open Files]]: Enhances the File Explorer by adding a marker to all the File Explorer items that are currently open in the workspace.
@@ -1430,6 +1432,7 @@ Plugins which have not yet been categorized by the community.
 - [[minimap|Note Minimap]]: Add a minimap to your Markdown notes.
 - [[note-navigator|Note Navigator]]: Streamlines note review by automatically navigating to the next note upon deletion. Adds commands to go to the previous and next note, respecting user-selected sort order.
 - [[note-placeholder|Note Placeholder]]: Replaces text of note link to placeholder in view mode.
+- [[note-progressbar|Note Progressbar]]: Displays a live progress bar summarizing checkbox completion in the active note.
 - [[note-reviewer|Note Reviewer]]: Help knowledge retention by reviewing and filtering notes.
 - [[note-splitter|Note Splitter]]: Split a note into individual notes based on a delimiter.
 - [[note-status|Note Status]]: Track and change note statuses across your vault with templates, bulk folder actions, dashboards, and non-Markdown support.
@@ -1810,6 +1813,7 @@ Plugins which have not yet been categorized by the community.
 - [[search-in-canvas|Search In Canvas]]: Search text in canvas
 - [[template-search-library|Search Templates Library]]: Allows you to save search templates for future re-use
 - [[image-window|Second Window]]: Allow images & notes to be viewed in new Obsidian windows.
+- [[segerlab|Segerlab]]: Renders calculator views within notes from JSON data copied from the Segerlab app.
 - [[select-and-complete|Select & Complete]]: Select something and let the AI complete it for you.
 - [[select-current-line|Select current line]]: Selects the current line where the cursor is placed. Press 'ESC' button to select.
 - [[select-word|Select word]]: Selects the word that is closest to the caret.
@@ -2191,7 +2195,6 @@ Plugins which have not yet been categorized by the community.
 - [[uri-converter|URI Converter]]: Convert URIs to internal links.
 - [[url-display|URL Display]]: Extract and display external URLs of the note in Obsidian.
 - [[url-formatter|URL Formatter]]: Automatically formats specific URLs pasted into your notes into clean Markdown links.
-- [[url-namer|URL Namer]]: This plugin retrieves the HTML titles to name the raw URL links.
 - [[ultimate-todoist-sync|Ultimate Todoist Sync]]: This is the best Todoist task synchronization plugin for Obsidian so far.
 - [[unlime|UnLime]]: Hide unlinked mentions in Backlinks and Outgoing Links panels
 - [[uncheck-all|Uncheck All]]: This plugin adds a command to uncheck all checkboxes in the current note.
