@@ -329,7 +329,7 @@ Plugins which have not yet been categorized by the community.
 - [[canvas-picture-in-picture|Canvas Picture in Picture]]: Enables ability to pin Canvas nodes and float them above the board (Picture-in-Picture mode)
 - [[canvas-presentation|Canvas Presentation]]: A plugin to help you display cards based on sequence.
 - [[canvas-randomnote|Canvas Random Note]]: Add random notes from your vault to the Obsidian canvas
-- [[canvas-send-to-back|Canvas Send to Back]]: Send a card in Obsidian Canvas to be behind all other cards.
+- [[canvas-send-to-back|Canvas Send to Back]]: Send a card in Canvas to be behind all other cards.
 - [[canvas-minimap|Canvas minimap]]: For easy navigation in large canvas
 - [[canvas2document|Canvas2Document]]: Convert a complete Canvas to a long form document, integrating all cards, notes, images and other media content into a single markdown file.
 - [[capitaliser|Capitaliser]]: Cycle text capitalisation (lowercase, Capitalise Each Word, UPPERCASE).
@@ -573,7 +573,7 @@ Plugins which have not yet been categorized by the community.
 - [[datepicker|Datepicker]]: Use a date picker to modify and insert date/time anywhere in your markdown notes.
 - [[datetime-language-changer|Datetime Language Changer]]: Customize the language used for datetime formatting by changing moment.js's locale.
 - [[day-one-importer|Day One Importer]]: Import Day One journals
-- [[day-planner-og|Day Planner (OG)]]: A plugin to help you plan your day and setup pomodoro timers; fork of the original plugin by James Lynch (which stopped at 0.5.8) which preserves the look/feel and behavior of the original.
+- [[day-planner-og|Day Planner (OG)]]: Plan your day and setup pomodoro timers; fork of original by James Lynch (which stopped at 0.5.8) to preserve simple planner behavior.
 - [[obsidian-day-and-night|Day and Night]]: An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.
 - [[days-since|Days Since]]: A plugin to show the number of days since a given date.
 - [[decks|Decks]]: Decks - Spaced repetition flashcards plugin with FSRS algorithm.
@@ -684,7 +684,7 @@ Plugins which have not yet been categorized by the community.
 - [[enlightenment-obsidian|Enlightenment ✨]]: Pay attention to what you're paying attention to. Enlightenment adds a 'zen mode' for Preview, hiding the contents of your notes except for what's underneath your pointer.
 - [[entity-linker|Entity Linker]]: Link research terms to standard entities
 - [[obsidian-mkdocs-publisher|Enveloppe]]: Enveloppe helps you to publish your notes on a preconfigured GitHub repository, for free, and more!
-- [[reason|Enzyme]]: a REPL to digest your thoughts
+- [[reason|Enzyme]]: Surfaces connections across your vault via Enzyme, rendered as a clickable digest of older thinking to revisit.
 - [[epiphany|Epiphany]]: Capture voice notes from your iPhone and Apple Watch into Obsidian in seconds. Attach photos, links, and screenshots for context
 - [[epub-importer|Epub Importer]]: Import EPUB files as Markdown.
 - [[obsidian-etherpad-plugin|Etherpad]]: Etherpad Integration
@@ -972,7 +972,7 @@ Plugins which have not yet been categorized by the community.
 - [[homework-manager|Homework Manager]]: Keeps track of homework through a to-do list.
 - [[horizontal-blocks|Horizontal Blocks]]: Notion-style resizable side-by-side Markdown blocks that support text, images, embeds, and internal links.
 - [[hotstrings|Hotstrings]]: Set custom hotstrings that get expanded to text once typed.
-- [[obsidian-hover-editor|Hover Editor]]: Transform the Page Preview hover popover into a fully working editor instance
+- [[obsidian-hover-editor|Hover Editor]]: Transform the Page Preview hover popover into a floating tab
 - [[hover-reveal|Hover Reveal]]: Shows hidden text in tooltips when hovering over marked elements using [visibleText]{tooltipText} syntax. Supports custom hotkeys.
 - [[html-server|Html Server]]: This plugin lets you spin up a local http server to access your vault via a web browser from any device in your network.
 - [[hugo-publish|Hugo Publish]]: Publish your blog to hugo site.
@@ -1575,7 +1575,7 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-path-title|Path Title]]: Adds path (or optional replacement) to the filename title of each pane
 - [[pf2-action-icons|Pathfinder 2E Action Icons]]: Displays Pathfinder 2E action icons easily
 - [[peekaboo|Peekaboo]]: Protect your privacy by setting a password to hide files.
-- [[peerdraft|Peerdraft]]: Real-time, instant collaboration on Obsidian documents or folders. Whether for quick note-taking or building a team knowledge base, Peerdaft syncs with your collaborators' Obsidian vaults and also offers a Web Editor.
+- [[peerdraft|Peerdraft]]: Real-time, instant collaboration on Obsidian documents or folders. Whether for quick note-taking or building a team knowledge base, Peerdraft syncs with your collaborators' Obsidian vaults and also offers a Web Editor.
 - [[obsidian-pending-notes|Pending notes]]: Obsidian plugin for searching links without notes in your vault.
 - [[performosu|Performium]]: Integrates the osu! Performance Points system to gamify your note-taking experience!
 - [[perilous-writing|Perilous Writing]]: Write continuously—or lose all progress.
@@ -1897,7 +1897,7 @@ Plugins which have not yet been categorized by the community.
 - [[slash-snippets|Slash snippets]]: Use slash command to insert quick text
 - [[slash-complete|SlashComplete]]: Adds Notion-style slash command autocompletion, enabling fast and intuitive insertion of Markdown blocks, formatting, and commands directly from the editor. This is a direct replacement for the default slash command plugin.
 - [[slide-note|Slide Note]]: Conveniently take notes on PDF course slides :P
-- [[slides-extended|Slides Extended]]: Create markdown-based presentations using reveal.js
+- [[slides-extended|Slides Extended]]: Create markdown-based presentations using reveal.js.
 - [[slurp|Slurp]]: Slurps webpages and saves them as clean, uncluttered Markdown.
 - [[smart-chatgpt|Smart ChatGPT]]: Integrate OpenAI's ChatGPT seamlessly in notes. Automatically saves links, allows marking threads as done and integrates with Dataview.
 - [[smart-composer|Smart Composer]]: AI chat with note context, smart writing assistance, and one-click edits for your vault.
@@ -2226,7 +2226,7 @@ Plugins which have not yet been categorized by the community.
 - [[vault-encrypt|Vault Encrypt]]: Encrypts and decrypts the contents of the vault using a password.
 - [[vault-explorer|Vault Explorer]]: Explore your vault in visual format
 - [[vault-file-renamer|Vault File Renamer]]: Standardizes names in your vault: lowercase, accents removed, spaces become hyphens, and invalid characters are converted. Settings include enable/disable, target extensions (allow-list), excluded extensions (when allow-list is empty), and folder blacklist.
-- [[vault-full-statistics|Vault Full Statistics]]: Status bar item with vault full statistics such as number of notes, files, attachments, links, tags and quality of vault.
+- [[vault-full-statistics|Vault Full Statistics]]: Status bar item with vault statistics: number of notes, links, and QoV (Quality of Vault).
 - [[vault-llm-assistant|Vault LLM Assistant]]: Uses AI to answer questions and create notes about your vault with proper citations
 - [[vault-name|Vault Name]]: Display and customize the vault name (title) in the side navigation file explorer.
 - [[vault-nickname|Vault Nickname]]: Override the vault's display name and/or title order. Intended to disambiguate vaults with the same folder name when adhering to a common folder structure between projects.
@@ -2271,6 +2271,7 @@ Plugins which have not yet been categorized by the community.
 - [[voicenotes-sync|Voicenotes Sync]]: Synchronize your notes from Voicenotes.com
 - [[vox|Vox]]: Intelligently trancribe and categorize your voice notes
 - [[whisperer|WHISPERER.md]]: Play ambience in your vault, assign audio to files through metadata with support of local (from vault) and URLs (Youtube, Soundcloud) versions of audio: works on mobile vaults.
+- [[wpm-reading-time|WPM Reading Time - How Long to Read This Text]]: Calculate reading time estimates for selected text using your own reading speed in Words Per Minute.
 - [[waka_time_box|Waka time box]]: Show daily coding activity from WakaTime
 - [[obsidian-wakatime|WakaTime]]: Automatic time tracking and metrics generated from your Obsidian usage activity.
 - [[wakatime-kvh|Wakatime / Wakapi]]: Connect to Wakatime or Wakapi to track the time spent while browsing or writing notes.
@@ -2386,7 +2387,7 @@ Plugins which have not yet been categorized by the community.
 - [[gpg-crypt|gpgCrypt]]: Seamlessly encrypts your notes using GPG. Supports smartcards for enhanced security! Keep your information safe and accessible only to you.
 - [[hello-nemesis|hello nemesis]]: Uses OpenAI to challenge your ideas.
 - [[heti|heti]]: 专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以带来更好的阅读体验。
-- [[historica|historica]]: Intelligently generates timeline from your content ... like a bro!
+- [[historica|historica]]: Your writing already contains a timeline. Historica finds it — NLP-powered date extraction from any note.
 - [[ical|iCal]]: Scans your vault for tasks. Creates an iCal file and stores it on Gist. You can then show this calendar in any iCal compatible client such as Outlook, Google Calendar, Apple Calendar, etc.
 - [[icloud-contacts|iCloud Contacts]]: Imports contacts from iCloud and manages a note for each contact.
 - [[idorecall|iDoRecall]]: iDoRecall plugin allows you to create recalls from Obsidian notes
