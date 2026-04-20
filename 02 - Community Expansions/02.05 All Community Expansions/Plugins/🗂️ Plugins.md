@@ -2876,6 +2876,7 @@ tags:
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/workout-planner|workout-planner]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/workout-tracker|workout-tracker]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/workspaces-plus|workspaces-plus]]
+-  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/wpm-reading-time|wpm-reading-time]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/wrangle-todos|wrangle-todos]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/write-good|write-good]]
 -  [[02 - Community Expansions/02.05 All Community Expansions/Plugins/writeas-publisher|writeas-publisher]]
