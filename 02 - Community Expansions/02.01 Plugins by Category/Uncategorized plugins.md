@@ -609,7 +609,6 @@ Plugins which have not yet been categorized by the community.
 - [[display-relative-path-img|Display Relative Path Img]]: Display the image of the <img> tag
 - [[obsidian-divide-and-conquer|Divide & Conquer]]: Provides commands for bulk enabling/disabling of plugins. Useful for debugging when you have many plugins.
 - [[docbase-unofficial|DocBase (Unofficial)]]: Pull and push notes to DocBase
-- [[docusaurus-style-admonitions|Docusaurus Style Admonitions]]: Adds Docusaurus style admonitions
 - [[docxer|Docxer]]: Import Word files easily. Adds a preview mode for .docx files and the ability to convert them to markdown (.md) files.
 - [[obsidian-douban-plugin|Douban]]: This is a plugin that can import movies/books/musics/notes/games info data from Douban for Obsidian .
 - [[double-colon-conceal|Double Colon Conceal]]: Display double colon (i.e. Dataview inline fields) as a single colon for more natural reading experience.
@@ -641,7 +640,7 @@ Plugins which have not yet been categorized by the community.
 - [[easy-fonts|Easy Fonts]]: Easily load custom fonts, even on mobile.
 - [[easy-keep-view|Easy Keep View]]: Easy Keep View mimics the Google Keep interface, allowing you to view and manage your notes with image thumbnails and excerpts.
 - [[easy-test|Easy Test]]: Easily create simple tests
-- [[easy-timeline|Easy Timeline]]: Simplifies creating and visualizing timelines from text using dates and metadata
+- [[easy-timeline|Easy Timeline]]: Create beautiful visual timelines from your notes using natural language dates (e.g., 'yesterday', 'next week'). Customize events with inline metadata, icons, and statuses. Supports relative dates via frontmatter properties and timezones.
 - [[easy-tracker|Easy Tracker]]: Instantly track goals and habits. Simple, beautiful, and configuration-free.
 - [[easylink|EasyLink]]: Select text in your editor to find the most similar content from other notes and easily create links.
 - [[eccirian|Eccirian Encrypt]]: Next-generation file encryption solution based on modern cryptography.
@@ -812,7 +811,7 @@ Plugins which have not yet been categorized by the community.
 - [[fountain|Fountain]]: Write and view screenplays in Fountain format with index cards and lots of other features.
 - [[fountain-editor|Fountain Editor]]: Fountain (screenplay) syntax highlighting in the editor
 - [[freeform|Freeform]]: Make visualizations and run arbitrary code with JavaScript + iframe blocks.
-- [[mdfriday|Friday]]: Notes to Website. Friday helps you turn Markdown documents into websites in minutes.
+- [[mdfriday|Friday]]: Write anywhere. Publish everywhere. Sync your notes, publish instantly, turn Markdown into websites.
 - [[friend-tracker|Friend Tracker]]: Keep track of friends, birthdays, reminders, and interactions in Obsidian. Build a personal CRM, log connections, and stay organized inside your vault.
 - [[obsidian-notes-from-template|From Template]]: Create new notes from Templates - for each Template, provides a Command to trigger it, and a form to fill in any variables in the template
 - [[front-matter-timestamps|Front Matter Timestamps]]: Automatically manages and updates 'created' and 'modified' timestamps in the frontmatter of your notes
@@ -948,7 +947,6 @@ Plugins which have not yet been categorized by the community.
 - [[hemingway-mode|Hemingway Mode]]: Prevents any editing, only letting you write ahead.
 - [[hephaistos-importer|Hephaistos Importer]]: Imports main stats from the Starfinder RPG character website Hephaistos.
 - [[hexo-auto-updater|Hexo Auto updater]]: This is a hexo plugin for Obsidian that enable the auto update. 
-- [[hexo-publisher|Hexo Publisher]]: Publish your notes to Hexo
 - [[hexo-toolkit|Hexo Toolkit]]: Maintain Hexo posts.
 - [[hi-note|HiNote]]: Add comments to highlighted notes, use AI for thinking, and flashcards for memory.
 - [[hi-words|HiWords]]: Effortlessly grow your vocabulary as you read, with automatic highlighting and translation of unfamiliar words.
@@ -1400,7 +1398,7 @@ Plugins which have not yet been categorized by the community.
 - [[next-link|Next Link]]: Jump quickly between note links.
 - [[next-toc|Next TOC]]: Floating panel displaying the current document's reading progress, table of contents, and navigation aids.
 - [[nextcloud-link-fixer|Nextcloud Link Fixer]]: Nextcloud breaks Wiki-links (e.g. [[Some document]]). This fixes them.
-- [[nexus-ai-chat-importer|Nexus AI Chat Importer]]: Import AI conversations from ChatGPT, Claude, and Le Chat exports into Obsidian.
+- [[nexus-ai-chat-importer|Nexus AI Chat Importer]]: Import AI conversations from ChatGPT, Claude, Le Chat, and Perplexity exports into Obsidian.
 - [[nifty-links|Nifty Links]]: Generate elegant, Notion-style rich link cards to enhance your note-taking experience
 - [[ninja-cursor|Ninja Cursor]]: The plugin which enhance cursor visibility.
 - [[no-empty-windows|No Empty Windows]]: Closes Obsidian window with cmd+W on Mac when the last tab is closed.
@@ -1466,7 +1464,7 @@ Plugins which have not yet been categorized by the community.
 - [[nutstore-sync|Nutstore Sync]]: Sync your vault with Nutstore/坚果云 using WebDAV protocol.
 - [[nyanbar|NyanBar]]: Nyan Cat Progress Bar generator!
 - [[o2|O2]]: This is a plugin to make obsidian markdown syntax compatible with other markdown syntax.
-- [[ocr-extractor|OCR Extractor]]: Extract text from documents, images, etc. and store it as Markdown in your notes.
+- [[ocr-extractor|OCR Extractor]]: Extract text from PDFs, documents, images, etc. with OCR and store it as Markdown in your notes.
 - [[marker-api|OCR-AI]]: Convert PDFs to beautiful rich Markdown notes with tables, images, formulas and OCR. Works with self-hosted Marker API and free Mistral OCR API!
 - [[statuslol-post|OMG.lol Publisher]]: Allows you to post to weblogs.lol, status.lol, some.pics and paste.lol.
 - [[oz-calendar|OZ Calendar]]: View your notes in Calendar using any YAML key with date
@@ -1484,7 +1482,6 @@ Plugins which have not yet been categorized by the community.
 - [[obsidian-matrix|Obsidian matrix]]: Utility to easily create LaTeX matrices
 - [[obsidian-to-notion|Obsidian shared to Notion]]: This is a  plugin for Obsidian. This plugin share obsidian md  file to notion with notion api
 - [[obsidian-tweaks|ObsidianTweaks]]: Adds some convenient tweaks including improved toggling and ergonomic commands
-- [[obsidiosaurus|Obsidiosaurus]]: Connect your vault to Docusaurus
 - [[obsifetch|Obsifetch]]: A neofetch-style vault information display
 - [[obsius-publish|Obsius Publish]]: Make single notes instantly available on the web.
 - [[occura-word-highlighter|Occura]]: Find and highlight all occurrences of selected text in notes, similar to Notepad++ or IDEs.
@@ -1958,7 +1955,7 @@ Plugins which have not yet been categorized by the community.
 - [[status-bar-quote|Status Bar Quote]]: Show your favorite quote in obsidian status bar
 - [[obsidian-steemit|Steemit]]: A plugin for publishing Obsidian documents to Steemit.
 - [[stenography-obsidian|Stenography]]: Auto Describe your code with machine learning using the Stenography API
-- [[steward|Steward]]: An AI-powered assistant that helps you with your notes: Fast search, flexible commands, and chat with LLMs.
+- [[steward|Steward]]: An AI agent equipped with agent capacity, fast search, flexible commands, vault management, and terminals for other CLI-based agents, such as Claude, Gemini, etc.
 - [[sticky-heading|Sticky Headings]]: Sticky Headings and Shows the heading level
 - [[sticky-notes|Sticky Notes]]: Create sticky notes popups.
 - [[storyclock|Storyclock Viewer]]: Maps timing onto a storyclock. Inspired by Plot Devices Storyclock.
@@ -2154,7 +2151,6 @@ Plugins which have not yet been categorized by the community.
 - [[todos-sort|Todos sort]]: Sorting your TODOs (checkboxes) in current note by completion status.
 - [[obsidian-toggle-case|Toggle Case]]: This is an Obsidian plugin to toggle between `lowercase` `UPPERCASE` and `Title Case`
 - [[obsidian-toggle-meta-yaml-plugin|Toggle Meta Yaml]]: this is a simple plugin to toggle meta yaml.
-- [[toggle-rtl-mode|Toggle RTL mode]]: Toggle RTL mode using command or ribbon action
 - [[toggle-readable-line-length|Toggle Readable line length]]: Add command to toggle Readable line length editor setting.
 - [[obsidian-toggle-list|ToggleList]]: Toggle the list/checklist with custom states/prefixes and suffixes
 - [[tokei|Tokei]]: A simple clock.
@@ -2195,6 +2191,7 @@ Plugins which have not yet been categorized by the community.
 - [[uri-converter|URI Converter]]: Convert URIs to internal links.
 - [[url-display|URL Display]]: Extract and display external URLs of the note in Obsidian.
 - [[url-formatter|URL Formatter]]: Automatically formats specific URLs pasted into your notes into clean Markdown links.
+- [[url-namer|URL Namer]]: This plugin retrieves the HTML title to name the unnamed URL link.
 - [[ultimate-todoist-sync|Ultimate Todoist Sync]]: This is the best Todoist task synchronization plugin for Obsidian so far.
 - [[unlime|UnLime]]: Hide unlinked mentions in Backlinks and Outgoing Links panels
 - [[uncheck-all|Uncheck All]]: This plugin adds a command to uncheck all checkboxes in the current note.
