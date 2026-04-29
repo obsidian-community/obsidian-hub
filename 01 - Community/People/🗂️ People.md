@@ -1609,6 +1609,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/mii-key|mii-key]]
 -  [[01 - Community/People/Mijyuoon|Mijyuoon]]
 -  [[01 - Community/People/MikeBirdTech|MikeBirdTech]]
+-  [[01 - Community/People/mikedidomizio|mikedidomizio]]
 -  [[01 - Community/People/mikejongbloet|mikejongbloet]]
 -  [[01 - Community/People/mikevetkin|mikevetkin]]
 -  [[01 - Community/People/Mikodin|Mikodin]]
