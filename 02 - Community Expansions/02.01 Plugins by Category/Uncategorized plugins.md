@@ -576,7 +576,7 @@ Plugins which have not yet been categorized by the community.
 - [[day-planner-og|Day Planner (OG)]]: Plan your day and setup pomodoro timers; fork of original by James Lynch (which stopped at 0.5.8) to preserve simple planner behavior.
 - [[obsidian-day-and-night|Day and Night]]: An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.
 - [[days-since|Days Since]]: A plugin to show the number of days since a given date.
-- [[decks|Decks]]: Decks - Spaced repetition flashcards plugin with FSRS algorithm.
+- [[decks|Decks]]: Spaced repetition flashcards with FSRS algorithm. Supports cloze deletions and image occlusion using native markdown.
 - [[deep-sit|Deep Sit]]: Focused study and research tool that allows citing and reviewing primary sources through a Zotero integration.
 - [[deepl|DeepL]]: Allows translation of selected texts into more than 25 languages with DeepL.
 - [[new-tab-default-page|Default New Tab Page]]: Open a note of your choice when creating a new tab, like in the browser.
@@ -965,7 +965,6 @@ Plugins which have not yet been categorized by the community.
 - [[hints-plugin|Hints Flow]]: Save data directly to Obsidian with a specified template. Capture from Telegram, WhatsApp, Slack, Email, SMS, Raycast and more.
 - [[history-today|History Today]]: View and review your historical notes from this day across previous years
 - [[hledger-notes|Hledger Notes]]: Create and manage hledger entries directly in your vault.
-- [[hoarder-sync|Hoarder Sync]]: Sync your Hoarder bookmarks
 - [[home-tab|Home tab]]: A browser-like search tab for your local files.
 - [[homework-manager|Homework Manager]]: Keeps track of homework through a to-do list.
 - [[horizontal-blocks|Horizontal Blocks]]: Notion-style resizable side-by-side Markdown blocks that support text, images, embeds, and internal links.
@@ -1104,6 +1103,7 @@ Plugins which have not yet been categorized by the community.
 - [[kale-graph|Kale Graph]]: Render mathematical graphs.
 - [[kanban-bases-view|Kanban Bases View]]: A kanban-style drag-and-drop custom view for Bases.
 - [[kanban-status-updater|Kanban Status Updater]]: Automatically updates a 'status' property in a note when its card is moved on a Kanban board
+- [[hoarder-sync|Karakeep (Hoarder) Sync]]: Sync your Karakeep (Hoarder) bookmarks
 - [[keep-the-rhythm|Keep the Rhythm]]: Visualize and track your writing habit!
 - [[keepsidian|KeepSidian]]: Two-way sync between Obsidian and Google Keep.
 - [[ketcher|Ketcher]]: View or draw chemical structures and reactions using Ketcher.
@@ -1436,7 +1436,7 @@ Plugins which have not yet been categorized by the community.
 - [[note-status|Note Status]]: Track and change note statuses across your vault with templates, bulk folder actions, dashboards, and non-Markdown support.
 - [[note-sync|Note Sync]]: Sync notes or plugins between vaults.
 - [[note-synchronizer|Note Synchronizer]]: This is a plugin for synchornizing Obsidian notes to other note-based softwares like Anki, following more strictly the principles of Zettelkasten and treating each Obsidian file as a note.
-- [[note_uid_generator|Note UID Generator]]: Automatically or manually generates Unique IDs (UUID, NanoID, or ULID) for notes and registers them in metadata (frontmatter).
+- [[note_uid_generator|Note UID Generator]]: Automatically or manually generates Unique IDs (UUID, NanoID, ULID, or Snowflake) for notes and registers them in metadata (frontmatter).
 - [[note-aliases|Note aliases]]: This plugin manage aliases of notes in Obsidian.
 - [[note-archiver|Note archiver]]: Tools to archive your notes in another folder
 - [[note-to-red|Note to RED]]: Convert Markdown notes to RED (Xiaohongshu) style images
@@ -1695,7 +1695,7 @@ Plugins which have not yet been categorized by the community.
 - [[rpg-stat-tracker|RPG Stat Tracker]]: RPG-like stat tracker.
 - [[rss-dashboard|RSS Dashboard]]: A dashboard for organizing and consuming RSS feeds, YouTube channels, and podcasts with smart tagging, media playback, and seamless content flow.
 - [[rtl-math-text|RTL Math Text]]: Mix right-to-left and left-to-right text in math expressions using configurable commands.
-- [[radial-timeline|Radial timeline]]: A radial timeline for long-form creative fiction writing that displays scenes organized by act, subplot, and numeric order for a complete view of the project.
+- [[radial-timeline|Radial timeline]]: Radial Timeline maps your manuscript across four modes — Progress, Narrative, Chronologue, and Gossamer — plus the Inquiry View for higher-level story analysis. Visualize scenes, subplots, structure, chronology, and story shape in one connected workspace.
 - [[rainbow-folders-fixer|Rainbow Folders Fixer]]: Stop rainbow folders from changing colors when you scroll through the File explorer.
 - [[rainbow-colored-sidebar|Rainbow-Colored Sidebar]]: Automatically color your sidebar like a rainbow. No configuration needed. 9 themes included.
 - [[obsidian-raindrop-highlights|Raindrop Highlights]]: Sync your Raindrop.io highlights.
@@ -2222,7 +2222,7 @@ Plugins which have not yet been categorized by the community.
 - [[vault-chat|Vault Chat]]: A ChatGPT bot trained on your vault notes. Ask your AI questions about your own thoughts and ideas!
 - [[vault-encrypt|Vault Encrypt]]: Encrypts and decrypts the contents of the vault using a password.
 - [[vault-explorer|Vault Explorer]]: Explore your vault in visual format
-- [[vault-file-renamer|Vault File Renamer]]: Standardizes names in your vault: lowercase, accents removed, spaces become hyphens, and invalid characters are converted. Settings include enable/disable, target extensions (allow-list), excluded extensions (when allow-list is empty), and folder blacklist.
+- [[vault-file-renamer|Vault File Renamer]]: Standardizes vault file names with lowercase text, accent removal, custom replacement rules, extension filters, folder and file blacklists, and a manual sweep command.
 - [[vault-full-statistics|Vault Full Statistics]]: Status bar item with vault statistics: number of notes, links, and QoV (Quality of Vault).
 - [[vault-llm-assistant|Vault LLM Assistant]]: Uses AI to answer questions and create notes about your vault with proper citations
 - [[vault-name|Vault Name]]: Display and customize the vault name (title) in the side navigation file explorer.
