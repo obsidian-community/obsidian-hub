@@ -19,18 +19,18 @@ publish: true
 
 # Cyber Glow
 
-Repository: [GitHub](https://github.com/ArtexJay/Obsidian-CyberGlow)
-Designed by: [[ArtexJay]]
+Repository: [GitHub](https://github.com/ThePharaohArt/Obsidian-CyberGlow)
+Designed by: [[ThePharaohArt]]
 Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 
 
-![screenshot](https://github.com/ArtexJay/Obsidian-CyberGlow/raw/HEAD/Screenshot.png)
+![screenshot](https://github.com/ThePharaohArt/Obsidian-CyberGlow/raw/HEAD/Screenshot.png)
 
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[ArtexJay#Sponsor this author]] %%
+%% ![[ThePharaohArt#Sponsor this author]] %%
 
 
 ## Features
@@ -39,62 +39,99 @@ Modes: [[Dark-mode themes|dark]], [[Light-mode themes|light]]
 
 ## Customization Options (Style Settings Plugin) 
 
-**Background Controls**: Background and Wallpaper Controls
+**Background Controls**: Controls for Background/Wallpaper, Settings Colored background
+- Disable Colored Settings Dim Color
 - Enable Workspace Backgound: Enable Custom Wallpaper background
-- Select Background Image: Select Custom to use your custom links or paths to your wallpaper in "Custom Workspace Background Image". (Author's)
-- Custom Workspace Background Image: Add your wallpaper. Paste the entire link to the image including "https://" -> url("your link here"). Local file links are no longer supported by Obsidian and Style Settings haven't been updated to support any alternatives.
-- Container opacity: Suggestion Increase opacity a bit on Dark mode, decrease opacity on light mode.
-- Background blur: Level of blurryness
-- Background brightness: Suggestion Increase brightness on Dark mode, decrease brightness on light mode.
+- Select Background Image: Select Custom to use your custom links or paths to your wallpaper in "Custom Workspace Background Image"
+- Custom Workspace Background Image: Add your wallpaper. Paste the entire link to the image including "https://" -> url("your link here")
+- Container opacity: Regulate the overall opacity of the theme when there is a custom background.
+- Background blur: Level of background wallpaper blurryness
+- Background brightness: Level of background wallpaper brightness
 - Background Saturation: Increase/Decrease the color vibrancy of the background image.
 - Background Contrast: Increase/Decrease the contrast of the background image.
 
-**Workspace Controls**: Phone Header Folder Path,
-- Disable Phone's Header Folder Path: The folder paths in the header easily hides the note's title. Toggle off if you want the folder path on phone.
-- Left Sidebar Toggle: Pick the Icon/image, be sure that all custom images/gifs are square aspect.
-- Custom Left Sidebar Toggle: Add your custom Left Toggle. Paste the entire link to the image including "https://" -> url("your link here"), Obsidian no longer supports local links.
+**Workspace Controls**: Active Window Accent Controls, Animations, Phone Header Folder Path, Full Statusbar
+- Disable Animations: Toggle to remove theme animations: Toggle to remove theme animations (Enable this if you see lag, battery drain or excessive resource consumption)
+- Disable Phone Header's Folder path
+- Disable Full Status-bar: Returns status bar to a hover state
+- Stacked Tabs Header Width
+- Enable Active Header Styling
+- Remove Active Highlight: Enable to remove the active page highlight
+
+**Sidepanel Controls**: Controls for Sidebar Toggle, Colorful Folder, File Tree Icon/Chevron
+- Remove Sidepanel Toggle Icon Color
+- Left Sidebar Toggle Icon/Image: Pick the Icon/Image, be sure taht all custom images/gifs are square aspect
+- Custom Left Sidebar Toggle
+- Colorful Folders
+- SciFi Folders: Enable to restore Colorfule Folders rectangular design
+- Hide Folder Icon: Enable to hide file explorer icon
+- Show Chevron (Collapse Arrow): Togggle the visibilitiy of the chevron Icons
 
 **Note Controls**: Custom Checkboxes, Line Width, Codeblocks Controls, Signature/Cite font, Base Font
 - Custom Checkbox: Enable custom checkboxes for checkbox customization
 - Readable line width: The maximum line width in rem (unit relative to Appearance -> Font Size)
-- Disable Codeblocks Gutter: Remove line numbers and additional styling to code blocks
+- Bullet Style
+- Restore Callout: Enable to restore callouts to rectangular design
+- Disable Bullets in Callouts: Remove bullet list ticker when inside of callouts
 - Cite/Signature Font (Used in blockquotes and quote callouts): Get Font from Cyber Glow's Github page. Recommend using a cursive font style
-- Base font (UI and notes font) WIP⚠️: Get Font from Cyber Glow's Github page. For System Default type Inter.
-
-**Heading Controls**: Headings Font and Size and Dividing Line Controls
+- Disable Codeblocks Gutter: Remove line numbers and additional styling to codeblocks
+- Scifi Codeblocks: Enable to restore Codeblocks to rectangular design
+- Restore Bold Header: Restore the bold header style to the original Obsidian Style
+- Show Header Indiciation: Enable to show the small header indicator next to the headers (H1-6)
 - Heading Dividing Line (---)
-- Custom Left Sidebar Toggle: Add your custom Left Toggle. Paste the entire link to the image including "https://" -> url("your link here") or paste the local file location. Be sure to use "/" instead of "\" on Windows.
-- Title Heading (H1) WIP ⚠️: Get Font from Cyber Glow's Github page. For System Default type Inter.
-- Hide Header Indication: Enabling this will hide the small header indicator next to headers, such as H1, H2, etc.
-- H1 font size: Enter Header 1 Font
-- Major Heading font (H2) WIP ⚠️: Get Font from Cyber Glow's Github page. For System Default type Inter
-- H2 font size: Enter Header 2 Font
-- Minor Headings font (H3-6) WIP⚠️: Get Font from Cyber Glow's Github page. For System Default type Inter.
-- H3 font size: Enter Header 3 Font
-- H4 font size: Enter Header 4 Font
-- H5 font size: Enter Header 5 Font
-- H6 font size: Enter Header 6 Font
 
-**Color Picker**: Change Colors of certain elements
-- Accent Text Color
-- Inactive Tab Color
-- Tab & Icon Color
-- Active Note Title Color
-- Inactive Note Title Color
-- Outgoing link color
-- Internal link color
-- Bullet List Color
+**Text, Color And Glow Controls**: Controls for Text Font/Color/Glow, Active Color Picker, Icon Color Picker
+- Hover Color
+- List Color
 - Header 1 Color
+- H1 Font Size
+- Title Heading (H1)
+- Header Primary Glow: Change the spread of the glow effect on header 1 text (set to -1 to disable glow)
+- Header Secondary Glow: Change the spread of the glow effect on header 1 text
+- Header Tertiary Glow: Change the spread of the glow effect on header 1 text
+- Header Quaternary Glow: Change the spread of the glow effect on header 1 text
+- Header Quinary Glow: Change the spread of the glow effect on header 1 text
 - Header 2 Color
+- H2 Font Size
 - Header 3 Color
+- H3 Font Size
+- Major heading Font (H2-3): Change the heading 2 and 3 fonts by typing the name of the desired font in the textbox.
 - Header 4 Color
+- H4 Font Size
 - Header 5 Color
+- H5 Font Size
 - Header 6 Color
-- Change Blockquote color
+- H6 Font Size
+- Minor headings font (H4-6): Change the heading 4-6 fonts by typing the name of the desired font in the textbox.
+- Header Primary Glow: Change the spread of the glow effect on header (h2-6) text (set to -1 to disable glow)
+- Header Secondary Glow: Change the spread of the glow effect on header (h2-6) text
+- Header Tertiary Glow: Change the spread of the glow effect on header (h2-6) text
+- Header Quaternary Glow: Change the spread of the glow effect on header (h2-6) text
+- Base Font (UI and notes font): Change the base font by typing the name of the desired font in the textbox
+- Sidepanel Mutes Text Color: Custom accent color for text elements
+- Hover Text Color: Custom accent color for text elements
+- Muted Icon Color: Custom accent color for text elements
+- Icon Hover: Custom accent color for text elements
+- Window Highlight Accent
+- Active Tab Accent
+- Active Note Title Color
+- Selected Accent
+- Enabled Custom Inline Color: Enable Custom background and border color for Inline Code
+- Enable custom Inline Color Within Codeblocks
+- Inline Code Color: Custom Inline Background Code Color
+- Inline Code Border Color: Custom Inline Background Code Border Color
+- Outogoing Link Color
+- Internal Link Color
+- Link Primary Glow
+- Link Secondary Glow
+- Link Tertiary Glow
+- Link Quaternary Glow
+- Bold Text Glow
+- Bold Text Color
+- Bold/Italic Primary Glow
+- Bold/Italic Secondary Glow
 
-**Other Controls**: Stacked tabs width
-- Stacked tabs header width: If the stacked tab looks weird, after altering the width, please change tabs first or open a new tab to "refresh" the theme
-
+**Cyber Glow Support**
 
 %% Hub footer: Please don't edit anything below this line %%
 
