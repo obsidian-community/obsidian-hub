@@ -2,6 +2,7 @@
 plugin-id: obsidian-mkdocs-publisher
 aliases:
 - Github Publisher
+- Enveloppe
 tags: 
 - 
 publish: true

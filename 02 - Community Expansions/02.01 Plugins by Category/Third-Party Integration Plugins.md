@@ -63,13 +63,14 @@ Plugins to integrate with other services or applications.
 - [[obsidian-vale|Vale]]: A Vale client for Obsidian.
 - [[obsidian-wikipedia|Wikipedia]]: Grabs information from Wikipedia for a topic and brings it into Obsidian notes
 - [[obsidian-youglish-plugin|Youglish Plugin]]: Use YouTube to improve your pronunciation. YouGlish gives you fast, unbiased answers about how words is spoken by real people and in context.
+- [[obsidian-ghost-publish|Ghost Publish]]: Single click to publish to Ghost
 
 ## Related categories
 
 %% Add links to other 02.02 - Category notes %%
 
 - [[Automation plugins]]
-
+- [[Plugins for web publishing]]
 ## Related Topics
 - [[Controlling Obsidian via a Third-party App]]
 
