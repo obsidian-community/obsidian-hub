@@ -23,9 +23,9 @@ publish: true
 Plugin ID: `task-board`
 Links: [GitHub repository](https://github.com/tu2-atmanand/Task-Board) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=task-board)
 Developed by: [[tu2-atmanand]]
-Mobile compatible: [[Desktop-only plugins|No]]
+Mobile compatible: [[Desktop-only plugins|Yes]]
 
-Manage all your tasks throghout your vault from a single board and much more...
+Manage all your tasks throughout your vault from a single board and much more...
 
 %% ----- Do not edit anything above this line ----- %% 
 
