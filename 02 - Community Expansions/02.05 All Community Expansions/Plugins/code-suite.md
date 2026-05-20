@@ -1,0 +1,39 @@
+---
+plugin-id: code-suite
+aliases:
+- CodeSuite
+tags: 
+- 
+publish: true
+---
+
+%% ----- Badges ----- %%
+
+![GitHub all releases](https://img.shields.io/github/downloads/felixleopold/obsidian-code-suite/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/felixleopold/obsidian-code-suite?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/felixleopold/obsidian-code-suite/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/felixleopold/obsidian-code-suite?color=573E7A&logo=github&style=for-the-badge)
+
+%% ----- Badges ----- %%
+
+%% ----- Do not edit this section ----- %%
+
+# CodeSuite
+
+Plugin ID: `code-suite`
+Links: [GitHub repository](https://github.com/felixleopold/obsidian-code-suite) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=code-suite)
+Developed by: [[felixleopold]]
+Mobile compatible: [[Mobile-compatible plugins|Yes]]
+
+Shiki syntax highlighting, live code execution with stdin/stdout streaming, shared variables across blocks, inline $var substitution, Matplotlib/Plotly inline graphs, and embedded file rendering.
+
+%% ----- Do not edit anything above this line ----- %% 
+
+%% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
+%% ![[felixleopold#Sponsor this author]] %%
+
+%% Hub footer: Please don't edit anything below this line %%
+
+# This note in GitHub
+
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/code-suite.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/02%20-%20Community%20Expansions/02.05%20All%20Community%20Expansions/Plugins/code-suite.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
