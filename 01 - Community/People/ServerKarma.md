@@ -6,11 +6,11 @@ tags:
 publish: true
 ---
 
-# GB
+# ServerKarma
 
-- GitHub: [gabosgab](https://github.com/gabosgab/) ^github
+- GitHub: [ServerKarma](https://github.com/ServerKarma/) ^github
 <!-- - Discord: `@` ^discord-->
-- Website: <https://github.com/gabosgab/> ^website
+- Website: <https://github.com/ServerKarma/> ^website
 <!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
@@ -38,7 +38,7 @@ publish: true
 ## Sponsor this author
 -->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @gabosgab on GitHub Sponsors](https://github.com/sponsors/gabosgab) ^github-sponsor-->
+<!-- - [[GitHub sponsors]]: [Sponsor @ServerKarma on GitHub Sponsors](https://github.com/sponsors/ServerKarma) ^github-sponsor-->
 <!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
 <!-- - [[PayPal]]: <https://> ^paypal-->
 <!-- - [[Patreon]]: <https://> ^patreon-->
@@ -55,4 +55,4 @@ publish: true
 
 # This note in GitHub
 
-<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/People/gabosgab.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/People/gabosgab.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>
+<span class="git-footer">[Edit In GitHub](https://github.dev/obsidian-community/obsidian-hub/blob/main/01%20-%20Community/People/ServerKarma.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/obsidian-community/obsidian-hub/main/01%20-%20Community/People/ServerKarma.md "git-hub-copy-note") | [Download this vault](https://github.com/obsidian-community/obsidian-hub/archive/refs/heads/main.zip "git-hub-download-vault") </span>

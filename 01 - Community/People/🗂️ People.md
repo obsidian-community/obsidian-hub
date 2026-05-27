@@ -823,7 +823,7 @@ Overviews of all the work from notable People like Plugins Developers, Theme Des
 -  [[01 - Community/People/fzdwx|fzdwx]]
 -  [[01 - Community/People/G2Jose|G2Jose]]
 -  [[01 - Community/People/GabAlpha|GabAlpha]]
--  [[01 - Community/People/gabosgab|gabosgab]]
+-  [[01 - Community/People/ServerKarma|ServerKarma]]
 -  [[01 - Community/People/gaetanmuck|gaetanmuck]]
 -  [[01 - Community/People/Galacsh|Galacsh]]
 -  [[01 - Community/People/GanapathyRaman|GanapathyRaman]]

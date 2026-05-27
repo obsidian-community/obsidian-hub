@@ -9,10 +9,10 @@ publish: true
 
 %% ----- Badges ----- %%
 
-![GitHub all releases](https://img.shields.io/github/downloads/gabosgab/ObsidianPrivateAI/total?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/gabosgab/ObsidianPrivateAI?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub issues by-label](https://img.shields.io/github/issues/gabosgab/ObsidianPrivateAI/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
-![GitHub Repo stars](https://img.shields.io/github/stars/gabosgab/ObsidianPrivateAI?color=573E7A&logo=github&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/ServerKarma/ObsidianPrivateAI/total?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ServerKarma/ObsidianPrivateAI?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub issues by-label](https://img.shields.io/github/issues/ServerKarma/ObsidianPrivateAI/help%20wanted?color=573E7A&logo=github&style=for-the-badge)   
+![GitHub Repo stars](https://img.shields.io/github/stars/ServerKarma/ObsidianPrivateAI?color=573E7A&logo=github&style=for-the-badge)
 
 %% ----- Badges ----- %%
 
@@ -21,8 +21,8 @@ publish: true
 # Private AI
 
 Plugin ID: `private-ai`
-Links: [GitHub repository](https://github.com/gabosgab/ObsidianPrivateAI) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=private-ai)
-Developed by: [[gabosgab]]
+Links: [GitHub repository](https://github.com/ServerKarma/ObsidianPrivateAI) or [<button id=HH>Open in Obsidian</button>](obsidian://show-plugin?id=private-ai)
+Developed by: [[ServerKarma]]
 Mobile compatible: [[Desktop-only plugins|No]]
 
 Effortlessly chat with your notes using locally hosted AI.  Private by design, your notes never leave the device and use locally processing only.
@@ -30,7 +30,7 @@ Effortlessly chat with your notes using locally hosted AI.  Private by design, y
 %% ----- Do not edit anything above this line ----- %% 
 
 %% Does the repository or author have any sponsoring links? Uncomment the next line and add them to the author's note. If they don't, please delete the placeholder tag: #placeholder/author %%
-%% ![[gabosgab#Sponsor this author]] %%
+%% ![[ServerKarma#Sponsor this author]] %%
 
 %% Hub footer: Please don't edit anything below this line %%
 
