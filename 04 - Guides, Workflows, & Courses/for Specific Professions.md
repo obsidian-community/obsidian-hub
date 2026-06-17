@@ -18,6 +18,9 @@ publish: true
 ## Sales
 - [Dashboard for sales](https://forum.obsidian.md/t/dashboard-and-workflow-for-obsidian-at-work-sales/34794)
 
+## Personal Finance
+- [hledger + Obsidian + Claude Code: Personal Finance with Plain Text Accounting](https://www.mandalivia.com/obsidian/hledger-obsidian-personal-finance-with-claude-code/) — a setup guide for managing personal finances in Obsidian using hledger (plain text accounting) with Claude Code.
+
 %% Hub footer: Please don't edit anything below this line %%
 
 # This note in GitHub
