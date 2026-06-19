@@ -9,12 +9,13 @@ publish: true
 # David V. Kimball
 
 - GitHub: [davidvkimball](https://github.com/davidvkimball/) ^github
-<!-- - Discord: `@` ^discord-->
+- Discord: `@davidvkimball` ^discord
 - Website: <https://davidvkimball.com> ^website
-<!-- - [[Publish sites|Publish site]]: <https://> ^publish-->
 
 %% Feel free to add a bio below this comment %%
+I love tech and communication, especially together. 
 
+View my full list of plugins here: https://davidvkimball.com/posts/my-obsidian-plugins-and-themes
 
 ## Author of
 
@@ -30,26 +31,16 @@ publish: true
 ### Unlisted plugins
 -->
 
-<!--
 ### Others
--->
 
-<!--
 ## Sponsor this author
--->
 
-<!-- - [[GitHub sponsors]]: [Sponsor @davidvkimball on GitHub Sponsors](https://github.com/sponsors/davidvkimball) ^github-sponsor-->
-<!-- - [[Buy me a coffee]]: <https://> ^buy-me-a-coffee-->
-<!-- - [[PayPal]]: <https://> ^paypal-->
-<!-- - [[Patreon]]: <https://> ^patreon-->
+[[Patreon]]: https://patreon.com/davidvkimball
 
-<!--
 ## Follow this author
--->
 
-<!-- - [[YouTube Channels|On YouTube]]: <https://> ^youtube-->
-<!-- - Twitter: <https://> ^twitter-->
-<!-- - ... -->
+[[YouTube Channels|On YouTube]]: https://youtube.com/davidvkimball
+X: https://x.com/davidvkimball
 
 %% Hub footer: Please don't edit anything below this line %%
 
