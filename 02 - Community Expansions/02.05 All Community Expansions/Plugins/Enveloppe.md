@@ -9,10 +9,10 @@ tags:
 publish: true
 ---
 
-# Obsidian to Mkdocs
+# Enveloppe
 
 Official website: 
-- [Template Website](https://mara-li.github.io/mkdocs_obsidian_template/)
+- [Home](https://enveloppe.github.io/)
 - [My french website](https://www.mara-li.fr/)
 
 [Documentation](https://github.com/Mara-Li/mkdocs_obsidian_publish)
