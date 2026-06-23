@@ -19,6 +19,7 @@ If you ever had to work on some kind of group project and wanted to collaborate 
 - [[02 - Community Expansions/02.05 All Community Expansions/Plugins/sekund|Sekund]] is social media for your notes. Engage others in peer-to-peer thinking and get feedback on drafts. Start discussions and gather in your group chat.
 - [@egradman's Etherpad Lite plugin](https://github.com/egradman/obsidian-etherpad-lite)(currently still in [[Plugins in Beta|beta]]) lets you upload any note to a self-hosted [Etherpad Lite](https://etherpad.org/) server and share the URL for live collaborative editing. This lightweight tool links your local document to its online version via a YAML key and continuously updates it as you type.
 - [[for Plugin Developers|Plugin developers]] might also be interested in [[netwik|Netwik]] which wanted to provide global access to notes by hosting them on a specified remote server. Be aware that this plugin is currently [[Discontinued plugins|unmaintained]].
+- [[file-share|File Share]]: Enables end-to-end encrypted file sharing directly between vaults via a socket server.
 
 ## Related categories
 
