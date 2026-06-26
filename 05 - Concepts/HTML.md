@@ -8,9 +8,7 @@ publish: true
 
 # HTML
 
-%% Add a description below this line. It doesn't need to be long: one or two sentences should be a good start. %%
-
-#placeholder/description 
+HyperText Markup Language (HTML) is a markup language commonly used on the web alongside CSS and JavaScript. In Obsidian and other software that makes use of Markdown, the markup is converted into basic HTML for display in browser-based applications. In addition, Obsidian can also render HTML directly inside of notes.
 
 %% Hub footer: Please don't edit anything below this line %%
 
