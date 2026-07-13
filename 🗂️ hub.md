@@ -12,13 +12,12 @@ publish: true
 
 ## MOC
 %% Hub MOCs: Don’t edit below  %%
--  [[00 - Contribute to the Obsidian Hub/🗂️ 00 - Contribute to the Obsidian Hub|🗂️ 00 - Contribute to the Obsidian Hub]]
--  [[01 - Community/🗂️ 01 - Community|🗂️ 01 - Community]]
--  [[02 - Community Expansions/🗂️ 02 - Community Expansions|🗂️ 02 - Community Expansions]]
--  [[03 - Showcases & Templates/🗂️ 03 - Showcases & Templates|🗂️ 03 - Showcases & Templates]]
--  [[04 - Guides, Workflows, & Courses/🗂️ 04 - Guides, Workflows, & Courses|🗂️ 04 - Guides, Workflows, & Courses]]
--  [[05 - Concepts/🗂️ 05 - Concepts|🗂️ 05 - Concepts]]
--  [[06 - Inbox/🗂️ 06 - Inbox|🗂️ 06 - Inbox]]
+-  [[Contribute/🗂️ Contribute|🗂️ Contribute]]
+-  [[Showcases & Templates/🗂️ Showcases & Templates|🗂️ Showcases & Templates]]
+-  [[Guides & Courses/🗂️ Guides & Courses|🗂️ Guides & Courses]]
+-  [[Concepts/🗂️ Concepts|🗂️ Concepts]]
+-  [[Inbox/🗂️ Inbox|🗂️ Inbox]]
+-  [[Archive/Obsidian Roundup/🗂️ Obsidian Roundup|🗂️ Archive (Obsidian Roundup)]]
 -  [[00 - Start here|00 - Start here]]
 -  [[CONTRIBUTING|CONTRIBUTING]]
 -  [[Editing notes using the github.dev editor|Editing notes using the github.dev editor]]
