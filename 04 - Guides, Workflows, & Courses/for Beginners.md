@@ -14,6 +14,7 @@ These guides will help you get started with [[Obsidian]] and related topics.
 - [[Obsidian Help]]
 - [[Obsidian Garden]]
 - [[Markdown Syntax]]
+- [[Obsidian Markdown Cheat Sheet]]
 
 ## Video Guides
 - [[YouTube]]
